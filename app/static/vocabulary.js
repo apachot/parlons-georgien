@@ -32,6 +32,9 @@ const game = {
   chooseAnother: document.querySelector('#choose-another-game'),
   crossword: document.querySelector('#crossword-game'),
   crosswordBoard: document.querySelector('#crossword-board'),
+  crosswordAcross: document.querySelector('#crossword-across-clues'),
+  crosswordDown: document.querySelector('#crossword-down-clues'),
+  crosswordCheck: document.querySelector('#crossword-check'),
   crosswordFeedback: document.querySelector('#crossword-feedback')
 };
 const crosswordKeyboard = {
@@ -86,6 +89,9 @@ let selectedTiles = [];
 let boardLocked = false;
 let currentAudioWord = null;
 let answerBusy = false;
+let crosswordPuzzle = null;
+let crosswordActiveEntry = null;
+let crosswordInputs = new Map();
 
 function shuffled(items) {
   const result = [...items];
@@ -157,6 +163,8 @@ function startRound() {
   boardLocked = false;
   answerBusy = false;
   currentAudioWord = null;
+  crosswordPuzzle = null;
+  game.crosswordCheck.disabled = false;
   game.complete.classList.add('hidden');
   game.audio.classList.toggle('hidden', activeGame !== 'audio');
   game.matching.classList.toggle('hidden', activeGame === 'audio' || activeGame === 'crossword');
@@ -169,10 +177,10 @@ function startRound() {
   game.score.classList.remove('hidden');
 
   if (activeGame === 'crossword') {
-    const eligible = vocabularyItems.filter(item => item.ka && !/\s/.test(item.ka.trim()) && [...item.ka].length >= 3 && item.fr);
-    roundItems = pickRoundItems(eligible, 6, 'fr');
-    game.round.textContent = `Grille · ${roundItems.length} définitions`;
-    renderCrosswordBoard();
+    roundItems = [];
+    game.round.textContent = 'Grille · préparation';
+    game.crosswordBoard.replaceChildren();
+    loadCrosswordRound();
   } else if (activeGame === 'audio') {
     roundItems = pickRoundItems(vocabularyItems, 10);
     showAudioQuestion();
@@ -200,38 +208,122 @@ async function saveWordAnswer(item, kind, answer) {
   return result;
 }
 
+async function loadCrosswordRound() {
+  try {
+    const response = await fetch(appPath('/api/crossword/next'));
+    if (!response.ok) throw new Error('Grille indisponible');
+    const puzzle = await response.json();
+    if (activeGame !== 'crossword') return;
+    crosswordPuzzle = puzzle;
+    roundItems = crosswordPuzzle.entries.map(entry => vocabularyItems.find(item => item.id === entry.id)).filter(Boolean);
+    game.round.textContent = `Grille · ${roundItems.length} mots croisés`;
+    renderCrosswordBoard();
+    updateGameScore(); updateGameProgress();
+  } catch (_) {
+    game.round.textContent = 'Grille indisponible';
+    showGameStatus('Impossible de composer la grille. Réessayez.', 'error');
+  }
+}
+
 function renderCrosswordBoard() {
+  const {rows, columns, entries} = crosswordPuzzle;
   game.crosswordBoard.replaceChildren();
+  game.crosswordAcross.replaceChildren();
+  game.crosswordDown.replaceChildren();
   game.crosswordFeedback.textContent = '';
+  crosswordInputs = new Map();
+  crosswordActiveEntry = null;
   if (!crosswordKeyboard.keys.childElementCount) renderCrosswordKeyboard();
-  roundItems.forEach((item, index) => {
-    const row = document.createElement('div'); row.className = 'crossword-entry'; row.dataset.id = item.id;
-    const clue = document.createElement('div'); clue.className = 'crossword-clue';
-    const number = document.createElement('small'); number.textContent = `${String(index + 1).padStart(2, '0')} · DÉFINITION`;
-    const label = document.createElement('b'); label.textContent = item.fr;
-    const arrow = document.createElement('span'); arrow.textContent = '→'; arrow.setAttribute('aria-hidden', 'true');
-    clue.append(number, label, arrow);
-    const cells = document.createElement('div'); cells.className = 'crossword-cells';
-    [...item.ka].forEach((_, position) => {
-      const input = document.createElement('input'); input.className = 'crossword-cell ka'; input.lang = 'ka';
-      input.maxLength = 1; input.autocomplete = 'off'; input.spellcheck = false;
-      input.setAttribute('aria-label', `Définition ${index + 1}, lettre ${position + 1}`);
-      input.addEventListener('focus', () => { crosswordKeyboard.activeCell = input; });
-      input.addEventListener('click', () => openCrosswordKeyboard(input));
-      input.addEventListener('input', () => {
-        input.value = [...input.value].slice(-1).join('');
-        if (input.value && cells.children[position + 1]) cells.children[position + 1].focus();
-      });
-      input.addEventListener('keydown', event => {
-        if (event.key === 'Backspace' && !input.value && cells.children[position - 1]) cells.children[position - 1].focus();
-        if (event.key === 'Enter') { event.preventDefault(); checkCrosswordEntry(row, item); }
-      });
-      cells.append(input);
+
+  const lettersAt = new Map();
+  const numbersAt = new Map();
+  const entriesAt = new Map();
+  entries.forEach(entry => {
+    const start = entry.cells[0].join(',');
+    numbersAt.set(start, Math.min(numbersAt.get(start) || Infinity, entry.number));
+    entry.cells.forEach(([row, column], index) => {
+      const key = `${row},${column}`;
+      lettersAt.set(key, entry.ka[index]);
+      if (!entriesAt.has(key)) entriesAt.set(key, []);
+      entriesAt.get(key).push(entry);
     });
-    const check = document.createElement('button'); check.type = 'button'; check.className = 'crossword-check'; check.textContent = 'Vérifier';
-    check.addEventListener('click', () => checkCrosswordEntry(row, item));
-    row.append(clue, cells, check); game.crosswordBoard.append(row);
   });
+
+  game.crosswordBoard.style.gridTemplateColumns = `repeat(${columns}, minmax(0, 1fr))`;
+  game.crosswordBoard.setAttribute('aria-rowcount', String(rows));
+  game.crosswordBoard.setAttribute('aria-colcount', String(columns));
+  for (let row = 0; row < rows; row++) for (let column = 0; column < columns; column++) {
+    const key = `${row},${column}`;
+    const square = document.createElement('div');
+    square.className = `crossword-square${lettersAt.has(key) ? '' : ' blocked'}`;
+    square.setAttribute('role', 'gridcell');
+    if (!lettersAt.has(key)) { game.crosswordBoard.append(square); continue; }
+    if (numbersAt.has(key)) {
+      const number = document.createElement('small'); number.className = 'crossword-square-number';
+      number.textContent = String(numbersAt.get(key)); square.append(number);
+    }
+    const input = document.createElement('input');
+    input.className = 'crossword-cell ka'; input.lang = 'ka'; input.maxLength = 1;
+    input.autocomplete = 'off'; input.spellcheck = false;
+    input.setAttribute('aria-label', `Case ${row + 1}, ${column + 1}`);
+    input.addEventListener('focus', () => { crosswordKeyboard.activeCell = input; });
+    input.addEventListener('click', () => {
+      if (!crosswordActiveEntry || !crosswordActiveEntry.cells.some(cell => cell[0] === row && cell[1] === column)) {
+        const choices = entriesAt.get(key) || [];
+        setCrosswordActiveEntry(choices[0]);
+      }
+      openCrosswordKeyboard(input);
+    });
+    input.addEventListener('input', () => {
+      input.value = [...input.value].slice(-1).join('');
+      input.classList.remove('crossword-wrong-cell');
+      if (input.value && crosswordActiveEntry) focusCrosswordNextCell(input, crosswordActiveEntry, 1);
+    });
+    input.addEventListener('keydown', event => {
+      if (event.key === 'Backspace' && !input.value && crosswordActiveEntry) {
+        event.preventDefault(); focusCrosswordNextCell(input, crosswordActiveEntry, -1);
+      }
+      if (event.key === 'Enter') { event.preventDefault(); checkCrosswordGrid(); }
+    });
+    crosswordInputs.set(key, input);
+    square.append(input); game.crosswordBoard.append(square);
+  }
+
+  entries.forEach(entry => {
+    const list = entry.direction === 'across' ? game.crosswordAcross : game.crosswordDown;
+    const item = document.createElement('li');
+    const clue = document.createElement('button'); clue.type = 'button'; clue.className = 'crossword-clue-button';
+    clue.dataset.entryId = entry.id;
+    const number = document.createElement('b'); number.textContent = String(entry.number);
+    const direction = document.createElement('span'); direction.className = 'crossword-clue-arrow';
+    direction.textContent = entry.direction === 'across' ? '→' : '↓';
+    const definition = document.createElement('span'); definition.textContent = entry.fr;
+    clue.append(number, direction, definition);
+    clue.addEventListener('click', () => setCrosswordActiveEntry(entry));
+    item.append(clue); list.append(item);
+  });
+  const first = entries.find(entry => entry.direction === 'across') || entries[0];
+  setCrosswordActiveEntry(first);
+}
+
+function setCrosswordActiveEntry(entry) {
+  if (!entry) return;
+  crosswordActiveEntry = entry;
+  document.querySelectorAll('.crossword-clue-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.entryId === entry.id);
+  });
+  const activeCells = new Set(entry.cells.map(cell => cell.join(',')));
+  crosswordInputs.forEach((input, key) => input.classList.toggle('crossword-active-cell', activeCells.has(key)));
+  const firstEmpty = entry.cells.map(([row, column]) => crosswordInputs.get(`${row},${column}`)).find(input => input && !input.value);
+  const first = firstEmpty || crosswordInputs.get(entry.cells[0].join(','));
+  first?.focus({preventScroll: true});
+}
+
+function focusCrosswordNextCell(input, entry, direction) {
+  const key = [...crosswordInputs.entries()].find(([, candidate]) => candidate === input)?.[0];
+  const index = entry.cells.findIndex(cell => cell.join(',') === key);
+  const next = entry.cells[index + direction];
+  if (next) crosswordInputs.get(next.join(','))?.focus();
 }
 
 function renderCrosswordKeyboard() {
@@ -274,8 +366,9 @@ crosswordKeyboard.erase?.addEventListener('click', () => {
   const cell = crosswordKeyboard.activeCell;
   if (!cell) return;
   if (!cell.value) {
-    const previous = cell.parentElement.children[[...cell.parentElement.children].indexOf(cell) - 1];
-    if (previous && !previous.disabled) { crosswordKeyboard.activeCell = previous; previous.value = ''; previous.focus(); return; }
+    if (crosswordActiveEntry) focusCrosswordNextCell(cell, crosswordActiveEntry, -1);
+    const previous = crosswordKeyboard.activeCell;
+    if (previous && previous !== cell) { previous.value = ''; previous.focus(); return; }
   }
   cell.value = '';
   cell.focus();
@@ -283,33 +376,44 @@ crosswordKeyboard.erase?.addEventListener('click', () => {
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && !crosswordKeyboard.modal?.classList.contains('hidden')) closeCrosswordKeyboard();
 });
+game.crosswordCheck.addEventListener('click', checkCrosswordGrid);
 
-async function checkCrosswordEntry(row, item) {
-  if (row.classList.contains('solved') || answerBusy) return;
-  const answer = [...row.querySelectorAll('.crossword-cell')].map(cell => cell.value).join('');
-  if (!answer) {
-    game.crosswordFeedback.textContent = 'Écrivez le mot dans les cases avant de vérifier.';
+async function checkCrosswordGrid() {
+  if (answerBusy || !crosswordPuzzle || !roundItems.length) return;
+  const missing = [...crosswordInputs.values()].some(input => !input.value);
+  if (missing) {
+    game.crosswordFeedback.textContent = 'Remplissez toutes les cases avant de vérifier la grille.';
     game.crosswordFeedback.className = 'feedback try-again'; return;
   }
-  answerBusy = true;
+  const wrong = new Set();
+  crosswordPuzzle.entries.forEach(entry => entry.cells.forEach(([row, column], index) => {
+    const key = `${row},${column}`;
+    if (crosswordInputs.get(key)?.value !== entry.ka[index]) wrong.add(key);
+  }));
+  crosswordInputs.forEach((input, key) => input.classList.toggle('crossword-wrong-cell', wrong.has(key)));
+  if (wrong.size) {
+    mistakeCount++; updateGameScore();
+    game.crosswordFeedback.textContent = 'Il reste des lettres à corriger. Les cases en couleur ne correspondent pas aux croisements.';
+    game.crosswordFeedback.className = 'feedback try-again'; return;
+  }
+  answerBusy = true; game.crosswordCheck.disabled = true;
   try {
-    const result = await saveWordAnswer(item, 'type', answer);
-    if (!result.correct) {
-      mistakeCount++; updateGameScore();
-      row.classList.add('crossword-error');
-      game.crosswordFeedback.textContent = 'Pas tout à fait. Corrigez les cases puis réessayez.';
-      game.crosswordFeedback.className = 'feedback try-again';
-      window.setTimeout(() => row.classList.remove('crossword-error'), 550);
-      return;
+    for (const item of roundItems) {
+      const result = await saveWordAnswer(item, 'type', item.ka);
+      if (!result.correct) throw new Error('Correction impossible');
     }
-    foundCount++; row.classList.add('solved');
-    row.querySelectorAll('input,button').forEach(control => control.disabled = true);
-    game.crosswordFeedback.textContent = `Bien trouvé : ${item.ka} · ${item.fr}`;
+    foundCount = roundItems.length;
+    crosswordInputs.forEach(input => { input.disabled = true; });
+    document.querySelectorAll('.crossword-clue-button').forEach(button => {
+      button.disabled = true; button.classList.add('solved');
+    });
+    game.crosswordFeedback.textContent = `Grille réussie ! ${foundCount} mots croisés.`;
     game.crosswordFeedback.className = 'feedback success';
     playSuccessSound(); updateGameScore(); updateGameProgress();
-    if (foundCount === roundItems.length) scheduleAutoAdvance(finishGame, 900);
+    scheduleAutoAdvance(finishGame, 1000);
   } catch (_) {
-    showGameStatus('La réponse n’a pas pu être vérifiée. Réessayez.', 'error');
+    game.crosswordCheck.disabled = false;
+    showGameStatus('La progression n’a pas pu être enregistrée. Réessayez.', 'error');
   } finally { answerBusy = false; }
 }
 

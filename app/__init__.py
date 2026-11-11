@@ -8,6 +8,7 @@ from flask import Flask, jsonify, render_template, request, send_file, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
 from .tts import audio_name, normalise_speech
+from .crossword import build_crossword
 
 db = SQLAlchemy()
 ROOT = Path(__file__).resolve().parent.parent
@@ -161,6 +162,13 @@ def create_app(test_config=None):
         selected = random.choice(candidates)
         return jsonify({**{key: selected[key] for key in ("id", "category", "prompt", "options")},
                         "total": len(items)})
+
+    @app.get("/api/crossword/next")
+    def next_crossword():
+        puzzle = build_crossword(load_content("vocabulary"))
+        if puzzle is None:
+            return jsonify({"error": "Impossible de composer une grille pour le moment."}), 503
+        return jsonify(puzzle)
 
     @app.post("/api/grammar/answer")
     def answer_grammar_exercise():

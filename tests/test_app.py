@@ -175,6 +175,77 @@ class AppFlowTests(unittest.TestCase):
             row = Progress.query.filter_by(item_id=f"grammar:{item['id']}").first()
             self.assertEqual((row.kind, row.seen, row.correct), ("grammar", 1, 1))
 
+    def test_crossword_api_builds_a_crossing_grid_with_both_directions(self):
+        response = self.client.get("/api/crossword/next")
+        self.assertEqual(response.status_code, 200)
+        puzzle = response.json
+        entries = puzzle["entries"]
+        self.assertGreaterEqual(len(entries), 5)
+        self.assertIn("across", {entry["direction"] for entry in entries})
+        self.assertIn("down", {entry["direction"] for entry in entries})
+
+        from collections import defaultdict
+        entries_by_cell = defaultdict(list)
+        for index, entry in enumerate(entries):
+            self.assertEqual(len(entry["cells"]), len(entry["ka"]))
+            for cell, letter in zip(entry["cells"], entry["ka"]):
+                key = tuple(cell)
+                self.assertEqual(entries_by_cell.get(key, [(None, letter)])[0][1], letter)
+                entries_by_cell[key].append((index, letter))
+                self.assertLess(cell[0], puzzle["rows"])
+                self.assertLess(cell[1], puzzle["columns"])
+
+        connections = {index: set() for index in range(len(entries))}
+        for crossing in entries_by_cell.values():
+            indexes = [index for index, _ in crossing]
+            for index in indexes:
+                connections[index].update(other for other in indexes if other != index)
+        visited = {0}
+        pending = [0]
+        while pending:
+            for neighbor in connections[pending.pop()]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    pending.append(neighbor)
+        self.assertEqual(visited, set(range(len(entries))))
+
+    def test_crossword_api_builds_a_crossing_grid_with_both_directions(self):
+        response = self.client.get("/api/crossword/next")
+        self.assertEqual(response.status_code, 200)
+        puzzle = response.json
+        entries = puzzle["entries"]
+        self.assertGreaterEqual(len(entries), 5)
+        self.assertIn("across", {entry["direction"] for entry in entries})
+        self.assertIn("down", {entry["direction"] for entry in entries})
+
+        letters = {}
+        for entry in entries:
+            self.assertEqual(len(entry["cells"]), len(entry["ka"]))
+            for cell, letter in zip(entry["cells"], entry["ka"]):
+                key = tuple(cell)
+                self.assertEqual(letters.get(key, letter), letter)
+                letters[key] = letter
+                self.assertLess(cell[0], puzzle["rows"])
+                self.assertLess(cell[1], puzzle["columns"])
+
+        from collections import defaultdict
+        entries_by_cell = defaultdict(list)
+        for index, entry in enumerate(entries):
+            for cell in entry["cells"]:
+                entries_by_cell[tuple(cell)].append(index)
+        connections = {index: set() for index in range(len(entries))}
+        for crossing_entries in entries_by_cell.values():
+            for index in crossing_entries:
+                connections[index].update(other for other in crossing_entries if other != index)
+        visited = {0}
+        pending = [0]
+        while pending:
+            for neighbor in connections[pending.pop()]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    pending.append(neighbor)
+        self.assertEqual(visited, set(range(len(entries))))
+
     def test_answer_persists_and_normalizes_french_punctuation(self):
         response = self.client.post("/api/answer", json={"id": "v-001", "kind": "vocabulary", "answer": " Bonjour ! "})
         self.assertEqual(response.status_code, 200)
