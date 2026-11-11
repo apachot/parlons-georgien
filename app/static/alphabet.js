@@ -133,11 +133,11 @@ document.addEventListener('keydown', event => {
 async function newLetterQuestion() {
   const response = await fetch(appPath('/api/quiz?kind=alphabet'));
   activeLetter = await response.json();
-  document.querySelector('#letter-prompt').textContent = 'Quel son entendez-vous au début du mot ?';
+  document.querySelector('#letter-prompt').textContent = 'Écoutez le son de la lettre';
   const audioButton = document.querySelector('#letter-audio');
   audioButton.classList.remove('hidden');
   audioButton.disabled = false;
-  audioButton.textContent = '▶ Réécouter le mot';
+  audioButton.textContent = '▶ Écouter le son';
   audioButton.dataset.original = audioButton.textContent;
   audioButton.onclick = () => playSpeech(activeLetter.prompt, 'ka', audioButton);
   document.querySelector('#letter-feedback').textContent = '';

@@ -352,7 +352,7 @@ def create_app(test_config=None):
             letters = load_content("alphabet")
             letter = random.choice(letters)
             choices = [letter["letter"]] + [x["letter"] for x in random.sample([x for x in letters if x["id"] != letter["id"]], 3)]
-            return jsonify({"id": letter["id"], "kind": "alphabet", "prompt": letter.get("sound_example", letter["example"]),
+            return jsonify({"id": letter["id"], "kind": "alphabet", "prompt": letter["letter"],
                             "choices": choices, "answer": letter["letter"], "note": letter["note"]})
         vocab = load_content("vocabulary")
         due_ids = {p.item_id for p in Progress.query.filter(Progress.due_at <= func.now()).all()}
