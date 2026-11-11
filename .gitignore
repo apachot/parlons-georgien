@@ -1,5 +1,8 @@
 .venv/
+.venv-tts/
 __pycache__/
 *.py[cod]
 instance/*.db
 instance/*.json
+instance/audio/
+instance/tts-voices/

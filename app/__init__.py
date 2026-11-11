@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, timezone
 from flask import Flask, jsonify, render_template, request, send_file
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
+from .tts import audio_name, normalise_speech
 
 db = SQLAlchemy()
 ROOT = Path(__file__).resolve().parent.parent
@@ -219,6 +220,22 @@ def create_app(test_config=None):
                         "lessons_completed": LessonCompletion.query.count(),
                         "errors": [{"id": r.item_id, "kind": r.kind, "seen": r.seen,
                                     "correct": r.correct} for r in rows if r.last_answer is False]})
+
+    @app.post("/api/audio")
+    def lesson_audio():
+        payload = request.get_json(silent=True) or {}
+        language = payload.get("lang")
+        text = normalise_speech(payload.get("text", ""))
+        if language not in {"ka", "fr"} or not text or len(text) > 500:
+            return jsonify({"error": "Demande audio invalide."}), 400
+        try:
+            filename = audio_name(language, text)
+        except ValueError:
+            return jsonify({"error": "Langue audio inconnue."}), 400
+        path = Path(app.instance_path) / "audio" / language / filename
+        if not path.is_file():
+            return jsonify({"error": "Cet extrait audio n’a pas encore été généré."}), 404
+        return send_file(path, mimetype="audio/wav", conditional=True, max_age=86400)
 
     @app.get("/export")
     def export_progress():

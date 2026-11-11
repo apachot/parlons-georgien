@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+"""Pre-generate audio for the curated Georgian and French course phrases."""
+
+import json
+import importlib.util
+import os
+import subprocess
+import tempfile
+import wave
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+spec = importlib.util.spec_from_file_location("kartuli_tts", ROOT / "app" / "tts.py")
+tts_helpers = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(tts_helpers)
+audio_name = tts_helpers.audio_name
+normalise_speech = tts_helpers.normalise_speech
+
+CONTENT = ROOT / "content"
+
+
+def phrases():
+    found = {"ka": set(), "fr": set()}
+
+    def visit(value):
+        if isinstance(value, dict):
+            for key, child in value.items():
+                if key in {"ka", "example"} and isinstance(child, str):
+                    found["ka"].add(normalise_speech(child))
+                elif key in {"fr", "example_fr"} and isinstance(child, str):
+                    found["fr"].add(normalise_speech(child))
+                elif key == "examples" and isinstance(child, list):
+                    for pair in child:
+                        if isinstance(pair, list) and len(pair) >= 2:
+                            found["ka"].add(normalise_speech(pair[0]))
+                            found["fr"].add(normalise_speech(pair[1]))
+                visit(child)
+        elif isinstance(value, list):
+            for child in value:
+                visit(child)
+
+    for path in CONTENT.glob("*.json"):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if path.name == "vocabulary.json" and isinstance(data, dict):
+            uncertain = set(data.get("uncertain_ids", []))
+            fields = data["fields"]
+            data = [dict(zip(fields, row)) for row in data["items"] if row[0] not in uncertain]
+        visit(data)
+    return {language: sorted(text for text in texts if text) for language, texts in found.items()}
+
+
+def main():
+    output_root = Path(os.environ.get("KARTULI_AUDIO_DIR", ROOT / "instance" / "audio"))
+    espeak = os.environ.get("ESPEAK_NG_BIN", "espeak-ng")
+    model = Path(os.environ.get(
+        "PIPER_FR_MODEL",
+        ROOT / "instance" / "tts-voices" / "fr_FR-siwis-medium.onnx",
+    ))
+    if not model.is_file():
+        raise SystemExit(f"Modèle Piper français absent : {model}")
+    from piper import PiperVoice
+
+    french_voice = PiperVoice.load(str(model))
+    audio_phrases = phrases()
+    totals = {"ka": 0, "fr": 0}
+    for language, texts in audio_phrases.items():
+        target_dir = output_root / language
+        target_dir.mkdir(parents=True, exist_ok=True)
+        for text in texts:
+            target = target_dir / audio_name(language, text)
+            if target.is_file() and target.stat().st_size:
+                continue
+            with tempfile.NamedTemporaryFile(dir=target_dir, suffix=".wav", delete=False) as temp:
+                temporary = Path(temp.name)
+            try:
+                if language == "ka":
+                    subprocess.run(
+                        [espeak, "-v", "ka", "-s", "138", "-w", str(temporary), text],
+                        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
+                    )
+                else:
+                    with wave.open(str(temporary), "wb") as wav_file:
+                        french_voice.synthesize_wav(text, wav_file)
+                temporary.replace(target)
+            finally:
+                temporary.unlink(missing_ok=True)
+            totals[language] += 1
+            completed = totals["ka"] + totals["fr"]
+            if completed % 25 == 0:
+                print(f"{completed} extraits générés…", flush=True)
+    print(f"Terminé : {totals['ka']} extraits géorgiens et {totals['fr']} français.")
+
+
+if __name__ == "__main__":
+    main()

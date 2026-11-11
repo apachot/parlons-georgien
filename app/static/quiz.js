@@ -38,7 +38,7 @@ async function loadQuestion() {
   audio.classList.toggle('hidden', exercise !== 'mcq');
   document.querySelector('#quiz-pron-toggle').classList.toggle('hidden', exercise !== 'mcq');
   audio.disabled = false; audio.dataset.speak = question.prompt; audio.dataset.original = '▶ Écouter'; audio.textContent = '▶ Écouter';
-  audio.onclick = () => speakGeorgian(question.prompt, audio);
+  audio.onclick = () => playSpeech(question.prompt, 'ka', audio);
   const holder = document.querySelector('#quiz-choices'); holder.innerHTML = '';
   document.querySelector('#typed-answer').classList.toggle('hidden', exercise !== 'type');
   document.querySelector('#order-answer').classList.toggle('hidden', exercise !== 'order');

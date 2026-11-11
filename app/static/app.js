@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     text.classList.toggle('hidden');
     button.textContent = text.classList.contains('hidden') ? 'Afficher la prononciation' : 'Masquer la prononciation';
   }));
-  document.querySelectorAll('.audio-btn[data-speak]').forEach(button => button.addEventListener('click', () => speakGeorgian(button.dataset.speak, button)));
+  document.querySelectorAll('.audio-btn[data-speak]').forEach(button => button.addEventListener('click', () => playSpeech(button.dataset.speak, button.dataset.lang || 'ka', button)));
   document.querySelector('#word-search')?.addEventListener('input', e => {
     const query = e.target.value.trim().toLocaleLowerCase('fr');
     document.querySelectorAll('.vocab-card').forEach(card => card.hidden = !card.dataset.search.toLocaleLowerCase('fr').includes(query));
@@ -66,31 +66,39 @@ function appPath(path) {
   return `${base}${path.startsWith('/') ? path : `/${path}`}`;
 }
 
-async function speakGeorgian(text, button) {
-  if (!('speechSynthesis' in window)) { audioUnavailable(button); return; }
-  let voices = speechSynthesis.getVoices();
-  if (!voices.length) {
-    voices = await new Promise(resolve => {
-      let timer;
-      const finish = () => { clearTimeout(timer); speechSynthesis.removeEventListener('voiceschanged', finish); resolve(speechSynthesis.getVoices()); };
-      speechSynthesis.addEventListener('voiceschanged', finish, {once:true});
-      timer = setTimeout(finish, 900);
-    });
-  }
-  const voice = voices.find(v => v.lang.toLowerCase().startsWith('ka'));
-  if (!voice) { audioUnavailable(button); return; }
-  speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.voice = voice; utterance.lang = voice.lang;
+let activeTtsAudio = null;
+async function playSpeech(text, language, button) {
   button.dataset.original ||= button.textContent;
-  button.textContent = '▶ Lecture…';
-  utterance.onend = utterance.onerror = () => button.textContent = button.dataset.original;
-  speechSynthesis.speak(utterance);
-}
-function audioUnavailable(button) {
-  const original = button.dataset.original || button.textContent;
-  button.dataset.original = original;
-  button.textContent = 'Audio géorgien indisponible';
-  button.title = 'Aucun enregistrement ni voix géorgienne disponible sur cet appareil.';
   button.disabled = true;
+  button.textContent = 'Préparation…';
+  try {
+    const response = await fetch(appPath('/api/audio'), {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({lang: language, text})
+    });
+    if (!response.ok) throw new Error('audio indisponible');
+    const source = URL.createObjectURL(await response.blob());
+    if (activeTtsAudio) {
+      activeTtsAudio.audio.pause();
+      URL.revokeObjectURL(activeTtsAudio.source);
+      activeTtsAudio.button.textContent = activeTtsAudio.button.dataset.original;
+      activeTtsAudio.button.disabled = false;
+    }
+    const audio = new Audio(source);
+    activeTtsAudio = {audio, source, button};
+    const finish = () => {
+      URL.revokeObjectURL(source);
+      button.textContent = button.dataset.original;
+      button.disabled = false;
+      if (activeTtsAudio?.audio === audio) activeTtsAudio = null;
+    };
+    audio.addEventListener('ended', finish, {once:true});
+    audio.addEventListener('error', finish, {once:true});
+    button.textContent = '▶ Lecture…';
+    try { await audio.play(); } catch (error) { finish(); throw error; }
+  } catch (_) {
+    button.textContent = button.dataset.original;
+    button.disabled = false;
+    button.title = language === 'fr' ? 'Audio français non préparé sur cette installation.' : 'Audio géorgien non préparé sur cette installation.';
+  }
 }

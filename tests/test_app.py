@@ -1,10 +1,13 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from datetime import datetime, timedelta, timezone
 from werkzeug.test import Client
 from werkzeug.middleware.proxy_fix import ProxyFix
 from werkzeug.wrappers import Response
 
 from app import Progress, create_app, db, load_content
+from app.tts import audio_name
 
 
 class AppFlowTests(unittest.TestCase):
@@ -84,6 +87,21 @@ class AppFlowTests(unittest.TestCase):
         self.assertIn(b'href="/kartuli/session"', home.data)
         self.assertIn(b'/kartuli/static/style.css', home.data)
         self.assertEqual(client.get("/api/quiz", headers={"X-Forwarded-Prefix": "/kartuli"}).status_code, 200)
+
+    def test_audio_endpoint_only_serves_pregenerated_files(self):
+        with TemporaryDirectory() as temp_dir:
+            self.app.instance_path = temp_dir
+            text = "გამარჯობა, bonjour !"
+            path = Path(temp_dir) / "audio" / "ka" / audio_name("ka", text)
+            path.parent.mkdir(parents=True)
+            path.write_bytes(b"RIFF-test-audio")
+            response = self.client.post("/api/audio", json={"lang": "ka", "text": text})
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.mimetype, "audio/wav")
+            self.assertEqual(response.data, b"RIFF-test-audio")
+            response.close()
+            self.assertEqual(self.client.post("/api/audio", json={"lang": "ka", "text": "absent"}).status_code, 404)
+            self.assertEqual(self.client.post("/api/audio", json={"lang": "xx", "text": text}).status_code, 400)
 
 
 if __name__ == "__main__":

@@ -12,7 +12,22 @@ python init_db.py
 python run.py
 ```
 
-Ouvrez ensuite <http://127.0.0.1:5000>. La base est créée dans `instance/georgien.db`. Pour écouter la prononciation, l’appareil doit disposer d’une voix de synthèse explicitement marquée géorgienne (`ka`). Sans cette voix, le bouton indique clairement l’indisponibilité. Des fichiers audio géorgiens pourront être ajoutés sous `app/static/audio/` et reliés aux fiches.
+Ouvrez ensuite <http://127.0.0.1:5000>. La base est créée dans `instance/georgien.db`. Les boutons audio lisent les extraits pré-générés lorsqu’ils sont installés ; sans fichiers audio, l’application affiche leur indisponibilité.
+
+### Audio local géorgien et français
+
+Le serveur de démonstration utilise eSpeak NG pour le géorgien et Piper avec la voix française `fr_FR-siwis-medium`. Les deux moteurs fonctionnent localement, sans envoi des phrases à un fournisseur externe. Les extraits préparés sont mis en cache sous `instance/audio/`; la route `/api/audio` ne sert que les fichiers déjà générés. Pour préparer ou compléter les extraits après une modification du contenu :
+
+```bash
+python3 -m venv .venv-tts
+.venv-tts/bin/pip install piper-tts
+sudo apt install espeak-ng
+mkdir -p instance/tts-voices
+.venv-tts/bin/python -m piper.download_voices --data-dir instance/tts-voices fr_FR-siwis-medium
+ESPEAK_NG_BIN=espeak-ng PIPER_FR_MODEL=instance/tts-voices/fr_FR-siwis-medium.onnx .venv-tts/bin/python scripts/generate_tts.py
+```
+
+La voix française s’appuie sur la base SIWIS, sous licence CC BY 4.0 ; attribution : Junichi Yamagishi, Pierre-Edouard Honnet, Philip Garner et Alexandros Lazaridis, Université d’Édimbourg ([fiche du modèle](https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium)). eSpeak NG et le moteur Piper sont distribués sous GPL-3.0. Le modèle géorgien Piper « Natia » n’est pas utilisé : sa licence source réserve l’usage gratuit aux particuliers à titre personnel.
 
 ## Ce qui est inclus
 

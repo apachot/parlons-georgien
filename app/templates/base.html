@@ -13,7 +13,7 @@
   <nav class="nav"><a href="{{ url_for('home') }}">Accueil</a><a href="{{ url_for('alphabet') }}">Alphabet</a><a href="{{ url_for('vocabulary') }}">Vocabulaire</a><a href="{{ url_for('grammar') }}">Grammaire</a><a href="{{ url_for('dialogues') }}">Dialogues</a></nav>
 </header>
 <main>{% block content %}{% endblock %}</main>
-<footer><span>Kartuli · apprendre pas à pas</span><a href="{{ url_for('export_progress') }}">Exporter ma progression ↓</a></footer>
+<footer><span>Kartuli · apprendre pas à pas</span><a href="https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium" target="_blank" rel="noopener">Voix française SIWIS · Yamagishi, Honnet, Garner et Lazaridis · CC BY 4.0 ↗</a><a href="{{ url_for('export_progress') }}">Exporter ma progression ↓</a></footer>
 <script src="{{ url_for('static', filename='app.js') }}" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>
