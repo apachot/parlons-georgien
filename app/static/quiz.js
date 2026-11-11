@@ -6,6 +6,7 @@ const quizBox = document.querySelector('#quiz');
 const mode = quizBox?.dataset.mode || 'mixed';
 
 async function loadQuestion() {
+  clearAutoAdvance();
   answered = false;
   document.querySelector('#quiz-feedback').textContent = '';
   document.querySelector('#quiz-feedback').className = 'feedback';
@@ -75,6 +76,7 @@ async function submitAnswer(value, button) {
   answered = true; seen.add(question.id);
   const response = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id, kind:question.kind, answer:value})});
   const result = await response.json();
+  const answerCorrect = result.correct;
   if (result.correct) playSuccessSound();
   document.querySelectorAll('#quiz-choices .choice').forEach(c => c.disabled = true);
   button.classList.add(result.correct ? 'choice-correct' : 'choice-wrong');
@@ -88,11 +90,20 @@ async function submitAnswer(value, button) {
   const difficulty = document.querySelector('#difficulty'); difficulty.classList.remove('hidden');
   difficulty.querySelectorAll('button').forEach(b => b.disabled = false);
   difficulty.querySelectorAll('button').forEach(button => button.onclick = async () => {
+    clearAutoAdvance();
     const saved = await fetch(appPath(`/api/difficulty/${question.id}`), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({quality:Number(button.dataset.quality)})}).then(r=>r.json());
     difficulty.querySelectorAll('button').forEach(b => b.disabled = true);
     difficulty.querySelector('span').textContent = saved.due_in_days === 0 ? 'Noté : retour dans environ 10 minutes.' : `Noté : prochaine révision dans ${saved.due_in_days} jour(s).`;
+    if (answerCorrect) scheduleAutoAdvance(advanceQuiz, 1200);
   });
   document.querySelector('#quiz-next').classList.remove('hidden');
+  if (result.correct) scheduleAutoAdvance(advanceQuiz, 2600);
+}
+
+function advanceQuiz() {
+  clearAutoAdvance();
+  if (attempts >= 10) finishSession();
+  else loadQuestion();
 }
 
 async function renderKeyboard() {
@@ -112,7 +123,7 @@ async function renderKeyboard() {
     key.onclick=()=>{const input=document.querySelector('#georgian-input');input.value=action==='space'?input.value+' ':input.value.slice(0,-1);input.focus();};controls.append(key);
   }); keyboard.append(controls);
 }
-document.querySelector('#quiz-next')?.addEventListener('click', () => attempts >= 10 ? finishSession() : loadQuestion());
+document.querySelector('#quiz-next')?.addEventListener('click', advanceQuiz);
 function finishSession() {
   document.querySelector('#quiz-instruction').textContent = 'Séance terminée';
   document.querySelector('#quiz-word').textContent = 'Belle régularité !';

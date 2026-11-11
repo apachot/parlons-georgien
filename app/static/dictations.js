@@ -50,6 +50,7 @@ async function startDictationSession() {
 }
 
 async function loadNextDictation() {
+  clearAutoAdvance();
   const sessionLimit = Math.min(dictationSessionSize, dictationTotal);
   if (dictationSessionNumber >= sessionLimit || dictationIds.size >= dictationTotal) {
     finishDictationSession();
@@ -139,6 +140,7 @@ async function submitDictation(answer, skipped = false) {
       setFeedback(dictationAttempts === 1 ? 'Bravo, juste du premier coup !' : 'Bien joué, vous l’avez retrouvé.', 'success');
       dictationElements.listen.disabled = true;
       setAnswerButtons({next: true});
+      scheduleAutoAdvance(loadNextDictation, 1900);
     } else if (skipped) {
       dictationElements.heading.textContent = result.solution;
       dictationElements.heading.classList.add('ka');
@@ -220,7 +222,10 @@ dictationElements.start?.addEventListener('click', startDictationSession);
 dictationElements.listen?.addEventListener('click', playDictationWord);
 dictationElements.check?.addEventListener('click', () => submitDictation(dictationElements.input.value));
 dictationElements.skip?.addEventListener('click', () => submitDictation('', true));
-dictationElements.next?.addEventListener('click', loadNextDictation);
+dictationElements.next?.addEventListener('click', () => {
+  clearAutoAdvance();
+  loadNextDictation();
+});
 dictationElements.input?.addEventListener('keydown', event => {
   if (event.key === 'Enter') {
     event.preventDefault();

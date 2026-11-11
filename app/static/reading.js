@@ -37,6 +37,7 @@ function startReadingSession() {
 }
 
 async function loadReadingQuestion() {
+  clearAutoAdvance();
   if (readingTurn >= readingSessionSize) {
     finishReadingSession();
     return;
@@ -103,6 +104,7 @@ async function answerReading(answer, selected) {
     reading.next.classList.remove('hidden');
     readingTurn++;
     reading.meter.style.width = `${Math.round(readingTurn / readingSessionSize * 100)}%`;
+    if (result.correct) scheduleAutoAdvance(loadReadingQuestion, 2400);
   } catch (_) {
     reading.options.querySelectorAll('button').forEach(button => button.disabled = false);
     setReadingFeedback('La réponse n’a pas pu être enregistrée. Réessayez.', 'try-again');
@@ -128,4 +130,7 @@ function finishReadingSession() {
 }
 
 reading.start?.addEventListener('click', startReadingSession);
-reading.next?.addEventListener('click', loadReadingQuestion);
+reading.next?.addEventListener('click', () => {
+  clearAutoAdvance();
+  loadReadingQuestion();
+});

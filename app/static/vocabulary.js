@@ -45,6 +45,7 @@ function vocabularyQuestionUrl(exclude = [...vocabSeen]) {
 }
 
 async function startVocabGame(mode = vocabMode) {
+  clearAutoAdvance();
   vocabMode = mode;
   vocabTurn = 0;
   vocabCorrect = 0;
@@ -69,6 +70,7 @@ async function startVocabGame(mode = vocabMode) {
 }
 
 async function loadVocabularyWord() {
+  clearAutoAdvance();
   if (vocabTurn >= vocabSessionSize) {
     finishVocabGame();
     return;
@@ -195,8 +197,10 @@ async function answerVocabWord(answer, selectedButton = null) {
     setVocabFeedback(wasRight ? 'Bonne réponse !' : `Pas tout à fait. « ${vocabCurrent.prompt} » signifie « ${vocabCurrent.fr} ».`, wasRight ? 'success' : 'try-again');
     showVocabControl(vocabUi.next);
     vocabTurn++;
+    if (wasRight) scheduleAutoAdvance(loadVocabularyWord, 1900);
   } else {
     showAfterAnswer(result, wasRight);
+    if (wasRight) scheduleAutoAdvance(loadVocabularyWord, 1900);
   }
 }
 
@@ -217,6 +221,7 @@ async function rateVocabCard(knew) {
   setVocabFeedback(knew ? 'Bien joué, vous le connaissiez !' : 'Pas grave, il reviendra bientôt.', knew ? 'success' : 'try-again');
   showVocabControl(vocabUi.next);
   vocabTurn++;
+  if (knew) scheduleAutoAdvance(loadVocabularyWord, 1900);
 }
 
 function finishVocabGame() {
@@ -266,7 +271,10 @@ vocabUi.modes.forEach(button => button.addEventListener('click', () => startVoca
 vocabUi.reveal?.addEventListener('click', revealVocabCard);
 vocabUi.again?.addEventListener('click', () => rateVocabCard(false));
 vocabUi.knew?.addEventListener('click', () => rateVocabCard(true));
-vocabUi.next?.addEventListener('click', loadVocabularyWord);
+vocabUi.next?.addEventListener('click', () => {
+  clearAutoAdvance();
+  loadVocabularyWord();
+});
 vocabUi.restart?.addEventListener('click', () => startVocabGame(vocabMode));
 vocabUi.submit?.addEventListener('click', () => answerVocabWord(vocabUi.typeInput.value));
 vocabUi.typeInput?.addEventListener('keydown', event => {

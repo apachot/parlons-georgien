@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.dialogue-card').forEach(card => {
     const steps = [...card.querySelectorAll('.dialogue-step')];
     let current = 0;
+    let dialogueAdvanceTimer = null;
     const advance = card.querySelector('.dialogue-advance');
     steps.forEach((step, index) => {
       if (!step.querySelector('.dialogue-choices') && index === 0) advance.classList.remove('hidden');
@@ -48,10 +49,16 @@ document.addEventListener('DOMContentLoaded', () => {
           playSuccessSound();
           step.querySelectorAll('.dialogue-choice').forEach(b => b.disabled = true);
           advance.classList.remove('hidden');
+          dialogueAdvanceTimer = window.setTimeout(() => {
+            dialogueAdvanceTimer = null;
+            advance.click();
+          }, 1700);
         }
       }));
     });
     advance.addEventListener('click', () => {
+      if (dialogueAdvanceTimer !== null) window.clearTimeout(dialogueAdvanceTimer);
+      dialogueAdvanceTimer = null;
       steps[current]?.classList.add('hidden'); current++;
       if (current >= steps.length) {
         advance.classList.add('hidden');
@@ -67,6 +74,20 @@ document.addEventListener('DOMContentLoaded', () => {
 function appPath(path) {
   const base = document.documentElement.dataset.appBase || '';
   return `${base}${path.startsWith('/') ? path : `/${path}`}`;
+}
+
+let autoAdvanceTimer = null;
+function scheduleAutoAdvance(callback, delay = 1600) {
+  clearAutoAdvance();
+  autoAdvanceTimer = window.setTimeout(() => {
+    autoAdvanceTimer = null;
+    callback();
+  }, delay);
+}
+
+function clearAutoAdvance() {
+  if (autoAdvanceTimer !== null) window.clearTimeout(autoAdvanceTimer);
+  autoAdvanceTimer = null;
 }
 
 let successAudioContext = null;

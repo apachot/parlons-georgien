@@ -15,6 +15,7 @@ function prepareLessonQuestions() {
 }
 
 function renderLessonQuestion() {
+  clearAutoAdvance();
   const question = lessonQuestions[lessonQuestionIndex];
   const questionNode = document.querySelector('#lesson-question');
   const choices = document.querySelector('#lesson-choices');
@@ -69,7 +70,16 @@ function answerLessonQuestion(selected, question) {
     ? 'Exactement ! Vous avez retrouvé la bonne réponse.'
     : `La bonne réponse était : ${question.answer}. Relisez-la avant de continuer.`;
   feedback.className = `feedback ${correct ? 'success' : 'try-again'}`;
-  document.querySelector('#lesson-next').classList.remove('hidden');
+  const next = document.querySelector('#lesson-next');
+  next.classList.remove('hidden');
+  if (correct) scheduleAutoAdvance(advanceLessonQuestion);
+}
+
+function advanceLessonQuestion() {
+  clearAutoAdvance();
+  lessonQuestionIndex++;
+  if (lessonQuestionIndex >= lessonQuestions.length) finishLessonQuiz();
+  else renderLessonQuestion();
 }
 
 function finishLessonQuiz() {
@@ -94,11 +104,7 @@ function finishLessonQuiz() {
   finish.classList.remove('hidden');
 }
 
-document.querySelector('#lesson-next')?.addEventListener('click', () => {
-  lessonQuestionIndex++;
-  if (lessonQuestionIndex >= lessonQuestions.length) finishLessonQuiz();
-  else renderLessonQuestion();
-});
+document.querySelector('#lesson-next')?.addEventListener('click', advanceLessonQuestion);
 
 document.querySelector('#lesson-restart')?.addEventListener('click', () => {
   document.querySelector('#lesson-question-tools').classList.remove('hidden');
