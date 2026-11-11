@@ -219,7 +219,18 @@ function fillMatchingTile(button, tile) {
 }
 
 async function selectMatchingTile(button, tile, boardMode) {
-  if (boardLocked || button.disabled || button.classList.contains('matched') || selectedTiles.some(entry => entry.button === button)) return;
+  if (boardLocked || button.disabled || button.classList.contains('matched')) return;
+  const selectedIndex = selectedTiles.findIndex(entry => entry.button === button);
+  if (selectedIndex !== -1) {
+    selectedTiles.splice(selectedIndex, 1);
+    button.classList.remove('selected');
+    if (boardMode === 'memory') {
+      button.classList.add('memory-hidden');
+      button.setAttribute('aria-label', 'Carte cachée');
+      button.innerHTML = '<span aria-hidden="true">✦</span>';
+    }
+    return;
+  }
   if (boardMode === 'memory') {
     button.classList.remove('memory-hidden');
     fillMatchingTile(button, tile);
