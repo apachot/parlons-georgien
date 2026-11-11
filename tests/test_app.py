@@ -153,9 +153,21 @@ class AppFlowTests(unittest.TestCase):
         self.assertGreaterEqual(len(exercises), 12)
         self.assertTrue(all(item["answer"] in item["options"] for item in exercises))
         for category in ("temps", "preverbes", "cas", "suffixes", "all"):
-            question = self.client.get(f"/api/grammar/next?category={category}").json
-            self.assertNotIn("answer", question)
-            self.assertIn(question["id"], {item["id"] for item in exercises})
+            expected = [item for item in exercises if category == "all" or item["category"] == category]
+            excluded = set()
+            for _ in expected:
+                query = ",".join(excluded)
+                question = self.client.get(f"/api/grammar/next?category={category}&exclude={query}").json
+                self.assertEqual(question["total"], len(expected), category)
+                self.assertNotIn("answer", question)
+                self.assertIn(question["id"], {item["id"] for item in expected})
+                self.assertNotIn(question["id"], excluded, category)
+                excluded.add(question["id"])
+            finished = self.client.get(
+                f"/api/grammar/next?category={category}&exclude={','.join(excluded)}"
+            ).json
+            self.assertTrue(finished["empty"], category)
+            self.assertEqual(finished["total"], len(expected), category)
         item = exercises[0]
         result = self.client.post("/api/grammar/answer", json={"id": item["id"], "answer": item["answer"]})
         self.assertTrue(result.json["correct"])

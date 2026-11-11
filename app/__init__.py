@@ -159,7 +159,8 @@ def create_app(test_config=None):
         if not candidates:
             return jsonify({"empty": True, "total": len(items)})
         selected = random.choice(candidates)
-        return jsonify({key: selected[key] for key in ("id", "category", "prompt", "options")})
+        return jsonify({**{key: selected[key] for key in ("id", "category", "prompt", "options")},
+                        "total": len(items)})
 
     @app.post("/api/grammar/answer")
     def answer_grammar_exercise():
