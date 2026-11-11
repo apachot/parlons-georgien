@@ -38,7 +38,7 @@ PIPER_KA_MODEL=instance/tts-voices/ka_GE-natia-medium.onnx PIPER_FR_MODEL=instan
 
 - Tableau de bord, 10 leçons de situation avec 8 questions de validation chacune (géorgien → français et français → géorgien), et séance de révision à choix multiples.
 - Les 33 lettres mkhedruli, une activité de reconnaissance, exemples, translittération et aide de prononciation en français.
-- 120 mots et expressions contextualisés, recherche, exemples traduits et fiches de grammaire graduées.
+- 120 mots et expressions contextualisés, recherche et trois jeux de vocabulaire : fiches à retourner, quiz et saisie en géorgien.
 - Dictées de 10 mots par séance : écoute Piper, saisie avec clavier mkhedruli, correction exacte et suivi des erreurs.
 - Compréhension écrite sur 12 textes courts, avec quatre niveaux croissants, propositions en français et révisions enregistrées.
 - Quatre dialogues guidés autonomes.

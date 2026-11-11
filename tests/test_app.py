@@ -28,6 +28,10 @@ class AppFlowTests(unittest.TestCase):
         self.assertEqual(len(load_content("alphabet")), 33)
         self.assertEqual(len(load_content("lessons")), 10)
         self.assertEqual(len(load_content("vocabulary")), 120)
+        vocabulary_page = self.client.get("/vocabulary")
+        self.assertIn(b'data-mode="cards"', vocabulary_page.data)
+        self.assertIn(b'data-mode="quiz"', vocabulary_page.data)
+        self.assertIn(b'data-mode="type"', vocabulary_page.data)
 
     def test_each_lesson_has_two_way_questions_for_every_phrase(self):
         for lesson in load_content("lessons"):

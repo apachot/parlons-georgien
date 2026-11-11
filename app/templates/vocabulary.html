@@ -1,4 +1,53 @@
-{% extends "base.html" %}{% block title %}Vocabulaire — Kartuli{% endblock %}{% block content %}
-<section class="page-intro compact"><div class="eyebrow">120 mots et expressions</div><h1>Votre vocabulaire<br><em>du quotidien.</em></h1><p>La translittération aide à lire les sons. L’aide en français reste approximative et peut être masquée.</p><input class="search-input" id="word-search" placeholder="Rechercher un mot en français ou en géorgien…" aria-label="Rechercher un mot"></section>
+{% extends "base.html" %}
+{% block title %}Vocabulaire — Kartuli{% endblock %}
+{% block content %}
+<section class="page-intro compact vocab-intro">
+  <div class="eyebrow">120 mots utiles · à jouer et à retenir</div>
+  <h1>Les mots prennent<br><em>vie.</em></h1>
+  <p>Retournez une fiche, testez votre mémoire ou retrouvez le mot géorgien. Chaque réponse nourrit vos révisions.</p>
+</section>
+
+<section class="vocab-game" id="vocab-game" data-total="{{ vocab|length }}">
+  <div class="vocab-game-head">
+    <div><div class="eyebrow">Choisissez votre jeu</div><h2>Comment voulez-vous vous entraîner ?</h2></div>
+    <div class="vocab-score" id="vocab-score">Prête ou prêt ?</div>
+  </div>
+  <div class="vocab-mode-list" role="group" aria-label="Mode d’entraînement">
+    <button class="vocab-mode active" data-mode="cards"><span class="vocab-mode-icon">▤</span><b>Fiches à retourner</b><small>Français → géorgien</small></button>
+    <button class="vocab-mode" data-mode="quiz"><span class="vocab-mode-icon">✳</span><b>Quiz express</b><small>Choisissez le bon sens</small></button>
+    <button class="vocab-mode" data-mode="type"><span class="vocab-mode-icon">⌨</span><b>Mot mystère</b><small>Écrivez en géorgien</small></button>
+  </div>
+
+  <div class="vocab-play-card" id="vocab-play-card">
+    <div class="vocab-play-top"><span class="lesson-tag" id="vocab-round-label">Une fiche · 1 / 10</span><span class="vocab-progress"><i id="vocab-progress"></i></span></div>
+    <div class="vocab-prompt-label" id="vocab-prompt-label">Trouvez le mot géorgien</div>
+    <div class="vocab-prompt" id="vocab-prompt">Choisissez un jeu pour commencer.</div>
+    <div class="vocab-word-tools" id="vocab-word-tools"></div>
+    <div class="vocab-choices" id="vocab-choices"></div>
+    <div class="vocab-type-area hidden" id="vocab-type-area">
+      <label for="vocab-type-input">Votre réponse en géorgien</label>
+      <input id="vocab-type-input" lang="ka" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Écrivez le mot" aria-label="Votre réponse en géorgien">
+      <div class="virtual-keyboard" id="vocab-keyboard" aria-label="Clavier géorgien"></div>
+      <button class="button secondary" id="vocab-submit">Vérifier</button>
+    </div>
+    <div class="vocab-feedback" id="vocab-feedback" aria-live="polite"></div>
+    <div class="vocab-controls">
+      <button class="button secondary hidden" id="vocab-reveal">Afficher la réponse</button>
+      <button class="button secondary hidden" id="vocab-again">À revoir</button>
+      <button class="button primary hidden" id="vocab-knew">Je l’avais !</button>
+      <button class="button primary hidden" id="vocab-next">Mot suivant →</button>
+      <button class="button primary hidden" id="vocab-restart">Rejouer →</button>
+    </div>
+    <div class="lesson-summary hidden" id="vocab-summary" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="page-intro compact vocab-catalog-heading">
+  <div class="eyebrow">À feuilleter librement</div><h2>Le catalogue des mots</h2>
+  <p>Écoutez, cherchez et révisez les 120 fiches quand vous voulez.</p>
+  <input class="search-input" id="word-search" placeholder="Rechercher en français, géorgien ou translittération…" aria-label="Rechercher un mot">
+  <span class="catalog-count" id="catalog-count">{{ vocab|length }} mots</span>
+</section>
 <section class="vocab-grid" id="vocab-list">{% for w in vocab %}<article class="vocab-card" data-search="{{ w.ka }} {{ w.fr }} {{ w.translit }}"><div class="vocab-ka ka">{{ w.ka }}</div><div class="vocab-fr">{{ w.fr }} <button class="audio-btn" data-lang="fr" data-speak="{{ w.fr }}">▶ FR</button></div><div class="word-tools"><span class="translit">{{ w.translit }}</span><button class="audio-btn" data-speak="{{ w.ka }}">▶ KA</button><button class="pron-toggle">Prononciation</button><span class="pron hidden">≈ {{ w.pron }}</span></div><div class="example-line"><b>{{ w.example }}</b><button class="audio-btn" data-speak="{{ w.example }}">▶ KA</button><span>{{ w.example_fr }} <button class="audio-btn" data-lang="fr" data-speak="{{ w.example_fr }}">▶ FR</button></span></div></article>{% endfor %}</section>
 {% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='vocabulary.js') }}" defer></script>{% endblock %}

@@ -251,7 +251,6 @@ def create_app(test_config=None):
     @app.get("/api/quiz")
     def quiz():
         if request.args.get("kind") == "alphabet":
-            import random
             letters = load_content("alphabet")
             letter = random.choice(letters)
             choices = [letter["letter"]] + [x["letter"] for x in random.sample([x for x in letters if x["id"] != letter["id"]], 3)]
@@ -268,8 +267,15 @@ def create_app(test_config=None):
         exercise = request.args.get("exercise", "mcq")
         if exercise == "order":
             candidates = [w for w in candidates if len(w["example"].split()) > 1] or [w for w in vocab if len(w["example"].split()) > 1]
-        word = next((w for w in candidates if w["id"] not in excluded), candidates[0])
-        others = [w for w in vocab if w["id"] != word["id"]][:3]
+        available = [w for w in candidates if w["id"] not in excluded]
+        if not available and mode == "review":
+            return jsonify({"empty": True, "message": "Toutes les révisions sont à jour. Bravo !"})
+        if not available:
+            available = [w for w in vocab if w["id"] not in excluded]
+        if not available:
+            return jsonify({"empty": True, "message": "Vous avez parcouru tous les mots."})
+        word = random.choice(available)
+        others = random.sample([w for w in vocab if w["id"] != word["id"]], 3)
         choices = [word["fr"]] + [w["fr"] for w in others]
         prompt = word["ka"]
         if exercise in ("type", "match"):
