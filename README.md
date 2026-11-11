@@ -36,7 +36,7 @@ PIPER_KA_MODEL=instance/tts-voices/ka_GE-natia-medium.onnx PIPER_FR_MODEL=instan
 
 ## Ce qui est inclus
 
-- Tableau de bord, 10 leçons de situation et séance de quiz à choix multiples.
+- Tableau de bord, 10 leçons de situation avec 8 questions de validation chacune (géorgien → français et français → géorgien), et séance de révision à choix multiples.
 - Les 33 lettres mkhedruli, une activité de reconnaissance, exemples, translittération et aide de prononciation en français.
 - 120 mots et expressions contextualisés, recherche, exemples traduits et fiches de grammaire graduées.
 - Quatre dialogues guidés autonomes.

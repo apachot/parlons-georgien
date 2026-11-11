@@ -16,20 +16,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const query = e.target.value.trim().toLocaleLowerCase('fr');
     document.querySelectorAll('.vocab-card').forEach(card => card.hidden = !card.dataset.search.toLocaleLowerCase('fr').includes(query));
   });
-  document.querySelectorAll('.exercise-box[data-lesson] .choice').forEach(choice => choice.addEventListener('click', () => {
-    const box = choice.closest('.exercise-box');
-    box.querySelectorAll('.choice').forEach(c => c.disabled = true);
-    const correct = choice.dataset.correct === 'true';
-    box.dataset.score = correct ? '100' : '0';
-    box.querySelector('.feedback').textContent = correct ? 'Exactement ! Belle lecture.' : 'Pas tout à fait. Relisez la phrase et sa traduction, puis réessayez dans votre prochaine révision.';
-    box.querySelector('.feedback').className = 'feedback ' + (correct ? 'success' : 'try-again');
-    box.querySelector('.finish-lesson').disabled = false;
-  }));
   document.querySelector('.finish-lesson')?.addEventListener('click', async e => {
-    const box = e.currentTarget.closest('[data-lesson]');
-    await fetch(appPath(`/api/complete/${box.dataset.lesson}`), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({score:Number(box.dataset.score || 0)})});
-    e.currentTarget.textContent = 'Leçon enregistrée ✓';
-    e.currentTarget.disabled = true;
+    const button = e.currentTarget;
+    const box = button.closest('[data-lesson]');
+    button.disabled = true;
+    try {
+      const response = await fetch(appPath(`/api/complete/${box.dataset.lesson}`), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({score:Number(box.dataset.score || 0)})});
+      if (!response.ok) throw new Error('Enregistrement impossible');
+      const result = await response.json();
+      button.textContent = `Résultat enregistré : ${result.score}% ✓`;
+    } catch (_) {
+      button.textContent = 'Réessayer l’enregistrement';
+      button.disabled = false;
+    }
   });
   document.querySelectorAll('.dialogue-card').forEach(card => {
     const steps = [...card.querySelectorAll('.dialogue-step')];

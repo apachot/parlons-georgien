@@ -48,6 +48,24 @@ def load_content(name):
     return data
 
 
+def build_lesson_questions(items):
+    """Create two-way retrieval questions for every phrase in a lesson."""
+    unique_items = list({(item["ka"], item["fr"]): item for item in items}.values())
+    georgian_options = list(dict.fromkeys(item["ka"] for item in unique_items))
+    french_options = list(dict.fromkeys(item["fr"] for item in unique_items))
+    questions = []
+    for item in unique_items:
+        questions.append({
+            "direction": "ka-fr", "prompt": item["ka"], "answer": item["fr"],
+            "lang": "ka", "options": french_options,
+        })
+        questions.append({
+            "direction": "fr-ka", "prompt": item["fr"], "answer": item["ka"],
+            "lang": "fr", "options": georgian_options,
+        })
+    return questions
+
+
 def create_app(test_config=None):
     app = Flask(__name__)
     app.config.update(
@@ -91,7 +109,8 @@ def create_app(test_config=None):
         selected = next((item for item in lessons if item["id"] == lesson_id), None)
         if selected is None:
             return render_template("not_found.html"), 404
-        return render_template("lesson.html", lesson=selected)
+        return render_template("lesson.html", lesson=selected,
+                               questions=build_lesson_questions(selected["items"]))
 
     @app.get("/vocabulary")
     def vocabulary():

@@ -6,7 +6,7 @@ from werkzeug.test import Client
 from werkzeug.middleware.proxy_fix import ProxyFix
 from werkzeug.wrappers import Response
 
-from app import Progress, create_app, db, load_content
+from app import Progress, build_lesson_questions, create_app, db, load_content
 from app.tts import audio_name
 
 
@@ -28,6 +28,16 @@ class AppFlowTests(unittest.TestCase):
         self.assertEqual(len(load_content("alphabet")), 33)
         self.assertEqual(len(load_content("lessons")), 10)
         self.assertEqual(len(load_content("vocabulary")), 120)
+
+    def test_each_lesson_has_two_way_questions_for_every_phrase(self):
+        for lesson in load_content("lessons"):
+            questions = build_lesson_questions(lesson["items"])
+            self.assertEqual(len(questions), len(lesson["items"]) * 2, lesson["id"])
+            self.assertEqual(sum(q["direction"] == "ka-fr" for q in questions), len(lesson["items"]))
+            self.assertEqual(sum(q["direction"] == "fr-ka" for q in questions), len(lesson["items"]))
+            self.assertTrue(all(q["answer"] in q["options"] for q in questions))
+            page = self.client.get(f"/lesson/{lesson['id']}")
+            self.assertIn(b'id="lesson-questions"', page.data)
 
     def test_answer_persists_and_normalizes_french_punctuation(self):
         response = self.client.post("/api/answer", json={"id": "v-001", "kind": "vocabulary", "answer": " Bonjour ! "})
