@@ -8,11 +8,13 @@ let grammarCurrent = null;
 let grammarSeen = new Set();
 let grammarTurn = 0;
 let grammarCorrect = 0;
+let grammarTotal = 0;
 let grammarBusy = false;
 let grammarLocked = false;
+let grammarFinished = false;
 
 function resetGrammarQuiz() {
-  grammarSeen.clear(); grammarTurn = 0; grammarCorrect = 0; grammarCurrent = null; grammarLocked = false;
+  grammarSeen.clear(); grammarTurn = 0; grammarCorrect = 0; grammarCurrent = null; grammarLocked = false; grammarFinished = false;
   grammar.score.textContent = '0 / 0'; grammar.round.textContent = 'Pratique libre';
   grammar.prompt.textContent = 'Prête ou prêt ?'; grammar.choices.replaceChildren();
   grammar.feedback.textContent = ''; grammar.feedback.className = 'feedback';
@@ -23,19 +25,23 @@ async function loadGrammarQuestion() {
   grammar.next.classList.add('hidden'); grammar.choices.replaceChildren();
   grammar.feedback.textContent = ''; grammar.feedback.className = 'feedback';
   const response = await fetch(appPath(`/api/grammar/next?category=${encodeURIComponent(grammarCategory)}&exclude=${encodeURIComponent([...grammarSeen].join(','))}`));
-  let item = await response.json();
-  if (item.empty && grammarSeen.size) {
-    grammarSeen.clear();
-    const retry = await fetch(appPath(`/api/grammar/next?category=${encodeURIComponent(grammarCategory)}`));
-    item = await retry.json();
-  }
+  const item = await response.json();
+  grammarTotal = item.total || grammarTotal;
   if (item.empty) {
-    grammar.prompt.textContent = 'Aucune question pour ce thème.';
-    grammar.next.textContent = 'Recommencer'; grammar.next.classList.remove('hidden');
+    grammarFinished = true;
+    grammar.prompt.textContent = grammarSeen.size
+      ? `Série terminée : ${grammarCorrect} / ${grammarSeen.size} bonnes réponses.`
+      : 'Aucune question pour ce thème.';
+    grammar.round.textContent = grammarSeen.size ? `${grammarSeen.size} / ${grammarTotal} questions vues` : 'Thème indisponible';
+    grammar.choices.replaceChildren();
+    grammar.feedback.textContent = grammarSeen.size ? 'Vous avez répondu à toutes les questions de ce thème.' : '';
+    grammar.feedback.className = grammarSeen.size ? 'feedback success' : 'feedback';
+    grammar.next.textContent = grammarSeen.size ? 'Recommencer la série →' : 'Réessayer';
+    grammar.next.classList.remove('hidden');
     return;
   }
   grammarCurrent = item; grammarLocked = false;
-  grammar.round.textContent = `Question ${grammarTurn + 1} · ${grammarCategory === 'all' ? 'mélange' : grammarCategory}`;
+  grammar.round.textContent = `Question ${grammarSeen.size + 1} / ${grammarTotal} · ${grammarCategory === 'all' ? 'mélange' : grammarCategory}`;
   grammar.prompt.textContent = item.prompt;
   item.options.forEach(option => {
     const button = document.createElement('button'); button.type = 'button'; button.className = 'choice'; button.textContent = option;
@@ -61,7 +67,7 @@ async function answerGrammar(answer, selected) {
     selected.classList.add('choice-correct');
     grammar.feedback.textContent = `Bonne réponse. ${result.explanation}`;
     grammar.feedback.className = 'feedback success';
-    grammar.next.textContent = grammarTurn >= 10 ? 'Voir mon bilan →' : 'Question suivante →';
+    grammar.next.textContent = grammarSeen.size >= grammarTotal ? 'Terminer la série →' : 'Question suivante →';
     grammar.next.classList.remove('hidden'); playSuccessSound();
   } catch (_) {
     grammar.feedback.textContent = 'La réponse n’a pas pu être vérifiée. Réessayez.';
@@ -70,11 +76,18 @@ async function answerGrammar(answer, selected) {
 }
 
 grammar.next.addEventListener('click', async () => {
-  if (grammarTurn >= 10 && grammarLocked) {
-    grammar.prompt.textContent = `Série terminée : ${grammarCorrect} / ${grammarTurn} bonnes réponses.`;
-    grammar.choices.replaceChildren(); grammar.feedback.textContent = 'Votre progression sur ces notions est enregistrée.';
-    grammar.feedback.className = 'feedback success'; grammar.next.textContent = 'Nouvelle série →';
-    grammar.next.onclick = () => { grammar.next.onclick = null; resetGrammarQuiz(); loadGrammarQuestion(); };
+  if (grammarFinished) {
+    resetGrammarQuiz();
+    await loadGrammarQuestion();
+    return;
+  }
+  if (grammarLocked && grammarSeen.size >= grammarTotal) {
+    grammarFinished = true;
+    grammar.prompt.textContent = `Série terminée : ${grammarCorrect} / ${grammarSeen.size} bonnes réponses.`;
+    grammar.choices.replaceChildren();
+    grammar.feedback.textContent = 'Votre progression sur ces notions est enregistrée.';
+    grammar.feedback.className = 'feedback success';
+    grammar.next.textContent = 'Recommencer la série →';
     return;
   }
   await loadGrammarQuestion();
