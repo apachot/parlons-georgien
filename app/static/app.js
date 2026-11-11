@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function showActivityMenu() {
     activityPanels.forEach(panel => panel.classList.add('hidden'));
     activityMenus.forEach(menu => menu.classList.remove('hidden'));
-    document.querySelector('.activity-hero, .vocabulary-hero')?.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
   document.querySelectorAll('.activity-card[href^="#"]').forEach(card => card.addEventListener('click', event => {
     const target = document.querySelector(card.getAttribute('href'));
@@ -28,11 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!panel) return;
     event.preventDefault();
     activityPanels.forEach(item => item.classList.toggle('hidden', item !== panel));
-    activityMenus.forEach(menu => menu.classList.add('hidden'));
+    activityMenus.forEach(menu => menu.classList.toggle('hidden', !menu.classList.contains('activity-hero')));
     if (card.dataset.activityDirection) document.querySelector(`[data-dictation-direction="${card.dataset.activityDirection}"]`)?.click();
     if (card.dataset.activityCategory) document.querySelector(`.grammar-category-list [data-category="${card.dataset.activityCategory}"]`)?.click();
     panel.querySelector('[data-activity-back]')?.classList.remove('hidden');
-    panel.scrollIntoView({behavior: 'smooth', block: 'start'});
   }));
   document.querySelectorAll('[data-activity-back]').forEach(button => button.addEventListener('click', showActivityMenu));
   document.querySelector('#word-search')?.addEventListener('input', e => {

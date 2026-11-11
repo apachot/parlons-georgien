@@ -2,7 +2,7 @@ const vocabularyDataNode = document.querySelector('#vocabulary-data');
 const vocabularyData = JSON.parse(vocabularyDataNode?.textContent || '{"items":[],"due_ids":[]}');
 const vocabularyItems = vocabularyData.items || [];
 const vocabularyDueIds = new Set(vocabularyData.due_ids || []);
-const gameHome = document.querySelector('#vocabulary-home');
+const gameMenu = document.querySelector('.vocabulary-games-section');
 const gameCatalog = document.querySelector('#vocabulary-home-catalog');
 const gameScreen = document.querySelector('#vocabulary-game-screen');
 const game = {
@@ -124,13 +124,12 @@ function updateGameProgress() {
 function openGame(mode) {
   clearAutoAdvance();
   if (mode === 'catalog') {
-    gameHome.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
-    gameCatalog.scrollIntoView({behavior: 'smooth', block: 'start'});
+    gameMenu.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
     return;
   }
   activeGame = mode;
   activeDirection = 'ka-fr';
-  gameHome.classList.add('hidden');
+  gameMenu.classList.add('hidden');
   gameCatalog.classList.add('hidden');
   gameScreen.classList.remove('hidden');
   game.eyebrow.textContent = gameCopy[mode].eyebrow;
@@ -139,7 +138,6 @@ function openGame(mode) {
   game.direction.classList.toggle('hidden', mode !== 'audio');
   game.direction.querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.direction === activeDirection));
   startRound();
-  gameScreen.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 
 function startRound() {
@@ -481,9 +479,8 @@ function returnToGameHome() {
   clearAutoAdvance();
   activeGame = null;
   gameScreen.classList.add('hidden');
-  gameHome.classList.remove('hidden');
+  gameMenu.classList.remove('hidden');
   gameCatalog.classList.add('hidden');
-  gameHome.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 
 document.querySelectorAll('.vocabulary-module').forEach(button => {
