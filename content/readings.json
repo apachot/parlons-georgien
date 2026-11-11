@@ -1,0 +1,194 @@
+[
+  {
+    "id": "intro-ana",
+    "level": 1,
+    "level_name": "Premiers repères",
+    "text": "გამარჯობა! მე მქვია ანა. მე საფრანგეთიდან ვარ.",
+    "question": "Que nous apprend Ana sur elle ?",
+    "options": [
+      "Elle s’appelle Ana et vient de France.",
+      "Elle s’appelle Ana et vient de Géorgie.",
+      "Elle s’appelle Marie et habite en France.",
+      "Elle dit au revoir à une amie française."
+    ],
+    "answer": "Elle s’appelle Ana et vient de France.",
+    "translation": "Bonjour ! Je m’appelle Ana. Je viens de France.",
+    "explanation": "მე მქვია ანა signifie « je m’appelle Ana » ; საფრანგეთიდან ვარ signifie « je viens de France »."
+  },
+  {
+    "id": "cafe-commande",
+    "level": 1,
+    "level_name": "Premiers repères",
+    "text": "მენიუ, გთხოვთ. ყავა მინდა. წყალი, გთხოვთ.",
+    "question": "Que demande la personne ?",
+    "options": [
+      "Le menu, un café et de l’eau.",
+      "L’addition, un thé et du pain.",
+      "Un café et l’addition, sans eau.",
+      "Le menu et un taxi pour Tbilissi."
+    ],
+    "answer": "Le menu, un café et de l’eau.",
+    "translation": "Le menu, s’il vous plaît. Je voudrais un café. De l’eau, s’il vous plaît.",
+    "explanation": "მენიუ est le menu, ყავა le café et წყალი l’eau. გთხოვთ rend la demande polie."
+  },
+  {
+    "id": "marche-pain",
+    "level": 1,
+    "level_name": "Premiers repères",
+    "text": "ეს რა ღირს? პური მინდა. მადლობა.",
+    "question": "Que se passe-t-il au marché ?",
+    "options": [
+      "La personne demande le prix et veut du pain.",
+      "La personne demande le chemin du métro.",
+      "La personne trouve le pain très cher et s’en va.",
+      "La personne commande un café et de l’eau."
+    ],
+    "answer": "La personne demande le prix et veut du pain.",
+    "translation": "Combien coûte ceci ? Je voudrais du pain. Merci.",
+    "explanation": "ეს რა ღირს? demande le prix ; პური მინდა signifie « je voudrais du pain »."
+  },
+  {
+    "id": "vie-georgie",
+    "level": 2,
+    "level_name": "Petits textes du quotidien",
+    "text": "საქართველოში ვცხოვრობ. ქართულს ვსწავლობ.",
+    "question": "Où habite la personne et qu’apprend-elle ?",
+    "options": [
+      "Elle habite en Géorgie et apprend le géorgien.",
+      "Elle habite en France et apprend le français.",
+      "Elle visite la Géorgie et apprend à conduire.",
+      "Elle habite à Tbilissi et enseigne le géorgien."
+    ],
+    "answer": "Elle habite en Géorgie et apprend le géorgien.",
+    "translation": "J’habite en Géorgie. J’apprends le géorgien.",
+    "explanation": "საქართველოში ვცხოვრობ signifie « j’habite en Géorgie » ; ქართულს ვსწავლობ, « j’apprends le géorgien »."
+  },
+  {
+    "id": "frere-tbilissi",
+    "level": 2,
+    "level_name": "Petits textes du quotidien",
+    "text": "ეს ჩემი ოჯახია. ჩემი ძმა თბილისშია.",
+    "question": "Quel détail apprend-on sur la famille ?",
+    "options": [
+      "Le frère de la personne est à Tbilissi.",
+      "La sœur de la personne habite en France.",
+      "Toute la famille est au marché.",
+      "La personne cherche son frère à Tbilissi."
+    ],
+    "answer": "Le frère de la personne est à Tbilissi.",
+    "translation": "Voici ma famille. Mon frère est à Tbilissi.",
+    "explanation": "ჩემი ძმა signifie « mon frère » et თბილისშია, « est à Tbilissi »."
+  },
+  {
+    "id": "metro-direction",
+    "level": 2,
+    "level_name": "Petits textes du quotidien",
+    "text": "უკაცრავად, სად არის მეტრო? პირდაპირ წადით.",
+    "question": "Quelle indication reçoit la personne ?",
+    "options": [
+      "Elle doit aller tout droit pour trouver le métro.",
+      "Elle doit tourner à gauche pour trouver le marché.",
+      "Elle doit prendre un taxi jusqu’au métro.",
+      "Elle doit s’arrêter ici et attendre le métro."
+    ],
+    "answer": "Elle doit aller tout droit pour trouver le métro.",
+    "translation": "Excusez-moi, où est le métro ? Allez tout droit.",
+    "explanation": "პირდაპირ წადით signifie « allez tout droit »."
+  },
+  {
+    "id": "etre-temps",
+    "level": 3,
+    "level_name": "Repérer le temps des actions",
+    "text": "გუშინ სახლში ვიყავი. დღეს სახლში ვარ. ხვალ სახლში ვიქნები.",
+    "question": "À quel moment la personne sera-t-elle à la maison ?",
+    "options": [
+      "Hier, aujourd’hui et demain.",
+      "Hier seulement.",
+      "Aujourd’hui seulement.",
+      "Demain seulement."
+    ],
+    "answer": "Hier, aujourd’hui et demain.",
+    "translation": "Hier, j’étais à la maison. Aujourd’hui, je suis à la maison. Demain, je serai à la maison.",
+    "explanation": "გუშინ signifie « hier », დღეს « aujourd’hui » et ხვალ « demain » : le texte présente les trois moments."
+  },
+  {
+    "id": "aller-magasin",
+    "level": 3,
+    "level_name": "Repérer le temps des actions",
+    "text": "ახლა მივდივარ. გუშინ მაღაზიაში წავედი. ხვალ მაღაზიაში წავალ.",
+    "question": "Quand la personne est-elle allée au magasin ?",
+    "options": [
+      "Hier ; elle prévoit aussi d’y aller demain.",
+      "Maintenant ; elle y est déjà arrivée.",
+      "Demain seulement ; elle n’y est jamais allée.",
+      "Hier ; elle prévoit d’aller au café demain."
+    ],
+    "answer": "Hier ; elle prévoit aussi d’y aller demain.",
+    "translation": "Je pars maintenant. Hier, je suis allé(e) au magasin. Demain, j’irai au magasin.",
+    "explanation": "გუშინ მაღაზიაში წავედი situe le déplacement au passé (« hier ») ; ხვალ მაღაზიაში წავალ l’annonce pour demain."
+  },
+  {
+    "id": "vouloir-cafe",
+    "level": 3,
+    "level_name": "Repérer le temps des actions",
+    "text": "ახლა ყავა მინდა. გუშინ ყავა მინდოდა. ხვალ ყავა მენდომება.",
+    "question": "Que veut la personne demain ?",
+    "options": [
+      "Du café.",
+      "De l’eau.",
+      "Du pain.",
+      "Elle ne veut rien."
+    ],
+    "answer": "Du café.",
+    "translation": "Je voudrais du café maintenant. Je voulais du café hier. Je voudrai du café demain.",
+    "explanation": "ყავა (« café ») revient dans les trois phrases ; ხვალ indique que la dernière concerne demain."
+  },
+  {
+    "id": "argent-temps",
+    "level": 4,
+    "level_name": "Comprendre les détails et les contrastes",
+    "text": "ფული მაქვს. გუშინ ფული მქონდა. ხვალ ფული მექნება.",
+    "question": "Quelle affirmation résume correctement le texte ?",
+    "options": [
+      "La personne a de l’argent maintenant, en avait hier et en aura demain.",
+      "La personne n’aura de l’argent que demain.",
+      "La personne a dépensé son argent hier et n’en a plus.",
+      "La personne demande combien coûte quelque chose."
+    ],
+    "answer": "La personne a de l’argent maintenant, en avait hier et en aura demain.",
+    "translation": "J’ai de l’argent. Hier, j’avais de l’argent. Demain, j’aurai de l’argent.",
+    "explanation": "Le nom ფული (« argent ») reste le même ; les formes verbales et les repères temporels font passer du présent au passé puis au futur."
+  },
+  {
+    "id": "rester-temps",
+    "level": 4,
+    "level_name": "Comprendre les détails et les contrastes",
+    "text": "დღეს სახლში ვრჩები. გუშინ სახლში დავრჩი. ხვალ სახლში დავრჩები.",
+    "question": "Quel lieu est mentionné pour les trois moments ?",
+    "options": [
+      "La maison.",
+      "Le magasin.",
+      "Le café.",
+      "Le métro."
+    ],
+    "answer": "La maison.",
+    "translation": "Aujourd’hui, je reste à la maison. Hier, je suis resté(e) à la maison. Demain, je resterai à la maison.",
+    "explanation": "სახლში signifie « à la maison » ; le mot apparaît pour aujourd’hui, hier et demain."
+  },
+  {
+    "id": "commencer-temps",
+    "level": 4,
+    "level_name": "Comprendre les détails et les contrastes",
+    "text": "ახლა ვიწყებ. გუშინ დავიწყე. ხვალ დავიწყებ.",
+    "question": "Que fait la personne aujourd’hui, et que dit-elle du passé et du futur ?",
+    "options": [
+      "Elle commence maintenant, a commencé hier et commencera demain.",
+      "Elle a commencé aujourd’hui, hier et demain.",
+      "Elle finira maintenant et recommencera seulement demain.",
+      "Elle veut commencer hier, mais ne peut pas."
+    ],
+    "answer": "Elle commence maintenant, a commencé hier et commencera demain.",
+    "translation": "Je commence maintenant. J’ai commencé hier. Je commencerai demain.",
+    "explanation": "ახლა indique « maintenant », გუშინ « hier » et ხვალ « demain » ; les formes de « commencer » changent avec le moment."
+  }
+]

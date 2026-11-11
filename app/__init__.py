@@ -73,6 +73,10 @@ def dictation_words():
             if len(normalise(item["ka"]).split()) == 1]
 
 
+def reading_texts():
+    return load_content("readings")
+
+
 def create_app(test_config=None):
     app = Flask(__name__)
     app.config.update(
@@ -139,6 +143,59 @@ def create_app(test_config=None):
     @app.get("/dictations")
     def dictations():
         return render_template("dictations.html", total=len(dictation_words()))
+
+    @app.get("/reading")
+    def reading():
+        return render_template("reading.html", total=len(reading_texts()))
+
+    @app.get("/api/reading/next")
+    def next_reading():
+        try:
+            level = int(request.args.get("level", "1"))
+        except ValueError:
+            return jsonify({"error": "Niveau invalide."}), 400
+        if level not in range(1, 5):
+            return jsonify({"error": "Niveau invalide."}), 400
+        items = [item for item in reading_texts() if item["level"] == level]
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in items if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "level": level})
+        progress = {row.item_id.removeprefix("reading:"): row
+                    for row in Progress.query.filter_by(kind="reading").all()}
+        now = utc_now_naive()
+        due = [item for item in candidates
+               if item["id"] in progress and progress[item["id"]].due_at
+               and progress[item["id"]].due_at <= now]
+        unseen = [item for item in candidates if item["id"] not in progress]
+        selected = random.choice(due or unseen or candidates)
+        return jsonify({key: selected[key] for key in
+                        ("id", "level", "level_name", "text", "question", "options")})
+
+    @app.post("/api/reading/answer")
+    def answer_reading():
+        data = request.get_json(silent=True) or {}
+        item_id = str(data.get("id", ""))
+        item = next((entry for entry in reading_texts() if entry["id"] == item_id), None)
+        if item is None:
+            return jsonify({"error": "Texte inconnu."}), 404
+        correct = data.get("answer") == item["answer"]
+        progress_id = f"reading:{item_id}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="reading", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        days = 0 if not correct else (1 if row.streak <= 1 else min(30, 2 ** min(row.streak, 5)))
+        row.due_at = utc_now_naive() + timedelta(minutes=10 if days == 0 else 1440 * days)
+        db.session.commit()
+        return jsonify({"correct": correct, "translation": item["translation"],
+                        "explanation": item["explanation"], "level": item["level"],
+                        "seen": row.seen, "correct_count": row.correct,
+                        "due_in_days": days})
 
     @app.get("/api/dictations/next")
     def next_dictation():

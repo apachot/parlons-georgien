@@ -6,7 +6,7 @@ from werkzeug.test import Client
 from werkzeug.middleware.proxy_fix import ProxyFix
 from werkzeug.wrappers import Response
 
-from app import Progress, build_lesson_questions, create_app, db, dictation_words, load_content
+from app import Progress, build_lesson_questions, create_app, db, dictation_words, load_content, reading_texts
 from app.tts import audio_name
 
 
@@ -22,7 +22,7 @@ class AppFlowTests(unittest.TestCase):
             db.engine.dispose()
 
     def test_core_pages_render_and_content_counts(self):
-        for route in ("/", "/alphabet", "/vocabulary", "/grammar", "/dialogues", "/session", "/lesson/greetings"):
+        for route in ("/", "/alphabet", "/vocabulary", "/grammar", "/dialogues", "/session", "/reading", "/lesson/greetings"):
             response = self.client.get(route)
             self.assertEqual(response.status_code, 200, route)
         self.assertEqual(len(load_content("alphabet")), 33)
@@ -70,6 +70,33 @@ class AppFlowTests(unittest.TestCase):
             self.assertEqual(response.mimetype, "audio/wav")
             self.assertEqual(response.data, b"RIFF-test-dictation")
             response.close()
+
+    def test_reading_comprehension_has_rising_levels_and_saves_results(self):
+        page = self.client.get("/reading")
+        self.assertEqual(page.status_code, 200)
+        readings = reading_texts()
+        self.assertEqual(len(readings), 12)
+        self.assertEqual({item["level"] for item in readings}, {1, 2, 3, 4})
+        self.assertTrue(all(item["answer"] in item["options"] for item in readings))
+
+        first = self.client.get("/api/reading/next?level=1").json
+        self.assertEqual(first["level"], 1)
+        self.assertNotIn("answer", first)
+        item = next(item for item in readings if item["id"] == first["id"])
+        wrong_choice = next(option for option in item["options"] if option != item["answer"])
+        wrong = self.client.post("/api/reading/answer", json={"id": item["id"], "answer": wrong_choice})
+        self.assertFalse(wrong.json["correct"])
+        correct = self.client.post("/api/reading/answer", json={"id": item["id"], "answer": item["answer"]})
+        self.assertTrue(correct.json["correct"])
+        with self.app.app_context():
+            row = Progress.query.filter_by(item_id=f"reading:{item['id']}").first()
+            self.assertEqual(row.kind, "reading")
+            self.assertEqual(row.seen, 2)
+            self.assertEqual(row.correct, 1)
+            self.assertIsNotNone(row.due_at)
+
+        invalid = self.client.get("/api/reading/next?level=5")
+        self.assertEqual(invalid.status_code, 400)
 
     def test_answer_persists_and_normalizes_french_punctuation(self):
         response = self.client.post("/api/answer", json={"id": "v-001", "kind": "vocabulary", "answer": " Bonjour ! "})

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Compréhension écrite — Kartuli{% endblock %}
+{% block content %}
+<section class="page-intro compact">
+  <div class="eyebrow">Lire · comprendre · progresser</div>
+  <h1>Un texte à la<br><em>fois.</em></h1>
+  <p>Lisez un court passage en géorgien, puis choisissez ce que vous en avez compris. Les textes vont des premières phrases aux repères de temps et aux détails.</p>
+</section>
+<section class="exercise-box reading-box" id="reading" data-total="{{ total }}">
+  <div class="eyebrow" id="reading-count">Séance · 12 textes</div>
+  <div class="reading-meter" aria-hidden="true"><i id="reading-meter-fill"></i></div>
+  <div class="lesson-tag" id="reading-level">Niveau débutant</div>
+  <h2 class="reading-text ka" id="reading-text">Prête ou prêt à lire ?</h2>
+  <p class="reading-question" id="reading-question">Le texte et les propositions apparaîtront ici.</p>
+  <div class="reading-options" id="reading-options"></div>
+  <div class="feedback" id="reading-feedback" aria-live="polite"></div>
+  <div class="reading-reveal hidden" id="reading-reveal" aria-live="polite"></div>
+  <div class="reading-controls">
+    <button class="button primary" id="reading-start">Commencer →</button>
+    <button class="button primary hidden" id="reading-next">Continuer →</button>
+  </div>
+  <div class="lesson-summary hidden" id="reading-summary" aria-live="polite"></div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}" defer></script>{% endblock %}
