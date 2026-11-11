@@ -4,10 +4,11 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fbf8f1">
   <title>{% block title %}Kartuli — apprendre le géorgien{% endblock %}</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='kartuli-logo.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-<header class="topbar"><a class="brand" href="{{ url_for('home') }}"><span class="brand-mark">ა</span><span>Kartuli<small>le géorgien au quotidien</small></span></a>
+<header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='kartuli-logo.png') }}" alt=""><span>Kartuli<small>le géorgien au quotidien</small></span></a>
   <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
   <nav class="nav"><a href="{{ url_for('home') }}">Accueil</a><a href="{{ url_for('alphabet') }}">Alphabet</a><a href="{{ url_for('vocabulary') }}">Vocabulaire</a><a href="{{ url_for('grammar') }}">Grammaire</a><a href="{{ url_for('dialogues') }}">Dialogues</a></nav>
 </header>
