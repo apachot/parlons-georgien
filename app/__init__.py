@@ -305,7 +305,8 @@ def create_app(test_config=None):
             if not item:
                 return jsonify({"error": "Élément inconnu"}), 404
             expected = item["example"] if kind == "order" else item["ka"] if kind in ("type", "match") else item["fr"]
-            accepted = [normalise(x) for x in item.get("answers", [expected])]
+            accepted_values = item.get("answers", [expected]) if kind == "vocabulary" else [expected]
+            accepted = [normalise(x) for x in accepted_values]
             ok = normalise(data.get("answer", "")) in accepted
         else:
             item = next((x for x in load_content("alphabet") if x["id"] == item_id), None)

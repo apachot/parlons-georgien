@@ -8,6 +8,8 @@ let dictationFirstTryCorrect = 0;
 let dictationAttempts = 0;
 let dictationBusy = false;
 let dictationAudio = null;
+let dictationAudioSource = null;
+let dictationAudioRequest = 0;
 
 const dictationElements = {
   heading: document.querySelector('#dictation-heading'),
@@ -58,6 +60,7 @@ async function loadNextDictation() {
   }
 
   dictationElements.heading.textContent = 'Préparation du mot…';
+  stopDictationAudio();
   dictationElements.listen.disabled = true;
   setAnswerButtons();
   const exclude = [...dictationIds].join(',');
@@ -81,6 +84,7 @@ async function loadNextDictation() {
     dictationElements.summary.classList.add('hidden');
     setFeedback('');
     setAnswerButtons({checking: true});
+    void playDictationWord();
   } catch (_) {
     dictationElements.heading.textContent = 'La dictée n’a pas pu se charger';
     setFeedback('Vérifiez votre connexion puis réessayez.', 'try-again');
@@ -91,27 +95,59 @@ async function loadNextDictation() {
 
 async function playDictationWord() {
   if (!dictationCurrentId || dictationBusy) return;
+  stopDictationAudio();
+  const requestId = ++dictationAudioRequest;
+  const itemId = dictationCurrentId;
   dictationElements.listen.disabled = true;
   const original = dictationElements.listen.textContent;
   dictationElements.listen.textContent = 'Chargement…';
+  let audioLoaded = false;
   try {
-    const response = await fetch(appPath(`/api/dictations/audio/${encodeURIComponent(dictationCurrentId)}`));
+    const response = await fetch(appPath(`/api/dictations/audio/${encodeURIComponent(itemId)}`));
     if (!response.ok) throw new Error('audio absent');
     const source = URL.createObjectURL(await response.blob());
-    dictationAudio?.pause();
-    dictationAudio = new Audio(source);
-    dictationAudio.addEventListener('ended', () => {
+    audioLoaded = true;
+    if (requestId !== dictationAudioRequest || itemId !== dictationCurrentId) {
       URL.revokeObjectURL(source);
-      dictationElements.listen.disabled = false;
-      dictationElements.listen.textContent = original;
-    }, {once: true});
+      return;
+    }
+    dictationAudioSource = source;
+    dictationAudio = new Audio(source);
+    const currentAudio = dictationAudio;
+    const finishAudio = () => {
+      if (dictationAudio === currentAudio) {
+        stopDictationAudio();
+        dictationElements.listen.disabled = false;
+        dictationElements.listen.textContent = original;
+      }
+    };
+    dictationAudio.addEventListener('ended', finishAudio, {once: true});
+    dictationAudio.addEventListener('error', finishAudio, {once: true});
     dictationElements.listen.textContent = '▶ Lecture…';
     await dictationAudio.play();
   } catch (_) {
+    if (requestId !== dictationAudioRequest || itemId !== dictationCurrentId) return;
+    stopDictationAudio();
     dictationElements.listen.disabled = false;
     dictationElements.listen.textContent = original;
-    setFeedback('Audio indisponible pour le moment. Réessayez dans un instant.', 'try-again');
+    setFeedback(audioLoaded
+      ? 'Votre navigateur a bloqué la lecture automatique. Touchez « Réécouter le mot » pour lancer l’audio.'
+      : 'Audio indisponible pour ce mot. Vous pouvez continuer la dictée.', 'try-again');
   }
+}
+
+function stopDictationAudio() {
+  dictationAudioRequest++;
+  if (dictationAudio) {
+    dictationAudio.pause();
+    dictationAudio.src = '';
+    dictationAudio = null;
+  }
+  if (dictationAudioSource) {
+    URL.revokeObjectURL(dictationAudioSource);
+    dictationAudioSource = null;
+  }
+  dictationElements.listen.textContent = '↻ Réécouter le mot';
 }
 
 async function submitDictation(answer, skipped = false) {
@@ -121,6 +157,7 @@ async function submitDictation(answer, skipped = false) {
     return;
   }
   dictationBusy = true;
+  let replayWord = false;
   dictationElements.check.disabled = true;
   dictationElements.skip.disabled = true;
   try {
@@ -148,10 +185,12 @@ async function submitDictation(answer, skipped = false) {
       setFeedback('La réponse était affichée ci-dessus. Écoutez-la encore avant de continuer.', 'try-again');
       dictationElements.listen.disabled = true;
       setAnswerButtons({next: true});
+      replayWord = true;
     } else {
       dictationElements.instruction.textContent = `Sens : ${result.fr} · Aide de lecture : ${result.translit}`;
       setFeedback('Pas tout à fait. Réécoutez le mot et essayez encore.', 'try-again');
       dictationElements.input.focus();
+      replayWord = true;
     }
   } catch (_) {
     setFeedback('La correction n’a pas pu être enregistrée. Réessayez.', 'try-again');
@@ -160,6 +199,7 @@ async function submitDictation(answer, skipped = false) {
     dictationElements.check.disabled = false;
     dictationElements.skip.disabled = false;
   }
+  if (replayWord) window.setTimeout(playDictationWord, 160);
 }
 
 function finishDictationSession() {
