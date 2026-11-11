@@ -26,7 +26,7 @@ def phrases():
     def visit(value):
         if isinstance(value, dict):
             for key, child in value.items():
-                if key in {"ka", "example"} and isinstance(child, str):
+                if key in {"ka", "example", "name_ka"} and isinstance(child, str):
                     found["ka"].add(normalise_speech(child))
                 elif key in {"fr", "example_fr"} and isinstance(child, str):
                     found["fr"].add(normalise_speech(child))

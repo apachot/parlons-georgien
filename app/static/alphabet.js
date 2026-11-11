@@ -134,6 +134,12 @@ async function newLetterQuestion() {
   const response = await fetch(appPath('/api/quiz?kind=alphabet'));
   activeLetter = await response.json();
   document.querySelector('#letter-prompt').textContent = activeLetter.prompt;
+  const audioButton = document.querySelector('#letter-audio');
+  audioButton.classList.remove('hidden');
+  audioButton.disabled = false;
+  audioButton.textContent = '▶ Écouter en géorgien';
+  audioButton.dataset.original = audioButton.textContent;
+  audioButton.onclick = () => playSpeech(activeLetter.prompt, 'ka', audioButton);
   document.querySelector('#letter-feedback').textContent = '';
   const holder = document.querySelector('#letter-choices'); holder.innerHTML = '';
   [...activeLetter.choices].sort(() => Math.random() - .5).forEach(letter => {
