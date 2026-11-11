@@ -1,10 +1,14 @@
 {% extends "base.html" %}
+{% from "_activity_hub.html" import activity_hub %}
 {% block title %}Compréhension écrite — Kartuli{% endblock %}
 {% block content %}
-<section class="page-intro compact">
-  <div class="eyebrow">Lire · comprendre · progresser</div>
-  <h1>Un texte à la<br><em>fois.</em></h1>
-  <p>Lisez un court passage en géorgien, puis choisissez ce que vous en avez compris. Les textes vont des premières phrases aux repères de temps et aux détails.</p>
+{{ activity_hub('Lecture · lire, comprendre, déduire', 'Lisez entre les lignes.', 'Des premiers passages aux textes longs en géorgien : entraînez-vous à repérer les faits, les intentions et les détails.', [
+  {'icon':'📖','label':'01 · PAS À PAS','title':'Lecture guidée','text':'Un texte court, une question, une explication après chaque réponse.','href':'#reading-modes','action':'Choisir'},
+  {'icon':'⏱️','label':'02 · FORMAT EXAMEN','title':'Étude de texte','text':'Longs passages en géorgien, série de questions et score final chronométré.','href':'#reading-modes','action':'Choisir'}
+], 'თბილისი') }}
+<section class="reading-mode-picker" id="reading-modes" aria-label="Choisir un mode de lecture">
+  <button type="button" class="reading-mode active" data-reading-mode="guided"><span>🌱</span><small>ENTRAÎNEMENT PROGRESSIF</small><b>Lecture guidée</b><em>12 textes · réponses expliquées</em></button>
+  <button type="button" class="reading-mode" data-reading-mode="exam"><span>📝</span><small>COMPRÉHENSION ÉCRITE</small><b>Étude de texte</b><em>Passage long · questions · 15 min</em></button>
 </section>
 <section class="exercise-box reading-box" id="reading" data-total="{{ total }}">
   <div class="eyebrow" id="reading-count">Séance · 12 textes</div>
@@ -20,6 +24,16 @@
     <button class="button primary hidden" id="reading-next">Continuer →</button>
   </div>
   <div class="lesson-summary hidden" id="reading-summary" aria-live="polite"></div>
+</section>
+<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-total="{{ exam_total }}">
+  <div class="reading-exam-top"><div><div class="eyebrow" id="exam-level">Épreuve de compréhension</div><h2 id="exam-title">Prête ou prêt pour l’épreuve ?</h2></div><div class="reading-exam-clock"><small>TEMPS RESTANT</small><b id="exam-clock">15:00</b></div></div>
+  <div class="reading-exam-meter"><i id="exam-meter"></i></div>
+  <div class="reading-exam-text ka" id="exam-text" lang="ka">Un texte long en géorgien apparaîtra ici.</div>
+  <div class="reading-exam-question hidden" id="exam-question-area"><div class="reading-exam-question-count" id="exam-question-count"></div><h3 id="exam-question"></h3><div class="reading-options" id="exam-options"></div><div class="feedback" id="exam-feedback" aria-live="polite"></div><button class="button primary hidden" id="exam-next">Question suivante →</button></div>
+  <p class="reading-exam-instruction" id="exam-instruction">Lisez le passage à votre rythme. Les questions portent sur les faits, les liens logiques et les intentions.</p>
+  <div class="reading-controls"><button class="button primary" id="exam-start">Commencer l’épreuve →</button><button class="button primary hidden" id="exam-restart">Nouvelle épreuve →</button></div>
+  <div class="lesson-summary hidden" id="exam-summary" aria-live="polite"></div>
+  <button type="button" class="button secondary hidden" id="exam-translation-toggle" aria-expanded="false">Afficher la traduction du texte</button><div class="reading-exam-translation hidden" id="exam-translation"></div>
 </section>
 {% endblock %}
 {% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}" defer></script>{% endblock %}

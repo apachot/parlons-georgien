@@ -69,6 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
       advance.classList.toggle('hidden', !!steps[current].querySelector('.dialogue-choices'));
     });
   });
+  const immersionButton = document.querySelector('#dialogue-immersion');
+  immersionButton?.addEventListener('click', () => {
+    const immersive = document.body.classList.toggle('dialogue-immersion');
+    immersionButton.setAttribute('aria-pressed', String(immersive));
+    immersionButton.textContent = immersive ? 'Afficher le français' : 'Masquer le français';
+  });
 });
 
 function appPath(path) {

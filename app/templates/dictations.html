@@ -1,10 +1,16 @@
 {% extends "base.html" %}
+{% from "_activity_hub.html" import activity_hub %}
 {% block title %}Dictées de mots — Kartuli{% endblock %}
 {% block content %}
-<section class="page-intro compact">
-  <div class="eyebrow">Écouter · écrire · mémoriser</div>
-  <h1>Une dictée<br><em>à la fois.</em></h1>
-  <p>Chaque mot est lu automatiquement : écrivez-le en mkhedruli, puis réécoutez-le si besoin. Les dictées utilisent uniquement le vocabulaire déjà étudié.</p>
+{{ activity_hub('Dictées · écouter, traduire, écrire', 'Un mot, deux chemins.', 'Écrivez ce que vous entendez en géorgien, ou partez du français pour retrouver le mot en mkhedruli.', [
+ {'icon':'🎧','label':'01 · DICTÉE AUDIO','title':'Écouter → écrire','text':'Écoutez un mot géorgien et écrivez-le en mkhedruli.','href':'#dictation-modes','action':'Choisir'},
+ {'icon':'🔁','label':'02 · TRADUCTION','title':'Français → géorgien','text':'Lisez le sens français et retrouvez la forme géorgienne.','href':'#dictation-modes','action':'Choisir'},
+ {'icon':'⌨️','label':'03 · CLAVIER','title':'Écrire en mkhedruli','text':'Le clavier géorgien à l’écran aide sur téléphone et ordinateur.','href':'#dictation-modes','action':'Choisir'}
+], 'მინდა') }}
+
+<section class="dictation-mode-picker" id="dictation-modes" role="group" aria-label="Choisir le sens de la dictée">
+  <button class="dictation-mode active" type="button" data-dictation-direction="ka-fr"><span>🎧</span><small>KA → KA</small><b>Écouter et écrire</b><em>Le mot est lu à voix haute.</em></button>
+  <button class="dictation-mode" type="button" data-dictation-direction="fr-ka"><span>🇫🇷</span><small>FR → KA</small><b>Traduire en géorgien</b><em>Le sens français donne l’indice.</em></button>
 </section>
 
 <section class="exercise-box dictation-box" id="dictation" data-total-words="{{ total }}">
@@ -13,7 +19,7 @@
   <p id="dictation-instruction">Le mot reste caché pendant l’écoute. Vous pouvez le réécouter autant de fois que nécessaire.</p>
   <button class="button secondary dictation-listen" id="dictation-listen" disabled>↻ Réécouter le mot</button>
   <div class="typed-answer hidden" id="dictation-answer-area">
-    <label for="dictation-input">Votre réponse en géorgien</label>
+    <label for="dictation-input" id="dictation-answer-label">Votre réponse en géorgien</label>
     <input id="dictation-input" lang="ka" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Tapez le mot entendu" aria-label="Réponse en géorgien">
     <div id="dictation-keyboard" class="virtual-keyboard" aria-label="Clavier géorgien"></div>
   </div>

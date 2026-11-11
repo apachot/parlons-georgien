@@ -137,3 +137,152 @@ reading.next?.addEventListener('click', () => {
   clearAutoAdvance();
   loadReadingQuestion();
 });
+
+const examRoot = document.querySelector('#reading-exam');
+const exam = {
+  level: document.querySelector('#exam-level'), title: document.querySelector('#exam-title'),
+  clock: document.querySelector('#exam-clock'), meter: document.querySelector('#exam-meter'),
+  text: document.querySelector('#exam-text'), questionArea: document.querySelector('#exam-question-area'),
+  questionCount: document.querySelector('#exam-question-count'), question: document.querySelector('#exam-question'),
+  options: document.querySelector('#exam-options'), feedback: document.querySelector('#exam-feedback'),
+  next: document.querySelector('#exam-next'), instruction: document.querySelector('#exam-instruction'),
+  start: document.querySelector('#exam-start'), restart: document.querySelector('#exam-restart'), summary: document.querySelector('#exam-summary'),
+  translationToggle: document.querySelector('#exam-translation-toggle'), translation: document.querySelector('#exam-translation')
+};
+let examItem = null;
+let examIndex = 0;
+let examScore = 0;
+let examStartedAt = 0;
+let examDeadline = 0;
+let examTimer = null;
+let examSeen = new Set();
+let examBusy = false;
+let examLocked = false;
+let examTranslation = '';
+
+document.querySelectorAll('[data-reading-mode]').forEach(button => button.addEventListener('click', () => {
+  const useExam = button.dataset.readingMode === 'exam';
+  document.querySelectorAll('[data-reading-mode]').forEach(option => option.classList.toggle('active', option === button));
+  document.querySelector('#reading').classList.toggle('hidden', useExam);
+  examRoot.classList.toggle('hidden', !useExam);
+  (useExam ? examRoot : document.querySelector('#reading')).scrollIntoView({behavior: 'smooth', block: 'start'});
+}));
+
+function updateExamClock() {
+  const seconds = Math.max(0, Math.ceil((examDeadline - Date.now()) / 1000));
+  exam.clock.textContent = `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+  if (seconds <= 0) finishExam(true);
+}
+
+async function startReadingExam() {
+  clearInterval(examTimer);
+  examStartedAt = Date.now();
+  examDeadline = examStartedAt + 15 * 60 * 1000;
+  examIndex = 0; examScore = 0; examItem = null; examLocked = false;
+  examTranslation = '';
+  exam.summary.classList.add('hidden');
+  exam.translationToggle.classList.add('hidden'); exam.translation.classList.add('hidden');
+  exam.translationToggle.setAttribute('aria-expanded', 'false');
+  exam.start.classList.add('hidden'); exam.restart.classList.add('hidden');
+  exam.questionArea.classList.add('hidden');
+  exam.text.textContent = 'Chargement du texte…';
+  exam.instruction.textContent = 'Lisez le passage à votre rythme. Les questions portent sur les faits, les liens logiques et les intentions.';
+  try {
+    const requestExam = () => fetch(appPath(`/api/reading/exam?exclude=${encodeURIComponent([...examSeen].join(','))}`));
+    let response = await requestExam();
+    let result = await response.json();
+    if (result.empty && examSeen.size) {
+      examSeen.clear(); response = await requestExam(); result = await response.json();
+    }
+    if (!response.ok || result.empty) throw new Error('Aucun texte disponible.');
+    examItem = result; examSeen.add(result.id);
+    exam.level.textContent = result.level_name;
+    exam.title.textContent = result.title;
+    exam.text.textContent = result.text;
+    examIndex = 0; examScore = 0;
+    showExamQuestion();
+    updateExamClock();
+    examTimer = window.setInterval(updateExamClock, 250);
+  } catch (_) {
+    exam.title.textContent = 'Le texte n’a pas pu être chargé';
+    exam.instruction.textContent = 'Réessayez dans un instant.';
+    exam.start.textContent = 'Réessayer →'; exam.start.classList.remove('hidden');
+  }
+}
+
+function showExamQuestion() {
+  if (!examItem || examIndex >= examItem.questions.length) return finishExam(false);
+  examLocked = false;
+  const current = examItem.questions[examIndex];
+  exam.questionArea.classList.remove('hidden');
+  exam.questionCount.textContent = `QUESTION ${examIndex + 1} / ${examItem.questions.length}`;
+  exam.question.textContent = current.question;
+  exam.options.replaceChildren();
+  exam.feedback.textContent = ''; exam.feedback.className = 'feedback';
+  exam.next.classList.add('hidden');
+  exam.meter.style.width = `${Math.round(examIndex / examItem.questions.length * 100)}%`;
+  current.options.forEach(option => {
+    const button = document.createElement('button');
+    button.type = 'button'; button.className = 'choice'; button.textContent = option;
+    button.addEventListener('click', () => answerExamQuestion(option, button));
+    exam.options.append(button);
+  });
+}
+
+async function answerExamQuestion(answer, selected) {
+  if (!examItem || examBusy || examLocked) return;
+  examBusy = true;
+  try {
+    const response = await fetch(appPath('/api/reading/exam/answer'), {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({id: examItem.id, index: examIndex, answer})
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || 'Correction impossible');
+    if (!result.correct) {
+      selected.classList.add('choice-wrong'); selected.disabled = true;
+      exam.feedback.textContent = 'Pas tout à fait. Gardez le texte affiché et essayez une autre réponse.';
+      exam.feedback.className = 'feedback try-again';
+      return;
+    }
+    examLocked = true; examScore++; examTranslation = result.translation;
+    exam.options.querySelectorAll('button').forEach(button => button.disabled = true);
+    selected.classList.add('choice-correct');
+    exam.feedback.textContent = `Bonne réponse. ${result.explanation}`;
+    exam.feedback.className = 'feedback success';
+    exam.next.textContent = examIndex + 1 === examItem.questions.length ? 'Voir mon résultat →' : 'Question suivante →';
+    exam.next.classList.remove('hidden');
+    exam.meter.style.width = `${Math.round((examIndex + 1) / examItem.questions.length * 100)}%`;
+  } catch (_) {
+    exam.feedback.textContent = 'La réponse n’a pas pu être vérifiée. Réessayez.';
+    exam.feedback.className = 'feedback try-again';
+  } finally { examBusy = false; }
+}
+
+function finishExam(timeUp) {
+  clearInterval(examTimer); examTimer = null;
+  if (!examItem) return;
+  const total = examItem.questions.length;
+  const elapsed = Math.max(0, Math.floor((Date.now() - examStartedAt) / 1000));
+  const pct = Math.round(examScore * 100 / total);
+  examLocked = true; exam.options.replaceChildren(); exam.questionArea.classList.add('hidden');
+  exam.meter.style.width = '100%';
+  exam.instruction.textContent = timeUp ? 'Le temps est écoulé. Vous pouvez relire le passage et refaire une épreuve.' : 'Épreuve terminée. Le corrigé détaillé est disponible question par question pendant la reprise.';
+  exam.summary.textContent = `${examScore} / ${total} bonnes réponses · ${pct} % · ${Math.floor(elapsed / 60)} min ${elapsed % 60} s${timeUp ? ' · temps écoulé' : ''}.`;
+  exam.summary.classList.remove('hidden');
+  exam.start.classList.add('hidden'); exam.restart.classList.remove('hidden');
+  if (examTranslation) {
+    exam.translation.textContent = examTranslation;
+    exam.translationToggle.classList.remove('hidden');
+  }
+  exam.clock.textContent = timeUp ? '00:00' : exam.clock.textContent;
+}
+
+exam.start?.addEventListener('click', startReadingExam);
+exam.restart?.addEventListener('click', startReadingExam);
+exam.next?.addEventListener('click', () => { examIndex++; showExamQuestion(); });
+exam.translationToggle?.addEventListener('click', () => {
+  const visible = exam.translation.classList.toggle('hidden') === false;
+  exam.translationToggle.setAttribute('aria-expanded', String(visible));
+  exam.translationToggle.textContent = visible ? 'Masquer la traduction' : 'Afficher la traduction du texte';
+});

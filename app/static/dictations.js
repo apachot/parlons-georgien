@@ -10,6 +10,7 @@ let dictationBusy = false;
 let dictationAudio = null;
 let dictationAudioSource = null;
 let dictationAudioRequest = 0;
+let dictationDirection = 'ka-fr';
 
 const dictationElements = {
   heading: document.querySelector('#dictation-heading'),
@@ -26,6 +27,7 @@ const dictationElements = {
   next: document.querySelector('#dictation-next'),
   summary: document.querySelector('#dictation-summary')
 };
+const dictationAnswerLabel = document.querySelector('#dictation-answer-label');
 
 function setFeedback(message, state = '') {
   dictationElements.feedback.textContent = message;
@@ -65,7 +67,7 @@ async function loadNextDictation() {
   setAnswerButtons();
   const exclude = [...dictationIds].join(',');
   try {
-    const response = await fetch(appPath(`/api/dictations/next?exclude=${encodeURIComponent(exclude)}`));
+    const response = await fetch(appPath(`/api/dictations/next?direction=${dictationDirection}&exclude=${encodeURIComponent(exclude)}`));
     const result = await response.json();
     if (!response.ok || result.empty) {
       finishDictationSession();
@@ -77,14 +79,19 @@ async function loadNextDictation() {
     dictationSessionNumber++;
     dictationElements.heading.classList.remove('ka');
     dictationElements.count.textContent = `Séance · ${dictationSessionNumber} / ${sessionLimit} mots`;
-    dictationElements.heading.textContent = 'Écoutez le mot, puis écrivez-le';
-    dictationElements.instruction.textContent = 'Le mot reste caché. Réécoutez-le autant de fois que nécessaire.';
+    dictationElements.heading.textContent = dictationDirection === 'ka-fr' ? 'Écoutez le mot, puis écrivez-le' : result.prompt;
+    dictationElements.instruction.textContent = dictationDirection === 'ka-fr'
+      ? 'Le mot reste caché. Réécoutez-le autant de fois que nécessaire.'
+      : 'Traduisez ce mot en géorgien et écrivez-le en mkhedruli.';
+    dictationAnswerLabel.textContent = dictationDirection === 'ka-fr' ? 'Votre réponse en géorgien' : 'Traduction en géorgien';
+    dictationElements.input.placeholder = dictationDirection === 'ka-fr' ? 'Tapez le mot entendu' : 'Écrivez le mot géorgien';
+    dictationElements.listen.classList.toggle('hidden', dictationDirection !== 'ka-fr');
     dictationElements.input.value = '';
     dictationElements.listen.disabled = false;
     dictationElements.summary.classList.add('hidden');
     setFeedback('');
     setAnswerButtons({checking: true});
-    void playDictationWord();
+    if (dictationDirection === 'ka-fr') void playDictationWord();
   } catch (_) {
     dictationElements.heading.textContent = 'La dictée n’a pas pu se charger';
     setFeedback('Vérifiez votre connexion puis réessayez.', 'try-again');
@@ -94,7 +101,7 @@ async function loadNextDictation() {
 }
 
 async function playDictationWord() {
-  if (!dictationCurrentId || dictationBusy) return;
+  if (!dictationCurrentId || dictationBusy || dictationDirection !== 'ka-fr') return;
   stopDictationAudio();
   const requestId = ++dictationAudioRequest;
   const itemId = dictationCurrentId;
@@ -153,7 +160,7 @@ function stopDictationAudio() {
 async function submitDictation(answer, skipped = false) {
   if (!dictationCurrentId || dictationBusy) return;
   if (!skipped && !answer.trim()) {
-    setFeedback('Écrivez le mot entendu, ou passez au mot suivant.', 'try-again');
+    setFeedback(dictationDirection === 'ka-fr' ? 'Écrivez le mot entendu, ou passez au mot suivant.' : 'Écrivez la traduction géorgienne avant de continuer.', 'try-again');
     return;
   }
   dictationBusy = true;
@@ -182,15 +189,17 @@ async function submitDictation(answer, skipped = false) {
       dictationElements.heading.textContent = result.solution;
       dictationElements.heading.classList.add('ka');
       dictationElements.instruction.textContent = `${result.fr} · ${result.translit}`;
-      setFeedback('La réponse était affichée ci-dessus. Écoutez-la encore avant de continuer.', 'try-again');
+      setFeedback(dictationDirection === 'ka-fr' ? 'La réponse était affichée ci-dessus. Écoutez-la encore avant de continuer.' : 'La réponse était affichée ci-dessus. Relisez-la avant de continuer.', 'try-again');
       dictationElements.listen.disabled = true;
       setAnswerButtons({next: true});
-      replayWord = true;
+      replayWord = dictationDirection === 'ka-fr';
     } else {
-      dictationElements.instruction.textContent = `Sens : ${result.fr} · Aide de lecture : ${result.translit}`;
-      setFeedback('Pas tout à fait. Réécoutez le mot et essayez encore.', 'try-again');
+      dictationElements.instruction.textContent = dictationDirection === 'ka-fr'
+        ? `Sens : ${result.fr} · Aide de lecture : ${result.translit}`
+        : `Aide de lecture : ${result.translit} · Gardez votre traduction et corrigez-la.`;
+      setFeedback(dictationDirection === 'ka-fr' ? 'Pas tout à fait. Réécoutez le mot et essayez encore.' : 'Pas tout à fait. Gardez la question et corrigez votre réponse.', 'try-again');
       dictationElements.input.focus();
-      replayWord = true;
+      replayWord = dictationDirection === 'ka-fr';
     }
   } catch (_) {
     setFeedback('La correction n’a pas pu être enregistrée. Réessayez.', 'try-again');
@@ -272,4 +281,19 @@ dictationElements.input?.addEventListener('keydown', event => {
     submitDictation(dictationElements.input.value);
   }
 });
+document.querySelectorAll('[data-dictation-direction]').forEach(button => button.addEventListener('click', () => {
+  clearAutoAdvance(); stopDictationAudio(); dictationCurrentId = null;
+  dictationDirection = button.dataset.dictationDirection;
+  document.querySelectorAll('[data-dictation-direction]').forEach(option => option.classList.toggle('active', option === button));
+  dictationElements.heading.textContent = 'Prête ou prêt à commencer ?';
+  dictationElements.heading.classList.toggle('ka', false);
+  dictationElements.instruction.textContent = dictationDirection === 'ka-fr'
+    ? 'Le mot reste caché pendant l’écoute. Vous pouvez le réécouter autant de fois que nécessaire.'
+    : 'Lisez le mot français, puis écrivez sa traduction en géorgien.';
+  dictationElements.listen.classList.toggle('hidden', dictationDirection !== 'ka-fr');
+  dictationElements.start.textContent = 'Commencer →';
+  dictationElements.start.classList.remove('hidden');
+  dictationElements.summary.classList.add('hidden');
+  dictationElements.area.classList.add('hidden');
+}));
 buildDictationKeyboard();

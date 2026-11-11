@@ -1,14 +1,13 @@
-{% extends "base.html" %}
+{% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}
 {% block title %}{{ lesson.title }} — Kartuli{% endblock %}
 {% block content %}
 <a class="back-link" href="{{ url_for('home') }}">← Toutes les leçons</a>
-<section class="lesson-header">
-  <div class="eyebrow">{{ lesson.tag }} · {{ lesson.duration }} minutes</div>
-  <h1>{{ lesson.title }}</h1>
-  <p>{{ lesson.goal }}</p>
-</section>
+{{ activity_hub('Leçon · découvrir puis pratiquer', lesson.title, lesson.goal, [
+  {'icon':'📘','label':'01 · DÉCOUVERTE','title':'Les mots et expressions','text':'Écoutez les mots, observez la prononciation et leur sens.','href':'#lesson-words'},
+  {'icon':'🎯','label':'02 · PRATIQUE','title':'Quiz dans les deux sens','text':'Répondez aux questions et reprenez celles qui vous résistent.','href':'#lesson-quiz'}
+], 'ქართული') }}
 
-<div class="learn-list">
+<div class="learn-list" id="lesson-words">
   {% for item in lesson["items"] %}
   <article class="learn-card">
     <div class="learn-word ka">{{ item.ka }}</div>

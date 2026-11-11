@@ -29,7 +29,10 @@ const game = {
   completeMessage: document.querySelector('#complete-message'),
   back: document.querySelector('#back-to-games'),
   replay: document.querySelector('#play-again'),
-  chooseAnother: document.querySelector('#choose-another-game')
+  chooseAnother: document.querySelector('#choose-another-game'),
+  crossword: document.querySelector('#crossword-game'),
+  crosswordBoard: document.querySelector('#crossword-board'),
+  crosswordFeedback: document.querySelector('#crossword-feedback')
 };
 
 const gameCopy = {
@@ -56,6 +59,12 @@ const gameCopy = {
     title: 'Le mémory',
     instruction: 'Retournez deux cartes et retrouvez les paires géorgien–français.',
     scoreUnit: 'paires'
+  },
+  crossword: {
+    eyebrow: 'MOTS FLÉCHÉS · ÉCRIRE EN MKHEDRULI',
+    title: 'La grille géorgienne',
+    instruction: 'Suivez chaque définition en français et écrivez la réponse géorgienne, lettre par lettre.',
+    scoreUnit: 'mots'
   }
 };
 
@@ -139,7 +148,8 @@ function startRound() {
   currentAudioWord = null;
   game.complete.classList.add('hidden');
   game.audio.classList.toggle('hidden', activeGame !== 'audio');
-  game.matching.classList.toggle('hidden', activeGame === 'audio');
+  game.matching.classList.toggle('hidden', activeGame === 'audio' || activeGame === 'crossword');
+  game.crossword.classList.toggle('hidden', activeGame !== 'crossword');
   game.audioNext.classList.add('hidden');
   game.audioAnswerTools.classList.add('hidden');
   game.audioFeedback.textContent = '';
@@ -147,7 +157,12 @@ function startRound() {
   showGameStatus('');
   game.score.classList.remove('hidden');
 
-  if (activeGame === 'audio') {
+  if (activeGame === 'crossword') {
+    const eligible = vocabularyItems.filter(item => item.ka && !/\s/.test(item.ka.trim()) && [...item.ka].length >= 3 && item.fr);
+    roundItems = pickRoundItems(eligible, 6, 'fr');
+    game.round.textContent = `Grille · ${roundItems.length} définitions`;
+    renderCrosswordBoard();
+  } else if (activeGame === 'audio') {
     roundItems = pickRoundItems(vocabularyItems, 10);
     showAudioQuestion();
   } else if (activeGame === 'images') {
@@ -172,6 +187,66 @@ async function saveWordAnswer(item, kind, answer) {
   const result = await response.json();
   if (!response.ok) throw new Error(result.error || 'La réponse n’a pas pu être enregistrée.');
   return result;
+}
+
+function renderCrosswordBoard() {
+  game.crosswordBoard.replaceChildren();
+  game.crosswordFeedback.textContent = '';
+  roundItems.forEach((item, index) => {
+    const row = document.createElement('div'); row.className = 'crossword-entry'; row.dataset.id = item.id;
+    const clue = document.createElement('div'); clue.className = 'crossword-clue';
+    const number = document.createElement('small'); number.textContent = `${String(index + 1).padStart(2, '0')} · DÉFINITION`;
+    const label = document.createElement('b'); label.textContent = item.fr;
+    const arrow = document.createElement('span'); arrow.textContent = '→'; arrow.setAttribute('aria-hidden', 'true');
+    clue.append(number, label, arrow);
+    const cells = document.createElement('div'); cells.className = 'crossword-cells';
+    [...item.ka].forEach((_, position) => {
+      const input = document.createElement('input'); input.className = 'crossword-cell ka'; input.lang = 'ka';
+      input.maxLength = 1; input.autocomplete = 'off'; input.spellcheck = false;
+      input.setAttribute('aria-label', `Définition ${index + 1}, lettre ${position + 1}`);
+      input.addEventListener('input', () => {
+        input.value = [...input.value].slice(-1).join('');
+        if (input.value && cells.children[position + 1]) cells.children[position + 1].focus();
+      });
+      input.addEventListener('keydown', event => {
+        if (event.key === 'Backspace' && !input.value && cells.children[position - 1]) cells.children[position - 1].focus();
+        if (event.key === 'Enter') { event.preventDefault(); checkCrosswordEntry(row, item); }
+      });
+      cells.append(input);
+    });
+    const check = document.createElement('button'); check.type = 'button'; check.className = 'crossword-check'; check.textContent = 'Vérifier';
+    check.addEventListener('click', () => checkCrosswordEntry(row, item));
+    row.append(clue, cells, check); game.crosswordBoard.append(row);
+  });
+}
+
+async function checkCrosswordEntry(row, item) {
+  if (row.classList.contains('solved') || answerBusy) return;
+  const answer = [...row.querySelectorAll('.crossword-cell')].map(cell => cell.value).join('');
+  if (!answer) {
+    game.crosswordFeedback.textContent = 'Écrivez le mot dans les cases avant de vérifier.';
+    game.crosswordFeedback.className = 'feedback try-again'; return;
+  }
+  answerBusy = true;
+  try {
+    const result = await saveWordAnswer(item, 'type', answer);
+    if (!result.correct) {
+      mistakeCount++; updateGameScore();
+      row.classList.add('crossword-error');
+      game.crosswordFeedback.textContent = 'Pas tout à fait. Corrigez les cases puis réessayez.';
+      game.crosswordFeedback.className = 'feedback try-again';
+      window.setTimeout(() => row.classList.remove('crossword-error'), 550);
+      return;
+    }
+    foundCount++; row.classList.add('solved');
+    row.querySelectorAll('input,button').forEach(control => control.disabled = true);
+    game.crosswordFeedback.textContent = `Bien trouvé : ${item.ka} · ${item.fr}`;
+    game.crosswordFeedback.className = 'feedback success';
+    playSuccessSound(); updateGameScore(); updateGameProgress();
+    if (foundCount === roundItems.length) scheduleAutoAdvance(finishGame, 900);
+  } catch (_) {
+    showGameStatus('La réponse n’a pas pu être vérifiée. Réessayez.', 'error');
+  } finally { answerBusy = false; }
 }
 
 function renderMatchingBoard(boardMode) {
@@ -388,6 +463,7 @@ function finishGame() {
   clearAutoAdvance();
   game.audio.classList.add('hidden');
   game.matching.classList.add('hidden');
+  game.crossword.classList.add('hidden');
   game.complete.classList.remove('hidden');
   game.completeMessage.textContent = `${foundCount} ${gameCopy[activeGame].scoreUnit} retrouvés · ${mistakeCount} erreur${mistakeCount === 1 ? '' : 's'}. Votre progression est enregistrée.`;
   game.score.classList.add('hidden');

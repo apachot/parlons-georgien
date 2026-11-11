@@ -5,6 +5,7 @@ let attempts = 0;
 const seen = new Set();
 const quizBox = document.querySelector('#quiz');
 const mode = quizBox?.dataset.mode || 'mixed';
+const exerciseMode = quizBox?.dataset.exercise || '';
 
 async function loadQuestion() {
   clearAutoAdvance();
@@ -18,7 +19,7 @@ async function loadQuestion() {
   document.querySelector('#submit-order').disabled = false;
   document.querySelector('#quiz-choices').innerHTML = '<span class="muted">Préparation de la question…</span>';
   const exclude = [...seen].join(',');
-  const exercise = mode === 'review' ? 'mcq' : ['mcq','type','match','order'][(attempts) % 4];
+  const exercise = mode === 'review' ? 'mcq' : exerciseMode || ['mcq','type','match','order'][(attempts) % 4];
   const response = await fetch(appPath(`/api/quiz?mode=${encodeURIComponent(mode)}&exercise=${exercise}&exclude=${encodeURIComponent(exclude)}`));
   question = await response.json();
   if (question.empty) {

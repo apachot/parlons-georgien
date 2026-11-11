@@ -76,6 +76,12 @@ def dictation_words():
 def reading_texts():
     return load_content("readings")
 
+def reading_exam_texts():
+    return load_content("reading_exams")
+
+def grammar_exercises():
+    return load_content("grammar_exercises")
+
 
 def create_app(test_config=None):
     app = Flask(__name__)
@@ -140,7 +146,42 @@ def create_app(test_config=None):
 
     @app.get("/grammar")
     def grammar():
-        return render_template("grammar.html", cards=load_content("grammar"))
+        return render_template("grammar.html", cards=load_content("grammar"),
+                               exercise_total=len(grammar_exercises()))
+
+    @app.get("/api/grammar/next")
+    def next_grammar_exercise():
+        category = request.args.get("category", "temps")
+        items = [item for item in grammar_exercises()
+                 if category == "all" or item["category"] == category]
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in items if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "total": len(items)})
+        selected = random.choice(candidates)
+        return jsonify({key: selected[key] for key in ("id", "category", "prompt", "options")})
+
+    @app.post("/api/grammar/answer")
+    def answer_grammar_exercise():
+        data = request.get_json(silent=True) or {}
+        item = next((entry for entry in grammar_exercises() if entry["id"] == data.get("id")), None)
+        if item is None:
+            return jsonify({"error": "Question inconnue."}), 404
+        correct = data.get("answer") == item["answer"]
+        progress_id = f"grammar:{item['id']}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="grammar", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1; row.correct += int(correct); row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=min(30, 2 ** min(row.streak, 5)) if correct else 0,
+                                                   minutes=0 if correct else 10)
+        db.session.commit()
+        if not correct:
+            return jsonify({"correct": False})
+        return jsonify({"correct": correct, "answer": item["answer"],
+                        "explanation": item["explanation"]})
 
     @app.get("/dialogues")
     def dialogues():
@@ -156,7 +197,50 @@ def create_app(test_config=None):
 
     @app.get("/reading")
     def reading():
-        return render_template("reading.html", total=len(reading_texts()))
+        return render_template("reading.html", total=len(reading_texts()),
+                               exam_total=len(reading_exam_texts()))
+
+    @app.get("/api/reading/exam")
+    def next_reading_exam():
+        exams = reading_exam_texts()
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in exams if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True})
+        selected = random.choice(candidates)
+        return jsonify({"id": selected["id"], "title": selected["title"],
+                        "level_name": selected["level_name"], "text": selected["text"],
+                        "questions": [{"question": q["question"], "options": q["options"]}
+                                      for q in selected["questions"]]})
+
+    @app.post("/api/reading/exam/answer")
+    def answer_reading_exam():
+        data = request.get_json(silent=True) or {}
+        text_id = str(data.get("id", ""))
+        try:
+            index = int(data.get("index", -1))
+        except (TypeError, ValueError):
+            return jsonify({"error": "Question invalide."}), 400
+        item = next((entry for entry in reading_exam_texts() if entry["id"] == text_id), None)
+        if item is None or index not in range(len(item["questions"])):
+            return jsonify({"error": "Question inconnue."}), 404
+        question = item["questions"][index]
+        correct = data.get("answer") == question["answer"]
+        progress_id = f"reading-exam:{text_id}:{index}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="reading", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=1 if correct else 0, minutes=0 if correct else 10)
+        db.session.commit()
+        if not correct:
+            return jsonify({"correct": False})
+        return jsonify({"correct": correct, "answer": question["answer"],
+                        "explanation": question["explanation"], "translation": item["translation"]})
 
     @app.get("/api/reading/next")
     def next_reading():
@@ -210,6 +294,9 @@ def create_app(test_config=None):
     @app.get("/api/dictations/next")
     def next_dictation():
         words = dictation_words()
+        direction = request.args.get("direction", "ka-fr")
+        if direction not in {"ka-fr", "fr-ka"}:
+            return jsonify({"error": "Sens de dictée invalide."}), 400
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [word for word in words if word["id"] not in excluded]
         if not candidates:
@@ -222,7 +309,8 @@ def create_app(test_config=None):
                and progress[word["id"]].due_at <= now]
         unseen = [word for word in candidates if word["id"] not in progress]
         selected = random.choice(due or unseen or candidates)
-        return jsonify({"id": selected["id"], "total": len(words)})
+        return jsonify({"id": selected["id"], "total": len(words),
+                        "prompt": selected["fr"] if direction == "fr-ka" else None})
 
     @app.get("/api/dictations/audio/<item_id>")
     def dictation_audio(item_id):

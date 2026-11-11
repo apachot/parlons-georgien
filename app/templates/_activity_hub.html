@@ -1,0 +1,9 @@
+{% macro activity_hub(kicker, title, lead, cards, art='გამარჯობა') -%}
+<section class="activity-hero">
+  <div class="activity-hero-copy"><div class="eyebrow"><span class="dot"></span>{{ kicker }}</div><h1>{{ title }}</h1><p>{{ lead }}</p></div>
+  <div class="activity-hero-art" aria-hidden="true"><span>{{ art }}</span><small>kartuli · apprendre en jouant</small><i>✦</i></div>
+</section>
+<section class="activity-hub"><div class="vocabulary-section-heading"><div><div class="eyebrow">Choisissez votre défi</div><h2>Comment on s’entraîne ?</h2></div><span class="section-side-note">Plusieurs façons de progresser</span></div><div class="activity-card-grid">
+{% for card in cards %}<a class="activity-card activity-tone-{{ loop.index0 % 4 }}" href="{{ card.href }}"><span class="activity-card-icon" aria-hidden="true">{{ card.icon }}</span><span class="activity-card-copy"><small>{{ card.label }}</small><b>{{ card.title }}</b><span>{{ card.text }}</span></span><span class="module-arrow">{{ card.action|default('Explorer') }} <b>↗</b></span></a>{% endfor %}
+</div></section>
+{%- endmacro %}

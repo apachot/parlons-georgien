@@ -43,6 +43,11 @@
         <span class="module-copy"><small>04 · MÉMOIRE</small><b>Le mémory</b><span>Retourne deux cartes et retrouve les traductions cachées.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
+      <button type="button" class="vocabulary-module module-crossword" data-module="crossword">
+        <span class="module-icon"><span aria-hidden="true">✏️</span></span>
+        <span class="module-copy"><small>05 · MOTS FLÉCHÉS</small><b>La grille géorgienne</b><span>Lis les définitions en français et remplis les cases en mkhedruli.</span></span>
+        <span class="module-arrow">Jouer <b>↗</b></span>
+      </button>
     </div>
   </section>
 
@@ -70,6 +75,7 @@
       <div class="matching-board" id="matching-board" aria-label="Cartes à associer"></div>
       <div class="feedback" id="matching-feedback" aria-live="polite"></div>
     </div>
+    <div class="crossword-game hidden" id="crossword-game"><div class="crossword-instruction">Lisez l’indice, puis écrivez le mot géorgien dans les cases.</div><div id="crossword-board" class="crossword-board" aria-label="Grille de mots fléchés"></div><div class="feedback" id="crossword-feedback" aria-live="polite"></div></div>
     <div class="game-complete hidden" id="game-complete" aria-live="polite">
       <div class="complete-confetti">✦ &nbsp; ✳ &nbsp; ✦</div><h3>Manche terminée !</h3><p id="complete-message"></p>
       <button type="button" class="button primary" id="play-again">Rejouer →</button>

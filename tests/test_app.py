@@ -75,6 +75,9 @@ class AppFlowTests(unittest.TestCase):
         next_word = self.client.get("/api/dictations/next").json
         self.assertIn(next_word["id"], {word["id"] for word in dictation_words()})
         self.assertNotIn("ka", next_word)
+        french_prompt = self.client.get("/api/dictations/next?direction=fr-ka").json
+        self.assertTrue(french_prompt.get("prompt"))
+        self.assertNotIn("ka", french_prompt)
 
         wrong = self.client.post("/api/dictations/answer", json={"id": "v-031", "answer": "წყალიი"})
         self.assertFalse(wrong.json["correct"])
@@ -126,6 +129,39 @@ class AppFlowTests(unittest.TestCase):
 
         invalid = self.client.get("/api/reading/next?level=5")
         self.assertEqual(invalid.status_code, 400)
+
+    def test_long_reading_exam_returns_passages_and_scores_each_question(self):
+        page = self.client.get("/reading")
+        self.assertIn(b"reading-exam", page.data)
+        exam = self.client.get("/api/reading/exam").json
+        self.assertEqual(len(exam["questions"]), 5)
+        self.assertGreater(len(exam["text"]), 500)
+        self.assertNotIn("answer", str(exam))
+        question = load_content("reading_exams")[0]["questions"][0]
+        item_id = load_content("reading_exams")[0]["id"]
+        wrong_answer = next(option for option in question["options"] if option != question["answer"])
+        wrong = self.client.post("/api/reading/exam/answer", json={"id": item_id, "index": 0, "answer": wrong_answer})
+        self.assertFalse(wrong.json["correct"])
+        correct = self.client.post("/api/reading/exam/answer", json={"id": item_id, "index": 0, "answer": question["answer"]})
+        self.assertTrue(correct.json["correct"])
+        with self.app.app_context():
+            row = Progress.query.filter_by(item_id=f"reading-exam:{item_id}:0").first()
+            self.assertEqual((row.seen, row.correct), (2, 1))
+
+    def test_grammar_topics_have_quizzable_correct_options_and_save_progress(self):
+        exercises = load_content("grammar_exercises")
+        self.assertGreaterEqual(len(exercises), 12)
+        self.assertTrue(all(item["answer"] in item["options"] for item in exercises))
+        for category in ("temps", "preverbes", "cas", "suffixes", "all"):
+            question = self.client.get(f"/api/grammar/next?category={category}").json
+            self.assertNotIn("answer", question)
+            self.assertIn(question["id"], {item["id"] for item in exercises})
+        item = exercises[0]
+        result = self.client.post("/api/grammar/answer", json={"id": item["id"], "answer": item["answer"]})
+        self.assertTrue(result.json["correct"])
+        with self.app.app_context():
+            row = Progress.query.filter_by(item_id=f"grammar:{item['id']}").first()
+            self.assertEqual((row.kind, row.seen, row.correct), ("grammar", 1, 1))
 
     def test_answer_persists_and_normalizes_french_punctuation(self):
         response = self.client.post("/api/answer", json={"id": "v-001", "kind": "vocabulary", "answer": " Bonjour ! "})
