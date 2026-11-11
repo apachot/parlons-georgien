@@ -2,6 +2,7 @@
 """Pre-generate audio for the curated Georgian and French course phrases."""
 
 import json
+import argparse
 import importlib.util
 import os
 import subprocess
@@ -50,17 +51,28 @@ def phrases():
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--force-language", choices=("ka", "fr"), action="append", default=[],
+                        help="Régénère les extraits de cette langue déjà présents dans le cache.")
+    args = parser.parse_args()
     output_root = Path(os.environ.get("KARTULI_AUDIO_DIR", ROOT / "instance" / "audio"))
     espeak = os.environ.get("ESPEAK_NG_BIN", "espeak-ng")
-    model = Path(os.environ.get(
+    ka_model = Path(os.environ.get(
+        "PIPER_KA_MODEL",
+        ROOT / "instance" / "tts-voices" / "ka_GE-natia-medium.onnx",
+    ))
+    fr_model = Path(os.environ.get(
         "PIPER_FR_MODEL",
         ROOT / "instance" / "tts-voices" / "fr_FR-siwis-medium.onnx",
     ))
-    if not model.is_file():
-        raise SystemExit(f"Modèle Piper français absent : {model}")
+    if not fr_model.is_file():
+        raise SystemExit(f"Modèle Piper français absent : {fr_model}")
     from piper import PiperVoice
 
-    french_voice = PiperVoice.load(str(model))
+    french_voice = PiperVoice.load(str(fr_model))
+    georgian_voice = None
+    if ka_model.is_file():
+        georgian_voice = PiperVoice.load(str(ka_model))
     audio_phrases = phrases()
     totals = {"ka": 0, "fr": 0}
     for language, texts in audio_phrases.items():
@@ -68,19 +80,20 @@ def main():
         target_dir.mkdir(parents=True, exist_ok=True)
         for text in texts:
             target = target_dir / audio_name(language, text)
-            if target.is_file() and target.stat().st_size:
+            if target.is_file() and target.stat().st_size and language not in args.force_language:
                 continue
             with tempfile.NamedTemporaryFile(dir=target_dir, suffix=".wav", delete=False) as temp:
                 temporary = Path(temp.name)
             try:
-                if language == "ka":
+                if language == "ka" and georgian_voice is None:
                     subprocess.run(
                         [espeak, "-v", "ka", "-s", "138", "-w", str(temporary), text],
                         check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
                     )
                 else:
                     with wave.open(str(temporary), "wb") as wav_file:
-                        french_voice.synthesize_wav(text, wav_file)
+                        voice = georgian_voice if language == "ka" else french_voice
+                        voice.synthesize_wav(text, wav_file)
                 temporary.replace(target)
             finally:
                 temporary.unlink(missing_ok=True)
