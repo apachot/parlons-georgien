@@ -123,6 +123,11 @@ function updateGameProgress() {
 
 function openGame(mode) {
   clearAutoAdvance();
+  if (mode === 'catalog') {
+    gameHome.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
+    gameCatalog.scrollIntoView({behavior: 'smooth', block: 'start'});
+    return;
+  }
   activeGame = mode;
   activeDirection = 'ka-fr';
   gameHome.classList.add('hidden');
@@ -477,7 +482,7 @@ function returnToGameHome() {
   activeGame = null;
   gameScreen.classList.add('hidden');
   gameHome.classList.remove('hidden');
-  gameCatalog.classList.remove('hidden');
+  gameCatalog.classList.add('hidden');
   gameHome.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 
@@ -485,6 +490,7 @@ document.querySelectorAll('.vocabulary-module').forEach(button => {
   button.addEventListener('click', () => openGame(button.dataset.module));
 });
 game.back.addEventListener('click', returnToGameHome);
+document.querySelector('#back-to-vocabulary-games')?.addEventListener('click', returnToGameHome);
 game.replay.addEventListener('click', startRound);
 game.chooseAnother.addEventListener('click', returnToGameHome);
 game.audioReplay.addEventListener('click', () => {

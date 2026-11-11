@@ -48,6 +48,11 @@
         <span class="module-copy"><small>05 · MOTS FLÉCHÉS</small><b>La grille géorgienne</b><span>Lis les définitions en français et remplis les cases en mkhedruli.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
+      <button type="button" class="vocabulary-module module-memory" data-module="catalog">
+        <span class="module-icon">📚</span>
+        <span class="module-copy"><small>06 · FEUILLETER</small><b>Les fiches de vocabulaire</b><span>Parcourez les mots, leur prononciation et des phrases exemples.</span></span>
+        <span class="module-arrow">Ouvrir <b>↗</b></span>
+      </button>
     </div>
   </section>
 
@@ -83,7 +88,8 @@
     </div>
   </section>
 
-<div class="vocabulary-home-catalog" id="vocabulary-home-catalog">
+<div class="vocabulary-home-catalog hidden" id="vocabulary-home-catalog">
+  <button class="back-to-games" id="back-to-vocabulary-games" type="button">← Tous les jeux</button>
   <details class="vocabulary-catalog">
     <summary>Feuilleter les 120 fiches de vocabulaire</summary>
     <div class="catalog-tools"><input class="search-input" id="word-search" placeholder="Chercher en français, géorgien ou translittération…" aria-label="Rechercher un mot"><span id="catalog-count">{{ vocab|length }} mots</span></div>

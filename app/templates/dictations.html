@@ -3,18 +3,15 @@
 {% block title %}Dictées de mots — Kartuli{% endblock %}
 {% block content %}
 {{ activity_hub('Dictées · écouter, traduire, écrire', 'Un mot, deux chemins.', 'Écrivez ce que vous entendez en géorgien, ou partez du français pour retrouver le mot en mkhedruli.', [
- {'icon':'🎧','label':'01 · DICTÉE AUDIO','title':'Écouter → écrire','text':'Écoutez un mot géorgien et écrivez-le en mkhedruli.','href':'#dictation-modes','action':'Choisir'},
- {'icon':'🔁','label':'02 · TRADUCTION','title':'Français → géorgien','text':'Lisez le sens français et retrouvez la forme géorgienne.','href':'#dictation-modes','action':'Choisir'},
- {'icon':'⌨️','label':'03 · CLAVIER','title':'Écrire en mkhedruli','text':'Le clavier géorgien à l’écran aide sur téléphone et ordinateur.','href':'#dictation-modes','action':'Choisir'}
+ {'icon':'🎧','label':'01 · DICTÉE AUDIO','title':'Écouter → écrire','text':'Écoutez un mot géorgien et écrivez-le en mkhedruli.','href':'#dictation','direction':'ka-fr','action':'Choisir'},
+ {'icon':'🔁','label':'02 · TRADUCTION','title':'Français → géorgien','text':'Lisez le sens français et retrouvez la forme géorgienne.','href':'#dictation','direction':'fr-ka','action':'Choisir'},
+
 ], 'მინდა') }}
 
-<section class="dictation-mode-picker" id="dictation-modes" role="group" aria-label="Choisir le sens de la dictée">
-  <button class="dictation-mode active" type="button" data-dictation-direction="ka-fr"><span>🎧</span><small>KA → KA</small><b>Écouter et écrire</b><em>Le mot est lu à voix haute.</em></button>
-  <button class="dictation-mode" type="button" data-dictation-direction="fr-ka"><span>🇫🇷</span><small>FR → KA</small><b>Traduire en géorgien</b><em>Le sens français donne l’indice.</em></button>
-</section>
 
-<section class="exercise-box dictation-box" id="dictation" data-total-words="{{ total }}">
-  <div class="eyebrow" id="dictation-count">Séance courte · 10 mots</div>
+
+<section class="exercise-box dictation-box hidden" id="dictation" data-activity-panel data-total-words="{{ total }}">
+  <button class="back-to-games" data-activity-back type="button">← Toutes les dictées</button><div class="dictation-mode-picker hidden" aria-hidden="true"><button type="button" data-dictation-direction="ka-fr">KA</button><button type="button" data-dictation-direction="fr-ka">FR</button></div><div class="eyebrow" id="dictation-count">Séance courte · 10 mots</div>
   <h2 id="dictation-heading">Prête ou prêt à écouter ?</h2>
   <p id="dictation-instruction">Le mot reste caché pendant l’écoute. Vous pouvez le réécouter autant de fois que nécessaire.</p>
   <button class="button secondary dictation-listen" id="dictation-listen" disabled>↻ Réécouter le mot</button>
@@ -32,6 +29,6 @@
   </div>
   <div class="lesson-summary hidden" id="dictation-summary" aria-live="polite"></div>
 </section>
-<p class="back-link"><a href="{{ url_for('vocabulary') }}">← Revoir le vocabulaire</a></p>
+
 {% endblock %}
 {% block scripts %}<script src="{{ url_for('static', filename='dictations.js') }}" defer></script>{% endblock %}

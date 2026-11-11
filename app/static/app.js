@@ -15,6 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
     button.textContent = text.classList.contains('hidden') ? 'Afficher la prononciation' : 'Masquer la prononciation';
   }));
   document.querySelectorAll('.audio-btn[data-speak]').forEach(button => button.addEventListener('click', () => playSpeech(button.dataset.speak, button.dataset.lang || 'ka', button)));
+  const activityPanels = [...document.querySelectorAll('[data-activity-panel]')];
+  const activityMenus = [...document.querySelectorAll('[data-activity-menu]')];
+  function showActivityMenu() {
+    activityPanels.forEach(panel => panel.classList.add('hidden'));
+    activityMenus.forEach(menu => menu.classList.remove('hidden'));
+    document.querySelector('.activity-hero, .vocabulary-hero')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+  document.querySelectorAll('.activity-card[href^="#"]').forEach(card => card.addEventListener('click', event => {
+    const target = document.querySelector(card.getAttribute('href'));
+    const panel = target?.closest('[data-activity-panel]') || target;
+    if (!panel) return;
+    event.preventDefault();
+    activityPanels.forEach(item => item.classList.toggle('hidden', item !== panel));
+    activityMenus.forEach(menu => menu.classList.add('hidden'));
+    if (card.dataset.activityDirection) document.querySelector(`[data-dictation-direction="${card.dataset.activityDirection}"]`)?.click();
+    if (card.dataset.activityCategory) document.querySelector(`.grammar-category-list [data-category="${card.dataset.activityCategory}"]`)?.click();
+    panel.querySelector('[data-activity-back]')?.classList.remove('hidden');
+    panel.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }));
+  document.querySelectorAll('[data-activity-back]').forEach(button => button.addEventListener('click', showActivityMenu));
   document.querySelector('#word-search')?.addEventListener('input', e => {
     const query = e.target.value.trim().toLocaleLowerCase('fr');
     document.querySelectorAll('.vocab-card').forEach(card => card.hidden = !card.dataset.search.toLocaleLowerCase('fr').includes(query));
@@ -69,12 +89,13 @@ document.addEventListener('DOMContentLoaded', () => {
       advance.classList.toggle('hidden', !!steps[current].querySelector('.dialogue-choices'));
     });
   });
-  const immersionButton = document.querySelector('#dialogue-immersion');
-  immersionButton?.addEventListener('click', () => {
+  document.querySelectorAll('.dialogue-immersion-toggle').forEach(immersionButton => immersionButton.addEventListener('click', () => {
     const immersive = document.body.classList.toggle('dialogue-immersion');
-    immersionButton.setAttribute('aria-pressed', String(immersive));
-    immersionButton.textContent = immersive ? 'Afficher le français' : 'Masquer le français';
-  });
+    document.querySelectorAll('.dialogue-immersion-toggle').forEach(button => {
+      button.setAttribute('aria-pressed', String(immersive));
+      button.textContent = immersive ? 'Afficher le français' : 'Masquer le français';
+    });
+  }));
 });
 
 function appPath(path) {

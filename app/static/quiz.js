@@ -5,7 +5,7 @@ let attempts = 0;
 const seen = new Set();
 const quizBox = document.querySelector('#quiz');
 const mode = quizBox?.dataset.mode || 'mixed';
-const exerciseMode = quizBox?.dataset.exercise || '';
+const exerciseMode = quizBox?.dataset.exercise === 'mixed' ? '' : (quizBox?.dataset.exercise || '');
 
 async function loadQuestion() {
   clearAutoAdvance();
@@ -179,4 +179,4 @@ document.querySelector('#quiz-pron-toggle')?.addEventListener('click', () => {
   const pron = document.querySelector('#quiz-pron'); pron.classList.toggle('hidden');
   document.querySelector('#quiz-pron-toggle').textContent = pron.classList.contains('hidden') ? 'Afficher la prononciation' : 'Masquer la prononciation';
 });
-loadQuestion();
+if (quizBox && !quizBox.classList.contains('hidden')) loadQuestion();

@@ -3,15 +3,12 @@
 {% block title %}Compréhension écrite — Kartuli{% endblock %}
 {% block content %}
 {{ activity_hub('Lecture · lire, comprendre, déduire', 'Lisez entre les lignes.', 'Des premiers passages aux textes longs en géorgien : entraînez-vous à repérer les faits, les intentions et les détails.', [
-  {'icon':'📖','label':'01 · PAS À PAS','title':'Lecture guidée','text':'Un texte court, une question, une explication après chaque réponse.','href':'#reading-modes','action':'Choisir'},
-  {'icon':'⏱️','label':'02 · FORMAT EXAMEN','title':'Étude de texte','text':'Longs passages en géorgien, série de questions et score final chronométré.','href':'#reading-modes','action':'Choisir'}
+  {'icon':'📖','label':'01 · PAS À PAS','title':'Lecture guidée','text':'Un texte court, une question, une explication après chaque réponse.','href':'#reading','mode':'guided','action':'Choisir'},
+  {'icon':'⏱️','label':'02 · FORMAT EXAMEN','title':'Étude de texte','text':'Longs passages en géorgien, série de questions et score final chronométré.','href':'#reading-exam','mode':'exam','action':'Choisir'}
 ], 'თბილისი') }}
-<section class="reading-mode-picker" id="reading-modes" aria-label="Choisir un mode de lecture">
-  <button type="button" class="reading-mode active" data-reading-mode="guided"><span>🌱</span><small>ENTRAÎNEMENT PROGRESSIF</small><b>Lecture guidée</b><em>12 textes · réponses expliquées</em></button>
-  <button type="button" class="reading-mode" data-reading-mode="exam"><span>📝</span><small>COMPRÉHENSION ÉCRITE</small><b>Étude de texte</b><em>Passage long · questions · 15 min</em></button>
-</section>
-<section class="exercise-box reading-box" id="reading" data-total="{{ total }}">
-  <div class="eyebrow" id="reading-count">Séance · 12 textes</div>
+
+<section class="exercise-box reading-box hidden" id="reading" data-activity-panel data-total="{{ total }}">
+  <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="eyebrow" id="reading-count">Séance · 12 textes</div>
   <div class="reading-meter" aria-hidden="true"><i id="reading-meter-fill"></i></div>
   <div class="lesson-tag" id="reading-level">Niveau débutant</div>
   <h2 class="reading-text ka" id="reading-text">Prête ou prêt à lire ?</h2>
@@ -25,8 +22,8 @@
   </div>
   <div class="lesson-summary hidden" id="reading-summary" aria-live="polite"></div>
 </section>
-<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-total="{{ exam_total }}">
-  <div class="reading-exam-top"><div><div class="eyebrow" id="exam-level">Épreuve de compréhension</div><h2 id="exam-title">Prête ou prêt pour l’épreuve ?</h2></div><div class="reading-exam-clock"><small>TEMPS RESTANT</small><b id="exam-clock">15:00</b></div></div>
+<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-activity-panel data-total="{{ exam_total }}">
+  <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="reading-exam-top"><div><div class="eyebrow" id="exam-level">Épreuve de compréhension</div><h2 id="exam-title">Prête ou prêt pour l’épreuve ?</h2></div><div class="reading-exam-clock"><small>TEMPS RESTANT</small><b id="exam-clock">15:00</b></div></div>
   <div class="reading-exam-meter"><i id="exam-meter"></i></div>
   <div class="reading-exam-text ka" id="exam-text" lang="ka">Un texte long en géorgien apparaîtra ici.</div>
   <div class="reading-exam-question hidden" id="exam-question-area"><div class="reading-exam-question-count" id="exam-question-count"></div><h3 id="exam-question"></h3><div class="reading-options" id="exam-options"></div><div class="feedback" id="exam-feedback" aria-live="polite"></div><button class="button primary hidden" id="exam-next">Question suivante →</button></div>

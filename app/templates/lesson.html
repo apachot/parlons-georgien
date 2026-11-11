@@ -7,7 +7,7 @@
   {'icon':'🎯','label':'02 · PRATIQUE','title':'Quiz dans les deux sens','text':'Répondez aux questions et reprenez celles qui vous résistent.','href':'#lesson-quiz'}
 ], 'ქართული') }}
 
-<div class="learn-list" id="lesson-words">
+<div class="learn-list hidden" id="lesson-words" data-activity-panel><button class="back-to-games" data-activity-back type="button">← Retour à la leçon</button>
   {% for item in lesson["items"] %}
   <article class="learn-card">
     <div class="learn-word ka">{{ item.ka }}</div>
@@ -22,8 +22,8 @@
   {% endfor %}
 </div>
 
-<section class="exercise-box lesson-quiz" id="lesson-quiz" data-lesson="{{ lesson.id }}">
-  <div class="eyebrow">Vérification · {{ questions|length }} questions</div>
+<section class="exercise-box lesson-quiz hidden" id="lesson-quiz" data-activity-panel data-lesson="{{ lesson.id }}">
+  <button class="back-to-games" data-activity-back type="button">← Retour à la leçon</button><div class="eyebrow">Vérification · {{ questions|length }} questions</div>
   <h2 id="lesson-question-title">Préparez-vous à répondre</h2>
   <div class="quiz-progress" aria-label="Progression du questionnaire"><i id="lesson-progress"></i></div>
   <div class="lesson-question ka" id="lesson-question" aria-live="polite"></div>
