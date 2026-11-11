@@ -94,17 +94,20 @@ async function answerReading(answer, selected) {
       readingCorrect++;
       selected.classList.add('choice-correct');
       playSuccessSound();
+      reading.feedback.textContent = 'Oui, vous avez bien compris !';
+      reading.feedback.className = 'feedback success';
+      reading.reveal.textContent = `${result.translation} — ${result.explanation}`;
+      reading.reveal.classList.remove('hidden');
+      reading.next.classList.remove('hidden');
+      readingTurn++;
+      reading.meter.style.width = `${Math.round(readingTurn / readingSessionSize * 100)}%`;
+      scheduleAutoAdvance(loadReadingQuestion, 2400);
     } else {
       selected.classList.add('choice-wrong');
+      reading.options.querySelectorAll('button').forEach(button => button.disabled = button === selected);
+      reading.feedback.textContent = 'Pas tout à fait. Gardez le texte affiché et réessayez avec une autre proposition.';
+      reading.feedback.className = 'feedback try-again';
     }
-    reading.feedback.textContent = result.correct ? 'Oui, vous avez bien compris !' : 'Pas tout à fait : voici le sens du texte.';
-    reading.feedback.className = `feedback ${result.correct ? 'success' : 'try-again'}`;
-    reading.reveal.textContent = `${result.translation} — ${result.explanation}`;
-    reading.reveal.classList.remove('hidden');
-    reading.next.classList.remove('hidden');
-    readingTurn++;
-    reading.meter.style.width = `${Math.round(readingTurn / readingSessionSize * 100)}%`;
-    if (result.correct) scheduleAutoAdvance(loadReadingQuestion, 2400);
   } catch (_) {
     reading.options.querySelectorAll('button').forEach(button => button.disabled = false);
     setReadingFeedback('La réponse n’a pas pu être enregistrée. Réessayez.', 'try-again');

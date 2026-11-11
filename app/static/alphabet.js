@@ -66,16 +66,20 @@ function nextSpeedLetter() {
 
 function answerSpeedLetter(button, choice) {
   if (speedLocked || !speedCurrentLetter || Date.now() >= speedEndsAt) return;
-  speedLocked = true;
   speedAnswerCount++;
   const correct = choice.id === speedCurrentLetter.id;
-  if (correct) speedCorrectCount++;
-  speed.choices.querySelectorAll('button').forEach(option => {
-    option.disabled = true;
-    if (option.querySelector('span')?.textContent === speedCurrentLetter.sound) option.classList.add('speed-right');
-  });
+  if (correct) {
+    speedLocked = true;
+    speedCorrectCount++;
+    speed.choices.querySelectorAll('button').forEach(option => {
+      option.disabled = true;
+      if (option.querySelector('span')?.textContent === speedCurrentLetter.sound) option.classList.add('speed-right');
+    });
+  } else {
+    button.disabled = true;
+  }
   button.classList.add(correct ? 'speed-right' : 'speed-wrong');
-  speed.feedback.textContent = correct ? 'Bien lu !' : `C’était ${speedCurrentLetter.sound}.`;
+  speed.feedback.textContent = correct ? 'Bien lu !' : 'Pas tout à fait. Gardez cette lettre et réessayez.';
   speed.correct.textContent = String(speedCorrectCount);
   updateSpeedStats();
   if (correct) playSuccessSound();
@@ -83,7 +87,7 @@ function answerSpeedLetter(button, choice) {
     method: 'POST', headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({id: speedCurrentLetter.id, kind: 'alphabet', answer: correct ? speedCurrentLetter.sound : choice.sound, quality: correct ? 5 : 1})
   }).catch(() => {});
-  if (Date.now() < speedEndsAt) speedAdvanceTimer = setTimeout(nextSpeedLetter, 240);
+  if (correct && Date.now() < speedEndsAt) speedAdvanceTimer = setTimeout(nextSpeedLetter, 240);
 }
 
 function finishSpeedRound() {
@@ -136,13 +140,15 @@ async function newLetterQuestion() {
     const button = document.createElement('button'); button.className = 'letter-choice ka'; button.textContent = letter;
     button.addEventListener('click', async () => {
       const result = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:activeLetter.id,kind:'alphabet',answer:letter})}).then(r=>r.json());
-      holder.querySelectorAll('button').forEach(b=>b.disabled=true);
       button.classList.add(result.correct?'choice-correct':'choice-wrong');
       if (result.correct) {
+        holder.querySelectorAll('button').forEach(b=>b.disabled=true);
         playSuccessSound();
         scheduleAutoAdvance(newLetterQuestion);
+      } else {
+        button.disabled = true;
       }
-      document.querySelector('#letter-feedback').textContent = result.correct ? 'Oui, c’est la bonne lettre !' : `On la retrouve : ${result.solution}. ${result.explanation}`;
+      document.querySelector('#letter-feedback').textContent = result.correct ? 'Oui, c’est la bonne lettre !' : 'Pas tout à fait. Gardez le même son et essayez une autre lettre.';
     }); holder.append(button);
   });
 }

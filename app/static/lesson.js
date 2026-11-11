@@ -54,24 +54,27 @@ function renderLessonQuestion() {
 
 function answerLessonQuestion(selected, question) {
   const choices = document.querySelectorAll('#lesson-choices .choice');
-  choices.forEach(choice => {
-    choice.disabled = true;
-    if (choice.dataset.correct === 'true') choice.classList.add('choice-correct');
-  });
   const correct = selected.dataset.correct === 'true';
   if (correct) {
+    choices.forEach(choice => {
+      choice.disabled = true;
+      if (choice.dataset.correct === 'true') choice.classList.add('choice-correct');
+    });
     lessonCorrect++;
     playSuccessSound();
+    selected.classList.add('choice-correct');
+  } else {
+    selected.disabled = true;
+    selected.classList.add('choice-wrong');
   }
-  if (!correct) selected.classList.add('choice-wrong');
 
   const feedback = document.querySelector('#lesson-feedback');
   feedback.textContent = correct
     ? 'Exactement ! Vous avez retrouvé la bonne réponse.'
-    : `La bonne réponse était : ${question.answer}. Relisez-la avant de continuer.`;
+    : 'Pas tout à fait. Gardez la même question et essayez une autre réponse.';
   feedback.className = `feedback ${correct ? 'success' : 'try-again'}`;
   const next = document.querySelector('#lesson-next');
-  next.classList.remove('hidden');
+  next.classList.toggle('hidden', !correct);
   if (correct) scheduleAutoAdvance(advanceLessonQuestion);
 }
 

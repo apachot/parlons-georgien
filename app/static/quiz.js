@@ -1,5 +1,6 @@
 let question = null;
 let answered = false;
+let quizBusy = false;
 let attempts = 0;
 const seen = new Set();
 const quizBox = document.querySelector('#quiz');
@@ -72,21 +73,55 @@ async function loadQuestion() {
 }
 
 async function submitAnswer(value, button) {
-  if (answered) return;
-  answered = true; seen.add(question.id);
-  const response = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id, kind:question.kind, answer:value})});
-  const result = await response.json();
+  if (answered || quizBusy) return;
+  quizBusy = true;
+  button.disabled = true;
+  let result;
+  try {
+    const response = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id, kind:question.kind, answer:value})});
+    result = await response.json();
+    if (!response.ok) throw new Error(result.error || 'Correction impossible');
+  } catch (_) {
+    button.disabled = false;
+    document.querySelector('#quiz-feedback').textContent = 'La réponse n’a pas pu être vérifiée. Réessayez.';
+    document.querySelector('#quiz-feedback').className = 'feedback try-again';
+    quizBusy = false;
+    return;
+  }
   const answerCorrect = result.correct;
-  if (result.correct) playSuccessSound();
+  const feedback = document.querySelector('#quiz-feedback');
+  if (!result.correct) {
+    if (!['type', 'order'].includes(question.exercise)) button.classList.add('choice-wrong');
+    if (question.exercise === 'order') {
+      document.querySelectorAll('.word-tile').forEach(tile => { tile.disabled = false; });
+      document.querySelector('#assembled-answer').textContent = '';
+    } else if (question.exercise !== 'type') {
+      button.disabled = true;
+    }
+    document.querySelector('#submit-typed').disabled = false;
+    document.querySelector('#submit-order').disabled = false;
+    document.querySelector('#georgian-input').disabled = false;
+    document.querySelectorAll('#georgian-keyboard .key').forEach(key => { key.disabled = false; });
+    document.querySelector('#difficulty').classList.add('hidden');
+    document.querySelector('#quiz-next').classList.add('hidden');
+    feedback.textContent = 'Pas tout à fait. Gardez cette question et réessayez.';
+    feedback.className = 'feedback try-again';
+    quizBusy = false;
+    return;
+  }
+
+  answered = true;
+  seen.add(question.id);
+  playSuccessSound();
   document.querySelectorAll('#quiz-choices .choice').forEach(c => c.disabled = true);
-  button.classList.add(result.correct ? 'choice-correct' : 'choice-wrong');
+  button.classList.add('choice-correct');
   document.querySelectorAll('.word-tile').forEach(c => c.disabled = true);
   document.querySelector('#submit-typed').disabled = true;
   document.querySelector('#submit-order').disabled = true;
   document.querySelector('#georgian-input').disabled = true;
-  const feedback = document.querySelector('#quiz-feedback');
-  feedback.innerHTML = `${result.correct ? 'Bien joué !' : `La bonne réponse était : <b>${result.solution}</b>.`} ${result.explanation}`;
-  feedback.classList.add(result.correct ? 'success' : 'try-again');
+  document.querySelectorAll('#georgian-keyboard .key').forEach(key => { key.disabled = true; });
+  feedback.textContent = `Bien joué ! ${result.explanation}`;
+  feedback.className = 'feedback success';
   const difficulty = document.querySelector('#difficulty'); difficulty.classList.remove('hidden');
   difficulty.querySelectorAll('button').forEach(b => b.disabled = false);
   difficulty.querySelectorAll('button').forEach(button => button.onclick = async () => {
@@ -97,7 +132,8 @@ async function submitAnswer(value, button) {
     if (answerCorrect) scheduleAutoAdvance(advanceQuiz, 1200);
   });
   document.querySelector('#quiz-next').classList.remove('hidden');
-  if (result.correct) scheduleAutoAdvance(advanceQuiz, 2600);
+  scheduleAutoAdvance(advanceQuiz, 2600);
+  quizBusy = false;
 }
 
 function advanceQuiz() {

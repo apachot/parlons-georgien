@@ -355,12 +355,10 @@ async function answerAudioChoice(value, selectedButton, isGeorgianAudio) {
     } else {
       mistakeCount++;
       selectedButton.classList.add('choice-wrong');
-      game.audioFeedback.textContent = `Pas tout à fait. La réponse était : ${isGeorgianAudio ? currentAudioWord.ka + ' · ' + currentAudioWord.fr : currentAudioWord.fr + ' · ' + currentAudioWord.ka}.`;
+      game.audioOptions.querySelectorAll('button').forEach(button => button.disabled = button === selectedButton);
+      game.audioFeedback.textContent = 'Pas tout à fait. Gardez cette question et réessayez avec une autre réponse.';
       game.audioFeedback.className = 'feedback try-again';
-      showAudioAnswer(currentAudioWord);
-      roundIndex++;
-      game.audioNext.classList.remove('hidden');
-      updateGameScore(); updateGameProgress();
+      updateGameScore();
     }
   } catch (_) {
     game.audioOptions.querySelectorAll('button').forEach(button => button.disabled = false);
