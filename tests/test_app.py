@@ -36,6 +36,11 @@ class AppFlowTests(unittest.TestCase):
         self.assertIn(b'Jouez avec les mots', vocabulary_page.data)
         self.assertIn("Je lis FR → je choisis KA".encode("utf-8"), vocabulary_page.data)
         self.assertIn(b'images/openmoji/1F4A7.svg', vocabulary_page.data)
+        vocabulary_html = vocabulary_page.data.decode("utf-8")
+        self.assertIn('<div class="vocabulary-home" id="vocabulary-home">', vocabulary_html)
+        self.assertIn('<section class="vocabulary-game-screen hidden" id="vocabulary-game-screen">', vocabulary_html)
+        self.assertLess(vocabulary_html.index('</div>\n\n  <section class="vocabulary-game-screen hidden"'),
+                        vocabulary_html.index('<section class="vocabulary-game-screen hidden"'))
 
     def test_vocabulary_image_set_is_local_and_license_attributed(self):
         illustrations = load_content("vocabulary_images")

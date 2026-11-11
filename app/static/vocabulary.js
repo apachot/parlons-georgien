@@ -3,6 +3,7 @@ const vocabularyData = JSON.parse(vocabularyDataNode?.textContent || '{"items":[
 const vocabularyItems = vocabularyData.items || [];
 const vocabularyDueIds = new Set(vocabularyData.due_ids || []);
 const gameHome = document.querySelector('#vocabulary-home');
+const gameCatalog = document.querySelector('#vocabulary-home-catalog');
 const gameScreen = document.querySelector('#vocabulary-game-screen');
 const game = {
   round: document.querySelector('#game-round'),
@@ -116,6 +117,7 @@ function openGame(mode) {
   activeGame = mode;
   activeDirection = 'ka-fr';
   gameHome.classList.add('hidden');
+  gameCatalog.classList.add('hidden');
   gameScreen.classList.remove('hidden');
   game.eyebrow.textContent = gameCopy[mode].eyebrow;
   game.title.textContent = gameCopy[mode].title;
@@ -390,6 +392,7 @@ function returnToGameHome() {
   activeGame = null;
   gameScreen.classList.add('hidden');
   gameHome.classList.remove('hidden');
+  gameCatalog.classList.remove('hidden');
   gameHome.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 
