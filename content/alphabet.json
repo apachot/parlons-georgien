@@ -7,8 +7,7 @@
   "pron": "a, comme dans « papa »",
   "example": "არა",
   "example_fr": "non",
-  "note": "La lettre ა note le son a.",
-  "name_ka": "ანი"
+  "note": "La lettre ა note le son a."
  },
  {
   "id": "letter-b",
@@ -18,8 +17,7 @@
   "pron": "b français",
   "example": "ბებო",
   "example_fr": "grand-mère",
-  "note": "ბ est un b sonore.",
-  "name_ka": "ბანი"
+  "note": "ბ est un b sonore."
  },
  {
   "id": "letter-g",
@@ -30,7 +28,7 @@
   "example": "კარგი",
   "example_fr": "bien, bon",
   "note": "გ garde toujours le son dur de « gare ».",
-  "name_ka": "განი"
+  "sound_example": "გამარჯობა"
  },
  {
   "id": "letter-d",
@@ -40,8 +38,7 @@
   "pron": "d français",
   "example": "დედა",
   "example_fr": "mère",
-  "note": "დ se prononce comme le d de « demain ».",
-  "name_ka": "დონი"
+  "note": "დ se prononce comme le d de « demain »."
  },
  {
   "id": "letter-e",
@@ -51,8 +48,7 @@
   "pron": "é ouvert, sans diphtongue",
   "example": "ეს",
   "example_fr": "ceci",
-  "note": "ე est une voyelle brève et nette.",
-  "name_ka": "ენი"
+  "note": "ე est une voyelle brève et nette."
  },
  {
   "id": "letter-v",
@@ -62,8 +58,7 @@
   "pron": "v français",
   "example": "ვარ",
   "example_fr": "je suis",
-  "note": "ვ correspond à v.",
-  "name_ka": "ვინი"
+  "note": "ვ correspond à v."
  },
  {
   "id": "letter-z",
@@ -73,8 +68,7 @@
   "pron": "z français",
   "example": "ზამთარი",
   "example_fr": "hiver",
-  "note": "ზ est toujours sonore, comme dans « zéro ».",
-  "name_ka": "ზენი"
+  "note": "ზ est toujours sonore, comme dans « zéro »."
  },
  {
   "id": "letter-t",
@@ -84,8 +78,7 @@
   "pron": "t avec un petit souffle",
   "example": "თბილისი",
   "example_fr": "Tbilissi",
-  "note": "თ est un t aspiré, distinct de ტ, qui est éjectif.",
-  "name_ka": "თანი"
+  "note": "თ est un t aspiré, distinct de ტ, qui est éjectif."
  },
  {
   "id": "letter-i",
@@ -95,8 +88,7 @@
   "pron": "i français",
   "example": "ის",
   "example_fr": "il, elle",
-  "note": "ი se prononce i.",
-  "name_ka": "ინი"
+  "note": "ი se prononce i."
  },
  {
   "id": "letter-k_ej",
@@ -106,8 +98,7 @@
   "pron": "k bref et sec, sans souffle",
   "example": "კაცი",
   "example_fr": "homme",
-  "note": "კ est éjectif : une fermeture glottale accompagne le relâchement.",
-  "name_ka": "კანი"
+  "note": "კ est éjectif : une fermeture glottale accompagne le relâchement."
  },
  {
   "id": "letter-l",
@@ -117,8 +108,7 @@
   "pron": "l français",
   "example": "ლაპარაკი",
   "example_fr": "parler",
-  "note": "ლ correspond à l.",
-  "name_ka": "ლასი"
+  "note": "ლ correspond à l."
  },
  {
   "id": "letter-m",
@@ -128,8 +118,7 @@
   "pron": "m français",
   "example": "მე",
   "example_fr": "moi, je",
-  "note": "მ correspond à m.",
-  "name_ka": "მანი"
+  "note": "მ correspond à m."
  },
  {
   "id": "letter-n",
@@ -139,8 +128,7 @@
   "pron": "n français",
   "example": "ნინო",
   "example_fr": "Nino (prénom)",
-  "note": "ნ correspond à n.",
-  "name_ka": "ნარი"
+  "note": "ნ correspond à n."
  },
  {
   "id": "letter-o",
@@ -150,8 +138,7 @@
   "pron": "o français, voyelle pure",
   "example": "ოთახი",
   "example_fr": "chambre",
-  "note": "ო est un o bref, sans glissement.",
-  "name_ka": "ონი"
+  "note": "ო est un o bref, sans glissement."
  },
  {
   "id": "letter-p_ej",
@@ -161,8 +148,7 @@
   "pron": "p bref et sec, sans souffle",
   "example": "პური",
   "example_fr": "pain",
-  "note": "პ est éjectif, à distinguer de ფ, p aspiré.",
-  "name_ka": "პარი"
+  "note": "პ est éjectif, à distinguer de ფ, p aspiré."
  },
  {
   "id": "letter-zh",
@@ -172,8 +158,7 @@
   "pron": "j comme dans « journal »",
   "example": "ჟურნალი",
   "example_fr": "journal",
-  "note": "ჟ est le son j de « journal ».",
-  "name_ka": "ჟანი"
+  "note": "ჟ est le son j de « journal »."
  },
  {
   "id": "letter-r",
@@ -183,8 +168,7 @@
   "pron": "r roulé ou battu, langue contre les dents",
   "example": "რა",
   "example_fr": "quoi",
-  "note": "რ est généralement battu, sans équivalent direct dans le français standard.",
-  "name_ka": "რაე"
+  "note": "რ est généralement battu, sans équivalent direct dans le français standard."
  },
  {
   "id": "letter-s",
@@ -194,8 +178,7 @@
   "pron": "s français",
   "example": "სახლი",
   "example_fr": "maison",
-  "note": "ს est toujours sourd, comme dans « sac ».",
-  "name_ka": "სანი"
+  "note": "ს est toujours sourd, comme dans « sac »."
  },
  {
   "id": "letter-t_ej",
@@ -205,8 +188,7 @@
   "pron": "t bref et sec, sans souffle",
   "example": "ტაქსი",
   "example_fr": "taxi",
-  "note": "ტ est éjectif, contrairement au t aspiré თ.",
-  "name_ka": "ტარი"
+  "note": "ტ est éjectif, contrairement au t aspiré თ."
  },
  {
   "id": "letter-u",
@@ -216,8 +198,7 @@
   "pron": "ou français",
   "example": "უნივერსიტეტი",
   "example_fr": "université",
-  "note": "უ se prononce ou, comme dans « roue ».",
-  "name_ka": "უნი"
+  "note": "უ se prononce ou, comme dans « roue »."
  },
  {
   "id": "letter-ph",
@@ -227,8 +208,7 @@
   "pron": "p suivi d’un souffle",
   "example": "ფული",
   "example_fr": "argent",
-  "note": "ფ est un p aspiré ; il se distingue de პ, p éjectif.",
-  "name_ka": "ფარი"
+  "note": "ფ est un p aspiré ; il se distingue de პ, p éjectif."
  },
  {
   "id": "letter-k",
@@ -238,8 +218,7 @@
   "pron": "k suivi d’un souffle",
   "example": "ქართული",
   "example_fr": "géorgien(ne)",
-  "note": "ქ est un k aspiré, distinct de კ éjectif.",
-  "name_ka": "ქანი"
+  "note": "ქ est un k aspiré, distinct de კ éjectif."
  },
  {
   "id": "letter-gh",
@@ -250,7 +229,7 @@
   "example": "დღე",
   "example_fr": "jour",
   "note": "ღ n’a pas d’équivalent exact en français ; c’est une fricative sonore profonde.",
-  "name_ka": "ღანი"
+  "sound_example": "ღამე"
  },
  {
   "id": "letter-q_ej",
@@ -260,8 +239,7 @@
   "pron": "son profond et sec, sans équivalent français",
   "example": "ყავა",
   "example_fr": "café",
-  "note": "ყ est une consonne éjective uvulaire, particulièrement inhabituelle pour un francophone.",
-  "name_ka": "ყარი"
+  "note": "ყ est une consonne éjective uvulaire, particulièrement inhabituelle pour un francophone."
  },
  {
   "id": "letter-sh",
@@ -271,8 +249,7 @@
   "pron": "ch français, comme « chat »",
   "example": "შავი",
   "example_fr": "noir",
-  "note": "შ correspond au ch de « chat ».",
-  "name_ka": "შინი"
+  "note": "შ correspond au ch de « chat »."
  },
  {
   "id": "letter-ch",
@@ -282,8 +259,7 @@
   "pron": "tch suivi d’un souffle",
   "example": "ჩაი",
   "example_fr": "thé",
-  "note": "ჩ se rapproche de tch avec une légère aspiration.",
-  "name_ka": "ჩინი"
+  "note": "ჩ se rapproche de tch avec une légère aspiration."
  },
  {
   "id": "letter-ts",
@@ -293,8 +269,7 @@
   "pron": "ts net, suivi d’un souffle",
   "example": "ცივი",
   "example_fr": "froid",
-  "note": "ც est une affriquée sourde aspirée.",
-  "name_ka": "ცანი"
+  "note": "ც est une affriquée sourde aspirée."
  },
  {
   "id": "letter-dz",
@@ -304,8 +279,7 @@
   "pron": "dz prononcé en un seul enchaînement",
   "example": "ძმა",
   "example_fr": "frère",
-  "note": "ძ est une seule affriquée sonore, pas deux sons séparés.",
-  "name_ka": "ძილი"
+  "note": "ძ est une seule affriquée sonore, pas deux sons séparés."
  },
  {
   "id": "letter-ts_ej",
@@ -315,8 +289,7 @@
   "pron": "ts bref et sec, sans souffle",
   "example": "წელი",
   "example_fr": "année",
-  "note": "წ est l’affriquée ts éjective.",
-  "name_ka": "წილი"
+  "note": "წ est l’affriquée ts éjective."
  },
  {
   "id": "letter-ch_ej",
@@ -326,8 +299,7 @@
   "pron": "tch bref et sec, sans souffle",
   "example": "ჭიქა",
   "example_fr": "verre",
-  "note": "ჭ est une affriquée tch éjective.",
-  "name_ka": "ჭარი"
+  "note": "ჭ est une affriquée tch éjective."
  },
  {
   "id": "letter-kh",
@@ -337,8 +309,7 @@
   "pron": "comme le ch allemand de « Bach », approximativement",
   "example": "ხაჭაპური",
   "example_fr": "khatchapouri (pain au fromage)",
-  "note": "ხ est guttural et sourd, sans équivalent exact en français.",
-  "name_ka": "ხანი"
+  "note": "ხ est guttural et sourd, sans équivalent exact en français."
  },
  {
   "id": "letter-j",
@@ -348,8 +319,7 @@
   "pron": "dj français, comme dans « djinn »",
   "example": "ჯამი",
   "example_fr": "bol",
-  "note": "ჯ est une affriquée sonore proche de dj.",
-  "name_ka": "ჯანი"
+  "note": "ჯ est une affriquée sonore proche de dj."
  },
  {
   "id": "letter-h",
@@ -359,7 +329,6 @@
   "pron": "h soufflé léger",
   "example": "ჰო",
   "example_fr": "oui (familier)",
-  "note": "ჰ est un h glottal léger.",
-  "name_ka": "ჰაე"
+  "note": "ჰ est un h glottal léger."
  }
 ]

@@ -133,11 +133,11 @@ document.addEventListener('keydown', event => {
 async function newLetterQuestion() {
   const response = await fetch(appPath('/api/quiz?kind=alphabet'));
   activeLetter = await response.json();
-  document.querySelector('#letter-prompt').textContent = activeLetter.prompt;
+  document.querySelector('#letter-prompt').textContent = 'Quel son entendez-vous au début du mot ?';
   const audioButton = document.querySelector('#letter-audio');
   audioButton.classList.remove('hidden');
   audioButton.disabled = false;
-  audioButton.textContent = '▶ Écouter en géorgien';
+  audioButton.textContent = '▶ Réécouter le mot';
   audioButton.dataset.original = audioButton.textContent;
   audioButton.onclick = () => playSpeech(activeLetter.prompt, 'ka', audioButton);
   document.querySelector('#letter-feedback').textContent = '';
