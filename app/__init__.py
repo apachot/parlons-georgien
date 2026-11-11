@@ -4,7 +4,7 @@ import random
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
-from flask import Flask, jsonify, render_template, request, send_file
+from flask import Flask, jsonify, render_template, request, send_file, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
 from .tts import audio_name, normalise_speech
@@ -126,7 +126,17 @@ def create_app(test_config=None):
     @app.get("/vocabulary")
     def vocabulary():
         vocab = load_content("vocabulary")
-        return render_template("vocabulary.html", vocab=vocab)
+        illustrations = {item["id"]: item for item in load_content("vocabulary_images")}
+        for item in vocab:
+            illustration = illustrations.get(item["id"])
+            if illustration:
+                item["image"] = url_for("static", filename=f"images/openmoji/{illustration['file']}")
+                item["image_alt"] = illustration["alt"]
+        due_ids = [row.item_id for row in Progress.query.filter(
+            Progress.kind == "vocabulary", Progress.due_at <= utc_now_naive()).all()]
+        practiced = Progress.query.filter_by(kind="vocabulary").count()
+        return render_template("vocabulary.html", vocab=vocab, due_ids=due_ids,
+                               practiced=practiced)
 
     @app.get("/grammar")
     def grammar():

@@ -29,9 +29,24 @@ class AppFlowTests(unittest.TestCase):
         self.assertEqual(len(load_content("lessons")), 10)
         self.assertEqual(len(load_content("vocabulary")), 120)
         vocabulary_page = self.client.get("/vocabulary")
-        self.assertIn(b'data-mode="cards"', vocabulary_page.data)
-        self.assertIn(b'data-mode="quiz"', vocabulary_page.data)
-        self.assertIn(b'data-mode="type"', vocabulary_page.data)
+        self.assertIn(b'data-module="pairs"', vocabulary_page.data)
+        self.assertIn(b'data-module="audio"', vocabulary_page.data)
+        self.assertIn(b'data-module="images"', vocabulary_page.data)
+        self.assertIn(b'data-module="memory"', vocabulary_page.data)
+        self.assertIn(b'Jouez avec les mots', vocabulary_page.data)
+        self.assertIn("Je lis FR → je choisis KA".encode("utf-8"), vocabulary_page.data)
+        self.assertIn(b'images/openmoji/1F4A7.svg', vocabulary_page.data)
+
+    def test_vocabulary_image_set_is_local_and_license_attributed(self):
+        illustrations = load_content("vocabulary_images")
+        self.assertGreaterEqual(len(illustrations), 40)
+        for illustration in illustrations:
+            self.assertTrue((Path(__file__).parents[1] / "app" / "static" / "images" / "openmoji" / illustration["file"]).is_file())
+        attribution = Path(__file__).parents[1] / "app" / "static" / "images" / "openmoji" / "ATTRIBUTION.txt"
+        self.assertIn("CC BY-SA 4.0", attribution.read_text(encoding="utf-8"))
+        image_response = self.client.get("/static/images/openmoji/1F4A7.svg")
+        self.assertEqual(image_response.status_code, 200)
+        image_response.close()
 
     def test_each_lesson_has_two_way_questions_for_every_phrase(self):
         for lesson in load_content("lessons"):
@@ -159,6 +174,8 @@ class AppFlowTests(unittest.TestCase):
         self.assertEqual(home.status_code, 200)
         self.assertIn(b'href="/kartuli/session"', home.data)
         self.assertIn(b'/kartuli/static/style.css', home.data)
+        vocabulary = client.get("/vocabulary", headers={"X-Forwarded-Prefix": "/kartuli"})
+        self.assertIn(b'/kartuli/static/images/openmoji/2615.svg', vocabulary.data)
         self.assertEqual(client.get("/api/quiz", headers={"X-Forwarded-Prefix": "/kartuli"}).status_code, 200)
 
     def test_audio_endpoint_only_serves_pregenerated_files(self):

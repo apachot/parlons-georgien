@@ -1,53 +1,86 @@
 {% extends "base.html" %}
-{% block title %}Vocabulaire — Kartuli{% endblock %}
+{% block title %}Jeux de vocabulaire — Kartuli{% endblock %}
 {% block content %}
-<section class="page-intro compact vocab-intro">
-  <div class="eyebrow">120 mots utiles · à jouer et à retenir</div>
-  <h1>Les mots prennent<br><em>vie.</em></h1>
-  <p>Retournez une fiche, testez votre mémoire ou retrouvez le mot géorgien. Chaque réponse nourrit vos révisions.</p>
-</section>
-
-<section class="vocab-game" id="vocab-game" data-total="{{ vocab|length }}">
-  <div class="vocab-game-head">
-    <div><div class="eyebrow">Choisissez votre jeu</div><h2>Comment voulez-vous vous entraîner ?</h2></div>
-    <div class="vocab-score" id="vocab-score">Prête ou prêt ?</div>
-  </div>
-  <div class="vocab-mode-list" role="group" aria-label="Mode d’entraînement">
-    <button class="vocab-mode active" data-mode="cards"><span class="vocab-mode-icon">▤</span><b>Fiches à retourner</b><small>Français → géorgien</small></button>
-    <button class="vocab-mode" data-mode="quiz"><span class="vocab-mode-icon">✳</span><b>Quiz express</b><small>Choisissez le bon sens</small></button>
-    <button class="vocab-mode" data-mode="type"><span class="vocab-mode-icon">⌨</span><b>Mot mystère</b><small>Écrivez en géorgien</small></button>
-  </div>
-
-  <div class="vocab-play-card" id="vocab-play-card">
-    <div class="vocab-play-top"><span class="lesson-tag" id="vocab-round-label">Une fiche · 1 / 10</span><span class="vocab-progress"><i id="vocab-progress"></i></span></div>
-    <div class="vocab-prompt-label" id="vocab-prompt-label">Trouvez le mot géorgien</div>
-    <div class="vocab-prompt" id="vocab-prompt">Choisissez un jeu pour commencer.</div>
-    <div class="vocab-word-tools" id="vocab-word-tools"></div>
-    <div class="vocab-choices" id="vocab-choices"></div>
-    <div class="vocab-type-area hidden" id="vocab-type-area">
-      <label for="vocab-type-input">Votre réponse en géorgien</label>
-      <input id="vocab-type-input" lang="ka" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Écrivez le mot" aria-label="Votre réponse en géorgien">
-      <div class="virtual-keyboard" id="vocab-keyboard" aria-label="Clavier géorgien"></div>
-      <button class="button secondary" id="vocab-submit">Vérifier</button>
+<div class="vocabulary-home" id="vocabulary-home" data-practiced="{{ practiced }}">
+  <section class="vocabulary-hero">
+    <div class="vocabulary-hero-copy">
+      <div class="eyebrow"><span class="dot"></span> Le coin des mots · 120 à découvrir</div>
+      <h1>Jouez avec les mots,<br><em>apprenez pour de vrai.</em></h1>
+      <p>Associez, écoutez, observez et mémorisez. Les jeux vous font passer du géorgien au français dans les deux sens.</p>
+      <div class="vocabulary-hero-stats"><span><b>{{ vocab|length }}</b> mots en jeu</span><span><b>{{ practiced }}</b> déjà travaillés</span></div>
+      <a class="button primary" href="#vocabulary-games">Choisir un jeu <span>↓</span></a>
     </div>
-    <div class="vocab-feedback" id="vocab-feedback" aria-live="polite"></div>
-    <div class="vocab-controls">
-      <button class="button secondary hidden" id="vocab-reveal">Afficher la réponse</button>
-      <button class="button secondary hidden" id="vocab-again">À revoir</button>
-      <button class="button primary hidden" id="vocab-knew">Je l’avais !</button>
-      <button class="button primary hidden" id="vocab-next">Mot suivant →</button>
-      <button class="button primary hidden" id="vocab-restart">Rejouer →</button>
+    <div class="vocabulary-hero-art" aria-hidden="true">
+      <div class="hero-sticker hero-sticker-one"><img src="{{ url_for('static', filename='images/openmoji/2615.svg') }}" alt=""></div>
+      <div class="hero-sticker hero-sticker-two"><img src="{{ url_for('static', filename='images/openmoji/1F34E.svg') }}" alt=""></div>
+      <div class="hero-ka">გამარჯობა</div>
+      <div class="hero-fr">gamarjoba · bonjour</div>
+      <span class="hero-spark spark-one">✦</span><span class="hero-spark spark-two">✳</span>
     </div>
-    <div class="lesson-summary hidden" id="vocab-summary" aria-live="polite"></div>
-  </div>
-</section>
+  </section>
 
-<section class="page-intro compact vocab-catalog-heading">
-  <div class="eyebrow">À feuilleter librement</div><h2>Le catalogue des mots</h2>
-  <p>Écoutez, cherchez et révisez les 120 fiches quand vous voulez.</p>
-  <input class="search-input" id="word-search" placeholder="Rechercher en français, géorgien ou translittération…" aria-label="Rechercher un mot">
-  <span class="catalog-count" id="catalog-count">{{ vocab|length }} mots</span>
-</section>
-<section class="vocab-grid" id="vocab-list">{% for w in vocab %}<article class="vocab-card" data-search="{{ w.ka }} {{ w.fr }} {{ w.translit }}"><div class="vocab-ka ka">{{ w.ka }}</div><div class="vocab-fr">{{ w.fr }} <button class="audio-btn" data-lang="fr" data-speak="{{ w.fr }}">▶ FR</button></div><div class="word-tools"><span class="translit">{{ w.translit }}</span><button class="audio-btn" data-speak="{{ w.ka }}">▶ KA</button><button class="pron-toggle">Prononciation</button><span class="pron hidden">≈ {{ w.pron }}</span></div><div class="example-line"><b>{{ w.example }}</b><button class="audio-btn" data-speak="{{ w.example }}">▶ KA</button><span>{{ w.example_fr }} <button class="audio-btn" data-lang="fr" data-speak="{{ w.example_fr }}">▶ FR</button></span></div></article>{% endfor %}</section>
+  <section class="vocabulary-games-section" id="vocabulary-games">
+    <div class="vocabulary-section-heading"><div><div class="eyebrow">Choisissez votre défi</div><h2>Qu’est-ce qu’on joue ?</h2></div><span class="section-side-note">Des manches courtes · votre score se mémorise</span></div>
+    <div class="vocabulary-module-grid">
+      <button type="button" class="vocabulary-module module-pairs" data-module="pairs">
+        <span class="module-icon"><img src="{{ url_for('static', filename='images/openmoji/1F91D.svg') }}" alt=""></span>
+        <span class="module-copy"><small>01 · ASSOCIATION</small><b>Retrouve les paires</b><span>Géorgien ↔ français · rassemble les mots qui vont ensemble.</span></span>
+        <span class="module-arrow">Jouer <b>↗</b></span>
+      </button>
+      <button type="button" class="vocabulary-module module-audio" data-module="audio">
+        <span class="module-icon"><img src="{{ url_for('static', filename='images/openmoji/1F3A7.svg') }}" alt=""></span>
+        <span class="module-copy"><small>02 · ÉCOUTE & SENS</small><b>À l’oreille</b><span>Écoute le géorgien, ou pars du français pour retrouver le mot.</span></span>
+        <span class="module-arrow">Jouer <b>↗</b></span>
+      </button>
+      <button type="button" class="vocabulary-module module-images" data-module="images">
+        <span class="module-icon"><img src="{{ url_for('static', filename='images/openmoji/1F5BC.svg') }}" alt=""></span>
+        <span class="module-copy"><small>03 · IMAGES</small><b>Mot ou image ?</b><span>Relie un mot géorgien à son illustration, sans traduction affichée.</span></span>
+        <span class="module-arrow">Jouer <b>↗</b></span>
+      </button>
+      <button type="button" class="vocabulary-module module-memory" data-module="memory">
+        <span class="module-icon"><img src="{{ url_for('static', filename='images/openmoji/1F0CF.svg') }}" alt=""></span>
+        <span class="module-copy"><small>04 · MÉMOIRE</small><b>Le mémory</b><span>Retourne deux cartes et retrouve les traductions cachées.</span></span>
+        <span class="module-arrow">Jouer <b>↗</b></span>
+      </button>
+    </div>
+  </section>
+
+  <section class="vocabulary-game-screen hidden" id="vocabulary-game-screen">
+    <div class="game-screen-top"><button type="button" class="back-to-games" id="back-to-games">← Tous les jeux</button><span class="game-round" id="game-round"></span></div>
+    <div class="game-title-row"><div><div class="eyebrow" id="game-eyebrow">JEU DE VOCABULAIRE</div><h2 id="game-title">Jeu</h2><p id="game-instruction"></p></div><div class="game-score" id="game-score">0 trouvé</div></div>
+    <div class="direction-switch hidden" id="audio-direction" role="group" aria-label="Sens de l’exercice">
+      <button type="button" class="active" data-direction="ka-fr">J’écoute KA → je choisis FR</button>
+      <button type="button" data-direction="fr-ka">Je lis FR → je choisis KA</button>
+    </div>
+    <div class="game-progress"><i id="game-progress-fill"></i></div>
+    <div class="game-status" id="game-status" aria-live="polite"></div>
+    <div class="audio-question hidden" id="audio-question">
+      <div class="audio-prompt-label" id="audio-prompt-label">Écoutez le mot géorgien</div>
+      <div class="audio-prompt ka" id="audio-prompt">...</div>
+      <button type="button" class="button secondary" id="audio-replay">▶ Réécouter</button>
+      <div class="audio-options" id="audio-options"></div>
+      <div class="feedback" id="audio-feedback" aria-live="polite"></div>
+      <div class="audio-answer-tools hidden" id="audio-answer-tools"></div>
+      <button type="button" class="button primary hidden" id="audio-next">Mot suivant →</button>
+    </div>
+    <div class="matching-game hidden" id="matching-game">
+      <div class="matching-board" id="matching-board" aria-label="Cartes à associer"></div>
+      <div class="feedback" id="matching-feedback" aria-live="polite"></div>
+    </div>
+    <div class="game-complete hidden" id="game-complete" aria-live="polite">
+      <div class="complete-confetti">✦ &nbsp; ✳ &nbsp; ✦</div><h3>Manche terminée !</h3><p id="complete-message"></p>
+      <button type="button" class="button primary" id="play-again">Rejouer →</button>
+      <button type="button" class="button secondary" id="choose-another-game">Choisir un autre jeu</button>
+    </div>
+  </section>
+
+  <details class="vocabulary-catalog">
+    <summary>Feuilleter les 120 fiches de vocabulaire</summary>
+    <div class="catalog-tools"><input class="search-input" id="word-search" placeholder="Chercher en français, géorgien ou translittération…" aria-label="Rechercher un mot"><span id="catalog-count">{{ vocab|length }} mots</span></div>
+    <div class="vocab-grid" id="vocab-list">{% for w in vocab %}<article class="vocab-card" data-search="{{ w.ka }} {{ w.fr }} {{ w.translit }}"><div class="vocab-ka ka">{{ w.ka }}</div><div class="vocab-fr">{{ w.fr }}</div><div class="word-tools"><span class="translit">{{ w.translit }}</span><button class="audio-btn" data-speak="{{ w.ka }}">▶ KA</button><button class="pron-toggle">Prononciation</button><span class="pron hidden">≈ {{ w.pron }}</span></div><div class="example-line"><b>{{ w.example }}</b><span>{{ w.example_fr }}</span></div></article>{% endfor %}</div>
+  </details>
+  <p class="openmoji-credit">Images : <a href="https://openmoji.org/" target="_blank" rel="noopener">OpenMoji</a>, licence <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+</div>
+<script type="application/json" id="vocabulary-data">{{ {"items": vocab, "due_ids": due_ids}|tojson }}</script>
 {% endblock %}
 {% block scripts %}<script src="{{ url_for('static', filename='vocabulary.js') }}" defer></script>{% endblock %}
