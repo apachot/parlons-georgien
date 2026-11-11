@@ -41,6 +41,11 @@ class AppFlowTests(unittest.TestCase):
         self.assertIn('<section class="vocabulary-game-screen hidden" id="vocabulary-game-screen">', vocabulary_html)
         self.assertLess(vocabulary_html.index('</div>\n\n  <section class="vocabulary-game-screen hidden"'),
                         vocabulary_html.index('<section class="vocabulary-game-screen hidden"'))
+        alphabet_page = self.client.get("/alphabet")
+        self.assertIn(b'id="alphabet-speed-title"', alphabet_page.data)
+        self.assertIn(b'id="speed-start"', alphabet_page.data)
+        self.assertIn(b'id="speed-result"', alphabet_page.data)
+        self.assertIn(b'id="alphabet-data"', alphabet_page.data)
 
     def test_vocabulary_image_set_is_local_and_license_attributed(self):
         illustrations = load_content("vocabulary_images")
@@ -162,6 +167,14 @@ class AppFlowTests(unittest.TestCase):
         keys = self.client.get("/api/alphabet/keys").json
         self.assertEqual(len(keys), 33)
         self.assertEqual(len(set(keys)), 33)
+        letter = load_content("alphabet")[0]
+        result = self.client.post("/api/answer", json={
+            "id": letter["id"], "kind": "alphabet", "answer": letter["sound"], "quality": 5
+        })
+        self.assertTrue(result.json["correct"])
+        with self.app.app_context():
+            row = Progress.query.filter_by(item_id=letter["id"], kind="alphabet").first()
+            self.assertEqual((row.seen, row.correct), (1, 1))
 
     def test_lesson_completion_empty_review_and_export(self):
         complete = self.client.post("/api/complete/greetings", json={"score": 80})
