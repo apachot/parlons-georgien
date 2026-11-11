@@ -131,6 +131,7 @@ async function submitDictation(answer, skipped = false) {
     if (!response.ok) throw new Error(result.error || 'Correction impossible');
     dictationAttempts++;
     if (result.correct) {
+      playSuccessSound();
       if (dictationAttempts === 1) dictationFirstTryCorrect++;
       dictationElements.heading.textContent = result.solution;
       dictationElements.heading.classList.add('ka');

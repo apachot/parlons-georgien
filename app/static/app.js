@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Prepare audio on the first gesture so mobile browsers allow later feedback tones.
+  document.addEventListener('pointerdown', unlockSuccessAudio, {once: true});
+  document.addEventListener('keydown', unlockSuccessAudio, {once: true});
   const menu = document.querySelector('.menu-toggle');
   menu?.addEventListener('click', () => {
     const open = menu.getAttribute('aria-expanded') !== 'true';
@@ -42,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reply.textContent = correct ? `Bonne réponse : ${choice.dataset.ka} · ${choice.dataset.fr}` : 'Cette réponse ne correspond pas à la situation. Réessayez.';
         reply.className = 'dialogue-reply ' + (correct ? 'success' : 'try-again');
         if (correct) {
+          playSuccessSound();
           step.querySelectorAll('.dialogue-choice').forEach(b => b.disabled = true);
           advance.classList.remove('hidden');
         }
@@ -63,6 +67,38 @@ document.addEventListener('DOMContentLoaded', () => {
 function appPath(path) {
   const base = document.documentElement.dataset.appBase || '';
   return `${base}${path.startsWith('/') ? path : `/${path}`}`;
+}
+
+let successAudioContext = null;
+function unlockSuccessAudio() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) return;
+  try {
+    successAudioContext ||= new AudioContextClass();
+    if (successAudioContext.state === 'suspended') successAudioContext.resume().catch(() => {});
+  } catch (_) {
+    // Audio is optional; exercises must keep working if the browser has no Web Audio support.
+  }
+}
+
+function playSuccessSound() {
+  unlockSuccessAudio();
+  if (!successAudioContext || successAudioContext.state !== 'running') return;
+  const now = successAudioContext.currentTime;
+  [[659.25, 0], [880, 0.105]].forEach(([frequency, delay]) => {
+    const oscillator = successAudioContext.createOscillator();
+    const gain = successAudioContext.createGain();
+    const start = now + delay;
+    oscillator.type = 'sine';
+    oscillator.frequency.setValueAtTime(frequency, start);
+    gain.gain.setValueAtTime(0.0001, start);
+    gain.gain.exponentialRampToValueAtTime(0.075, start + 0.018);
+    gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.23);
+    oscillator.connect(gain);
+    gain.connect(successAudioContext.destination);
+    oscillator.start(start);
+    oscillator.stop(start + 0.24);
+  });
 }
 
 let activeTtsAudio = null;

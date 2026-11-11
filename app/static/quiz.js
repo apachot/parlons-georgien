@@ -75,6 +75,7 @@ async function submitAnswer(value, button) {
   answered = true; seen.add(question.id);
   const response = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id, kind:question.kind, answer:value})});
   const result = await response.json();
+  if (result.correct) playSuccessSound();
   document.querySelectorAll('#quiz-choices .choice').forEach(c => c.disabled = true);
   button.classList.add(result.correct ? 'choice-correct' : 'choice-wrong');
   document.querySelectorAll('.word-tile').forEach(c => c.disabled = true);

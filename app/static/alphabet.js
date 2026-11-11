@@ -11,6 +11,7 @@ async function newLetterQuestion() {
       const result = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:activeLetter.id,kind:'alphabet',answer:letter})}).then(r=>r.json());
       holder.querySelectorAll('button').forEach(b=>b.disabled=true);
       button.classList.add(result.correct?'choice-correct':'choice-wrong');
+      if (result.correct) playSuccessSound();
       document.querySelector('#letter-feedback').textContent = result.correct ? 'Oui, c’est la bonne lettre !' : `On la retrouve : ${result.solution}. ${result.explanation}`;
     }); holder.append(button);
   });

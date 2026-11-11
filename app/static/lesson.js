@@ -58,7 +58,10 @@ function answerLessonQuestion(selected, question) {
     if (choice.dataset.correct === 'true') choice.classList.add('choice-correct');
   });
   const correct = selected.dataset.correct === 'true';
-  if (correct) lessonCorrect++;
+  if (correct) {
+    lessonCorrect++;
+    playSuccessSound();
+  }
   if (!correct) selected.classList.add('choice-wrong');
 
   const feedback = document.querySelector('#lesson-feedback');
