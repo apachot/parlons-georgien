@@ -150,16 +150,20 @@ async function newLetterQuestion() {
       if (result.correct) {
         holder.querySelectorAll('button').forEach(b=>b.disabled=true);
         playSuccessSound();
-        scheduleAutoAdvance(newLetterQuestion);
+        newLetterQuestion();
       } else {
         button.disabled = true;
       }
       document.querySelector('#letter-feedback').textContent = result.correct ? 'Oui, c’est la bonne lettre !' : 'Pas tout à fait. Gardez le même son et essayez une autre lettre.';
     }); holder.append(button);
   });
+  playSpeech(activeLetter.prompt, 'ka', audioButton);
 }
+document.querySelector('.activity-card[href="#alphabet-practice"]')?.addEventListener('click', () => {
+  clearAutoAdvance();
+  newLetterQuestion();
+});
 document.querySelector('#letter-next')?.addEventListener('click', () => {
   clearAutoAdvance();
   newLetterQuestion();
 });
-newLetterQuestion();
