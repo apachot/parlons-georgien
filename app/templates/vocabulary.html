@@ -45,7 +45,7 @@
       </button>
       <button type="button" class="vocabulary-module module-crossword" data-module="crossword">
         <span class="module-icon"><span aria-hidden="true">✏️</span></span>
-        <span class="module-copy"><small>05 · MOTS FLÉCHÉS</small><b>La grille géorgienne</b><span>Lis les définitions en français et remplis les cases en mkhedruli.</span></span>
+        <span class="module-copy"><small>05 · MOTS FLÉCHÉS</small><b>Mots fléchés</b><span>Résous les définitions en français et remplis les cases en mkhedruli.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
       <button type="button" class="vocabulary-module module-memory" data-module="catalog">
@@ -80,13 +80,17 @@
       <div class="matching-board" id="matching-board" aria-label="Cartes à associer"></div>
       <div class="feedback" id="matching-feedback" aria-live="polite"></div>
     </div>
-    <div class="crossword-game hidden" id="crossword-game"><div class="crossword-instruction">Lisez l’indice, puis écrivez le mot géorgien dans les cases.</div><div id="crossword-board" class="crossword-board" aria-label="Grille de mots fléchés"></div><div class="feedback" id="crossword-feedback" aria-live="polite"></div></div>
+    <div class="crossword-game hidden" id="crossword-game"><div class="crossword-instruction-row"><div class="crossword-instruction">Complétez chaque ligne : l’indice et la flèche vous indiquent le mot à écrire.</div><button class="button secondary crossword-open-keyboard" id="crossword-open-keyboard" type="button">ქართული Clavier</button></div><div id="crossword-board" class="crossword-board" aria-label="Grille de mots fléchés"></div><div class="feedback" id="crossword-feedback" aria-live="polite"></div></div>
     <div class="game-complete hidden" id="game-complete" aria-live="polite">
       <div class="complete-confetti">✦ &nbsp; ✳ &nbsp; ✦</div><h3>Manche terminée !</h3><p id="complete-message"></p>
       <button type="button" class="button primary" id="play-again">Rejouer →</button>
       <button type="button" class="button secondary" id="choose-another-game">Choisir un autre jeu</button>
     </div>
   </section>
+
+  <div class="crossword-keyboard-modal hidden" id="crossword-keyboard-modal" role="dialog" aria-modal="true" aria-labelledby="crossword-keyboard-title">
+    <div class="crossword-keyboard-window"><div class="crossword-keyboard-head"><div><small>CLAVIER À L’ÉCRAN</small><h2 id="crossword-keyboard-title">Écrire en géorgien</h2></div><button class="crossword-keyboard-close" type="button" aria-label="Fermer le clavier">×</button></div><div class="crossword-keyboard-keys" id="crossword-keyboard-keys"></div><div class="crossword-keyboard-foot"><span>La lettre s’ajoute à la case sélectionnée.</span><button class="button secondary crossword-keyboard-delete" type="button">⌫ Effacer</button></div></div>
+  </div>
 
 <div class="vocabulary-home-catalog hidden" id="vocabulary-home-catalog">
   <button class="back-to-games" id="back-to-vocabulary-games" type="button">← Tous les jeux</button>

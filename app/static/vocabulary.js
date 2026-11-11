@@ -34,6 +34,14 @@ const game = {
   crosswordBoard: document.querySelector('#crossword-board'),
   crosswordFeedback: document.querySelector('#crossword-feedback')
 };
+const crosswordKeyboard = {
+  modal: document.querySelector('#crossword-keyboard-modal'),
+  keys: document.querySelector('#crossword-keyboard-keys'),
+  open: document.querySelector('#crossword-open-keyboard'),
+  close: document.querySelector('.crossword-keyboard-close'),
+  erase: document.querySelector('.crossword-keyboard-delete'),
+  activeCell: null
+};
 
 const gameCopy = {
   pairs: {
@@ -62,7 +70,7 @@ const gameCopy = {
   },
   crossword: {
     eyebrow: 'MOTS FLÉCHÉS · ÉCRIRE EN MKHEDRULI',
-    title: 'La grille géorgienne',
+    title: 'Mots fléchés',
     instruction: 'Suivez chaque définition en français et écrivez la réponse géorgienne, lettre par lettre.',
     scoreUnit: 'mots'
   }
@@ -195,6 +203,7 @@ async function saveWordAnswer(item, kind, answer) {
 function renderCrosswordBoard() {
   game.crosswordBoard.replaceChildren();
   game.crosswordFeedback.textContent = '';
+  if (!crosswordKeyboard.keys.childElementCount) renderCrosswordKeyboard();
   roundItems.forEach((item, index) => {
     const row = document.createElement('div'); row.className = 'crossword-entry'; row.dataset.id = item.id;
     const clue = document.createElement('div'); clue.className = 'crossword-clue';
@@ -207,6 +216,8 @@ function renderCrosswordBoard() {
       const input = document.createElement('input'); input.className = 'crossword-cell ka'; input.lang = 'ka';
       input.maxLength = 1; input.autocomplete = 'off'; input.spellcheck = false;
       input.setAttribute('aria-label', `Définition ${index + 1}, lettre ${position + 1}`);
+      input.addEventListener('focus', () => { crosswordKeyboard.activeCell = input; });
+      input.addEventListener('click', () => openCrosswordKeyboard(input));
       input.addEventListener('input', () => {
         input.value = [...input.value].slice(-1).join('');
         if (input.value && cells.children[position + 1]) cells.children[position + 1].focus();
@@ -222,6 +233,56 @@ function renderCrosswordBoard() {
     row.append(clue, cells, check); game.crosswordBoard.append(row);
   });
 }
+
+function renderCrosswordKeyboard() {
+  const letters = [...'აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ'];
+  for (let index = 0; index < letters.length; index += 11) {
+    const row = document.createElement('div'); row.className = 'crossword-keyboard-row';
+    letters.slice(index, index + 11).forEach(letter => {
+      const key = document.createElement('button'); key.type = 'button'; key.className = 'crossword-key ka'; key.textContent = letter;
+      key.setAttribute('aria-label', `Insérer ${letter}`);
+      key.addEventListener('click', () => {
+        const cell = crosswordKeyboard.activeCell || game.crosswordBoard.querySelector('.crossword-cell:not(:disabled)');
+        if (!cell) return;
+        crosswordKeyboard.activeCell = cell;
+        cell.value = letter;
+        cell.dispatchEvent(new Event('input', {bubbles: true}));
+      });
+      row.append(key);
+    });
+    crosswordKeyboard.keys.append(row);
+  }
+}
+
+function openCrosswordKeyboard(cell = crosswordKeyboard.activeCell) {
+  crosswordKeyboard.activeCell = cell || game.crosswordBoard.querySelector('.crossword-cell:not(:disabled)');
+  crosswordKeyboard.modal.classList.remove('hidden');
+  crosswordKeyboard.keys.querySelector('.crossword-key')?.focus();
+}
+
+function closeCrosswordKeyboard() {
+  crosswordKeyboard.modal.classList.add('hidden');
+  crosswordKeyboard.activeCell?.focus({preventScroll: true});
+}
+
+crosswordKeyboard.open?.addEventListener('click', () => openCrosswordKeyboard());
+crosswordKeyboard.close?.addEventListener('click', closeCrosswordKeyboard);
+crosswordKeyboard.modal?.addEventListener('click', event => {
+  if (event.target === crosswordKeyboard.modal) closeCrosswordKeyboard();
+});
+crosswordKeyboard.erase?.addEventListener('click', () => {
+  const cell = crosswordKeyboard.activeCell;
+  if (!cell) return;
+  if (!cell.value) {
+    const previous = cell.parentElement.children[[...cell.parentElement.children].indexOf(cell) - 1];
+    if (previous && !previous.disabled) { crosswordKeyboard.activeCell = previous; previous.value = ''; previous.focus(); return; }
+  }
+  cell.value = '';
+  cell.focus();
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !crosswordKeyboard.modal?.classList.contains('hidden')) closeCrosswordKeyboard();
+});
 
 async function checkCrosswordEntry(row, item) {
   if (row.classList.contains('solved') || answerBusy) return;
