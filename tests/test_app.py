@@ -6,7 +6,7 @@ from werkzeug.test import Client
 from werkzeug.middleware.proxy_fix import ProxyFix
 from werkzeug.wrappers import Response
 
-from app import Progress, build_lesson_questions, create_app, db, load_content
+from app import Progress, build_lesson_questions, create_app, db, dictation_words, load_content
 from app.tts import audio_name
 
 
@@ -38,6 +38,38 @@ class AppFlowTests(unittest.TestCase):
             self.assertTrue(all(q["answer"] in q["options"] for q in questions))
             page = self.client.get(f"/lesson/{lesson['id']}")
             self.assertIn(b'id="lesson-questions"', page.data)
+
+    def test_dictations_use_single_words_and_reject_wrong_letters(self):
+        page = self.client.get("/dictations")
+        self.assertEqual(page.status_code, 200)
+        self.assertGreater(len(dictation_words()), 80)
+        next_word = self.client.get("/api/dictations/next").json
+        self.assertIn(next_word["id"], {word["id"] for word in dictation_words()})
+        self.assertNotIn("ka", next_word)
+
+        wrong = self.client.post("/api/dictations/answer", json={"id": "v-031", "answer": "წყალიი"})
+        self.assertFalse(wrong.json["correct"])
+        correct = self.client.post("/api/dictations/answer", json={"id": "v-031", "answer": "წყალი!"})
+        self.assertTrue(correct.json["correct"])
+        with self.app.app_context():
+            row = Progress.query.filter_by(item_id="dictation:v-031").first()
+            self.assertEqual(row.kind, "dictation")
+            self.assertEqual(row.seen, 2)
+            self.assertEqual(row.correct, 1)
+            self.assertIsNotNone(row.due_at)
+
+    def test_dictation_audio_uses_existing_georgian_cache(self):
+        with TemporaryDirectory() as temp_dir:
+            self.app.instance_path = temp_dir
+            item = next(word for word in dictation_words() if word["id"] == "v-031")
+            path = Path(temp_dir) / "audio" / "ka" / audio_name("ka", item["ka"])
+            path.parent.mkdir(parents=True)
+            path.write_bytes(b"RIFF-test-dictation")
+            response = self.client.get("/api/dictations/audio/v-031")
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.mimetype, "audio/wav")
+            self.assertEqual(response.data, b"RIFF-test-dictation")
+            response.close()
 
     def test_answer_persists_and_normalizes_french_punctuation(self):
         response = self.client.post("/api/answer", json={"id": "v-001", "kind": "vocabulary", "answer": " Bonjour ! "})

@@ -1,5 +1,6 @@
 import json
 import os
+import random
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 
@@ -66,6 +67,12 @@ def build_lesson_questions(items):
     return questions
 
 
+def dictation_words():
+    """Use only single-word entries from the reviewed vocabulary list."""
+    return [item for item in load_content("vocabulary")
+            if len(normalise(item["ka"]).split()) == 1]
+
+
 def create_app(test_config=None):
     app = Flask(__name__)
     app.config.update(
@@ -128,6 +135,61 @@ def create_app(test_config=None):
     @app.get("/session")
     def session():
         return render_template("session.html")
+
+    @app.get("/dictations")
+    def dictations():
+        return render_template("dictations.html", total=len(dictation_words()))
+
+    @app.get("/api/dictations/next")
+    def next_dictation():
+        words = dictation_words()
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [word for word in words if word["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "total": len(words)})
+        progress = {row.item_id.removeprefix("dictation:"): row
+                    for row in Progress.query.filter_by(kind="dictation").all()}
+        now = utc_now_naive()
+        due = [word for word in candidates
+               if word["id"] in progress and progress[word["id"]].due_at
+               and progress[word["id"]].due_at <= now]
+        unseen = [word for word in candidates if word["id"] not in progress]
+        selected = random.choice(due or unseen or candidates)
+        return jsonify({"id": selected["id"], "total": len(words)})
+
+    @app.get("/api/dictations/audio/<item_id>")
+    def dictation_audio(item_id):
+        item = next((word for word in dictation_words() if word["id"] == item_id), None)
+        if item is None:
+            return jsonify({"error": "Mot inconnu."}), 404
+        path = Path(app.instance_path) / "audio" / "ka" / audio_name("ka", item["ka"])
+        if not path.is_file():
+            return jsonify({"error": "Audio indisponible pour ce mot."}), 404
+        return send_file(path, mimetype="audio/wav", conditional=True, max_age=86400)
+
+    @app.post("/api/dictations/answer")
+    def answer_dictation():
+        data = request.get_json(silent=True) or {}
+        item_id = str(data.get("id", ""))
+        item = next((word for word in dictation_words() if word["id"] == item_id), None)
+        if item is None:
+            return jsonify({"error": "Mot de dictée inconnu."}), 404
+        correct = normalise(data.get("answer", "")) == normalise(item["ka"])
+        progress_id = f"dictation:{item_id}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="dictation", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        days = 0 if not correct else (1 if row.streak <= 1 else min(30, 2 ** min(row.streak, 5)))
+        row.due_at = utc_now_naive() + timedelta(minutes=10 if days == 0 else 1440 * days)
+        db.session.commit()
+        return jsonify({"correct": correct, "solution": item["ka"], "fr": item["fr"],
+                        "translit": item["translit"], "seen": row.seen,
+                        "correct_count": row.correct, "due_in_days": days})
 
     @app.get("/api/quiz")
     def quiz():
