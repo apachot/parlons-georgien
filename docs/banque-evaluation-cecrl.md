@@ -79,11 +79,11 @@ La première famille pilote est la compréhension écrite guidée. Vingt passage
 | A1 | 26 | 20 | Cible atteinte ; 20 variantes nouvelles dans cette tranche |
 | A2 | 20 | 20 | Cible atteinte ; 17 variantes nouvelles dans cette tranche |
 | B1 | 20 | 20 | Cible atteinte ; 17 variantes nouvelles dans cette tranche |
-| B2 | 0 | 20 | À créer |
+| B2 | 21 | 20 | Cible atteinte ; 21 variantes nouvelles dans cette tranche |
 | C1 | 0 | 20 | À créer |
 | C2 | 0 | 20 | À créer |
 
-Les 17 nouveaux passages A2 sont des récits courts enchaînant plusieurs actions, avec des repères temporels, des raisons ou des contrastes. Les 17 variantes B1 ajoutées ensuite développent davantage les récits et demandent de relier causes, conséquences ou décisions. Le niveau du sticker de lecture guidée suit le passage choisi. Les deux textes longs d’examen portent leur niveau depuis leur contenu (A2 ou B1), au lieu d’hériter d’une difficulté unique attachée au format. Le parcours de compréhension orale guidée réutilise aussi ces passages et le même niveau CECRL.
+Les 17 nouveaux passages A2 sont des récits courts enchaînant plusieurs actions, avec des repères temporels, des raisons ou des contrastes. Les 17 variantes B1 ajoutées ensuite développent davantage les récits et demandent de relier causes, conséquences ou décisions. Les 21 variantes B2 ajoutent des textes plus développés sur des sujets de société, de travail et de culture, avec des questions de synthèse, d’inférence et d’évaluation des arguments. Le niveau du sticker de lecture guidée suit le passage choisi. Les deux textes longs d’examen portent leur niveau depuis leur contenu (A2 ou B1), au lieu d’hériter d’une difficulté unique attachée au format. Le parcours de compréhension orale guidée réutilise aussi ces passages et le même niveau CECRL.
 
 ## Statistiques à suivre
 

@@ -76,8 +76,9 @@ def dictation_words():
 
 def reading_texts():
     items = (load_content("readings") + load_content("reading_a1")
-             + load_content("reading_a2") + load_content("reading_b1"))
-    cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1"}
+             + load_content("reading_a2") + load_content("reading_b1")
+             + load_content("reading_b2"))
+    cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1", 5: "B2"}
     for item in items:
         item.setdefault("cefr", cefr_by_step.get(item.get("level"), "A1"))
     return items
@@ -469,7 +470,7 @@ def create_app(test_config=None):
             level = int(request.args.get("level", "1"))
         except ValueError:
             return jsonify({"error": "Niveau invalide."}), 400
-        if level not in range(1, 5):
+        if level not in range(1, 6):
             return jsonify({"error": "Niveau invalide."}), 400
         items = [item for item in reading_texts() if item["level"] == level]
         excluded = set(request.args.get("exclude", "").split(","))

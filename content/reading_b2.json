@@ -1,0 +1,359 @@
+[
+  {
+    "id": "b2-city-traffic-policy",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Les choix de la ville",
+    "text": "მუნიციპალიტეტმა ქალაქის ცენტრში მანქანების მოძრაობის შეზღუდვა გადაწყვიტა, რათა ჰაერის დაბინძურება შეემცირებინა. გადაწყვეტილების გამოცხადებისთანავე ზოგიერთი მაღაზიის მფლობელი შიშობდა, რომ მომხმარებლები ნაკლებად მივიდოდნენ. რამდენიმე თვის შემდეგ მონაცემებმა აჩვენა, რომ ფეხით მოსიარულეთა რაოდენობა გაიზარდა, თუმცა ზოგიერთმა ბიზნესმა მიწოდების საათების შეცვლა მოითხოვა. მერია ახლა წესებს თავიდან განიხილავს, რადგან შედეგები ყველა ქუჩაზე ერთნაირი არ ყოფილა.",
+    "question": "Pourquoi la mairie réexamine-t-elle les règles ?",
+    "options": [
+      "La mesure a eu des effets différents selon les rues ; il faut donc adapter les règles.",
+      "Les données ont montré une baisse du nombre de piétons.",
+      "Les commerçants ont demandé l’annulation de toutes les restrictions et la mairie a déjà accepté.",
+      "La limitation de la circulation ne pouvait pas réduire la pollution."
+    ],
+    "answer": "La mesure a eu des effets différents selon les rues ; il faut donc adapter les règles.",
+    "translation": "La municipalité a décidé de limiter la circulation automobile dans le centre-ville afin de réduire la pollution de l’air. À l’annonce de la mesure, certains commerçants craignaient que les clients viennent moins souvent. Quelques mois plus tard, les données ont montré une hausse du nombre de piétons, mais certaines entreprises ont demandé à modifier les horaires de livraison. La mairie réexamine maintenant les règles, car les résultats n’ont pas été les mêmes dans toutes les rues.",
+    "explanation": "La mairie ne revient pas entièrement sur la décision : elle veut adapter les règles, car leur effet varie d’une rue à l’autre."
+  },
+  {
+    "id": "b2-hybrid-work",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Le travail hybride",
+    "text": "კომპანიამ თანამშრომლებს ოფისში კვირაში ორი დღე ყოფნა მოსთხოვა. ხელმძღვანელობა იმედოვნებდა, რომ პირისპირ შეხვედრები გუნდურ მუშაობას გააუმჯობესებდა, თუმცა თანამშრომლების ნაწილი შორიდან მუშაობისას უფრო პროდუქტიული იყო. გამოკითხვის შემდეგ კომპანიამ წესი შეცვალა: გუნდები თავად ირჩევენ საერთო სამუშაო დღეებს, ხოლო ინდივიდუალური დავალებების შესრულება ოფისში ყოფნას აღარ მოითხოვს. შედეგად, შეხვედრები უფრო იშვიათი გახდა, მაგრამ თანამშრომლები მათ უკეთ მომზადებულები ესწრებიან.",
+    "question": "Quel a été l’effet de la nouvelle règle ?",
+    "options": [
+      "Les réunions sont moins fréquentes et les participants y sont mieux préparés.",
+      "Tous les employés viennent au bureau chaque jour.",
+      "Les tâches individuelles ne se font plus qu’au bureau.",
+      "L’entreprise a supprimé toutes les réunions d’équipe."
+    ],
+    "answer": "Les réunions sont moins fréquentes et les participants y sont mieux préparés.",
+    "translation": "L’entreprise a demandé aux employés de venir au bureau deux jours par semaine. La direction espérait que les rencontres en personne amélioreraient le travail d’équipe, mais certains employés étaient plus productifs à distance. Après un sondage, l’entreprise a modifié la règle : les équipes choisissent elles-mêmes leurs jours communs, et les tâches individuelles n’exigent plus de présence au bureau. Les réunions sont ainsi moins fréquentes, mais les employés y arrivent mieux préparés.",
+    "explanation": "La dernière phrase présente les deux effets de la nouvelle règle : moins de réunions, mais une meilleure préparation."
+  },
+  {
+    "id": "b2-mountain-tourism",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Tourisme et environnement",
+    "text": "სვანეთის ერთ სოფელში ტურისტების რაოდენობა სწრაფად გაიზარდა. ადგილობრივმა ოჯახებმა დამატებითი შემოსავალი მიიღეს, მაგრამ ზაფხულში წყლის მოხმარებაც მოიმატა. სოფლის საბჭომ ახალი სასტუმროების აკრძალვის ნაცვლად წყლის დაზოგვის წესები შემოიღო და საფეხმავლო ბილიკების მოვლას ტურისტული გადასახადით დააფინანსებს. საბჭოს აზრით, სტუმრების მიღება შესაძლებელია, თუ ბუნებრივ რესურსებს წინასწარ გაუფრთხილდებიან.",
+    "question": "Quelle approche le conseil du village a-t-il choisie face à la hausse du tourisme ?",
+    "options": [
+      "Maintenir l’accueil des touristes tout en réduisant la pression sur l’environnement.",
+      "Fermer tous les hôtels et interdire le village aux visiteurs.",
+      "Ignorer la hausse de la consommation d’eau et construire davantage d’hôtels.",
+      "Supprimer la taxe touristique et arrêter l’entretien des sentiers."
+    ],
+    "answer": "Maintenir l’accueil des touristes tout en réduisant la pression sur l’environnement.",
+    "translation": "Dans un village de Svanétie, le nombre de touristes a rapidement augmenté. Les familles locales ont obtenu un revenu supplémentaire, mais la consommation d’eau a aussi augmenté en été. Au lieu d’interdire les nouveaux hôtels, le conseil du village a instauré des règles d’économie d’eau et financera l’entretien des sentiers grâce à une taxe touristique. Selon le conseil, il est possible d’accueillir des visiteurs si l’on protège à l’avance les ressources naturelles.",
+    "explanation": "Le conseil cherche un compromis : maintenir les revenus du tourisme tout en limitant son coût environnemental."
+  },
+  {
+    "id": "b2-museum-exhibition",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Une exposition au musée",
+    "text": "მუზეუმმა ახალი გამოფენა გახსნა, სადაც ნივთები არა ქრონოლოგიურად, არამედ მათი შექმნისა და გამოყენების ისტორიების მიხედვით განათავსა. ზოგიერთმა დამთვალიერებელმა თქვა, რომ ასე კავშირების დანახვა უფრო ადვილი იყო; სხვებს კი მოვლენების დროითი რიგი აკლდათ. კურატორებმა კრიტიკა გაითვალისწინეს და თითოეულ დარბაზში მოკლე დროითი მიმოხილვა დაამატეს, ისე რომ გამოფენის თავდაპირველი იდეა არ შეუცვლიათ.",
+    "question": "Comment les commissaires ont-ils répondu aux avis divergents des visiteurs ?",
+    "options": [
+      "Ils ont ajouté des repères chronologiques sans abandonner le concept principal.",
+      "Ils ont réorganisé tous les objets par ordre chronologique.",
+      "Ils ont ignoré les critiques et n’ont rien changé.",
+      "Ils ont fermé l’exposition parce que les visiteurs n’étaient pas d’accord."
+    ],
+    "answer": "Ils ont ajouté des repères chronologiques sans abandonner le concept principal.",
+    "translation": "Le musée a ouvert une exposition où les objets étaient présentés selon les histoires de leur création et de leur usage, plutôt que par ordre chronologique. Certains visiteurs trouvaient ainsi les liens plus faciles à voir ; d’autres regrettaient l’absence d’une chronologie. Les commissaires ont pris ces remarques en compte et ajouté un bref aperçu chronologique dans chaque salle, sans modifier l’idée initiale de l’exposition.",
+    "explanation": "Les commissaires ont ajouté un repère chronologique tout en conservant l’organisation thématique de départ."
+  },
+  {
+    "id": "b2-school-language-policy",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Apprendre par la pratique",
+    "text": "სკოლამ უცხო ენის გაკვეთილებზე ზეპირი პრეზენტაციების რაოდენობა გაზარდა. თავდაპირველად მოსწავლეები შეფასებაზე ნერვიულობდნენ და მოკლე პასუხებს ირჩევდნენ. მასწავლებლებმა პირველი პრეზენტაციები ქულების გარეშე ჩაატარეს, შემდეგ კი შეფასების კრიტერიუმები წინასწარ გააცნეს. სემესტრის ბოლოს მოსწავლეები უფრო ხანგრძლივად საუბრობდნენ, თუმცა წერითი დავალებების ხარისხი არ გაუარესებულა.",
+    "question": "Quel changement a probablement aidé les élèves à parler plus librement ?",
+    "options": [
+      "Les premières présentations sans note et la communication préalable des critères.",
+      "La suppression des exercices oraux.",
+      "Le remplacement des cours par des travaux écrits uniquement.",
+      "Le fait de cacher les critères d’évaluation."
+    ],
+    "answer": "Les premières présentations sans note et la communication préalable des critères.",
+    "translation": "L’école a augmenté le nombre de présentations orales dans les cours de langue étrangère. Au début, les élèves étaient nerveux à propos de la note et choisissaient des réponses courtes. Les professeurs ont organisé les premières présentations sans note, puis ont communiqué les critères d’évaluation à l’avance. À la fin du semestre, les élèves parlaient plus longtemps, sans que la qualité des travaux écrits ait diminué.",
+    "explanation": "Les deux mesures ont réduit l’incertitude liée à l’évaluation ; le texte les place avant l’amélioration de la prise de parole."
+  },
+  {
+    "id": "b2-water-consumption",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Préserver l’eau",
+    "text": "ზაფხულში წყლის მოხმარების პიკმა ქალაქის რამდენიმე უბანში შეზღუდვები გამოიწვია. თავდაპირველად მოსახლეობას ეგონა, რომ პრობლემა მხოლოდ გვალვას უკავშირდებოდა, თუმცა შემოწმებამ ძველ მილებში გაჟონვაც გამოავლინა. ქალაქმა მოსახლეობას ნაკლები წყლის გამოყენება სთხოვა და პარალელურად დაზიანებული მონაკვეთების შეკეთება დაიწყო. მოხმარება შემცირდა, მაგრამ მერია აღიარებს, რომ გრძელვადიანი შედეგი ინფრასტრუქტურის განახლებაზე იქნება დამოკიდებული.",
+    "question": "Quelle condition la mairie considère-t-elle essentielle pour résoudre durablement le problème ?",
+    "options": [
+      "Le renouvellement des infrastructures du réseau d’eau.",
+      "La limitation de l’eau pour les habitants seulement.",
+      "La disparition complète de la sécheresse.",
+      "L’arrêt des inspections des vieilles canalisations."
+    ],
+    "answer": "Le renouvellement des infrastructures du réseau d’eau.",
+    "translation": "En été, le pic de consommation d’eau a entraîné des restrictions dans plusieurs quartiers. Les habitants pensaient d’abord que le problème était uniquement lié à la sécheresse, mais l’inspection a aussi révélé des fuites dans les vieilles canalisations. La ville a demandé aux habitants de réduire leur consommation et a commencé à réparer les sections endommagées. La consommation a baissé, mais la mairie reconnaît que le résultat à long terme dépendra du renouvellement des infrastructures.",
+    "explanation": "La baisse immédiate est utile, mais la dernière phrase désigne la modernisation des infrastructures comme condition du résultat durable."
+  },
+  {
+    "id": "b2-project-communication",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Communiquer en équipe",
+    "text": "პროექტის ჯგუფი ვადას ვერ ასწრებდა, მიუხედავად იმისა, რომ თითოეული წევრი ბევრს მუშაობდა. შეხვედრაზე გაირკვა, რომ ორი თანამშრომელი ერთსა და იმავე ნაწილს ამზადებდა, ხოლო სხვა ამოცანა უპასუხოდ იყო დარჩენილი. ხელმძღვანელმა სამუშაოს განაწილება წერილობით დააფიქსირა და ყოველკვირეული მოკლე შემოწმება დანიშნა. ამის შემდეგ ჯგუფმა ვადა შეასრულა, თუმცა ხელმძღვანელმა აღნიშნა, რომ წარმატებას დამატებითი სამუშაო საათები კი არა, პასუხისმგებლობების გარკვევა დაეხმარა.",
+    "question": "Quelle était la véritable cause du retard ?",
+    "options": [
+      "Les responsabilités étaient mal définies : certaines tâches étaient répétées et d’autres oubliées.",
+      "Les membres de l’équipe ne travaillaient pas assez.",
+      "L’échéance était trop éloignée.",
+      "Le responsable avait réparti les tâches par écrit."
+    ],
+    "answer": "Les responsabilités étaient mal définies : certaines tâches étaient répétées et d’autres oubliées.",
+    "translation": "L’équipe ne respectait pas l’échéance, bien que chaque membre travaille beaucoup. La réunion a révélé que deux employés préparaient la même partie, tandis qu’une autre tâche était restée sans responsable. Le responsable a consigné la répartition du travail par écrit et fixé un bref point hebdomadaire. L’équipe a ensuite respecté l’échéance, mais le responsable a souligné que le succès venait de la clarification des responsabilités, et non d’heures de travail supplémentaires.",
+    "explanation": "Le groupe travaillait beaucoup, mais la coordination défaillante provoquait des doublons et des tâches oubliées."
+  },
+  {
+    "id": "b2-local-food-market",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Choisir ses produits",
+    "text": "სუპერმარკეტების ქსელმა ადგილობრივი ფერმერების პროდუქციისთვის ცალკე თაროები გამოყო. მომხმარებლებს მოსწონდათ წარმოშობის შესახებ ინფორმაცია, თუმცა პროდუქტი ზოგჯერ უფრო ძვირი ღირდა. ქსელმა მცირე შეფუთვები დაამატა და ფასდაკლება შემოიღო იმ პროდუქტზე, რომელსაც ვადა მალე გასდიოდა. გაყიდვები გაიზარდა, მაგრამ ფერმერებთან შეთანხმება შეიცვალა: მათ ახლა მიწოდების რაოდენობა მოთხოვნის მიხედვით უნდა დაგეგმონ.",
+    "question": "Comment la chaîne a-t-elle augmenté les ventes tout en réduisant le gaspillage alimentaire ?",
+    "options": [
+      "Avec de petits emballages et des réductions avant la date limite.",
+      "En retirant les produits locaux des rayons.",
+      "En augmentant le prix de tous les produits.",
+      "En cessant les livraisons des agriculteurs."
+    ],
+    "answer": "Avec de petits emballages et des réductions avant la date limite.",
+    "translation": "Une chaîne de supermarchés a réservé des rayons aux produits des agriculteurs locaux. Les clients appréciaient les informations sur leur provenance, même si les produits étaient parfois plus chers. La chaîne a ajouté de petits emballages et instauré des réductions pour les produits proches de leur date limite. Les ventes ont augmenté, mais l’accord avec les agriculteurs a changé : ils doivent désormais prévoir les quantités livrées en fonction de la demande.",
+    "explanation": "Les petits emballages et les réductions facilitent l’achat et écoulent les produits avant leur date limite."
+  },
+  {
+    "id": "b2-friend-misunderstanding",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Éviter un malentendu",
+    "text": "ნინომ მეგობარს მისწერა, რომ შეხვედრაზე „შეიძლებოდა ცოტა დაეგვიანა“. მეგობარმა ეს ისე გაიგო, თითქოს ნინო უკვე აგვიანებდა, და კაფეში მარტო წავიდა. როცა ნინო დანიშნულ დროს მივიდა, გაკვირვებული დარჩა. მათ გაარკვიეს, რომ ნინო მხოლოდ შესაძლო შეფერხებას გულისხმობდა; შემდეგ გადაწყვიტეს, დროის ცვლილება მოკლე შეტყობინებით დაედასტურებინათ და არა ვარაუდზე დაეტოვებინათ.",
+    "question": "Quelle est l’origine du malentendu ?",
+    "options": [
+      "L’amie a compris un retard possible comme un retard déjà commencé.",
+      "Nino a changé le lieu du rendez-vous.",
+      "Elles voulaient toutes les deux annuler.",
+      "L’amie n’a pas reçu le message."
+    ],
+    "answer": "L’amie a compris un retard possible comme un retard déjà commencé.",
+    "translation": "Nino a écrit à son amie qu’elle « pourrait avoir un peu de retard ». Son amie a compris que Nino était déjà en retard et est partie seule au café. Quand Nino est arrivée à l’heure prévue, elle a été surprise. Elles ont compris que Nino parlait seulement d’un retard possible ; elles ont ensuite décidé de confirmer tout changement d’horaire par un bref message plutôt que de laisser place aux suppositions.",
+    "explanation": "Le malentendu vient de l’interprétation du conditionnel : le retard était possible, mais pas encore avéré."
+  },
+  {
+    "id": "b2-city-restoration",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Rénover un bâtiment ancien",
+    "text": "ძველი თეატრის შენობა წლების განმავლობაში ცარიელი იყო, თუმცა მისი დარბაზი კარგ მდგომარეობაში დარჩა. ქალაქს ორი ვარიანტი ჰქონდა: შენობის მთლიანად გადაკეთება ან მისი ისტორიული ნაწილების შენარჩუნებით განახლება. მეორე ვარიანტი უფრო ძვირი და ხანგრძლივი აღმოჩნდა, მაგრამ არქიტექტორებმა დაამტკიცეს, რომ საწყისი მასალის დიდი ნაწილის გამოყენება შეიძლებოდა. ქალაქმა ეს გზა აირჩია და სამუშაოების დროს თეატრი დროებით სხვა დარბაზში გადაიტანა.",
+    "question": "Pourquoi la ville a-t-elle choisi l’option la plus coûteuse et la plus longue ?",
+    "options": [
+      "Pour préserver les éléments historiques et réutiliser les matériaux d’origine.",
+      "Parce que la salle du théâtre était entièrement endommagée.",
+      "Parce que l’autre option exigeait de déplacer les spectacles.",
+      "Parce que les architectes ont interdit de transformer le bâtiment."
+    ],
+    "answer": "Pour préserver les éléments historiques et réutiliser les matériaux d’origine.",
+    "translation": "Le bâtiment de l’ancien théâtre était resté vide pendant des années, bien que sa salle soit demeurée en bon état. La ville avait deux options : transformer entièrement le bâtiment ou le rénover en préservant ses éléments historiques. La seconde option s’est révélée plus coûteuse et plus longue, mais les architectes ont montré qu’une grande partie des matériaux d’origine pouvait être réutilisée. La ville l’a choisie et a déplacé temporairement le théâtre dans une autre salle pendant les travaux.",
+    "explanation": "La ville privilégie la conservation du patrimoine et la réutilisation des matériaux, malgré le coût et la durée supplémentaires."
+  },
+  {
+    "id": "b2-clinic-interpretation",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Comprendre une consultation",
+    "text": "კლინიკამ პაციენტებისთვის წერილობითი ინსტრუქციები რამდენიმე ენაზე მოამზადა. ექიმებმა შენიშნეს, რომ ზოგიერთ პაციენტს სიტყვების თარგმანი ესმოდა, მაგრამ ვერ ხვდებოდა, რა უნდა გაეკეთებინა წამლის მიღების გამოტოვების შემთხვევაში. ამიტომ ინსტრუქციებს კონკრეტული მაგალითები და საკონტაქტო ნომერი დაუმატეს. კითხვების რაოდენობა შემცირდა, თუმცა ექიმები ხაზს უსვამენ, რომ რთული შემთხვევების განხილვას პირადი საუბარი მაინც სჭირდება.",
+    "question": "Pourquoi la clinique ne considère-t-elle pas les instructions écrites comme suffisantes dans tous les cas ?",
+    "options": [
+      "Certaines situations complexes nécessitent une conversation directe avec un médecin.",
+      "Les noms des médicaments n’ont pas été traduits.",
+      "Les patients n’ont pas le droit d’appeler le numéro de contact.",
+      "Le nombre de questions a augmenté après l’ajout d’exemples."
+    ],
+    "answer": "Certaines situations complexes nécessitent une conversation directe avec un médecin.",
+    "translation": "La clinique a préparé des instructions écrites en plusieurs langues. Les médecins ont remarqué que certains patients comprenaient les mots traduits, mais ne savaient pas quoi faire s’ils oubliaient une dose. Ils ont donc ajouté des exemples concrets et un numéro de contact. Les questions ont diminué, mais les médecins soulignent qu’une conversation en personne reste nécessaire pour les cas complexes.",
+    "explanation": "Les documents améliorent la compréhension courante, mais la clinique maintient un échange direct pour les situations complexes."
+  },
+  {
+    "id": "b2-festival-tourism",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Préserver une tradition",
+    "text": "მთის სოფელში ყოველწლიური ფესტივალი თავდაპირველად ადგილობრივი მოსავლის აღსანიშნავად იმართებოდა. ბოლო წლებში სტუმრების რაოდენობა გაიზარდა და ორგანიზატორებმა პროგრამაში დამატებითი კონცერტები ჩართეს. ზოგიერთმა მცხოვრებმა იფიქრა, რომ ტრადიციის მნიშვნელობა გასართობმა ნაწილმა დაჩრდილა. წელს ორგანიზატორებმა ადგილობრივ ოსტატებსა და ფერმერებს მეტი დრო დაუთმეს, თან კი სტუმრებისთვის დამატებითი ტრანსპორტი მოაწყვეს, რათა სოფლის ყოველდღიურობა ნაკლებად შეეცვალათ.",
+    "question": "Comment les organisateurs essaient-ils de concilier tradition et tourisme ?",
+    "options": [
+      "Ils donnent plus de place aux activités locales et organisent séparément le transport des visiteurs.",
+      "Ils annulent le festival pour empêcher les touristes de venir.",
+      "Ils ne gardent que les concerts et retirent les agriculteurs du programme.",
+      "Ils font de la transformation de la vie quotidienne du village leur objectif principal."
+    ],
+    "answer": "Ils donnent plus de place aux activités locales et organisent séparément le transport des visiteurs.",
+    "translation": "Dans un village de montagne, le festival annuel célébrait à l’origine la récolte locale. Ces dernières années, le nombre de visiteurs a augmenté et les organisateurs ont ajouté des concerts. Certains habitants ont estimé que les divertissements avaient éclipsé le sens de la tradition. Cette année, les organisateurs ont donné plus de place aux artisans et aux agriculteurs locaux, tout en organisant un transport supplémentaire pour les visiteurs afin de moins perturber la vie quotidienne du village.",
+    "explanation": "Le programme renforce la place des pratiques locales et gère séparément les déplacements des visiteurs."
+  },
+  {
+    "id": "b2-recycling-program",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Réduire les déchets",
+    "text": "ქალაქის გადამუშავების პროგრამაში ბევრი ოჯახი ჩაერთო, მაგრამ შეგროვებული მასალის ნაწილი დაბინძურებული აღმოჩნდა და ხელახლა გამოყენება ვერ მოხერხდა. მერიის ცნობით, მოსახლეობა სხვადასხვა ნარჩენს ერთ კონტეინერში ათავსებდა, რადგან წესები გაუგებარი იყო. საინფორმაციო კამპანიისა და უკეთ მონიშნული კონტეინერების შემდეგ გამოსადეგი მასალის წილი გაიზარდა. პროგრამის ხელმძღვანელები ახლა ამბობენ, რომ ინფრასტრუქტურასთან ერთად მარტივი ინსტრუქციებიც აუცილებელია.",
+    "question": "Qu’a montré la première étape du programme ?",
+    "options": [
+      "Les conteneurs ne suffisaient pas : les habitants avaient aussi besoin de consignes claires.",
+      "Les familles n’ont pas participé au recyclage.",
+      "Les matériaux contaminés étaient faciles à réutiliser.",
+      "La campagne d’information a réduit la part des matériaux réutilisables."
+    ],
+    "answer": "Les conteneurs ne suffisaient pas : les habitants avaient aussi besoin de consignes claires.",
+    "translation": "De nombreuses familles ont participé au programme de recyclage de la ville, mais une partie des matériaux collectés était contaminée et n’a pas pu être réutilisée. Selon la mairie, les habitants mélangeaient différents déchets parce que les consignes n’étaient pas claires. Après une campagne d’information et l’ajout de conteneurs mieux signalés, la proportion de matériaux réutilisables a augmenté. Les responsables du programme disent maintenant que des consignes simples sont aussi indispensables que l’infrastructure.",
+    "explanation": "L’amélioration après la campagne montre que les équipements seuls ne suffisaient pas : les consignes de tri devaient être plus claires."
+  },
+  {
+    "id": "b2-concert-acoustics",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Choisir une salle de concert",
+    "text": "ორკესტრს ძველ დარბაზში გამოსვლა შესთავაზეს, რომლის აკუსტიკაც მუსიკოსებს ძალიან მოსწონდათ. დარბაზში ადგილების რაოდენობა მცირე იყო და ბილეთის ფასი ხარჯებს სრულად ვერ დაფარავდა. ორგანიზატორებმა უფრო დიდი სივრცეც მოინახულეს, მაგრამ იქ ხმის ხარისხის გასაუმჯობესებლად ძვირი ტექნიკა იყო საჭირო. საბოლოოდ, მათ პატარა დარბაზი აირჩიეს და კონცერტის ნაწილის ინტერნეტით გადაცემა გადაწყვიტეს.",
+    "question": "Comment les organisateurs ont-ils essayé de compenser la capacité limitée de la petite salle ?",
+    "options": [
+      "Ils ont diffusé une partie du concert en ligne.",
+      "Ils ont acheté un équipement coûteux pour la grande salle.",
+      "Ils ont distribué les billets gratuitement.",
+      "Ils ont renoncé à la salle appréciée pour son acoustique."
+    ],
+    "answer": "Ils ont diffusé une partie du concert en ligne.",
+    "translation": "L’orchestre s’est vu proposer un concert dans une ancienne salle dont les musiciens appréciaient beaucoup l’acoustique. La salle avait peu de places et le prix des billets ne couvrirait pas entièrement les frais. Les organisateurs ont aussi visité un espace plus grand, mais il aurait fallu un équipement coûteux pour améliorer le son. Finalement, ils ont choisi la petite salle et décidé de diffuser une partie du concert en ligne.",
+    "explanation": "Ils conservent la salle appréciée pour son acoustique et utilisent la diffusion en ligne pour élargir l’accès."
+  },
+  {
+    "id": "b2-grant-proposal",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Présenter un projet",
+    "text": "არასამთავრობო ორგანიზაციამ სოფლის ბიბლიოთეკისთვის დაფინანსება ითხოვა. პირველ განაცხადში იდეა კარგად იყო აღწერილი, მაგრამ ხარჯების გეგმა ზოგადი დარჩა. კომისიამ განაცხადი არ უარყო; ორგანიზაციას სთხოვა, დაეზუსტებინა, რამდენ ბავშვს მოემსახურებოდა პროგრამა და როგორ შეაფასებდნენ შედეგს. შესწორებულ განაცხადში კონკრეტული მაჩვენებლები ჩართეს, რის შემდეგაც პროექტმა დაფინანსება მიიღო.",
+    "question": "Pourquoi le projet n’a-t-il pas été financé dès la première demande ?",
+    "options": [
+      "Le budget et les résultats attendus n’étaient pas assez précis.",
+      "La commission n’aimait pas l’idée d’une bibliothèque de village.",
+      "L’organisation n’a pas présenté de demande.",
+      "La commission a interdit de modifier le projet."
+    ],
+    "answer": "Le budget et les résultats attendus n’étaient pas assez précis.",
+    "translation": "Une organisation non gouvernementale a demandé un financement pour une bibliothèque de village. Dans la première demande, l’idée était bien décrite, mais le plan de dépenses restait général. La commission n’a pas rejeté la demande ; elle a demandé à l’organisation de préciser combien d’enfants le programme servirait et comment les résultats seraient évalués. La demande révisée contenait des indicateurs précis, après quoi le projet a obtenu un financement.",
+    "explanation": "La commission demande des précisions mesurables plutôt que de rejeter le projet sur le fond."
+  },
+  {
+    "id": "b2-translation-context",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Traduire selon le contexte",
+    "text": "მთარგმნელმა ერთი ქართული გამოთქმა ტექსტში ორჯერ ნახა, მაგრამ ორივე შემთხვევაში ერთნაირად არ გადაუთარგმნია. პირველ სცენაში ის ხუმრობით იყო ნათქვამი, მეორეში კი პერსონაჟი იმავე სიტყვებს ირონიით იყენებდა. რედაქტორმა თავდაპირველად ერთიანი თარგმანი მოითხოვა, თუმცა მთარგმნელმა აუხსნა, რომ სიტყვების პირდაპირი მნიშვნელობა უცვლელი იყო, ხოლო მათი ფუნქცია კონტექსტის მიხედვით იცვლებოდა.",
+    "question": "Pourquoi le traducteur a-t-il choisi deux traductions différentes pour la même expression ?",
+    "options": [
+      "La fonction de l’expression changeait selon la scène, même si les mots restaient les mêmes.",
+      "Le traducteur ne savait pas parler géorgien.",
+      "Le rédacteur n’avait lu qu’une partie du texte.",
+      "Le sens littéral de l’expression était entièrement différent dans les deux scènes."
+    ],
+    "answer": "La fonction de l’expression changeait selon la scène, même si les mots restaient les mêmes.",
+    "translation": "Le traducteur a rencontré deux fois une expression géorgienne dans un texte, mais ne l’a pas traduite de la même manière. Dans la première scène, elle était dite pour plaisanter ; dans la seconde, le personnage utilisait les mêmes mots avec ironie. Le rédacteur a d’abord demandé une traduction uniforme, mais le traducteur a expliqué que le sens littéral restait identique tandis que la fonction changeait selon le contexte.",
+    "explanation": "Le choix de traduction tient au ton et à la fonction pragmatique de l’expression, non à un changement de ses mots."
+  },
+  {
+    "id": "b2-library-opening-hours",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Adapter un service public",
+    "text": "ბიბლიოთეკის გამოკითხვამ აჩვენა, რომ სტუდენტები საღამოს მუშაობის შემდეგ მოსვლას ვერ ასწრებდნენ, ხოლო პენსიონერები დილით სტუმრობდნენ. ხელმძღვანელობამ საღამოს საათები გაახანგრძლივა, მაგრამ დილის განრიგი არ შეუცვლია. რამდენიმე თვეში საღამოს ვიზიტორთა რაოდენობა გაიზარდა ისე, რომ დილის მომხმარებლების მომსახურება არ გაუარესებულა. ბიბლიოთეკა ახლა განიხილავს, ღირს თუ არა კვირაში ერთი დღით უფრო გვიან დახურვა.",
+    "question": "Quelle conclusion la direction a-t-elle tirée de la première modification ?",
+    "options": [
+      "Les horaires du soir ont servi de nouveaux usagers sans dégrader le service du matin.",
+      "Le changement des horaires du matin a augmenté le nombre d’étudiants.",
+      "Les retraités ont commencé à venir le soir.",
+      "L’allongement des horaires a réduit le nombre de visiteurs."
+    ],
+    "answer": "Les horaires du soir ont servi de nouveaux usagers sans dégrader le service du matin.",
+    "translation": "Une enquête de la bibliothèque a montré que les étudiants ne pouvaient pas venir après leur travail du soir, tandis que les retraités venaient le matin. La direction a prolongé les horaires du soir sans modifier le programme du matin. Quelques mois plus tard, le nombre de visiteurs du soir avait augmenté sans dégrader le service du matin. La bibliothèque étudie maintenant l’intérêt de fermer plus tard un jour par semaine.",
+    "explanation": "Le texte rapporte une hausse des visites le soir et précise que le service du matin n’a pas été affecté."
+  },
+  {
+    "id": "b2-data-journalism",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Lire des données avec recul",
+    "text": "ადგილობრივმა გაზეთმა გამოაქვეყნა ანგარიში, რომლის მიხედვითაც ქალაქში ველოსიპედით მგზავრობა გაიზარდა. პირველ სათაურში ეს ზრდა ახალი ბილიკის წარმატებას მიეწერა, მაგრამ ანგარიშში მხოლოდ ერთი უბნის მონაცემები იყო მოცემული. ჟურნალისტებმა სხვა უბნებიც შეადარეს და აღმოაჩინეს, რომ იქაც მსგავსი ზრდა დაფიქსირდა, მათ შორის იმ ადგილებში, სადაც ბილიკი არ არსებობდა. გაზეთმა სათაური შეცვალა და აღნიშნა, რომ მიზეზის დასადგენად მეტი კვლევა იყო საჭირო.",
+    "question": "Pourquoi le journal a-t-il modifié son titre initial ?",
+    "options": [
+      "La hausse existait aussi ailleurs, donc les données ne prouvaient pas à elles seules l’effet de la nouvelle piste.",
+      "Le rapport ne mentionnait aucune hausse des déplacements à vélo.",
+      "La nouvelle piste avait été construite dans les autres quartiers.",
+      "Les journalistes ont refusé de comparer les données."
+    ],
+    "answer": "La hausse existait aussi ailleurs, donc les données ne prouvaient pas à elles seules l’effet de la nouvelle piste.",
+    "translation": "Un journal local a publié un rapport indiquant que les déplacements à vélo avaient augmenté dans la ville. Le premier titre attribuait cette hausse au succès d’une nouvelle piste, mais le rapport ne présentait que les données d’un quartier. Les journalistes ont comparé d’autres quartiers et découvert une hausse similaire, y compris dans ceux sans piste cyclable. Le journal a modifié son titre et noté qu’il fallait davantage d’études pour déterminer la cause.",
+    "explanation": "La comparaison affaiblit l’affirmation causale initiale : la hausse existe aussi là où la nouvelle piste n’est pas présente."
+  },
+  {
+    "id": "b2-food-cooperative",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Créer une coopérative",
+    "text": "რამდენიმე ფერმერმა პროდუქციის ერთობლივი გაყიდვა გადაწყვიტა, რათა ტრანსპორტირების ხარჯი გაენაწილებინათ. პირველ თვეში შეკვეთები გაიზარდა, თუმცა მიწოდების დღეები ხშირად იცვლებოდა და მომხმარებლები უკმაყოფილო იყვნენ. ფერმერებმა პასუხისმგებლობები გადაანაწილეს: ერთმა შეკვეთები შეაგროვა, მეორემ კი მარშრუტი დაგეგმა. ფასები არ შეუცვლიათ, მაგრამ დროული მიწოდების შემდეგ მომხმარებელთა რაოდენობა კვლავ გაიზარდა.",
+    "question": "Qu’est-ce qui a entraîné la nouvelle hausse du nombre de clients ?",
+    "options": [
+      "Les agriculteurs ont mieux organisé les livraisons et les ont effectuées à temps.",
+      "Ils ont fortement baissé les prix.",
+      "Ils ont arrêté d’accepter des commandes.",
+      "Ils ont fait payer tous les frais de transport à un seul agriculteur."
+    ],
+    "answer": "Les agriculteurs ont mieux organisé les livraisons et les ont effectuées à temps.",
+    "translation": "Plusieurs agriculteurs ont décidé de vendre leurs produits ensemble afin de partager les frais de transport. Le premier mois, les commandes ont augmenté, mais les jours de livraison changeaient souvent et les clients étaient mécontents. Les agriculteurs ont redistribué les responsabilités : l’un a centralisé les commandes et l’autre a planifié l’itinéraire. Ils n’ont pas modifié les prix, mais le nombre de clients a de nouveau augmenté après des livraisons ponctuelles.",
+    "explanation": "Le texte précise que les prix sont restés identiques ; l’amélioration de la ponctualité explique donc le retour des clients."
+  },
+  {
+    "id": "b2-cultural-archive",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Conserver des archives",
+    "text": "მუნიციპალიტეტმა ძველი ფოტოების ციფრულ არქივად გადატანა დაიწყო, რათა მათი ნახვა უფრო მეტ ადამიანს შესძლებოდა. ზოგიერთი მცხოვრები შიშობდა, რომ ონლაინ ასლები ორიგინალების შენახვას ნაკლებად მნიშვნელოვნად წარმოაჩენდა. არქივის თანამშრომლებმა განმარტეს, რომ ციფრული ვერსია დაზიანებულ ფოტოს ვერ ჩაანაცვლებს და ორიგინალები კვლავ დაცულ საცავში ინახება. მათ ასევე დაამატეს ფოტოების ისტორიის შესახებ ინფორმაცია, რომელსაც ოჯახები აწვდიდნენ.",
+    "question": "Quelle est l’utilité des copies numériques selon les archivistes ?",
+    "options": [
+      "Elles élargissent l’accès sans remplacer la conservation des originaux.",
+      "Elles remplacent complètement les originaux endommagés.",
+      "Elles suppriment les informations fournies par les familles.",
+      "Elles rendent inutile la conservation des originaux."
+    ],
+    "answer": "Elles élargissent l’accès sans remplacer la conservation des originaux.",
+    "translation": "La municipalité a commencé à numériser de vieilles photographies afin que davantage de personnes puissent les consulter. Certains habitants craignaient que les copies en ligne rendent la conservation des originaux moins importante. Les archivistes ont expliqué qu’une version numérique ne peut pas remplacer une photographie endommagée et que les originaux restent conservés dans une réserve sécurisée. Ils ont également ajouté des informations sur l’histoire des photos, fournies par les familles.",
+    "explanation": "Les copies numériques élargissent l’accès, tandis que les originaux demeurent conservés et que leur contexte familial est documenté."
+  },
+  {
+    "id": "b2-cafe-business-choice",
+    "level": 5,
+    "cefr": "B2",
+    "level_name": "Faire évoluer un commerce",
+    "text": "კაფეს მფლობელმა შენიშნა, რომ შუადღის შემდეგ ბევრი მაგიდა ცარიელი რჩებოდა. მან ფასდაკლება გამოაცხადა, მაგრამ მომხმარებელთა რაოდენობა მნიშვნელოვნად არ შეცვლილა. საუბარში გაირკვა, რომ ახლომდებარე ოფისების თანამშრომლებს მოკლე შესვენება ჰქონდათ და შეკვეთის დიდხანს ლოდინი არ შეეძლოთ. კაფემ სწრაფი სადილის მენიუ დაამატა; გაყიდვები გაიზარდა, თუმცა ჩვეულებრივი კერძების მომზადება არ შეუწყვეტია.",
+    "question": "Pourquoi le menu de déjeuner rapide a-t-il mieux fonctionné que la réduction ?",
+    "options": [
+      "Il répondait au véritable obstacle des clients : leur manque de temps.",
+      "La réduction coûtait plus cher que le nouveau menu.",
+      "Les employés des bureaux n’avaient pas le droit d’entrer au café.",
+      "Le café a supprimé tous ses plats habituels."
+    ],
+    "answer": "Il répondait au véritable obstacle des clients : leur manque de temps.",
+    "translation": "Le propriétaire d’un café a remarqué que beaucoup de tables restaient vides après midi. Il a proposé une réduction, mais le nombre de clients n’a pas beaucoup changé. Les discussions ont révélé que les employés des bureaux voisins avaient une courte pause et ne pouvaient pas attendre longtemps leur commande. Le café a ajouté un menu de déjeuner rapide ; les ventes ont augmenté, sans supprimer les plats habituels.",
+    "explanation": "La nouvelle formule répond au manque de temps identifié chez les clients, alors que la réduction ne répondait pas à leur principal obstacle."
+  }
+]
