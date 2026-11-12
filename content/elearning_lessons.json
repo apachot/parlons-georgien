@@ -721,5 +721,110 @@
       {"title":"Revoir les verbes du quotidien","href":"/grammar"},
       {"title":"Réviser les mots du temps et des activités","href":"/vocabulary"}
     ]
+  },
+  {
+    "id": "exprimer-ses-gouts",
+    "title": "Exprimer ses goûts et ses préférences",
+    "level": "A1",
+    "tag": "Les goûts · 10 min",
+    "icon": "💛",
+    "goal": "Dire ce que l’on aime ou non, exprimer une préférence et comprendre quelques questions sur les goûts.",
+    "slides": [
+      {
+        "eyebrow": "01 · DIRE CE QUI PLAÎT",
+        "title": "მომწონს : « j’aime »",
+        "body": "Pour dire que quelque chose vous plaît, utilisez მომწონს. La phrase მე მომწონს მუსიკა signifie « j’aime la musique » ; littéralement, « la musique me plaît ». Le pronom მე (« moi, je ») est facultatif.",
+        "examples": [
+          {"ka":"მე მომწონს მუსიკა.","fr":"J’aime la musique.","note":"მუსიკა : la musique ; მომწონს : me plaît."},
+          {"ka":"მომწონს ჩაი.","fr":"J’aime le thé.","note":"Le pronom მე peut être omis."},
+          {"ka":"ქართული მუსიკა მომწონს.","fr":"J’aime la musique géorgienne.","note":"ქართული : géorgien(ne)."}
+        ],
+        "takeaway":"მომწონს exprime qu’une chose vous plaît : « j’aime » ou « ça me plaît »."
+      },
+      {
+        "eyebrow":"02 · PARLER DE CE QU’ON AIME BEAUCOUP",
+        "title":"მიყვარს : « j’aime beaucoup, j’adore »",
+        "body":"მიყვარს exprime un attachement fort, souvent traduit par « j’adore » ou « j’aime beaucoup ». On peut l’utiliser avec des choses et des activités. Pour cette première étape, observez surtout le mot qui suit.",
+        "examples":[
+          {"ka":"მიყვარს ქართული.","fr":"J’adore le géorgien.","note":"ქართული : la langue géorgienne."},
+          {"ka":"მიყვარს წიგნები.","fr":"J’adore les livres.","note":"წიგნები : les livres."},
+          {"ka":"მიყვარს მუსიკა.","fr":"J’adore la musique.","note":"მიყვარს exprime un goût fort."}
+        ],
+        "takeaway":"მომწონს : j’aime ; მიყვარს : j’aime beaucoup, j’adore."
+      },
+      {
+        "eyebrow":"03 · DIRE CE QU’ON N’AIME PAS",
+        "title":"არ მომწონს : « je n’aime pas »",
+        "body":"Pour dire qu’une chose ne vous plaît pas, placez არ devant მომწონს : არ მომწონს. Le nom de la chose reste dans la phrase, comme dans ყავა არ მომწონს (« je n’aime pas le café »).",
+        "examples":[
+          {"ka":"ყავა არ მომწონს.","fr":"Je n’aime pas le café.","note":"არ précède მომწონს."},
+          {"ka":"ეს ფილმი არ მომწონს.","fr":"Je n’aime pas ce film.","note":"ეს : ce, cette ; ფილმი : film."},
+          {"ka":"არ მიყვარს ეს მუსიკა.","fr":"Je n’aime pas cette musique.","note":"არ se place également avant მიყვარს."}
+        ],
+        "takeaway":"Pour nier : არ + forme verbale, comme dans არ მომწონს."
+      },
+      {
+        "eyebrow":"04 · DEMANDER LES GOÛTS DE QUELQU’UN",
+        "title":"რა მოგწონს ? : « qu’est-ce que tu aimes ? »",
+        "body":"La question რა მოგწონს ? signifie « qu’est-ce qui te plaît ? », donc « qu’est-ce que tu aimes ? ». Pour demander si une personne aime le café, dites ყავა მოგწონს ? Le contexte indique souvent à qui la chose plaît.",
+        "examples":[
+          {"ka":"რა მოგწონს?","fr":"Qu’est-ce que tu aimes ?","note":"რა : quoi ; მოგწონს : te plaît."},
+          {"ka":"ყავა მოგწონს?","fr":"Tu aimes le café ?","note":"Une question simple, sans mot interrogatif distinctif."},
+          {"ka":"რომელი მუსიკა მოგწონს?","fr":"Quelle musique aimes-tu ?","note":"რომელი : lequel, quelle."}
+        ],
+        "takeaway":"რა მოგწონს ? demande ce qui plaît à votre interlocuteur."
+      },
+      {
+        "eyebrow":"05 · RÉPONDRE ET NUANCER",
+        "title":"ძალიან : « beaucoup, très »",
+        "body":"Vous pouvez renforcer votre réponse avec ძალიან (« beaucoup », « très »). Placez-le avant l’expression du goût : ძალიან მომწონს (« j’aime beaucoup »). Pour dire simplement « oui » ou « non », commencez par კი ou არა.",
+        "examples":[
+          {"ka":"ძალიან მომწონს ქართული მუსიკა.","fr":"J’aime beaucoup la musique géorgienne.","note":"ძალიან renforce მომწონს."},
+          {"ka":"კი, მომწონს.","fr":"Oui, j’aime ça.","note":"კი : oui."},
+          {"ka":"არა, არ მომწონს.","fr":"Non, je n’aime pas ça.","note":"არა : non ; არ მომწონს : je n’aime pas."}
+        ],
+        "takeaway":"ძალიან მომწონს = j’aime beaucoup ; არ მომწონს = je n’aime pas."
+      },
+      {
+        "eyebrow":"06 · LIRE UN ÉCHANGE SUR LES GOÛTS",
+        "title":"Musique, thé et préférences",
+        "body":"Dans ce court échange, repérez ce que la personne aime, ce qu’elle n’aime pas et l’intensité de son appréciation.",
+        "reading_text":"— რა მუსიკა მოგწონს?\n— ქართული მუსიკა ძალიან მომწონს. ჩაიც მომწონს, მაგრამ ყავა არ მომწონს.",
+        "examples":[
+          {"ka":"რა მუსიკა მოგწონს?","fr":"Quelle musique aimes-tu ?","note":"La question porte sur la musique."},
+          {"ka":"ქართული მუსიკა ძალიან მომწონს.","fr":"J’aime beaucoup la musique géorgienne.","note":"ძალიან indique un goût fort."},
+          {"ka":"ჩაიც მომწონს.","fr":"J’aime aussi le thé.","note":"-ც signifie « aussi » dans ce mot."},
+          {"ka":"ყავა არ მომწონს.","fr":"Je n’aime pas le café.","note":"La personne n’aime pas le café."}
+        ],
+        "takeaway":"À vous : le QCM final vérifie les goûts exprimés dans le dialogue."
+      }
+    ],
+    "checks":[
+      {
+        "after_slide":2,
+        "questions":[
+          {"prompt":"Que signifie მომწონს ?","options":["J’aime, cela me plaît.","Je pars.","Je travaille.","Je n’ai pas."],"answer":"J’aime, cela me plaît.","explanation":"მომწონს exprime qu’une chose plaît à la personne."},
+          {"prompt":"Quelle expression signifie « j’adore la musique » ?","options":["მიყვარს მუსიკა.","არ მომწონს მუსიკა.","მივდივარ მუსიკა.","დღეს მუსიკა."],"answer":"მიყვარს მუსიკა.","explanation":"მიყვარს exprime un goût fort : « j’adore » ou « j’aime beaucoup »."}
+        ]
+      },
+      {
+        "after_slide":4,
+        "questions":[
+          {"prompt":"Comment dit-on « je n’aime pas le café » ?","options":["ყავა არ მომწონს.","ყავა ძალიან მომწონს.","ყავა მინდა.","ყავა მიყვარს."],"answer":"ყავა არ მომწონს.","explanation":"არ se place avant მომწონს pour former la négation."},
+          {"prompt":"Que demande რა მოგწონს?","options":["Qu’est-ce que tu aimes ?","Où vas-tu ?","Quand travailles-tu ?","Qui est-ce ?"],"answer":"Qu’est-ce que tu aimes ?","explanation":"რა signifie « quoi » et მოგწონს signifie « te plaît »."}
+        ]
+      },
+      {
+        "after_slide":6,
+        "questions":[
+          {"prompt":"Dans le dialogue, qu’est-ce que la personne aime beaucoup ?","options":["La musique géorgienne.","Le café.","Le métro.","Le film."],"answer":"La musique géorgienne.","explanation":"ქართული მუსიკა ძალიან მომწონს signifie « j’aime beaucoup la musique géorgienne »."},
+          {"prompt":"Qu’est-ce que la personne n’aime pas ?","options":["Le café.","Le thé.","La musique géorgienne.","Les livres."],"answer":"Le café.","explanation":"ყავა არ მომწონს signifie « je n’aime pas le café »."}
+        ]
+      }
+    ],
+    "related":[
+      {"title":"Réviser le vocabulaire des goûts et des loisirs","href":"/vocabulary"},
+      {"title":"Revoir la négation au présent","href":"/grammar"}
+    ]
   }
 ]
