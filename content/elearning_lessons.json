@@ -512,5 +512,109 @@
       {"title":"Réviser les mots de transport et de direction","href":"/vocabulary"},
       {"title":"Pratiquer un dialogue en ville","href":"/dialogues"}
     ]
+  },
+  {
+    "id": "parler-de-la-meteo",
+    "title": "Parler de la météo",
+    "level": "A1",
+    "tag": "Le temps qu’il fait · 10 min",
+    "icon": "🌦️",
+    "goal": "Demander le temps qu’il fait et décrire le soleil, la pluie, la neige et la température.",
+    "slides": [
+      {
+        "eyebrow": "01 · LES MOTS DE LA MÉTÉO",
+        "title": "Observer le ciel et nommer ce qu’on voit",
+        "body": "ამინდი signifie « météo / temps qu’il fait ». Pour parler du ciel, retenez მზე (soleil), წვიმა (pluie), ქარი (vent) et თოვლი (neige).",
+        "examples": [
+          {"ka":"ამინდი","fr":"le temps qu’il fait, la météo","note":"Le sujet de la conversation."},
+          {"ka":"მზე · ქარი","fr":"soleil · vent","note":"Ce que l’on observe dans le ciel."},
+          {"ka":"წვიმა · თოვლი","fr":"pluie · neige","note":"Les précipitations."}
+        ],
+        "takeaway": "ამინდი désigne les conditions météo ; les autres mots nomment un phénomène."
+      },
+      {
+        "eyebrow": "02 · DEMANDER LE TEMPS QU’IL FAIT",
+        "title": "როგორი ამინდია დღეს?",
+        "body": "როგორი ამინდია დღეს? signifie « Quel temps fait-il aujourd’hui ? ». Pour répondre simplement, vous pouvez dire კარგი ამინდია (« il fait beau ») ou ცუდი ამინდია (« il fait mauvais »).",
+        "examples": [
+          {"ka":"როგორი ამინდია დღეს?","fr":"Quel temps fait-il aujourd’hui ?","note":"La question générale."},
+          {"ka":"კარგი ამინდია.","fr":"Il fait beau.","note":"კარგი : bon, beau."},
+          {"ka":"ცუდი ამინდია.","fr":"Il fait mauvais.","note":"ცუდი : mauvais."}
+        ],
+        "takeaway": "La réponse courte reprend ამინდია (« le temps est… ») après l’adjectif."
+      },
+      {
+        "eyebrow": "03 · LE SOLEIL ET LE VENT",
+        "title": "Décrire ce que fait le ciel",
+        "body": "Pour dire que le soleil brille, dites მზე ანათებს. Pour signaler le vent, ქარია signifie « il y a du vent / il y a du vent aujourd’hui ». Ces expressions décrivent directement le temps qu’il fait.",
+        "examples": [
+          {"ka":"მზე ანათებს.","fr":"Le soleil brille.","note":"მზე : soleil ; ანათებს : brille."},
+          {"ka":"ქარია.","fr":"Il y a du vent.","note":"ქარი : vent ; ქარია : il y a du vent."},
+          {"ka":"დღეს მზე ანათებს.","fr":"Le soleil brille aujourd’hui.","note":"დღეს : aujourd’hui."}
+        ],
+        "takeaway": "Apprenez l’expression entière მზე ანათებს comme un bloc utile."
+      },
+      {
+        "eyebrow": "04 · LA PLUIE ET LA NEIGE",
+        "title": "Distinguer le nom et l’action",
+        "body": "წვიმა est le nom « pluie » ; წვიმს signifie « il pleut ». De même, თოვლი est « la neige » et თოვს signifie « il neige ». Pour dire « aujourd’hui », placez დღეს au début : დღეს წვიმს.",
+        "examples": [
+          {"ka":"წვიმა · წვიმს","fr":"pluie · il pleut","note":"Le nom et le verbe."},
+          {"ka":"თოვლი · თოვს","fr":"neige · il neige","note":"Le nom et le verbe."},
+          {"ka":"დღეს წვიმს.","fr":"Il pleut aujourd’hui.","note":"დღეს : aujourd’hui."}
+        ],
+        "takeaway": "წვიმა et თოვლი nomment les phénomènes ; წვიმს et თოვს disent ce qui se passe."
+      },
+      {
+        "eyebrow": "05 · CHAUD, FROID OU DOUX",
+        "title": "Parler de la température",
+        "body": "Pour décrire la température ambiante, on emploie des formes courtes : ცხელა (« il fait chaud »), თბილა (« il fait doux / il fait bon ») et ცივა (« il fait froid »). Elles ne s’accordent pas avec un nom comme les adjectifs français.",
+        "examples": [
+          {"ka":"დღეს ცხელა.","fr":"Il fait chaud aujourd’hui.","note":"ცხელა : il fait chaud."},
+          {"ka":"დღეს თბილა.","fr":"Il fait doux aujourd’hui.","note":"თბილა : il fait doux / chaud."},
+          {"ka":"დღეს ცივა.","fr":"Il fait froid aujourd’hui.","note":"ცივა : il fait froid."}
+        ],
+        "takeaway": "Pour la météo, retenez les expressions complètes ცხელა, თბილა et ცივა."
+      },
+      {
+        "eyebrow": "06 · LIRE UN BULLETIN TRÈS COURT",
+        "title": "Assembler les observations",
+        "body": "Lisez le passage et repérez d’abord le temps général, puis les phénomènes et la température. Le petit mot და relie deux informations et signifie « et ».",
+        "reading_text": "დღეს კარგი ამინდია. მზე ანათებს და თბილა. საღამოს წვიმს.",
+        "examples": [
+          {"ka":"დღეს კარგი ამინდია.","fr":"Il fait beau aujourd’hui.","note":"Le temps général."},
+          {"ka":"მზე ანათებს და თბილა.","fr":"Le soleil brille et il fait doux.","note":"და : et."},
+          {"ka":"საღამოს წვიმს.","fr":"Il pleut le soir.","note":"საღამოს : le soir."}
+        ],
+        "takeaway": "À vous : le QCM final vérifie les phénomènes météo et les informations du bulletin."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Que signifie ამინდი ?","options":["Le temps qu’il fait, la météo","Le soleil","La pluie","La neige"],"answer":"Le temps qu’il fait, la météo","explanation":"ამინდი désigne la météo ou les conditions du temps."},
+          {"prompt":"Comment demander « Quel temps fait-il aujourd’hui ? » ?","options":["როგორი ამინდია დღეს?","დღეს წვიმს.","მზე ანათებს.","დღეს ცივა."],"answer":"როგორი ამინდია დღეს?","explanation":"C’est la question générale sur le temps qu’il fait aujourd’hui."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Quel verbe signifie « il neige » ?","options":["თოვს","თოვლი","წვიმა","ქარია"],"answer":"თოვს","explanation":"თოვს signifie « il neige » ; თოვლი est le nom « neige »."},
+          {"prompt":"Que signifie დღეს წვიმს ?","options":["Il pleut aujourd’hui.","Il neige aujourd’hui.","Le soleil brille aujourd’hui.","Il fait froid aujourd’hui."],"answer":"Il pleut aujourd’hui.","explanation":"დღეს signifie « aujourd’hui » et წვიმს signifie « il pleut »."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Dans le bulletin, quel temps fait-il pendant la journée ?","options":["Il fait beau, le soleil brille et il fait doux.","Il neige et il fait très froid.","Il y a du vent et il fait mauvais.","Il pleut toute la journée."],"answer":"Il fait beau, le soleil brille et il fait doux.","explanation":"დღეს კარგი ამინდია ; მზე ანათებს და თბილა : il fait beau, le soleil brille et il fait doux."},
+          {"prompt":"Que se passe-t-il le soir ?","options":["Il pleut.","Il neige.","Le vent se lève.","Le temps devient chaud."],"answer":"Il pleut.","explanation":"საღამოს წვიმს signifie « il pleut le soir »."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Réviser les mots de la météo","href":"/vocabulary"},
+      {"title":"Écouter d’autres textes courts","href":"/comprehension"}
+    ]
   }
 ]
