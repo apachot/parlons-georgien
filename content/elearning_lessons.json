@@ -94,5 +94,109 @@
       {"title":"Écouter les sons des lettres","href":"/alphabet#alphabet-practice"},
       {"title":"Parcourir les 33 lettres","href":"/alphabet#alphabet-grid"}
     ]
+  },
+  {
+    "id": "saluer-et-se-presenter",
+    "title": "Saluer et se présenter",
+    "level": "A1",
+    "tag": "Premiers échanges · 10 min",
+    "icon": "👋",
+    "goal": "Saluer quelqu’un, demander son nom et son origine, puis donner quelques informations sur soi.",
+    "slides": [
+      {
+        "eyebrow": "01 · DIRE BONJOUR",
+        "title": "Choisir une formule pour le moment de la journée",
+        "body": "გამარჯობა (gamarjoba) est le bonjour courant, utilisable à toute heure. Le matin, on peut dire დილა მშვიდობისა ; le soir, საღამო მშვიდობისა. Pour prendre congé, ნახვამდის signifie au revoir.",
+        "examples": [
+          {"ka":"გამარჯობა!","fr":"Bonjour !","note":"La formule passe-partout."},
+          {"ka":"დილა მშვიდობისა","fr":"Bonjour (le matin)","note":"Littéralement : matin de paix."},
+          {"ka":"ნახვამდის!","fr":"Au revoir !","note":"Pour se quitter."}
+        ],
+        "takeaway": "Pour commencer une conversation, გამარჯობა convient dans presque toutes les situations."
+      },
+      {
+        "eyebrow": "02 · DEMANDER COMMENT ÇA VA",
+        "title": "Une forme familière et une forme polie",
+        "body": "როგორ ხარ? s’adresse à une personne que l’on tutoie. როგორ ხართ? s’emploie pour vouvoyer une personne ou s’adresser à plusieurs personnes. La réponse fréquente კარგად, მადლობა signifie « bien, merci ».",
+        "examples": [
+          {"ka":"როგორ ხარ?","fr":"Comment vas-tu ?","note":"Familier, singulier."},
+          {"ka":"როგორ ხართ?","fr":"Comment allez-vous ?","note":"Poli ou pluriel."},
+          {"ka":"კარგად, მადლობა.","fr":"Bien, merci.","note":"Réponse simple."}
+        ],
+        "takeaway": "Le -თ de ხართ marque ici le pluriel ou la politesse."
+      },
+      {
+        "eyebrow": "03 · DIRE SON NOM",
+        "title": "« Je m’appelle… » se construit autrement",
+        "body": "მე მქვია Ana signifie « je m’appelle Ana ». Pour demander le nom de façon familière, dites რა გქვია? ; dans un échange poli ou pluriel, dites რა გქვიათ? Le prénom vient après le verbe.",
+        "examples": [
+          {"ka":"მე მქვია ანა.","fr":"Je m’appelle Ana.","note":"მე signifie « moi / je », mais peut être omis."},
+          {"ka":"რა გქვია?","fr":"Comment tu t’appelles ?","note":"Forme familière."},
+          {"ka":"რა გქვიათ?","fr":"Comment vous appelez-vous ?","note":"Forme polie ou plurielle."}
+        ],
+        "takeaway": "Retenez le bloc მე მქვია + prénom pour vous présenter."
+      },
+      {
+        "eyebrow": "04 · DIRE D’OÙ L’ON VIENT",
+        "title": "Demander l’origine et répondre",
+        "body": "საიდან ხართ? signifie « d’où venez-vous ? ». Le nom du pays prend la terminaison -დან pour exprimer la provenance : საფრანგეთი devient საფრანგეთიდან (« de France »). On peut répondre მე საფრანგეთიდან ვარ.",
+        "examples": [
+          {"ka":"საიდან ხართ?","fr":"D’où venez-vous ?","note":"Question polie ou plurielle."},
+          {"ka":"მე საფრანგეთიდან ვარ.","fr":"Je viens de France.","note":"საფრანგეთი → საფრანგეთიდან."},
+          {"ka":"საქართველოდან ვარ.","fr":"Je viens de Géorgie.","note":"საქართველო → საქართველოდან."}
+        ],
+        "takeaway": "Repérez -დან à la fin du pays : il indique « de / depuis »."
+      },
+      {
+        "eyebrow": "05 · AJOUTER UNE INFORMATION",
+        "title": "Dire sa nationalité ou ce qu’on apprend",
+        "body": "მე ფრანგი ვარ signifie « je suis français(e) » : la forme ფრანგი ne change pas selon le genre. Pour dire « j’apprends le géorgien », on dit ქართულს ვსწავლობ. Le géorgien place souvent le verbe à la fin de la phrase.",
+        "examples": [
+          {"ka":"მე ფრანგი ვარ.","fr":"Je suis français(e).","note":"La même forme pour tous les genres."},
+          {"ka":"მე ქართველი ვარ.","fr":"Je suis géorgien(ne).","note":"ქართველი : une personne géorgienne."},
+          {"ka":"ქართულს ვსწავლობ.","fr":"J’apprends le géorgien.","note":"Le verbe vient en fin de phrase."}
+        ],
+        "takeaway": "Pour une présentation courte : origine, nationalité, puis langue étudiée."
+      },
+      {
+        "eyebrow": "06 · METTRE LES FORMULES ENSEMBLE",
+        "title": "Un premier échange complet",
+        "body": "Lisez cet échange comme une séquence : salutation, question de politesse, nom, puis origine. Vous pouvez remplacer Ana et Nika par votre prénom et votre pays.",
+        "examples": [
+          {"ka":"A · გამარჯობა! როგორ ხართ?","fr":"Bonjour ! Comment allez-vous ?","note":"On commence poliment."},
+          {"ka":"B · კარგად, მადლობა. თქვენ?","fr":"Bien, merci. Et vous ?","note":"თქვენ signifie « vous »."},
+          {"ka":"A · მე მქვია ანა. თქვენ რა გქვიათ?","fr":"Je m’appelle Ana. Et vous, comment vous appelez-vous ?","note":"Présentation et question polie."},
+          {"ka":"B · მე ნიკა მქვია. საფრანგეთიდან ვარ.","fr":"Je m’appelle Nika. Je viens de France.","note":"Le nom peut précéder მქვია."}
+        ],
+        "takeaway": "À vous : le dernier QCM vérifie le registre poli, le nom et la provenance."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Quelle formule de salutation peut s’utiliser à toute heure ?","options":["გამარჯობა","დილა მშვიდობისა","ნახვამდის","საღამო მშვიდობისა"],"answer":"გამარჯობა","explanation":"გამარჯობა est le bonjour courant, utilisable à toute heure."},
+          {"prompt":"Que signifie როგორ ხართ?","options":["Comment allez-vous ?","Comment tu t’appelles ?","D’où viens-tu ?","Au revoir"],"answer":"Comment allez-vous ?","explanation":"ხართ est la forme polie ou plurielle de « être » dans cette question."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Comment dit-on « je m’appelle Ana » ?","options":["მე მქვია ანა.","რა გქვია?","მე საფრანგეთიდან ვარ.","კარგად, მადლობა."],"answer":"მე მქვია ანა.","explanation":"მე მქვია + prénom sert à dire son nom."},
+          {"prompt":"Quelle terminaison indique ici « de France » ?","options":["-დან","-ში","-ები","-ს"],"answer":"-დან","explanation":"საფრანგეთი devient საფრანგეთიდან pour exprimer la provenance."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Vous vous adressez poliment à une personne. Comment demandez-vous son nom ?","options":["რა გქვიათ?","რა გქვია?","როგორ ხარ?","საიდან ხარ?"],"answer":"რა გქვიათ?","explanation":"La terminaison -თ marque ici la forme polie (ou plurielle)."},
+          {"prompt":"Que signifie საფრანგეთიდან ვარ ?","options":["Je viens de France.","Je suis français(e).","J’apprends le français.","Comment allez-vous ?"],"answer":"Je viens de France.","explanation":"-დან marque la provenance ; ვარ signifie « je suis » dans cette phrase."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Pratiquer les dialogues","href":"/dialogues"},
+      {"title":"Revoir les mots de présentation","href":"/vocabulary"}
+    ]
   }
 ]

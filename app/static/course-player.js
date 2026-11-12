@@ -13,7 +13,7 @@
   let score = 0, wrongTotal = 0, answered = 0;
   const checkpoints = new Map((lesson.checks || []).map(item => [item.after_slide, item]));
   const totalQuestions = (lesson.checks || []).reduce((n, item) => n + item.questions.length, 0);
-  const progressMax = lesson.slides.length + (lesson.checkpoints || []).length;
+  const progressMax = lesson.slides.length + (lesson.checks || []).length;
 
   const node = (tag, cls, content) => { const el = document.createElement(tag); if (cls) el.className = cls; if (content != null) el.textContent = content; return el; };
   function updateProgress() {
@@ -82,7 +82,7 @@
     controls.classList.add('hidden'); stage.classList.add('hidden'); result.classList.remove('hidden');
     const pct = totalQuestions ? Math.round(score / totalQuestions * 100) : 100;
     const heading = pct >= 80 ? 'Bravo, leçon maîtrisée !' : pct >= 50 ? 'Belle progression !' : 'Chaque lecture vous fait avancer.';
-    const message = pct >= 80 ? 'Vous avez de bons repères pour poursuivre la lecture du géorgien.' : pct >= 50 ? 'Les nouvelles lettres demandent de la pratique : vous avez déjà posé de bons repères.' : 'Reprenez tranquillement les exemples, puis refaites les questions pour consolider les sons.';
+    const message = pct >= 80 ? 'Vous avez de bons repères pour poursuivre votre apprentissage du géorgien.' : pct >= 50 ? 'Vous avez déjà posé de bons repères. Continuez à pratiquer pour les consolider.' : 'Reprenez tranquillement les exemples, puis refaites les questions pour consolider vos acquis.';
     result.append(node('div', 'course-result-spark', '✦　✳　✦'), node('div', 'eyebrow', 'LEÇON TERMINÉE'), node('h2', '', heading), node('p', 'course-result-message', message));
     const stats = node('div', 'course-result-stats');
     [[`${pct} %`, 'score de première réponse pondéré'], [`${wrongTotal}`, 'erreur(s) avant validation'], [`${lesson.slides.length}`, 'slides étudiées']].forEach(([value, label]) => { const card = node('div', ''); card.append(node('b', '', value), node('span', '', label)); stats.append(card); });
