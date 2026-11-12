@@ -17,7 +17,7 @@
   const totalQuestions = (lesson.checks || []).reduce((n, item) => n + item.questions.length, 0);
   const progressMax = lesson.slides.length + (lesson.checks || []).length;
   const progressKey = `parlons-course-progress-${lesson.id}`;
-  let wrongChoices = new Set(), questionSolved = false, restoredCompleted = false;
+  let wrongChoices = new Set(), questionSolved = false, restoredCompleted = false, reviewingCheckpoint = false;
 
   try {
     const saved = JSON.parse(localStorage.getItem(progressKey) || 'null');
@@ -35,6 +35,7 @@
         wrongOnQuestion = Number.isInteger(saved.wrongOnQuestion) ? Math.max(0, saved.wrongOnQuestion) : 0;
         wrongChoices = new Set(Array.isArray(saved.wrongChoices) ? saved.wrongChoices : []);
         questionSolved = saved.questionSolved === true;
+        reviewingCheckpoint = saved.reviewingCheckpoint === true;
       }
     }
   } catch (_) {}
@@ -64,19 +65,21 @@
       localStorage.setItem(progressKey, JSON.stringify({
         version: 1, slideIndex, checkpointAfter: checkpoint?.after_slide ?? null,
         questionIndex, wrongOnQuestion, wrongTotal, score, answered,
-        wrongChoices: [...wrongChoices], questionSolved, completed,
+        wrongChoices: [...wrongChoices], questionSolved, reviewingCheckpoint, completed,
       }));
     } catch (_) {}
   }
   function updateProgress() {
-    const done = slideIndex + (checkpoint ? 0.5 : 0);
+    const done = slideIndex + (checkpoint && !reviewingCheckpoint ? 0.5 : 0);
     const pct = Math.min(100, Math.round(done / progressMax * 100));
     progressFill.style.width = `${pct}%`; progressLabel.textContent = `${pct} %`;
-    stepLabel.textContent = checkpoint ? `Point d’étape · ${questionIndex + 1}/${checkpoint.questions.length}` : `Slide ${Math.min(slideIndex + 1, lesson.slides.length)} / ${lesson.slides.length}`;
+    stepLabel.textContent = checkpoint && !reviewingCheckpoint ? `Point d’étape · ${questionIndex + 1}/${checkpoint.questions.length}` : `${reviewingCheckpoint ? 'Révision · ' : ''}Slide ${Math.min(slideIndex + 1, lesson.slides.length)} / ${lesson.slides.length}`;
   }
-  function renderSlide() {
-    checkpoint = null;
-    questionSolved = false; wrongOnQuestion = 0; wrongChoices = new Set();
+  function renderSlide(preserveCheckpoint = false) {
+    if (!preserveCheckpoint) {
+      checkpoint = null; reviewingCheckpoint = false;
+      questionSolved = false; wrongOnQuestion = 0; wrongChoices = new Set();
+    }
     const slide = lesson.slides[slideIndex];
     stage.replaceChildren(); stage.className = 'course-slide';
     stage.append(node('div', 'eyebrow', slide.eyebrow), node('h2', '', slide.title));
@@ -105,8 +108,13 @@
     const takeaway = node('div', 'course-takeaway', slide.takeaway);
     stage.append(takeaway);
     addInlineAudio(takeaway, slide.takeaway);
-    prev.disabled = slideIndex === 0;
-    next.textContent = checkpoints.has(slideIndex + 1) ? 'Faire le point →' : (slideIndex === lesson.slides.length - 1 ? 'Terminer la leçon →' : 'Continuer →');
+    if (reviewingCheckpoint) {
+      prev.disabled = false; prev.textContent = '← Retour au QCM';
+      next.textContent = 'Retour au QCM →';
+    } else {
+      prev.disabled = slideIndex === 0; prev.textContent = '← Précédent';
+      next.textContent = checkpoints.has(slideIndex + 1) ? 'Faire le point →' : (slideIndex === lesson.slides.length - 1 ? 'Terminer la leçon →' : 'Continuer →');
+    }
     updateProgress();
     live.textContent = `${slide.title}. ${slide.body}`;
     saveProgress();
@@ -163,9 +171,9 @@
     options.addEventListener('click', () => { next.disabled = !next.dataset.quizAnswered || next.dataset.quizAnswered !== 'true'; });
     // Re-enable the advance control when the correct answer is selected.
     options.addEventListener('click', () => { if (next.dataset.quizAnswered === 'true') next.disabled = false; });
-    prev.disabled = true; updateProgress(); saveProgress();
+    prev.disabled = false; prev.textContent = '← Revoir la slide'; updateProgress(); saveProgress();
   }
-  function startCheckpoint(item) { checkpoint = item; questionIndex = 0; wrongOnQuestion = 0; wrongChoices = new Set(); questionSolved = false; renderQuestion(); }
+  function startCheckpoint(item) { checkpoint = item; questionIndex = 0; wrongOnQuestion = 0; wrongChoices = new Set(); questionSolved = false; reviewingCheckpoint = false; renderQuestion(); }
   function showResult(playSound = true) {
     controls.classList.add('hidden'); stage.classList.add('hidden'); result.classList.remove('hidden');
     const pct = totalQuestions ? Math.round(score / totalQuestions * 100) : 100;
@@ -192,8 +200,13 @@
     if (playSound && typeof playSuccessSound === 'function') playSuccessSound();
     live.textContent = `${heading} Score : ${pct} pour cent.`;
   }
-  prev.addEventListener('click', () => { if (!checkpoint && slideIndex > 0) { slideIndex--; renderSlide(); } });
+  prev.addEventListener('click', () => {
+    if (checkpoint && !reviewingCheckpoint) { reviewingCheckpoint = true; renderSlide(true); return; }
+    if (reviewingCheckpoint) { reviewingCheckpoint = false; renderQuestion(); return; }
+    if (!checkpoint && slideIndex > 0) { slideIndex--; renderSlide(); }
+  });
   next.addEventListener('click', () => {
+    if (reviewingCheckpoint) { reviewingCheckpoint = false; renderQuestion(); return; }
     if (checkpoint) {
       if (next.dataset.quizAnswered !== 'true') return;
       if (questionIndex + 1 < checkpoint.questions.length) {
@@ -212,6 +225,7 @@
     else { slideIndex++; renderSlide(); }
   });
   if (restoredCompleted) showResult(false);
+  else if (checkpoint && reviewingCheckpoint) renderSlide(true);
   else if (checkpoint) renderQuestion();
   else renderSlide();
 })();
