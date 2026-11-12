@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-APP_ROOT="/srv/parlons-georgien"
+APP_ROOT="${APP_ROOT:-/srv/parlons-georgien}"
 UNIT_SOURCE="$APP_ROOT/deploy/kartuli.service"
 APACHE_SOURCE="$APP_ROOT/deploy/apache-kartuli.conf"
 UNIT_TARGET="/etc/systemd/system/kartuli.service"
-VHOST="/etc/apache2/sites-available/example.org-le-ssl.conf"
+VHOST="${APACHE_VHOST:-/etc/apache2/sites-available/example-ssl.conf}"
 BACKUP="$VHOST.bak-kartuli-$(date +%Y%m%d%H%M%S)"
-VHOST_CANDIDATE="/tmp/example.org-le-ssl.conf.kartuli"
+VHOST_CANDIDATE="/tmp/example-ssl.conf.kartuli"
 
 sudo install -o root -g root -m 0644 "$UNIT_SOURCE" "$UNIT_TARGET"
 sudo systemctl daemon-reload

@@ -32,8 +32,8 @@ La voix française s’appuie sur la base SIWIS, sous licence CC BY 4.0 ; attrib
 
 ## Ce qui est inclus
 
-- Tableau de bord, 10 leçons de situation avec 8 questions de validation chacune (géorgien → français et français → géorgien), et séance de révision à choix multiples.
-- Les 33 lettres mkhedruli, 20 manches distinctes A1 de reconnaissance du son initial, exemples, translittération et aide de prononciation en français.
+- Tableau de bord, leçons interactives avec questions de validation, et séance de révision à choix multiples.
+- Les 33 lettres mkhedruli, des manches A1 de reconnaissance du son initial, des exemples, une translittération et une aide de prononciation en français.
 - Une nouvelle page d’accueil du vocabulaire avec quatre jeux : paires géorgien–français, quiz TTS dans les deux directions, associations mot–image et mémory.
 - 44 pictogrammes OpenMoji de vocabulaire stockés localement ; attribution et licence CC BY-SA 4.0 dans la page et `app/static/images/openmoji/ATTRIBUTION.txt`.
 - Dictées de 10 mots par séance : écoute Piper, saisie avec clavier mkhedruli, correction exacte et suivi des erreurs.
@@ -57,3 +57,9 @@ python -m unittest discover -s tests -v
 ```
 
 La mise en page est responsive et les états sans révisions et sans voix sont prévus. Une vérification visuelle manuelle sur plusieurs navigateurs/appareils reste recommandée pour la police géorgienne et les voix système.
+
+## Licence et crédits
+
+Le code et les contenus originaux de Parlons géorgien sont publiés sous GNU GPL version 3 ou, à votre choix, toute version ultérieure. Consultez [`LICENSE`](LICENSE). Les éléments tiers conservent leurs propres licences : les pictogrammes OpenMoji sont sous CC BY-SA 4.0 et les modèles de voix Piper ne sont pas inclus dans ce dépôt. Les détails et attributions figurent dans [`NOTICE.md`](NOTICE.md).
+
+Les contributions sont les bienvenues ; consultez [`CONTRIBUTING.md`](CONTRIBUTING.md). Pour signaler une faille, suivez [`SECURITY.md`](SECURITY.md).

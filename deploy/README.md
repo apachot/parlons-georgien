@@ -1,68 +1,29 @@
-# Déploiement sur example.org
+# Déploiement
 
-Parlons géorgien est monté sous `/kartuli/` sur `example.org`, avec le même modèle Apache/Gunicorn que les autres applications du serveur. Le compte `parlonsgeorgien` exécute le service ; il réutilise le venv partagé de DeescoPass, où Flask, Flask-SQLAlchemy, Werkzeug et Gunicorn sont déjà installés. Les données SQLite résident dans `instance/georgien.db` à côté du code.
+Cette application Flask peut être publiée à la racine d’un domaine ou sous un préfixe tel que `/kartuli/`. Les exemples ci-dessous utilisent Apache, Gunicorn et systemd. Adaptez le compte de service, les chemins, le nom d’hôte SSH et les noms de vhost à votre serveur ; gardez ces valeurs propres à votre infrastructure dans votre configuration locale.
 
-- Unit systemd : `kartuli.service`, bind loopback `127.0.0.1:8000`.
-- Extrait Apache : `apache-kartuli.conf`, à insérer dans le vhost TLS `example.org`.
-- WSGI applique `ProxyFix` pour transformer l’en-tête `X-Forwarded-Prefix: /kartuli` en `SCRIPT_NAME`; liens, ressources et API restent donc sous `/kartuli/`.
+## Installation
 
-## Vhosts de parlonsgeorgien.fr
+Préparez un environnement Python, installez `requirements.txt`, créez un compte système dédié et donnez-lui accès au répertoire de l’application et à `instance/`. L’unité `kartuli.service` est un modèle à adapter avant installation. Elle écoute sur `127.0.0.1:8000` ; le vhost Apache correspondant relaie les requêtes vers ce port.
 
-Les vhosts actifs sont préparés dans `parlonsgeorgien-http.conf` et `parlonsgeorgien-https.conf`. Le domaine sert Parlons géorgien à la racine (`/`) sur le Gunicorn existant (`127.0.0.1:8000`) : ne pas ajouter `X-Forwarded-Prefix` à ces vhosts. `www.parlonsgeorgien.fr` redirige vers `parlonsgeorgien.fr` en HTTP comme en HTTPS, et HTTP est redirigé vers HTTPS. Certificat Let’s Encrypt émis le 12 novembre 2026 pour les deux noms, avec renouvellement automatique.
+Pour servir l’application sous `/kartuli/`, insérez `apache-kartuli.conf` dans un vhost TLS et transmettez `X-Forwarded-Prefix: /kartuli`. Pour la servir à la racine de `parlonsgeorgien.fr`, installez les vhosts `parlonsgeorgien-http.conf` et `parlonsgeorgien-https.conf`. Ils prévoient HTTPS, la redirection de `www` vers le domaine nu et le renouvellement du certificat avec Certbot. Vérifiez les enregistrements DNS et adaptez les chemins du certificat avant l’activation.
 
-Avant activation, vérifier que les deux noms DNS pointent vers `SERVER_IPV4`. Au dernier contrôle (12 novembre 2026), `www.parlonsgeorgien.fr` pointait vers le serveur, mais `parlonsgeorgien.fr` résolvait encore vers `PREVIOUS_SERVER_IPV4`. Tant que l’apex n’est pas corrigé/propagé, Certbot ne pourra pas émettre un certificat valide pour les deux noms.
-
-Pour réinstaller les vhosts, une fois les deux enregistrements DNS propagés et le dossier ACME créé, installer et activer le vhost HTTP, puis (ré)émettre le certificat :
-
-```sh
-sudo install -d -o root -g root -m 0755 /var/lib/letsencrypt/.well-known/acme-challenge
-sudo install -o root -g root -m 0644 /srv/parlons-georgien/deploy/parlonsgeorgien-http.conf /etc/apache2/sites-available/parlonsgeorgien.fr.conf
-sudo a2ensite parlonsgeorgien.fr.conf
-sudo apachectl configtest && sudo systemctl reload apache2
-sudo certbot certonly --webroot -w /var/lib/letsencrypt -d parlonsgeorgien.fr -d www.parlonsgeorgien.fr
-```
-
-Après validation du certificat, installer le vhost HTTPS :
-
-```sh
-sudo install -o root -g root -m 0644 /srv/parlons-georgien/deploy/parlonsgeorgien-https.conf /etc/apache2/sites-available/parlonsgeorgien-https.conf
-sudo a2ensite parlonsgeorgien-https.conf
-```
-
-Le vhost HTTP redirige vers HTTPS (en laissant passer les requêtes ACME) ; le vhost HTTPS redirige `www` vers le domaine nu. Vérifier `sudo apachectl configtest` et recharger Apache. Contrôler enfin `https://parlonsgeorgien.fr/` et `https://www.parlonsgeorgien.fr/`.
-
-Le compte SSH de déploiement peut déposer les fichiers, mais `sudo` demande un mot de passe pour les opérations Apache et Certbot.
-
-Après installation, contrôler avec `systemctl is-active kartuli`, `curl -fsS https://example.org/kartuli/` et `curl -fsS https://example.org/kartuli/api/progress`.
+L’installation initiale de systemd et l’insertion du vhost nécessitent `sudo`. Le script `install_remote.sh` est un exemple à personnaliser ; vérifiez chaque chemin et chaque vhost avant de l’exécuter.
 
 ## Déploiements suivants
 
-Un `git push` met à jour GitHub, mais ne déploie pas l’application. Le serveur ne contient pas de clone Git : le code actif est dans `/srv/parlons-georgien`. Pour s’y connecter, utiliser l’alias SSH local `DEPLOY_HOST`, configuré dans `~/.ssh/config` avec la clé `~/.ssh/DEPLOY_SSH_KEY`. Ne jamais copier la clé privée dans le projet.
-
-Depuis la racine du dépôt, sauvegarder les fichiers distants concernés, puis transférer uniquement les fichiers modifiés. Exemple pour le template et les ressources statiques du vocabulaire :
+Définissez localement un alias SSH dans `~/.ssh/config` et les variables suivantes dans votre terminal. Ne stockez jamais de clé privée, mot de passe ou secret de déploiement dans le dépôt.
 
 ```sh
-ssh DEPLOY_HOST 'stamp=$(date -u +%Y%m%dT%H%M%SZ); dest=/srv/backups/kartuli-$stamp; mkdir -p "$dest"; cp /srv/parlons-georgien/app/templates/vocabulary.html /srv/parlons-georgien/app/static/vocabulary.js /srv/parlons-georgien/app/static/style.css "$dest"/'
-scp app/templates/vocabulary.html DEPLOY_HOST:/srv/parlons-georgien/app/templates/vocabulary.html
-scp app/static/vocabulary.js DEPLOY_HOST:/srv/parlons-georgien/app/static/vocabulary.js
-scp app/static/style.css DEPLOY_HOST:/srv/parlons-georgien/app/static/style.css
+export DEPLOY_HOST=mon-serveur
+export APP_ROOT=/srv/parlons-georgien
 ```
 
-Adapter les chemins de sauvegarde et de transfert aux fichiers réellement modifiés. Garder les sauvegardes dans `/srv/backups/` ; ne pas remplacer la base SQLite ni le cache audio pour un déploiement de code ordinaire.
-
-Après le transfert, recharger les workers Gunicorn afin qu’ils reprennent le nouveau code et les templates. Avec l’accès SSH actuel, `sudo systemctl restart` demande un mot de passe ; le signal `HUP` recharge Gunicorn sans couper le service :
+Sauvegardez les fichiers distants concernés, puis transférez uniquement les fichiers modifiés. Exemple :
 
 ```sh
-ssh DEPLOY_HOST 'pid=$(systemctl show kartuli.service -p MainPID --value); test "$pid" -gt 1; kill -HUP "$pid"; sleep 2; systemctl is-active kartuli.service'
+ssh "$DEPLOY_HOST" "mkdir -p /srv/backups && cp -a '$APP_ROOT/app/static/style.css' /srv/backups/style.css.bak"
+scp app/static/style.css "$DEPLOY_HOST:$APP_ROOT/app/static/style.css"
 ```
 
-Vérifier ensuite que la page et les ressources mises à jour sont bien servies par l’application derrière Apache :
-
-```sh
-ssh DEPLOY_HOST 'curl -fsS -H "X-Forwarded-Prefix: /kartuli" http://127.0.0.1:8000/vocabulary'
-ssh DEPLOY_HOST 'curl -fsS -H "X-Forwarded-Prefix: /kartuli" http://127.0.0.1:8000/static/vocabulary.js'
-ssh DEPLOY_HOST 'curl -fsS -H "X-Forwarded-Prefix: /kartuli" http://127.0.0.1:8000/static/style.css'
-curl -fsS https://example.org/kartuli/vocabulary
-```
-
-Pour une vérification ciblée, remplacer l’affichage complet par `grep` sur le nom du module, le texte ou le sélecteur CSS attendu. Le script `deploy/install_remote.sh` sert à l’installation initiale de l’unité systemd et de la configuration Apache TLS ; ce n’est pas la procédure normale pour publier une modification de l’application.
+Adaptez les chemins de sauvegarde et de transfert. Ne remplacez pas la base SQLite ni le cache audio lors d’un déploiement de code ordinaire. Après transfert, rechargez Gunicorn selon la configuration du serveur, puis vérifiez la page derrière Apache. Pour un déploiement sous `/kartuli/`, l’application attend l’en-tête `X-Forwarded-Prefix`; à la racine du domaine, cet en-tête n’est pas nécessaire.
