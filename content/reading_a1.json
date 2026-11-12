@@ -1,0 +1,342 @@
+[
+  {
+    "id": "a1-home-georgia",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "La vie quotidienne",
+    "text": "საქართველოში ვცხოვრობ. ქართულს ვსწავლობ. ახლა სახლში ვარ.",
+    "question": "Où se trouve la personne maintenant ?",
+    "options": [
+      "À la maison.",
+      "Au marché.",
+      "Au restaurant.",
+      "À la gare."
+    ],
+    "answer": "À la maison.",
+    "translation": "J’habite en Géorgie. J’apprends le géorgien. Je suis à la maison maintenant.",
+    "explanation": "ახლა სახლში ვარ signifie « je suis à la maison maintenant »."
+  },
+  {
+    "id": "a1-name-and-country",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Se présenter",
+    "text": "მე მქვია ანა. საფრანგეთიდან ვარ. საქართველოში ვცხოვრობ.",
+    "question": "D’où vient Ana ?",
+    "options": [
+      "De France.",
+      "De Géorgie.",
+      "De Tbilissi.",
+      "De Svanétie."
+    ],
+    "answer": "De France.",
+    "translation": "Je m’appelle Ana. Je viens de France. J’habite en Géorgie.",
+    "explanation": "საფრანგეთიდან ვარ signifie « je viens de France »."
+  },
+  {
+    "id": "a1-market-shopping",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Faire les courses",
+    "text": "ხვალ ბაზარში მივდივარ. პური და ყველი მინდა.",
+    "question": "Que veut acheter la personne ?",
+    "options": [
+      "Du pain et du fromage.",
+      "Du café et du thé.",
+      "Du lait et du riz.",
+      "Des pommes et des pêches."
+    ],
+    "answer": "Du pain et du fromage.",
+    "translation": "Demain, je vais au marché. Je veux du pain et du fromage.",
+    "explanation": "პური signifie « pain » et ყველი signifie « fromage »."
+  },
+  {
+    "id": "a1-sunny-day",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "La météo",
+    "text": "დღეს კარგი ამინდია. მზე ანათებს.",
+    "question": "Quel temps fait-il ?",
+    "options": [
+      "Il fait beau et le soleil brille.",
+      "Il pleut et il fait froid.",
+      "Il neige aujourd’hui.",
+      "Il fait mauvais et le vent souffle."
+    ],
+    "answer": "Il fait beau et le soleil brille.",
+    "translation": "Il fait beau aujourd’hui. Le soleil brille.",
+    "explanation": "კარგი ამინდია signifie « il fait beau » ; მზე ანათებს, « le soleil brille »."
+  },
+  {
+    "id": "a1-rainy-day",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "La météo",
+    "text": "დღეს წვიმაა. სახლში ვრჩები.",
+    "question": "Que fait la personne aujourd’hui ?",
+    "options": [
+      "Elle reste à la maison.",
+      "Elle va au marché.",
+      "Elle prend le métro.",
+      "Elle travaille au restaurant."
+    ],
+    "answer": "Elle reste à la maison.",
+    "translation": "Il pleut aujourd’hui. Je reste à la maison.",
+    "explanation": "სახლში ვრჩები signifie « je reste à la maison »."
+  },
+  {
+    "id": "a1-hot-coffee",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Au café",
+    "text": "ყავა ცხელია. წყალი ცივია.",
+    "question": "Qu’est-ce qui est froid ?",
+    "options": [
+      "L’eau.",
+      "Le café.",
+      "Le thé.",
+      "Le lait."
+    ],
+    "answer": "L’eau.",
+    "translation": "Le café est chaud. L’eau est froide.",
+    "explanation": "წყალი ცივია signifie « l’eau est froide »."
+  },
+  {
+    "id": "a1-cafe-order",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Au café",
+    "text": "მენიუ, გთხოვთ. ჩაი მინდა. შაქარი არ მინდა.",
+    "question": "Que commande la personne ?",
+    "options": [
+      "Du thé sans sucre.",
+      "Un café avec du sucre.",
+      "De l’eau et du pain.",
+      "L’addition et un taxi."
+    ],
+    "answer": "Du thé sans sucre.",
+    "translation": "Le menu, s’il vous plaît. Je voudrais du thé. Je ne veux pas de sucre.",
+    "explanation": "ჩაი მინდა signifie « je veux du thé » ; შაქარი არ მინდა, « je ne veux pas de sucre »."
+  },
+  {
+    "id": "a1-metro-directions",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Se déplacer",
+    "text": "უკაცრავად, სად არის მეტრო? მეტრო ახლოს არის.",
+    "question": "Où se trouve le métro ?",
+    "options": [
+      "Il est près d’ici.",
+      "Il est loin d’ici.",
+      "Il est à gauche du marché.",
+      "Il est dans la gare."
+    ],
+    "answer": "Il est près d’ici.",
+    "translation": "Excusez-moi, où est le métro ? Le métro est près.",
+    "explanation": "ახლოს არის signifie « est près »."
+  },
+  {
+    "id": "a1-family-home",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "La famille",
+    "text": "ჩემი ოჯახი აქ არის. დედა სახლშია. მამა მუშაობს.",
+    "question": "Qui travaille ?",
+    "options": [
+      "Le père.",
+      "La mère.",
+      "La sœur.",
+      "Le frère."
+    ],
+    "answer": "Le père.",
+    "translation": "Ma famille est ici. Maman est à la maison. Papa travaille.",
+    "explanation": "მამა მუშაობს signifie « papa travaille »."
+  },
+  {
+    "id": "a1-brother-tbilisi",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "La famille",
+    "text": "ჩემი ძმა თბილისშია. ჩემი და აქ არის.",
+    "question": "Où est le frère ?",
+    "options": [
+      "À Tbilissi.",
+      "À la maison.",
+      "En France.",
+      "Au restaurant."
+    ],
+    "answer": "À Tbilissi.",
+    "translation": "Mon frère est à Tbilissi. Ma sœur est ici.",
+    "explanation": "ჩემი ძმა თბილისშია signifie « mon frère est à Tbilissi »."
+  },
+  {
+    "id": "a1-water-and-help",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Exprimer un besoin",
+    "text": "წყალი მჭირდება. ექიმი არ მჭირდება.",
+    "question": "De quoi la personne a-t-elle besoin ?",
+    "options": [
+      "D’eau.",
+      "D’un médecin.",
+      "D’un taxi.",
+      "D’argent."
+    ],
+    "answer": "D’eau.",
+    "translation": "J’ai besoin d’eau. Je n’ai pas besoin d’un médecin.",
+    "explanation": "წყალი მჭირდება signifie « j’ai besoin d’eau » ; la deuxième phrase indique que la personne n’a pas besoin d’un médecin."
+  },
+  {
+    "id": "a1-friend-arrives",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Les rencontres",
+    "text": "ჩემი მეგობარი ხვალ მოდის. დღეს სახლში ვარ.",
+    "question": "Quand l’ami arrive-t-il ?",
+    "options": [
+      "Demain.",
+      "Aujourd’hui.",
+      "Hier.",
+      "Ce soir."
+    ],
+    "answer": "Demain.",
+    "translation": "Mon ami arrive demain. Aujourd’hui, je suis à la maison.",
+    "explanation": "ხვალ signifie « demain »."
+  },
+  {
+    "id": "a1-beautiful-city",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "La ville",
+    "text": "თბილისი ლამაზი ქალაქია. ჩემი მეგობარი თბილისში ცხოვრობს.",
+    "question": "Comment est Tbilissi ?",
+    "options": [
+      "C’est une belle ville.",
+      "C’est un petit village.",
+      "C’est une gare.",
+      "C’est un marché."
+    ],
+    "answer": "C’est une belle ville.",
+    "translation": "Tbilissi est une belle ville. Mon ami habite à Tbilissi.",
+    "explanation": "ლამაზი ქალაქია signifie « c’est une belle ville »."
+  },
+  {
+    "id": "a1-bus-stop",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Se déplacer",
+    "text": "ავტობუსის გაჩერება სად არის? გაჩერება ახლოს არის.",
+    "question": "Où est l’arrêt de bus ?",
+    "options": [
+      "Il est près.",
+      "Il est loin.",
+      "Il est dans le métro.",
+      "Il est au marché."
+    ],
+    "answer": "Il est près.",
+    "translation": "Où est l’arrêt de bus ? L’arrêt est près.",
+    "explanation": "გაჩერება ახლოს არის signifie « l’arrêt est près »."
+  },
+  {
+    "id": "a1-apple-price",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Faire les courses",
+    "text": "ეს ვაშლი ორი ლარი ღირს. ერთი ატამი მინდა.",
+    "question": "Combien coûte la pomme ?",
+    "options": [
+      "Deux laris.",
+      "Un lari.",
+      "Deux euros.",
+      "Le prix n’est pas indiqué."
+    ],
+    "answer": "Deux laris.",
+    "translation": "Cette pomme coûte deux laris. Je voudrais une pêche.",
+    "explanation": "ორი ლარი signifie « deux laris » et ღირს signifie « coûte »."
+  },
+  {
+    "id": "a1-kitchen-water",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "À la maison",
+    "text": "ახლა სამზარეულოში ვარ. წყალი მინდა.",
+    "question": "Où se trouve la personne ?",
+    "options": [
+      "Dans la cuisine.",
+      "Dans la chambre.",
+      "Au restaurant.",
+      "À la gare."
+    ],
+    "answer": "Dans la cuisine.",
+    "translation": "Je suis dans la cuisine maintenant. Je voudrais de l’eau.",
+    "explanation": "სამზარეულოში ვარ signifie « je suis dans la cuisine »."
+  },
+  {
+    "id": "a1-tea-and-bread",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Au café",
+    "text": "ორი ჩაი და ერთი პური, გთხოვთ.",
+    "question": "Que demande la personne ?",
+    "options": [
+      "Deux thés et un pain.",
+      "Un thé et deux cafés.",
+      "Deux pains et un lait.",
+      "Un café et une addition."
+    ],
+    "answer": "Deux thés et un pain.",
+    "translation": "Deux thés et un pain, s’il vous plaît.",
+    "explanation": "ორი signifie « deux », ჩაი « thé », ერთი « un » et პური « pain »."
+  },
+  {
+    "id": "a1-free-tomorrow",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Organiser une rencontre",
+    "text": "დღეს თავისუფალი ვარ. ხვალ შეხვედრა გვაქვს.",
+    "question": "Quand a lieu la rencontre ?",
+    "options": [
+      "Demain.",
+      "Aujourd’hui.",
+      "Hier.",
+      "La date n’est pas indiquée."
+    ],
+    "answer": "Demain.",
+    "translation": "Je suis libre aujourd’hui. Nous avons rendez-vous demain.",
+    "explanation": "ხვალ შეხვედრა გვაქვს signifie « nous avons rendez-vous demain »."
+  },
+  {
+    "id": "a1-taxi-destination",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "En taxi",
+    "text": "ტაქსი მინდა. სადგურში მივდივარ.",
+    "question": "Où va la personne ?",
+    "options": [
+      "À la gare.",
+      "Au marché.",
+      "À la maison.",
+      "Au restaurant."
+    ],
+    "answer": "À la gare.",
+    "translation": "Je voudrais un taxi. Je vais à la gare.",
+    "explanation": "სადგურში მივდივარ signifie « je vais à la gare »."
+  },
+  {
+    "id": "a1-language-and-work",
+    "level": 1,
+    "cefr": "A1",
+    "level_name": "Étudier et travailler",
+    "text": "თბილისში ვმუშაობ. საღამოს ქართულს ვსწავლობ.",
+    "question": "Que fait la personne le soir ?",
+    "options": [
+      "Elle étudie le géorgien.",
+      "Elle travaille au marché.",
+      "Elle va au restaurant.",
+      "Elle prend un taxi."
+    ],
+    "answer": "Elle étudie le géorgien.",
+    "translation": "Je travaille à Tbilissi. Le soir, j’étudie le géorgien.",
+    "explanation": "ქართულს ვსწავლობ signifie « j’étudie le géorgien »."
+  }
+]

@@ -148,6 +148,9 @@ async function loadReadingQuestion() {
     if (!response.ok || item.empty) throw new Error(item.error || 'Texte indisponible');
     readingCurrent = item;
     readingSeenIds.get(level).add(item.id);
+    const cefr = item.cefr || ({1: 'A1', 2: 'A1', 3: 'A2', 4: 'B1'}[item.level] || 'A1');
+    window.setExerciseDifficulty?.(readingRoot, cefr);
+    reading.level.textContent = `${cefr} · ${item.level_name}`;
     if (readingRoot.dataset.oral === 'true') {
       reading.text.textContent = '';
       reading.audio.classList.remove('hidden');
@@ -298,6 +301,7 @@ async function startReadingExam() {
     }
     if (!response.ok || result.empty) throw new Error('Aucun texte disponible.');
     examItem = result; examSeen.add(result.id);
+    window.setExerciseDifficulty?.(examRoot, result.cefr || 'A2');
     exam.level.textContent = result.level_name;
     exam.title.textContent = result.title;
     if (examRoot.dataset.oral === 'true') {

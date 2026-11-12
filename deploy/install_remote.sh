@@ -38,4 +38,4 @@ if ! sudo /usr/sbin/apachectl configtest; then
     exit 1
 fi
 sudo systemctl reload apache2
-echo "Kartuli est actif. Sauvegarde Apache : $BACKUP"
+echo "Parlons géorgien est actif. Sauvegarde Apache : $BACKUP"

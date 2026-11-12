@@ -5,6 +5,7 @@ const vocabularyDueIds = new Set(vocabularyData.due_ids || []);
 const gameMenu = document.querySelector('.vocabulary-games-section');
 const gameCatalog = document.querySelector('#vocabulary-home-catalog');
 const gameScreen = document.querySelector('#vocabulary-game-screen');
+const vocabularyDifficulty = {pairs:'A1', audio:'A2', images:'A1', memory:'A1', crossword:'B1', builder:'B1', speed:'A2'};
 const game = {
   round: document.querySelector('#game-round'),
   eyebrow: document.querySelector('#game-eyebrow'),
@@ -169,6 +170,7 @@ function openGame(mode) {
   stopVocabularySpeed();
   if (mode === 'catalog') {
     gameMenu.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
+    window.refreshExerciseDifficulty?.();
     return;
   }
   activeGame = mode;
@@ -176,6 +178,7 @@ function openGame(mode) {
   gameMenu.classList.add('hidden');
   gameCatalog.classList.add('hidden');
   gameScreen.classList.remove('hidden');
+  window.setExerciseDifficulty?.(gameScreen, vocabularyDifficulty[mode]);
   game.eyebrow.textContent = gameCopy[mode].eyebrow;
   game.title.textContent = gameCopy[mode].title;
   game.instruction.textContent = gameCopy[mode].instruction;
@@ -929,6 +932,7 @@ function returnToGameHome() {
   gameScreen.classList.add('hidden');
   gameMenu.classList.remove('hidden');
   gameCatalog.classList.add('hidden');
+  window.refreshExerciseDifficulty?.();
 }
 
 document.querySelectorAll('.vocabulary-module').forEach(button => {

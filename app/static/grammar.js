@@ -103,6 +103,8 @@ grammar.next.addEventListener('click', async () => {
 
 document.querySelectorAll('.grammar-category-list button').forEach(button => button.addEventListener('click', () => {
   grammarCategory = button.dataset.category;
+  const grammarDifficulty = {temps:'B1', preverbes:'B2', cas:'A2', suffixes:'B1', correction:'B2', all:'B2'};
+  window.setExerciseDifficulty?.(document.querySelector('#grammar-practice'), grammarDifficulty[grammarCategory]);
   document.querySelectorAll('.grammar-category-list button').forEach(option => option.classList.toggle('active', option === button));
   grammar.title.textContent = grammarCategory === 'correction' ? 'Réparez la phrase.' : 'À vous de conjuguer.';
   grammar.lead.textContent = grammarCategory === 'correction'

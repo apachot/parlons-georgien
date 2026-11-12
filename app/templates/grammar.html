@@ -1,5 +1,5 @@
 {% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}
-{% block title %}Grammaire — Kartuli{% endblock %}{% block content %}
+{% block title %}Grammaire — Parlons géorgien{% endblock %}{% block content %}
 {{ activity_hub('Grammaire · observer les formes', 'Les formes prennent leur sens.', 'Explorez les verbes géorgiens dans des phrases réelles : temps, préverbes, cas et terminaisons, avec des exercices à reprendre à votre rythme.', [
   {'icon':'🧭','label':'01 · CONJUGAISON','title':'Temps verbaux','text':'Présent, passé et futur à partir de formes attestées.','href':'#grammar-practice','category':'temps'},
   {'icon':'🧩','label':'02 · CONSTRUCTION','title':'Préverbes','text':'Repérez comment le préverbe change le sens du verbe.','href':'#grammar-practice','category':'preverbes'},
@@ -10,7 +10,7 @@
   {'icon':'🛠️','label':'07 · CORRECTION','title':'Réparer la phrase','text':'Repérez une erreur et choisissez la formulation géorgienne correcte.','href':'#grammar-practice','category':'correction'},
   {'icon':'⚡','label':'08 · DÉFI MINUTE','title':'Conjugaison flash','text':'En 60 secondes, répondez à un maximum de questions sur les temps.','href':'#grammar-speed','action':'Jouer'}
 ], 'ვმუშაობ') }}
-<section class="grammar-practice exercise-box hidden" id="grammar-practice" data-activity-panel data-total="{{ exercise_total }}">
+<section class="grammar-practice exercise-box hidden" id="grammar-practice" data-activity-panel data-difficulty="B1" data-total="{{ exercise_total }}">
  <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="grammar-practice-head"><div><div class="eyebrow">Quiz de formes · score enregistré</div><h2 id="grammar-quiz-title">À vous de conjuguer.</h2><p id="grammar-quiz-lead">Répondez puis lisez l’explication. Après une erreur, réessayez ou passez à la question suivante.</p></div><div class="grammar-score" id="grammar-score">0 / 0</div></div>
  <div class="grammar-category-list" role="group" aria-label="Thème grammatical">
   <button class="active" data-category="temps">Temps</button><button data-category="preverbes">Préverbes</button><button data-category="cas">Cas</button><button data-category="suffixes">Suffixes & pluriel</button><button data-category="correction">Correction</button><button data-category="all">Mélange</button>
@@ -18,7 +18,7 @@
  <div class="grammar-quiz" id="grammar-quiz"><div class="lesson-tag" id="grammar-round">Question 1</div><h3 id="grammar-prompt">La première question apparaîtra ici.</h3><div class="grammar-choices" id="grammar-choices"></div><div class="feedback" id="grammar-feedback" aria-live="polite"></div><button class="button primary hidden" id="grammar-next">Question suivante →</button></div>
  <p class="grammar-source-note">Pour approfondir : <a href="https://ena.ge/georgian-grammar-electronic-book" target="_blank" rel="noopener">Guide électronique de grammaire géorgienne d’ena.ge</a> · <a href="https://eprints.iliauni.edu.ge/3035/1/Basic-Georgian%202%20bolo%20versia.pdf" target="_blank" rel="noopener">Basic Georgian, Ilia State University</a>.</p>
 </section>
-<section class="exercise-box grammar-speed hidden" id="grammar-speed" data-activity-panel data-total="{{ timed_total }}">
+<section class="exercise-box grammar-speed hidden" id="grammar-speed" data-activity-panel data-difficulty="B1" data-total="{{ timed_total }}">
  <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button>
  <div class="grammar-speed-head"><div><div class="eyebrow">Défi minute · conjugaison</div><h2>Les temps en 60 secondes.</h2><p>Choisissez la forme qui convient. Une réponse fausse laisse la question ouverte jusqu’à la bonne réponse.</p></div><div class="grammar-speed-clock"><small>TEMPS</small><b id="grammar-speed-time">60</b><span>s</span></div></div>
  <div class="reading-meter"><i id="grammar-speed-meter"></i></div>

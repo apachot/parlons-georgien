@@ -1,10 +1,37 @@
 # Déploiement sur example.org
 
-Kartuli est monté sous `/kartuli/` avec le même modèle Apache/Gunicorn que les autres applications du serveur. Le compte `parlonsgeorgien` exécute le service ; il réutilise le venv partagé de DeescoPass, où Flask, Flask-SQLAlchemy, Werkzeug et Gunicorn sont déjà installés. Les données SQLite résident dans `instance/georgien.db` à côté du code.
+Parlons géorgien est monté sous `/kartuli/` sur `example.org`, avec le même modèle Apache/Gunicorn que les autres applications du serveur. Le compte `parlonsgeorgien` exécute le service ; il réutilise le venv partagé de DeescoPass, où Flask, Flask-SQLAlchemy, Werkzeug et Gunicorn sont déjà installés. Les données SQLite résident dans `instance/georgien.db` à côté du code.
 
 - Unit systemd : `kartuli.service`, bind loopback `127.0.0.1:8000`.
 - Extrait Apache : `apache-kartuli.conf`, à insérer dans le vhost TLS `example.org`.
 - WSGI applique `ProxyFix` pour transformer l’en-tête `X-Forwarded-Prefix: /kartuli` en `SCRIPT_NAME`; liens, ressources et API restent donc sous `/kartuli/`.
+
+## Vhosts de parlonsgeorgien.fr
+
+Les vhosts actifs sont préparés dans `parlonsgeorgien-http.conf` et `parlonsgeorgien-https.conf`. Le domaine sert Parlons géorgien à la racine (`/`) sur le Gunicorn existant (`127.0.0.1:8000`) : ne pas ajouter `X-Forwarded-Prefix` à ces vhosts. `www.parlonsgeorgien.fr` redirige vers `parlonsgeorgien.fr` en HTTP comme en HTTPS, et HTTP est redirigé vers HTTPS. Certificat Let’s Encrypt émis le 12 novembre 2026 pour les deux noms, avec renouvellement automatique.
+
+Avant activation, vérifier que les deux noms DNS pointent vers `SERVER_IPV4`. Au dernier contrôle (12 novembre 2026), `www.parlonsgeorgien.fr` pointait vers le serveur, mais `parlonsgeorgien.fr` résolvait encore vers `PREVIOUS_SERVER_IPV4`. Tant que l’apex n’est pas corrigé/propagé, Certbot ne pourra pas émettre un certificat valide pour les deux noms.
+
+Pour réinstaller les vhosts, une fois les deux enregistrements DNS propagés et le dossier ACME créé, installer et activer le vhost HTTP, puis (ré)émettre le certificat :
+
+```sh
+sudo install -d -o root -g root -m 0755 /var/lib/letsencrypt/.well-known/acme-challenge
+sudo install -o root -g root -m 0644 /srv/parlons-georgien/deploy/parlonsgeorgien-http.conf /etc/apache2/sites-available/parlonsgeorgien.fr.conf
+sudo a2ensite parlonsgeorgien.fr.conf
+sudo apachectl configtest && sudo systemctl reload apache2
+sudo certbot certonly --webroot -w /var/lib/letsencrypt -d parlonsgeorgien.fr -d www.parlonsgeorgien.fr
+```
+
+Après validation du certificat, installer le vhost HTTPS :
+
+```sh
+sudo install -o root -g root -m 0644 /srv/parlons-georgien/deploy/parlonsgeorgien-https.conf /etc/apache2/sites-available/parlonsgeorgien-https.conf
+sudo a2ensite parlonsgeorgien-https.conf
+```
+
+Le vhost HTTP redirige vers HTTPS (en laissant passer les requêtes ACME) ; le vhost HTTPS redirige `www` vers le domaine nu. Vérifier `sudo apachectl configtest` et recharger Apache. Contrôler enfin `https://parlonsgeorgien.fr/` et `https://www.parlonsgeorgien.fr/`.
+
+Le compte SSH de déploiement peut déposer les fichiers, mais `sudo` demande un mot de passe pour les opérations Apache et Certbot.
 
 Après installation, contrôler avec `systemctl is-active kartuli`, `curl -fsS https://example.org/kartuli/` et `curl -fsS https://example.org/kartuli/api/progress`.
 

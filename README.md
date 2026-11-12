@@ -1,4 +1,4 @@
-# Kartuli — apprendre le géorgien en français
+# Parlons géorgien — apprendre le géorgien en français
 
 Petite application Flask pour commencer à lire, comprendre et parler géorgien dans les situations courantes. Tout le parcours fonctionne localement, sans compte, clé API ni service payant. Le contenu pédagogique se trouve dans `content/` et la progression locale dans SQLite.
 

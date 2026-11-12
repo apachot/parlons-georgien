@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Jeux de vocabulaire — Kartuli{% endblock %}
+{% block title %}Jeux de vocabulaire — Parlons géorgien{% endblock %}
 {% block content %}
 <div class="vocabulary-page" data-practiced="{{ practiced }}">
 <div class="vocabulary-home" id="vocabulary-home">
@@ -68,7 +68,7 @@
 
 </div>
 
-  <section class="vocabulary-game-screen hidden" id="vocabulary-game-screen">
+  <section class="vocabulary-game-screen hidden" id="vocabulary-game-screen" data-activity-panel>
     <div class="game-screen-top"><button type="button" class="back-to-games" id="back-to-games">← Tous les jeux</button><span class="game-round" id="game-round"></span></div>
     <div class="game-title-row"><div><div class="eyebrow" id="game-eyebrow">JEU DE VOCABULAIRE</div><h2 id="game-title">Jeu</h2><p id="game-instruction"></p></div><div class="game-score" id="game-score">0 trouvé</div></div>
     <div class="direction-switch hidden" id="audio-direction" role="group" aria-label="Sens de l’exercice">

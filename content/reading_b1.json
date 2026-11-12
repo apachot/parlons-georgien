@@ -1,0 +1,291 @@
+[
+  {
+    "id": "b1-svaneti-weather",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Voyager en montagne",
+    "text": "გასულ ზაფხულს ნიკა და მისი მეგობარი სვანეთში წავიდნენ. მესტიაში სამი დღე დარჩნენ. პირველ დღეს კარგი ამინდი იყო და ძველი კოშკები დაათვალიერეს, მეორე დღეს კი წვიმის გამო მუზეუმში წავიდნენ. ნიკას მთაში სეირნობა უფრო მოეწონა, მის მეგობარს კი ადგილობრივი ისტორია.",
+    "question": "Pourquoi sont-ils allés au musée le deuxième jour ?",
+    "options": [
+      "Parce qu’il pleuvait.",
+      "Parce qu’il n’y avait pas de tours à Mestia.",
+      "Parce que Nika n’aimait pas marcher en montagne.",
+      "Parce qu’ils sont rentrés à Tbilissi ce jour-là."
+    ],
+    "answer": "Parce qu’il pleuvait.",
+    "translation": "L’été dernier, Nika et son ami sont partis en Svanétie. Ils sont restés trois jours à Mestia. Le premier jour, il faisait beau et ils ont visité les anciennes tours ; le deuxième, ils sont allés au musée à cause de la pluie. Nika a préféré marcher en montagne, tandis que son ami a préféré l’histoire locale.",
+    "explanation": "Le texte relie explicitement la pluie à la visite du musée : წვიმის გამო signifie « à cause de la pluie »."
+  },
+  {
+    "id": "b1-workday-priorities",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Organiser sa journée",
+    "text": "თამარი სახლიდან მუშაობს და დილით რთულ დავალებებს ასრულებს, რადგან ამ დროს უკეთ კონცენტრირდება. შუადღის შემდეგ შეხვედრები აქვს, ამიტომ წერილებს საღამოს პასუხობს. გასულ კვირას მთელი დღე შეხვედრებით იყო დაკავებული და მთავარი დავალება ვერ დაასრულა. ახლა ყოველ დილით სამუშაო გეგმას წერს.",
+    "question": "Pourquoi Tamar prépare-t-elle maintenant son programme de travail le matin ?",
+    "options": [
+      "Pour terminer ses tâches importantes à temps.",
+      "Parce qu’elle a des réunions le soir.",
+      "Pour ne plus jamais répondre aux messages.",
+      "Parce qu’elle ne veut plus travailler de chez elle."
+    ],
+    "answer": "Pour terminer ses tâches importantes à temps.",
+    "translation": "Tamar travaille depuis chez elle et réalise les tâches difficiles le matin, car elle se concentre mieux à ce moment-là. Elle a des réunions l’après-midi et répond donc à ses messages le soir. La semaine dernière, les réunions l’ont occupée toute la journée et elle n’a pas pu terminer sa tâche principale. Maintenant, elle écrit son programme de travail chaque matin.",
+    "explanation": "Elle a changé son organisation après n’avoir pas terminé sa tâche principale ; le planning du matin doit l’aider à avancer à temps."
+  },
+  {
+    "id": "b1-bus-alternative",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Changer d’itinéraire",
+    "text": "ლუკა უნივერსიტეტში ავტობუსით მიდიოდა, მაგრამ გზაზე დიდი საცობი იყო. გაჩერებაზე ჩამოვიდა და მეტროთი გააგრძელა გზა. უნივერსიტეტში დაგეგმილზე ათი წუთით ადრე მივიდა, თუმცა ლექცია უკვე დაწყებული იყო, რადგან პროფესორმა ადრე დაიწყო.",
+    "question": "Pourquoi Luka a-t-il manqué le début du cours malgré son arrivée en avance ?",
+    "options": [
+      "Le professeur a commencé le cours plus tôt que prévu.",
+      "Le métro était plus lent que le bus.",
+      "Luka est arrivé en retard à l’université.",
+      "Le cours avait lieu dans une autre université."
+    ],
+    "answer": "Le professeur a commencé le cours plus tôt que prévu.",
+    "translation": "Luka allait à l’université en bus, mais il y avait un gros embouteillage. Il est descendu à l’arrêt et a continué en métro. Il est arrivé à l’université dix minutes plus tôt que prévu, mais le cours avait déjà commencé parce que le professeur l’avait commencé en avance.",
+    "explanation": "Le retard apparent ne vient pas de son trajet final : le professeur a commencé le cours plus tôt que prévu."
+  },
+  {
+    "id": "b1-trip-budget",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Préparer un voyage",
+    "text": "მარიამს ქუთაისში შაბათ-კვირის გატარება სურდა. მან ჯერ მატარებლის ბილეთი იყიდა, რადგან ავტობუსით მგზავრობა უფრო დიდხანს გრძელდებოდა. სასტუმრო ძვირი აღმოჩნდა, ამიტომ მეგობართან დარჩენა გადაწყვიტა. დაზოგილი ფულით ქალაქის მუზეუმის მონახულებას გეგმავს.",
+    "question": "Comment Mariam a-t-elle résolu le problème du prix élevé de l’hôtel ?",
+    "options": [
+      "Elle a décidé de loger chez une amie.",
+      "Elle a annulé son voyage.",
+      "Elle a acheté un billet de bus.",
+      "Elle a renoncé à visiter le musée."
+    ],
+    "answer": "Elle a décidé de loger chez une amie.",
+    "translation": "Mariam voulait passer le week-end à Koutaïssi. Elle a d’abord acheté un billet de train, car le trajet en bus durait plus longtemps. L’hôtel s’est révélé cher, alors elle a décidé de loger chez une amie. Elle prévoit de visiter le musée de la ville avec l’argent économisé.",
+    "explanation": "Face au prix de l’hôtel, elle choisit de loger chez son amie et prévoit d’utiliser l’argent économisé pour la visite."
+  },
+  {
+    "id": "b1-language-class",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Apprendre une langue",
+    "text": "გიორგი ქართულს უკვე ერთი წელია სწავლობს. სიტყვების დამახსოვრება მისთვის ადვილია, მაგრამ საუბრის დროს ხშირად ჩერდება, რადგან შეცდომის დაშვების ეშინია. მასწავლებელმა ურჩია, გაკვეთილზე მეტი ილაპარაკოს და შეცდომები სწავლის ბუნებრივ ნაწილად მიიღოს. ამის შემდეგ გიორგი ყოველ კვირას მოკლე პრეზენტაციას ამზადებს.",
+    "question": "Qu’est-ce qui a changé après le conseil du professeur ?",
+    "options": [
+      "Giorgi prépare une courte présentation chaque semaine.",
+      "Giorgi a arrêté d’apprendre le géorgien.",
+      "Le professeur a interdit de parler en cours.",
+      "Giorgi ne fait que mémoriser des mots."
+    ],
+    "answer": "Giorgi prépare une courte présentation chaque semaine.",
+    "translation": "Giorgi apprend le géorgien depuis un an. Il mémorise facilement les mots, mais s’arrête souvent quand il parle parce qu’il a peur de faire des erreurs. Son professeur lui a conseillé de parler davantage en cours et d’accepter les erreurs comme une partie naturelle de l’apprentissage. Depuis, Giorgi prépare une courte présentation chaque semaine.",
+    "explanation": "ამის შემდეგ (« après cela ») introduit la nouvelle habitude adoptée après le conseil du professeur."
+  },
+  {
+    "id": "b1-seasonal-market",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Au marché",
+    "text": "შაბათს ნინო ბაზარში წავიდა, რათა ოჯახისთვის ახალი ბოსტნეული ეყიდა. პომიდორი იაფი იყო, მაგრამ ჯერ კიდევ მწვანე. გამყიდველმა ურჩია, ხვალ დაბრუნებულიყო, როცა პომიდორი დამწიფდებოდა. ნინომ ამის ნაცვლად სტაფილო და მწვანილი იყიდა.",
+    "question": "Pourquoi Nino n’a-t-elle pas acheté les tomates ?",
+    "options": [
+      "Elles n’étaient pas encore mûres.",
+      "Le vendeur n’avait pas de tomates.",
+      "Les tomates coûtaient trop cher.",
+      "Sa famille n’avait pas besoin de légumes."
+    ],
+    "answer": "Elles n’étaient pas encore mûres.",
+    "translation": "Samedi, Nino est allée au marché pour acheter des légumes frais pour sa famille. Les tomates étaient bon marché, mais encore vertes. Le vendeur lui a conseillé de revenir le lendemain, quand elles seraient mûres. À la place, Nino a acheté des carottes et des herbes.",
+    "explanation": "Le vendeur lui conseille d’attendre qu’elles mûrissent ; elles ne sont donc pas encore prêtes à être achetées."
+  },
+  {
+    "id": "b1-doctor-advice",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Chez le médecin",
+    "text": "ექიმმა დავითს უთხრა, რომ რამდენიმე დღე უნდა დაისვენოს და ბევრი წყალი დალიოს. დავითს სამსახურში მნიშვნელოვანი შეხვედრა ჰქონდა, მაგრამ კოლეგას დაურეკა და გადადება სთხოვა. შეხვედრა მომავალ კვირას ჩატარდება, ამიტომ დავითს გამოჯანმრთელებისთვის დრო ექნება.",
+    "question": "Pourquoi Davit a-t-il demandé à son collègue de reporter la réunion ?",
+    "options": [
+      "Le médecin lui a conseillé de se reposer et il doit se rétablir.",
+      "Son collègue ne pouvait pas venir à la réunion.",
+      "La réunion était déjà prévue la semaine suivante.",
+      "Davit ne voulait pas boire d’eau."
+    ],
+    "answer": "Le médecin lui a conseillé de se reposer et il doit se rétablir.",
+    "translation": "Le médecin a dit à Davit qu’il devait se reposer quelques jours et boire beaucoup d’eau. Davit avait une réunion importante au travail, mais il a appelé son collègue pour demander de la reporter. La réunion aura lieu la semaine prochaine, ce qui lui laissera le temps de se rétablir.",
+    "explanation": "Le conseil du médecin explique la demande de report ; la dernière phrase précise que le changement lui donne du temps pour guérir."
+  },
+  {
+    "id": "b1-museum-hours",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Visiter un musée",
+    "text": "თამარი და მისი ძმა მუზეუმში მისვლას გეგმავდნენ, მაგრამ ბილეთების ყიდვა დაავიწყდათ. მუზეუმში შესვლისას გაიგეს, რომ ყველა ბილეთი წინასწარ იყო გაყიდული. მათ კაფეში ისადილეს და ბილეთები მომდევნო დღისთვის ინტერნეტით იყიდეს.",
+    "question": "Pourquoi Tamar et son frère n’ont-ils pas pu entrer au musée ce jour-là ?",
+    "options": [
+      "Tous les billets avaient été vendus à l’avance.",
+      "Le musée était fermé toute la semaine.",
+      "Ils n’ont pas trouvé l’adresse du musée.",
+      "Ils ont décidé de rester au café."
+    ],
+    "answer": "Tous les billets avaient été vendus à l’avance.",
+    "translation": "Tamar et son frère avaient prévu d’aller au musée, mais ils avaient oublié d’acheter les billets. À l’entrée, ils ont appris que tous les billets avaient été vendus à l’avance. Ils ont déjeuné dans un café et acheté les billets en ligne pour le lendemain.",
+    "explanation": "Le texte donne la raison directement : tous les billets étaient déjà vendus."
+  },
+  {
+    "id": "b1-new-apartment",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Chercher un logement",
+    "text": "ეკამ ახალი ბინა იპოვა მეტროსთან ახლოს. ქირა მის ბიუჯეტზე ოდნავ მაღალი იყო, მაგრამ ტრანსპორტზე ნაკლებ თანხას დახარჯავდა. მან მეპატრონესთან პირობები განიხილა და ქირის ფასის შემცირებაზე შეთანხმდნენ, თუ ეკა ბინაში ერთი წლით დარჩებოდა.",
+    "question": "Pourquoi Eka a-t-elle accepté de louer l’appartement malgré son prix élevé ?",
+    "options": [
+      "Le propriétaire a accepté de baisser le loyer si elle restait un an.",
+      "L’appartement près de son travail était gratuit.",
+      "Eka a cessé d’utiliser les transports.",
+      "Le loyer était déjà inférieur à son budget."
+    ],
+    "answer": "Le propriétaire a accepté de baisser le loyer si elle restait un an.",
+    "translation": "Eka a trouvé un nouvel appartement près du métro. Le loyer dépassait légèrement son budget, mais elle dépenserait moins en transport. Elle a discuté des conditions avec le propriétaire et ils ont convenu d’une baisse du loyer si elle restait dans l’appartement un an.",
+    "explanation": "Le compromis sur le loyer et la proximité du métro rendent le logement acceptable malgré son prix initial."
+  },
+  {
+    "id": "b1-team-project",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Travailler en équipe",
+    "text": "სამუშაო ჯგუფს პარასკევამდე პროექტის დასრულება უნდა. ერთმა თანამშრომელმა საჭირო მონაცემები დაგვიანებით მიიღო, ამიტომ თავისი ნაწილი ვერ მოამზადა. ჯგუფის ხელმძღვანელმა დავალებები გადაანაწილა და საბოლოო ვადა ორშაბათამდე გააგრძელა. ახლა თითოეულმა წევრმა უნდა თქვას, რა სჭირდება სამუშაოს დასასრულებლად.",
+    "question": "Comment le responsable a-t-il réagi au retard ?",
+    "options": [
+      "Il a redistribué les tâches et repoussé la date limite.",
+      "Il a annulé le projet.",
+      "Il a attendu les données sans rien changer.",
+      "Il a confié tout le travail à un seul employé."
+    ],
+    "answer": "Il a redistribué les tâches et repoussé la date limite.",
+    "translation": "Le groupe de travail doit terminer le projet avant vendredi. Un employé a reçu les données nécessaires en retard et n’a pas pu préparer sa partie. Le responsable a redistribué les tâches et repoussé la date limite à lundi. Maintenant, chaque membre doit dire ce dont il a besoin pour terminer le travail.",
+    "explanation": "Le responsable prend deux mesures pour gérer le retard : redistribuer le travail et repousser l’échéance."
+  },
+  {
+    "id": "b1-picnic-rain",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Changer ses projets",
+    "text": "მეგობრები კვირას პიკნიკის მოწყობას აპირებდნენ, მაგრამ დილით ძლიერი წვიმა დაიწყო. მათ შეხვედრის გაუქმება არ სურდათ, ამიტომ სალომეს სახლში შეიკრიბნენ და საჭმელი ერთად მოამზადეს. ამინდი საღამოს გაუმჯობესდა, თუმცა გარეთ გასვლა აღარ გადაწყვიტეს.",
+    "question": "Où les amis se sont-ils retrouvés à cause de la pluie ?",
+    "options": [
+      "Chez Salomé.",
+      "Au parc.",
+      "Au restaurant.",
+      "À la station de métro."
+    ],
+    "answer": "Chez Salomé.",
+    "translation": "Les amis prévoyaient de faire un pique-nique dimanche, mais une forte pluie a commencé le matin. Ils ne voulaient pas annuler leur rencontre, alors ils se sont réunis chez Salomé et ont préparé le repas ensemble. Le temps s’est amélioré le soir, mais ils ont décidé de ne plus sortir.",
+    "explanation": "Ils maintiennent la rencontre en la déplaçant chez Salomé ; ils ne choisissent pas le parc même après l’amélioration du temps."
+  },
+  {
+    "id": "b1-lost-wallet-taxi",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Retrouver un objet perdu",
+    "text": "ტაქსიდან ჩამოსვლის შემდეგ ირაკლიმ შენიშნა, რომ საფულე აღარ ჰქონდა. მან კომპანიას დაურეკა და მგზავრობის დრო და მარშრუტი აუხსნა. მძღოლმა საფულე უკანა სავარძელზე იპოვა და საღამოს ირაკლის სახლთან მიიტანა. საფულეში ფული და პირადობის მოწმობა ისევ იყო.",
+    "question": "Comment Irakli a-t-il retrouvé son portefeuille ?",
+    "options": [
+      "Il a contacté la compagnie de taxi et le chauffeur l’a retrouvé.",
+      "Il avait laissé le portefeuille chez lui.",
+      "Un autre passager l’a remis à la police.",
+      "Il en a acheté un nouveau."
+    ],
+    "answer": "Il a contacté la compagnie de taxi et le chauffeur l’a retrouvé.",
+    "translation": "Après être descendu du taxi, Irakli a remarqué qu’il n’avait plus son portefeuille. Il a appelé la compagnie et expliqué l’heure et l’itinéraire du trajet. Le chauffeur a trouvé le portefeuille sur le siège arrière et l’a apporté près de chez Irakli le soir. L’argent et la carte d’identité étaient toujours dedans.",
+    "explanation": "La prise de contact avec la compagnie permet au chauffeur de retrouver puis de rendre le portefeuille."
+  },
+  {
+    "id": "b1-public-transport-choice",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Se déplacer en ville",
+    "text": "ქალაქის ცენტრში მანქანით წასვლა სწრაფი ჩანდა, მაგრამ პარკირების ადგილის პოვნა რთული აღმოჩნდა. ნინომ მანქანა მეტროსადგურთან დატოვა და ცენტრამდე მეტროთი მივიდა. უკან დაბრუნებისას საცობი უკვე შემცირებული იყო, თუმცა მან მაინც მეტრო აირჩია, რადგან ბილეთი იაფი ღირდა.",
+    "question": "Pourquoi Nino a-t-elle laissé sa voiture près du métro ?",
+    "options": [
+      "Il était difficile de trouver une place de stationnement au centre-ville.",
+      "La voiture ne fonctionnait plus.",
+      "Le métro était gratuit ce jour-là.",
+      "Elle ne voulait plus aller au centre-ville."
+    ],
+    "answer": "Il était difficile de trouver une place de stationnement au centre-ville.",
+    "translation": "Aller au centre-ville en voiture semblait rapide, mais trouver une place de stationnement s’est avéré difficile. Nino a laissé sa voiture près de la station de métro et a rejoint le centre en métro. Au retour, les embouteillages avaient diminué, mais elle a tout de même choisi le métro parce que le billet coûtait moins cher.",
+    "explanation": "Le texte distingue deux raisons : le stationnement difficile pour l’aller et le billet moins cher pour le retour."
+  },
+  {
+    "id": "b1-grandmother-visit",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Rendre visite à sa famille",
+    "text": "ლევანი ყოველ შაბათს ბებიას სტუმრობს, რადგან მარტო ცხოვრობს. ჩვეულებრივ, ისინი ერთად სადილობენ და ძველ ფოტოებს ათვალიერებენ. ამ შაბათს ლევანი ვერ მივიდა, ამიტომ დაურეკა და კვირას სტუმრობა დაჰპირდა. ბებიამ უთხრა, რომ მისთვის მთავარი ზარი და ყურადღება იყო.",
+    "question": "Qu’a dit la grand-mère à Levan ?",
+    "options": [
+      "Son appel et son attention comptaient surtout pour elle.",
+      "Elle voulait jeter les vieilles photos.",
+      "Elle lui a demandé de préparer le déjeuner chaque semaine.",
+      "Elle ne voulait pas qu’il vienne dimanche."
+    ],
+    "answer": "Son appel et son attention comptaient surtout pour elle.",
+    "translation": "Levan rend visite à sa grand-mère chaque samedi parce qu’elle vit seule. D’habitude, ils déjeunent ensemble et regardent de vieilles photos. Ce samedi, Levan n’a pas pu venir, alors il l’a appelée et lui a promis de passer dimanche. Sa grand-mère lui a dit que l’appel et l’attention comptaient surtout pour elle.",
+    "explanation": "ბებიამ … მთავარი ზარი და ყურადღება იყო exprime ce qui comptait le plus pour elle."
+  },
+  {
+    "id": "b1-library-book",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "À la bibliothèque",
+    "text": "დავითს ბიბლიოთეკიდან წიგნის გამოტანა უნდოდა, მაგრამ მისვლისას გაიგო, რომ ბარათი სახლში დარჩა. ბიბლიოთეკარმა შესთავაზა, წიგნი გვერდზე გადაედო და მეორე დღეს დაბრუნებულიყო. დავითმა წიგნის სათაური ჩაიწერა, რომ მეორე დღეს არ დავიწყებოდა.",
+    "question": "Pourquoi Davit a-t-il noté le titre du livre ?",
+    "options": [
+      "Pour ne pas oublier de revenir le chercher le lendemain.",
+      "Parce que la bibliothécaire lui avait interdit de le lire.",
+      "Pour retenir le numéro de sa carte.",
+      "Parce que le livre n’était pas à la bibliothèque."
+    ],
+    "answer": "Pour ne pas oublier de revenir le chercher le lendemain.",
+    "translation": "Davit voulait emprunter un livre à la bibliothèque, mais en arrivant, il a appris qu’il avait laissé sa carte chez lui. La bibliothécaire lui a proposé de mettre le livre de côté et de revenir le lendemain. Davit a noté le titre pour ne pas oublier le lendemain.",
+    "explanation": "Il note le titre afin de se souvenir de revenir chercher le livre le jour suivant."
+  },
+  {
+    "id": "b1-train-delay",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Un trajet en train",
+    "text": "ქუთაისიდან თბილისში მიმავალი მატარებელი ნახევარი საათით დაგვიანდა. მგზავრებს სადგურზე ლოდინი მოუხდათ, მაგრამ კომპანიამ მათ წყალი და ინფორმაცია მიაწოდა. ნიკას შეხვედრაზე აგვიანდებოდა, ამიტომ მან კოლეგას დაურეკა და ახალი დრო შეუთანხმა.",
+    "question": "Qu’a fait Nika en comprenant qu’il serait en retard à sa réunion ?",
+    "options": [
+      "Il a appelé son collègue pour convenir d’une nouvelle heure.",
+      "Il est descendu du train et a pris le bus.",
+      "Il a annulé la réunion et est rentré chez lui.",
+      "Il a acheté de l’eau à la gare."
+    ],
+    "answer": "Il a appelé son collègue pour convenir d’une nouvelle heure.",
+    "translation": "Le train de Koutaïssi à Tbilissi avait une demi-heure de retard. Les voyageurs ont dû attendre à la gare, mais la compagnie leur a fourni de l’eau et des informations. Nika allait être en retard à sa réunion, alors il a appelé son collègue pour convenir d’une nouvelle heure.",
+    "explanation": "Il appelle son collègue pour modifier l’heure du rendez-vous plutôt que d’annuler la réunion."
+  },
+  {
+    "id": "b1-learning-routine",
+    "level": 4,
+    "cefr": "B1",
+    "level_name": "Construire une habitude",
+    "text": "ანა ქართულს კვირაში ორჯერ სწავლობდა, მაგრამ ახალ სიტყვებს ხშირად ავიწყდებოდა. მასწავლებელმა ურჩია, ყოველი გაკვეთილის შემდეგ მოკლე ჩანაწერები გაეკეთებინა და სიტყვები რამდენიმე დღეში ერთხელ გაემეორებინა. ერთი თვის შემდეგ ანამ შენიშნა, რომ საუბრისას სიტყვების გახსენება უფრო სწრაფად შეეძლო.",
+    "question": "Qu’a remarqué Ana après un mois ?",
+    "options": [
+      "Elle retrouvait les mots plus rapidement quand elle parlait.",
+      "Elle avait arrêté d’apprendre le géorgien.",
+      "Elle ne suivait plus qu’un cours par semaine.",
+      "Elle n’avait plus besoin de noter les mots."
+    ],
+    "answer": "Elle retrouvait les mots plus rapidement quand elle parlait.",
+    "translation": "Ana étudia le géorgien deux fois par semaine, mais oubliait souvent les nouveaux mots. Son professeur lui a conseillé de prendre de courtes notes après chaque cours et de réviser les mots tous les quelques jours. Un mois plus tard, Ana a remarqué qu’elle se souvenait plus vite des mots quand elle parlait.",
+    "explanation": "Le résultat de sa nouvelle méthode est présenté dans la dernière phrase : elle retrouve les mots plus rapidement à l’oral."
+  }
+]

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_activity_hub.html" import activity_hub %}
-{% block title %}Compréhension écrite — Kartuli{% endblock %}
+{% block title %}Compréhension écrite — Parlons géorgien{% endblock %}
 {% block content %}
 {{ activity_hub('Lecture · lire, comprendre, déduire', 'Lisez entre les lignes.', 'Des premiers passages aux textes longs en géorgien : entraînez-vous à repérer les faits, les intentions et les détails.', [
   {'icon':'📖','label':'01 · PAS À PAS','title':'Lecture guidée','text':'Un texte court, une question, une explication après chaque réponse.','href':'#reading','mode':'guided','action':'Choisir'},
@@ -8,7 +8,7 @@
   {'icon':'🧩','label':'03 · PHRASES À TROUS','title':'Trouvez le mot manquant','text':'Lisez la phrase en géorgien et déduisez le mot grâce au contexte.','href':'#reading-cloze','action':'Jouer'}
 ], 'თბილისი') }}
 
-<section class="exercise-box reading-box hidden" id="reading" data-activity-panel data-total="{{ total }}">
+<section class="exercise-box reading-box hidden" id="reading" data-activity-panel data-difficulty="" data-total="{{ total }}">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="eyebrow" id="reading-count">Séance · 12 textes</div>
   <div class="reading-meter" aria-hidden="true"><i id="reading-meter-fill"></i></div>
   <div class="lesson-tag" id="reading-level">Niveau débutant</div>
@@ -23,7 +23,7 @@
   </div>
   <div class="lesson-summary hidden" id="reading-summary" aria-live="polite"></div>
 </section>
-<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-activity-panel data-total="{{ exam_total }}">
+<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-activity-panel data-difficulty="" data-total="{{ exam_total }}">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="reading-exam-top"><div><div class="eyebrow" id="exam-level">Épreuve de compréhension</div><h2 id="exam-title">Prête ou prêt pour l’épreuve ?</h2></div><div class="reading-exam-clock"><small>TEMPS RESTANT</small><b id="exam-clock">15:00</b></div></div>
   <div class="reading-exam-meter"><i id="exam-meter"></i></div>
   <div class="reading-exam-text ka" id="exam-text" lang="ka">Un texte long en géorgien apparaîtra ici.</div>
@@ -33,7 +33,7 @@
   <div class="lesson-summary hidden" id="exam-summary" aria-live="polite"></div>
   <button type="button" class="button secondary hidden" id="exam-translation-toggle" aria-expanded="false">Afficher la traduction du texte</button><div class="reading-exam-translation hidden" id="exam-translation"></div>
 </section>
-<section class="exercise-box reading-cloze hidden" id="reading-cloze" data-activity-panel data-total="{{ cloze_total }}">
+<section class="exercise-box reading-cloze hidden" id="reading-cloze" data-activity-panel data-difficulty="B1" data-total="{{ cloze_total }}">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button>
   <div class="eyebrow" id="cloze-count">Phrases à trous · lecture attentive</div>
   <div class="reading-meter"><i id="cloze-meter"></i></div>
@@ -46,4 +46,4 @@
   <div class="lesson-summary hidden" id="cloze-summary" aria-live="polite"></div>
 </section>
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}?v=skip-next-v1" defer></script><script src="{{ url_for('static', filename='reading-cloze.js') }}?v=cloze-v2" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}?v=content-cefr-v2" defer></script><script src="{{ url_for('static', filename='reading-cloze.js') }}?v=cloze-v2" defer></script>{% endblock %}

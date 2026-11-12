@@ -7,7 +7,7 @@
   <p class="oral-player-status" role="status" aria-live="polite">Chargement du lecteur…</p>
 </div>
 {%- endmacro %}
-{% block title %}Compréhension orale — Kartuli{% endblock %}
+{% block title %}Compréhension orale — Parlons géorgien{% endblock %}
 {% block content %}
 {{ activity_hub('Écouter · repérer, comprendre, déduire', 'Comprendre le géorgien à l’oreille.', 'Écoutez des passages lus en géorgien, puis vérifiez ce que vous en avez compris, des phrases courtes aux textes longs.', [
   {'icon':'🎧','label':'01 · TEXTES LONGS','title':'Épreuve orale','text':'Écoutez un texte développé en géorgien, puis répondez à cinq questions.','href':'#reading-exam','action':'Écouter'},
@@ -16,7 +16,7 @@
   {'icon':'🧩','label':'04 · CHRONOLOGIE','title':'Remettez l’histoire en ordre','text':'Écoutez le récit, puis replacez les événements dans le bon ordre.','href':'#comprehension-order','action':'Jouer'}
 ], 'რა ხდება?') }}
 
-<section class="exercise-box reading-box hidden" id="reading" data-activity-panel data-total="{{ total }}" data-oral="true">
+<section class="exercise-box reading-box hidden" id="reading" data-activity-panel data-difficulty="" data-total="{{ total }}" data-oral="true">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="eyebrow" id="reading-count">Séance · 12 textes</div>
   <div class="reading-meter" aria-hidden="true"><i id="reading-meter-fill"></i></div>
   <div class="lesson-tag" id="reading-level">Niveau débutant</div>
@@ -29,7 +29,7 @@
   <div class="lesson-summary hidden" id="reading-summary" aria-live="polite"></div>
 </section>
 
-<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-activity-panel data-total="{{ exam_total }}" data-oral="true">
+<section class="exercise-box reading-exam-box hidden" id="reading-exam" data-activity-panel data-difficulty="" data-total="{{ exam_total }}" data-oral="true">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="reading-exam-top"><div><div class="eyebrow" id="exam-level">Épreuve de compréhension</div><h2 id="exam-title">Prête ou prêt pour l’épreuve ?</h2></div><div class="reading-exam-clock"><small>TEMPS RESTANT</small><b id="exam-clock">15:00</b></div></div>
   <div class="reading-exam-meter"><i id="exam-meter"></i></div><div class="oral-listening"><p>Écoutez le passage avant de répondre. Vous pourrez le réécouter pendant l’épreuve.</p></div>{{ oral_player('exam-player', 'Enregistrement du long passage en géorgien') }}<div class="reading-exam-text ka hidden" id="exam-text" lang="ka"></div>
   <div class="reading-exam-question hidden" id="exam-question-area"><div class="reading-exam-question-count" id="exam-question-count"></div><h3 id="exam-question"></h3><div class="reading-options" id="exam-options"></div><div class="feedback" id="exam-feedback" aria-live="polite"></div><button class="button primary hidden" id="exam-next">Question suivante →</button></div>
@@ -38,7 +38,7 @@
   <div class="lesson-summary hidden" id="exam-summary" aria-live="polite"></div><button type="button" class="button secondary hidden" id="exam-translation-toggle" aria-expanded="false">Afficher la traduction du texte</button><div class="reading-exam-translation hidden" id="exam-translation"></div>
 </section>
 
-<section class="exercise-box reading-box hidden comprehension-order" id="comprehension-order" data-activity-panel data-total="{{ order_total }}">
+<section class="exercise-box reading-box hidden comprehension-order" id="comprehension-order" data-activity-panel data-difficulty="B1" data-total="{{ order_total }}">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button>
   <div class="eyebrow" id="order-count">Récit · écoutez et observez</div><div class="reading-meter"><i id="order-meter"></i></div>
   <div class="lesson-tag" id="order-level">Écoute attentive</div><h2 id="order-title">Remettez les événements dans l’ordre.</h2>
@@ -50,7 +50,7 @@
   <div class="lesson-summary hidden" id="order-summary" aria-live="polite"></div>
 </section>
 
-<section class="exercise-box reading-box comprehension-vf hidden" id="comprehension-vf" data-activity-panel data-total="{{ claim_total }}">
+<section class="exercise-box reading-box comprehension-vf hidden" id="comprehension-vf" data-activity-panel data-difficulty="B1" data-total="{{ claim_total }}">
   <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button>
   <div class="eyebrow" id="vf-count">Affirmation · entraînement rapide</div><div class="reading-meter"><i id="vf-meter"></i></div>
   <div class="lesson-tag" id="vf-level">Écoutez le passage</div><h2 class="reading-text ka hidden" id="vf-text" lang="ka"></h2>{{ oral_player('vf-player', 'Enregistrement du passage en géorgien') }}
@@ -61,4 +61,4 @@
   <div class="lesson-summary hidden" id="vf-summary" aria-live="polite"></div>
 </section>
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}?v=skip-next-v1" defer></script><script src="{{ url_for('static', filename='comprehension.js') }}?v=skip-next-v1" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}?v=content-cefr-v2" defer></script><script src="{{ url_for('static', filename='comprehension.js') }}?v=skip-next-v1" defer></script>{% endblock %}

@@ -75,10 +75,19 @@ def dictation_words():
 
 
 def reading_texts():
-    return load_content("readings")
+    items = (load_content("readings") + load_content("reading_a1")
+             + load_content("reading_a2") + load_content("reading_b1"))
+    cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1"}
+    for item in items:
+        item.setdefault("cefr", cefr_by_step.get(item.get("level"), "A1"))
+    return items
 
 def reading_exam_texts():
-    return load_content("reading_exams")
+    items = load_content("reading_exams")
+    for item in items:
+        if "cefr" not in item:
+            item["cefr"] = item.get("level_name", "").split(" · ", 1)[0]
+    return items
 
 def grammar_exercises():
     return load_content("grammar_exercises")
@@ -383,7 +392,7 @@ def create_app(test_config=None):
             return jsonify({"empty": True})
         selected = random.choice(candidates)
         return jsonify({"id": selected["id"], "title": selected["title"],
-                        "level_name": selected["level_name"], "text": selected["text"],
+                        "level_name": selected["level_name"], "cefr": selected["cefr"], "text": selected["text"],
                         "questions": [{"question": q["question"], "options": q["options"]}
                                       for q in selected["questions"]]})
 
@@ -476,7 +485,7 @@ def create_app(test_config=None):
         unseen = [item for item in candidates if item["id"] not in progress]
         selected = random.choice(due or unseen or candidates)
         return jsonify({key: selected[key] for key in
-                        ("id", "level", "level_name", "text", "question", "options")})
+                        ("id", "level", "cefr", "level_name", "text", "question", "options")})
 
     @app.post("/api/reading/answer")
     def answer_reading():

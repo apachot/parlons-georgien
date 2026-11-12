@@ -1,5 +1,5 @@
 {% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}
-{% block title %}{{ lesson.title }} — Kartuli{% endblock %}
+{% block title %}{{ lesson.title }} — Parlons géorgien{% endblock %}
 {% block content %}
 <a class="back-link" href="{{ url_for('home') }}">← Toutes les leçons</a>
 {{ activity_hub('Leçon · découvrir puis pratiquer', lesson.title, lesson.goal, [
@@ -22,7 +22,7 @@
   {% endfor %}
 </div>
 
-<section class="exercise-box lesson-quiz hidden" id="lesson-quiz" data-activity-panel data-lesson="{{ lesson.id }}">
+<section class="exercise-box lesson-quiz hidden" id="lesson-quiz" data-activity-panel data-difficulty="A1–A2" data-lesson="{{ lesson.id }}">
   <button class="back-to-games" data-activity-back type="button">← Retour à la leçon</button><div class="eyebrow">Vérification · {{ questions|length }} questions</div>
   <h2 id="lesson-question-title">Préparez-vous à répondre</h2>
   <div class="quiz-progress" aria-label="Progression du questionnaire"><i id="lesson-progress"></i></div>

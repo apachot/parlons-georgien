@@ -1,5 +1,5 @@
 [Unit]
-Description=Kartuli Georgian learning app
+Description=Parlons géorgien learning app
 After=network.target
 
 [Service]

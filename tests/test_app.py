@@ -107,8 +107,11 @@ class AppFlowTests(unittest.TestCase):
         page = self.client.get("/reading")
         self.assertEqual(page.status_code, 200)
         readings = reading_texts()
-        self.assertEqual(len(readings), 12)
+        self.assertEqual(len(readings), 66)
         self.assertEqual({item["level"] for item in readings}, {1, 2, 3, 4})
+        self.assertEqual(sum(item["cefr"] == "A1" for item in readings), 26)
+        self.assertEqual(sum(item["cefr"] == "A2" for item in readings), 20)
+        self.assertEqual(sum(item["cefr"] == "B1" for item in readings), 20)
         self.assertTrue(all(item["answer"] in item["options"] for item in readings))
 
         first = self.client.get("/api/reading/next?level=1").json

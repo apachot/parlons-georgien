@@ -1,0 +1,291 @@
+[
+  {
+    "id": "a2-market-yesterday",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Faire les courses",
+    "text": "გუშინ ანა ბაზარში წავიდა. მან ორი ვაშლი და ერთი პური იყიდა. სახლში დაბრუნდა და ოჯახთან ერთად ისადილა.",
+    "question": "Qu’a acheté Ana au marché ?",
+    "options": [
+      "Deux pommes et un pain.",
+      "Deux pains et une pomme.",
+      "Du café et du thé.",
+      "Du fromage et du poisson."
+    ],
+    "answer": "Deux pommes et un pain.",
+    "translation": "Hier, Ana est allée au marché. Elle a acheté deux pommes et un pain. Elle est rentrée et a déjeuné avec sa famille.",
+    "explanation": "მან ორი ვაშლი და ერთი პური იყიდა signifie « elle a acheté deux pommes et un pain »."
+  },
+  {
+    "id": "a2-work-and-walk",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "La journée de travail",
+    "text": "ანა ძველ ქალაქში მუშაობს. სამსახურში მეტროთი მიდის, მაგრამ კარგ ამინდში გაჩერებიდან ფეხითაც დადის.",
+    "question": "Que fait Ana quand il fait beau ?",
+    "options": [
+      "Elle marche depuis l’arrêt.",
+      "Elle prend un taxi pour tout le trajet.",
+      "Elle reste à la maison.",
+      "Elle travaille dans le métro."
+    ],
+    "answer": "Elle marche depuis l’arrêt.",
+    "translation": "Ana travaille dans la vieille ville. Elle va au travail en métro, mais quand il fait beau, elle marche aussi depuis l’arrêt.",
+    "explanation": "კარგ ამინდში … ფეხითაც დადის indique qu’elle marche quand le temps est beau."
+  },
+  {
+    "id": "a2-rain-and-plan",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "La météo et les projets",
+    "text": "დღეს წვიმს, ამიტომ ნინო სახლში რჩება. წიგნს კითხულობს და ჩაის სვამს. ხვალ მეგობარს შეხვდება.",
+    "question": "Que prévoit Nino pour demain ?",
+    "options": [
+      "Rencontrer une amie.",
+      "Aller au marché.",
+      "Travailler toute la journée.",
+      "Partir de Tbilissi."
+    ],
+    "answer": "Rencontrer une amie.",
+    "translation": "Il pleut aujourd’hui, alors Nino reste à la maison. Elle lit un livre et boit du thé. Demain, elle rencontrera une amie.",
+    "explanation": "ხვალ მეგობარს შეხვდება signifie « demain, elle rencontrera une amie »."
+  },
+  {
+    "id": "a2-cafe-preference",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Au café",
+    "text": "გიორგი კაფეში შევიდა და ჩაი შეუკვეთა. შაქარი არ უნდა, მაგრამ ლიმონი უნდა. ბოლოს ანგარიში ითხოვა.",
+    "question": "Que ne veut pas Giorgi dans son thé ?",
+    "options": [
+      "Du sucre.",
+      "Du citron.",
+      "Du lait.",
+      "De l’eau."
+    ],
+    "answer": "Du sucre.",
+    "translation": "Giorgi est entré dans un café et a commandé du thé. Il ne veut pas de sucre, mais il veut du citron. À la fin, il a demandé l’addition.",
+    "explanation": "შაქარი არ უნდა signifie « il ne veut pas de sucre »."
+  },
+  {
+    "id": "a2-bus-to-station",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Les transports",
+    "text": "მარიამი სადგურში ავტობუსით მიდის. ავტობუსი გაჩერებაზე მალე მოვიდა, ამიტომ მან ტაქსი აღარ გამოიძახა.",
+    "question": "Pourquoi Mariam n’a-t-elle finalement pas appelé de taxi ?",
+    "options": [
+      "Le bus est arrivé rapidement.",
+      "La gare était fermée.",
+      "Le taxi était déjà à la gare.",
+      "Elle voulait rester chez elle."
+    ],
+    "answer": "Le bus est arrivé rapidement.",
+    "translation": "Mariam va à la gare en bus. Le bus est arrivé rapidement à l’arrêt, alors elle n’a pas appelé de taxi.",
+    "explanation": "ავტობუსი … მალე მოვიდა est la raison donnée pour laquelle elle n’appelle pas de taxi."
+  },
+  {
+    "id": "a2-family-sunday",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "La famille",
+    "text": "კვირას ჩემი ოჯახი ერთად სადილობს. დედა სუპს ამზადებს, მამა კი პურს ყიდულობს. ჩემი და მაგიდას აწყობს.",
+    "question": "Qu’est-ce que le père fait ?",
+    "options": [
+      "Il achète du pain.",
+      "Il prépare la soupe.",
+      "Il met la table.",
+      "Il n’est pas à la maison."
+    ],
+    "answer": "Il achète du pain.",
+    "translation": "Le dimanche, ma famille déjeune ensemble. Maman prépare une soupe, tandis que papa achète du pain. Ma sœur met la table.",
+    "explanation": "მამა … პურს ყიდულობს signifie « papa achète du pain »."
+  },
+  {
+    "id": "a2-meeting-change",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Organiser une rencontre",
+    "text": "ნინოს და ლუკას დღეს შეხვედრა აქვთ. ნინო ცოტა აგვიანებს, ამიტომ ლუკას ტელეფონით ურეკავს. ისინი ნახევარ საათში შეხვდებიან.",
+    "question": "Que fait Nino parce qu’elle est en retard ?",
+    "options": [
+      "Elle appelle Luka.",
+      "Elle annule le rendez-vous.",
+      "Elle rentre chez elle.",
+      "Elle attend un taxi."
+    ],
+    "answer": "Elle appelle Luka.",
+    "translation": "Nino et Luka ont rendez-vous aujourd’hui. Nino est un peu en retard, alors elle appelle Luka. Ils se retrouveront dans une demi-heure.",
+    "explanation": "ლუკას ტელეფონით ურეკავს signifie « elle appelle Luka au téléphone »."
+  },
+  {
+    "id": "a2-directions-square",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Demander son chemin",
+    "text": "ტურისტმა გამვლელს მუზეუმის მისამართი ჰკითხა. გამვლელმა უთხრა, რომ პირდაპირ უნდა იაროს და შემდეგ მარცხნივ შეუხვიოს.",
+    "question": "Dans quelle direction le touriste doit-il tourner ?",
+    "options": [
+      "À gauche.",
+      "À droite.",
+      "En arrière.",
+      "Dans le métro."
+    ],
+    "answer": "À gauche.",
+    "translation": "Un touriste a demandé l’adresse du musée à un passant. Le passant lui a dit qu’il devait aller tout droit puis tourner à gauche.",
+    "explanation": "შემდეგ მარცხნივ შეუხვიოს signifie « puis qu’il tourne à gauche »."
+  },
+  {
+    "id": "a2-restaurant-bill",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Au restaurant",
+    "text": "სალომემ თევზი და ბოსტნეული შეუკვეთა. საჭმელი გემრიელი იყო, მაგრამ ძალიან ცხარე. ბოლოს მიმტანს ანგარიში სთხოვა.",
+    "question": "Que comprend-on sur la demande de l’addition ?",
+    "options": [
+      "Salomé a fini son repas.",
+      "Elle a perdu le menu.",
+      "Elle n’a pas commandé de poisson.",
+      "Elle cherche un café."
+    ],
+    "answer": "Salomé a fini son repas.",
+    "translation": "Salomé a commandé du poisson et des légumes. Le repas était délicieux, mais très épicé. À la fin, elle a demandé l’addition au serveur.",
+    "explanation": "La demande d’addition arrive après le repas ; le texte indique qu’elle a terminé de manger."
+  },
+  {
+    "id": "a2-study-evening",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Étudier le géorgien",
+    "text": "დავითს დილით მუშაობა აქვს, საღამოს კი ქართულს სწავლობს. ახალ სიტყვებს რვეულში წერს და შემდეგ ხმამაღლა კითხულობს.",
+    "question": "Que fait David après avoir écrit les nouveaux mots ?",
+    "options": [
+      "Il les lit à voix haute.",
+      "Il rentre chez lui.",
+      "Il les oublie.",
+      "Il travaille le matin."
+    ],
+    "answer": "Il les lit à voix haute.",
+    "translation": "David travaille le matin et étudie le géorgien le soir. Il écrit les nouveaux mots dans un cahier, puis les lit à voix haute.",
+    "explanation": "შემდეგ ხმამაღლა კითხულობს signifie « ensuite, il lit à voix haute »."
+  },
+  {
+    "id": "a2-shopping-hours",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Les horaires des magasins",
+    "text": "მაღაზია საღამოს ცხრა საათამდე მუშაობს. ეკა სამსახურის შემდეგ იქ მიდის, რადგან სახლში რძე და პური აღარ აქვს.",
+    "question": "Pourquoi Eka va-t-elle au magasin ?",
+    "options": [
+      "Elle n’a plus de lait ni de pain chez elle.",
+      "Elle travaille dans le magasin.",
+      "Elle attend une amie.",
+      "Le magasin ferme à neuf heures."
+    ],
+    "answer": "Elle n’a plus de lait ni de pain chez elle.",
+    "translation": "Le magasin est ouvert jusqu’à neuf heures du soir. Eka y va après le travail parce qu’elle n’a plus de lait ni de pain à la maison.",
+    "explanation": "რადგან სახლში რძე და პური აღარ აქვს donne la raison de sa visite au magasin."
+  },
+  {
+    "id": "a2-weekend-tbilisi",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "La ville et les loisirs",
+    "text": "შაბათს ლუკა ძველ თბილისში მეგობართან ერთად დადის. ისინი ქუჩებში სეირნობენ, პატარა კაფეში ყავას სვამენ და საღამოს სახლში ბრუნდებიან.",
+    "question": "Où Luka et son ami boivent-ils un café ?",
+    "options": [
+      "Dans un petit café.",
+      "Dans le métro.",
+      "À la maison.",
+      "Au marché."
+    ],
+    "answer": "Dans un petit café.",
+    "translation": "Samedi, Luka se promène dans le vieux Tbilissi avec un ami. Ils marchent dans les rues, boivent un café dans un petit café et rentrent chez eux le soir.",
+    "explanation": "პატარა კაფეში ყავას სვამენ signifie « ils boivent un café dans un petit café »."
+  },
+  {
+    "id": "a2-doctor-appointment",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Prendre rendez-vous",
+    "text": "თამარს თავი სტკივა და ექიმთან დარეკა. ექიმთან ხვალ დილით მივა, ამიტომ დღეს სახლში ისვენებს.",
+    "question": "Quand Tamar ira-t-elle chez le médecin ?",
+    "options": [
+      "Demain matin.",
+      "Ce soir.",
+      "Demain soir.",
+      "Ce matin."
+    ],
+    "answer": "Demain matin.",
+    "translation": "Tamar a mal à la tête et a appelé le médecin. Elle ira chez le médecin demain matin, alors elle se repose à la maison aujourd’hui.",
+    "explanation": "ექიმთან ხვალ დილით მივა situe la visite chez le médecin à demain matin."
+  },
+  {
+    "id": "a2-bus-delay",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Les transports",
+    "text": "ავტობუსი დააგვიანდა, ამიტომ ნიკამ მეტრო აირჩია. მეტროსადგური სახლთან ახლოს არის და სამსახურში დროზე მივიდა.",
+    "question": "Pourquoi Nika choisit-il le métro ?",
+    "options": [
+      "Le bus est en retard.",
+      "Le métro est loin.",
+      "Il ne veut pas aller travailler.",
+      "Il n’y avait pas de place dans le bus."
+    ],
+    "answer": "Le bus est en retard.",
+    "translation": "Le bus était en retard, alors Nika a choisi le métro. La station de métro est près de chez lui et il est arrivé au travail à l’heure.",
+    "explanation": "ავტობუსი დააგვიანდა, ამიტომ ნიკამ მეტრო აირჩია relie le retard du bus à son choix du métro."
+  },
+  {
+    "id": "a2-weather-clothes",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "La météo et les habitudes",
+    "text": "დილით ციოდა, ამიტომ მარიამმა თბილი ქურთუკი ჩაიცვა. შუადღეს მზე გამოვიდა და პარკში ფეხით გაისეირნა.",
+    "question": "Pourquoi Mariam a-t-elle mis un manteau chaud ?",
+    "options": [
+      "Il faisait froid le matin.",
+      "Il pleuvait à midi.",
+      "Elle a trouvé un manteau dans le parc.",
+      "Elle rentrait chez elle le soir."
+    ],
+    "answer": "Il faisait froid le matin.",
+    "translation": "Il faisait froid le matin, alors Mariam a mis un manteau chaud. À midi, le soleil est apparu et elle s’est promenée à pied dans le parc.",
+    "explanation": "დილით ციოდა, ამიტომ… exprime la cause de son choix de vêtements."
+  },
+  {
+    "id": "a2-house-chores",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "La vie à la maison",
+    "text": "დღეს ნიკა სახლში ადრე დაბრუნდა. ჯერ ოთახი დაალაგა, შემდეგ ვახშამი მოამზადა. მისი მეგობარი რვა საათზე მოვიდა.",
+    "question": "Qu’est-ce que Nika a fait en premier ?",
+    "options": [
+      "Il a rangé la chambre.",
+      "Il a dîné.",
+      "Il est allé chez son ami.",
+      "Il est retourné au travail."
+    ],
+    "answer": "Il a rangé la chambre.",
+    "translation": "Nika est rentré tôt aujourd’hui. Il a d’abord rangé la chambre, puis préparé le dîner. Son ami est arrivé à huit heures.",
+    "explanation": "ჯერ ნიშნავს « d’abord » ; la première action est ოთახი დაალაგა (« il a rangé la chambre »)."
+  },
+  {
+    "id": "a2-bookshop-visit",
+    "level": 3,
+    "cefr": "A2",
+    "level_name": "Faire un achat",
+    "text": "სალომეს ქართული წიგნი უნდა. წიგნის მაღაზიაში ორი წიგნი ნახა, მაგრამ იაფი აირჩია. გამყიდველს მადლობა უთხრა და სახლში წავიდა.",
+    "question": "Quel livre Salomé a-t-elle choisi ?",
+    "options": [
+      "Le livre le moins cher.",
+      "Le plus grand livre.",
+      "Un livre en français.",
+      "Aucun livre."
+    ],
+    "answer": "Le livre le moins cher.",
+    "translation": "Salomé veut un livre en géorgien. Dans la librairie, elle en voit deux, mais choisit le moins cher. Elle remercie le vendeur et rentre chez elle.",
+    "explanation": "იაფი აირჩია signifie « elle a choisi le moins cher »."
+  }
+]

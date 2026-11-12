@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function showActivityMenu() {
     activityPanels.forEach(panel => panel.classList.add('hidden'));
     activityMenus.forEach(menu => menu.classList.remove('hidden'));
+    refreshExerciseDifficulty();
   }
   document.querySelectorAll('.activity-card[href^="#"]').forEach(card => card.addEventListener('click', event => {
     const target = document.querySelector(card.getAttribute('href'));
@@ -28,9 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
     event.preventDefault();
     activityPanels.forEach(item => item.classList.toggle('hidden', item !== panel));
     activityMenus.forEach(menu => menu.classList.toggle('hidden', !menu.classList.contains('activity-hero')));
+    if (card.dataset.difficulty) panel.dataset.difficulty = card.dataset.difficulty;
     if (card.dataset.activityDirection) document.querySelector(`[data-dictation-direction="${card.dataset.activityDirection}"]`)?.click();
     if (card.dataset.activityCategory) document.querySelector(`.grammar-category-list [data-category="${card.dataset.activityCategory}"]`)?.click();
     panel.querySelector('[data-activity-back]')?.classList.remove('hidden');
+    refreshExerciseDifficulty();
   }));
   document.querySelectorAll('[data-activity-back]').forEach(button => button.addEventListener('click', showActivityMenu));
   document.querySelector('#word-search')?.addEventListener('input', e => {
@@ -94,7 +97,31 @@ document.addEventListener('DOMContentLoaded', () => {
       button.textContent = immersive ? 'Afficher le français' : 'Masquer le français';
     });
   }));
+  refreshExerciseDifficulty();
 });
+
+function refreshExerciseDifficulty() {
+  const sticker = document.querySelector('#exercise-level-sticker');
+  if (!sticker) return;
+  const activePanel = [...document.querySelectorAll('[data-activity-panel]')]
+    .find(panel => !panel.classList.contains('hidden') && panel.dataset.difficulty);
+  const level = activePanel?.dataset.difficulty?.trim();
+  if (!level) {
+    sticker.classList.add('hidden');
+    return;
+  }
+  const labels = {A1:'Débutant', A2:'Élémentaire', B1:'Intermédiaire', B2:'Intermédiaire avancé', C1:'Avancé', C2:'Maîtrise'};
+  const range = level.match(/^(A1|A2|B1|B2|C1|C2)[–—-](A1|A2|B1|B2|C1|C2)$/);
+  sticker.querySelector('#exercise-level-value').textContent = range ? `${range[1]}–${range[2]}` : level;
+  sticker.querySelector('#exercise-level-name').textContent = range ? 'Progression' : (labels[level] || 'Niveau estimé');
+  sticker.classList.remove('hidden');
+}
+
+window.setExerciseDifficulty = (panel, level) => {
+  if (panel && level) panel.dataset.difficulty = level;
+  refreshExerciseDifficulty();
+};
+window.refreshExerciseDifficulty = refreshExerciseDifficulty;
 
 function appPath(path) {
   const base = document.documentElement.dataset.appBase || '';

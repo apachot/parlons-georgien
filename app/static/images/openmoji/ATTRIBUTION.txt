@@ -6,4 +6,4 @@ https://creativecommons.org/licenses/by-sa/4.0/
 Project: https://openmoji.org/
 Source: https://github.com/hfg-gmuend/openmoji
 
-These assets are used locally by Kartuli's vocabulary image-matching game.
+These assets are used locally by Parlons géorgien's vocabulary image-matching game.

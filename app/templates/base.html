@@ -3,17 +3,20 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fbf8f1">
-  <title>{% block title %}Kartuli — apprendre le géorgien{% endblock %}</title>
-  <link rel="icon" type="image/png" href="{{ url_for('static', filename='kartuli-logo.png') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=skip-next-v1">
+  <title>{% block title %}Parlons géorgien — apprendre le géorgien{% endblock %}</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='parlons-georgien-logo.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=exercise-level-v1">
 </head>
 <body>
-<header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='kartuli-logo.png') }}" alt=""><span>Kartuli<small>le géorgien au quotidien</small></span></a>
+<header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='parlons-georgien-logo.png') }}" alt=""><span>Parlons géorgien<small>le géorgien au quotidien</small></span></a>
   <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
   <nav class="nav"><a href="{{ url_for('home') }}">Accueil</a><a href="{{ url_for('alphabet') }}">Alphabet</a><a href="{{ url_for('vocabulary') }}">Vocabulaire</a><a href="{{ url_for('reading') }}">Lecture</a><a href="{{ url_for('comprehension') }}">Compréhension orale</a><a href="{{ url_for('dictations') }}">Dictées</a><a href="{{ url_for('grammar') }}">Grammaire</a><a href="{{ url_for('dialogues') }}">Dialogues</a></nav>
 </header>
 <main>{% block content %}{% endblock %}</main>
-<footer><span>Kartuli · apprendre pas à pas</span><a href="https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium" target="_blank" rel="noopener">Voix française SIWIS · Yamagishi, Honnet, Garner et Lazaridis · CC BY 4.0 ↗</a><a href="{{ url_for('export_progress') }}">Exporter ma progression ↓</a></footer>
+<footer><span>Parlons géorgien · apprendre pas à pas</span><a href="https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium" target="_blank" rel="noopener">Voix française SIWIS · Yamagishi, Honnet, Garner et Lazaridis · CC BY 4.0 ↗</a><a href="{{ url_for('export_progress') }}">Exporter ma progression ↓</a></footer>
+<aside class="exercise-level-sticker hidden" id="exercise-level-sticker" role="status" aria-live="polite" aria-label="Niveau estimé de l’exercice">
+  <span class="exercise-level-kicker">Repère CECRL</span><strong id="exercise-level-value">A1</strong><span class="exercise-level-name" id="exercise-level-name">Débutant</span>
+</aside>
 <script src="{{ url_for('static', filename='app.js') }}?v=skip-next-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>

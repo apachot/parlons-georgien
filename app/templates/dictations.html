@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_activity_hub.html" import activity_hub %}
-{% block title %}Dictées de mots — Kartuli{% endblock %}
+{% block title %}Dictées de mots — Parlons géorgien{% endblock %}
 {% block content %}
 {{ activity_hub('Dictées · écouter, traduire, écrire', 'Un mot, deux chemins.', 'Écrivez ce que vous entendez en géorgien, ou partez du français pour retrouver le mot en mkhedruli.', [
  {'icon':'🎧','label':'01 · DICTÉE AUDIO','title':'Écouter → écrire','text':'Écoutez un mot géorgien et écrivez-le en mkhedruli.','href':'#dictation','direction':'ka-fr','action':'Choisir'},
@@ -12,7 +12,7 @@
 
 
 
-<section class="exercise-box dictation-box hidden" id="dictation" data-activity-panel data-total-words="{{ total }}">
+<section class="exercise-box dictation-box hidden" id="dictation" data-activity-panel data-difficulty="A1–A2" data-total-words="{{ total }}">
   <button class="back-to-games" data-activity-back type="button">← Toutes les dictées</button><div class="dictation-mode-picker hidden" aria-hidden="true"><button type="button" data-dictation-direction="ka-fr">KA</button><button type="button" data-dictation-direction="fr-ka">FR</button></div><div class="eyebrow" id="dictation-count">Séance courte · 10 mots</div>
   <h2 id="dictation-heading">Prête ou prêt à écouter ?</h2>
   <p id="dictation-instruction">Le mot reste caché pendant l’écoute. Vous pouvez le réécouter autant de fois que nécessaire.</p>
@@ -32,7 +32,7 @@
   <div class="lesson-summary hidden" id="dictation-summary" aria-live="polite"></div>
 </section>
 
-<section class="exercise-box dictation-box sentence-listening hidden" id="dictation-listening" data-activity-panel data-total-sentences="{{ sentence_total }}">
+<section class="exercise-box dictation-box sentence-listening hidden" id="dictation-listening" data-activity-panel data-difficulty="B1" data-total-sentences="{{ sentence_total }}">
   <button class="back-to-games" data-activity-back type="button">← Toutes les dictées</button>
   <div class="eyebrow" id="listening-dictation-count">Dictée audio · phrases</div>
   <h2>Écoutez toute la phrase.</h2>
@@ -44,7 +44,7 @@
   <div class="lesson-summary hidden" id="listening-dictation-summary" aria-live="polite"></div>
 </section>
 
-<section class="exercise-box dictation-box hidden" id="dictation-sentences" data-activity-panel data-total-sentences="{{ sentence_total }}">
+<section class="exercise-box dictation-box hidden" id="dictation-sentences" data-activity-panel data-difficulty="B1" data-total-sentences="{{ sentence_total }}">
   <button class="back-to-games" data-activity-back type="button">← Toutes les dictées</button>
   <div class="eyebrow" id="sentence-dictation-count">Phrases · 0 / {{ sentence_total }}</div>
   <h2 id="sentence-dictation-heading">Traduisez en géorgien.</h2>
