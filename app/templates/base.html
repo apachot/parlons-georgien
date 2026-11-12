@@ -5,19 +5,29 @@
   <meta name="theme-color" content="#fbf8f1">
   <title>{% block title %}Parlons géorgien — apprendre le géorgien{% endblock %}</title>
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='parlons-georgien-logo.png') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=exercise-level-v1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=learner-history-v1">
   {% block page_styles %}{% endblock %}
 </head>
 <body>
 <header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='parlons-georgien-logo.png') }}" alt=""><span>Parlons géorgien<small>le géorgien au quotidien</small></span></a>
   <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
   <nav class="nav"><a href="{{ url_for('home') }}">Accueil</a><a href="{{ url_for('alphabet') }}">Alphabet</a><a href="{{ url_for('vocabulary') }}">Vocabulaire</a><a href="{{ url_for('reading') }}">Lecture</a><a href="{{ url_for('comprehension') }}">Compréhension orale</a><a href="{{ url_for('dictations') }}">Dictées</a><a href="{{ url_for('grammar') }}">Grammaire</a><a href="{{ url_for('dialogues') }}">Dialogues</a></nav>
+  <button class="learner-level" id="learner-level" type="button" aria-haspopup="dialog" aria-controls="progress-dialog"><span>Niveau estimé</span><strong id="learner-level-value">A1</strong><small id="learner-level-caption">À confirmer</small></button>
 </header>
 <main>{% block content %}{% endblock %}</main>
 <footer><span>Parlons géorgien · apprendre pas à pas</span><a href="https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium" target="_blank" rel="noopener">Voix française SIWIS · Yamagishi, Honnet, Garner et Lazaridis · CC BY 4.0 ↗</a><a href="{{ url_for('export_progress') }}">Exporter ma progression ↓</a></footer>
 <aside class="exercise-level-sticker hidden" id="exercise-level-sticker" role="status" aria-live="polite" aria-label="Niveau estimé de l’exercice">
   <span class="exercise-level-kicker">Repère CECRL</span><strong id="exercise-level-value">A1</strong><span class="exercise-level-name" id="exercise-level-name">Débutant</span>
 </aside>
+<dialog class="progress-dialog" id="progress-dialog" aria-labelledby="progress-title">
+  <div class="progress-dialog-head"><div><span class="exercise-level-kicker">Votre parcours</span><h2 id="progress-title">Progression historisée</h2></div><button class="progress-close" type="button" aria-label="Fermer">×</button></div>
+  <p class="progress-dialog-intro">Votre estimation évolue au fil de vos réponses. Les données sont enregistrées dans ce navigateur.</p>
+  <div class="progress-summary" id="progress-summary"></div>
+  <section class="progress-chart-section"><div class="progress-section-title"><b>Évolution du niveau estimé</b><span>par réponse</span></div><div id="progress-chart" class="progress-chart"></div></section>
+  <section class="progress-skills-section"><div class="progress-section-title"><b>Par compétence</b><span id="progress-period"></span></div><div id="progress-skills"></div></section>
+  <div class="progress-history" id="progress-history"></div>
+</dialog>
 <script src="{{ url_for('static', filename='app.js') }}?v=skip-next-v1" defer></script>
+<script src="{{ url_for('static', filename='learning-profile.js') }}?v=history-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>
