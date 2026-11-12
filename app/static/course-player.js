@@ -4,6 +4,8 @@
   if (!data || !stage) return;
   let lesson;
   try { lesson = JSON.parse(data.textContent); } catch (_) { return; }
+  let nextLesson = null;
+  try { nextLesson = JSON.parse(document.getElementById('next-course-data')?.textContent || 'null'); } catch (_) {}
 
   const $ = selector => document.querySelector(selector);
   const controls = $('#course-controls'), prev = $('#course-prev'), next = $('#course-next');
@@ -91,7 +93,12 @@
     (lesson.related || []).forEach(link => { const a = node('a', '', `${link.title} ↗`); a.href = `${document.documentElement.dataset.appBase || ''}${link.href}`; links.append(a); });
     const actions = node('div', 'course-result-actions');
     const again = node('button', 'button secondary', 'Refaire la leçon'); again.type = 'button'; again.addEventListener('click', () => location.reload());
-    const catalog = node('a', 'button primary', 'Toutes les leçons →'); catalog.href = document.documentElement.dataset.appBase + '/lessons';
+    if (nextLesson) {
+      const following = node('a', 'button primary', `Leçon suivante → ${nextLesson.title}`);
+      following.href = nextLesson.url;
+      actions.append(following);
+    }
+    const catalog = node('a', nextLesson ? 'button secondary' : 'button primary', 'Toutes les leçons →'); catalog.href = `${document.documentElement.dataset.appBase || ''}/lessons`;
     actions.append(again, catalog); result.append(links, actions);
     progressFill.style.width = '100%'; progressLabel.textContent = '100 %'; stepLabel.textContent = 'Leçon terminée';
     try { localStorage.setItem(`parlons-course-${lesson.id}`, JSON.stringify({completedAt: new Date().toISOString(), score:pct})); } catch (_) {}

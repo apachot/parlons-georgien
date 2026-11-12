@@ -142,10 +142,20 @@ def create_app(test_config=None):
     @app.get("/lessons/<lesson_id>")
     def course_lesson(lesson_id):
         lessons = load_content("elearning_lessons")
-        lesson = next((item for item in lessons if item["id"] == lesson_id), None)
-        if lesson is None:
+        lesson_index = next((index for index, item in enumerate(lessons)
+                             if item["id"] == lesson_id), None)
+        if lesson_index is None:
             return render_template("not_found.html"), 404
-        return render_template("course_lesson.html", lesson=lesson)
+        lesson = lessons[lesson_index]
+        next_lesson = None
+        if lesson_index + 1 < len(lessons):
+            following = lessons[lesson_index + 1]
+            next_lesson = {
+                "title": following["title"],
+                "url": url_for("course_lesson", lesson_id=following["id"]),
+            }
+        return render_template("course_lesson.html", lesson=lesson,
+                               next_lesson=next_lesson)
 
     @app.get("/lesson/<lesson_id>")
     def lesson(lesson_id):
