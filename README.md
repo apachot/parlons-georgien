@@ -37,7 +37,7 @@ La voix française s’appuie sur la base SIWIS, sous licence CC BY 4.0 ; attrib
 - Une nouvelle page d’accueil du vocabulaire avec quatre jeux : paires géorgien–français, quiz TTS dans les deux directions, associations mot–image et mémory.
 - 44 pictogrammes OpenMoji de vocabulaire stockés localement ; attribution et licence CC BY-SA 4.0 dans la page et `app/static/images/openmoji/ATTRIBUTION.txt`.
 - Dictées de 10 mots par séance : écoute Piper, saisie avec clavier mkhedruli, correction exacte et suivi des erreurs.
-- Compréhension écrite sur 12 textes courts, avec quatre niveaux croissants, propositions en français et révisions enregistrées.
+- Compréhension écrite guidée sur 139 textes-questionnaires, du A1 au C2, avec propositions en français et révisions enregistrées ; les mêmes passages alimentent la compréhension orale.
 - Quatre dialogues guidés autonomes.
 - SQLite conserve les réponses, les erreurs récentes, les compteurs et les dates de révision. Une réponse difficile est proposée de nouveau après dix minutes ; une réponse réussie revient à intervalle croissant.
 - Export JSON depuis le lien en bas de page.

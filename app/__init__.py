@@ -77,8 +77,9 @@ def dictation_words():
 def reading_texts():
     items = (load_content("readings") + load_content("reading_a1")
              + load_content("reading_a2") + load_content("reading_b1")
-             + load_content("reading_b2") + load_content("reading_c1"))
-    cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1", 5: "B2", 6: "C1"}
+             + load_content("reading_b2") + load_content("reading_c1")
+             + load_content("reading_c2"))
+    cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1", 5: "B2", 6: "C1", 7: "C2"}
     for item in items:
         item.setdefault("cefr", cefr_by_step.get(item.get("level"), "A1"))
     return items
@@ -470,7 +471,7 @@ def create_app(test_config=None):
             level = int(request.args.get("level", "1"))
         except ValueError:
             return jsonify({"error": "Niveau invalide."}), 400
-        if level not in range(1, 7):
+        if level not in range(1, 8):
             return jsonify({"error": "Niveau invalide."}), 400
         items = [item for item in reading_texts() if item["level"] == level]
         excluded = set(request.args.get("exclude", "").split(","))
@@ -485,8 +486,12 @@ def create_app(test_config=None):
                and progress[item["id"]].due_at <= now]
         unseen = [item for item in candidates if item["id"] not in progress]
         selected = random.choice(due or unseen or candidates)
-        return jsonify({key: selected[key] for key in
-                        ("id", "level", "cefr", "level_name", "text", "question", "options")})
+        options = list(selected["options"])
+        random.shuffle(options)
+        response = {key: selected[key] for key in
+                    ("id", "level", "cefr", "level_name", "text", "question")}
+        response["options"] = options
+        return jsonify(response)
 
     @app.post("/api/reading/answer")
     def answer_reading():

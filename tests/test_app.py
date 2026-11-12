@@ -107,13 +107,14 @@ class AppFlowTests(unittest.TestCase):
         page = self.client.get("/reading")
         self.assertEqual(page.status_code, 200)
         readings = reading_texts()
-        self.assertEqual(len(readings), 111)
-        self.assertEqual({item["level"] for item in readings}, {1, 2, 3, 4, 5, 6})
+        self.assertEqual(len(readings), 139)
+        self.assertEqual({item["level"] for item in readings}, {1, 2, 3, 4, 5, 6, 7})
         self.assertEqual(sum(item["cefr"] == "A1" for item in readings), 26)
         self.assertEqual(sum(item["cefr"] == "A2" for item in readings), 20)
         self.assertEqual(sum(item["cefr"] == "B1" for item in readings), 20)
         self.assertEqual(sum(item["cefr"] == "B2" for item in readings), 21)
         self.assertEqual(sum(item["cefr"] == "C1" for item in readings), 24)
+        self.assertEqual(sum(item["cefr"] == "C2" for item in readings), 28)
         self.assertTrue(all(item["answer"] in item["options"] for item in readings))
 
         first = self.client.get("/api/reading/next?level=1").json
@@ -137,7 +138,9 @@ class AppFlowTests(unittest.TestCase):
         self.assertEqual(invalid.json["level"], 5)
         c1 = self.client.get("/api/reading/next?level=6").json
         self.assertEqual(c1["cefr"], "C1")
-        beyond = self.client.get("/api/reading/next?level=7")
+        c2 = self.client.get("/api/reading/next?level=7").json
+        self.assertEqual(c2["cefr"], "C2")
+        beyond = self.client.get("/api/reading/next?level=8")
         self.assertEqual(beyond.status_code, 400)
 
     def test_long_reading_exam_returns_passages_and_scores_each_question(self):

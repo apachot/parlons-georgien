@@ -1,0 +1,478 @@
+[
+  {
+    "id": "c2-city-memory",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Lire les strates d’une ville",
+    "text": "ქალაქის გენერალურ გეგმაში ძველი ბაზრის დანგრევა „ფუნქციური განახლების“ აუცილებელ პირობად ჩაიწერა. არქიტექტორები შენობის სივიწროვესა და უსაფრთხოების პრობლემებს ასახელებდნენ, მოვაჭრეები კი ამტკიცებდნენ, რომ გეგმა სივრცეს აღწერდა და არა მის სოციალურ ფუნქციას. მართლაც, ბაზრის დახლები მხოლოდ სავაჭრო ერთეულები არ იყო: მათ შორის დამყარებული გაცვლის წესები ახლომდებარე უბნებს ერთმანეთთან აკავშირებდა. საბოლოო პროექტმა კედლების ნაწილი შეინარჩუნა, მაგრამ საქმიანობის ძველი განაწილება შეცვალა. მერია ამას მეხსიერების დაცვას უწოდებდა; ყოფილმა მოვაჭრეებმა შენიშნეს, რომ ნარჩენად შენახულ ფორმას უკვე სხვა ენა ჰქონდა.",
+    "question": "Quelle tension la dernière remarque des anciens commerçants met-elle en évidence ?",
+    "options": [
+      "La conservation matérielle peut laisser intacte une forme tout en en transformant le sens social.",
+      "Les architectes ont finalement abandonné tout projet de rénovation du marché.",
+      "Les commerçants considéraient les problèmes de sécurité comme imaginaires.",
+      "La mairie avait restitué aux vendeurs l’organisation commerciale d’origine."
+    ],
+    "answer": "La conservation matérielle peut laisser intacte une forme tout en en transformant le sens social.",
+    "translation": "Dans le plan directeur de la ville, la démolition de l’ancien marché était présentée comme une condition nécessaire à sa « modernisation fonctionnelle ». Les architectes invoquaient l’exiguïté du bâtiment et des problèmes de sécurité ; les commerçants soutenaient que le plan décrivait l’espace, mais pas sa fonction sociale. Les étals n’étaient en effet pas de simples unités commerciales : les règles d’échange qui s’y étaient établies reliaient les quartiers voisins. Le projet final a conservé une partie des murs, mais modifié l’ancienne répartition des activités. La mairie parlait de préserver la mémoire ; les anciens commerçants ont remarqué que la forme conservée parlait désormais une autre langue.",
+    "explanation": "La critique porte sur une patrimonialisation de la forme qui n’a pas maintenu les relations et les usages auxquels elle donnait sens."
+  },
+  {
+    "id": "c2-climate-language",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Interpréter le langage du risque",
+    "text": "ანგარიშის ავტორებმა წყალდიდობის ალბათობა „მართვად რისკად“ აღწერეს, რათა გადაწყვეტილების მიმღებთათვის საფრთხის დონე გასაგები ყოფილიყო. ადგილობრივმა საბჭომ ეს ფორმულირება თითქმის ნებართვად წაიკითხა და მშენებლობის შეზღუდვა გადადო. მოგვიანებით გაირკვა, რომ ანგარიშში „მართვადი“ იმ პირობით იხმარებოდა, რომ დამცავი სამუშაოები დაუყოვნებლივ დაიწყებოდა და მოსახლეობის ევაკუაციის გეგმა რეგულარულად განახლდებოდა. ტექსტში ეს პირობები მეთოდოლოგიის დანართში ეწერა, ხოლო მოკლე შეჯამებაში გამოტოვებული იყო. ავტორებმა რიცხვები არ შეცვალეს, მაგრამ აღიარეს, რომ სიზუსტე საკმარისი არ ყოფილა, როცა შემზღუდავი პირობა ცირკულაციაში აღარ მოჰყვა.",
+    "question": "Quel défaut de communication le cas met-il en cause ?",
+    "options": [
+      "La conclusion a circulé séparée des conditions qui en limitaient la portée.",
+      "Les auteurs avaient sciemment falsifié les probabilités de crue.",
+      "Le conseil avait reçu uniquement les annexes techniques, sans résumé.",
+      "Les mesures de protection avaient été achevées avant la rédaction du rapport."
+    ],
+    "answer": "La conclusion a circulé séparée des conditions qui en limitaient la portée.",
+    "translation": "Les auteurs du rapport ont décrit la probabilité d’inondation comme un « risque maîtrisable » afin que le niveau de danger soit compréhensible pour les décideurs. Le conseil local a presque interprété cette formule comme une autorisation et reporté les restrictions à la construction. On a découvert plus tard que le terme « maîtrisable » était employé à condition que les travaux de protection commencent immédiatement et que le plan d’évacuation soit régulièrement actualisé. Ces conditions figuraient dans l’annexe méthodologique, mais avaient été omises du résumé. Les auteurs n’ont pas modifié les chiffres, mais reconnu que leur exactitude n’avait pas suffi dès lors que la condition restrictive ne les accompagnait plus dans la circulation du document.",
+    "explanation": "Le problème tient au détachement d’une conclusion de ses conditions d’application, non à une falsification des données."
+  },
+  {
+    "id": "c2-translation-silence",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Entendre le silence d’une traduction",
+    "text": "მთარგმნელმა პიესის ახალ ვერსიაში პერსონაჟის პასუხებში არსებული ხანგრძლივი პაუზები სიტყვიერად არ გადმოიტანა. რეჟისორმა თავდაპირველად იფიქრა, რომ ტექსტი გამარტივებული იყო, სანამ მსახიობებმა არ აჩვენეს, როგორ ჩნდებოდა იგივე ყოყმანი წინადადების რიტმსა და დაუმთავრებელ კონსტრუქციებში. წყარო ენაში სიჩუმე გრამატიკული ნიშნით არ აღინიშნებოდა; მისი მნიშვნელობა გამეორებებსა და პასუხის დაგვიანებაში იკითხებოდა. თარგმანში ამ ნიშნების პირდაპირი კოპირება ხელოვნურ დიალოგს ქმნიდა. რეპეტიციებზე პაუზის ხანგრძლივობა ტექსტში კი არა, სცენურ მოქმედებაში დააფიქსირეს.",
+    "question": "Quelle distinction le passage établit-il entre reproduire un signe et préserver son effet ?",
+    "options": [
+      "Une pause peut être rendue par le rythme et le jeu lorsque sa notation littérale sonnerait artificielle.",
+      "Toute hésitation doit disparaître dès qu’elle n’est pas marquée grammaticalement.",
+      "La traduction exige de copier exactement la ponctuation de la langue source.",
+      "Le metteur en scène a remplacé le texte traduit par de l’improvisation libre."
+    ],
+    "answer": "Une pause peut être rendue par le rythme et le jeu lorsque sa notation littérale sonnerait artificielle.",
+    "translation": "Dans une nouvelle version de la pièce, le traducteur n’a pas transposé littéralement les longues pauses dans les réponses d’un personnage. Le metteur en scène a d’abord cru que le texte avait été simplifié, jusqu’à ce que les acteurs montrent comment la même hésitation apparaissait dans le rythme des phrases et les constructions inachevées. Dans la langue source, le silence n’était pas marqué grammaticalement ; son sens se lisait dans les répétitions et le retard de la réponse. Copier directement ces signes dans la traduction aurait produit un dialogue artificiel. Aux répétitions, la durée des pauses a été inscrite dans le jeu scénique, et non dans le texte.",
+    "explanation": "Le passage distingue le transfert matériel d’une marque de la recréation de sa fonction par d’autres moyens."
+  },
+  {
+    "id": "c2-institutional-neutrality",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Déchiffrer une neutralité institutionnelle",
+    "text": "კომისიის ანგარიშში ნათქვამი იყო, რომ არც ერთ მხარეს „საკმარისი საფუძველი არ ჰქონდა“ მეორე მხარის ბრალდების უარსაყოფად. ფორმულირება ნეიტრალურად ჟღერდა, მაგრამ დაზარალებულთა ჯგუფმა აღნიშნა, რომ მტკიცების ტვირთი მათ დაეკისრათ, მაშინ როცა კომისიამ თავად ვერ გადაამოწმა დაკარგული დოკუმენტები. იურისტებმა უპასუხეს, რომ ანგარიში პასუხისმგებლობას არ ადგენდა და მხოლოდ არსებული მასალის საზღვრებს აღწერდა. შემდგომ რედაქციაში კომისიამ მიუთითა, რომ ეს საზღვრები მისივე უფლებამოსილებითაც იყო განპირობებული. ტექსტს ახალი ფაქტი არ დამატებია; შეიცვალა ის, ვის არჩევანად ჩანდა ცოდნის ნაკლებობა.",
+    "question": "Que nuance apporte la dernière phrase sur la réécriture du rapport ?",
+    "options": [
+      "Elle rend visible la part institutionnelle dans la production des limites du savoir.",
+      "Elle établit enfin la culpabilité juridique de l’une des parties.",
+      "Elle démontre que les documents perdus avaient été volontairement détruits.",
+      "Elle retire à la commission toute responsabilité dans la rédaction initiale."
+    ],
+    "answer": "Elle rend visible la part institutionnelle dans la production des limites du savoir.",
+    "translation": "Le rapport de la commission disait qu’aucune des parties ne disposait de « motifs suffisants » pour réfuter les accusations de l’autre. La formulation paraissait neutre, mais un groupe de victimes a fait remarquer que la charge de la preuve leur incombait alors que la commission n’avait pas pu vérifier elle-même les documents manquants. Les juristes ont répondu que le rapport n’établissait aucune responsabilité et décrivait seulement les limites des éléments disponibles. Dans une version ultérieure, la commission a indiqué que ces limites tenaient aussi à ses propres compétences. Aucun fait nouveau n’avait été ajouté ; ce qui changeait, c’était la personne à qui semblait imputable le manque de connaissance.",
+    "explanation": "La réécriture ne tranche pas les accusations ; elle explicite que les limites du savoir dépendaient aussi du mandat de l’institution."
+  },
+  {
+    "id": "c2-automation-accountability",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Situer la responsabilité d’une décision automatisée",
+    "text": "სოციალური დახმარების განაწილების სისტემამ განაცხადების განხილვა დააჩქარა, თუმცა უარყოფილი საქმეების გასაჩივრება თითქმის არ შეცვლილა. უწყების ხელმძღვანელები აცხადებდნენ, რომ საბოლოო გადაწყვეტილებას თანამშრომელი იღებდა; თანამშრომლები კი ამბობდნენ, რომ სისტემის ქულა მათთვის მხოლოდ რეკომენდაცია იყო. აუდიტმა აჩვენა, რომ დაბალი ქულის მქონე განაცხადებს იშვიათად ამოწმებდნენ, რადგან განხილვის დროის მაჩვენებელი თითო საქმეზე შეზღუდულ წუთებს ითვალისწინებდა. არც ერთ წესში არ ეწერა, რომ ადამიანური გადახედვა აკრძალული იყო. პრაქტიკაში კი ქულა გადაწყვეტილების ჩარჩოდ იქცა, რომლის გადახედვასაც ორგანიზაცია არც რესურსით აჯილდოებდა და არც პასუხისმგებლობით იცავდა.",
+    "question": "Où le texte situe-t-il principalement le problème de responsabilité ?",
+    "options": [
+      "Dans l’écart entre une possibilité formelle de révision et des incitations pratiques qui la découragent.",
+      "Dans une interdiction explicite de contester les décisions de l’algorithme.",
+      "Dans le fait que les agents n’avaient jamais accès au score calculé.",
+      "Dans la lenteur de traitement des demandes pourtant approuvées."
+    ],
+    "answer": "Dans l’écart entre une possibilité formelle de révision et des incitations pratiques qui la découragent.",
+    "translation": "Le système de répartition de l’aide sociale a accéléré l’examen des demandes, mais le nombre de recours contre les refus a peu évolué. Les responsables du service affirmaient qu’un employé prenait la décision finale ; les agents, eux, disaient que le score du système n’était qu’une recommandation. Un audit a montré que les demandes ayant obtenu un score faible étaient rarement réexaminées, car l’indicateur de temps de traitement limitait les minutes consacrées à chaque dossier. Aucune règle n’interdisait une révision humaine. Dans la pratique, le score était devenu le cadre de la décision, sans que l’organisation récompense cette révision par des moyens ni protège les agents qui l’exerçaient en assumant leur responsabilité.",
+    "explanation": "La révision restait possible en théorie, mais l’organisation du travail la rendait improbable et risquée pour les agents."
+  },
+  {
+    "id": "c2-economic-growth",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Interroger la mesure de la prospérité",
+    "text": "რეგიონის ეკონომიკური მიმოხილვა შემოსავლის ზრდას წარმატების მთავარ ნიშნად იყენებდა. ავტორები აღიარებდნენ, რომ საშუალო ხელფასი გაიზარდა, მაგრამ ეს ზრდა ძირითადად მაღალანაზღაურებად სექტორში იყო თავმოყრილი; მომსახურების სფეროში დასაქმებულთა შემოსავალი თითქმის არ შეცვლილა. ანგარიშში ამის შემდეგ ერთობლივი მაჩვენებელი მაინც უცვლელად დარჩა, რადგან სერიასთან შედარების შესაძლებლობის შენარჩუნება სურდათ. დანართში კი ახალი განაწილებითი ინდექსი პირველად გამოჩნდა. ავტორებმა ძველი რიცხვი არ უარყვეს: მათ აჩვენეს, რომ მაჩვენებლის უწყვეტობა თავადაც არჩევანია, რომელსაც ზოგიერთი განსხვავების უხილავად დატოვება შეუძლია.",
+    "question": "Pourquoi les auteurs conservent-ils l’indicateur historique tout en ajoutant un nouvel indice ?",
+    "options": [
+      "Pour préserver la comparabilité sans laisser croire que l’indicateur global suffit à décrire la distribution.",
+      "Parce que le nouvel indice avait démontré une baisse identique des revenus dans tous les secteurs.",
+      "Pour dissimuler les résultats concernant les employés des services.",
+      "Parce que les données antérieures ne permettaient aucune comparaison temporelle."
+    ],
+    "answer": "Pour préserver la comparabilité sans laisser croire que l’indicateur global suffit à décrire la distribution.",
+    "translation": "L’examen économique de la région utilisait la hausse des revenus comme principal signe de réussite. Les auteurs reconnaissaient que le salaire moyen avait augmenté, mais que cette hausse se concentrait surtout dans les secteurs les mieux rémunérés ; les revenus des employés des services avaient à peine évolué. Le rapport conservait néanmoins l’indicateur agrégé, afin de maintenir la comparabilité avec la série historique. Une nouvelle mesure de la distribution apparaissait pour la première fois en annexe. Les auteurs ne rejetaient pas l’ancien chiffre : ils montraient que la continuité d’un indicateur est elle-même un choix, capable de laisser certaines différences invisibles.",
+    "explanation": "Les deux indicateurs répondent à des besoins distincts : suivre une série dans le temps et rendre visibles les écarts de distribution."
+  },
+  {
+    "id": "c2-migration-archive",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Lire les silences d’une archive",
+    "text": "მიგრაციის არქივში წერილები თითქმის მთლიანად მოხელეთა ჩანაწერებით იყო წარმოდგენილი. კურატორმა ექსპოზიციას „მდუმარე ხმების“ სექცია დაამატა, სადაც ცარიელი ჩარჩოები იმ წერილებს აღნიშნავდა, რომლებიც გზაში დაიკარგა ან ოჯახებს არასოდეს მიუღიათ. ზოგმა კრიტიკოსმა ეს ხერხი არყოფნის რომანტიზებად მიიჩნია: ცარიელი ადგილი მაყურებელს ემოციას სთავაზობდა, მაგრამ დაკარგულის შინაარსს ვერ აღადგენდა. კურატორმა შენიშვნა მიიღო და თითოეულ ჩარჩოსთან მიუთითა, რა წყაროზე დაყრდნობით იცოდნენ დაკარგვის შესახებ და რა რჩებოდა უცნობი. ექსპოზიცია აღარ ამტკიცებდა, რომ არქივში არარსებული ხმაც გაიგონა; ის აჩვენებდა, როგორ იყო სიჩუმე წარმოებული.",
+    "question": "Quel déplacement la correction curatoriale opère-t-elle ?",
+    "options": [
+      "Elle passe de la prétention à représenter les absents à l’explicitation des conditions de leur absence documentaire.",
+      "Elle remplace les lettres administratives par des témoignages entièrement reconstitués.",
+      "Elle affirme que chaque lettre manquante a été détruite intentionnellement.",
+      "Elle supprime toute référence aux limites des sources archivistiques."
+    ],
+    "answer": "Elle passe de la prétention à représenter les absents à l’explicitation des conditions de leur absence documentaire.",
+    "translation": "Dans les archives de la migration, les lettres étaient presque entièrement représentées par des notes de fonctionnaires. La commissaire a ajouté une section intitulée « Voix silencieuses », où des cadres vides signalaient les lettres perdues en route ou jamais reçues par les familles. Certains critiques y ont vu une romantisation de l’absence : le vide offrait une émotion au visiteur, mais ne pouvait restituer le contenu des lettres disparues. La commissaire a tenu compte de cette remarque et indiqué, pour chaque cadre, sur quelle source reposait la connaissance de la perte et ce qui demeurait inconnu. L’exposition ne prétendait plus avoir entendu une voix absente des archives ; elle montrait comment le silence avait été produit.",
+    "explanation": "La révision rend visibles les preuves et les inconnues au lieu de suggérer que la mise en scène restitue les voix manquantes."
+  },
+  {
+    "id": "c2-literary-irony",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Reconnaître une ironie narrative",
+    "text": "მემუარის მთხრობელი ქალაქის მოხელეებს „იშვიათი წინდახედულებით“ აქებდა, რადგან მათ მდინარის ნაპირი არ გაემაგრებინათ. მომდევნო აბზაცში ის აღწერს, როგორ წაიღო წყალდიდობამ მისი ბეჭდვითი სახელოსნო, თუმცა ამ დანაკარგს თავადვე უწოდებს „საზოგადოებრივი სიფხიზლის ფასს“. ავტორის ტონი ერთი შეხედვით თავშეკავებულია; არც ღია ბრალდება ჩანს და არც სინანული. მაგრამ მკითხველი იცის, რომ მემუარი დაწერილია მას შემდეგ, რაც ქალაქმა სანაპირო კედელი ააგო და სახელოსნოს ნარჩენები მუნიციპალურ არქივში გადაიტანა. ქება იმ ინსტიტუციის მიმართ, რომლის დაგვიანებამ დანაკარგი დაუშვა, მისი ყველაზე მკვეთრი მხილება ხდება.",
+    "question": "Quel mécanisme produit ici l’ironie ?",
+    "options": [
+      "L’éloge apparent est contredit par les conséquences racontées et par le recul historique du narrateur.",
+      "Le narrateur ignore les dégâts causés par la crue et invente une victoire municipale.",
+      "Le texte condamne explicitement les lecteurs qui visitent l’archive.",
+      "L’auteur présente les travaux de protection comme antérieurs à l’inondation."
+    ],
+    "answer": "L’éloge apparent est contredit par les conséquences racontées et par le recul historique du narrateur.",
+    "translation": "Le narrateur de ces mémoires loue les fonctionnaires de la ville pour leur « rare prévoyance », puisqu’ils n’avaient pas renforcé les berges. Au paragraphe suivant, il raconte comment la crue a emporté son imprimerie, tout en appelant cette perte le « prix de la vigilance publique ». Le ton semble réservé ; on n’y trouve ni accusation ouverte ni regret. Mais le lecteur sait que les mémoires ont été écrits après la construction d’un mur côtier et le transfert des débris de l’imprimerie aux archives municipales. L’éloge de l’institution dont les retards ont rendu la perte possible devient sa dénonciation la plus incisive.",
+    "explanation": "Le décalage entre les mots louangeurs, la perte concrète et le savoir rétrospectif du lecteur transforme l’éloge en critique."
+  },
+  {
+    "id": "c2-urban-data-model",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Comprendre les choix d’un modèle",
+    "text": "ქალაქის საცობების მოდელმა გადაადგილების სიჩქარე ქუჩების ქსელზე გადაანაწილა და მანქანით მგზავრობას პრიორიტეტი მიანიჭა, რადგან სწორედ ამ მონაცემებს ინახავდა ათწლეულის განმავლობაში. კვლევითმა ჯგუფმა მოდელი ანგარიშში სანდოდ დაახასიათა, თუმცა ტროტუარებისა და ფეხით მოსიარულეთა ნაკადების ჩართვა ვერ შეძლო: ჩანაწერები მხოლოდ ნაწილობრივ არსებობდა. კრიტიკოსებმა მოდელის მიკერძოება მის შედეგებში კი არა, იმ სიზუსტეში დაინახეს, რომლითაც ის ერთგვარ გადაადგილებას ზომავდა და სხვას — თითქმის საერთოდ არა. ჯგუფმა დასკვნა არ გადააგდო; მან სანდოობის ფარგლები რუკაზე მონიშნა და მონაცემთა შეგროვების პრიორიტეტებიც გამოაქვეყნა.",
+    "question": "Sur quoi porte principalement la critique adressée au modèle ?",
+    "options": [
+      "Sur la précision asymétrique avec laquelle il rend certains déplacements visibles et d’autres presque invisibles.",
+      "Sur une erreur de calcul qui inversait systématiquement la vitesse des voitures.",
+      "Sur le refus du groupe d’utiliser les données recueillies pendant dix ans.",
+      "Sur l’affirmation que les piétons étaient plus rapides que les véhicules."
+    ],
+    "answer": "Sur la précision asymétrique avec laquelle il rend certains déplacements visibles et d’autres presque invisibles.",
+    "translation": "Le modèle de congestion de la ville répartissait la vitesse des déplacements sur le réseau routier et privilégiait les trajets en voiture, car c’étaient les seules données conservées depuis dix ans. Dans son rapport, le groupe de recherche a qualifié le modèle de fiable, tout en reconnaissant ne pas pouvoir y inclure les trottoirs ni les flux piétonniers : les données n’existaient que partiellement. Les critiques ont situé le biais du modèle non dans ses résultats, mais dans la précision avec laquelle il mesurait un type de déplacement et presque pas l’autre. Le groupe n’a pas rejeté sa conclusion ; il a cartographié les limites de sa fiabilité et publié ses priorités de collecte de données.",
+    "explanation": "Le biais réside dans la couverture inégale du phénomène : la mesure précise d’un mode de déplacement ne rend pas l’ensemble du modèle neutre."
+  },
+  {
+    "id": "c2-legal-translation",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Mesurer les effets d’une traduction juridique",
+    "text": "სასამართლოს გადაწყვეტილების თარგმანში იურისტებმა ერთი სიტყვა „შეიძლება“-თი გადმოსცეს, თუმცა წყარო ენაში ის ზოგ კონტექსტში შესაძლებლობას, ზოგში კი შეზღუდულ დისკრეციას ნიშნავდა. თარგმანის მკითხველმა ჩათვალა, რომ ორგანოს არჩევანი თავისუფალი იყო, მაშინ როცა ორიგინალი მხოლოდ განსაზღვრული საფუძვლებით გადახვევას უშვებდა. მთარგმნელმა განმარტა, რომ ერთიანი ზმნური ფორმა ტექსტის სიზუსტისთვის იყო საჭირო. სასამართლომ შენიშვნა მიიღო და ტერმინთა ლექსიკონი დაურთო, მაგრამ იურისტებმა გააფრთხილეს, რომ განმარტება უკვე გავლენას ვერ მოახდენდა იმაზე, თუ როგორ იყო წესი მანამდე ადმინისტრირებული. ლექსიკური ეკვივალენტი პრაქტიკული შედეგისგან დამოუკიდებელი არ აღმოჩნდა.",
+    "question": "Quelle conséquence de la traduction le passage souligne-t-il ?",
+    "options": [
+      "Un équivalent lexical apparemment neutre peut élargir ou restreindre la marge d’action comprise par ses lecteurs.",
+      "La traduction avait supprimé toute référence aux pouvoirs de l’administration.",
+      "Le lexique ajouté a automatiquement annulé les décisions antérieures.",
+      "Les juristes ont refusé de comparer la version traduite au texte original."
+    ],
+    "answer": "Un équivalent lexical apparemment neutre peut élargir ou restreindre la marge d’action comprise par ses lecteurs.",
+    "translation": "Dans la traduction d’une décision judiciaire, des juristes ont rendu un mot par « peut », alors que dans la langue source il exprimait, selon le contexte, une possibilité ou un pouvoir discrétionnaire limité. Un lecteur de la traduction a cru que l’autorité disposait d’un libre choix, tandis que l’original n’autorisait une dérogation que pour des motifs déterminés. Le traducteur a expliqué qu’une forme verbale unique était nécessaire à la cohérence du texte. Le tribunal a pris note de l’observation et ajouté un lexique, mais les juristes ont averti que cette explication ne pouvait plus influer sur la façon dont la règle avait été administrée jusque-là. L’équivalent lexical n’était pas indépendant de ses effets pratiques.",
+    "explanation": "Le choix lexical a modifié la marge de discrétion comprise par les lecteurs, et un glossaire ultérieur ne pouvait effacer les pratiques déjà établies."
+  },
+  {
+    "id": "c2-expert-consensus",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Nuancer un consensus d’experts",
+    "text": "ექსპერტთა განცხადებაში ნათქვამი იყო, რომ „კონსენსუსი არსებობს“, რასაც პრესამ ერთსულოვან თანხმობად გადმოსცა. სინამდვილეში, მონაწილეები თანხმდებოდნენ მხოლოდ იმაზე, რომ არსებული მტკიცებულება ერთი მიმართულებით იხრებოდა და დაუყოვნებელი პოლიტიკისთვის საკმარისი იყო; გაურკვევლობის დიაპაზონზე და მოქმედების ფასზე აზრთა სხვადასხვაობა რჩებოდა. განცხადების ავტორებმა უფრო ვრცელი განმარტება გამოაქვეყნეს, მაგრამ მისი სათაური ნაკლებ ყურადღებას იქცევდა, ვიდრე თავდაპირველი მოკლე ფრაზა. მათ აღიარეს, რომ კონსენსუსის დაცვის სურვილით უთანხმოების საზღვრები არ უნდა წაშლილიყო: სწორედ ეს საზღვრები აჩვენებდა, რა გადაწყვეტილება იყო მეცნიერულად მყარი და რა — ღირებულებითი არჩევანი.",
+    "question": "Quelle distinction les auteurs veulent-ils préserver ?",
+    "options": [
+      "Celle entre l’accord sur l’orientation des preuves et les désaccords sur l’incertitude ou les coûts de l’action.",
+      "Celle entre les experts scientifiques et les journalistes professionnels.",
+      "Celle entre une politique immédiate et toute forme de recherche future.",
+      "Celle entre les participants qui avaient lu le rapport et ceux qui l’ignoraient."
+    ],
+    "answer": "Celle entre l’accord sur l’orientation des preuves et les désaccords sur l’incertitude ou les coûts de l’action.",
+    "translation": "La déclaration des experts disait qu’« il existe un consensus », ce que la presse a rendu comme un accord unanime. En réalité, les participants convenaient seulement que les preuves disponibles penchaient dans une direction et suffisaient à justifier une politique immédiate ; ils restaient en désaccord sur l’ampleur de l’incertitude et le coût de l’action. Les auteurs ont publié une explication plus détaillée, dont le titre a cependant attiré moins d’attention que la formule initiale. Ils ont reconnu que, pour défendre le consensus, il ne fallait pas effacer les limites du désaccord : celles-ci indiquaient précisément ce qui était scientifiquement solide et ce qui relevait d’un choix de valeurs.",
+    "explanation": "Les auteurs distinguent un accord sur le sens des preuves d’un accord sur les incertitudes restantes et les arbitrages politiques."
+  },
+  {
+    "id": "c2-restoration-authenticity",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Déconstruire l’idée d’authenticité",
+    "text": "ძეგლის რესტავრაციის კონკურსში მონაწილეებს „თავდაპირველი იერის“ აღდგენა დაევალათ, თუმცა არქივში სამი სხვადასხვა პერიოდის ნახაზი ინახებოდა და არც ერთი არ ასახავდა ნაგებობას მშენებლობის დასრულებისთანავე. კომისიამ ყველაზე ადრეული ნახაზი ავთენტურობის საყრდენად აირჩია, რადგან ის ეროვნული არქიტექტურის ჩამოყალიბების პერიოდს უკავშირდებოდა. ისტორიკოსებმა შენიშნეს, რომ ეს არჩევანი მეცნიერულ აუცილებლობას კი არა, მეხსიერების კონკრეტულ პოლიტიკას გამოხატავდა. საბოლოო პროექტმა ნახაზის სახე აღადგინა, მაგრამ საინფორმაციო დაფაზე სხვა ვარიანტებიც აჩვენა. ძეგლს ერთი საწყისი აღარ ჰქონდა; მას რამდენიმე თანაბრად დასაბუთებული წარსული ჰქონდა.",
+    "question": "Pourquoi les historiens contestent-ils que le choix du dessin le plus ancien soit une nécessité scientifique ?",
+    "options": [
+      "Parce que retenir une époque privilégiée traduit aussi une politique de mémoire.",
+      "Parce qu’aucun des dessins n’avait été conservé dans les archives.",
+      "Parce que le bâtiment avait été construit après la création de la commission.",
+      "Parce que le dessin le plus récent était le seul techniquement utilisable."
+    ],
+    "answer": "Parce que retenir une époque privilégiée traduit aussi une politique de mémoire.",
+    "translation": "Dans le concours de restauration du monument, les participants devaient retrouver son « apparence d’origine », alors que les archives conservaient trois dessins de périodes différentes et qu’aucun ne représentait l’édifice immédiatement après sa construction. La commission a choisi le dessin le plus ancien comme référence d’authenticité, car il était lié à la période de formation de l’architecture nationale. Des historiens ont fait remarquer que ce choix exprimait une politique de mémoire particulière, et non une nécessité scientifique. Le projet final a restauré l’apparence du dessin, mais présenté les autres versions sur un panneau. Le monument n’avait plus une seule origine : il avait plusieurs passés également justifiables.",
+    "explanation": "Le critère chronologique n’imposait pas à lui seul le choix ; privilégier une époque déterminée donnait aussi une orientation à la mémoire collective."
+  },
+  {
+    "id": "c2-urban-displacement",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Repérer un déplacement de problème",
+    "text": "მდინარის კალაპოტის გაწმენდის პროექტმა წყალდიდობის რისკი ცენტრალურ უბანში შეამცირა. შემდგომმა მონიტორინგმა აჩვენა, რომ სწრაფი დინება ქვედა დასახლებებში ნაპირის ეროზიას აძლიერებდა, თუმცა პროექტის შეფასება თავდაპირველ ტერიტორიას არ გასცდენია. ინჟინრები ამტკიცებდნენ, რომ მათი ამოცანა დადგენილი მონაკვეთის უსაფრთხოება იყო; ადგილობრივმა კოალიციამ კი განაცხადა, რომ რისკი გაქრა არა იმდენად, რამდენადაც მის საზღვარს გასცდა. მეორე ეტაპზე ახალი დაცვის ნაგებობები არ აუგიათ; სამაგიეროდ, კვლევის არეალი მთელ მდინარის აუზამდე გააფართოვეს. პროექტი წარმატებული იყო მის თავდაპირველ საზომში, მაგრამ ეს საზომი თავად იქცა განხილვის საგნად.",
+    "question": "Que critique la formule selon laquelle le risque a « dépassé sa frontière » ?",
+    "options": [
+      "Le succès mesuré dans la zone initiale pouvait correspondre à un transfert du risque vers l’aval.",
+      "Le projet avait augmenté les crues dans le centre-ville sans réduire aucun danger.",
+      "Les ingénieurs avaient construit leurs ouvrages sur un territoire étranger.",
+      "La coalition refusait que le bassin fluvial soit étudié."
+    ],
+    "answer": "Le succès mesuré dans la zone initiale pouvait correspondre à un transfert du risque vers l’aval.",
+    "translation": "Le projet de nettoyage du lit de la rivière a réduit le risque d’inondation dans le quartier central. Un suivi ultérieur a montré que le courant accéléré renforçait l’érosion des berges dans les quartiers situés en aval, mais l’évaluation du projet ne dépassait pas sa zone initiale. Les ingénieurs soutenaient que leur mission concernait la sécurité du tronçon défini ; la coalition locale affirmait que le risque avait moins disparu que franchi ses limites. La seconde phase n’a pas construit de nouveaux ouvrages de protection ; elle a élargi la zone d’étude à l’ensemble du bassin fluvial. Le projet réussissait selon son indicateur initial, mais cet indicateur était lui-même devenu un objet de débat.",
+    "explanation": "Le passage souligne qu’une amélioration locale peut déplacer le danger et que le périmètre choisi détermine ce que l’évaluation peut voir."
+  },
+  {
+    "id": "c2-corporate-transparency",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Lire une transparence sélective",
+    "text": "კომპანიამ თავისი ალგორითმის ტექნიკური აღწერა საჯაროდ გამოაქვეყნა და ეს ნაბიჯი გამჭვირვალობის დასტურად წარმოადგინა. დამოუკიდებელმა მკვლევრებმა მასში კოდის სტრუქტურა იპოვეს, მაგრამ არა ის, თუ რომელი შემთხვევები მოხვდა სასწავლო მონაცემებში და რომელი — არა. კომპანიამ პასუხად მონაცემთა ბაზის კონფიდენციალურობა დაასახელა, თუმცა აგრეგირებული სტატისტიკის გამოქვეყნება შესაძლებელი იყო. განხილვა კოდის გახსნის მოთხოვნიდან გადავიდა იმაზე, ვინ ადგენს, რა ჩაითვლება საკმარის გამჭვირვალობად. ტექნიკური ხილვადობა გაიზარდა, მაგრამ გადაწყვეტილების მიღების პირობები კვლავ დახურული დარჩა.",
+    "question": "Quelle limite de la transparence revendiquée par l’entreprise apparaît ici ?",
+    "options": [
+      "La visibilité du code ne révèle pas nécessairement la composition des données ni les choix qui ont orienté le système.",
+      "Les chercheurs n’ont pas réussi à ouvrir les fichiers contenant le code source.",
+      "L’entreprise avait publié toutes les données individuelles sans anonymisation.",
+      "Le débat portait uniquement sur la vitesse d’exécution du programme."
+    ],
+    "answer": "La visibilité du code ne révèle pas nécessairement la composition des données ni les choix qui ont orienté le système.",
+    "translation": "Une entreprise a publié la description technique de son algorithme et présenté cette démarche comme une preuve de transparence. Des chercheurs indépendants y ont trouvé la structure du code, mais pas quels cas avaient été inclus dans les données d’apprentissage et lesquels en avaient été exclus. L’entreprise a invoqué la confidentialité de la base, alors qu’il aurait été possible de publier des statistiques agrégées. Le débat a quitté la demande d’ouverture du code pour porter sur la question de savoir qui définit ce qui constitue une transparence suffisante. La visibilité technique avait progressé, mais les conditions de prise de décision restaient fermées.",
+    "explanation": "L’ouverture du code éclaire une dimension du système, sans dévoiler à elle seule la sélection des données et les choix qui ont façonné son fonctionnement."
+  },
+  {
+    "id": "c2-oral-history",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Comparer mémoire et preuve",
+    "text": "ზეპირი ისტორიის პროექტში ერთმა რესპონდენტმა გაფიცვის დაწყების თარიღი ოფიციალურ დოკუმენტებზე ორი დღით ადრე დაასახელა. მკვლევარმა ჩანაწერი „შეცდომად“ მონიშნა, სანამ სხვა ინტერვიუებმა არ აჩვენა, რომ გაფიცვის წინა დღეს მუშებმა არაფორმალური შეთანხმება დადეს, რომელსაც ადმინისტრაცია გაფიცვის ნაწილად არ აღიარებდა. რესპონდენტის ქრონოლოგია ამგვარად ადმინისტრაციულ კატეგორიას კი არ ემთხვეოდა, არამედ კოლექტიურ გამოცდილებას ასახავდა. პროექტმა ოფიციალური თარიღი არ შეცვალა; მან მონაცემთა ბაზაში განსხვავება განმარტა და მკითხველს საშუალება მისცა, ორივე ქრონოლოგია შეედარებინა.",
+    "question": "Pourquoi le souvenir du témoin ne correspond-il pas simplement à une erreur factuelle ?",
+    "options": [
+      "Il s’appuie sur une définition vécue de la grève qui diffère de la catégorie administrative officielle.",
+      "Le témoin avait consulté les documents officiels avant l’entretien.",
+      "Les chercheurs ont découvert que les archives dataient la grève deux jours plus tôt.",
+      "L’administration avait reconnu l’accord informel comme le début officiel du mouvement."
+    ],
+    "answer": "Il s’appuie sur une définition vécue de la grève qui diffère de la catégorie administrative officielle.",
+    "translation": "Dans un projet d’histoire orale, un témoin a situé le début d’une grève deux jours avant les documents officiels. Le chercheur a marqué l’enregistrement comme une « erreur » jusqu’à ce que d’autres entretiens montrent que, la veille de la grève, les ouvriers avaient conclu un accord informel que l’administration ne reconnaissait pas comme une partie du mouvement. La chronologie du témoin ne correspondait donc pas à une catégorie administrative ; elle reflétait une expérience collective. Le projet n’a pas modifié la date officielle : il a expliqué l’écart dans la base de données et permis au lecteur de comparer les deux chronologies.",
+    "explanation": "Le désaccord porte sur ce qui compte comme commencement de la grève : l’expérience collective et la définition administrative ne découpent pas l’événement de la même manière."
+  },
+  {
+    "id": "c2-policy-pilot",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Évaluer une expérimentation publique",
+    "text": "სკოლებში ახალი სასწავლო მეთოდი მცირე ჯგუფში გამოსცადეს და დასწრება გაიზარდა. ანგარიშში ეს შედეგი მეთოდის ეფექტიანობის დასტურად ჩაიწერა, თუმცა ექსპერიმენტში მონაწილე სკოლებს დამატებითი კონსულტანტებიც ჰყავდათ და მასწავლებლები იცოდნენ, რომ მათ მუშაობას აკვირდებოდნენ. პროგრამის ხელმძღვანელები პასუხობდნენ, რომ მეთოდის დანერგვა ასეთ მხარდაჭერასაც მოითხოვდა. კრიტიკოსები არ უარყოფდნენ გაუმჯობესებას; ისინი კითხულობდნენ, შეიძლებოდა თუ არა იგივე შედეგის შენარჩუნება მხარდაჭერის გარეშე და სხვა სკოლებში. მეორე ეტაპზე კვლევა მეთოდსა და მხარდაჭერას ცალ-ცალკე შეადარებდა, რათა პროგრამის დასახელება თავად ახსნად არ ქცეულიყო.",
+    "question": "Quelle question le second volet de l’étude cherche-t-il à isoler ?",
+    "options": [
+      "La part du résultat attribuable à la méthode par rapport au soutien supplémentaire qui l’accompagnait.",
+      "La raison pour laquelle l’assiduité avait diminué dans les écoles participantes.",
+      "La possibilité d’interdire aux enseignants d’observer les consultants.",
+      "Le coût comparé des bâtiments scolaires dans chaque région."
+    ],
+    "answer": "La part du résultat attribuable à la méthode par rapport au soutien supplémentaire qui l’accompagnait.",
+    "translation": "Une nouvelle méthode pédagogique a été testée dans un petit groupe d’écoles et l’assiduité a augmenté. Le rapport a présenté ce résultat comme une preuve de l’efficacité de la méthode, alors que les écoles participantes disposaient aussi de consultants supplémentaires et que les enseignants savaient que leur travail était observé. Les responsables du programme ont répondu que la mise en œuvre de la méthode exigeait également ce soutien. Les critiques ne niaient pas l’amélioration ; ils demandaient si le même résultat pouvait être maintenu sans ce soutien et dans d’autres écoles. La seconde phase comparera séparément la méthode et le soutien, afin que le nom du programme ne devienne pas lui-même une explication.",
+    "explanation": "L’expérimentation initiale ne permettait pas de distinguer l’effet de la méthode de celui des ressources et de l’attention supplémentaires."
+  },
+  {
+    "id": "c2-press-release-omission",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Interpréter une omission rhétorique",
+    "text": "კვლევის პრესრელიზი იწყებოდა წინადადებით: „პროექტმა მიზანს მიაღწია.“ ტექსტის ბოლოს კი აღნიშნული იყო, რომ მიზანი მხოლოდ შუალედური ეტაპის დასრულებას გულისხმობდა და მონაწილეთა უმრავლესობას საბოლოო სერტიფიკატი ჯერ არ ჰქონდა მიღებული. ჟურნალისტებმა პირველი წინადადება სათაურად გამოიყენეს, რადგან ის შედეგს მოკლედ აჯამებდა. მკვლევრებმა ამის შემდეგ ანგარიშის მოკლე შეჯამებაში მიზნის განმარტება დასაწყისშივე გადაიტანეს. მათ არ შეუცვლიათ დასკვნა; შეცვალეს ის თანმიმდევრობა, რომლითაც მკითხველი მას ხვდებოდა. ფაქტის ადგილი წინადადებაში შეფასების ნაწილია, თუნდაც თავად ფაქტი უცვლელი დარჩეს.",
+    "question": "Quelle thèse la dernière phrase exprime-t-elle ?",
+    "options": [
+      "L’ordre de présentation peut orienter l’interprétation d’un fait sans en modifier la formulation.",
+      "Les journalistes avaient inventé l’existence du projet de recherche.",
+      "Les participants avaient tous reçu leur certification avant la publication.",
+      "Les chercheurs ont finalement retiré leur conclusion du rapport."
+    ],
+    "answer": "L’ordre de présentation peut orienter l’interprétation d’un fait sans en modifier la formulation.",
+    "translation": "Le communiqué de presse commençait par la phrase : « Le projet a atteint son objectif. » À la fin du texte, il précisait que l’objectif consistait seulement à achever une étape intermédiaire et que la plupart des participants n’avaient pas encore obtenu le certificat final. Les journalistes ont utilisé la première phrase comme titre, car elle résumait brièvement le résultat. Les chercheurs ont ensuite déplacé la définition de l’objectif au début du résumé. Ils n’ont pas changé leur conclusion ; ils ont changé l’ordre dans lequel le lecteur la rencontrait. La place d’un fait dans une phrase participe à l’évaluation, même si le fait lui-même reste inchangé.",
+    "explanation": "La sélection et l’ordre des informations peuvent produire une impression différente sans qu’aucune donnée soit littéralement fausse."
+  },
+  {
+    "id": "c2-digital-preservation",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Distinguer accès et préservation numérique",
+    "text": "მუზეუმმა ოცი წლის წინანდელი ინტერაქტიული ნამუშევარი ახალ ეკრანზე გადაიტანა და გახსნისას განაცხადა, რომ იგი „შენარჩუნებულია“. ავტორმა შენიშნა, რომ ორიგინალში ნელი პროცესორი და დაბალი გარჩევადობა შემთხვევითი ხარვეზი არ ყოფილა: დაგვიანებული რეაგირება მაყურებელს მოქმედებაზე დაფიქრებას აიძულებდა. ახალ სისტემაში მოძრაობა გლუვი გახდა, მაგრამ ნამუშევრის დროითი ხასიათი გაქრა. მუზეუმმა ავტორის შენიშვნა აუდიოგიდში ჩართო და ორივე ვერსია ხელმისაწვდომი დატოვა. ციფრული წვდომა გაიზარდა; შენარჩუნების მტკიცება კი გადაიხედა, რადგან ინტერფეისის ფუნქცია მხოლოდ გამოსახულებაში არ თავსდებოდა.",
+    "question": "Pourquoi la migration technique a-t-elle modifié plus que l’apparence de l’œuvre ?",
+    "options": [
+      "Elle a supprimé un délai qui faisait partie de l’expérience et du sens de l’œuvre.",
+      "Elle a rendu impossible l’accès à l’ancienne version de l’installation.",
+      "Elle a remplacé l’œuvre interactive par une photographie fixe.",
+      "Elle a révélé que l’artiste n’avait jamais voulu exposer l’œuvre au public."
+    ],
+    "answer": "Elle a supprimé un délai qui faisait partie de l’expérience et du sens de l’œuvre.",
+    "translation": "Un musée a transféré sur un nouvel écran une œuvre interactive vieille de vingt ans et déclaré lors de l’ouverture qu’elle était « préservée ». L’artiste a fait remarquer que le processeur lent et la faible résolution d’origine n’étaient pas des défauts accidentels : la réaction différée obligeait le spectateur à réfléchir à son geste. Sur le nouveau système, le mouvement était devenu fluide, mais la temporalité de l’œuvre avait disparu. Le musée a intégré la remarque de l’artiste au guide audio et laissé les deux versions accessibles. L’accès numérique s’est élargi, mais la revendication de préservation a été révisée, car la fonction de l’interface ne se réduisait pas à l’image.",
+    "explanation": "La lenteur était une composante de l’expérience, et pas seulement une limite technique à corriger."
+  },
+  {
+    "id": "c2-statistical-absence",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Interroger les données manquantes",
+    "text": "ანგარიშში მონაწილეთა ქულების საშუალო მნიშვნელობა ცალკეული პასუხების გარეშე გამოქვეყნდა. ავტორებმა თქვეს, რომ ინდივიდუალური მონაცემების დაცვა სურდათ, თუმცა ცხრილში ის შემთხვევებიც გამოტოვებული იყო, რომლებშიც მონაწილეები კვლევიდან შუა გზაში გავიდნენ. ამ გამოტოვების მიზეზები უცნობი დარჩა: ზოგმა დროის უქონლობა დაასახელა, ზოგმა კი შედეგით უკმაყოფილება. მკითხველს ვერ გაეგო, საშუალო ქულა ყველა მონაწილეს აღწერდა თუ მხოლოდ მათ, ვინც ბოლომდე დარჩა. შესწორებულ ანგარიშში ავტორებმა მონაცემთა დაცვის პრინციპი შეინარჩუნეს, მაგრამ გასვლის რაოდენობა და შესაძლო მიზეზები ცალკე წარმოადგინეს.",
+    "question": "Quelle ambiguïté l’omission des abandons créait-elle ?",
+    "options": [
+      "On ne savait pas si la moyenne décrivait l’ensemble des participants ou seulement les personnes restées jusqu’au bout.",
+      "On pouvait identifier directement chaque participant à partir de son score moyen.",
+      "Le rapport ne contenait aucune donnée statistique sur les résultats.",
+      "Les auteurs avaient remplacé les scores individuels par des noms complets."
+    ],
+    "answer": "On ne savait pas si la moyenne décrivait l’ensemble des participants ou seulement les personnes restées jusqu’au bout.",
+    "translation": "Le rapport a publié la moyenne des scores des participants sans leurs réponses individuelles. Les auteurs ont dit vouloir protéger les données personnelles, mais le tableau omettait aussi les cas où des participants avaient quitté l’étude en cours de route. Les raisons de ces départs restaient inconnues : certains invoquaient un manque de temps, d’autres leur mécontentement face au résultat. Le lecteur ne pouvait savoir si le score moyen décrivait tous les participants ou seulement ceux qui étaient restés jusqu’au bout. Dans la version révisée, les auteurs ont maintenu la protection des données, mais présenté séparément le nombre de départs et leurs causes possibles.",
+    "explanation": "La protection des identités n’exigeait pas de taire les abandons ; leur absence rendait la population représentée par la moyenne indéterminée."
+  },
+  {
+    "id": "c2-public-debate-metaphor",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Analyser une métaphore politique",
+    "text": "დებატში მინისტრმა რეფორმას „ხიდი“ უწოდა, რომელიც ძველ სისტემასა და ახალ ეკონომიკას აკავშირებდა. ოპონენტმა უპასუხა, რომ ხიდზე გავლა ორივე მხარეს შეეძლო, მაშინ როცა რეფორმის სარგებელი მხოლოდ გარკვეულ სექტორებს ერგებოდა. მინისტრმა მეტაფორა თანასწორობის დაპირებად არ წარმოუდგენია; მისი თქმით, ხიდი გარდამავალ პროცესს ნიშნავდა და არა ყველასთვის ერთნაირ შედეგს. თუმცა სიტყვამ დროებითი აუცილებლობის შთაბეჭდილება დატოვა, თითქოს ალტერნატივა მხოლოდ წარსულში დაბრუნება ყოფილიყო. კამათის საგანი საბოლოოდ არა ხიდის არსებობა, არამედ ის გახდა, ვინ განსაზღვრავდა მის მიმართულებასა და გადასახადის ფასს.",
+    "question": "Quel effet implicite la métaphore du « pont » produit-elle, selon le passage ?",
+    "options": [
+      "Elle peut présenter la réforme comme un passage inévitable et réduire la visibilité des alternatives.",
+      "Elle démontre que tous les secteurs bénéficient exactement de la même manière de la réforme.",
+      "Elle permet à l’opposition de rejeter tout changement économique sans argument.",
+      "Elle transforme le débat sur les coûts en une discussion purement technique."
+    ],
+    "answer": "Elle peut présenter la réforme comme un passage inévitable et réduire la visibilité des alternatives.",
+    "translation": "Au cours du débat, le ministre a qualifié la réforme de « pont » reliant l’ancien système à la nouvelle économie. Son opposant a répondu qu’un pont pouvait être emprunté dans les deux sens, alors que les bénéfices de la réforme revenaient seulement à certains secteurs. Le ministre n’a pas présenté la métaphore comme une promesse d’égalité ; selon lui, le pont désignait une transition, et non un résultat identique pour tous. Pourtant, le mot donnait l’impression d’une nécessité temporaire, comme si la seule alternative était le retour au passé. Le débat a finalement porté non sur l’existence du pont, mais sur la personne qui en déterminait la direction et le prix du passage.",
+    "explanation": "La métaphore inscrit la réforme dans un récit de transition apparemment nécessaire, tout en laissant ouvertes les questions de direction et de répartition des coûts."
+  },
+  {
+    "id": "c2-translation-register",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Saisir les effets du registre",
+    "text": "მოსამართლის გადაწყვეტილება ოფიციალურ ენაზე იყო დაწერილი, მაგრამ მოსარჩელემ მისი შინაარსი საზოგადოებრივ შეხვედრაზე ყოველდღიური სიტყვებით ახსნა. ადვოკატებმა აღნიშნეს, რომ გამარტივებულმა ვერსიამ ერთი მნიშვნელოვანი შეზღუდვა გამოტოვა; მოსარჩელემ უპასუხა, რომ ოფიციალური ტექსტი იმდენად რთული იყო, დაზარალებულთა უმეტესობა მას ვერ გამოიყენებდა. შეხვედრის შემდეგ მან ორივე ვერსია ერთად გამოაქვეყნა და განსხვავებები გვერდიგვერდ ჩამოწერა. განმარტება არც ზუსტ თარგმანად და არც ორიგინალის შემცვლელად წარუდგენია: ის ცდილობდა აეხსნა, რა გზას გადიოდა უფლება, სანამ ყოველდღიურ პრაქტიკამდე მიაღწევდა.",
+    "question": "Comment le demandeur justifie-t-il sa reformulation en langage courant ?",
+    "options": [
+      "Comme un moyen de rendre la décision utilisable, tout en reconnaissant les limites de la simplification.",
+      "Comme une version juridiquement supérieure qui annule le texte du juge.",
+      "Comme une traduction littérale ne comportant aucune omission ni différence.",
+      "Comme une tentative de cacher aux avocats la restriction omise."
+    ],
+    "answer": "Comme un moyen de rendre la décision utilisable, tout en reconnaissant les limites de la simplification.",
+    "translation": "La décision du juge était écrite dans un langage officiel, mais le demandeur en a expliqué le contenu lors d’une réunion publique avec des mots courants. Des avocats ont remarqué que la version simplifiée omettait une restriction importante ; le demandeur a répondu que la plupart des personnes concernées ne pourraient pas utiliser le texte officiel, trop complexe. Après la réunion, il a publié les deux versions ensemble et aligné leurs différences. Il n’a présenté son explication ni comme une traduction exacte ni comme un remplacement de l’original : il cherchait à montrer le chemin parcouru par un droit avant d’atteindre la pratique quotidienne.",
+    "explanation": "Le demandeur défend l’accessibilité sans prétendre que sa paraphrase possède l’exhaustivité ou l’autorité de la décision."
+  },
+  {
+    "id": "c2-narrative-contradiction",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Évaluer un narrateur contradictoire",
+    "text": "მთხრობელი ამბობს, რომ სასამართლო დარბაზში არასოდეს შესულა, შემდეგ კი აღწერს მოწმის ხელების მოძრაობას, მოსამართლის მზერას და საათის ხმას. მისი შვილი ამ წინააღმდეგობას შეცდომად მიიჩნევს და მამის ამბავს უარყოფს. რედაქტორი კი შენიშნავს, რომ ზეპირ გადმოცემაში „არასოდეს შევსულვარ“ შესაძლოა ნიშნავდეს, რომ მთხრობელს იქ ყოფნის უფლება არ ჰქონდა, თუმცა მეზობელი დერეფნიდან მოსმენილი დეტალები მის მეხსიერებაში შეხვედრის სცენად დალაგდა. ტექსტი არც ერთ განმარტებას არ ადასტურებს. მკითხველს რჩება კითხვა, ზუსტია თუ არა მოგონება, მაგრამ უფრო მეტად — ვის აქვს უფლება, განსაზღვროს მისი სიზუსტე.",
+    "question": "Quel déplacement la contradiction finale provoque-t-elle dans la lecture du récit ?",
+    "options": [
+      "Elle déplace l’enjeu de la seule exactitude vers l’autorité de ceux qui jugent le souvenir.",
+      "Elle prouve que le narrateur a inventé chaque détail de l’audience.",
+      "Elle confirme que le fils a assisté personnellement au procès.",
+      "Elle permet à l’éditeur d’établir définitivement la version des faits."
+    ],
+    "answer": "Elle déplace l’enjeu de la seule exactitude vers l’autorité de ceux qui jugent le souvenir.",
+    "translation": "Le narrateur dit n’être jamais entré dans la salle d’audience, puis décrit les mouvements des mains d’un témoin, le regard du juge et le bruit de l’horloge. Son fils considère cette contradiction comme une erreur et rejette le récit de son père. L’éditeur remarque, lui, que « je ne suis jamais entré » peut signifier que le narrateur n’avait pas le droit d’y assister, tandis que des détails entendus depuis le couloir ont pu s’organiser dans sa mémoire comme une scène d’audience. Le texte ne confirme aucune explication. Le lecteur se demande si le souvenir est exact, mais davantage encore qui a le droit d’en juger l’exactitude.",
+    "explanation": "L’ambiguïté reste ouverte et conduit à interroger non seulement la vérité du souvenir, mais aussi l’autorité de ceux qui le valident ou le disqualifient."
+  },
+  {
+    "id": "c2-policy-success",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Définir la réussite d’une réforme",
+    "text": "რეფორმის შეფასებისას მინისტრმა თქვა, რომ გეგმა წარმატებულია, რადგან წინასწარ გამოცხადებული ვადები დაცული იყო. მოქალაქეთა ჯგუფმა მიუთითა, რომ იგივე გეგმა მომსახურების ხარისხს ამცირებდა და იმ ადამიანებს, ვისაც გადაადგილება უჭირდა, დამატებით ბარიერს უქმნიდა. მინისტრმა ვადის დაცვა არ უარყო; მან თქვა, რომ ეს პროექტის მენეჯმენტის საზომი იყო და არა მისი საზოგადოებრივი ღირებულების. მოგვიანებით, საკომიტეტო მოსმენაზე, სწორედ ეს განსხვავება იქცა კამათის საფუძვლად. მხარეები ფაქტებზე აღარ დაობდნენ; ისინი „წარმატებას“ სხვადასხვა კითხვაზე პასუხად იყენებდნენ.",
+    "question": "Quel est le principal désaccord entre les parties ?",
+    "options": [
+      "Elles évaluent la réussite à partir de critères distincts : respect du calendrier ou valeur sociale des effets.",
+      "Elles ne s’accordent pas sur la date à laquelle le projet a commencé.",
+      "Le ministre nie que le service se soit dégradé, contrairement aux données.",
+      "Le groupe citoyen souhaite supprimer tous les indicateurs de gestion."
+    ],
+    "answer": "Elles évaluent la réussite à partir de critères distincts : respect du calendrier ou valeur sociale des effets.",
+    "translation": "Lors de l’évaluation de la réforme, le ministre a déclaré que le plan était réussi parce que les délais annoncés à l’avance avaient été respectés. Un groupe de citoyens a indiqué que le même plan avait réduit la qualité du service et créé un obstacle supplémentaire pour les personnes ayant des difficultés à se déplacer. Le ministre n’a pas contesté le respect des délais ; il a dit qu’il s’agissait d’une mesure de gestion du projet et non de sa valeur sociale. Plus tard, lors d’une audition parlementaire, cette distinction est devenue l’objet du débat. Les parties ne contestaient plus les faits ; elles utilisaient le mot « réussite » pour répondre à des questions différentes.",
+    "explanation": "Le désaccord ne porte pas ici sur les faits, mais sur le critère normatif choisi pour qualifier le projet de réussite."
+  },
+  {
+    "id": "c2-archaeological-inference",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Distinguer trace et interprétation",
+    "text": "არქეოლოგებმა ნავსადგურის მახლობლად სხვადასხვა წარმოშობის ჭურჭელი აღმოაჩინეს და თავდაპირველად ადგილის მრავალეთნიკურ სავაჭრო ცენტრად აღწერა შესთავაზეს. მოგვიანებით აღმოჩენილი საბაჟო ჩანაწერები აჩვენებდა, რომ ჭურჭლის ნაწილი გადამზიდავებს გადაჰქონდათ და ადგილობრივ მოხმარებას არ ადასტურებდა. ერთმა მკვლევარმა დასკვნა გააკრიტიკა, რადგან ნივთების მრავალფეროვნება ადამიანთა თანაცხოვრების მტკიცებულებად იყო წაკითხული. ჯგუფმა ფორმულირება შეცვალა: ნავსადგური მრავალფეროვან გაცვლას ემსახურებოდა, თუმცა მისი მცხოვრებლების შემადგენლობაზე მასალა ჯერ არაფერს წყვეტდა. მტკიცებულება უცვლელი დარჩა; შეიცვალა ის, თუ რა დასკვნის გამოტანის უფლებას აძლევდა იგი მკვლევრებს.",
+    "question": "Quelle distinction la nouvelle formulation établit-elle ?",
+    "options": [
+      "La diversité des objets témoigne d’échanges variés, mais ne prouve pas à elle seule la composition de la population.",
+      "Les registres douaniers démontrent que le port n’avait aucun commerce international.",
+      "Les poteries retrouvées étaient toutes fabriquées sur place.",
+      "Les chercheurs ont abandonné toute interprétation du site archéologique."
+    ],
+    "answer": "La diversité des objets témoigne d’échanges variés, mais ne prouve pas à elle seule la composition de la population.",
+    "translation": "Près du port, des archéologues ont découvert des poteries d’origines diverses et proposé d’abord de décrire le site comme un centre commercial multiethnique. Des registres douaniers découverts plus tard montraient qu’une partie des poteries était transportée par des marchands et ne prouvait pas une consommation locale. Un chercheur a critiqué la conclusion, car la diversité des objets avait été lue comme une preuve de cohabitation humaine. Le groupe a reformulé son propos : le port participait à des échanges variés, mais les documents ne permettaient pas encore de déterminer la composition de ses habitants. Les preuves n’avaient pas changé ; ce qui avait changé, c’était la conclusion qu’elles autorisaient.",
+    "explanation": "La nouvelle formulation distingue l’existence de circulations commerciales d’une conclusion démographique que les objets ne suffisent pas à établir."
+  },
+  {
+    "id": "c2-privacy-consent",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Interroger le consentement numérique",
+    "text": "აპლიკაციამ მომხმარებლებს მონაცემთა დამუშავების ახალი პირობა გაუგზავნა და მისი მიღება აქტიური ღილაკით დაადასტურებინა. კომპანიამ ეს თანხმობად ჩათვალა, რადგან ტექსტი წინასწარ ხელმისაწვდომი იყო. ციფრული უფლებების მკვლევრებმა შენიშნეს, რომ უარის ღილაკი ცალკე მენიუში იმალებოდა და აპლიკაციის ძირითადი ფუნქციები უარის შემდეგ აღარ მუშაობდა. იურისტებმა ფორმალური თანხმობა ძალაში დატოვეს, მაგრამ მომსახურების გამოყენების თავისუფლება სადავოდ მიიჩნიეს. შემდეგ ვერსიაში არჩევანი თანაბრად ხილული გახდა; მონაცემთა გაზიარებაზე უარი კი ანგარიშის გაუქმების გარეშე შეიძლებოდა. თანხმობის აქტი შეიცვალა არა სიტყვებით, არამედ უარის რეალური შესაძლებლობით.",
+    "question": "Quel critère permet ici de distinguer un consentement formel d’un choix réellement libre ?",
+    "options": [
+      "La possibilité concrète de refuser sans perdre l’accès au service essentiel.",
+      "Le fait que le texte ait été affiché avant l’activation du compte.",
+      "Le nombre de pages consacrées aux conditions de traitement des données.",
+      "La conservation du bouton d’acceptation dans la nouvelle version."
+    ],
+    "answer": "La possibilité concrète de refuser sans perdre l’accès au service essentiel.",
+    "translation": "Une application a envoyé à ses utilisateurs une nouvelle condition de traitement des données et leur a demandé de l’accepter avec un bouton actif. L’entreprise a considéré qu’il s’agissait d’un consentement, puisque le texte était disponible à l’avance. Des chercheurs en droits numériques ont remarqué que le bouton de refus était caché dans un menu distinct et que les principales fonctions de l’application ne marchaient plus après un refus. Les juristes ont maintenu la validité formelle du consentement, mais contesté la liberté d’utiliser le service. Dans la version suivante, les choix étaient également visibles ; le partage des données pouvait être refusé sans fermer le compte. Ce qui a changé l’acte de consentement, ce ne sont pas les mots, mais la possibilité réelle de refuser.",
+    "explanation": "La liberté du choix dépend des conséquences concrètes d’un refus, et pas seulement de la présentation préalable du texte."
+  },
+  {
+    "id": "c2-public-memory-commemoration",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Interpréter un monument commémoratif",
+    "text": "მემორიალის წარწერა მოვლენას „ერთიანობის გამარჯვებად“ მოიხსენიებდა, თუმცა არქივში შემორჩენილი წერილები აჩვენებდა, რომ იმავე დღეს მონაწილეები მიზანსა და მსხვერპლის მნიშვნელობაზე კამათობდნენ. ქალაქის საბჭომ წარწერის შეცვლაზე უარი თქვა და განმარტა, რომ მემორიალი საერთო ღირებულებას უნდა გამოხატავდეს, არა ისტორიკოსთა ყველა უთანხმოებას. ახალგაზრდულმა ჯგუფმა მემორიალის გვერდით დროებითი დაფა განათავსა, სადაც წერილების ამონარიდები იყო მოცემული. საბჭო ამას სივრცის პოლიტიკურ გამოყენებად აკრიტიკებდა, მაგრამ დაფა არ მოუცილებია. შედეგად, ძეგლი ერთიანობას ისევ აღნიშნავდა, თუმცა მისი ერთსულოვნება უკვე თვითონ აღარ იყო უდავო.",
+    "question": "Comment la plaque temporaire modifie-t-elle la lecture du monument sans effacer son inscription ?",
+    "options": [
+      "Elle rend visible la pluralité historique à côté du récit unificateur officiel.",
+      "Elle remplace juridiquement le monument et annule sa fonction commémorative.",
+      "Elle démontre que les lettres d’archives avaient été falsifiées.",
+      "Elle transforme le monument en hommage exclusif aux historiens."
+    ],
+    "answer": "Elle rend visible la pluralité historique à côté du récit unificateur officiel.",
+    "translation": "L’inscription du mémorial qualifiait l’événement de « victoire de l’unité », alors que des lettres conservées dans les archives montraient que les participants débattaient le même jour du but du mouvement et du sens du sacrifice. Le conseil municipal a refusé de modifier l’inscription, expliquant qu’un mémorial devait exprimer une valeur commune, et non tous les désaccords des historiens. Un groupe de jeunes a installé à côté du monument un panneau temporaire présentant des extraits des lettres. Le conseil a critiqué cette initiative comme un usage politique de l’espace, mais n’a pas retiré le panneau. Le monument célébrait toujours l’unité, mais son unanimité n’allait plus de soi.",
+    "explanation": "Le panneau juxtapose une mémoire officielle unificatrice aux désaccords documentés, ce qui rend le récit du monument discutable sans le supprimer."
+  },
+  {
+    "id": "c2-metric-optimization",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Comprendre l’effet d’un indicateur",
+    "text": "ბიბლიოთეკის თანამშრომელთა მუშაობა გაცემული წიგნების რაოდენობით ფასდებოდა, რის შემდეგაც პოპულარული გამოცემები თაროებიდან ხშირად ქრებოდა. ხელმძღვანელობამ ჩათვალა, რომ თანამშრომლები რთულ საკითხავებს ნაკლებად სთავაზობდნენ, თუმცა ინტერვიუებმა სხვა სურათი აჩვენა: მკითხველები წიგნებს სახლში აღარ მიიტანდნენ, რადგან დაბრუნების ჯარიმის ეშინოდათ. ახალი სისტემა გაცემასთან ერთად კითხვაზე კონსულტაციებს, ადგილზე გამოყენებასა და დაგვიანების მიზეზებსაც აღრიცხავდა. გაცემების რაოდენობა შემცირდა, მაგრამ მკითხველთა დაბრუნება გაიზარდა. თანამშრომლები ამბობდნენ, რომ ახალი ინდექსი მათ შრომას უფრო ზუსტად ასახავდა, რადგან ერთ რიცხვში მიზანი აღარ ემალებოდა.",
+    "question": "Quel changement de comportement a été provoqué indirectement par l’indicateur initial ?",
+    "options": [
+      "La pénalité associée aux retards décourageait certains lecteurs d’emprunter, malgré l’objectif d’augmenter les prêts.",
+      "Les employés avaient retiré les ouvrages populaires pour améliorer les statistiques.",
+      "Les lecteurs avaient cessé d’utiliser la bibliothèque sur place.",
+      "Le nouveau système augmentait artificiellement le nombre de livres empruntés."
+    ],
+    "answer": "La pénalité associée aux retards décourageait certains lecteurs d’emprunter, malgré l’objectif d’augmenter les prêts.",
+    "translation": "Le travail des employés de la bibliothèque était évalué selon le nombre de livres empruntés ; les ouvrages populaires disparaissaient alors souvent des rayons. La direction a pensé que les employés proposaient moins de lectures difficiles, mais les entretiens ont révélé une autre explication : certains lecteurs ne rapportaient plus les livres chez eux, par crainte des pénalités de retard. Le nouveau système a comptabilisé, outre les prêts, les conseils de lecture, l’utilisation sur place et les causes des retards. Le nombre de prêts a diminué, mais les lecteurs sont revenus plus souvent. Les employés estimaient que le nouvel indice reflétait mieux leur travail, parce que l’objectif ne se cachait plus derrière un chiffre unique.",
+    "explanation": "La mesure quantitative a interagi avec la pénalité de retard et modifié les décisions des lecteurs ; le changement observé ne venait pas seulement du comportement des employés."
+  },
+  {
+    "id": "c2-ethical-compensation",
+    "level": 7,
+    "cefr": "C2",
+    "level_name": "Examiner les limites d’une compensation",
+    "text": "მდინარის დაბინძურებისთვის პასუხისმგებელმა საწარმომ დაზარალებულ სოფელს ფულადი კომპენსაცია შესთავაზა და შეთანხმების ფარგლებში წყლის ხარისხის მონიტორინგიც იკისრა. სოფლის საბჭოს ერთმა ნაწილმა თანხა აუცილებელ აღდგენად ჩათვალა; მეორემ იკითხა, შეიძლებოდა თუ არა დაკარგული თევზაობის ადგილისა და წინაპართა ცოდნის ფულად შეფასება. მოლაპარაკებამ კომპენსაციის მოცულობა გაზარდა, მაგრამ მხარეებმა აღიარეს, რომ გადახდა დანაკარგს ეკვივალენტურ მდგომარეობაში ვერ დააბრუნებდა. შეთანხმების ტექსტში თანხას „ზიანის სრულ ანაზღაურებას“ აღარ უწოდებდნენ; ის დაუყოვნებლივ დახმარებად და გრძელვადიანი აღდგენის ვალდებულებად გაიმიჯნა.",
+    "question": "Pourquoi la formulation de l’accord a-t-elle été modifiée ?",
+    "options": [
+      "Pour ne pas assimiler une aide financière à la restitution intégrale de pertes non équivalentes.",
+      "Pour libérer l’entreprise de toute responsabilité de suivi de l’eau.",
+      "Pour établir que la pêche n’avait aucune importance pour la communauté.",
+      "Pour convertir la compensation en bénéfice commercial du village."
+    ],
+    "answer": "Pour ne pas assimiler une aide financière à la restitution intégrale de pertes non équivalentes.",
+    "translation": "L’entreprise responsable de la pollution de la rivière a proposé une compensation financière à un village sinistré et s’est engagée à surveiller la qualité de l’eau dans le cadre de l’accord. Une partie du conseil du village a considéré la somme comme nécessaire à la restauration ; une autre a demandé si l’on pouvait évaluer en argent un lieu de pêche perdu et le savoir ancestral qui lui était associé. La négociation a augmenté le montant, mais les parties ont reconnu que le paiement ne pouvait replacer les choses dans un état équivalent. Le texte de l’accord ne parlait plus de « réparation intégrale du préjudice » ; il distinguait l’aide immédiate de l’obligation de restauration à long terme.",
+    "explanation": "La nouvelle formulation reconnaît que l’argent peut aider et financer la restauration sans rendre équivalentes des pertes culturelles ou territoriales."
+  }
+]
