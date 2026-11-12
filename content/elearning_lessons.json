@@ -407,5 +407,110 @@
       {"title":"Réviser les aliments et les boissons","href":"/vocabulary"},
       {"title":"S’entraîner à commander en dialogue","href":"/dialogues"}
     ]
+  },
+  {
+    "id": "se-deplacer-et-demander-son-chemin",
+    "title": "Se déplacer et demander son chemin",
+    "level": "A1",
+    "tag": "En ville · 10 min",
+    "icon": "🚌",
+    "goal": "Nommer des transports, demander où se trouve un lieu et comprendre quelques indications simples.",
+    "slides": [
+      {
+        "eyebrow": "01 · LES TRANSPORTS ET LES LIEUX",
+        "title": "Reconnaître les mots dans la rue",
+        "body": "Pour vous déplacer, retenez მეტრო (métro), ავტობუსი (bus) et ტაქსი (taxi). Pour demander où aller, vous entendrez aussi ქუჩა (rue), გაჩერება (arrêt) et სადგური (gare ou station).",
+        "examples": [
+          {"ka":"მეტრო · ავტობუსი · ტაქსი","fr":"métro · bus · taxi","note":"Les transports."},
+          {"ka":"ქუჩა","fr":"rue","note":"Un mot utile pour demander son chemin."},
+          {"ka":"გაჩერება · სადგური","fr":"arrêt · gare, station","note":"Deux lieux de transport."}
+        ],
+        "takeaway": "Apprenez les noms des lieux avec la question სად არის? (« où est… ? »)."
+      },
+      {
+        "eyebrow": "02 · DEMANDER OÙ SE TROUVE UN LIEU",
+        "title": "სად არის? : « où est… ? »",
+        "body": "სად signifie « où » et არის « est ». Placez le lieu avant ces mots pour poser une question : მეტრო სად არის? (« Où est le métro ? »). Pour attirer poliment l’attention, commencez par უკაცრავად (« excusez-moi »).",
+        "examples": [
+          {"ka":"უკაცრავად","fr":"Excusez-moi","note":"Pour aborder quelqu’un poliment."},
+          {"ka":"მეტრო სად არის?","fr":"Où est le métro ?","note":"მეტრო + სად არის?"},
+          {"ka":"სადგური სად არის?","fr":"Où est la gare ?","note":"Remplacez le lieu pour varier la question."}
+        ],
+        "takeaway": "Formule complète : უკაცრავად, [lieu] სად არის?"
+      },
+      {
+        "eyebrow": "03 · LES DIRECTIONS",
+        "title": "À gauche, à droite ou tout droit",
+        "body": "Trois indications permettent déjà de suivre un itinéraire : მარცხნივ (« à gauche »), მარჯვნივ (« à droite ») et პირდაპირ (« tout droit »). Dans les indications polies, წადით signifie « allez » et მოუხვიეთ « tournez ».",
+        "examples": [
+          {"ka":"მარცხნივ","fr":"à gauche","note":"Direction."},
+          {"ka":"მარჯვნივ","fr":"à droite","note":"Direction."},
+          {"ka":"პირდაპირ წადით.","fr":"Allez tout droit.","note":"Une indication polie."},
+          {"ka":"მარჯვნივ მოუხვიეთ.","fr":"Tournez à droite.","note":"მოუხვიეთ : tournez (poliment)."}
+        ],
+        "takeaway": "Écoutez le premier mot : il indique souvent la direction à prendre."
+      },
+      {
+        "eyebrow": "04 · PROCHE OU LOIN",
+        "title": "Situer un lieu simplement",
+        "body": "აქ signifie « ici », იქ « là-bas », ახლოს « près » et შორს « loin ». Vous pouvez combiner ces repères avec un transport ou une station : მეტრო ახლოს არის (« le métro est près »).",
+        "examples": [
+          {"ka":"აქ · იქ","fr":"ici · là-bas","note":"Deux repères de lieu."},
+          {"ka":"ახლოს · შორს","fr":"près · loin","note":"La distance."},
+          {"ka":"მეტრო ახლოს არის.","fr":"Le métro est près.","note":"ახლოს précise la distance."}
+        ],
+        "takeaway": "ახლოს et შორს indiquent une distance ; აქ et იქ indiquent un endroit."
+      },
+      {
+        "eyebrow": "05 · PRENDRE UN TRANSPORT",
+        "title": "Vérifier un arrêt ou dire comment on part",
+        "body": "Pour vérifier que le bus s’arrête ici, demandez ავტობუსი აქ ჩერდება? (« Le bus s’arrête ici ? »). Pour dire que vous prenez un moyen de transport, la terminaison -ით apparaît souvent : მეტროთი მივდივარ (« je vais en métro »).",
+        "examples": [
+          {"ka":"ავტობუსი აქ ჩერდება?","fr":"Le bus s’arrête ici ?","note":"აქ : ici."},
+          {"ka":"მეტროთი მივდივარ.","fr":"Je vais en métro.","note":"მეტრო + -ით : en métro."},
+          {"ka":"ტაქსი მინდა.","fr":"Je voudrais un taxi.","note":"Une formule déjà rencontrée pour exprimer un souhait."}
+        ],
+        "takeaway": "Pour dire « en métro », reconnaissez მეტროთი ; pour « en bus », ავტობუსით."
+      },
+      {
+        "eyebrow": "06 · SUIVRE UN ITINÉRAIRE",
+        "title": "Comprendre une indication courte",
+        "body": "Lisez le passage et repérez d’abord le lieu demandé, puis les directions. შემდეგ signifie « ensuite » : il relie les étapes de l’itinéraire.",
+        "reading_text": "უკაცრავად, მეტრო სად არის? პირდაპირ წადით, შემდეგ მარცხნივ მოუხვიეთ. მეტრო ახლოს არის. სადგური იქ არის.",
+        "examples": [
+          {"ka":"უკაცრავად, მეტრო სად არის?","fr":"Excusez-moi, où est le métro ?","note":"La question de départ."},
+          {"ka":"პირდაპირ წადით, შემდეგ მარცხნივ მოუხვიეთ.","fr":"Allez tout droit, puis tournez à gauche.","note":"შემდეგ : ensuite, puis."},
+          {"ka":"მეტრო ახლოს არის. სადგური იქ არის.","fr":"Le métro est près. La station est là-bas.","note":"Deux repères pour situer le lieu."}
+        ],
+        "takeaway": "À vous : le QCM vérifie les directions et les informations de l’itinéraire."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Que signifie მეტრო სად არის?","options":["Où est le métro ?","Le métro est loin.","Je vais en métro.","Le bus s’arrête ici ?"],"answer":"Où est le métro ?","explanation":"სად signifie « où » et არის « est »."},
+          {"prompt":"Quel mot signifie « excusez-moi » ?","options":["უკაცრავად","მარცხნივ","ახლოს","გაჩერება"],"answer":"უკაცრავად","explanation":"უკაცრავად sert à attirer poliment l’attention."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Quelle direction signifie « à droite » ?","options":["მარჯვნივ","მარცხნივ","პირდაპირ","შორს"],"answer":"მარჯვნივ","explanation":"მარჯვნივ signifie « à droite »."},
+          {"prompt":"Que signifie ახლოს ?","options":["près","loin","ici","à gauche"],"answer":"près","explanation":"ახლოს signifie « près » ; შორს signifie « loin »."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Dans l’itinéraire, que faut-il faire après être allé tout droit ?","options":["Tourner à gauche","Tourner à droite","Prendre le bus","Revenir en arrière"],"answer":"Tourner à gauche","explanation":"შემდეგ მარცხნივ მოუხვიეთ signifie « ensuite, tournez à gauche »."},
+          {"prompt":"Où se trouve le métro selon le passage ?","options":["Il est près ; la station est là-bas.","Il est loin ; la station est ici.","Il est à gauche de la gare.","Le passage ne le précise pas."],"answer":"Il est près ; la station est là-bas.","explanation":"მეტრო ახლოს არის : le métro est près ; სადგური იქ არის : la station est là-bas."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Réviser les mots de transport et de direction","href":"/vocabulary"},
+      {"title":"Pratiquer un dialogue en ville","href":"/dialogues"}
+    ]
   }
 ]
