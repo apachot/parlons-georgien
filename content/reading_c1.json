@@ -1,0 +1,410 @@
+[
+  {
+    "id": "c1-public-transport-evaluation",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Évaluer une politique publique",
+    "text": "ქალაქის სატრანსპორტო რეფორმის შეფასებისას მერია მგზავრთა საშუალო დროს უსვამდა ხაზს, თუმცა ეს მაჩვენებელი იმ უბნებს თითქმის არ ასახავდა, სადაც ავტობუსები იშვიათად დადიოდა. მკვლევრებმა მონაცემები მარშრუტების მიხედვით დაყვეს და დაადგინეს, რომ ცენტრში გადაადგილება დაჩქარდა, გარეუბნებში კი ლოდინის დრო გაიზარდა. ამიტომ ანგარიშში რეფორმის გაუქმება კი არა, მისი გადანაწილება იყო რეკომენდებული: დამატებითი რესურსი იმ ხაზებისთვის უნდა გამოეყოთ, რომელთა მომხმარებლებიც ყველაზე მეტად დაზარალდნენ. მერია წინადადებას დათანხმდა, თუმცა შედეგების შეფასება სეზონურადაც მოითხოვა.",
+    "question": "Quelle faiblesse de l’évaluation initiale les chercheurs ont-ils mise au jour ?",
+    "options": [
+      "La moyenne masquait des écarts importants entre les quartiers et les lignes.",
+      "Les usagers du centre-ville avaient été exclus de l’enquête.",
+      "Les chercheurs avaient mesuré uniquement le coût des véhicules.",
+      "La réforme avait déjà été annulée avant la collecte des données."
+    ],
+    "answer": "La moyenne masquait des écarts importants entre les quartiers et les lignes.",
+    "translation": "Lors de l’évaluation de la réforme des transports, la mairie mettait en avant le temps de trajet moyen, mais cet indicateur reflétait mal la situation des quartiers où les bus passaient rarement. Les chercheurs ont ventilé les données par itinéraire : les déplacements avaient accéléré dans le centre, tandis que l’attente s’était allongée en périphérie. Le rapport recommandait donc de redistribuer les moyens, et non d’abandonner la réforme : des ressources supplémentaires devaient aller aux lignes dont les usagers avaient été les plus pénalisés. La mairie a accepté, tout en demandant une évaluation saisonnière des résultats.",
+    "explanation": "La moyenne agrégée cachait des évolutions opposées. La recommandation consistait à corriger la répartition des moyens, puis à suivre les résultats dans le temps."
+  },
+  {
+    "id": "c1-urban-renewal-memory",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Concilier rénovation et mémoire",
+    "text": "ძველი უბნის განახლების პროექტი ფასადების აღდგენას ითვალისწინებდა, მაგრამ ადგილობრივმა არქივისტებმა შენიშნეს, რომ თავდაპირველი გეგმა სახელოსნოების უმეტესობას საცხოვრებელი ფართით ცვლიდა. მათი აზრით, შენობების შენარჩუნება თავისთავად ვერ დაიცავდა უბნის ხასიათს, თუ იქაური საქმიანობა და ურთიერთობები გაქრებოდა. არქიტექტორებმა პროექტში მცირე სახელოსნოებისთვის შეღავათიანი ქირა ჩართეს და ხელოსნებს აღდგენის პროცესში კონსულტანტებადაც მოიწვიეს. კომპრომისმა სამუშაოების ნაწილი გააძვირა, თუმცა საბჭომ ეს ხარჯი ისტორიული იერის შენარჩუნების ფასად მიიჩნია.",
+    "question": "Pourquoi les archivistes jugeaient-ils insuffisante la seule restauration des façades ?",
+    "options": [
+      "Parce que l’identité du quartier dépendait aussi des activités et des liens sociaux.",
+      "Parce que les bâtiments historiques étaient tous irrécupérables.",
+      "Parce que les habitants souhaitaient remplacer les ateliers par des hôtels.",
+      "Parce que le conseil municipal refusait tout financement des travaux."
+    ],
+    "answer": "Parce que l’identité du quartier dépendait aussi des activités et des liens sociaux.",
+    "translation": "Le projet de rénovation d’un vieux quartier prévoyait de restaurer les façades, mais des archivistes locaux ont remarqué que le plan initial remplaçait la plupart des ateliers par des logements. Selon eux, préserver les bâtiments ne suffisait pas à protéger l’identité du quartier si ses activités et ses relations disparaissaient. Les architectes ont intégré un loyer préférentiel pour les petits ateliers et invité les artisans à conseiller le projet. Le compromis a renchéri une partie des travaux, mais le conseil a considéré ce coût comme le prix à payer pour préserver le caractère historique des lieux.",
+    "explanation": "Leur critique portait sur une conservation purement matérielle : les usages et les relations humaines faisaient aussi partie du patrimoine."
+  },
+  {
+    "id": "c1-university-assessment",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Réformer l’évaluation universitaire",
+    "text": "უნივერსიტეტის კომისიამ გამოცდების დაბალი შედეგების გამო სტუდენტთა მომზადების დონე ეჭვქვეშ დააყენა. ლექტორებმა კი მიუთითეს, რომ ერთსა და იმავე საგანში დავალებების ფორმატი ყოველ სემესტრში იცვლებოდა და შეფასების კრიტერიუმები წინასწარ მკაფიოდ არ იყო გამოქვეყნებული. კომისიამ ნაშრომების ნაწილი ხელახლა შეამოწმა და აღმოჩნდა, რომ შემფასებლებს არგუმენტაციის ხარისხზე განსხვავებული წარმოდგენა ჰქონდათ. საბოლოოდ, უნივერსიტეტმა ერთიანი რუბრიკა შეიმუშავა, მაგრამ გამოცდის სირთულე არ შეუმცირებია; ამგვარად, ცვლილება მოთხოვნების შერბილებას კი არა, მათ გამჭვირვალედ განსაზღვრას ემსახურებოდა.",
+    "question": "Que révèle la révision d’une partie des copies ?",
+    "options": [
+      "Les critères d’évaluation n’étaient pas interprétés de façon uniforme.",
+      "Les étudiants avaient reçu les sujets plusieurs mois à l’avance.",
+      "Les examens étaient trop faciles pour mesurer les compétences.",
+      "Les enseignants avaient tous utilisé la même grille de correction."
+    ],
+    "answer": "Les critères d’évaluation n’étaient pas interprétés de façon uniforme.",
+    "translation": "À la suite de résultats faibles aux examens, la commission universitaire a mis en doute le niveau de préparation des étudiants. Les enseignants ont fait valoir que le format des devoirs changeait à chaque semestre et que les critères de notation n’étaient pas publiés clairement à l’avance. La commission a réexaminé une partie des copies et constaté que les correcteurs n’avaient pas la même conception de la qualité d’un argument. L’université a finalement élaboré une grille commune sans réduire la difficulté de l’examen : il s’agissait donc de rendre les attentes explicites, et non de les assouplir.",
+    "explanation": "Le nouveau contrôle a révélé un désaccord entre correcteurs sur les critères, ce qui a conduit à harmoniser leur interprétation sans diminuer l’exigence."
+  },
+  {
+    "id": "c1-climate-adaptation",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Interpréter les preuves climatiques",
+    "text": "სანაპირო ქალაქის დაცვის გეგმა ზღვის დონის ზრდის ერთ პროგნოზს ეფუძნებოდა, მიუხედავად იმისა, რომ სამეცნიერო მოდელებში შესაძლო დიაპაზონი საკმაოდ ფართო იყო. ინჟინრები ყველაზე ძვირადღირებულ ბარიერს დაუყოვნებლივ ითხოვდნენ, ხოლო ეკონომისტები შიშობდნენ, რომ გაურკვევლობის პირობებში ასეთი ინვესტიცია სხვა საჭიროებებს დააკლდებოდა. ექსპერტთა ჯგუფმა ეტაპობრივი მიდგომა შესთავაზა: ჯერ ჭაობიანი ზონის აღდგენა და წყლის დონის მონიტორინგი, შემდეგ კი მკაცრი ინფრასტრუქტურული ზომები, თუ დაკვირვებები საფრთხის ზრდას დაადასტურებდა. გეგმის ავტორებმა ხაზი გაუსვეს, რომ ეს უმოქმედობა არ იყო, არამედ გადაწყვეტილების გადახედვის წინასწარ განსაზღვრული გზა.",
+    "question": "Comment le plan proposé traite-t-il l’incertitude des projections ?",
+    "options": [
+      "Il prévoit une action progressive qui pourra être renforcée selon les observations.",
+      "Il écarte toute mesure jusqu’à ce que les modèles concordent parfaitement.",
+      "Il retient d’emblée le scénario le plus coûteux sans suivi ultérieur.",
+      "Il remplace les données scientifiques par une consultation des entreprises."
+    ],
+    "answer": "Il prévoit une action progressive qui pourra être renforcée selon les observations.",
+    "translation": "Le plan de protection d’une ville côtière reposait sur une seule projection de la hausse du niveau marin, alors que les modèles scientifiques proposaient une fourchette assez large. Les ingénieurs demandaient immédiatement la barrière la plus coûteuse, tandis que les économistes craignaient qu’un tel investissement ne prive d’autres besoins de moyens dans un contexte incertain. Un groupe d’experts a proposé une approche par étapes : restaurer d’abord la zone humide et surveiller le niveau de l’eau, puis prendre des mesures d’infrastructure lourde si les observations confirmaient l’aggravation du risque. Les auteurs ont précisé qu’il ne s’agissait pas d’inaction, mais d’un processus de révision défini à l’avance.",
+    "explanation": "Le plan associe des mesures immédiates moins coûteuses à des seuils d’observation qui déclencheraient des protections plus lourdes."
+  },
+  {
+    "id": "c1-cultural-translation",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Traduire une œuvre littéraire",
+    "text": "მთარგმნელმა რომანის ახალ გამოცემაში ერთი გამეორებადი სიტყვა სხვადასხვა კონტექსტში სხვადასხვაგვარად გადმოსცა. რედაქტორმა თავდაპირველად სიზუსტის დარღვევად მიიჩნია ეს გადაწყვეტილება და ერთიანი ეკვივალენტის გამოყენება მოითხოვა. მთარგმნელმა აუხსნა, რომ წყარო ენაში სიტყვა ერთდროულად სითბოსაც, ირონიასაც და ზოგჯერ მსუბუქ შეურაცხყოფასაც გამოხატავდა; განმეორებით ერთი თარგმანის დატოვება კი ამ ცვლილებებს გააქრობდა. მათ შენიშვნებში თითოეული არჩევანი დაასაბუთეს, ხოლო ბოლოს მკითხველთა ჯგუფს ტექსტი გამოსცადეს. განხილვამ აჩვენა, რომ ერთგულება ყოველთვის ფორმის უცვლელად გამეორებას არ ნიშნავს.",
+    "question": "Quelle conception de la fidélité à l’original le passage défend-il ?",
+    "options": [
+      "Elle peut exiger des équivalents différents pour préserver les nuances selon le contexte.",
+      "Elle impose de reproduire chaque mot avec le même terme dans la langue cible.",
+      "Elle consiste à éviter toute justification des choix auprès des lecteurs.",
+      "Elle autorise à supprimer les passages difficiles sans les signaler."
+    ],
+    "answer": "Elle peut exiger des équivalents différents pour préserver les nuances selon le contexte.",
+    "translation": "Dans la nouvelle édition d’un roman, la traductrice a rendu différemment, selon le contexte, un mot récurrent. Le rédacteur a d’abord considéré ce choix comme une entorse à la précision et demandé un équivalent unique. La traductrice a expliqué que, dans la langue source, le mot exprimait à la fois de la chaleur, de l’ironie et parfois une légère offense ; répéter une seule traduction aurait effacé ces variations. Ils ont justifié chaque choix dans leurs notes, puis fait lire le texte à un groupe. La discussion a montré que la fidélité ne signifie pas toujours reproduire la forme à l’identique.",
+    "explanation": "Le passage oppose l’uniformité lexicale à la préservation de l’effet et des nuances que le mot prend dans chaque contexte."
+  },
+  {
+    "id": "c1-health-screening",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Évaluer une campagne de prévention",
+    "text": "სკრინინგის პროგრამის პირველი ანგარიშის მიხედვით, შემოწმებაზე მისულთა რაოდენობა გაიზარდა, რის საფუძველზეც კამპანია წარმატებულად გამოცხადდა. პაციენტთა წარმომადგენლებმა შენიშნეს, რომ მონაცემები არ აჩვენებდა, ვის მიუვიდა მოწვევა და ვინ ვერ შეძლო კლინიკამდე მისვლა. შემდგომმა ანალიზმა გამოავლინა, რომ სოფლის მცხოვრებლებს მგზავრობის ხარჯი და სამუშაო საათების დაკარგვა აფერხებდა. კლინიკებმა მოძრავი ჯგუფები დაამატეს და ვიზიტის დრო გაახანგრძლივეს. მეორე შეფასება უკვე არა მხოლოდ ჩატარებულ გამოკვლევებს, არამედ ხელმისაწვდომობასა და ჯგუფებს შორის სხვაობასაც ითვალისწინებდა.",
+    "question": "Pourquoi le premier indicateur ne suffisait-il pas à juger l’efficacité de la campagne ?",
+    "options": [
+      "Il comptait les examens réalisés sans montrer qui n’avait pas pu accéder au service.",
+      "Il mesurait uniquement les dépenses des cliniques privées.",
+      "Il prouvait que les habitants des villages refusaient les examens.",
+      "Il comparait les résultats médicaux sur une période trop longue."
+    ],
+    "answer": "Il comptait les examens réalisés sans montrer qui n’avait pas pu accéder au service.",
+    "translation": "Selon le premier rapport sur le programme de dépistage, le nombre de personnes examinées avait augmenté, ce qui a conduit à déclarer la campagne réussie. Des représentants de patients ont fait remarquer que les données ne montraient ni qui avait reçu une invitation, ni qui n’avait pas pu se rendre à la clinique. Une analyse ultérieure a révélé que les frais de déplacement et la perte d’heures de travail constituaient des obstacles pour les habitants des zones rurales. Les cliniques ont ajouté des équipes mobiles et élargi les horaires. La seconde évaluation a pris en compte non seulement le nombre d’examens, mais aussi l’accès au service et les écarts entre les groupes.",
+    "explanation": "Le nombre d’examens réalisés ne renseigne pas sur les personnes laissées de côté. La seconde évaluation mesure aussi les obstacles et l’équité d’accès."
+  },
+  {
+    "id": "c1-newsroom-algorithm",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Définir les limites d’un algorithme",
+    "text": "რედაქციამ მკითხველისთვის სტატიების შესარჩევი ალგორითმი დანერგა და პირველ კვირებში გვერდზე დარჩენის დრო გაიზარდა. მონაცემთა ანალიტიკოსებმა ეს ჩართულობის ზრდად შეაფასეს, მაგრამ ჟურნალისტებმა შენიშნეს, რომ სისტემა ძირითადად იმავე თემებსა და მოსაზრებებს სთავაზობდა, რომლებსაც მომხმარებელი უკვე კითხულობდა. შედეგად, დაბრუნების მაჩვენებელი გაუმჯობესდა, თუმცა სხვადასხვა წყაროს ნახვა შემცირდა. რედაქციამ გადაწყვიტა, რეკომენდაციებში სიახლე და მრავალფეროვნება ცალკე კრიტერიუმებად დაემატებინა. ხელმძღვანელობამ აღიარა, რომ ერთი საზომის გაუმჯობესება მთელ საზოგადოებრივ მიზანს ვერ გამოხატავდა.",
+    "question": "Quelle limite du premier système la rédaction a-t-elle identifiée ?",
+    "options": [
+      "Il augmentait le temps de lecture tout en réduisant la diversité des sources consultées.",
+      "Il empêchait tous les lecteurs d’ouvrir les articles recommandés.",
+      "Il avait fait baisser le nombre de visiteurs dès sa mise en service.",
+      "Il sélectionnait exclusivement des articles écrits par les journalistes internes."
+    ],
+    "answer": "Il augmentait le temps de lecture tout en réduisant la diversité des sources consultées.",
+    "translation": "Un journal a mis en place un algorithme qui sélectionnait des articles pour ses lecteurs ; pendant les premières semaines, le temps passé sur le site a augmenté. Les analystes de données y ont vu un accroissement de l’engagement, mais les journalistes ont remarqué que le système proposait surtout des sujets et des opinions déjà lus par l’utilisateur. Le taux de retour s’est amélioré, mais la consultation de sources variées a diminué. La rédaction a décidé d’ajouter la nouveauté et la diversité comme critères distincts. La direction a reconnu que l’amélioration d’un seul indicateur ne représentait pas l’ensemble de l’objectif éditorial.",
+    "explanation": "L’algorithme optimisait le temps de lecture, mais cet indicateur ne captait pas la diversité de l’information reçue."
+  },
+  {
+    "id": "c1-research-publication",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Comprendre la prudence scientifique",
+    "text": "მკვლევართა ჯგუფმა მცირე ქალაქებში ჩატარებული გამოკითხვით დაადგინა, რომ ბიბლიოთეკის გახანგრძლივებული საათები სტუდენტთა დასწრებას უკავშირდებოდა. პრესრელიზში შედეგი მიზეზობრივ კავშირად იყო წარმოდგენილი, თუმცა სტატიის ავტორებმა ხაზგასმით აღნიშნეს, რომ კვლევა დაკვირვებითი იყო და სხვა ფაქტორებიც შეიძლებოდა მოქმედებულიყო. მაგალითად, იმავე პერიოდში რამდენიმე სკოლამ საღამოს ტრანსპორტი დაამატა. მკვლევრებმა მონაცემები სხვა რეგიონებთანაც შეადარეს და ახალი კვლევა დაგეგმეს, რომელიც შესაძლო მექანიზმს უფრო მკაფიოდ შეამოწმებდა. მათთვის თავშეკავებული დასკვნა სისუსტე კი არა, მტკიცებულების ხარისხისადმი ერთგულება იყო.",
+    "question": "Pourquoi les auteurs refusent-ils d’affirmer que les horaires étendus ont causé la hausse de fréquentation ?",
+    "options": [
+      "L’étude observationnelle ne permet pas d’écarter d’autres facteurs explicatifs.",
+      "Aucune hausse de fréquentation n’a été observée dans les villes étudiées.",
+      "Les bibliothèques n’avaient pas réellement modifié leurs horaires.",
+      "Les chercheurs n’avaient pas accès aux données des écoles."
+    ],
+    "answer": "L’étude observationnelle ne permet pas d’écarter d’autres facteurs explicatifs.",
+    "translation": "Une enquête menée dans de petites villes a établi que l’extension des horaires des bibliothèques était associée à une hausse de la fréquentation par les étudiants. Le communiqué de presse présentait le résultat comme un lien de cause à effet, mais les auteurs ont souligné que l’étude était observationnelle et que d’autres facteurs avaient pu jouer. Par exemple, plusieurs écoles avaient ajouté des transports en soirée pendant la même période. Les chercheurs ont comparé les données à celles d’autres régions et prévu une nouvelle étude pour vérifier plus clairement le mécanisme possible. À leurs yeux, une conclusion prudente témoignait de leur respect pour la qualité des preuves, et non d’une faiblesse.",
+    "explanation": "Une association observée ne démontre pas à elle seule une causalité, notamment si d’autres changements ont eu lieu au même moment."
+  },
+  {
+    "id": "c1-museum-restitution",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Arbitrer une restitution patrimoniale",
+    "text": "მუზეუმის საბჭო ექსპონატის წარმოშობის შესახებ ახალი დოკუმენტების მიღების შემდეგ მის დაბრუნებას განიხილავდა. ერთ ნაწილს ეშინოდა, რომ ნაჩქარევი გადაწყვეტილება ისტორიულ გარემოსთან კავშირს გაწყვეტდა; მეორე ნაწილი კი ამტკიცებდა, რომ სწორედ კოლექციის ძველი აღწერა მალავდა ექსპონატის ძალდატანებით გატანას. მხარეებმა შეთანხმდნენ, დროებით გამოფენას ორივე საზოგადოების წარმომადგენელთა კომენტარები და დოკუმენტების ქრონოლოგია დართვოდა, ხოლო დაბრუნების მოლაპარაკებები გაგრძელებულიყო. საბჭომ ეს ნაბიჯი საბოლოო პასუხად არ გამოაცხადა: მიზანი იყო, სანამ სამართლებრივ საკითხს გადაწყვეტდნენ, სადავო ისტორია სრულად წარმოეჩინათ.",
+    "question": "Quel est l’objectif immédiat de l’exposition temporaire ?",
+    "options": [
+      "Rendre visible l’histoire contestée pendant que les négociations se poursuivent.",
+      "Remplacer définitivement toute négociation de restitution.",
+      "Confirmer que la provenance de l’objet ne pose aucun problème.",
+      "Empêcher les représentants de la communauté d’exprimer leur avis."
+    ],
+    "answer": "Rendre visible l’histoire contestée pendant que les négociations se poursuivent.",
+    "translation": "Après avoir reçu de nouveaux documents sur la provenance d’un objet, le conseil du musée a envisagé sa restitution. Certains craignaient qu’une décision précipitée ne rompe le lien avec son contexte historique ; d’autres soutenaient que l’ancienne description de la collection avait précisément occulté son enlèvement sous la contrainte. Les parties ont convenu d’accompagner une exposition temporaire de commentaires de représentants des deux communautés et d’une chronologie des documents, tout en poursuivant les négociations de restitution. Le conseil n’a pas présenté cette étape comme une réponse définitive : il s’agissait de rendre pleinement visible l’histoire contestée avant de trancher la question juridique.",
+    "explanation": "L’exposition documente les récits divergents pendant que la décision juridique et les pourparlers restent ouverts."
+  },
+  {
+    "id": "c1-water-allocation",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Négocier le partage de l’eau",
+    "text": "გვალვის გახანგრძლივების შემდეგ რეგიონულმა საბჭომ ფერმერებსა და ქალაქის მოსახლეობას შორის წყლის განაწილების ახალი წესი შეიმუშავა. პირველ პროექტში ყველა სექტორს თანაბარი პროცენტული შემცირება ეკისრებოდა, რაც ერთი შეხედვით სამართლიანად ჩანდა. მცირე მეურნეობებმა მიუთითეს, რომ მათ წყლის დაზოგვისთვის უკვე ჩადებული ჰქონდათ თანხა, მაშინ როცა ძველი სარწყავი სისტემა დიდ მიწის ნაკვეთებს ბევრად მეტ დანაკარგს უქმნიდა. საბჭომ მოხმარების მოცულობასთან ერთად დანაკარგისა და ალტერნატივების ხელმისაწვდომობაც გაითვალისწინა. შეთანხმება ყველასთვის ხელსაყრელი არ აღმოჩნდა, მაგრამ მხარეებმა ის გამჭვირვალე კრიტერიუმების გამო მიიღეს.",
+    "question": "Pourquoi la réduction identique pour tous les secteurs a-t-elle été remise en cause ?",
+    "options": [
+      "Elle ignorait les différences de consommation, de pertes et d’efforts déjà consentis.",
+      "Elle garantissait trop d’eau aux petites exploitations agricoles.",
+      "Elle avait supprimé l’accès à l’eau potable dans toute la région.",
+      "Elle favorisait automatiquement les ménages urbains les plus pauvres."
+    ],
+    "answer": "Elle ignorait les différences de consommation, de pertes et d’efforts déjà consentis.",
+    "translation": "Après la prolongation de la sécheresse, un conseil régional a élaboré une nouvelle règle de répartition de l’eau entre les agriculteurs et la population urbaine. Le premier projet imposait à chaque secteur la même réduction en pourcentage, ce qui semblait équitable à première vue. De petites exploitations ont fait valoir qu’elles avaient déjà investi dans des économies d’eau, tandis que l’ancien système d’irrigation entraînait beaucoup plus de pertes sur les grandes parcelles. Le conseil a pris en compte, outre le volume consommé, les pertes et l’accès à des solutions de remplacement. L’accord n’avantageait pas tout le monde, mais les parties l’ont accepté en raison de critères transparents.",
+    "explanation": "Une réduction identique en apparence ne tenait pas compte des situations de départ différentes ni des efforts déjà réalisés."
+  },
+  {
+    "id": "c1-workplace-reorganization",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Analyser une réorganisation",
+    "text": "კომპანიამ გუნდების დამოუკიდებლობის გასაზრდელად მენეჯმენტის ერთი დონე გააუქმა. ხელმძღვანელობა გადაწყვეტილებების დაჩქარებას ელოდა, თუმცა თანამშრომლებმა მალევე შენიშნეს, რომ სხვადასხვა ჯგუფი ერთსა და იმავე საკითხს განსხვავებული წესით წყვეტდა. ფორმალური თანხმობის ეტაპი შემცირდა, მაგრამ უთანხმოებების მოსაგვარებლად შეხვედრები გახშირდა. შიდა მიმოხილვამ აჩვენა, რომ უფლებამოსილების გადანაწილებასთან ერთად პასუხისმგებლობის საზღვრები არ განუმარტავთ. კომპანიამ საერთო პრინციპები გამოაქვეყნა, თუმცა ყოველდღიური არჩევანი გუნდებს დაუტოვა. რეორგანიზაციის შედეგი საბოლოოდ არა სტრუქტურის სიბრტყემ, არამედ შეთანხმების ხარისხმა განსაზღვრა.",
+    "question": "Quel problème a limité les bénéfices attendus de la suppression d’un niveau hiérarchique ?",
+    "options": [
+      "Les responsabilités et les règles de décision n’avaient pas été clarifiées.",
+      "Les équipes avaient refusé toute autonomie supplémentaire.",
+      "Les réunions avaient été interdites par la nouvelle direction.",
+      "La procédure d’approbation officielle avait été rendue plus longue."
+    ],
+    "answer": "Les responsabilités et les règles de décision n’avaient pas été clarifiées.",
+    "translation": "Pour accroître l’autonomie des équipes, une entreprise a supprimé un niveau de management. La direction s’attendait à des décisions plus rapides, mais les employés ont vite constaté que les groupes traitaient différemment les mêmes questions. Les étapes formelles d’approbation ont diminué, mais les réunions destinées à résoudre les désaccords se sont multipliées. Une analyse interne a montré que les limites de responsabilité n’avaient pas été clarifiées lors de la redistribution des pouvoirs. L’entreprise a publié des principes communs tout en laissant les décisions quotidiennes aux équipes. Le résultat de la réorganisation a finalement dépendu moins de la simplification de la structure que de la qualité des accords.",
+    "explanation": "La structure a été simplifiée, mais les nouvelles compétences de décision et leurs limites n’étaient pas assez explicites."
+  },
+  {
+    "id": "c1-language-revitalization",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Soutenir une langue minoritaire",
+    "text": "მცირე ენის აღორძინების პროგრამა თავდაპირველად სკოლებში კვირაში ერთ გაკვეთილს აფინანსებდა. რამდენიმე წლის შემდეგ ბავშვებს სიტყვების ამოცნობა შეეძლოთ, მაგრამ ოჯახურ საუბრებში ენას იშვიათად იყენებდნენ. მასწავლებლებმა პრობლემა სასწავლო მასალის სიმწირეს დაუკავშირეს, მშობლებმა კი აღნიშნეს, რომ უფროს თაობას ბავშვებთან საუბრისთვის თავდაჯერება აკლდა. პროგრამამ ბეჭდურ რესურსებთან ერთად ბებია-ბაბუებისა და მოსწავლეების ერთობლივი აუდიოჩანაწერები და ადგილობრივი ღონისძიებები დააფინანსა. ცვლილებამ ენის გადაცემის გარანტია ვერ შექმნა, თუმცა მისი გამოყენება კლასის ფარგლებს გარეთ შესაძლებელი გახადა.",
+    "question": "Quelle limite du premier volet du programme est apparue ?",
+    "options": [
+      "L’apprentissage scolaire n’entraînait pas automatiquement un usage dans la vie familiale.",
+      "Les enfants ne parvenaient pas à reconnaître les mots étudiés.",
+      "Les parents interdisaient aux écoles d’enseigner la langue.",
+      "Les activités culturelles avaient remplacé tous les cours."
+    ],
+    "answer": "L’apprentissage scolaire n’entraînait pas automatiquement un usage dans la vie familiale.",
+    "translation": "Le programme de revitalisation d’une langue minoritaire finançait au départ une leçon hebdomadaire dans les écoles. Quelques années plus tard, les enfants reconnaissaient des mots, mais utilisaient rarement la langue dans les conversations familiales. Les enseignants ont attribué le problème au manque de matériel pédagogique, tandis que les parents ont indiqué que les générations plus âgées manquaient d’assurance pour parler aux enfants. En plus des ressources imprimées, le programme a financé des enregistrements audio réalisés conjointement par des grands-parents et des élèves, ainsi que des événements locaux. Le changement ne garantissait pas la transmission de la langue, mais rendait son usage possible hors de la classe.",
+    "explanation": "Les cours développaient une connaissance scolaire, mais il fallait aussi créer des occasions d’usage entre générations et dans la communauté."
+  },
+  {
+    "id": "c1-housing-policy",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Comprendre les effets indirects d’une réforme",
+    "text": "ქირის ზრდის შესაკავებლად ქალაქმა ბინის მფლობელებს ფასის ზედა ზღვარი დაუწესა და რეფორმის წარმატება ხელმისაწვდომი ბინების რაოდენობით შეაფასა. პირველ წელს ამ ბინებზე მოთხოვნა გაიზარდა, თუმცა განცხადებებში აღარ ჩანდა, რამდენ ხანს რჩებოდა საცხოვრებელი ბაზარზე და რამდენი მათგანი საჭიროებდა მნიშვნელოვან შეკეთებას. დამქირავებელთა კავშირმა აღნიშნა, რომ ზღვარი არსებული კონტრაქტების მქონე პირებს იცავდა, მაგრამ ახალმოსახლეებისთვის არჩევანი არ გაზრდილა. ქალაქმა რემონტის სუბსიდია და ახალი მშენებლობის წახალისება დაამატა და შედეგების განსხვავებული ჯგუფებისთვის ცალ-ცალკე გამოქვეყნება გადაწყვიტა.",
+    "question": "Pourquoi l’augmentation du nombre d’annonces ne suffisait-elle pas à conclure que l’accès au logement s’améliorait ?",
+    "options": [
+      "Elle ne renseignait ni sur la qualité des logements ni sur les difficultés des nouveaux arrivants.",
+      "Elle prouvait que tous les loyers avaient baissé sous le plafond fixé.",
+      "Elle comptabilisait uniquement les maisons destinées à la vente.",
+      "Elle montrait que les contrats existants n’étaient plus protégés."
+    ],
+    "answer": "Elle ne renseignait ni sur la qualité des logements ni sur les difficultés des nouveaux arrivants.",
+    "translation": "Pour freiner la hausse des loyers, la ville a plafonné les prix et évalué la réforme en comptant les logements abordables. La première année, les annonces pour ces logements ont augmenté, mais elles n’indiquaient ni combien de temps les biens restaient sur le marché, ni combien nécessitaient d’importantes réparations. Une association de locataires a souligné que le plafond protégeait les personnes déjà liées par un contrat, sans élargir le choix des nouveaux arrivants. La ville a ajouté des subventions à la rénovation et des incitations à la construction, puis décidé de publier les résultats séparément pour différents groupes.",
+    "explanation": "Le volume d’annonces ne mesurait pas la qualité des logements ni la répartition des bénéfices de la réforme."
+  },
+  {
+    "id": "c1-archival-digitization",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Numériser sans décontextualiser",
+    "text": "არქივმა ხელნაწერების მაღალი გარჩევადობის ციფრული ასლები გამოაქვეყნა, რათა მკვლევრებს მასალაზე წვდომა გაეადვილებოდათ. მომხმარებლებმა სწრაფად შენიშნეს, რომ კატალოგში დოკუმენტები მხოლოდ ავტორისა და თარიღის მიხედვით იძებნებოდა, მაშინ როცა ბევრი ჩანაწერი კოლექტიურად იყო შედგენილი ან დაუთარიღებელი. ტექნიკურმა გუნდმა მეტამონაცემების დამატება რთულად ჩათვალა, რადგან ძველი აღწერები განსხვავებულ წესებს მიჰყვებოდა. არქივისტებმა შესთავაზეს, გაურკვეველი ატრიბუტები გამოცნობით კი არ შეევსოთ, არამედ დაუდასტურებლად მოენიშნათ და თემატური ბმულები დაემატებინათ. ციფრული ასლი ორიგინალს არ ცვლიდა, მაგრამ მისი მოძიების პირობებს განსაზღვრავდა.",
+    "question": "Quelle décision les archivistes recommandent-ils face aux informations incertaines ?",
+    "options": [
+      "Les signaler comme incertaines plutôt que de les compléter par supposition.",
+      "Supprimer les documents qui n’ont ni auteur ni date confirmés.",
+      "Attribuer à chaque manuscrit le nom du catalogueur actuel.",
+      "Suspendre toute numérisation jusqu’à l’uniformisation complète des archives."
+    ],
+    "answer": "Les signaler comme incertaines plutôt que de les compléter par supposition.",
+    "translation": "Les archives ont publié des copies numériques haute résolution de manuscrits afin de faciliter l’accès des chercheurs aux documents. Les utilisateurs ont vite constaté que le catalogue ne permettait une recherche que par auteur et par date, alors que de nombreux documents avaient été rédigés collectivement ou n’étaient pas datés. L’équipe technique jugeait difficile d’ajouter des métadonnées, car les anciennes descriptions suivaient des règles différentes. Les archivistes ont proposé de signaler les informations incertaines comme non confirmées plutôt que de les deviner, et d’ajouter des liens thématiques. La copie numérique ne remplaçait pas l’original, mais déterminait les conditions dans lesquelles on pouvait le retrouver.",
+    "explanation": "Les archivistes privilégient une incertitude explicitement documentée à une précision inventée, tout en améliorant les liens de recherche."
+  },
+  {
+    "id": "c1-energy-transition",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Négocier une transition énergétique",
+    "text": "ელექტროსადგურის დახურვის თარიღის გამოცხადებისას მთავრობამ დასაქმებულებს შემოსავლის დროებითი მხარდაჭერა შესთავაზა. პროფკავშირებმა ეს ზომა საჭიროდ, მაგრამ არასაკმარისად მიიჩნიეს: მათი წევრების დიდი ნაწილი მცირე ქალაქებში ცხოვრობდა, სადაც ახალი სამუშაო ადგილები არ იყო. გარემოსდაცვითი ჯგუფები დახურვის გადადებას ეწინააღმდეგებოდნენ, რადგან დაბინძურება დაუყოვნებლივ ზიანს აყენებდა მოსახლეობას. მოლაპარაკებებმა რეგიონში გადამზადების ცენტრისა და განახლებადი ენერგიის პროექტებისთვის შესყიდვების ვალდებულება დაამატა. მხარეებმა შეთანხმება მიიღეს, თუმცა აღიარეს, რომ კომპენსაცია სამართლიან გადასვლას ვერ უზრუნველყოფდა, თუ ადგილობრივი ეკონომიკა არ შეიცვლებოდა.",
+    "question": "Pourquoi le soutien financier temporaire ne répondait-il pas à lui seul aux préoccupations des syndicats ?",
+    "options": [
+      "Il n’offrait pas de perspective durable d’emploi dans les villes concernées.",
+      "Il obligeait les salariés à continuer de travailler à la centrale fermée.",
+      "Il finançait uniquement les entreprises déjà installées dans la capitale.",
+      "Il retardait la fermeture pour une durée indéterminée."
+    ],
+    "answer": "Il n’offrait pas de perspective durable d’emploi dans les villes concernées.",
+    "translation": "Lorsqu’il a annoncé la date de fermeture d’une centrale électrique, le gouvernement a proposé un soutien temporaire aux revenus des salariés. Les syndicats ont jugé cette mesure nécessaire mais insuffisante : une grande partie de leurs membres vivait dans de petites villes où il n’y avait pas de nouveaux emplois. Des groupes environnementaux s’opposaient à tout report de la fermeture, car la pollution nuisait immédiatement à la population. Les négociations ont ajouté un centre de reconversion dans la région et des engagements d’achat pour des projets d’énergies renouvelables. Les parties ont accepté l’accord tout en reconnaissant qu’une indemnisation ne suffirait pas à garantir une transition juste sans transformation de l’économie locale.",
+    "explanation": "Une aide de revenu est temporaire ; les syndicats demandaient aussi des perspectives professionnelles durables sur place."
+  },
+  {
+    "id": "c1-ai-hiring",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Interroger un outil de recrutement",
+    "text": "კომპანიამ კანდიდატთა განაცხადების შესარჩევად ავტომატური სისტემა დანერგა და დამუშავების დრო თითქმის გაანახევრა. პირველადი ანგარიში სიზუსტეს მაღალი დამთხვევის მაჩვენებლით ზომავდა: სისტემა მენეჯერების მიერ ადრე შერჩეულ კანდიდატებს ხშირად ირჩევდა. დამოუკიდებელმა აუდიტმა აჩვენა, რომ წინა გადაწყვეტილებებში ზოგიერთი უნივერსიტეტის კურსდამთავრებულები უპირატესობას იღებდნენ, რაც ალგორითმმაც გაიმეორა. კომპანიამ დაბალი სიზუსტის გამო სისტემა არ გაუქმებულა, მაგრამ შედეგების ჯგუფების მიხედვით შემოწმება და ადამიანური გადახედვა სავალდებულო გახადა. ეფექტიანობა შენარჩუნდა, თუმცა ის სამართლიანობის შემცვლელ კრიტერიუმად აღარ მიიჩნეოდა.",
+    "question": "Pourquoi le taux élevé de concordance avec les recrutements passés ne prouvait-il pas l’impartialité du système ?",
+    "options": [
+      "Les choix historiques utilisés comme référence pouvaient déjà contenir des biais.",
+      "Le système n’avait jamais comparé les candidatures aux décisions des managers.",
+      "Les recruteurs n’avaient pas conservé les dossiers des candidats retenus.",
+      "La rapidité de traitement empêchait toute automatisation du tri."
+    ],
+    "answer": "Les choix historiques utilisés comme référence pouvaient déjà contenir des biais.",
+    "translation": "Une entreprise a mis en place un système automatisé de présélection des candidatures et presque divisé par deux le temps de traitement. Le premier rapport mesurait la précision par le taux de concordance : le système sélectionnait souvent les candidats auparavant retenus par les responsables. Un audit indépendant a montré que les décisions passées favorisaient les diplômés de certaines universités, un biais que l’algorithme reproduisait. L’entreprise n’a pas supprimé le système pour manque de précision, mais a rendu obligatoires l’examen des résultats par groupe et une révision humaine. L’efficacité a été maintenue, sans être considérée comme un substitut à l’équité.",
+    "explanation": "Un système peut reproduire fidèlement des décisions passées tout en reproduisant leurs biais ; la concordance ne garantit donc pas l’impartialité."
+  },
+  {
+    "id": "c1-festival-crowding",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Gérer les retombées d’un festival",
+    "text": "ფესტივალის ორგანიზატორებმა ბილეთების გაყიდვების ზრდა ადგილობრივი ეკონომიკის გამოცოცხლების ნიშნად წარმოადგინეს. სასტუმროებისა და კვების ობიექტების შემოსავალი მართლაც გაიზარდა, მაგრამ მეზობელი ქუჩების მცხოვრებლები ხმაურსა და ნაგვის გატანის დაგვიანებაზე ჩიოდნენ. შეფასებამ დაადგინა, რომ სტუმართა უმეტესობა ღონისძიების ტერიტორიაზე იხარჯებოდა, ხოლო დამატებითი ხარჯების ნაწილი მუნიციპალიტეტს დასუფთავებისა და ტრანსპორტის გაძლიერებისთვის ეკისრებოდა. მომდევნო წელს ორგანიზატორებმა ადგილობრივ მომწოდებლებთან კონტრაქტები გააფორმეს და დასუფთავების საფასურში მონაწილეობა აიღეს. ანგარიშმა წარმატება შემოსავლით კი არა, სარგებლისა და ხარჯის განაწილებითაც გაზომა.",
+    "question": "Quelle évolution de l’évaluation du festival le passage décrit-il ?",
+    "options": [
+      "Elle prend en compte la répartition des bénéfices et des coûts, pas seulement les recettes.",
+      "Elle remplace les chiffres économiques par le nombre de publications sur les réseaux sociaux.",
+      "Elle considère que les nuisances locales sont sans rapport avec l’événement.",
+      "Elle exclut les entreprises locales pour garantir une mesure indépendante."
+    ],
+    "answer": "Elle prend en compte la répartition des bénéfices et des coûts, pas seulement les recettes.",
+    "translation": "Les organisateurs du festival ont présenté la hausse des ventes de billets comme un signe de revitalisation de l’économie locale. Les revenus des hôtels et des restaurants ont effectivement augmenté, mais les habitants des rues voisines se sont plaints du bruit et des retards dans l’enlèvement des déchets. L’évaluation a établi que la plupart des dépenses des visiteurs restaient sur le site, tandis que la municipalité devait assumer une partie des coûts supplémentaires de nettoyage et de transport. L’année suivante, les organisateurs ont signé des contrats avec des fournisseurs locaux et contribué aux frais de nettoyage. Le rapport a mesuré le succès non seulement par les recettes, mais aussi par la répartition des bénéfices et des coûts.",
+    "explanation": "Le rapport élargit la notion de réussite : il examine qui reçoit les revenus et qui supporte les coûts de l’événement."
+  },
+  {
+    "id": "c1-public-consultation",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Interpréter une consultation citoyenne",
+    "text": "სანაპიროს მოწყობის შესახებ ონლაინ კონსულტაციაში პასუხების უმრავლესობა ტურისტებისთვის მეტი სივრცის შექმნას ემხრობოდა. მკვლევრებმა შედეგი მოსახლეობის საერთო აზრად არ ჩათვალეს, რადგან მონაწილეთა უმეტესობა ქალაქის ცენტრში ცხოვრობდა და გამოკითხვას თავად ავსებდა. სანაპიროსთან მცხოვრები ოჯახები და სეზონური მუშაკები ნაკლებად იყვნენ წარმოდგენილი. მუნიციპალიტეტმა შეხვედრები რამდენიმე უბანში გამართა და მონაწილეთა შემადგენლობაც გამოაქვეყნა. მეორე ეტაპზე გამოჩნდა, რომ მოთხოვნა ტურისტული ინფრასტრუქტურის წინააღმდეგ კი არ იყო მიმართული, არამედ საჯარო გასასვლელებისა და სამუშაო ადგილების შენარჩუნებას ეხებოდა.",
+    "question": "Quelle précaution méthodologique les chercheurs ont-ils prise ?",
+    "options": [
+      "Ils ont évité de généraliser les réponses d’un groupe de participants non représentatif.",
+      "Ils ont supprimé les réponses favorables au tourisme avant leur analyse.",
+      "Ils ont considéré que seuls les habitants du centre avaient le droit de participer.",
+      "Ils ont remplacé les réunions de quartier par un second sondage en ligne identique."
+    ],
+    "answer": "Ils ont évité de généraliser les réponses d’un groupe de participants non représentatif.",
+    "translation": "Dans une consultation en ligne sur l’aménagement du front de mer, la majorité des réponses était favorable à la création de davantage d’espaces pour les touristes. Les chercheurs n’ont pas considéré ce résultat comme l’opinion générale de la population, car la plupart des participants habitaient au centre-ville et avaient répondu de leur propre initiative. Les familles vivant près du rivage et les travailleurs saisonniers étaient moins représentés. La municipalité a organisé des réunions dans plusieurs quartiers et publié la composition des participants. La seconde étape a montré que les demandes ne visaient pas l’infrastructure touristique en tant que telle, mais la préservation des accès publics et des emplois.",
+    "explanation": "Les chercheurs ont tenu compte du biais d’auto-sélection et de la sous-représentation de groupes directement concernés."
+  },
+  {
+    "id": "c1-scientific-uncertainty",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Communiquer une incertitude scientifique",
+    "text": "კვლევის შედეგების გამოქვეყნებისას უნივერსიტეტმა იშვიათი მოვლენის ალბათობა ზუსტ რიცხვად წარმოადგინა, რათა ინფორმაცია მარტივად აღსაქმელი ყოფილიყო. მეთოდოლოგებმა გააპროტესტეს, რომ მონაცემები რამდენიმე სცენარს შეესაბამებოდა და სტატისტიკური ინტერვალის დამალვა ცრუ სიზუსტის შთაბეჭდილებას ქმნიდა. კომუნიკაციის გუნდს ეშინოდა, რომ ფართო დიაპაზონი გაურკვევლობას გაზრდიდა და გადაწყვეტილების მიმღებებს დააბნევდა. საბოლოო ვერსიაში მათ ცენტრალური შეფასება დატოვეს, მაგრამ დაურთეს შესაძლო დიაპაზონი და პირობები, რომლებზეც მოდელი იყო დამოკიდებული. ავტორებმა განმარტეს, რომ გასაგები კომუნიკაცია სირთულის წაშლას არ ნიშნავს.",
+    "question": "Quel compromis a été retenu pour communiquer le résultat ?",
+    "options": [
+      "Présenter une estimation centrale tout en exposant sa marge et ses hypothèses.",
+      "Remplacer tous les chiffres par une formule générale sans données.",
+      "Publier uniquement le scénario le plus favorable à l’université.",
+      "Reporter la diffusion jusqu’à obtenir une certitude absolue."
+    ],
+    "answer": "Présenter une estimation centrale tout en exposant sa marge et ses hypothèses.",
+    "translation": "Lors de la publication des résultats d’une étude, l’université a présenté la probabilité d’un événement rare sous la forme d’un chiffre exact afin de rendre l’information facile à comprendre. Des méthodologues ont protesté : les données étaient compatibles avec plusieurs scénarios et le fait de cacher l’intervalle statistique créait une fausse impression de précision. L’équipe de communication craignait qu’une fourchette large n’accroisse l’incertitude et ne déroute les décideurs. Dans la version finale, elle a conservé l’estimation centrale, mais ajouté la plage de valeurs possible et les conditions dont dépendait le modèle. Les auteurs ont expliqué qu’une communication compréhensible ne consiste pas à effacer la complexité.",
+    "explanation": "La version finale cherche à rester accessible sans masquer la marge d’incertitude ni les hypothèses du modèle."
+  },
+  {
+    "id": "c1-rural-telemedicine",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Évaluer une innovation médicale",
+    "text": "ტელემედიცინის სერვისის დანერგვის შემდეგ ექიმთან კონსულტაციამდე ლოდინის საშუალო დრო შემცირდა. ჯანდაცვის უწყებამ ეს მიუთითა, როგორც ხელმისაწვდომობის გაუმჯობესება, თუმცა ექიმებმა შენიშნეს, რომ რთული შემთხვევების განხილვა პირისპირ ვიზიტზე გადადიოდა და საბოლოო დიაგნოზი ზოგჯერ გვიანდებოდა. სოფლის კლინიკებში ინტერნეტის ხარისხიც არათანაბარი იყო. მომსახურების განახლებულმა მოდელმა მარტივი კონსულტაციები დისტანციურად დატოვა, მაგრამ პაციენტს უფლება მისცა, ექიმის რეკომენდაციის გარეშე მოეთხოვა პირისპირ ვიზიტი. შეფასებაში დროის მაჩვენებელთან ერთად დიაგნოზის დასრულების ვადაც შეიტანეს.",
+    "question": "Pourquoi la baisse du temps d’attente ne suffisait-elle pas à établir une amélioration globale ?",
+    "options": [
+      "Certaines consultations complexes étaient retardées et la connexion restait inégale.",
+      "Les médecins avaient cessé de proposer des consultations en personne.",
+      "Le service avait allongé l’attente pour tous les patients urbains.",
+      "Les diagnostics étaient désormais réalisés uniquement par les patients."
+    ],
+    "answer": "Certaines consultations complexes étaient retardées et la connexion restait inégale.",
+    "translation": "Après le lancement de la télémédecine, le temps d’attente moyen avant une consultation a diminué. Le ministère de la Santé y a vu une amélioration de l’accès aux soins, mais des médecins ont remarqué que les cas complexes étaient reportés à une consultation en personne et que le diagnostic final était parfois retardé. La qualité de la connexion variait également dans les cliniques rurales. Le modèle actualisé a maintenu à distance les consultations simples, tout en permettant au patient de demander une visite en personne sans recommandation du médecin. L’évaluation a ajouté le délai de diagnostic final à l’indicateur du temps d’attente.",
+    "explanation": "Le temps avant la première consultation ne mesurait ni l’achèvement du diagnostic ni les inégalités de connexion."
+  },
+  {
+    "id": "c1-education-homework",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Distinguer corrélation et apprentissage",
+    "text": "სკოლის დირექტორმა შინაური დავალების მოცულობა შეამცირა, რადგან მოსწავლეთა დაღლილობა და მშობლების უკმაყოფილება იზრდებოდა. სემესტრის ბოლოს გამოცდის ქულები თითქმის უცვლელი დარჩა, რასაც ზოგი მასწავლებელი იმის მტკიცებულებად მიიჩნევდა, რომ დავალება საჭირო არ იყო. სხვებმა გააფრთხილეს, რომ ერთი გამოცდის ქულა სწავლის ყველა მიზანს ვერ ასახავდა და ცვლილების პერიოდში მოსწავლეებმა კლასში მეტი პრაქტიკა მიიღეს. ჯგუფმა გადაწყვეტილება დროებით დატოვა და მოსწავლეთა ნაშრომების ნიმუშები, დასწრება და თვითშეფასება მომდევნო სემესტრშიც შეადარა. შედეგის არქონა ერთ საზომში მათთვის ცვლილების სრული შეფასება არ ყოფილა.",
+    "question": "Pourquoi les enseignants restent-ils prudents face à des notes d’examen inchangées ?",
+    "options": [
+      "Une seule mesure ne reflète pas tous les objectifs d’apprentissage ni les changements de pratique.",
+      "Les examens avaient été supprimés avant la mise en place de la réforme.",
+      "Les élèves avaient reçu davantage de devoirs à la maison.",
+      "La baisse des devoirs avait automatiquement amélioré toutes les compétences."
+    ],
+    "answer": "Une seule mesure ne reflète pas tous les objectifs d’apprentissage ni les changements de pratique.",
+    "translation": "Le directeur d’une école a réduit la quantité de devoirs, car la fatigue des élèves et le mécontentement des parents augmentaient. À la fin du semestre, les notes d’examen étaient restées presque inchangées ; certains enseignants y voyaient la preuve que les devoirs n’étaient pas nécessaires. D’autres ont averti qu’une note à un seul examen ne reflétait pas tous les objectifs d’apprentissage et que les élèves avaient bénéficié de davantage de pratique en classe pendant la période de changement. Le groupe a maintenu la décision à titre provisoire et comparé au semestre suivant des travaux d’élèves, l’assiduité et l’autoévaluation. L’absence d’effet sur un indicateur ne constituait pas, à leurs yeux, une évaluation complète du changement.",
+    "explanation": "Les notes d’un examen sont un indicateur partiel, et les modalités de pratique ont elles-mêmes changé pendant l’expérience."
+  },
+  {
+    "id": "c1-local-food-policy",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Comprendre un arbitrage alimentaire",
+    "text": "საჯარო სკოლებში ადგილობრივი პროდუქტის წილის გაზრდის პროგრამამ ფერმერებს სტაბილური შეკვეთები მისცა. რამდენიმე დირექტორი ჩიოდა, რომ სეზონური მიწოდება მენიუს დაგეგმვას ართულებდა და ფასებიც თვიდან თვემდე იცვლებოდა. ფერმერებმა უპასუხეს, რომ გრძელვადიანი კონტრაქტის გარეშე მოსავლის გაზრდა სარისკო იყო. მუნიციპალიტეტმა მოთხოვნები წინასწარ გამოაქვეყნა, შესყიდვები მცირე მომწოდებლებისთვის დაყო და სეზონური პროდუქტის ჩანაცვლების წესები განსაზღვრა. ცვლილებამ ადმინისტრაციას მეტი კოორდინაცია მოსთხოვა, მაგრამ პროგრამა აღარ იყო დამოკიდებული მხოლოდ ყველაზე მსხვილ მიმწოდებელზე.",
+    "question": "Quel mécanisme a permis de concilier l’approvisionnement saisonnier et la participation de petits producteurs ?",
+    "options": [
+      "Des contrats prévisibles, des lots adaptés et des règles de substitution définies.",
+      "L’achat exclusif de produits importés à prix fixe toute l’année.",
+      "L’obligation faite aux fermes de livrer sans connaître les besoins des écoles.",
+      "La suppression de toute coordination entre les établissements."
+    ],
+    "answer": "Des contrats prévisibles, des lots adaptés et des règles de substitution définies.",
+    "translation": "Le programme visant à accroître la part des produits locaux dans les écoles publiques a assuré des commandes stables aux agriculteurs. Plusieurs directeurs se sont plaints que les livraisons saisonnières compliquaient la planification des menus et que les prix variaient d’un mois à l’autre. Les agriculteurs ont répondu qu’il était risqué d’augmenter la production sans contrat à long terme. La municipalité a publié les besoins à l’avance, réparti les achats en lots adaptés aux petits fournisseurs et défini des règles de remplacement des produits saisonniers. Le changement a demandé davantage de coordination à l’administration, mais le programme ne dépendait plus du seul fournisseur de grande taille.",
+    "explanation": "La prévisibilité des contrats et la taille des lots ont réduit le risque pour les petits producteurs ; les règles de remplacement ont aidé à gérer la saisonnalité."
+  },
+  {
+    "id": "c1-cultural-tourism",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Préserver une pratique culturelle",
+    "text": "ტრადიციული რეწვის ფესტივალზე ორგანიზატორებმა დამთვალიერებლებს ოსტატების სამუშაო პროცესის გადაღების უფლება მისცეს, რათა ღონისძიება სოციალურ ქსელებში გავრცელებულიყო. რამდენიმე ხელოსანმა თქვა, რომ კამერისთვის განმეორებული მოქმედებები ნამუშევრის აზრს ცვლიდა და რთულ ეტაპებს სანახაობად აქცევდა. ორგანიზატორებმა აკრძალვის ნაცვლად ზონები გამიჯნეს: ზოგ ადგილას გადაღება დაშვებული იყო, სხვაგან კი სტუმრებს ოსტატთან საუბარი შეეძლოთ კამერის გარეშე. მომდევნო ღონისძიებაზე მონაწილეთა რაოდენობა ოდნავ შემცირდა, თუმცა ხელოსნებმა უფრო ხანგრძლივი საუბრები და შეკვეთების უკეთ გააზრება აღნიშნეს. წარმატება მხოლოდ დამთვალიერებელთა რაოდენობით აღარ შეფასებულა.",
+    "question": "Quelle critique les artisans formulaient-ils à propos des prises de vue ?",
+    "options": [
+      "Elles risquaient de transformer un geste porteur de sens en spectacle répété pour la caméra.",
+      "Elles empêchaient les visiteurs d’acheter les objets présentés.",
+      "Elles rendaient impossible toute diffusion de l’événement en ligne.",
+      "Elles forçaient les organisateurs à supprimer toutes les démonstrations."
+    ],
+    "answer": "Elles risquaient de transformer un geste porteur de sens en spectacle répété pour la caméra.",
+    "translation": "Lors d’un festival d’artisanat traditionnel, les organisateurs ont autorisé les visiteurs à filmer le travail des artisans afin de diffuser l’événement sur les réseaux sociaux. Plusieurs artisans ont dit que répéter des gestes pour la caméra modifiait le sens de leur travail et transformait des étapes complexes en spectacle. Plutôt que d’interdire les images, les organisateurs ont délimité des zones : les prises de vue étaient autorisées à certains endroits, tandis qu’ailleurs les visiteurs pouvaient parler avec les artisans sans caméra. À l’événement suivant, le nombre de participants a légèrement baissé, mais les artisans ont constaté des échanges plus longs et une meilleure compréhension des commandes. La réussite n’a plus été mesurée uniquement par le nombre de visiteurs.",
+    "explanation": "La critique visait la mise en scène répétée du geste, qui risquait d’en modifier le sens, et non la diffusion en ligne en soi."
+  },
+  {
+    "id": "c1-civic-data",
+    "level": 6,
+    "cefr": "C1",
+    "level_name": "Lire un indicateur de confiance",
+    "text": "მუნიციპალიტეტმა მოქალაქეთა ნდობის ინდექსი გამოაქვეყნა, რომელიც მოკლე ონლაინ გამოკითხვას ეფუძნებოდა. მაჩვენებელი გაიზარდა, თუმცა კვლევაში ძირითადად ის მოქალაქეები მონაწილეობდნენ, რომლებიც ქალაქის ციფრულ შეტყობინებებს რეგულარულად კითხულობდნენ. საბჭოს ერთმა წევრმა შედეგი ახალი მომსახურების ეფექტიანობას მიაწერა, მაგრამ გამოკითხვას წინა წლის შესადარებელი ჯგუფი და მომსახურების კონკრეტული გამოცდილების კითხვები არ ჰქონდა. შემდეგმა კვლევამ ტელეფონით და პირისპირ ინტერვიუებიც დაამატა და ცალკე იკითხა, იცნობდნენ თუ არა მონაწილეები ახალ სერვისს. ნდობის საერთო მაჩვენებელი შემცირდა, მაგრამ მისი განმარტება უფრო სარწმუნო გახდა.",
+    "question": "Pourquoi la baisse ultérieure de l’indice n’est-elle pas nécessairement le signe d’une détérioration réelle de la confiance ?",
+    "options": [
+      "La nouvelle méthode a peut-être mieux inclus des groupes auparavant sous-représentés.",
+      "Les citoyens n’avaient plus accès aux services municipaux.",
+      "Le premier sondage avait interrogé toutes les catégories de la population.",
+      "L’indice mesurait les dépenses des participants plutôt que leur confiance."
+    ],
+    "answer": "La nouvelle méthode a peut-être mieux inclus des groupes auparavant sous-représentés.",
+    "translation": "La municipalité a publié un indice de confiance citoyenne fondé sur un bref sondage en ligne. Le score a augmenté, mais les participants étaient surtout des citoyens qui lisaient régulièrement les messages numériques de la ville. Un conseiller a attribué le résultat à l’efficacité d’un nouveau service, mais le sondage ne comportait ni groupe comparable de l’année précédente, ni questions sur une expérience précise du service. L’enquête suivante a ajouté des entretiens téléphoniques et en personne et demandé séparément aux participants s’ils connaissaient le nouveau service. L’indice général de confiance a baissé, mais son interprétation est devenue plus crédible.",
+    "explanation": "Un échantillon plus inclusif peut modifier le score mesuré sans que la confiance de la population se soit réellement détériorée."
+  }
+]
