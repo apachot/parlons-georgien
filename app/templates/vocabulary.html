@@ -53,9 +53,14 @@
         <span class="module-copy"><small>06 · CONSTRUCTION</small><b>Construis la phrase</b><span>Replace les mots géorgiens dans le bon ordre à partir de la traduction.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
+      <button type="button" class="vocabulary-module module-speed" data-module="speed">
+        <span class="module-icon" aria-hidden="true">⏱️</span>
+        <span class="module-copy"><small>07 · CONTRE LA MONTRE</small><b>Traduisez à toute vitesse</b><span>60 secondes pour retrouver le sens français des mots géorgiens.</span></span>
+        <span class="module-arrow">Jouer <b>↗</b></span>
+      </button>
       <button type="button" class="vocabulary-module module-memory" data-module="catalog">
         <span class="module-icon">📚</span>
-        <span class="module-copy"><small>07 · FEUILLETER</small><b>Les fiches de vocabulaire</b><span>Parcourez les mots, leur prononciation et des phrases exemples.</span></span>
+        <span class="module-copy"><small>08 · FEUILLETER</small><b>Les fiches de vocabulaire</b><span>Parcourez les mots, leur prononciation et des phrases exemples.</span></span>
         <span class="module-arrow">Ouvrir <b>↗</b></span>
       </button>
     </div>
@@ -87,6 +92,22 @@
     </div>
     <div class="crossword-game hidden" id="crossword-game"><div class="crossword-instruction-row"><div class="crossword-instruction">Remplissez la grille : les mots horizontaux et verticaux se croisent. Choisissez un indice pour écrire sa réponse.</div><button class="button secondary crossword-open-keyboard" id="crossword-open-keyboard" type="button">ქართული Clavier</button></div><div class="crossword-layout"><div class="crossword-grid-wrap"><div id="crossword-board" class="crossword-board" role="grid" aria-label="Grille de mots fléchés"></div></div><div class="crossword-clue-groups"><section class="crossword-clue-group"><h3>Horizontaux <span>→</span></h3><ol id="crossword-across-clues"></ol></section><section class="crossword-clue-group"><h3>Verticaux <span>↓</span></h3><ol id="crossword-down-clues"></ol></section></div></div><div class="crossword-submit-row"><button class="button primary" id="crossword-check" type="button">Vérifier la grille</button></div><div class="feedback" id="crossword-feedback" aria-live="polite"></div></div>
     <div class="sentence-builder-game hidden" id="sentence-builder-game"><div class="sentence-builder-source-label">TRADUCTION À CONSTRUIRE</div><p id="builder-prompt" class="sentence-builder-prompt"></p><div class="sentence-builder-label">Votre phrase géorgienne</div><div class="sentence-builder-answer" id="builder-answer" aria-label="Phrase en cours"></div><div class="sentence-builder-label">Mots disponibles</div><div class="sentence-builder-bank" id="builder-bank"></div><div class="feedback" id="builder-feedback" aria-live="polite"></div><div class="sentence-builder-controls"><button class="button secondary" id="builder-reset" type="button">Recommencer la phrase</button><button class="button primary" id="builder-check" type="button">Vérifier</button><button class="button primary hidden" id="builder-next" type="button">Phrase suivante →</button></div></div>
+    <section class="vocabulary-speed hidden" id="vocabulary-speed" aria-label="Traduire à toute vitesse">
+      <div class="speed-intro" id="vocabulary-speed-intro"><span>60 secondes · 4 choix · recommencez autant de fois que nécessaire</span><button type="button" class="button primary" id="vocabulary-speed-start">C’est parti →</button></div>
+      <div class="speed-play hidden" id="vocabulary-speed-play">
+        <div class="speed-stats"><span>Temps <b id="vocabulary-speed-time">60</b> s</span><span>Bonnes réponses <b id="vocabulary-speed-correct">0</b></span><span>Précision <b id="vocabulary-speed-accuracy">—</b></span></div>
+        <div class="speed-progress"><i id="vocabulary-speed-progress"></i></div>
+        <div class="word-speed-prompt ka" id="vocabulary-speed-prompt" lang="ka"></div>
+        <div class="speed-prompt">Quelle est la traduction française ?</div>
+        <div class="speed-choices" id="vocabulary-speed-choices"></div>
+        <div class="speed-feedback" id="vocabulary-speed-feedback" aria-live="polite"></div>
+      </div>
+      <div class="speed-result hidden" id="vocabulary-speed-result" aria-live="polite">
+        <div class="eyebrow">FIN DU CHRONO</div><h3 id="vocabulary-speed-result-title"></h3><p id="vocabulary-speed-result-detail"></p>
+        <button type="button" class="button primary" id="vocabulary-speed-retry">Rejouer →</button>
+        <button type="button" class="button secondary" id="vocabulary-speed-another">Choisir un autre jeu</button>
+      </div>
+    </section>
     <div class="game-complete hidden" id="game-complete" aria-live="polite">
       <div class="complete-confetti">✦ &nbsp; ✳ &nbsp; ✦</div><h3>Manche terminée !</h3><p id="complete-message"></p>
       <button type="button" class="button primary" id="play-again">Rejouer →</button>

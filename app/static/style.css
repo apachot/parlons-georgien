@@ -26,6 +26,8 @@
 @media(max-width:370px){.vocabulary-hero h1{font-size:35px}.vocabulary-module{grid-template-columns:47px 1fr auto;padding:10px}.module-icon{width:44px;height:44px}.module-copy b{font-size:18px}.matching-tile{min-height:76px;font-size:10px}.matching-tile.ka{font-size:14px}}
 .vocabulary-page{max-width:1160px;margin:0 auto;padding:30px 0 65px}
 .vocabulary-home{max-width:none;margin:0;padding:0}
+.module-speed{--module-bg:#fff0d8;--module-accent:#a96a25}.vocabulary-speed{max-width:760px;margin:0 auto;padding:20px;border:1px solid #ece9e0;border-radius:14px;background:#fbfaf5}.vocabulary-speed .speed-intro{justify-content:space-between}.vocabulary-speed .speed-play{margin-top:0}.vocabulary-speed .speed-progress{margin-bottom:12px}.vocabulary-speed .word-speed-prompt{margin-top:0}.vocabulary-speed .speed-feedback{min-height:24px}.vocabulary-speed .speed-result{margin-top:0}.vocabulary-speed .speed-result .button{margin:5px}
+@media(max-width:760px){.vocabulary-speed{padding:14px}.vocabulary-speed .speed-intro{align-items:flex-start;flex-direction:column}.vocabulary-speed .speed-choice{font-size:12px}}
 @media(max-width:1200px){.vocabulary-page{margin:0 5.5vw}}
 @media(max-width:760px){.vocabulary-page{margin:0 16px;padding:16px 0 45px}.vocabulary-home{margin:0;padding:0}}
 .alphabet-speed{max-width:900px;margin:24px auto 30px}

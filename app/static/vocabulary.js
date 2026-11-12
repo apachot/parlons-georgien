@@ -36,7 +36,8 @@ const game = {
   crosswordAcross: document.querySelector('#crossword-across-clues'),
   crosswordDown: document.querySelector('#crossword-down-clues'),
   crosswordCheck: document.querySelector('#crossword-check'),
-  crosswordFeedback: document.querySelector('#crossword-feedback')
+  crosswordFeedback: document.querySelector('#crossword-feedback'),
+  speed: document.querySelector('#vocabulary-speed')
 };
 const crosswordKeyboard = {
   modal: document.querySelector('#crossword-keyboard-modal'),
@@ -83,6 +84,12 @@ const gameCopy = {
     title: 'Construis la phrase',
     instruction: 'À partir du sens français, remettez les mots géorgiens dans le bon ordre.',
     scoreUnit: 'phrases'
+  },
+  speed: {
+    eyebrow: 'CONTRE LA MONTRE · GÉORGIEN → FRANÇAIS',
+    title: 'Traduisez à toute vitesse',
+    instruction: 'Retrouvez le sens français de chaque mot géorgien avant la fin des 60 secondes.',
+    scoreUnit: 'mots'
   }
 };
 
@@ -101,6 +108,15 @@ let crosswordActiveEntry = null;
 let crosswordInputs = new Map();
 let builderWords = [];
 let builderSolved = false;
+let vocabularySpeedTimer = null;
+let vocabularySpeedNextTimer = null;
+let vocabularySpeedCurrent = null;
+let vocabularySpeedCorrect = 0;
+let vocabularySpeedAttempts = 0;
+let vocabularySpeedEndsAt = 0;
+let vocabularySpeedLocked = false;
+let vocabularySpeedBusy = false;
+let vocabularySpeedLastId = '';
 
 function shuffled(items) {
   const result = [...items];
@@ -135,6 +151,10 @@ function showGameStatus(message, type = '') {
 }
 
 function updateGameScore() {
+  if (activeGame === 'speed') {
+    game.score.textContent = `${vocabularySpeedCorrect} mot${vocabularySpeedCorrect === 1 ? '' : 's'} · ${mistakeCount} erreur${mistakeCount === 1 ? '' : 's'}`;
+    return;
+  }
   const unit = gameCopy[activeGame]?.scoreUnit || 'mots';
   game.score.textContent = `${foundCount} / ${roundItems.length} ${unit} · ${mistakeCount} erreur${mistakeCount === 1 ? '' : 's'}`;
 }
@@ -146,6 +166,7 @@ function updateGameProgress() {
 
 function openGame(mode) {
   clearAutoAdvance();
+  stopVocabularySpeed();
   if (mode === 'catalog') {
     gameMenu.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
     return;
@@ -165,6 +186,7 @@ function openGame(mode) {
 
 function startRound() {
   clearAutoAdvance();
+  stopVocabularySpeed();
   roundIndex = 0;
   foundCount = 0;
   mistakeCount = 0;
@@ -176,9 +198,10 @@ function startRound() {
   game.crosswordCheck.disabled = false;
   game.complete.classList.add('hidden');
   game.audio.classList.toggle('hidden', activeGame !== 'audio');
-  game.matching.classList.toggle('hidden', activeGame === 'audio' || activeGame === 'crossword' || activeGame === 'builder');
+  game.matching.classList.toggle('hidden', activeGame === 'audio' || activeGame === 'crossword' || activeGame === 'builder' || activeGame === 'speed');
   game.crossword.classList.toggle('hidden', activeGame !== 'crossword');
   game.builder.classList.toggle('hidden', activeGame !== 'builder');
+  game.speed.classList.toggle('hidden', activeGame !== 'speed');
   game.audioNext.classList.add('hidden');
   game.audioAnswerTools.classList.add('hidden');
   game.audioFeedback.textContent = '';
@@ -186,7 +209,12 @@ function startRound() {
   showGameStatus('');
   game.score.classList.remove('hidden');
 
-  if (activeGame === 'builder') {
+  if (activeGame === 'speed') {
+    roundItems = [];
+    game.round.textContent = '60 secondes';
+    game.score.classList.add('hidden');
+    showVocabularySpeedIntro();
+  } else if (activeGame === 'builder') {
     roundItems = pickRoundItems(vocabularyItems.filter(item => item.example && item.example_fr && item.example.trim().split(/\s+/).length >= 3), 6);
     game.round.textContent = `Manche · ${roundItems.length} phrases`;
     renderSentenceBuilder();
@@ -221,6 +249,158 @@ async function saveWordAnswer(item, kind, answer) {
   if (!response.ok) throw new Error(result.error || 'La réponse n’a pas pu être enregistrée.');
   return result;
 }
+
+const vocabularySpeedUi = {
+  intro: document.querySelector('#vocabulary-speed-intro'),
+  play: document.querySelector('#vocabulary-speed-play'),
+  result: document.querySelector('#vocabulary-speed-result'),
+  start: document.querySelector('#vocabulary-speed-start'),
+  retry: document.querySelector('#vocabulary-speed-retry'),
+  another: document.querySelector('#vocabulary-speed-another'),
+  time: document.querySelector('#vocabulary-speed-time'),
+  correct: document.querySelector('#vocabulary-speed-correct'),
+  accuracy: document.querySelector('#vocabulary-speed-accuracy'),
+  progress: document.querySelector('#vocabulary-speed-progress'),
+  prompt: document.querySelector('#vocabulary-speed-prompt'),
+  choices: document.querySelector('#vocabulary-speed-choices'),
+  feedback: document.querySelector('#vocabulary-speed-feedback'),
+  resultTitle: document.querySelector('#vocabulary-speed-result-title'),
+  resultDetail: document.querySelector('#vocabulary-speed-result-detail')
+};
+
+function stopVocabularySpeed() {
+  clearInterval(vocabularySpeedTimer);
+  clearTimeout(vocabularySpeedNextTimer);
+  vocabularySpeedTimer = null;
+  vocabularySpeedNextTimer = null;
+}
+
+function showVocabularySpeedIntro() {
+  vocabularySpeedUi.intro.classList.remove('hidden');
+  vocabularySpeedUi.play.classList.add('hidden');
+  vocabularySpeedUi.result.classList.add('hidden');
+  vocabularySpeedUi.choices.replaceChildren();
+  vocabularySpeedUi.feedback.textContent = '';
+}
+
+function updateVocabularySpeedClock() {
+  const remaining = Math.max(0, vocabularySpeedEndsAt - Date.now());
+  vocabularySpeedUi.time.textContent = String(Math.ceil(remaining / 1000));
+  vocabularySpeedUi.progress.style.width = `${remaining / 60000 * 100}%`;
+  vocabularySpeedUi.accuracy.textContent = vocabularySpeedAttempts
+    ? `${Math.round(vocabularySpeedCorrect * 100 / vocabularySpeedAttempts)} %`
+    : '—';
+  if (!remaining) finishVocabularySpeed();
+}
+
+function nextVocabularySpeedQuestion() {
+  if (Date.now() >= vocabularySpeedEndsAt) return finishVocabularySpeed();
+  const choicesByTranslation = new Map();
+  for (const item of shuffled(vocabularyItems)) {
+    const translation = String(item.fr || '').trim();
+    if (item.ka && translation && !choicesByTranslation.has(translation)) choicesByTranslation.set(translation, item);
+  }
+  const pool = [...choicesByTranslation.values()];
+  if (pool.length < 4) {
+    finishVocabularySpeed();
+    showGameStatus('Il faut au moins quatre traductions distinctes pour lancer ce jeu.', 'error');
+    return;
+  }
+  const candidates = pool.filter(item => item.id !== vocabularySpeedLastId);
+  vocabularySpeedCurrent = candidates[Math.floor(Math.random() * candidates.length)] || pool[0];
+  vocabularySpeedLastId = vocabularySpeedCurrent.id;
+  const distractors = shuffled(pool.filter(item => item.id !== vocabularySpeedCurrent.id)).slice(0, 3);
+  const options = shuffled([vocabularySpeedCurrent, ...distractors]);
+  vocabularySpeedLocked = false;
+  vocabularySpeedBusy = false;
+  vocabularySpeedUi.prompt.textContent = vocabularySpeedCurrent.ka;
+  vocabularySpeedUi.feedback.textContent = '';
+  vocabularySpeedUi.feedback.style.color = '';
+  vocabularySpeedUi.choices.replaceChildren();
+  options.forEach((item, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'speed-choice';
+    const label = document.createElement('span');
+    label.textContent = item.fr;
+    const number = document.createElement('small');
+    number.textContent = String(index + 1);
+    button.append(label, number);
+    button.addEventListener('click', () => answerVocabularySpeed(item, button));
+    vocabularySpeedUi.choices.append(button);
+  });
+}
+
+async function answerVocabularySpeed(item, button) {
+  if (!vocabularySpeedCurrent || vocabularySpeedLocked || vocabularySpeedBusy || Date.now() >= vocabularySpeedEndsAt) return;
+  vocabularySpeedBusy = true;
+  vocabularySpeedUi.choices.querySelectorAll('button').forEach(option => option.disabled = true);
+  try {
+    const result = await saveWordAnswer(vocabularySpeedCurrent, 'vocabulary', item.fr);
+    vocabularySpeedAttempts++;
+    if (result.correct) {
+      vocabularySpeedCorrect++;
+      vocabularySpeedLocked = true;
+      button.classList.add('speed-right');
+      vocabularySpeedUi.feedback.textContent = 'Bien joué ! Mot suivant…';
+      playSuccessSound();
+      vocabularySpeedUi.correct.textContent = String(vocabularySpeedCorrect);
+      vocabularySpeedNextTimer = setTimeout(nextVocabularySpeedQuestion, 180);
+    } else {
+      mistakeCount++;
+      button.classList.add('speed-wrong');
+      button.disabled = true;
+      vocabularySpeedUi.choices.querySelectorAll('button:not(:disabled)').forEach(option => option.disabled = false);
+      vocabularySpeedUi.feedback.textContent = 'Raté. Gardez ce mot et recommencez avec un autre choix.';
+      vocabularySpeedUi.feedback.style.color = '#9a4e38';
+      vocabularySpeedBusy = false;
+      updateGameScore();
+    }
+    updateVocabularySpeedClock();
+  } catch (_) {
+    vocabularySpeedUi.choices.querySelectorAll('button').forEach(option => option.disabled = false);
+    showGameStatus('Impossible d’enregistrer la réponse. Réessayez.', 'error');
+  } finally {
+    vocabularySpeedBusy = false;
+  }
+}
+
+function finishVocabularySpeed() {
+  if (!vocabularySpeedTimer && vocabularySpeedUi.play.classList.contains('hidden')) return;
+  stopVocabularySpeed();
+  vocabularySpeedLocked = true;
+  vocabularySpeedUi.play.classList.add('hidden');
+  vocabularySpeedUi.result.classList.remove('hidden');
+  const precision = vocabularySpeedAttempts ? Math.round(vocabularySpeedCorrect * 100 / vocabularySpeedAttempts) : 0;
+  vocabularySpeedUi.resultTitle.textContent = `${vocabularySpeedCorrect} mot${vocabularySpeedCorrect === 1 ? '' : 's'} traduit${vocabularySpeedCorrect === 1 ? '' : 's'} !`;
+  vocabularySpeedUi.resultDetail.textContent = `${precision} % de précision sur ${vocabularySpeedAttempts} réponse${vocabularySpeedAttempts === 1 ? '' : 's'} · votre progression est enregistrée.`;
+  game.round.textContent = 'Chrono terminé';
+}
+
+function startVocabularySpeed() {
+  stopVocabularySpeed();
+  vocabularySpeedCurrent = null;
+  vocabularySpeedCorrect = 0;
+  vocabularySpeedAttempts = 0;
+  vocabularySpeedLastId = '';
+  mistakeCount = 0;
+  vocabularySpeedUi.intro.classList.add('hidden');
+  vocabularySpeedUi.result.classList.add('hidden');
+  vocabularySpeedUi.play.classList.remove('hidden');
+  vocabularySpeedUi.correct.textContent = '0';
+  vocabularySpeedUi.time.textContent = '60';
+  vocabularySpeedUi.accuracy.textContent = '—';
+  vocabularySpeedUi.progress.style.width = '100%';
+  vocabularySpeedUi.feedback.style.color = '';
+  vocabularySpeedEndsAt = Date.now() + 60000;
+  nextVocabularySpeedQuestion();
+  updateVocabularySpeedClock();
+  vocabularySpeedTimer = setInterval(updateVocabularySpeedClock, 100);
+}
+
+vocabularySpeedUi.start?.addEventListener('click', startVocabularySpeed);
+vocabularySpeedUi.retry?.addEventListener('click', startVocabularySpeed);
+vocabularySpeedUi.another?.addEventListener('click', returnToGameHome);
 
 async function loadCrosswordRound() {
   try {
@@ -711,6 +891,7 @@ function showAudioAnswer(item) {
 
 function finishGame() {
   clearAutoAdvance();
+  stopVocabularySpeed();
   game.audio.classList.add('hidden');
   game.matching.classList.add('hidden');
   game.crossword.classList.add('hidden');
@@ -725,6 +906,7 @@ function finishGame() {
 
 function returnToGameHome() {
   clearAutoAdvance();
+  stopVocabularySpeed();
   activeGame = null;
   gameScreen.classList.add('hidden');
   gameMenu.classList.remove('hidden');
