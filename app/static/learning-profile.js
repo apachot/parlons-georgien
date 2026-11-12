@@ -43,6 +43,15 @@
     if (!ratings.length) return 800;
     return Math.round(ratings.reduce((sum, item) => sum + item.value, 0) / ratings.length);
   };
+  window.getEstimatedCefr = skill => {
+    const personalRating = skill && profile.ratings[skill]?.count ? profile.ratings[skill].value : overallRating();
+    return levelFromRating(personalRating);
+  };
+  window.getAdaptiveCefr = skill => {
+    const overall = levelFromRating(overallRating());
+    const personal = window.getEstimatedCefr(skill);
+    return LEVELS[Math.max(LEVELS.indexOf(overall), LEVELS.indexOf(personal))];
+  };
   const saveProfile = () => {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(profile)); } catch (_) { /* Storage may be disabled. */ }
     refreshBadge();
@@ -64,7 +73,9 @@
   const recordAnswer = (skill, correct) => {
     if (typeof correct !== 'boolean') return;
     const level = currentExerciseLevel();
-    const rating = profile.ratings[skill] || {value: 800, count: 0, correct: 0};
+    // Seed a newly observed skill from the current overall estimate so the
+    // first question in that skill cannot force a learner back to A1.
+    const rating = profile.ratings[skill] || {value: overallRating(), count: 0, correct: 0};
     const difficulty = POINTS[level];
     const expected = 1 / (1 + (10 ** ((difficulty - rating.value) / 400)));
     const k = rating.count < 10 ? 40 : 24;

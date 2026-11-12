@@ -87,6 +87,7 @@ const readingRoot = document.querySelector('#reading');
 const readingTotal = Number(readingRoot?.dataset.total || 0);
 const readingSessionSize = Math.min(21, readingTotal);
 const readingSeenIds = new Map([[1, new Set()], [2, new Set()], [3, new Set()], [4, new Set()], [5, new Set()], [6, new Set()], [7, new Set()]]);
+const readingLevelByCefr = {A1: 1, A2: 3, B1: 4, B2: 5, C1: 6, C2: 7};
 const reading = {
   count: document.querySelector('#reading-count'),
   level: document.querySelector('#reading-level'),
@@ -128,13 +129,16 @@ async function loadReadingQuestion() {
     finishReadingSession();
     return;
   }
-  const level = Math.floor(readingTurn / 3) + 1;
+  // Begin at the learner's estimated level. Every answer updates the rating,
+  // so the next question can move up or down as the estimate is refined.
+  const estimatedCefr = window.getAdaptiveCefr?.('reading') || 'A1';
+  const level = readingLevelByCefr[estimatedCefr] || 1;
   readingCurrent = null;
   reading.options.replaceChildren();
   reading.text.textContent = readingRoot.dataset.oral === 'true' ? '' : 'Préparation du texte…';
   stopOralPlayer(reading.audio);
   reading.question.textContent = '';
-  reading.level.textContent = `Niveau ${level} · ${['Premiers repères', 'Petits textes du quotidien', 'Repérer le temps des actions', 'Comprendre les détails', 'Comprendre les nuances et les arguments', 'Analyser les implicites et les points de vue', 'Interpréter les sous-entendus et les choix rhétoriques'][level - 1]}`;
+  reading.level.textContent = `${estimatedCefr} · sélection adaptative`;
   reading.count.textContent = `Séance · ${readingTurn + 1} / ${readingSessionSize}`;
   reading.meter.style.width = `${Math.round(readingTurn / readingSessionSize * 100)}%`;
   reading.reveal.classList.add('hidden');
