@@ -616,5 +616,110 @@
       {"title":"Réviser les mots de la météo","href":"/vocabulary"},
       {"title":"Écouter d’autres textes courts","href":"/comprehension"}
     ]
+  },
+  {
+    "id": "parler-de-sa-journee",
+    "title": "Parler de sa journée et de ses activités",
+    "level": "A1",
+    "tag": "Le quotidien · 10 min",
+    "icon": "🕒",
+    "goal": "Situer quelques activités dans le temps, dire où l’on est et former des phrases négatives simples.",
+    "slides": [
+      {
+        "eyebrow": "01 · SE REPÉRER DANS LE TEMPS",
+        "title": "Aujourd’hui, maintenant, demain",
+        "body": "დღეს signifie « aujourd’hui », ახლა « maintenant » et ხვალ « demain ». Pour situer une habitude dans la journée, utilisez დილით (« le matin ») et საღამოს (« le soir »).",
+        "examples": [
+          {"ka":"დღეს · ახლა · ხვალ","fr":"aujourd’hui · maintenant · demain","note":"Trois repères de temps."},
+          {"ka":"დილით","fr":"le matin, dans la matinée","note":"Pour situer une activité le matin."},
+          {"ka":"საღამოს","fr":"le soir, dans la soirée","note":"Pour situer une activité le soir."}
+        ],
+        "takeaway": "Placez souvent le repère de temps au début : დღეს… (« aujourd’hui… »)."
+      },
+      {
+        "eyebrow": "02 · DIRE OÙ L’ON EST",
+        "title": "ვარ : « je suis »",
+        "body": "Pour dire où vous êtes, utilisez ვარ (« je suis ») après le lieu : მე სახლში ვარ (« je suis à la maison »). En géorgien, le pronom მე (« je ») peut être omis, car la forme du verbe indique déjà la personne.",
+        "examples": [
+          {"ka":"მე სახლში ვარ.","fr":"Je suis à la maison.","note":"სახლში : à la maison ; ვარ : je suis."},
+          {"ka":"ახლა სახლში ვარ.","fr":"Je suis à la maison maintenant.","note":"ახლა : maintenant."},
+          {"ka":"ის თბილისშია.","fr":"Il / elle est à Tbilissi.","note":"La forme ne marque pas le genre."}
+        ],
+        "takeaway": "Structure simple : lieu + ვარ (« je suis »). Le pronom მე est facultatif."
+      },
+      {
+        "eyebrow": "03 · DIRE CE QUE L’ON FAIT",
+        "title": "Quelques verbes au présent, à la première personne",
+        "body": "Pour parler de ses activités, retenez des formes fréquentes à la première personne : ვმუშაობ (« je travaille »), ვსწავლობ (« j’étudie »), მივდივარ (« je vais / je pars ») et ვრჩები (« je reste »).",
+        "examples": [
+          {"ka":"ვმუშაობ.","fr":"Je travaille.","note":"Une activité."},
+          {"ka":"ვსწავლობ.","fr":"J’étudie, j’apprends.","note":"Une activité d’étude."},
+          {"ka":"მივდივარ · ვრჩები","fr":"je vais, je pars · je reste","note":"Partir et rester."}
+        ],
+        "takeaway": "Ces formes commencent souvent par ვ- quand le sujet est « je ». Apprenez chaque verbe avec son exemple."
+      },
+      {
+        "eyebrow": "04 · AJOUTER UN MOMENT DE LA JOURNÉE",
+        "title": "Le repère de temps vient souvent d’abord",
+        "body": "Associez le moment de la journée à l’activité : დილით ვმუშაობ (« je travaille le matin »), ახლა მივდივარ (« je pars maintenant »), საღამოს ქართულს ვსწავლობ (« j’étudie le géorgien le soir »).",
+        "examples": [
+          {"ka":"დილით ვმუშაობ.","fr":"Je travaille le matin.","note":"დილით + activité."},
+          {"ka":"ახლა მივდივარ.","fr":"Je pars maintenant.","note":"ახლა : maintenant."},
+          {"ka":"საღამოს ქართულს ვსწავლობ.","fr":"J’étudie le géorgien le soir.","note":"საღამოს : le soir."}
+        ],
+        "takeaway": "Repère d’abord le moment, puis le verbe pour comprendre l’action."
+      },
+      {
+        "eyebrow": "05 · DIRE CE QUE L’ON NE FAIT PAS",
+        "title": "არ se place avant le verbe",
+        "body": "Pour former une négation simple, placez არ (« ne… pas ») avant le verbe : არ ვმუშაობ (« je ne travaille pas »), არ ვრჩები (« je ne reste pas »). Le même ordre apparaît avec მაქვს (« j’ai ») et მინდა (« je veux »).",
+        "examples": [
+          {"ka":"არ ვმუშაობ.","fr":"Je ne travaille pas.","note":"არ + verbe."},
+          {"ka":"დღეს დრო არ მაქვს.","fr":"Je n’ai pas le temps aujourd’hui.","note":"არ précède მაქვს."},
+          {"ka":"ყავა არ მინდა.","fr":"Je ne veux pas de café.","note":"არ précède მინდა."}
+        ],
+        "takeaway": "Le repère à mémoriser : sujet éventuel + არ + forme verbale."
+      },
+      {
+        "eyebrow": "06 · LIRE UN EMPLOI DU TEMPS",
+        "title": "Suivre quelques moments d’une journée",
+        "body": "Lisez le passage et repérez à quel moment se déroule chaque activité. Les marqueurs დილით, ახლა et საღამოს vous donnent l’ordre de la journée.",
+        "reading_text": "დილით ვმუშაობ. ახლა სახლში ვარ. საღამოს ქართულს ვსწავლობ. დღეს დრო მაქვს.",
+        "examples": [
+          {"ka":"დილით ვმუშაობ.","fr":"Je travaille le matin.","note":"Première activité."},
+          {"ka":"ახლა სახლში ვარ.","fr":"Je suis à la maison maintenant.","note":"ახლა : maintenant."},
+          {"ka":"საღამოს ქართულს ვსწავლობ.","fr":"J’étudie le géorgien le soir.","note":"Activité du soir."},
+          {"ka":"დღეს დრო მაქვს.","fr":"J’ai le temps aujourd’hui.","note":"დრო მაქვს : j’ai du temps."}
+        ],
+        "takeaway": "À vous : le QCM final vérifie les repères de temps et les activités."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Que signifie ახლა ?","options":["maintenant","demain","le matin","le soir"],"answer":"maintenant","explanation":"ახლა signifie « maintenant »."},
+          {"prompt":"Comment dit-on « Je suis à la maison » ?","options":["მე სახლში ვარ.","დილით ვმუშაობ.","დღეს დრო არ მაქვს.","ხვალ მივდივარ."],"answer":"მე სახლში ვარ.","explanation":"სახლში signifie « à la maison » et ვარ signifie « je suis »."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Que signifie დილით ვმუშაობ ?","options":["Je travaille le matin.","Je pars maintenant.","Je reste le soir.","Je ne travaille pas."],"answer":"Je travaille le matin.","explanation":"დილით situe l’activité le matin et ვმუშაობ signifie « je travaille »."},
+          {"prompt":"Quel verbe signifie « j’étudie / j’apprends » ?","options":["ვსწავლობ","ვრჩები","მივდივარ","ვმუშაობ"],"answer":"ვსწავლობ","explanation":"ვსწავლობ signifie « j’étudie » ou « j’apprends »."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Dans le passage, que fait la personne le soir ?","options":["Elle étudie le géorgien.","Elle travaille.","Elle part en métro.","Elle ne reste pas à la maison."],"answer":"Elle étudie le géorgien.","explanation":"საღამოს ქართულს ვსწავლობ signifie « j’étudie le géorgien le soir »."},
+          {"prompt":"Que signifie aujourd’hui დრო არ მაქვს ?","options":["Je n’ai pas le temps aujourd’hui.","Je travaille aujourd’hui.","Je suis à la maison maintenant.","J’étudie le soir."],"answer":"Je n’ai pas le temps aujourd’hui.","explanation":"დღეს signifie « aujourd’hui » et დრო არ მაქვს signifie « je n’ai pas le temps »."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Revoir les verbes du quotidien","href":"/grammar"},
+      {"title":"Réviser les mots du temps et des activités","href":"/vocabulary"}
+    ]
   }
 ]
