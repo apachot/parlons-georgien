@@ -198,5 +198,109 @@
       {"title":"Pratiquer les dialogues","href":"/dialogues"},
       {"title":"Revoir les mots de présentation","href":"/vocabulary"}
     ]
+  },
+  {
+    "id": "famille-et-maison",
+    "title": "Parler de sa famille et de son logement",
+    "level": "A1",
+    "tag": "Famille et maison · 10 min",
+    "icon": "🏡",
+    "goal": "Nommer quelques proches et pièces de la maison, exprimer la possession et dire où l’on habite.",
+    "slides": [
+      {
+        "eyebrow": "01 · LES PROCHES",
+        "title": "Quelques mots pour parler de sa famille",
+        "body": "ოჯახი signifie « famille ». Pour nommer les proches, retenez დედა (mère), მამა (père), და (sœur) et ძმა (frère). შვილი désigne un enfant, qu’il s’agisse d’un fils ou d’une fille.",
+        "examples": [
+          {"ka":"ოჯახი","fr":"famille","note":"Mot général."},
+          {"ka":"დედა · მამა","fr":"mère · père","note":"Les parents."},
+          {"ka":"და · ძმა","fr":"sœur · frère","note":"Les mots de parenté sont neutres en genre grammatical."}
+        ],
+        "takeaway": "და signifie « sœur » dans un groupe nominal comme ჩემი და ; ailleurs, il peut aussi vouloir dire « et »."
+      },
+      {
+        "eyebrow": "02 · DIRE « MON », « TON », « SON »",
+        "title": "Le possessif se place avant le nom",
+        "body": "ჩემი signifie « mon / ma / mes », შენი « ton / ta / tes » et მისი « son / sa / ses ». Le mot géorgien ne change pas selon le genre ou le nombre du nom : le contexte indique la traduction française.",
+        "examples": [
+          {"ka":"ჩემი ოჯახი","fr":"ma famille","note":"ჩემი + nom."},
+          {"ka":"შენი და","fr":"ta sœur","note":"შენი + nom."},
+          {"ka":"მისი ძმა","fr":"son frère","note":"მისი + nom."}
+        ],
+        "takeaway": "Placez le possessif juste avant la personne ou la chose possédée."
+      },
+      {
+        "eyebrow": "03 · LES PIÈCES DE LA MAISON",
+        "title": "Nommer les lieux du quotidien",
+        "body": "სახლი signifie « maison ». ოთახი est une pièce ou une chambre, et სამზარეულო désigne la cuisine. Un mot de lieu peut ensuite recevoir une terminaison qui précise où se passe l’action.",
+        "examples": [
+          {"ka":"სახლი","fr":"maison","note":"La forme de base."},
+          {"ka":"ოთახი","fr":"pièce, chambre","note":"Une pièce de la maison."},
+          {"ka":"სამზარეულო","fr":"cuisine","note":"Le lieu où l’on prépare les repas."}
+        ],
+        "takeaway": "Apprenez le nom de la pièce avec son image ou une situation familière."
+      },
+      {
+        "eyebrow": "04 · DIRE OÙ L’ON EST",
+        "title": "La terminaison -ში situe à l’intérieur ou dans un lieu",
+        "body": "La terminaison -ში s’ajoute souvent au nom pour dire « dans / à ». Ainsi, სახლი devient სახლში (« à la maison »), ოთახი devient ოთახში (« dans la pièce »), et თბილისი devient თბილისში (« à Tbilissi »).",
+        "examples": [
+          {"ka":"სახლში","fr":"à la maison","note":"სახლი + -ში."},
+          {"ka":"ოთახში","fr":"dans la pièce","note":"ოთახი + -ში."},
+          {"ka":"თბილისში","fr":"à Tbilissi","note":"თბილისი + -ში."}
+        ],
+        "takeaway": "Pour exprimer un lieu où l’on est ou où l’on fait quelque chose, repérez -ში."
+      },
+      {
+        "eyebrow": "05 · DÉCRIRE SON LOGEMENT",
+        "title": "L’adjectif accompagne le nom",
+        "body": "დიდი signifie « grand » et პატარა « petit ». L’adjectif précède généralement le nom : დიდი სახლი (« une grande maison »), პატარა ოთახი (« une petite pièce »). En fin de phrase, სახლი დიდია signifie « la maison est grande ».",
+        "examples": [
+          {"ka":"დიდი სახლი","fr":"une grande maison","note":"Adjectif + nom."},
+          {"ka":"პატარა ოთახი","fr":"une petite pièce","note":"L’adjectif ne s’accorde pas comme en français."},
+          {"ka":"სახლი დიდია.","fr":"La maison est grande.","note":"დიდია : « est grand(e) »."}
+        ],
+        "takeaway": "Devant le nom, l’adjectif vient d’abord ; pour dire « est grand », utilisez დიდია."
+      },
+      {
+        "eyebrow": "06 · LIRE UNE PRÉSENTATION",
+        "title": "Relier les mots dans un petit texte",
+        "body": "Dans ce passage, repérez les membres de la famille, puis les lieux. La terminaison -ში donne un indice utile pour comprendre où chacun se trouve ou vit.",
+        "examples": [
+          {"ka":"ეს ჩემი ოჯახია.","fr":"Voici ma famille.","note":"ოჯახი : famille."},
+          {"ka":"დედა სახლშია.","fr":"Maman est à la maison.","note":"სახლში : à la maison."},
+          {"ka":"მამა თბილისში მუშაობს.","fr":"Papa travaille à Tbilissi.","note":"თბილისში : à Tbilissi."},
+          {"ka":"ჩემი და და ჩემი ძმა თბილისში ცხოვრობენ.","fr":"Ma sœur et mon frère vivent à Tbilissi.","note":"და et ძმა sont reliés par « et »."}
+        ],
+        "takeaway": "À vous : les questions finales vérifient les possessifs, les lieux et la description."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Que signifie ჩემი ოჯახი ?","options":["ma famille","ta sœur","son frère","la maison"],"answer":"ma famille","explanation":"ჩემი signifie « mon / ma / mes » et ოჯახი signifie « famille »."},
+          {"prompt":"Quel possessif signifie « ton / ta / tes » ?","options":["შენი","ჩემი","მისი","ოჯახი"],"answer":"შენი","explanation":"შენი est le possessif de deuxième personne : ton, ta ou tes."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Que signifie სახლში ?","options":["à la maison","de la maison","ma famille","dans la cuisine"],"answer":"à la maison","explanation":"სახლი + -ში donne სახლში, « à la maison »."},
+          {"prompt":"Quelle terminaison indique ici un lieu, comme « à Tbilissi » ?","options":["-ში","-დან","-ები","-ა"],"answer":"-ში","explanation":"თბილისი devient თბილისში : -ში marque ici le lieu où l’on est ou agit."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Dans დიდი სახლი, quel mot signifie « grande » ?","options":["დიდი","სახლი","ოთახი","პატარა"],"answer":"დიდი","explanation":"დიდი signifie « grand(e) » et précède le nom სახლი."},
+          {"prompt":"Dans le petit texte, où travaille le père ?","options":["À Tbilissi","À la maison","Dans la cuisine","Dans la pièce"],"answer":"À Tbilissi","explanation":"მამა თბილისში მუშაობს signifie « Papa travaille à Tbilissi »."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Revoir le vocabulaire de la famille et de la maison","href":"/vocabulary"},
+      {"title":"S’entraîner avec les phrases","href":"/grammar"}
+    ]
   }
 ]
