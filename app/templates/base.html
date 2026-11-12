@@ -21,13 +21,13 @@
 </aside>
 <dialog class="progress-dialog" id="progress-dialog" aria-labelledby="progress-title">
   <div class="progress-dialog-head"><div><span class="exercise-level-kicker">Votre parcours</span><h2 id="progress-title">Progression historisée</h2></div><button class="progress-close" type="button" aria-label="Fermer">×</button></div>
-  <p class="progress-dialog-intro">Votre estimation évolue au fil de vos réponses. Les données sont enregistrées dans ce navigateur.</p>
+  <p class="progress-dialog-intro">Votre score tient compte des erreurs avant la bonne réponse : une erreur isolée ne suffit pas à faire baisser votre niveau. Les données sont historisées dans ce navigateur.</p>
   <div class="progress-summary" id="progress-summary"></div>
-  <section class="progress-chart-section"><div class="progress-section-title"><b>Évolution du niveau estimé</b><span>par réponse</span></div><div id="progress-chart" class="progress-chart"></div></section>
+  <section class="progress-chart-section"><div class="progress-section-title"><b>Évolution du niveau estimé</b><span>par question</span></div><div id="progress-chart" class="progress-chart"></div></section>
   <section class="progress-skills-section"><div class="progress-section-title"><b>Par compétence</b><span id="progress-period"></span></div><div id="progress-skills"></div></section>
   <div class="progress-history" id="progress-history"></div>
 </dialog>
 <script src="{{ url_for('static', filename='app.js') }}?v=skip-next-v1" defer></script>
-<script src="{{ url_for('static', filename='learning-profile.js') }}?v=adaptive-v2" defer></script>
+<script src="{{ url_for('static', filename='learning-profile.js') }}?v=partial-score-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>

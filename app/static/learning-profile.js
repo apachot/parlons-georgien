@@ -15,6 +15,14 @@
     if (rating < 1700) return 'C1';
     return 'C2';
   };
+  const hysteresisLevel = (rating, previous) => {
+    let index = Math.max(0, LEVELS.indexOf(previous || levelFromRating(rating)));
+    const upThresholds = [900, 1100, 1300, 1500, 1700];
+    const margin = 60;
+    while (index < LEVELS.length - 1 && rating >= upThresholds[index] + margin) index += 1;
+    while (index > 0 && rating < upThresholds[index - 1] - margin) index -= 1;
+    return LEVELS[index];
+  };
   const normalizeLevel = raw => {
     const match = String(raw || '').match(/A1|A2|B1|B2|C1|C2/);
     return match ? match[0] : 'A1';
@@ -22,10 +30,12 @@
   const readProfile = () => {
     try {
       const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
-      return {ratings: data.ratings || {}, history: Array.isArray(data.history) ? data.history : []};
-    } catch (_) { return {ratings: {}, history: []}; }
+      return {ratings: data.ratings || {}, history: Array.isArray(data.history) ? data.history : [],
+        levels: data.levels || {}, overallLevel: data.overallLevel || null, pending: data.pending || {}};
+    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}}; }
   };
   let profile = readProfile();
+  const activeQuestion = {};
   const skillForUrl = url => {
     const path = new URL(url, location.href).pathname;
     if (path.includes('/alphabet')) return 'alphabet';
@@ -35,7 +45,8 @@
     if (path.includes('/dialogue')) return 'dialogues';
     if (path.includes('/comprehension')) return 'comprehension';
     if (path.includes('/reading')) return 'reading';
-    if (path.includes('/quiz') || path.includes('/answer')) return 'mixed';
+    if (path.endsWith('/quiz')) return 'vocabulary';
+    if (path.endsWith('/answer')) return 'mixed';
     return 'mixed';
   };
   const overallRating = () => {
@@ -43,12 +54,13 @@
     if (!ratings.length) return 800;
     return Math.round(ratings.reduce((sum, item) => sum + item.value, 0) / ratings.length);
   };
+  const overallLevel = () => hysteresisLevel(overallRating(), profile.overallLevel);
   window.getEstimatedCefr = skill => {
-    const personalRating = skill && profile.ratings[skill]?.count ? profile.ratings[skill].value : overallRating();
-    return levelFromRating(personalRating);
+    if (skill && profile.levels[skill]) return profile.levels[skill];
+    return overallLevel();
   };
   window.getAdaptiveCefr = skill => {
-    const overall = levelFromRating(overallRating());
+    const overall = overallLevel();
     const personal = window.getEstimatedCefr(skill);
     return LEVELS[Math.max(LEVELS.indexOf(overall), LEVELS.indexOf(personal))];
   };
@@ -60,9 +72,9 @@
     const value = document.querySelector('#learner-level-value');
     if (!value) return;
     const answered = profile.history.length;
-    value.textContent = levelFromRating(overallRating());
+    value.textContent = overallLevel();
     document.querySelector('#learner-level-caption').textContent = answered
-      ? `${answered} réponse${answered === 1 ? '' : 's'} prise${answered === 1 ? '' : 's'} en compte`
+      ? `${answered} question${answered === 1 ? '' : 's'} évaluée${answered === 1 ? '' : 's'}`
       : 'À confirmer';
   };
   const currentExerciseLevel = () => {
@@ -70,22 +82,48 @@
       .find(item => !item.classList.contains('hidden') && item.dataset.difficulty);
     return normalizeLevel(panel?.dataset.difficulty || document.querySelector('#exercise-level-value')?.textContent);
   };
-  const recordAnswer = (skill, correct) => {
-    if (typeof correct !== 'boolean') return;
-    const level = currentExerciseLevel();
-    // Seed a newly observed skill from the current overall estimate so the
-    // first question in that skill cannot force a learner back to A1.
+  const questionKey = (skill, id) => `${skill}:${id}`;
+  const scoreQuestion = (skill, id, solved) => {
+    const key = questionKey(skill, id);
+    const question = profile.pending[key];
+    if (!question || (question.wrong < 1 && !solved)) return;
+    const score = 1 / (question.wrong + 1);
     const rating = profile.ratings[skill] || {value: overallRating(), count: 0, correct: 0};
-    const difficulty = POINTS[level];
-    const expected = 1 / (1 + (10 ** ((difficulty - rating.value) / 400)));
+    const expected = 1 / (1 + (10 ** ((POINTS[question.level] - rating.value) / 400)));
     const k = rating.count < 10 ? 40 : 24;
-    rating.value = Math.max(600, Math.min(2200, Math.round(rating.value + k * ((correct ? 1 : 0) - expected))));
+    rating.value = Math.max(600, Math.min(2200, Math.round(rating.value + k * (score - expected))));
     rating.count += 1;
-    rating.correct += Number(correct);
+    rating.correct += score;
     profile.ratings[skill] = rating;
-    profile.history.push({at: new Date().toISOString(), skill, level, correct, rating: overallRating()});
+    profile.levels[skill] = hysteresisLevel(rating.value, profile.levels[skill] || levelFromRating(rating.value));
+    profile.overallLevel = hysteresisLevel(overallRating(), profile.overallLevel || levelFromRating(overallRating()));
+    profile.history.push({at: new Date().toISOString(), skill, level: question.level,
+      correct: solved, score, attempts: question.wrong + (solved ? 1 : 0), wrong: question.wrong,
+      rating: overallRating()});
+    delete profile.pending[key];
     if (profile.history.length > 5000) profile.history.splice(0, profile.history.length - 5000);
     saveProfile();
+  };
+  const trackQuestionAnswer = (skill, id, correct) => {
+    if (typeof correct !== 'boolean' || id === undefined || id === null) return;
+    const key = questionKey(skill, id);
+    if (!profile.pending[key]) profile.pending[key] = {wrong: 0, level: currentExerciseLevel()};
+    if (correct) scoreQuestion(skill, id, true);
+    else {
+      profile.pending[key].wrong += 1;
+      saveProfile();
+    }
+  };
+  const trackNextQuestion = (skill, id) => {
+    if (id === undefined || id === null) return;
+    const nextId = String(id);
+    const previousId = activeQuestion[skill];
+    if (previousId && previousId !== nextId) scoreQuestion(skill, previousId, false);
+    Object.keys(profile.pending).forEach(key => {
+      const prefix = `${skill}:`;
+      if (key.startsWith(prefix) && key !== questionKey(skill, nextId)) scoreQuestion(skill, key.slice(prefix.length), false);
+    });
+    activeQuestion[skill] = nextId;
   };
   const installAnswerHistory = () => {
     if (window.__learningProfileFetchWrapped) return;
@@ -97,16 +135,32 @@
         const request = args[0];
         const url = typeof request === 'string' || request instanceof URL ? request : request.url;
         const method = (args[1]?.method || request?.method || 'GET').toUpperCase();
-        if (method === 'POST' && /\/answer(?:\?|$)/.test(new URL(url, location.href).pathname)) {
-          const body = await response.clone().json();
-          const payload = typeof args[1]?.body === 'string' ? JSON.parse(args[1].body) : {};
-          let skill = skillForUrl(url);
-          if (skill === 'mixed') {
-            const kind = String(payload.kind || payload.type || '').toLowerCase();
-            if (kind.includes('alphabet') || kind.includes('letter')) skill = 'alphabet';
-            else if (kind.includes('vocab') || kind.includes('match') || kind.includes('order')) skill = 'vocabulary';
+        const parsedUrl = new URL(url, location.href);
+        const payload = typeof args[1]?.body === 'string' ? JSON.parse(args[1].body) : {};
+        let skill = skillForUrl(url);
+        const kind = String(payload.kind || payload.type || parsedUrl.searchParams.get('kind') || parsedUrl.searchParams.get('exercise') || '').toLowerCase();
+        if (parsedUrl.pathname.endsWith('/quiz')) {
+          skill = kind.includes('alphabet') || kind.includes('letter') ? 'alphabet' : 'vocabulary';
+        } else if (skill === 'mixed') {
+          if (kind.includes('alphabet') || kind.includes('letter')) skill = 'alphabet';
+          else if (kind.includes('vocab') || kind.includes('match') || kind.includes('order') || kind.includes('type')) skill = 'vocabulary';
+          else if (parsedUrl.pathname.endsWith('/answer')) skill = 'vocabulary';
+        }
+        const path = parsedUrl.pathname;
+        const isQuestionRequest = method === 'GET' && (
+          path.endsWith('/next') || path.endsWith('/quiz') || path.endsWith('/true-false') ||
+          path.endsWith('/order') || path.endsWith('/exam')
+        );
+        if (response.ok && isQuestionRequest) {
+          const item = await response.clone().json();
+          if (item.id !== undefined) trackNextQuestion(skill, item.id);
+        }
+        if (method === 'POST' && /\/answer(?:\?|$)/.test(path)) {
+          const result = await response.clone().json();
+          const id = payload.index === undefined ? payload.id : `${payload.id}:${payload.index}`;
+          if (response.ok && typeof result.correct === 'boolean' && id !== undefined) {
+            trackQuestionAnswer(skill, id, result.correct);
           }
-          if (response.ok && typeof body.correct === 'boolean') recordAnswer(skill, body.correct);
         }
       } catch (_) { /* A history write must never interrupt an exercise. */ }
       return response;
@@ -137,18 +191,21 @@
     }).join('');
     const firstDate = new Date(history[0].at).toLocaleDateString('fr-FR', {day:'numeric', month:'short'});
     const lastDate = new Date(history.at(-1).at).toLocaleDateString('fr-FR', {day:'numeric', month:'short'});
-    target.innerHTML = `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Évolution du niveau estimé du ${firstDate} au ${lastDate}, sur ${history.length} réponses"><g class="chart-grid">${grid}</g><polyline points="${points}"/><circle cx="${x(history.length-1)}" cy="${y(values.at(-1))}" r="5"/></svg><div class="progress-chart-caption"><span>${firstDate} → ${lastDate} · ${history.length} réponses</span><b>${levelFromRating(values.at(-1))}</b></div>`;
+    target.innerHTML = `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Évolution du niveau estimé du ${firstDate} au ${lastDate}, sur ${history.length} questions"><g class="chart-grid">${grid}</g><polyline points="${points}"/><circle cx="${x(history.length-1)}" cy="${y(values.at(-1))}" r="5"/></svg><div class="progress-chart-caption"><span>${firstDate} → ${lastDate} · ${history.length} questions</span><b>${overallLevel()}</b></div>`;
   };
   const renderDialog = () => {
     const total = profile.history.length;
-    const correct = profile.history.filter(item => item.correct).length;
+    const earned = profile.history.reduce((sum, item) => sum + (Number.isFinite(item.score) ? item.score : Number(Boolean(item.correct))), 0);
     const recent = profile.history.slice(-30);
-    const accuracy = total ? Math.round(correct * 100 / total) : 0;
-    document.querySelector('#progress-summary').innerHTML = `<div><b>${levelFromRating(overallRating())}</b><span>Niveau estimé</span></div><div><b>${total}</b><span>Réponses historisées</span></div><div><b>${total ? `${accuracy}%` : '—'}</b><span>Réussite globale</span></div>`;
+    const accuracy = total ? Math.round(earned * 100 / total) : 0;
+    document.querySelector('#progress-summary').innerHTML = `<div><b>${overallLevel()}</b><span>Niveau estimé</span></div><div><b>${total}</b><span>Questions évaluées</span></div><div><b>${total ? `${accuracy}%` : '—'}</b><span>Score moyen · erreurs incluses</span></div>`;
     const skills = document.querySelector('#progress-skills');
     const entries = Object.entries(profile.ratings).filter(([, rating]) => rating.count).sort((a,b) => b[1].count-a[1].count);
-    skills.innerHTML = entries.length ? entries.map(([skill, rating]) => `<div class="progress-skill"><span>${esc(SKILL_NAMES[skill] || skill)}</span><b>${levelFromRating(rating.value)}</b><span>${rating.count} réponse${rating.count === 1 ? '' : 's'}</span><i><em style="width:${Math.round(rating.correct*100/rating.count)}%"></em></i><small>${Math.round(rating.correct*100/rating.count)}% correct</small></div>`).join('') : '<div class="progress-empty">Les résultats par compétence apparaîtront après vos premières réponses.</div>';
-    document.querySelector('#progress-period').textContent = recent.length ? `sur ${recent.length} réponses récentes` : '';
+    skills.innerHTML = entries.length ? entries.map(([skill, rating]) => {
+      const score = Math.round(rating.correct * 100 / rating.count);
+      return `<div class="progress-skill"><span>${esc(SKILL_NAMES[skill] || skill)}</span><b>${window.getEstimatedCefr(skill)}</b><span>${rating.count} question${rating.count === 1 ? '' : 's'}</span><i><em style="width:${score}%"></em></i><small>${score}% du score parfait</small></div>`;
+    }).join('') : '<div class="progress-empty">Les résultats par compétence apparaîtront après vos premières réponses.</div>';
+    document.querySelector('#progress-period').textContent = recent.length ? `sur ${recent.length} questions récentes` : '';
     const first = profile.history[0]?.at;
     const last = profile.history.at(-1)?.at;
     const period = document.querySelector('#progress-history');
