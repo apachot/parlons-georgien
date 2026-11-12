@@ -302,5 +302,109 @@
       {"title":"Revoir le vocabulaire de la famille et de la maison","href":"/vocabulary"},
       {"title":"S’entraîner avec les phrases","href":"/grammar"}
     ]
+  },
+  {
+    "id": "commander-et-acheter",
+    "title": "Commander et faire ses achats",
+    "level": "A1",
+    "tag": "Au café et au marché · 10 min",
+    "icon": "☕",
+    "goal": "Nommer quelques aliments, commander poliment et demander le prix d’un article.",
+    "slides": [
+      {
+        "eyebrow": "01 · BOIRE ET MANGER",
+        "title": "Commencez par les mots utiles",
+        "body": "Voici quelques mots que vous retrouverez au café ou au marché : წყალი (eau), ყავა (café), ჩაი (thé), პური (pain), ყველი (fromage) et ხილი (fruit).",
+        "examples": [
+          {"ka":"წყალი · ყავა · ჩაი","fr":"eau · café · thé","note":"Les boissons."},
+          {"ka":"პური · ყველი","fr":"pain · fromage","note":"À demander au comptoir ou au marché."},
+          {"ka":"ხილი","fr":"fruit","note":"Le mot collectif pour les fruits."}
+        ],
+        "takeaway": "Mémorisez d’abord les mots dont vous pourriez avoir besoin pour commander."
+      },
+      {
+        "eyebrow": "02 · EXPRIMER CE QUE L’ON VEUT",
+        "title": "მინდა : « je veux » ou « je voudrais »",
+        "body": "მინდა sert à dire « je veux » ou, dans une demande, « je voudrais ». Le nom de ce que l’on souhaite peut précéder le verbe : ყავა მინდა (« je voudrais un café »). Ajoutez გთხოვთ pour rendre la demande polie : ყავა მინდა, გთხოვთ.",
+        "examples": [
+          {"ka":"ყავა მინდა.","fr":"Je voudrais un café.","note":"ყავა + მინდა."},
+          {"ka":"ჩაი მინდა.","fr":"Je voudrais un thé.","note":"Remplacez le premier mot pour changer la commande."},
+          {"ka":"წყალი მინდა, გთხოვთ.","fr":"Je voudrais de l’eau, s’il vous plaît.","note":"გთხოვთ rend la demande polie."}
+        ],
+        "takeaway": "Modèle pratique : nom de l’article + მინდა + éventuellement გთხოვთ."
+      },
+      {
+        "eyebrow": "03 · COMMANDER UNE QUANTITÉ",
+        "title": "Les nombres avant l’article",
+        "body": "Pour commander une quantité simple, placez le nombre avant le produit. ერთი signifie « un / une » et ორი « deux ». La formule courte « un café, s’il vous plaît » est ერთი ყავა, გთხოვთ.",
+        "examples": [
+          {"ka":"ერთი ყავა, გთხოვთ.","fr":"Un café, s’il vous plaît.","note":"ერთი : un / une."},
+          {"ka":"ორი ჩაი, გთხოვთ.","fr":"Deux thés, s’il vous plaît.","note":"ორი : deux."},
+          {"ka":"სამი პური","fr":"Trois pains","note":"სამი : trois."}
+        ],
+        "takeaway": "Ordre à retenir : nombre, article, puis la formule de politesse."
+      },
+      {
+        "eyebrow": "04 · POSER UNE QUESTION AU CAFÉ",
+        "title": "Comprendre une demande polie",
+        "body": "Pour demander poliment ce que souhaite votre interlocuteur, dites რა გნებავთ? (« Que désirez-vous ? »). Vous pouvez répondre avec le modèle appris : ერთი ჩაი მინდა, გთხოვთ (« Je voudrais un thé, s’il vous plaît »).",
+        "examples": [
+          {"ka":"რა გნებავთ?","fr":"Que désirez-vous ?","note":"Question polie."},
+          {"ka":"ერთი ჩაი მინდა.","fr":"Je voudrais un thé.","note":"Une réponse directe."},
+          {"ka":"ანგარიში, გთხოვთ.","fr":"L’addition, s’il vous plaît.","note":"ანგარიში : addition, facture."}
+        ],
+        "takeaway": "გნებავთ est une formule polie ; reconnaissez-la dans les échanges de service."
+      },
+      {
+        "eyebrow": "05 · DEMANDER LE PRIX",
+        "title": "Combien ça coûte ?",
+        "body": "რამდენი ღირს? signifie « combien ça coûte ? ». Pour demander le prix d’un objet en le montrant, dites ეს რა ღირს? (« Combien coûte ceci ? »). La monnaie géorgienne s’appelle le ლარი (lari).",
+        "examples": [
+          {"ka":"ეს რა ღირს?","fr":"Combien coûte ceci ?","note":"ეს : ceci / cela."},
+          {"ka":"რამდენი ღირს?","fr":"Combien ça coûte ?","note":"Question générale sur le prix."},
+          {"ka":"ათი ლარი ღირს.","fr":"Ça coûte dix laris.","note":"ლარი : la monnaie géorgienne."}
+        ],
+        "takeaway": "À la question sur le prix, écoutez le nombre puis le mot ლარი."
+      },
+      {
+        "eyebrow": "06 · METTRE LES FORMULES ENSEMBLE",
+        "title": "Un échange au comptoir",
+        "body": "Suivez l’échange : le vendeur demande ce que vous souhaitez, vous commandez avec გთხოვთ, puis vous vérifiez le prix. Essayez de reconnaître chaque mot avant de lire sa traduction.",
+        "examples": [
+          {"ka":"A · გამარჯობა. რა გნებავთ?","fr":"Bonjour. Que désirez-vous ?","note":"Le vendeur pose la question poliment."},
+          {"ka":"B · ერთი ყავა და ერთი პური, გთხოვთ.","fr":"Un café et un pain, s’il vous plaît.","note":"და signifie ici « et »."},
+          {"ka":"A · ეს ხუთი ლარი ღირს.","fr":"Cela coûte cinq laris.","note":"ხუთი : cinq ; ღირს : coûte."},
+          {"ka":"B · მადლობა!","fr":"Merci !","note":"Pour remercier."}
+        ],
+        "takeaway": "À vous : le QCM final vérifie les demandes polies et les questions de prix."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Quel mot signifie « fromage » ?","options":["ყველი","პური","ხილი","ყავა"],"answer":"ყველი","explanation":"ყველი signifie « fromage »."},
+          {"prompt":"Que signifie მინდა dans une demande comme ყავა მინდა ?","options":["Je veux / je voudrais","S’il vous plaît","Combien ça coûte ?","Merci"],"answer":"Je veux / je voudrais","explanation":"მინდა exprime ce que l’on veut ou souhaiterait."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Comment commander poliment un café ?","options":["ერთი ყავა, გთხოვთ.","რა გნებავთ?","რამდენი ღირს?","ნახვამდის."],"answer":"ერთი ყავა, გთხოვთ.","explanation":"ერთი ყავა signifie « un café » et გთხოვთ signifie « s’il vous plaît »."},
+          {"prompt":"Que signifie რა გნებავთ?","options":["Que désirez-vous ?","Combien ça coûte ?","Où est le marché ?","Je voudrais un thé."],"answer":"Que désirez-vous ?","explanation":"C’est une question polie pour demander ce que souhaite la personne."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Que signifie ეს რა ღირს?","options":["Combien coûte ceci ?","Je voudrais de l’eau.","Deux thés, s’il vous plaît.","L’addition, s’il vous plaît."],"answer":"Combien coûte ceci ?","explanation":"ეს signifie « ceci » et რა ღირს? demande le prix."},
+          {"prompt":"Dans le dialogue, combien coûtent le café et le pain ?","options":["Cinq laris","Deux laris","Dix laris","Le prix n’est pas indiqué"],"answer":"Cinq laris","explanation":"ხუთი ლარი signifie « cinq laris »."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Réviser les aliments et les boissons","href":"/vocabulary"},
+      {"title":"S’entraîner à commander en dialogue","href":"/dialogues"}
+    ]
   }
 ]
