@@ -266,6 +266,7 @@
         "eyebrow": "06 · LIRE UNE PRÉSENTATION",
         "title": "Relier les mots dans un petit texte",
         "body": "Dans ce passage, repérez les membres de la famille, puis les lieux. La terminaison -ში donne un indice utile pour comprendre où chacun se trouve ou vit.",
+        "reading_text": "ეს ჩემი ოჯახია. დედა სახლშია. მამა თბილისში მუშაობს. ჩემი და და ჩემი ძმა თბილისში ცხოვრობენ.",
         "examples": [
           {"ka":"ეს ჩემი ოჯახია.","fr":"Voici ma famille.","note":"ოჯახი : famille."},
           {"ka":"დედა სახლშია.","fr":"Maman est à la maison.","note":"სახლში : à la maison."},
@@ -294,7 +295,7 @@
         "after_slide": 6,
         "questions": [
           {"prompt":"Dans დიდი სახლი, quel mot signifie « grande » ?","options":["დიდი","სახლი","ოთახი","პატარა"],"answer":"დიდი","explanation":"დიდი signifie « grand(e) » et précède le nom სახლი."},
-          {"prompt":"Dans le petit texte, où travaille le père ?","options":["À Tbilissi","À la maison","Dans la cuisine","Dans la pièce"],"answer":"À Tbilissi","explanation":"მამა თბილისში მუშაობს signifie « Papa travaille à Tbilissi »."}
+          {"prompt":"Dans le passage « მამა თბილისში მუშაობს », où travaille le père ?","options":["À Tbilissi","À la maison","Dans la cuisine","Dans la pièce"],"answer":"À Tbilissi","explanation":"მამა თბილისში მუშაობს signifie « Papa travaille à Tbilissi »."}
         ]
       }
     ],

@@ -29,6 +29,12 @@
     const slide = lesson.slides[slideIndex];
     stage.replaceChildren(); stage.className = 'course-slide';
     stage.append(node('div', 'eyebrow', slide.eyebrow), node('h2', '', slide.title), node('p', 'course-slide-body', slide.body));
+    if (slide.reading_text) {
+      const passage = node('div', 'course-reading-passage');
+      passage.append(node('span', 'course-reading-label', 'Texte géorgien'), node('p', 'ka', slide.reading_text));
+      passage.lang = 'ka';
+      stage.append(passage);
+    }
     if (slide.examples?.length) {
       const examples = node('div', 'course-examples');
       slide.examples.forEach(example => {
