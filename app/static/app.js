@@ -101,6 +101,18 @@ function appPath(path) {
   return `${base}${path.startsWith('/') ? path : `/${path}`}`;
 }
 
+function offerSkipButton(feedback, onSkip, label = 'Passer à la suite →') {
+  if (!feedback) return;
+  feedback.querySelector('[data-skip-question]')?.remove();
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'button secondary skip-question';
+  button.dataset.skipQuestion = 'true';
+  button.textContent = label;
+  button.addEventListener('click', onSkip, {once: true});
+  feedback.append(button);
+}
+
 let autoAdvanceTimer = null;
 function scheduleAutoAdvance(callback, delay = 1600) {
   clearAutoAdvance();

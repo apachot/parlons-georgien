@@ -37,7 +37,10 @@ if (wordDataNode && wordSpeedRoot) {
     if (locked || !current || Date.now() >= endsAt) return;
     attempts++; const isCorrect = value === current.translit;
     button.classList.add(isCorrect ? 'speed-right' : 'speed-wrong');
-    if (!isCorrect) { button.disabled = true; ui.feedback.textContent = 'Pas tout à fait. Gardez le mot et réessayez.'; }
+    if (!isCorrect) {
+      button.disabled = true; ui.feedback.textContent = 'Pas tout à fait. Gardez le mot et réessayez.';
+      offerSkipButton(ui.feedback, () => { locked = true; nextWord(); }, 'Passer ce mot →');
+    }
     else {
       locked = true; correct++; ui.choices.querySelectorAll('button').forEach(choice => { choice.disabled = true; if (choice === button) choice.classList.add('speed-right'); });
       ui.feedback.textContent = 'Bien lu !'; playSuccessSound(); nextTimer = setTimeout(nextWord, 180);

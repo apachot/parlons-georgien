@@ -40,4 +40,4 @@
 </section>
 <script type="application/json" id="lesson-questions">{{ questions | tojson }}</script>
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='lesson.js') }}" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='lesson.js') }}?v=skip-next-v1" defer></script>{% endblock %}

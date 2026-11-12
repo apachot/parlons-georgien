@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#fbf8f1">
   <title>{% block title %}Kartuli — apprendre le géorgien{% endblock %}</title>
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='kartuli-logo.png') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=oral-player-v1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=skip-next-v1">
 </head>
 <body>
 <header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='kartuli-logo.png') }}" alt=""><span>Kartuli<small>le géorgien au quotidien</small></span></a>
@@ -14,6 +14,6 @@
 </header>
 <main>{% block content %}{% endblock %}</main>
 <footer><span>Kartuli · apprendre pas à pas</span><a href="https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium" target="_blank" rel="noopener">Voix française SIWIS · Yamagishi, Honnet, Garner et Lazaridis · CC BY 4.0 ↗</a><a href="{{ url_for('export_progress') }}">Exporter ma progression ↓</a></footer>
-<script src="{{ url_for('static', filename='app.js') }}?v=tts-race-v2" defer></script>
+<script src="{{ url_for('static', filename='app.js') }}?v=skip-next-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>

@@ -30,7 +30,7 @@ if (grammarSpeedRoot) {
     if (Date.now() >= endsAt || seen.size >= total) return finishSpeedChallenge();
     current = null; speed.choices.replaceChildren(); speed.feedback.textContent = '';
     speed.feedback.className = 'feedback';
-    speed.round.textContent = `Question · ${seen.size + 1} · ${seen.size} réussie${seen.size === 1 ? '' : 's'}`;
+    speed.round.textContent = `Question · ${seen.size + 1} · ${correct} réussie${correct === 1 ? '' : 's'}`;
     try {
       const response = await fetch(appPath(`/api/grammar/next?category=temps&exclude=${encodeURIComponent([...seen].join(','))}`));
       const item = await response.json();
@@ -67,6 +67,11 @@ if (grammarSpeedRoot) {
         selected.classList.add('choice-wrong');
         speed.feedback.textContent = 'Pas tout à fait. Gardez cette question et choisissez une autre forme.';
         speed.feedback.className = 'feedback try-again';
+        offerSkipButton(speed.feedback, () => {
+          if (!current) return;
+          seen.add(current.id);
+          loadSpeedQuestion();
+        });
       } else {
         correct++; seen.add(current.id);
         speed.choices.querySelectorAll('button').forEach(button => {

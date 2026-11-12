@@ -61,6 +61,10 @@ if (dialogueFlashRoot) {
       if (!result.correct) {
         selected.classList.add('choice-wrong');
         setFlashFeedback('Cette réplique ne convient pas. Écoutez encore et essayez une autre réponse.', 'try-again');
+        offerSkipButton(flash.feedback, () => {
+          turn++;
+          loadFlashQuestion();
+        }, 'Passer cette réplique →');
         return;
       }
       correct++; turn++;

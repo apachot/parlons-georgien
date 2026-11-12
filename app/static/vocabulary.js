@@ -160,7 +160,7 @@ function updateGameScore() {
 }
 
 function updateGameProgress() {
-  const done = activeGame === 'audio' ? roundIndex : foundCount;
+  const done = activeGame === 'audio' ? roundIndex : activeGame === 'builder' ? Math.max(foundCount, roundIndex) : foundCount;
   game.progress.style.width = `${Math.round(done / Math.max(roundItems.length, 1) * 100)}%`;
 }
 
@@ -353,6 +353,10 @@ async function answerVocabularySpeed(item, button) {
       vocabularySpeedUi.choices.querySelectorAll('button:not(:disabled)').forEach(option => option.disabled = false);
       vocabularySpeedUi.feedback.textContent = 'Raté. Gardez ce mot et recommencez avec un autre choix.';
       vocabularySpeedUi.feedback.style.color = '#9a4e38';
+      offerSkipButton(vocabularySpeedUi.feedback, () => {
+        vocabularySpeedLocked = true;
+        nextVocabularySpeedQuestion();
+      }, 'Passer ce mot →');
       vocabularySpeedBusy = false;
       updateGameScore();
     }
@@ -469,6 +473,11 @@ async function checkSentenceBuilder() {
       mistakeCount++;
       feedback.textContent = 'L’ordre ne convient pas encore. Déplacez les mots et réessayez.';
       feedback.className = 'feedback try-again';
+      offerSkipButton(feedback, () => {
+        roundIndex++;
+        if (roundIndex >= roundItems.length) finishGame();
+        else renderSentenceBuilder();
+      }, 'Passer cette phrase →');
       updateGameScore(); check.disabled = false;
       return;
     }
@@ -656,7 +665,9 @@ async function checkCrosswordGrid() {
   if (wrong.size) {
     mistakeCount++; updateGameScore();
     game.crosswordFeedback.textContent = 'Il reste des lettres à corriger. Les cases en couleur ne correspondent pas aux croisements.';
-    game.crosswordFeedback.className = 'feedback try-again'; return;
+    game.crosswordFeedback.className = 'feedback try-again';
+    offerSkipButton(game.crosswordFeedback, finishGame, 'Abandonner cette grille →');
+    return;
   }
   answerBusy = true; game.crosswordCheck.disabled = true;
   try {
@@ -863,6 +874,13 @@ async function answerAudioChoice(value, selectedButton, isGeorgianAudio) {
       game.audioOptions.querySelectorAll('button').forEach(button => button.disabled = button === selectedButton);
       game.audioFeedback.textContent = 'Pas tout à fait. Gardez cette question et réessayez avec une autre réponse.';
       game.audioFeedback.className = 'feedback try-again';
+      offerSkipButton(game.audioFeedback, () => {
+        clearAutoAdvance();
+        roundIndex++;
+        if (roundIndex >= roundItems.length) finishGame();
+        else showAudioQuestion();
+        updateGameProgress();
+      }, 'Passer ce mot →');
       updateGameScore();
     }
   } catch (_) {

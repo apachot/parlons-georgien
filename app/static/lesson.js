@@ -33,6 +33,7 @@ function renderLessonQuestion() {
   audio.classList.remove('hidden');
   progress.style.width = `${Math.round(lessonQuestionIndex / lessonQuestions.length * 100)}%`;
   document.querySelector('#lesson-next').classList.add('hidden');
+  document.querySelector('#lesson-next').textContent = 'Question suivante →';
   document.querySelector('#lesson-summary').classList.add('hidden');
   document.querySelector('#lesson-restart').classList.add('hidden');
   document.querySelector('.finish-lesson').classList.add('hidden');
@@ -74,7 +75,8 @@ function answerLessonQuestion(selected, question) {
     : 'Pas tout à fait. Gardez la même question et essayez une autre réponse.';
   feedback.className = `feedback ${correct ? 'success' : 'try-again'}`;
   const next = document.querySelector('#lesson-next');
-  next.classList.toggle('hidden', !correct);
+  next.classList.remove('hidden');
+  next.textContent = correct ? 'Question suivante →' : 'Passer cette question →';
   if (correct) scheduleAutoAdvance(advanceLessonQuestion);
 }
 

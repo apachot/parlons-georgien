@@ -131,4 +131,4 @@
 </div>
 <script type="application/json" id="vocabulary-data">{{ {"items": vocab, "due_ids": due_ids}|tojson }}</script>
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='vocabulary.js') }}" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='vocabulary.js') }}?v=skip-next-v1" defer></script>{% endblock %}

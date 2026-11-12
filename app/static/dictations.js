@@ -358,6 +358,10 @@ if (sentenceRoot) {
       if (!result.correct) {
         sentence.check.disabled = false;
         sentenceFeedback('Pas tout à fait. Corrigez votre phrase et réessayez.', 'try-again');
+        offerSkipButton(sentence.feedback, () => {
+          turn++;
+          loadSentence();
+        }, 'Passer cette phrase →');
         sentence.input.focus(); return;
       }
       if (attempts === 1) firstTry++;

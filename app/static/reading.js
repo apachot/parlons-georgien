@@ -200,6 +200,11 @@ async function answerReading(answer, selected) {
         ? 'Pas tout à fait. Réécoutez le passage et essayez une autre proposition.'
         : 'Pas tout à fait. Gardez le texte affiché et réessayez avec une autre proposition.';
       reading.feedback.className = 'feedback try-again';
+      offerSkipButton(reading.feedback, () => {
+        clearAutoAdvance();
+        readingTurn++;
+        loadReadingQuestion();
+      }, 'Passer ce texte →');
     }
   } catch (_) {
     reading.options.querySelectorAll('button').forEach(button => button.disabled = false);
@@ -344,6 +349,10 @@ async function answerExamQuestion(answer, selected) {
       selected.classList.add('choice-wrong'); selected.disabled = true;
       exam.feedback.textContent = 'Pas tout à fait. Gardez le texte affiché et essayez une autre réponse.';
       exam.feedback.className = 'feedback try-again';
+      offerSkipButton(exam.feedback, () => {
+        examIndex++;
+        showExamQuestion();
+      }, 'Passer cette question →');
       return;
     }
     examLocked = true; examScore++; examTranslation = result.translation;

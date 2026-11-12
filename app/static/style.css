@@ -27,6 +27,7 @@
 .vocabulary-page{max-width:1160px;margin:0 auto;padding:30px 0 65px}
 .vocabulary-home{max-width:none;margin:0;padding:0}
 .module-speed{--module-bg:#fff0d8;--module-accent:#a96a25}.vocabulary-speed{max-width:760px;margin:0 auto;padding:20px;border:1px solid #ece9e0;border-radius:14px;background:#fbfaf5}.vocabulary-speed .speed-intro{justify-content:space-between}.vocabulary-speed .speed-play{margin-top:0}.vocabulary-speed .speed-progress{margin-bottom:12px}.vocabulary-speed .word-speed-prompt{margin-top:0}.vocabulary-speed .speed-feedback{min-height:24px}.vocabulary-speed .speed-result{margin-top:0}.vocabulary-speed .speed-result .button{margin:5px}
+.skip-question{display:block;margin:9px 0 0}
 @media(max-width:760px){.vocabulary-speed{padding:14px}.vocabulary-speed .speed-intro{align-items:flex-start;flex-direction:column}.vocabulary-speed .speed-choice{font-size:12px}}
 @media(max-width:1200px){.vocabulary-page{margin:0 5.5vw}}
 @media(max-width:760px){.vocabulary-page{margin:0 16px;padding:16px 0 45px}.vocabulary-home{margin:0;padding:0}}

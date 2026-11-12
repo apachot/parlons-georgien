@@ -67,6 +67,10 @@ if (vfRoot) {
         selected.classList.add('choice-wrong'); selected.disabled = true;
         vf.choices.forEach(button => { if (!button.disabled) button.disabled = false; });
         setVfFeedback('Pas tout à fait. Réécoutez le passage et essayez l’autre choix.', 'try-again');
+        offerSkipButton(vf.feedback, () => {
+          vfTurn++;
+          loadVfClaim();
+        }, 'Passer cette affirmation →');
       }
     } catch (_) {
       vf.choices.forEach(button => button.disabled = false);
@@ -171,6 +175,11 @@ if (orderRoot) {
       if (!response.ok) throw new Error(result.error || 'Correction impossible');
       if (!result.correct) {
         order.check.disabled = false; setOrderFeedback('Pas encore. Réécoutez le récit et ajustez l’ordre, puis réessayez.', 'try-again');
+        offerSkipButton(order.feedback, () => {
+          turn++;
+          order.check.classList.add('hidden');
+          loadOrderStory();
+        }, 'Passer ce récit →');
         return;
       }
       correct++; [...order.events.querySelectorAll('button')].forEach(button => button.disabled = true);

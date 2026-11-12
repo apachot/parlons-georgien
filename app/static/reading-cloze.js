@@ -53,6 +53,10 @@ if (clozeRoot) {
         selected.classList.add('choice-wrong');
         cloze.options.querySelectorAll('button').forEach(button => button.disabled = button === selected);
         setClozeFeedback('Ce mot ne convient pas. Relisez la phrase et essayez une autre proposition.', 'try-again');
+        offerSkipButton(cloze.feedback, () => {
+          turn++;
+          loadClozeQuestion();
+        }, 'Passer cette phrase →');
         return;
       }
       correct++; turn++;

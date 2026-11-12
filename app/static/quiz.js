@@ -108,6 +108,10 @@ async function submitAnswer(value, button) {
     document.querySelector('#quiz-next').classList.add('hidden');
     feedback.textContent = 'Pas tout à fait. Gardez cette question et réessayez.';
     feedback.className = 'feedback try-again';
+    offerSkipButton(feedback, () => {
+      seen.add(question.id);
+      advanceQuiz();
+    });
     quizBusy = false;
     return;
   }

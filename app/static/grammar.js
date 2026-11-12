@@ -60,7 +60,9 @@ async function answerGrammar(answer, selected) {
     if (!result.correct) {
       selected.disabled = true; selected.classList.add('choice-wrong');
       grammar.feedback.textContent = 'Pas tout à fait. Gardez cette question et réessayez.';
-      grammar.feedback.className = 'feedback try-again'; return;
+      grammar.feedback.className = 'feedback try-again';
+      grammar.next.textContent = 'Passer cette question →'; grammar.next.classList.remove('hidden');
+      return;
     }
     grammarLocked = true; grammarSeen.add(grammarCurrent.id); grammarTurn++; grammarCorrect++;
     grammar.score.textContent = `${grammarCorrect} / ${grammarTurn}`;
@@ -91,6 +93,11 @@ grammar.next.addEventListener('click', async () => {
     grammar.next.textContent = 'Recommencer la série →';
     return;
   }
+  if (!grammarLocked && grammarCurrent) {
+    grammarSeen.add(grammarCurrent.id);
+    grammarTurn++;
+    grammar.score.textContent = `${grammarCorrect} / ${grammarTurn}`;
+  }
   await loadGrammarQuestion();
 });
 
@@ -100,7 +107,7 @@ document.querySelectorAll('.grammar-category-list button').forEach(button => but
   grammar.title.textContent = grammarCategory === 'correction' ? 'Réparez la phrase.' : 'À vous de conjuguer.';
   grammar.lead.textContent = grammarCategory === 'correction'
     ? 'Repérez l’erreur et choisissez la formulation géorgienne correcte.'
-    : 'Répondez puis lisez l’explication. Une réponse incorrecte laisse la question ouverte pour recommencer.';
+    : 'Répondez puis lisez l’explication. Après une erreur, réessayez ou passez à la question suivante.';
   resetGrammarQuiz();
   loadGrammarQuestion();
 }));

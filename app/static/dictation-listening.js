@@ -26,11 +26,11 @@ if (listeningRoot) {
     } catch (_) { ui.play.disabled = false; ui.status.textContent = 'Audio indisponible. Vous pouvez continuer ou réessayer.'; }
   }
   async function loadQuestion() {
-    if (completed >= limit) return finish();
+    if (seen.size >= limit) return finish();
     current = null; ui.input.value = ''; ui.input.disabled = false; ui.check.disabled = false;
     ui.check.classList.remove('hidden'); ui.next.classList.add('hidden'); ui.answer.classList.add('hidden');
     ui.keyboard.querySelectorAll('button').forEach(key => key.disabled = false);
-    ui.count.textContent = `Phrase audio · ${completed + 1} / ${limit}`; ui.status.textContent = 'La phrase reste cachée.'; feedback('');
+    ui.count.textContent = `Phrase audio · ${seen.size + 1} / ${limit}`; ui.status.textContent = 'La phrase reste cachée.'; feedback('');
     try {
       const response = await fetch(appPath(`/api/dictations/sentences/next?exclude=${encodeURIComponent([...seen].join(','))}`));
       const item = await response.json();
@@ -46,11 +46,22 @@ if (listeningRoot) {
       const response = await fetch(appPath('/api/dictations/sentences/answer'), {method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({id: current.id, answer: ui.input.value})});
       const result = await response.json(); if (!response.ok) throw new Error('correction indisponible');
       attempts++;
-      if (!result.correct) { ui.check.disabled = false; feedback('Pas tout à fait. Gardez votre transcription, réécoutez et corrigez-la.', 'try-again'); return; }
+      if (!result.correct) {
+        ui.check.disabled = false; feedback('Pas tout à fait. Gardez votre transcription, réécoutez et corrigez-la.', 'try-again');
+        offerSkipButton(ui.feedback, () => {
+          ui.answer.textContent = result.solution || 'Phrase passée.';
+          ui.answer.classList.remove('hidden');
+          ui.input.disabled = true; ui.check.classList.add('hidden');
+          ui.next.textContent = seen.size >= limit ? 'Voir le résultat →' : 'Phrase suivante →';
+          ui.next.classList.remove('hidden');
+          feedback('Phrase passée. La réponse est affichée ci-dessus.', 'try-again');
+        }, 'Passer cette phrase →');
+        return;
+      }
       completed++; if (attempts === 1) firstTry++;
       ui.input.value = result.solution; ui.input.disabled = true; ui.keyboard.querySelectorAll('button').forEach(key => key.disabled = true);
       ui.answer.textContent = result.explanation; ui.answer.classList.remove('hidden'); ui.check.classList.add('hidden');
-      ui.next.textContent = completed >= limit ? 'Voir le résultat →' : 'Phrase suivante →'; ui.next.classList.remove('hidden');
+      ui.next.textContent = seen.size >= limit ? 'Voir le résultat →' : 'Phrase suivante →'; ui.next.classList.remove('hidden');
       feedback(attempts === 1 ? 'Bravo, transcription juste du premier coup !' : 'Bien corrigé, la transcription est juste.', 'success'); playSuccessSound();
     } catch (_) { ui.check.disabled = false; feedback('La réponse n’a pas pu être vérifiée. Réessayez.', 'try-again'); }
     finally { busy = false; }
@@ -59,7 +70,7 @@ if (listeningRoot) {
     current = null; stopAudio(); ui.play.disabled = true; ui.status.textContent = 'Séance terminée.';
     ui.count.textContent = 'Dictée audio · résultat'; ui.input.disabled = true; ui.keyboard.querySelectorAll('button').forEach(key => key.disabled = true);
     ui.check.classList.add('hidden'); ui.next.classList.add('hidden');
-    ui.summary.textContent = `${firstTry} / ${completed} phrases transcrites correctement du premier coup.`;
+    ui.summary.textContent = `${firstTry} / ${seen.size} phrases transcrites correctement du premier coup.`;
     ui.summary.classList.remove('hidden'); ui.start.textContent = 'Recommencer →'; ui.start.classList.remove('hidden');
   }
   async function buildKeyboard() {

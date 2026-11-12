@@ -79,6 +79,11 @@ function answerSpeedLetter(button, choice) {
   }
   button.classList.add(correct ? 'speed-right' : 'speed-wrong');
   speed.feedback.textContent = correct ? 'Bien lu !' : 'Pas tout à fait. Gardez cette lettre et réessayez.';
+  if (!correct) offerSkipButton(speed.feedback, () => {
+    speedLocked = true;
+    clearTimeout(speedAdvanceTimer);
+    nextSpeedLetter();
+  }, 'Passer cette lettre →');
   speed.correct.textContent = String(speedCorrectCount);
   updateSpeedStats();
   if (correct) playSuccessSound();
@@ -165,6 +170,7 @@ async function newLetterQuestion() {
             button.disabled = true;
             holder.querySelectorAll('button:not(:disabled)').forEach(option => option.disabled = false);
             feedback.textContent = 'Pas tout à fait. Gardez le même son et essayez une autre lettre.';
+            offerSkipButton(feedback, () => newLetterQuestion(), 'Passer cette question →');
             answering = false;
           }
         } catch (_) {
