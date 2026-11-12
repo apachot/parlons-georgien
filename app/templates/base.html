@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#fbf8f1">
   <title>{% block title %}Parlons géorgien — apprendre le géorgien{% endblock %}</title>
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='parlons-georgien-logo.png') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=lesson-reading-passage-v1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=course-audio-v1">
   {% block page_styles %}{% endblock %}
 </head>
 <body>
@@ -27,7 +27,7 @@
   <section class="progress-skills-section"><div class="progress-section-title"><b>Par compétence</b><span id="progress-period"></span></div><div id="progress-skills"></div></section>
   <div class="progress-history" id="progress-history"></div>
 </dialog>
-<script src="{{ url_for('static', filename='app.js') }}?v=skip-next-v1" defer></script>
+<script src="{{ url_for('static', filename='app.js') }}?v=course-audio-v1" defer></script>
 <script src="{{ url_for('static', filename='learning-profile.js') }}?v=partial-score-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>

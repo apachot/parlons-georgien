@@ -5,6 +5,7 @@ import json
 import argparse
 import importlib.util
 import os
+import re
 import subprocess
 import tempfile
 import wave
@@ -18,16 +19,21 @@ audio_name = tts_helpers.audio_name
 normalise_speech = tts_helpers.normalise_speech
 
 CONTENT = ROOT / "content"
+GEORGIAN_SEGMENT = re.compile(r"[\u10A0-\u10FF]+(?:[\s.,;:!?·-]+[\u10A0-\u10FF]+)*")
 
 
 def phrases():
     found = {"ka": set(), "fr": set()}
 
-    def visit(value):
+    def visit(value, lesson_content=False):
         if isinstance(value, dict):
             for key, child in value.items():
-                if key in {"ka", "example", "sound_example", "text"} and isinstance(child, str):
+                if key in {"ka", "example", "sound_example", "text", "reading_text"} and isinstance(child, str):
                     found["ka"].add(normalise_speech(child))
+                    if lesson_content:
+                        found["ka"].update(normalise_speech(match.group(0)) for match in GEORGIAN_SEGMENT.finditer(child))
+                elif lesson_content and key in {"body", "prompt", "takeaway", "explanation"} and isinstance(child, str):
+                    found["ka"].update(normalise_speech(match.group(0)) for match in GEORGIAN_SEGMENT.finditer(child))
                 elif key in {"fr", "example_fr"} and isinstance(child, str):
                     found["fr"].add(normalise_speech(child))
                 elif key == "examples" and isinstance(child, list):
@@ -35,10 +41,14 @@ def phrases():
                         if isinstance(pair, list) and len(pair) >= 2:
                             found["ka"].add(normalise_speech(pair[0]))
                             found["fr"].add(normalise_speech(pair[1]))
-                visit(child)
+                elif lesson_content and key == "options" and isinstance(child, list):
+                    for option in child:
+                        if isinstance(option, str):
+                            found["ka"].update(normalise_speech(match.group(0)) for match in GEORGIAN_SEGMENT.finditer(option))
+                visit(child, lesson_content)
         elif isinstance(value, list):
             for child in value:
-                visit(child)
+                visit(child, lesson_content)
 
     for path in CONTENT.glob("*.json"):
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -46,7 +56,7 @@ def phrases():
             uncertain = set(data.get("uncertain_ids", []))
             fields = data["fields"]
             data = [dict(zip(fields, row)) for row in data["items"] if row[0] not in uncertain]
-        visit(data)
+        visit(data, path.name == "elearning_lessons.json")
     return {language: sorted(text for text in texts if text) for language, texts in found.items()}
 
 

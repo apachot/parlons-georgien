@@ -243,3 +243,4 @@ async function playSpeech(text, language, button) {
     button.title = language === 'fr' ? 'Audio français non préparé sur cette installation.' : 'Audio géorgien non préparé sur cette installation.';
   }
 }
+window.playSpeech = playSpeech;

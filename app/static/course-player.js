@@ -40,6 +40,25 @@
   } catch (_) {}
 
   const node = (tag, cls, content) => { const el = document.createElement(tag); if (cls) el.className = cls; if (content != null) el.textContent = content; return el; };
+  const georgianSegments = text => String(text || '').match(/[\u10A0-\u10FF]+(?:[\s.,;:!?·-]+[\u10A0-\u10FF]+)*/gu) || [];
+  function addAudioButton(parent, text, label = 'Écouter en géorgien') {
+    const button = node('button', 'course-audio-button', '▶ Écouter');
+    button.type = 'button'; button.setAttribute('aria-label', label); button.title = label;
+    button.addEventListener('click', event => {
+      event.stopPropagation();
+      if (typeof window.playSpeech === 'function') window.playSpeech(text, 'ka', button);
+      else button.title = 'Le lecteur audio est indisponible.';
+    });
+    parent.append(button);
+    return button;
+  }
+  function addInlineAudio(parent, text) {
+    const segments = georgianSegments(text);
+    if (!segments.length) return;
+    const controls = node('div', 'course-inline-audio');
+    segments.forEach((segment, index) => addAudioButton(controls, segment, `Écouter ${segment}`));
+    parent.append(controls);
+  }
   function saveProgress(completed = false) {
     try {
       localStorage.setItem(progressKey, JSON.stringify({
@@ -60,24 +79,32 @@
     questionSolved = false; wrongOnQuestion = 0; wrongChoices = new Set();
     const slide = lesson.slides[slideIndex];
     stage.replaceChildren(); stage.className = 'course-slide';
-    stage.append(node('div', 'eyebrow', slide.eyebrow), node('h2', '', slide.title), node('p', 'course-slide-body', slide.body));
+    stage.append(node('div', 'eyebrow', slide.eyebrow), node('h2', '', slide.title));
+    const body = node('p', 'course-slide-body', slide.body);
+    stage.append(body);
+    addInlineAudio(stage, slide.body);
     if (slide.reading_text) {
       const passage = node('div', 'course-reading-passage');
       passage.append(node('span', 'course-reading-label', 'Texte géorgien'), node('p', 'ka', slide.reading_text));
       passage.lang = 'ka';
+      addAudioButton(passage, slide.reading_text, 'Écouter le passage en géorgien');
       stage.append(passage);
     }
     if (slide.examples?.length) {
       const examples = node('div', 'course-examples');
       slide.examples.forEach(example => {
         const card = node('div', 'course-example');
-        card.append(node('b', 'course-example-ka ka', example.ka), node('span', '', example.fr));
+        card.append(node('b', 'course-example-ka ka', example.ka));
+        addInlineAudio(card, example.ka);
+        card.append(node('span', '', example.fr));
         if (example.note) card.append(node('small', '', example.note));
         examples.append(card);
       });
       stage.append(examples);
     }
-    stage.append(node('div', 'course-takeaway', slide.takeaway));
+    const takeaway = node('div', 'course-takeaway', slide.takeaway);
+    stage.append(takeaway);
+    addInlineAudio(takeaway, slide.takeaway);
     prev.disabled = slideIndex === 0;
     next.textContent = checkpoints.has(slideIndex + 1) ? 'Faire le point →' : (slideIndex === lesson.slides.length - 1 ? 'Terminer la leçon →' : 'Continuer →');
     updateProgress();
@@ -89,9 +116,11 @@
     const correctAnswer = q.answer_index == null ? q.answer : q.options[q.answer_index];
     stage.replaceChildren(); stage.className = 'course-slide course-quiz';
     stage.append(node('div', 'eyebrow', checkpoint.title || 'À VOUS DE JOUER'), node('h2', '', q.prompt));
+    addInlineAudio(stage, q.prompt);
     if (q.context) stage.append(node('p', 'course-quiz-context', q.context));
     const options = node('div', 'course-quiz-options');
     q.options.forEach((option, index) => {
+      const row = node('div', 'course-quiz-option-row');
       const button = node('button', 'course-quiz-option', option); button.type = 'button';
       if (wrongChoices.has(index)) { button.classList.add('is-wrong'); button.disabled = true; }
       button.addEventListener('click', () => {
@@ -100,8 +129,9 @@
           questionSolved = true;
           button.classList.add('is-correct');
           const earned = 1 / (wrongOnQuestion + 1); score += earned; answered++;
-          Array.from(options.children).forEach(item => item.disabled = true);
-          const feedback = node('p', 'course-quiz-feedback is-correct', q.explanation || 'Exact !');
+          options.querySelectorAll('.course-quiz-option').forEach(item => item.disabled = true);
+          const feedback = node('div', 'course-quiz-feedback is-correct', q.explanation || 'Exact !');
+          addInlineAudio(feedback, q.explanation);
           stage.querySelector('.course-quiz-feedback')?.remove();
           stage.append(feedback); next.textContent = questionIndex + 1 < checkpoint.questions.length ? 'Question suivante →' : 'Continuer la leçon →';
           next.dataset.quizAnswered = 'true';
@@ -114,15 +144,18 @@
         }
         saveProgress();
       });
-      options.append(button);
+      row.append(button);
+      if (georgianSegments(option).length) addAudioButton(row, option, `Écouter ${option}`);
+      options.append(row);
     });
     stage.append(options); next.dataset.quizAnswered = String(questionSolved);
     if (questionSolved) {
       const correctIndex = q.options.indexOf(correctAnswer);
-      const correctButton = options.children[correctIndex];
+      const correctButton = options.querySelectorAll('.course-quiz-option')[correctIndex];
       correctButton?.classList.add('is-correct');
-      Array.from(options.children).forEach(item => item.disabled = true);
-      stage.append(node('p', 'course-quiz-feedback is-correct', q.explanation || 'Exact !'));
+      options.querySelectorAll('.course-quiz-option').forEach(item => item.disabled = true);
+      const feedback = node('div', 'course-quiz-feedback is-correct', q.explanation || 'Exact !');
+      addInlineAudio(feedback, q.explanation); stage.append(feedback);
     }
     next.textContent = questionSolved ? (questionIndex + 1 < checkpoint.questions.length ? 'Question suivante →' : 'Continuer la leçon →') : 'Répondre aux questions';
     next.disabled = !questionSolved;
