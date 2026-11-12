@@ -129,6 +129,7 @@
           questionSolved = true;
           button.classList.add('is-correct');
           const earned = 1 / (wrongOnQuestion + 1); score += earned; answered++;
+          if (typeof playSuccessSound === 'function') playSuccessSound();
           options.querySelectorAll('.course-quiz-option').forEach(item => item.disabled = true);
           const feedback = node('div', 'course-quiz-feedback is-correct', q.explanation || 'Exact !');
           addInlineAudio(feedback, q.explanation);
