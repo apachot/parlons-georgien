@@ -134,6 +134,19 @@ def create_app(test_config=None):
                                words=load_content("vocabulary"),
                                recognition_versions=load_content("alphabet_recognition_a1"))
 
+    @app.get("/lessons")
+    def courses():
+        lessons = load_content("elearning_lessons")
+        return render_template("courses.html", lessons=lessons)
+
+    @app.get("/lessons/<lesson_id>")
+    def course_lesson(lesson_id):
+        lessons = load_content("elearning_lessons")
+        lesson = next((item for item in lessons if item["id"] == lesson_id), None)
+        if lesson is None:
+            return render_template("not_found.html"), 404
+        return render_template("course_lesson.html", lesson=lesson)
+
     @app.get("/lesson/<lesson_id>")
     def lesson(lesson_id):
         lessons = load_content("lessons")

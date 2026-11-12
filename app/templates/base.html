@@ -5,13 +5,13 @@
   <meta name="theme-color" content="#fbf8f1">
   <title>{% block title %}Parlons géorgien — apprendre le géorgien{% endblock %}</title>
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='parlons-georgien-logo.png') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=learner-history-v1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=course-first-lesson-v1">
   {% block page_styles %}{% endblock %}
 </head>
 <body>
 <header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='parlons-georgien-logo.png') }}" alt=""><span>Parlons géorgien<small>le géorgien au quotidien</small></span></a>
   <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-  <nav class="nav"><a href="{{ url_for('home') }}">Accueil</a><a href="{{ url_for('alphabet') }}">Alphabet</a><a href="{{ url_for('vocabulary') }}">Vocabulaire</a><a href="{{ url_for('reading') }}">Lecture</a><a href="{{ url_for('comprehension') }}">Compréhension orale</a><a href="{{ url_for('dictations') }}">Dictées</a><a href="{{ url_for('grammar') }}">Grammaire</a><a href="{{ url_for('dialogues') }}">Dialogues</a></nav>
+  <nav class="nav"><a href="{{ url_for('home') }}">Accueil</a><a href="{{ url_for('courses') }}">Leçons</a><a href="{{ url_for('alphabet') }}">Alphabet</a><a href="{{ url_for('vocabulary') }}">Vocabulaire</a><a href="{{ url_for('reading') }}">Lecture</a><a href="{{ url_for('comprehension') }}">Compréhension orale</a><a href="{{ url_for('dictations') }}">Dictées</a><a href="{{ url_for('grammar') }}">Grammaire</a><a href="{{ url_for('dialogues') }}">Dialogues</a></nav>
   <button class="learner-level" id="learner-level" type="button" aria-haspopup="dialog" aria-controls="progress-dialog"><span>Niveau estimé</span><strong id="learner-level-value">A1</strong><small id="learner-level-caption">À confirmer</small></button>
 </header>
 <main>{% block content %}{% endblock %}</main>

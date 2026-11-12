@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}{{ lesson.title }} — Parlons géorgien{% endblock %}{% block content %}
+<section class="course-player page-wrap" id="course-player" data-activity-panel data-difficulty="{{ lesson.level }}">
+  <a class="course-back-link" href="{{ url_for('courses') }}">← Toutes les leçons</a>
+  <header class="course-player-head"><div><div class="eyebrow">Leçon interactive · <span id="course-tag">{{ lesson.tag }}</span></div><h1>{{ lesson.title }}</h1><p>{{ lesson.goal }}</p></div><span class="cefr-pill course-level">{{ lesson.level }}</span></header>
+  <div class="course-progress-head"><span id="course-step-label">Slide 1</span><span id="course-progress-label">0 %</span></div><div class="course-progress"><i id="course-progress-fill"></i></div>
+  <div id="course-live" class="sr-only" aria-live="polite"></div>
+  <article class="course-slide" id="course-stage" aria-live="polite"></article>
+  <div class="course-controls" id="course-controls"><button class="button secondary" id="course-prev" type="button">← Précédent</button><button class="button primary" id="course-next" type="button">Continuer →</button></div>
+  <section class="course-result hidden" id="course-result" aria-live="polite"></section>
+</section>
+<script type="application/json" id="course-data">{{ lesson|tojson }}</script>
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='course-player.js') }}?v=first-lesson-v1" defer></script>{% endblock %}

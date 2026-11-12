@@ -1,0 +1,98 @@
+[
+  {
+    "id": "alphabet-georgien",
+    "title": "L’alphabet géorgien",
+    "level": "A1",
+    "tag": "Première leçon · 10 min",
+    "icon": "🔤",
+    "goal": "Reconnaître le mkhedruli, repérer les voyelles et distinguer les sons qui se ressemblent.",
+    "slides": [
+      {
+        "eyebrow": "01 · UN NOUVEL ALPHABET",
+        "title": "33 lettres, une seule écriture",
+        "body": "Le géorgien s’écrit avec le mkhedruli (მხედრული). L’alphabet moderne compte 33 lettres. Chaque lettre a une forme propre : il n’y a pas de majuscules et de minuscules comme en français.",
+        "examples": [{"ka":"ქართული","fr":"géorgien","note":"Le mot commence par ქ."}],
+        "takeaway": "Lis de gauche à droite et observe la forme de chaque lettre."
+      },
+      {
+        "eyebrow": "02 · LES VOYELLES",
+        "title": "Cinq voyelles à reconnaître",
+        "body": "Les voyelles sont ა, ე, ი, ო et უ. Leurs sons sont assez stables : a, è/é, i, o et ou. Elles s’écrivent dans la ligne comme les consonnes, sans signe particulier.",
+        "examples": [
+          {"ka":"ა · ე · ი · ო · უ","fr":"a · é · i · o · ou","note":"Les cinq voyelles géorgiennes."},
+          {"ka":"დედა","fr":"mère","note":"On entend les voyelles e-a."}
+        ],
+        "takeaway": "Repère les cinq formes avant de lire le mot entier."
+      },
+      {
+        "eyebrow": "03 · DES CONSONNES FAMILIÈRES",
+        "title": "Commence par les sons faciles à isoler",
+        "body": "Plusieurs lettres correspondent à des sons familiers : ბ (b), დ (d), მ (m), ნ (n), ლ (l) et ს (s). Lis-les sans ajouter de voyelle entre les consonnes.",
+        "examples": [
+          {"ka":"მამა","fr":"père","note":"მ · ა · მ · ა"},
+          {"ka":"სახლი","fr":"maison","note":"Le groupe სახლ se lit d’un seul élan."}
+        ],
+        "takeaway": "Décompose en lettres, puis rassemble les sons sans insérer de « e » français."
+      },
+      {
+        "eyebrow": "04 · SOUFFLE ET ÉJECTION",
+        "title": "Des consonnes proches, mais distinctes",
+        "body": "Certaines consonnes se distinguent par la façon dont l’air sort. თ, ქ, ფ, ჩ et ც sont aspirées : un souffle accompagne le son. ტ, კ, პ, ჭ, წ et ყ sont éjectives : le son est produit par une fermeture de la glotte. Ce contraste n’existe pas exactement en français.",
+        "examples": [
+          {"ka":"თ · ტ","fr":"t aspiré · t éjectif","note":"Deux sons différents : ne les confonds pas."},
+          {"ka":"ქარი · კარი","fr":"vent · porte","note":"ქ et კ changent le mot."}
+        ],
+        "takeaway": "Pour entendre la différence, écoute un modèle géorgien ; les lettres seules ne suffisent pas toujours."
+      },
+      {
+        "eyebrow": "05 · LES GROUPES DE CONSONNES",
+        "title": "Lis les consonnes qui se suivent",
+        "body": "En géorgien, plusieurs consonnes peuvent se suivre sans voyelle intermédiaire. C’est courant au début des mots. Prononce le groupe progressivement, mais garde les lettres dans l’ordre.",
+        "examples": [
+          {"ka":"ძმა","fr":"frère","note":"Le début ძმ se lit sans voyelle ajoutée."},
+          {"ka":"მზე","fr":"soleil","note":"Le groupe მზ reste lié."},
+          {"ka":"წყალი","fr":"eau","note":"Lis chaque lettre dans l’ordre, même dans ce groupe dense."}
+        ],
+        "takeaway": "Évite d’ajouter une voyelle qui n’est pas écrite."
+      },
+      {
+        "eyebrow": "06 · PREMIÈRE LECTURE",
+        "title": "Assemble les formes et le sens",
+        "body": "La reconnaissance devient plus facile quand tu relies la forme écrite à un mot connu. Commence lentement, repère les lettres, puis relis le mot d’un seul mouvement.",
+        "examples": [
+          {"ka":"კარი","fr":"porte","note":"კ est éjectif."},
+          {"ka":"ქარი","fr":"vent","note":"ქ est aspiré : une seule lettre distingue les deux mots."},
+          {"ka":"გამარჯობა","fr":"bonjour","note":"Un mot utile à reconnaître d’un seul regard."}
+        ],
+        "takeaway": "À toi : le QCM final vérifie les formes, les voyelles et les contrastes."
+      }
+    ],
+    "checks": [
+      {
+        "after_slide": 2,
+        "questions": [
+          {"prompt":"Combien de lettres compte l’alphabet géorgien moderne ?","options":["33","26","5","42"],"answer":"33","explanation":"Le mkhedruli moderne compte 33 lettres."},
+          {"prompt":"Quelle série contient les cinq voyelles géorgiennes ?","options":["ა, ე, ი, ო, უ","ბ, დ, მ, ნ, ს","თ, ტ, ქ, კ, ფ","ა, ბ, გ, დ, ე"],"answer":"ა, ე, ი, ო, უ","explanation":"Les cinq voyelles sont ა, ე, ი, ო et უ."}
+        ]
+      },
+      {
+        "after_slide": 4,
+        "questions": [
+          {"prompt":"Quelle lettre est une consonne éjective ?","options":["კ","ქ","ს","მ"],"answer":"კ","explanation":"კ est éjective ; ქ est aspirée."},
+          {"prompt":"Que faut-il faire quand plusieurs consonnes se suivent dans un mot géorgien ?","options":["Les lire dans l’ordre sans ajouter une voyelle absente","Ajouter un « e » entre chaque consonne","Ignorer la première consonne","Lire le mot de droite à gauche"],"answer":"Les lire dans l’ordre sans ajouter une voyelle absente","explanation":"Les groupes de consonnes sont fréquents ; on ne rajoute pas de voyelle qui n’est pas écrite."}
+        ]
+      },
+      {
+        "after_slide": 6,
+        "questions": [
+          {"prompt":"Quelle lettre commence le mot კარი (« porte ») ?","options":["კ","ქ","ყ","ჭ"],"answer":"კ","explanation":"კარი (« porte ») commence par კ, une consonne éjective."},
+          {"prompt":"Quelle affirmation sur l’écriture est correcte ?","options":["Le mkhedruli moderne n’emploie pas de majuscules et de minuscules","Chaque consonne doit être suivie d’une voyelle","Le géorgien s’écrit de droite à gauche","Il existe 26 lettres"],"answer":"Le mkhedruli moderne n’emploie pas de majuscules et de minuscules","explanation":"Les lettres géorgiennes ont une forme unique, sans opposition majuscule/minuscule."}
+        ]
+      }
+    ],
+    "related": [
+      {"title":"Écouter les sons des lettres","href":"/alphabet#alphabet-practice"},
+      {"title":"Parcourir les 33 lettres","href":"/alphabet#alphabet-grid"}
+    ]
+  }
+]

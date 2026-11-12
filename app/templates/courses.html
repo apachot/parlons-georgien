@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block title %}Leçons interactives — Parlons géorgien{% endblock %}{% block content %}
+<section class="course-catalog page-wrap">
+  <div class="course-catalog-hero"><div><div class="eyebrow">Apprendre pas à pas · parcours interactifs</div><h1>Les leçons qui font <em>progresser.</em></h1><p>Des explications courtes, des exemples à lire et des questions régulières pour vérifier ce que vous retenez.</p></div><div class="course-catalog-mark" aria-hidden="true">✦</div></div>
+  <div class="course-catalog-heading"><div><span class="eyebrow">Votre bibliothèque</span><h2>Commencer par les bases</h2></div><span>Une leçon à la fois · progression mémorisée sur cet appareil</span></div>
+  <div class="course-card-grid">{% for lesson in lessons %}<a class="course-card" href="{{ url_for('course_lesson', lesson_id=lesson.id) }}" data-course-id="{{ lesson.id }}">
+    <div class="course-card-top"><span class="course-icon">{{ lesson.icon }}</span><span class="cefr-pill">{{ lesson.level }}</span></div><small>{{ lesson.tag }}</small><h3>{{ lesson.title }}</h3><p>{{ lesson.goal }}</p><div class="course-card-bottom"><span class="course-completed hidden">✓ Leçon terminée</span><b>Commencer <span>↗</span></b></div>
+  </a>{% endfor %}</div>
+</section>
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='course-catalog.js') }}?v=first-lesson-v1" defer></script>{% endblock %}
