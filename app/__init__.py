@@ -131,7 +131,8 @@ def create_app(test_config=None):
     @app.get("/alphabet")
     def alphabet():
         return render_template("alphabet.html", letters=load_content("alphabet"),
-                               words=load_content("vocabulary"))
+                               words=load_content("vocabulary"),
+                               recognition_versions=load_content("alphabet_recognition_a1"))
 
     @app.get("/lesson/<lesson_id>")
     def lesson(lesson_id):
@@ -624,10 +625,14 @@ def create_app(test_config=None):
     def quiz():
         if request.args.get("kind") == "alphabet":
             letters = load_content("alphabet")
-            letter = random.choice(letters)
+            letter_id = request.args.get("letter_id")
+            letter = next((item for item in letters if item["id"] == letter_id), None) if letter_id else random.choice(letters)
+            if letter is None:
+                return jsonify({"error": "Lettre inconnue."}), 404
             choices = [letter["letter"]] + [x["letter"] for x in random.sample([x for x in letters if x["id"] != letter["id"]], 3)]
-            return jsonify({"id": letter["id"], "kind": "alphabet", "prompt": letter["letter"],
-                            "choices": choices, "answer": letter["letter"], "note": letter["note"]})
+            random.shuffle(choices)
+            return jsonify({"id": letter["id"], "kind": "alphabet", "prompt": letter["example"],
+                            "choices": choices, "note": letter["note"]})
         vocab = load_content("vocabulary")
         due_ids = {p.item_id for p in Progress.query.filter(Progress.due_at <= func.now()).all()}
         due_vocab = [w for w in vocab if w["id"] in due_ids]

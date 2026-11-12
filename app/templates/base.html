@@ -6,6 +6,7 @@
   <title>{% block title %}Parlons géorgien — apprendre le géorgien{% endblock %}</title>
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='parlons-georgien-logo.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=exercise-level-v1">
+  {% block page_styles %}{% endblock %}
 </head>
 <body>
 <header class="topbar"><a class="brand" href="{{ url_for('home') }}"><img class="brand-mark" src="{{ url_for('static', filename='parlons-georgien-logo.png') }}" alt=""><span>Parlons géorgien<small>le géorgien au quotidien</small></span></a>

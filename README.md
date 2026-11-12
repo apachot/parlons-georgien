@@ -33,7 +33,7 @@ La voix française s’appuie sur la base SIWIS, sous licence CC BY 4.0 ; attrib
 ## Ce qui est inclus
 
 - Tableau de bord, 10 leçons de situation avec 8 questions de validation chacune (géorgien → français et français → géorgien), et séance de révision à choix multiples.
-- Les 33 lettres mkhedruli, une activité de reconnaissance, exemples, translittération et aide de prononciation en français.
+- Les 33 lettres mkhedruli, 20 manches distinctes A1 de reconnaissance du son initial, exemples, translittération et aide de prononciation en français.
 - Une nouvelle page d’accueil du vocabulaire avec quatre jeux : paires géorgien–français, quiz TTS dans les deux directions, associations mot–image et mémory.
 - 44 pictogrammes OpenMoji de vocabulaire stockés localement ; attribution et licence CC BY-SA 4.0 dans la page et `app/static/images/openmoji/ATTRIBUTION.txt`.
 - Dictées de 10 mots par séance : écoute Piper, saisie avec clavier mkhedruli, correction exacte et suivi des erreurs.

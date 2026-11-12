@@ -1,0 +1,22 @@
+.letter-session-count {
+  display: inline-flex;
+  align-items: center;
+  margin: 8px 0 12px;
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f7f5ef;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: .02em;
+}
+
+.alphabet-practice .letter-prompt {
+  font-size: 16px;
+  color: var(--muted);
+}
+
+.alphabet-practice #letter-restart {
+  margin: 4px 0 8px;
+}

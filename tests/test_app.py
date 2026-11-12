@@ -46,6 +46,20 @@ class AppFlowTests(unittest.TestCase):
         self.assertIn(b'id="speed-start"', alphabet_page.data)
         self.assertIn(b'id="speed-result"', alphabet_page.data)
         self.assertIn(b'id="alphabet-data"', alphabet_page.data)
+        self.assertIn(b'id="alphabet-recognition-data"', alphabet_page.data)
+        self.assertIn(b'id="letter-session-count"', alphabet_page.data)
+
+    def test_alphabet_recognition_bank_has_twenty_distinct_a1_versions(self):
+        versions = load_content("alphabet_recognition_a1")
+        self.assertEqual(len(versions), 20)
+        self.assertEqual(len({tuple(item["letter_ids"]) for item in versions}), 20)
+        letters = {item["id"] for item in load_content("alphabet")}
+        for item in versions:
+            self.assertEqual(item["cefr"], "A1")
+            self.assertEqual(item["exercise"], "alphabet-sound-recognition")
+            self.assertEqual(len(item["letter_ids"]), 12)
+            self.assertEqual(len(set(item["letter_ids"])), 12)
+            self.assertTrue(set(item["letter_ids"]) <= letters)
 
     def test_vocabulary_image_set_is_local_and_license_attributed(self):
         illustrations = load_content("vocabulary_images")

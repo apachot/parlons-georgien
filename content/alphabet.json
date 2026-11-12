@@ -25,8 +25,8 @@
   "name": "gani",
   "sound": "g",
   "pron": "g dur, comme dans « gare »",
-  "example": "კარგი",
-  "example_fr": "bien, bon",
+  "example": "გემი",
+  "example_fr": "bateau",
   "note": "გ garde toujours le son dur de « gare »."
  },
  {
@@ -225,8 +225,8 @@
   "name": "ghani",
   "sound": "fricative sonore gutturale",
   "pron": "son râpeux et sonore, approximatif",
-  "example": "დღე",
-  "example_fr": "jour",
+  "example": "ღამე",
+  "example_fr": "nuit",
   "note": "ღ n’a pas d’équivalent exact en français ; c’est une fricative sonore profonde."
  },
  {

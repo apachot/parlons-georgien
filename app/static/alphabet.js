@@ -1,4 +1,5 @@
 const alphabetSpeedLetters = JSON.parse(document.querySelector('#alphabet-data')?.textContent || '[]');
+const alphabetRecognitionVersions = JSON.parse(document.querySelector('#alphabet-recognition-data')?.textContent || '[]');
 const speed = {
   intro: document.querySelector('#speed-intro'),
   play: document.querySelector('#speed-play'),
@@ -135,7 +136,42 @@ document.addEventListener('keydown', event => {
 });
 
 let letterQuestionGeneration = 0;
+let activeRecognitionVersion = null;
+let recognitionQuestionIndex = 0;
+let recognitionCorrectCount = 0;
+let previousRecognitionVersionId = null;
+
+function startLetterRecognition() {
+  if (!alphabetRecognitionVersions.length) return;
+  const candidates = alphabetRecognitionVersions.filter(item => item.id !== previousRecognitionVersionId);
+  activeRecognitionVersion = candidates[Math.floor(Math.random() * candidates.length)];
+  previousRecognitionVersionId = activeRecognitionVersion.id;
+  recognitionQuestionIndex = 0;
+  recognitionCorrectCount = 0;
+  document.querySelector('#letter-restart').classList.add('hidden');
+  document.querySelector('#letter-session-count').textContent = `Variante ${activeRecognitionVersion.version} · Question 1 / ${activeRecognitionVersion.letter_ids.length}`;
+  newLetterQuestion();
+}
+
+function finishLetterRecognition() {
+  document.querySelector('#letter-audio').classList.add('hidden');
+  document.querySelector('#letter-choices').replaceChildren();
+  document.querySelector('#letter-prompt').textContent = 'Manche terminée !';
+  document.querySelector('#letter-session-count').textContent = `Variante ${activeRecognitionVersion.version} · ${recognitionCorrectCount} / ${activeRecognitionVersion.letter_ids.length} justes`;
+  document.querySelector('#letter-feedback').textContent = 'Les lettres isolées restent au niveau A1. Choisissez une autre variante pour continuer.';
+  document.querySelector('#letter-restart').classList.remove('hidden');
+}
+
+function advanceLetterRecognition() {
+  recognitionQuestionIndex++;
+  newLetterQuestion();
+}
+
 async function newLetterQuestion() {
+  if (!activeRecognitionVersion || recognitionQuestionIndex >= activeRecognitionVersion.letter_ids.length) {
+    if (activeRecognitionVersion) finishLetterRecognition();
+    return;
+  }
   const generation = ++letterQuestionGeneration;
   stopSpeechPlayback();
   const audioButton = document.querySelector('#letter-audio');
@@ -143,10 +179,12 @@ async function newLetterQuestion() {
   const holder = document.querySelector('#letter-choices');
   audioButton.classList.add('hidden'); holder.replaceChildren(); feedback.textContent = 'Préparation de la question…';
   try {
-    const response = await fetch(appPath('/api/quiz?kind=alphabet'));
+    const letterId = activeRecognitionVersion.letter_ids[recognitionQuestionIndex];
+    const response = await fetch(appPath(`/api/quiz?kind=alphabet&letter_id=${encodeURIComponent(letterId)}`));
     if (!response.ok) throw new Error('Question indisponible');
     const question = await response.json();
     if (generation !== letterQuestionGeneration) return;
+    document.querySelector('#letter-session-count').textContent = `Variante ${activeRecognitionVersion.version} · Question ${recognitionQuestionIndex + 1} / ${activeRecognitionVersion.letter_ids.length}`;
     audioButton.classList.remove('hidden'); audioButton.disabled = false;
     audioButton.textContent = '▶ Réécouter le son'; audioButton.dataset.original = audioButton.textContent;
     audioButton.onclick = () => playSpeech(question.prompt, 'ka', audioButton);
@@ -164,13 +202,14 @@ async function newLetterQuestion() {
           if (generation !== letterQuestionGeneration) return;
           button.classList.add(result.correct?'choice-correct':'choice-wrong');
           if (result.correct) {
+            recognitionCorrectCount++;
             playSuccessSound();
-            newLetterQuestion();
+            advanceLetterRecognition();
           } else {
             button.disabled = true;
             holder.querySelectorAll('button:not(:disabled)').forEach(option => option.disabled = false);
             feedback.textContent = 'Pas tout à fait. Gardez le même son et essayez une autre lettre.';
-            offerSkipButton(feedback, () => newLetterQuestion(), 'Passer cette question →');
+            offerSkipButton(feedback, advanceLetterRecognition, 'Passer cette question →');
             answering = false;
           }
         } catch (_) {
@@ -183,14 +222,14 @@ async function newLetterQuestion() {
     });
     playSpeech(question.prompt, 'ka', audioButton);
   } catch (_) {
-    if (generation === letterQuestionGeneration) feedback.textContent = 'La question n’a pas pu être chargée. Choisissez « Nouvelle question » pour réessayer.';
+    if (generation === letterQuestionGeneration) {
+      feedback.textContent = 'La question n’a pas pu être chargée. Relancez une variante pour réessayer.';
+      document.querySelector('#letter-restart').classList.remove('hidden');
+    }
   }
 }
 document.querySelector('.activity-card[href="#alphabet-practice"]')?.addEventListener('click', () => {
   clearAutoAdvance();
-  newLetterQuestion();
+  startLetterRecognition();
 });
-document.querySelector('#letter-next')?.addEventListener('click', () => {
-  clearAutoAdvance();
-  newLetterQuestion();
-});
+document.querySelector('#letter-restart')?.addEventListener('click', startLetterRecognition);

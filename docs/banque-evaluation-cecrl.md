@@ -85,6 +85,10 @@ La première famille pilote est la compréhension écrite guidée. Vingt passage
 
 Les 17 nouveaux passages A2 sont des récits courts enchaînant plusieurs actions, avec des repères temporels, des raisons ou des contrastes. Les 17 variantes B1 ajoutées ensuite développent davantage les récits et demandent de relier causes, conséquences ou décisions. Les 21 variantes B2 ajoutent des textes plus développés sur des sujets de société, de travail et de culture, avec des questions de synthèse, d’inférence et d’évaluation des arguments. Les 24 variantes C1 ajoutent des textes argumentatifs et analytiques qui demandent d’interpréter les limites d’un indicateur, de distinguer corrélation et causalité, de reconnaître les biais ou de reconstruire un arbitrage. Les 28 variantes C2 mobilisent l’ironie, les présupposés, les effets de cadrage, l’implicite et les limites de l’interprétation. Le niveau du sticker de lecture guidée suit le passage choisi. Les deux textes longs d’examen portent leur niveau depuis leur contenu (A2 ou B1), au lieu d’hériter d’une difficulté unique attachée au format. Le parcours de compréhension orale guidée réutilise aussi ces passages et le même niveau CECRL.
 
+## Deuxième tranche : reconnaissance des sons de l’alphabet
+
+La famille « Sons et reconnaissance des lettres » reste en A1 : l’exercice fait entendre automatiquement un mot géorgien sans l’afficher, puis demande de choisir la lettre initiale. Vingt variantes distinctes de douze lettres sont définies dans `content/alphabet_recognition_a1.json`. La lettre est évaluée à partir d’un mot courant prononcé en géorgien ; cette famille ne reçoit pas de niveaux supérieurs puisque la reconnaissance des lettres isolées est une compétence débutante.
+
 ## Statistiques à suivre
 
 Le tableau de bord de la banque devra distinguer, pour chaque famille et chaque niveau : versions rédigées, versions vérifiées, versions actives, couverture sur la cible de 20, items disponibles et taux de réussite observé. Les contenus partagés entre lecture et écoute seront comptés comme une ressource source, tout en restant dénombrés comme versions dans chacune des deux compétences évaluées.
