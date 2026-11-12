@@ -1,3 +1,88 @@
+const oralClipCache = new Map();
+const oralPlayerUrls = new WeakMap();
+const oralPlayerRequests = new WeakMap();
+
+function stopOralPlayer(player) {
+  if (!player) return;
+  oralPlayerRequests.set(player, null);
+  player.querySelector('audio')?.pause();
+  player.classList.add('hidden');
+}
+
+async function loadOralPlayer(player, text) {
+  if (!player) return;
+  const audio = player.querySelector('audio');
+  const status = player.querySelector('.oral-player-status');
+  const speed = player.querySelector('.oral-speed');
+  const requestToken = Symbol('oral-audio-request');
+  oralPlayerRequests.set(player, requestToken);
+  player.classList.remove('hidden');
+  audio.pause();
+  audio.removeAttribute('src');
+  audio.load();
+  const previousUrl = oralPlayerUrls.get(audio);
+  if (previousUrl) URL.revokeObjectURL(previousUrl);
+  oralPlayerUrls.delete(audio);
+  status.textContent = 'Préparation de l’enregistrement…';
+  const normalized = String(text || '').trim().replace(/\s+/g, ' ');
+  const cacheKey = `ka\0${normalized}`;
+  try {
+    let blobPromise = oralClipCache.get(cacheKey);
+    if (!blobPromise) {
+      blobPromise = fetch(appPath('/api/audio'), {
+        method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({lang: 'ka', text: normalized})
+      }).then(async response => {
+        if (!response.ok) throw new Error('Enregistrement indisponible');
+        return response.blob();
+      });
+      oralClipCache.set(cacheKey, blobPromise);
+    }
+    const blob = await blobPromise;
+    if (oralPlayerRequests.get(player) !== requestToken) return;
+    const url = URL.createObjectURL(blob);
+    oralPlayerUrls.set(audio, url);
+    audio.src = url;
+    audio.playbackRate = Number(speed.value || 1);
+    audio.load();
+    status.textContent = 'Écoute prête : vous pouvez mettre sur pause, vous déplacer dans le passage et régler la vitesse.';
+    try {
+      await audio.play();
+      if (oralPlayerRequests.get(player) === requestToken) status.textContent = 'Lecture en cours.';
+    } catch (_) {
+      if (oralPlayerRequests.get(player) === requestToken) status.textContent = 'Appuyez sur ▶ dans le lecteur pour commencer.';
+    }
+  } catch (_) {
+    if (oralPlayerRequests.get(player) === requestToken) status.textContent = 'L’enregistrement n’a pas pu être chargé. Réessayez en lançant le passage à nouveau.';
+    oralClipCache.delete(cacheKey);
+  }
+}
+
+document.querySelectorAll('[data-oral-player]').forEach(player => {
+  const audio = player.querySelector('audio');
+  const speed = player.querySelector('.oral-speed');
+  const rewind = player.querySelector('.oral-rewind');
+  const status = player.querySelector('.oral-player-status');
+  speed.addEventListener('change', () => { audio.playbackRate = Number(speed.value); });
+  rewind.addEventListener('click', () => {
+    try { audio.currentTime = Math.max(0, audio.currentTime - 5); } catch (_) {}
+  });
+  audio.addEventListener('ended', () => { status.textContent = 'Fin du passage.'; });
+  audio.addEventListener('error', () => { status.textContent = 'Erreur de lecture. Essayez de recharger le passage.'; });
+});
+document.querySelectorAll('.activity-card[href^="#"], [data-activity-back]').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('[data-oral-player]').forEach(player => player.querySelector('audio')?.pause());
+  });
+});
+
+window.addEventListener('pagehide', () => {
+  document.querySelectorAll('[data-oral-player] audio').forEach(audio => {
+    const url = oralPlayerUrls.get(audio);
+    if (url) URL.revokeObjectURL(url);
+  });
+});
+
 const readingRoot = document.querySelector('#reading');
 const readingTotal = Number(readingRoot?.dataset.total || 0);
 const readingSessionSize = Math.min(12, readingTotal);
@@ -6,6 +91,7 @@ const reading = {
   count: document.querySelector('#reading-count'),
   level: document.querySelector('#reading-level'),
   text: document.querySelector('#reading-text'),
+  audio: document.querySelector('#reading-player'),
   question: document.querySelector('#reading-question'),
   options: document.querySelector('#reading-options'),
   feedback: document.querySelector('#reading-feedback'),
@@ -45,7 +131,8 @@ async function loadReadingQuestion() {
   const level = Math.floor(readingTurn / 3) + 1;
   readingCurrent = null;
   reading.options.replaceChildren();
-  reading.text.textContent = 'Préparation du texte…';
+  reading.text.textContent = readingRoot.dataset.oral === 'true' ? '' : 'Préparation du texte…';
+  stopOralPlayer(reading.audio);
   reading.question.textContent = '';
   reading.level.textContent = `Niveau ${level} · ${['Premiers repères', 'Petits textes du quotidien', 'Repérer le temps des actions', 'Comprendre les détails'][level - 1]}`;
   reading.count.textContent = `Séance · ${readingTurn + 1} / ${readingSessionSize}`;
@@ -61,7 +148,11 @@ async function loadReadingQuestion() {
     if (!response.ok || item.empty) throw new Error(item.error || 'Texte indisponible');
     readingCurrent = item;
     readingSeenIds.get(level).add(item.id);
-    reading.text.textContent = item.text;
+    if (readingRoot.dataset.oral === 'true') {
+      reading.text.textContent = '';
+      reading.audio.classList.remove('hidden');
+      loadOralPlayer(reading.audio, item.text);
+    } else reading.text.textContent = item.text;
     reading.question.textContent = item.question;
     item.options.forEach(option => {
       const button = document.createElement('button');
@@ -72,7 +163,7 @@ async function loadReadingQuestion() {
       reading.options.append(button);
     });
   } catch (_) {
-    reading.text.textContent = 'Le texte n’a pas pu être chargé';
+    reading.text.textContent = readingRoot.dataset.oral === 'true' ? '' : 'Le texte n’a pas pu être chargé';
     setReadingFeedback('Réessayez dans un instant.', 'try-again');
     reading.start.textContent = 'Réessayer →';
     reading.start.classList.remove('hidden');
@@ -105,7 +196,9 @@ async function answerReading(answer, selected) {
     } else {
       selected.classList.add('choice-wrong');
       reading.options.querySelectorAll('button').forEach(button => button.disabled = button === selected);
-      reading.feedback.textContent = 'Pas tout à fait. Gardez le texte affiché et réessayez avec une autre proposition.';
+      reading.feedback.textContent = readingRoot.dataset.oral === 'true'
+        ? 'Pas tout à fait. Réécoutez le passage et essayez une autre proposition.'
+        : 'Pas tout à fait. Gardez le texte affiché et réessayez avec une autre proposition.';
       reading.feedback.className = 'feedback try-again';
     }
   } catch (_) {
@@ -118,10 +211,11 @@ async function answerReading(answer, selected) {
 
 function finishReadingSession() {
   const percentage = readingSessionSize ? Math.round(readingCorrect * 100 / readingSessionSize) : 0;
-  reading.text.textContent = 'Lecture terminée';
+  reading.text.textContent = readingRoot.dataset.oral === 'true' ? ' ' : 'Lecture terminée';
   reading.question.textContent = 'Chaque texte travaillé est enregistré pour vos prochaines révisions.';
   reading.level.textContent = 'Votre progression';
   reading.options.replaceChildren();
+  stopOralPlayer(reading.audio);
   reading.next.classList.add('hidden');
   reading.reveal.classList.add('hidden');
   setReadingFeedback('');
@@ -142,7 +236,7 @@ const examRoot = document.querySelector('#reading-exam');
 const exam = {
   level: document.querySelector('#exam-level'), title: document.querySelector('#exam-title'),
   clock: document.querySelector('#exam-clock'), meter: document.querySelector('#exam-meter'),
-  text: document.querySelector('#exam-text'), questionArea: document.querySelector('#exam-question-area'),
+  text: document.querySelector('#exam-text'), audio: document.querySelector('#exam-player'), questionArea: document.querySelector('#exam-question-area'),
   questionCount: document.querySelector('#exam-question-count'), question: document.querySelector('#exam-question'),
   options: document.querySelector('#exam-options'), feedback: document.querySelector('#exam-feedback'),
   next: document.querySelector('#exam-next'), instruction: document.querySelector('#exam-instruction'),
@@ -185,8 +279,11 @@ async function startReadingExam() {
   exam.translationToggle.setAttribute('aria-expanded', 'false');
   exam.start.classList.add('hidden'); exam.restart.classList.add('hidden');
   exam.questionArea.classList.add('hidden');
-  exam.text.textContent = 'Chargement du texte…';
-  exam.instruction.textContent = 'Lisez le passage à votre rythme. Les questions portent sur les faits, les liens logiques et les intentions.';
+  exam.text.textContent = examRoot.dataset.oral === 'true' ? '' : 'Chargement du texte…';
+  stopOralPlayer(exam.audio);
+  exam.instruction.textContent = examRoot.dataset.oral === 'true'
+    ? 'Écoutez le passage à votre rythme. Les questions portent sur les faits, les liens logiques et les intentions.'
+    : 'Lisez le passage à votre rythme. Les questions portent sur les faits, les liens logiques et les intentions.';
   try {
     const requestExam = () => fetch(appPath(`/api/reading/exam?exclude=${encodeURIComponent([...examSeen].join(','))}`));
     let response = await requestExam();
@@ -198,7 +295,11 @@ async function startReadingExam() {
     examItem = result; examSeen.add(result.id);
     exam.level.textContent = result.level_name;
     exam.title.textContent = result.title;
-    exam.text.textContent = result.text;
+    if (examRoot.dataset.oral === 'true') {
+      exam.text.textContent = '';
+      exam.audio.classList.remove('hidden');
+      loadOralPlayer(exam.audio, result.text);
+    } else exam.text.textContent = result.text;
     examIndex = 0; examScore = 0;
     showExamQuestion();
     updateExamClock();

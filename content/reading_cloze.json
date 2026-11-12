@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cloze-tbilisi",
+    "sentence": "თბილისში ___ და ქართულს ვსწავლობ.",
+    "answer": "ვცხოვრობ",
+    "options": ["ვცხოვრობ", "მივდივარ", "ვმუშაობ", "ვრჩები"],
+    "translation": "J’habite à Tbilissi et j’apprends le géorgien.",
+    "explanation": "ვცხოვრობ signifie « j’habite ». Le verbe s’accorde ici avec le sujet « je » sous-entendu."
+  },
+  {
+    "id": "cloze-market-purchase",
+    "sentence": "მაღაზიაში ორი ვაშლი და ერთი პური ___.",
+    "answer": "ვიყიდე",
+    "options": ["ვიყიდე", "ვიყიდი", "ვყიდი", "მინდა"],
+    "translation": "J’ai acheté deux pommes et un pain au magasin.",
+    "explanation": "ვიყიდე est le passé de « j’ai acheté ». Le contexte décrit un achat déjà effectué."
+  },
+  {
+    "id": "cloze-cold-weather",
+    "sentence": "ქარი ძლიერია და გარეთ ძალიან ___.",
+    "answer": "ცივა",
+    "options": ["ცივა", "ცხელა", "წვიმს", "მზიანია"],
+    "translation": "Le vent souffle fort et il fait très froid dehors.",
+    "explanation": "ცივა signifie « il fait froid ». Le vent fort donne un indice sur la météo."
+  },
+  {
+    "id": "cloze-together-tomorrow",
+    "sentence": "თუ გინდა, ხვალ ერთად ___.",
+    "answer": "წავიდეთ",
+    "options": ["წავიდეთ", "მივდივარ", "წავედი", "წახვალ"],
+    "translation": "Si tu veux, allons-y ensemble demain.",
+    "explanation": "წავიდეთ est la forme qui propose « allons-y ». ერთად signifie « ensemble » et ხვალ « demain »."
+  },
+  {
+    "id": "cloze-ticket-price",
+    "sentence": "ბილეთი ათი ___ ღირს.",
+    "answer": "ლარი",
+    "options": ["ლარი", "ლარს", "ლარიდან", "ლარით"],
+    "translation": "Le billet coûte dix laris.",
+    "explanation": "Après un nombre cardinal, le nom ლარი reste au singulier : ათი ლარი, « dix laris »."
+  },
+  {
+    "id": "cloze-speak-slowly",
+    "sentence": "თუ ქართული არ გესმით, ნელა ___, გთხოვთ.",
+    "answer": "ილაპარაკეთ",
+    "options": ["ილაპარაკეთ", "ილაპარაკობ", "მესმის", "წავიკითხე"],
+    "translation": "Si vous ne comprenez pas le géorgien, parlez lentement, s’il vous plaît.",
+    "explanation": "ილაპარაკეთ est l’impératif poli « parlez ». ნელა signifie « lentement »."
+  },
+  {
+    "id": "cloze-friends-meeting",
+    "sentence": "ხვალ მეგობრებს შევხვდები, ამიტომ დღეს ადრე ___.",
+    "answer": "დავიძინებ",
+    "options": ["დავიძინებ", "ვიძინებ", "მეძინა", "მეძინება"],
+    "translation": "Demain, je retrouverai des amis, alors ce soir je me coucherai tôt.",
+    "explanation": "დავიძინებ est une forme au futur. Le contexte indique une action prévue pour demain."
+  },
+  {
+    "id": "cloze-order-tea",
+    "sentence": "ჩაი მინდა, მაგრამ შაქარი ___.",
+    "answer": "არ მინდა",
+    "options": ["არ მინდა", "მინდა", "მაქვს", "მჭირდება"],
+    "translation": "Je voudrais du thé, mais je ne veux pas de sucre.",
+    "explanation": "არ placé avant le verbe marque la négation : არ მინდა, « je ne veux pas »."
+  }
+]

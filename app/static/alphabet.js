@@ -132,45 +132,53 @@ document.addEventListener('keydown', event => {
 let letterQuestionGeneration = 0;
 async function newLetterQuestion() {
   const generation = ++letterQuestionGeneration;
-  const response = await fetch(appPath('/api/quiz?kind=alphabet'));
-  const question = await response.json();
-  if (generation !== letterQuestionGeneration) return;
-  document.querySelector('#letter-prompt').textContent = 'Écoutez le son de la lettre';
+  stopSpeechPlayback();
   const audioButton = document.querySelector('#letter-audio');
-  audioButton.classList.remove('hidden');
-  audioButton.disabled = false;
-  audioButton.textContent = '▶ Écouter le son';
-  audioButton.dataset.original = audioButton.textContent;
-  audioButton.onclick = () => playSpeech(question.prompt, 'ka', audioButton);
-  document.querySelector('#letter-feedback').textContent = '';
-  const holder = document.querySelector('#letter-choices'); holder.innerHTML = '';
-  [...question.choices].sort(() => Math.random() - .5).forEach(letter => {
-    const button = document.createElement('button'); button.className = 'letter-choice ka'; button.textContent = letter;
-    button.addEventListener('click', async () => {
-      if (generation !== letterQuestionGeneration || button.disabled) return;
-      button.disabled = true;
-      try {
-        const response = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id,kind:'alphabet',answer:letter})});
-        if (!response.ok) throw new Error('Réponse non enregistrée');
-        const result = await response.json();
-        if (generation !== letterQuestionGeneration) return;
-        button.classList.add(result.correct?'choice-correct':'choice-wrong');
-        if (result.correct) {
-          holder.querySelectorAll('button').forEach(b=>b.disabled=true);
-          playSuccessSound();
-          newLetterQuestion();
-        } else {
-          document.querySelector('#letter-feedback').textContent = 'Pas tout à fait. Gardez le même son et essayez une autre lettre.';
+  const feedback = document.querySelector('#letter-feedback');
+  const holder = document.querySelector('#letter-choices');
+  audioButton.classList.add('hidden'); holder.replaceChildren(); feedback.textContent = 'Préparation de la question…';
+  try {
+    const response = await fetch(appPath('/api/quiz?kind=alphabet'));
+    if (!response.ok) throw new Error('Question indisponible');
+    const question = await response.json();
+    if (generation !== letterQuestionGeneration) return;
+    audioButton.classList.remove('hidden'); audioButton.disabled = false;
+    audioButton.textContent = '▶ Réécouter le son'; audioButton.dataset.original = audioButton.textContent;
+    audioButton.onclick = () => playSpeech(question.prompt, 'ka', audioButton);
+    feedback.textContent = '';
+    let answering = false;
+    [...question.choices].sort(() => Math.random() - .5).forEach(letter => {
+      const button = document.createElement('button'); button.className = 'letter-choice ka'; button.textContent = letter;
+      button.addEventListener('click', async () => {
+        if (generation !== letterQuestionGeneration || answering || button.disabled) return;
+        answering = true; holder.querySelectorAll('button').forEach(option => option.disabled = true);
+        try {
+          const answerResponse = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id,kind:'alphabet',answer:letter})});
+          if (!answerResponse.ok) throw new Error('Réponse non enregistrée');
+          const result = await answerResponse.json();
+          if (generation !== letterQuestionGeneration) return;
+          button.classList.add(result.correct?'choice-correct':'choice-wrong');
+          if (result.correct) {
+            playSuccessSound();
+            newLetterQuestion();
+          } else {
+            button.disabled = true;
+            holder.querySelectorAll('button:not(:disabled)').forEach(option => option.disabled = false);
+            feedback.textContent = 'Pas tout à fait. Gardez le même son et essayez une autre lettre.';
+            answering = false;
+          }
+        } catch (_) {
+          if (generation === letterQuestionGeneration) {
+            holder.querySelectorAll('button:not(.choice-wrong)').forEach(option => option.disabled = false);
+            feedback.textContent = 'La réponse n’a pas été vérifiée. Réessayez.'; answering = false;
+          }
         }
-      } catch (_) {
-        if (generation === letterQuestionGeneration) {
-          button.disabled = false;
-          document.querySelector('#letter-feedback').textContent = 'La réponse n’a pas été vérifiée. Réessayez.';
-        }
-      }
-    }); holder.append(button);
-  });
-  playSpeech(question.prompt, 'ka', audioButton);
+      }); holder.append(button);
+    });
+    playSpeech(question.prompt, 'ka', audioButton);
+  } catch (_) {
+    if (generation === letterQuestionGeneration) feedback.textContent = 'La question n’a pas pu être chargée. Choisissez « Nouvelle question » pour réessayer.';
+  }
 }
 document.querySelector('.activity-card[href="#alphabet-practice"]')?.addEventListener('click', () => {
   clearAutoAdvance();

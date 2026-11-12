@@ -1,0 +1,30 @@
+[
+  {
+    "id": "order-ana-librairie",
+    "title": "Une journée à la librairie",
+    "level_name": "A2 · Récit chronologique",
+    "text": "ანა თბილისში ცხოვრობს და პატარა წიგნის მაღაზიაში მუშაობს. ყოველდღე დილით სახლიდან ადრე გადის, რადგან მაღაზია ძველ ქალაქშია. სამსახურში მეტროთი მიდის, მაგრამ კარგ ამინდში გაჩერებიდან ფეხითაც დადის. მაღაზიაში ბევრი ქართული წიგნია, თუმცა ტურისტები ხშირად ინგლისურ ან ფრანგულ წიგნებს ეძებენ. ანა მათ დახმარებას ცდილობს: ჯერ ეკითხება, რა მოსწონთ, შემდეგ კი რამდენიმე წიგნს აჩვენებს. გუშინ მაღაზიაში ფრანგი სტუდენტი მივიდა, რომელსაც ქართული ენის სწავლა უნდოდა. ანამ მას მარტივი მოთხრობების კრებული ურჩია. სტუდენტმა წიგნი იყიდა და თქვა, რომ ყოველდღე ცოტას წაიკითხავდა. საღამოს ანა სახლში დაბრუნდა, ჩაი მოამზადა და თვითონაც წაიკითხა რამდენიმე გვერდი.",
+    "events": [
+      "Ana habite à Tbilissi et travaille dans une petite librairie de la vieille ville.",
+      "Elle se rend au travail en métro et marche parfois depuis l’arrêt quand il fait beau.",
+      "À la librairie, elle demande aux touristes ce qu’ils aiment et leur montre des livres.",
+      "Un étudiant français cherche à apprendre le géorgien ; Ana lui conseille un recueil de nouvelles faciles.",
+      "L’étudiant achète le recueil, puis Ana rentre chez elle, prépare du thé et lit quelques pages."
+    ],
+    "explanation": "Le récit commence par le travail quotidien d’Ana, poursuit avec son aide aux clients et l’arrivée de l’étudiant, puis se termine par le retour à la maison."
+  },
+  {
+    "id": "order-voyage-svanetie",
+    "title": "Préparer un voyage en Svanétie",
+    "level_name": "B1 · Récit chronologique",
+    "text": "ნიკა და მისი მეგობარი სალომე ზაფხულში სვანეთში წასვლას გეგმავენ. მათ რამდენიმე დღე მესტიაში უნდა გაატარონ და ახლომდებარე სოფლებიც მოინახულონ. ნიკას მთაში სიარული უყვარს, სალომეს კი ძველი კოშკებისა და ადგილობრივი ისტორიის ნახვა აინტერესებს. ამიტომ მათ ისეთი მარშრუტი შეარჩიეს, რომელიც ორივეს სურვილს ითვალისწინებს. ჯერ მესტიის მუზეუმში წავლენ, შემდეგ კი სოფელ უშგულში გაემგზავრებიან. მეგობრებმა ავტობუსის განრიგი შეამოწმეს და გაიგეს, რომ გზა ზოგჯერ დიდხანს გრძელდება. მათ გადაწყვიტეს, დილით ადრე გავიდნენ და გზისთვის წყალი და საჭმელი წაიღონ. ნიკა ფიქრობს, რომ ამინდი შეიძლება სწრაფად შეიცვალოს, ამიტომ თბილ ტანსაცმელსაც ჩაალაგებს. სალომეს კამერა მიაქვს, მაგრამ ამბობს, რომ მოგზაურობის დროს ტელეფონს იშვიათად გამოიყენებს. ორივეს უნდა, რომ რამდენიმე დღე ქალაქის ხმაურისგან დაისვენონ და მთის სოფლების ყოველდღიური ცხოვრება უკეთ გაიცნონ.",
+    "events": [
+      "Nika et Salomé décident de partir en Svanétie et de passer quelques jours à Mestia.",
+      "Ils choisissent un itinéraire qui combine les randonnées de Nika et l’intérêt de Salomé pour les tours anciennes et l’histoire.",
+      "Ils prévoient de visiter le musée de Mestia, puis le village d’Ouchgouli, et vérifient les horaires de bus.",
+      "Comme le trajet peut être long, ils décident de partir tôt et d’emporter de l’eau et de la nourriture.",
+      "Nika prévoit des vêtements chauds ; Salomé emporte son appareil photo et veut moins utiliser son téléphone."
+    ],
+    "explanation": "D’abord, les amis décident de voyager. Ils construisent ensuite leur itinéraire, organisent le trajet et finissent par préparer leurs affaires."
+  }
+]

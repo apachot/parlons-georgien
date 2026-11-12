@@ -26,7 +26,7 @@ def phrases():
     def visit(value):
         if isinstance(value, dict):
             for key, child in value.items():
-                if key in {"ka", "example", "sound_example"} and isinstance(child, str):
+                if key in {"ka", "example", "sound_example", "text"} and isinstance(child, str):
                     found["ka"].add(normalise_speech(child))
                 elif key in {"fr", "example_fr"} and isinstance(child, str):
                     found["fr"].add(normalise_speech(child))
@@ -52,9 +52,7 @@ def phrases():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--force-language", choices=("ka", "fr"), action="append", default=[],
-                        help="Régénère les extraits de cette langue déjà présents dans le cache.")
-    args = parser.parse_args()
+    parser.parse_args()
     output_root = Path(os.environ.get("KARTULI_AUDIO_DIR", ROOT / "instance" / "audio"))
     espeak = os.environ.get("ESPEAK_NG_BIN", "espeak-ng")
     ka_model = Path(os.environ.get(
@@ -65,10 +63,10 @@ def main():
         "PIPER_FR_MODEL",
         ROOT / "instance" / "tts-voices" / "fr_FR-siwis-medium.onnx",
     ))
-    if not fr_model.is_file():
-        raise SystemExit(f"Modèle Piper français absent : {fr_model}")
     from piper import PiperVoice
 
+    if not fr_model.is_file():
+        raise SystemExit(f"Modèle Piper français absent : {fr_model}")
     french_voice = PiperVoice.load(str(fr_model))
     georgian_voice = None
     if ka_model.is_file():
@@ -80,7 +78,7 @@ def main():
         target_dir.mkdir(parents=True, exist_ok=True)
         for text in texts:
             target = target_dir / audio_name(language, text)
-            if target.is_file() and target.stat().st_size and language not in args.force_language:
+            if target.is_file() and target.stat().st_size:
                 continue
             with tempfile.NamedTemporaryFile(dir=target_dir, suffix=".wav", delete=False) as temp:
                 temporary = Path(temp.name)

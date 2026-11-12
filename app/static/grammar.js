@@ -1,7 +1,8 @@
 const grammar = {
   prompt: document.querySelector('#grammar-prompt'), choices: document.querySelector('#grammar-choices'),
   feedback: document.querySelector('#grammar-feedback'), next: document.querySelector('#grammar-next'),
-  round: document.querySelector('#grammar-round'), score: document.querySelector('#grammar-score')
+  round: document.querySelector('#grammar-round'), score: document.querySelector('#grammar-score'),
+  title: document.querySelector('#grammar-quiz-title'), lead: document.querySelector('#grammar-quiz-lead')
 };
 let grammarCategory = 'temps';
 let grammarCurrent = null;
@@ -16,9 +17,9 @@ let grammarFinished = false;
 function resetGrammarQuiz() {
   grammarSeen.clear(); grammarTurn = 0; grammarCorrect = 0; grammarCurrent = null; grammarLocked = false; grammarFinished = false;
   grammar.score.textContent = '0 / 0'; grammar.round.textContent = 'Pratique libre';
-  grammar.prompt.textContent = 'Prête ou prêt ?'; grammar.choices.replaceChildren();
+  grammar.prompt.textContent = 'Chargement de la première question…'; grammar.choices.replaceChildren();
   grammar.feedback.textContent = ''; grammar.feedback.className = 'feedback';
-  grammar.next.textContent = 'Commencer →'; grammar.next.classList.remove('hidden');
+  grammar.next.textContent = 'Question suivante →'; grammar.next.classList.add('hidden');
 }
 
 async function loadGrammarQuestion() {
@@ -96,5 +97,10 @@ grammar.next.addEventListener('click', async () => {
 document.querySelectorAll('.grammar-category-list button').forEach(button => button.addEventListener('click', () => {
   grammarCategory = button.dataset.category;
   document.querySelectorAll('.grammar-category-list button').forEach(option => option.classList.toggle('active', option === button));
+  grammar.title.textContent = grammarCategory === 'correction' ? 'Réparez la phrase.' : 'À vous de conjuguer.';
+  grammar.lead.textContent = grammarCategory === 'correction'
+    ? 'Repérez l’erreur et choisissez la formulation géorgienne correcte.'
+    : 'Répondez puis lisez l’explication. Une réponse incorrecte laisse la question ouverte pour recommencer.';
   resetGrammarQuiz();
+  loadGrammarQuestion();
 }));

@@ -31,6 +31,7 @@ const game = {
   replay: document.querySelector('#play-again'),
   chooseAnother: document.querySelector('#choose-another-game'),
   crossword: document.querySelector('#crossword-game'),
+  builder: document.querySelector('#sentence-builder-game'),
   crosswordBoard: document.querySelector('#crossword-board'),
   crosswordAcross: document.querySelector('#crossword-across-clues'),
   crosswordDown: document.querySelector('#crossword-down-clues'),
@@ -76,6 +77,12 @@ const gameCopy = {
     title: 'Mots fléchés',
     instruction: 'Suivez chaque définition en français et écrivez la réponse géorgienne, lettre par lettre.',
     scoreUnit: 'mots'
+  },
+  builder: {
+    eyebrow: 'CONSTRUCTION · ORDRE DES MOTS',
+    title: 'Construis la phrase',
+    instruction: 'À partir du sens français, remettez les mots géorgiens dans le bon ordre.',
+    scoreUnit: 'phrases'
   }
 };
 
@@ -92,6 +99,8 @@ let answerBusy = false;
 let crosswordPuzzle = null;
 let crosswordActiveEntry = null;
 let crosswordInputs = new Map();
+let builderWords = [];
+let builderSolved = false;
 
 function shuffled(items) {
   const result = [...items];
@@ -167,8 +176,9 @@ function startRound() {
   game.crosswordCheck.disabled = false;
   game.complete.classList.add('hidden');
   game.audio.classList.toggle('hidden', activeGame !== 'audio');
-  game.matching.classList.toggle('hidden', activeGame === 'audio' || activeGame === 'crossword');
+  game.matching.classList.toggle('hidden', activeGame === 'audio' || activeGame === 'crossword' || activeGame === 'builder');
   game.crossword.classList.toggle('hidden', activeGame !== 'crossword');
+  game.builder.classList.toggle('hidden', activeGame !== 'builder');
   game.audioNext.classList.add('hidden');
   game.audioAnswerTools.classList.add('hidden');
   game.audioFeedback.textContent = '';
@@ -176,7 +186,11 @@ function startRound() {
   showGameStatus('');
   game.score.classList.remove('hidden');
 
-  if (activeGame === 'crossword') {
+  if (activeGame === 'builder') {
+    roundItems = pickRoundItems(vocabularyItems.filter(item => item.example && item.example_fr && item.example.trim().split(/\s+/).length >= 3), 6);
+    game.round.textContent = `Manche · ${roundItems.length} phrases`;
+    renderSentenceBuilder();
+  } else if (activeGame === 'crossword') {
     roundItems = [];
     game.round.textContent = 'Grille · préparation';
     game.crosswordBoard.replaceChildren();
@@ -223,6 +237,74 @@ async function loadCrosswordRound() {
     game.round.textContent = 'Grille indisponible';
     showGameStatus('Impossible de composer la grille. Réessayez.', 'error');
   }
+}
+
+function renderSentenceBuilder() {
+  if (roundIndex >= roundItems.length) { finishGame(); return; }
+  const item = roundItems[roundIndex];
+  builderWords = item.example.trim().split(/\s+/).map((text, index) => ({id: index, text}));
+  builderSolved = false;
+  document.querySelector('#builder-prompt').textContent = item.example_fr;
+  document.querySelector('#builder-answer').replaceChildren();
+  document.querySelector('#builder-bank').replaceChildren();
+  document.querySelector('#builder-feedback').textContent = '';
+  document.querySelector('#builder-feedback').className = 'feedback';
+  document.querySelector('#builder-check').classList.remove('hidden');
+  document.querySelector('#builder-next').classList.add('hidden');
+  document.querySelector('#builder-next').textContent = 'Phrase suivante →';
+  document.querySelector('#builder-check').disabled = false;
+  shuffled(builderWords).forEach(word => createBuilderChip(word, document.querySelector('#builder-bank')));
+  updateGameScore(); updateGameProgress();
+}
+
+function createBuilderChip(word, holder) {
+  const chip = document.createElement('button');
+  chip.type = 'button'; chip.className = 'sentence-builder-chip ka'; chip.lang = 'ka';
+  chip.dataset.wordId = String(word.id); chip.textContent = word.text;
+  chip.addEventListener('click', () => {
+    if (builderSolved) return;
+    const destination = chip.parentElement.id === 'builder-bank' ? document.querySelector('#builder-answer') : document.querySelector('#builder-bank');
+    destination.append(chip);
+  });
+  holder.append(chip);
+}
+
+async function checkSentenceBuilder() {
+  if (activeGame !== 'builder' || answerBusy || builderSolved) return;
+  const answerHolder = document.querySelector('#builder-answer');
+  if (answerHolder.children.length !== builderWords.length) {
+    const feedback = document.querySelector('#builder-feedback');
+    feedback.textContent = 'Placez tous les mots dans la phrase avant de vérifier.';
+    feedback.className = 'feedback try-again';
+    return;
+  }
+  const item = roundItems[roundIndex];
+  const answer = [...answerHolder.children].map(chip => chip.textContent).join(' ');
+  answerBusy = true;
+  const check = document.querySelector('#builder-check'); check.disabled = true;
+  try {
+    const result = await saveWordAnswer(item, 'order', answer);
+    const feedback = document.querySelector('#builder-feedback');
+    if (!result.correct) {
+      mistakeCount++;
+      feedback.textContent = 'L’ordre ne convient pas encore. Déplacez les mots et réessayez.';
+      feedback.className = 'feedback try-again';
+      updateGameScore(); check.disabled = false;
+      return;
+    }
+    builderSolved = true; foundCount++;
+    [...document.querySelectorAll('#builder-answer button, #builder-bank button')].forEach(button => button.disabled = true);
+    feedback.textContent = `Bonne phrase ! ${item.example}`;
+    feedback.className = 'feedback success';
+    document.querySelector('#builder-check').classList.add('hidden');
+    const next = document.querySelector('#builder-next');
+    next.textContent = foundCount >= roundItems.length ? 'Voir le résultat →' : 'Phrase suivante →';
+    next.classList.remove('hidden'); playSuccessSound(); updateGameScore(); updateGameProgress();
+  } catch (_) {
+    const feedback = document.querySelector('#builder-feedback');
+    feedback.textContent = 'La phrase n’a pas pu être vérifiée. Réessayez.';
+    feedback.className = 'feedback try-again'; check.disabled = false;
+  } finally { answerBusy = false; }
 }
 
 function renderCrosswordBoard() {
@@ -632,6 +714,7 @@ function finishGame() {
   game.audio.classList.add('hidden');
   game.matching.classList.add('hidden');
   game.crossword.classList.add('hidden');
+  game.builder.classList.add('hidden');
   game.complete.classList.remove('hidden');
   game.completeMessage.textContent = `${foundCount} ${gameCopy[activeGame].scoreUnit} retrouvés · ${mistakeCount} erreur${mistakeCount === 1 ? '' : 's'}. Votre progression est enregistrée.`;
   game.score.classList.add('hidden');
@@ -655,6 +738,21 @@ game.back.addEventListener('click', returnToGameHome);
 document.querySelector('#back-to-vocabulary-games')?.addEventListener('click', returnToGameHome);
 game.replay.addEventListener('click', startRound);
 game.chooseAnother.addEventListener('click', returnToGameHome);
+document.querySelector('#builder-check')?.addEventListener('click', checkSentenceBuilder);
+document.querySelector('#builder-reset')?.addEventListener('click', () => {
+  if (activeGame !== 'builder' || builderSolved) return;
+  const bank = document.querySelector('#builder-bank');
+  [...document.querySelector('#builder-answer').children].forEach(chip => bank.append(chip));
+  shuffled([...bank.children]).forEach(chip => bank.append(chip));
+  document.querySelector('#builder-feedback').textContent = '';
+  document.querySelector('#builder-feedback').className = 'feedback';
+});
+document.querySelector('#builder-next')?.addEventListener('click', () => {
+  if (activeGame !== 'builder') return;
+  roundIndex++;
+  if (roundIndex >= roundItems.length) finishGame();
+  else renderSentenceBuilder();
+});
 game.audioReplay.addEventListener('click', () => {
   if (currentAudioWord) playSpeech(currentAudioWord.ka, 'ka', game.audioReplay);
 });

@@ -5,6 +5,8 @@
 {{ activity_hub('Dictées · écouter, traduire, écrire', 'Un mot, deux chemins.', 'Écrivez ce que vous entendez en géorgien, ou partez du français pour retrouver le mot en mkhedruli.', [
  {'icon':'🎧','label':'01 · DICTÉE AUDIO','title':'Écouter → écrire','text':'Écoutez un mot géorgien et écrivez-le en mkhedruli.','href':'#dictation','direction':'ka-fr','action':'Choisir'},
  {'icon':'🔁','label':'02 · TRADUCTION','title':'Français → géorgien','text':'Lisez le sens français et retrouvez la forme géorgienne.','href':'#dictation','direction':'fr-ka','action':'Choisir'},
+ {'icon':'✍️','label':'03 · PHRASES','title':'Traduire en contexte','text':'Traduisez des phrases complètes du français vers le géorgien.','href':'#dictation-sentences','action':'Écrire'},
+ {'icon':'🎙️','label':'04 · PHRASE AUDIO','title':'Dictée de phrases','text':'Écoutez une phrase en géorgien et retranscrivez-la sans voir le texte.','href':'#dictation-listening','action':'Écouter'},
 
 ], 'მინდა') }}
 
@@ -30,5 +32,37 @@
   <div class="lesson-summary hidden" id="dictation-summary" aria-live="polite"></div>
 </section>
 
+<section class="exercise-box dictation-box sentence-listening hidden" id="dictation-listening" data-activity-panel data-total-sentences="{{ sentence_total }}">
+  <button class="back-to-games" data-activity-back type="button">← Toutes les dictées</button>
+  <div class="eyebrow" id="listening-dictation-count">Dictée audio · phrases</div>
+  <h2>Écoutez toute la phrase.</h2>
+  <p id="listening-dictation-instruction">Écrivez ce que vous entendez en géorgien. Vous pouvez réécouter autant de fois que nécessaire.</p>
+  <div class="sentence-listening-player"><button type="button" class="button primary" id="listening-dictation-play">▶ Écouter la phrase</button><span id="listening-dictation-status" aria-live="polite">La phrase reste cachée.</span></div>
+  <div class="typed-answer"><label for="listening-dictation-input">Votre transcription en géorgien</label><input id="listening-dictation-input" lang="ka" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Écrivez la phrase entendue"><div id="listening-dictation-keyboard" class="virtual-keyboard" aria-label="Clavier géorgien"></div></div>
+  <div class="feedback" id="listening-dictation-feedback" aria-live="polite"></div><div class="reading-reveal hidden" id="listening-dictation-answer" aria-live="polite"></div>
+  <div class="dictation-controls"><button class="button primary" id="listening-dictation-start">Commencer →</button><button class="button secondary hidden" id="listening-dictation-check">Vérifier</button><button class="button primary hidden" id="listening-dictation-next">Phrase suivante →</button></div>
+  <div class="lesson-summary hidden" id="listening-dictation-summary" aria-live="polite"></div>
+</section>
+
+<section class="exercise-box dictation-box hidden" id="dictation-sentences" data-activity-panel data-total-sentences="{{ sentence_total }}">
+  <button class="back-to-games" data-activity-back type="button">← Toutes les dictées</button>
+  <div class="eyebrow" id="sentence-dictation-count">Phrases · 0 / {{ sentence_total }}</div>
+  <h2 id="sentence-dictation-heading">Traduisez en géorgien.</h2>
+  <p id="sentence-dictation-prompt" class="sentence-dictation-prompt">La phrase française apparaîtra ici.</p>
+  <div class="typed-answer">
+    <label for="sentence-dictation-input">Votre traduction en géorgien</label>
+    <input id="sentence-dictation-input" lang="ka" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Écrivez la phrase en mkhedruli" aria-label="Traduction de la phrase en géorgien">
+    <div id="sentence-dictation-keyboard" class="virtual-keyboard" aria-label="Clavier géorgien"></div>
+  </div>
+  <div class="feedback" id="sentence-dictation-feedback" aria-live="polite"></div>
+  <div class="reading-reveal hidden" id="sentence-dictation-answer" aria-live="polite"></div>
+  <div class="dictation-controls">
+    <button class="button primary" id="sentence-dictation-start">Commencer →</button>
+    <button class="button secondary hidden" id="sentence-dictation-check">Vérifier</button>
+    <button class="button primary hidden" id="sentence-dictation-next">Phrase suivante →</button>
+  </div>
+  <div class="lesson-summary hidden" id="sentence-dictation-summary" aria-live="polite"></div>
+</section>
+
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='dictations.js') }}" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='dictations.js') }}?v=sentences-v1" defer></script><script src="{{ url_for('static', filename='dictation-listening.js') }}?v=phrase-audio-v1" defer></script>{% endblock %}

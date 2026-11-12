@@ -119,7 +119,8 @@ def create_app(test_config=None):
 
     @app.get("/alphabet")
     def alphabet():
-        return render_template("alphabet.html", letters=load_content("alphabet"))
+        return render_template("alphabet.html", letters=load_content("alphabet"),
+                               words=load_content("vocabulary"))
 
     @app.get("/lesson/<lesson_id>")
     def lesson(lesson_id):
@@ -147,8 +148,10 @@ def create_app(test_config=None):
 
     @app.get("/grammar")
     def grammar():
+        exercises = grammar_exercises()
         return render_template("grammar.html", cards=load_content("grammar"),
-                               exercise_total=len(grammar_exercises()))
+                               exercise_total=len(exercises),
+                               timed_total=sum(item["category"] == "temps" for item in exercises))
 
     @app.get("/api/grammar/next")
     def next_grammar_exercise():
@@ -194,7 +197,68 @@ def create_app(test_config=None):
 
     @app.get("/dialogues")
     def dialogues():
-        return render_template("dialogues.html", dialogues=load_content("dialogues"))
+        items = load_content("dialogues")
+        return render_template("dialogues.html", dialogues=items,
+                               flash_total=len(dialogue_flash_items()))
+
+    def dialogue_flash_items():
+        dialogues = load_content("dialogues")
+        response_pool = []
+        questions = []
+        for dialogue in dialogues:
+            for index, turn in enumerate(dialogue["turns"]):
+                for choice in turn.get("choices", []):
+                    response_pool.append({"ka": choice["ka"], "fr": choice["fr"]})
+                    if choice.get("ok"):
+                        questions.append({"id": f"{dialogue['id']}-{index}",
+                                          "scene": dialogue["scene"],
+                                          "prompt": turn["ka"], "prompt_fr": turn["fr"],
+                                          "answer": choice["ka"], "answer_fr": choice["fr"]})
+        unique_responses = {entry["ka"]: entry for entry in response_pool}
+        for question in questions:
+            distractors = [entry for key, entry in unique_responses.items()
+                           if key != question["answer"]]
+            question["options"] = [{"ka": question["answer"], "fr": question["answer_fr"]}]
+            question["options"].extend(random.sample(distractors, min(3, len(distractors))))
+        return questions
+
+    @app.get("/api/dialogues/flash/next")
+    def next_dialogue_flash():
+        questions = dialogue_flash_items()
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in questions if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "total": len(questions)})
+        item = random.choice(candidates)
+        options = list(item["options"])
+        random.shuffle(options)
+        return jsonify({key: item[key] for key in ("id", "scene", "prompt", "prompt_fr")} |
+                       {"options": options, "total": len(questions)})
+
+    @app.post("/api/dialogues/flash/answer")
+    def answer_dialogue_flash():
+        data = request.get_json(silent=True) or {}
+        item = next((entry for entry in dialogue_flash_items()
+                     if entry["id"] == data.get("id")), None)
+        if item is None:
+            return jsonify({"error": "Réplique inconnue."}), 404
+        correct = data.get("answer") == item["answer"]
+        progress_id = f"dialogue-flash:{item['id']}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="dialogue", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=1 if correct else 0,
+                                                 minutes=0 if correct else 10)
+        db.session.commit()
+        if not correct:
+            return jsonify({"correct": False})
+        return jsonify({"correct": True, "prompt_fr": item["prompt_fr"],
+                        "answer_fr": item["answer_fr"]})
 
     @app.get("/session")
     def session():
@@ -202,12 +266,113 @@ def create_app(test_config=None):
 
     @app.get("/dictations")
     def dictations():
-        return render_template("dictations.html", total=len(dictation_words()))
+        return render_template("dictations.html", total=len(dictation_words()),
+                               sentence_total=len(load_content("dictation_sentences")))
 
     @app.get("/reading")
     def reading():
         return render_template("reading.html", total=len(reading_texts()),
-                               exam_total=len(reading_exam_texts()))
+                               exam_total=len(reading_exam_texts()),
+                               cloze_total=len(load_content("reading_cloze")))
+
+    @app.get("/comprehension")
+    def comprehension():
+        claim_total = sum(len(item["options"]) for item in reading_texts())
+        return render_template("comprehension.html", total=len(reading_texts()),
+                               exam_total=len(reading_exam_texts()), claim_total=claim_total,
+                               order_total=len(load_content("comprehension_order")))
+
+    @app.get("/api/comprehension/order")
+    def next_comprehension_order():
+        items = load_content("comprehension_order")
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in items if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "total": len(items)})
+        item = random.choice(candidates)
+        events = [{"id": index, "text": text} for index, text in enumerate(item["events"])]
+        random.shuffle(events)
+        return jsonify({"id": item["id"], "title": item["title"],
+                        "level_name": item["level_name"], "text": item["text"],
+                        "events": events, "total": len(items)})
+
+    @app.post("/api/comprehension/order/answer")
+    def answer_comprehension_order():
+        data = request.get_json(silent=True) or {}
+        item = next((entry for entry in load_content("comprehension_order")
+                     if entry["id"] == data.get("id")), None)
+        if item is None:
+            return jsonify({"error": "Récit inconnu."}), 404
+        submitted = data.get("order")
+        if not isinstance(submitted, list) or len(submitted) != len(item["events"]):
+            return jsonify({"error": "Ordre incomplet."}), 400
+        try:
+            order = [int(value) for value in submitted]
+        except (TypeError, ValueError):
+            return jsonify({"error": "Ordre invalide."}), 400
+        correct = order == list(range(len(item["events"])))
+        progress_id = f"comprehension-order:{item['id']}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="comprehension", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=1 if correct else 0,
+                                                 minutes=0 if correct else 10)
+        db.session.commit()
+        if not correct:
+            return jsonify({"correct": False})
+        return jsonify({"correct": True, "explanation": item["explanation"]})
+
+    @app.get("/api/comprehension/true-false")
+    def next_comprehension_claim():
+        excluded = set(request.args.get("exclude", "").split(","))
+        claims = [(item, index, option)
+                  for item in reading_texts()
+                  for index, option in enumerate(item["options"])
+                  if f'{item["id"]}:{index}' not in excluded]
+        if not claims:
+            return jsonify({"empty": True})
+        item, index, option = random.choice(claims)
+        return jsonify({"id": f'{item["id"]}:{index}', "text": item["text"],
+                        "level_name": item["level_name"], "question": item["question"],
+                        "claim": option})
+
+    @app.post("/api/comprehension/true-false/answer")
+    def answer_comprehension_claim():
+        data = request.get_json(silent=True) or {}
+        claim_id = str(data.get("id", ""))
+        try:
+            item_id, raw_index = claim_id.rsplit(":", 1)
+            index = int(raw_index)
+        except (ValueError, TypeError):
+            return jsonify({"error": "Proposition invalide."}), 400
+        item = next((entry for entry in reading_texts() if entry["id"] == item_id), None)
+        if item is None or index not in range(len(item["options"])):
+            return jsonify({"error": "Proposition inconnue."}), 404
+        if not isinstance(data.get("answer"), bool):
+            return jsonify({"error": "Choisissez vrai ou faux."}), 400
+        is_true = item["options"][index] == item["answer"]
+        correct = data["answer"] == is_true
+        progress_id = f"comprehension-vf:{claim_id}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="reading", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=1 if correct else 0,
+                                                 minutes=0 if correct else 10)
+        db.session.commit()
+        if not correct:
+            return jsonify({"correct": False})
+        return jsonify({"correct": True, "is_true": is_true, "answer": item["answer"],
+                        "translation": item["translation"], "explanation": item["explanation"]})
 
     @app.get("/api/reading/exam")
     def next_reading_exam():
@@ -221,6 +386,44 @@ def create_app(test_config=None):
                         "level_name": selected["level_name"], "text": selected["text"],
                         "questions": [{"question": q["question"], "options": q["options"]}
                                       for q in selected["questions"]]})
+
+    @app.get("/api/reading/cloze/next")
+    def next_reading_cloze():
+        items = load_content("reading_cloze")
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in items if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "total": len(items)})
+        item = random.choice(candidates)
+        options = list(item["options"])
+        random.shuffle(options)
+        return jsonify({key: item[key] for key in ("id", "sentence")} |
+                       {"options": options, "total": len(items)})
+
+    @app.post("/api/reading/cloze/answer")
+    def answer_reading_cloze():
+        data = request.get_json(silent=True) or {}
+        item = next((entry for entry in load_content("reading_cloze")
+                     if entry["id"] == data.get("id")), None)
+        if item is None:
+            return jsonify({"error": "Phrase inconnue."}), 404
+        correct = data.get("answer") == item["answer"]
+        progress_id = f"reading-cloze:{item['id']}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="reading", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=1 if correct else 0,
+                                                 minutes=0 if correct else 10)
+        db.session.commit()
+        if not correct:
+            return jsonify({"correct": False})
+        return jsonify({"correct": True, "translation": item["translation"],
+                        "explanation": item["explanation"]})
 
     @app.post("/api/reading/exam/answer")
     def answer_reading_exam():
@@ -355,6 +558,53 @@ def create_app(test_config=None):
                         "translit": item["translit"], "seen": row.seen,
                         "correct_count": row.correct, "due_in_days": days})
 
+    @app.get("/api/dictations/sentences/next")
+    def next_dictation_sentence():
+        items = load_content("dictation_sentences")
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in items if item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "total": len(items)})
+        item = random.choice(candidates)
+        return jsonify({"id": item["id"], "prompt": item["fr"], "total": len(items)})
+
+    @app.get("/api/dictations/sentences/audio/<item_id>")
+    def dictation_sentence_audio(item_id):
+        item = next((entry for entry in load_content("dictation_sentences")
+                     if entry["id"] == item_id), None)
+        if item is None:
+            return jsonify({"error": "Phrase inconnue."}), 404
+        path = Path(app.instance_path) / "audio" / "ka" / audio_name("ka", item["ka"])
+        if not path.is_file():
+            return jsonify({"error": "Audio indisponible pour cette phrase."}), 404
+        return send_file(path, mimetype="audio/wav", conditional=True, max_age=86400)
+
+    @app.post("/api/dictations/sentences/answer")
+    def answer_dictation_sentence():
+        data = request.get_json(silent=True) or {}
+        item = next((entry for entry in load_content("dictation_sentences")
+                     if entry["id"] == data.get("id")), None)
+        if item is None:
+            return jsonify({"error": "Phrase inconnue."}), 404
+        accepted = item.get("answers", [item["ka"]])
+        answer = normalise(data.get("answer", ""))
+        correct = answer in {normalise(value) for value in accepted}
+        progress_id = f"dictation-sentence:{item['id']}"
+        row = Progress.query.filter_by(item_id=progress_id).first()
+        if row is None:
+            row = Progress(item_id=progress_id, kind="dictation", seen=0, correct=0, streak=0)
+            db.session.add(row)
+        row.seen += 1
+        row.correct += int(correct)
+        row.last_answer = correct
+        row.streak = row.streak + 1 if correct else 0
+        row.due_at = utc_now_naive() + timedelta(days=1 if correct else 0,
+                                                 minutes=0 if correct else 10)
+        db.session.commit()
+        return jsonify({"correct": correct, "solution": item["ka"],
+                        "explanation": item["note"], "seen": row.seen,
+                        "correct_count": row.correct})
+
     @app.get("/api/quiz")
     def quiz():
         if request.args.get("kind") == "alphabet":
@@ -478,7 +728,7 @@ def create_app(test_config=None):
         payload = request.get_json(silent=True) or {}
         language = payload.get("lang")
         text = normalise_speech(payload.get("text", ""))
-        if language not in {"ka", "fr"} or not text or len(text) > 500:
+        if language not in {"ka", "fr"} or not text or len(text) > 2000:
             return jsonify({"error": "Demande audio invalide."}), 400
         try:
             filename = audio_name(language, text)

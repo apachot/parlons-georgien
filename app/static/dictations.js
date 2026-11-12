@@ -297,3 +297,117 @@ document.querySelectorAll('[data-dictation-direction]').forEach(button => button
   dictationElements.area.classList.add('hidden');
 }));
 buildDictationKeyboard();
+
+const sentenceRoot = document.querySelector('#dictation-sentences');
+if (sentenceRoot) {
+  const sentence = {
+    count: document.querySelector('#sentence-dictation-count'),
+    heading: document.querySelector('#sentence-dictation-heading'),
+    prompt: document.querySelector('#sentence-dictation-prompt'),
+    input: document.querySelector('#sentence-dictation-input'),
+    keyboard: document.querySelector('#sentence-dictation-keyboard'),
+    feedback: document.querySelector('#sentence-dictation-feedback'),
+    answer: document.querySelector('#sentence-dictation-answer'),
+    start: document.querySelector('#sentence-dictation-start'),
+    check: document.querySelector('#sentence-dictation-check'),
+    next: document.querySelector('#sentence-dictation-next'),
+    summary: document.querySelector('#sentence-dictation-summary')
+  };
+  const total = Number(sentenceRoot.dataset.totalSentences || 0);
+  const sessionSize = Math.min(6, total);
+  let seen = new Set(), current = null, turn = 0, firstTry = 0, attempts = 0, busy = false;
+
+  function sentenceFeedback(message, state = '') {
+    sentence.feedback.textContent = message;
+    sentence.feedback.className = `feedback ${state}`;
+  }
+
+  async function loadSentence() {
+    if (turn >= sessionSize) return finishSentenceSession();
+    current = null; sentence.input.value = ''; sentence.input.disabled = false;
+    sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = false);
+    sentence.check.disabled = false; sentence.check.classList.remove('hidden'); sentence.next.classList.add('hidden');
+    sentence.answer.classList.add('hidden'); sentenceFeedback('');
+    sentence.count.textContent = `Phrases · ${turn + 1} / ${sessionSize}`;
+    try {
+      const response = await fetch(appPath(`/api/dictations/sentences/next?exclude=${encodeURIComponent([...seen].join(','))}`));
+      const item = await response.json();
+      if (!response.ok || item.empty) throw new Error('Phrase indisponible');
+      current = item; seen.add(item.id); attempts = 0; sentence.prompt.textContent = item.prompt;
+      sentence.input.focus();
+    } catch (_) {
+      sentenceFeedback('La phrase n’a pas pu être chargée. Réessayez.', 'try-again');
+      sentence.check.classList.add('hidden'); sentence.start.textContent = 'Réessayer →'; sentence.start.classList.remove('hidden');
+    }
+  }
+
+  async function checkSentence() {
+    if (!current || busy) return;
+    if (!sentence.input.value.trim()) {
+      sentenceFeedback('Écrivez votre traduction avant de vérifier.', 'try-again'); return;
+    }
+    busy = true; sentence.check.disabled = true;
+    try {
+      const response = await fetch(appPath('/api/dictations/sentences/answer'), {
+        method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({id: current.id, answer: sentence.input.value})
+      });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || 'Correction impossible');
+      attempts++;
+      if (!result.correct) {
+        sentence.check.disabled = false;
+        sentenceFeedback('Pas tout à fait. Corrigez votre phrase et réessayez.', 'try-again');
+        sentence.input.focus(); return;
+      }
+      if (attempts === 1) firstTry++;
+      turn++; sentence.input.value = result.solution; sentence.input.disabled = true;
+      sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = true);
+      sentence.answer.textContent = result.explanation; sentence.answer.classList.remove('hidden');
+      sentenceFeedback(attempts === 1 ? 'Bien joué, juste du premier coup !' : 'Bonne correction, la phrase est juste.', 'success');
+      sentence.check.classList.add('hidden'); sentence.next.textContent = turn >= sessionSize ? 'Voir le résultat →' : 'Phrase suivante →';
+      sentence.next.classList.remove('hidden'); playSuccessSound();
+    } catch (_) {
+      sentence.check.disabled = false; sentenceFeedback('La réponse n’a pas pu être vérifiée. Réessayez.', 'try-again');
+    } finally { busy = false; }
+  }
+
+  function finishSentenceSession() {
+    current = null; sentence.prompt.textContent = 'Séance terminée.'; sentence.count.textContent = 'Traduction de phrases';
+    sentence.input.disabled = true; sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = true);
+    sentence.check.classList.add('hidden'); sentence.next.classList.add('hidden'); sentence.answer.classList.add('hidden'); sentenceFeedback('');
+    sentence.summary.textContent = `${firstTry} / ${turn} phrases justes du premier coup. Votre progression est enregistrée.`;
+    sentence.summary.classList.remove('hidden'); sentence.start.textContent = 'Recommencer →'; sentence.start.classList.remove('hidden');
+  }
+
+  async function buildSentenceKeyboard() {
+    try {
+      const letters = await fetch(appPath('/api/alphabet/keys')).then(response => response.json());
+      for (let index = 0; index < letters.length; index += 7) {
+        const row = document.createElement('div'); row.className = 'keyboard-row';
+        letters.slice(index, index + 7).forEach(letter => {
+          const key = document.createElement('button'); key.type = 'button'; key.className = 'key ka'; key.textContent = letter;
+          key.addEventListener('click', () => { sentence.input.value += letter; sentence.input.focus(); }); row.append(key);
+        });
+        sentence.keyboard.append(row);
+      }
+      const controls = document.createElement('div'); controls.className = 'keyboard-row';
+      const erase = document.createElement('button'); erase.type = 'button'; erase.className = 'key key-wide'; erase.textContent = '⌫ Effacer';
+      erase.addEventListener('click', () => { sentence.input.value = sentence.input.value.slice(0, -1); sentence.input.focus(); });
+      const space = document.createElement('button'); space.type = 'button'; space.className = 'key key-wide'; space.textContent = 'Espace';
+      space.addEventListener('click', () => { sentence.input.value += ' '; sentence.input.focus(); });
+      controls.append(space, erase); sentence.keyboard.append(controls);
+    } catch (_) { sentence.keyboard.textContent = 'Le clavier géorgien est indisponible.'; }
+  }
+
+  sentence.start.addEventListener('click', () => {
+    seen = new Set(); current = null; turn = 0; firstTry = 0; sentence.summary.classList.add('hidden');
+    sentence.start.classList.add('hidden'); sentence.input.disabled = false; loadSentence();
+  });
+  sentence.check.addEventListener('click', checkSentence);
+  sentence.next.addEventListener('click', loadSentence);
+  sentence.input.addEventListener('keydown', event => {
+    if (event.key === 'Enter') { event.preventDefault(); checkSentence(); }
+  });
+  buildSentenceKeyboard();
+}

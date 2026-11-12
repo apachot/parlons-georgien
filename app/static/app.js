@@ -148,8 +148,29 @@ function playSuccessSound() {
 }
 
 let activeTtsAudio = null;
+let activeTtsButton = null;
+let ttsRequestGeneration = 0;
+function resetActiveTts() {
+  if (activeTtsAudio) {
+    activeTtsAudio.audio.pause();
+    URL.revokeObjectURL(activeTtsAudio.source);
+    activeTtsAudio = null;
+  }
+  if (activeTtsButton) {
+    activeTtsButton.textContent = activeTtsButton.dataset.original;
+    activeTtsButton.disabled = false;
+    activeTtsButton = null;
+  }
+}
+function stopSpeechPlayback() {
+  ttsRequestGeneration++;
+  resetActiveTts();
+}
 async function playSpeech(text, language, button) {
+  const generation = ++ttsRequestGeneration;
+  resetActiveTts();
   button.dataset.original ||= button.textContent;
+  activeTtsButton = button;
   button.disabled = true;
   button.textContent = 'Préparation…';
   try {
@@ -159,27 +180,27 @@ async function playSpeech(text, language, button) {
     });
     if (!response.ok) throw new Error('audio indisponible');
     const source = URL.createObjectURL(await response.blob());
-    if (activeTtsAudio) {
-      activeTtsAudio.audio.pause();
-      URL.revokeObjectURL(activeTtsAudio.source);
-      activeTtsAudio.button.textContent = activeTtsAudio.button.dataset.original;
-      activeTtsAudio.button.disabled = false;
-    }
+    if (generation !== ttsRequestGeneration) { URL.revokeObjectURL(source); return; }
     const audio = new Audio(source);
-    activeTtsAudio = {audio, source, button};
+    activeTtsAudio = {audio, source};
     const finish = () => {
       URL.revokeObjectURL(source);
-      button.textContent = button.dataset.original;
-      button.disabled = false;
-      if (activeTtsAudio?.audio === audio) activeTtsAudio = null;
+      if (activeTtsAudio?.audio === audio) {
+        activeTtsAudio = null;
+        if (activeTtsButton === button) activeTtsButton = null;
+        button.textContent = button.dataset.original;
+        button.disabled = false;
+      }
     };
     audio.addEventListener('ended', finish, {once:true});
     audio.addEventListener('error', finish, {once:true});
     button.textContent = '▶ Lecture…';
     try { await audio.play(); } catch (error) { finish(); throw error; }
   } catch (_) {
+    if (generation !== ttsRequestGeneration) return;
     button.textContent = button.dataset.original;
     button.disabled = false;
+    if (activeTtsButton === button) activeTtsButton = null;
     button.title = language === 'fr' ? 'Audio français non préparé sur cette installation.' : 'Audio géorgien non préparé sur cette installation.';
   }
 }

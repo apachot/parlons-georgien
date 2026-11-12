@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sentence-greeting",
+    "fr": "Bonjour, comment allez-vous ?",
+    "ka": "გამარჯობა, როგორ ხართ?",
+    "note": "როგორ ხართ? est la forme polie de « comment allez-vous ? »."
+  },
+  {
+    "id": "sentence-coffee",
+    "fr": "Je voudrais un café, s’il vous plaît.",
+    "ka": "ყავა მინდა, გთხოვთ.",
+    "note": "En géorgien, la tournure « café je veux » est naturelle pour commander. გთხოვთ signifie « s’il vous plaît ».",
+    "answers": ["ყავა მინდა, გთხოვთ.", "ერთი ყავა მინდა, გთხოვთ."]
+  },
+  {
+    "id": "sentence-station",
+    "fr": "Où est la gare ?",
+    "ka": "სადგური სად არის?",
+    "note": "სად არის? signifie « où est ? ». Le géorgien n’emploie pas d’article devant « gare » ici."
+  },
+  {
+    "id": "sentence-speak-slowly",
+    "fr": "Je ne comprends pas. Parlez lentement, s’il vous plaît.",
+    "ka": "არ მესმის. ნელა ილაპარაკეთ, გთხოვთ.",
+    "note": "არ mesmis forme la négation « je ne comprends pas » ; ილაპარაკეთ est l’impératif poli de « parler ».",
+    "answers": ["არ მესმის. ნელა ილაპარაკეთ, გთხოვთ.", "არ მესმის, ნელა ილაპარაკეთ, გთხოვთ."]
+  },
+  {
+    "id": "sentence-market",
+    "fr": "Demain, je vais au marché.",
+    "ka": "ხვალ ბაზარში მივდივარ.",
+    "note": "ხვალ signifie « demain ». ბაზარში signifie « au marché » et მივდივარ « je vais ».",
+    "answers": ["ხვალ ბაზარში მივდივარ.", "ხვალ ბაზარში მივდივარ"]
+  },
+  {
+    "id": "sentence-learning",
+    "fr": "J’habite à Tbilissi et j’apprends le géorgien.",
+    "ka": "თბილისში ვცხოვრობ და ქართულს ვსწავლობ.",
+    "note": "თბილისში veut dire « à Tbilissi » ; ქართულს ვსწავლობ, « j’apprends le géorgien ».",
+    "answers": ["თბილისში ვცხოვრობ და ქართულს ვსწავლობ.", "მე თბილისში ვცხოვრობ და ქართულს ვსწავლობ."]
+  },
+  {
+    "id": "sentence-apple-price",
+    "fr": "Combien coûte cette pomme ?",
+    "ka": "ეს ვაშლი რა ღირს?",
+    "note": "ეს ვაშლი signifie « cette pomme » ; რა ღირს? signifie littéralement « combien vaut ? ».",
+    "answers": ["ეს ვაშლი რა ღირს?", "ეს ვაშლი რა ღირს"]
+  },
+  {
+    "id": "sentence-meeting",
+    "fr": "Nous avons rendez-vous demain.",
+    "ka": "ხვალ შეხვედრა გვაქვს.",
+    "note": "ხვალ signifie « demain » et შეხვედრა გვაქვს « nous avons un rendez-vous ».",
+    "answers": ["ხვალ შეხვედრა გვაქვს.", "ხვალ შეხვედრა გვაქვს"]
+  }
+]

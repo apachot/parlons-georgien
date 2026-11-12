@@ -16,7 +16,7 @@ Ouvrez ensuite <http://127.0.0.1:5000>. La base est créée dans `instance/georg
 
 ### Audio local géorgien et français
 
-Le serveur de démonstration utilise Piper avec les voix `ka_GE-natia-medium` pour le géorgien et `fr_FR-siwis-medium` pour le français. La synthèse s’exécute localement, sans envoi des phrases à un fournisseur externe ; eSpeak NG reste disponible comme solution de repli pour le géorgien si le modèle Piper n’est pas installé. Les extraits préparés sont mis en cache sous `instance/audio/`; la route `/api/audio` ne sert que les fichiers déjà générés. Pour préparer ou compléter les extraits après une modification du contenu :
+Le serveur de démonstration utilise Piper avec les voix `ka_GE-natia-medium` pour le géorgien et `fr_FR-siwis-medium` pour le français. La synthèse s’exécute localement, sans envoi des phrases à un fournisseur externe ; eSpeak NG reste disponible comme solution de repli pour le géorgien si le modèle Piper n’est pas installé. Tous les exercices partagent un cache global sous `instance/audio/`, indexé par langue et texte normalisé : une phrase identique réutilise le même fichier, quel que soit l’exercice. Le générateur déduplique les phrases de tous les contenus et ne synthétise que les fichiers absents ou vides ; il ne remplace jamais un extrait valide. La route `/api/audio` ne sert que ces fichiers déjà générés. Pour préparer ou compléter les extraits après une modification du contenu :
 
 ```bash
 python3 -m venv .venv-tts
@@ -28,11 +28,7 @@ mkdir -p instance/tts-voices
 PIPER_KA_MODEL=instance/tts-voices/ka_GE-natia-medium.onnx PIPER_FR_MODEL=instance/tts-voices/fr_FR-siwis-medium.onnx .venv-tts/bin/python scripts/generate_tts.py
 ```
 
-La voix française s’appuie sur la base SIWIS, sous licence CC BY 4.0 ; attribution : Junichi Yamagishi, Pierre-Edouard Honnet, Philip Garner et Alexandros Lazaridis, Université d’Édimbourg ([fiche du modèle](https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium)). La voix géorgienne « Natia » est autorisée pour un usage individuel personnel ; elle n’est pas destinée aux produits d’organisations ([licence source](https://huggingface.co/datasets/rhasspy/piper-checkpoints/commit/fff501d5f5edcf22c76791c70b7247d83510921d)). Les moteurs Piper et eSpeak NG sont distribués sous GPL-3.0. Pour remplacer les extraits géorgiens déjà en cache :
-
-```bash
-PIPER_KA_MODEL=instance/tts-voices/ka_GE-natia-medium.onnx PIPER_FR_MODEL=instance/tts-voices/fr_FR-siwis-medium.onnx .venv-tts/bin/python scripts/generate_tts.py --force-language ka
-```
+La voix française s’appuie sur la base SIWIS, sous licence CC BY 4.0 ; attribution : Junichi Yamagishi, Pierre-Edouard Honnet, Philip Garner et Alexandros Lazaridis, Université d’Édimbourg ([fiche du modèle](https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium)). La voix géorgienne « Natia » est autorisée pour un usage individuel personnel ; elle n’est pas destinée aux produits d’organisations ([licence source](https://huggingface.co/datasets/rhasspy/piper-checkpoints/commit/fff501d5f5edcf22c76791c70b7247d83510921d)). Les moteurs Piper et eSpeak NG sont distribués sous GPL-3.0.
 
 ## Ce qui est inclus
 

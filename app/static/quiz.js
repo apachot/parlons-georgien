@@ -69,7 +69,8 @@ async function loadQuestion() {
     });
   }
   attempts++;
-  document.querySelector('#session-count').textContent = `Question ${attempts} · vocabulaire et révision`;
+  const sessionCount = document.querySelector('#session-count');
+  if (sessionCount) sessionCount.textContent = `Question ${attempts} · vocabulaire et révision`;
   document.querySelector('.quiz-progress i').style.width = `${Math.min(100, attempts * 10)}%`;
 }
 

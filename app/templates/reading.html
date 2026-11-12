@@ -4,7 +4,8 @@
 {% block content %}
 {{ activity_hub('Lecture · lire, comprendre, déduire', 'Lisez entre les lignes.', 'Des premiers passages aux textes longs en géorgien : entraînez-vous à repérer les faits, les intentions et les détails.', [
   {'icon':'📖','label':'01 · PAS À PAS','title':'Lecture guidée','text':'Un texte court, une question, une explication après chaque réponse.','href':'#reading','mode':'guided','action':'Choisir'},
-  {'icon':'⏱️','label':'02 · FORMAT EXAMEN','title':'Étude de texte','text':'Longs passages en géorgien, série de questions et score final chronométré.','href':'#reading-exam','mode':'exam','action':'Choisir'}
+  {'icon':'⏱️','label':'02 · FORMAT EXAMEN','title':'Étude de texte','text':'Longs passages en géorgien, série de questions et score final chronométré.','href':'#reading-exam','mode':'exam','action':'Choisir'},
+  {'icon':'🧩','label':'03 · PHRASES À TROUS','title':'Trouvez le mot manquant','text':'Lisez la phrase en géorgien et déduisez le mot grâce au contexte.','href':'#reading-cloze','action':'Jouer'}
 ], 'თბილისი') }}
 
 <section class="exercise-box reading-box hidden" id="reading" data-activity-panel data-total="{{ total }}">
@@ -32,5 +33,17 @@
   <div class="lesson-summary hidden" id="exam-summary" aria-live="polite"></div>
   <button type="button" class="button secondary hidden" id="exam-translation-toggle" aria-expanded="false">Afficher la traduction du texte</button><div class="reading-exam-translation hidden" id="exam-translation"></div>
 </section>
+<section class="exercise-box reading-cloze hidden" id="reading-cloze" data-activity-panel data-total="{{ cloze_total }}">
+  <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button>
+  <div class="eyebrow" id="cloze-count">Phrases à trous · lecture attentive</div>
+  <div class="reading-meter"><i id="cloze-meter"></i></div>
+  <div class="lesson-tag">Repérez les indices dans la phrase</div>
+  <h2 class="reading-cloze-sentence ka" id="cloze-sentence" lang="ka">...</h2>
+  <div class="reading-options" id="cloze-options"></div>
+  <div class="feedback" id="cloze-feedback" aria-live="polite"></div>
+  <div class="reading-reveal hidden" id="cloze-reveal" aria-live="polite"></div>
+  <div class="reading-controls"><button class="button primary" id="cloze-start">Commencer →</button><button class="button primary hidden" id="cloze-next">Phrase suivante →</button></div>
+  <div class="lesson-summary hidden" id="cloze-summary" aria-live="polite"></div>
+</section>
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='reading.js') }}?v=oral-player-v1" defer></script><script src="{{ url_for('static', filename='reading-cloze.js') }}?v=cloze-v1" defer></script>{% endblock %}
