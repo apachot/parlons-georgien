@@ -16,8 +16,39 @@
   const checkpoints = new Map((lesson.checks || []).map(item => [item.after_slide, item]));
   const totalQuestions = (lesson.checks || []).reduce((n, item) => n + item.questions.length, 0);
   const progressMax = lesson.slides.length + (lesson.checks || []).length;
+  const progressKey = `parlons-course-progress-${lesson.id}`;
+  let wrongChoices = new Set(), questionSolved = false, restoredCompleted = false;
+
+  try {
+    const saved = JSON.parse(localStorage.getItem(progressKey) || 'null');
+    if (saved?.version === 1) {
+      slideIndex = Number.isInteger(saved.slideIndex) ? Math.max(0, Math.min(saved.slideIndex, lesson.slides.length - 1)) : 0;
+      score = Number.isFinite(saved.score) ? saved.score : 0;
+      wrongTotal = Number.isInteger(saved.wrongTotal) ? Math.max(0, saved.wrongTotal) : 0;
+      answered = Number.isInteger(saved.answered) ? Math.max(0, saved.answered) : 0;
+      restoredCompleted = saved.completed === true;
+      const savedCheckpoint = checkpoints.get(saved.checkpointAfter);
+      if (savedCheckpoint && Number.isInteger(saved.questionIndex)
+          && saved.questionIndex >= 0 && saved.questionIndex < savedCheckpoint.questions.length) {
+        checkpoint = savedCheckpoint;
+        questionIndex = saved.questionIndex;
+        wrongOnQuestion = Number.isInteger(saved.wrongOnQuestion) ? Math.max(0, saved.wrongOnQuestion) : 0;
+        wrongChoices = new Set(Array.isArray(saved.wrongChoices) ? saved.wrongChoices : []);
+        questionSolved = saved.questionSolved === true;
+      }
+    }
+  } catch (_) {}
 
   const node = (tag, cls, content) => { const el = document.createElement(tag); if (cls) el.className = cls; if (content != null) el.textContent = content; return el; };
+  function saveProgress(completed = false) {
+    try {
+      localStorage.setItem(progressKey, JSON.stringify({
+        version: 1, slideIndex, checkpointAfter: checkpoint?.after_slide ?? null,
+        questionIndex, wrongOnQuestion, wrongTotal, score, answered,
+        wrongChoices: [...wrongChoices], questionSolved, completed,
+      }));
+    } catch (_) {}
+  }
   function updateProgress() {
     const done = slideIndex + (checkpoint ? 0.5 : 0);
     const pct = Math.min(100, Math.round(done / progressMax * 100));
@@ -26,6 +57,7 @@
   }
   function renderSlide() {
     checkpoint = null;
+    questionSolved = false; wrongOnQuestion = 0; wrongChoices = new Set();
     const slide = lesson.slides[slideIndex];
     stage.replaceChildren(); stage.className = 'course-slide';
     stage.append(node('div', 'eyebrow', slide.eyebrow), node('h2', '', slide.title), node('p', 'course-slide-body', slide.body));
@@ -50,6 +82,7 @@
     next.textContent = checkpoints.has(slideIndex + 1) ? 'Faire le point →' : (slideIndex === lesson.slides.length - 1 ? 'Terminer la leçon →' : 'Continuer →');
     updateProgress();
     live.textContent = `${slide.title}. ${slide.body}`;
+    saveProgress();
   }
   function renderQuestion() {
     const q = checkpoint.questions[questionIndex];
@@ -60,33 +93,46 @@
     const options = node('div', 'course-quiz-options');
     q.options.forEach((option, index) => {
       const button = node('button', 'course-quiz-option', option); button.type = 'button';
+      if (wrongChoices.has(index)) { button.classList.add('is-wrong'); button.disabled = true; }
       button.addEventListener('click', () => {
-        if (button.disabled) return;
+        if (button.disabled || questionSolved) return;
         if (option === correctAnswer) {
+          questionSolved = true;
           button.classList.add('is-correct');
           const earned = 1 / (wrongOnQuestion + 1); score += earned; answered++;
           Array.from(options.children).forEach(item => item.disabled = true);
           const feedback = node('p', 'course-quiz-feedback is-correct', q.explanation || 'Exact !');
+          stage.querySelector('.course-quiz-feedback')?.remove();
           stage.append(feedback); next.textContent = questionIndex + 1 < checkpoint.questions.length ? 'Question suivante →' : 'Continuer la leçon →';
           next.dataset.quizAnswered = 'true';
         } else {
-          wrongOnQuestion++; wrongTotal++;
+          wrongOnQuestion++; wrongTotal++; wrongChoices.add(index);
           button.classList.add('is-wrong'); button.disabled = true;
+          stage.querySelector('.course-quiz-feedback')?.remove();
           stage.append(node('p', 'course-quiz-feedback is-wrong', 'Pas encore. Réessayez avec une autre réponse.'));
           live.textContent = 'Réponse incorrecte. Vous pouvez réessayer.';
         }
+        saveProgress();
       });
       options.append(button);
     });
-    stage.append(options); next.dataset.quizAnswered = 'false'; next.textContent = 'Répondre aux questions';
-    next.disabled = true;
+    stage.append(options); next.dataset.quizAnswered = String(questionSolved);
+    if (questionSolved) {
+      const correctIndex = q.options.indexOf(correctAnswer);
+      const correctButton = options.children[correctIndex];
+      correctButton?.classList.add('is-correct');
+      Array.from(options.children).forEach(item => item.disabled = true);
+      stage.append(node('p', 'course-quiz-feedback is-correct', q.explanation || 'Exact !'));
+    }
+    next.textContent = questionSolved ? (questionIndex + 1 < checkpoint.questions.length ? 'Question suivante →' : 'Continuer la leçon →') : 'Répondre aux questions';
+    next.disabled = !questionSolved;
     options.addEventListener('click', () => { next.disabled = !next.dataset.quizAnswered || next.dataset.quizAnswered !== 'true'; });
     // Re-enable the advance control when the correct answer is selected.
     options.addEventListener('click', () => { if (next.dataset.quizAnswered === 'true') next.disabled = false; });
-    prev.disabled = true; updateProgress();
+    prev.disabled = true; updateProgress(); saveProgress();
   }
-  function startCheckpoint(item) { checkpoint = item; questionIndex = 0; wrongOnQuestion = 0; renderQuestion(); }
-  function showResult() {
+  function startCheckpoint(item) { checkpoint = item; questionIndex = 0; wrongOnQuestion = 0; wrongChoices = new Set(); questionSolved = false; renderQuestion(); }
+  function showResult(playSound = true) {
     controls.classList.add('hidden'); stage.classList.add('hidden'); result.classList.remove('hidden');
     const pct = totalQuestions ? Math.round(score / totalQuestions * 100) : 100;
     const heading = pct >= 80 ? 'Bravo, leçon maîtrisée !' : pct >= 50 ? 'Belle progression !' : 'Chaque lecture vous fait avancer.';
@@ -98,7 +144,7 @@
     const links = node('div', 'course-related'); links.append(node('h3', '', 'Pour continuer à apprendre'));
     (lesson.related || []).forEach(link => { const a = node('a', '', `${link.title} ↗`); a.href = `${document.documentElement.dataset.appBase || ''}${link.href}`; links.append(a); });
     const actions = node('div', 'course-result-actions');
-    const again = node('button', 'button secondary', 'Refaire la leçon'); again.type = 'button'; again.addEventListener('click', () => location.reload());
+    const again = node('button', 'button secondary', 'Refaire la leçon'); again.type = 'button'; again.addEventListener('click', () => { try { localStorage.removeItem(progressKey); } catch (_) {} location.reload(); });
     if (nextLesson) {
       const following = node('a', 'button primary', `Leçon suivante → ${nextLesson.title}`);
       following.href = nextLesson.url;
@@ -108,14 +154,17 @@
     actions.append(again, catalog); result.append(links, actions);
     progressFill.style.width = '100%'; progressLabel.textContent = '100 %'; stepLabel.textContent = 'Leçon terminée';
     try { localStorage.setItem(`parlons-course-${lesson.id}`, JSON.stringify({completedAt: new Date().toISOString(), score:pct})); } catch (_) {}
-    if (typeof playSuccessSound === 'function') playSuccessSound();
+    saveProgress(true);
+    if (playSound && typeof playSuccessSound === 'function') playSuccessSound();
     live.textContent = `${heading} Score : ${pct} pour cent.`;
   }
   prev.addEventListener('click', () => { if (!checkpoint && slideIndex > 0) { slideIndex--; renderSlide(); } });
   next.addEventListener('click', () => {
     if (checkpoint) {
       if (next.dataset.quizAnswered !== 'true') return;
-      if (questionIndex + 1 < checkpoint.questions.length) { questionIndex++; wrongOnQuestion = 0; renderQuestion(); }
+      if (questionIndex + 1 < checkpoint.questions.length) {
+        questionIndex++; wrongOnQuestion = 0; wrongChoices = new Set(); questionSolved = false; renderQuestion();
+      }
       else { slideIndex = checkpoint.after_slide; if (slideIndex >= lesson.slides.length) showResult(); else renderSlide(); }
       return;
     }
@@ -128,5 +177,7 @@
     if (checkpoints.has(upcoming)) startCheckpoint(checkpoints.get(upcoming));
     else { slideIndex++; renderSlide(); }
   });
-  renderSlide();
+  if (restoredCompleted) showResult(false);
+  else if (checkpoint) renderQuestion();
+  else renderSlide();
 })();
