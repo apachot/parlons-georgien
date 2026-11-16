@@ -31,10 +31,10 @@
 .activity-hero-art::before, .activity-hero-art::after { position: absolute; z-index: -1; content: ""; pointer-events: none; }
 .activity-hero-art::before { inset: 0; border: 1px solid rgba(255,255,255,.14); }
 .activity-hero-art::after { width: 270px; height: 270px; right: -70px; top: -80px; border: 1px solid rgba(250,226,185,.3); transform: rotate(35deg); box-shadow: 0 0 0 26px rgba(250,226,185,.06), 0 0 0 54px rgba(250,226,185,.04); }
-.activity-hero-art span { position: relative; z-index: 1; display: inline-block; padding: 7px 15px 10px; background: rgba(35,22,26,.58); color: #fff9ed; font: 600 clamp(30px, 4vw, 52px)/1.4 var(--ka); text-shadow: 0 2px 8px rgba(25,9,19,.55); backdrop-filter: blur(5px); }
-.activity-hero-art small { z-index: 1; display: inline-block; margin-top: 8px; padding: 7px 10px; background: rgba(35,22,26,.62); color: #fffdf7; font-size: 9px; letter-spacing: .17em; text-shadow: 0 1px 4px rgba(25,9,19,.45); text-transform: uppercase; backdrop-filter: blur(5px); }
+.activity-hero-art span { position: relative; z-index: 1; color: #fff9ed; font: 600 clamp(30px, 4vw, 52px)/1.4 var(--ka); text-shadow: 0 4px 25px rgba(25,9,19,.3); }
+.activity-hero-art small { z-index: 1; color: #fffdf7; font-size: 9px; letter-spacing: .17em; text-shadow: 0 1px 5px rgba(25,9,19,.72); text-transform: uppercase; }
 .activity-hero-art > i { position: absolute; top: 25px; right: 28px; color: #f0c66d; font-size: 24px; font-style: normal; }
-.activity-art-index { position: absolute; z-index: 1; bottom: 20px; left: 24px; padding: 7px 9px; background: rgba(35,22,26,.58); color: #fff7e8; font-size: 8px; letter-spacing: .18em; backdrop-filter: blur(5px); }
+.activity-art-index { position: absolute; z-index: 1; bottom: 20px; left: 24px; color: rgba(255,244,223,.78); font-size: 8px; letter-spacing: .18em; }
 .activity-hero-art[data-section-scene="reading"],
 .activity-hero-art[data-section-scene="dialogues"],
 .activity-hero-art[data-section-scene="lesson"] {
@@ -149,7 +149,6 @@
   font-weight: 800;
   letter-spacing: .15em;
 }
-.wow-visual-top span { padding: 7px 9px; background: rgba(35,22,26,.58); color: #fffaf0; backdrop-filter: blur(5px); }
 .wow-big-letter {
   position: absolute;
   top: 39px;
@@ -185,7 +184,7 @@
 .wow-word-card strong { display: block; color: #fff8eb; font: 600 clamp(31px, 4vw, 43px)/1.45 var(--ka); letter-spacing: .01em; }
 .wow-word-card > span { display: flex; align-items: center; gap: 12px; color: #e4d1cb; font-size: 11px; letter-spacing: .04em; }
 .wow-word-card i { padding-left: 12px; border-left: 1px solid rgba(250, 229, 195, .38); color: #f1c76e; font-size: 11px; font-style: normal; }
-.wow-visual-index { position: absolute; z-index: 2; right: 30px; bottom: 31px; display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: rgba(35,22,26,.62); color: #fff4dd; backdrop-filter: blur(5px); }
+.wow-visual-index { position: absolute; z-index: 2; right: 30px; bottom: 31px; display: flex; align-items: center; gap: 10px; color: rgba(249, 230, 198, .7); }
 .wow-visual-index b { color: #f1c76e; font: 500 35px/.9 var(--serif); }
 .wow-visual-index span { font-size: 7px; font-weight: 800; letter-spacing: .14em; line-height: 1.5; }
 .wow-spark { position: absolute; z-index: 1; color: #f0c469; }
@@ -203,7 +202,7 @@
   color: #f4d98f;
 }
 .wow-ribbon-track { display: flex; align-items: center; justify-content: space-around; gap: clamp(25px, 4vw, 55px); width: max-content; min-width: 100%; animation: wow-marquee 34s linear infinite; }
-.wow-ribbon-track span { padding: 8px 11px; background: rgba(35,22,26,.58); color: #fffdf7; font-size: 9px; font-weight: 800; letter-spacing: .2em; text-shadow: 0 1px 4px rgba(25, 9, 19, .6); white-space: nowrap; backdrop-filter: blur(5px); }
+.wow-ribbon-track span { color: #fffdf7; font-size: 9px; font-weight: 800; letter-spacing: .2em; text-shadow: 0 1px 5px rgba(25, 9, 19, .82); white-space: nowrap; }
 .wow-ribbon-track span:first-child, .wow-ribbon-track span:nth-of-type(3), .wow-ribbon-track span:nth-of-type(5) { font: 500 17px var(--ka); letter-spacing: 0; }
 .wow-ribbon-track i { color: #e4b653; font-size: 13px; font-style: normal; }
 .wow-ribbon:hover .wow-ribbon-track { animation-play-state: paused; }
@@ -261,7 +260,7 @@
   background: url("images/tbilisi-old-town.jpg") right center / 52% 100% no-repeat, #fffdfb !important;
   box-shadow: 0 22px 65px rgba(74,35,48,.1) !important;
 }
-.course-catalog-mark { position: relative; z-index: 1; border-color: rgba(255,255,255,.58) !important; background: rgba(35,22,26,.48) !important; color: #fff1c8 !important; text-shadow: 0 2px 12px rgba(40,18,29,.45); backdrop-filter: blur(5px); }
+.course-catalog-mark { position: relative; z-index: 1; color: #f3cd78 !important; text-shadow: 0 2px 25px rgba(40,18,29,.35); }
 
 @keyframes wow-arrive { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes wow-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
