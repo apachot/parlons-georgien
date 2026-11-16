@@ -59,9 +59,9 @@
   border: 0;
   border-left: 1px solid rgba(255,255,255,.08);
   background:
-    radial-gradient(ellipse at 79% 17%, rgba(213, 158, 67, .23), transparent 26%),
-    radial-gradient(ellipse at 18% 85%, rgba(160, 70, 99, .32), transparent 34%),
-    linear-gradient(151deg, #722b46, #401a2d 55%, #2c1723);
+    linear-gradient(145deg, rgba(45, 17, 33, .60), rgba(45, 17, 33, .48) 46%, rgba(45, 17, 33, .84)),
+    url("images/gergeti-church.jpg") center 46% / cover,
+    #401a2d;
   color: #f3dcae;
   isolation: isolate;
   animation: wow-arrive .85s .08s cubic-bezier(.2,.75,.25,1) both;
@@ -105,6 +105,7 @@
   height: 58%;
   color: rgba(243, 211, 159, .76);
   filter: drop-shadow(0 0 9px rgba(232, 189, 117, .12));
+  opacity: .4;
 }
 .wow-word-card {
   position: absolute;
@@ -134,8 +135,11 @@
   width: 100%;
   overflow: hidden;
   margin: 0 0 30px;
-  padding: 11px 0;
-  background: var(--green-dark);
+  padding: 50px 0;
+  background:
+    linear-gradient(90deg, rgba(41, 20, 31, .76), rgba(55, 25, 39, .55), rgba(41, 20, 31, .78)),
+    url("images/tbilisi-old-town.jpg") center 51% / cover,
+    var(--green-dark);
   color: #f4d98f;
 }
 .wow-ribbon-track { display: flex; align-items: center; justify-content: space-around; gap: clamp(25px, 4vw, 55px); width: max-content; min-width: 100%; animation: wow-marquee 34s linear infinite; }
@@ -143,6 +147,8 @@
 .wow-ribbon-track span:first-child, .wow-ribbon-track span:nth-of-type(3), .wow-ribbon-track span:nth-of-type(5) { font: 500 17px var(--ka); letter-spacing: 0; }
 .wow-ribbon-track i { color: #e4b653; font-size: 13px; font-style: normal; }
 .wow-ribbon:hover .wow-ribbon-track { animation-play-state: paused; }
+.photo-credits { max-width: 1360px; margin: -62px auto 68px; color: #8a7b7c; font-size: 10px; line-height: 1.7; text-align: right; }
+.photo-credits a { color: var(--green-dark); text-decoration: underline; text-underline-offset: 2px; }
 
 .wow-ribbon + .stats {
   display: grid;
@@ -210,6 +216,8 @@
   .wow-word-card strong { font-size: 33px; }
   .wow-visual-index { right: 18px; bottom: 20px; }
   .wow-ribbon { margin-bottom: 22px; }
+  .wow-ribbon { padding-block: 35px; }
+  .photo-credits { margin: -49px 14px 52px; font-size: 9px; text-align: left; }
   .wow-ribbon + .stats { grid-template-columns: 1fr 1fr; gap: 8px; margin: 0 12px 55px; }
   .wow-ribbon + .stats .stat { min-height: 116px; padding: 15px; }
   .wow-ribbon + .stats .stat:first-child { grid-column: 1 / -1; }
