@@ -45,15 +45,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 
 .brand {
   flex: 0 0 auto;
-  gap: 10px;
+  gap: 8px;
   color: var(--ink);
-  font-size: 16px;
-  letter-spacing: -.045em;
+  font-size: 18px;
+  letter-spacing: -.035em;
 }
+.brand > span { display: block; line-height: 1.12; font-weight: 750; white-space: nowrap; }
 
 .brand-mark {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   border: 1px solid #e6ecea;
   border-radius: 16px;
   background: #fff;
@@ -61,9 +62,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 }
 
 .brand small {
-  margin-top: -2px;
+  margin-top: 3px;
   color: #78878b;
-  font-size: 9px;
+  font-size: 10px;
+  font-weight: 500;
   letter-spacing: .02em;
 }
 
@@ -287,17 +289,17 @@ footer a { color: var(--green); }
   .hero { padding: clamp(34px, 4.5vw, 60px); }
   .nav { gap: 0; }
   .nav a { padding-inline: 7px; font-size: 10px; }
-  .brand { font-size: 14px; }
-  .brand-mark { width: 43px; height: 43px; }
+  .brand { font-size: 15px; }
+  .brand-mark { width: 38px; height: 38px; }
   .learner-level { min-width: 96px; padding: 7px 9px; }
   .alphabet-grid, .vocab-grid, .activity-hub, .vocabulary-games-section { margin-left: 3.2vw; margin-right: 3.2vw; }
 }
 
 @media (max-width: 760px) {
   .topbar { height: 68px; gap: 7px; padding-inline: 16px; }
-  .brand { gap: 8px; font-size: 14px; }
-  .brand-mark { width: 40px; height: 40px; border-radius: 13px; }
-  .brand small { font-size: 8px; }
+  .brand { gap: 7px; font-size: 14px; }
+  .brand-mark { width: 36px; height: 36px; border-radius: 11px; }
+  .brand small { margin-top: 2px; font-size: 8px; }
   .menu-toggle { display: grid; place-items: center; order: 3; }
   .learner-level { order: 2; min-width: auto; margin-left: auto; margin-right: 2px; padding: 6px 9px; border-radius: 12px; }
   .learner-level > span { font-size: 7px; }
@@ -347,7 +349,7 @@ footer a { color: var(--green); }
 
 @media (max-width: 390px) {
   .brand { font-size: 12px; }
-  .brand-mark { width: 36px; height: 36px; }
+  .brand-mark { width: 34px; height: 34px; }
   .learner-level { padding: 5px 7px; }
   .lesson-grid { grid-template-columns: 1fr; }
   .lesson-card { min-height: 0; }
