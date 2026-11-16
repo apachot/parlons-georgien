@@ -1,0 +1,223 @@
+/* Distinctive editorial landing page and a little motion across the learning paths. */
+.wow-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.04fr) minmax(430px, .96fr);
+  align-items: stretch;
+  gap: 0;
+  min-height: 560px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e8dadb;
+  background: #fffdfb;
+  box-shadow: 0 28px 85px rgba(74, 35, 48, .13);
+  animation: wow-arrive .75s cubic-bezier(.2,.75,.25,1) both;
+}
+.wow-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(42px, 6vw, 83px);
+}
+.wow-kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  color: #8b6871;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+.wow-kicker-dot { width: 8px; height: 8px; background: var(--orange); box-shadow: 0 0 0 5px rgba(217,154,53,.13); }
+.wow-kicker-line { width: 30px; height: 1px; margin-left: 2px; background: #d9c8c8; }
+.wow-copy h1 {
+  margin: 0 0 20px;
+  color: var(--ink);
+  font-size: clamp(54px, 6.2vw, 82px);
+  font-weight: 780;
+  letter-spacing: -.075em;
+  line-height: .99;
+}
+.wow-copy h1 em { display: inline-block; color: var(--green); }
+.wow-copy > p { max-width: 480px; margin: 0 0 28px; color: #6d6064; font-size: 15px; line-height: 1.8; }
+.wow-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; }
+.wow-actions .button { min-height: 54px; padding-inline: 21px; }
+.wow-secondary-link { display: inline-flex; align-items: center; gap: 10px; color: var(--green-dark); font-size: 12px; font-weight: 750; }
+.wow-secondary-link span { color: var(--orange); font-size: 18px; transition: transform .18s ease; }
+.wow-secondary-link:hover span { transform: translateX(4px); }
+.wow-hero-foot { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 42px; color: #85797a; font-size: 10px; font-weight: 650; }
+.wow-foot-mark { color: var(--orange); font-size: 17px; }
+.wow-foot-divider { width: 1px; height: 14px; margin-inline: 3px; background: #dfd4d1; }
+
+.wow-visual {
+  position: relative;
+  display: block;
+  min-width: 0;
+  min-height: 560px;
+  height: auto;
+  overflow: hidden;
+  border: 0;
+  border-left: 1px solid rgba(255,255,255,.08);
+  background:
+    radial-gradient(ellipse at 79% 17%, rgba(213, 158, 67, .23), transparent 26%),
+    radial-gradient(ellipse at 18% 85%, rgba(160, 70, 99, .32), transparent 34%),
+    linear-gradient(151deg, #722b46, #401a2d 55%, #2c1723);
+  color: #f3dcae;
+  isolation: isolate;
+  animation: wow-arrive .85s .08s cubic-bezier(.2,.75,.25,1) both;
+}
+.wow-visual::before, .wow-visual::after {
+  position: absolute;
+  z-index: -1;
+  border: 1px solid rgba(238, 212, 163, .17);
+  content: "";
+  pointer-events: none;
+}
+.wow-visual::before { width: 520px; height: 520px; top: 12%; right: -25%; transform: rotate(31deg); }
+.wow-visual::after { width: 410px; height: 410px; top: 24%; right: -10%; transform: rotate(31deg); }
+.wow-visual-top {
+  position: absolute;
+  top: 27px;
+  right: 30px;
+  left: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(250, 229, 188, .22);
+  color: rgba(251, 232, 196, .72);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: .15em;
+}
+.wow-big-letter {
+  position: absolute;
+  top: 39px;
+  right: 2%;
+  color: rgba(255, 246, 225, .07);
+  font: 500 clamp(270px, 34vw, 460px)/.9 var(--ka);
+  user-select: none;
+}
+.wow-skyline {
+  position: absolute;
+  right: -3%;
+  bottom: 0;
+  width: 108%;
+  height: 58%;
+  color: rgba(243, 211, 159, .76);
+  filter: drop-shadow(0 0 9px rgba(232, 189, 117, .12));
+}
+.wow-word-card {
+  position: absolute;
+  z-index: 2;
+  bottom: 82px;
+  left: clamp(22px, 5vw, 61px);
+  width: min(340px, calc(100% - 44px));
+  padding: 19px 22px 21px;
+  border: 1px solid rgba(249, 229, 195, .34);
+  background: rgba(50, 24, 37, .75);
+  box-shadow: 0 18px 48px rgba(20, 8, 15, .22);
+  backdrop-filter: blur(12px);
+  animation: wow-float 5s ease-in-out infinite;
+}
+.wow-word-card small { display: block; margin-bottom: 5px; color: #e7c882; font-size: 8px; font-weight: 800; letter-spacing: .16em; }
+.wow-word-card strong { display: block; color: #fff8eb; font: 600 clamp(31px, 4vw, 43px)/1.45 var(--ka); letter-spacing: .01em; }
+.wow-word-card > span { display: flex; align-items: center; gap: 12px; color: #e4d1cb; font-size: 11px; letter-spacing: .04em; }
+.wow-word-card i { padding-left: 12px; border-left: 1px solid rgba(250, 229, 195, .38); color: #f1c76e; font-size: 11px; font-style: normal; }
+.wow-visual-index { position: absolute; z-index: 2; right: 30px; bottom: 31px; display: flex; align-items: center; gap: 10px; color: rgba(249, 230, 198, .7); }
+.wow-visual-index b { color: #f1c76e; font: 500 35px/.9 var(--serif); }
+.wow-visual-index span { font-size: 7px; font-weight: 800; letter-spacing: .14em; line-height: 1.5; }
+.wow-spark { position: absolute; z-index: 1; color: #f0c469; }
+.wow-spark-one { top: 26%; left: 17%; font-size: 24px; animation: wow-turn 14s linear infinite; }
+.wow-spark-two { top: 42%; right: 13%; font-size: 13px; }
+
+.wow-ribbon {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 0 30px;
+  padding: 11px 0;
+  background: var(--green-dark);
+  color: #f4d98f;
+}
+.wow-ribbon-track { display: flex; align-items: center; justify-content: space-around; gap: clamp(25px, 4vw, 55px); width: max-content; min-width: 100%; animation: wow-marquee 34s linear infinite; }
+.wow-ribbon-track span { color: #fff6e6; font-size: 9px; font-weight: 800; letter-spacing: .2em; white-space: nowrap; }
+.wow-ribbon-track span:first-child, .wow-ribbon-track span:nth-of-type(3), .wow-ribbon-track span:nth-of-type(5) { font: 500 17px var(--ka); letter-spacing: 0; }
+.wow-ribbon-track i { color: #e4b653; font-size: 13px; font-style: normal; }
+.wow-ribbon:hover .wow-ribbon-track { animation-play-state: paused; }
+
+.wow-ribbon + .stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 1360px;
+  margin-top: 0;
+  margin-bottom: 86px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.wow-ribbon + .stats .stat {
+  position: relative;
+  min-height: 132px;
+  justify-content: center;
+  padding: 20px 23px;
+  border: 1px solid #e9dedb;
+  background: rgba(255,253,251,.96);
+  box-shadow: 0 8px 25px rgba(74, 35, 48, .045);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.wow-ribbon + .stats .stat:hover { transform: translateY(-3px); box-shadow: 0 15px 34px rgba(74, 35, 48, .09); }
+.wow-ribbon + .stats .stat-number { font-size: 36px; }
+.wow-ribbon + .stats .progress-track { margin-top: 12px; }
+.wow-ribbon + .stats .text-link { margin-top: 5px; }
+
+.section-block#lecons .section-heading { align-items: end; padding-bottom: 16px; border-bottom: 1px solid #e5d8d7; }
+.section-block#lecons .section-heading h2 { margin: 0; font-size: clamp(27px, 3.6vw, 38px); }
+.section-block#lecons .lesson-card { min-height: 220px; padding: 24px; border-top: 3px solid #d9b4b8; background: #fffdfb; }
+.section-block#lecons .lesson-card:nth-child(2n) { border-top-color: #d9a958; }
+.section-block#lecons .lesson-card:hover { border-top-color: var(--green); }
+.section-block#lecons .lesson-card h3 { font-size: 20px; }
+.section-block#lecons .lesson-card .card-top { margin-bottom: 25px; }
+.section-block#lecons .lesson-card .card-meta { margin-top: auto; }
+
+@keyframes wow-arrive { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes wow-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+@keyframes wow-turn { to { transform: rotate(360deg); } }
+@keyframes wow-marquee { to { transform: translateX(-50%); } }
+
+@media (max-width: 1200px) {
+  .wow-hero { grid-template-columns: 1fr 1fr; }
+  .wow-copy { padding: 48px; }
+  .wow-visual, .wow-hero { min-height: 510px; }
+  .wow-ribbon + .stats .stat { padding-inline: 18px; }
+}
+
+@media (max-width: 760px) {
+  .wow-hero { grid-template-columns: 1fr; min-height: 0; margin: 16px 12px 16px; padding: 0; }
+  .wow-copy { padding: 34px 23px 29px; }
+  .wow-kicker { gap: 7px; font-size: 7px; letter-spacing: .11em; }
+  .wow-kicker-line { width: 18px; }
+  .wow-copy h1 { font-size: clamp(49px, 13vw, 65px); }
+  .wow-copy > p { font-size: 13px; }
+  .wow-actions { gap: 14px; }
+  .wow-actions .button { width: 100%; }
+  .wow-hero-foot { gap: 8px; margin-top: 27px; font-size: 8px; }
+  .wow-visual { min-height: 410px; height: 410px; }
+  .wow-visual-top { top: 20px; right: 20px; left: 20px; }
+  .wow-big-letter { top: 28px; right: 0; font-size: 300px; }
+  .wow-skyline { right: -12%; width: 125%; height: 55%; }
+  .wow-word-card { bottom: 68px; left: 19px; padding: 15px 17px; }
+  .wow-word-card strong { font-size: 33px; }
+  .wow-visual-index { right: 18px; bottom: 20px; }
+  .wow-ribbon { margin-bottom: 22px; }
+  .wow-ribbon + .stats { grid-template-columns: 1fr 1fr; gap: 8px; margin: 0 12px 55px; }
+  .wow-ribbon + .stats .stat { min-height: 116px; padding: 15px; }
+  .wow-ribbon + .stats .stat:first-child { grid-column: 1 / -1; }
+  .section-block#lecons .section-heading { align-items: flex-start; }
+  .section-block#lecons .lesson-card { min-height: 190px; padding: 16px; }
+  .section-block#lecons .lesson-card .card-top { margin-bottom: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wow-hero, .wow-visual, .wow-word-card, .wow-spark-one, .wow-ribbon-track { animation: none !important; }
+}
