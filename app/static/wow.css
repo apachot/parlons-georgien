@@ -32,17 +32,17 @@
 .activity-hero-art::before { inset: 0; border: 1px solid rgba(255,255,255,.14); }
 .activity-hero-art::after { width: 270px; height: 270px; right: -70px; top: -80px; border: 1px solid rgba(250,226,185,.3); transform: rotate(35deg); box-shadow: 0 0 0 26px rgba(250,226,185,.06), 0 0 0 54px rgba(250,226,185,.04); }
 .activity-hero-art span { position: relative; z-index: 1; color: #fff9ed; font: 600 clamp(30px, 4vw, 52px)/1.4 var(--ka); text-shadow: 0 4px 25px rgba(25,9,19,.3); }
-.activity-hero-art small { z-index: 1; color: rgba(255,244,223,.78); font-size: 9px; letter-spacing: .17em; text-transform: uppercase; }
+.activity-hero-art small { z-index: 1; color: #fffdf7; font-size: 9px; letter-spacing: .17em; text-shadow: 0 1px 5px rgba(25,9,19,.72); text-transform: uppercase; }
 .activity-hero-art > i { position: absolute; top: 25px; right: 28px; color: #f0c66d; font-size: 24px; font-style: normal; }
 .activity-art-index { position: absolute; z-index: 1; bottom: 20px; left: 24px; color: rgba(255,244,223,.78); font-size: 8px; letter-spacing: .18em; }
 .activity-hero-art[data-section-scene="reading"],
 .activity-hero-art[data-section-scene="dialogues"],
 .activity-hero-art[data-section-scene="lesson"] {
-  background: linear-gradient(145deg, rgba(57,24,40,.2), rgba(44,20,33,.77)), url("images/tbilisi-old-town.jpg") center 47% / cover;
+  background: url("images/tbilisi-old-town.jpg") center 47% / cover;
 }
 .activity-hero-art[data-section-scene="comprehension"],
 .activity-hero-art[data-section-scene="session"] {
-  background: linear-gradient(145deg, rgba(57,24,40,.12), rgba(44,20,33,.77)), url("images/gergeti-church.jpg") center 48% / cover;
+  background: url("images/gergeti-church.jpg") center 48% / cover;
 }
 .activity-hero-art[data-section-scene="alphabet"] { background: radial-gradient(circle at 78% 22%, rgba(229,184,94,.25), transparent 19%), linear-gradient(145deg, #67233f, #2b1825); }
 .activity-hero-art[data-section-scene="alphabet"]::after { width: auto; height: auto; top: 18px; right: 28px; border: 0; color: rgba(255,248,235,.12); content: "ა ბ გ დ ე ვ ზ თ"; font: 500 48px/1.7 var(--ka); letter-spacing: .04em; transform: rotate(-8deg); box-shadow: none; }
@@ -119,7 +119,6 @@
   border: 0;
   border-left: 1px solid rgba(255,255,255,.08);
   background:
-    linear-gradient(145deg, rgba(45, 17, 33, .60), rgba(45, 17, 33, .48) 46%, rgba(45, 17, 33, .84)),
     url("images/gergeti-church.jpg") center 46% / cover,
     #401a2d;
   color: #f3dcae;
@@ -144,7 +143,8 @@
   justify-content: space-between;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(250, 229, 188, .22);
-  color: rgba(251, 232, 196, .72);
+  color: #fffaf0;
+  text-shadow: 0 1px 5px rgba(25, 9, 19, .78);
   font-size: 8px;
   font-weight: 800;
   letter-spacing: .15em;
@@ -197,13 +197,12 @@
   margin: 0 0 30px;
   padding: 50px 0;
   background:
-    linear-gradient(90deg, rgba(41, 20, 31, .76), rgba(55, 25, 39, .55), rgba(41, 20, 31, .78)),
     url("images/tbilisi-old-town.jpg") center 51% / cover,
     var(--green-dark);
   color: #f4d98f;
 }
 .wow-ribbon-track { display: flex; align-items: center; justify-content: space-around; gap: clamp(25px, 4vw, 55px); width: max-content; min-width: 100%; animation: wow-marquee 34s linear infinite; }
-.wow-ribbon-track span { color: #fff6e6; font-size: 9px; font-weight: 800; letter-spacing: .2em; white-space: nowrap; }
+.wow-ribbon-track span { color: #fffdf7; font-size: 9px; font-weight: 800; letter-spacing: .2em; text-shadow: 0 1px 5px rgba(25, 9, 19, .82); white-space: nowrap; }
 .wow-ribbon-track span:first-child, .wow-ribbon-track span:nth-of-type(3), .wow-ribbon-track span:nth-of-type(5) { font: 500 17px var(--ka); letter-spacing: 0; }
 .wow-ribbon-track i { color: #e4b653; font-size: 13px; font-style: normal; }
 .wow-ribbon:hover .wow-ribbon-track { animation-play-state: paused; }
@@ -258,7 +257,7 @@
   min-height: 285px;
   border: 1px solid #e4d6d8 !important;
   border-radius: 0 !important;
-  background: linear-gradient(90deg, rgba(255,253,251,.98) 0%, rgba(255,253,251,.94) 47%, rgba(48,27,37,.38) 100%), url("images/tbilisi-old-town.jpg") center 51% / cover !important;
+  background: url("images/tbilisi-old-town.jpg") right center / 52% 100% no-repeat, #fffdfb !important;
   box-shadow: 0 22px 65px rgba(74,35,48,.1) !important;
 }
 .course-catalog-mark { position: relative; z-index: 1; color: #f3cd78 !important; text-shadow: 0 2px 25px rgba(40,18,29,.35); }
@@ -286,7 +285,7 @@
   .activity-hero-art { min-height: 205px; height: 205px; max-width: none; width: 100%; }
   .activity-hero-art span { font-size: 34px; }
   .activity-hub { margin: 0 12px; }
-  .course-catalog-hero { min-height: 220px; margin: 0; padding: 27px 23px; background: linear-gradient(90deg, rgba(255,253,251,.98), rgba(255,253,251,.88) 72%, rgba(48,27,37,.48)), url("images/tbilisi-old-town.jpg") center / cover !important; }
+  .course-catalog-hero { min-height: 220px; margin: 0; padding: 27px 23px; background: url("images/tbilisi-old-town.jpg") right center / 45% 100% no-repeat, #fffdfb !important; }
   .photo-credits-global { max-width: 100%; font-size: 8px; }
   .wow-hero { grid-template-columns: 1fr; min-height: 0; margin: 16px 12px 16px; padding: 0; }
   .wow-copy { padding: 34px 23px 29px; }
