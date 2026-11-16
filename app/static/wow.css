@@ -1,4 +1,64 @@
 /* Distinctive editorial landing page and a little motion across the learning paths. */
+.activity-hero {
+  max-width: 1360px;
+  min-height: 318px;
+  margin: 32px auto 0;
+  padding: 0;
+  grid-template-columns: minmax(0, 1.02fr) minmax(350px, .98fr);
+  gap: 0;
+  border: 1px solid #e4d6d8;
+  border-radius: 0;
+  background: #fffdfb;
+  color: var(--ink);
+  box-shadow: 0 23px 68px rgba(74, 35, 48, .11);
+}
+.activity-hero::after { display: none; }
+.activity-hero-copy { padding: clamp(30px, 5vw, 66px); }
+.activity-hero-copy .eyebrow { color: var(--green); }
+.activity-hero-copy h1 { max-width: 690px; margin: 0 0 14px; color: var(--ink); font-size: clamp(39px, 4.8vw, 63px); letter-spacing: -.065em; line-height: 1.01; }
+.activity-hero-copy p { max-width: 580px; margin: 0; color: #716469; font-size: 14px; line-height: 1.8; }
+.activity-hero-art {
+  min-height: 318px;
+  height: 100%;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: linear-gradient(145deg, #712b47, #321927);
+  box-shadow: none;
+  transform: none;
+  isolation: isolate;
+}
+.activity-hero-art::before, .activity-hero-art::after { position: absolute; z-index: -1; content: ""; pointer-events: none; }
+.activity-hero-art::before { inset: 0; border: 1px solid rgba(255,255,255,.14); }
+.activity-hero-art::after { width: 270px; height: 270px; right: -70px; top: -80px; border: 1px solid rgba(250,226,185,.3); transform: rotate(35deg); box-shadow: 0 0 0 26px rgba(250,226,185,.06), 0 0 0 54px rgba(250,226,185,.04); }
+.activity-hero-art span { position: relative; z-index: 1; color: #fff9ed; font: 600 clamp(30px, 4vw, 52px)/1.4 var(--ka); text-shadow: 0 4px 25px rgba(25,9,19,.3); }
+.activity-hero-art small { z-index: 1; color: rgba(255,244,223,.78); font-size: 9px; letter-spacing: .17em; text-transform: uppercase; }
+.activity-hero-art > i { position: absolute; top: 25px; right: 28px; color: #f0c66d; font-size: 24px; font-style: normal; }
+.activity-art-index { position: absolute; z-index: 1; bottom: 20px; left: 24px; color: rgba(255,244,223,.78); font-size: 8px; letter-spacing: .18em; }
+.activity-hero-art[data-section-scene="reading"],
+.activity-hero-art[data-section-scene="dialogues"],
+.activity-hero-art[data-section-scene="lesson"] {
+  background: linear-gradient(145deg, rgba(57,24,40,.2), rgba(44,20,33,.77)), url("images/tbilisi-old-town.jpg") center 47% / cover;
+}
+.activity-hero-art[data-section-scene="comprehension"],
+.activity-hero-art[data-section-scene="session"] {
+  background: linear-gradient(145deg, rgba(57,24,40,.12), rgba(44,20,33,.77)), url("images/gergeti-church.jpg") center 48% / cover;
+}
+.activity-hero-art[data-section-scene="alphabet"] { background: radial-gradient(circle at 78% 22%, rgba(229,184,94,.25), transparent 19%), linear-gradient(145deg, #67233f, #2b1825); }
+.activity-hero-art[data-section-scene="alphabet"]::after { width: auto; height: auto; top: 18px; right: 28px; border: 0; color: rgba(255,248,235,.12); content: "ა ბ გ დ ე ვ ზ თ"; font: 500 48px/1.7 var(--ka); letter-spacing: .04em; transform: rotate(-8deg); box-shadow: none; }
+.activity-hero-art[data-section-scene="dictation"] { background: radial-gradient(ellipse at center, rgba(224,174,86,.2), transparent 35%), linear-gradient(145deg, #4e283e, #241c2c); }
+.activity-hero-art[data-section-scene="dictation"]::after { width: 70%; height: 62px; top: 50%; right: 15%; border: 0; background: repeating-linear-gradient(90deg, transparent 0 7px, rgba(246,211,143,.75) 7px 10px, transparent 10px 17px); opacity: .42; transform: translateY(-50%); box-shadow: none; }
+.activity-hero-art[data-section-scene="grammar"] { background: radial-gradient(ellipse at 80% 15%, rgba(226,180,91,.22), transparent 25%), linear-gradient(145deg, #234237, #172b29); }
+.activity-hero-art[data-section-scene="grammar"]::after { width: 170px; height: 170px; right: 18px; top: 20px; border-color: rgba(226,238,205,.25); transform: rotate(45deg); box-shadow: 0 0 0 17px rgba(226,238,205,.06), 0 0 0 34px rgba(226,238,205,.04); }
+.activity-hero-art[data-section-scene="lesson"]::after,
+.activity-hero-art[data-section-scene="dialogues"]::after,
+.activity-hero-art[data-section-scene="reading"]::after,
+.activity-hero-art[data-section-scene="comprehension"]::after,
+.activity-hero-art[data-section-scene="session"]::after { border-color: rgba(255,249,237,.34); }
+.activity-hub { max-width: 1360px; }
+.activity-card-grid { max-width: 1360px; }
+.photo-credits-global { max-width: 460px; color: #9a8c8d; font-size: 9px; line-height: 1.6; }
+.photo-credits-global a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .wow-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.04fr) minmax(430px, .96fr);
@@ -186,12 +246,32 @@
 .section-block#lecons .lesson-card .card-top { margin-bottom: 25px; }
 .section-block#lecons .lesson-card .card-meta { margin-top: auto; }
 
+.vocabulary-hero-art {
+  border-radius: 0 !important;
+  background: radial-gradient(circle at 50% 48%, rgba(238,199,120,.3), transparent 38%), linear-gradient(145deg, #5b233a, #271b29) !important;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.18) !important;
+}
+.vocabulary-hero-art::before { border-color: rgba(244,223,180,.22) !important; }
+.course-catalog-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 285px;
+  border: 1px solid #e4d6d8 !important;
+  border-radius: 0 !important;
+  background: linear-gradient(90deg, rgba(255,253,251,.98) 0%, rgba(255,253,251,.94) 47%, rgba(48,27,37,.38) 100%), url("images/tbilisi-old-town.jpg") center 51% / cover !important;
+  box-shadow: 0 22px 65px rgba(74,35,48,.1) !important;
+}
+.course-catalog-mark { position: relative; z-index: 1; color: #f3cd78 !important; text-shadow: 0 2px 25px rgba(40,18,29,.35); }
+
 @keyframes wow-arrive { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes wow-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
 @keyframes wow-turn { to { transform: rotate(360deg); } }
 @keyframes wow-marquee { to { transform: translateX(-50%); } }
 
 @media (max-width: 1200px) {
+  .activity-hero { margin-inline: 3.2vw; }
+  .activity-hub { margin-inline: 3.2vw; }
+  .course-catalog-hero { margin-inline: 0; }
   .wow-hero { grid-template-columns: 1fr 1fr; }
   .wow-copy { padding: 48px; }
   .wow-visual, .wow-hero { min-height: 510px; }
@@ -199,6 +279,15 @@
 }
 
 @media (max-width: 760px) {
+  .activity-hero { min-height: 0; margin: 16px 12px 0; padding: 0; grid-template-columns: 1fr; gap: 0; }
+  .activity-hero-copy { padding: 26px 22px 23px; }
+  .activity-hero-copy h1 { font-size: clamp(35px, 9.5vw, 46px); }
+  .activity-hero-copy p { font-size: 12px; }
+  .activity-hero-art { min-height: 205px; height: 205px; max-width: none; width: 100%; }
+  .activity-hero-art span { font-size: 34px; }
+  .activity-hub { margin: 0 12px; }
+  .course-catalog-hero { min-height: 220px; margin: 0; padding: 27px 23px; background: linear-gradient(90deg, rgba(255,253,251,.98), rgba(255,253,251,.88) 72%, rgba(48,27,37,.48)), url("images/tbilisi-old-town.jpg") center / cover !important; }
+  .photo-credits-global { max-width: 100%; font-size: 8px; }
   .wow-hero { grid-template-columns: 1fr; min-height: 0; margin: 16px 12px 16px; padding: 0; }
   .wow-copy { padding: 34px 23px 29px; }
   .wow-kicker { gap: 7px; font-size: 7px; letter-spacing: .11em; }
