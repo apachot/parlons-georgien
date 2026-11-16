@@ -46,22 +46,17 @@
 .activity-hero-art[data-section-scene="session"] {
   background: url("images/gergeti-church.jpg") center 48% / cover;
 }
+.activity-hero-art[data-section-scene="alphabet"] { background: url("images/ushguli-towers.jpg") center 62% / cover; }
+.activity-hero-art[data-section-scene="dictation"] { background: url("images/tbilisi-old-town.jpg") center 48% / cover; }
+.activity-hero-art[data-section-scene="grammar"] { background: url("images/tbilisi-church-fresco.jpg") center 52% / cover; }
+.activity-hero-art[data-section-scene="alphabet"] > *,
+.activity-hero-art[data-section-scene="dictation"] > *,
+.activity-hero-art[data-section-scene="grammar"] > *,
 .activity-hero-art[data-section-scene="reading"] > *,
 .activity-hero-art[data-section-scene="dialogues"] > *,
 .activity-hero-art[data-section-scene="lesson"] > *,
 .activity-hero-art[data-section-scene="comprehension"] > *,
 .activity-hero-art[data-section-scene="session"] > * { display: none; }
-.activity-hero-art[data-section-scene="alphabet"] { background: radial-gradient(circle at 78% 22%, rgba(229,184,94,.25), transparent 19%), linear-gradient(145deg, #67233f, #2b1825); }
-.activity-hero-art[data-section-scene="alphabet"]::after { width: auto; height: auto; top: 18px; right: 28px; border: 0; color: rgba(255,248,235,.12); content: "ა ბ გ დ ე ვ ზ თ"; font: 500 48px/1.7 var(--ka); letter-spacing: .04em; transform: rotate(-8deg); box-shadow: none; }
-.activity-hero-art[data-section-scene="dictation"] { background: radial-gradient(ellipse at center, rgba(224,174,86,.2), transparent 35%), linear-gradient(145deg, #4e283e, #241c2c); }
-.activity-hero-art[data-section-scene="dictation"]::after { width: 70%; height: 62px; top: 50%; right: 15%; border: 0; background: repeating-linear-gradient(90deg, transparent 0 7px, rgba(246,211,143,.75) 7px 10px, transparent 10px 17px); opacity: .42; transform: translateY(-50%); box-shadow: none; }
-.activity-hero-art[data-section-scene="grammar"] { background: radial-gradient(ellipse at 80% 15%, rgba(226,180,91,.22), transparent 25%), linear-gradient(145deg, #234237, #172b29); }
-.activity-hero-art[data-section-scene="grammar"]::after { width: 170px; height: 170px; right: 18px; top: 20px; border-color: rgba(226,238,205,.25); transform: rotate(45deg); box-shadow: 0 0 0 17px rgba(226,238,205,.06), 0 0 0 34px rgba(226,238,205,.04); }
-.activity-hero-art[data-section-scene="lesson"]::after,
-.activity-hero-art[data-section-scene="dialogues"]::after,
-.activity-hero-art[data-section-scene="reading"]::after,
-.activity-hero-art[data-section-scene="comprehension"]::after,
-.activity-hero-art[data-section-scene="session"]::after { border-color: rgba(255,249,237,.34); }
 .activity-hub { max-width: 1360px; }
 .activity-card-grid { max-width: 1360px; }
 .photo-credits-global { max-width: 460px; color: #9a8c8d; font-size: 9px; line-height: 1.6; }
@@ -254,9 +249,10 @@
 
 .vocabulary-hero-art {
   border-radius: 0 !important;
-  background: radial-gradient(circle at 50% 48%, rgba(238,199,120,.3), transparent 38%), linear-gradient(145deg, #5b233a, #271b29) !important;
+  background: url("images/kakheti-vineyards.jpg") center 51% / cover !important;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.18) !important;
 }
+.vocabulary-hero-art > * { display: none !important; }
 .vocabulary-hero-art::before { border-color: rgba(244,223,180,.22) !important; }
 .course-catalog-hero {
   position: relative;
