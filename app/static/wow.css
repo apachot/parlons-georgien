@@ -4,7 +4,7 @@
   min-height: 318px;
   margin: 32px auto 0;
   padding: 0;
-  grid-template-columns: minmax(0, 1.02fr) minmax(350px, .98fr);
+  grid-template-columns: minmax(320px, .92fr) minmax(0, 1.08fr);
   gap: 0;
   border: 1px solid #e4d6d8;
   border-radius: 0;
@@ -13,11 +13,13 @@
   box-shadow: 0 23px 68px rgba(74, 35, 48, .11);
 }
 .activity-hero::after { display: none; }
-.activity-hero-copy { padding: clamp(30px, 5vw, 66px); }
+.activity-hero-copy { grid-column: 2; grid-row: 1; padding: clamp(30px, 5vw, 66px); }
 .activity-hero-copy .eyebrow { color: var(--green); }
 .activity-hero-copy h1 { max-width: 690px; margin: 0 0 14px; color: var(--ink); font-size: clamp(39px, 4.8vw, 63px); letter-spacing: -.065em; line-height: 1.01; }
 .activity-hero-copy p { max-width: 580px; margin: 0; color: #716469; font-size: 14px; line-height: 1.8; }
 .activity-hero-art {
+  grid-column: 1;
+  grid-row: 1;
   min-height: 318px;
   height: 100%;
   overflow: hidden;
@@ -44,6 +46,11 @@
 .activity-hero-art[data-section-scene="session"] {
   background: url("images/gergeti-church.jpg") center 48% / cover;
 }
+.activity-hero-art[data-section-scene="reading"] > *,
+.activity-hero-art[data-section-scene="dialogues"] > *,
+.activity-hero-art[data-section-scene="lesson"] > *,
+.activity-hero-art[data-section-scene="comprehension"] > *,
+.activity-hero-art[data-section-scene="session"] > * { display: none; }
 .activity-hero-art[data-section-scene="alphabet"] { background: radial-gradient(circle at 78% 22%, rgba(229,184,94,.25), transparent 19%), linear-gradient(145deg, #67233f, #2b1825); }
 .activity-hero-art[data-section-scene="alphabet"]::after { width: auto; height: auto; top: 18px; right: 28px; border: 0; color: rgba(255,248,235,.12); content: "ა ბ გ დ ე ვ ზ თ"; font: 500 48px/1.7 var(--ka); letter-spacing: .04em; transform: rotate(-8deg); box-shadow: none; }
 .activity-hero-art[data-section-scene="dictation"] { background: radial-gradient(ellipse at center, rgba(224,174,86,.2), transparent 35%), linear-gradient(145deg, #4e283e, #241c2c); }
@@ -279,7 +286,8 @@
 
 @media (max-width: 760px) {
   .activity-hero { min-height: 0; margin: 16px 12px 0; padding: 0; grid-template-columns: 1fr; gap: 0; }
-  .activity-hero-copy { padding: 26px 22px 23px; }
+  .activity-hero-art { grid-column: 1; grid-row: 1; }
+  .activity-hero-copy { grid-column: 1; grid-row: 2; padding: 26px 22px 23px; }
   .activity-hero-copy h1 { font-size: clamp(35px, 9.5vw, 46px); }
   .activity-hero-copy p { font-size: 12px; }
   .activity-hero-art { min-height: 205px; height: 205px; max-width: none; width: 100%; }
