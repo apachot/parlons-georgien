@@ -356,3 +356,8 @@ footer a { color: var(--green); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Sharper geometry: keep only the intentional decorative circles round. */
+body :not(.sun):not(.course-catalog-mark):not(.dot) {
+  border-radius: 3px !important;
+}
