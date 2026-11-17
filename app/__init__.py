@@ -253,6 +253,16 @@ def create_app(test_config=None):
         app.config.update(test_config)
     db.init_app(app)
 
+    @app.after_request
+    def cache_static_assets(response):
+        if request.endpoint == "static":
+            response.vary.discard("Cookie")
+            if ".v1." in request.path:
+                response.headers["Cache-Control"] = "public, max-age=31536000, immutable"
+            else:
+                response.headers["Cache-Control"] = "public, max-age=3600"
+        return response
+
     with app.app_context():
         Path(app.instance_path).mkdir(parents=True, exist_ok=True)
         db.create_all()

@@ -1,6 +1,6 @@
 # Photographies de Géorgie
 
-Les huit cartes de la page d’accueil utilisent chacune une photographie différente. Les images sont recadrées par CSS pour s’adapter aux cartes. Les crédits sont affichés dans le pied de page.
+Les huit cartes de la page d’accueil utilisent chacune une photographie différente. Les images sources JPG restent conservées dans le dépôt. Pour l’application, des dérivés WebP versionnés sont servis en deux tailles (480 et 960 pixels) ; les cartes choisissent la taille adaptée à l’écran. Les crédits sont affichés dans le pied de page.
 
 | Fichier | Sujet | Auteur | Licence et source |
 | --- | --- | --- | --- |
