@@ -33,6 +33,12 @@
     $('#placement-options').replaceChildren();
     $('#placement-text').textContent = item.text || '';
     $('#placement-question').textContent = item.question || '';
+    $('#placement-text').scrollTop = 0;
+    dialog.scrollTop = 0;
+    requestAnimationFrame(() => {
+      $('#placement-text').scrollTop = 0;
+      dialog.scrollTop = 0;
+    });
     const addOption = (label, choice, unknown = false) => {
       const button = document.createElement('button');
       button.type = 'button';
