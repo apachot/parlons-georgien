@@ -270,6 +270,9 @@ def create_app(test_config=None):
 
     @app.before_request
     def load_logged_in_account():
+        if request.endpoint == "static":
+            g.account = None
+            return
         account_id = flask_session.get("account_id")
         g.account = db.session.get(User, account_id) if account_id else None
         if account_id and g.account is None:
