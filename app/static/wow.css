@@ -418,6 +418,8 @@
 .about-bio h1 { max-width: 690px; margin: 0 0 22px; color: #35222d; font-size: clamp(38px, 5.2vw, 64px); letter-spacing: -.06em; line-height: 1.02; }
 .about-bio p { margin: 0; color: #5f5558; font-size: 16px; line-height: 1.8; }
 .about-bio p + p { margin-top: 15px; }
+.about-bio .about-signature { margin-top: 23px; color: #442436; font: italic 24px/1.2 Georgia, serif; }
+.about-signature + .about-text-link { margin-top: 8px; }
 .about-portrait { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 37%; background: #eee8e0; }
 .about-text-link { display: inline-flex; gap: 10px; margin-top: 18px; color: #653247; font-size: 12px; font-weight: 750; text-decoration: none; }
 .about-text-link:hover { text-decoration: underline; text-underline-offset: 3px; }
