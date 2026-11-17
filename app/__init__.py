@@ -8,7 +8,7 @@ import hmac
 import re
 import secrets
 
-from flask import Flask, flash, g, jsonify, redirect, render_template, request, send_file, session, url_for
+from flask import Flask, flash, g, jsonify, redirect, render_template, request, send_file, session as flask_session, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
 from sqlalchemy.exc import IntegrityError
@@ -210,21 +210,21 @@ def create_app(test_config=None):
 
     @app.before_request
     def load_logged_in_account():
-        account_id = session.get("account_id")
+        account_id = flask_session.get("account_id")
         g.account = db.session.get(User, account_id) if account_id else None
         if account_id and g.account is None:
-            session.clear()
+            flask_session.clear()
 
     def csrf_token():
-        token = session.get("csrf_token")
+        token = flask_session.get("csrf_token")
         if token is None:
             import secrets
             token = secrets.token_urlsafe(32)
-            session["csrf_token"] = token
+            flask_session["csrf_token"] = token
         return token
 
     def valid_csrf():
-        expected = session.get("csrf_token")
+        expected = flask_session.get("csrf_token")
         return bool(expected) and hmac.compare_digest(str(request.form.get("csrf_token", "")), str(expected))
 
     def account_required(view):
@@ -267,8 +267,8 @@ def create_app(test_config=None):
             db.session.rollback()
             flash("Un compte utilise déjà cette adresse e-mail.", "error")
             return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 409
-        session.clear()
-        session["account_id"] = account.id
+        flask_session.clear()
+        flask_session["account_id"] = account.id
         csrf_token()
         flash("Votre compte est créé. Votre progression sera désormais sauvegardée.", "success")
         return redirect(url_for("account"))
@@ -289,8 +289,8 @@ def create_app(test_config=None):
         if account is None or not check_password_hash(account.password_hash, request.form.get("password", "")):
             flash("Adresse e-mail ou mot de passe incorrect.", "error")
             return render_template("account_auth.html", mode="login", next_url=request.form.get("next", "")), 401
-        session.clear()
-        session["account_id"] = account.id
+        flask_session.clear()
+        flask_session["account_id"] = account.id
         csrf_token()
         account.last_login_at = utc_now_naive()
         db.session.commit()
@@ -304,7 +304,7 @@ def create_app(test_config=None):
         if not valid_csrf():
             flash("Le formulaire a expiré. Réessayez.", "error")
             return redirect(url_for("account"))
-        session.clear()
+        flask_session.clear()
         flash("Vous êtes déconnecté(e).", "success")
         return redirect(url_for("home"))
 
@@ -353,7 +353,7 @@ def create_app(test_config=None):
         AccountData.query.filter_by(user_id=user_id).delete(synchronize_session=False)
         User.query.filter_by(id=user_id).delete(synchronize_session=False)
         db.session.commit()
-        session.clear()
+        flask_session.clear()
         flash("Votre compte et les données associées ont été supprimés.", "success")
         return redirect(url_for("home"))
 
