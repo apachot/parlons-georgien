@@ -176,6 +176,7 @@
   };
 
   $('#placement-start')?.addEventListener('click', start);
+  $('#home-placement-cta')?.addEventListener('click', () => window.openPlacementTest());
   $('.placement-close')?.addEventListener('click', () => dialog.close());
   $('#placement-finish')?.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
