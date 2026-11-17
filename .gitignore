@@ -4,5 +4,6 @@ __pycache__/
 *.py[cod]
 instance/*.db
 instance/*.json
+instance/.session-secret
 instance/audio/
 instance/tts-voices/

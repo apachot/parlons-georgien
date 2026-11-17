@@ -1,9 +1,10 @@
-(() => {
+(async () => {
   const data = document.getElementById('course-data');
   const stage = document.getElementById('course-stage');
   if (!data || !stage) return;
   let lesson;
   try { lesson = JSON.parse(data.textContent); } catch (_) { return; }
+  await (window.accountSyncReady || Promise.resolve());
   let nextLesson = null;
   try { nextLesson = JSON.parse(document.getElementById('next-course-data')?.textContent || 'null'); } catch (_) {}
 
@@ -67,6 +68,7 @@
         questionIndex, wrongOnQuestion, wrongTotal, score, answered,
         wrongChoices: [...wrongChoices], questionSolved, reviewingCheckpoint, completed,
       }));
+      window.queueAccountSync?.();
     } catch (_) {}
   }
   function updateProgress() {

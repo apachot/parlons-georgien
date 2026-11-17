@@ -1,4 +1,5 @@
-(() => {
+(async () => {
+  await (window.accountSyncReady || Promise.resolve());
   document.querySelectorAll('[data-course-id]').forEach(card => {
     try {
       if (localStorage.getItem(`parlons-course-${card.dataset.courseId}`)) {

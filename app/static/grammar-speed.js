@@ -14,6 +14,9 @@ if (grammarSpeedRoot) {
   let timer = null, advance = null, busy = false;
   let best = 0;
   try { best = Number(localStorage.getItem('kartuli-grammar-speed-best') || 0); } catch (_) { /* Le défi reste jouable sans stockage local. */ }
+  window.accountSyncReady?.then(() => {
+    try { best = Math.max(best, Number(localStorage.getItem('kartuli-grammar-speed-best') || 0)); } catch (_) {}
+  });
 
   function updateSpeedStats() {
     const remaining = Math.max(0, endsAt - Date.now());
@@ -98,6 +101,7 @@ if (grammarSpeedRoot) {
     if (correct > best) {
       best = correct;
       try { localStorage.setItem('kartuli-grammar-speed-best', String(best)); } catch (_) { /* Record local facultatif. */ }
+      window.queueAccountSync?.();
     }
     speed.summary.textContent = `${correct} bonne${correct === 1 ? '' : 's'} réponse${correct === 1 ? '' : 's'} sur ${attempts} tentatives · ${accuracy} % de précision · record : ${best}.`;
     speed.summary.classList.remove('hidden'); speed.start.textContent = 'Rejouer →'; speed.start.classList.remove('hidden');

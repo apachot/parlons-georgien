@@ -122,7 +122,8 @@
     hide('#placement-quiz');
     hide('#placement-result');
   });
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
+    await window.accountSyncReady;
     try {
       const profile = JSON.parse(localStorage.getItem('parlons-georgien-learning-profile-v1') || '{}');
       if (!profile.onboarding?.completedAt && !profile.onboarding?.dismissedAt && !profile.history?.length) {

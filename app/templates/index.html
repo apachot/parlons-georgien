@@ -5,6 +5,7 @@
     <h1>La Géorgie.<br><em>Dans vos mots.</em></h1>
     <p>Apprenez à lire, comprendre et parler géorgien avec des séances courtes, des situations réelles et un parcours qui avance avec vous.</p>
     <div class="wow-actions"><a class="button primary" href="{{ url_for('session') }}">Commencer à apprendre <span>↗</span></a><a class="wow-secondary-link" href="{{ url_for('courses') }}">Voir les leçons <span>→</span></a></div>
+    <a class="home-account-cta" href="{{ url_for('account') if current_account else url_for('register') }}">{{ 'Ouvrir mon espace personnel →' if current_account else 'Créer un compte gratuit pour sauvegarder mes progrès →' }}</a>
     <div class="wow-hero-foot"><span class="wow-foot-mark">✳</span><span>Une première séance en 10 minutes</span><span class="wow-foot-divider"></span><span>Du niveau A1 au C2</span></div>
   </div>
   <div class="hero-art wow-visual" role="img" aria-label="Bienvenue en géorgien : გამარჯობა, gamarjoba, bonjour">

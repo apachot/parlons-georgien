@@ -3,10 +3,16 @@ import os
 import random
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
+from functools import wraps
+import hmac
+import re
+import secrets
 
-from flask import Flask, jsonify, render_template, request, send_file, url_for
+from flask import Flask, flash, g, jsonify, redirect, render_template, request, send_file, session, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import func
+from sqlalchemy.exc import IntegrityError
+from werkzeug.security import check_password_hash, generate_password_hash
 from .tts import audio_name, normalise_speech
 from .crossword import build_crossword
 
@@ -17,6 +23,25 @@ CONTENT = ROOT / "content"
 
 def utc_now_naive():
     return datetime.now(timezone.utc).replace(tzinfo=None)
+
+
+def instance_secret(instance_path):
+    configured = os.environ.get("FLASK_SECRET_KEY")
+    if configured:
+        return configured
+    key_file = Path(instance_path) / ".session-secret"
+    key_file.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        return key_file.read_text(encoding="utf-8").strip()
+    except FileNotFoundError:
+        value = secrets.token_urlsafe(64)
+        try:
+            with key_file.open("x", encoding="utf-8") as stream:
+                stream.write(value)
+            key_file.chmod(0o600)
+            return value
+        except FileExistsError:
+            return key_file.read_text(encoding="utf-8").strip()
 
 
 class Progress(db.Model):
@@ -35,6 +60,75 @@ class LessonCompletion(db.Model):
     lesson_id = db.Column(db.String(100), unique=True, nullable=False)
     completed_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
     score = db.Column(db.Integer, nullable=False, default=0)
+
+
+class User(db.Model):
+    __tablename__ = "user_account"
+    id = db.Column(db.Integer, primary_key=True)
+    display_name = db.Column(db.String(80), nullable=False)
+    email = db.Column(db.String(254), nullable=False, unique=True)
+    password_hash = db.Column(db.String(255), nullable=False)
+    created_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
+    last_login_at = db.Column(db.DateTime, nullable=True)
+
+
+class AccountProgress(db.Model):
+    __tablename__ = "account_progress"
+    __table_args__ = (db.UniqueConstraint("user_id", "item_id", name="uq_account_progress_item"),)
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"), nullable=False, index=True)
+    item_id = db.Column(db.String(100), nullable=False)
+    kind = db.Column(db.String(30), nullable=False, default="vocabulary")
+    seen = db.Column(db.Integer, nullable=False, default=0)
+    correct = db.Column(db.Integer, nullable=False, default=0)
+    streak = db.Column(db.Integer, nullable=False, default=0)
+    due_at = db.Column(db.DateTime, nullable=True)
+    last_answer = db.Column(db.Boolean, nullable=True)
+
+
+class AccountLessonCompletion(db.Model):
+    __tablename__ = "account_lesson_completion"
+    __table_args__ = (db.UniqueConstraint("user_id", "lesson_id", name="uq_account_lesson"),)
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"), nullable=False, index=True)
+    lesson_id = db.Column(db.String(100), nullable=False)
+    completed_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
+    score = db.Column(db.Integer, nullable=False, default=0)
+
+
+class AccountData(db.Model):
+    __tablename__ = "account_data"
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"), nullable=False, unique=True)
+    learning_profile = db.Column(db.JSON, nullable=False, default=dict)
+    browser_data = db.Column(db.JSON, nullable=False, default=dict)
+    updated_at = db.Column(db.DateTime, nullable=False, server_default=func.now(), onupdate=func.now())
+
+
+class _AccountScopedProxy:
+    def __init__(self, guest_model, account_model):
+        self.guest_model = guest_model
+        self.account_model = account_model
+
+    def _model(self):
+        return self.account_model if getattr(g, "account", None) else self.guest_model
+
+    @property
+    def query(self):
+        query = self._model().query
+        return query.filter_by(user_id=g.account.id) if getattr(g, "account", None) else query
+
+    def __getattr__(self, name):
+        return getattr(self._model(), name)
+
+    def __call__(self, *args, **kwargs):
+        if getattr(g, "account", None):
+            kwargs["user_id"] = g.account.id
+        return self._model()(*args, **kwargs)
+
+
+Progress = _AccountScopedProxy(Progress, AccountProgress)
+LessonCompletion = _AccountScopedProxy(LessonCompletion, AccountLessonCompletion)
 
 
 def load_content(name):
@@ -98,9 +192,13 @@ def grammar_exercises():
 def create_app(test_config=None):
     app = Flask(__name__)
     app.config.update(
-        SECRET_KEY=os.environ.get("FLASK_SECRET_KEY", "georgien-local-dev"),
+        SECRET_KEY=instance_secret(app.instance_path),
         SQLALCHEMY_DATABASE_URI=f"sqlite:///{ROOT / 'instance' / 'georgien.db'}",
         SQLALCHEMY_TRACK_MODIFICATIONS=False,
+        MAX_CONTENT_LENGTH=2_000_000,
+        SESSION_COOKIE_HTTPONLY=True,
+        SESSION_COOKIE_SAMESITE="Lax",
+        SESSION_COOKIE_SECURE=os.environ.get("SESSION_COOKIE_SECURE", "1") == "1",
     )
     if test_config:
         app.config.update(test_config)
@@ -109,6 +207,188 @@ def create_app(test_config=None):
     with app.app_context():
         Path(app.instance_path).mkdir(parents=True, exist_ok=True)
         db.create_all()
+
+    @app.before_request
+    def load_logged_in_account():
+        account_id = session.get("account_id")
+        g.account = db.session.get(User, account_id) if account_id else None
+        if account_id and g.account is None:
+            session.clear()
+
+    def csrf_token():
+        token = session.get("csrf_token")
+        if token is None:
+            import secrets
+            token = secrets.token_urlsafe(32)
+            session["csrf_token"] = token
+        return token
+
+    def valid_csrf():
+        expected = session.get("csrf_token")
+        return bool(expected) and hmac.compare_digest(str(request.form.get("csrf_token", "")), str(expected))
+
+    def account_required(view):
+        @wraps(view)
+        def wrapped(*args, **kwargs):
+            if not g.account:
+                return redirect(url_for("login", next=request.path))
+            return view(*args, **kwargs)
+        return wrapped
+
+    @app.context_processor
+    def inject_account_context():
+        return {"current_account": getattr(g, "account", None), "csrf_token": csrf_token}
+
+    @app.get("/register")
+    def register():
+        if g.account:
+            return redirect(url_for("account"))
+        return render_template("account_auth.html", mode="register", next_url=request.args.get("next", ""))
+
+    @app.post("/register")
+    def register_submit():
+        if not valid_csrf():
+            flash("Le formulaire a expiré. Réessayez.", "error")
+            return redirect(url_for("register"))
+        name = request.form.get("display_name", "").strip()[:80]
+        email = request.form.get("email", "").strip().casefold()
+        password = request.form.get("password", "")
+        if not name or not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", email):
+            flash("Indiquez un nom et une adresse e-mail valide.", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 400
+        if len(password) < 8 or len(password) > 256:
+            flash("Le mot de passe doit contenir entre 8 et 256 caractères.", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 400
+        account = User(display_name=name, email=email, password_hash=generate_password_hash(password))
+        db.session.add(account)
+        try:
+            db.session.commit()
+        except IntegrityError:
+            db.session.rollback()
+            flash("Un compte utilise déjà cette adresse e-mail.", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 409
+        session.clear()
+        session["account_id"] = account.id
+        csrf_token()
+        flash("Votre compte est créé. Votre progression sera désormais sauvegardée.", "success")
+        return redirect(url_for("account"))
+
+    @app.get("/login")
+    def login():
+        if g.account:
+            return redirect(url_for("account"))
+        return render_template("account_auth.html", mode="login", next_url=request.args.get("next", ""))
+
+    @app.post("/login")
+    def login_submit():
+        if not valid_csrf():
+            flash("Le formulaire a expiré. Réessayez.", "error")
+            return redirect(url_for("login"))
+        email = request.form.get("email", "").strip().casefold()
+        account = User.query.filter_by(email=email).first()
+        if account is None or not check_password_hash(account.password_hash, request.form.get("password", "")):
+            flash("Adresse e-mail ou mot de passe incorrect.", "error")
+            return render_template("account_auth.html", mode="login", next_url=request.form.get("next", "")), 401
+        session.clear()
+        session["account_id"] = account.id
+        csrf_token()
+        account.last_login_at = utc_now_naive()
+        db.session.commit()
+        destination = request.form.get("next", "")
+        if not destination.startswith("/") or destination.startswith("//"):
+            destination = url_for("account")
+        return redirect(destination)
+
+    @app.post("/logout")
+    def logout():
+        if not valid_csrf():
+            flash("Le formulaire a expiré. Réessayez.", "error")
+            return redirect(url_for("account"))
+        session.clear()
+        flash("Vous êtes déconnecté(e).", "success")
+        return redirect(url_for("home"))
+
+    @app.get("/account")
+    @account_required
+    def account():
+        stats = {
+            "items_seen": Progress.query.count(),
+            "answers": sum(row.seen for row in Progress.query.all()),
+            "correct": sum(row.correct for row in Progress.query.all()),
+            "lessons": LessonCompletion.query.count(),
+            "created_at": g.account.created_at,
+            "last_login_at": g.account.last_login_at,
+        }
+        data = AccountData.query.filter_by(user_id=g.account.id).first()
+        level = ((data.learning_profile or {}).get("overallLevel") or "À déterminer") if data else "À déterminer"
+        return render_template("account.html", stats=stats, estimated_level=level)
+
+    @app.post("/account/password")
+    @account_required
+    def change_password():
+        if not valid_csrf():
+            flash("Le formulaire a expiré. Réessayez.", "error")
+        elif not check_password_hash(g.account.password_hash, request.form.get("current_password", "")):
+            flash("Le mot de passe actuel est incorrect.", "error")
+        elif not 8 <= len(request.form.get("new_password", "")) <= 256:
+            flash("Le nouveau mot de passe doit contenir entre 8 et 256 caractères.", "error")
+        else:
+            g.account.password_hash = generate_password_hash(request.form["new_password"])
+            db.session.commit()
+            flash("Mot de passe mis à jour.", "success")
+        return redirect(url_for("account"))
+
+    @app.post("/account/delete")
+    @account_required
+    def delete_account():
+        if not valid_csrf():
+            flash("Le formulaire a expiré. Réessayez.", "error")
+            return redirect(url_for("account"))
+        if not check_password_hash(g.account.password_hash, request.form.get("password", "")):
+            flash("Mot de passe incorrect. Le compte n’a pas été supprimé.", "error")
+            return redirect(url_for("account"))
+        user_id = g.account.id
+        AccountProgress.query.filter_by(user_id=user_id).delete(synchronize_session=False)
+        AccountLessonCompletion.query.filter_by(user_id=user_id).delete(synchronize_session=False)
+        AccountData.query.filter_by(user_id=user_id).delete(synchronize_session=False)
+        User.query.filter_by(id=user_id).delete(synchronize_session=False)
+        db.session.commit()
+        session.clear()
+        flash("Votre compte et les données associées ont été supprimés.", "success")
+        return redirect(url_for("home"))
+
+    @app.get("/api/account/sync")
+    @account_required
+    def get_account_sync():
+        data = AccountData.query.filter_by(user_id=g.account.id).first()
+        return jsonify({"user_id": g.account.id,
+                        "learning_profile": data.learning_profile if data else {},
+                        "browser_data": data.browser_data if data else {}})
+
+    @app.post("/api/account/sync")
+    @account_required
+    def save_account_sync():
+        payload = request.get_json(silent=True) or {}
+        profile = payload.get("learning_profile", {})
+        browser_data = payload.get("browser_data", {})
+        if not isinstance(profile, dict) or not isinstance(browser_data, dict):
+            return jsonify({"error": "Données de synchronisation invalides."}), 400
+        history = profile.get("history", [])
+        if not isinstance(history, list):
+            return jsonify({"error": "Historique invalide."}), 400
+        profile["history"] = history[-5000:]
+        browser_data = {str(key): value for key, value in browser_data.items()
+                        if str(key).startswith(("parlons-course-progress-", "parlons-course-", "kartuli-grammar-speed-"))}
+        if len(json.dumps({"profile": profile, "browser_data": browser_data}, ensure_ascii=False)) > 1_500_000:
+            return jsonify({"error": "La sauvegarde dépasse la taille autorisée."}), 413
+        data = AccountData.query.filter_by(user_id=g.account.id).first()
+        if data is None:
+            data = AccountData(user_id=g.account.id)
+            db.session.add(data)
+        data.learning_profile = profile
+        data.browser_data = browser_data
+        db.session.commit()
+        return jsonify({"saved": True, "updated_at": data.updated_at.isoformat()})
 
     @app.get("/")
     def home():
@@ -802,13 +1082,16 @@ def create_app(test_config=None):
 
     @app.get("/export")
     def export_progress():
+        account_data = AccountData.query.filter_by(user_id=g.account.id).first() if g.account else None
         data = {"exported_at": utc_now_naive().isoformat() + "Z",
                 "progress": [{"id": r.item_id, "kind": r.kind, "seen": r.seen,
                               "correct": r.correct, "streak": r.streak,
                               "due_at": r.due_at.isoformat() if r.due_at else None,
                               "last_answer": r.last_answer} for r in Progress.query.all()],
                 "lessons": [{"id": x.lesson_id, "score": x.score,
-                             "completed_at": x.completed_at.isoformat()} for x in LessonCompletion.query.all()]}
+                             "completed_at": x.completed_at.isoformat()} for x in LessonCompletion.query.all()],
+                "learning_profile": account_data.learning_profile if account_data else {},
+                "browser_data": account_data.browser_data if account_data else {}}
         path = Path(app.instance_path) / "progress-export.json"
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         return send_file(path, as_attachment=True, download_name="ma-progression-georgien.json")

@@ -32,8 +32,8 @@
       const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
       return {ratings: data.ratings || {}, history: Array.isArray(data.history) ? data.history : [],
         levels: data.levels || {}, overallLevel: data.overallLevel || null, pending: data.pending || {},
-        onboarding: data.onboarding || {completedAt: null, dismissedAt: null}};
-    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, onboarding: {completedAt: null, dismissedAt: null}}; }
+        onboarding: data.onboarding || {completedAt: null, dismissedAt: null}, accountOwner: data.accountOwner || null};
+    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, onboarding: {completedAt: null, dismissedAt: null}, accountOwner: null}; }
   };
   let profile = readProfile();
   const activeQuestion = {};
@@ -95,6 +95,7 @@
   const saveProfile = () => {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(profile)); } catch (_) { /* Storage may be disabled. */ }
     refreshBadge();
+    window.queueAccountSync?.();
   };
   const refreshBadge = () => {
     const value = document.querySelector('#learner-level-value');
@@ -256,5 +257,12 @@
       if (window.openPlacementDiagnostic) window.openPlacementDiagnostic();
       else document.querySelector('#placement-dialog')?.showModal();
     });
+  });
+  window.addEventListener('account-profile-restored', event => {
+    if (!event.detail || typeof event.detail !== 'object') return;
+    profile = {...readProfile(), ...event.detail};
+    refreshBadge();
+    const accountLevel = document.querySelector('#account-level');
+    if (accountLevel) accountLevel.textContent = overallLevel();
   });
 })();
