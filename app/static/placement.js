@@ -16,7 +16,7 @@
   };
   const saveDraft = () => {
     if (!state) return;
-    window.savePlacementDraft?.({...state, used: [...state.used]});
+    window.savePlacementDraft?.({...state, startedAt: state.startedAt || new Date().toISOString(), used: [...state.used]});
   };
   const beginScreen = () => {
     hide('#placement-intro');
@@ -64,26 +64,31 @@
     show('#placement-next');
   };
   const start = () => {
-    state = {level: 'A2', index: 0, streak: 0, responses: [], used: new Set(), item: null, locked: false};
+    state = {level: 'A2', index: 0, streak: 0, responses: [], used: new Set(), item: null, locked: false,
+      startedAt: new Date().toISOString()};
     beginScreen();
+    saveDraft();
     loadQuestion();
   };
   const restore = draft => {
-    if (!draft || !draft.item || !Array.isArray(draft.responses) || !Number.isInteger(draft.index)) return false;
+    if (!draft || !draft.startedAt || !Array.isArray(draft.responses) || !Number.isInteger(draft.index)) return false;
     const level = LEVELS.includes(draft.level) ? draft.level : 'A1';
     const index = Math.max(0, Math.min(TOTAL, draft.index));
     state = {...draft, level, index, streak: Math.max(0, Number(draft.streak) || 0),
       responses: draft.responses, used: new Set(Array.isArray(draft.used) ? draft.used : []),
       locked: Boolean(draft.locked)};
     beginScreen();
-    renderItem(state.item);
+    if (state.item) renderItem(state.item);
+    else loadQuestion();
     return true;
   };
   const loadQuestion = async () => {
     if (state.index >= TOTAL) return finish();
+    state.item = null;
     state.locked = false;
     state.selectedChoice = null;
     state.selectedUnknown = false;
+    saveDraft();
     beginScreen();
     $('#placement-count').textContent = `Question ${state.index + 1} sur ${TOTAL}`;
     $('#placement-level').textContent = state.level;
@@ -107,6 +112,7 @@
       renderItem(item);
       saveDraft();
     } catch (error) {
+      saveDraft();
       $('#placement-feedback').textContent = error.message || 'Une erreur est survenue.';
       $('#placement-feedback').classList.add('is-wrong');
       show('#placement-next');
@@ -181,7 +187,7 @@
       const profile = JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}');
       if (!profile.onboarding?.completedAt && restore(profile.onboarding?.draft)) {
         dialog.showModal();
-      } else if (!profile.onboarding?.completedAt && !profile.onboarding?.dismissedAt && !profile.history?.length) {
+      } else if (!profile.onboarding?.completedAt && profile.onboarding?.dismissedVersion !== 2) {
         dialog.showModal();
       }
     } catch (_) { /* The assessment remains available from the level profile. */ }

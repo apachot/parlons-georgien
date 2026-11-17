@@ -89,7 +89,7 @@
     return overallLevel();
   };
   window.dismissPlacementWelcome = () => {
-    profile.onboarding = {...(profile.onboarding || {}), dismissedAt: new Date().toISOString()};
+    profile.onboarding = {...(profile.onboarding || {}), dismissedAt: new Date().toISOString(), dismissedVersion: 2};
     saveProfile();
   };
   window.savePlacementDraft = draft => {
