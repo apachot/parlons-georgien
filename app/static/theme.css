@@ -60,6 +60,8 @@ body {
 .placement-options { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
 .placement-option { min-height: 54px; padding: 12px 14px; border: 1px solid #e8dfe0; border-radius: 0; background: white; color: #3d3035; font-size: 12px; text-align: left; cursor: pointer; }
 .placement-option:hover:not(:disabled) { border-color: #b6798c; background: #fcf5f7; }
+.placement-option[data-unknown="true"] { border-style: dashed; color: #75666c; }
+.placement-option.is-unknown { border-color: #c4a980; background: #faf5ea; color: #715e3c; }
 .placement-option:disabled { cursor: default; }
 .placement-option.is-correct { border-color: #78a581; background: #edf6eb; color: #326746; font-weight: 700; }
 .placement-option.is-wrong { border-color: #d28f80; background: #fff0eb; color: #984e40; }

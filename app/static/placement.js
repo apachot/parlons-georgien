@@ -48,6 +48,13 @@
         button.addEventListener('click', () => answer(option, button));
         $('#placement-options').append(button);
       });
+      const unknown = document.createElement('button');
+      unknown.type = 'button';
+      unknown.className = 'placement-option';
+      unknown.dataset.unknown = 'true';
+      unknown.textContent = 'Je ne sais pas';
+      unknown.addEventListener('click', () => answer(null, unknown));
+      $('#placement-options').append(unknown);
     } catch (error) {
       $('#placement-feedback').textContent = error.message || 'Une erreur est survenue.';
       $('#placement-feedback').classList.add('is-wrong');
@@ -76,10 +83,11 @@
       $('#placement-feedback').textContent = 'Bonne réponse ! La prochaine question pourra être un peu plus exigeante.';
       $('#placement-feedback').classList.add('is-correct');
     } else {
-      button.classList.add('is-wrong');
+      const didntKnow = button.dataset.unknown === 'true';
+      button.classList.add(didntKnow ? 'is-unknown' : 'is-wrong');
       state.streak = 0;
       if (LEVELS.indexOf(state.level) > 0) state.level = LEVELS[LEVELS.indexOf(state.level) - 1];
-      $('#placement-feedback').textContent = `Pas tout à fait. La bonne réponse était « ${item.answer} ». ${item.explanation || ''}`;
+      $('#placement-feedback').textContent = `${didntKnow ? 'Bien noté.' : 'Pas tout à fait.'} La bonne réponse était « ${item.answer} ». ${item.explanation || ''}`;
       $('#placement-feedback').classList.add('is-wrong');
     }
     state.index += 1;
