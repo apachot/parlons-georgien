@@ -1,0 +1,235 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "grammar-c2-gen-001",
+      "title": "Présent déclaratif simple (ვ- ფორმა)",
+      "level": "A1",
+      "cefr": "C2",
+      "version": 1,
+      "body": "Introduction concise à la forme présente standard en géorgien : le préfixe ვ- (1re personne) + radical + terminaison zéro pour l’indicatif présent. Usage principal : actions en cours ou habitudes. Ne pas confondre avec formes non marquées où le pronom est facultatif.",
+      "examples": [
+        [
+          "მე ვჭამ.",
+          "Je mange."
+        ],
+        [
+          "შენ წერ.",
+          "Tu écrობ / Tu es en train d’écrire."
+        ],
+        [
+          "ის დადის.",
+          "Il/elle marche / Il va régulièrement."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-002",
+      "title": "Passé simple (aoriste) et indices temporels",
+      "level": "A2",
+      "cefr": "C2",
+      "version": 2,
+      "body": "Le passé aoriste s’exprime souvent sans auxiliaire : radical + წინა/ბრუნვადი desinences (ex. -ა pour 3e sing.). Exemples d’usage avec adverbes temporels. Attention : certains verbes irréguliers changent radical.",
+      "examples": [
+        [
+          "თითქმის ყველა წერდა, მაგრამ მან უკვე წაიკითხა.",
+          "Presque tout le monde écrivait, mais il/elle avait déjà lu."
+        ],
+        [
+          "გუშინ მე ვივარჯიშე.",
+          "Hier j’ai fait de l’exercice."
+        ],
+        [
+          "ის სახლში წავიდა.",
+          "Il/elle est parti(e) à la maison."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-003",
+      "title": "Préverbes verbaux (ჩამო-, გა-, გად-…) et aspectualité",
+      "level": "B1",
+      "cefr": "C2",
+      "version": 3,
+      "body": "Les préverbes (ჩამო-, გა-, გად-, შემო-, გამ-…) se placent devant le radical et modifient sens, direction ou completion (aspect). Ils ne sont pas productifs de façon uniforme : chaque verbe peut accepter un sous-ensemble de préverbes. Indiquer la nuance : déplacement, introduction, achèvement, etc.",
+      "examples": [
+        [
+          "მან ყვავილები ჩამოიტანა.",
+          "Il/elle a apporté (en descendant) les fleurs."
+        ],
+        [
+          "გადასცდა ბარიერი და გაიყვანა.",
+          "Il/elle a franchi la barrière et est sorti(e)."
+        ],
+        [
+          "მე გადავწყვიტე გამოჯავრება.",
+          "J’ai décidé (après réflexion) de me résoudre."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-004",
+      "title": "Cas nominatif/დაეტყო-სემანტიკა et ergativité au passé",
+      "level": "B2",
+      "cefr": "C2",
+      "version": 4,
+      "body": "En géorgien contemporain, le sujet au présent est nominatif; au passé aoriste, le sujet porte souvent la marque ergative (-მ) tandis que l’objet reçoit la forme nominative. Expliquer les limites : l’ergativité n’est pas absolue (variation selon l’aspect et la transitivité).",
+      "examples": [
+        [
+          "ნინო დღეს წიგნს კითხულობს.",
+          "Nino lit un livre aujourd’hui. (présent : sujet nominatif)"
+        ],
+        [
+          "ნინომ წიგნი წაიკითხა.",
+          "Nino a lu le livre. (passé aoriste : ნინომ marque l’agent)"
+        ],
+        [
+          "მათ საჭმელი მიირთვეს.",
+          "Ils ont mangé la nourriture. (passé : sujet formellement marqué)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-005",
+      "title": "Suffixes dérivationnels : -ება / -ობა (nominalisation)",
+      "level": "C1",
+      "cefr": "C2",
+      "version": 5,
+      "body": "Les suffixes -ება et -ობა transforment souvent des verbes ou adjectifs en noms abstraits. -ება est fréquemment verbal → nom d’action; -ობა peut marquer état ou qualité. Indiquer les restrictions lexicales et variations de sens selon la base.",
+      "examples": [
+        [
+          "წერა → წერობა (დასაწერი პროცესი).",
+          "écrire → écriture (processus d’écriture)."
+        ],
+        [
+          "სიყვარული (წარუმატებელი არ არის: root verbal/adjectival).",
+          "l’amour (nom d’état/sentiment)."
+        ],
+        [
+          "გაგება → გაგება (შესაძლოა განსხვავებული მნიშვნელობა: ‘comprendre’).",
+          "gagner? Note : exemples pour montrer le produit dérivationnel."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-006",
+      "title": "Négation simple : არ, არც et morphèmes négatifs",
+      "level": "C1",
+      "cefr": "C2",
+      "version": 6,
+      "body": "La négation principale se fait avec არ placé avant le verbe. არც = ‘ne…pas non plus / aucun’. Existence d’affixes négatifs (préfixe უ- sur adjectifs/participes) qui produisent l’opposé lexical. Préciser limites : ар + auxiliaire, double négation idiomatique et scope.",
+      "examples": [
+        [
+          "მე არ ვივი ვარ.",
+          "Je ne suis pas fatigué. (не before verb)"
+        ],
+        [
+          "არ ვნახე და არც მინდოდა.",
+          "Je ne l’ai pas vu et je ne voulais pas non plus. (არც pour 'non plus')"
+        ],
+        [
+          "ეს უცნაური იყო → უსიამოვნო (უ- marque l’opposé en adjectif).",
+          "C’était étrange → désagréable (exemple d’opposant dérivé)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-007",
+      "title": "Accord polipersonnel et personnes dobject/direct/indirect",
+      "level": "C2",
+      "cefr": "C2",
+      "version": 7,
+      "body": "Au niveau avancé : les verbes géorgiens peuvent porter des marqueurs polipersonnels qui indiquent simultanément sujet, objet et bénéficiaire (versions et préfixes). Expliquer la forme générale et donner des exemples clarifiant qui est agent/recipient ; signaler l’instabilité entre temps et voix (certains marqueurs n’apparaissent que dans certains temps/aspects).",
+      "examples": [
+        [
+          "მიყვარხარ.",
+          "Je t’aime / Tu es aimé(e) par moi (forme polipersonnelle : root + marqueur)."
+        ],
+        [
+          "მე მეპატიჟება მას / მას მომპატიჟა.",
+          "Il/elle m’a invité / Il/elle m’invitait (exemple d’accord objet/beneficiaire selon le temps)."
+        ],
+        [
+          "გავხედავ შენს საკითხს.",
+          "Je prendrai soin de ta question (verbe avec marqueur de bénéficiaire)."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-008",
+      "title": "Ordre des mots : SOV de base et focalisation",
+      "level": "B2",
+      "cefr": "C2",
+      "version": 8,
+      "body": "Le géorgien a un ordre canonique SOV mais l’ordre est flexible pour marquer thème/rhéme, focalisation ou emphase ; la postposition de l’élément focalisé est courante et des particules (კი, კი-…) renforcent la focalisation. Expliquer comment déplacer l’objet ou l’adverbe change le focus sans altérer la grammaticalité.",
+      "examples": [
+        [
+          "მე ვხედავ მარკს.",
+          "Je vois Mark. (SOV neutre)"
+        ],
+        [
+          "მარკს მე ვხედავ.",
+          "C’est Mark que je vois. (thématisation de Mark)"
+        ],
+        [
+          "დღეს მე მარკს ვნახე.",
+          "C’est aujourd’hui que j’ai vu Mark. (temporal focus)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-009",
+      "title": "Subordination : conjonctions რომ, თუ et formes converbielles",
+      "level": "C1",
+      "cefr": "C2",
+      "version": 9,
+      "body": "Expliquer l’usage du subordonnant რომ pour compléter des verbes (compétences discursives), თუ pour la condition, et les formes converbielles (participe/გავ/ში-formes) pour exprimer simultanéité ou antériorité. Signaler différences de registre et préférences stylistiques.",
+      "examples": [
+        [
+          "ვიცი, რომ ის მოვიდა.",
+          "Je sais qu’il/elle est venu(e)."
+        ],
+        [
+          "თუ წახვალ, დამირეკე.",
+          "Si tu pars, appelle-moi. (condition)"
+        ],
+        [
+          "ნუ მომალოდე, მანამდე წავედი.",
+          "Ne m’attends pas, je suis parti(e) entre-temps. (converbial nuance)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c2-gen-010",
+      "title": "Phrases relatives et particules relatives: ვინც, რომელიც, სადაც",
+      "level": "C2",
+      "cefr": "C2",
+      "version": 10,
+      "body": "Les relatives géorgiennes utilisent ვინც (personnes, colloquial/indéfini), რომელიც (plus neutre, formel) et სადაც (lieu) ; expliquer leur syntaxe (antecedent + relative) et les restrictions d’usage (в кого/quoi selon animateur, formalisme et position). Mentionner les stratégies alternatives (participes relatives).",
+      "examples": [
+        [
+          "ვინც დამხვდა, მეგობარი იყო.",
+          "Celui qui m’a rencontré était un ami. (ვინც pour personne)"
+        ],
+        [
+          "მან მოიყვანა მანქანა, რომელიც ძველი იყო.",
+          "Il/elle a amené une voiture qui était vieille. (რომლის/რომელიც neutral relatif)"
+        ],
+        [
+          "ვიმგზავრებ იქ, სადაც ბავშვობა გავატარე.",
+          "Je voyage là où j’ai passé mon enfance. (ათი pour lieu)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    }
+  ]
+}

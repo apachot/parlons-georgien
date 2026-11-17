@@ -1,0 +1,1595 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "elearning_lessons-a2-gen-001",
+      "version": 1,
+      "title": "Se présenter et saluer",
+      "level": "A2",
+      "cefr": "A2",
+      "tag": "introductions",
+      "icon": "👋",
+      "goal": "Savoir saluer, donner son nom et demander le nom d'un interlocuteur en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Salutations formelles et informelles",
+          "title": "Dire bonjour",
+          "body": "Apprenez les formules courantes pour saluer selon le niveau de formalité.",
+          "examples": [
+            {
+              "ka": "გამარჯობა",
+              "fr": "Bonjour (formel)",
+              "note": "Formule standard utilisée toute la journée."
+            },
+            {
+              "ka": "გამარჯობათ",
+              "fr": "Bonjour (très poli, pluriel)",
+              "note": "Pluriel/forme polie pour les inconnus ou plusieurs personnes."
+            },
+            {
+              "ka": "გაიცანით",
+              "fr": "Enchanté(e)",
+              "note": "Formule pour se présenter de manière polie."
+            }
+          ],
+          "takeaway": "Utilisez გამარჯობა pour la plupart des situations; გამარჯობათ pour plus de politesse."
+        },
+        {
+          "eyebrow": "Se présenter : je m'appelle...",
+          "title": "Dire son nom",
+          "body": "Construction simple : ჩემი სახელი არის + nom ou courte: მე მქვია + nom.",
+          "examples": [
+            {
+              "ka": "ჩემი სახელი არის ანა.",
+              "fr": "Mon nom est Anna.",
+              "note": "Structure littérale « mon nom est ». Plus formel."
+            },
+            {
+              "ka": "მე მქვია ანა.",
+              "fr": "Je m'appelle Anna.",
+              "note": "Forme plus naturelle pour la conversation."
+            },
+            {
+              "ka": "მიხარია თქვენი გაცნობა.",
+              "fr": "Ravi(e) de vous rencontrer.",
+              "note": "Phrase de politesse après la présentation."
+            }
+          ],
+          "takeaway": "Deux manières courantes : ჩემი სახელი არის X (formel) et მე მქვია X (naturel)."
+        },
+        {
+          "eyebrow": "Poser la question",
+          "title": "Demander le nom de quelqu'un",
+          "body": "Formules pour demander « comment vous appelez-vous ? »",
+          "examples": [
+            {
+              "ka": "რას ეწოდებით?",
+              "fr": "Comment vous appelez-vous ? (formel)",
+              "note": "Utilisé pour la politesse."
+            },
+            {
+              "ka": "რა გქვიათ?",
+              "fr": "Comment vous appelez-vous ? (pluriel/poli)",
+              "note": "Autre variante polie."
+            },
+            {
+              "ka": "როგორ გქვია?",
+              "fr": "Comment tu t'appelles ? (familier)",
+              "note": "Pour les amis ou les enfants."
+            }
+          ],
+          "takeaway": "Adaptez la forme selon la relation : familier vs poli."
+        },
+        {
+          "eyebrow": "Conversations courtes",
+          "title": "Exemple d'échange",
+          "body": "Petit dialogue type pour pratiquer salutations et présentations.",
+          "examples": [
+            {
+              "ka": "A: გამარჯობა! მე მქვია მარიკა.\nB: გამარჯობა! მე მქვია ჟანა. მიხარია თქვენი გაცნობა.",
+              "fr": "A: Bonjour! Je m'appelle Marika.\nB: Bonjour! Je m'appelle Zhanna. Ravi(e) de vous rencontrer.",
+              "note": "Dialogue formel/poli."
+            },
+            {
+              "ka": "A: საღამო კარგად!\nB: საღამო მშვიდობისა! როგორ ხარ?\nA: კარგად ვარ, მადლობა.",
+              "fr": "A: Bonne soirée!\nB: Bonne soirée! Comment vas-tu?\nA: Je vais bien, merci.",
+              "note": "Exemple avec une salutation en soirée."
+            }
+          ],
+          "takeaway": "Pratiquez le petit échange: saluer, donner son nom, exprimer le plaisir de rencontrer."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Comment dit-on « Je m'appelle Pierre » de façon naturelle ?",
+              "options": [
+                "ჩემი სახელი არის პიერი.",
+                "მე მქვია პიერი.",
+                "რა გქვია პიერი?",
+                "გამარჯობა პიერი."
+              ],
+              "answer": "მე მქვია პიერი.",
+              "explanation": "La forme naturelle pour dire « je m'appelle » est მე მქვია + nom."
+            },
+            {
+              "prompt": "Quelle phrase est une salutation polie plurielle ?",
+              "options": [
+                "გამარჯობა",
+                "გაიცანით",
+                "გამარჯობათ",
+                "მიხარია შენი გაცნობა"
+              ],
+              "answer": "გამარჯობათ",
+              "explanation": "გამარჯობათ est la forme polie/plurielle de 'bonjour'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quel est l'équivalent de « Enchanté(e) » employé après une présentation ?",
+              "options": [
+                "რას ეწოდებით?",
+                "მიხარია თქვენი გაცნობა.",
+                "ჩემი სახელი არის",
+                "რაციონ"
+              ],
+              "answer": "მიხარია თქვენი გაცნობა.",
+              "explanation": "მიხარია თქვენი გაცნობა signifie « Ravi(e) de vous rencontrer »."
+            },
+            {
+              "prompt": "Laquelle de ces phrases est une question pour demander le nom familièrement ?",
+              "options": [
+                "რას ეწოდებით?",
+                "რა გქვია?",
+                "ჩემი სახელი არის",
+                "მე მქვია"
+              ],
+              "answer": "რა გქვია?",
+              "explanation": "რა გქვია? est la forme familière 'Comment tu t'appelles ?'."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-002",
+      "version": 2,
+      "title": "Exprimer la possession et parler de la famille",
+      "level": "A2",
+      "cefr": "A2",
+      "tag": "family",
+      "icon": "🏠",
+      "goal": "Dire qui fait partie de sa famille et exprimer la possession avec მაქვს/გაქვს/აქვს.",
+      "slides": [
+        {
+          "eyebrow": "Verbe avoir",
+          "title": "Conjuguer 'avoir' (მაქვს)",
+          "body": "En géorgien, on dit 'მე მაქვს' pour 'j'ai'. Pour la deuxième personne: შენ გაქვს, üçüncü: მას აქვს.",
+          "examples": [
+            {
+              "ka": "მე მაქვს წიგნი.",
+              "fr": "J'ai un livre.",
+              "note": "მაქვს + nom."
+            },
+            {
+              "ka": "შენ გაქვს კითხვა?",
+              "fr": "As-tu une question ?",
+              "note": "გაქვს pour la 2e personne sing."
+            },
+            {
+              "ka": "ის აქვს სამსახური.",
+              "fr": "Il/elle a un travail.",
+              "note": "აქვს pour la 3e personne."
+            }
+          ],
+          "takeaway": "Utilisez ფორმები: მე მაქვს, შენ გაქვს, ის აქვს pour exprimer la possession."
+        },
+        {
+          "eyebrow": "Parler de la famille",
+          "title": "Membres de la famille courants",
+          "body": "Vocabulaire simple pour décrire sa famille.",
+          "examples": [
+            {
+              "ka": "მამა",
+              "fr": "père",
+              "note": ""
+            },
+            {
+              "ka": "დედა",
+              "fr": "mère",
+              "note": ""
+            },
+            {
+              "ka": "ძმა",
+              "fr": "frère",
+              "note": ""
+            },
+            {
+              "ka": "საახლო",
+              "fr": "famille (proche)",
+              "note": "Terme général"
+            }
+          ],
+          "takeaway": "Apprenez les mots de base: მამა, დედა, და ძმა."
+        },
+        {
+          "eyebrow": "Combiner possession et famille",
+          "title": "Dire 'J'ai deux frères', 'Sa mère s'appelle...'",
+          "body": "Utiliser გაქვს/აქვს avec les membres de la famille; compter si nécessaire.",
+          "examples": [
+            {
+              "ka": "მე ორი ძმა მყავს.",
+              "fr": "J'ai deux frères.",
+              "note": "Forme alternative მყავს pour 'j'ai' avec personnes."
+            },
+            {
+              "ka": "მისი დედა ლილიაა.",
+              "fr": "Sa mère s'appelle Lilia.",
+              "note": "მისი = son/sa (pour il/elle)."
+            },
+            {
+              "ka": "შენ ოჯახში რამდენი წევრია?",
+              "fr": "Combien de membres y a-t-il dans ta famille ?",
+              "note": "գործնական سؤال pour demander la taille de la famille."
+            }
+          ],
+          "takeaway": "Pour les personnes proches on utilise souvent მყავს pour 'j'ai' avec animateurs."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Petits échanges",
+          "body": "Questions-réponses simples sur la famille et la possession.",
+          "examples": [
+            {
+              "ka": "A: გაქვს და? \nB: არა, მხოლოდ და ერთი. ",
+              "fr": "A: As-tu une sœur ? \nB: Non, seulement une sœur.",
+              "note": "გაქვს utilisé pour 'as-tu'."
+            },
+            {
+              "ka": "A: რამდენი ბავშვი გაქვთ?\nB: სამი ბავშვი გვაქვს.",
+              "fr": "A: Combien d'enfants avez-vous ?\nB: Nous avons trois enfants.",
+              "note": "პოლიტე/forme plurielle."
+            }
+          ],
+          "takeaway": "Combinez 'avoir' et le vocabulaire de la famille dans des questions simples."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle forme correspond à « Tu as » ?",
+              "options": [
+                "მე მაქვს",
+                "შენ გაქვს",
+                "ის აქვს",
+                "ჩვენ გვაქვს"
+              ],
+              "answer": "შენ გაქვს",
+              "explanation": "შენ გაქვს est la 2e personne singulier pour 'tu as'."
+            },
+            {
+              "prompt": "Quel mot signifie 'mère' ?",
+              "options": [
+                "მამა",
+                "დედა",
+                "ძმა",
+                "საახლო"
+              ],
+              "answer": "დედა",
+              "explanation": "დედა signifie 'mère'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment dit-on 'J'ai deux frères' (forme courante entendue) ?",
+              "options": [
+                "მე ორი ძმა მყავს.",
+                "მე ორი ძმა მაქვს.",
+                "შენ ორი ძმა გაქვს.",
+                "ის ორი ძმა აქვს."
+              ],
+              "answer": "მე ორი ძმა მყავს.",
+              "explanation": "Pour 'j'ai' parlant d'êtres humains, souvent on utilise მყავს."
+            },
+            {
+              "prompt": "Quelle phrase convient pour demander le nombre de membres d'une famille ?",
+              "options": [
+                "შენ ოჯახში რამდენი წევრია?",
+                "რა გქვია?",
+                "მე მიმყავს ოჯახი.",
+                "მისი დედა ლილია."
+              ],
+              "answer": "შენ ოჯახში რამდენი წევრია?",
+              "explanation": "Cette phrase signifie 'Combien de membres y a-t-il dans ta famille ?'."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-003",
+      "version": 3,
+      "title": "Les nombres 1–20 et dire l'heure simple",
+      "level": "A2",
+      "cefr": "A2",
+      "tag": "numbers_time",
+      "icon": "⏰",
+      "goal": "Compter jusqu'à 20 en géorgien et dire l'heure pleine (ex : Il est 14h).",
+      "slides": [
+        {
+          "eyebrow": "Nombres de base",
+          "title": "1 à 10",
+          "body": "Apprenez les chiffres essentiels pour les quantités et l'heure.",
+          "examples": [
+            {
+              "ka": "ერთი",
+              "fr": "un",
+              "note": ""
+            },
+            {
+              "ka": "ორი",
+              "fr": "deux",
+              "note": ""
+            },
+            {
+              "ka": "სამი",
+              "fr": "trois",
+              "note": ""
+            },
+            {
+              "ka": "ოთხი, ხუთი, ექვსი, შვიდი, რვა, ცხრა, ათი",
+              "fr": "quatre, cinq, six, sept, huit, neuf, dix",
+              "note": ""
+            }
+          ],
+          "takeaway": "Mémorisez 1–10 pour construire 11–20 facilement."
+        },
+        {
+          "eyebrow": "11–20",
+          "title": "Onze à vingt",
+          "body": "Formation régulière : ელემენტები pour 11–20 à apprendre.",
+          "examples": [
+            {
+              "ka": "თერთმეტი",
+              "fr": "onze",
+              "note": ""
+            },
+            {
+              "ka": "თორმეტი",
+              "fr": "douze",
+              "note": ""
+            },
+            {
+              "ka": "ცამეტი, თხუთმეტი, თექვსმეტი, ჩვიდმეტი, თვრამეტე, ცხრაწმეტი, ოცდაათი (note: 20 = ოცდაათი?)",
+              "fr": "treize, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt (attention : corriger la forme)",
+              "note": "Correction importante : 20 = ოცდა ათი? -> vrai: 20 = ოცდაათი, employez 'ოცდაათი'."
+            }
+          ],
+          "takeaway": "20 se dit ოცდაათი ; mémoriser les formes 11–19 individuellement."
+        },
+        {
+          "eyebrow": "Dire l'heure",
+          "title": "Heures pleines",
+          "body": "Pour dire l'heure pleine on utilise წელია/საათი. Forme simple : საათი + chiffre.",
+          "examples": [
+            {
+              "ka": "რამდენია საათი? — ერთი საათია.",
+              "fr": "Quelle heure est-il ? — Il est une heure.",
+              "note": "Une façon naturelle : ერთი საათია."
+            },
+            {
+              "ka": "ორი საათია.",
+              "fr": "Il est deux heures.",
+              "note": "Heure pleine avec საათი."
+            },
+            {
+              "ka": "ცხრა საათია.",
+              "fr": "Il est neuf heures.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Utilisez 'X საათია' pour dire 'il est X heures' (heures pleines)."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Questions et réponses",
+          "body": "Exercices courts pour demander et dire l'heure et les quantités.",
+          "examples": [
+            {
+              "ka": "A: რა არის საათი? — B: სამი საათია.",
+              "fr": "A: Quelle heure est-il ? — B: Il est trois heures.",
+              "note": ""
+            },
+            {
+              "ka": "რამდენი წიგნი გაქვს? — ხუთი წიგნი.",
+              "fr": "Combien de livres as-tu ? — Cinq livres.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Combinez nombres et 'საათი' pour parler du temps."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Comment dit-on 'onze' en géorgien ?",
+              "options": [
+                "ათი",
+                "ერთი",
+                "თერთმეტი",
+                "ოცდაათი"
+              ],
+              "answer": "თერთმეტი",
+              "explanation": "თერთმეტი signifie 'onze'."
+            },
+            {
+              "prompt": "Quel est le mot correct pour 'vingt' ?",
+              "options": [
+                "ოცდაათი",
+                "ორმოცი",
+                "სამოცი",
+                "ახალი"
+              ],
+              "answer": "ოცდაათი",
+              "explanation": "ოცდაათი est la forme correcte pour 'vingt'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment dire 'Il est neuf heures' ?",
+              "options": [
+                "ცხრა საათია.",
+                "ცხრა წუთია.",
+                "დღეს ცხრაა.",
+                "საათი ცხრა."
+              ],
+              "answer": "ცხრა საათია.",
+              "explanation": "La forme standard pour une heure pleine est 'X საათია'."
+            },
+            {
+              "prompt": "Quel chiffre correspond à 'ორი' ?",
+              "options": [
+                "4",
+                "2",
+                "10",
+                "8"
+              ],
+              "answer": "2",
+              "explanation": "ორი signifie 'deux'."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-004",
+      "version": 4,
+      "title": "Demander et indiquer un lieu",
+      "level": "A2",
+      "cefr": "A2",
+      "tag": "directions",
+      "icon": "📍",
+      "goal": "Apprendre à demander où se trouve quelque chose et à donner des indications simples.",
+      "slides": [
+        {
+          "eyebrow": "Mots interrogatifs de lieu",
+          "title": "Savoir demander 'où ?'",
+          "body": "Le mot principal pour 'où' est სად. On l'utilise dans les questions sur la position.",
+          "examples": [
+            {
+              "ka": "სად არის ტუალეტი?",
+              "fr": "Où sont les toilettes ?",
+              "note": "Formule pratique en voyage."
+            },
+            {
+              "ka": "სად იწყება ქუჩა?",
+              "fr": "Où commence la rue ?",
+              "note": ""
+            }
+          ],
+          "takeaway": "სად = où ; placez-le en tête de question."
+        },
+        {
+          "eyebrow": "Prépositions de lieu",
+          "title": "Dans, sur, devant, derrière",
+          "body": "Vocabulaire pour situer un objet ou un lieu.",
+          "examples": [
+            {
+              "ka": "სახლში",
+              "fr": "à la maison/dans la maison",
+              "note": "suffixe -ში indique 'dans/à'."
+            },
+            {
+              "ka": "მაგიდაზე",
+              "fr": "sur la table",
+              "note": "suffixe -ზე indique 'sur'."
+            },
+            {
+              "ka": "გზაზე",
+              "fr": "sur la route",
+              "note": ""
+            }
+          ],
+          "takeaway": "Repérez les suffixes : -ში (dans), -ზე (sur), utilisés pour localiser."
+        },
+        {
+          "eyebrow": "Donner une direction simple",
+          "title": "Expressions utilitaires",
+          "body": "Formules courtes pour donner ou suivre des indications.",
+          "examples": [
+            {
+              "ka": "დახვი მარჯვნივ.",
+              "fr": "Tournez à droite.",
+              "note": "დახტი variant: ici დავხვი (impératif)."
+            },
+            {
+              "ka": "გზას გასდევ და შემდეგ ბუჩქს მარცხნივ ნახავ.",
+              "fr": "Suis la route et ensuite tu verras un buisson à gauche.",
+              "note": "Exemple de consigne combinée."
+            },
+            {
+              "ka": "ეს მაღაზია მეტროსთან არის.",
+              "fr": "Ce magasin est près du métro.",
+              "note": "près de = -თან suffixe pour 'avec/près'."
+            }
+          ],
+          "takeaway": "Utilisez impérieux courts (დახვი, გააგრძელე) et suffixes pour situer."
+        },
+        {
+          "eyebrow": "Pratique de dialogues",
+          "title": "Demander et répondre",
+          "body": "Dialogues courts pour simuler une recherche d'adresse.",
+          "examples": [
+            {
+              "ka": "A: სად არის ბანკი? \nB: აქედან პირველი ხედი მარჯვნივ არის, შემდეგ შეწყვიტე და დაადგი პირდაპირ.",
+              "fr": "A: Où est la banque ? \nB: À partir d'ici prenez la première à droite, puis arrêtez-vous et allez tout droit.",
+              "note": "Réponse en plusieurs étapes."
+            },
+            {
+              "ka": "A: მაღაზია სად არის? \nB: მაღაზია ქუჩის ბოლოსაა, მარცხნივ.",
+              "fr": "A: Où est le magasin ? \nB: Le magasin est au bout de la rue, à gauche.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Combiner სად + prépositions (-ში, -ზე, -თან) et impératifs simples pour donner une direction."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel suffixe indique 'sur' (sur la table) ?",
+              "options": [
+                "-ში",
+                "-ზე",
+                "-თან",
+                "-თვის"
+              ],
+              "answer": "-ზე",
+              "explanation": "-ზე est le suffixe employé pour indiquer 'sur' (მაგიდაზე = sur la table)."
+            },
+            {
+              "prompt": "Que signifie 'სად' ?",
+              "options": [
+                "Pourquoi",
+                "Quand",
+                "Où",
+                "Comment"
+              ],
+              "answer": "Où",
+              "explanation": "სად signifie 'où' et s'utilise pour demander la localisation."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase est une indication pour 'tournez à droite' ?",
+              "options": [
+                "დახვი მარჯვნივ.",
+                "გზა გახსენი.",
+                "მარცხნივ აღარ იარო.",
+                "შეაჩერე მანქანა."
+              ],
+              "answer": "დახვი მარჯვნივ.",
+              "explanation": "დახვი მარჯვნივ signifie 'tournez à droite'."
+            },
+            {
+              "prompt": "Si on veut dire 'près du métro', quel suffixe est utilisé dans l'exemple ?",
+              "options": [
+                "-ში",
+                "-ზე",
+                "-თან",
+                "-ზეანი"
+              ],
+              "answer": "-თან",
+              "explanation": "Dans 'მეტროსთან არის', le suffixe -თან indique proximité ('près de')."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-005",
+      "version": 5,
+      "title": "Parler de sa routine quotidienne (présent)",
+      "level": "A2",
+      "cefr": "A2",
+      "tag": "daily_routine",
+      "icon": "📅",
+      "goal": "Décrire des activités quotidiennes au présent : manger, travailler, aller, dormir.",
+      "slides": [
+        {
+          "eyebrow": "Verbes fréquents au présent",
+          "title": "Formes simples du présent",
+          "body": "Verbes utiles: ვჭამ (je mange), ვიმუშავებ? Attention: corriger la forme du présent : ვმუშაობ = je travaille.",
+          "examples": [
+            {
+              "ka": "მე ვჭამ.",
+              "fr": "Je mange.",
+              "note": "ვ + radical pour le présent."
+            },
+            {
+              "ka": "მე ვმუშაობ.",
+              "fr": "Je travaille.",
+              "note": "ვმუშაობ = je travaille (présent)."
+            },
+            {
+              "ka": "მე ვიძინებ ღამით.",
+              "fr": "Je dors la nuit.",
+              "note": "ვიძინებ = je dors."
+            }
+          ],
+          "takeaway": "Au présent, on utilise généralement la particule ვ- pour la première personne: ვ + verbe."
+        },
+        {
+          "eyebrow": "Verbes de mouvement",
+          "title": "Aller, venir, partir",
+          "body": "Formes de base : მივდივარ (je vais), მოვდივარ (je viens), გავდივარ (je pars).",
+          "examples": [
+            {
+              "ka": "მე მივდივარ სამსახურში.",
+              "fr": "Je vais au travail.",
+              "note": "მივდივარ indique mouvement vers un lieu."
+            },
+            {
+              "ka": "ის მოვდივარ სახლში?",
+              "fr": "Viendra-t-il/elle à la maison? (attention à la forme correcte: ის მოდის = il/elle vient)",
+              "note": "Correction : ის მოდის = il/elle vient."
+            },
+            {
+              "ka": "ჩვენ გავდივართ ახლა.",
+              "fr": "Nous partons maintenant.",
+              "note": "განაცხადი : გავდივართ = nous partons."
+            }
+          ],
+          "takeaway": "Différencier მივდივარ (j'y vais) et მოვდივარ (je viens); notez les formes correctes."
+        },
+        {
+          "eyebrow": "Exprimer la fréquence",
+          "title": "Toujours, souvent, parfois, jamais",
+          "body": "Mots de fréquence utiles pour parler de la routine : ყოველთვის, ხშირად, ზოგჯერ, არასოდეს.",
+          "examples": [
+            {
+              "ka": "მე ყოველთვის ვსწავლობ საღამოს.",
+              "fr": "J'étudie toujours le soir.",
+              "note": "ყოველთვის = toujours"
+            },
+            {
+              "ka": "ის ხშირად დაჭმევს სვის?",
+              "fr": "Il/elle mange souvent ? (forme incorrecte dans l'exemple: corriger à 'ის ხშირად ჭამს')",
+              "note": "სწორი ფორმა: ის ხშირად ჭამს."
+            },
+            {
+              "ka": "ზოგჯერ ვვარჯიშობ.",
+              "fr": "Parfois je fais du sport.",
+              "note": "ზოგჯერ = parfois"
+            }
+          ],
+          "takeaway": "Placez l'adverbe de fréquence avant le verbe : მე ყოველთვის ვ..., ზოგჯერ ვ..., არასოდეს ვ..."
+        },
+        {
+          "eyebrow": "Parler de sa journée",
+          "title": "Exemples complets",
+          "body": "Construisez 2–3 phrases courtes pour décrire votre journée.",
+          "examples": [
+            {
+              "ka": "მე დილით ვდგები რვაზე, ვსულ ვჭამ საუზმეს და შემდეგ მივდივარ სამსახურში.",
+              "fr": "Le matin je me lève à huit heures, je prends toujours le petit-déjeuner puis je vais au travail.",
+              "note": "Exemple combinant heure, habitude et mouvement."
+            },
+            {
+              "ka": "მე საღამოს ვკითხულობ წიგნს და ჩვეულებრივ ათზე ვიძინებ.",
+              "fr": "Le soir je lis un livre et normalement je dors à dix heures.",
+              "note": "Routine du soir avec horaire."
+            }
+          ],
+          "takeaway": "Combinez verbe au présent + mots de fréquence + indications de temps pour décrire votre routine."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle est la forme correcte pour 'je travaille' ?",
+              "options": [
+                "მე ვმუშაობ.",
+                "მე ვმუშაობი.",
+                "მე მუშაობ.",
+                "მე მიმუშავე."
+              ],
+              "answer": "მე ვმუშაობ.",
+              "explanation": "La forme correcte du présent pour 'je travaille' est მე ვმუშაობ."
+            },
+            {
+              "prompt": "Quel mot signifie 'jamais' ?",
+              "options": [
+                "ყოველთვის",
+                "ხშირად",
+                "ზოგჯერ",
+                "არასოდეს"
+              ],
+              "answer": "არასოდეს",
+              "explanation": "არასოდეს signifie 'jamais'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment dire 'Je vais au travail' de façon correcte ?",
+              "options": [
+                "მე მივდივარ სამსახურში.",
+                "მე ვმივდივარ სამსახურში.",
+                "მე მოვდივარ სამსახურში.",
+                "მე მივიდე სამსახურში."
+              ],
+              "answer": "მე მივდივარ სამსახურში.",
+              "explanation": "მივდივარ est la forme correcte pour 'aller (vers)' au présent : მე მივდივარ სამსახურში."
+            },
+            {
+              "prompt": "Quelle phrase respecte la position de l'adverbe de fréquence ?",
+              "options": [
+                "ვყავხართ ყოველთვის მე.",
+                "მე ყოველთვის ვსწავლობ საღამოს.",
+                "ყოველთვის მე ვსწავლობ.",
+                "მე ვმუშაობ ყოველთვის."
+              ],
+              "answer": "მე ყოველთვის ვსწავლობ საღამოს.",
+              "explanation": "L'adverbe de fréquence ('ყოველთვის') se place avant le verbe : მე ყოველთვის ვსწავლობ."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-006",
+      "version": 6,
+      "cefr": "A2",
+      "level": "A2",
+      "title": "Se présenter et parler de son travail",
+      "tag": "présentations",
+      "icon": "👋",
+      "goal": "Savoir dire son nom, sa nationalité, et parler brièvement de son travail en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Salutations",
+          "title": "Dire bonjour et se présenter",
+          "body": "Formules simples pour saluer et donner son nom. Usage familier et formel.",
+          "examples": [
+            {
+              "ka": "გამარჯობა, მე ჯო ვარ.",
+              "fr": "Bonjour, je suis Joe.",
+              "note": "formel neutre"
+            },
+            {
+              "ka": "ძალიან სასიამოვნოა. მე მარიამ მქვია.",
+              "fr": "Enchantée. Je m'appelle Mariam.",
+              "note": "présentation polie"
+            },
+            {
+              "ka": "კარგად, შენ როგორ ხარ?",
+              "fr": "Bien, et toi ?",
+              "note": "familier"
+            }
+          ],
+          "takeaway": "Pour se présenter: 'მე [prenom] ვარ.' ou 'მე [prenom] მქვია.'"
+        },
+        {
+          "eyebrow": "Nationalité et lieu",
+          "title": "Dire sa nationalité et d'où l'on vient",
+          "body": "Formules pour dire la nationalité et la provenance avec l'expression 'ვარ' et la construction 'მე ვარ [nationalité]'.",
+          "examples": [
+            {
+              "ka": "მე ფრანგი ვარ.",
+              "fr": "Je suis français.",
+              "note": "masculin"
+            },
+            {
+              "ka": "მე ფრანგი ქალი ვარ.",
+              "fr": "Je suis une femme française.",
+              "note": "précision (optionnel)"
+            },
+            {
+              "ka": "მე ფრანგეთიდან ვარ.",
+              "fr": "Je viens de France.",
+              "note": "origine avec -დან"
+            }
+          ],
+          "takeaway": "Nationalité: 'მე [adjectif nationalité] ვარ.' Origine: 'მე [pays]-დან ვარ.'"
+        },
+        {
+          "eyebrow": "Travail",
+          "title": "Parler de son métier",
+          "body": "Dire ce que vous faites: 'მე ვარ [profession]'. On peut préciser avec 'მუშაობ' + lieu.",
+          "examples": [
+            {
+              "ka": "მე მასწავლებელი ვარ.",
+              "fr": "Je suis enseignant.",
+              "note": "profession simple"
+            },
+            {
+              "ka": "მე ბანკში ვმუშაობ.",
+              "fr": "Je travaille dans une banque.",
+              "note": "emploi + lieu"
+            },
+            {
+              "ka": "მე ექიმი ვარ და საავადმყოფოში გვეხმარები.",
+              "fr": "Je suis médecin et j'aide à l'hôpital.",
+              "note": "phrase composée"
+            }
+          ],
+          "takeaway": "Dire son métier: 'მე [profession] ვარ.' Pour dire où: 'მე [lieu]-ში ვმუშაობ.'"
+        },
+        {
+          "eyebrow": "Questions courantes",
+          "title": "Poser des questions et répondre",
+          "body": "Formules pour demander le nom, la nationalité et le travail: 'თუ ვკითხო?'. Réponses courtes recommandées.",
+          "examples": [
+            {
+              "ka": "რას საქმიანობთ? — მე მასწავლებელი ვარ.",
+              "fr": "Que faites-vous comme travail? — Je suis enseignant.",
+              "note": "formel"
+            },
+            {
+              "ka": "საიდან ხართ? — მე საფრანგეთიდან ვარ.",
+              "fr": "D'où venez-vous? — Je viens de France.",
+              "note": "origine"
+            },
+            {
+              "ka": ".naming რა არის შენი სახელი? — ჩემი სახელი კლარაა.",
+              "fr": "Quel est ton nom? — Mon nom est Clara.",
+              "note": "question informelle"
+            }
+          ],
+          "takeaway": "Questions utiles: 'როგორია შენი სახელი?', 'საიდან ხართ?', 'რას საქმიანობთ?' et réponses courtes."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Comment dit-on 'Je suis français.' (masculin) en géorgien ?",
+              "options": [
+                "მე ფრანგეთიდან ვარ.",
+                "მე ფრანგი ვარ.",
+                "მე ფრანგი ქალი ვარ.",
+                "მე ფრანგი მუშა ვარ."
+              ],
+              "answer": 1,
+              "explanation": "La forme correcte pour 'Je suis français.' est 'მე ფრანგი ვარ.' (option 2)."
+            },
+            {
+              "prompt": "Comment exprimer 'Je viens de France' ?",
+              "options": [
+                "მე ფრანგი ვარ.",
+                "მე საფრანგეთიდან ვარ.",
+                "მე საფრანგეთი ვარ.",
+                "მე საფრანგეთში ვარ."
+              ],
+              "answer": 1,
+              "explanation": "'დან' indique l'origine: 'მე საფრანგეთიდან ვარ.' (option 2)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase use 'ვმუშაობ' pour dire 'Je travaille dans une banque' ?",
+              "options": [
+                "მე ბანკზე ვარ.",
+                "მე ბანკში ვმუშაობ.",
+                "მე ბანკიდან ვარ.",
+                "მე ბანკი ვარ."
+              ],
+              "answer": 1,
+              "explanation": "'ბანკში ვმუშაობ' signifie 'je travaille dans une banque' (option 2)."
+            },
+            {
+              "prompt": "Quelle question correspond à 'D'où venez-vous ?' en géorgien ?",
+              "options": [
+                "როგორია შენი სახელი?",
+                "რას საქმიანობთ?",
+                "საიდან ხართ?",
+                "როგორ ხარ?"
+              ],
+              "answer": 2,
+              "explanation": "'საიდან ხართ?' signifie 'D'où êtes-vous / D'où venez-vous ?' (option 3)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-007",
+      "version": 7,
+      "cefr": "A2",
+      "level": "A2",
+      "title": "Demander et indiquer le chemin en ville",
+      "tag": "directions",
+      "icon": "🗺️",
+      "goal": "Savoir demander son chemin et donner des indications simples (tourner, marcher, devant/derrière).",
+      "slides": [
+        {
+          "eyebrow": "Vocabulaire de base",
+          "title": "Lieux en ville",
+          "body": "Mots essentiels pour se repérer: rue, place, gare, hôtel, magasin.",
+          "examples": [
+            {
+              "ka": "ქუჩა (k'ucha)",
+              "fr": "rue",
+              "note": "substantif"
+            },
+            {
+              "ka": "სადგური (sadguri)",
+              "fr": "gare",
+              "note": "substantif"
+            },
+            {
+              "ka": "სასტუმრო (sastumro)",
+              "fr": "hôtel",
+              "note": "substantif"
+            }
+          ],
+          "takeaway": "Mémoriser les lieux courants: ქუჩა, სადგური, სასტუმრო, მაღაზია, მოედანი."
+        },
+        {
+          "eyebrow": "Verbes directionnels",
+          "title": "Aller, tourner, marcher",
+          "body": "Formules pour demander comment aller quelque part: 'How do I get to...?' et verbes comme 'დამეხმარეთ', 'გთხოვთ უთხრათ'.",
+          "examples": [
+            {
+              "ka": "როგორ მივიდე სადგურში?",
+              "fr": "Comment puis-je aller à la gare ?",
+              "note": "question standard"
+            },
+            {
+              "ka": "მოდით, პირდაპირ წახვიდეთ.",
+              "fr": "Allez tout droit.",
+              "note": "instruction"
+            },
+            {
+              "ka": "მარცხნივ უნდა მიიხედოთ.",
+              "fr": "Vous devez tourner à gauche.",
+              "note": "tourner à gauche"
+            }
+          ],
+          "takeaway": "Questions: 'როგორ მივიდე [lieu]?' Réponses: 'პირდაპირ', 'მარჯვნივ', 'მარცხნივ'."
+        },
+        {
+          "eyebrow": "Prépositions de lieu",
+          "title": "Devant, derrière, entre",
+          "body": "Prépositions courantes pour situer un lieu par rapport à un autre.",
+          "examples": [
+            {
+              "ka": "მაღაზია ბანკის წინ არის.",
+              "fr": "Le magasin est devant la banque.",
+              "note": "préposition 'წინ' = devant"
+            },
+            {
+              "ka": "ბიბლიოთეკა სკოლის უკანაა.",
+              "fr": "La bibliothèque est derrière l'école.",
+              "note": " 'უკან' = derrière"
+            },
+            {
+              "ka": "საფოსტო ოფისი ბანკსა და მაღაზიას შორისაა.",
+              "fr": "La poste est entre la banque et le magasin.",
+              "note": "'შორის' = entre"
+            }
+          ],
+          "takeaway": "'წინ' = devant, 'უკან' = derrière, 'შორის' = entre."
+        },
+        {
+          "eyebrow": "Phrases utiles",
+          "title": "Dialogues courts pour se repérer",
+          "body": "Exemples de mini-dialogues: demander puis suivre les indications.",
+          "examples": [
+            {
+              "ka": "უკაცრავად, როგორ მივიდე სასტუმროში? — პირდაპირ სამი კვარტალია, მერე მარცხნივ.",
+              "fr": "Excusez-moi, comment aller à l'hôtel ? — C'est trois pâtés tout droit, puis à gauche.",
+              "note": "dialogue pratique"
+            },
+            {
+              "ka": "სადგური სად არის? — მოედნის უკან, სამ კუთხეში.",
+              "fr": "Où est la gare ? — Derrière la place, au troisième coin.",
+              "note": "indication simple"
+            }
+          ],
+          "takeaway": "Formule pour demander: 'უკაცრავად, როგორ მივიდე [lieu]?' et repères: 'პირდაპირ', 'მარჯვნივ', 'მარცხნივ', 'წინ', 'უკან'."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Que signifie 'პირდაპირ' dans les indications ?",
+              "options": [
+                "À droite",
+                "Tout droit",
+                "Devant",
+                "À gauche"
+              ],
+              "answer": 1,
+              "explanation": "'პირდაპირ' veut dire 'tout droit' (option 2)."
+            },
+            {
+              "prompt": "Comment demander 'Comment aller à la gare ?' en géorgien ?",
+              "options": [
+                "სად არის სადგური?",
+                "როგორ მივიდე სადგურში?",
+                "სადგური წინ არის?",
+                "სადგურით მინდა წავიდე?"
+              ],
+              "answer": 1,
+              "explanation": "La bonne question est 'როგორ მივიდე სადგურში?' (option 2)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase indique 'Le magasin est devant la banque' ?",
+              "options": [
+                "მაღაზია ბანკის უკან არის.",
+                "მაღაზია ბანკის წინ არის.",
+                "მაღაზია ბანკსა და გზაზე შორის არის.",
+                "მაღაზია ბანკის გვერდზეა."
+              ],
+              "answer": 1,
+              "explanation": "'ბანკის წინ' signifie 'devant la banque' (option 2)."
+            },
+            {
+              "prompt": "Si l'on doit 'tourner à gauche', quelle expression utiliser ?",
+              "options": [
+                "მარჯვნივ",
+                "პირდაპირ",
+                "მარცხნივ",
+                "უკან"
+              ],
+              "answer": 2,
+              "explanation": "'მარცხნივ' signifie 'à gauche' (option 3)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-008",
+      "version": 8,
+      "cefr": "A2",
+      "level": "A2",
+      "title": "Parler de la famille et des relations",
+      "tag": "famille",
+      "icon": "👪",
+      "goal": "Présenter sa famille (membres, professions, relations simples) et poser des questions sur la famille.",
+      "slides": [
+        {
+          "eyebrow": "Vocabulaire familial",
+          "title": "Membres de la famille",
+          "body": "Mots essentiels: mère, père, frère, sœur, enfant, mari, femme.",
+          "examples": [
+            {
+              "ka": "დედა (deda)",
+              "fr": "mère",
+              "note": ""
+            },
+            {
+              "ka": "მამა (mama)",
+              "fr": "père",
+              "note": ""
+            },
+            {
+              "ka": "ძმა (dzma), და (da)",
+              "fr": "frère, sœur",
+              "note": ""
+            }
+          ],
+          "takeaway": "Apprendre les mots: დედა, მამა, ძმა, და, შვილი, ქმარი, ცოლი."
+        },
+        {
+          "eyebrow": "Possession",
+          "title": "Dire 'mon/ma' et 'son/sa'",
+          "body": "On utilise 'ჩემი' pour 'mon/ma' et 'მისი' pour 'son/sa' (neutre). Placer avant le nom.",
+          "examples": [
+            {
+              "ka": "ჩემი დედა რუსული უყვარს.",
+              "fr": "Ma mère aime le russe.",
+              "note": "'ჩემი' = ma/mon"
+            },
+            {
+              "ka": "მისი ძმა ექიმია.",
+              "fr": "Son frère est médecin.",
+              "note": "'მისი' = son/sa"
+            },
+            {
+              "ka": "ჩემი ორი შვილი მყავს.",
+              "fr": "J'ai deux enfants.",
+              "note": "verbe 'მყავს' = j'ai (possession humaine)"
+            }
+          ],
+          "takeaway": "'ჩემი' = mon/ma, 'მისი' = son/sa. Pour dire 'j'ai [quelqu'un]': 'ჩემი ... მყავს'."
+        },
+        {
+          "eyebrow": "Professions dans la famille",
+          "title": "Parler du métier des membres",
+          "body": "Associer profession et membre de la famille: 'ჩემი მამა ექიმია.'",
+          "examples": [
+            {
+              "ka": "ჩემი და მასწავლებელია.",
+              "fr": "Ma sœur est enseignante.",
+              "note": "agreement non marqué ici"
+            },
+            {
+              "ka": "მისი პატარა შვილი სკოლაშია.",
+              "fr": "Son petit enfant est à l'école.",
+              "note": "emplacement + possesseur"
+            },
+            {
+              "ka": "ჩემი ქმარი ინჟინერია და აგებულია.",
+              "fr": "Mon mari est ingénieur et travaille dans la construction.",
+              "note": "phrase simple"
+            }
+          ],
+          "takeaway": "Construire: 'ჩემი/მისი + membre + [est] + profession' ou '...შია' pour lieu."
+        },
+        {
+          "eyebrow": "Questions sur la famille",
+          "title": "Poser et répondre brièvement",
+          "body": "Questions fréquentes: 'გყავს წყვილი ბავშვები?' 'გაქვს ძმა?' Réponses courtes et précises.",
+          "examples": [
+            {
+              "ka": "გყავს ძმა? — დიახ, ერთი ძმა მყავს.",
+              "fr": "As-tu un frère ? — Oui, j'ai un frère.",
+              "note": "question + réponse courte"
+            },
+            {
+              "ka": "ვისთან ცხოვრობთ? — ჩემთან და ჩემი მშობლებისთან.",
+              "fr": "Avec qui vivons-vous ? — Avec moi et mes parents.",
+              "note": "expression de cohabitation"
+            },
+            {
+              "ka": "რამდენი შვილი გაქვთ? — ორი.",
+              "fr": "Combien d'enfants avez-vous ? — Deux.",
+              "note": "réponse brève"
+            }
+          ],
+          "takeaway": "Questions clés: 'გყავს [membre]?', 'რამდენი [შვილი] გაქვთ?', 'ვისთან ცხოვრობთ?'"
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot géorgien signifie 'ma/mon' ?",
+              "options": [
+                "მისი",
+                "ჩემი",
+                "ჩვენი",
+                "შენი"
+              ],
+              "answer": 1,
+              "explanation": "'ჩემი' signifie 'ma/mon' (option 2)."
+            },
+            {
+              "prompt": "Comment dit-on 'J'ai deux enfants' ?",
+              "options": [
+                "ჩემი ორი შვილი მყავს.",
+                "მე ორი შვილი ვარ.",
+                "მე ორი შვილი მაქვს.",
+                "ჩემი შვილი ორი არის."
+              ],
+              "answer": 0,
+              "explanation": "La forme correcte est 'ჩემი ორი შვილი მყავს.' (option 1)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase correspond à 'As-tu un frère ?' et sa réponse 'Oui, j'ai un frère.' ?",
+              "options": [
+                "რამდენი ძმა გაქვს? — ერთი.",
+                "გყავს ძმა? — დიახ, ერთი ძმა მყავს.",
+                "მე ძმა მყავს? — არა.",
+                "მისი ძმა გაქვს? — დიახ."
+              ],
+              "answer": 1,
+              "explanation": "'გყავს ძმა?' = 'As-tu un frère?' et la réponse 'დიახ, ერთი ძმა მყავს.' (option 2)."
+            },
+            {
+              "prompt": "Quel mot utilise-t-on pour dire 'son/sa' ?",
+              "options": [
+                "ჩემი",
+                "შენი",
+                "მისი",
+                "ჩვენი"
+              ],
+              "answer": 2,
+              "explanation": "'მისი' signifie 'son/sa' (option 3)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-009",
+      "version": 9,
+      "cefr": "A2",
+      "level": "A2",
+      "title": "Acheter au marché : prix et négociation simple",
+      "tag": "achats",
+      "icon": "🛒",
+      "goal": "Pouvoir demander le prix, dire combien on veut et négocier simplement au marché en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Vocabulaire utile",
+          "title": "Produits et monnaie",
+          "body": "Noms de produits courants et mot pour 'prix' et 'liri' (lari).",
+          "examples": [
+            {
+              "ka": "ფ569ლი (p'khali) — ხილი (khili)",
+              "fr": "fruit",
+              "note": "exemple générique"
+            },
+            {
+              "ka": "ბოსტნეული (bost'neuli)",
+              "fr": "légumes",
+              "note": ""
+            },
+            {
+              "ka": "ფასი (p'asi)",
+              "fr": "prix",
+              "note": "mot clé"
+            }
+          ],
+          "takeaway": "Mots à mémoriser: ხილი, ბოსტნეული, ხორცი, რძე, ფასი, ლარი (lari)."
+        },
+        {
+          "eyebrow": "Demander le prix",
+          "title": "Formules pour demander et dire le prix",
+          "body": "Questions simples: 'რამდენია ეს?' et réponses 'ეს 5 ლარი ღირს.'",
+          "examples": [
+            {
+              "ka": "რამდენია ეს? — ეს 10 ლარი ღირს.",
+              "fr": "Combien ça coûte ? — Ça coûte 10 laris.",
+              "note": "question et réponse"
+            },
+            {
+              "ka": "რამდენი ღირს კილოგრამი მოცვი?",
+              "fr": "Quel est le prix du kilo de myrtilles ?",
+              "note": ""
+            },
+            {
+              "ka": "სტარტია 3 ლარად.",
+              "fr": "Ça se vend 3 laris.",
+              "note": "forme informelle"
+            }
+          ],
+          "takeaway": "'რამდენია ეს?' = 'Combien ça coûte ?' Répondre avec 'ეს X ლარი ღირს.'"
+        },
+        {
+          "eyebrow": "Quantités et négociation",
+          "title": "Dire combien et proposer un autre prix",
+          "body": "Exprimer 'un kilo', 'une pièce' et proposer un prix plus bas poliment.",
+          "examples": [
+            {
+              "ka": "ერთი კილოგრამი, თუ შეგიძლიათ 8 ლარად მიგვეცით?",
+              "fr": "Un kilo, pouvez-vous nous le faire à 8 laris ?",
+              "note": "négociation polie"
+            },
+            {
+              "ka": "არა, 10 ლარი ღირს, მაგრამ ორი კილოგრამისათვის კონტრაქტი 18 ლარი იქნება.",
+              "fr": "Non, c'est 10 laris, mais pour deux kilos ce sera 18 laris.",
+              "note": "contre-offre"
+            },
+            {
+              "ka": "ერთი ცალი ღირს 2 ლარი.",
+              "fr": "Une pièce coûte 2 laris.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Dire quantité: 'ერთი კილოგრამი', 'ერთი ცალი'. Négocier: '... თუ შეგიძლიათ X ლარად?'"
+        },
+        {
+          "eyebrow": "Phrases complètes",
+          "title": "Exemples de dialogues d'achat",
+          "body": "Dialogues courts pour acheter: demander le prix, proposer un autre prix, accepter/ refuser.",
+          "examples": [
+            {
+              "ka": "— რამდენია ერთი კილო ბანანი? — 3 ლარი. — კარგი, ერთ კილოს ავიღებ.",
+              "fr": "— Combien le kilo de bananes ? — 3 laris. — D'accord, je prends un kilo.",
+              "note": "achat simple"
+            },
+            {
+              "ka": "— თუ შეიძლება, ორი სილი 5 ლარად? — კარგი, იყოს 5 ლარი.",
+              "fr": "— Pouvez-vous faire deux pour 5 laris ? — D'accord, ce sera 5 laris.",
+              "note": "négoce accepté"
+            }
+          ],
+          "takeaway": "Utilisez 'რამდენია?', quantités 'ერთი კილო', et formule de négociation polie."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Que signifie 'რამდენია ეს?' ?",
+              "options": [
+                "Où est-ce ?",
+                "Combien ça coûte ?",
+                "Quelle est la couleur ?",
+                "C'est à qui ?"
+              ],
+              "answer": 1,
+              "explanation": "'რამდენია ეს?' signifie 'Combien ça coûte ?' (option 2)."
+            },
+            {
+              "prompt": "Comment dire 'Ça coûte 10 laris.' ?",
+              "options": [
+                "ეს 10 ლარი ღირს.",
+                "ეს 10 ლარამდეა.",
+                "ეს 10 ლარია?",
+                "ეს 10 ლარითი."
+              ],
+              "answer": 0,
+              "explanation": "La forme correcte pour 'ça coûte 10 laris' est 'ეს 10 ლარი ღირს.' (option 1)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Si vous proposez un prix plus bas poliment, quelle phrase pouvez-vous utiliser ?",
+              "options": [
+                "თუ შეგიძლიათ X ლარად?",
+                "მე ღირს X ლარი.",
+                "ეს არის X ლარი.",
+                "მადლობა, არა."
+              ],
+              "answer": 0,
+              "explanation": "Pour proposer un prix: 'თუ შეგიძლიათ X ლარად?' (option 1)."
+            },
+            {
+              "prompt": "Quelle expression correspond à 'Une pièce coûte 2 laris.' ?",
+              "options": [
+                "ერთი კილოგრამი ღირს 2 ლარი.",
+                "ერთი ცალი ღირს 2 ლარი.",
+                "ერთი ცალი იაფია 2.",
+                "ერთი ნაჭერი 2 ლარია."
+              ],
+              "answer": 1,
+              "explanation": "'Une pièce' se traduit par 'ერთი ცალი', donc 'ერთი ცალი ღირს 2 ლარი.' (option 2)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a2-gen-010",
+      "version": 10,
+      "cefr": "A2",
+      "level": "A2",
+      "title": "La météo et les saisons",
+      "tag": "météo",
+      "icon": "☀️",
+      "goal": "Décrire la météo, parler des saisons et dire la température en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Vocabulaire météo",
+          "title": "Mots essentiels pour la météo",
+          "body": "Termes pour parler du temps: soleil, pluie, neige, nuageux, vent.",
+          "examples": [
+            {
+              "ka": "მზე (mze)",
+              "fr": "soleil",
+              "note": ""
+            },
+            {
+              "ka": "წვიმა (ts'vima)",
+              "fr": "pluie",
+              "note": ""
+            },
+            {
+              "ka": "დარბილობა (Ishviloba)",
+              "fr": "nuageux",
+              "note": "remarque: utiliser 'ღრუბლიანი' plutôt"
+            },
+            {
+              "ka": "ღრუბლიანი (ghrubliani)",
+              "fr": "nuageux",
+              "note": "terme correct"
+            }
+          ],
+          "takeaway": "Mots clés: მზე, წვიმა, თოვლი (neige), ღრუბლიანი, ქარი (vent)."
+        },
+        {
+          "eyebrow": "Saisons",
+          "title": "Nommer les saisons",
+          "body": "Les quatre saisons: printemps, été, automne, hiver. Dire la saison actuelle.",
+          "examples": [
+            {
+              "ka": "გაზაფხული (gazapkhuli)",
+              "fr": "printemps",
+              "note": ""
+            },
+            {
+              "ka": "ზაფხული (zaphkhuli)",
+              "fr": "été",
+              "note": ""
+            },
+            {
+              "ka": "შემოდგომა (shemodgoma)",
+              "fr": "automne",
+              "note": ""
+            },
+            {
+              "ka": "ზამთარი (zamt'ari)",
+              "fr": "hiver",
+              "note": ""
+            }
+          ],
+          "takeaway": "Apprendre: გაზაფხული, ზაფხული, შემოდგომა, ზამთარი."
+        },
+        {
+          "eyebrow": "Parler de la température",
+          "title": "Dire combien de degrés il fait",
+          "body": "Structure simple: 'გრძნობები' non nécessaire. Utiliser 'მოჩვენებით X გრადუსია' ou plus courant 'X გრადუსია'.",
+          "examples": [
+            {
+              "ka": "დღეს 20 გრადუსია.",
+              "fr": "Aujourd'hui il fait 20 degrés.",
+              "note": "construction simple"
+            },
+            {
+              "ka": "გუშინ -5 გრადუსი იყო.",
+              "fr": "Hier il faisait -5 degrés.",
+              "note": "passé simple"
+            },
+            {
+              "ka": "დილას 10 გრადუსი იქნება.",
+              "fr": "Le matin il fera 10 degrés.",
+              "note": "futur simple"
+            }
+          ],
+          "takeaway": "Dire la température: '[X] გრადუსია.' Pour le passé: '[X] გრადუსი იყო.'"
+        },
+        {
+          "eyebrow": "Phrases complètes",
+          "title": "Décrire le temps aujourd'hui",
+          "body": "Combiner vocabulaire et température pour de courtes descriptions.",
+          "examples": [
+            {
+              "ka": "დღეს მზიანი და სუფთაა, 18 გრადუსია.",
+              "fr": "Aujourd'hui il fait soleil et le ciel est clair, il fait 18 degrés.",
+              "note": "phrase complète"
+            },
+            {
+              "ka": "ხვალ ღრუბლიანი იქნება და შეიძლება წვიმა მოვიდეს.",
+              "fr": "Demain il fera nuageux et il peut y avoir de la pluie.",
+              "note": "possibilité"
+            },
+            {
+              "ka": "ზამთარში ხშირად თოვს და -5 გრადუსამდე შეიძლება დაიცვას.",
+              "fr": "En hiver il neige souvent et la température peut descendre jusqu'à -5 degrés.",
+              "note": "remarque saisonnière"
+            }
+          ],
+          "takeaway": "Construire: '[Aujourd'hui] + [qualificatif météo] + [température]'."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot géorgien signifie 'hiver' ?",
+              "options": [
+                "გაზაფხული",
+                "ზაფხული",
+                "შემოდგომა",
+                "ზამთარი"
+              ],
+              "answer": 3,
+              "explanation": "'ზამთარი' est le mot pour 'hiver' (option 4)."
+            },
+            {
+              "prompt": "Comment dit-on 'nuageux' en géorgien (mot enseigné) ?",
+              "options": [
+                "მზე",
+                "თოვლი",
+                "ღრუბლიანი",
+                "ქარი"
+              ],
+              "answer": 2,
+              "explanation": "'ღრუბლიანი' signifie 'nuageux' (option 3)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase correspond à 'Aujourd'hui il fait 20 degrés.' ?",
+              "options": [
+                "დღეს 20 გრადუსია.",
+                "დღეს -20 გრადუსი იყო.",
+                "გუშინ 20 გრადუსია.",
+                "დღეს 20 გრადუსი იქნება?"
+              ],
+              "answer": 0,
+              "explanation": "'დღეს 20 გრადუსია.' signifie 'Aujourd'hui il fait 20 degrés.' (option 1)."
+            },
+            {
+              "prompt": "Quelle expression utilise-t-on pour 'soleil' ?",
+              "options": [
+                "წვიმა",
+                "მზე",
+                "ღრუბლიანი",
+                "ქარი"
+              ],
+              "answer": 1,
+              "explanation": "'მზე' signifie 'soleil' (option 2)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "reading_exams-a1-gen-001",
+      "title": "საუზმე თანამედროვე თბილისში",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 1,
+      "text": "დღეს დილით მარიამი ადრე გაიღვიძა. ის თბილისში პატარა ბინაში ცხოვრობს და სამუშაოზე წავიდა. მარიამმა საუზმეზე ჩაი და ფქვილიანი პურით ნამცხვარი აიღო. ქუჩაში დღის ტემპერატურა თბილი იყო და ბევრი ხალხი ვერ შესამჩნევად მდგარიყავი. მარიამმა კონდიციონერი არ ჩაერთო, რადგან ფანჯარაში ქარი მოდიოდა. სამსახურში პატარა ყუთი და ტომარა ჰქონდა. კოლეგები მეგობრულები იყვნენ და ერთად ჩაი ან ყავა იყიდეს. მარიამს გუშინ ახალი სამსახური დაიწყო და დღეს ბევრს სწავლობდა. შესვენებაზე ის კაფეში გამოვიდა. კაფეში მენიუ მარტივი იყო: სალათი, სუპი, სანთელი პური და ნამცხვარი. მან კერძი აირჩია და ჩაი დააყოლა. მუშაობა დღის ბოლოს მშვიდად დასრულდა. სახლში დაბრუნებაზე მარიამმა მეგობარს დაურეკა და საღამოს ერთად ფილმი ნახეს. მარიამს უყვარს მშვიდი და ორგანიზებული დღეები თბილისში.",
+      "translation": "Ce matin, Mariam s'est réveillée tôt. Elle habite dans un petit appartement à Tbilissi et est partie au travail. Pour le petit déjeuner, Mariam a pris du thé et un petit gâteau avec du pain. Il faisait chaud dehors et on ne remarquait pas beaucoup de monde. Mariam n'a pas allumé la climatisation car il y avait du vent à la fenêtre. Au travail, elle avait une petite boîte et un sac. Les collègues étaient sympathiques et ont acheté ensemble du thé ou du café. Mariam a commencé un nouveau travail hier et a beaucoup appris aujourd'hui. Pendant la pause, elle est sortie au café. Le menu du café était simple : salade, soupe, pain et gâteau. Elle a choisi un plat et l'a accompagné de thé. Le travail s'est terminé calmement en fin de journée. En rentrant chez elle, Mariam a téléphoné à son amie et elles ont regardé un film ensemble le soir. Mariam aime les journées calmes et organisées à Tbilissi.",
+      "questions": [
+        {
+          "question": "Que prend Mariam au petit déjeuner ?",
+          "options": [
+            "Du thé et un petit gâteau avec du pain",
+            "Un sandwich au fromage",
+            "Un bol de céréales",
+            "Du jus d'orange et des œufs"
+          ],
+          "answer": "Du thé et un petit gâteau avec du pain",
+          "explanation": "Le texte indique que pour le petit déjeuner elle a pris du thé et un petit gâteau avec du pain."
+        },
+        {
+          "question": "Pourquoi Mariam n'a-t-elle pas allumé la climatisation ?",
+          "options": [
+            "Parce qu'il faisait très froid",
+            "Parce qu'il y avait du vent à la fenêtre",
+            "Parce que la climatisation est cassée",
+            "Parce qu'elle était en retard"
+          ],
+          "answer": "Parce qu'il y avait du vent à la fenêtre",
+          "explanation": "Le texte explique qu'elle n'a pas mis la climatisation car il y avait du vent à la fenêtre."
+        },
+        {
+          "question": "Que fait Mariam pendant la pause ?",
+          "options": [
+            "Elle va au parc pour courir",
+            "Elle sort au café",
+            "Elle rentre à la maison",
+            "Elle dort au travail"
+          ],
+          "answer": "Elle sort au café",
+          "explanation": "Le texte précise qu'elle est sortie au café pendant la pause."
+        },
+        {
+          "question": "Comment se termine la journée de travail de Mariam ?",
+          "options": [
+            "Tranquillement en fin de journée",
+            "Avec un retard au travail",
+            "Par une réunion importante",
+            "Avec une longue promenade au parc"
+          ],
+          "answer": "Tranquillement en fin de journée",
+          "explanation": "Le texte dit que le travail s'est terminé calmement en fin de journée."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-002",
+      "title": "ბაღში ახალი მეგობარი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 2,
+      "text": "პეტრე ახლა სკოლაში ახალი მოსწავლეა. პირველ დღეს მას ეშინოდა, მაგრამ მასწავლებელმა ყველას დააკნინა და ბავშვები ვკითხულობდნენ. პეტრემ ჯინსი და ლურჯი ჯემპრი ჩაიცვა. ბაღში პატარა თამაშები და წიგნები არის. პირველ გაკვეთილზე ბავშვებმა ფერების ამბები ისწავლეს. პეტრემ წითელი ვაშლი და მწვანე ბალახი ნახა წიგნში. დილის შემდეგ შესვენებაზე პეტრე სკამზე დაჯდა და ბიჭი ვაჟამ ელაპარაკა. ბიჭი სახე სერიოზული არ ჰქონდა და კიემბრა გახდა. ისინი ერთად თამაშობდნენ ბურთით. დღის ბოლოს პეტრეს დედა მოვიდა და სკოლის კარებთან დაელოდა. პეტრემ დედას ხელი გაუწოდა და გამოიყვანა. სახლში მათ ერთად ნახეს მისი ჩანთის შიდა ამბები: პატარა ფეხბურთის ბურთი და წებოვანი ფურცლები. პეტრემ თქვა, რომ უყვარს ახალი მეგობარი და სკოლა.",
+      "translation": "Petre est maintenant un nouvel élève à l'école. Le premier jour il avait peur, mais l'enseignant a rassuré tout le monde et les enfants ont lu. Petre portait un jean et un pull bleu. À l'école il y a de petits jeux et des livres. Au premier cours, les enfants ont appris les couleurs. Dans le livre, Petre a vu une pomme rouge et de l'herbe verte. Après le matin, à la récréation, Petre s'est assis sur une chaise et un garçon lui a parlé. Le garçon n'avait pas l'air sérieux et est devenu ami. Ils ont joué ensemble avec un ballon. En fin de journée, la mère de Petre est venue et a attendu près de la porte de l'école. Petre a tendu la main à sa mère et est sorti. À la maison, ils ont regardé ensemble le contenu de son sac : un petit ballon de foot et des feuilles autocollantes. Petre a dit qu'il aime son nouvel ami et l'école.",
+      "questions": [
+        {
+          "question": "Comment s'est senti Petre le premier jour ?",
+          "options": [
+            "Il avait peur",
+            "Il était très joyeux",
+            "Il était malade",
+            "Il était en colère"
+          ],
+          "answer": "Il avait peur",
+          "explanation": "Le texte dit que le premier jour il avait peur."
+        },
+        {
+          "question": "Que portait Petre ce jour-là ?",
+          "options": [
+            "Un jean et un pull bleu",
+            "Un costume noir",
+            "Un short et un t-shirt rouge",
+            "Une robe verte"
+          ],
+          "answer": "Un jean et un pull bleu",
+          "explanation": "Le texte précise qu'il portait un jean et un pull bleu."
+        },
+        {
+          "question": "Qu'ont appris les enfants au premier cours ?",
+          "options": [
+            "Les couleurs",
+            "Les maths simples",
+            "La musique",
+            "La cuisine"
+          ],
+          "answer": "Les couleurs",
+          "explanation": "Le texte indique que le premier cours portait sur les couleurs."
+        },
+        {
+          "question": "Qu'y avait-il dans le sac de Petre ?",
+          "options": [
+            "Un petit ballon de foot et des feuilles autocollantes",
+            "Des crayons et un livre de maths",
+            "Une tablette et des bonbons",
+            "Un sandwich et une bouteille d'eau"
+          ],
+          "answer": "Un petit ballon de foot et des feuilles autocollantes",
+          "explanation": "Le texte détaille que dans son sac il y avait un petit ballon de foot et des feuilles autocollantes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-003",
+      "title": "დღიური ქალაქი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 3,
+      "text": "მე ვცხოვრობ პატარა ქალაქში საქართველოს დასავლეთში. ჩემი სახლი ქუჩის ბოლოს არის, დიდი ხეებთან ახლოს. ყოველი დილით ვდგები რვაზე, ვსვამ ყავას და ვჭამ ტოსტს. სამსახურში ვმგზავრობ ფეხით. ჩემი ანი კოლეგაა და სამსახურში ყოველთვის მოდის ავტობუსით. სამუშაო დღე ცხრა საათზე იწყება და ხუთ საათზე заканчება. მე ვმუშავობ ოფისში და ვწერ წერილებს კომპიუტერით. ბოსტნეულის მაღაზია ჩემი სახლიდან ხუთ წუთშია. სინამდვილეში, ქუჩაში ფერადი მაღაზიებია: პური, ხილი და ყვავილები. შაბათი დღე ხშირად მეგობრებთან ერთად ვხვდები. ჩვენ პარკში ვსეირნობთ და პატარა კაფეში ყავას ვსვამთ. კვირას კი ოჯახთან ერთად ვატარებ დროს და ბათუმში არ მივდივართ, მაგრამ ახლომახლო ზღვაზე პატარა გასეირნება შეიძლება. ამ ქალაქში ხალხი მშვიდი და მეგობრულია. მე მიყვარს ჩემს ქალაქში ცხოვრება, იმიტომ რომ ეს ადგილი მარტივია და უსაფრთხო.",
+      "translation": "Je vis dans une petite ville dans l'ouest de la Géorgie. Ma maison est au bout de la rue, près de grands arbres. Chaque matin je me lève à huit heures, je bois du café et je mange un toast. Je vais au travail à pied. Mon collègue Ani prend toujours le bus pour venir au travail. La journée de travail commence à neuf heures et finit à cinq heures. Je travaille dans un bureau et j'écris des lettres à l'ordinateur. Le magasin de légumes est à cinq minutes de ma maison. En réalité, il y a des magasins colorés dans la rue : pain, fruits et fleurs. Le samedi je rencontre souvent des amis. Nous nous promenons dans le parc et prenons un café dans un petit café. Le dimanche je passe du temps avec ma famille et nous n'allons pas à Batoumi, mais on peut faire une petite excursion près de la mer. Les gens dans cette ville sont calmes et amicaux. J'aime vivre dans ma ville parce que cet endroit est simple et sûr.",
+      "questions": [
+        {
+          "question": "Où est située la maison du narrateur ?",
+          "options": [
+            "Au centre-ville",
+            "Au bord de la mer",
+            "Au bout de la rue",
+            "Près de la gare"
+          ],
+          "answer": "Au bout de la rue",
+          "explanation": "Le texte dit que la maison est ‚au bout de la rue, près de grands arbres‘."
+        },
+        {
+          "question": "Comment le narrateur va-t-il au travail ?",
+          "options": [
+            "En voiture",
+            "À pied",
+            "En vélo",
+            "En bus"
+          ],
+          "answer": "À pied",
+          "explanation": "Le texte précise ‚Je vais au travail à pied‘."
+        },
+        {
+          "question": "Que fait le narrateur le samedi ?",
+          "options": [
+            "Il travaille tout le jour",
+            "Il reste chez lui",
+            "Il rencontre des amis et va au parc",
+            "Il va à Batoumi"
+          ],
+          "answer": "Il rencontre des amis et va au parc",
+          "explanation": "Le texte indique que le samedi il rencontre des amis, ils se promènent dans le parc et prennent un café."
+        },
+        {
+          "question": "Pourquoi le narrateur aime-t-il sa ville ?",
+          "options": [
+            "Parce qu'elle est grande et bruyante",
+            "Parce qu'elle est simple et sûre",
+            "Parce qu'elle est loin de la mer",
+            "Parce qu'il n'y a pas de magasins"
+          ],
+          "answer": "Parce qu'elle est simple et sûre",
+          "explanation": "La traduction dit clairement ‚J'aime vivre dans ma ville parce que cet endroit est simple et sûr‘."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-004",
+      "title": "ახალი რესტორანი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 4,
+      "text": "ახლახანს ჩვენს უბანში ახალი რესტორანი გაიხსნა. რესტორანი ოდნავ პატარაა, მაგრამ ინტერიერი ნათელი და მეგობრულია. დახლზე არის კონდომი და ყავის მანქანა. საფოსტო კოქტეილი და ნამცხვრები დღეს განსაკუთრებულად პოპულარულია. მე ხშირად ვჭამ თაფლიანი პურს და შოკოლადიან დესერტს. რესტორანში სამუშაოდ ორი ქალი და ერთი კაცი არიან. ისინი vriendelijk ავადმყოფობის დროს და ყოველთვის იღიმებიან. ღამის პერიოდში რესტორანი რვა საათამდე მუშაობს, შაბათ-კვირას კი ორი საათით უფრო დიდხანს. ფასები საშუალოა; ერთი საუზმე იაფია. მეგობრები მირჩევენ ახალ ადგილს, რადგან საჭმელი ახალი და გემრიელია. თუ რომელიმე კერძი არ მოგწონთ, სამზარეულო მარტივად შეცვლის. ცივი წყალი და ჩაი უფ zdarma არის. მე მიყვარს ეს ადგილი, რადგან საცხოვრებელ სახლიდან ახლოსაა და თანამშრომლები სასიამოვნო არიან.",
+      "translation": "Récemment, un nouveau restaurant a ouvert dans notre quartier. Le restaurant est un peu petit, mais l'intérieur est lumineux et convivial. Au comptoir il y a un condenseur et une machine à café. Les cocktails et les pâtisseries sont particulièrement populaires aujourd'hui. Je mange souvent du pain au miel et un dessert au chocolat. Dans le restaurant travaillent deux femmes et un homme. Ils sont amicaux quand on est malade et sourient toujours. Le soir, le restaurant ouvre jusqu'à huit heures, et le week-end deux heures de plus. Les prix sont moyens ; un petit-déjeuner est bon marché. Mes amis me recommandent ce nouvel endroit parce que la nourriture est fraîche et délicieuse. Si un plat ne vous plaît pas, la cuisine le change facilement. L'eau froide et le thé sont gratuits. J'aime cet endroit parce qu'il est proche de chez moi et que le personnel est agréable.",
+      "questions": [
+        {
+          "question": "Comment est l'intérieur du restaurant ?",
+          "options": [
+            "Sombre et vieux",
+            "Lumineux et convivial",
+            "Vide et froid",
+            "Petit et désordonné"
+          ],
+          "answer": "Lumineux et convivial",
+          "explanation": "Le texte décrit l'intérieur comme ‚natif et amiable‘ ( lumineux et convivial )."
+        },
+        {
+          "question": "Que mange souvent le narrateur au restaurant ?",
+          "options": [
+            "Une salade verte",
+            "Du pain au miel et un dessert au chocolat",
+            "Du poisson grillé",
+            "Un sandwich au fromage"
+          ],
+          "answer": "Du pain au miel et un dessert au chocolat",
+          "explanation": "Le narrateur dit qu'il mange souvent ‚pain au miel et dessert au chocolat‘."
+        },
+        {
+          "question": "Que font les amis du narrateur à propos du restaurant ?",
+          "options": [
+            "Ils le critiquent",
+            "Ils recommandent le nouvel endroit",
+            "Ils ne connaissent pas le restaurant",
+            "Ils pensent que c'est trop cher"
+          ],
+          "answer": "Ils recommandent le nouvel endroit",
+          "explanation": "Le texte indique ‚Mes amis me recommandent ce nouvel endroit‘ parce que la nourriture est fraîche et délicieuse."
+        },
+        {
+          "question": "Qu'est-ce qui est gratuit dans le restaurant ?",
+          "options": [
+            "Le dessert",
+            "Le café",
+            "L'eau froide et le thé",
+            "Le petit-déjeuner"
+          ],
+          "answer": "L'eau froide et le thé",
+          "explanation": "Le texte précise ‚L'eau froide et le thé sont gratuits‘."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-005",
+      "title": "ბაზრობაზე",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 5,
+      "text": "დღეს სანდრა ბაზრობაზე მიდის. ადრე ის საუზმობს და ყავას სვამს. ის ხილის მაღაზიაში ნაყოფებს ირჩევს. სანდრას უყვარს ვაშლი, банანი და მსხალი. გამყიდველი სტუმართმოყვარეაა და ღიმილით ეუბნება ფასს. სანდრა სტუმრადაც მიესალმება და აფიქრობს, რომ ფასი სამართლიანი არის. ის ყიდულობს ოთხ ვაშლს, სამი ბანანი და ორი მსხალი. ის ასევე უნახავს ახალი პური და იყიდის ერთი პურის ნაჭერს. მერე სანდრა მიდის ყვავილების ძებნაზე. მას უნდა ყვავილები დედისთვის. ნინო მისი დედაა. სანდრა კითხულობს ყვავილების ფასებს და ირჩევს წითელ ვარდებს. გამყიდველი ტომარას აძლევს და სანდრა იღებს პატარა ქურთუკს, რადგან ამინდის მიხედვით შედარებით ცივია. სანდრა სახლისკენ მოდის ფეხით. გზაზე ის აგდებს ფოთლებს და იღებს სურათს ბაზრობაზე. სახლში მისულს დედა გაუღიმებს და ყვავილებს გვერდით დებს. სანდრა კარგ ხასიათზეა და დანახულით ბედნიერი ხდება.",
+      "translation": "Aujourd'hui Sandra va au marché. Le matin elle prend le petit-déjeuner et boit du café. Elle choisit des fruits au magasin de fruits. Sandra aime les pommes, les bananes et les poires. Le vendeur est accueillant et dit le prix en souriant. Sandra dit bonjour et pense que le prix est juste. Elle achète quatre pommes, trois bananes et deux poires. Elle voit aussi du pain frais et achète une tranche de pain. Ensuite Sandra cherche des fleurs. Elle veut des fleurs pour sa mère. Sa mère s'appelle Nino. Sandra demande les prix des fleurs et choisit des roses rouges. Le vendeur lui donne un sac et Sandra prend une petite veste parce qu'il fait un peu froid selon la météo. Sandra revient chez elle à pied. Sur le chemin elle ramasse des feuilles et prend une photo du marché. À la maison sa mère lui sourit et pose les fleurs à côté. Sandra est de bonne humeur et heureuse de ce qu'elle a vu.",
+      "questions": [
+        {
+          "question": "Que fait Sandra d'abord le matin ?",
+          "options": [
+            "Elle va au travail.",
+            "Elle prend le petit-déjeuner et boit du café.",
+            "Elle lit un livre.",
+            "Elle téléphone à une amie."
+          ],
+          "answer": "Elle prend le petit-déjeuner et boit du café.",
+          "explanation": "Le texte dit qu'elle prend le petit-déjeuner et boit du café avant d'aller au marché."
+        },
+        {
+          "question": "Quels fruits achète-t-elle ?",
+          "options": [
+            "Oranges et fraises.",
+            "Pommes, bananes et poires.",
+            "Melon et raisin.",
+            "Tomates et concombres."
+          ],
+          "answer": "Pommes, bananes et poires.",
+          "explanation": "Le texte énumère précisément les fruits : pommes, bananes et poires."
+        },
+        {
+          "question": "Pourquoi Sandra achète-t-elle des fleurs ?",
+          "options": [
+            "Pour décorer la maison.",
+            "Pour offrir à sa mère.",
+            "Pour vendre au marché.",
+            "Pour son anniversaire."
+          ],
+          "answer": "Pour offrir à sa mère.",
+          "explanation": "Le texte explique qu'elle veut des fleurs pour sa mère, qui s'appelle Nino."
+        },
+        {
+          "question": "Comment rentre-t-elle chez elle ?",
+          "options": [
+            "En voiture.",
+            "En bus.",
+            "À pied.",
+            "En vélo."
+          ],
+          "answer": "À pied.",
+          "explanation": "Le texte indique que Sandra revient chez elle à pied."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-006",
+      "title": "სკოლა და ავტობუსი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 6,
+      "text": "მზადება დილის სკოლისთვის იწყება შვიდ საათზე. ლუკა იღვიძებს, შემდეგ იბანს სახეს და შირდება კბილებს. მან იცის, რომ ავტობუსი რვა საათზე მიდის. დედა აჭმევს უეჭველად ჰალვაის, მაგრამ დღეს ლუკამ ყვავილოვანი ყავას ოდნავ სვამს. მაშინ ის იღებს ჩანთას და აფარებს ქურთუკს. როდესაც მამა და ლუკა გარეთ გადიან, ცივა და ტემპერატურა შედარებით დაბალია. ისინი მიდიან ავტობუსის გაჩერებამდე. ავტობუსი ცოტა დაგვიანებით მოვიდა. ლუკა ხედავს თავის კლასელებს და მათთან იცინის. მასთან ერთად აცილებენ წიგნებს და საშვალ წრეში განიხილავენ გეგმებს. სკოლის შენობაში მას ელის ახალი სწავლება: მათ უნდა დახატონ პატარა ქალაქი. მას უყვარს ხატვა და ქუჩები მათგანს ძალიან საინტერესო ჩანდა. მას პირადი ფურცელი მიეცა და მას უჩვენებენ ფანქრებს. დღე მიდის სწრაფად. ლუკა სწავლობს და საღამოს სახლში დაბრუნდება, სადაც დედა დალოცავს და კარგი ამბავი ჰკითხავს.",
+      "translation": "La préparation pour l'école commence à sept heures du matin. Luka se réveille, puis se lave le visage et se brosse les dents. Il sait que le bus part à huit heures. Sa mère lui donne toujours quelque chose à manger, mais aujourd'hui Luka boit un peu de café au lait. Ensuite il prend son sac et met sa veste. Quand son père et Luka sortent, il fait froid et la température est assez basse. Ils vont à l'arrêt de bus. Le bus arrive un peu en retard. Luka voit ses camarades et rit avec eux. Ensemble ils préparent les livres et discutent brièvement des plans. À l'école, il attend un nouveau cours : ils doivent dessiner une petite ville. Il aime dessiner et les rues lui semblent très intéressantes. On lui donne une feuille personnelle et on lui montre des crayons. La journée passe vite. Luka apprend et le soir il rentrera chez lui, où sa mère l'embrassera et lui demandera des bonnes nouvelles.",
+      "questions": [
+        {
+          "question": "À quelle heure Luka se prépare pour l'école ?",
+          "options": [
+            "À six heures.",
+            "À sept heures.",
+            "À neuf heures.",
+            "À dix heures."
+          ],
+          "answer": "À sept heures.",
+          "explanation": "Le texte précise que la préparation commence à sept heures du matin."
+        },
+        {
+          "question": "Comment va Luka à l'école ?",
+          "options": [
+            "En voiture.",
+            "En bus.",
+            "À pied.",
+            "En vélo."
+          ],
+          "answer": "En bus.",
+          "explanation": "Le texte indique qu'il sait que le bus part à huit heures et qu'ils vont à l'arrêt de bus."
+        },
+        {
+          "question": "Que doivent faire les élèves en classe ce jour-là ?",
+          "options": [
+            "Écrire une dictée.",
+            "Dessiner une petite ville.",
+            "Faire du sport.",
+            "Apprendre une chanson."
+          ],
+          "answer": "Dessiner une petite ville.",
+          "explanation": "Le texte mentionne qu'ils doivent dessiner une petite ville pendant le cours."
+        },
+        {
+          "question": "Que fait la mère de Luka le soir ?",
+          "options": [
+            "Elle part au travail.",
+            "Elle lui demande des bonnes nouvelles et l'embrasse.",
+            "Elle prépare un gâteau.",
+            "Elle va au marché."
+          ],
+          "answer": "Elle lui demande des bonnes nouvelles et l'embrasse.",
+          "explanation": "Le texte dit que sa mère l'embrassera et lui demandera des bonnes nouvelles en rentrant le soir."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-007",
+      "title": "ბაზარში მივვლა",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 7,
+      "text": "დღეს მე ბაზარში ვიდექი დილით. ბაზარში ბევრი ხალხი იყო. მაღაზიები ღია იყო რვიდან. მე წავედი ხილის დახლთან და ვნახე დიდი ვაშლები. ვნახე წითელი ვაშლები და მწვანე ვაშლები. მე მინდოდა სამ ვაშლი. მოვითხოვე ორი წითელი და ერთი მწვანე. ხილები ახალი და სურნელოვანი იყო. შემდეგ ვნახე პური და ვიყიდე ერთი პატარა პური. გამყიდველმა დამეკითხა \"გინდა თუ არა ცხელი პური?\" ვუპასუხე - არა, არაა ცხელი. შემდეგ წავედი ნამცხვრის თვალით დახლთან. ბავშვი ჩემ გვერდით მოსიარულე ვატარეთ და ის იღიმოდა. დავუკიდე სახელი ჩემი მეგობრისთვის და ვუთხარი პირადი ამბები. ბოლოს გადავუხადე ფული და სახლში დავბრუნდი. სახლში შევინახე ხილი ტაფაზე და პური მაგიდაზე. დღეს შეძენილი იაფი და კარგი იყო, მე ბედნიერი ვიყავი.",
+      "translation": "Aujourd'hui je suis allé au marché le matin. Il y avait beaucoup de monde au marché. Les magasins étaient ouverts depuis huit heures. Je suis allé au stand de fruits et j'ai vu de grandes pommes. J'ai vu des pommes rouges et des pommes vertes. Je voulais trois pommes. J'ai demandé deux rouges et une verte. Les fruits étaient frais et parfumés. Ensuite j'ai vu du pain et j'ai acheté un petit pain. Le vendeur m'a demandé «Voulez-vous un pain chaud?» J'ai répondu — non, il n'est pas chaud. Puis je suis allé au stand de gâteaux. Un enfant marchait à côté de moi et il souriait. J'ai dit le nom à mon ami et j'ai raconté des choses personnelles. Enfin j'ai payé et je suis rentré chez moi. J'ai posé les fruits sur la table et le pain sur la table. Les achats d'aujourd'hui étaient bons et peu chers, j'étais content.",
+      "questions": [
+        {
+          "question": "À quelle heure les magasins étaient-ils ouverts selon le texte ?",
+          "options": [
+            "À dix heures",
+            "À huit heures",
+            "À sept heures",
+            "À midi"
+          ],
+          "answer": "À huit heures",
+          "explanation": "Le texte dit que les magasins étaient ouverts depuis huit heures."
+        },
+        {
+          "question": "Combien de pommes la personne a-t-elle achetées ?",
+          "options": [
+            "Deux",
+            "Quatre",
+            "Une",
+            "Trois"
+          ],
+          "answer": "Trois",
+          "explanation": "La personne dit qu'elle voulait trois pommes et a demandé deux rouges et une verte."
+        },
+        {
+          "question": "Le vendeur a demandé si le pain était :",
+          "options": [
+            "Frais",
+            "Chaud",
+            "Grand",
+            "Sucré"
+          ],
+          "answer": "Chaud",
+          "explanation": "Le vendeur a demandé «Voulez-vous un pain chaud?» donc il parlait du pain chaud."
+        },
+        {
+          "question": "Comment la personne se sentait-elle après les achats ?",
+          "options": [
+            "Fatiguée",
+            "Triste",
+            "Heureuse",
+            "En colère"
+          ],
+          "answer": "Heureuse",
+          "explanation": "Le texte conclut que les achats étaient bons et peu chers et que la personne était contente (heureuse)."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-008",
+      "title": "სკოლის პირველი დღე",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 8,
+      "text": "სკოლის პირველი დღე იყო თვე აპრილში. ნინო ახალი მოსწავლე გახდა. ის ახლოს ცხოვრობს და ფეხით მოდის სკოლაში. მას მოსწონს კლასი იმიტომ, რომ მას აქვს დიდი ფანჯრები. მას თან აქვს პატარა ჩანთა, წიგნები და ფურცლები. მას მეგობრები შეხვდა: ლიკა, მამუკა და ზურა. მათ ისწავლეს სიმღერა და წერა პატარა ასოებით. მასწავლებელმა დაურიგა ფანქრები და იქვითიბა წინა ნაწილი კლასში. ნინომ ისწავლა სიტყვა „მოგესალმებით“ და თქვა ხმა თბილად. შესვენებაზე ბავშვები გარეთ გავიდნენ და ჭამდნენ ნამცხვარს და ხილს. ნინო უთხრა დედას სკოლაში შემდეგი კვირისთვის ახალი წიგნის თხოვნით. საღამოს ნინო სახლში დაბრუნდა და დედას მოუთხრო დღევანდელი დღე. დედამ ახარა და უთხრა: „სადილზე მოგეწონა სკოლა?“ ნინო დაიცინა და თქვა: \"კი, ეს კარგი იყო\".",
+      "translation": "Le premier jour d'école était au mois d'avril. Nino est devenue une nouvelle élève. Elle habite près et vient à l'école à pied. Elle aime la classe parce qu'elle a de grandes fenêtres. Elle a un petit sac, des livres et des feuilles. Elle a rencontré des amis: Lika, Mamuka et Zura. Ils ont appris une chanson et à écrire de petites lettres. La maîtresse a distribué des crayons et a demandé d'aller au devant de la classe. Nino a appris le mot «bonjour» et l'a dit chaleureusement. Pendant la récréation, les enfants sont sortis et ont mangé des gâteaux et des fruits. Nino a demandé à sa mère un nouveau livre pour la semaine suivante. Le soir Nino est rentrée à la maison et a raconté la journée à sa mère. Sa mère s'est réjouie et a demandé : «As-tu aimé l'école pour le dîner?» Nino a ri et a dit : «Oui, c'était bien.»",
+      "questions": [
+        {
+          "question": "En quelle saison ou mois se passe la première journée selon le texte ?",
+          "options": [
+            "Décembre",
+            "Avril",
+            "Juillet",
+            "Octobre"
+          ],
+          "answer": "Avril",
+          "explanation": "Le texte commence par «Le premier jour d'école était au mois d'avril.»"
+        },
+        {
+          "question": "Comment Nino vient-elle à l'école ?",
+          "options": [
+            "En bus",
+            "En vélo",
+            "À pied",
+            "En voiture"
+          ],
+          "answer": "À pied",
+          "explanation": "Le texte indique qu'elle habite près et vient à l'école à pied."
+        },
+        {
+          "question": "Qu'ont fait les enfants pendant la récréation ?",
+          "options": [
+            "Ils ont chanté une chanson",
+            "Ils ont dormi",
+            "Ils ont mangé des gâteaux et des fruits",
+            "Ils ont fait leurs devoirs"
+          ],
+          "answer": "Ils ont mangé des gâteaux et des fruits",
+          "explanation": "Le texte dit clairement que pendant la récréation les enfants sont sortis et ont mangé des gâteaux et des fruits."
+        },
+        {
+          "question": "Que demande Nino à sa mère pour la semaine suivante ?",
+          "options": [
+            "Un nouveau sac",
+            "Un nouveau livre",
+            "Un animal",
+            "Un gâteau"
+          ],
+          "answer": "Un nouveau livre",
+          "explanation": "Le texte précise que Nino a demandé à sa mère un nouveau livre pour la semaine suivante."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-009",
+      "title": "მაიას საყიდლები და სამზარეულო",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 9,
+      "text": "მაია დილით თავის ქალაქში პატარა ბაზარში მიდის. ის თესლის მაღაზიაში იჭერს ტომარეს და ყიდულობს პომიდორს, კიტრს, ბულგარულ წითელ წიწაკას და მწვანილებს. შემდეგ ის პურს ყიდულობს პურის ურიგოში. ბაზარში მაია ნაცნობ დედაკაცს ხვდება, ისინი მოკლედ საუბრობენ ამინდისა და ოჯახების შესახებ. მაია სახლში ბრუნდება და სამზარეულოში კერძის მომზადებას იწყებს. ჯერ ის პომიდორს ჭრის, შემდეგ კიტრს და მწვანილებს კიდებს დიდ თასში. მაია ცოტა ზეითუნის ზეთს და მარილს სვავს და ყველაფერი აურევს. სადილს მან პურთან ერთად შესთავაზებს თავის მამას და შვილს. ოჯახი ერთად ჭამს სამ საათზე. მაია მაღაზიიდან ახალი რძეც მოიტანა, ხილის წვენიც. საღამოს მან დანა და თეფშები იბანა და სამზარეულო ალაგ-ალაგი დატოვა. ის ბედნიერი იყო, რადგან ყველა ოჯახის წევრი ჭამდა და საუბრობდა ჩრდილოეთის გეგმებზე.",
+      "translation": "Maia va au petit marché de sa ville le matin. Elle prend un sac dans le magasin et achète des tomates, un concombre, un poivron rouge et des herbes. Puis elle achète du pain à la boulangerie. Au marché Maia rencontre une femme qu'elle connaît; elles parlent brièvement du temps et des familles. Maia rentre chez elle et commence à préparer un plat dans la cuisine. D'abord elle coupe les tomates, puis le concombre et ajoute les herbes dans un grand bol. Maia verse un peu d'huile d'olive et de sel et mélange tout. Elle servira le repas avec du pain à son père et son fils. La famille mange ensemble à quinze heures. Maia a aussi apporté du lait frais et du jus de fruits du magasin. Le soir elle lave les couteaux et les assiettes et range la cuisine proprement. Elle était heureuse car tous les membres de la famille mangeaient et parlaient de projets pour le nord.",
+      "questions": [
+        {
+          "question": "Qu'est-ce que Maia achète d'abord au marché ?",
+          "options": [
+            "Du pain",
+            "Des tomates et des légumes",
+            "Du lait",
+            "Des couteaux"
+          ],
+          "answer": "Des tomates et des légumes",
+          "explanation": "Le texte indique qu'elle achète des tomates, un concombre, un poivron et des herbes au marché avant d'aller à la boulangerie."
+        },
+        {
+          "question": "Avec qui Maia mange-t-elle à quinze heures ?",
+          "options": [
+            "Avec une voisine",
+            "Avec son père et son fils",
+            "Avec son mari uniquement",
+            "Avec des amis du marché"
+          ],
+          "answer": "Avec son père et son fils",
+          "explanation": "Le texte précise qu'elle sert le repas à son père et à son fils et que la famille mange ensemble à quinze heures."
+        },
+        {
+          "question": "Que fait Maia le soir après le repas ?",
+          "options": [
+            "Elle retourne au marché",
+            "Elle lave la vaisselle et range la cuisine",
+            "Elle prépare du jus",
+            "Elle téléphone à sa mère"
+          ],
+          "answer": "Elle lave la vaisselle et range la cuisine",
+          "explanation": "Le texte dit qu'elle lave les couteaux et les assiettes et laisse la cuisine propre le soir."
+        },
+        {
+          "question": "Qu'a-t-elle acheté en plus des légumes ?",
+          "options": [
+            "Du savon",
+            "Du lait et du jus de fruits",
+            "Des vêtements",
+            "Un livre"
+          ],
+          "answer": "Du lait et du jus de fruits",
+          "explanation": "Le texte mentionne qu'elle a aussi apporté du lait frais et du jus de fruits du magasin."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a1-gen-010",
+      "title": "გიორგი და პარკი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 10,
+      "text": "გიორგი საღამოს პარკში დადის. მას უნდება სუფთა ჰაერი და მოძრაობა. პარკში ბევრი ხეა და პატარა ტბა. გიორგის პარკთან ახლოს ბენჩზე ჯულიანი კითხულობს წიგნს, ბავშვები კიდე ეშვებიან საქანელებზე. გიორგი სიმსუბუქეს გრძნობს და თან ეკითხება პატარას: \"გინდა პური?\" მათთან ახლაც ერთი ძაღლი მოვიდა და უყვირდა ბავშვებს. მალე გიორგი თავისი მეგობარი ნინო ხვდება. ნინო ყავის პატარა ჭიქას უყვარს და საჩუქრად სასმელი ყიდულობს ავტო-კაფეში. ისინი საუბრობენ სამსახურისა და ზაფხულის გეგმების შესახებ. მერე გიორგიმ და ნინომ ერთად პატარა პიკნიკი გამართეს: სალათი, სასმელი და ორი ნამცხვარი. მათი შეხვედრა ორ საათს გაგრძელდა. ბოლოს ისინი ახლოს არსებულ ტაქსის მოედანზე სიტყვაზე დაემშვიდობნენ და სახლში წავიდნენ სიგნალიზაციას აუწყონ თავიანთ ოჯახს.",
+      "translation": "Giorgi se promène le soir dans le parc. Il veut de l'air frais et du mouvement. Il y a beaucoup d'arbres et un petit lac dans le parc. Près d'un banc Giorgi lit un roman, des enfants jouent encore aux balançoires. Giorgi ressent de la légèreté et demande à un enfant: «Tu veux du pain?» Un chien est aussi venu et attirait l'attention des enfants. Bientôt Giorgi rencontre son amie Nino. Nino aime les petites tasses de café et achète une boisson au café-voiture en cadeau. Ils parlent du travail et des projets d'été. Ensuite Giorgi et Nino organisent un petit pique-nique: salade, boissons et deux gâteaux. Leur rencontre a duré deux heures. Enfin ils se disent au revoir près de la station de taxis et rentrent chez eux pour informer leur famille.",
+      "questions": [
+        {
+          "question": "Pourquoi Giorgi va-t-il au parc ?",
+          "options": [
+            "Pour acheter du pain",
+            "Pour du sport intensif",
+            "Pour de l'air frais et du mouvement",
+            "Pour prendre un taxi"
+          ],
+          "answer": "Pour de l'air frais et du mouvement",
+          "explanation": "Le texte commence en disant qu'il veut de l'air frais et du mouvement en allant au parc."
+        },
+        {
+          "question": "Que font les enfants dans le parc ?",
+          "options": [
+            "Ils lisent des livres",
+            "Ils jouent aux balançoires",
+            "Ils font un pique-nique",
+            "Ils conduisent des voitures"
+          ],
+          "answer": "Ils jouent aux balançoires",
+          "explanation": "Le texte mentionne que les enfants jouent aux balançoires près du banc."
+        },
+        {
+          "question": "Qu'est-ce que Nino achète au café-voiture ?",
+          "options": [
+            "Un sandwich",
+            "Une boisson",
+            "Un livre",
+            "Un billet de bus"
+          ],
+          "answer": "Une boisson",
+          "explanation": "Le texte précise que Nino achète une boisson au café-voiture comme cadeau."
+        },
+        {
+          "question": "Où se disent-ils au revoir ?",
+          "options": [
+            "Devant la maison de Giorgi",
+            "Près du lac",
+            "Près de la station de taxis",
+            "À l'entrée du marché"
+          ],
+          "answer": "Près de la station de taxis",
+          "explanation": "À la fin, ils se disent au revoir près de la station de taxis et rentrent chez eux."
+        }
+      ]
+    }
+  ]
+}

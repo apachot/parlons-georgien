@@ -1,0 +1,455 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "dialogues-c2-gen-001",
+      "title": "უნივერსიტეტის პერსონალის კომიტეტის განხილვა",
+      "scene": "სკანდალი კანდიდატის საკვალიფიკაციო მოთხოვნების გამო / Discussion du comité sur la qualification d’un candidat",
+      "turns": [
+        {
+          "speaker": "Président",
+          "ka": "ჩვენ დღეს აქ იმიტომ შეკრებილვართ, რომ ობიექტურად შევაფასოთ დოქტორანტის კანდიდატურა, განსაკუთრებით იმ ფონზე, როდესაც მისი პაკეტი გამოკვეთილად კარგი სასწავლო ჯაჭვს აჩვენებს, მაგრამ კვლევითი აქტივობა საბოლოო წლებში დასტაბილურებული არ არის.",
+          "fr": "Nous sommes réunis aujourd’hui pour évaluer objectivement la candidature du doctorant, surtout quand son dossier montre un excellent parcours pédagogique mais une activité de recherche moins soutenue ces dernières années."
+        },
+        {
+          "speaker": "Professeur",
+          "ka": "მართალია, მისი ლექტორობა და სტუდენტების მენტორინგი გამოჩენილია, მაგრამ პუბლიკაციების რაოდენობა და გავლენა ადრე საგრძნობლად მაღალი იყო; შეზღუდული სტატიები არ გვაძლევს სრულ სურათს.",
+          "fr": "Il est vrai que son enseignება et le mentorat sont visibles, mais le nombre et l’impact des publications ont été nettement supérieurs auparavant ; ces publications récentes ne nous donnent pas une image complète."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(თქვას საჭირო და დასაბუთებული პასუხი)",
+          "fr": "(répondre de manière nuancée et argumentée)",
+          "choices": [
+            {
+              "ka": "ვაღიარებ, ბოლო წლებში მისი აქტივობა შემცირებულია, თუმცა უნდა გავითვალისწინოთ ადმინისტრაციული სიმძიმეები და საგანმანათლებლო ინოვაციები, რის გამოც მიზანშეწონილია დამოუკიდებელი ექსპერტთა კომისიის შექმნა-მეთოდოლოგიური შეფასებისთვის.",
+              "fr": "J’admets que son activité a diminué récemment, cependant il faut tenir compte des responsabilités administratives et des innovations pédagogiques ; il serait pertinent de constituer une commission d’experts indépendante pour une évaluation méthodologique.",
+              "ok": true
+            },
+            {
+              "ka": "მნიშვნელოვანია ისიც, რომ ლექციების ხარისხი მეტყველებს მის ცოდნასა და ამბიცია; ამიტომ საკმარისია მხოლოდ შიდა მიმოხილვა და კომპლექსური შეფასება არ არის საჭირო.",
+              "fr": "Il importe aussi que la qualité des cours témoigne de son savoir et de ses ambitions ; donc une simple révision interne suffit et une évaluation complexe n’est pas nécessaire.",
+              "ok": false
+            },
+            {
+              "ka": "სამწუხაროდ, კვლევითი შედეგების კლება მიუთითებს უკიდურესად არასრულფასოვან კარიერაზე, ამიტომ მისი კანდიდატურა მიიჩნიონ არასაპატიმროდ.",
+              "fr": "Malheureusement, la baisse des résultats de recherche indique une carrière clairement insuffisante ; sa candidature devrait donc être rejetée.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Membre du comité",
+          "ka": "თუ დამოუკიდებელი ექსპერტები მოიყვანს თანმიმდევრულ მონაცემებს, ეს ნამდვილად ანაზღაურებს ჩვენს ყველა ეჭვს; ამიტომ მხარი დავუჭიროთ კვლევითი აუთვისების დროჟმუ ხარისხს.",
+          "fr": "Si des experts indépendants produisent des données cohérentes, cela dissipera nos doutes ; soutenons donc l’évaluation externe pour juger la qualité scientifique."
+        }
+      ],
+      "cefr": "C2",
+      "version": 1
+    },
+    {
+      "id": "dialogues-c2-gen-002",
+      "title": "ფასის მკვეთრი გაზრდა ქირაობაში — მოლაპარაკება ქირავანთან",
+      "scene": "სახლში საფირმო ხარჯის მოულოდნელი უეცარი გაზრდა / Augmentation imprévue du loyer et négociation avec le bailleur",
+      "turns": [
+        {
+          "speaker": "Locataire",
+          "ka": "ბაჟის შეტყობინებამ თავბრუ დამახვია: მესაკუთრემ ერთმეორესთან მიმართებაში ფასის ორმაგი ზრდა მოითხოვა, და ეს პრაქტიკულად უსამართლოა, რადგან ხელშეკრულება ახლახანს განახლდა.",
+          "fr": "L’avis m’a surpris : le propriétaire exige une hausse conséquente, quasiment double, alors que le contrat a été renouvelé récemment ; c’est déraisonnable."
+        },
+        {
+          "speaker": "Propriétaire",
+          "ka": "განსაკუთრებულ ვითარებაში ბაზრის ზრდა შეიძლება გათვალისწინდეს; სხვაგვარად კომპრომისი როგორ უნდა ვიპოვოთ, როცა შენახვა და ინფრასტრუქტურა ძვირდება?",
+          "fr": "Dans des circonstances particulières, l’augmentation du marché peut être prise en compte ; sinon comment trouver un compromis alors que l’entretien et les infrastructures deviennent plus coûteux ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(პასუხი, რომელიც ზრდის შეწყვეტას ან შემდგარი კომპრომისის შეთავაზებას გულისხმობს)",
+          "fr": "(répondre en proposant une suspension de l’augmentation ou un compromis réaliste)",
+          "choices": [
+            {
+              "ka": "ვთანხმდები, რომ რესტრუქტურიზაცია და ინფრასტრუქტურა რეალურად ძვირდება, მაგრამ თბილად გთავაზობთ შუა გზას: ეტაპობრივად გაზრდა ექვს თვეზე და კონტრაქტში ცოცხალი ინდექსაციის მექანიზმის ჩადება.",
+              "fr": "Je reconnais que la maintenance augmente, mais je propose un compromis : une augmentation progressive sur six mois et l’introduction d’un mécanisme d’indexation contractuelle.",
+              "ok": true
+            },
+            {
+              "ka": "ეს ნაბიჯი აბსურდულია; თუ თანხას არ დათმობთ, ვაპროტესტებ სასამართლოში და აქედანვე მოსათხოვი სხვა ბინას.",
+              "fr": "Cette démarche est absurde ; si vous n’acceptez pas, je contesterai en justice et chercherai un autre logement immédiatement.",
+              "ok": false
+            },
+            {
+              "ka": "მეტიც, შეიძლება ფასის პოლიცია შევქმნათ, რომელიც განასახიერებს ბაზრის რეალობას და გაუქმდება დღეგრძელობაზე; ეს საუკეთესოა.",
+              "fr": "De plus, on peut créer une sorte d’«office des loyers» qui refléterait la réalité du marché et supplanterait les hausses arbitraires ; c’est la meilleure solution.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Propriétaire",
+          "ka": "შეგიძლია ასეთი ეტაპობრივი გადაწყვეტილება გამოგვადგეს; თუ წერილობით დადასტურდება ინდექსაცია და სარეზერვო თანხა, მზად ვარ განხილვა გავიწვიო.",
+          "fr": "Une solution progressive me convient ; si l’indexation et un fonds de réserve sont formalisés par écrit, je suis prêt à envisager la proposition."
+        }
+      ],
+      "cefr": "C2",
+      "version": 2
+    },
+    {
+      "id": "dialogues-c2-gen-003",
+      "title": "ლიტერატურული სალონი — სიმბოლიზმის ინტერპრეტაცია",
+      "scene": "ექსპერტები რომანის სიმბოლიკის მნიშვნელობაზე კამათობენ / Débat d’experts sur le symbolisme d’un roman contemporain",
+      "turns": [
+        {
+          "speaker": "Critique",
+          "ka": "რომანის მთელი მეორე ნაწილი თითქოს არდამთავრებული პატერნს ქმნის: ავთენტური ლანდშაფტი გადაიბნა მეტაფორებში, სადაც დრო და მეხსიერება ერთმანეთში ირევა.",
+          "fr": "La seconde partie du roman crée un motif inachevé : le paysage authentique se transforme en métaphores où le temps et la mémoire se confondent."
+        },
+        {
+          "speaker": "სპეკულანტი",
+          "ka": "მაგრამ მთავარი კითხვა რჩება — იდემა ეს ფორმა ცალსახად პირადი ტრაგედიის გამოსახვაა თუ პოლიტიკურ კრიტიკადაც უნდა დავაკვირდეთ; ავტორი მიზანმიმართულად იყენებს აბსტრაქციას, რათა მრავალი განზომილება ერთდროულად აჩვენოს.",
+          "fr": "Cependant la question capitale demeure : s’agit-il d’une représentation purement personnelle de la tragédie ou doit-on aussi la lire comme critique politique ? L’auteur use volontairement d’abstraction pour montrer plusieurs dimensions à la fois."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(მიაწოდეთ კომპრომისური ინტერპრეტაციით პასუხი, რომელიც იცავს ტექსტის პოლიფონიას)",
+          "fr": "(répondre par une interprétation nuancée qui défend la polyphonie du texte)",
+          "choices": [
+            {
+              "ka": "ვირჩევ ინტერპრეტაციის ჰიბრიდულ გზას: ტექსტი პარალელურად მოქმედებს როგორც პირადი მემკვიდრეობის კვლევა და როგორც კულტურული კრიტიკა — სიმბოლოები, მიუხედავად მათი ინტიმურობა, პოლიტიკურ კონტექსტსაც ფარავენ.",
+              "fr": "J’opte pour une voie interprétative hybride : le texte fonctionne à la fois comme étude de l’héritage personnel et comme critique culturelle — les symboles, bien que intimes, recouvrent aussi un contexte politique.",
+              "ok": true
+            },
+            {
+              "ka": "სრულიად ვეთანხმები პირადის პრივილეგიას; პუბლიკას უნდა ვეწეროთ მხოლოდ ავტორის ინტიმური ამბის კონტექსტში.",
+              "fr": "Je suis entièrement d’accord pour privilégier l’intime ; on doit lire l’œuvre seulement dans le cadre de l’histoire personnelle de l’auteur.",
+              "ok": false
+            },
+            {
+              "ka": "აქ ვერანაირი პოლიტიკა ვერ იკითხება: ავტორის სტილი აბსტრაქტულია და მხოლოდ ეს საკმარისია ტექსტის განმარტებისთვის.",
+              "fr": "Il n’y a aucune politique à lire ici : le style de l’auteur est abstrait et cela suffit pour interpréter le texte.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Critique",
+          "ka": "ეს ჰიბრიდული კითხვა კარგად ჩანს, რადგან ტექსტში არსებული ნიშნები მრავალრიცხოვანი ნიშნით ეხმიანება საზოგადოების ცვლილებებს.",
+          "fr": "Cette lecture hybride est pertinente : les signes du texte résonnent de manière plurielle avec les transformations de la société."
+        }
+      ],
+      "cefr": "C2",
+      "version": 3
+    },
+    {
+      "id": "dialogues-c2-gen-004",
+      "title": "სახელმწიფო დაფინანსების პრეზენტაცია ინვესტორს",
+      "scene": "სტარტაპმა სახელმწიფო გრანტისთვის უნდა დაარწმუნოს კომიტეტი — რისკების მართვა / Pitch à un comité pour obtenir un financement public",
+      "turns": [
+        {
+          "speaker": "Directeur",
+          "ka": "ჩვენი ინოვაციური პლატფორმა შეიძლება შეცვალოს სექტორი, მაგრამ ხმამაღლა უნდა ვისაუბროთ დასაცავი რისკებზე: ტექნიკური სხვადასხვა რისკი, ბაზრის ნეგატივური რეაქცია და რეგულაციური გარემო.",
+          "fr": "Notre plateforme innovante peut transformer le secteur, mais il faut évoquer sereinement les risques à couvrir : risques techniques, réaction négative du marché et cadre réglementaire."
+        },
+        {
+          "speaker": "Analyste",
+          "ka": "გარდა ამისა, ჩვენ უნდა გამოვყოფოთ კონკრეტული მკვეთრი მაჩვენებლები, ასევე კონტრ-სტრატეგიები, თუ პროდუქტი არასწორად მიიღეს; სტრატეგია გამჭვირვალე და ადაპტირებადი უნდა იყოს.",
+          "fr": "De plus, il nous faut mettre en avant des indicateurs précis et des stratégies de contingence au cas où le produit serait mal reçu ; la stratégie doit être transparente et adaptable."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(პასუხი ინვესტორს, რომელიც ამცირებს რისკს და ზუსტ ობლიგაციებს სთავაზობს)",
+          "fr": "(répondre à l’investisseur en proposant des mesures précises pour réduire le risque et des obligations claires)",
+          "choices": [
+            {
+              "ka": "გასაგებია რისკების მნიშვნელობა; ამიტომ გთავაზობთ სამმაგ სტრატეგიას: ტექნიკური რეზერვი, ფაზური გაშვება A/B ტესტირების ჩარჩოებში და მექანიზმი რეგულატორებთან დუალური კომუნიკაციისთვის — ეს მათცემს გარანტიებს.",
+              "fr": "Les risques sont clairs ; je propose donc une stratégie triple : réserve technique, déploiement par phases dans un cadre de tests A/B, et un mécanisme de communication bilatérale avec les régulateurs — cela apportera des garanties.",
+              "ok": true
+            },
+            {
+              "ka": "სავარაუდოდ, მხოლოდ მარკეტინგული კამპანია და ფასდაკლება დააჭერინებს მომხმარებელს; დანარჩენი დეტალები ლატენტურად ირკვევა.",
+              "fr": "Probablement seule une campagne marketing et des promotions convaincront les clients ; les autres détails se régleront de façon latente.",
+              "ok": false
+            },
+            {
+              "ka": "ჩვენი ერთპიროვნული მიდგომა — დაყრდნობა მხოლოდ პროტოტიპის სწრაფ ვერსიას — საუკეთესოა: სწრაფი ბაზრის შეძენა დუმილს უზრუნველყოფს.",
+              "fr": "Notre approche unilatérale — se reposer uniquement sur une version prototype rapide — est la meilleure : une conquête rapide du marché assurera le succès.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Investisseur",
+          "ka": "ამოვანი შემოთავაზება დარწმუნებულია; ფაზური მიწოდება და რეგულატორიასთან გამჭვირვალე კომუნიკაცია ნამდვილად მნიშვნელოვნად ამცირებს ფიზიკურ და სამართლებრივ რისკებს.",
+          "fr": "La proposition est convaincante ; livraison par phases et communication transparente avec le régulateur réduisent substantiellement les risques physiques et juridiques."
+        }
+      ],
+      "cefr": "C2",
+      "version": 4
+    },
+    {
+      "id": "dialogues-c2-gen-005",
+      "title": "დიპლომატიური მოლაპარაკება გარემოს დაცვის შეთანხმებაზე",
+      "scene": "ოროქსიანი შეთანხმების ტექსტზე ტექნიკური ნიუანსების გადაჭრა / Négociation diplomatique sur la formulation d’un traité environnemental",
+      "turns": [
+        {
+          "speaker": "Ambassadeur A",
+          "ka": "ჩვენ უნდა დავკონკრეტდეთ სიტყვათა არჩევაზე: ‚ხელმძღვანელობებისა‘ და ‚სავალდებულო ზომების‘ შორის განსხვავება სამართლებრივ შედეგს განაპირობებს.",
+          "fr": "Il nous faut préciser le choix des mots : la différence entre « orienter » et « mesures obligatoires » entraîne des conséquences juridiques."
+        },
+        {
+          "speaker": "Ambassadeur B",
+          "ka": "საბჭო მზადაა მოქნილი ფრაზირებისთვის, თუმცა ზოგი სახელმწიფო მოითხოვს აუცილებლად აღსრულებად მექანიზმებს; ძალაუფლების ფორმულირება მნიშვნელოვანი იქნება.",
+          "fr": "Le conseil est prêt à une formulation flexible, mais certains États exigent des mécanismes contraignants ; la formulation du pouvoir sera cruciale."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(დააფორმულეთ წინადადება, რომელიც ტაქტიკურად ტოვებს სივრცეს მოლაპარაკების შემდგომ დადგენილებისთვის და არ აკნინებს აღსრულების მნიშვნელობას)",
+          "fr": "(formuler une phrase qui tactiquement laisse de la marge pour les décisions ultérieures sans diminuer l’importance de la mise en œuvre)",
+          "choices": [
+            {
+              "ka": "სტატუს-კვოში არ უნდა შევიტანოთ ორმეტყველება, ამიტომ ვთავაზობთ ჩანაწერს: ‚პარტიები იგნორირების გარეშე შექმნიან განხორციელების მექანიზმებს მომდევნო საგანგებო ფაზაში‘, რაც ეჭვს ამცირებს და სივრცეს ტოვებს ტექნიკურ მოლაპარაკებებზე.",
+              "fr": "Pour éviter l’ambiguïté, proposons la clause : « les parties établiront, sans préjudice, des mécanismes de mise en œuvre en phase ultérieure » ; cela réduit l’incertitude tout en laissant de la marge pour des négociations techniques.",
+              "ok": true
+            },
+            {
+              "ka": "მართალია, უმჯობესია პირდაპირ დავწეროთ ‚ჯარიმები და სანქციები‘, რათა ყველაფერი მკვეთრად გაკონტროლდეს; ასეთი სიმკაცრე უზრუნველგებს დაცვას.",
+              "fr": "Il vaut mieux écrire directement « amendes et sanctions » afin de garantir un contrôle strict ; cette rigueur assurera la protection.",
+              "ok": false
+            },
+            {
+              "ka": "მარა არ უნდა შევიმჩნიოთ არაფერი კონკრეტული; ვტოვებთ ყველაფერს ‚შესაბამის არჩვევაზე‘ და მივიღებთ დროში მოქნილობას.",
+              "fr": "Mais il ne faut rien spécifier ; laissons tout à la « décision appropriée » et gagnerons en flexibilité temporelle.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Ambassadeur A",
+          "ka": "ეს ფორმულირება ტოლერანტულია და საკმარისად ძლიერი, რომ შემდეგ ეტაპზე დასრულდეს დეტალიზაცია; მხარს ვუჭერ.",
+          "fr": "Cette formulation est tolérante et suffisamment ferme pour permettre une détaillation ultérieure ; je la soutiens."
+        }
+      ],
+      "cefr": "C2",
+      "version": 5
+    },
+    {
+      "id": "dialogues-c2-gen-006",
+      "title": "მედუქომიტეტი — სიცოცხლისკვეთის ეთიკური გადაწყვეტილება",
+      "scene": "კლინიკური შემთხვევა, სადაც დისკუსია პაციენტის საუნივერსალურ უფლებაზეა / Comité d’éthique médicale sur une décision de fin de vie",
+      "turns": [
+        {
+          "speaker": "ნედლიკი ექიმი",
+          "ka": "პაციენტი კუჭის მძიმე მდგომარეობით არის, კონსენსუალურ მიცემაზე კითხვები არსებობს; ოჯახის წევრები განსხვავებულ პოზიციაზე იდგნენ და ჩვენგან მიითხოვეს მოხსნა ან გაგრძელება.",
+          "fr": "Le patient est en état critique ; des questions sur le consentement subsistent ; les proches sont divisés et nous sollicitent pour arrêter ou poursuivre les soins."
+        },
+        {
+          "speaker": "ნეიროქირურგი",
+          "ka": "კლინიკური მტკიცებულებები ამბობს, რომ საბოლოო პროგნოზი მეტად იშვიათად აძლევს გამოჯამრთელების შანსს; თანაც პოსტ-ოპერაციული ხარისხი თუნდაც სიცოცხლეზე მეტს განსაზღვრავს.",
+          "fr": "Les preuves cliniques indiquent que le pronostic offre très peu de chances de rétablissement ; de plus, la qualité de vie post-opératoire est souvent plus décisive que la survie seule."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(სერიოზული, ეთიკა-ჩართული კონსენსუსის წინადადება, რომელიც ასახავს პაციენტის ღირსებას და ოჯახური დამოკიდებულების მნიშვნელობას)",
+          "fr": "(proposer une proposition consensuelle sérieuse et éthique qui reflète la dignité du patient et l’importance de la famille)",
+          "choices": [
+            {
+              "ka": "პრობლემის რთულებას ვაღიარებთ; შესაბამისად ვთავაზობთ ორმაგ პროცესს: დამოუკიდებელი ეთიკური აუდიტი, რომლის რჩეულები მოიძებნებიან ობიექტური ექსპერტებიდან, და თანმდევი ოჯახის შეხვედრის სესია, რათა საბოლოო გადაწყვეტილება პაციენტის ღირსებისა და არჩეულის პრინციპების საფუძველზე მივიღოთ.",
+              "fr": "Nous reconnaissons la complexité du cas ; proposons donc un double processus : un audit éthique indépendant mené par des experts objectifs, et une session de médiation avec la famille, afin que la décision finale respecte la dignité du patient et ses principes choisis.",
+              "ok": true
+            },
+            {
+              "ka": "პაციენტის სიცოცხლე უპირველესია; ნებისმიერი მცდელობა შეჩერებისა დაუყოვნებლივ უნდა აიკრძალოს და რესურსები მაქსიმალურად უნდა გაითვალისწინოს.",
+              "fr": "La vie du patient est prioritaire ; toute tentative d’arrêt doit être proscrite et les ressources mobilisées au maximum.",
+              "ok": false
+            },
+            {
+              "ka": "ოჯახის აზრი არის ერთადერთი ნიშანი; თუ ოჯახი ითხოვს შეჩერებას, სამსახურმა დაუყოვნებლივ უნდა შეასრულოს.",
+              "fr": "L’avis de la famille est le seul critère ; si elle demande l’arrêt, l’établissement doit s’exécuter sans délai.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ნედლიკი ექიმი",
+          "ka": "ამ წინადადებას მხარს多数 სიამოვნებით დავუჭერთ; ეთიკური და საოჯახო კომბინაცია უკეთ მოემსახურება პაციენტის ინტერესს.",
+          "fr": "Nous accueillerions favorablement cette proposition ; la combinaison éthique et familiale servira mieux l’intérêt du patient."
+        }
+      ],
+      "cefr": "C2",
+      "version": 6
+    },
+    {
+      "id": "dialogues-c2-gen-007",
+      "title": "რეფერენტის წერილი — პროფესიული რეკომენდაცია",
+      "scene": "მედიკოსმა سابق თანამშრომელს სთხოვა პროფესიული რეფერენცია — როგორ დაწეროს დაბალანსებული წერილი / Demande de référence professionnelle équilibrée",
+      "turns": [
+        {
+          "speaker": "მოთხოვნა კეთილი კოლეგისგან",
+          "ka": "ჩვენმა HR–მა სთხოვა ზუსტი და გულწრფელი მიმოხილვა. თქვენი დამოუკიდებელი შეფასება აუცილებელია მათ დასკვნებისა და თანამდებობის აღრიცხვისათვის.",
+          "fr": "Les RH demandent une évaluation précise et sincère. Votre appréciation indépendante est nécessaire pour leur décision de recrutement."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(შეადგინეთ რამდენიმე შეთავაზება, ერთი დაბალანსებული დასკვნითი წინადადებით)",
+          "fr": "(rédiger plusieurs formulations, dont une phrase finale équilibrée en recommandation)",
+          "choices": [
+            {
+              "ka": "მე სრულად ვურჩევ კანდიდატს: მისი პროფესიული უნარები და ეთიკა ხანგრძლივი განმავლობაში დამტკიცებულია, თუმცა რეკომენდაციას ვაძლევ დამატებით ტრენინგს კონკრეტულ ტექნიკურ ფაზებზე, რათა სწრაფად ინტეგრირდეს ახალ სისტემებში.",
+              "fr": "Je recommande pleinement le candidat : ses compétences professionnelles et son éthique ont été éprouvées, toutefois je suggère une formation complémentaire sur certains aspects techniques pour une intégration rapide aux nouveaux systèmes.",
+              "ok": true
+            },
+            {
+              "ka": "კანდიდატს არ აქვს შესაფერისი გამოცდილება და, შესაბამისად, რეკომენდაცია ვერ გავცემ; ვფიქრობ, საჭირო იქნება სხვა კანდიდატის მოძიება.",
+              "fr": "Le candidat n’a pas l’expérience requise et je ne peux le recommander ; il faudrait envisager un autre profil.",
+              "ok": false
+            },
+            {
+              "ka": "კანდიდატი იყო საშუალო დონეზე; კარგი იქნება, თუ HR-ი ინდივიდუალურად მიხედავს მის განვითარებას და, თუ წარმატების ნიშნებია, შემდეგ მიირთვას უკეთ.",
+              "fr": "Le candidat était moyen ; il serait bon que les RH gèrent individuellement son développement et envisagent une promotion si des signes d’amélioration apparaissent.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "HR",
+          "ka": "ეს განზოგადება კმაყოფილებად მიმაჩნია; წერილი ხანგრძლივად დაბალანსებულია და სასარგებლო იქნება our selection process.",
+          "fr": "Ce résumé me convient ; la lettre est équilibrée et utile pour notre processus de sélection."
+        }
+      ],
+      "cefr": "C2",
+      "version": 7
+    },
+    {
+      "id": "dialogues-c2-gen-008",
+      "title": "პირადი პასუხი მეცნიერული_peer-review-ზე",
+      "scene": "ჟურნალმა გამგზავნა კრიტიკული მიმოხილვა — ავტორმა უნდა მოამზადოს თავაზიანი, კატეგორიული პასუხი რეფერატორის შენიშვნებზე / Réponse à une revue critique pour une revue académique",
+      "turns": [
+        {
+          "speaker": "რედაქტორი",
+          "ka": "რეფერატორებმა დაასახელეს როგორც მეთოდოლოგიური შეზღუდვები, ასევე თარგმანის ზოგადი ნაკლი; ავტორს აქვს საშუალება პასუხის გაცემისა და წარდგინების დასაბუთებისთვის.",
+          "fr": "Les reviewers ont signalé des limites méthodologiques et des lacunes rédactionnelles ; l’auteur a l’occasion de répondre et de justifier sa soumission."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(თანამშრომლობით, თავაზიანად უარყოს რაიმე მნიშვნელოვანი მოსაზრება და შესთავაზოს სანაცვლო ან დამატებითი მონაცემი)",
+          "fr": "(objecter poliment à certaines remarques importantes et proposer des données alternatives ou supplémentaires)",
+          "choices": [
+            {
+              "ka": "მადლიერი ვარ ამისა მოსაზრებისთვის; თუმცა მეთოდოლოგია, რომელიც ჩვენ განვმარტეთ დანართში, აჩვენებს, რომ განხორციელებული ნიმუში სრულად გაუმკლავდა საგნებს, და დამატებით მივუსადაგეთ ახალ ანალიზს, რომელიც წერილის ანგარიშშია მითითებული.",
+              "fr": "Je vous remercie pour cette remarque ; cependant la méthodologie détaillée en annexe montre que l’échantillon traité couvre bien les phénomènes, et nous avons ajouté une nouvelle analyse mentionnée dans le manuscrit.",
+              "ok": true
+            },
+            {
+              "ka": "თქვენი მოსაზრებები არ აქვს გარემონტებული; ჩვენ არ ვაპირებთ ცვლილებებს, რადგან იდეა უკვე საკმარისად ცხადია.",
+              "fr": "Vos remarques ne sont pas fondées ; nous n’envisageons pas de modifications car l’idée est déjà suffisamment claire.",
+              "ok": false
+            },
+            {
+              "ka": "სრულად ვეთანხმები და სრულად გავაკეთებ ცვლილებას ისე, როგორც რეკომენდებულია, მიუხედავად იმისა, რომ ეს ჩვენი ძირითად დამტკიცებას არ ემთხვევა.",
+              "fr": "Je suis entièrement d’accord et je ferai toutes les modifications recommandées, même si cela contredit notre argument principal.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "რედაქტორი",
+          "ka": "პასუხი კარგია — მაგალითით დასაბუთებული და კორექტული; გადავგზავნით რეფერენტს დამატებით კომენტარამდე.",
+          "fr": "La réponse est bonne — argumentée et correcte ; nous la transmettrons au reviewer pour commentaires complémentaires."
+        }
+      ],
+      "cefr": "C2",
+      "version": 8
+    },
+    {
+      "id": "dialogues-c2-gen-009",
+      "title": "საცავის ხელშეკრულების მოლაპარაკება არტისტულ ინსტიტუტთან",
+      "scene": "მუზეუმი ითხოვს ნიმუშის დროებით გამოქვეყნებას, ხოლო კურატორი ადასტურებს პირობებს / Négociation de prêt d’une œuvre pour une exposition",
+      "turns": [
+        {
+          "speaker": "კურატორი",
+          "ka": "ჩვენს მუზეუმს ტერიტორიული პირობები აქვს და ვიფიქრებდით ნიმუშის დროებით ხელშეკრულებაზე მხოლოდ ძალიან დელიკატური პირობების გათვალისწინებით — დაზღვევა, ტრანსპორტირება და კონსერვაციის მეთოდიკა.",
+          "fr": "Notre musée envisage un prêt temporaire uniquement sous des conditions très strictes : assurance, transport et protocole de conservation."
+        },
+        {
+          "speaker": "ქალაქის სამხატვრო მენეჯერი",
+          "ka": "ქონების იურიდიული სტატუსიც უნდა იყოს მკაფიო: ვინ იტვირთავს რისკს დაზიანების შემთხვევაში, და როგორ განისაზღვრება პასუხისმგებლობა გადაცემის მომენტიდან მთელს ექსპოზიციურ პერიოდში.",
+          "fr": "Le statut juridique de l’œuvre doit être clair : qui supporte le risque en cas de dommage et comment la responsabilité est définie du moment du transfert jusqu’à l’exposition."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(დაწერეთ ერთი_precise משפטი, რომელიც მკაფიოდ განსაზღვრავს პასუხისმგებლობის სტანდარტს და შეთავაზებას დაზღვევის შესახებ)",
+          "fr": "(formuler une phrase précise qui définit clairement la norme de responsabilité et la proposition d’assurance)",
+          "choices": [
+            {
+              "ka": "ჩვენ ვთვლით, რომ შეფასებული პასუხისმგებლობა უნდა იყოს ‚პოლუსის მთლიანი ღირებულების‘ დონეზე და მსესხებელი მხარე იღებს სრულ ტვირთს ტრანსპორტირებიდან კონსერვაციამდე, ხოლო მუზეუმი უზრუნველყოფს კონტროლისა და ინფრასტრუქტურის სტანდარტებს.",
+              "fr": "Nous estimons que la responsabilité doit correspondre à la « valeur totale assurée » et que l’emprunteur assume la charge totale du transport à la conservation, tandis que le musée garantit les standards de contrôle et d’infrastructure.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ მუზეუმს უნდა ჰქონდეს სრული პასუხისმგებლობა, რადგან ჩვენ შემთხვევაში სტანდარტები უფრო მაღალია; მსესხებელს არ შეიძლება დაწეროს რომელიმე ვალდებულება.",
+              "fr": "Seul le musée devrait assumer toute la responsabilité, car nos standards sont supérieurs ; l’emprunteur ne peut se voir imposer aucune obligation.",
+              "ok": false
+            },
+            {
+              "ka": "არავითარი დაზღვევა არ იქნება საჭირო, რადგან დეკლარაციული შეთანხმება საკმარისია და მხარეები ერთმანეთს ენდობიან.",
+              "fr": "Aucune assurance n’est nécessaire ; un accord déclaratif suffit car les parties se font confiance.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "კურატორი",
+          "ka": "ეს პირობები სწორი ჩანდა; ასეთი კლარიფიკაცია საშუალებას მოგვცემს კომერციულ და ექსპერტულ ფორმულირებებზე სწრაფად შეთანხმება მივაღწიოთ.",
+          "fr": "Ces conditions paraissent adéquates ; cette clarification nous permettra d’atteindre rapidement un accord sur les formulations commerciales et d’expertise."
+        }
+      ],
+      "cefr": "C2",
+      "version": 9
+    },
+    {
+      "id": "dialogues-c2-gen-010",
+      "title": "ისტორიული ინტერპრეტაცია საჯარო ლექციაზე",
+      "scene": "ლექტორი უნდა განამტკიცოს ან გარდაუვლად განახორციელოს საეჭვო ისტორიული დასკვნა — კარგი ტონი და საიმედოობა ხასიათდება / Discussion lors d’une conférence publique sur une interprétation historique controversée",
+      "turns": [
+        {
+          "speaker": "ლექტორი",
+          "ka": "ადრეული არქივი არ არის სრულყოფილად დაცული და მრავალი დოკუმენტი შეიცვალა; აქედან გამომდინარე, უნდა ვიფიქროთ, როგორ წარმოვადგინოთ დასკვნები ისე, რომ არ გადავაჭარბოთ მომარჯვებულ ფაქტებს.",
+          "fr": "Les archives anciennes ne sont pas complètement préservées et beaucoup de documents ont été altérés ; par conséquent, réfléchissons à la manière de présenter des conclusions sans exagérer les faits disponibles."
+        },
+        {
+          "speaker": "მოთხოვნილი დამსწრე",
+          "ka": "ხშირად ზოგადი ნარატივი ფორმირდება იმედგაცრუებისა მიხედვით, და ფაქტების გადამოწმება აუცილებელია, განსაკუთრებით იმ წყაროებთან მიმართებაში, რომლებმაც შეიძლება პოლიტიკურ მიზნებს დააკმაყოფილონ.",
+          "fr": "Souvent un récit général se construit sur des hypothèses et il est essentiel de vérifier les faits, surtout pour les sources susceptibles d’avoir servi des objectifs politiques."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "(გთხოვთ ჩამოაყალიბოთ ერთი წინადადება, რომელიც კრიტიკულად მიუთითებს ძიების გამჭვირვალე მეთოდებზე და თანაზომიერად აცნობიერებს ნიუანსებს)",
+          "fr": "(formuler une phrase critique qui évoque des méthodes de recherche transparentes et reconnaît les nuances avec modération)",
+          "choices": [
+            {
+              "ka": "ჩვენი მიდგომა იქნება ორიენტირებული მინიმალური პრეტენზიებით: დეტალური მეთოდოლოგიური განცხადება, ნახსენები არქივის წყაროების და ციფრებისთვის ნათელი კვალი და შესაძლო კონტრადოკუმენტების სახელი — ყველაფრის თანაფარდობის პარამეტრებში წარმოჩენა.",
+              "fr": "Notre approche sera à minima prudente : une déclaration méthodologique détaillée, une traçabilité claire des sources et des données d’archives citées et la mention d’éventuelles sources contradictoires — tout présenté dans des paramètres comparatifs.",
+              "ok": true
+            },
+            {
+              "ka": "საჭიროა ხმამაღალი, რადიკალური დასკვნა, რათა პუბლიკა დაინტერესდეს და კვლევა მალე მეტი დაფინანსება მოიპოვოს.",
+              "fr": "Il faut une conclusion forte et radicale pour attirer le public et obtenir rapidement plus de financements.",
+              "ok": false
+            },
+            {
+              "ka": "ყველაფერი ეპიკურ კონტექსტში უნდა მივიჩნიოთ და არ უნდა შევუსამთხვიოთ კონკრეტულ დოკუმენტებს; ისტორია უფრო დიდია, ვიდრე ნებისმიერი ფურცელი.",
+              "fr": "Considérons tout dans un contexte épique et ne concordons pas avec des documents spécifiques ; l’histoire est plus vaste que tout acte isolé.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ლექტორი",
+          "ka": "ეს მეთოდოლოგიური ნათქვამი შემიძლია საჯაროდ გამოვიტანო; მადლობა, ეს გამჭირვალობას და პასუხისმგებლობას ამ უახლესი კვლევის მიმართ უზრუნველყოფს.",
+          "fr": "Je pourrai publier cette formulation méthodologique ; merci, cela garantira la transparence et la responsabilité dans cette recherche récente."
+        }
+      ],
+      "cefr": "C2",
+      "version": 10
+    }
+  ]
+}

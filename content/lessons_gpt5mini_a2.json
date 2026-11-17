@@ -1,0 +1,415 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "lessons-a2-gen-001",
+      "title": "Salutations et présentations",
+      "tag": "communication",
+      "duration": 10,
+      "goal": "Savoir saluer, se présenter et poser des questions simples sur le nom et l'origine.",
+      "cefr": "A2",
+      "version": 1,
+      "items": [
+        {
+          "ka": "გამარჯობა, მე მქვია მარიამ.",
+          "fr": "Bonjour, je m'appelle Mariam.",
+          "translit": "gamarjoba, me mkvia Mariam.",
+          "pron": "gamardjoba, me mqvia Mariam."
+        },
+        {
+          "ka": "სად ცხოვრობთ?",
+          "fr": "Où habitez-vous ?",
+          "translit": "sad cqrovobt?",
+          "pron": "sad ts'rovobt?"
+        },
+        {
+          "ka": "მე ვცხოვრობ თბილისში.",
+          "fr": "J'habite à Tbilissi.",
+          "translit": "me vts'qrovob Tbilisshi.",
+          "pron": "me vstsk'rovob Tbilissi."
+        },
+        {
+          "ka": "ნამატყვი რა საქმეს აკეთებთ?",
+          "fr": "Que faites-vous comme travail ?",
+          "translit": "namatqvi ra sakmeS ak'etebt?",
+          "pron": "namatk'vi ra sakmes ak'etebt?"
+        },
+        {
+          "ka": "მე ვარ მოსწავლე/მასწავლებელი.",
+          "fr": "Je suis élève/enseignant(e).",
+          "translit": "me var mostavle/maswavleli.",
+          "pron": "me var mostavlé/maswavléli."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-002",
+      "title": "La famille",
+      "tag": "vocabulaire",
+      "duration": 12,
+      "goal": "Parler de sa famille : membres, relations et âge approximatif.",
+      "cefr": "A2",
+      "version": 2,
+      "items": [
+        {
+          "ka": "ეს არის ჩემი ოჯახი.",
+          "fr": "Voici ma famille.",
+          "translit": "es aris chemi ojaxi.",
+          "pron": "es aris chémi ojakhi."
+        },
+        {
+          "ka": "მე მყავს დედა, მამა და ორი და.",
+          "fr": "J'ai une mère, un père et deux sœurs.",
+          "translit": "me mqvs deda, mama da ori da.",
+          "pron": "me mk'vach déda, mama da ori da."
+        },
+        {
+          "ka": "ჩემი ძმა 20 წლისაა.",
+          "fr": "Mon frère a 20 ans.",
+          "translit": "chemi dzma 20 tslisaa.",
+          "pron": "chémi dzma vint tslisaa."
+        },
+        {
+          "ka": "ჩვენ ხშირად ვხვდებით ბელხასთან.",
+          "fr": "Nous rendons souvent visite à nos grands-parents.",
+          "translit": "chven shishvar vkhvdebt belkhasthan.",
+          "pron": "chven chishvar vk'hvdebt belk'hastan."
+        },
+        {
+          "ka": "ჩვენ ოჯახი ახლოს ცხოვრობს.",
+          "fr": "Notre famille habite près (de nous).",
+          "translit": "chven ojaxi akhlos tsqrovobs.",
+          "pron": "chven ojakhi akhlos ts'rovobs."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-003",
+      "title": "Se repérer en ville",
+      "tag": "communication",
+      "duration": 15,
+      "goal": "Demander et comprendre des indications simples (aller à, tourner, près/loin).",
+      "cefr": "A2",
+      "version": 3,
+      "items": [
+        {
+          "ka": "როგორ მივიდე სასტუმროს?",
+          "fr": "Comment puis-je aller à l'hôtel ?",
+          "translit": "rogor mivide sat'umros?",
+          "pron": "rogor mividé sast'umros?"
+        },
+        {
+          "ka": "გთხოვთ უხვიდეთ მარჯვნივ.",
+          "fr": "S'il vous plaît, tournez à droite.",
+          "translit": "gtxovt ukhvidet marjvniv.",
+          "pron": "gtkhovt ukhvidet marjvniv."
+        },
+        {
+          "ka": "სღვრის გადაკვეთა აკრძალულია.",
+          "fr": "Il est interdit de traverser la rue (ici).",
+          "translit": "sghris gadakveta akrdzalulia.",
+          "pron": "sghris gadakveta akrdzalulia."
+        },
+        {
+          "ka": "ბიბლიოთეკა ახლოსაა; ფეხით წასვლა სამ წუთშია.",
+          "fr": "La bibliothèque est proche; à trois minutes à pied.",
+          "translit": "biblioteka akhlosaa; p'ekhit ts'asvla sam t'sut'snia.",
+          "pron": "biblioteka akhlosaa; pekhit ts'asvla sam ts'ut'snia."
+        },
+        {
+          "ka": "რამდენია მანძილი მეტროთი?",
+          "fr": "Quelle est la distance en métro ?",
+          "translit": "ramdenia mandzili met'roti?",
+          "pron": "ramdenia mandzili met'roti?"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-004",
+      "title": "Commander au café",
+      "tag": "restauration",
+      "duration": 12,
+      "goal": "Commander boissons et plats simples, exprimer préférences et demander l'addition.",
+      "cefr": "A2",
+      "version": 4,
+      "items": [
+        {
+          "ka": "მინდა ერთი ყავა, გთხოვთ.",
+          "fr": "Je voudrais un café, s'il vous plaît.",
+          "translit": "minda ert'i qafa, gtxovt.",
+          "pron": "minda érti khava, gtkhovt."
+        },
+        {
+          "ka": "უნდა თუ არა შაქარი?",
+          "fr": "Voulez-vous du sucre ?",
+          "translit": "unda tu ara shaqari?",
+          "pron": "unda tu ara shakari?"
+        },
+        {
+          "ka": "მე ვმალავ ვეგეტარიანულ კერძს.",
+          "fr": "Je préfère un plat végétarien.",
+          "translit": "me vmalav vegetarianul kerdzhs.",
+          "pron": "me vmalav vegetarianoul kerdzhs."
+        },
+        {
+          "ka": "გათვლით თუ შეიძლება?",
+          "fr": "Pouvez-vous nous facturer ? / L'addition, s'il vous plaît.",
+          "translit": "gatvlet tu sheidzleba?",
+          "pron": "gatvlet tu sheidzleba?"
+        },
+        {
+          "ka": "რამდენია ეს ნამცხვარი?",
+          "fr": "Combien coûte ce gâteau ?",
+          "translit": "ramdenia es namckhvari?",
+          "pron": "ramdenia es namchkhvari?"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-005",
+      "title": "La routine quotidienne",
+      "tag": "grammaire",
+      "duration": 14,
+      "goal": "Parler des actions habituelles au présent et de la fréquence (toujours, souvent, parfois).",
+      "cefr": "A2",
+      "version": 5,
+      "items": [
+        {
+          "ka": "დილით მე ადრე ვიღვიძებ.",
+          "fr": "Le matin je me lève tôt.",
+          "translit": "dilit me arde vighvitzeb.",
+          "pron": "dilit me arde vighvitzéb."
+        },
+        {
+          "ka": "ხშირად ვსვავ ჩაის და საუზმობს.",
+          "fr": "Je bois souvent du thé et prends le petit-déjeuner.",
+          "translit": "khsirad vsvav chais da sauzmobS.",
+          "pron": "khshirad vsvav tchaïS da saouzmobs."
+        },
+        {
+          "ka": "მუშაში ვსულ ვმუხდები რვა საათზე.",
+          "fr": "Je vais généralement au travail à huit heures.",
+          "translit": "musashi vsul vmukhdeli rva saatze.",
+          "pron": "musashi vsoul vmukhdéli rva saatze."
+        },
+        {
+          "ka": "ხორციელად ვახერხებ სპორტს ყოველ საღამო.",
+          "fr": "Je fais du sport presque tous les soirs.",
+          "translit": "kharseulad vakherkheb sports qvel saghamo.",
+          "pron": "kharseulad vakhérkheb sports k'vél saghamo."
+        },
+        {
+          "ka": "შაბათ-კვირას ვისვენებ და მეგობრებს ვხვდები.",
+          "fr": "Le week-end je me repose et vois des amis.",
+          "translit": "shabat-kviras visveneb da megobrebs vkhvdebi.",
+          "pron": "shabat-kviras visvenéb da mégobrébs vk'hvdebi."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-006",
+      "title": "Loisirs et préférences",
+      "tag": "vocabulaire",
+      "duration": 10,
+      "goal": "Expliquer ses loisirs, demander et dire ses préférences.",
+      "cefr": "A2",
+      "version": 6,
+      "items": [
+        {
+          "ka": "ჩემი საყვარელი ჰობია კითხვა.",
+          "fr": "Mon passe-temps préféré est la lecture.",
+          "translit": "chemi sakyaveli hobia kitkhva.",
+          "pron": "chémi sakaïavéli hobia kitkhva."
+        },
+        {
+          "ka": "გიყვარს თუ არა მუსიკა?",
+          "fr": "Aimes-tu la musique ?",
+          "translit": "gqivars tu ara musika?",
+          "pron": "gqivars tu ara mousika?"
+        },
+        {
+          "ka": "მე ბევრს ვმღერი და ვხატავ.",
+          "fr": "Je chante beaucoup et je dessine.",
+          "translit": "me bevrs vmgheri da vkhatav.",
+          "pron": "me bevrs vmghéri da vkhatav."
+        },
+        {
+          "ka": "დღეს საღამოს გასეირნებაზე წავალთ?",
+          "fr": "On va se promener ce soir ?",
+          "translit": "dghes saghamovs gaseirnaze tsavalt?",
+          "pron": "dghes saghamovs gaseirnaze tsavalt?"
+        },
+        {
+          "ka": "მე მირჩევნია ბუნებაში ყოფნა.",
+          "fr": "Je préfère être dans la nature.",
+          "translit": "me mirchelia bunebashi qopna.",
+          "pron": "me mirchélia bounébashi k'opna."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-007",
+      "title": "Dates et horaires",
+      "tag": "grammaire",
+      "duration": 12,
+      "goal": "Donner la date, comprendre et dire l'heure et parler d'un rendez-vous prévu.",
+      "cefr": "A2",
+      "version": 7,
+      "items": [
+        {
+          "ka": "დღეს თარიღია ათი ოქტომბერი.",
+          "fr": "Nous sommes le 10 octobre.",
+          "translit": "dghes tarighia ati oktomberi.",
+          "pron": "dghes tarik'hia ati octobre."
+        },
+        {
+          "ka": "რამდენი საათია ახლა?",
+          "fr": "Quelle heure est-il maintenant ?",
+          "translit": "ramdeni saatia akhla?",
+          "pron": "ramdeni saatia akhla?"
+        },
+        {
+          "ka": "სამი საათი და მეთქი წრეა.",
+          "fr": "Il est trois heures et quart.",
+          "translit": "sami saati da metqvi ts'rea.",
+          "pron": "sami saat'i da metk'vi ts'rea."
+        },
+        {
+          "ka": "შეხვედრა ორისთვისა 16:00-ზეა.",
+          "fr": "La réunion est à 16h pour deux personnes.",
+          "translit": "shekhvedra oristvisa 16:00-zea.",
+          "pron": "shekhvédra oristvisa shvidatsia-zea."
+        },
+        {
+          "ka": "შარშან ივლისში მივლინებით ვიყავი.",
+          "fr": "L'année dernière, j'étais en voyage d'affaires en juillet.",
+          "translit": "sharshan ivlisshi mivlinetshi viyavi.",
+          "pron": "sharshan ivlissi mivlinetshi viyavi."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-008",
+      "title": "Faire des achats (vêtements)",
+      "tag": "achat",
+      "duration": 13,
+      "goal": "Demander une taille, essayer des vêtements et parler du prix et des couleurs.",
+      "cefr": "A2",
+      "version": 8,
+      "items": [
+        {
+          "ka": "ეს ჯინსი ჭერს მე ძალიან კარგად.",
+          "fr": "Ce jean me va très bien.",
+          "translit": "es jinsi chers me dzalian k'argad.",
+          "pron": "es djinsi chers me dzalian k'argad."
+        },
+        {
+          "ka": "გაქვს მეტი ზომა?",
+          "fr": "Avez-vous une taille plus grande ?",
+          "translit": "gakhvs meti zoma?",
+          "pron": "gakhvs méti zoma?"
+        },
+        {
+          "ka": "მსურს ეს ტანსაცმელი შავ-ლურჯი ფერის.",
+          "fr": "Je voudrais ce vêtement en noir-bleu.",
+          "translit": "msurs es tansatsmeli shav-lurji peris.",
+          "pron": "msours es tansatsmeli shav-lurji péris."
+        },
+        {
+          "ka": "რამდენ ღირს ეს გლუხი?",
+          "fr": "Combien coûte ce pull ?",
+          "translit": "ramden ghirs es glukhi?",
+          "pron": "ramden ghirs es gloukhi?"
+        },
+        {
+          "ka": "მაღაზიაში გაცვლება შეიძლბა შვიდი დღის განმავლობაში.",
+          "fr": "On peut échanger en magasin pendant sept jours.",
+          "translit": "magaziashi gatsvleba sheidzleba shvidi dgis ganmavlobashi.",
+          "pron": "magaziashi gatsvléba sheidzléba shvidi dgis ganmavlobashi."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-009",
+      "title": "Santé et pharmacie",
+      "tag": "santé",
+      "duration": 12,
+      "goal": "Expliquer des symptômes simples, demander des médicaments et comprendre conseils basiques.",
+      "cefr": "A2",
+      "version": 9,
+      "items": [
+        {
+          "ka": "მე მტკივა თავი და სიცხე მაქვს.",
+          "fr": "J'ai mal à la tête et de la fièvre.",
+          "translit": "me mt'kiva tavi da sitskhe maqvs.",
+          "pron": "me mt'kiva tavi da sitskhe maqvs."
+        },
+        {
+          "ka": "გთხოვთ, რამე საშველი რეკომენდაციაა?",
+          "fr": "S'il vous plaît, avez-vous une recommandation utile ?",
+          "translit": "gtxovt, rame sashveli rekomendaciaa?",
+          "pron": "gtkhovt, rame sashveli rekomendatsiaa?"
+        },
+        {
+          "ka": "ეს ტაბლეტი უცნაურად მოქმედებს შიმშილის დროს.",
+          "fr": "Ce comprimé agit légèrement pendant la faim. (usage: il faut prendre après repas)",
+          "translit": "es tablet'i untsnaurad moqmedebs shimshilis dros.",
+          "pron": "es tableti ountsnaurad mok'médebs shimshilis dros."
+        },
+        {
+          "ka": "რამდენი დრო უნდა დასვენება?",
+          "fr": "Combien de temps faut-il se reposer ?",
+          "translit": "ramdeni dro unda dasveneba?",
+          "pron": "ramdeni dro unda dasveneba?"
+        },
+        {
+          "ka": "თუ სიმპტომები გაგრძელდა, ექიმთან მისვლა უნდა.",
+          "fr": "Si les symptômes persistent, il faut consulter un médecin.",
+          "translit": "tu simptomebi gakvetileda, eqimtan misvla unda.",
+          "pron": "tu simptomébi gakvetilda, ek'imtan misvla unda."
+        }
+      ]
+    },
+    {
+      "id": "lessons-a2-gen-010",
+      "title": "Parler du passé récent",
+      "tag": "grammaire",
+      "duration": 15,
+      "goal": "Raconter des événements récents au passé simple/ composé courant, dire ce qu'on a fait hier.",
+      "cefr": "A2",
+      "version": 10,
+      "items": [
+        {
+          "ka": "გუშინ მე საკლასოში ვსწავლობდი ორ საათს.",
+          "fr": "Hier j'ai étudié deux heures en classe.",
+          "translit": "gushin me sak'lasoshi vstavleobdi or saats's.",
+          "pron": "gushin me sak'lasoshi vst'avléobdi or saat's."
+        },
+        {
+          "ka": "მე მოცეკვავე ვიყავი წვეულებაზე.",
+          "fr": "J'ai dansé à la fête.",
+          "translit": "me mots'ekvave viyavi ts'evulebaze.",
+          "pron": "me motsékvavé viyavi ts'evulébaze."
+        },
+        {
+          "ka": "ჩვენ ბაზარში ვიყიდეთ ახალი ხილი.",
+          "fr": "Nous avons acheté des fruits au marché.",
+          "translit": "chven bazarshi viukidet akhali khili.",
+          "pron": "chven bazarshi viukidet akhali khili."
+        },
+        {
+          "ka": "დაახურე, რომ ფილმი უკვე დასრულდა.",
+          "fr": "Ils ont dit que le film était déjà fini.",
+          "translit": "daakhure, rom filmi ukele dasrulebda.",
+          "pron": "daakhuré, rom filmi uk'éle dasrulebda."
+        },
+        {
+          "ka": "ამაში ბოლო კვირაში პირველად ვნახე.",
+          "fr": "Je l'ai vu(e) pour la première fois la semaine dernière.",
+          "translit": "amashi bolo kvirashi p'irveliT vanakhe.",
+          "pron": "amashi bolo kvirashi p'irvéliT vanakhe."
+        }
+      ]
+    }
+  ]
+}

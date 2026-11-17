@@ -1,0 +1,159 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "comprehension_order-b1-gen-001",
+      "title": "ახალი მეზობელი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 1,
+      "text": "გზაზე ახალ მეზობელს შევხვდი. ჩანთაში ხმაურით ტელეფონი დაეცა და აფორიაქდა. დაეხვეწა და ბოდიში მომიხადა. მერე მისი სახელის გაგება ვთხოვე და ვიცანი, რომ ადრე კოლეჯში ერთი კურსელი იყო. ბოლოს ერთად კაფეში ვისხედით და ძველი ამბებს ვიხსენებდით.",
+      "events": [
+        "L’auteur rencontre un nouveau voisin dans la rue.",
+        "Le téléphone du voisin tombe de son sac et il s’inquiète.",
+        "Le voisin s’excuse auprès de l’auteur.",
+        "L’auteur découvre qu’ils ont été camarades au collège.",
+        "Ils vont ensuite ensemble au café et évoquent des souvenirs."
+      ],
+      "explanation": "L’ordre suit la chronologie du récit : rencontre, incident (téléphone), réaction (excuses), révélation (camaraderie passée), puis action conclusive (aller au café)."
+    },
+    {
+      "id": "comprehension_order-b1-gen-002",
+      "title": "წვიმიანი პარასკევი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 2,
+      "text": "პარასკევის შუადღეზე ცა მოღრუბლდა. სახლში დარჩენა გადავწყვიტე, რადგან მუშაობა მქონდა. წვიმა ძლიერდებოდა და ვიტრინების მიღმა ქუჩა გზადაგზა ცვიოდა. საღამოს მე და ჩემი მეგობარი ფილმს ვუყურეთ და ცხელი ჩაი დავიწვიეთ. როცა წვიმა შეწყდა, მე ფანჯარასთან გავედი და მზე ჩანდა.",
+      "events": [
+        "Le ciel se couvre le vendredi après-midi.",
+        "Le narrateur décide de rester à la maison pour travailler.",
+        "La pluie s’intensifie et la rue devient mouillée.",
+        "Le narrateur et son ami regardent un film le soir et boivent du thé chaud.",
+        "Quand la pluie cesse, le narrateur sort à la fenêtre et voit le soleil."
+      ],
+      "explanation": "Présentation des événements temporellement: début de l’après-midi (nueages), décision, développement (pluie), soirée sociale, puis fin (ciel dégagé)."
+    },
+    {
+      "id": "comprehension_order-b1-gen-003",
+      "title": "სასწავლო პროექტი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 3,
+      "text": "პროექტისთვის ჯგუფი დავიკარით და თავიდან დავგეგმეთ სამუშაოები. შემდეგ თავი ყველას დავანაწილე და საჭირო მასალები ვიყიდეთ. ორ კვირაში შეხვედრა გვქონდა, სადაც ყოველი ნაწილს დააჯერა. ბოლო დღეს პრეზენტაცია ჩავწერეთ და მასწავლებელმა კარგი შეფასება დაგვიწერა.",
+      "events": [
+        "Le groupe se forme pour le projet et planifie les tâches au début.",
+        "Les tâches sont réparties et les matériaux nécessaires sont achetés.",
+        "Après deux semaines, ils tiennent une réunion où chacun présente sa partie.",
+        "Le dernier jour ils répètent la présentation.",
+        "Le professeur donne une bonne évaluation à la fin."
+      ],
+      "explanation": "L’ordre suit la progression normale d’un projet: formation et planification, exécution (répartition et achats), vérification intermédiaire, préparation finale et évaluation."
+    },
+    {
+      "id": "comprehension_order-b1-gen-004",
+      "title": "მყუდრო მოგზაურობა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 4,
+      "text": "გზაზე პარკში გავჩერდით და პატარა პიკნიკი მოვაწყეთ. პირველმა მეგობარმა საჭმელი გაამზადა, მეორემ კი მუსიკა ჩართო. შუადღისას ყველა ერთად თამაშობდა და სიცილით დრო გავატარე. შემდეგ მზის ჩასვლისთანავე უკან ავტომობილით დავბრუნდით.",
+      "events": [
+        "Ils s’arrêtent dans un parc et organisent un petit pique-nique.",
+        "Un ami prépare la nourriture et un autre met de la musique.",
+        "À midi, tout le monde joue ensemble et rit.",
+        "Au coucher du soleil, ils retournent en voiture."
+      ],
+      "explanation": "Les étapes suivent la séquence naturelle de la sortie: arrêt au parc, préparation du pique-nique, temps convivial au milieu de la journée, puis retour le soir."
+    },
+    {
+      "id": "comprehension_order-b1-gen-005",
+      "title": "ჩვეულებრივი დილა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 5,
+      "text": "დილით ადრე დავიწყე ფეხზე. წინ რიგითი ვარჯიში მქონდა, ამიტომ ყავის ღებამდე გავიღვიძე. სამსახურში ავტობუსით წავედი და გზაზე ორ შეხვედრას გავცდი. სამუშაო დღის ბოლოს კოლეგებთან ერთად ვახშამი გავკეთე და სახლში მშვიდად დავბრუნდი.",
+      "events": [
+        "Le narrateur se lève tôt le matin.",
+        "Il fait un exercice rapide avant de prendre son café.",
+        "Il prend le bus pour aller au travail et rate deux rendez-vous sur la route.",
+        "Après le travail, il dîne avec des collègues.",
+        "Il rentre chez lui calmement."
+      ],
+      "explanation": "Ordre quotidien: réveil, activité matinale, trajet et incident en chemin, dîner après le travail et retour à la maison."
+    },
+    {
+      "id": "comprehension_order-b1-gen-006",
+      "title": "ბიბლიოთეკის დღე",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 6,
+      "text": "სკოლაში ბიბლიოთეკის დღე იყო, ამიტომ ყველა წიგნებს დამზადებამ. პირველმა საათში ჩვენ დაითვალეს წიგნები და დაფაზე ჩამოვწერეთ. შუა დღეს ლექცია გაიმართა ადგილობრივ ავტორზე. ბოლოს ჩავწიეთ კითხვა და მეც ერთ პატარა სტატი დაიბეჭდა.",
+      "events": [
+        "C’était la journée de la bibliothèque à l’école et tout le monde a préparé des livres.",
+        "Dans la première heure, ils comptent les livres et inscrivent-les sur le tableau.",
+        "À midi, une conférence a lieu sur un auteur local.",
+        "Ils terminent par une session de lecture et une petite publication de l’élève."
+      ],
+      "explanation": "L’ordre suit la chronologie de la journée scolaire: préparation, activité matinale, conférence à midi, puis conclusion avec lecture et publication."
+    },
+    {
+      "id": "comprehension_order-b1-gen-007",
+      "title": "გარდა ბათუმისა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 7,
+      "text": "მე და ჩემი ოჯახი ბათუმს ვესტუმრეთ შაბათს. პირველად სანაპიროზე გავიარეთ და რაღაც ხილს ვიყიდეთ. შემდგომ ჩვენ მუზეუმში შევედით და ზოგჯერ ფოტოს გადავიღეთ. დღის ბოლოს ცურავამ გვინდა და ვახშამი ზღვისპირას მივირთვით.",
+      "events": [
+        "La famille visite Batoumi un samedi.",
+        "Ils se promènent d’abord sur la plage et achètent des fruits.",
+        "Ensuite ils entrent dans un musée et prennent des photos.",
+        "En fin de journée ils se baignent et dînent au bord de la mer."
+      ],
+      "explanation": "Chronologie d’une excursion: arrivée et promenade, visite culturelle, puis activités de fin de journée (baignade et dîner)."
+    },
+    {
+      "id": "comprehension_order-b1-gen-008",
+      "title": "ინტერვიუ",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 8,
+      "text": "დღეს სამსახურში ინტერვიუ მქონდა. დილით დავამზადდი და ყველა საჭირო დოკუმენტი ჩავაქციე ჩანთაში. მისამართზე ჩასულს რეგისტრაცია გავიარე, მერე ელოდება ოთახში მიმიწვიეს და კითხვებს მიუსვეს. შეხვედრის ბოლოს უფროსმა მომილოცა და მომინდა პასუხი დადებითი გამხდარიყო.",
+      "events": [
+        "Le narrateur se prépare le matin et met tous les documents nécessaires dans son sac.",
+        "Arrivé à l’adresse, il passe l’enregistrement.",
+        "Il est ensuite appelé dans une salle d’attente puis interrogé.",
+        "À la fin, le responsable le félicite et il espère une réponse positive."
+      ],
+      "explanation": "Suivi logique de l’entretien : préparation, arrivée et enregistrement, passage de l’entretien, puis conclusion et attente d’une réponse."
+    },
+    {
+      "id": "comprehension_order-b1-gen-009",
+      "title": "პეიზაჟის მატჩი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 9,
+      "text": "აქ პეიზაჟის კონკურსი ჩატარდა. მონაწილეები ადრე მოვიდნენ და საკუთარი ნახატები განალაგეს. ჟიური ყოველი ნახატის გარდა კონსულტაცია მოითხოვა. საღამოს პრიზები გასაჩივრდა და გამარჯვებულს პატარა მედალი მიენიჭა.",
+      "events": [
+        "Un concours de paysage a lieu et les participants arrivent tôt.",
+        "Ils installent leurs tableaux.",
+        "Le jury examine chaque tableau et demande des commentaires.",
+        "Le soir, les prix sont annoncés et le gagnant reçoit une médaille."
+      ],
+      "explanation": "Ordre naturel d’un concours: arrivée et installation, évaluation par le jury, puis remise des prix en soirée."
+    },
+    {
+      "id": "comprehension_order-b1-gen-010",
+      "title": "ჩვეულებრივი მეგობრები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 10,
+      "text": "შაბათს დილით მეგობრებთან შევხვდი. ერთად ყავაზე ვისხედით და განვიხილეთ გეგმები. შუადღეს ახლოს ახალი რესტორნის ნაცვლად წავედით და საკვები მოგვეწონა. შეხვედრის ბოლოს გზად საჩუქარი შევუძინე და სახლში სიხარულით დავბრუნდი.",
+      "events": [
+        "Le narrateur rencontre ses amis le samedi matin.",
+        "Ils prennent un café ensemble et discutent de leurs projets.",
+        "Vers midi ils vont dans un nouveau restaurant et apprécient la nourriture.",
+        "À la fin de la rencontre, le narrateur achète un cadeau en chemin et rentre chez lui heureux."
+      ],
+      "explanation": "Les événements suivent la progression de la journée: réunion matinale, discussion, déjeuner au restaurant, puis acte final (achat d’un cadeau) et retour."
+    }
+  ]
+}

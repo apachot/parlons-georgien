@@ -1,0 +1,126 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "dictation_sentences-b1-gen-001",
+      "cefr": "B1",
+      "version": 1,
+      "fr": "Hier, j'ai rencontré un ami que je n'avais pas vu depuis longtemps.",
+      "ka": "გუშინ შევხვდი მეგობარს, რომელსაც დიდი ხანია არ ვხედავდი.",
+      "answers": [
+        "გუშინ შევხვდი მეგობარს, რომელიც დიდი ხანია თავხედარ? no",
+        "გუშინ შევხვდი მეგობარს, რომელსაც დიდი ხანია არ ვხედავდი.",
+        "გუშინ შევხვდი მეგობარს რომელსაც დიდი ხანია არ ვხედავდი."
+      ],
+      "note": "La phrase indique une rencontre passée et une relative restrictive « რომლის? » correcte est « რომელსაც ». La virgule avant la proposition relative est facultative en géorgien."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-002",
+      "cefr": "B1",
+      "version": 2,
+      "fr": "Je pense que le métro est le moyen le plus rapide pour aller au centre-ville.",
+      "ka": "ვფიქრობ, რომ მეტრო არის ყველაზე სწრაფი საშუალება ცენტრალში მისასვლელად.",
+      "answers": [
+        "ვფიქრობ, რომ მეტრო არის ყველაზე სწრაფი საშუალება ცენტრალში მისასვლელად.",
+        "ვფიქრობ რომ მეტრო არის ყველაზე სწრაფი საშუალება ცენტრალში მისასვლელად."
+      ],
+      "note": "Expression d'une opinion (ვფიქრობ) + subordonnée à « que » (რომ). Virgule avant que est optionnelle."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-003",
+      "cefr": "B1",
+      "version": 3,
+      "fr": "Si j'avais su, je t'aurais aidé.",
+      "ka": "თუ მეცოდინებოდა, დაგეხმარებოდი.",
+      "answers": [
+        "თუ მეცოდინებოდა, დაგეხმარებოდი.",
+        "თუ მეცოდინებოდა დაგეხმარებოდი."
+      ],
+      "note": "Conditionnel passé exprimé par « თუ + imperfectif » suivi du conditionnel resultatif (« -ბოდი »). La virgule est facultative."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-004",
+      "cefr": "B1",
+      "version": 4,
+      "fr": "Le professeur a demandé aux étudiants de lire le texte et de préparer des questions.",
+      "ka": "მასწავლებელმა მოსწავლეებს მოსთხოვა ტექსტის კითხვა და კითხვების მომზადება.",
+      "answers": [
+        "მასწავლებელმა მოსწავლეებს მოსთხოვა ტექსტის კითხვა და კითხვების მომზადება.",
+        "მასწავლებელმა მოსწავლეებს სთხოვა ტექსტის კითხვა და კითხვების მომზადება."
+      ],
+      "note": "Deux verbes possibles pour « demander » sont acceptables (« მოსთხოვა » et « სთხოვა »). Structure infinitive nominalisée avec -ა/ვის."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-005",
+      "cefr": "B1",
+      "version": 5,
+      "fr": "Elle a dit qu'elle ne viendrait pas parce qu'elle était malade.",
+      "ka": "მან თქვა, რომ არ მოვიდოდა, რადგან ცუდად იყო.",
+      "answers": [
+        "მან თქვა, რომ არ მოვიდოდა, რადგან ცუდად იყო.",
+        "მან თქვა რომ არ მოვიდოდა, რადგან ცუდად იყო."
+      ],
+      "note": "Discours rapporté avec « თქვა, რომ ». La cause est introduite par « რადგან ». La virgule après « თქვა » est optionnelle."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-006",
+      "cefr": "B1",
+      "version": 6,
+      "fr": "Nous avons réservé une chambre avec balcon et vue sur la mer.",
+      "ka": "ჩვენ დავაჯავშნეთ ოთახი აივნით და ზღვის ხედით.",
+      "answers": [
+        "ჩვენ დავაჯავშნეთ ოთახი აივნით და ზღვის ხედით.",
+        "ჩვენ დავაჯავშნეთ ოთახი აივნით და ხედით ზღვაზე."
+      ],
+      "note": "Verbe « დავაჯავშნე » (nous avons réservé). Deux formulations pour « vue sur la mer » sont naturelles en géorgien."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-007",
+      "cefr": "B1",
+      "version": 7,
+      "fr": "Pour économiser de l'argent, il prend rarement un taxi; il préfère marcher.",
+      "ka": "ფულის დაზოგვისთვის ის იშვიათად იღებს ტაქსს; ფეხით სიარულს ამჯობინებს.",
+      "answers": [
+        "ფულის დაზოგვისთვის ის იშვიათად იღებს ტაქსს; ფეხით სიარულს ამჯობინებს.",
+        "ფულის დაზოგვისთვის ის იშვიათად იღებს ტაქსს. ფეხით სიარულს ამჯობინებს."
+      ],
+      "note": "But exprimé par « ფულის დაზოგვისთვის ». La deuxième proposition exprime la préférence avec « ამჯობინებს »."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-008",
+      "cefr": "B1",
+      "version": 8,
+      "fr": "Je ne sais pas si je pourrai venir demain, mais je te tiendrai au courant.",
+      "ka": "არ ვიცი შევძლებ თუ არა ხვალ მოსვლას, მაგრამ შეგატყობინებ.",
+      "answers": [
+        "არ ვიცი შევძლებ თუ არა ხვალ მოსვლას, მაგრამ შეგატყობინებ.",
+        "არ ვიცი შევძლებ თუ არა ხვალ მოვიდე, მაგრამ შენს შესახებ შეგატყობინებ."
+      ],
+      "note": "Expression d'incertitude avec « შევძლებ თუ არა ». Variante plus informelle possible (« მოვიდე ») et alternative pour « te tenir au courant »."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-009",
+      "cefr": "B1",
+      "version": 9,
+      "fr": "L'entreprise a annoncé une nouvelle politique qui concerne les horaires de travail.",
+      "ka": "კომპანიამ გამოაცხადა ახალი პოლიტიკა, რომელიც ეხება სამუშაო განრიგს.",
+      "answers": [
+        "კომპანიამ გამოაცხადა ახალი პოლიტიკა, რომელიც ეხება სამუშაო განრიგს.",
+        "კომპანიამ გამოაცხადა ახალი პოლიტიკა რომელიც ეხება სამუშაო განრიგს."
+      ],
+      "note": "Relatif « რომელიც » pour « qui concerne ». Virgule avant la subordonnée relative est facultative."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-010",
+      "cefr": "B1",
+      "version": 10,
+      "fr": "Quand il a expliqué les règles, plusieurs étudiants ont posé des questions pour être sûrs d'avoir compris.",
+      "ka": "როდესაც მან ახსნა წესები, რამდენიმე სტუდენტმა დაუსვა კითხვები, რათა დარწმუნებულიყვნენ, რომ სწორად გაეგოთ.",
+      "answers": [
+        "როდესაც მან ახსნა წესები, რამდენიმე სტუდენტმა დაუსვა კითხვები, რათა დარწმუნებულიყვნენ, რომ სწორად გაეგოთ.",
+        "როცა მან ახსნა წესები, რამდენიმე სტუდენტმა დაუსვა კითხვები რათა დარწმუნებულიყვნენ, რომ სწორად გაეგოთ."
+      ],
+      "note": "Phrase complexe avec subordonnée temporelle (როდესაც/როცა), objectif exprimé par « რათა » et finale en « რომ ... გაეგოთ ». Virgules autour des subordonnées sont optionnelles."
+    }
+  ]
+}

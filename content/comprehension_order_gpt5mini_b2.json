@@ -1,0 +1,165 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "comprehension_order-b2-gen-001",
+      "title": "დილის საკითხავი გზა",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 1,
+      "text": "დილით, when the sky was still gray, გოგონა სამსახურში წავიდა ფეხით. გზაზე ტროტუარზე კაფის ვარდი გაიყიდა; მან ერთი ფინჯანი ყავა შეიძინა და ტელეფონით მოკლე შეტყობა გაუგზავნა კოლეგას, რომ დაგვიანდებოდა. ოფისში მისულმა, იგი მოეხსნა ქურთუკს, კომპიუტერი ჩართო და შეხვედრას მოამზადა. შუადღისას შეხვედრა გაჭიანურდა, ამიტომ მას ნაჩქარევად მოუწია ლანჩის გაყოფა თანამშრომელთან ერთად. სამუშაო დღის ბოლოს, გავლისას, ის დაიხარა და გზაზე დაკარგული ქუდი იპოვა — ესეთი იყო მისი ჩვეულებრივი, დატვირთული სამუშაო დღე.",
+      "events": [
+        "Elle marche jusqu’au travail le matin.",
+        "Elle achète un café et avertit par message qu’elle va être en retard.",
+        "Arrivée au bureau, elle enlève son manteau, allume son ordinateur et prépare une réunion.",
+        "La réunion dure plus longtemps, elle partage un déjeuner rapide avec un collègue.",
+        "En rentrant, elle trouve un chapeau perdu sur le trottoir."
+      ],
+      "explanation": "L’ordre suit la chronologie du matin (trajet, achat, arrivée), puis la réunion à midi et la découverte en fin de journée."
+    },
+    {
+      "id": "comprehension_order-b2-gen-002",
+      "title": "სახლში რემონტი",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 2,
+      "text": "სახლში რემონტის დაწყებამდე ყველაფერი გეგმით იყო: ქმარმა ზაფხულის დასაწყისში მინდოდა კედლების ფერის შეცვლა. მათ გააშალა ძველი ავეჯი გოგონას ძველი ნივთებისთვის სათავსოდ, შემდეგ ისინი მაღაზიაში გამოიყენეს ახალი საღებავების შესარჩევად. ერთი კვირის შემდეგ, სარემონტო ჯგუფი მოვიდა და ცვლიან კედლებს და იატაკს. ბოლოს, ცივი მომენტის დროს, ოჯახმა ოთახი მოაწყვეს; საღამოზე სტუმრებმა მოსაწვევი მიიღეს და ახალი ინტერიერი აკმაყოფილებდათ ყველას.",
+      "events": [
+        "Le mari propose de repeindre les murs au début de l’été.",
+        "Ils dégagent les meubles et choisissent des peintures en magasin.",
+        "Une semaine plus tard, l’équipe de rénovation vient et change les murs et le sol.",
+        "La famille aménage la pièce.",
+        "Le soir, ils reçoivent des invités et le nouveau décor plaît à tous."
+      ],
+      "explanation": "L’ordre respecte la progression d’un projet maison : décision, préparation, travaux, aménagement, réception des invités."
+    },
+    {
+      "id": "comprehension_order-b2-gen-003",
+      "title": "წვეულების მზადება",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 3,
+      "text": "მარიამმა დაბადების დღე დაგეგმა ამ წლის ნოემბერში. მან უმიზეზოდ დაპატიჟა მეგობრები, შემდეგ შეიძინა დეკორაციები და ტორტი დიდ ბენზინზე. საღამოს მან სახლი დაამშვენა ლამაზად და მზად იდგა სტუმრების მისაღებად. სტუმრები მოვიდნენ, მარიამმა პატარა სიტყვით გააცნო ყველა და შემდეგ ყველა ერთად მოედანზე შეიჭრა ცეკვაზე. ღამით, როცა სტუმრები წავიდნენ, მარიამი მადლიერი იყო და ბოლომდე მოსწონდა დღის წვეულება.",
+      "events": [
+        "Mariam invite ses amis pour son anniversaire en novembre.",
+        "Elle achète des décorations et un gros gâteau.",
+        "Le soir, elle décore la maison et se prépare à accueillir.",
+        "Les invités arrivent, elle prononce un petit discours et tout le monde danse.",
+        "La fête se termine et Mariam est reconnaissante."
+      ],
+      "explanation": "Les événements suivent la chronologie d’une fête : invitations, achats, préparation, déroulement, clôture."
+    },
+    {
+      "id": "comprehension_order-b2-gen-004",
+      "title": "გზაზე დაკარგული ჩანთა",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 4,
+      "text": "დარწმუნებული იყო, რომ მოასწრებდა მატარებელს, მასმა ალექსანდრემ სწრაფად ჩააბიჯა ქუჩაში. მაგრამ გზაზე ქარში მისი ჩანთა იბოლდა. მან გააჩერა ადამიანი, რომელმაც ჩანთა იპოვა და უთხრა, რომ მასთვის მნიშვნელოვანი დოკუმენტები იყო შიგნით. ის დაუყოვნებლივ მატარებელთან მსუბუქად გავიდა, რათა ბანკში დაერეკა და ბარათები შესაცვლელად. შემდეგ, რამოდენიმე საათით შემდეგ, ალექსანდრემ დაბრუნდა სახლამდე, რათა ტელეფონით დაადასტუროს, რომ დოკუმენტები ამოღებული იყო ჩანთიდან და ყველაფერი რიგზე იყო.",
+      "events": [
+        "Alexandre marche vite pour attraper un train.",
+        "Le vent fait tomber son sac dans la rue.",
+        "Un passant retrouve le sac et l’arrête pour l’informer.",
+        "Alexandre se rend au train puis contacte sa banque pour suspendre des cartes.",
+        "Plus tard, il rentre chez lui et vérifie que les documents ont été récupérés."
+      ],
+      "explanation": "L’ordre suit l’incident : départ pressé, perte, récupération par un passant, actions immédiates (banque), puis vérification finale à la maison."
+    },
+    {
+      "id": "comprehension_order-b2-gen-005",
+      "title": "საუბარი ექიმთან",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 5,
+      "text": "როცა მარინა თავს ცუდად გრძნობდა რამდენიმე დღის განმავლობაში, მან გადაწყვიტა ექიმთან ჩასულიყო. პირველ რიგში, ექიმმა გამოკითხვა ჩაატარა და ისტორია დაწერა მისი სიმპტომების შესახებ. შემდეგ გაკეთდა ფიზიკური შემოწმება და მცირე ანალიზები. რამდენიმე დღეში ლაბორატორიის პასუხი დაბრუნდა, რის შემდეგაც ექიმმა მკურნალობის გეგმას ჩამოუყალიბა და მისცა მედიკამენტები. კვირის ბოლოს მარინა უკეთ თავს გრძნობდა და ექიმთან კონტროლო შეხვედრა გადაამოწმა შერჩეულ მკურნალობას.",
+      "events": [
+        "Marina décide d’aller consulter un médecin après plusieurs jours de malaise.",
+        "Le médecin interroge la patiente et prend l’historique des symptômes.",
+        "Il fait un examen physique et prescrit des analyses.",
+        "Les résultats reviennent quelques jours plus tard et le médecin établit un traitement.",
+        "Lors du contrôle en fin de semaine, Marina se sent mieux et le traitement est confirmé."
+      ],
+      "explanation": "Séquence médicale logique : consultation, examen, analyses, résultat et traitement, suivi."
+    },
+    {
+      "id": "comprehension_order-b2-gen-006",
+      "title": "სამზარეულოში კულინარიული გაკვეთილი",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 6,
+      "text": "ლუკას უნდა შეესწავლა იტალიური პასტის მომზადება და დარეკა სამზარეულოში ერთადერთი კეთილმოწყობილი სტუდიაში გაემგზავრა. პირველ და შემდეგ, მას ისწავლეს ინგრედიენტების მორთვა და ცომის მოზელვა. შემდეგ მას აჩვენეს სხვადასხვა სოუსების მომზადების მეთოდები და საბოლოოდ ყველამ ერთად დალპადა კერძი. გაკვეთილის ბოლოს, ლუკა ჩვეულებრივმა თბილი განმარტებით არწმუნებდა საკუთარი ნამუშევრის გემოვნებასა და ტექსტურაზე.",
+      "events": [
+        "Lucas s’inscrit et va dans un atelier de cuisine pour apprendre la pasta.",
+        "On lui apprend à préparer la pâte et à doser les ingrédients.",
+        "On lui montre comment préparer différentes sauces.",
+        "À la fin, ils cuisinent et goûtent ensemble.",
+        "Lucas commente la texture et le goût de son plat."
+      ],
+      "explanation": "Suit le déroulement d’un atelier : arrivée, apprentissage des bases, techniques avancées, cuisson et dégustation."
+    },
+    {
+      "id": "comprehension_order-b2-gen-007",
+      "title": "სიურპრიზი მეგობრისთვის",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 7,
+      "text": "თამარ decided to organise a surprise for her friend’s promotion. მან გადაამოწმა ყველა მეგობართან კონსულტაციით, რომ არ გაცნობოდა პატიოსნებაზე. მთელი კვირის განმავლობაში თამარმა შეკრიბა ნივთები, მზად გახადა საკვები და ლიფტზე წარწერა დაამზადა. უცებ, როცა მეგობარი მოვიდა ოფისში, კოლეგებმა ფორტუნათი გამოაცხადეს მასისთვის პატივი და წავიდნენ მანქანით წვეულებაზე. საღამოს, მეგობარმა ემოციურად მადლობა გადაუხადა და თქვა, რომ ეს იყო ყველაზე კარგი სიურპრიზი.",
+      "events": [
+        "Tamar organise une surprise pour la promotion d’une amie et coordonne les amis.",
+        "Elle prépare nourriture, décorations et une pancarte pendant une semaine.",
+        "Le jour J, les collègues surprennent la promue à son arrivée au bureau.",
+        "Ils partent en voiture à la fête.",
+        "Le soir, l’amie remercie émotionnellement pour la surprise."
+      ],
+      "explanation": "Ordre chronologique d’un événement préparé en secret : planification, préparation, exécution le jour même, transfert à la fête, remerciements."
+    },
+    {
+      "id": "comprehension_order-b2-gen-008",
+      "title": "გარემოს დაცვის აქცია",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 8,
+      "text": "უახლოეს კვირაში ქალაქში გამართეს გარემოს დაცვის აქცია. ორგანიზატორებმა რეკლამა გაავრცელეს სოციალურ ქსელებში და მოხალისეები შეიკრიბნენ. მათ მოაწყვეს მზადება პლაკატებით, ჩანთებით და ტრანსპორტით დასასწრებლად. ღონისძიების დღეს ბევრი ადამიანი მივიდა: ისინი ქუჩაში მოირგეს პლაკატები, ყვიროდნენ სლოგანებს და წავიდნენ მერიის შენობასთან შეხვედრაზე. საბოლოოდ, აზრები და მოთხოვნები ჩაიწერეს პროტოკოლში და ორგანიზატორებმა დაგეგმეს მომდევნო ნაბიჯი.",
+      "events": [
+        "Les organisateurs annoncent une manifestation pour l’environnement et mobilisent des bénévoles.",
+        "Les bénévoles préparent pancartes et matériel et organisent le transport.",
+        "Le jour de l’action, de nombreuses personnes se rassemblent et brandissent des pancartes.",
+        "Ils marchent jusqu’à la mairie pour demander des rendez‑vous.",
+        "Les revendications sont consignées et les organisateurs planifient la suite."
+      ],
+      "explanation": "Déroulement typique d’une mobilisation : annonce, préparation, rassemblement, action (marche), formalisation des demandes."
+    },
+    {
+      "id": "comprehension_order-b2-gen-009",
+      "title": "რეგულარული მატარებლის დაგვიანება",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 9,
+      "text": "დილით, როგორც ყოველთვის, მოქალაქეები მოემზადნენ მატარებლისთვის. თუმცა, პროცედურული სიგნალით მატარებელმა დააგვიანა ნახევარი საათით. პერსონალმა გაეცნო მგზავრებს სიტუაციას და უზრუნველყო დამატებითი ინფორმაცია. მგზავრებმა გადაწყვიტეს ხანგრძლივი ხანს ლოდინის ნაცვლად სასადილოში დარეკონ და ყავა მიეღოთ. ბოლოს მატარებელი მოვიდა, მგზავრები ჩასხდნენ და მიაღწიეს დანიშნულების ადგილს ერთი საათით დაგვიანებით.",
+      "events": [
+        "Les passagers se préparent normalement pour le train le matin.",
+        "Le train accumule un retard de trente minutes à cause d’un signal.",
+        "Le personnel informe les voyageurs et donne des renseignements.",
+        "Les passagers décident d’aller boire un café plutôt que d’attendre debout.",
+        "Le train arrive finalement et part avec une heure de retard sur l’horaire initial."
+      ],
+      "explanation": "Chronologie : préparation, survenue du retard, information, réactions des voyageurs, départ retardé."
+    },
+    {
+      "id": "comprehension_order-b2-gen-010",
+      "title": "სამსახურში გასაუბრება",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 10,
+      "text": "გიორგი მოემზადა სამსახურის გასაუბრებისთვის ადრე დილით. მან გადაამოწმა მის რეზიუმეს და სახლიდან დროზე გაეშურა. პირველმა, მისაღებში მან წარადგინა თავის გამოცდილება და პასუხები კითხვებზე. შემდეგ, მწვავე ტექნიკური დავალება მისცეს, რომელშიც მან წარმატებით დაასრულა სავარჯიშო. გასაუბრების ბოლოს, HR-მ უთხრა რომ რამდენიმე დღის განმავლობაში მიიღებდა პასუხს; გიორგიმ მადლობა გადაუხადა და სახლში მშვიდად დაბრუნდა.",
+      "events": [
+        "Giorgi révise son CV et part tôt de chez lui pour un entretien d’embauche.",
+        "Il se présente et expose son expérience et ses réponses aux questions.",
+        "On lui donne un exercice technique qu’il réussit.",
+        "À la fin, le service RH annonce qu’une réponse sera donnée sous quelques jours.",
+        "Giorgi remercie et rentre chez lui tranquillement."
+      ],
+      "explanation": "Ordre naturel d’un entretien : préparation, présentation, épreuve technique, conclusion par le RH et départ du candidat."
+    }
+  ]
+}

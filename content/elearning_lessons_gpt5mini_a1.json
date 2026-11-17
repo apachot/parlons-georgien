@@ -1,0 +1,1570 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "elearning_lessons-a1-gen-001",
+      "title": "Salutations et se présenter",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 1,
+      "tag": "communication",
+      "icon": "hand-wave",
+      "goal": "Savoir saluer, dire son prénom et demander comment va quelqu'un.",
+      "slides": [
+        {
+          "eyebrow": "Bases",
+          "title": "Saluer en géorgien",
+          "body": "Apprendre les salutations formelles et informelles.",
+          "examples": [
+            {
+              "ka": "გამარჯობა",
+              "fr": "Bonjour / Salut",
+              "note": "usage courant, neutre"
+            },
+            {
+              "ka": "გამარჯობათ",
+              "fr": "Bonjour (forme polie)",
+              "note": "pour plusieurs personnes ou politesse"
+            }
+          ],
+          "takeaway": "გამარჯობა est la salutation de base ; გამარჯობათ est formel."
+        },
+        {
+          "eyebrow": "Se présenter",
+          "title": "Dire son prénom",
+          "body": "Formule simple pour dire \"Je m'appelle ...\"",
+          "examples": [
+            {
+              "ka": "მე მქვია მარიამ.",
+              "fr": "Je m'appelle Mariam.",
+              "note": "მე მქვია + prénom"
+            },
+            {
+              "ka": "მქვია ალექსანდრე.",
+              "fr": "Je m'appelle Alexandre.",
+              "note": "forme sans მე est courante à l'oral"
+            }
+          ],
+          "takeaway": "Utilisez მე მქვია ou მქვია pour dire votre prénom."
+        },
+        {
+          "eyebrow": "Demander des nouvelles",
+          "title": "Comment ça va ?",
+          "body": "Formules pour demander et répondre comment quelqu'un va.",
+          "examples": [
+            {
+              "ka": "როგორ ხართ?",
+              "fr": "Comment allez-vous ?",
+              "note": "formel ou pluriel"
+            },
+            {
+              "ka": "როგორ ხარ?",
+              "fr": "Comment vas-tu ?",
+              "note": "informel"
+            },
+            {
+              "ka": "კარგად ვარ, გმადლობთ.",
+              "fr": "Je vais bien, merci.",
+              "note": "réponse positive"
+            }
+          ],
+          "takeaway": "როგორ ხართ? (formel) et როგორ ხარ? (informel) ; répondre par კარგი / ცუდი / კარგად ვარ."
+        },
+        {
+          "eyebrow": "Politesse",
+          "title": "Dire merci et au revoir",
+          "body": "Expressions courtes pour la politesse quotidienne.",
+          "examples": [
+            {
+              "ka": "გმადლობთ",
+              "fr": "Merci",
+              "note": "formel"
+            },
+            {
+              "ka": "მადლობა",
+              "fr": "Merci (informel)",
+              "note": "commun"
+            },
+            {
+              "ka": "ნახვამდის",
+              "fr": "Au revoir",
+              "note": "formel/informel"
+            }
+          ],
+          "takeaway": "Utilisez მადლობა ou გმადლობთ pour remercier ; ნახვამდის pour dire au revoir."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle phrase géorgienne signifie \"Je m'appelle Mariam\" ?",
+              "options": [
+                "გამარჯობა",
+                "მე მქვია მარიამ.",
+                "როგორ ხარ?",
+                "მადლობა"
+              ],
+              "answer": "მე მქვია მარიამ.",
+              "explanation": "მე მქვია + prénom sert à se présenter ; les autres options sont salutations ou remerciements."
+            },
+            {
+              "prompt": "Quelle phrase utiliser avec une personne âgée ou inconnue pour dire bonjour ?",
+              "options": [
+                "გამარჯობა",
+                "გამარჯობათ",
+                "ნახვამდის",
+                "მადლობა"
+              ],
+              "answer": "გამარჯობათ",
+              "explanation": "გამარჯობათ est la forme polie/formelle ; გამარჯობა est neutre/informel."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment répondrait-on \"Je vais bien, merci.\" en géorgien ?",
+              "options": [
+                "გმადლობთ",
+                "კარგად ვარ, გმადლობთ.",
+                "როგორ ხარ?",
+                "მე მქვია პავლე."
+              ],
+              "answer": "კარგად ვარ, გმადლოთ.",
+              "explanation": "La bonne réponse enseignée est 'კარგად ვარ, გმადლობთ.' (Je vais bien, merci). Attention à l'orthographe : გმადლობთ est la forme correcte pour 'merci' formelle."
+            },
+            {
+              "prompt": "Quelle phrase signifie « Au revoir » ?",
+              "options": [
+                "ნახვამდის",
+                "მქვია",
+                "როგორ ხართ?",
+                "გმადლობთ"
+              ],
+              "answer": "ნახვამდის",
+              "explanation": "ნახვამდის est l'expression enseignée pour 'au revoir'."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a1-gen-002",
+      "title": "Les nombres 1 à 10",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 2,
+      "tag": "vocabulaire",
+      "icon": "numbers",
+      "goal": "Reconnaître et prononcer les nombres de 1 à 10 et les utiliser pour compter des objets.",
+      "slides": [
+        {
+          "eyebrow": "Chiffres",
+          "title": "Les nombres 1–5",
+          "body": "Apprendre la prononciation et l'écriture des cinq premiers nombres.",
+          "examples": [
+            {
+              "ka": "ერთი",
+              "fr": "un",
+              "note": "erti"
+            },
+            {
+              "ka": "ორი",
+              "fr": "deux",
+              "note": "ori"
+            },
+            {
+              "ka": "სამი",
+              "fr": "trois",
+              "note": "sami"
+            },
+            {
+              "ka": "ოთხი",
+              "fr": "quatre",
+              "note": "otkhi"
+            },
+            {
+              "ka": "ხუთი",
+              "fr": "cinq",
+              "note": "khuti"
+            }
+          ],
+          "takeaway": "Mémoriser: ერთი, ორი, სამი, ოთხი, ხუთი."
+        },
+        {
+          "eyebrow": "Suite",
+          "title": "Les nombres 6–10",
+          "body": "Les nombres suivants pour compléter la base 1–10.",
+          "examples": [
+            {
+              "ka": "ექვსი",
+              "fr": "six",
+              "note": "ekvsi"
+            },
+            {
+              "ka": "შვიდი",
+              "fr": "sept",
+              "note": "shvidi"
+            },
+            {
+              "ka": "რვა",
+              "fr": "huit",
+              "note": "rva"
+            },
+            {
+              "ka": "ცხრა",
+              "fr": "neuf",
+              "note": "tskhra"
+            },
+            {
+              "ka": "ათი",
+              "fr": "dix",
+              "note": "ati"
+            }
+          ],
+          "takeaway": "Apprendre la suite: ექვსი, შვიდი, რვა, ცხრა, ათი."
+        },
+        {
+          "eyebrow": "Compter",
+          "title": "Compter des objets",
+          "body": "Exemples simples pour compter des objets et demander combien il y en a.",
+          "examples": [
+            {
+              "ka": "რამდენი წიგნია?",
+              "fr": "Combien y a-t-il de livres ?",
+              "note": "რამდენი = combien"
+            },
+            {
+              "ka": "ოჰ, სამი წიგნია.",
+              "fr": "Ah, il y a trois livres.",
+              "note": "réponse avec nombre"
+            },
+            {
+              "ka": "მე მაქვს ორი კალამი.",
+              "fr": "J'ai deux stylos.",
+              "note": "avoir + nombre"
+            }
+          ],
+          "takeaway": "რამდენი sert à demander 'combien' ; répondez avec le nombre appris."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Dictée et répétition",
+          "body": "Courte pratique orale : écouter et répéter les nombres puis compter des objets autour de vous.",
+          "examples": [
+            {
+              "ka": "ერთი, ორი, სამი...",
+              "fr": "Un, deux, trois...",
+              "note": "répéter à voix haute"
+            },
+            {
+              "ka": ".count: ოთხი საწოლი, ორი მაგიდა.",
+              "fr": "exemple: quatre lits, deux tables.",
+              "note": "compter objets du quotidien"
+            }
+          ],
+          "takeaway": "Répétez les nombres à voix haute et comptez des objets pour mémoriser."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel est le mot géorgien pour 'sept' ?",
+              "options": [
+                "ექვსი",
+                "შვიდი",
+                "რვა",
+                "ათი"
+              ],
+              "answer": "შვიდი",
+              "explanation": "შვიდი correspond à sept ; ექვსი = six, რვა = huit, ათი = dix."
+            },
+            {
+              "prompt": "Comment dit-on 'dix' en géorgien ?",
+              "options": [
+                "ათი",
+                "ერთი",
+                "ორითძი",
+                "ხუთი"
+              ],
+              "answer": "ათი",
+              "explanation": "ათი est le mot enseigné pour 'dix'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase demande 'Combien y a-t-il de livres ?' ?",
+              "options": [
+                "რამდენი წიგნია?",
+                "მე მაქვს ორი წიგნი.",
+                "წიგნი არის",
+                "ორი წიგნია."
+              ],
+              "answer": "რამდენი წიგნია?",
+              "explanation": "რამდენი = combien ; phrase correcte enseignée pour demander le nombre de livres."
+            },
+            {
+              "prompt": "Si vous voyez 3 stylos, quelle réponse correspond ?",
+              "options": [
+                "მე მაქვს სამი კალამი.",
+                "მე მაქვს ერთი კალამი.",
+                "მე მაქვს ხუთი კალამი.",
+                "მე მაქვს ათი კალამი."
+              ],
+              "answer": "მე მაქვს სამი კალამი.",
+              "explanation": "სამი = trois ; la phrase 'მე მაქვს სამი კალამი.' signifie 'J'ai trois stylos.'"
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a1-gen-003",
+      "title": "La famille et les possessifs",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 3,
+      "tag": "thème",
+      "icon": "family",
+      "goal": "Nommer les membres de la famille et dire à qui appartient quelqu'un avec 'ჩემო' et 'შენი'.",
+      "slides": [
+        {
+          "eyebrow": "Vocabulaire",
+          "title": "Membres de la famille",
+          "body": "Listes des mots de base pour la famille.",
+          "examples": [
+            {
+              "ka": "დედა",
+              "fr": "mère",
+              "note": "deda"
+            },
+            {
+              "ka": "მამა",
+              "fr": "père",
+              "note": "mama"
+            },
+            {
+              "ka": "ძმა",
+              "fr": "frère",
+              "note": "dzma"
+            },
+            {
+              "ka": "და",
+              "fr": "soeur",
+              "note": "da"
+            }
+          ],
+          "takeaway": "Mémorisez: დედა, მამა, ძმა, და."
+        },
+        {
+          "eyebrow": "Autres membres",
+          "title": "Grands-parents et enfants",
+          "body": "Complément de vocabulaire fréquent.",
+          "examples": [
+            {
+              "ka": "ბებია",
+              "fr": "grand-mère",
+              "note": "bebia"
+            },
+            {
+              "ka": "ბაბუა",
+              "fr": "grand-père",
+              "note": "babua"
+            },
+            {
+              "ka": "შვილი",
+              "fr": "enfant / fils / fille",
+              "note": "shvili (en contexte 'mon enfant')"
+            }
+          ],
+          "takeaway": "Connaître aussi ბებია et ბაბუა pour parler des grands-parents."
+        },
+        {
+          "eyebrow": "Possessifs",
+          "title": "Dire 'mon/ton' : ჩემი et შენი",
+          "body": "Formules simples pour dire à qui appartient une personne ou un objet.",
+          "examples": [
+            {
+              "ka": "ეს ჩემი დედაა.",
+              "fr": "C'est ma mère.",
+              "note": "ჩემი = mon/ma"
+            },
+            {
+              "ka": "ეს შენი დაა?",
+              "fr": "C'est ta sœur ?",
+              "note": "შენი = ton/ta"
+            },
+            {
+              "ka": "მეს ჩემია ბაბუა.",
+              "fr": "Mon grand-père (exemple incorrect à éviter)",
+              "note": "Attention à l'ordre : bonne forme = ეს ჩემი ბაბაა."
+            }
+          ],
+          "takeaway": "Utilisez 'ეს ჩემი ...' pour 'C'est mon/ma ...' et 'ეს შენი ...' pour 'C'est ton/ta ...'."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Présenter sa famille",
+          "body": "Exercices simples : dire qui est qui dans une photo ou une famille fictive.",
+          "examples": [
+            {
+              "ka": "ეს ჩემი მამაა. ეს ჩემი დედაა. ეს ჩემი დაა.",
+              "fr": "C'est mon père. C'est ma mère. C'est ma sœur.",
+              "note": "phrases modèles à répéter"
+            },
+            {
+              "ka": "რისკომ: ეს შენი ძმაა?",
+              "fr": "Exemple de question : C'est ton frère ?",
+              "note": "poser la question avec 'შენი'"
+            }
+          ],
+          "takeaway": "Pratiquez les combinaisons 'ეს ჩემი ...' et 'ეს შენი ...' avec les membres du vocabulaire."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot géorgien signifie 'grand-mère' ?",
+              "options": [
+                "ბებია",
+                "ბაბუა",
+                "შვილი",
+                "დედა"
+              ],
+              "answer": "ბებია",
+              "explanation": "ბებია = grand-mère ; ბაბუა = grand-père ; დედა = mère."
+            },
+            {
+              "prompt": "Que veut dire 'შვილი' ?",
+              "options": [
+                "père",
+                "enfant",
+                "soeur",
+                "frère"
+              ],
+              "answer": "enfant",
+              "explanation": "შვილი signifie 'enfant' (peut désigner fils ou fille selon le contexte)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase est correcte pour dire 'C'est ma mère.' ?",
+              "options": [
+                "ეს ჩემი დედაა.",
+                "ჩემი დედა არის მე.",
+                "მამა ჩემი არის.",
+                "ეს ჩემი დედა?"
+              ],
+              "answer": "ეს ჩემი დედაა.",
+              "explanation": "La forme enseignée et correcte est 'ეს ჩემი დედაა.'; les autres formes sont incorrectes ou interrogatives."
+            },
+            {
+              "prompt": "Comment demander 'C'est ton frère ?' en géorgien ?",
+              "options": [
+                "ეს შენი ძმაა?",
+                "შენი ძმა არის?",
+                "ეს ჩემი ძმაა?",
+                "შენ ძმაა?"
+              ],
+              "answer": "ეს შენი ძმაა?",
+              "explanation": "La question modèle apprise est 'ეს შენი ძმაა?'."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a1-gen-004",
+      "title": "Les jours de la semaine",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 4,
+      "tag": "calendrier",
+      "icon": "calendar",
+      "goal": "Connaître et utiliser les jours de la semaine en géorgien pour parler de la routine.",
+      "slides": [
+        {
+          "eyebrow": "Vocabulaire",
+          "title": "Les jours (1–4)",
+          "body": "Apprendre les quatre premiers jours de la semaine.",
+          "examples": [
+            {
+              "ka": "ორშაბათი",
+              "fr": "lundi",
+              "note": "orshabati"
+            },
+            {
+              "ka": "სამშაბათი",
+              "fr": "mardi",
+              "note": "samshabati"
+            },
+            {
+              "ka": "ოთხშაბათი",
+              "fr": "mercredi",
+              "note": "otkhshabati"
+            },
+            {
+              "ka": "ხუთშაბათი",
+              "fr": "jeudi",
+              "note": "khutshabati"
+            }
+          ],
+          "takeaway": "Mémoriser: ორშაბათი, სამშაბათი, ოთხშაბათი, ხუთშაბათი."
+        },
+        {
+          "eyebrow": "Suite",
+          "title": "Les jours (5–7)",
+          "body": "Compléter la semaine avec les trois derniers jours.",
+          "examples": [
+            {
+              "ka": "პარასკევი",
+              "fr": "vendredi",
+              "note": "paraskevi"
+            },
+            {
+              "ka": "შაბათი",
+              "fr": "samedi",
+              "note": "shabati"
+            },
+            {
+              "ka": "კვირა",
+              "fr": "dimanche",
+              "note": "kvira"
+            }
+          ],
+          "takeaway": "Connaître: პარასკევი, შაბათი, კვირა."
+        },
+        {
+          "eyebrow": "Parler de routine",
+          "title": "Dire quel jour on fait quelque chose",
+          "body": "Formules simples pour dire 'Je travaille lundi' ou 'Le cours est mardi'.",
+          "examples": [
+            {
+              "ka": "მე ვმუშაობ ორშაბათზე.",
+              "fr": "Je travaille le lundi.",
+              "note": "on ajoute -ზე pour indiquer 'le/à' (locale de temps)"
+            },
+            {
+              "ka": "კურსი არის სამშაბათს.",
+              "fr": "Le cours est mardi.",
+              "note": "alternative : სამშაბათს"
+            },
+            {
+              "ka": "ჩვენ ვნახავთ ერთმანეთს პარასკევს.",
+              "fr": "Nous nous verrons vendredi.",
+              "note": "paraskews = vendredi (locatif)"
+            }
+          ],
+          "takeaway": "Pour dire 'le lundi', on utilise souvent ორშაბათზე ou ორშაბათს selon le contexte."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Planifier la semaine",
+          "body": "Exercice : dire un plan simple en utilisant un jour de la semaine.",
+          "examples": [
+            {
+              "ka": "შაბათს მივდივარ ბაზარში.",
+              "fr": "Samedi je vais au marché.",
+              "note": "utilisez le locatif pour indiquer le jour"
+            },
+            {
+              "ka": "კვირას მაქვს თავისუფალი დღე.",
+              "fr": "Le dimanche j'ai un jour libre.",
+              "note": "ინფორმაცია sur la routine"
+            }
+          ],
+          "takeaway": "Pratiquez en disant ce que vous faites chaque jour en utilisant -ზე ou -ს."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel jour est 'პარასკევი' ?",
+              "options": [
+                "mercredi",
+                "vendredi",
+                "dimanche",
+                "lundi"
+              ],
+              "answer": "vendredi",
+              "explanation": "პარასკევი correspond à vendredi."
+            },
+            {
+              "prompt": "Comment dit-on 'samedi' en géorgien ?",
+              "options": [
+                "შაბათი",
+                "კვირა",
+                "ორშაბათი",
+                "ხუთშაბათი"
+              ],
+              "answer": "შაბათი",
+              "explanation": "შაბათი est le mot pour samedi."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase exprime 'Je travaille le lundi' ?",
+              "options": [
+                "მე ვმუშაობ ორშაბათზე.",
+                "მე ვმუშაობ შაბათს.",
+                "მე ვსეირნობ ორშაბათს.",
+                "მე ვმუშაობ კვირაში."
+              ],
+              "answer": "მე ვმუშაობ ორშაბათზე.",
+              "explanation": "La phrase enseignée pour 'Je travaille le lundi' est 'მე ვმუშაობ ორშაბათზე.'"
+            },
+            {
+              "prompt": "Si vous dites 'კვირას მაქვს თავისუფალი დღე.', quel jour est libre ?",
+              "options": [
+                "samedi",
+                "dimanche",
+                "jeudi",
+                "mardi"
+              ],
+              "answer": "dimanche",
+              "explanation": "კვირა = dimanche ; კვირას indique 'le dimanche'."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a1-gen-005",
+      "title": "Questions simples : 'Qu'est-ce que / Où / Qui'",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 5,
+      "tag": "grammaire",
+      "icon": "question",
+      "goal": "Savoir poser et répondre à des questions simples avec რა (quoi), სად (où) et ვინ (qui).",
+      "slides": [
+        {
+          "eyebrow": "Interrogatifs",
+          "title": "Les mots questionnels de base",
+          "body": "Apprendre trois mots interrogatifs essentiels.",
+          "examples": [
+            {
+              "ka": "რა",
+              "fr": "quoi / que",
+              "note": "ra"
+            },
+            {
+              "ka": "სად",
+              "fr": "où",
+              "note": "sad"
+            },
+            {
+              "ka": "ვინ",
+              "fr": "qui",
+              "note": "vin"
+            }
+          ],
+          "takeaway": " retenir : რა, სად, ვინ."
+        },
+        {
+          "eyebrow": "Questions et réponses",
+          "title": "Poser une question simple",
+          "body": "Exemples type et réponses courtes.",
+          "examples": [
+            {
+              "ka": "რა ეს არის?",
+              "fr": "Qu'est-ce que c'est ?",
+              "note": "réponse : ეს არის წიგნი."
+            },
+            {
+              "ka": "სად არის სკოლა?",
+              "fr": "Où est l'école ?",
+              "note": "réponse courte : სკოლა აქ არის / სკოლა ოდნავ მოშორებითაა."
+            },
+            {
+              "ka": "ვინ არის ის?",
+              "fr": "Qui est-ce ?",
+              "note": "réponse : ის मेरा მეგობარია."
+            }
+          ],
+          "takeaway": "Formez la question avec რა/სად/ვინ ; répondez par une phrase courte."
+        },
+        {
+          "eyebrow": "Exemples concrets",
+          "title": "Questions dans la vie quotidienne",
+          "body": "Dialogues simples pour pratiquer.",
+          "examples": [
+            {
+              "ka": "A: რა არის ეს? B: ეს არის ფურცელი.",
+              "fr": "A: Qu'est-ce que c'est ? B: C'est une feuille.",
+              "note": "эс არის + nom"
+            },
+            {
+              "ka": "A: სად არის სტაციონი? B: სტაციონი ქუჩის ბოლოსაა.",
+              "fr": "A: Où est la station ? B: La station est à la fin de la rue.",
+              "note": "réponse de localisation simple"
+            },
+            {
+              "ka": "A: ვინ არის თქვენს მოსწავლე? B: ის ჩემი მეგობარია.",
+              "fr": "A: Qui est votre élève ? B: C'est mon ami.",
+              "note": "réponse avec possessif"
+            }
+          ],
+          "takeaway": "Pratiquez ces questions courtes pour obtenir une information précise."
+        },
+        {
+          "eyebrow": "Exercice",
+          "title": "Répondre brièvement",
+          "body": "Donnez une réponse courte aux questions apprises (utilisez 'ეს არის ...' ou un lieu simple).",
+          "examples": [
+            {
+              "ka": "რა არის ეს? — ეს არის ტელეფონი.",
+              "fr": "Qu'est-ce que c'est ? — C'est un téléphone.",
+              "note": "modèle de réponse"
+            },
+            {
+              "ka": "სად არის წიგნები? — თაროაზე არიან.",
+              "fr": "Où sont les livres ? — Ils sont sur l'étagère.",
+              "note": "réponse de localisation"
+            }
+          ],
+          "takeaway": "Répondez par 'ეს არის ...' pour les objets et utilisez des mots de lieu simples pour répondre à სად."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot correspond à 'où' en géorgien ?",
+              "options": [
+                "რა",
+                "სად",
+                "ვინ",
+                "ეს"
+              ],
+              "answer": "სად",
+              "explanation": "სად signifie 'où' ; რა = quoi, ვინ = qui."
+            },
+            {
+              "prompt": "Quelle est la bonne réponse à 'რა არის ეს?' pour dire 'C'est un livre.' ?",
+              "options": [
+                "ეს არის წიგნი.",
+                "ეს ჩემი წიგნია.",
+                "სად არის წიგნი?",
+                "ვინ არის წიგნი?"
+              ],
+              "answer": "ეს არის წიგნი.",
+              "explanation": "La réponse modèle 'זה არის ...' en géorgien est 'ეს არის ...' ; donc 'ეს არის წიგნი.' signifie 'C'est un livre.'"
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment demander 'Qui est-ce ?' en géorgien ?",
+              "options": [
+                "რა არის ეს?",
+                "სად არის ეს?",
+                "ვინ არის ის?",
+                "ეს არის ვინ?"
+              ],
+              "answer": "ვინ არის ის?",
+              "explanation": "ვინ არის ის? correspond à 'Qui est-ce ?' tel qu'enseigné."
+            },
+            {
+              "prompt": "Quelle phrase est une réponse de lieu appropriée à 'სად არის სკოლა?' ?",
+              "options": [
+                "სკოლა აქ არის.",
+                "ვინ არის სკოლა?",
+                "რა არის სკოლა?",
+                "ეს არის სკოლა."
+              ],
+              "answer": "სკოლა აქ არის.",
+              "explanation": "'სკოლა აქ არის.' répond à la question de localisation 'Où est l'école ?' par 'L'école est ici.'"
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-a1-gen-006",
+      "version": 6,
+      "title": "Salutations et formules de base",
+      "level": "A1",
+      "tag": "salutations",
+      "icon": "hand-wave",
+      "goal": "Savoir dire bonjour, au revoir et remercier en géorgien, et répondre poliment.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Bonjour et au revoir",
+          "body": "Deux formules essentielles : saluer et prendre congé. On utilise des phrases courtes et fixes.",
+          "examples": [
+            {
+              "ka": "გამარჯობა",
+              "fr": "Bonjour",
+              "note": "Formel et courant pour saluer à tout âge"
+            },
+            {
+              "ka": "ნახვამდის",
+              "fr": "Au revoir",
+              "note": "Formule standard pour prendre congé"
+            }
+          ],
+          "takeaway": "Utilisez გამარჯობა pour dire bonjour et ნახვამდის pour dire au revoir."
+        },
+        {
+          "eyebrow": "Remerciements",
+          "title": "Dire merci et répondre",
+          "body": "Remercier et répondre sont importants pour la politesse.",
+          "examples": [
+            {
+              "ka": "მადლობა",
+              "fr": "Merci",
+              "note": "Expression la plus courante pour remercier"
+            },
+            {
+              "ka": "არ არის რა",
+              "fr": "De rien",
+              "note": "Réponse courante à un remerciement, ton familier"
+            }
+          ],
+          "takeaway": "Dites მადლობა puis attendez ანარ არის რა comme réponse."
+        },
+        {
+          "eyebrow": "Formules de politesse",
+          "title": "S'il vous plaît et excusez-moi",
+          "body": "Autres petites phrases utiles en interaction sociale.",
+          "examples": [
+            {
+              "ka": "გთხოვთ",
+              "fr": "S'il vous plaît / je vous en prie",
+              "note": "Peut servir pour demander quelque chose poliment"
+            },
+            {
+              "ka": "ბოდიში",
+              "fr": "Pardon / Désolé",
+              "note": "Pour s'excuser ou attirer l'attention"
+            }
+          ],
+          "takeaway": "Apprenez გთხოვთ pour demander poliment et ბოდიში pour s'excuser."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Conversations courtes",
+          "body": "Enchaîner salutations, remerciements et adieux dans un échange simple.",
+          "examples": [
+            {
+              "ka": "გამარჯობა! მადლობა.",
+              "fr": "Bonjour ! Merci.",
+              "note": "Salutation suivie d'un remerciement"
+            },
+            {
+              "ka": "გთხოვთ, ნახვამდის.",
+              "fr": "S'il vous plaît, au revoir.",
+              "note": "Formule polie + au revoir"
+            }
+          ],
+          "takeaway": "Combinez ces formules pour de courtes interactions polies."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Que signifie \"მადლობა\" ?",
+              "options": [
+                "Bonjour",
+                "Merci",
+                "Au revoir",
+                "Pardon"
+              ],
+              "answer": "Merci",
+              "explanation": "მადლობა se traduit par « merci » en français."
+            },
+            {
+              "prompt": "Quelle phrase utilisez-vous pour dire au revoir ?",
+              "options": [
+                "გამარჯობა",
+                "გთხოვთ",
+                "ნახვამდის",
+                "არ არის რა"
+              ],
+              "answer": "ნახვამდის",
+              "explanation": "ნახვამდის signifie « au revoir »."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment dit-on « s'il vous plaît » en géorgien ?",
+              "options": [
+                "ბოდიში",
+                "გთხოვთ",
+                "მადლობა",
+                "გამარჯობა"
+              ],
+              "answer": "გთხოვთ",
+              "explanation": "გთხოვთ est utilisé pour demander poliment, équivalent de « s'il vous plaît »."
+            },
+            {
+              "prompt": "Quelle réponse correspond le mieux à « De rien » ?",
+              "options": [
+                "არ არის რა",
+                "გამარჯობა",
+                "ნახვამდის",
+                "გთხოვთ"
+              ],
+              "answer": "არ არის რა",
+              "explanation": "არ არის რა est une réponse courante à un remerciement (« de rien »)."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "A1"
+    },
+    {
+      "id": "elearning_lessons-a1-gen-007",
+      "version": 7,
+      "title": "Âge, quantités et prix",
+      "level": "A1",
+      "tag": "nombres",
+      "icon": "numbers",
+      "goal": "Reconnaître, lire et prononcer les nombres géorgiens de 1 à 10 et les utiliser pour compter.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Nombres de base",
+          "body": "Apprenons les nombres cardinaux de 1 à 10, utiles pour l'âge, la quantité et le prix simple.",
+          "examples": [
+            {
+              "ka": "ერთი",
+              "fr": "Un",
+              "note": "1"
+            },
+            {
+              "ka": "ორი",
+              "fr": "Deux",
+              "note": "2"
+            },
+            {
+              "ka": "სამი",
+              "fr": "Trois",
+              "note": "3"
+            }
+          ],
+          "takeaway": "Mémorisez 1–3 puis ajoutez les autres progressivement."
+        },
+        {
+          "eyebrow": "Suite des nombres",
+          "title": "4 à 6",
+          "body": "Quatre à six suivent une prononciation régulière à pratiquer à voix haute.",
+          "examples": [
+            {
+              "ka": "ოთხი",
+              "fr": "Quatre",
+              "note": "4"
+            },
+            {
+              "ka": "ხუთი",
+              "fr": "Cinq",
+              "note": "5"
+            },
+            {
+              "ka": "ექვსი",
+              "fr": "Six",
+              "note": "6"
+            }
+          ],
+          "takeaway": "Répétez 4–6 oralement pour automatiser la prononciation."
+        },
+        {
+          "eyebrow": "Encore",
+          "title": "7 à 10",
+          "body": "Complétez la suite jusqu'à dix.",
+          "examples": [
+            {
+              "ka": "შვიდი",
+              "fr": "Sept",
+              "note": "7"
+            },
+            {
+              "ka": "რვა",
+              "fr": "Huit",
+              "note": "8"
+            },
+            {
+              "ka": "ცხრა",
+              "fr": "Neuf",
+              "note": "9"
+            },
+            {
+              "ka": "ათი",
+              "fr": "Dix",
+              "note": "10"
+            }
+          ],
+          "takeaway": "À 10, vous avez une base pour compter et demander des quantités simples."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Utiliser les nombres",
+          "body": "Compter des objets et poser des questions simples avec les nombres.",
+          "examples": [
+            {
+              "ka": "ყუთში სამი ფურცელია.",
+              "fr": "Il y a trois feuilles dans la boîte.",
+              "note": "Phrase simple avec un nombre"
+            },
+            {
+              "ka": "ეს ორი წიგნია?",
+              "fr": "Est-ce que ce sont deux livres ?",
+              "note": "Question avec un nombre"
+            }
+          ],
+          "takeaway": "Utilisez les nombres pour décrire quantité et vérifier."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel est le mot géorgien pour « cinq » ?",
+              "options": [
+                "ხუთი",
+                "ოთხი",
+                "ერთი",
+                "ათი"
+              ],
+              "answer": "ხუთი",
+              "explanation": "ხუთი signifie « cinq »."
+            },
+            {
+              "prompt": "Que signifie \"ორი\" ?",
+              "options": [
+                "Deux",
+                "Sept",
+                "Quatre",
+                "Neuf"
+              ],
+              "answer": "Deux",
+              "explanation": "ორი est le nombre « deux »."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment dit-on « dix » en géorgien ?",
+              "options": [
+                "ცხრა",
+                "ათი",
+                "შვიდი",
+                "სამი"
+              ],
+              "answer": "ათი",
+              "explanation": "ათი est le mot pour « dix »."
+            },
+            {
+              "prompt": "Quelle phrase contient le nombre 3 ?",
+              "options": [
+                "ყუთში სამი ფურცელია.",
+                "ეს ორი წიგნია?",
+                "ხუთი ადამიანია.",
+                "ეს ერთი კალამია."
+              ],
+              "answer": "ყუთში სამი ფურცელია.",
+              "explanation": "ყუთში სამი ფურცელია signifie « il y a trois feuilles dans la boîte » (nombre 3: სამი)."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "A1"
+    },
+    {
+      "id": "elearning_lessons-a1-gen-008",
+      "version": 8,
+      "title": "Les pronoms personnels et être (présent)",
+      "level": "A1",
+      "tag": "grammaire",
+      "icon": "user",
+      "goal": "Connaître les pronoms sujets et la manière simple de dire qui est qui en géorgien à l'aide du verbe être implicite.",
+      "slides": [
+        {
+          "eyebrow": "Pronoms",
+          "title": "Pronoms personnels sujets",
+          "body": "Apprenons les pronoms sujets courants en géorgien.",
+          "examples": [
+            {
+              "ka": "მე",
+              "fr": "Je",
+              "note": "1re personne singulier"
+            },
+            {
+              "ka": "შენ",
+              "fr": "Tu (familier)",
+              "note": "2e personne singulier informel"
+            },
+            {
+              "ka": "ის",
+              "fr": "Il / Elle",
+              "note": "3e personne singulier"
+            }
+          ],
+          "takeaway": "Repérez მე, შენ, ის avant le verbe ou nom."
+        },
+        {
+          "eyebrow": "Pronoms pluriels",
+          "title": "Nous, vous, ils/elles",
+          "body": "Complétez avec les pronoms pluriels usuels.",
+          "examples": [
+            {
+              "ka": "ჩვენ",
+              "fr": "Nous",
+              "note": "1re personne pluriel"
+            },
+            {
+              "ka": "თქვენ",
+              "fr": "Vous (formel/pluriel)",
+              "note": "2e personne pluriel ou formel"
+            },
+            {
+              "ka": "ისინი",
+              "fr": "Ils / Elles",
+              "note": "3e personne pluriel"
+            }
+          ],
+          "takeaway": "თქვენ sert aussi pour le vouvoiement."
+        },
+        {
+          "eyebrow": "Être en géorgien",
+          "title": "Présent : nom + sujet",
+          "body": "En géorgien, au présent, le verbe « être » est souvent omis : on dit sujet + nom. On peut ajouter ვარ/ხართ pour insister.",
+          "examples": [
+            {
+              "ka": "მე ქართველი ვარ.",
+              "fr": "Je suis Géorgien(ne).",
+              "note": "вариante avec ვარ"
+            },
+            {
+              "ka": "ის დამრიგებელია.",
+              "fr": "Il/Elle est professeur.",
+              "note": "Construction sujet + nom + terminaison"
+            }
+          ],
+          "takeaway": "Au présent, l'absence de verbe est normale ; on peut utiliser ვარ/ხართ pour insister."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Présenter quelqu'un",
+          "body": "Faites de courtes présentations avec le pronom + métier ou nationalité.",
+          "examples": [
+            {
+              "ka": "შენ ქართველი ხარ?",
+              "fr": "Es-tu Géorgien(ne) ?",
+              "note": "Question informelle"
+            },
+            {
+              "ka": "ჩვენ სტუდენტები ვართ.",
+              "fr": "Nous sommes étudiants.",
+              "note": "Forme plurielle avec გვართ? (note : ვართ utilisé)"
+            }
+          ],
+          "takeaway": "Combinez pronoms et noms pour dire qui est qui."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel pronom correspond à « nous » ?",
+              "options": [
+                "თქვენ",
+                "ჩვენ",
+                "ისინი",
+                "მე"
+              ],
+              "answer": "ჩვენ",
+              "explanation": "ჩვენ est le pronom pour « nous »."
+            },
+            {
+              "prompt": "Que signifie \"ისინი\" ?",
+              "options": [
+                "Tu",
+                "Je",
+                "Ils / Elles",
+                "Il / Elle"
+              ],
+              "answer": "Ils / Elles",
+              "explanation": "ისინი est le pronom pluriel « ils/elles »."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase montre la présence explicite du verbe « être » au présent ?",
+              "options": [
+                "მე ქართველი ვარ.",
+                "შენ ქართველი?",
+                "ის სტუდენტი.",
+                "ჩვენ მიყვარს."
+              ],
+              "answer": "მე ქართველი ვარ.",
+              "explanation": "მე ქართველი ვარ inclutvars (ვარ) pour « je suis » ; l'autre omission n'est pas explicite."
+            },
+            {
+              "prompt": "Comment demander à une personne informellement si elle est géorgienne ?",
+              "options": [
+                "შენ ქართველი ხარ?",
+                "შენ ქართველი ვარ?",
+                "თქვენ ქართველი ხართ?",
+                "ის ქართველი?"
+              ],
+              "answer": "შენ ქართველი ხარ?",
+              "explanation": "შენ ქართველი ხარ? est la question informelle « es-tu Géorgien(ne) ? »"
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "A1"
+    },
+    {
+      "id": "elearning_lessons-a1-gen-009",
+      "version": 9,
+      "title": "Les couleurs et description simple",
+      "level": "A1",
+      "tag": "vocabulaire",
+      "icon": "palette",
+      "goal": "Reconnaître et utiliser les couleurs de base pour décrire des objets simples.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Couleurs communes",
+          "body": "Apprenons quelques couleurs fréquentes pour parler des objets.",
+          "examples": [
+            {
+              "ka": "წითელი",
+              "fr": "Rouge",
+              "note": "Couleur vive"
+            },
+            {
+              "ka": "ლურჯი",
+              "fr": "Bleu",
+              "note": "Couleur fréquente"
+            },
+            {
+              "ka": "ყვითელი",
+              "fr": "Jaune",
+              "note": "Couleur lumineuse"
+            }
+          ],
+          "takeaway": "Mémorisez 3 couleurs de base puis ajoutez les suivantes."
+        },
+        {
+          "eyebrow": "Autres couleurs",
+          "title": "Noir, blanc, vert",
+          "body": "Complétez votre palette avec ces couleurs très utilisées.",
+          "examples": [
+            {
+              "ka": "თეთრი",
+              "fr": "Blanc",
+              "note": "Couleur neutre"
+            },
+            {
+              "ka": "შავი",
+              "fr": "Noir",
+              "note": "Couleur foncée"
+            },
+            {
+              "ka": "მწვანე",
+              "fr": "Vert",
+              "note": "Couleur de la nature"
+            }
+          ],
+          "takeaway": "Utilisez ces mots pour décrire vêtements et objets."
+        },
+        {
+          "eyebrow": "Accords",
+          "title": "Couleur + nom",
+          "body": "En géorgien, la couleur précède le nom. On peut dire \"couleur + nom\" sans accord de genre.",
+          "examples": [
+            {
+              "ka": "წითელი წიგნი",
+              "fr": "Le livre rouge",
+              "note": "Couleur + nom"
+            },
+            {
+              "ka": "თეთრი მაისური",
+              "fr": "La chemise blanche",
+              "note": "Pas d'accord en genre comme en français"
+            }
+          ],
+          "takeaway": "Placez la couleur avant le nom pour décrire un objet."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Questions et réponses",
+          "body": "Poser et répondre à des questions sur la couleur d'un objet.",
+          "examples": [
+            {
+              "ka": "რა ფერისაა ფანქარი?",
+              "fr": "De quelle couleur est le crayon ?",
+              "note": "Question sur la couleur"
+            },
+            {
+              "ka": "ფანქარი ლურჯია.",
+              "fr": "Le crayon est bleu.",
+              "note": "Réponse simple"
+            }
+          ],
+          "takeaway": "Utilisez 'რა ფერისაა...?' pour demander la couleur."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot géorgien signifie « blanc » ?",
+              "options": [
+                "შავი",
+                "თეთრი",
+                "წითელი",
+                "მწვანე"
+              ],
+              "answer": "თეთრი",
+              "explanation": "თეთრი signifie « blanc »."
+            },
+            {
+              "prompt": "Comment dit-on « vert » en géorgien ?",
+              "options": [
+                "ლურჯი",
+                "ყვითელი",
+                "მწვანე",
+                "თეთრი"
+              ],
+              "answer": "მწვანე",
+              "explanation": "მწვანე est le mot pour « vert »."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase correspond à « Le crayon est bleu » ?",
+              "options": [
+                "ფანქარი წითელია.",
+                "ფანქარი ლურჯია.",
+                "ფანქარი შავია.",
+                "ფანქარი თეთრია."
+              ],
+              "answer": "ფანქარი ლურჯია.",
+              "explanation": "ფანქარი ლურჯია signifie « Le crayon est bleu » (ლურჯი = bleu)."
+            },
+            {
+              "prompt": "Comment demander la couleur d'un objet ?",
+              "options": [
+                "რა ფერისაა ...?",
+                "საიდან არის ...?",
+                "რამდენი არის ...?",
+                "როგორ არის ...?"
+              ],
+              "answer": "რა ფერისაა ...?",
+              "explanation": "რა ფერისაა ...? signifie « De quelle couleur est ...? »"
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "A1"
+    },
+    {
+      "id": "elearning_lessons-a1-gen-010",
+      "version": 10,
+      "title": "Poser des questions simples (qui, quoi, où)",
+      "level": "A1",
+      "tag": "questions",
+      "icon": "question",
+      "goal": "Savoir poser et comprendre des questions simples avec qui, quoi et où en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Mots interrogatifs essentiels",
+          "body": "Apprenons trois mots interrogatifs fréquents : ვინ (qui), რა (quoi), სად (où).",
+          "examples": [
+            {
+              "ka": "ვინ",
+              "fr": "Qui",
+              "note": "Demande une personne"
+            },
+            {
+              "ka": "რა",
+              "fr": "Quoi / Que",
+              "note": "Demande une chose ou une action"
+            },
+            {
+              "ka": "სად",
+              "fr": "Où",
+              "note": "Demande un lieu"
+            }
+          ],
+          "takeaway": "Mémorisez ვინ, რა, სად pour commencer à poser des questions."
+        },
+        {
+          "eyebrow": "Structures simples",
+          "title": "Formuler une question",
+          "body": "Placez le mot interrogatif au début, puis le reste de la phrase. L'intonation monte à la fin.",
+          "examples": [
+            {
+              "ka": "ვინ არის ის?",
+              "fr": "Qui est-ce ?",
+              "note": "Question sur une personne"
+            },
+            {
+              "ka": "რა არის ეს?",
+              "fr": "Qu'est-ce que c'est ?",
+              "note": "Question sur une chose"
+            },
+            {
+              "ka": "სად არის სკოლა?",
+              "fr": "Où est l'école ?",
+              "note": "Question sur un lieu"
+            }
+          ],
+          "takeaway": "Mettez le mot-question au début et montez la voix pour former une question."
+        },
+        {
+          "eyebrow": "Réponses courtes",
+          "title": "Répondre brièvement",
+          "body": "Répondre par un nom, un pronom ou une courte phrase. Utilisez 'აქ' = ici, 'იქ' = là-bas.",
+          "examples": [
+            {
+              "ka": "სკოლა აქაა.",
+              "fr": "L'école est ici.",
+              "note": "Réponse lieu"
+            },
+            {
+              "ka": "ეს რვეულია.",
+              "fr": "C'est un cahier.",
+              "note": "Réponse chose"
+            },
+            {
+              "ka": "ვინ? — მე.",
+              "fr": "Qui ? — Moi.",
+              "note": "Réponse pronominale courte"
+            }
+          ],
+          "takeaway": "Utilisez réponses courtes pour communiquer rapidement."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Questions et réponses courtes",
+          "body": "Entraînez-vous à poser et répondre avec les mots appris.",
+          "examples": [
+            {
+              "ka": "რა არის ეს? — ეს ბიუსტია.",
+              "fr": "Qu'est-ce que c'est ? — C'est une montre.",
+              "note": "Exemple d'échange"
+            },
+            {
+              "ka": "სად არის სამზარეულო? — იქ.",
+              "fr": "Où est la cuisine ? — Là-bas.",
+              "note": "Réponse locale simple"
+            }
+          ],
+          "takeaway": "Pratiquez ces courtes interactions pour être compris rapidement."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot utilise-t-on pour demander « où » ?",
+              "options": [
+                "რა",
+                "ვინ",
+                "სად",
+                "აქ"
+              ],
+              "answer": "სად",
+              "explanation": "სად est le mot interrogatif pour « où »."
+            },
+            {
+              "prompt": "Comment commence-t-on la question « Qui est-ce ? » ?",
+              "options": [
+                "რა არის ის?",
+                "ვინ არის ის?",
+                "სად არის ის?",
+                "ის ვინ არის?"
+              ],
+              "answer": "ვინ არის ის?",
+              "explanation": "ვინ არის ის? signifie « Qui est-ce ? » (ვინ = qui)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle est une réponse courte correcte à « ვინ? » (Qui ?) ?",
+              "options": [
+                "აქ",
+                "მე",
+                "ბუზი",
+                "სკოლა"
+              ],
+              "answer": "მე",
+              "explanation": "მე signifie « moi », réponse courte appropriée à une question « Qui ? »"
+            },
+            {
+              "prompt": "Que signifie \"აქ\" ?",
+              "options": [
+                "Là-bas",
+                "Ici",
+                "Pourquoi",
+                "Quoi"
+              ],
+              "answer": "Ici",
+              "explanation": "აქ veut dire « ici » en géorgien."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "A1"
+    }
+  ]
+}

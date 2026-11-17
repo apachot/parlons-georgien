@@ -1,0 +1,668 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "dialogues-a1-gen-001",
+      "title": "Salutation simple",
+      "scene": "Se saluer dans la rue",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა!",
+          "fr": "Bonjour !"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds)",
+          "choices": [
+            {
+              "ka": "დილა მშვიდობისა",
+              "fr": "Bon matin",
+              "ok": false
+            },
+            {
+              "ka": "გამარჯობა",
+              "fr": "Bonjour",
+              "ok": true
+            },
+            {
+              "ka": "ნახვამდის",
+              "fr": "Au revoir",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "როგორ ხარ?",
+          "fr": "Comment vas-tu ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds)",
+          "choices": [
+            {
+              "ka": "კარგად, შენ?",
+              "fr": "Bien, et toi ?",
+              "ok": true
+            },
+            {
+              "ka": "არაფერს",
+              "fr": "Rien",
+              "ok": false
+            },
+            {
+              "ka": "შეშლილი ვარ",
+              "fr": "Je suis fou/folle",
+              "ok": false
+            }
+          ]
+        }
+      ],
+      "cefr": "A1",
+      "version": 1
+    },
+    {
+      "id": "dialogues-a1-gen-002",
+      "title": "Se présenter",
+      "scene": "Dire son nom et répondre à une présentation",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, მე ნინა ვარ. შენ?",
+          "fr": "Bonjour, je suis Nina. Et toi ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Donne ton nom)",
+          "choices": [
+            {
+              "ka": "მე მქვია ალექსი.",
+              "fr": "Je m'appelle Alexe.",
+              "ok": false
+            },
+            {
+              "ka": "მე მქვია მარიამ.",
+              "fr": "Je m'appelle Mariam.",
+              "ok": true
+            },
+            {
+              "ka": "მე მქვია პეტრე.",
+              "fr": "Je m'appelle Petre.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "მიხარია შენი გაცნობა.",
+          "fr": "Ravi(e) de te connaître."
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds)",
+          "choices": [
+            {
+              "ka": "მე კიდეც მიხარია.",
+              "fr": "Moi aussi, ravi(e).",
+              "ok": true
+            },
+            {
+              "ka": "მე არ ვიცი.",
+              "fr": "Je ne sais pas.",
+              "ok": false
+            },
+            {
+              "ka": "ხვალ გნახავ.",
+              "fr": "À demain.",
+              "ok": false
+            }
+          ]
+        }
+      ],
+      "cefr": "A1",
+      "version": 2
+    },
+    {
+      "id": "dialogues-a1-gen-003",
+      "title": "Demander l'heure",
+      "scene": "Demander l'heure dans la rue",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ბოდიში, რამდენი საათია?",
+          "fr": "Pardon, quelle heure est-il ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Donne l'heure)",
+          "choices": [
+            {
+              "ka": "ორი საათია.",
+              "fr": "Il est deux heures.",
+              "ok": true
+            },
+            {
+              "ka": "ხუთი დღეა.",
+              "fr": "Cinq jours.",
+              "ok": false
+            },
+            {
+              "ka": "დღეს ორშაბათია.",
+              "fr": "Nous sommes lundi.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "მადლობა.",
+          "fr": "Merci."
+        },
+        {
+          "speaker": "S",
+          "ka": "გთხოვთ.",
+          "fr": "De rien / Je vous en prie."
+        }
+      ],
+      "cefr": "A1",
+      "version": 3
+    },
+    {
+      "id": "dialogues-a1-gen-004",
+      "title": "Au café",
+      "scene": "Commander un café au comptoir",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, რას მოიმზადოთ?",
+          "fr": "Bonjour, que souhaitez-vous ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Commande une boisson)",
+          "choices": [
+            {
+              "ka": "ერთი ყავა, გთხოვთ.",
+              "fr": "Un café, s'il vous plaît.",
+              "ok": true
+            },
+            {
+              "ka": "ერთი წვენი, არა მადლობა.",
+              "fr": "Un jus, non merci.",
+              "ok": false
+            },
+            {
+              "ka": "რა ღირს?",
+              "fr": "Combien ça coûte ?",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "შაქრით თუ ორჯვრით?",
+          "fr": "Avec du sucre ou sans ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds)",
+          "choices": [
+            {
+              "ka": "ერთ სკუპი ქრებითი",
+              "fr": "(réponse incorrecte)",
+              "ok": false
+            },
+            {
+              "ka": "ცარიელი, გმადლობთ.",
+              "fr": "Nature, merci.",
+              "ok": true
+            },
+            {
+              "ka": "სქელოდ",
+              "fr": "Épais",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "ბონ აპეტიტი და აქვე ფასი — ორი ლარი.",
+          "fr": "Bon appétit et le prix ici : deux laris."
+        },
+        {
+          "speaker": "S",
+          "ka": "გმადლობთ.",
+          "fr": "Merci."
+        }
+      ],
+      "cefr": "A1",
+      "version": 4
+    },
+    {
+      "id": "dialogues-a1-gen-005",
+      "title": "Acheter un billet",
+      "scene": "Acheter un billet de bus",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "დილა მშვიდობისა. სად გინდათ წასვლა?",
+          "fr": "Bonjour. Où voulez-vous aller ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds la destination)",
+          "choices": [
+            {
+              "ka": "ცენტრალურ სადგურზე, გთხოვთ.",
+              "fr": "À la gare centrale, s'il vous plaît.",
+              "ok": true
+            },
+            {
+              "ka": "სახლში, მადლობა.",
+              "fr": "À la maison, merci.",
+              "ok": false
+            },
+            {
+              "ka": "რესტორანში, კარგი.",
+              "fr": "Au restaurant, d'accord.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "ერთი ბილეთი — ორი ლარი.",
+          "fr": "Un billet — deux laris."
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Donne l'argent)",
+          "choices": [
+            {
+              "ka": "აი, ორი ლარი.",
+              "fr": "Voici deux laris.",
+              "ok": true
+            },
+            {
+              "ka": "მე არ მაქვს ფული.",
+              "fr": "Je n'ai pas d'argent.",
+              "ok": false
+            },
+            {
+              "ka": "ვეძებ ბილეთს.",
+              "fr": "Je cherche un billet.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "ესაა თქვენი ბილეთი. კარგი გზა.",
+          "fr": "Voici votre billet. Bon voyage."
+        }
+      ],
+      "cefr": "A1",
+      "version": 5
+    },
+    {
+      "id": "dialogues-a1-gen-006",
+      "title": "Demander son chemin",
+      "scene": "Demander le chemin pour aller au musée",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ბოდიში, როგორ მივიდე მუზეუმში?",
+          "fr": "Pardon, comment aller au musée ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Donne la direction)",
+          "choices": [
+            {
+              "ka": "გადაადიეთ ეს ქუჩა, შემდეგ დაიხარეთ მარცხნივ.",
+              "fr": "Allez tout droit puis tournez à gauche.",
+              "ok": true
+            },
+            {
+              "ka": "ავიღოთ ტაქსი ახლავე.",
+              "fr": "Prenons un taxi tout de suite.",
+              "ok": false
+            },
+            {
+              "ka": "მუზეუმი გაქრა.",
+              "fr": "Le musée a disparu.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "და შემიძლია ფეხით წასვლა?",
+          "fr": "Et puis-je y aller à pied ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds)",
+          "choices": [
+            {
+              "ka": "კი, ახლო არის, ფეხით შეგიძლიათ.",
+              "fr": "Oui, c'est proche, vous pouvez y aller à pied.",
+              "ok": true
+            },
+            {
+              "ka": "არ ვიცი, ტელეფონით დაგირეკებთ.",
+              "fr": "Je ne sais pas, je vous appelle.",
+              "ok": false
+            },
+            {
+              "ka": "რესტორანი ახლოა.",
+              "fr": "Le restaurant est proche.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "მადლობა, ხვალ მოვალ.",
+          "fr": "Merci, j'arriverai demain."
+        }
+      ],
+      "cefr": "A1",
+      "version": 6
+    },
+    {
+      "id": "dialogues-a1-gen-007",
+      "title": "À l'hôtel",
+      "scene": "Réserver une chambre pour une nuit",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, გაქვთ თავისუფალი ოთახი აუარათი?",
+          "fr": "Bonjour, avez-vous une chambre de libre ce soir ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds à la demande)",
+          "choices": [
+            {
+              "ka": "კი, გვაქვს ერთი ორიადგილიანი ოთახი.",
+              "fr": "Oui, nous avons une chambre double.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ გვაქვს ლოგინი.",
+              "fr": "Non, nous n'avons pas de lit.",
+              "ok": false
+            },
+            {
+              "ka": "ბოდიში, ზღვა არ არის.",
+              "fr": "Désolé, il n'y a pas de mer.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "რამდენად ღირებულება ერთ ღამეზე?",
+          "fr": "Combien coûte pour une nuit ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Donne le prix)",
+          "choices": [
+            {
+              "ka": "ხუთი ოცდაათი ლარი.",
+              "fr": "Cinquante-lari trente.",
+              "ok": false
+            },
+            {
+              "ka": "შვიდი ლარი.",
+              "fr": "Sept laris.",
+              "ok": false
+            },
+            {
+              "ka": "მოიჯეთ — ოცდაათი ლარი ერთი ღამე.",
+              "fr": "Le tarif — trente laris pour une nuit.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "მინდა დავიკავო ოთახი ერთი ღამით.",
+          "fr": "Je voudrais réserver la chambre pour une nuit."
+        },
+        {
+          "speaker": "S",
+          "ka": "კარგი, შეუკვეთეთ თქვენი სახელი და ნომერი.",
+          "fr": "Bien, s'il vous plaît donnez votre nom et votre numéro.",
+          "choices": [
+            {
+              "ka": "თენგიზ, 599123456",
+              "fr": "Tengiz, 599123456",
+              "ok": true
+            },
+            {
+              "ka": "მე არ ველაპარაკები.",
+              "fr": "Je ne parle pas.",
+              "ok": false
+            },
+            {
+              "ka": "დღეს არის მზესუმზირა.",
+              "fr": "Aujourd'hui il y a du tournesol.",
+              "ok": false
+            }
+          ]
+        }
+      ],
+      "cefr": "A1",
+      "version": 7
+    },
+    {
+      "id": "dialogues-a1-gen-008",
+      "title": "Au supermarché",
+      "scene": "Demander le prix d'un produit",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "უკაცრავად, რამდენი ღირს პური?",
+          "fr": "Excusez-moi, combien coûte le pain ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds le prix)",
+          "choices": [
+            {
+              "ka": "ერთი ლარი.",
+              "fr": "Un lari.",
+              "ok": true
+            },
+            {
+              "ka": "ერთი საათი.",
+              "fr": "Une heure.",
+              "ok": false
+            },
+            {
+              "ka": "რამდენიმე ხელში.",
+              "fr": "Dans quelques mains.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "კარგი, ერთი პური მინდა.",
+          "fr": "Bien, je veux un pain."
+        },
+        {
+          "speaker": "S",
+          "ka": "გინდა თუ არა კიდევ რამე?",
+          "fr": "Voulez-vous autre chose ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "კი, კვერცხი და რძე.",
+          "fr": "Oui, des œufs et du lait."
+        },
+        {
+          "speaker": "S",
+          "ka": "ხელი გაქვთ თუ ბარათი?",
+          "fr": "Avez-vous liquide ou carte ?",
+          "choices": [
+            {
+              "ka": "ნაღდი მაქვს.",
+              "fr": "J'ai du liquide.",
+              "ok": true
+            },
+            {
+              "ka": "არ ვიცი საათი.",
+              "fr": "Je ne connais pas l'heure.",
+              "ok": false
+            },
+            {
+              "ka": "პური გადავწყვიტე.",
+              "fr": "J'ai décidé le pain.",
+              "ok": false
+            }
+          ]
+        }
+      ],
+      "cefr": "A1",
+      "version": 8
+    },
+    {
+      "id": "dialogues-a1-gen-009",
+      "title": "Téléphone",
+      "scene": "Demander et donner un numéro de téléphone",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "შეგიძლია მითხრა შენი ტელეფონის ნომერი?",
+          "fr": "Peux-tu me donner ton numéro de téléphone ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Donne ton numéro)",
+          "choices": [
+            {
+              "ka": "ჩემი ნომერია 599123456.",
+              "fr": "Mon numéro est 599123456.",
+              "ok": true
+            },
+            {
+              "ka": "დღეს კარგი ამინდი.",
+              "fr": "Il fait beau aujourd'hui.",
+              "ok": false
+            },
+            {
+              "ka": "მე არ ვსაუბრობ.",
+              "fr": "Je ne parle pas.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "მადლობა, გადაგირეკავ.",
+          "fr": "Merci, je t'appellerai."
+        },
+        {
+          "speaker": "S",
+          "ka": "გპირდები — პასუხს მოგცევ.",
+          "fr": "Je promets — je répondrai."
+        }
+      ],
+      "cefr": "A1",
+      "version": 9
+    },
+    {
+      "id": "dialogues-a1-gen-010",
+      "title": "La famille",
+      "scene": "Parler brièvement de sa famille",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "მითხარი ცოტა საკუთარ ოჯახზე.",
+          "fr": "Parle-moi un peu de ta famille."
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Présente un membre)",
+          "choices": [
+            {
+              "ka": "მყავს ერთი და და ორი ძმა.",
+              "fr": "J'ai une sœur et deux frères.",
+              "ok": false
+            },
+            {
+              "ka": "ჩემი დედაა ექიმი.",
+              "fr": "Ma mère est médecin.",
+              "ok": true
+            },
+            {
+              "ka": "მე არ მაქვს ოჯახი.",
+              "fr": "Je n'ai pas de famille.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "და რას აკეთებს შენი მამა?",
+          "fr": "Et que fait ton père ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "?",
+          "fr": "(Réponds le métier)",
+          "choices": [
+            {
+              "ka": "მან მუშაობს მასწავლებლად.",
+              "fr": "Il travaille comme enseignant.",
+              "ok": true
+            },
+            {
+              "ka": "მან სძინავს.",
+              "fr": "Il dort.",
+              "ok": false
+            },
+            {
+              "ka": "მან თამაშობს ფეხბურთს.",
+              "fr": "Il joue au foot.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "თქვენ ყველა არ სიხარულით ერთ ოჯახში ცხოვრობთ?",
+          "fr": "Vous vivez tous heureux dans une maison ?"
+        },
+        {
+          "speaker": "S",
+          "ka": "დიახ, ვცხოვრობთ მშვიდად და მეგობრულად.",
+          "fr": "Oui, nous vivons paisiblement et amicalement."
+        }
+      ],
+      "cefr": "A1",
+      "version": 10
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "comprehension_order-c1-gen-001",
+      "title": "დაბალანსებული გადაწყვეტილება",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 1,
+      "text": "მარიამმა სამსახურში სტაჟირების დასრულების შემდეგ რამდენიმე წინადადება მიიღა. პირველი სარეკომენდაციო წერილი მისი მენეჯერისგან მივიდა, შემდეგ კი სამსახურში შემოთავაზებული წინააპლიკაციური პროექტი მიიღო. მან დაფიქრდა, მოეხდინა თუ არა relocate და პირველი გამოიწვია ოჯახთან კონსულტაცია. ბოლოს, რამდენიმე დღეში, მან წერილობით დაადასტურა, რომ მიიღებდა ახალ პოზიციას და გეგმავდა გადაცემის პერიოდის ორგანიზებას.",
+      "events": [
+        "Marie reçoit une lettre de recommandation de son manager.",
+        "Elle reçoit une proposition de projet liée à un poste dans son entreprise.",
+        "Marie consulte sa famille pour discuter d’un éventuel déménagement.",
+        "Quelques jours plus tard, elle confirme par écrit qu’elle accepte le nouveau poste et planifie la transition."
+      ],
+      "explanation": "L’ordre suit la chronologie du texte : recommandation, offre de projet, consultation familiale, puis confirmation écrite de l’acceptation et organisation de la transition."
+    },
+    {
+      "id": "comprehension_order-c1-gen-002",
+      "title": "სექტემბრის გამოფენა",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 2,
+      "text": "სექტემბერში, ხელოვნების გალერეამ ავტორის ახალი სერია გამოიტანა. გამოფენა პრესრელიზით გამოაცხადეს, შემდეგ კი მათ სტუმრებს მიწვეული სესია გაუმართეს. პირველ ღამეს ხუთი მიმოხილვა გამოქვეყნდა, რამაც აუდიტორიას მისცა სერიოზული ინტერესი. გამოფენა ერთი კვირის შემდეგ დახურა, ხოლო ავტორმა გამოაცხადა საგამოფენო კატალოგის ელ.ვერსია.",
+      "events": [
+        "La galerie annonce l’exposition par un communiqué de presse.",
+        "Ils organisent une séance privée pour invités.",
+        "Cinq critiques publient des comptes rendus la première nuit.",
+        "Une semaine plus tard, l’exposition ferme et l’auteur publie la version électronique du catalogue."
+      ],
+      "explanation": "Chronologie directe : annonce, séance pour invités, critiques le premier soir, fermeture après une semaine et publication du catalogue."
+    },
+    {
+      "id": "comprehension_order-c1-gen-003",
+      "title": "სტუმრობის დღის განრიგი",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 3,
+      "text": "დილით, ვარაზიმ სტუმრები მოიყვანა და ყავის შემდეგ სახლში მცირე ტური გაუკეთა. შუადღით ოჯახმა ერთად მოამზადა სადილი, ხოლო სტუმრებმა საინტერესო დიალოგი აწარმოეს ქალაქის პრობლემებზე. იმ საღამოს ვარაზიმ სტუმრებს მუზეუმში დასაცავი ბილეთები აჩუქა, შემდეგ კი ისინი ერთად პარკში გაისეირნეს. საბოლოოდ, სტუმრები გვიან მაღალზე წამოდგნენ და მადლობა გადაუხადეს მასპინძლებს.",
+      "events": [
+        "Varazi accueille les invités et leur offre un café puis les fait visiter la maison.",
+        "La famille prépare le déjeuner ensemble à midi.",
+        "Les invités engagent un long dialogue sur les problèmes de la ville.",
+        "Le soir, Varazi offre des billets pour le musée et ils se promènent ensuite dans le parc.",
+        "Les invités partent tard en remerciant leurs hôtes."
+      ],
+      "explanation": "Les événements suivent la journée décrite : accueil et visite matinale, préparation du déjeuner, discussion l’après‑midi, billets et promenade le soir, départ tardif."
+    },
+    {
+      "id": "comprehension_order-c1-gen-004",
+      "title": "პროექტის დაჩქარება",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 4,
+      "text": "კომპანიის საბჭომ შეიკრიბა და გადაწყვიტა პროექტის ვადა შეიცვალოს. მოკლე შეხვედრის შემდეგ მივიდნენ იმ დასკვნამდე, რომ საჭირო იყო დამატებითი რესურსების დამატება. გუნდი ერთი თვის განმავლობაში მუშაობდა დამატებით, ხოლო მენეჯერმა ყოველდღე ანგარიშები მოითხოვა. ვადის გადავადების ნაცვლად, ისინი საბოლოოდ ჩაეტივნენ ადრე და პროექტი წინადადებით წარუდგინეს დირექტორატს.",
+      "events": [
+        "Le conseil décide de modifier la date limite du projet.",
+        "Ils concluent qu’il faut ajouter des ressources supplémentaires.",
+        "L’équipe travaille un mois de plus avec des rapports quotidiens demandés par le manager.",
+        "Au lieu de demander un report, ils terminent le projet en avance et le présentent au directoire."
+      ],
+      "explanation": "Séquence logique : décision initiale, nécessité de ressources, période de travail intensif avec rapports quotidiens, achèvement anticipé et présentation finale."
+    },
+    {
+      "id": "comprehension_order-c1-gen-005",
+      "title": "ბიბლიოთეკის რესტავრაცია",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 5,
+      "text": "ბიბლიოთეკის მენეჯერმა პირველ მარტს განაცხადა რესტავრაციის დაწყების შესახებ და მოუწოდა მოხალისეებს. ორი კვირის განაკვეთზე იატაკები და წიგნების თაროები აღადგინეს; შემდეგ კონსერვატორებმა ძველი ხელნაწერები ექსპერტიზაზე წაიღეს. პროექტი ნახევარ წლამდე გაგრძელდა, მის დასრულებისთანავე ბიბლიოთეკა ხელახლა გაიხსნა საზეიმოდ და პირველად ერთი თვის შემდეგ საჯაროდ სიამოვნების მისაღებად აღუდგა.",
+      "events": [
+        "Le directeur annonce le début de la restauration le 1er mars et appelle des bénévoles.",
+        "En deux semaines, on répare les planchers et les étagères du livre.",
+        "Les conservateurs emmènent les manuscrits anciens pour expertise.",
+        "Le projet dure six mois ; à son achèvement, la bibliothèque rouvre officiellement et, un mois plus tard, elle ouvre au public."
+      ],
+      "explanation": "Ordre chronologique : annonce et appel, réparations initiales, expertise des manuscrits, durée totale puis réouverture et ouverture au public."
+    },
+    {
+      "id": "comprehension_order-c1-gen-006",
+      "title": "უკვე დასრულებული ოპტიმიზაცია",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 6,
+      "text": "ინჟინრები თავიდან რუტინულმა ტესტებმა დააბრკოლა, მაგრამ მათ გადაწყვიტეს ალგორითმის სტრუქტურა გადაეხედათ. რეკონსტრუქციის შემდეგ ისინი შემაშური გამოვლენა დაიწყეს, შედეგებმა საპირისპირო ეფექტი არ გამოიწვია. რამდენიმე დილით მათ შეამცირეს გაშვების დრო და დაარეგისტრირეს ნაკლები შეცდომები. ბოლოს, გუნდი ანგარიშით წარმოდგენილ რეკომენდაციებს გაუგრძელა და სისტემა წარმოებაში გაუშვა.",
+      "events": [
+        "Les ingénieurs rencontrent des problèmes lors de tests initiaux et décident de revoir la structure de l’algorithme.",
+        "Après la reconstruction, ils commencent de nouveaux tests de détection des anomalies.",
+        "Les matinées suivantes montrent une réduction du temps d’exécution et moins d’erreurs.",
+        "Finalement, l’équipe présente un rapport avec recommandations et déploie le système en production."
+      ],
+      "explanation": "Suite logique : problème initial, refonte, nouveaux tests montrant des améliorations, rapport final et déploiement."
+    },
+    {
+      "id": "comprehension_order-c1-gen-007",
+      "title": "კულტურული გაცვლა",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 7,
+      "text": "სტაჟიორმა პროგრამამ სტუდენტებისგან დაინტერესება გამოიწვია; პირველ კვირაში მათ დაესწრნენ ძირითად ტრენინგ სესიებს. შემდეგ მონაწილეები რეგიონალურ ჯგუფებად დაყვეს, დაასრულეს პირველი სავარჯიშოები და წარმოადგინეს პრეზენტაციები. ორი კვირის შემდეგ სტუმარი პროფესორი მომართვა ჩაატარა, რის შემდეგაც გაიმართა სადღესასწაულო ღამე, სადაც მონაწილეები საკუთარი ქვეყნის კერძებს წარადგენდნენ.",
+      "events": [
+        "Le programme de stage suscite l’intérêt et, durant la première semaine, les étudiants assistent aux sessions de formation principales.",
+        "Les participants sont ensuite divisés en groupes régionaux, accomplissent un premier exercice et présentent des exposés.",
+        "Deux semaines plus tard, un professeur invité donne une conférence pratique.",
+        "Après la conférence a lieu une soirée festive où les participants présentent des plats de leurs pays."
+      ],
+      "explanation": "Ordre temporel : formation initiale, division en groupes et exercices, conférence deux semaines plus tard, puis soirée festive."
+    },
+    {
+      "id": "comprehension_order-c1-gen-008",
+      "title": "ახალი წესები ოფისში",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 8,
+      "text": "ოფისში ახალი პროტოკოლი პირველად ინტრანეტით განათავსეს და თანამშრომლებს მოთხოვა მნიშვნელოვანი ცვლილების კითხვება. შემდეგ მენეჯმენტმა შვილობილი ფუნქციების შეხვედრები მოაწყო, რომ მოემზადებინათ განახლების იმპლემენტაცია. პირველი კვირის ბოლოს small pilot ჯგუფმა დაიწყო პრაქტიკული გამოყენება; მიღებული უკუკავშირი შეისწავლეს და მცირე კორექტივები შეიტანეს. ვადის დამთავრებისთანავე პროტოკოლი დანერგეს კომპანიის ფართო დონის და საბუთებში დააინარქივეს.",
+      "events": [
+        "Le nouveau protocole est publié sur l’intranet et les employés sont invités à en prendre connaissance.",
+        "La direction organise des réunions par fonctions pour préparer la mise en œuvre.",
+        "À la fin de la première semaine, un petit groupe pilote commence l’application pratique et recueille des retours.",
+        "Après ajustements mineurs, le protocole est déployé à l’échelle de l’entreprise et archivé dans la documentation."
+      ],
+      "explanation": "Chronologie : publication et lecture, réunions préparatoires, test pilote et retours, ajustements puis déploiement généralisé."
+    },
+    {
+      "id": "comprehension_order-c1-gen-009",
+      "title": "იმედის კონცერტი",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 9,
+      "text": "კონცერტის ორგანიზატორებმა ბილეთების გაყიდვა რამდენიმე კვირით ადრე დაიწყეს და მალე ცნობილი გახდა, რომ ინტერესი მაღალი იქნებოდა. მათ ინფრასტრუქტურა მოამზადეს, სცენის მოწყობა და ხმა მოაწესრიგეს. კონცერტის ღამეს მუსიკოსებმა საპრემიერო პროგრამა შეასრულეს, შემდეგ მსმენელთა შორის გაიმართა მარტივი საუბარი მომღერლებთან. ღონისძიების ბოლოს ორგანიზატორებმა შეგროვებული შემოსავალი საქველმოქმედოდ ანანიავეს და მადლობა გადაუხადეს შემომწირვებს.",
+      "events": [
+        "Les organisateurs mettent en vente les billets plusieurs semaines à l’avance et l’intérêt devient rapidement évident.",
+        "Ils préparent l’infrastructure : installation de la scène et sonorisation.",
+        "La nuit du concert, les musiciens jouent le programme de première.",
+        "Après le concert, il y a un échange informel entre le public et les artistes.",
+        "À la fin, les organisateurs annoncent que les recettes seront versées à une œuvre de charité et remercient les donateurs."
+      ],
+      "explanation": "Suite logique : mise en vente et intérêt, préparation technique, concert, échange public-artistes, annonce finale sur la destination des recettes."
+    },
+    {
+      "id": "comprehension_order-c1-gen-010",
+      "title": "სოფლის ღამის დაკვირვება",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 10,
+      "text": "მერე რომ სოფელში ჩავედი, მზის ჩასვლისას ყველანი ეზოში შეიკრიბნენ და ზუსტად დაინიშნა დრო, როცა სეხვა უნდა დაწყებულიყო. ერთი საათი გავიდა ლანდშაფტის ყურებაში, შემდეგ ერთი ადგილობრივი მომიყვანა წიგნი, სადაც სოფლის ისტორია აღწერილი იყო. ღამის ბილიკზე სუსხიანი ჰაერი ფშვინავდა, მათ დანთებული ღიობები გააკეთა და მოთხრობა დაიწყეს, რომელიც დილის პირველ საათამდე გაგრძელდა.",
+      "events": [
+        "À mon arrivée au village, au coucher du soleil, tout le monde se réunit dans la cour et un horaire précis est fixé pour le rituel.",
+        "Ils passent une heure à observer le paysage.",
+        "Un habitant apporte un livre racontant l’histoire du village.",
+        "Sur le chemin de nuit, ils allument des feux et commencent des récits qui durent jusqu’au petit matin."
+      ],
+      "explanation": "Ordre conforme aux repères temporels : rassemblement au coucher, période d’observation, apport du livre, puis allumage de feux et récits nocturnes jusqu’au matin."
+    }
+  ]
+}

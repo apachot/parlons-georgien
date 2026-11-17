@@ -1,0 +1,235 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "grammar-a1-gen-001",
+      "title": "Les adverbes de temps: დღეს / გუშინ / ხვალ",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 1,
+      "body": "Expliquer comment dire 'aujourd'hui', 'hier', 'demain' en géorgien et où les placer: ces adverbes se placent généralement en début de phrase ou avant le verbe. Ils indiquent le temps sans changer la forme verbale complexe (utile au niveau A1).",
+      "examples": [
+        [
+          "დღეს მე სკოლაში მივდივარ.",
+          "Aujourd'hui je vais à l'école."
+        ],
+        [
+          "გუშინ მან წიგნი წაიკითხა.",
+          "Hier il/elle a lu un livre."
+        ],
+        [
+          "ხვალ ჩვენ friends-თან (ხალხთან) არ ვიქნებით.",
+          "Demain nous ne serons pas avec des amis."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-002",
+      "title": "Préverbe 'გა-' pour l'action parfaite (exemples A1)",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 2,
+      "body": "Introduire l'idée que le préverbe 'გა-' peut marquer une action achevée / parfaite dans des verbes courants. Montrer la forme sans 'გა-' (action en cours) et avec 'გა-' (action accomplie). Ne pas généraliser à tous les verbes: tous les verbes ne prennent pas 'გა-'.",
+      "examples": [
+        [
+          "მე ვაკეთებ ყავას.",
+          "Je fais du café / je prépare du café (action en cours)."
+        ],
+        [
+          "მე გავაკეთე ყავა.",
+          "J'ai fait du café (action accomplie)."
+        ],
+        [
+          "ის აკეთებს კითხვას, მაგრამ ის არაა მზად; მან უკვე გააკეთა ნაწილი.",
+          "Il/elle fait la lecture mais n'est pas prêt(e); il/elle a déjà fait une partie."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-003",
+      "title": "Le cas accusatif avec le suffixe -ს (objet direct)",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 3,
+      "body": "Expliquer que l'objet direct défini reçoit souvent le suffixe -ს (accusatif) en géorgien. À A1, montrer des exemples simples avec verbe transitif. Préciser que le suffixe n'apparaît pas toujours (objet indéfini), et qu'on n'explique pas ici toutes les exceptions.",
+      "examples": [
+        [
+          "მე ვკითხულობ წიგნს.",
+          "Je lis le livre. (livre = objet défini, -ს)"
+        ],
+        [
+          "ის ჭამს პირსახოცს? (არ იყენოთ 'პირსახოცს' დღეს) -> correct form: ის ჭამს ბოსტნეულს.",
+          "Il/elle mange des légumes. (objet avec -ს)"
+        ],
+        [
+          "ჩვენ ვხედავთ დედას.",
+          "Nous voyons la mère. (დედა → დედას avec -ს)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-004",
+      "title": "Le suffixe du pluriel -ები",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 4,
+      "body": "Montrer la formation du pluriel courant en -ები. Expliquer que le suffixe s'ajoute au radical du nom et que l'adjectif reste souvent inchangé (voir fiche sur l'accord). Ne pas aborder toutes les alternances phonétiques complexes ici.",
+      "examples": [
+        [
+          "პირი → პირები",
+          "visage → visages"
+        ],
+        [
+          "კაცი → კაცები",
+          "homme → hommes"
+        ],
+        [
+          "ქალაქი → ქალაქები",
+          "ville → villes"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-005",
+      "title": "La négation simple avec არ",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 5,
+      "body": "Présenter la particule გაკრძალვა 'არ' placée avant le verbe pour nier une phrase au présent, au passé ou au futur simple (formes courantes). Montrer la position fixe d'არ et donner des exemples pour chaque temps sans détailler la morphologie complexe.",
+      "examples": [
+        [
+          "მე არ ვჭამ ხორცს.",
+          "Je ne mange pas de viande."
+        ],
+        [
+          "გუშინ არ წავედი სკოლაში.",
+          "Hier je ne suis pas allé(e) à l'école."
+        ],
+        [
+          "ხვალ არ ვიქნები სახლში.",
+          "Demain je ne serai pas à la maison."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-006",
+      "title": "Adjectifs: position et accord simple",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 6,
+      "body": "Expliquer qu'à A1 il suffit de placer l'adjectif avant le nom et que, contrairement au français, l'adjectif géorgien ne change généralement pas de forme selon le genre; il peut rester identique au pluriel. Ne pas généraliser aux cas plus avancés (formes adjectivales complexes).",
+      "examples": [
+        [
+          "დიდი სახლი.",
+          "Une grande maison."
+        ],
+        [
+          "დიდი სახლები.",
+          "De grandes maisons. (l'adjectif 'დიდი' reste identique)"
+        ],
+        [
+          "ლამაზი ყვავილები.",
+          "De belles fleurs."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-007",
+      "title": "Ordre des mots de base: SOV (sujet-objet-verbe)",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 7,
+      "body": "Présenter l'ordre de base sujet-objet-verbe en géorgien (SOV). Montrer que le verbe vient en fin de phrase et que l'intonation ou le placement des mots peut changer pour insister. Ne pas affirmer que l'ordre est strict dans toutes les phrases (déviations existent).",
+      "examples": [
+        [
+          "მე წიგნს ვკითხულობ.",
+          "Je (sujet) le livre (objet) lis (verbe)."
+        ],
+        [
+          "ის პურს ჭამს.",
+          "Il/elle le pain mange. → Il/elle mange du pain."
+        ],
+        [
+          "გოგო ყვავილს აძლევს მეგობარს.",
+          "La fille donne une fleur à l'ami. (SOV avec complément indirect avant le verbe)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-008",
+      "title": "La subordination simple avec 'რომ' (que)",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 8,
+      "body": "Introduire la conjonction 'რომ' pour relier deux propositions (que). Montrer des structures courantes: je sais que..., je pense que... 'რომ' précède la proposition subordonnée. Ne pas détailler tous les verbes qui exigent une forme spécifique.",
+      "examples": [
+        [
+          "მე ვიცი, რომ ის მოდის.",
+          "Je sais qu'il/elle vient."
+        ],
+        [
+          "ვიფიქრე, რომ მან დამირეკა.",
+          "J'ai pensé qu'il/elle m'avait appelé(e)."
+        ],
+        [
+          "იმედი მაქვს, რომ უახლოეს მომავალში ვხედავთ ერთმანეთს.",
+          "J'espère que nous nous verrons bientôt."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-009",
+      "title": "Le suffixe locatif -ში (dans, à)",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 9,
+      "body": "Montrer l'usage du suffixe locatif -ში pour indiquer 'dans' ou 'à' (ex.: სახლში = à la maison). Expliquer qu'on l'ajoute directement au nom; à ce niveau, n'aborder que formes régulières simple sans alternances phonétiques complexes.",
+      "examples": [
+        [
+          "სახლი → სახლში",
+          "maison → dans/à la maison"
+        ],
+        [
+          "მე სახლში ვსწავლობ.",
+          "J'étudie à la maison."
+        ],
+        [
+          "ბიბლიოთეკა → ბიბლიოთეკაში; იქ ვიყავით გუშინ.",
+          "bibliothèque → à la bibliothèque; nous y étions hier."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-a1-gen-010",
+      "title": "Pronoms possessifs simples: ჩემი / შენი / მისი",
+      "level": "A1",
+      "cefr": "A1",
+      "version": 10,
+      "body": "Présenter les pronoms possessifs de base: ჩემი (mon/ma), შენი (ton/ta), მისი (son/sa). Montrer leur placement avant le nom et quelques différences avec les constructions génitives plus avancées. Ne pas aborder encore la concordance en cas ou les suffixes possessifs.",
+      "examples": [
+        [
+          "ჩემი წიგნი არის მაგიდაზე.",
+          "Mon livre est sur la table."
+        ],
+        [
+          "შენი მანქანა ლამაზია.",
+          "Ta voiture est belle."
+        ],
+        [
+          "მისი დისკი ახალია.",
+          "Son disque/son CD est neuf."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    }
+  ]
+}

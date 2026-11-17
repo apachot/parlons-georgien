@@ -1,0 +1,115 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "dictation_sentences-c2-gen-001",
+      "cefr": "C2",
+      "version": 1,
+      "fr": "Rédigez en géorgien la phrase suivante : « Malgré les objections répétées de ses collègues, il a tenu à exprimer son désaccord par écrit, estimant que seule une trace claire permettrait d'éviter les malentendus futurs. »",
+      "ka": "მიუხედავად თანამშრომლების გამუდმებული პრეტენზიებისა, მან დაწერა თავისი არეთზგავიშვანი მოხსენება, რადგან მიაჩნდა, რომ მხოლოდ აშკარა დამოწმება გადაუფიქრებლად აუგრისტებდა მომავალ გაუგებრობებს.",
+      "answers": [
+        "მიუხედავად თანამშრომლების გამუდმებული პრეტენზიებისა, მან დაწერა თავისი არეთზგავიშვანი მოხსენება, რადგან მიაჩნდა, რომ მხოლოდ აშკარა დამოწმება გადაუფიქრებლად აუგრისტებდა მომავალ გაუგებრობებს."
+      ],
+      "note": "La phrase utilise la subordination causale et le registre soutenu; veiller à l'accord et au vocabulaire formel en géorgien."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-002",
+      "cefr": "C2",
+      "version": 2,
+      "fr": "Traduisez en géorgien : « Lorsque, après des heures de recherche infructueuse, elle a enfin localisé l'archive perdue, elle a éprouvé un mélange d'exaltation intellectuelle et d'épuisement profond. »",
+      "ka": "როცა უხვი უშედეგო ძებნის შემდეგ ბოლოს იპოვა დაკარგული არქივი, ის განიცდიდა ინტელექტუალურ აღტყინდასა და ღრმა გამონაზარდობის შერეულ შეგრძნებებს.",
+      "answers": [
+        "როცა უხვი უშედეგო ძებნის შემდეგ ბოლოს იპოვა დაკარგული არქივი, ის განიცდიდა ინტელექტუალურ აღტყინდასა და ღრმა გამონაზარდობის შერეულ შეგრძნებებს."
+      ],
+      "note": "Le participe temporel 'როცა' suivi d'une proposition complexe; attention à la cohérence lexicale ('არქივი', 'განიცდიდა')."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-003",
+      "cefr": "C2",
+      "version": 3,
+      "fr": "Traduisez en géorgien : « Il cita, dans son article, plusieurs auteurs oubliés du XIXe siècle, non pas pour réhabiliter tous leurs errements, mais afin de nuancer notre lecture contemporaine des enjeux sociaux de l'époque. »",
+      "ka": "მასალაში მან მოიყვანა XIX საუკუნის რამდენიმე დავიწყებული ავტორი, არა მათი ყველა შეცდომის გამართლების მიზნით, არამედ იმისათვის, რომ შეემსუბუქებინა და განეზოგა ჩვენი თანამედროვე ინტერპრეტაცია იმ პერიოდის სოციალური საკითხების.",
+      "answers": [
+        "მასალაში მან მოიყვანა XIX საუკუნის რამდენიმე დავიწყებული ავტორი, არა მათი ყველა შეცდომის გამართლების მიზნით, არამედ იმისათვის, რომ შეემსუბუქებინა და განეზოგა ჩვენი თანამედროვე ინტერპრეტაცია იმ პერიოდის სოციალური საკითხების."
+      ],
+      "note": "Usage du verbe 'მოიყვანა' pour citer; nuance de but exprimée par 'იმისათვის, რომ'. Vérifier la collocation 'სოციალური საკითხები'."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-004",
+      "cefr": "C2",
+      "version": 4,
+      "fr": "Traduisez en géorgien : « Si l'on ignore les contextes historiques et linguistiques qui ont façonné cette expression, on court le risque d'en faire une lecture anachronique et caricaturale. »",
+      "ka": "თუ უგულებელვყოფთ ენისა და ისტორიის კონტექსტებს, რომლებიც ამ გამოხატულებას ქმნიდნენ, ვიმყოფებით იმ რისკის წინაშე, რომ მას ანაქრონისტულსა და კარიკატურული ინტერპრეტაციად ვაქცევთ.",
+      "answers": [
+        "თუ უგულებელვყოფთ ენისა და ისტორიის კონტექსტებს, რომლებიც ამ გამოხატულებას ქმნიდნენ, ვიმყოფებით იმ რისკის წინაშე, რომ მას ანაქრონისტულსა და კარიკატურული ინტერპრეტაციად ვაქცევთ."
+      ],
+      "note": "Phrase conditionnelle sophistiquée; vérifier l'accord et l'usage de 'ვიმყოფებით ... წინაშე'."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-005",
+      "cefr": "C2",
+      "version": 5,
+      "fr": "Traduisez en géorgien : « Elle remarqua, avec une froide lucidité, que les compromis tacites qu'on avait acceptés naguère n'avaient fait que reporter les tensions sans les résoudre. »",
+      "ka": "იგმა ცივმა სიფხიზლემ შენიშნა, რომ ადრე მიღებული უხილავი კომპრომისები მხოლოდ გადაიტანეს ტენზიები, გაურკვევლობის გარეშე გამოსვლით.",
+      "answers": [
+        "იგმა ცივმა სიფხიზლემ შენიშნა, რომ ადრე მიღებული უხილავი კომპრომისები მხოლოდ გადაიტანეს ტენზიები, გაურკვევლობის გარეშე გამოსვლით."
+      ],
+      "note": "Attention à l'expression idiomatique 'ცივი სიფხიზლე' et au rendu de 'reporter les tensions' en géorgien."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-006",
+      "cefr": "C2",
+      "version": 6,
+      "fr": "Traduisez en géorgien : « Il confia, presque en souriant, que ses hésitations tenaient moins à un doute profond qu'à la peur d'être incompris par ceux qu'il respectait le plus. »",
+      "ka": "მან თითქმის ღიმილით აღიარა, რომ მისი დუყმურება ნაკლებად გამოწვეული იყო ღრმა ეჭვით, მეტწილად კი იმ შიშით, რომ მისთვის ყველაზე დაფასებულებმა არასწორად გაიგებდნენ.",
+      "answers": [
+        "მან თითქმის ღიმილით აღიარა, რომ მისი დუყმურება ნაკლებად გამოწვეული იყო ღრმა ეჭვით, მეტწილად კი იმ შიშით, რომ მისთვის ყველაზე დაფასებულებმა არასწორად გაიგებდნენ."
+      ],
+      "note": "Discours rapporté et nuance émotionnelle; vérifier le choix de 'აღიარა' pour 'confier' et 'განცა ღიმილი' nuances."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-007",
+      "cefr": "C2",
+      "version": 7,
+      "fr": "Traduisez en géorgien : « Malgré l'apparente simplicité de l'énoncé, son interprétation requiert une connaissance approfondie des usages rhétoriques et des implicites culturels. »",
+      "ka": "და მიუხედავად გამოგონილი გამოთქმის იოლადობისა, მისი ინტერპრეტაცია მოითხოვს რეტორიკული პრაქტიკებისა და კულტურულ იმპლიციტების ღრმად ცოდნას.",
+      "answers": [
+        "და მიუხედავად გამოგონილი გამოთქმის იოლადობისა, მისი ინტერპრეტაცია მოითხოვს რეტორიკული პრაქტიკებისა და კულტურულ იმპლიციტების ღრმად ცოდნას."
+      ],
+      "note": "Rendre 'apparente simplicité' par 'იოლადობა' et 'implicites culturels' par 'კულტურული იმპლიციტები'."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-008",
+      "cefr": "C2",
+      "version": 8,
+      "fr": "Traduisez en géorgien : « Ils avaient décidé, non sans controverse, d'adopter une méthodologie mixte qui privilégiait l'observation participante tout en conservant des instruments quantitatifs robustes. »",
+      "ka": "მიანიჭეს გადაწყვიტეს, არც ისე ობსტრუქციულად, შეწყვეტილი მეთოდოლოგია, რომელიც უპირატესობას აძლევდა მონაწილეობით დაკვირვებას და ამავდროულად ინარჩუნებდა მყარი რაოდენობრივ ინსტრუმენტების კომპლექტს.",
+      "answers": [
+        "მიანიჭეს გადაწყვიტეს, არც ისე ობსტრუქციულად, შეწყვეტილი მეთოდოლოგია, რომელიც უპირატესობას აძლევდა მონაწილეობით დაკვირვებას და ამავდროულად ინარჩუნებდა მყარი რაოდენობრივ ინსტრუმენტების კომპლექტს."
+      ],
+      "note": "Phrase complexe; vérifier la construction passive et le vocabulaire méthodologique ('მონაწილეობით დაკვირვება', 'რაოდენობრივი ინსტრუმენტები')."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-009",
+      "cefr": "C2",
+      "version": 9,
+      "fr": "Traduisez en géorgien : « En rappelant les échanges de l'époque, il mit en garde contre la tentation de transposer a posteriori nos catégories analytiques contemporaines sur des réalités historiques fondamentalement différentes. »",
+      "ka": "სადაც იგონა იმ პერიოდული გამოცვლების გახსენებაზე, მან გააფრთხილა დასუსტებისა იმის მიმართ, რომ მოგვიანებით ჩვენს ანალიტიკურ კატეგორიებს დღევანდელი ჩარჩოებით აღმონაცვლილ რეალობებზე არ გადაგვედგინა.",
+      "answers": [
+        "სადაც იგონა იმ პერიოდული გამოცვლების გახსენებაზე, მან გააფრთხილა დასუსტებისა იმის მიმართ, რომ მოგვიანებით ჩვენს ანალიტიკურ კატეგორიებს დღევანდელი ჩარჩოებით აღმონაცვლილ რეალობებზე არ გადაგვედგინა."
+      ],
+      "note": "Subordination temporelle et mise en garde; soigner le rendu de 'a posteriori' et 'transposer'."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-010",
+      "cefr": "C2",
+      "version": 10,
+      "fr": "Traduisez en géorgien : « Elle conclut sa conférence en invitant l'auditoire à cultiver une curiosité critique, convaincue que c'est elle seule qui permet de conjuguer rigueur scientifique et sensibilité humaine. »",
+      "ka": "მან დაასრულა ლექცია, აუდიტორიას მოუხმო კრიტიკული ცნობის მოყვარეობის გამორჩევისკენ, დარწმუნებული, რომ მხოლოდ სწორედ ეს აერთიანებს სამეცნიერო მკაცრობას და ჰუმანურ მგრძნობელობას.",
+      "answers": [
+        "მან დაასრულა ლექცია, აუდიტორიას მოუხმო კრიტიკული ცნობის მოყვარეობის გამორჩევისკენ, დარწმუნებული, რომ მხოლოდ სწორედ ეს აერთიანებს სამეცნიერო მკაცრობას და ჰუმანურ მგრძნობელობას."
+      ],
+      "note": "Conclusion avec infinitive et conviction; vérifier 'კრიტიკული ცნობის მოყვარეობა' et combinaison 'სამეცნიერო მკაცრობა' + 'ჰუმანური მგრძნობელობა'."
+    }
+  ]
+}

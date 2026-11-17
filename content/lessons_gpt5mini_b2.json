@@ -1,0 +1,409 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "lessons-b2-gen-001",
+      "title": "შესვლა სასტუმროში და პრობლემების ახსნა",
+      "tag": "voyage",
+      "duration": 20,
+      "goal": "ვარჯიშობა სასტუმროს თანამშრომელთან პრობლემების დასახატად და გამოსასწორებლად.",
+      "cefr": "B2",
+      "version": 1,
+      "items": [
+        {
+          "ka": "მე მინდოდა ოთახი, რომელიც გათვლილია ჩაკეტილი ფანჯრით, თუმცა ჩემს ოთახში ფანჯარა ხმაურიან ქუჩაზე იყურებოდა.",
+          "fr": "Je souhaitais une chambre donnant sur une cour fermée, mais ma chambre donnait sur une rue bruyante.",
+          "translit": "Me mindoda otakhi, romelic gatvlili chaketili panjret, togham chems otakhshi panjra zmahurian kuchaze iyurreboda.",
+          "pron": "Me min-do-da o-ta-khi, ro-me-lits gatv-li-li cha-ke-ti-li pan-djret, to-gham chems o-takh-shi pan-dra zma-hu-ri-an ku-cha-ze iu-ru-re-boda."
+        },
+        {
+          "ka": "ბოდიში, მაგრამ ოთახის კონდიციონერი არ მუშაობს — შეგიძლიათ ვინმეს შეკეთება დაევალოთ?",
+          "fr": "Excusez-moi, la climatisation ne fonctionne pas — pourriez-vous demander à quelqu'un de la réparer ?",
+          "translit": "Bodishi, magram otakhis konditsioneri ar mushaobs — shegidzliat vinmes sheketa daevalot?",
+          "pron": "Bo-di-shi, ma-gram o-ta-khis kon-di-tsio-ne-ri ar mu-sha-obs — she-gidz-li-at vin-mes she-ke-ta da-e-va-lot?"
+        },
+        {
+          "ka": "გთხოვთ, შემომთავაზოთ სხვა ოთახი იმავე ფასში ან მცირე ფასის დაბრუნება დააწესოთ.",
+          "fr": "Veuillez me proposer une autre chambre au même prix ou appliquer un petit remboursement.",
+          "translit": "Gt'khovt, shemrothavtot skhva otakhi imeave faseshi an mtseri fasebis dabruneba daatsetot.",
+          "pron": "Gth-khovt, shem-ro-thav-tot skh-va o-ta-khi i-me-a-ve fa-se-shi an mt-se-ri fa-se-bis da-bru-ne-ba daa-tse-tot."
+        },
+        {
+          "ka": "შესაძლებელია თუ არა ოთახის შეცვლა ან ფუნქციური დახუთვა საუნის გამოაზრებაზე?",
+          "fr": "Est-il possible de changer de chambre ou d'obtenir une isolation acoustique à cause du sauna ?",
+          "translit": "Shesadzlebelia tu aris otakhis shecvlis an funks'iuri dakhutva saunis gamoazrpaze?",
+          "pron": "She-sadz-le-be-lia tu a-ris o-ta-khis she-cv-lis an funk-tsi-u-ri da-khu-tva sa-u-nis ga-mo-azr-pa-ze?"
+        },
+        {
+          "ka": "მადლობა, თუ შემოხაზავთ ყველაფერს წერილობით, რათა პრობლემა დამადასტურდეს მის მენეჯერთან.",
+          "fr": "Merci de tout consigner par écrit pour que je puisse faire valoir le problème auprès du manager.",
+          "translit": "Madloba, tu shemokhazavt qvelaperes ts'eriilobit, rata problema damadsturdes mis menejertan.",
+          "pron": "Mad-lo-ba, tu she-mo-kha-zavt kve-la-pe-res tse-ri-i-lo-bit, ra-ta pro-ble-ma da-ma-dstur-des mis me-ne-jer-tan."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-002",
+      "title": "ინდივიდუალური შეფასება სამუშაოზე",
+      "tag": "work",
+      "duration": 25,
+      "goal": "საუბარი ხელმძღვანელთან შესრულების შეფასების მიღების შესახებ და უახლესი მიზნების განსაზღვრა.",
+      "cefr": "B2",
+      "version": 2,
+      "items": [
+        {
+          "ka": "ვფიქრობ, რომ ბოლო ექვს თვეში დავამატე ახალი პროექტით შემოსავალი და მხარი დაგვიდექით გუნდურ წარმატებას.",
+          "fr": "Je pense qu'au cours des six derniers mois j'ai contribué au succès de l'équipe grâce à un nouveau projet.",
+          "translit": "Vt'khop'ro, rom bolo ekvs tvebshi davamateba akhali proyek'tit shemosavali da mkhari dagvidekit gundur warmatebas.",
+          "pron": "Vt'kho-pro, rom bo-lo ekvs tve-bshi da-va-ma-te-ba a-kha-li pro-yek-tit she-mo-sa-va-li da mkha-ri da-gvi-de-kit gun-dur war-ma-te-bas."
+        },
+        {
+          "ka": "მინდა გამოხატო მზარდი პასუხისმგებლობა და ვთხოვო უფრო რთული დავალებების დარიგება.",
+          "fr": "Je souhaite exprimer ma responsabilité croissante et demander des tâches plus complexes.",
+          "translit": "Minda gamokhato mzardi pasukhismgeboba da vt'khov o upro rtuli davalebebis darigeba.",
+          "pron": "Min-da ga-mo-kha-to mzar-di pa-su-khi-smge-bo-ba da vt-khov o u-pro rtu-li da-va-le-bebis da-ri-ge-ba."
+        },
+        {
+          "ka": "ვერ გადავაგდებ ბოლო პროექტის ვადებს, რადგან საჭირო რესურსები არასაკმარისი იყო; შემიძლია პროაქტიულად დავუქმო სხვა გზა?",
+          "fr": "Je n'ai pas pu respecter les délais du dernier projet car les ressources manquaient ; puis‑je proposer une solution proactive ?",
+          "translit": "Ver gadavagdebo bolo proyek'tis vadebs, radgan sach'iro resursebi arasakmarisi iko; shemidzlia proaktiulad davukmo skhva gza?",
+          "pron": "Ver ga-da-vag-de-bo bo-lo pro-yek-tis va-debs, rad-gan sa-ch'i-ro re-sur-se-bi a-ra-sa-kma-ri-si i-ko; she-mid-zli-a pro-ak-ti-u-lad da-vuk-mo skh-va gza?"
+        },
+        {
+          "ka": "მონიშნეთ, რომ ვიმუშავებ დამატებით საათებში პროექტის მიწურულს, თუ შეთანხმდებით ბონუსზე.",
+          "fr": "Indiquez que je travaillerai des heures supplémentaires en fin de projet si vous acceptez une prime.",
+          "translit": "Monishnet, rom vimushav deb damatebit saat'ebshi proyek'tis mits'urs, tu shet'khmnedebit bonusze.",
+          "pron": "Mo-nish-net, rom vi-mu-sha-vdeb da-ma-te-bit saa-t'eb-shi pro-yek-tis mits'-urs, tu she-tkh-mne-de-bit bo-nus-ze."
+        },
+        {
+          "ka": "გთხოვთ მომცეთ კონკრეტული შეფასების კრიტერიუმები, რათა შემდეგზე ზუსტად გავიმეორო.",
+          "fr": "Veuillez me donner des critères d'évaluation précis afin que je puisse m'améliorer.",
+          "translit": "Gt'khovt momcet k'ornktuli shefasebis kriteriumebi, rata shemdegze zkhautan gavimeo ro.",
+          "pron": "Gth-khovt mo-mc'et kor-nk-tu-li she-fa-se-bis kri-te-ri-u-me-bi, ra-ta shem-de-gze zkh-au-tan ga-vi-me-o-ro."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-003",
+      "title": "გამოთქმებისა და მსჯელობის დახვეწა",
+      "tag": "expression",
+      "duration": 30,
+      "goal": "სიტყვების ნაკლებად პირდაპირი ფორმით თქმა და მსუბუქი ირონიაც გამოიყენება.",
+      "cefr": "B2",
+      "version": 3,
+      "items": [
+        {
+          "ka": "არ ვიცი, ხომ არ შეგვიძლია განვიხილოთ ეს ალტერნატივა ცოტა უფრო დეტალურად?",
+          "fr": "Je ne sais pas — ne pourrions‑nous pas envisager cette alternative un peu plus en détail ?",
+          "translit": "Ar vitsi, khom ar shegvidzlia ganvikhilot es alternati va totsa upro detalad?",
+          "pron": "Ar vi-tsi, khom ar sheg-vid-zli-a gan-vi-khi-lot es al-ter-na-ti-va to-tsa u-pro de-ta-lad?"
+        },
+        {
+          "ka": "ეს მიდგომა საინტერესოა, თუმცა შესაძლოა საფინანსო მხილვა გვიჩხავდეს.",
+          "fr": "Cette approche est intéressante, mais elle pourrait être problématique sur le plan financier.",
+          "translit": "Es midgoma interestinga, togham shemightadoba safinanso mkhilva gvitchkhavdes.",
+          "pron": "Es mid-go-ma in-te-res-san-ta, to-gham she-mig-ta-do-ba sa-fi-nan-so mkhil-va gvi-tch-khav-des."
+        },
+        {
+          "ka": "წინააღმდეგობას არ ვამბობ, უბრალოდ მინდა სხვა კუთხითაც დაკვირვება.",
+          "fr": "Je ne m'oppose pas ; je veux juste examiner la question sous un autre angle.",
+          "translit": "Tskhinaghmoba ar vambob, uproda minda skhva kutkhitac dakvriveba.",
+          "pron": "Ts-khi-nagh-mo-ba ar vam-bob, u-pro-da min-da skh-va kut-khi-tats dak-vri-ve-ba."
+        },
+        {
+          "ka": "თუ გნებავთ, შევადგინე რეზიუმე და გამოვაჩენ უკეთეს არგუმენტებს.",
+          "fr": "Si vous voulez, je prépare un résumé et je présenterai de meilleurs arguments.",
+          "translit": "Tu gnebavt, shevadgine reziume da gamovachen uketes argumentebs.",
+          "pron": "Tu gne-bavt, she-vad-gi-ne re-ziu-me da ga-mo-va-chen u-ke-tes ar-gu-men-tebs."
+        },
+        {
+          "ka": "საფიქრებელია, რომ მალე უნდა გადავწყვიტოთ, სანამ რესურსები უფრო ძვირი გახდება.",
+          "fr": "Il est envisageable que nous devions décider bientôt avant que les ressources ne deviennent plus chères.",
+          "translit": "Sapk'irebia, rom male unda gadavts'ritsot, sanam resursebi upro dzviri gakhdeba.",
+          "pron": "Sap-ki-re-bia, rom ma-le un-da ga-dav-ts'ri-tsot, sa-nam re-sur-se-bi u-pro dzvi-ri gakh-de-ba."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-004",
+      "title": "კონტრაქტის მიზნების შეთანხმება",
+      "tag": "business",
+      "duration": 35,
+      "goal": "შემდეგი შეხვედრისთვის შეთანხმების პუნქტების მკაფიოდ გამოხატვა და მოლაპარაკების პირობების განსაზღვრა.",
+      "cefr": "B2",
+      "version": 4,
+      "items": [
+        {
+          "ka": "ჩვენი წინადადება მოიცავს მომსახურების სამი ფაზას და ინდექსაციას წლიურს მიხედვით ინფლაციისა.",
+          "fr": "Notre proposition couvre trois phases de service et une indexation annuelle liée à l'inflation.",
+          "translit": "Chveni ts'inadadeba moitsavs momkhovrebis sami fazas da indeksats'iam ts'liurs miukhedvit inf'latsiisa.",
+          "pron": "Chve-ni tsi-na-da-de-ba moi-tsavs mom-kho-vre-bis sa-mi fa-zas da in-dek-sa-tsi-am ts'li-urs mi-u-khed-vit in-fla-tsi-i-sa."
+        },
+        {
+          "ka": "გვსურს გამრკვევა მომსახურების SLA‑სზე და დასახული ჯარიმების დეტალებზე.",
+          "fr": "Nous souhaitons clarifier le SLA et les détails des pénalités prévues.",
+          "translit": "Gvsurs gamrkveva momkhovrebis SLA‑sze da dasakhuli jarimiebis detalebze.",
+          "pron": "Gv-surs gam-rkve-va mom-kho-vre-bis SLA-sze da da-sa-khu-li ja-ri-mi-e-bis de-ta-le-bze."
+        },
+        {
+          "ka": "შემიძლია შემოგთავაზოთ პუნქტი, რომელიც უზრუნველყოფს რევიუ-ფაზას ყოველ ექვს თვეში ერთხელ.",
+          "fr": "Je peux proposer une clause assurant une phase de révision tous les six mois.",
+          "translit": "Shemida shegrotavtot punk'ti, romelic uzrunvelyofs reviu-phazas yvel ekvs tveshe ertxel.",
+          "pron": "She-mi-da she-gro-tav-tot punk'-ti, ro-me-lits uz-run-ve-ly-ofs re-vyu pha-zas yvel ekvs tve-she ert-khel."
+        },
+        {
+          "ka": "თუ ნახევარი ჩვენი პასუხისმგებლობა გადაიცემა, მივაღწევთ კომპენსაციას შესაბამისი პროცენტით.",
+          "fr": "Si la moitié de notre responsabilité est transférée, nous obtiendrons une compensation avec le pourcentage approprié.",
+          "translit": "Tu nakhevari chveni pasukhismgeboba gadaits'ema, mivatskhvet kompensatsiam shesapeksto protsentit.",
+          "pron": "Tu na-khe-va-ri chve-ni pa-su-khi-smge-bo-ba ga-da-i-ts'e-ma, mi-va-tsh-kvet kom-pen-sa-tsi-am she-sa-pek-sto pro-tsen-tit."
+        },
+        {
+          "ka": "გთხოვთ მოგვაწოდოთ თქვენი სამართლებრივი სტანდარტები კონფიდენციალურობის შესახებ.",
+          "fr": "Veuillez nous fournir vos normes juridiques concernant la confidentialité.",
+          "translit": "Gt'khovt mogvat'odot tkveni samartlebrivi standart'ebi konfidencialobis shesakhe.",
+          "pron": "Gth-khovt mog-va-t'o-dot tkve-ni sa-mar-tle-bri-vi stan-dar-te-bi kon-fi-den-ci-a-lobis she-sa-khe."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-005",
+      "title": "სიტყვიერი ბუფერები და შემცვლელი ფრაზები",
+      "tag": "register",
+      "duration": 15,
+      "goal": "შექმნა მრავალფეროვანი გადაკეთებები საჯარო და არაოფიციალურ კონტექსტებში.",
+      "cefr": "B2",
+      "version": 5,
+      "items": [
+        {
+          "ka": "გამარჯობა — მინდა მოკლე კითხვა დაგისვა, თუ წამოგინებდით რამდენიმე წუთს?",
+          "fr": "Bonjour — j'aimerais poser une courte question si vous aviez quelques minutes ?",
+          "translit": "Gamarjoba — minda mokle kitkhva dagisva, tu ts'amoginbdit ramdenime ts'ut's?",
+          "pron": "Ga-mar-jo-ba — min-da mok-le kit-khva da-gis-va, tu tsa-mo-gin-bdit ram-de-ni-me ts'ut-s?"
+        },
+        {
+          "ka": "მომესმა შენიშვნა, რომელიც შეიძლება უფრო დელიკატურად ჩამოვაყალიბოთ.",
+          "fr": "J'ai entendu une remarque qui pourrait être formulée de manière plus délicate.",
+          "translit": "Momesma shenishvna, romelic shemidzlia upro delimitadur chamovyaqalibot.",
+          "pron": "Mo-mes-ma she-ni-shv-na, ro-me-lits she-mid-zli-a u-pro de-li-ka-tu-rad cha-mov-ya-qa-li-bot."
+        },
+        {
+          "ka": "ბევრად ოფიციალურად გეტყვით: ჩვენ ვაფასებთ თქვენს ვალდებულებებს და მოველით გაგრძელებას.",
+          "fr": "De façon plus formelle : nous apprécions vos engagements et attendons la suite.",
+          "translit": "Bevrad ofits'iurad getkvit: chven vafasebt tkven valdebulebsebisa da movelit maghalasebas.",
+          "pron": "Bev-rad o-fi-tzi-u-rad get-kvit: chven va-fa-sebt tkven val-de-bu-le-bse-bi-sa da mo-ve-lit mag-ha-la-se-bas."
+        },
+        {
+          "ka": "არაფორმალურად კი: კარგი საქმეა, მაინც უნდა გავაგრძელოთ მუშაობა ביחד.",
+          "fr": "Plus familièrement : c'est une bonne chose, il faut quand même continuer à travailler ensemble.",
+          "translit": "Arafoirmalad ki: kargii sak'mea, mainats unda gavagrdzlot mushaoba yikhed.",
+          "pron": "A-ra-for-ma-lad ki: kar-gii sak-me-a, ma-i-nats un-da ga-vag-rdz-lot mu-sha-o-ba yi-khed."
+        },
+        {
+          "ka": "შენიშვნა: სიტყვა \"მაგრამ\" შეიძლება შეიცვალოს \"თუმცა\"‑თ, რათა ტექსტი ზღაპრულად ნაკლებად კონფრონტაციური იყოს.",
+          "fr": "Remarque : le mot « mais » peut être remplacé par « toutefois » pour rendre le texte moins confrontant.",
+          "translit": "Shenishvna: sitk'va \"magram\" shemidzlia sheitsvalos \"toghams\"‑t, rata teksti zghaprulad nakhlebad konfrontatsiuri ikos.",
+          "pron": "She-ni-shv-na: sit-k'va \"ma-gram\" she-mid-zli-a she-it-sva-los \"to-gham\"-t, ra-ta teks-ti zgha-pru-lad na-khle-bad kon-fron-ta-tsi-u-ri i-kos."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-006",
+      "title": "ჰიპოთეტიკური და ნეპერქონდენციონალური პირობები",
+      "tag": "grammar",
+      "duration": 30,
+      "goal": "წარმოების პირობების (conditional) რთული სიცხადე: მეორე და მესამეული ტიპები.",
+      "cefr": "B2",
+      "version": 6,
+      "items": [
+        {
+          "ka": "თუ ადრე გამეცხადებოდი, ალბათ უკეთეს გეგმებს შევადგენდით.",
+          "fr": "Si tu m'en avais parlé plus tôt, nous aurions probablement établi de meilleurs plans.",
+          "translit": "Tu radgan gamechakhedbodi, abalta umetes gheklebsh shestavndet.",
+          "pron": "Tu rad-gan ga-me-cha-khed-bo-di, a-bal-ta u-me-tes ghe-kle-bsh she-sta-ven-det."
+        },
+        {
+          "ka": "თუ ამ პროექტს დავიწყებდით წელსვე, ჩვენ შესაძლებლობა გვექნებოდა უფრო მეტი საცდელი ვერსიის შესამოწმებლად.",
+          "fr": "Si nous avions commencé ce projet cette année, nous aurions la possibilité de tester plus de versions pilotes.",
+          "translit": "Tu am proyek'ts davits'qebdit tsel'sve, chven shakhelmtsipoa gveqneba upro meti sacs'deli versiis shesamotskhebelad.",
+          "pron": "Tu am pro-yek-ts da-vits'-qe-bdit tsel-sve, chven sha-khelm-tsi-po-a gveq-ne-ba u-pro me-ti sac-s'-de-li ver-si-is she-sa-mo-ts-khe-be-lad."
+        },
+        {
+          "ka": "თუ ის იქნებოდა მომზადებული სწორად, ჩვენ მეტ დროს დავჭირდებოდით მისი გაშვებისთვის.",
+          "fr": "S'il avait été correctement préparé, il nous aurait fallu plus de temps pour le déployer.",
+          "translit": "Tu is ikhneba momzadebuli sts'orad, chven met dros davchirdebotid misi gashvebistvis.",
+          "pron": "Tu is ikh-ne-ba mo-mza-de-bu-li ts'o-rad, chven met dros dav-chir-de-bo-tid mi-si ga-shve-bis-tvis."
+        },
+        {
+          "ka": "ამ საკითხის გადაჭრისთვის, თუ საჭირო იქნება, ვცდილობდით ექსპერტის დაქირავებას.",
+          "fr": "Pour résoudre ce point, si nécessaire, nous aurions cherché à engager un expert.",
+          "translit": "Am sak'utis gadachristvis, tu sach'iro ikneba, vts'dilobdit ekspertis daqiravebas.",
+          "pron": "Am sa-ku-tis ga-da-chris-tvis, tu sa-ch'i-ro ik-ne-ba, vt-s'di-lo-bdit eks-per-tis da-qi-ra-ve-bas."
+        },
+        {
+          "ka": "თუ შედეგები დადებითია, შეიძლება ბონუსები გაიხსნას წლიურში.",
+          "fr": "Si les résultats sont positifs, des primes pourraient être débloquées annuellement.",
+          "translit": "Tu shedegebi dadetbia, shemidzlia bonussebi gaiqsnas tsl'uri shi.",
+          "pron": "Tu she-de-ge-bi da-de-tbi-a, she-mid-zli-a bo-nus-se-bi gai-qs-nas ts'lu-ri shi."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-007",
+      "title": "ინფორმაციული სტატიების შესაჯამებლად და გადმოსაცემად",
+      "tag": "media",
+      "duration": 20,
+      "goal": "გავარჯიშდეთ ნიუსის საკვანძო იდეების გამოტანასა და შეკუმშვაში.",
+      "cefr": "B2",
+      "version": 7,
+      "items": [
+        {
+          "ka": "სტატიაში ნათქვამია, რომ უმუშევრობა ბოლო წელიწადში მსუბუქად შემცირდა, თუმცა ახალგაზრდები ყველაზე მეტად დაზარალდნენ.",
+          "fr": "L'article indique que le chômage a légèrement baissé cette année, mais les jeunes ont été les plus touchés.",
+          "translit": "Statiashi nat'khamia, rom umushevrobo bolo ts'elicadshi msubugad shemts'rida, togham aghdgomrebi yvelaze metad dazarladnen.",
+          "pron": "Sta-ti-a-shi nat-kha-mi-a, rom u-mu-she-vro-bo bo-lo ts'e-li-cad-shi msu-bu-gad shemts'-ri-da, to-gham agh-dgo-mre-bi yve-la-ze me-tad da-za-rlad-nen."
+        },
+        {
+          "ka": "ავტორი ამტკიცებს, რომ მთავრობა არ რეაგირებდა დროულად, რის გამოც კრიტიკა გაიზარდა.",
+          "fr": "L'auteur affirme que le gouvernement n'a pas réagi à temps, ce qui a augmenté les critiques.",
+          "translit": "Avtori amt'kicebs, rom mtavroba ar reagirebad drovlad, ris warmisa kritika gaizarda.",
+          "pron": "Av-to-ri amt'-ki-ce-bs, rom mta-vro-ba ar re-a-gi-re-bad dro-vlad, ris war-mi-sa kri-ti-ka gai-zar-da."
+        },
+        {
+          "ka": "გთხოვთ მოირჩიოთ თხრობის მთავარი არგუმენტი და დაწეროთ ერთი-ორი წინადადება საკუთარი სიტყვებით.",
+          "fr": "Veuillez identifier l'argument principal du récit et rédiger une ou deux phrases avec vos propres mots.",
+          "translit": "Gt'khovt moirchiot tk'hrovis mtavari argumenti da datserot erti-ori ts'inadadeba sakutari sitk'vebit.",
+          "pron": "Gth-khovt moi-rchi-ot tkh-ro-vis mta-va-ri ar-gu-men-ti da dat-se-rot er-ti-o-ri tsi-na-da-de-ba sa-ku-ta-ri sit-k'v'e-bit."
+        },
+        {
+          "ka": "ნიუსბრიფინგი აღნიშნავს, რომ მონაცემები ჯერ არ არის საბოლოო და კვლევები განაგრძობენ.",
+          "fr": "Le communiqué précise que les données ne sont pas définitives et que les recherches se poursuivent.",
+          "translit": "Niuzbrifingi adamts'nebs, rom monacemebi jer ar aris sawyaro da kvlevebi ganagrdzoben.",
+          "pron": "Niu-zbri-fin-gi ad-am-ts'-nebs, rom mo-na-ce-me-bi jer ar a-ris sa-wya-ro da kv-le-ve-bi ga-na-grdz-o-ben."
+        },
+        {
+          "ka": "შეჯამებისას, ყურადღება გააკეთეთ მიზეზ-სულაბემსა და გარდამავალ შედეგებზე.",
+          "fr": "Pour conclure, concentrez-vous sur la cause principale et les conséquences à venir.",
+          "translit": "Shejamiebisash, uchekveteba gaaketet mizez-sulabemsa da gardamaval shedegebsaze.",
+          "pron": "She-ja-mi-e-bis-ash, u-che-kve-te-ba gaa-ke-tet mi-zez-su-la-bem-sa da gar-da-ma-val she-de-geb-sa-ze."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-008",
+      "title": "კულტურული ნარატივი და ტონური მნიშვნელობა",
+      "tag": "culture",
+      "duration": 25,
+      "goal": "სწავლა, როგორ გამოვხატოთ სიფრთხილე კულტურულ თემებზე და ვუპასუხოთ ნიუანსებრივ კომენტარებს.",
+      "cefr": "B2",
+      "version": 8,
+      "items": [
+        {
+          "ka": "აქაურობის შესახებ რაიმე ზედაპირულ შეფასებასა არ მთავრდება — უკეთესია კონკრეტულ ფაქტებზე დაყრდნობით საუბარი.",
+          "fr": "Éviter un jugement superficiel sur la communauté locale — mieux vaut parler en se basant sur des faits concrets.",
+          "translit": "Akaurobis shesakheb raime zedapisrul shefasebesa ar mtavrdas — uketesia konkretul fakt'ebze dayrdnobit saubari.",
+          "pron": "A-kaa-u-ro-bis she-sa-kheb ra-i-me ze-da-pis-rul she-fa-se-be-sa ar mta-vr-das — u-ke-te-si-a kon-kre-tul fak-teb-ze da-yrd-no-bit sa-u-ba-ri."
+        },
+        {
+          "ka": "რელიგიური რიტუალების აღწერაში გამოიყენეთ პატივისცემა და მიუთითეთ წყაროზე.",
+          "fr": "En décrivant des rituels religieux, employez le respect et citez vos sources.",
+          "translit": "Religiuri ritualebis ach'erash gamoeginebdit pativistvema da miut'it'et tsqaroze.",
+          "pron": "Re-li-gi-u-ri ri-tu-a-le-bis a-ch'er-a-sh ga-mo-e-gi-neb-dit pa-ti-vis-tve-ma da mi-u-ti-t'et tsa-rro-ze."
+        },
+        {
+          "ka": "როდესაც საუბრობთ იθνობაზე, შეეცადეთ სტერეოტიპების გამოყენების თავიდან აცილება.",
+          "fr": "Quand vous parlez d'ethnicité, évitez d'employer des stéréotypes.",
+          "translit": "Rodasats saubrobt ethnobaze, sheetsadet stereotipebis gamoegzvethvis atavidan acileba.",
+          "pron": "Ro-da-sats sa-u-brobt e-thno-ba-ze, she-ets-a-det ste-re-o-ti-pe-bis ga-mo-eg-zve-t-hvis a-ta-vi-dan a-ci-le-ba."
+        },
+        {
+          "ka": "თუ ნიჭიერ ადამიანზე წერ, შეიძლება გამოკვეთო მისი გავლენა საზოგადოებაზე და არა მხოლოდ პირადი გავლენა.",
+          "fr": "En écrivant sur une personnalité talentueuse, vous pouvez souligner son influence sur la société plutôt que seulement personnelle.",
+          "translit": "Tu nicheir adamianze tser, shemidzlia gamokveto misi gavlena sazogadoebaze da ara mxolod piradi gavlena.",
+          "pron": "Tu ni-che-ir a-da-mi-an-ze tser, she-mid-zli-a ga-mo-kve-to mi-si gav-le-na sa-zo-ga-do-e-ba-ze da a-ra mxo-lod pi-ra-di gav-le-na."
+        },
+        {
+          "ka": "შესაძლებელია გამოკითხოთ ადგილობრივები, რათა მათი ხილვა პირდაპირ გაგვაძლიეროს ნარატივში.",
+          "fr": "Il peut être utile d'interroger des locaux pour renforcer leur présence dans le récit.",
+          "translit": "Shesadzlebelia gamokhitot adgiloc'k'ivebi, rata mati khilva pirobats gavadzliyeros narativshi.",
+          "pron": "She-sadz-le-be-lia ga-mo-khi-tot ad-gi-lo-ts'k'i-ve-bi, ra-ta ma-ti khil-va pi-ro-bats ga-va-dzli-ye-ros na-ra-tiv-shi."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-009",
+      "title": "რელევანტური იდიომები სამუშაოსა და ყოველდღიურობაში",
+      "tag": "idioms",
+      "duration": 15,
+      "goal": "სწავლის იდიომური გამოთქმათა აღქმა და შესაცვლელად გამოყენება წერისა და საუბრის დროს.",
+      "cefr": "B2",
+      "version": 9,
+      "items": [
+        {
+          "ka": "არ დავკარგოთ ფოლადოვანი — ეს ნიშნავს, რომ არ დავთმოთ პოზიციები ადვილად.",
+          "fr": "Ne perdons pas le cap — cela signifie ne pas céder facilement nos positions.",
+          "translit": "Ar davkargot foladovani — es nishnavs, rom ar davtmot pozitsiebi advilad.",
+          "pron": "Ar dav-kar-got fo-la-do-va-ni — es nish-navs, rom ar dav-tmot po-zi-tsi-e-bi ad-vi-lad."
+        },
+        {
+          "ka": "მისი იდეა ნამდვილად დამწყვდეული იყო, თითქოს ის ჩათლავდა მეხსიერების ნაპრალში.",
+          "fr": "Son idée était vraiment coincée, comme si elle restait coincée dans une faille de mémoire.",
+          "translit": "Misi idea nanmadsravla damts'vqduli iko, tskhovshi is chatlavda mexsieveris naprali.",
+          "pron": "Mi-si i-de-a na-n-mad-srav-la dam-ts'vqd-u-li i-ko, ts-khov-shi is chat-lav-da mex-sie-ve-ris na-pra-li."
+        },
+        {
+          "ka": "ჩვენმა გუნდმა ბოლოს ყველაფერი წყლის ზედა ნაწილში გადაიყვანა — ყველაფერი კარგად არ იყო გათვალისწინებული.",
+          "fr": "Notre équipe a mis les choses à la surface de l'eau — tout n'était pas bien réfléchi.",
+          "translit": "Chvenma gundma boslos qvelaperi ts'khlis zeda nalisshi gadaiyvana — qvelaperi kargad ar iko gatvalisrafebuli.",
+          "pron": "Chven-ma gund-ma bos-los kve-la-pe-ri ts'kh-lis ze-da na-lish-shi ga-dai-yva-na — kve-la-pe-ri kar-gad ar i-ko gat-va-lis-ra-fe-bu-li."
+        },
+        {
+          "ka": "ეს მოვლენა გახდა საფრთხე მგოსნობისთვის — სიტუაცია ფეხზე გადმოგვდიოდა.",
+          "fr": "Cet événement est devenu un casse‑tête pour la gestion — la situation nous échappait.",
+          "translit": "Es movlena gakhl da saprtkhe mgosnobistvis — situatsia pekhze gadmogvdioda.",
+          "pron": "Es mov-le-na gak-hl-da sap-rth-khe mgo-snobi-stvis — si-tu-a-tsi-a pekh-ze gad-mo-gv-di-o-da."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b2-gen-010",
+      "title": "აფორმალური წერილი ბეჭდვითი სახით: თხოვნა და მიზეზის დასაბუთება",
+      "tag": "formal",
+      "duration": 30,
+      "goal": "წერილის სტრუქტურისა და ტონის ბალანსი ფორმალური თხოვნის გაკეთებისთვის.",
+      "cefr": "B2",
+      "version": 10,
+      "items": [
+        {
+          "ka": "გთხოვთ განიხილოთ ჩემი განაცხადი და მომცეთ პასუხი ორი კვირის განმავლობაში.",
+          "fr": "Veuillez examiner ma candidature et me répondre dans un délai de deux semaines.",
+          "translit": "Gt'khovt ganvikhilot chemi gamoidavi da momcet p'aspisi ori khvirebis ganakhdomshi.",
+          "pron": "Gth-khovt gan-vi-khi-lot che-mi ga-moi-da-vi da mo-mc'et pa-spi-si o-ri khvi-re-bis ga-nakh-dom-shi."
+        },
+        {
+          "ka": "ვფიქრობ, ჩემი გამოცდილება და კომპეტენციები შეესაბამება თქვენს მოთხოვნებს.",
+          "fr": "Je pense que mon expérience et mes compétences correspondent à vos exigences.",
+          "translit": "Vt'khop'ro, chemi gamotsdileba da kompetentsiebi sheesabameba tkvens motkhobrebs.",
+          "pron": "Vt'kho-pro, che-mi ga-mot-sdi-le-ba da kom-pe-ten-tsi-e-bi she-e-sa-ba-me-ba tkvens mot-kho-brebs."
+        },
+        {
+          "ka": "თუ მიიღებთ პოზიციას, მზად ვარ გადავიღო დამატებითი პასუხისმგებლობები და მომატებული პირობები განიხილოთ.",
+          "fr": "Si vous m'accordez le poste, je suis prêt à assumer des responsabilités supplémentaires et à discuter de conditions revalorisées.",
+          "translit": "Tu miighebdit pozitsias, mzad var gadavigo damatebiti pasukhismgebobebi da momat'eted pirobebis ganvikhot.",
+          "pron": "Tu mi-i-gheb-dit po-zi-tsi-as, mdzad var ga-da-vi-go da-ma-te-bi-ti pa-su-khi-smge-bo-be-bi da mo-ma-te-d pi-ro-be-bis gan-vi-khot."
+        },
+        {
+          "ka": "მადლობა წინასწარ თქვენი დროისა და ყურადღებისთვის. ვიმედოვნებ ოპორტუნულ რეზულტატს.",
+          "fr": "Merci d'avance pour votre temps et votre attention. J'espère un résultat opportun.",
+          "translit": "Madloba ts'insatsar tkveni drosa da uchekvetebisat. Vimedo vneb oport'unul rezul'tats.",
+          "pron": "Mad-lo-ba tsi-na-tsar tkve-ni dro-sa da u-che-kve-te-bis-at. Vi-me-dov-neb op-or-tu-nul re-zu-l-tats."
+        },
+        {
+          "ka": "დაბოლოს, გთხოვთ, צורეთ შეთანხმების პროექტი ელფოსტით, თუ აუცილებელია კვალიფიკაციის დამადასტურებელი დოკუმენტის გამოძენება.",
+          "fr": "Enfin, veuillez envoyer le projet d'accord par e‑mail si un justificatif de qualification doit être fourni.",
+          "translit": "Dabolos, gt'khovt, ts'oret shet'khmenebis proyekti el'positit, tu aujayebelia kvalifikaciis damadstur-ebeli dokumentis gamodzeneva.",
+          "pron": "Da-bo-los, gth-khovt, tso-ret shet-khme-ne-bis pro-yek-ti el-fo-s-ti-t, tu au-ja-ye-be-li-a kva-li-fi-ka-ci-is da-ma-ds-tu-re-be-li do-ku-men-tis ga-mo-dze-ne-va."
+        }
+      ]
+    }
+  ]
+}

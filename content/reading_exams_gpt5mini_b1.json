@@ -1,0 +1,555 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "reading_exams-b1-gen-001",
+      "title": "კვირის ბოლო ტბილის ქუჩებში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 1,
+      "text": "თბილისში ყოფნისას მე მეცოდინებოდა, რომ კვირის ბოლოს ქალაქი უფრო ცოცხალია. მე დავიწყე სკვერიდან, სადაც ხალხი კაფეების ტერასებზე ისხდნენ და მუსიკა მოისმინეს. გადავიდა გალაკტიონზე, შემდეგ წყლის წუბიდან ბუნძის პარკამდე. ჩემი მიზანი იყო ნახვა სულგუნის ბაზარი და სუფრა ფლავორის გამწვავება — ბაზრის ბენჩები სავსეა ხელნაკეთი ნივთებით, ძველებური ფოტოების გულდასმით მოთავსებული კუთხეებით და წიგნების პატარა კედლებით. გამეხდა ნახვა ქუჩის მხატვრების და მათთან საუბარი. საღამოს, სანატრელი საღებავით დატვირთულ ქუჩებს მოჰყვა თბილი შუქების რიგი. მივაგენი სუფლის ბარში, სადაც დაქალაქებული აფხაზური და ქართული კერძები იყო შესანიშნავად მომზადებული. მეტის გაცნობის სურვილი მქონდა, ამიტომ დავტოვე მისამართები და უსაფრთხო რჩევები ტურისტებისთვის. თბილისში ასეთი დღეები მმახსოვრდება — გარეთ სიარული, ხელოვნების შეხება და ახალი გემოებისა და ადამიანების აღმოჩენა.",
+      "translation": "Lors de mon séjour à Tbilissi, je savais que la ville était plus animée le week-end. J'ai commencé par un square où des gens étaient assis sur les terrasses des cafés et écoutaient de la musique. Je suis passé par Galaktion, puis du petit pont d'eau jusqu'au parc Bundzi. Mon objectif était de voir le marché du Sulguni et d'apprécier les saveurs — les étals du marché sont remplis d'objets artisanaux, de coins soigneusement remplis de photos anciennes et de petites étagères de livres. J'ai été heureux de voir des artistes de rue et de parler avec eux. Le soir, aux rues chargées de couleurs succéda une file de lumières chaudes. Je suis arrivé dans un bar-restaurant où des plats abkhazes et géorgiens étaient parfaitement préparés. Je voulais en savoir plus, alors j'ai noté des adresses et des conseils de sécurité pour les touristes. Des journées comme celle-ci à Tbilissi me restent en mémoire — marcher dehors, toucher l'art et découvrir de nouvelles saveurs et personnes.",
+      "questions": [
+        {
+          "question": "Quel était l'objectif principal de la personne pendant sa promenade à Tbilissi ?",
+          "options": [
+            "Regarder un match de football au stade.",
+            "Voir le marché et goûter des saveurs locales.",
+            "Visiter un musée d'art moderne.",
+            "Assister à un concert dans un parc."
+          ],
+          "answer": "Voir le marché et goûter des saveurs locales.",
+          "explanation": "Le texte mentionne explicitement que son objectif était de voir le marché du Sulguni et d'apprécier les saveurs, en visitant les étals et les stands de nourriture."
+        },
+        {
+          "question": "Quelle activité a-t-il faite en soirée ?",
+          "options": [
+            "Il est allé nager dans une piscine publique.",
+            "Il a assisté à une lecture de livres.",
+            "Il est allé dans un bar-restaurant pour dîner.",
+            "Il a pris un train pour une autre ville."
+          ],
+          "answer": "Il est allé dans un bar-restaurant pour dîner.",
+          "explanation": "Le texte indique qu'il est arrivé dans un \"სუფლის ბარში\" (bar-restaurant) où des plats étaient préparés, ce qui correspond à dîner sur place."
+        },
+        {
+          "question": "Que peut-on déduire du passage sur les artistes de rue ?",
+          "options": [
+            "Les artistes de rue vendaient uniquement des boissons.",
+            "L'auteur a ignoré les artistes et a continué sa route.",
+            "Les artistes de rue faisaient partie de l'atmosphère et l'auteur a parlé avec eux.",
+            "Les artistes organisaient un atelier payant."
+          ],
+          "answer": "Les artistes de rue faisaient partie de l'atmosphère et l'auteur a parlé avec eux.",
+          "explanation": "Le texte dit explicitement qu'il fut content de voir les artistes de rue et qu'il a parlé avec eux, montrant qu'ils ont enrichi l'expérience."
+        },
+        {
+          "question": "Quel mot du texte signifie « terrasses des cafés » en français ?",
+          "options": [
+            "სკვერი",
+            "ტერასა",
+            "ბენჩები",
+            "პარკი"
+          ],
+          "answer": "ტერასა",
+          "explanation": "Le mot géorgien « ტერასა » correspond à « terrasse », ici utilisé pour les terrasses des cafés; les autres mots signifient square, bancs et parc."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-002",
+      "title": "ღვინის ტრადიციები კახეთში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 2,
+      "text": "კახეთი, საქართველოს ცნობილი ღვინის რეგიონი, ხშირად არის მიზანი მოკლე ვიზიტებისთვის. ჩემი მეგობარი და მე გადავწყვიტეთ სამდღიანი გამგზავრება: სტუმრობები ოჯახურ მარანებს, საწარმოებს და ტრადიციულ ჭამას. პირველი დღე დავუთმეთ ყურძნის პლანტაციებსა და ხრამებს — ადგილობრივი მოსახლეობა ყურძენს ვარჯიშში აგროვებდა და გვიხსნიდა, რატომ არის მნიშვნელოვანია ტრადიციული მეთოდები. მეორე დღეს სტუმრად ვიყავით მარანში; موږ ვიხილეთ ჭაჭა და ღვინის დაძველების ტრადიცია დიდ კუთხედებში, ვეცადეთ ვისიამოვნოთ ადგილობრივ მწვავე კერძებთან ერთად. მეორე ღამეს სახლში დარჩენა მასპინძლის ოჯახთან იყო: გვქონდა პატარა სუფრა, საუბარი და ტოსტის ცერემონია; ის გვასწავლა როგორ უნდა აღვნიშნოთ სტუმართმოყვარეობა ქართულად. ბოლო დღეს მივეცით ყურადღება მშენებლობას და ხელნაკეთ რეკვიიზიტს, რომელიც გამოიყენება ღვინის სადენში. წლების განმავლობაში აღმოვაჩინე, რომ აქ საქმე არა მხოლოდ პროდუქტს ეხება, არამედ საზოგადოებას, ისტორიას და ურთიერთდახმარებას ადგილობრივ დონეზე.",
+      "translation": "Kakheti, la célèbre région viticole de Géorgie, est souvent une destination pour de courtes visites. Mon ami et moi avons décidé d'un voyage de trois jours : visites de caves familiales, des ateliers et de repas traditionnels. Le premier jour, nous avons consacré du temps aux plantations de raisins et aux vignes — les habitants récoltaient les raisins dans les rangées et expliquaient pourquoi les méthodes traditionnelles sont importantes. Le deuxième jour, nous avons visité une cave ; nous avons vu la tchacha et la tradition de vieillissement du vin dans de grands fûts, et essayé d'en profiter avec des plats locaux épicés. La deuxième nuit, nous avons logé chez la famille d'accueil : nous avons eu une petite table, des conversations et la cérémonie du toast ; ils nous ont appris comment marquer l'hospitalité à la géorgienne. Le dernier jour, nous avons prêté attention aux constructions et aux objets artisanaux utilisés dans la filière vinicole. Au fil des ans, j'ai découvert que ce n'est pas seulement le produit qui compte ici, mais la communauté, l'histoire et l'entraide au niveau local.",
+      "questions": [
+        {
+          "question": "Combien de jours a duré le voyage en Kakheti ?",
+          "options": [
+            "Un jour.",
+            "Deux jours.",
+            "Trois jours.",
+            "Une semaine."
+          ],
+          "answer": "Trois jours.",
+          "explanation": "Le texte indique clairement qu'ils ont décidé d'un voyage de trois jours (« სამდღიანი გამგზავრება »)."
+        },
+        {
+          "question": "Quelle activité décrit le texte pour le deuxième jour ?",
+          "options": [
+            "Visite d'un musée d'histoire locale.",
+            "Visite d'une cave et dégustation avec des plats locaux.",
+            "Randonnée en montagne toute la journée.",
+            "Cours de cuisine moderne."
+          ],
+          "answer": "Visite d'une cave et dégustation avec des plats locaux.",
+          "explanation": "Le texte précise que le deuxième jour ils ont visité un marani (cave) et ont vu le vieillissement du vin, en dégustant avec des plats locaux."
+        },
+        {
+          "question": "Que signifie l'expression « ტოსტის ცერემონია » dans ce contexte ?",
+          "options": [
+            "Une cérémonie de mariage.",
+            "Une cérémonie de coupe du vin.",
+            "La tradition de porter des toasts lors d'un repas.",
+            "Un rituel pour planter des vignes."
+          ],
+          "answer": "La tradition de porter des toasts lors d'un repas.",
+          "explanation": "« ტოსტის ცერემონია » se réfère à la cérémonie des toasts, typique des repas géorgiens, où l'on porte plusieurs discours et toasts."
+        },
+        {
+          "question": "Quelle idée générale ressort du dernier paragraphe ?",
+          "options": [
+            "Le vin géorgien est le seul élément important de la région.",
+            "La région est dangereuse et mal organisée.",
+            "La production du vin est liée à la communauté, l'histoire et l'entraide.",
+            "Les installations sont modernes et sans traditions."
+          ],
+          "answer": "La production du vin est liée à la communauté, l'histoire et l'entraide.",
+          "explanation": "Le texte conclut en expliquant que ce qui compte ce n'est pas seulement le produit, mais aussi la communauté, l'histoire et l'entraide locale."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-003",
+      "title": "თანამედროვე ქალაქის ცხოვრება",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 3,
+      "text": "ბატონი ლევანი ამ ქალაქში ცხოვრობს უკვე შვიდი წელია. სამსახურში მეტრო იყენებს, რადგან გზაჯვარედინზე ავტოსატრანსპორტო მოძრაობა ხშირად იკეტება. დილით ის უპირატესად მოგვიანებით დგება, რადგან საღამოს გატარებული დრო ხშირად მეგობრებთან ან ნათესავებთან ერთობლივი ვახშმით სრულდება. სამუშაო დღე ჩვეულებრივ ცხრა საათიდან ექვსამდე გრძელდება, თუმცა ხშირად პროექტების დამთავრების გამო უფრო გვიან ბრუნდება. უახლესი წლის განმავლობაში ქალაქში რამდენიმე ახალი ველობილიკი გაიხსნა და ლევანი ცდილობს კვირის ბოლოს რამოდენიმე საათი ფეხით ან ველოსიპედით გაიაროს. ის სარგებლობს პატარა ახლომყუდრო სასურსათო ბაზრით, სადაც მყიდველები ხშირად ერთმანეს იცნობენ და ფასზე მცირე მოლაპარაკებებსაც აკეთებენ. დასვენების დღეს, ლევანია და მისი მეგობრები ხშირად პარკში იკრიბებიან, რათა წიგნები წაიკითხონ ან ჩოგბურთი ითამაშონ. მიუხედავად ხმაურის და სიჩქარისა, ლევანი ქალაქში ცხოვრების მატერიალური და სოციალურ შესაძლებლობებს აფასებს და მომწონს მრავალფეროვანი კულტურული ღონისძიებები, რომლებიც სოფლის სეზონთან შედარებით უფრო ხშირია.",
+      "translation": "Monsieur Levan vit dans cette ville depuis déjà sept ans. Il utilise le métro pour aller au travail, car les carrefours sont souvent encombrés par la circulation automobile. Le matin, il préfère se lever un peu plus tard parce que ses soirées se terminent souvent par des dîners avec des amis ou des proches. Sa journée de travail dure habituellement de neuf heures à dix-huit heures, mais il rentre souvent plus tard à cause de la finalisation des projets. Cette dernière année, plusieurs nouvelles pistes cyclables ont été ouvertes dans la ville et Levan essaie de marcher ou de faire du vélo quelques heures pendant le week-end. Il fréquente un petit marché alimentaire de quartier où les acheteurs se connaissent souvent entre eux et négocient parfois un peu les prix. Le jour de repos, Levan et ses amis se retrouvent souvent au parc pour lire des livres ou jouer au tennis. Malgré le bruit et la vitesse, Levan apprécie les possibilités matérielles et sociales de la vie en ville et il aime la diversité des événements culturels, qui sont plus fréquents que dans son village.",
+      "questions": [
+        {
+          "question": "Pourquoi Levan prend-il le métro pour aller au travail ?",
+          "options": [
+            "Parce que le métro est gratuit.",
+            "Parce que les carrefours sont souvent encombrés par la circulation.",
+            "Parce qu'il n'aime pas marcher.",
+            "Parce que son bureau est à côté de la station."
+          ],
+          "answer": "Parce que les carrefours sont souvent encombrés par la circulation.",
+          "explanation": "Le texte précise qu'il utilise le métro parce que la circulation automobile aux carrefours se bloque souvent."
+        },
+        {
+          "question": "Que fait Levan le week-end depuis l'ouverture des nouvelles pistes cyclables ?",
+          "options": [
+            "Il travaille sur ses projets professionnels.",
+            "Il essaie de marcher ou de faire du vélo quelques heures.",
+            "Il va toujours au cinéma.",
+            "Il voyage à la campagne tous les samedis."
+          ],
+          "answer": "Il essaie de marcher ou de faire du vélo quelques heures.",
+          "explanation": "Le texte indique que, depuis l'ouverture des pistes cyclables, il tente de marcher ou d'utiliser un vélo pendant quelques heures le week-end."
+        },
+        {
+          "question": "Quel est un aspect social du marché où Levan fait ses courses ?",
+          "options": [
+            "Les vendeurs chantent des chansons.",
+            "Les acheteurs se connaissent souvent et négocient parfois les prix.",
+            "On y vend seulement des produits importés.",
+            "Le marché est ouvert 24 heures sur 24."
+          ],
+          "answer": "Les acheteurs se connaissent souvent et négocient parfois les prix.",
+          "explanation": "Le passage mentionne explicitement que les acheteurs se connaissent et font de petites négociations sur les prix."
+        },
+        {
+          "question": "Pourquoi Levan apprécie la vie en ville malgré le bruit ?",
+          "options": [
+            "Parce qu'il préfère construire une maison en ville.",
+            "Parce qu'il aime la diversité des événements culturels et les possibilités matérielles et sociales.",
+            "Parce qu'il ne connaît personne à la campagne.",
+            "Parce qu'il travaille moins en ville."
+          ],
+          "answer": "Parce qu'il aime la diversité des événements culturels et les possibilités matérielles et sociales.",
+          "explanation": "Le texte affirme que malgré le bruit, il apprécie les possibilités matérielles et sociales et la diversité des événements culturels."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-004",
+      "title": "ჯეოგრაფიული მოგზაურობა და ადგილობრივი კერძები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 4,
+      "text": "სოფელ მაღალაშვილში ახლახან ტურისტული ციკლური მარშრუტი გაიხსნა. მარშრუტი ჩრდილოეთის პატარა ლაშქრობათა ბილიკებით იწყება და შემდეგ მდინარის ნაპირით მიემართება პატარა მარანთან, სადაც ადგილობრივები ღვინოს ამზადებენ. მოგზაურებს წინასწარ აწვდიან რჩევებს სასიგრილეს და ფეხსაცმლის არჩევაზე, რადგან ნაწილი გზისა პატარა ქვასაყრელებით არის დაფარული. მოგზაურობის ბოლოს სტუმრებს ასპარეზზე შეაქვთ რეგიონის ტრადიციული კერძები: ჭორჭყალაც, ცხელი ხარჩოც და მრგვალი პურის ნამცხვარი. მასპინძლები ანაწილებენ ისტორიებს სოფლის შესახებ და სტუმრები ხშირად მონაწილეობენ ადგილობრივ სოფლის დღესასწაულში, სადაც ცეკვები და სიმღერები იმართება მთელი საღამო. მარშრუტი მიზნად ისახავს არა მხოლოდ ბუნების გაცნობას, არამედ ადგილობრივი ეკონომიკის მხარდაჭერას: მცირე ოჯახურ საწარმოებს უფრო მეტი სტუმარი აკავშირებს გაყიდვებთან და გაცვლით. შემოდგომისა და გაზაფხულის სეზონზე ტემპერატურა მშვიდია და ამ დროს ტურისტებისთვის საუკეთესო პირობებია, ხოლო ზაფხულში ბევრი სტუმარი მოსულობს თბილი ამინდების გამო.",
+      "translation": "Un circuit touristique a récemment été inauguré au village de Magalashvili. Le parcours commence par de petits sentiers de randonnée au nord, puis longe la rive de la rivière jusqu'à une petite cave où les habitants produisent du vin. Les voyageurs reçoivent des conseils à l'avance sur le choix d'un vêtement chaud et des chaussures, car une partie du chemin est couverte de petits éboulis. À la fin de la promenade, les visiteurs dégustent les plats traditionnels de la région : chortkhala, une soupe chaude kharcho et un pain rond cuit. Les hôtes partagent des histoires sur le village et les visiteurs participent souvent à la fête locale, où danses et chants durent toute la soirée. Le circuit vise non seulement à faire connaître la nature, mais aussi à soutenir l'économie locale : plus de visiteurs apportent des ventes et des échanges aux petites entreprises familiales. Au printemps et en automne, la température est douce et ces périodes offrent les meilleures conditions aux touristes, tandis qu'en été beaucoup de visiteurs viennent en raison du temps chaud.",
+      "questions": [
+        {
+          "question": "Comment commence principalement le circuit touristique ?",
+          "options": [
+            "Par une visite à la cave uniquement.",
+            "Par de petits sentiers de randonnée au nord.",
+            "Par un trajet en bus autour du village.",
+            "Par une dégustation de plats traditionnels."
+          ],
+          "answer": "Par de petits sentiers de randonnée au nord.",
+          "explanation": "Le texte indique que le trajet débute sur de petits sentiers de randonnée au nord."
+        },
+        {
+          "question": "Pourquoi les voyageurs reçoivent-ils des conseils sur les vêtements et chaussures ?",
+          "options": [
+            "Parce que le village est très froid toute l'année.",
+            "Parce qu'une partie du chemin est recouverte de petits éboulis.",
+            "Parce qu'il faut nager dans la rivière.",
+            "Parce que les hôtels exigent une tenue spécifique."
+          ],
+          "answer": "Parce qu'une partie du chemin est recouverte de petits éboulis.",
+          "explanation": "Le texte explique qu'on conseille des vêtements chauds et des chaussures adaptées car certaines parties du chemin ont des petits éboulis."
+        },
+        {
+          "question": "Quel est l'un des objectifs du circuit en plus de faire découvrir la nature ?",
+          "options": [
+            "Construire de nouveaux hôtels de luxe.",
+            "Augmenter la production industrielle du village.",
+            "Soutenir l'économie locale et les petites entreprises familiales.",
+            "Remplacer les traditions par des spectacles modernes."
+          ],
+          "answer": "Soutenir l'économie locale et les petites entreprises familiales.",
+          "explanation": "Le passage précise que le circuit vise aussi à soutenir l'économie locale en apportant des ventes et des échanges aux petites entreprises familiales."
+        },
+        {
+          "question": "Quelle saison est décrite comme favorable pour les touristes, à part l'automne ?",
+          "options": [
+            "L'hiver, car il y a beaucoup de neige.",
+            "Le printemps, car la température est douce.",
+            "L'été uniquement, à cause de la chaleur.",
+            "La saison des pluies."
+          ],
+          "answer": "Le printemps, car la température est douce.",
+          "explanation": "Le texte mentionne que le printemps et l'automne ont des températures douces et sont les meilleures périodes pour les touristes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-007",
+      "title": "ბაზარში ახალი პროდუქტი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 7,
+      "text": "თბილისის მეტროდან კუთხეში მდებარე პატარა ბაზარში სოფლის პროდუქტი ყოველთვის სანახაობაა. წელიწადში ერთხელ ბაზარში ჩასულ ხოლმე ჩემი მეგობარი ანა, რომელიც სამცხე–ჯავახეთიდან შემოდის. წელსაც ის ყვებოდა, რომ მრავალწლოვანი ფერმის მიწები მათ ოჯახს უვლის; ისევ ეზოში დარგეს ახალი ვენახი და საწინა წლისგან განსხვავებით, ყურძენი მნიშვნელოვნად მომწიფდა. ბაზარში მყიდველები აკვირდებიან ახალ პროდუქტებს, ჩასინჯავენ ყველს და სახნავ-ბოსტნეულს, ისე რომ ვაჭრობა ზოგჯერ საათობით გრძელდება. ანა მირჩია, რომ შევიძინო ინტერიერისთვის პატარა ქვევრი და რამდენიმე ტრადიციული სამკერვალო ნამატი, რომლებიც მათი რაიონიდან მოჰქონდათ. მე ვუთხარი, რომ მიმაჩნია მნიშვნელოვანია ადგილობრივი ფერმერების მხარდაჭერა, მაგრამ მცირე ადგილობრივ მომწოდებლებს ხშირად უჭირთ ბაზრის მაღალი მოთხოვნასთან გამკლავება. ბოლოს ერთად გადავწყვიტეთ, რომ ზაფხულში მშობლებთან ავიდოდით და ფერმაში საქმეებში დავეხმარებოდით, რათა უკეთ გავეცნოთ წარმოების პროცესს და იქითიდან პირდაპირ მივიტანოთ პროდუქტი ქალაქში.",
+      "translation": "Le petit marché situé à un coin près du métro de Tbilissi est toujours un spectacle pour les produits de la campagne. Une fois par an, mon amie Ana vient, elle arrive de Samtskhé-Javakhét. Cette année encore, elle racontait que les terres de la ferme familiale sont entretenues depuis des générations ; ils ont planté une nouvelle vigne dans la cour et, contrairement à l'année précédente, les raisins ont beaucoup mûri. Les acheteurs au marché observent les nouveaux produits, goûtent les fromages et les légumes, si bien que le commerce dure parfois des heures. Ana m'a conseillé d'acheter une petite jarre en terre pour la décoration et quelques textiles artisanaux traditionnels qu'ils apportent de leur région. Je lui ai dit que je pensais qu'il est important de soutenir les agriculteurs locaux, mais que les petits fournisseurs locaux ont souvent du mal à répondre à la forte demande du marché. Finalement, nous avons décidé d'aller en été aider ses parents à la ferme pour mieux connaître le processus de production et apporter ensuite les produits directement en ville.",
+      "questions": [
+        {
+          "question": "D'où vient Ana?",
+          "options": [
+            "De la région de Kakhétie",
+            "De Samegrelo",
+            "De Samtskhé-Javakhét",
+            "De la région d'Adjara"
+          ],
+          "answer": "De Samtskhé-Javakhét",
+          "explanation": "Le texte indique clairement qu'Ana vient de Samtskhé-Javakhét."
+        },
+        {
+          "question": "Quel changement a eu lieu dans la ferme cette année?",
+          "options": [
+            "Ils ont construit une nouvelle grange",
+            "Ils ont planté une nouvelle vigne",
+            "Ils ont acheté du bétail",
+            "Ils ont commencé à produire du miel"
+          ],
+          "answer": "Ils ont planté une nouvelle vigne",
+          "explanation": "Le passage mentionne explicitement qu'ils ont planté une nouvelle vigne dans la cour."
+        },
+        {
+          "question": "Qu'est-ce que Ana a conseillé à la narratrice d'acheter?",
+          "options": [
+            "Un fromage ancien",
+            "Une petite jarre en terre et des textiles artisanaux",
+            "Un panier en osier",
+            "Une bouteille de vin local"
+          ],
+          "answer": "Une petite jarre en terre et des textiles artisanaux",
+          "explanation": "Ana a recommandé d'acheter une petite jarre (ქვევრი) et des tissus traditionnels venus de leur région."
+        },
+        {
+          "question": "Pourquoi la narratrice et Ana ont-elles décidé d'aller à la ferme en été?",
+          "options": [
+            "Pour vendre davantage de produits au marché",
+            "Pour apprendre le processus de production et aider sur place",
+            "Pour construire une boutique en ville",
+            "Pour cueillir des champignons sauvages"
+          ],
+          "answer": "Pour apprendre le processus de production et aider sur place",
+          "explanation": "Elles ont décidé d'aller en été pour aider à la ferme et mieux connaître le processus de production afin d'apporter les produits en ville."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-008",
+      "title": "ახალი საზოგადოებრივი ტრანსპორტის გეგმები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 8,
+      "text": "ქალაქის სამეგობრო ჯგუფში გაჩნდა დისკუსია ტრანსპორტის შესახებ. მერიის ცნობით, გეგმაშია ავტობუსების განახლება და ახალი ველობილიკების გაყვანა. პროექტის მხარდამჭერები აცხადებს, რომ ეს შემცირებს საცობს და ჰაერის დაბინძურებას, რადგან უფრო მეტი ადამიანი იხელმძღვანელებს საზოგადოებრივი ტრანსპორტით ან ველოსიპედით. მოწინააღმდეგეები ეჭვქვეშ აყენებენ პროექტის ხარჯებს და ამბობენ, რომ ქუჩებში ახალი ინფრასტრუქტურის მოწყობა ძნელად მისაღწევია, თუკი თანამდროვე სისტემა არ გაფართოვდება. ქალაქის მცირე თუ საშუალო უბნებში მცხოვრები ადამიანები ფიქრობენ, რომ მთავარია იმიტომ, რომ მათ სჭირდებათ უფრო საიმედო გაჩერებები და ჩქაროსნული ხაზები. მერია მოუწოდებს მოქალაქეებს საჯარო განხილვებში მონაწილეობის მისაღებად, რათა ადგილობრივი საჭიროებები გათვალისწინებული იქნას. გარდა ამისა, მერის ოფისმა დაადასტურა, რომ პროექტისთვის უცხოური კრედიტები უკვე განხილულია და გარკვეული თანხა უკვე დაიგეგმა, თუმცა საბოლოო გადაწყვეტილება სავარაუდოდ წლის ბოლოს მიიღება, რაც დამოკიდებული იქნება მოსახლეობის მოსაზრებებზე და ტექნიკურ კვლევებზე.",
+      "translation": "Une discussion sur les transports a émergé dans le groupe d'amis de la ville. Selon la mairie, il est prévu de renouveler les bus et d'aménager de nouvelles pistes cyclables. Les partisans du projet affirment que cela réduira les embouteillages et la pollution de l'air, car davantage de personnes utiliseront les transports en commun ou le vélo. Les opposants mettent en doute les coûts du projet et disent que l'installation d'une nouvelle infrastructure dans les rues est difficile si le système moderne n'est pas étendu. Les habitants des quartiers petits ou moyens pensent que c'est important parce qu'ils ont besoin d'arrêts plus fiables et de lignes rapides. La mairie appelle les citoyens à participer aux consultations publiques afin que les besoins locaux soient pris en compte. De plus, le bureau du maire a confirmé que des crédits étrangers pour le projet ont déjà été examinés et qu'une certaine somme a été planifiée, mais la décision finale sera probablement prise à la fin de l'année, selon les avis de la population et les études techniques.",
+      "questions": [
+        {
+          "question": "Quel est l'objectif principal du projet municipal mentionné dans le texte?",
+          "options": [
+            "Augmenter le nombre de taxis privés",
+            "Renouveler les bus et créer des pistes cyclables",
+            "Construire un nouveau parking souterrain",
+            "Interdire la circulation des voitures dans le centre-ville"
+          ],
+          "answer": "Renouveler les bus et créer des pistes cyclables",
+          "explanation": "Le texte précise que la mairie prévoit de renouveler les bus et d'aménager de nouvelles pistes cyclables."
+        },
+        {
+          "question": "Pourquoi les partisans pensent-ils que le projet est bénéfique?",
+          "options": [
+            "Parce qu'il réduira les impôts locaux",
+            "Parce qu'il offrira des emplois immédiats pour tous",
+            "Parce qu'il diminuera les embouteillages et la pollution",
+            "Parce qu'il permettra de vendre plus de billets de bus"
+          ],
+          "answer": "Parce qu'il diminuera les embouteillages et la pollution",
+          "explanation": "Les partisans affirment que l'amélioration des transports publics et des pistes cyclables réduira les embouteillages et la pollution de l'air."
+        },
+        {
+          "question": "Quel est l'argument principal des opposants au projet?",
+          "options": [
+            "Ils pensent que les bus actuels sont trop rapides",
+            "Ils craignent que les coûts du projet soient trop élevés",
+            "Ils veulent plus de pistes piétonnes plutôt que cyclables",
+            "Ils demandent la construction d'un nouvel aéroport"
+          ],
+          "answer": "Ils craignent que les coûts du projet soient trop élevés",
+          "explanation": "Le texte indique que les opposants remettent en question les coûts du projet et la difficulté d'installer une nouvelle infrastructure."
+        },
+        {
+          "question": "Quand la décision finale sur le projet devrait-elle être prise?",
+          "options": [
+            "Au début du mois prochain",
+            "À la fin de l'année, après consultations et études",
+            "Immédiatement, sans consultation",
+            "Dans dix ans, après d'autres projets"
+          ],
+          "answer": "À la fin de l'année, après consultations et études",
+          "explanation": "Le passage précise que la décision finale sera probablement prise à la fin de l'année, en fonction des avis de la population et des études techniques."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-005",
+      "title": "Marché de Tbilissi et découverte culinaire",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 5,
+      "text": "პოლინამ, პარიზიდან ჩამოსულმა გაცვლილიסטუდენტმა, პირველი კვირა თბილისში ბაზარზე გაატარა. უყვარდა იქაური ხმაური: ვაჭრები ხმაურით რეკლამავდნენ სურსათს, გოგირდოვანი ტყავი და ახალი წყალი ჰქონდათ თაროებზე. პოლინამ გროზნიდან შემოთავაზებული მწვადიც დააგემოვნა, მაგრამ ყველაზე მეტად ქვევრის ხინკალი მოეწონა, რომელსაც ადგილობრივები ხშირად აჭმევდნენ. ვაჭრებისათვის პოლინა ცოტა უხერხული იყო — ქართული ენა იცოდა მხოლოდ რამდენიმე სიტყვა, მაგრამ ისინი მეგობრულად ეხმარებოდნენ და ხშირად ნამცხვრებს აჩუქებდნენ. ერთხელ ის შეხვდა მოხუც ქალს, რომელსაც საკუთარი ბოსტნეული ჰქონდა და ისწავლა, როგორ უნდა ამოარჩევა კარგი პომიდორი: ნაზილი და მყარობა ცნობისნიშნად აღიქვეს. ბაზრის ბოლოს პოლინამ მცირე ნაშრომი დაწერა მერიდა-უნივერსიტეტისთვის, სადაც აღწერს ადგილობრივ საკვებსა და ბაზრის ხასიათს. იმ ნაშრომში ის იმეორებდა, რომ საკვები საქართველოში არის ნაწილის კულტურისა და სტუმართმოყვარეობის სიმბოლო.",
+      "translation": "Pauline, une étudiante en échange venue de Paris, a passé sa première semaine au marché de Tbilissi. Elle aimait le brouhaha : les commerçants annonçaient leurs produits, des paniers d'herbes et de l'eau fraîche étaient sur les étals. Pauline a aussi goûté des brochettes proposées par un marchand, mais elle a surtout aimé le khinkali cuit dans un four en terre, que les habitants lui servaient souvent. Pour les vendeurs, Pauline était un peu embarrassante — elle ne connaissait que quelques mots de géorgien, mais ils l'aidaient amicalement et lui offraient souvent des pâtisseries. Un jour, elle a rencontré une femme âgée qui vendait ses légumes et a appris à choisir une bonne tomate : la texture douce et la fermeté étaient considérées comme des signes. À la fin du marché, Pauline a rédigé un petit rapport pour son université, décrivant les aliments locaux et l'ambiance du marché. Dans ce travail, elle répétait que la nourriture en Géorgie est un symbole de la culture et de l'hospitalité.",
+      "questions": [
+        {
+          "question": "Pourquoi Pauline a-t-elle aimé le marché de Tbilissi ?",
+          "options": [
+            "Parce qu'elle y a trouvé des produits français familiers",
+            "À cause du bruit et de l'ambiance animée",
+            "Parce qu'elle travaillait comme vendeuse",
+            "Parce que le marché était très proche de l'université"
+          ],
+          "answer": "À cause du bruit et de l'ambiance animée",
+          "explanation": "Le texte décrit que Pauline aimait le « bruit » et l'ambiance (ვიყვარდა იქაური ხმაური), ce qui justifie la réponse."
+        },
+        {
+          "question": "Quel plat a particulièrement plu à Pauline ?",
+          "options": [
+            "Les brochettes (შევაჭადო)",
+            "Le khinkali cuit en terre (ქვევრის ხინკალი)",
+            "La soupe locale",
+            "Le pain maison"
+          ],
+          "answer": "Le khinkali cuit en terre (ქვევრის ხინკალი)",
+          "explanation": "Le passage précise que c'est le « ქვევრის ხინკალი » qu'elle a le plus apprécié."
+        },
+        {
+          "question": "Qu'a appris Pauline de la femme âgée ?",
+          "options": [
+            "À cuisiner le khinkali",
+            "Comment choisir une bonne tomate",
+            "À parler couramment géorgien",
+            "À vendre des légumes"
+          ],
+          "answer": "Comment choisir une bonne tomate",
+          "explanation": "Le texte indique qu'elle a appris comment choisir une bonne tomate (როგორ უნდა ამოარჩევა კარგი პომიდორი)."
+        },
+        {
+          "question": "Quel message Pauline a-t-elle mis dans son rapport universitaire ?",
+          "options": [
+            "Que la nourriture n'est pas importante en Géorgie",
+            "Que les marchés géorgiens sont identiques à ceux de France",
+            "Que la nourriture reflète la culture et l'hospitalité géorgiennes",
+            "Qu'elle préférait rester à Paris"
+          ],
+          "answer": "Que la nourriture reflète la culture et l'hospitalité géorgiennes",
+          "explanation": "Le texte conclut que pour elle, la nourriture en Géorgie est un symbole de la culture et de l'hospitalité."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-006",
+      "title": "Festival éco-village le week-end",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 6,
+      "text": "ქალაქის პატარა უბანში ყოველ გაზაფხულზე ეწყობა ეკომოძრაობის ფესტივალი, სადაც ადგილობრივები და სტუმრები ერთად იმუშავებენ სკვერების დასახვეწად. ორგანიზატორები ამბობენ, რომ ღონისძიება ორი დღის განმავლობაში გაგრძელდება: შაბათს პრიორიტეტია ნარჩენების ალაგება და გამწვანება, ხოლო კვირას სემინარები და პატარა გამოფენებია — ადგილობრივი ფერმერები ხვდებიან ტექნოლოგიებს, როგორ შეინახონ კულტურები ბუნებრივად. წელს განსაკუთრებით ბევრი ოჯახი ჰქონდა შეჭერილი მიღებაში: ბავშვები მცენარეებსრგავენ და სწავლობენ, როგორ უნდა დაიცვან ბუნება. ბაზრობაზე ვეგანური საკვები და ხელნაკეთი ნივთებია — შემოსავალი კი ერთ-ერთი საზოგადოებრივი ბიბლიოთეკის აღდგენას დაეთმობა. საღამოს კონცერტი იმართება ადგილობრივ ბენზებთან, სადაც ხალხი უფროსებიც და ახალგაზრდებიც ერთად მღერიან. ფესტივალი ცდილობს გააძლიეროს თანამეგობრობის გრძნობა და ასწავლის, რომ გარემოს დაცვა შეიძლება ყოველდღიურ ცხოვრებაში უბრალო ქმედებებითაც.",
+      "translation": "Dans un petit quartier de la ville, un festival éco-citoyen a lieu chaque printemps, où habitants et visiteurs travaillent ensemble pour améliorer les squares. Les organisateurs disent que l'événement dure deux jours : le samedi la priorité est le nettoyage des déchets et la végétalisation, tandis que le dimanche il y a des ateliers et de petites expositions — des agriculteurs locaux présentent des techniques pour conserver les cultures naturellement. Cette année, beaucoup de familles ont participé : les enfants plantent des plantes et apprennent à protéger la nature. Au marché il y a de la nourriture végétalienne et des objets artisanaux — les recettes seront consacrées à la rénovation d'une bibliothèque publique. Le soir, un concert est organisé avec des groupes locaux, où les personnes âgées et les jeunes chantent ensemble. Le festival essaie de renforcer le sentiment de communauté et montre que la protection de l'environnement peut se faire au quotidien par des gestes simples.",
+      "questions": [
+        {
+          "question": "Quelle est la priorité du festival le samedi ?",
+          "options": [
+            "Organiser un concert",
+            "Nettoyer les déchets et verdir les espaces",
+            "Vendre des objets artisanaux",
+            "Donner des cours de cuisine"
+          ],
+          "answer": "Nettoyer les déchets et verdir les espaces",
+          "explanation": "Le texte indique que le samedi la priorité est le nettoyage des déchets et la végétalisation (წვიმა — ნარჩენების ალაგება და გამწვანება)."
+        },
+        {
+          "question": "À quoi serviront les recettes du marché ?",
+          "options": [
+            "À financer un nouveau parc d'attractions",
+            "À réparer une bibliothèque publique",
+            "À acheter des plantes pour les familles",
+            "À payer les musiciens du concert"
+          ],
+          "answer": "À réparer une bibliothèque publique",
+          "explanation": "Il est précisé que les revenus seront consacrés à la rénovation d'une bibliothèque publique."
+        },
+        {
+          "question": "Qu'est-ce que les enfants apprennent pendant le festival ?",
+          "options": [
+            "À chanter uniquement des chansons traditionnelles",
+            "À planter des végétaux et protéger la nature",
+            "À vendre des produits au marché",
+            "À écrire des rapports scientifiques"
+          ],
+          "answer": "À planter des végétaux et protéger la nature",
+          "explanation": "Le texte dit que les enfants plantent des plantes et apprennent à protéger la nature."
+        },
+        {
+          "question": "Quel est l'objectif général du festival selon le texte ?",
+          "options": [
+            "Promouvoir des vacances commerciales",
+            "Renforcer le sentiment de communauté et enseigner la protection de l'environnement",
+            "Organiser un grand marché international",
+            "Créer une compétition entre fermiers"
+          ],
+          "answer": "Renforcer le sentiment de communauté et enseigner la protection de l'environnement",
+          "explanation": "Le texte conclut que le festival cherche à renforcer la communauté et à montrer que la protection de l'environnement peut se faire par des gestes quotidiens."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-009",
+      "title": "ბაზარი და ახალი პროდუქტები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 9,
+      "text": "ქალაქის ცენტრში კვირეულობით იხსნება დიდი straat-ის ბაზარი. წელიწადში თორმეტი თვე აქ ლაურეატი მომღერლებისა და მწარმოებლების გარდა, ხშირად ახალბედა ფერმერებიც ჩამოდიან, რომლებიც არაწევრული პაკეტებითა და სხვადასხვა ჰერბებით სთავაზობენ ადგილობრივებს ნედლეულს. ამ ბაზრის მთავარი მახასიათებელი არის მიმოხილვის თავისუფლება: კლიენტს შეუძლია თვითონ დააგემოვნოს ყველი, ჩირი, ან ახალი პური. ადამიანი, რომელიც პირველად დადის ბაზარში, ჩნდება ბევრი ხმაური და რეკლამა, მაგრამ ადგილობრივები მშვიდად და მეგობრულად ლაპარაკობენ, მზად არიან მონახდეს საუკეთესო ფასი და პატარა რაოდენობით გადაცვალონ პროდუქტი.\n\nბაზარი არა მხოლოდ სავაჭრო სივრცეა — იქ ხშირად ეწყობა კონცერტები და ბავშვების თეატრაქტები. ერთი თვის წინ ადგილობრივმა კულტურული ცენტრმა მოაწყო საღამო, სადაც ახალგაზრდა მზარეულებმა თავიანთი კერძები წარმოადგინეს. მოვაჭრეებსა და სტუმრებს შორის ხშირად იბადება იდეები ადგილობრივი პროდუქტის დაცვისა და ეკოლოგიური სასურსათო ქსელის შესაქმნელად. ეს ინიციატივა განსაკუთრებით მნიშვნელოვანია სოფლის მცხოვრებთათვის, რომლებსაც მყიდველებთან უშუალო ურთიერთობა რგავთ შემოსავალს.",
+      "translation": "Un grand marché s'ouvre tous les week-ends au centre-ville. Toute l'année, en plus des chanteurs et des artisans lauréats, des agriculteurs novices viennent souvent proposer aux habitants des produits bruts et différentes herbes dans de petits sacs non standards. La caractéristique principale de ce marché est la liberté de découverte : le client peut goûter lui-même le fromage, les fruits secs ou le pain frais. La première fois qu'on vient au marché, on est confronté à beaucoup de bruit et de réclames, mais les locaux parlent calmement et amicalement, prêts à trouver le meilleur prix et à échanger de petites quantités de produits.\n\nLe marché n'est pas seulement un espace commercial — on y organise souvent des concerts et des spectacles pour enfants. Il y a un mois, le centre culturel local a tenu une soirée où de jeunes cuisiniers ont présenté leurs plats. Des idées pour protéger les produits locaux et créer un réseau alimentaire écologique naissent souvent entre commerçants et visiteurs. Cette initiative est particulièrement importante pour les habitants des campagnes, car la relation directe avec les acheteurs augmente leurs revenus.",
+      "questions": [
+        {
+          "question": "Quelle possibilité particulière le marché offre-t-il aux clients ?",
+          "options": [
+            "Regarder des démonstrations de couture",
+            "Goûter les produits avant d'acheter",
+            "Acheter uniquement en gros",
+            "Obtenir des tickets pour des concerts"
+          ],
+          "answer": "Goûter les produits avant d'acheter",
+          "explanation": "Le texte précise que le client peut goûter le fromage, les fruits secs ou le pain frais, donc la bonne réponse est goûter les produits avant d'acheter."
+        },
+        {
+          "question": "Quel groupe arrive parfois au marché pour vendre ses produits ?",
+          "options": [
+            "Des musiciens professionnels uniquement",
+            "Des fabricants d'électronique",
+            "Des agriculteurs novices",
+            "Des touristes étrangers"
+          ],
+          "answer": "Des agriculteurs novices",
+          "explanation": "Le texte mentionne que des agriculteurs novices viennent proposer des produits bruts et des herbes, donc c'est la réponse correcte."
+        },
+        {
+          "question": "Quel événement a organisé le centre culturel il y a un mois ?",
+          "options": [
+            "Une foire de véhicules anciens",
+            "Une conférence sur l'économie",
+            "Une soirée avec des plats de jeunes cuisiniers",
+            "Un concours de peinture"
+          ],
+          "answer": "Une soirée avec des plats de jeunes cuisiniers",
+          "explanation": "Le passage indique qu'une soirée a été organisée où de jeunes cuisiniers ont présenté leurs plats, ce qui correspond à cette option."
+        },
+        {
+          "question": "Pourquoi l'initiative de créer un réseau alimentaire écologique est-elle importante pour les habitants des campagnes ?",
+          "options": [
+            "Parce qu'elle diminue la qualité des produits",
+            "Parce qu'elle augmente leur relation avec les acheteurs et le revenu",
+            "Parce qu'elle interdit la vente directe",
+            "Parce qu'elle remplace les marchés locaux"
+          ],
+          "answer": "Parce qu'elle augmente leur relation avec les acheteurs et le revenu",
+          "explanation": "Le texte dit que la relation directe avec les acheteurs augmente leurs revenus, donc cette option est correcte."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-010",
+      "title": "פארკის აღდგენა მეზობლებთან ერთად",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 10,
+      "text": "გასულ ზაფხულს პატარა უბანში ჩამოყალიბდა ჯგუფი, რომლის მიზანიც ბაღის აღდგენა და შენარჩუნება იყო. დილაობით მეზობლები ვკრებოდით ფულს მცირე ნაღმიკისათვის და ყოველ შაბათს ერთად ვეწეოდით სამუშაოს: ხის სკამების შეკეთება, ახალი ყვავილების დარგვა და სტრუქტურულად სუსტი გზების შეკეთება. პროექტი ჩაფიქრებული იყო ისე, რომ მასში ჩართულიყვნენ როგორც ახალგაზრდები, ისე მოხუცები — თითოეულმა თავისი პასუხისმგებლობა მიიღო: ახალგაზრდები იდგნენ მძიმე სამუშაოებზე, ხოლო ხანდაზმულები ზრუნავდნენ მცენარეების მოვლაზე და ბავშვებთან მოქმედებაზე.\n\nპროექტს მალე თანამონაწილეობა მიეცა ადგილობრივი მაღაზიისა და სკოლისგან: ისინი უზრუნველყოფდნენ თესლებით, ხელსაწყოებით და ორმაგად უხდიდნენ ბავშვების ექსკურსიას ბაღში. მოსახლეობის გარკვეული ნაწილი თავიდან სკეპტიკურად უჯდა, მაგრამ როდესაც საძირკველი სამუშაოები დასრულდა და ბაღი ახალ ცხოვრებას მიეცა, ბევრი ადამიანი მობრუნდა და ორგანიზაციას დაეხმარა. ახლა ბაღი არა მხოლოდ დასასვენებლად, არამედ კულტურული ღონისძიებების და პატარა სასურსათო მართვის ადგილია.",
+      "translation": "L'été dernier, dans un petit quartier, un groupe s'est formé avec l'objectif de restaurer et d'entretenir un jardin public. Chaque matin, les voisins collectaient un peu d'argent pour un petit fond et tous les samedis ils travaillaient ensemble : réparer des bancs en bois, planter de nouvelles fleurs et remettre en état des chemins fragiles. Le projet a été conçu pour impliquer à la fois les jeunes et les personnes âgées — chacun a reçu sa responsabilité : les jeunes prenaient en charge les travaux lourds, tandis que les aînés s'occupaient de l'entretien des plantes et des activités avec les enfants.\n\nBientôt le projet a reçu la participation d'une épicerie locale et de l'école : ils ont fourni des semences, des outils et doublé la prise en charge des excursions scolaires au jardin. Une partie de la population était sceptique au début, mais lorsque les travaux de fondation furent terminés et que le jardin prit vie, beaucoup revinrent et aidèrent l'organisation. À présent le jardin est non seulement un lieu de détente, mais aussi un espace pour des événements culturels et une petite gestion alimentaire.",
+      "questions": [
+        {
+          "question": "Quel était l'objectif principal du groupe formé dans le quartier ?",
+          "options": [
+            "Construire un nouveau centre commercial",
+            "Restaurer et entretenir un jardin public",
+            "Organiser des concerts chaque semaine",
+            "Lancer une entreprise agricole"
+          ],
+          "answer": "Restaurer et entretenir un jardin public",
+          "explanation": "Le texte indique clairement que le groupe s'est formé pour restaurer et entretenir un jardin public, donc cette option est correcte."
+        },
+        {
+          "question": "Comment le travail était-il réparti entre les participants ?",
+          "options": [
+            "Les jeunes faisaient les travaux lourds et les aînés s'occupaient des plantes",
+            "Les aînés faisaient tout le travail physique seuls",
+            "Les enfants prenaient les décisions financières",
+            "Les magasins géraient toutes les réparations"
+          ],
+          "answer": "Les jeunes faisaient les travaux lourds et les aînés s'occupaient des plantes",
+          "explanation": "Il est dit que les jeunes réalisaient les tâches difficiles tandis que les personnes âgées s'occupaient de l'entretien des plantes et des enfants, ce qui correspond à cette réponse."
+        },
+        {
+          "question": "Quelle aide la boutique locale et l'école ont-elles fournie ?",
+          "options": [
+            "Elles ont vendu le terrain du jardin",
+            "Elles ont fourni des semences, des outils et soutenu les excursions",
+            "Elles ont fermé l'accès au jardin",
+            "Elles ont transformé le jardin en parking"
+          ],
+          "answer": "Elles ont fourni des semences, des outils et soutenu les excursions",
+          "explanation": "Le texte précise que l'épicerie et l'école ont fourni des semences, des outils et ont soutenu les excursions scolaires, donc c'est la bonne réponse."
+        },
+        {
+          "question": "Quelle a été la réaction de la population au fur et à mesure de l'avancement du projet ?",
+          "options": [
+            "Tout le monde est resté sceptique et n'a jamais aidé",
+            "La majorité a critiqué le projet publiquement",
+            "Beaucoup de personnes sont revenues pour aider après voir les résultats",
+            "Ils ont vendu les plantes au marché international"
+          ],
+          "answer": "Beaucoup de personnes sont revenues pour aider après voir les résultats",
+          "explanation": "Le passage explique que certains étaient sceptiques au départ, mais après la réussite des travaux, beaucoup sont revenus et ont aidé l'organisation, d'où la réponse correcte."
+        }
+      ]
+    }
+  ]
+}

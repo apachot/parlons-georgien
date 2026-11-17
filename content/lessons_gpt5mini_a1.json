@@ -1,0 +1,415 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "lessons-a1-gen-001",
+      "title": "Salutations et présentations",
+      "tag": "salutations",
+      "duration": 10,
+      "goal": "Savoir dire bonjour, se présenter et demander le prénom.",
+      "cefr": "A1",
+      "version": 1,
+      "items": [
+        {
+          "ka": "გამარჯობა",
+          "fr": "Bonjour",
+          "translit": "gamardjoba",
+          "pron": "ga-mar-djo-ba"
+        },
+        {
+          "ka": "გამარჯობა, მე მარიამი ვარ.",
+          "fr": "Bonjour, je suis Mariam.",
+          "translit": "gamardjoba, me mariami var.",
+          "pron": "ga-mar-djo-ba, me ma-ri-am var"
+        },
+        {
+          "ka": "სახელი რა გქვია?",
+          "fr": "Comment tu t'appelles ?",
+          "translit": "sakheli ra gqvia?",
+          "pron": "sa-khe-li ra g-kvia?"
+        },
+        {
+          "ka": "ჩემი სახელი ჟოიაა.",
+          "fr": "Mon prénom est Zoïa.",
+          "translit": "chemi sakheli zhoiaa.",
+          "pron": "che-mi sa-khe-li zho-i-a"
+        },
+        {
+          "ka": "სასიამოვნოა გაცნობა.",
+          "fr": "Enchanté(e) de faire ta connaissance.",
+          "translit": "sasiamovnoa gatsnoba.",
+          "pron": "sa-si-a-mov-no-a gat-sno-ba"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-002",
+      "title": "Parler de l'âge",
+      "tag": "âge",
+      "duration": 8,
+      "goal": "Dire son âge et demander celui des autres.",
+      "cefr": "A1",
+      "version": 2,
+      "items": [
+        {
+          "ka": "რამდენი წელი გაქვს?",
+          "fr": "Quel âge as-tu ?",
+          "translit": "ramdeni ts'eli gakvs?",
+          "pron": "ram-de-ni tse-li ga-kvs?"
+        },
+        {
+          "ka": "მე ოცი წლის ვარ.",
+          "fr": "J'ai vingt ans.",
+          "translit": "me ots'i tslis var.",
+          "pron": "me o-ts'i ts-lis var"
+        },
+        {
+          "ka": "ის ოცდა ხუთი წლისია.",
+          "fr": "Il/Elle a vingt-cinq ans.",
+          "translit": "is otsda khuti tslisia.",
+          "pron": "is ots-da khu-ti ts-li-si-a"
+        },
+        {
+          "ka": "ბავშვი ოთხი წლისაა.",
+          "fr": "L'enfant a quatre ans.",
+          "translit": "bavshvi otkhi tsliaa.",
+          "pron": "bav-shvi ot-khi ts-li-a"
+        },
+        {
+          "ka": "რამდენი წლისაა თქვენი ძმა?",
+          "fr": "Quel âge a votre frère ?",
+          "translit": "ramdeni tsliaa tkveni dzma?",
+          "pron": "ram-de-ni ts-li-a tkve-ni dz-ma?"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-003",
+      "title": "Dans un café",
+      "tag": "restaurant",
+      "duration": 12,
+      "goal": "Commander un café et demander le prix.",
+      "cefr": "A1",
+      "version": 3,
+      "items": [
+        {
+          "ka": "ერთი ყავა, გთხოვთ.",
+          "fr": "Un café, s'il vous plaît.",
+          "translit": "erti qava, gthovt.",
+          "pron": "er-ti qa-va, gtho-vt"
+        },
+        {
+          "ka": "შაქრით თუ შაქრის გარეშე?",
+          "fr": "Avec sucre ou sans sucre ?",
+          "translit": "shaqrit tu shaqris gareshe?",
+          "pron": "sha-qrit tu shaq-ris ga-re-she?"
+        },
+        {
+          "ka": "შაქრით, მადლობა.",
+          "fr": "Avec sucre, merci.",
+          "translit": "shaqrit, madloba.",
+          "pron": "sha-qrit, mad-lo-ba"
+        },
+        {
+          "ka": "რამდენი ღირს?",
+          "fr": "Combien ça coûte ?",
+          "translit": "ramdeni ghirs?",
+          "pron": "ram-de-ni ghirs?"
+        },
+        {
+          "ka": "ათი ლარი, თუ გქვონიათ کارتით?",
+          "fr": "Dix laris, puis-vous payer par carte ?",
+          "translit": "ati lari, tu gkvdoni kartit?",
+          "pron": "a-ti la-ri, tu gkv-do-ni kar-tit?"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-004",
+      "title": "La famille",
+      "tag": "famille",
+      "duration": 9,
+      "goal": "Nommer les membres de la famille et dire qui est qui.",
+      "cefr": "A1",
+      "version": 4,
+      "items": [
+        {
+          "ka": "მამა",
+          "fr": "Père",
+          "translit": "mama",
+          "pron": "ma-ma"
+        },
+        {
+          "ka": "პატარა და",
+          "fr": "Petite soeur",
+          "translit": "patara da",
+          "pron": "pa-ta-ra da"
+        },
+        {
+          "ka": "ამ ქალს ჩემი და ქვია.",
+          "fr": "Cette femme est ma sœur.",
+          "translit": "am kvals chemi da qvia.",
+          "pron": "am kvals che-mi da kvi-a"
+        },
+        {
+          "ka": "ჩვენ გვაქვს ორი ბავშვი.",
+          "fr": "Nous avons deux enfants.",
+          "translit": "chven gqavs ori bavshvi.",
+          "pron": "chven gavs o-ri bav-shvi"
+        },
+        {
+          "ka": "ბიძა და ბიძაშვილი",
+          "fr": "Oncle et cousin",
+          "translit": "bidza da bidzashvili",
+          "pron": "bid-za da bid-za-shvi-li"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-005",
+      "title": "Maison et objets",
+      "tag": "maison",
+      "duration": 11,
+      "goal": "Identifier des objets courants dans la maison.",
+      "cefr": "A1",
+      "version": 5,
+      "items": [
+        {
+          "ka": "ტელეფონი მაგიდაზეაა.",
+          "fr": "Le téléphone est sur la table.",
+          "translit": "telefoni magidazeaa.",
+          "pron": "te-le-fo-ni ma-gi-da-ze-a-a"
+        },
+        {
+          "ka": "კარადა ზღურბლთანაა.",
+          "fr": "L'armoire est près de l'entrée.",
+          "translit": "karada zghurblthan aa.",
+          "pron": "ka-ra-da zghur-bl-than a-a"
+        },
+        {
+          "ka": "ქუჩის კარი ღიაა.",
+          "fr": "La porte de la rue est ouverte.",
+          "translit": "kuchis kari ghiaa.",
+          "pron": "ku-chis ka-ri ghi-a-a"
+        },
+        {
+          "ka": "ფანჯარა ჩაკეტილია.",
+          "fr": "La fenêtre est fermée.",
+          "translit": "panjara chaketilia.",
+          "pron": "pan-ja-ra cha-ke-ti-li-a"
+        },
+        {
+          "ka": "არც არის ლამპიონი არათამა.",
+          "fr": "Il n'y a pas de lampe ici.",
+          "translit": "arcs aris lampioni aratma.",
+          "pron": "arts aris lam-pi-o-ni a-rat-ma"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-006",
+      "title": "Les couleurs et vêtements",
+      "tag": "vêtements",
+      "duration": 10,
+      "goal": "Décrire des vêtements simples et leurs couleurs.",
+      "cefr": "A1",
+      "version": 6,
+      "items": [
+        {
+          "ka": "ეს წითელი პერანგია.",
+          "fr": "C'est une chemise rouge.",
+          "translit": "es ts'iteli perangia.",
+          "pron": "es tsi-te-li pe-ran-gia"
+        },
+        {
+          "ka": "შავი შარვალი მაქვს.",
+          "fr": "J'ai un pantalon noir.",
+          "translit": "shavi sharvali maqvs.",
+          "pron": "sha-vi shar-va-li ma-kvs"
+        },
+        {
+          "ka": "ყვითელი ქუდი პატარაა.",
+          "fr": "Le chapeau jaune est petit.",
+          "translit": "qviteli qudi pataraa.",
+          "pron": "kvi-te-li ku-di pa-ta-ra-a"
+        },
+        {
+          "ka": "ჩემი ფეხსაცმელი თეთრია.",
+          "fr": "Mes chaussures sont blanches.",
+          "translit": "chemi phekhsatsmeli tet'ria.",
+          "pron": "che-mi phek-khsa-tsme-li te-tri-a"
+        },
+        {
+          "ka": "ორმა მეგობარმა ფერი შეცვალა.",
+          "fr": "Les deux amis ont changé de couleur.",
+          "translit": "orma megobarma peri shecvla.",
+          "pron": "or-ma me-go-bar-ma pe-ri she-chv-la"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-007",
+      "title": "Repères temporels",
+      "tag": "temps",
+      "duration": 7,
+      "goal": "Dire l'heure approximative et les jours de la semaine.",
+      "cefr": "A1",
+      "version": 7,
+      "items": [
+        {
+          "ka": "რა საათია?",
+          "fr": "Quelle heure est-il ?",
+          "translit": "ra saatiya?",
+          "pron": "ra saa-ti-ya?"
+        },
+        {
+          "ka": "ახლა სამია.",
+          "fr": "Il est trois heures maintenant.",
+          "translit": "akhla samia.",
+          "pron": "akh-la sa-mi-a"
+        },
+        {
+          "ka": "დილით",
+          "fr": "Le matin",
+          "translit": "dilit",
+          "pron": "di-lit"
+        },
+        {
+          "ka": "დღეს ორშაბათია.",
+          "fr": "Aujourd'hui c'est lundi.",
+          "translit": "dghes orshabatia.",
+          "pron": "dghes or-sha-ba-ti-a"
+        },
+        {
+          "ka": "ხვალ შაბათია თუ კვირა?",
+          "fr": "Demain c'est samedi ou dimanche ?",
+          "translit": "khval shabatia tu kvira?",
+          "pron": "khval sha-ba-ti-a tu kvi-ra?"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-008",
+      "title": "Demander son chemin",
+      "tag": "direction",
+      "duration": 13,
+      "goal": "Demander et comprendre des indications simples pour se déplacer.",
+      "cefr": "A1",
+      "version": 8,
+      "items": [
+        {
+          "ka": "უბანი სად არის?",
+          "fr": "Où est le quartier ?",
+          "translit": "ubani sad aris?",
+          "pron": "u-ba-ni sad a-ris?"
+        },
+        {
+          "ka": "პირდაპირ აწიეთ.",
+          "fr": "Allez tout droit.",
+          "translit": "pirdapir atsite.",
+          "pron": "pir-da-pir at-site"
+        },
+        {
+          "ka": "დეისკისთან მარცხნივაა.",
+          "fr": "Il est à gauche du disque/guichet.",
+          "translit": "deiskistan martsxnivaa.",
+          "pron": "de-is-kis-than marts-khni-va-a"
+        },
+        {
+          "ka": "მატარებელი ახლოსაა?",
+          "fr": "Le train est-il proche ?",
+          "translit": "matarrebeli akhlosaa?",
+          "pron": "ma-ta-rre-be-li akh-lo-sa-a?"
+        },
+        {
+          "ka": "სტაციის შემდეგ შებრუნდით.",
+          "fr": "Après la station, tournez.",
+          "translit": "statsiis shemdeg shebrundit.",
+          "pron": "sta-tsi-is shem-deg she-bru-n-dit"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-009",
+      "title": "Faire des courses",
+      "tag": "achats",
+      "duration": 14,
+      "goal": "Acheter des aliments et demander la quantité.",
+      "cefr": "A1",
+      "version": 9,
+      "items": [
+        {
+          "ka": "ერთ კილოგრამი ხილი, გთხოვთ.",
+          "fr": "Un kilo de fruits, s'il vous plaît.",
+          "translit": "ert kilograme khili, gthovt.",
+          "pron": "ert ki-lo-gram me khi-li, gtho-vt"
+        },
+        {
+          "ka": "რამდენი კვერცხი დაგჭირდებათ?",
+          "fr": "Combien d'œufs vous faut-il ?",
+          "translit": "ramdeni kvertskhi dagchirdnebat?",
+          "pron": "ram-de-ni kver-tskhi dag-chir-dne-bat?"
+        },
+        {
+          "ka": "ორი პურის ნაჭერი იქნება საკმარისი.",
+          "fr": "Deux tranches de pain suffiront.",
+          "translit": "ori puris nacheri ikneba sakmarisi.",
+          "pron": "o-ri pu-ris na-che-ri ik-ne-ba sak-ma-ri-si"
+        },
+        {
+          "ka": "უფასო სათამჩე არ გვაქვს.",
+          "fr": "Nous n'avons pas de sac gratuit.",
+          "translit": "upaso satamche ar gqavs.",
+          "pron": "u-pa-so sa-tam-che ar gavs"
+        },
+        {
+          "ka": "გთხოვთ, ხილი და ბოსტნეული ცალკე დადეთ.",
+          "fr": "S'il vous plaît, mettez fruits et légumes séparés.",
+          "translit": "gthovt, khili da bostneuli zalke dadet.",
+          "pron": "gtho-vt, khi-li da bost-ne-u-li zal-ke da-det"
+        }
+      ]
+    },
+    {
+      "id": "lessons-a1-gen-010",
+      "title": "Santé et bien-être",
+      "tag": "santé",
+      "duration": 15,
+      "goal": "Expliquer un petit problème de santé et demander de l'aide.",
+      "cefr": "A1",
+      "version": 10,
+      "items": [
+        {
+          "ka": "ამაღამ ცოტა თავს მტკენს.",
+          "fr": "Ce soir j'ai un peu mal à la tête.",
+          "translit": "amaghm tsota tavs mtkens.",
+          "pron": "a-ma-gham tso-ta tavs mt-kens"
+        },
+        {
+          "ka": "შეიძლება პარიაცია ავიღო?",
+          "fr": "Puis-je prendre un médicament ?",
+          "translit": "sheidzleba parametros avigho?",
+          "pron": "she-idz-le-ba pa-ra-me-te-rios a-vi-gho?"
+        },
+        {
+          "ka": "მომეცი, მე ცუდად ვგრძნობ.",
+          "fr": "Aide-moi, je me sens mal.",
+          "translit": "momeci, me tsudad vgzrob.",
+          "pron": "mo-me-tsi, me tsu-dad vgz-rob"
+        },
+        {
+          "ka": "სამედიცინო დახმარება გჭირდებათ.",
+          "fr": "Vous avez besoin d'une aide médicale.",
+          "translit": "sameditsino daxmareba gchirdebat.",
+          "pron": "sa-me-di-tsi-no da-xma-re-ba gchir-de-bat"
+        },
+        {
+          "ka": "გულზე ჩხვლეტავს, ექიმს დავურეკავ.",
+          "fr": "J'ai une piqûre au cœur, j'appelle le médecin.",
+          "translit": "gulze chkvletavs, ekims davurekav.",
+          "pron": "gul-ze chkv-le-tavs, e-kim-s da-vu-re-kav"
+        }
+      ]
+    }
+  ]
+}

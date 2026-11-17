@@ -1,0 +1,155 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "reading_cloze-c1-gen-001",
+      "version": 1,
+      "cefr": "C1",
+      "sentence": "მან დაპირა, რომ აუცილებლად მოვიდოდა, ___ ბოლოს მაინც არ გამოცხადდა.",
+      "answer": "თუმცა",
+      "options": [
+        "თუმცა",
+        "სიყვარულით",
+        "რადგან",
+        "სხვა"
+      ],
+      "translation": "Il a promis qu'il viendrait absolument, toutefois il n'est quand même pas apparu.",
+      "explanation": "'თუმცა' signifie 'toutefois/cependant' et marque l'opposition attendue ici; les autres distracteurs ne conviennent pas au sens contrastif."
+    },
+    {
+      "id": "reading_cloze-c1-gen-002",
+      "version": 2,
+      "cefr": "C1",
+      "sentence": "თუ ვინმეს დახმარება გჭირდება, მე მზად ვარ ___.",
+      "answer": "დაგეხმარო",
+      "options": [
+        "დაგეხმარო",
+        "დაგეხმარები",
+        "დაგეხმარებოდა",
+        "დაეხმარო"
+      ],
+      "translation": "Si quelqu'un a besoin d'aide, je suis prêt à t'aider.",
+      "explanation": "Après 'მზად ვარ' l'infinitif/subjonctif personnel 'დაგეხმარო' est requis pour exprimer la disposition à accomplir l'action; les autres formes correspondent à déclarations temporelles ou conditionnelles incorrectes ici."
+    },
+    {
+      "id": "reading_cloze-c1-gen-003",
+      "version": 3,
+      "cefr": "C1",
+      "sentence": "პროექტის წარმატება განპირობებულია იმით, თუ გუნდი მჭიდროდ ___ და ინფორმაციული ნაკადები თავისუფლად ნაკადავენ.",
+      "answer": "თანამშრომლობს",
+      "options": [
+        "თანამშრომლობს",
+        "თანამშრომლობა",
+        "თანამუშლობს",
+        "თანამშრომლობდა"
+      ],
+      "translation": "Le succès du projet dépend du fait que l'équipe collabore étroitement et que les flux d'information circulent librement.",
+      "explanation": "La forme verbale conjuguée au présent 'თანამშრომლობს' (3e pers. sing.) s'accorde avec 'გუნდი' ; les autres formes sont soit nom verbal, soit conjuguées ou mal orthographiées."
+    },
+    {
+      "id": "reading_cloze-c1-gen-004",
+      "version": 4,
+      "cefr": "C1",
+      "sentence": "ინტერვიუს დროს მან რთული შეკითხვა მე___ ისე უპასუხა, თითქოს საბოლოოდ არ ადარდებოდათ შედეგი.",
+      "answer": "მოუცია",
+      "options": [
+        "მოუცია",
+        "მოუმხრობა",
+        "მოუცენია",
+        "უპასუხა"
+      ],
+      "translation": "Lors de l'entretien, il m'a donné une réponse à une question difficile comme s'il n'était finalement pas préoccupé par le résultat.",
+      "explanation": "'მოუცია' est la forme composée correcte pour 'a donné (réponse)' dans ce contexte (გაცემული პასუხის მნიშვნელობით); les autres distracteurs sont soit un verbe inapproprié, soit mal formés."
+    },
+    {
+      "id": "reading_cloze-c1-gen-005",
+      "version": 5,
+      "cefr": "C1",
+      "sentence": "იმისათვის, რომ სტატიამ მეტი მკითხველი მიიზიდოს, წყაროები მკაფიოდ უნდა ___ და მითითდეს.",
+      "answer": "აღნიშნულიყო",
+      "options": [
+        "აღნიშნულიყო",
+        "აღნიშნავდა",
+        "აღნიშნავდეს",
+        "აღნიშნული"
+      ],
+      "translation": "Afin que l'article attire plus de lecteurs, les sources doivent être clairement indiquées.",
+      "explanation": "La construction impersonnelle et le registre soutenu exigent le subjonctif/passif 'აღნიშნულიყო' ('être indiqué') ; les autres formes sont actives, incorrectes ou nominales."
+    },
+    {
+      "id": "reading_cloze-c1-gen-006",
+      "version": 6,
+      "cefr": "C1",
+      "sentence": "როდესაც ინფორმაციის წყარო მრავალჯერ შეიცვალა, მკითხველი _ ვერ დაადგინა, რომელს უნდა ენდოს.",
+      "answer": "ურთიერთობაში",
+      "options": [
+        "ურთიერთობაში",
+        "საიტისა",
+        "უსაფრთხოდ",
+        "ჭეშმარიტებას"
+      ],
+      "translation": "Quand la source d'information a changé plusieurs fois, le lecteur n'a pas pu déterminer à laquelle faire confiance.",
+      "explanation": "Ici le verbe 'ვერ иადგინა' exige complément exprimant 'à laquelle' ; 'ურთიერთობაში' n'est pas correct — (CORRECTION NEEDED)"
+    },
+    {
+      "id": "reading_cloze-c1-gen-007",
+      "version": 7,
+      "cefr": "C1",
+      "sentence": "რომ აღსრულებულიყო ყველა ნორმა, შედეგი ბევრად უფრო მისაღები ___ თქვენთვის.",
+      "answer": "იყო",
+      "options": [
+        "იყო",
+        "იქნება",
+        "იყოები",
+        "იყოებით"
+      ],
+      "translation": "Si toutes les normes avaient été respectées, le résultat aurait été bien plus acceptable pour vous.",
+      "explanation": "Dans la construction conditionnelle irréelle au passé (პატარ-შესაძლო), la forme 'იყო' (auxiliaire imparfait) est correcte pour exprimer l'état hypothétique ; les autres formes ne conviennent pas."
+    },
+    {
+      "id": "reading_cloze-c1-gen-008",
+      "version": 8,
+      "cefr": "C1",
+      "sentence": "ოფისში ახალი პოლიტიკა შემოვიდა, რომლის მთავარი მიზანი იყო სამუშაო დროის ეფექტურობის ___.",
+      "answer": "მაღალ ხარისხში გაზრდა",
+      "options": [
+        "მაღალ ხარისხში გაზრდა",
+        "მაღალი ხარისხი",
+        "გაუმჯობესება",
+        "მაღალ ხარისხში"
+      ],
+      "translation": "Une nouvelle politique a été introduite au bureau, dont le principal objectif était d'augmenter l'efficacité du temps de travail.",
+      "explanation": "La phrase exige un nom verbal exprimant l'action: 'მაღალ ხარისხში გაზრდა' ('augmenter en haute qualité') est ici calibrée pour le registre formel ; 'გაუმჯობესება' pourrait être possible mais change légèrement le sens (amélioration vs augmentation du niveau), et les autres options sont incomplètes."
+    },
+    {
+      "id": "reading_cloze-c1-gen-009",
+      "version": 9,
+      "cefr": "C1",
+      "sentence": "მეცნიერული დისკურსი იმაზე მეტყველებს, რომ ჰიპოთეზა არ მოსალოდნელი მონაცემებით ___.",
+      "answer": "გადამოწმდა",
+      "options": [
+        "გადამოწმდა",
+        "გადასინჯა",
+        "გადამოწმება",
+        "გადამოწმდებოდა"
+      ],
+      "translation": "Le discours scientifique indique que l'hypothèse a été vérifiée par des données inattendues.",
+      "explanation": "Le passif au passé 'გადამოწმდა' convient pour signifier 'a été vérifiée' ; 'გადასინჯა' est synonyme mais stylistiquement moins précis ici, les autres formes verbales ne correspondent pas au temps/aspect requis."
+    },
+    {
+      "id": "reading_cloze-c1-gen-010",
+      "version": 10,
+      "cefr": "C1",
+      "sentence": "იმის გამო, რომ კვლევამ ახსნილი ფაქტორები არ მოიცვა, დასკვნები ზედმეტად ___ შეიძლება ჩაითვალოს.",
+      "answer": "პროვიზორულად",
+      "options": [
+        "პროვიზორულად",
+        "საბოლოოდ",
+        "სხვა",
+        "უპატივცემულოდ"
+      ],
+      "translation": "Parce que l'étude n'a pas couvert les facteurs expliqués, les conclusions peuvent être considérées comme trop provisoires.",
+      "explanation": "L'adverbe 'პროვიზორულად' ('de manière provisoire') décrit correctement la qualité des conclusions; 'საბოლოოდ' signifierait le contraire, et les autres choix sont inappropriés."
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "lessons-c1-gen-001",
+      "title": "Présenter son parcours professionnel",
+      "tag": "présentation",
+      "duration": 20,
+      "goal": "Savoir résumer son parcours professionnel en géorgien avec précision et nuances.",
+      "cefr": "C1",
+      "version": 1,
+      "items": [
+        {
+          "ka": "მე დავამთავრე ეკონომიკის ფაკულტეტი და დაიწყო ჩემი კარიერა მცირე საგანმანათლებლო სტარტაპში.",
+          "fr": "J'ai terminé mes études en économie et commencé ma carrière dans une petite start-up éducative.",
+          "translit": "Me davamtavre ekonomikis fakulteti da daxda mchemi kariera mchre saganmanaTlelo startapshi.",
+          "pron": "mɛ davamtaˈvre ekɔˈnomikis fakulˈtɛti da dɑxdɑ mˈtʃɛmi kɑriɛˈrɑ mχrɛ saganmanaˈtlɛlo stɑrˈtɑpʃi."
+        },
+        {
+          "ka": "შემდეგ გადავედი საერთაშორისო კომპანიაში, სადაც პასუხისმგებლობა მქონდა პროექტების მართებაზე.",
+          "fr": "Ensuite je suis passé dans une entreprise internationale, où j'étais responsable de la gestion de projets.",
+          "translit": "Shemdghe gadavedi saertashoriso kompanias, sadac p'asukhismgeboba mqonda proeqtebis martsebadze.",
+          "pron": "ʃɛmˈdɡɛ ɡɑdɑˈvɛdi sɑɛrtɑʃoˈriso komˈpɑnijas sɑˈdɑt͡s pʼɑsuxisɡɛˈbɔbɑ mχɔnˈdɑ prɔɛkˈtɛbis mɑrt͡sɛbɑd͡zɛ."
+        },
+        {
+          "ka": "ჩემი განმავითარებელი ძლიერი მხარეა სტრატეგიული აზროვნება და გუნდთან კომუნიკაცია.",
+          "fr": "Mon atout pour le développement est la pensée stratégique et la communication avec l'équipe.",
+          "translit": "Chemi gansmavitarrebelia dzlier mkharea strateghiuli azrovneba da gundtan komunikacia.",
+          "pron": "ˈt͡ʃɛmi ɡɑnsmavitɑrɛˈbɛlia dzliɛr mχɑˈrɛɑ strateɡiulʲi ɑzrɔvˈnɛbɑ dɑ ɡunˈdtɑn komunikaˈtsiɑ."
+        },
+        {
+          "ka": "საზოგადოებრივი ქსელებში ვაქცევდი ყურადღებას ბრენდის იმიჯსა და სარეკლამო კონცეფციას.",
+          "fr": "Je prêtais attention à l'image de marque et aux concepts publicitaires sur les réseaux sociaux.",
+          "translit": "Sazogadoebrivi ksel'ebshi vakcevdidi uacabukhebas brendis imijsa da sareklamo kontseptsias.",
+          "pron": "sɑzɔɡɑdɔɛbriˈvi kˈsɛlʼɛbʃi vɑt͡sɛvˈdidi uɑtsɑbuˈkʰɛbɑs brɛnˈdis iˈmid͡zɑ dɑ sɑrɛklɑˈmɔ kɔnt͡sɛpˈtsiɑs."
+        },
+        {
+          "ka": "ახლა ვეძებ ახალ გამოწვევებს, რომლებიც საშუალებას მომცემს სტრატეგიულმა ხედვებმა პრაქტიკულად აიხდინონ.",
+          "fr": "Maintenant je cherche de nouveaux défis qui me permettront de concrétiser des visions stratégiques.",
+          "translit": "Akhla vedzeb akhal gamotsvevebs, romlebic sheudzleba momtsemis strateghiulma khedvembma praktikulad aikhdinon.",
+          "pron": "ɑχlɑ vɛdzɛb ɑxɑl ɡɑmɔt͡sveˈvɛbs rɔmˈlɛbits ʃɛud͡zlɛbɑ mɔmˈtsɛmɪs strateɡiulmɑ χɛdvembmɑ praktikˈulɑd aixdiˈnɔn."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-002",
+      "title": "Exprimer des réserves et nuancer",
+      "tag": "nuance",
+      "duration": 25,
+      "goal": "Formuler des objections, des réserves et nuancer une affirmation en géorgien formel.",
+      "cefr": "C1",
+      "version": 2,
+      "items": [
+        {
+          "ka": "მიუხედავად იმისა, რომ იდეა მიზანშეწონილია, მენს მგონია, რომ შესრულების დეტალები ჯერაც დაზუსტებას საჭიროებენ.",
+          "fr": "Bien que l'idée soit pertinente, je pense que les détails d'exécution nécessitent encore des clarifications.",
+          "translit": "Miubridet radgan, rom idea mizansheconilia, mens mgonia, rom shesrulebis detalebi jerac dazustebas sachiroben.",
+          "pron": "miuˈbɾidɛt ɾɑdɡɑn rɔm iˈdɛɑ mitsɑnʃɛˈt͡sɔniliɑ mɛns mɡɔˈniɑ rɔm ʃɛsɾulɛˈbis dɛtɑˈlɛbi d͡ʒɛɾɑts dazustɛˈbɑs sɑχiɾɔˈbɛn."
+        },
+        {
+          "ka": "ვაღიარებ, რომ შედეგი შესაძლებელია უკეთესი თუ რესურსები გადანაწილდება გონივრულად.",
+          "fr": "J'admets que le résultat peut être meilleur si les ressources sont réparties judicieusement.",
+          "translit": "Vaghiar'eb, rom shedegi sheidzleba uketeshi tu resursebi gadanawildevda gonivrulad.",
+          "pron": "vɑɣiɑˈɾɛb rɔm ʃɛdɛˈɡi ʃɛid͡zlɛˈbɑ ukɛtɛˈʃi tu ɾɛsuɾsɛbi ɡɑdɑnɑvilˈdɛvdɑ ɡɔnivˈɾulɑd."
+        },
+        {
+          "ka": "ამ ხედვით, ერთი წარმომადგენლობა შეიძლება საკმარისად არ ასახავდეს მრავალფეროვნებას.",
+          "fr": "Avec ce point de vue, une représentation pourrait ne pas refléter suffisamment la diversité.",
+          "translit": "Am khedvit, erti mxolodmavloba sheidzleba sakmarisad ar asakhavdes mtavrobfonobas.",
+          "pron": "ɑm χɛdˈvit ɛrti mxɔlɔdmɑvlɔˈbɑ ʃɛid͡zˈlɛbɑ sɑkmɑɾiˈsɑd ɑɾ ɑsɑχɑvdɛs mtɑvɾɔbfɔˈnɔbɑs."
+        },
+        {
+          "ka": "მე არ გამოვრიცხავ ალტერნატივებს, განსაკუთრებით თუ ეს უზრუნველყოფს გავლის გაცილებას.",
+          "fr": "Je n'exclus pas des alternatives, surtout si cela garantit une progression différenciée.",
+          "translit": "Me ar gamovrikhav alternatiwebs, gansakutrebit tu es uzrunvelesev gavlis gatsilebas.",
+          "pron": "mɛ ɑr ɡɑmɔvɾiˈxɑv altɛɾnaˈtivɛbs ɡɑnsɑkutˈrɛbit tu ɛs uzɾunvɛˈlɛsɛv ɡɑvˈlis ɡɑt͡siləˈbɑs."
+        },
+        {
+          "ka": "სჯობს წინასწარ განვსაზღვროთ კრიტერიუმები, რათა შეფასება ობიექტური და გამჭვირვალე იყოს.",
+          "fr": "Il vaut mieux définir à l'avance des critères pour que l'évaluation soit objective et transparente.",
+          "translit": "Sjobs tsinascar ganvsazgherot kriteriumebi, rata sasheneba objekturi da gamchvirvale ikos.",
+          "pron": "sd͡ʒɔbs tsinɑsˈt͡sɑr ɡɑnvsɑzɣɛˈrɔt krɪtɛɾiˈumɛbi rɑtɑ sɑʃɛnɛˈbɑ ɔbjɛkˈtuɾi dɑ ɡɑmt͡ʃvɪɾvɑlɛ iˈkɔs."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-003",
+      "title": "Débattre d'un article d'opinion",
+      "tag": "débat",
+      "duration": 30,
+      "goal": "Analyser et critiquer les arguments d'un article d'opinion en utilisant des connecteurs logiques avancés.",
+      "cefr": "C1",
+      "version": 3,
+      "items": [
+        {
+          "ka": "ავტორი სათანადოდ აანალიზებს სტატისტიკას, მაგრამ უგულებელყოფს პრინციპულ ეთიკურ ასპექტებს.",
+          "fr": "L'auteur analyse correctement les statistiques, mais néglige des aspects éthiques fondamentaux.",
+          "translit": "Avtori satanadod aanalizebs statistikas, magram ugulebelkhovs princippul etikur aspek'tebs.",
+          "pron": "ɑvˈtɔɾi sɑtɑnɑˈdɔd ɑɑnɑliˈzɛbs stɑtisˈtikɑs mɑɡɾɑm uɡulɛbɛlˈxɔvs ˈpɾintsipʼul ɛtiˈkuɾ ɑspɛkˈtɛbs."
+        },
+        {
+          "ka": "ამრიგად, მისი დასკვნები მოსალოდნელზე ერთი ნაბიჯით გადახრილია ცხოვრებისეულ კონტექსტთან მიმართებით.",
+          "fr": "Ainsi, ses conclusions sont légèrement déplacées par rapport au contexte vécu.",
+          "translit": "Amrigad, misi dasqvnebi mosaxlodesze erti nakhbit gadakhriilia ckhovrebisul kontek'st'tan modzraebit.",
+          "pron": "ɑmɾiˈɡɑd misɪ dɑskvˈnɛbi mosɑxlɔdɛzɛ ɛrti nɑxˈbit ɡɑdɑxɾiˈiliɑ t͡skʰɔvɾɛbisul kɔnˈtɛkstʼtɑn mɔd͡zɾɑɛˈbit."
+        },
+        {
+          "ka": "ვინაიდან მონაცემები ნაწილობრივ მოკლებულია საზღვრებამდე, აუცილებელია გამოკვლევა მრავალ წყაროებიდან.",
+          "fr": "Étant donné que les données sont partiellement limitées, il est nécessaire d'enquêter à partir de sources multiples.",
+          "translit": "Vinayidan monacemebi nakhlisvashi mokleulobia sazhvrebadze, aucilebobs gamokvleva mtlian tsqaroiTan.",
+          "pron": "vinɑjidɑn mɔnɑt͡sɛˈmɛbi nɑxliˈsvɑʃi mɔklɛuˈɔbɪɑ sɑʒvɾɛbɑd͡zɛ aud͡zit͡sɛˈbɔbs ɡɑmɔkvlɛˈvɑ mtl̩iɑn tsʼkɑrɔitʼɑn."
+        },
+        {
+          "ka": "მისი მასტერდაჭერა კარგია პუბლიკაციის სტილით, თუმცა ლოგიკურად საჭირო იქნებოდა უფრო მკაფიო დასკვნითი აბზაცი.",
+          "fr": "Son style est maîtrisé pour la publication, toutefois il faudrait une conclusion plus claire et logique.",
+          "translit": "Misi masterdachera kargia publikaciis stilit, tuaghm lodigurad sachiro iqneba upro mkafio dasqvniti abzaci.",
+          "pron": "misɪ mastɛrdɑt͡ʃɛɾɑ kɑrɡˈiɑ publikaˈtsiːs stʼilit tʰuɑɣm lɔɡiˈɡuɾɑd sɑchiˈɾɔ ɪxˈnɛbɑ upɾɔ mkaˈfiɔ dɑskvniˈti ɑbzɑtsʼi."
+        },
+        {
+          "ka": "შეგვიძლია ვებრძოლოთ დასკვნებისთვის ალტერნატიული განმარტებებით და შემდგომი გამოკვლევით.",
+          "fr": "Nous pouvons contester les conclusions avec des interprétations alternatives et des recherches supplémentaires.",
+          "translit": "Shegvidzlia vebrzdolot dasqvnebisat alternatiuli ganmart'ebit da shemdeg gamokvlevit.",
+          "pron": "ʃɛɡvɪd͡zlia vɛbɾzdɔˈlɔt dɑskvˈnɛbisɑt altɛɾnaˈt̪iuli ɡɑnmaɾtʼɛˈbit dɑ ʃɛmdɛɡ ɡɑmɔkvlɛˈvit."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-004",
+      "title": "Rédiger une lettre de motivation nuancée",
+      "tag": "rédaction",
+      "duration": 35,
+      "goal": "Écrire une lettre de motivation en géorgien mettant en valeur compétences et adaptations contextuelles.",
+      "cefr": "C1",
+      "version": 4,
+      "items": [
+        {
+          "ka": "ვწერ თქვენთან, რადგან ჩემი საკომუნიკაციო და პროექტთა მართვის გამოცდილება შეესაბამება თქვენი სტრატეგიული მიზნებს.",
+          "fr": "Je vous écris car mon expérience en communication et gestion de projets correspond à vos objectifs stratégiques.",
+          "translit": "Vts'er tkventan, radgan chemi sakomunikacio da proeqtet'a martvis gamoq'opileba sheesabameba tkveni strateghiuli miznebs.",
+          "pron": "vtsʼɛr tkvɛntɑn rɑdɡɑn ˈt͡ʃɛmi sɑkɔmunikaˈtsiɔ dɑ prɔɛktɛtʼɑ mɑrtˈvis ɡɑmɔkʼɔpileˈbɑ ʃɛɛsɑbɑmɛˈbɑ tkʰvɛni strateɡiuli miznɛbs."
+        },
+        {
+          "ka": "გმადლობთ შესაძლებლობისთვის, რათა განვიხილო, როგორ შეგვიძლია ერთად დავგეგმოთ ინოვაციური კამპანია.",
+          "fr": "Merci pour l'opportunité de réfléchir à comment nous pourrions planifier ensemble une campagne innovante.",
+          "translit": "Gmadlobt shesaxleblobistvis, rata ganvik'ilo, rogor shegvidzia ertad davghegot inovatsiuri kampania.",
+          "pron": "ɡmɑdlɔˈbt ʃɛsɑχlɛbɔbistʼvis rɑtɑ ɡɑnvikʼiˈlɔ rɔɡɔr ʃɛɡvɪd͡zɪɑ ɛrtɑd dɑvɡʰɛɡɔt inovɑt͡siuɾi kɑmpɑˈniɑ."
+        },
+        {
+          "ka": "ჩემი პრაქტიკული ჩვევა არის დამწყებთა მENTOრინგი და წახალისება გუნდის შიდა ინიციატივებისთვის.",
+          "fr": "Ma pratique inclut le mentorat des débutants et l'encouragement des initiatives internes de l'équipe.",
+          "translit": "Chemi praktikuli chveva aris damts'qebta mentoringi da ts'akhaliseba gundis shida iniciativebistvis.",
+          "pron": "ˈt͡ʃɛmi praktikuli t͡ʃvɛvɑ ɑris dɑmt͡sʼqɛbtɑ mɛnˈtɔɾiŋi dɑ tsʼɑχɑliˈsɛbɑ ɡundzis ʃidɑ initiɑtiˈvɛbistʼvis."
+        },
+        {
+          "ka": "გავუზიარე რეზიუმე და პრობლემებს ვთავაზობ კონკრეტულ გეგმის ნაწილს, რათა დაწყებული სწრაფად მიაღწიოს შედეგს.",
+          "fr": "J'ai joint mon CV et proposé une partie concrète du plan pour que le projet en cours atteigne rapidement des résultats.",
+          "translit": "Gavuziare reziume da problembs vtarazob konkretul gegmis nalis, rata dach'qebi st'rapidad miaach'ios shedegs.",
+          "pron": "ɡɑvuziaˈrɛ ɾɛzjuˈmɛ dɑ pɾɔblɛmbs vtaɾɑˈzɔb konkɾɛˈtul ɡɛɡmis nɑlis rɑtɑ dɑt͡ʃʼqɛbi stʼɾɑpidaˈd miaɑt͡sʼiɔs ʃɛdɛɡs."
+        },
+        {
+          "ka": "მხოლოდ პროფესიული უნარ-ჩვევები არაა მთავარი — მნიშვნელოვანია კულტურული ადაპტაციის უნარი ახალი გარემოსთვის.",
+          "fr": "Les compétences professionnelles ne sont pas tout — l'aptitude à l'adaptation culturelle au nouvel environnement est essentielle.",
+          "translit": "Mkh'old profesiuli unar-chvevebi ara mtavari — mnishvnelobad kulturauli adaptaciis unari akhali garemostvis.",
+          "pron": "mχɔld pʰɾɔfɛsiuli unɑɾ-t͡sʼvɛvɛbi ɑɾɑ mtɑvɑˈɾi — mniʃvneˈlobɑd kʰultuɾɑuli ɑdɑptɑˈtsiis unɑɾi ɑxɑli ɡɑɾɛmɔstʼvis."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-005",
+      "title": "Comprendre et reformuler une consigne technique",
+      "tag": "compréhension",
+      "duration": 18,
+      "goal": "Saisir une consigne technique et la reformuler clairement en géorgien pour des collègues.",
+      "cefr": "C1",
+      "version": 5,
+      "items": [
+        {
+          "ka": "პირველი ეტაპი მოითხოვს მოდულის კომპონენტების ინვენტარიზაციას და მათი მდგომარეობის დათვალის აღდგენას.",
+          "fr": "La première étape exige un inventaire des composants du module et la restauration de leur état.",
+          "translit": "P'irveli etap'i moitxovs modulis komponentebis inventarizaciisa da mati mdgomareobis datvalis aghdgenas.",
+          "pron": "pʼiɾvɛli ɛtɑpʼi mɔitʼxɔvs mɔdulis kɔmpɔnɛntɛbis invɛntɑɾiˈzɑtsiːsɑ dɑ mɑti mdɡɔmɑɾɛɔbis dɑtvɑˈlis ɑɣd͡zɛnɑs."
+        },
+        {
+          "ka": "შემდეგ უზრუნველყავით შესაბამისი უსაფრთხოების პროტოკოლები და აამოქმედეთ სარეზერვო სისტემები.",
+          "fr": "Ensuite assurez les protocoles de sécurité appropriés et activez les systèmes de sauvegarde.",
+          "translit": "Shemdghe zadawyaviT uchrmotkheuli usafesrkoebis protokolebi da aamokmedet sarezer'vo sistemebi.",
+          "pron": "ʃɛmˈdɡɛ zɑdɑwˈjɑvit ut͡sʼrɔmɔtxɛuˈli usɑfɛsrkɔɛbis pɾɔtɔkɔˈlɛbi dɑ ɑɑmɔxmɛˈdɛt sɑrɛzɛrʋɔ sistɛˈmɛbi."
+        },
+        {
+          "ka": "დომენის კონფიგურაციის ფაილში ჩაწერეთ მიმდინარე პარამეტრები და დაელოდეთ სერვერის რეინიტიალიზაციას.",
+          "fr": "Écrivez dans le fichier de configuration du domaine les paramètres en cours et attendez la réinitialisation du serveur.",
+          "translit": "Domenis konfiguraciis failshi ch'atseret mtavrobeli parametrebia da daelodet serveris reinit'ializaciast'vis.",
+          "pron": "dɔˈmɛnɪs kɔnfiɡuraˈtsiis fɑilʃi t͡ʃʼɑtsɛˈrɛt mtaˈvɾɔbɛli pɑrɑmɛtʰɛɾɛbiɑ dɑ dɑɛlɔˈdɛt sɛrˈvɛris ɾɛinitʼiɑlizaˈtsʼiastʼvis."
+        },
+        {
+          "ka": "თუ შეცდომები გამოვლინდა, აღრიცხეთ ისინი ჟურნალში და მიუთითეთ პირველადი გამოსწორების ნაბიჯები.",
+          "fr": "Si des erreurs apparaissent, consignez-les dans le journal et indiquez les premières mesures correctives.",
+          "translit": "Tu shecdomebi gamovlinda, aghrichet isini jurnalshi da miuit'etet p'erveladi gamoscursoris nabidkebi.",
+          "pron": "tu ʃɛt͡sʼdɔmɛbi ɡɑmɔvˈlindɑ ɑɣɾit͡ʃʼɛt isini d͡ʒurnɑlʃi dɑ miuitʼɛtɛt pʼɛɾvɛlɑdi ɡɑmɔsʼt͡sʼurɔɾis nɑbidkɛbi."
+        },
+        {
+          "ka": "დააკონკრეტეთ ვადა და პასუხისმგებელი პირი, რათა შესრულების კონტროლი გამჭვირვალე იყოს.",
+          "fr": "Précisez le délai et la personne responsable pour que le suivi de l'exécution soit transparent.",
+          "translit": "Daakonkretet vada da p'asukhismgebeli p'iri, rata shesrulebis kontroli gamchvirvale ikos.",
+          "pron": "dɑɑkɔnkɾɛˈtɛt vɑdɑ dɑ pʼɑsuxisɡɛbɛli pʼiɾi rɑtɑ ʃɛsɾulɛbis kɔntɾɔˈli ɡɑmt͡ʃvɪɾvɑlɛ iˈkɔs."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-006",
+      "title": "Utiliser des expressions idiomatiques avancées",
+      "tag": "idiomes",
+      "duration": 22,
+      "goal": "Maîtriser des expressions idiomatiques, leur usage et leur registre en contexte professionnel et familier.",
+      "cefr": "C1",
+      "version": 6,
+      "items": [
+        {
+          "ka": "მოხარული ვარ, რომ საქმე წინ წავა და შევძლებთ მზად ვიყოთ გამოწვევებისთვის.",
+          "fr": "Je suis content que les choses avancent et que nous puissions nous préparer aux défis.",
+          "translit": "Mokharuli var, rom sakme ts'in tsava da shevzdzebt maz viqot gamotsvevebistvis.",
+          "pron": "mɔχɑˈɾulɪ vɑɾ rɔm sɑkmɛ tsʼin tsʼɑvɑ dɑ ʃɛvzdzɛbt mɑz viˈqɔt ɡɑmɔt͡sveˈvɛbistʼvis."
+        },
+        {
+          "ka": "ეს ჩვენთვის არაჯანსაღი სიგნალია; უნდა დავიჭიროთ პრობლემა ისე, როგორც წყალს აბავებ.",
+          "fr": "C'est un signal préoccupant pour nous ; il faut aborder le problème comme on lave un linge (avec précaution/précision).",
+          "translit": "Es chventvis arajansaghi signal'ia; unda davich'irot problema ise, romits ts'qals abaveb.",
+          "pron": "ɛs t͡ʃvɛntʼvɪs ɑrɑjɑnsɑɣi siɡnalʼia undɑ dɑvit͡ʃʼiɾɔt pɾɔblɛˈmɑ isɛ ɾɔmits tsʼqɑls ɑbɑvɛb."
+        },
+        {
+          "ka": "მისი კომენტარი თითქოს წვიმის წვეთივით მოხვდა პრობლემის გულში.",
+          "fr": "Son commentaire est tombé comme une goutte de pluie au cœur du problème.",
+          "translit": "Misi komentari tsono ts'vimis ts'v'et'ivit mokhovda problembis guls'hshi.",
+          "pron": "misɪ kɔmɛnˈtɑɾi tsʼɔnɔ tsʼvimiˈs tsʼvɛtʼiviɾt mɔχɔvˈdɑ pɾɔblɛmbis ɡulʃˈʃi."
+        },
+        {
+          "ka": "დროის მცირე რესურსი გვაქვს, ამიტომ მივდივართ სწრაფად, მაგრამ მაინც სიფრთხილით.",
+          "fr": "Nous avons peu de temps, donc nous avançons rapidement mais prudemment.",
+          "translit": "Drois mts'eri resursi gakvs, imitom mivdivart st'rapidad, magram mainc siprtkhilot.",
+          "pron": "dɾois mˈt͡sɛɾi ɾɛsuɾsi ɡɑkvs imitɔm mivdiˈvɑrt stʼɾɑpidaˈd mɑɡɾɑm mɑinʦ sipʰɾtχiˈlɔt."
+        },
+        {
+          "ka": "იმისთვის, რომ იდეა ბოლომდე მივიყვანოთ, აუცილებელია ცოტა ძალისხმევა და ჯანსაღი დისკუსია.",
+          "fr": "Pour mener l'idée à son terme, il faudra un peu d'effort et une discussion saine.",
+          "translit": "ImisTvis, rom idea bolomde mivikhvanot, aucilebobs ts'ota dzalisxueva da jansaghi diskusia.",
+          "pron": "imisˈtvis rɔm iˈdɛɑ bɔlɔmˈdɛ miviχvɑnɔt aud͡zit͡sɛˈbɔbs tsʼɔtɑ d͡zɑlʼisχuˈɛvɑ dɑ d͡ʒɑnsɑɣi diskʰuˈsiɑ."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-007",
+      "title": "Argumenter sur des politiques publiques",
+      "tag": "politiques",
+      "duration": 40,
+      "goal": "Développer un argumentaire structuré et nuancé sur une politique publique en géorgien.",
+      "cefr": "C1",
+      "version": 7,
+      "items": [
+        {
+          "ka": "სახელმწიფო პოლიტიკის მთავარი მიზანი უნდა იყოს სოციალური ინტეგრაცია და ეკონომიკური მდგრადობა.",
+          "fr": "L'objectif principal d'une politique d'État doit être l'intégration sociale et la stabilité économique.",
+          "translit": "Sakhelmts'ipo politik'is mtavari mizani unda ikos sotsialuri integracia da ekonomiki mdgradoba.",
+          "pron": "sɑkʰɛlmtsiˈpo politʼiˈkis mtɑvɑˈɾi mizɑni undɑ iˈkɔs sɔtsiɑˈluɾi intɛɡˈɾɑtsiɑ dɑ ekɔnɔˈmiki mdɡrɑˈdɔbɑ."
+        },
+        {
+          "ka": "ხარჯების გადანაწილების დროს აუცილებელია პრიორიტეტების განსაზღვრა და სარეზერვო ბუფერის შეთანხმება.",
+          "fr": "Lors de la répartition des dépenses, il est nécessaire de définir des priorités et de prévoir une réserve tampon.",
+          "translit": "Khardzhebis gadanawilsebis dros aucilebobs prioritet'ebis gansazghvra da sarezer'vo buferis shtabekhneba.",
+          "pron": "χɑrd͡zɛbis ɡɑdɑnɑvʲilsebis dɾɔs aud͡zit͡sɛˈbɔbs priɔɾitɛtɛbis ɡɑnsɑzɣvɾɑ dɑ sɑrɛzɛrʋɔ buˈfɛɾis ʃtɑbɛχnɛˈbɑ."
+        },
+        {
+          "ka": "პრობლემის ანალიზი უნდა ეფუძნებოდეს მონაცემთა ღირებულებას, გავლენის რისკსა და სამიზნე ჯგუფს.",
+          "fr": "L'analyse du problème doit se fonder sur la valeur des données, le risque d'impact et le groupe cible.",
+          "translit": "Problemis analizi unda epudznebedos monacemta ghirevlebas, gavlenis risksa da samizne jups.",
+          "pron": "pɾɔblɛmis ɑnɑliˈzi undɑ ɛpudznɛbɛˈdɔs mɔnɑt͡sɛmtɑ ɣirɛvˈlɛbɑs ɡɑvʎɛnɪs ɾiskʰsɑ dɑ sɑmiznɛ d͡ʒups."
+        },
+        {
+          "ka": "გზავდასახვა უნდა მოხდეს მრავალშრიან ანალიზზე და საჯარო საკომუნიკაციო კამპანიაზე.",
+          "fr": "La feuille de route doit reposer sur une analyse multi-dimensionnelle et une campagne de communication publique.",
+          "translit": "Gzavdasakhva unda moxdes mtlian shrian analizze da sajaro sakomunikacio kampaniaze.",
+          "pron": "ɡzɑvdɑsɑχvɑ undɑ mɔχdɛs mtlian ʃɾiɑn ɑnɑliˈzɛ dɑ sɑd͡ʒɑɾɔ sɑkɔmunikaˈtsiɔ kɑmpɑnʼiɑzɛ."
+        },
+        {
+          "ka": "მართვის მთავარ პრინციპებს უნდა ჩაუყაროთ თუარონებს გაცალფეხიანობა და ანგარიშვალდებულება.",
+          "fr": "Les principes directeurs doivent inclure la subsidiarité et la responsabilité comptable.",
+          "translit": "Martvis mtavar princ'ipebsi unda chauyaret tuaronebs gatsalfekhi'anoba da angarqvaladgheba.",
+          "pron": "mɑrtvɪs mtɑvɑɾ pɾintsʼipɛbsi undɑ t͡ʃɑuxɑˈɾɛt tʼuɑɾɔnɛbs ɡɑtsʼɑlfɛχiʼɑnɔbɑ dɑ ɑnɡɑɾxválɑdɣɛbɑ."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-008",
+      "title": "Expressivité et registre en conversation informelle",
+      "tag": "conversation",
+      "duration": 15,
+      "goal": "Adapter le registre et l'expressivité pour une conversation informelle nuancée entre collègues.",
+      "cefr": "C1",
+      "version": 8,
+      "items": [
+        {
+          "ka": "ჰე, როგორ ხარ? დავიღალე დღეს, მაგრამ საღამოს ყავაზე თუ მოვნახავ დროს?",
+          "fr": "Hey, comment tu vas ? Je suis crevé aujourd'hui, mais on se voit ce soir pour un café si tu as du temps ?",
+          "translit": "He, rogor khar? Davighale dghes, magram saghamovs qavaze tu movnakhav dros?",
+          "pron": "hɛ rɔɡɔr χɑr dɑviɡɑˈlɛ dɡɛs mɑɡɾɑm sɑɣɑmɔvs qɑvɑzɛ tu mɔvnɑˈxɑv dɾɔs."
+        },
+        {
+          "ka": "დღეს ცოტა გადაღლილი ვარ, ასე რომ ხუმრობებს ცოტა ნელა დავპყრობ.",
+          "fr": "Je suis un peu épuisé aujourd'hui, donc je vais réagir aux blagues un peu plus lentement.",
+          "translit": "Dghes ts'ota gadaghli var, ase rom khumrobebs ts'ota nela davp'qrob.",
+          "pron": "dɡɛs tsʼɔtɑ ɡɑdɑɡξli vɑɾ ɑsɛ rɔm χumɾɔbɛbs tsʼɔtɑ nɛlɑ dɑvpʼqɾɔb."
+        },
+        {
+          "ka": "გასართობად წავიდეთ სადმე ახალთახალ. შენ იცნობ კარგ კაფეს?",
+          "fr": "Allons quelque part pour nous amuser. Tu connais un bon café ?",
+          "translit": "Gasartobad ts'avidet sadme akhaltakhal. Shen its'nob karg kafes?",
+          "pron": "ɡɑsɑɾtɔˈbɑd tsʼɑvidɛt sɑdmɛ ɑχɑltɑχɑl ʃɛn itsnɔb kɑrɡ kɑˈfɛs."
+        },
+        {
+          "ka": "მიყვარს შენი აზრი ამ თემაზე, მაგრამ ნუ გაიქცევი პირდაპირ — მოდი დავიკრიფოთ იდეები დალაგებული.",
+          "fr": "J'aime ton avis sur ce sujet, mais évite d'aller droit au but — rassemblons les idées de façon ordonnée.",
+          "translit": "Miqvars sheni azri am temaZe, magram nu gaik'tsevi p'irdap'irob — modi davaik'rifot ideebi dalagebuli.",
+          "pron": "miqvɑrs ʃɛnɪ ɑzɾi ɑm tɛmɑzɛ mɑɡɾɑm nu ɡɑikt͡sɛˈvi pʼiɾdɑpʼiɾɔb mɔdi dɑvɑikʼɾifɔt ideɛbi dɑlɑɡɛˈbuli."
+        },
+        {
+          "ka": "არაა საჭირო ზედმეტი ფორმალობა — მოვილაპარაკოთ პატარ-პატარა და შემდეგ გადავწყვიტოთ.",
+          "fr": "Pas besoin d'excès de formalisme — parlons petit à petit puis décidons ensuite.",
+          "translit": "Araa sachiro zedmeti p'ormaloba — movilap'arokot patar-patara da shemdeg gadavts'ritsot.",
+          "pron": "ɑɾɑ ɑ sɑχiɾɔ zɛdmɛti pʼɔɾmɑlɔbɑ mɔvilɑpʼɑɾɔkɔt pɑtɑɾ-pɑtɑɾɑ dɑ ʃɛmdɛɡ ɡɑdɑvtsʼɾit͡sʼɔt."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-009",
+      "title": "Analyser une littérature spécialisée",
+      "tag": "lecture",
+      "duration": 45,
+      "goal": "Lire un texte spécialisé et produire un compte rendu critique en géorgien en utilisant un lexique technique.",
+      "cefr": "C1",
+      "version": 9,
+      "items": [
+        {
+          "ka": "სავალდებულო ლიტერატურამ უშუალოდ შეეხო დისციპლინური მეთოდოლოგიის კრიტიკულ ასპექტებს.",
+          "fr": "La bibliographie recommandée a directement abordé les aspects critiques de la méthodologie disciplinaire.",
+          "translit": "Savaldebulo literaturem ushuvalod esek'o disciplinuri metodologiis kritik'ul aspekt'ebs.",
+          "pron": "sɑvɑldɛbuˈlɔ literaturaˈm uʃuvɑlɔd ɛsɛkʼɔ disʦʼiplinuɾi mɛtɔdɔlɔˈɡiis kritikʼul ɑspɛkʼtɛbs."
+        },
+        {
+          "ka": "ავტორის არგუმენტაცია ნაწილობრივ საკამათოა, რადგან ჰიპოთეზები დაფუძნებულია ექსტრაპოლაციაზე.",
+          "fr": "L'argumentation de l'auteur est partiellement contestable, car les hypothèses reposent sur une extrapolation.",
+          "translit": "Avtoris argumentacia nakhlisvashi sak'amato'a, radgan hipot'ezebi dafzundebulia ekstrapolaciaze.",
+          "pron": "avtɔɾis ɑrɡumɛnˈtɑtsiɑ nɑxliˈsvɑʃi sɑkʼɑmɑtʼɔɑ rɑdɡɑn hipotʼeˈzɛbi dɑft͡sʼundɛbuˈliɑ ɛkstɾɑpɔlɑˈtsʼiɑzɛ."
+        },
+        {
+          "ka": "ასემინარს მოჰყვა დეტალური მეთოდური შენიშვნები და პრაქტიკული მაგალითები მონაცემთა დამუშავების შესახებ.",
+          "fr": "Le séminaire a été suivi de remarques méthodologiques détaillées et d'exemples pratiques sur le traitement des données.",
+          "translit": "Aseminars mohq'va detaluri metoduri shenishvnebi da praktikuli magalit'ebi monacemta damushvebis shesakheb.",
+          "pron": "ɑsɛmiˈnɑrs mɔχqʼvɑ dɛtɑluɾi mɛtɔduɾi ʃɛniʃvˈnɛbi dɑ pɾɑktikuli mɑɡɑliˈtʼɛbi mɔnɑt͡sɛmtɑ dɑmuʃvɛbis ʃɛsɑxɛb."
+        },
+        {
+          "ka": "რეზიუმე უნდა მოიცავდეს შეზღუდულობას, შერჩევის კრიტერიუმებს და მომავალი კვლევის მიმართულებას.",
+          "fr": "Le résumé doit couvrir les limites, les critères de sélection et l'orientation des recherches futures.",
+          "translit": "Reziume unda moicavdes shezghudulobas, sherchevis kriteriumebs da momavali k'velis mimartleobis.",
+          "pron": "rɛzjuˈmɛ undɑ mɔit͡sʼɑvdɛs ʃɛzɣudᵊlɔbɑs ʃɛɾtʃɛvis krɪtɛɾiˈumɛbs dɑ mɔmɑvɑli kʼvɛlis mimɑrtlɛɔbɪs."
+        },
+        {
+          "ka": "გთხოვთ ხაზგასმით მიუთითოთ უპირატესობები და არსებული ცარიელობები თემურ ჭრილში.",
+          "fr": "Veuillez souligner les avantages et les lacunes existantes dans ce domaine thématique.",
+          "translit": "Gt'khovt khazgasmit miuit'etot uprivatesobebi da arsebuli tsarielobebi temu'r ch'rilishi.",
+          "pron": "ɡtʼχɔv̪t χɑzɡɑsˈmit miuɪtʼɛtɔt upɾivɑtɛsɔbɛbi dɑ ɑrsebuli tsɑɾiɛlɔbɛbi tɛmuɾ t͡ʃʼɾiliʃi."
+        }
+      ]
+    },
+    {
+      "id": "lessons-c1-gen-010",
+      "title": "Négocier un accord international",
+      "tag": "négociation",
+      "duration": 50,
+      "goal": "Utiliser un registre diplomatique, formuler concessions et garanties et conclure un accord en géorgien.",
+      "cefr": "C1",
+      "version": 10,
+      "items": [
+        {
+          "ka": "ჩვენ მზად ვართ შევიწყოთ დიალოგი კომპრომისებისა და ურთიერთდამოკიდებულების საფუძველზე.",
+          "fr": "Nous sommes prêts à engager un dialogue sur la base de compromis et d'interdépendance.",
+          "translit": "Chven mzad vart shevitsqot dialogi kompromisebisa da urtiukhdamokidebis sasmartvelze.",
+          "pron": "t͡ʃvɛn mˈzɑd vɑrt ʃɛvit͡sʼqɔt diɑˈlɔɡi kɔmprɔˈmisɛbisa dɑ ʊrtʼiuxdɑmɔkʼidɛbis sɑsmɑrtʼvɛlzɛ."
+        },
+        {
+          "ka": "ჩვენი წინადადება მოიცავს ნორმატიულ გარანტიებს და საფრთხოების მექანიზმებს, რომლებიც უზრუნველყოფენ შესრულებას.",
+          "fr": "Notre proposition inclut des garanties normatives et des mécanismes de sécurité qui assureront l'exécution.",
+          "translit": "Chveni ts'inadadeba moicavs normatiul garantiebi da safrtkhoebis mekanizm'eba, romlebic uzrunveles shesrulebas.",
+          "pron": "t͡ʃvɛni tsʼinɑdɑdɛbɑ mɔit͡sʼɑvs nɔrmɑtiul ɡɑɾɑntiˈɛbi dɑ sɑfɾtχɔɛbis mɛkɑnizmɛˈbɑ rɔmˈlɛbits uzɾunvɛˈlɛs ʃɛsɾulɛˈbɑs."
+        },
+        {
+          "ka": "ჩვენ მზად ვართ გაითვალისწინოთ დროებითი შეღავათები, თუ მიღწეულია ყოველთვიური ანგარიშგების მექანიზმი.",
+          "fr": "Nous sommes prêts à accepter des concessions temporaires si est mis en place un mécanisme de reporting mensuel.",
+          "translit": "Chven mzad vart gaitvalisxavitot droebiti sheghavatebi, tu migts'kheulia qveliTviri angarqgaben meq'anizm'i.",
+          "pron": "t͡ʃvɛn mˈzɑd vɑrt ɡɑit͡vɑlisχɑvitɔt drɔɛbitʼi ʃɛɣɑvɛtɛbi tu mɪɡt͡sʼχɛuˈliɑ kʼvɛlitʼvɛɾi ɑnɡɑrxɡɑbɛn mɛkʼɑnizmʼi."
+        },
+        {
+          "ka": "დასასმელია ზუსტი კალენდარი, იურიდიული სანქციებისა და კონსტიტუციური საკითხების გადაწყვეტის მექანიზმის შესახებ.",
+          "fr": "Il est nécessaire de préciser le calendrier, les sanctions juridiques et le mécanisme de résolution des questions constitutionnelles.",
+          "translit": "Dasasmelia zusti kalendari, juridiuuli sanqtsieba da konstituciuri sakitkhebis gadats'vetis meq'anizmis shesaxeb.",
+          "pron": "dɑsɑsmɛlɪɑ zusti kɑlɛndɑɾi juɾidiuʼli sɑnkt͡siɛbɑ dɑ kɔns­tit͡su­t͡siur­i sɑkʼitχɛbis ɡɑdɑt͡sʼvɛtis mɛkʼɑnizmɪs ʃɛsɑxɛb."
+        },
+        {
+          "ka": "გთხოვთ დაადასტუროთ სოციალურად ემპათიური ენა შეხვედრის ოქმში, რათა თავიდან აიცილოს ენობრივი დიპლომატიური გაუგებრობა.",
+          "fr": "Veuillez confirmer l'utilisation d'un langage socialement empathique dans le procès-verbal de la réunion pour éviter tout malentendu linguistique diplomatique.",
+          "translit": "Gtkhovt daadasturot sotsialurad empatiuri ena shekhvethis oqmshi, rata tavadam aits'ilos enobrivi diplomat'iuri gaugebroba.",
+          "pron": "ɡtʼχɔv̪t dɑɑdɑstuˈɾɔt sɔtsiɑluɾɑd ɛmpɑtʼiuɾi ɛnɑ ʃɛxvɛtʼis ɔqmʃi rɑtɑ tɑvɑdɑm ɑit͡sʼilos ɛnɔbɾivi d͡ziplɔmɑtiuɾi ɡɑuɡɛbɾɔbɑ."
+        }
+      ]
+    }
+  ]
+}

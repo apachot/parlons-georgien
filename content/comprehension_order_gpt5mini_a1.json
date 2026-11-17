@@ -1,0 +1,165 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "comprehension_order-a1-gen-001",
+      "title": "დილა პარკში",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 1,
+      "text": "დილით მარია ადგა, ჩაი დალია და თბილად ჩაიცვა. მას შემდეგ ის ველოსიპედით პარკში წავიდა. პარკში მარიამ მზის ჩასვლა არ დაინახა, მაგრამ ის ბავშვს დაემთხვა და ერთად გაისეირნეს. შემდეგ მარია სახლში დაბრუნდა და წიგნი წაიკითხა.",
+      "events": [
+        "Maria se réveille et boit du thé.",
+        "Elle s'habille et prend son vélo.",
+        "Elle va au parc.",
+        "Elle rencontre un enfant et se promène avec lui.",
+        "Elle rentre chez elle et lit un livre."
+      ],
+      "explanation": "L'ordre suit la chronologie: réveil, habillage et départ, arrivée au parc et rencontre, promenade, retour et lecture."
+    },
+    {
+      "id": "comprehension_order-a1-gen-002",
+      "title": "სოფლის დღე",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 2,
+      "text": "სოფელში იური მიფრინავდა ფერმაში. დილის საათებში მან ძროხა დაინახა და რძე მოკლევად ჩაიწმინდა. შუადღისას ის ბაღში მუშაობდა და ხილს დაბაგა. საღამოს იური ოჯახთან ერთად სადილობდა და მალე სძინებია.",
+      "events": [
+        "Iouri va à la ferme le matin.",
+        "Il voit une vache et traite la vache.",
+        "À midi il travaille dans le jardin et cueille des fruits.",
+        "Le soir il dîne avec sa famille.",
+        "Ensuite il se couche."
+      ],
+      "explanation": "Les événements suivent la journée: matin à la ferme, traite, travail de midi, dîner familial, puis coucher."
+    },
+    {
+      "id": "comprehension_order-a1-gen-003",
+      "title": "შოპინგი და მეგობარი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 3,
+      "text": "ნინამ სამსახურში ადრე დაასრულა და მაღაზიაში სამოსი იყიდა. მაღაზიიდან გამოსვლის შემდეგ ის მეგობარს დაურეკა. მეგობარი მომდიოდა და ცოტა ხანში ნინა და მეგობარი კაფეში შეხვდნენ. კაფეში ისინი ყავას სვამდნენ და საუბრობდნენ. საღამოს ნინა სახლში დაბრუნდა და ტელევიზორს უყურებდა.",
+      "events": [
+        "Nina finit le travail tôt et achète des vêtements.",
+        "Elle appelle son ami après le magasin.",
+        "Son ami arrive et ils se retrouvent au café.",
+        "Ils boivent du café et parlent.",
+        "Nina rentre chez elle et regarde la télévision."
+      ],
+      "explanation": "L'ordre est celui des actions: fin du travail, achat, appel, rencontre au café, conversation puis retour et TV."
+    },
+    {
+      "id": "comprehension_order-a1-gen-004",
+      "title": "ახალი პარტნიორი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 4,
+      "text": "პოლა ახალ ადგილას დაიწყო მუშაობა. პირველ დღეებში ის დირექტორთან შეხვდა და ოფისს აჩვენეს. ერთი კვირის შემდეგ მას ახალი მეგობრები შეეძინა. თანამშრომლებთან ერთად ისინი projekტზე იმუშავეს და შემდეგ საღამოს ერთად წვეულებაში წავიდნენ. პოლა სახლში გახარებული დაბრუნდა.",
+      "events": [
+        "Pola commence un nouveau travail.",
+        "Le premier jour elle rencontre le directeur et on lui montre le bureau.",
+        "Après une semaine elle se fait des amis.",
+        "Ils travaillent ensemble sur un projet et vont à une fête le soir.",
+        "Pola rentre heureuse chez elle."
+      ],
+      "explanation": "Suite temporelle: début du travail, rencontre initiale, après une semaine amitiés, travail sur projet puis fête et retour."
+    },
+    {
+      "id": "comprehension_order-a1-gen-005",
+      "title": "წვიმის გამო ცვლილება",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 5,
+      "text": "პოლიკარმა პიკნიკი დაგეგმა, მაგრამ დილით წვიმა მოდიოდა. ამიტომ ისინი გეგმას შეცვალეს და შინაც დარჩნენ. შუადღეს შვილები ფირფიტებით თამაშობდნენ და ოჯახის წევრები ერთად ჭამდნენ. როცა საღამოს მარტივი ამინდი გაუნელდა, ისინი კარადიდან ნახმარი თამაშები აიღეს და ისევ ერთად იგალობეს.",
+      "events": [
+        "Polikarmo prévoit un pique-nique.",
+        "Le matin il commence à pleuvoir.",
+        "Ils changent leurs plans et restent à la maison.",
+        "À midi les enfants jouent avec des jeux de société et la famille mange ensemble.",
+        "Le soir la pluie diminue et ils prennent des jeux et chantent ensemble."
+      ],
+      "explanation": "L'ordre reflète la décision causée par la pluie: plan initial, pluie, changement de plan, activités à midi, puis soir avec moins de pluie et jeux."
+    },
+    {
+      "id": "comprehension_order-a1-gen-006",
+      "title": "ბიბლიოთეკის ტური",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 6,
+      "text": "ლევანი ბიბლიოთეკაში წავიდა ახალი წიგნის საძებნელად. პირველმა მან წიგნის თაროები ათვალიერა და არჩევანი ვერ გააკეთა. შემდეგ ბიბლიოთეკის ბიბლიოთეკარმა მას რამდენიმე წიგნი შესთავაზა. ლევანმა ერთი წიგნი აიღო, გადახურდა და სახლში წაიღო. საღამო იგი წიგნის წაკითხვას დაიწყო.",
+      "events": [
+        "Levan va à la bibliothèque pour chercher un nouveau livre.",
+        "D'abord il regarde les étagères et ne choisit pas.",
+        "Le bibliothécaire lui propose quelques livres.",
+        "Il prend un livre, l'emprunte et rentre chez lui.",
+        "Le soir il commence à lire le livre."
+      ],
+      "explanation": "Chronologie: arrivée à la bibliothèque, recherche sans choix, aide du bibliothécaire, emprunt, puis lecture le soir."
+    },
+    {
+      "id": "comprehension_order-a1-gen-007",
+      "title": "კვებიანი დღე",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 7,
+      "text": "საკო ადრე ადგა და საუზმე მოამზადა. ჭამის შემდეგ მან სამუშაოზე წასვლა გადაწყვიტა და მანქანით წამოვიდა. სამსახურში საკომ მან შეხვედრა ჩამოაყალიბა, შემდეგ ლანჩზე წავიდნენ კოლეგებთან ერთად. სამუშაოს ბოლოს ის სახლს დაბრუნდა და საჭმლის მომზადება დაიწყო.",
+      "events": [
+        "Sako se lève tôt et prépare le petit-déjeuner.",
+        "Après avoir mangé il décide d'aller au travail et prend la voiture.",
+        "Au travail il organise une réunion.",
+        "Pour le déjeuner il va avec des collègues.",
+        "Après le travail il rentre à la maison et commence à cuisiner."
+      ],
+      "explanation": "Les actions sont ordonnées par la journée: matin (préparation et départ), travail (réunion, déjeuner), puis retour et cuisine."
+    },
+    {
+      "id": "comprehension_order-a1-gen-008",
+      "title": "მუსიკალური საღამო",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 8,
+      "text": "ანა მეგობრებთან ერთად კონცერტზე წავიდა. ჯერ ისინი გარეტში შეხვედრობდნენ და თან ერთად ტკბილეულობა ჭამეს. კონცერტის დაწყებამდე ანამ ბileტები შეამოწმა. შემდეგ მუსიკა დაიწყო და ყველა გაუხარდა. საღამოს ბოლოს ისინი სახლში მშვიდად დაბრუნდნენ.",
+      "events": [
+        "Ana va au concert avec des amis.",
+        "D'abord ils se rencontrent à l'extérieur et mangent des friandises ensemble.",
+        "Avant le concert Ana vérifie les billets.",
+        "La musique commence et tout le monde est content.",
+        "Enfin ils rentrent chez eux calmement le soir."
+      ],
+      "explanation": "Séquence logique: rencontre avant le concert, vérification des billets, début du concert et émotion, puis retour à la maison."
+    },
+    {
+      "id": "comprehension_order-a1-gen-009",
+      "title": "ძაღლის გასეირნება",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 9,
+      "text": "გიორგიმ თავის ძაღლს ფეხით გაიყვანა. ისინი გზაში სხვა ძაღელს შეხვდნენ და ცოტა ითამაშეს. შუადღის შემდეგ გიორგი მაღაზიაში შევიდა და საჭმელი იყიდა. სახლში დაბრუნებისას მან ძაღლს წყალი და საჭმელი გაუკეთა და შემდეგ მსუბუქად დაისვენა.",
+      "events": [
+        "Giorgi promène son chien à pied.",
+        "En chemin ils rencontrent un autre chien et jouent un peu.",
+        "Après midi Giorgi entre dans un magasin et achète de la nourriture.",
+        "En rentrant il donne de l'eau et de la nourriture au chien.",
+        "Puis il se repose un peu."
+      ],
+      "explanation": "L'ordre suit la promenade: sortie, rencontre et jeu, courses l'après-midi, retour et soin du chien puis repos."
+    },
+    {
+      "id": "comprehension_order-a1-gen-010",
+      "title": "მსხლის დღესასწაული",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 10,
+      "text": "ნიკა დღესასწაულზე მეგობრების სახლში მივიდა. პირველად ისინი ტორტს შეუკვეთენ და მაგიდას გაამზადეს. შემდეგ სტუმრები ჩამოვიდნენ და საჩუქრები მიართვეს. საღამოს ნიკა და მეგობრები ერთად სიმღერებს იმიტომ, რომ მათ სურდათ გართობა. ბოლოს ნიკა სახლში მშვიდად და სიხარულით წავიდა.",
+      "events": [
+        "Nika arrive à la fête chez des amis.",
+        "D'abord ils commandent un gâteau et préparent la table.",
+        "Ensuite les invités arrivent et apportent des cadeaux.",
+        "Le soir Nika et ses amis chantent ensemble pour s'amuser.",
+        "Enfin Nika rentre chez lui content et calmement."
+      ],
+      "explanation": "Ordre des actions: arrivée, préparation (gâteau et table), arrivée des invités et cadeaux, chant pour s'amuser, puis retour à la maison."
+    }
+  ]
+}

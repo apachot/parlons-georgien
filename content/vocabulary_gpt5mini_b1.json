@@ -1,0 +1,115 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "vocabulary-b1-gen-001",
+      "ka": "გრძნობა",
+      "fr": "sentiment, sensation",
+      "translit": "grznoba",
+      "pron": "grz-no-ba",
+      "example": "ნინო უცებ ძლიერი გრძნობა महसूसა მუსიკის სმენაზე.",
+      "example_fr": "Nino a ressenti soudainement une forte sensation en entendant la musique.",
+      "cefr": "B1",
+      "version": 1
+    },
+    {
+      "id": "vocabulary-b1-gen-002",
+      "ka": "გადაწყვეტილება",
+      "fr": "décision",
+      "translit": "gadats'qvetileba",
+      "pron": "ga-dats-k've-ti-le-ba",
+      "example": "კომპანიის დირექტორმა სწრაფი გადაწყვეტილება მიიღო პრობლემის გადასაჭრელად.",
+      "example_fr": "Le directeur de l'entreprise a pris une décision rapide pour résoudre le problème.",
+      "cefr": "B1",
+      "version": 2
+    },
+    {
+      "id": "vocabulary-b1-gen-003",
+      "ka": "ჩვევა",
+      "fr": "habitude",
+      "translit": "chveva",
+      "pron": "chve-va",
+      "example": "პიერის საღამოს ჩვევა იმსახურებს წიგნის კითხვა თბილ ფენაში.",
+      "example_fr": "L'habitude du soir de Pierre consiste à lire un livre sous une couverture chaude.",
+      "cefr": "B1",
+      "version": 3
+    },
+    {
+      "id": "vocabulary-b1-gen-004",
+      "ka": "კომუნიკაცია",
+      "fr": "communication",
+      "translit": "komunikacia",
+      "pron": "ko-mu-ni-ka-tsia",
+      "example": "ტექნიკურმა ჯგუფმა ეფექტური კომუნიკაცია დაამყარა პროექტის წევრებს შორის.",
+      "example_fr": "L'équipe technique a établi une communication efficace entre les membres du projet.",
+      "cefr": "B1",
+      "version": 4
+    },
+    {
+      "id": "vocabulary-b1-gen-005",
+      "ka": "სწავლება",
+      "fr": "enseignement, apprentissage",
+      "translit": "sts'avleba",
+      "pron": "sts'av-le-ba",
+      "example": "პედაგოგმა პრაქტიკული სწავლება შემოგვთავაზა, რომ უნარები გამაძლიერებულიყო.",
+      "example_fr": "Le professeur a proposé un enseignement pratique pour renforcer les compétences.",
+      "cefr": "B1",
+      "version": 5
+    },
+    {
+      "id": "vocabulary-b1-gen-006",
+      "ka": "პასუხი",
+      "fr": "réponse",
+      "translit": "pasukhi",
+      "pron": "pa-su-khi",
+      "example": "მარიამმა წერილში მოკლე და მაპასუხებელი პასუხი გაუგზავნა კოლეგას.",
+      "example_fr": "Mariam a envoyé une réponse brève et pertinente à son collègue dans la lettre.",
+      "cefr": "B1",
+      "version": 6
+    },
+    {
+      "id": "vocabulary-b1-gen-007",
+      "ka": "სასტუმრო",
+      "fr": "hôtel",
+      "translit": "sast'umro",
+      "pron": "sas-tu-mro",
+      "example": "ზურაბმა კონკურსზე მოგების შემდეგ გადარჩენილი თანხა სასტუმროს დაჯავშნაზე დახარჯა.",
+      "example_fr": "Après avoir gagné le concours, Zurab a dépensé l'argent économisé pour réserver un hôtel.",
+      "cefr": "B1",
+      "version": 7
+    },
+    {
+      "id": "vocabulary-b1-gen-008",
+      "ka": "გარემო",
+      "fr": "environnement, milieu",
+      "translit": "garemo",
+      "pron": "ga-ré-mo",
+      "example": "გარემოს დაცვა ყველას ეხება.",
+      "example_fr": "La protection de l’environnement concerne tout le monde.",
+      "cefr": "B1",
+      "version": 8
+    },
+    {
+      "id": "vocabulary-b1-gen-009",
+      "ka": "გაქრობა",
+      "fr": "disparition, se perdre",
+      "translit": "gak'roba",
+      "pron": "ga-k'ro-ba",
+      "example": "ბაღში თამაშის შემდეგ ბავშვის სათამაშო უცბად გაქრა ტროტუართან.",
+      "example_fr": "Après avoir joué dans le jardin, le jouet de l'enfant a soudainement disparu près du trottoir.",
+      "cefr": "B1",
+      "version": 9
+    },
+    {
+      "id": "vocabulary-b1-gen-010",
+      "ka": "შედეგიანობა",
+      "fr": "efficacité",
+      "translit": "shedegianoba",
+      "pron": "she-de-gi-a-no-ba",
+      "example": "პრაქტიკული მეთოდები და აწყობილი ცდა ზრდის მუშაობის შედეგიანობას.",
+      "example_fr": "Les méthodes pratiques et les essais structurés augmentent l'efficacité du travail.",
+      "cefr": "B1",
+      "version": 10
+    }
+  ]
+}

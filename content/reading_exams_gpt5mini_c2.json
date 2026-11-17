@@ -1,0 +1,555 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "reading_exams-c2-gen-001",
+      "title": "საგვარეულო ქალაქის მოგონებები",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 1,
+      "text": "ჩემი ბებია ყოველთვის ამბობდა, რომ ქალაქი ძველი ფენომენი არ არის — ის მუდმივად გარდაიქმნება, როგორც მცენარე, რომელიც გარე გარემოსთან ადაპტირდება. ბავშვობაში შუახნის თბილისი მეხსიერებაში სხვადასხვა ფენებად იშლებოდა: ბრბოს ველურმა ხმებმა, საბავშვო მოედნებზე შესრულებული თამაშების ნაოჭებმა და ქუჩის კაფეთა სუნმა, რომლებიც ახლა სულ სხვა სახით მოევლინენ ურბანულ ლანდშაფტს. ბოლო ათწლეულში ქალაქი ინფრასტრუქტურული პროექტების წყალობით სწრაფად მოდერნიზდება; ძველი შენობები რესტავრირდება ან იყიდება კომერციული მიზნებისთვის. ამ პროცესში იკარგება უხერხემლო, შინაგანი ქალაქური ლოგიკა — არა მხოლოდ არქიტექტურული დეტალები, არამედ პატარა ზუსტი ქცევები, რიტუალები, რომელთაც ადგილობრივები ერთმანეთთან აკავშირებდნენ. შეიძლება ამბობდნენ, რომ პროგრესი აუცილებელია და სიცოცხლის ხარისხი უნდა გაუმჯობესდეს, მაგრამ ვკითხულობ, როგორ იწყებს ქალაქი თავის გონებას კარგვას; იშლება უმნიშვნელო, მაგრამ ემოციურად შევსებული, \"სახლური\" ელემენტები. ასე თუ ისე, განსაზღვრება, რა უნდა შეინარჩუნოს და რა უნდა შეიცვალოს, რჩება საზოგადოების შეთანხმების საკითხი.",
+      "translation": "Ma grand-mère disait toujours que la ville n'est pas un phénomène fixe — elle se transforme constamment, comme une plante qui s'adapte à son milieu. Dans mon enfance, le Tbilissi d'âge moyen se décomposait dans ma mémoire en différentes couches : les bruits sauvages de la foule, les plis des jeux joués sur les aires de jeux et l'odeur des cafés de rue, qui aujourd'hui apparaissent sous une autre forme dans le paysage urbain. Au cours de la dernière décennie, la ville s'est rapidement modernisée grâce à des projets d'infrastructure ; les vieux bâtiments sont restaurés ou vendus à des fins commerciales. Dans ce processus, la logique urbaine interne et informelle se perd — pas seulement les détails architecturaux, mais aussi de petits comportements précis, des rituels qui reliaient les habitants entre eux. On peut dire que le progrès est nécessaire et qu'il faut améliorer la qualité de vie, mais j'observe comment la ville commence à perdre sa mémoire ; disparaissent des éléments « domestiques » insignifiants mais chargés d'émotion. Quoi qu'il en soit, décider ce qu'il faut conserver et ce qui doit changer demeure une question d'accord social.",
+      "questions": [
+        {
+          "question": "Quel aspect de la transformation urbaine l'auteur met-il principalement en avant ?",
+          "options": [
+            "Les avantages économiques de la modernisation",
+            "La disparition progressive des routines et souvenirs locaux",
+            "Les innovations architecturales internationales",
+            "L'amélioration des transports en commun"
+          ],
+          "answer": "La disparition progressive des routines et souvenirs locaux",
+          "explanation": "Le texte insiste sur la perte de « petits comportements précis » et de « rituels » reliant les habitants, donc sur la disparition des routines et souvenirs locaux, plutôt que sur les aspects économiques ou techniques."
+        },
+        {
+          "question": "Comment l'auteur compare-t-il la ville au début du texte ?",
+          "options": [
+            "À un organisme vivant qui s'adapte",
+            "À une machine que l'on répare",
+            "À une peinture figée dans le temps",
+            "À un livre dont les pages sont déchirées"
+          ],
+          "answer": "À un organisme vivant qui s'adapte",
+          "explanation": "L'auteur dit que la ville se transforme comme une plante qui s'adapte à l'environnement, ce qui correspond à la métaphore d'un organisme vivant."
+        },
+        {
+          "question": "Quelle conséquence culturelle du changement urbain est mentionnée explicitement ?",
+          "options": [
+            "La hausse du tourisme international",
+            "La perte d'éléments « maison/du foyer » chargés d'émotion",
+            "L'augmentation du taux d'emploi",
+            "La standardisation des menus des cafés"
+          ],
+          "answer": "La perte d'éléments « maison/du foyer » chargés d'émotion",
+          "explanation": "Le texte souligne que disparaissent des éléments « სახლში » ou « შინაგანი » — des éléments domestiques et émotionnels — ce qui est la conséquence culturelle explicitement mentionnée."
+        },
+        {
+          "question": "Pourquoi, selon le texte, la décision de ce qu'il faut conserver ou changer est-elle difficile ?",
+          "options": [
+            "Parce que les experts n'ont pas accès aux archives historiques",
+            "Parce que cela dépend d'un accord social entre les habitants",
+            "Parce que les ressources financières manquent",
+            "Parce que les réglementations internationales l'interdisent"
+          ],
+          "answer": "Parce que cela dépend d'un accord social entre les habitants",
+          "explanation": "Le dernier passage indique que déterminer ce qu'il faut garder ou transformer reste « საზოგადოების შეთანხმების საკითხი » — une question d'accord social, donc dépendante de la volonté collective."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-002",
+      "title": "ღვინის რეორგანიზაცია და გლობალიზაცია",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 2,
+      "text": "საქართველოში ღვინის წარმოება საუკუნიან ტრადიციაზეა დამყარებული, მაგრამ ბოლო წლების ცვლილებებმა ამ ინდუსტრიას ახალი სახე მისცა. მცირე სოფლის მარნები, რომლებიც მანამდე ოჯახური გადასაცემი ხელოვნების ნიმუშები იყვნენ, ახლა ბაზრის მოთხოვნასთან ადაპტირდებიან: ახლებიენ ბრენდები, ექსპორტისთვის ტიპიური ჯიშები ირჩევა და ტექნოლოგიებიც თანამედროვე დონის ხდება. ამ პროცესში წარმოიქმნება დილემა — როგორ შეინარჩუნო უნიკალური, ადგილობრივი კახელი მომწოდებლის ხასიათი და სინონიმად არ დაუშვა პროდუქტების ჰომოგენიზაცია. გლობალური ბაზრის წნეხი ხშირად სთავაზობს ბიზნეს მოდელს, სადაც ხარისხი და ლეგიტიმურობა დამაბალანსებლად ბადებს: ლეიბლები იყენებენ ადგილობრივ ისტორიას, მაგრამ რეალურად წარმოება ხდება სტანდარტიზებული პროცესებით. სხვაგვარად, ზოგი მარნი არჩევს არტის გზას — მცირე ტირაჟებით, ტრადიციული ყურძნის ჯიშების გამოყენებით და ხელით დამუშავებით პრესტიჟს ინარჩუნებს. სახელმწიფოს როლი რეტროგრადული არაა: პოლიტიკა ხელს უწყობს ექსპორტს და ადგენს ხარისხის სტანდარტებს, მაგრამ ხშირად გრძელვადიან კულტურულ მიზნებში კომპრომისთანაც გადის. კითხვა რჩება: შეიძლება თუ არა მდგრადი კონტრასი — პროდუქტის ორიგინალობა წიაღში და ეკონომიკური კონკურენტუნარობა ბაზარზე — თანაარსებობდეს?",
+      "translation": "La production de vin en Géorgie repose sur une tradition centenaire, mais les changements récents ont donné une nouvelle apparence à cette industrie. Les petits domaines villageois, auparavant des exemples d'art familial transmis, s'adaptent désormais à la demande du marché : de nouvelles marques apparaissent, des cépages typiques pour l'export sont choisis et les technologies atteignent un niveau moderne. Dans ce processus se pose un dilemme — comment préserver le caractère unique du producteur local et éviter l'homogénéisation des produits. La pression du marché mondial propose souvent un modèle économique où qualité et légitimité se trouvent en tension : les labels exploitent l'histoire locale, mais la production est en réalité standardisée. D'autres domaines choisissent la voie de l'art — en conservant le prestige par de petites séries, l'utilisation de cépages traditionnels et le travail manuel. Le rôle de l'État n'est pas rétrograde : la politique favorise l'exportation et fixe des normes de qualité, mais elle cède parfois à des compromis sur les objectifs culturels à long terme. La question reste : un contraste durable — l'originalité du produit au cœur et la compétitivité économique sur le marché — peuvent-ils coexister ?",
+      "questions": [
+        {
+          "question": "Quel dilemme principal l'auteur présente-t-il concernant la viticulture géorgienne ?",
+          "options": [
+            "Choisir entre production biologique et utilisation de pesticide",
+            "Concilier l'originalité locale et la pression du marché global",
+            "Décider quel cépage convient le mieux aux nouvelles technologies",
+            "Remplacer la main-d'œuvre agricole par des machines"
+          ],
+          "answer": "Concilier l'originalité locale et la pression du marché global",
+          "explanation": "Le texte s'attache au dilemme de préserver le caractère unique des producteurs locaux face à l'homogénéisation due à la demande internationale, donc à la conciliation entre originalité locale et pression mondiale."
+        },
+        {
+          "question": "Quelle stratégie adoptent certains domaines pour conserver leur prestige ?",
+          "options": [
+            "Augmenter massivement les volumes d'exportation",
+            "Produire de grandes séries avec des équipements automatisés",
+            "Maintenir de petites séries, cépages traditionnels et travail manuel",
+            "Fusionner pour créer des conglomérats vinicoles"
+          ],
+          "answer": "Maintenir de petites séries, cépages traditionnels et travail manuel",
+          "explanation": "Le texte explique que certains choisissent la voie artistique en produisant en petites séries, utilisant des cépages traditionnels et le travail manuel pour conserver le prestige."
+        },
+        {
+          "question": "Quel rôle l'État joue-t-il selon le texte ?",
+          "options": [
+            "Il interdit l'exportation pour protéger les traditions",
+            "Il n'intervient pas et laisse tout au marché",
+            "Il soutient l'exportation et établit des standards de qualité, mais fait parfois des compromis",
+            "Il nationalise toutes les caves et fixe les prix"
+          ],
+          "answer": "Il soutient l'exportation et établit des standards de qualité, mais fait parfois des compromis",
+          "explanation": "Le passage indique explicitement que l'État favorise l'exportation, met en place des normes de qualité et accepte parfois des compromis sur les objectifs culturels, ce qui correspond à la réponse choisie."
+        },
+        {
+          "question": "Quel effet ont les labels mentionnés dans le texte ?",
+          "options": [
+            "Ils empêchent toute forme de standardisation",
+            "Ils utilisent l'histoire locale tout en couvrant une production standardisée",
+            "Ils remplacent les producteurs locaux par des multinationales",
+            "Ils augmentent automatiquement la qualité organoleptique du vin"
+          ],
+          "answer": "Ils utilisent l'histoire locale tout en couvrant une production standardisée",
+          "explanation": "Le texte précise que les labels exploitent l'histoire locale, mais en réalité la production est souvent standardisée, ce qui correspond exactement à cette option."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-003",
+      "title": "სიტყვის და ხმის მემკვიდრეობა: ქართული დიალექტების ხსოვნა",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 3,
+      "text": "გადის პერიოდი, როცა საახალწლო ან ძველი წეს-ჩვეულების გამორჩეული ელემენტები ნაკლებად მოისმინება სოფლის მოაჯირზე: ახალგაზრდები ქალაქში გადადიან, რადიო და ინტერნეტი ერთგვარად თანაავტორს უწევს სამოყვარულო სიუჟეტებს და გარეპრევს ადგილობრივ ხმებს. ამ ფონზე დიალექტებისა და მოლხენის ფორმების შენახვა — არა მხოლოდ ლექსიკური ნორმების უგლებიანი დაცვა —, არამედ კულტურული მეხსიერების სტრუქტურული ელემენტია. პირველი კვლევები, რომლებიც მე მივსაჩინოები ადგილობრივ პოეტებთან და თხრობების მუტყან ადამიანებთან, აჩვენებს, რომ სიტყვები ხშირად სხვა დატვირთვებს იძენენ ოპონირებისას: ზოგი სიტყვა სიმბოლური როლით მეორეა გადანაცვლებული, ზოგიც ტექნიკურ ნიშნებს იძენს. სიტუაცია არაერთგვაროვანია: ბარში, ბაზარში და შაბათ-კვირას შეკრებებზე სიტყვები იცვლებიან — იძვერებიან გამოთქმებმა და ენის გამოყენების ერუდიცია უცხო გულითადობას იძლევა. ამიტომ რეკომენდებულია საყოველთაო ინვენტარის შექმნა, რომელიც ამოწმებს არა მხოლოდ ლექსიკას, არამედ კონკურსურ ნარატივებსა და ინტონაციურ ნიშნებსაც. ასეთი ინტერვენციები უნდა იყოს ადგილობრივად მგრძნობიარე, მონაწილეობითი და ზუსტი, რათა თავიდან აირიდოს სტერეოტიპების განმტკიცება და ქვეპრაქტიკების კომოდიფიკაცია.",
+      "translation": "Le temps passe et certains éléments singuliers des coutumes de Nouvel An ou des anciennes traditions s'entendent moins autour des clôtures villageoises : les jeunes partent en ville, la radio et Internet co-auteurisent d'une certaine manière des reportages amateurs et nivelent les voix locales. Dans ce contexte, la conservation des dialectes et des formes de festive — non seulement la sauvegarde stricte des normes lexicales — est un élément structurel de la mémoire culturelle. Les premières recherches que j'ai menées auprès de poètes locaux et de narrateurs âgés montrent que les mots prennent souvent d'autres sens dans l'usage : certains mots acquièrent une charge symbolique différente, d'autres des usages techniques. La situation est hétérogène : au café, au marché et lors des réunions du week-end, les mots se transforment — des expressions se raréfient et l'érudition linguistique confère une chaleur particulière à l'usage. Il est donc recommandé de créer un inventaire général qui vérifierait non seulement le lexique, mais aussi les récits concurrents et les traits intonatifs. De telles interventions doivent être localement sensibles, participatives et précises, afin d'éviter le renforcement des stéréotypes et la commercialisation des pratiques secondaires.",
+      "questions": [
+        {
+          "question": "Quel est le principal enjeu évoqué par l'auteur concernant les dialectes géorgiens ?",
+          "options": [
+            "La nécessité d'imposer une norme linguistique unique.",
+            "Le risque de perte des éléments culturels liés à l'oralité.",
+            "L'augmentation du vocabulaire technique dans les dialectes.",
+            "La création de programmes radiophoniques pour la jeunesse."
+          ],
+          "answer": "Le risque de perte des éléments culturels liés à l'oralité.",
+          "explanation": "Le texte souligne que la conservation des dialectes et des formes orales est un élément de la mémoire culturelle menacé par l'exode et la médiatisation."
+        },
+        {
+          "question": "Quelle méthode l'auteur propose pour protéger ces manifestations linguistiques ?",
+          "options": [
+            "Imposer des cours obligatoires de dialecte à l'école.",
+            "Créer un inventaire général prenant en compte lexique, récits et intonation.",
+            "Limiter l'accès d'Internet pour préserver les usages locaux.",
+            "Numériser uniquement les textes écrits anciens."
+          ],
+          "answer": "Créer un inventaire général prenant en compte lexique, récits et intonation.",
+          "explanation": "L'auteur recommande la création d'un inventaire global qui vérifierait non seulement le lexique, mais aussi les narratifs et les traits intonatifs."
+        },
+        {
+          "question": "Quel ton adopte principalement le texte ?",
+          "options": [
+            "Ironique et moqueur.",
+            "Analytique et préconisateur.",
+            "Narratif et fictionnel.",
+            "Poétique et nostalgique."
+          ],
+          "answer": "Analytique et préconisateur.",
+          "explanation": "Le texte analyse la situation et propose des recommandations concrètes, ce qui correspond à un ton analytique et prescriptif."
+        },
+        {
+          "question": "Pourquoi l'auteur met-il en garde contre certaines interventions ?",
+          "options": [
+            "Parce qu'elles pourraient renforcer des stéréotypes et commercialiser les pratiques.",
+            "Parce qu'elles coûteraient trop cher aux municipalités locales.",
+            "Parce qu'elles montreraient que les dialectes sont supérieurs au standard.",
+            "Parce qu'elles favoriseraient l'immigration vers les campagnes."
+          ],
+          "answer": "Parce qu'elles pourraient renforcer des stéréotypes et commercialiser les pratiques.",
+          "explanation": "Le texte indique que les interventions doivent éviter la consolidation de stéréotypes et la commodification (commericalisation) des pratiques."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-004",
+      "title": "თბილისური ლანდშაფტი და ქალაქის მეხსიერება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 4,
+      "text": "თბილისის ურბანული ლანდშაფტი, ყოველ შესახვედრაზე თანმიმდევრული ტრანსფორმაციების შედეგია: ახალი მშენებლობები ახლისადმი იმპულსს გვაძლევს, ძველი ფასადები კი ხანდახან მეტახის მსგავს სიტყვებს გვახსენებს. ქალაქის მეხსიერება არ არის მხოლოდ არქიტექტურული კვალი — ის შედგება რიტუალებისგან, ყოველდღიური მარშრუტებისაგან და კვესტებისაგან, რომლებმაც მოქალაქეებს ურთიერთობა და ღირებულებები გასწავლა. მომხდარი მოდერნიზაცია ხშირად ქმნის კონფლიქტს სტატუს-კვოსა და სამომავლო ხედვას შორის: ზოგი მაცხოვრებელი მიმართავს რესტავრაციას, რათა განსაკუთრების კვალი შევინარჩუნოთ, ზოგს კი ურჩევნია ფუნქციური ცვლილება და ეკონომიკური ორბიტა. კულტურული მცენარეებისათვის საფრთხეა არა მხოლოდ ფიზიკური ნგრევა, არამედ კვაზისიმბოლური ცვლილება — როცა ადგილი თავის მნიშვნელობას შენარჩუნებს, მაგრამ მის წინააღმდეგობაში ახალი კომერციული ფორმულაციები დომინირებს. ისტორიკოსები და ურბანისტები ხშირად აღნიშნავენ, რომ გადაწყვეტილებები, მიღებული სწრაფად და ზედაპირულად, ხელს უშლის უფრო მდგრად, თანაჯგუფობრივ ინიციატივებს. შემეცნებითი მიდგომები, რომლებიც აერთიანებს არქეოლოგიურ მონაცემებს, მოქალაქეთა გამოცდილებასა და ეკონომიკურ ანალიზს, შეიძლება უზრუნველყოს ქალაქში ვერბალური და მატერიალური მეხსიერების ჰარმონია, რომელსაც სჭირდება დრო და მრავალხმიანობა.",
+      "translation": "Le paysage urbain de Tbilissi est le résultat de transformations successives : les nouvelles constructions donnent un élan vers la nouveauté, tandis que les anciennes façades nous rappellent parfois des mots semblables à des pastiches. La mémoire de la ville n'est pas seulement une trace architecturale — elle se compose de rituels, d'itinéraires quotidiens et de quêtes qui ont enseigné aux citoyens des relations et des valeurs. La modernisation provoque souvent un conflit entre le statu quo et la vision d'avenir : certains habitants optent pour la restauration afin de préserver des marques d'identité, d'autres préfèrent le changement fonctionnel et une orbite économique. Pour le patrimoine culturel, le danger n'est pas seulement la destruction physique, mais le changement quasi-symbolique — quand un lieu conserve sa signification, mais est dominé par de nouvelles formules commerciales. Les historiens et urbanistes notent souvent que des décisions prises rapidement et de manière superficielle empêchent des initiatives plus durables et communautaires. Des approches cognitives qui combinent données archéologiques, expérience des citoyens et analyses économiques peuvent assurer une harmonie entre mémoire verbale et matérielle de la ville, nécessitant temps et polyphonie.",
+      "questions": [
+        {
+          "question": "Selon le texte, qu'est-ce qui constitue la 'mémoire de la ville' ?",
+          "options": [
+            "Uniquement les monuments et les bâtiments historiques.",
+            "Les rituels, les itinéraires quotidiens et les quêtes des citoyens.",
+            "La carte administrative et les zones industrielles.",
+            "Les statistiques démographiques et économiques."
+          ],
+          "answer": "Les rituels, les itinéraires quotidiens et les quêtes des citoyens.",
+          "explanation": "Le texte explique que la mémoire urbaine comprend des rituels et des pratiques quotidiennes, pas seulement des traces architecturales."
+        },
+        {
+          "question": "Quel problème majeur la modernisation crée-t-elle, d'après l'auteur ?",
+          "options": [
+            "L'accroissement des espaces verts au détriment du logement.",
+            "Un conflit entre la préservation du passé et les besoins économiques contemporains.",
+            "L'uniformisation linguistique des quartiers.",
+            "La disparition des musées nationaux."
+          ],
+          "answer": "Un conflit entre la préservation du passé et les besoins économiques contemporains.",
+          "explanation": "L'auteur mentionne le conflit entre statut quo (restauration) et changement fonctionnel/économique comme problème principal."
+        },
+        {
+          "question": "Que signifie 'quasi-symbolique' dans le contexte du texte ?",
+          "options": [
+            "Un dommage physique irréversible aux bâtiments.",
+            "Un changement d'usage qui altère symboliquement la signification d'un lieu.",
+            "Un édit architectural officiel du gouvernement.",
+            "La création d'un nouveau symbole national."
+          ],
+          "answer": "Un changement d'usage qui altère symboliquement la signification d'un lieu.",
+          "explanation": "Le texte oppose destruction physique et modification quasi-symbolique où le lieu garde son nom mais sa signification est dominée par des usages commerciaux."
+        },
+        {
+          "question": "Quelle solution propose l'auteur pour harmoniser mémoire et développement urbain ?",
+          "options": [
+            "Imposer l'arrêt immédiat de toutes les constructions nouvelles.",
+            "Adopter des approches interdisciplinaires combinant archéologie, expérience citoyenne et analyse économique.",
+            "Privatiser les bâtiments historiques pour assurer leur entretien.",
+            "Transférer les monuments vers des musées pour les protéger."
+          ],
+          "answer": "Adopter des approches interdisciplinaires combinant archéologie, expérience citoyenne et analyse économique.",
+          "explanation": "L'auteur préconise une démarche qui intègre données archéologiques, vécu des citoyens et analyses économiques pour garantir une harmonie durable."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-005",
+      "title": "მემკვიდრეობის დიალოგი",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 5,
+      "text": "სოფელ ბუკნის მთის კალთაზე მდებარე ძველ საყდარს, რომელსაც ადგილობრივები „წლისფერი ფონდიის“ უწოდებენ, წლებია კონსერვაციისა და ტურისტული დაძაბულობის უმნიშვნელოვანესი პრობლემა აქვს. ამ ადგილის არქიტექტურული ღირებულება და ლეგენდარული მნიშვნელობა საერთაშორისო ჩამონათვალებში იჩენს თავს, თუმცა რეალურად განსაცვიფრებლად მრავალშრიანი პრობლემაა: ადგილობრივი საზოგადოება იდენტობის შეხსენებას უჭირავს, ეკონომიკური რესურსები შეზღუდულია, ხოლო გადაწყვეტილებების მიღება ხშირად ცენტრალურულ უწყებებსა და კერძო ინვესტორებს შორის პოლიტიკური თამაშების საგნად ხდება. ინიციატივა, რომელიც საზოგადოებამ თვითორგანიზაციით წამოიწყო, კომპანიასა და მუნიციპალიტეტს შორის მოლაპარაკებების ბრუნვაზე ჭკვიანური შეთანხმების შედეგად განვითარდა — პროექტი ეფუძნება კონსერვაციას, მდგრად ინდუსტრიულ შემოსავალს ადგილობრივი ბენეფიტითა და კულტურულ-საგანმანათლებლო პროგრამებს ახალგაზრდებისთვის. ამგვარი მოდელი, მიუხედავად მოთმინებისა და კომპრომისებისა, ქმნის ახალი ტიპის თანაშემწეობას: მემკვიდრეობის აწყობა აღარ არის ცენტრისგან დამოუკიდებელი გადაწყვეტილება, არამედ მრავალპარტიული პროცესია, რომელიც ეთნიკური და საგანმანათლებლო კუთვნილებების სინთეზის მიღწევაზე მუშაობს.",
+      "translation": "Sur le flanc de la montagne du village de Bukni se situe une ancienne église que les locaux appellent « la Fondation aux siècles jaunes » ; depuis des années, elle est au cœur d'une problématique majeure entre conservation et afflux touristique. La valeur architecturale et la signification légendaire de ce lieu apparaissent dans des répertoires internationaux, mais en réalité il existe une problématique étonnamment multilayer : la communauté locale entretient un rapport de rappel identitaire, les ressources économiques sont limitées, et la prise de décision est souvent instrumentalisée par des jeux politiques entre institutions centrales et investisseurs privés. L'initiative lancée par l'auto-organisation communautaire a évolué suite à un accord prudent lors des négociations entre l'entreprise et la municipalité — le projet repose sur la conservation, des revenus industriels durables avec bénéfice local et des programmes culturels et éducatifs pour les jeunes. Ce modèle, malgré la patience et les compromis, crée un nouveau type de coopération : l'édification du patrimoine n'est plus une décision indépendante du centre, mais un processus multipartite travaillant à la synthèse des appartenances ethniques et éducatives.",
+      "questions": [
+        {
+          "question": "Quel est le principal enjeu décrit concernant le site de la « Fondation aux siècles jaunes » ?",
+          "options": [
+            "La nécessité d'une rénovation purement esthétique de l'édifice.",
+            "Le conflit entre conservation patrimoniale et pressions touristiques et économiques.",
+            "La transformation du site en centre commercial privé.",
+            "L'abandon complet du lieu par la communauté locale."
+          ],
+          "answer": "Le conflit entre conservation patrimoniale et pressions touristiques et économiques.",
+          "explanation": "Le texte souligne que l'église est au centre d'un problème entre conservation et afflux touristique, avec des contraintes économiques et politiques, ce qui correspond à la deuxième option."
+        },
+        {
+          "question": "Comment le projet de sauvegarde a-t-il évolué selon le texte ?",
+          "options": [
+            "Il a été imposé par l'État sans consultation locale.",
+            "Il a émergé d'une initiative communautaire puis d'un accord entre entreprise et municipalité.",
+            "Il a été entièrement financé par une organisation étrangère.",
+            "Il a été rejeté par les jeunes du village."
+          ],
+          "answer": "Il a émergé d'une initiative communautaire puis d'un accord entre entreprise et municipalité.",
+          "explanation": "Le passage indique clairement que l'initiative a été lancée par l'auto-organisation communautaire et s'est développée après un accord entre entreprise et municipalité."
+        },
+        {
+          "question": "Quelle caractéristique centrale du nouveau modèle de gestion du patrimoine est mise en avant ?",
+          "options": [
+            "La dépendance exclusive aux décisions des autorités centrales.",
+            "La conversion du site en parc d'attractions.",
+            "La coopération multipartite intégrant bénéfices locaux et programmes éducatifs.",
+            "La privatisation totale du lieu au profit d'investisseurs externes."
+          ],
+          "answer": "La coopération multipartite intégrant bénéfices locaux et programmes éducatifs.",
+          "explanation": "Le texte décrit un modèle multipartite qui combine conservation, revenus durables locaux et programmes culturels/éducatifs, ce qui correspond à la troisième option."
+        },
+        {
+          "question": "Quel rôle joue la communauté locale selon le texte ?",
+          "options": [
+            "Elle est complètement exclue des décisions et n'a aucune influence.",
+            "Elle initie l'action et participe à la recherche d'un compromis durable.",
+            "Elle souhaite vendre le site pour des raisons financières.",
+            "Elle s'oppose systématiquement à toute forme d'intervention extérieure."
+          ],
+          "answer": "Elle initie l'action et participe à la recherche d'un compromis durable.",
+          "explanation": "Le passage mentionne que l'initiative est partie de l'auto-organisation communautaire et qu'il a fallu patience et compromis, ce qui indique l'implication active de la communauté dans la recherche d'un compromis."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-006",
+      "title": "ენერგიის ეტიკა და თანამედროვე არჩევანი",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 6,
+      "text": "დღევანდელ დისკურსებში ენერგეტიკის მომავლის შესახებ ხშირად იკვეთება არა მხოლოდ ტექნოლოგიური, არამედ ეთიკური პრობლემატიკა. ქვეყნების აღზევებისა და ეკონომიკური ზრდის ტემპი ენერგეტიკული პოლიტიკის არჩევებზეა დამოკიდებული; თუმცა სწრაფი მოგების მოლოდინით მიღებული გადაწყვეტილებები ხშირად უგულებელყოფენ გლობალურ შედეგებს: კლიმატის დეგრადაცია, ბუნობრივი რესურსების ამოწურვა და სოციალური უთანასწორობა. აქეთ–იქით ვერ გაიჭრები — ადამიანური კეთილდღეობის ასამაღლებლად აუცილებელია ინფრასტრუქტურული ინვესტიციები, მაგრამ თანმიმდევრული პოლიტიკა ითხოვს დაფიქრებისა და თანაბარი წვდომის პრინციპების დაცვას. ამასთან, მოსახლეობაში პასუხისმგებლობის განცდა და თანამედროვე ეტიკა მოითხოვს არა მხოლოდ ენერგოეფექტურ ტექნოლოგიებს, არამედ მოხმარების კულტურის რევიზიას: ვგულისხმობთ წილი–წილის გაგების დამკვიდრებას, ადგილობრივია და ეროვნული სტრატეგიების სინქრონიზაციას. ამგვარი მიდგომა, რომელიც აერთიანებს ტექნიკურად შესაძლებელს და ეთიკურად გამართლებულს, მოითხოვს მრავალსაფეხურთა დიალოგს სამოქალაქო საზოგადოებას, დამოუკიდებელ ექსპერტებსა და გადაწყვეტილების მიმღებ ინსტიტუციებს შორის — მხოლოდ ასეა შესაძლებელი მდგრადი გარდაქმნების მართვა.",
+      "translation": "Dans les discours contemporains sur l'avenir de l'énergie, ce qui se dessine est souvent non seulement une problématique technologique, mais aussi éthique. Le rythme d'ascension des pays et de la croissance économique dépend des choix de politique énergétique ; néanmoins, les décisions prises dans l'attente d'un gain rapide ignorent souvent les conséquences globales : dégradation climatique, épuisement des ressources naturelles et inégalités sociales. On ne peut trancher facilement — pour améliorer le bien-être humain des investissements infrastructurels sont nécessaires, mais une politique cohérente exige réflexion et respect des principes d'accès équitable. Par ailleurs, la conscience de responsabilité dans la population et l'éthique contemporaine exigent non seulement des technologies économes en énergie, mais aussi une révision de la culture de consommation : il s'agit d'instaurer une compréhension du partage, de synchroniser stratégies locales et nationales. Une telle approche, qui combine le possible techniquement et le justifiable éthiquement, requiert un dialogue à plusieurs niveaux entre société civile, experts indépendants et institutions décisionnelles — ce n'est qu'ainsi que la gestion des transformations durables est possible.",
+      "questions": [
+        {
+          "question": "Quel problème principal l'auteur identifie-t-il en lien avec les choix énergétiques rapides ?",
+          "options": [
+            "Ils accélèrent automatiquement l'égalité sociale.",
+            "Ils entraînent souvent la dégradation climatique et l'épuisement des ressources.",
+            "Ils éliminent le besoin de dialogue entre acteurs.",
+            "Ils garantissent une amélioration immédiate du bien-être sans conséquence."
+          ],
+          "answer": "Ils entraînent souvent la dégradation climatique et l'épuisement des ressources.",
+          "explanation": "Le texte précise que les décisions prises pour des gains rapides ignorent les conséquences globales telles que la dégradation climatique et l'épuisement des ressources naturelles."
+        },
+        {
+          "question": "Selon l'auteur, que faut-il promouvoir en plus des technologies écoénergétiques ?",
+          "options": [
+            "La privatisation totale du secteur énergétique.",
+            "Une révision de la culture de consommation et un sens du partage.",
+            "L'arrêt immédiat de tous les investissements infrastructures.",
+            "L'isolement des stratégies locales des stratégies nationales."
+          ],
+          "answer": "Une révision de la culture de consommation et un sens du partage.",
+          "explanation": "Le passage indique que l'éthique contemporaine exige une révision de la culture de consommation et l'instauration d'une compréhension du partage, en plus des technologies efficaces."
+        },
+        {
+          "question": "Quel mécanisme l'auteur considère-t-il nécessaire pour parvenir à des transformations durables ?",
+          "options": [
+            "La décision exclusive par des institutions sans consultation.",
+            "Un dialogue multipartite incluant société civile, experts et institutions.",
+            "La substitution immédiate des experts par des machines.",
+            "La centralisation complète des décisions énergétiques au niveau international."
+          ],
+          "answer": "Un dialogue multipartite incluant société civile, experts et institutions.",
+          "explanation": "L'auteur affirme que cette approche requiert un dialogue à plusieurs niveaux entre société civile, experts indépendants et institutions décisionnelles."
+        },
+        {
+          "question": "Quelle tension centrale traverse le texte ?",
+          "options": [
+            "La nécessité de concilier investissements infrastructurels et principes d'équité d'accès.",
+            "Le choix entre la croissance démographique et la réduction des ressources.",
+            "Le conflit entre technologies locales et internationales sans lien éthique.",
+            "La préférence pour l'économie sur l'écologie sans compromis."
+          ],
+          "answer": "La nécessité de concilier investissements infrastructurels et principes d'équité d'accès.",
+          "explanation": "Le texte parle de la nécessité d'investissements pour améliorer le bien-être, mais insiste aussi sur la réflexion et le respect des principes d'accès équitable, montrant cette tension centrale."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-007",
+      "title": "რა უჯდება თანამედროვე მოგონების არქეოლოგიას?",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 7,
+      "text": "ხელოვნური ინტელექტისა და ციფრული შენახვის ორმაგმა სურვილმა ჩვენი წარსულის ქმედებების აღდგენა შეცვალა. თუ ადრე არქეოლოგიასა და ისტორიოგრაფიაში აწმყოსა და წარსულის შორის ხაზი მეტწილად მატერიალური ქონების, მოზაიკურ საარქივო დოკუმენტაციასა და პიროვნული ისტორიების მიხედვით იკვეთებოდა, დღეს მეხსიერების „შექმნა“ ხშირად ვირტუალური ალგორითმებით უკავშირდება: დიგიტალიზებული წერილები იგნორირებული კონტექსტით შეიძლება ახალი ინტერპრეტაციების სათავე გახდეს, ხოლო მონაცემთა სიმრავლე განცალკევებულ მოვლენებს სრულიად სხვა მნიშვნელობას ანიჭებს. აქვე, სოციალური პლატფორმები და კომერციული ინიციატივები, რომლებიც წარსულის მანიპულაციას ეკონომიკურ სარგებლობაში გარდაქმნიან, ძირითად კითხვას აყენებენ: ვინ ზღუდავს კოლექტიურ ობიექტივაციას? ეთიკური დილემა არა მხოლოდ იმას მოიცავს, თუ რა უნდა შეინარჩუნონ მუზეუმებმა ან არქივებმა, არამედ იმასაც, თუ ვინ ფლობს ხელსაც აწარმოოს ან გააანალიზოს ამ მასალის ინტელექტუალური კონსტრუქცია. იმის ნაცვლად, რომ მუზეუმი მხოლოდ ამბების უსაფრთხო ფურცლად დარჩეს, დღეს ის თავად ხდება პროექტორი — წარსულის რედაქტორი და ჩვენი იდენტობის წინასწარმეტყვარი. ამიტომაც, თანამედროვე მოგონების არქეოლოგია მოითხოვს არა მხოლოდ ტექნიკურ უნრებს, არამედ ფილოსოფიურ, სამართლებრივ და სოციალურ დიალოგებს.",
+      "translation": "Le double désir d'intelligence artificielle et de conservation numérique a transformé la reconstitution de notre passé. Alors que naguère la démarcation entre présent et passé en archéologie et historiographie se faisait surtout par les biens matériels, la documentation mosaïque des archives et les histoires personnelles, aujourd'hui la « création » de la mémoire est souvent liée à des algorithmes virtuels : des textes numérisés, dépourvus de contexte, peuvent engendrer de nouvelles interprétations, et l'abondance des données confère parfois une signification tout autre à des événements isolés. Par ailleurs, les plateformes sociales et les initiatives commerciales, qui transforment la manipulation du passé en profit économique, posent une question fondamentale : qui régule l'objectivation collective ? Le dilemme éthique ne concerne pas seulement ce que musées et archives doivent préserver, mais aussi qui possède le droit de produire ou d'analyser la construction intellectuelle de ce matériau. Plutôt que de rester simple surface qui conserve des récits, le musée devient aujourd'hui projecteur — éditeur du passé et oracle de notre identité. Ainsi, l'archéologie de la mémoire contemporaine exige non seulement des compétences techniques, mais aussi des dialogues philosophiques, juridiques et sociaux.",
+      "questions": [
+        {
+          "question": "Selon le texte, quel changement majeur affecte la reconstitution du passé ?",
+          "options": [
+            "La supériorité des preuves matérielles sur les sources numériques.",
+            "L'usage d'algorithmes qui modifient les interprétations historiques.",
+            "La disparition des musées au profit des archives privées.",
+            "L'uniformisation des récits par les historiens classiques."
+          ],
+          "answer": "L'usage d'algorithmes qui modifient les interprétations historiques.",
+          "explanation": "Le texte souligne que la « création » de la mémoire est souvent liée à des algorithmes virtuels qui peuvent produire de nouvelles interprétations à partir de données numérisées."
+        },
+        {
+          "question": "Quel dilemme éthique l'auteur met-il en avant ?",
+          "options": [
+            "Le coût économique de la numérisation des archives.",
+            "La difficulté technique de préserver les objets fragiles.",
+            "La question de savoir qui contrôle la construction intellectuelle du passé.",
+            "La perte d'intérêt du public pour l'histoire locale."
+          ],
+          "answer": "La question de savoir qui contrôle la construction intellectuelle du passé.",
+          "explanation": "Le passage interroge explicitement « qui régule l'objectivation collective » et qui possède le droit de produire ou d'analyser ces matériaux, constituant un dilemme éthique central."
+        },
+        {
+          "question": "Comment l'auteur décrit-il le rôle actuel du musée ?",
+          "options": [
+            "Comme un simple gardien neutre de documents historiques.",
+            "Comme un espace strictement commercialisé par les plateformes sociales.",
+            "Comme un projecteur qui édite le passé et influence l'identité.",
+            "Comme une institution dépassée par les algorithmes."
+          ],
+          "answer": "Comme un projecteur qui édite le passé et influence l'identité.",
+          "explanation": "L'auteur affirme que le musée « devient projeteur — éditeur du passé et oracle de notre identité », indiquant qu'il joue un rôle actif dans la construction du sens."
+        },
+        {
+          "question": "Quelles compétences l'archéologie de la mémoire contemporaine exige-t-elle, selon le texte ?",
+          "options": [
+            "Uniquement des compétences en conservation matérielle.",
+            "Principalement des techniques de marketing numérique.",
+            "Des compétences techniques et des dialogues philosophiques, juridiques et sociaux.",
+            "Surtout des connaissances en informatique et en statistiques."
+          ],
+          "answer": "Des compétences techniques et des dialogues philosophiques, juridiques et sociaux.",
+          "explanation": "L'auteur conclut que cette archéologie nécessite non seulement des compétences techniques, mais aussi des échanges philosophiques, juridiques et sociaux."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-008",
+      "title": "საზოგადოება, რომელიც ახსოვს: მეხსიერების ინსტრუმენტები და ძალაუფლება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 8,
+      "text": "მეხსიერების ინსტრუმენტები — ორგანული თუ ტექნოკულტურული — გადამწყვეტ როლს თამაშობენ საზოგადოებრივი ნარატივების ფორმირებაში. არქივები, სამუზეუმო კოლექციები, მემორიალური სივრცეები და ციფრული პლატფორმები მნიშვნელობას არ केवल შენახულობების რაოდენობით ან ძველობით იღებენ, არამედ იმით, თუ ვის ხმა მათი არჩეული საგნები ამძაფრებს. ისტორიული წარმოდგენების პოლიტიკა ხშირად ემყარება არჩევანს: კონკრეტული მოვლენების გამოკლებას და სხვაების დამარხვას. ტექსტი ამტკიცებს, რომ დღეს ეს არჩევანი აღარ არის მხოლოდ პროფესიული დისკრეცია, არამედ ეკონომიკური და იდეოლოგიური აქტია, სადაც მედიაკომპანიები, ტექნოლოგიური ფირმები და სახელმწიფო სფერო იჭერენ ერთმანეთს. ამ კონტექსტში კოლექტიური მეხსიერება არასტაბილურია: ის შეიძლება იყოს საინტეგრაციო მექანიზმი, რომელიც საზოგადოების ჰომოგენიზაციას უწყობს ხელს, ან საპირისპირო, კონკურენტული ჰეტეროგენეზის საბაბი. საბოლოოდ, მოცემული მონაკვეთი იწვევს კითხვას — როგორ დავამყაროთ დემოკრატიული კონტროლი ისტორიის წარმოებაზე ისე, რომ მრავალი ხმის არსებობა იყოს გარანტირებული და არ გადაიქცეს პროდუქტის ან გამოცდილი ელიტის მონოპოლიად?",
+      "translation": "Les instruments de la mémoire — organiques ou technoculturels — jouent un rôle décisif dans la formation des récits collectifs. Archives, collections muséales, espaces mémoriaux et plateformes numériques tirent leur importance non seulement du nombre ou de l'ancienneté des objets conservés, mais aussi de la voix qu'ils amplifient. La politique des représentations historiques repose souvent sur un choix : mettre en lumière certains événements et en enterrer d'autres. Le texte soutient qu'aujourd'hui ce choix n'est plus une simple discrétion professionnelle, mais un acte économique et idéologique où entreprises médiatiques, sociétés technologiques et acteurs étatiques s'affrontent. Dans ce contexte, la mémoire collective est instable : elle peut être un mécanisme d'intégration favorisant l'homogénéisation sociale, ou bien, au contraire, la source d'une hétérogenèse concurrente. Enfin, le passage pose la question : comment établir un contrôle démocratique sur la production de l'histoire afin de garantir la pluralité des voix sans qu'elle ne se transforme en produit ou en monopole d'une élite expérimentée ?",
+      "questions": [
+        {
+          "question": "Selon le texte, qu'est-ce qui confère leur importance aux archives et aux plateformes ?",
+          "options": [
+            "La longévité chronologique des documents uniquement.",
+            "Le nombre d'objets conservés, sans autre considération.",
+            "La voix qu'elles amplifient et non seulement la quantité ou l'ancienneté.",
+            "Le prestige académique des institutions qui les détiennent."
+          ],
+          "answer": "La voix qu'elles amplifient et non seulement la quantité ou l'ancienneté.",
+          "explanation": "Le texte précise que ces instruments tirent leur importance non seulement du nombre ou de l'ancienneté, mais surtout de la voix qu'ils amplifient."
+        },
+        {
+          "question": "Quel risque lié à la mémoire collective est mentionné ?",
+          "options": [
+            "Sa transformation en simple archive inexploitée.",
+            "Sa stabilité durable et immuable.",
+            "Sa possible utilisation pour homogénéiser la société ou pour produire une hétérogenèse concurrente.",
+            "Son remplacement par l'intelligence artificielle sans effet social."
+          ],
+          "answer": "Sa possible utilisation pour homogénéiser la société ou pour produire une hétérogenèse concurrente.",
+          "explanation": "Le texte indique que la mémoire collective peut être un mécanisme d'intégration favorisant l'homogénéisation ou, au contraire, une source d'hétérogenèse concurrente."
+        },
+        {
+          "question": "Quel constat l'auteur fait-il sur le choix de mettre en lumière certains événements ?",
+          "options": [
+            "Qu'il relève uniquement de critères scientifiques impartiaux.",
+            "Qu'il est devenu un acte économique et idéologique impliquant divers acteurs puissants.",
+            "Qu'il est désormais impossible à réaliser à cause du surplus d'informations.",
+            "Qu'il est strictement réglementé par la loi internationale."
+          ],
+          "answer": "Qu'il est devenu un acte économique et idéologique impliquant divers acteurs puissants.",
+          "explanation": "Le passage affirme que ce choix n'est plus seulement professionnel mais aussi un acte économique et idéologique où médias, entreprises technologiques et l'État s'opposent."
+        },
+        {
+          "question": "Que propose implicitement le texte comme enjeu politique final ?",
+          "options": [
+            "L'interdiction des plateformes numériques pour préserver la mémoire.",
+            "La création d'une histoire officielle unique pour assurer la cohésion.",
+            "L'établissement d'un contrôle démocratique garantissant la pluralité des voix.",
+            "La privatisation des archives pour une meilleure gestion économique."
+          ],
+          "answer": "L'établissement d'un contrôle démocratique garantissant la pluralité des voix.",
+          "explanation": "Le texte termine par la question de savoir comment mettre en place un contrôle démocratique de la production historique afin d'assurer la pluralité des voix et éviter le monopole."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-009",
+      "title": "ღვინის ნიშნულები: ტრადიცია და თანამედროვე გამოწვევები",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 9,
+      "text": "საქართველოში ღვინის წარმოება ათასწლეულების მანძილზე კულტურულ იდენტობასთან არის მთლიანად დაკავშირებული. არქეოლოგიური მონაცემები გვიჩვენებს, რომ ქვევრები და ყურძნის დამუშავების ადრეული კომპლექსები უკვე ნეოლითის ეპოქიდანაა ცნობილი, რაც უწყობს საფუძველს ადგილობრივი ენთუზიაზმისა და ხანგრძლივი ტრადიციების არქივირებას. ამასთან, XXI საუკუნეში მრავალი მცირე მეურნეობა და სამეცნიერო ცენტრი იკვლევს ძველი ტექნოლოგიების როლს თანამედროვე ენისთვის — როგორ წარმოადგენდა ქვევრი მიკრობლიოცენზორების და ტანინების თავისუფალ წესს, და როგორ შეიძლება მათთან ინტეგრირება თანამედროვე სანიტარულ სტანდარტებთან. ეკონომიკური დინამიკა, გლობალური მომხმარებლის გემო და კლიმატის ცვლილება ქმნიან დილემას: ინოვაციები თუ კატეგორიული ტრადიცია? ზოგიერთი მეწარმე დამყარებული ხარისხის ნიშანზე ფიქრობს, სხვები ცდილობენ სატრანსპორტო და ექსპორტის მოთხოვნილების გათვალისწინებას. მნიშვნელოვანია, რომ კულტურული მემკვიდრეობა არ გახდეს მარკეტინგის ერთადერთი იარაღი — უნდა იქნეს დაცული ბიოროდისნობა, აგრონავტიკა და ადგილობრივი ცოდნა, რათა ღვინო შეძლებდეს უწყვეტ საუბარს წარსულსა და მომავალს შორის.",
+      "translation": "La production de vin en Géorgie est liée depuis des millénaires à l'identité culturelle. Les données archéologiques montrent que des qvevri et des installations de vinification anciennes sont connues dès l'époque néolithique, ce qui fonde l'enthousiasme local et l'archivage de traditions durables. Parallèlement, au XXIe siècle, de nombreuses petites exploitations et centres scientifiques étudient le rôle des anciennes technologies pour la viticulture contemporaine — comment le qvevri favorisait la liberté des microécosystèmes et la gestion des tanins, et comment les intégrer aux normes sanitaires modernes. La dynamique économique, le goût global des consommateurs et le changement climatique créent un dilemme : innovation ou tradition catégorique ? Certains vignerons misent sur une marque fondée sur la qualité, d'autres tentent de répondre aux exigences de transport et d'exportation. Il est essentiel que le patrimoine culturel ne devienne pas le seul outil marketing — il faut préserver la biodiversité, l'agronomie et le savoir local afin que le vin puisse maintenir un dialogue continu entre passé et avenir.",
+      "questions": [
+        {
+          "question": "Selon le texte, quel élément historique soutient l'idée d'une longue tradition vinicole en Géorgie ?",
+          "options": [
+            "L'existence de manuscrits médiévaux décrivant des cépages locaux.",
+            "Des qvevri et installations de vinification remontant au Néolithique.",
+            "Les archives commerciales du XIXe siècle.",
+            "Les récits oraux contemporains des vignerons."
+          ],
+          "answer": "Des qvevri et installations de vinification remontant au Néolithique.",
+          "explanation": "Le texte mentionne explicitement que des qvevri et des complexes de transformation du raisin sont connus depuis l'époque néolithique, ce qui fonde la longue tradition."
+        },
+        {
+          "question": "Quel est le dilemme principal auquel sont confrontés les viticulteurs géorgiens, d'après l'auteur ?",
+          "options": [
+            "Choisir entre produire du vin rouge ou du vin blanc.",
+            "Décider entre l'usage d'engrais chimiques ou l'agriculture biologique.",
+            "Opter pour l'innovation technologique ou la préservation stricte de la tradition.",
+            "Augmenter la production locale ou réduire les exportations."
+          ],
+          "answer": "Opter pour l'innovation technologique ou la préservation stricte de la tradition.",
+          "explanation": "Le texte indique que la dynamique économique, les goûts mondiaux et le climat créent le dilemme « innovations ou tradition catégorique »."
+        },
+        {
+          "question": "Quelle préoccupation l'auteur souhaite-t-il éviter que le patrimoine culturel devienne ?",
+          "options": [
+            "Un simple argument marketing.",
+            "Une contrainte légale pour l'exportation.",
+            "Une source de conflits communautaires.",
+            "Un objet d'étude scientifique exclusif."
+          ],
+          "answer": "Un simple argument marketing.",
+          "explanation": "L'auteur dit qu'il est important que le patrimoine culturel ne devienne pas « le seul outil marketing »."
+        },
+        {
+          "question": "Quelle mesure n'est PAS mentionnée comme nécessaire pour préserver la viticulture locale ?",
+          "options": [
+            "La protection de la biodiversité.",
+            "Le maintien des pratiques agraires traditionnelles (agronomie).",
+            "La conservation des manuscrits historiques.",
+            "La valorisation du savoir local."
+          ],
+          "answer": "La conservation des manuscrits historiques.",
+          "explanation": "Le texte cite la biodiversité, l'agronomie et le savoir local, mais ne mentionne pas la conservation de manuscrits historiques."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c2-gen-010",
+      "title": "თბილისის ურბანული მეხსიერება: რეკონსტრუქცია, წინააღმდეგობები და ნორმატიული ჩარჩო",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 10,
+      "text": "თბილისის ურბანული პეიზაჟი ბოლო ოცი წლის განმავლობაში მკვეთრად შეიცვალა: შემოდგომაზე მეხსიერების არქიტექტურული დარჩენილობების რეკონსტრუქცია ხშირად თან დაჰყვება თანამედროვე კომერციულ ინტერესებს. ისტორიული უბნების რეაბილიტაცია შეიძლება ამოფრქვიოს ტურისტული ნაკადები და ადგილობრივი ბიზნესის აღმავლობა, მაგრამ ამავე დროს უქმნის სოციალურ რყევებს — ერნებინა საცხოვრებლის იჯარის ზრდა და ადგილობრივი მოსახლეობის მასობრივ გადადგილებას. კანონის როლი ამ პროცესში კრიტიკულია:planung-ის და დაცვის ნორმების ბუნება განსაზღვრავს, თუ რამდენად სრულად იგულისხმება მემკვიდრეობასა და სოციალურ სამართლიანობაში თანხმობა. ავტორმა ვისწავლეთ, რომ ყველაზე მდგრადი მიდგომები ზრუნავენ დიალოგზე ადგილობრივ მოსახლეობასთან, გამჭვირვალე გეგმარებაზე და თანამდებობების სტაბილურ ოდენობაზე, რომლის შედეგად პროექტები არ ეჯაჭვება მხოლოდ სწრაფი მოგების ლოგიკას. ქალაქის მეხსიერების შენარჩუნება არ ნიშნავს მხოლოდ ნაგებობების შენახვას, არამედ ცხოვრების წესის, სოციალურ ქსელებსა და ყოველდღიურ პრაქტიკათა დაცვასაც — ეს მულტიდიმენზიური მიდგომაა, რომელიც საჭიროებს კულტურულ, ეკონომიკურ და იურიდიულ ინტეგრაციას.",
+      "translation": "Le paysage urbain de Tbilissi a changé radicalement au cours des vingt dernières années : la reconstruction des vestiges architecturaux de la mémoire est souvent accompagnée par des intérêts commerciaux contemporains. La réhabilitation des quartiers historiques peut déclencher des flux touristiques et la montée des affaires locales, mais en même temps elle engendre des secousses sociales — hausse des loyers et déplacement massif de la population locale. Le rôle du droit dans ce processus est crucial : la nature des normes d'urbanisme et de protection détermine dans quelle mesure l'accord sur le patrimoine et la justice sociale est pris en compte. L'auteur souligne que les approches les plus durables misent sur le dialogue avec les habitants locaux, une planification transparente et un volume stable d'emplois, de sorte que les projets ne soient pas soumis uniquement à la logique du profit rapide. Préserver la mémoire de la ville ne signifie pas seulement conserver des bâtiments, mais aussi protéger les modes de vie, les réseaux sociaux et les pratiques quotidiennes — c'est une approche multidimensionnelle qui nécessite une intégration culturelle, économique et juridique.",
+      "questions": [
+        {
+          "question": "Quel effet négatif la réhabilitation des quartiers historiques peut-elle avoir selon le texte ?",
+          "options": [
+            "La destruction complète des bâtiments anciens.",
+            "La hausse des loyers et le déplacement de la population locale.",
+            "L'augmentation des espaces verts au détriment des logements.",
+            "La fermeture des commerces traditionnels uniquement pour des raisons esthétiques."
+          ],
+          "answer": "La hausse des loyers et le déplacement de la population locale.",
+          "explanation": "Le texte précise que la réhabilitation peut provoquer des secousses sociales, notamment la hausse des loyers et le déplacement massif des habitants."
+        },
+        {
+          "question": "Quel rôle joue le droit (la loi) dans la transformation urbaine, d'après le passage ?",
+          "options": [
+            "Il interdit toute forme de rénovation privée.",
+            "Il définit à quel point le patrimoine et la justice sociale sont considérés.",
+            "Il finance exclusivement les projets touristiques.",
+            "Il remplace la participation des habitants par des décisions techniques."
+          ],
+          "answer": "Il définit à quel point le patrimoine et la justice sociale sont considérés.",
+          "explanation": "Le texte indique que la nature des normes d'urbanisme et de protection détermine dans quelle mesure on tient compte du patrimoine et de la justice sociale."
+        },
+        {
+          "question": "Quelle caractéristique n'est PAS mentionnée comme partie d'une approche durable ?",
+          "options": [
+            "Dialogue avec la population locale.",
+            "Planification transparente.",
+            "Augmentation systématique des profits.",
+            "Maintien d'un volume stable d'emplo emplois."
+          ],
+          "answer": "Augmentation systématique des profits.",
+          "explanation": "L'auteur préconise le dialogue, la transparence et la stabilité de l'emploi ; il met en garde contre une logique basée uniquement sur le gain rapide, donc l'augmentation systématique des profits n'est pas une caractéristique d'une approche durable."
+        },
+        {
+          "question": "Que signifie, selon le texte, « préserver la mémoire de la ville » ?",
+          "options": [
+            "Conserver uniquement les façades historiques sans s'occuper des habitants.",
+            "Restaurer les monuments et interdire toute nouvelle construction.",
+            "Protéger bâtiments, modes de vie, réseaux sociaux et pratiques quotidiennes.",
+            "Transformer les quartiers en musées permanents pour attirer les touristes."
+          ],
+          "answer": "Protéger bâtiments, modes de vie, réseaux sociaux et pratiques quotidiennes.",
+          "explanation": "Le passage insiste sur une approche multidimensionnelle : préserver la mémoire implique non seulement conserver les bâtiments, mais aussi protéger les modes de vie et les pratiques sociales."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "reading_exams-a2-gen-001",
+      "title": "ჩემი ახალი სამუშაო",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 1,
+      "text": "მე მქვია მარია და დავუდექი ახალ სამსახურს ქალაქის წიგნის მაღაზიაში. მაღაზიაში ვმუშაობ ორშაბათიდან შაბათამდე, ყოველდღე 9:00 საათიდან 17:00 საათამდე. სამუშაოდ მოვედი იმიტომ, რომ მიყვარს კითხვა და ადამიანებთან ურთიერთობა. ჩემი ძირითადი დავალებაა წიგნების მორგება, საფოსტო შეკვეთების მომზადება და მომხმარებელთა დახმარება. ხშირად ვურჩევ სტუდენტებს ნიშნულებისა და ენების წიგნებს. მაღაზიაში არის პატარა კაფე, სადაც ხანდახან ყავას ვსვამ, როცა შესვენება მაქვს. პირველი კვირა რთული იყო – ახალი საქონლის განთავსება და კომპიუტერის პროგრამის შესწავლა მომიწია. სამაგიეროდ კოლეგებმა მირჩიეს კარგი საიტები მოსაფიქრებლად და უფროსმაც მომცა ორი დღის ტრენინგი. კვირის ბოლოს მაღაზიაში პატარა წვეულება მოეწყო, რადგან ახალი სეზონის წიგნები შემოვიდნენ. მე მალე მივხვდი, რომ ეს ადგილი მომწონს: მშვიდი ატმოსფერო, მეგობრული გუნდი და ბევრი საინტერესო წიგნი.",
+      "translation": "Je m'appelle Maria et j'ai commencé un nouveau travail dans une librairie de la ville. Je travaille du lundi au samedi, chaque jour de 9h00 à 17h00. Je suis venue travailler parce que j'aime lire et parler avec les gens. Ma tâche principale est de ranger les livres, préparer les commandes postales et aider les clients. Souvent je conseille aux étudiants des livres pour les notes et les langues. Il y a un petit café dans la librairie où je prends parfois un café pendant ma pause. La première semaine a été difficile – j'ai dû organiser les nouveaux articles et apprendre le programme informatique. Mais les collègues m'ont conseillé de bons sites pour m'aider et le responsable m'a donné deux jours de formation. À la fin de la semaine il y a eu une petite fête à la librairie parce que les livres de la nouvelle saison étaient arrivés. J'ai vite compris que cet endroit me plaît : ambiance calme, équipe sympathique et beaucoup de livres intéressants.",
+      "questions": [
+        {
+          "question": "Pourquoi Maria a-t-elle choisi ce travail ?",
+          "options": [
+            "Parce qu'elle veut gagner beaucoup d'argent.",
+            "Parce qu'elle aime lire et parler aux gens.",
+            "Parce que la librairie est proche de chez elle.",
+            "Parce qu'elle connaissait déjà le responsable."
+          ],
+          "answer": "Parce qu'elle aime lire et parler aux gens.",
+          "explanation": "Le texte dit qu'elle est venue travailler parce qu'elle aime la lecture et l'interaction avec les clients."
+        },
+        {
+          "question": "Quels sont les horaires de travail de Maria ?",
+          "options": [
+            "De 8:00 à 16:00, du lundi au vendredi.",
+            "De 10:00 à 18:00, tous les jours.",
+            "De 9:00 à 17:00, du lundi au samedi.",
+            "De 9:00 à 17:00, seulement le week-end."
+          ],
+          "answer": "De 9:00 à 17:00, du lundi au samedi.",
+          "explanation": "Le texte précise qu'elle travaille du lundi au samedi de 9:00 à 17:00."
+        },
+        {
+          "question": "Qu'est-ce qui a rendu la première semaine difficile ?",
+          "options": [
+            "Elle était malade et ne pouvait pas travailler.",
+            "Elle devait apprendre la gestion d'un café.",
+            "Elle a dû placer les nouveaux produits et apprendre le logiciel.",
+            "Elle n'aimait pas ses collègues."
+          ],
+          "answer": "Elle a dû placer les nouveaux produits et apprendre le logiciel.",
+          "explanation": "Le passage mentionne la disposition des nouveaux articles et l'apprentissage du programme informatique."
+        },
+        {
+          "question": "Quelle activité a eu lieu à la fin de la semaine ?",
+          "options": [
+            "Une réunion pour fermer la librairie.",
+            "Une vente de livres anciens.",
+            "Un petit fête à la librairie pour l'arrivée des nouveaux livres.",
+            "Une formation supplémentaire pour les employés."
+          ],
+          "answer": "Un petit fête à la librairie pour l'arrivée des nouveaux livres.",
+          "explanation": "Le texte indique qu'il y a eu une petite fête parce que les livres de la nouvelle saison sont arrivés."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-002",
+      "title": "კვირა მთაში",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 2,
+      "text": "წელს ზაფხულში მთელი ოჯახი ვიმგზავრეთ მთაში ერთი კვირის განმავლობაში. ჩვენ წავედით პატარა ქალაქში, საიდანაც ახლოს იყო რამდენიმე ლამაზი გორა და ტბა. დღეში ორი ტური ვაკეთებდით: დილით ფეხით წავიდოდა ცრუდ და ვნახავდით ხეებს, ცხოველებს და ორიგინალურ ყვავილებს; საღამოთი კი ვსხედვართ ტბის ნაპირზე და ვუყურებთ მზის ჩასვლას. ხანდახან მოხუცმა მეზობელმა გვასწავლა, როგორ უნდა დავჭრათ პიკნიკისთვის ხილი და პურის ნაჭერი. ბავშვები ლაღად თამაში სტუმართმოყვარე მინდორზე, ხოლო ჩვენ ყველაზე ხშირად ვიღებთ სურათებს. მე მიყვარს მთის ჰაერი — ის სუფთა და ცივი იყო; ძილიც უფრო მშვიდი. ბოლო დღეს პატარა ბაზარში ვიყავით, ვყიდულობდით ადგილობრივ თაფლს და ხელნაკეთი სუვენირებს. სახლში დაბრუნების შემდეგ, ყველას ძალიან სასიამოვნო მოგონებები გვაქვს და უკვე ვფიქრობთ შემდეგი მოგზაურობაზე.",
+      "translation": "Cet été, nous avons voyagé en famille à la montagne pendant une semaine. Nous sommes allés dans une petite ville d'où partaient plusieurs belles collines et un lac à proximité. Chaque jour nous faisions deux sorties : le matin nous allions à pied et voyions les arbres, les animaux et des fleurs originales ; le soir nous nous asseyions au bord du lac et regardions le coucher du soleil. Parfois un vieux voisin nous a appris comment couper des fruits et une tranche de pain pour un pique-nique. Les enfants jouaient joyeusement dans le pré accueillant, tandis que nous prenions le plus souvent des photos. J'aime l'air de la montagne — il était pur et frais ; le sommeil aussi était plus calme. Le dernier jour nous avons été dans un petit marché, nous avons acheté du miel local et des souvenirs artisanaux. Après le retour à la maison, nous avons tous de très agréables souvenirs et nous pensons déjà au prochain voyage.",
+      "questions": [
+        {
+          "question": "Combien de jours la famille a-t-elle passé à la montagne ?",
+          "options": [
+            "Deux jours.",
+            "Une semaine.",
+            "Un mois.",
+            "Un week-end."
+          ],
+          "answer": "Une semaine.",
+          "explanation": "Le texte commence en disant qu'ils ont voyagé en famille à la montagne pendant une semaine."
+        },
+        {
+          "question": "Quelles activités faisaient-ils le matin ?",
+          "options": [
+            "Ils allaient nager dans la mer.",
+            "Ils faisaient du vélo en ville.",
+            "Ils allaient à pied et regardaient la nature.",
+            "Ils restaient au marché pour acheter du miel."
+          ],
+          "answer": "Ils allaient à pied et regardaient la nature.",
+          "explanation": "Le texte indique que le matin ils allaient à pied et voyaient les arbres, les animaux et les fleurs."
+        },
+        {
+          "question": "Qu'ont-ils acheté au marché le dernier jour ?",
+          "options": [
+            "Des chaussures et des vêtements.",
+            "Des bonbons et des boissons.",
+            "Du miel local et des souvenirs artisanaux.",
+            "Des billets de train pour rentrer."
+          ],
+          "answer": "Du miel local et des souvenirs artisanaux.",
+          "explanation": "Le passage mentionne explicitement l'achat de miel local et de souvenirs faits main."
+        },
+        {
+          "question": "Comment l'auteur décrit-il l'air de la montagne ?",
+          "options": [
+            "Chaud et humide.",
+            "Pollué et bruyant.",
+            "Sombre et humide.",
+            "Pur et frais."
+          ],
+          "answer": "Pur et frais.",
+          "explanation": "L'auteur dit qu'il aime l'air de la montagne parce qu'il était propre (sufxma) et froid (ts'vili), c'est-à-dire pur et frais."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-003",
+      "title": "თბილისის პარკი",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 3,
+      "text": "თბილისის ცენტრში პატარა, მაგრამ მუდამ დატვირთული პარკი მდებარეობს. პარკი ცნობილი არის თავისი მოხატული ბილიკებით, უხეში ქვის კუნძულებით და პატარა ტბით, სადაც ხშირად ცურვის ნაცვლად ადამიანები ფრინველებს ამგზრდებიან. ყოველ დილას ადგილობრივები იყოფიან: ირბინენ, მიეხმარებიან ძაღლებს ან უბრალოდ ისხდნენ ბენჩებზე. ზაფხულში პარკში მყარია ყვავილების მინდორი და ფერმწერებიც ხშირად ხატავენ ხედებს. ბავშვებისთვის არის პატარა ატრაქციები — ტრიბუნა და საბავშვო მოედანი. პარკის ახლოს იმყოფება რკინიგზის სადგური, ამიტომ ზოგჯერ მატარებლების ხმა ისმება. ბევრს სჯერა, რომ პარკში მოწყობილი კონტრიოლდარღვევა არ არის კარგი, ამიტომ ორგანიზებულად მუშაობს მოხალისეთა ჯგუფი, რომელიც კვირაში ერთხელ ახორციელებს დასუფთავებას და ყვავილების დაგარგვას. შემოდგომაზე ფოთლები ოქროსფრად იცვლება და პარკი ფოტოების მოყვარულებისთვის საუკეთესო ადგილია. ადგილობრივი კაფე პატარა ფანჯრებით ჩერდება ბილიკის პირას და ყავას სთავაზობს სტუმრებს, რომლებიც პარკში იმყოფებიან.",
+      "translation": "Il y a un petit parc toujours animé au centre de Tbilissi. Le parc est connu pour ses sentiers peints, ses petites îles de pierre et un petit étang où les gens nourrissent souvent les oiseaux au lieu de nager. Chaque matin, les habitants se partagent les activités : courir, promener les chiens ou simplement s’asseoir sur les bancs. En été, il y a une prairie florale et des peintres viennent souvent peindre les vues. Pour les enfants, il y a de petites attractions — une estrade et une aire de jeux. Une gare se trouve près du parc, donc parfois on entend le bruit des trains. Beaucoup pensent que négliger le parc n’est pas bien ; un groupe de bénévoles organise donc une fois par semaine le nettoyage et la plantation de fleurs. À l’automne, les feuilles deviennent dorées et le parc est le meilleur endroit pour les amateurs de photos. Un café local avec de petites fenêtres est situé le long du sentier et sert du café aux visiteurs du parc.",
+      "questions": [
+        {
+          "question": "Que font souvent les visiteurs près de l’étang ?",
+          "options": [
+            "Ils font la baignade.",
+            "Ils nourrissent les oiseaux.",
+            "Ils pêchent du poisson.",
+            "Ils nagent avec les chiens."
+          ],
+          "answer": "Ils nourrissent les oiseaux.",
+          "explanation": "Le texte précise qu’au lieu de nager, les gens donnent à manger aux oiseaux près de l’étang."
+        },
+        {
+          "question": "Quelle activité est organisée par des bénévoles ?",
+          "options": [
+            "Une exposition de peinture.",
+            "Le nettoyage et la plantation de fleurs.",
+            "Des courses de vélos.",
+            "Un marché de produits locaux."
+          ],
+          "answer": "Le nettoyage et la plantation de fleurs.",
+          "explanation": "Le texte indique qu’un groupe de bénévoles organise chaque semaine le nettoyage et la plantation de fleurs."
+        },
+        {
+          "question": "Pourquoi on entend parfois le bruit des trains ?",
+          "options": [
+            "Parce qu’il y a une gare près du parc.",
+            "Parce qu’il y a un musée de trains.",
+            "Parce que les trains passent dans le parc.",
+            "Parce qu’il y a une maquette de trains dans le parc."
+          ],
+          "answer": "Parce qu’il y a une gare près du parc.",
+          "explanation": "Le texte mentionne clairement qu’une gare se trouve près du parc, d’où le son des trains."
+        },
+        {
+          "question": "Quel est le meilleur moment pour les photographes ?",
+          "options": [
+            "L’hiver, quand il neige.",
+            "Le printemps, pendant la floraison.",
+            "L’automne, quand les feuilles sont dorées.",
+            "L’été, pendant la pluie."
+          ],
+          "answer": "L’automne, quand les feuilles sont dorées.",
+          "explanation": "Le texte dit que les feuilles deviennent dorées en automne et que le parc est alors idéal pour les amateurs de photos."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-004",
+      "title": "ყავის რიტუალი",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 4,
+      "text": "პატარა ქალაქში ბევრი ოჯახი აქვს განსაკუთრებული ყავის რიტუალი. თითოეულ ოჯახში უკვე წლებია საუზმის დროს მზადდება ძლიერი ყავა — მათ თანდათან მიეჩვივნენ ამ სუნს და სიმყუდროვეს. მშობლები ეკითხებიან შვილებს, როგორ გაკვირვებული დღე ექნებათ და ოჯახის ამბებს ჰყვებიან. ხანდახან საბავშვო გაკვეთილებს მოგახსენებენ და ბავშვები აკეთებენ ჩანაწერებს. ქალაქის ცენტრში არის ცნობილი ყავახანა, სადაც სტუმრები სხდებიან დიდი ფანჯრის წინ და უყურებენ ქუჩის ცხოვრებას. თითქოს დრო იკლებს და ადამიანები უფრო მშვიდად საუბრობენ. საღამოობით მეგობრები იყრიან თავს, რათა ერთად ყავაზე ვისაუბროან პოლიტიკაზე, წიგნებზე ან მომდევნო კვირის გეგმებზე. ზოგი შემთხვევით მიაქვს ტკბილეული ან ნამცხვარი, რათა მეგობრებს გაუზიაროს. ტურისტებიც ხშირად ცდილობენ მიბაძონ ადგილობრივ რიტუალს: ჩამოდიან ადრე და ნელა სვავენ ყავას, რათა ქალაქის ტრადიციები გაიგონ.",
+      "translation": "Dans une petite ville, de nombreuses familles ont un rituel particulier du café. Dans chaque foyer, depuis des années, on prépare un café fort au petit-déjeuner — ils se sont habitués à cette odeur et à ce sentiment de confort. Les parents demandent aux enfants comment leur journée sera et racontent des nouvelles de la famille. Parfois ils expliquent les devoirs et les enfants prennent des notes. Au centre-ville, il y a un café célèbre où les clients s’asseyent devant une grande fenêtre pour regarder la vie de la rue. Le temps semble ralentir et les gens parlent plus calmement. Le soir, des amis se réunissent pour discuter autour du café de politique, de livres ou des projets de la semaine suivante. Parfois quelqu’un apporte des douceurs ou des gâteaux pour les partager. Les touristes essayent aussi souvent d’imiter ce rituel local : ils viennent tôt et boivent leur café lentement pour comprendre les traditions de la ville.",
+      "questions": [
+        {
+          "question": "Quel est l’élément central du rituel familial le matin ?",
+          "options": [
+            "Le journal du matin.",
+            "Un petit-déjeuner rapide sans boisson.",
+            "Un café fort.",
+            "Une promenade courte."
+          ],
+          "answer": "Un café fort.",
+          "explanation": "Le texte explique que chaque famille prépare depuis des années un café fort au petit-déjeuner."
+        },
+        {
+          "question": "Que font parfois les parents pendant le petit-déjeuner ?",
+          "options": [
+            "Ils chantent des chansons traditionnelles.",
+            "Ils expliquent les devoirs et les enfants notent.",
+            "Ils regardent la télévision ensemble.",
+            "Ils partent travailler sans parler."
+          ],
+          "answer": "Ils expliquent les devoirs et les enfants notent.",
+          "explanation": "Le texte mentionne que parfois les parents expliquent les devoirs et les enfants prennent des notes."
+        },
+        {
+          "question": "Pourquoi les visiteurs s’asseyent devant la grande fenêtre du café ?",
+          "options": [
+            "Pour regarder la télé.",
+            "Pour voir la vie de la rue.",
+            "Pour écouter de la musique live.",
+            "Pour travailler sur leur ordinateur."
+          ],
+          "answer": "Pour voir la vie de la rue.",
+          "explanation": "Le texte indique que les clients s’asseyent devant une grande fenêtre et regardent la vie de la rue."
+        },
+        {
+          "question": "Comment les touristes se comportent-ils face au rituel ?",
+          "options": [
+            "Ils évitent le café local.",
+            "Ils boivent rapidement et partent.",
+            "Ils viennent tôt et boivent lentement.",
+            "Ils prennent seulement des gâteaux, pas de café."
+          ],
+          "answer": "Ils viennent tôt et boivent lentement.",
+          "explanation": "Le texte dit que les touristes viennent tôt et boivent leur café lentement pour comprendre les traditions locales."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-007",
+      "title": "ივნისის ბაზრობა",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 7,
+      "text": "ივნისის შუა რიცხვებში სოფლის ბაზრობაზე ყოველთვის ბევრი ხალხი მოდის. კომშის საათი რომ თოვს არ არის, მაგრამ აქ ყველანაირი ზაფხულის ნაყოფი ი ვინთ. მილიაუნობით დაყრილ მოედანზე ვაჭრები ლამაზად ალაგებენ თხილს, პომიდორს, კიტრს და მურაბების ქოთნებს. ერთი ფრიალი მოსწონს დამპალი ხილი; ვაჭარი გესალმება და გთავაზობთ გააგემოვნოთ ახალი მოცვის ჩირა. ჩემს მეზობელს ჰქვია ნიკოლოზი. ის მცირე ტიპის მეწარმეა და ყოველ შაბათ-კვირას ბაზრობაზე ტკბილეულს და ჩაის ყიდის. მისი მაგიდა პატარაა, მაგრამ მრავალი კლიენტი მოდის — მათ შორის სტუდენტები და მოხუცები. დღეს პატარა ბავშვებიც მიდიან მშობლებთან ერთად, რომ გამხმარი ხილი და ახალი პური იყიდონ. ბაზრობაზე ყოფნისას არ უნდა დაგავიწყდეს ნორმალური მანერები: რიგში დგომა, ვრცელი საუბრის შეკვეცა და ვაჭართან საუბრის დროს გულწრფელი მადლობის თქმა. საღამოს ბაზრობა იკლებს, მაგრამ ვაჭრები კარგ განწყობაზე მიდიან სახლში.",
+      "translation": "À la mi-juin, beaucoup de monde vient toujours au marché du village. Il n'y a pas de pluie à l'heure de la foire, mais on y trouve tous les fruits d'été. Sur la place couverte de stands, les vendeurs disposent joliment des noix, des tomates, des concombres et des pots de confiture. Une odeur sent le fruit mûr ; le vendeur vous salue et propose de goûter des myrtilles séchées fraîches. Mon voisin s'appelle Nikoloz. Il est un petit entrepreneur et vend des pâtisseries et du thé chaque week-end au marché. Sa table est petite, mais beaucoup de clients viennent — parmi eux des étudiants et des personnes âgées. Aujourd'hui aussi, de petits enfants viennent avec leurs parents pour acheter des fruits secs et du pain frais. Quand on est au marché, il ne faut pas oublier les bonnes manières : faire la queue, éviter les longues discussions et dire un merci sincère quand on parle au vendeur. Le soir, le marché se calme, mais les vendeurs rentrent chez eux de bonne humeur.",
+      "questions": [
+        {
+          "question": "Quel est le bon moment pour visiter ce marché selon le texte ?",
+          "options": [
+            "À la mi-juin",
+            "En hiver",
+            "À la fin de l'après-midi uniquement",
+            "Le soir tard"
+          ],
+          "answer": "À la mi-juin",
+          "explanation": "Le texte commence en disant que beaucoup de monde vient à la mi-juin, ce qui indique le bon moment."
+        },
+        {
+          "question": "Qu'est-ce que Nikoloz vend au marché ?",
+          "options": [
+            "Des fruits et des légumes",
+            "Des pâtisseries et du thé",
+            "Du pain et du fromage",
+            "Des vêtements"
+          ],
+          "answer": "Des pâtisseries et du thé",
+          "explanation": "Le texte précise que Nikoloz vend du «კიდილეულს და ჩაის» (pâtisseries et thé) chaque week-end."
+        },
+        {
+          "question": "Quelle règle de comportement est recommandée au marché ?",
+          "options": [
+            "Faire la queue",
+            "Crier pour attirer l'attention",
+            "Toujours négocier le prix",
+            "Manger sans payer"
+          ],
+          "answer": "Faire la queue",
+          "explanation": "Parmi les bonnes manières, le texte cite «რიგში დგომა» (faire la queue)."
+        },
+        {
+          "question": "Comment sont les vendeurs quand ils rentrent chez eux le soir ?",
+          "options": [
+            "De mauvaise humeur",
+            "Fatigués et tristes",
+            "De bonne humeur",
+            "En colère"
+          ],
+          "answer": "De bonne humeur",
+          "explanation": "Le texte indique que le soir les vendeurs «მაღლა... სახლში» (rentent chez eux de bonne humeur)."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-008",
+      "title": "ახალი სამეზობლო ბაღი",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 8,
+      "text": "განსხვავებული წლის დაწყების შემდეგ ჩვენს ბლოგში ახალი იდეა გაჩნდა: პატარა საზოგადოებრივი ბაღის შექმნა სადარბაზოს გვერდით. ჩვენმა ჯგუფმა შეარჩია ორი ნაკვეთი, სადაც მოვაწყვეთ მცენარეები და ყვავილები. პირველი დღესასწაულისთვის ყველა მეზობელი შეიკრიბა და ერთად ვრგავდით თესლებს. ბაღში გვყავს ქოთნები სალათი, ნიახური და პომიდორი; ასევე მცირე ყვავილოვანი ზონა, სადაც თესლი ვარდსა და მზესუმზირას აქვს. თითოეულ ადამიანს აქვს თავისი მოვლის დღე: ვინმე დილას მორწყავს, ვინმე კვირაში ერთხელ ამოწმებს თესლებს. ბავშვები ეხმარებიან პერიოდულად: ისინი მიაქვთ პატარა თასი წყალი და ასუფთავებენ ბილიკებს. ბაღმა დიდი ნიშანწყობა მოუტანა შენობას — უფრო მეტი ადამიანი საუბრობს ერთმანეთს და მეგობრები წარმოიქმნენ. ახლა, როცა ცხელია, მეზობლები ხშირად ფერხებს ბაღში და ერთად ჩაისახენ საღამოს. მომავალში გვინდა პატარა არყის ქოხი და საპირქუშე სკამები, რომ ბაღი უფრო კომფორტული იყოს.",
+      "translation": "Après une période différente de début d'année, notre groupe a eu une nouvelle idée : créer un petit jardin communautaire à côté de l'immeuble. Notre groupe a choisi deux parcelles où nous avons planté des plantes et des fleurs. Pour la première fête, tous les voisins se sont réunis et ont semé des graines ensemble. Dans le jardin nous avons des pots de salade, de persil et de tomates ; aussi une petite zone fleurie où poussent des roses et des tournesols. Chaque personne a son jour d'entretien : quelqu'un arrose le matin, quelqu'un vérifie les semis une fois par semaine. Les enfants aident de temps en temps : ils apportent de petites tasses d'eau et nettoient les allées. Le jardin a apporté beaucoup de bénéfices à l'immeuble — plus de gens se parlent et des amitiés se sont formées. Maintenant, quand il fait chaud, les voisins vont souvent au jardin et prennent le thé ensemble le soir. À l'avenir nous souhaitons une petite cabane en bois et des bancs pour que le jardin soit plus confortable.",
+      "questions": [
+        {
+          "question": "Où se trouve le jardin communautaire ?",
+          "options": [
+            "À côté de l'immeuble",
+            "Au centre-ville",
+            "Dans une école",
+            "Sur le toit"
+          ],
+          "answer": "À côté de l'immeuble",
+          "explanation": "Le texte indique que le jardin a été créé «სადარბაზოს გვერდით» (à côté de l'immeuble)."
+        },
+        {
+          "question": "Que plantent-ils dans les pots ?",
+          "options": [
+            "Des roses et des tournesols",
+            "De la salade, du persil et des tomates",
+            "Des pommes et des poires",
+            "Des cactus"
+          ],
+          "answer": "De la salade, du persil et des tomates",
+          "explanation": "Le texte précise que dans les pots il y a de la salade, du persil et des tomates."
+        },
+        {
+          "question": "Quelle tâche font les enfants de temps en temps ?",
+          "options": [
+            "Ils taillent les arbres",
+            "Ils apportent de l'eau et nettoient les allées",
+            "Ils vendent des légumes",
+            "Ils plantent des grands arbres"
+          ],
+          "answer": "Ils apportent de l'eau et nettoient les allées",
+          "explanation": "Le texte dit que les enfants apportent de petites tasses d'eau et nettoient les allées."
+        },
+        {
+          "question": "Quelle est une des idées pour l'avenir du jardin ?",
+          "options": [
+            "Construire un grand parking",
+            "Installer une piscine",
+            "Ajouter une petite cabane en bois et des bancs",
+            "Placer un cinéma en plein air"
+          ],
+          "answer": "Ajouter une petite cabane en bois et des bancs",
+          "explanation": "Le texte mentionne le souhait d'une petite cabane en bois et de bancs pour plus de confort."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-005",
+      "title": "ახალი მეზობლები",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 5,
+      "text": "ჩემი სახელია მარიამ. თბილისში ვცხოვრობ, პატარა ბინაში მე და ჩემი ძმა ერთად. ერთი თვეა ჩვენი სადარბაზოში ახალი მეზობლები搬365搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬搬",
+      "translation": "Je m'appelle Mariam. J'habite à Tbilissi, dans un petit appartement avec mon frère. Depuis un mois, nous avons de nouveaux voisins dans notre immeuble. Ils sont une famille jeune : un homme, une femme et une fille d'environ six ans. Chaque matin, la petite joue dans le couloir et rit fort. Au début, mon frère était un peu dérangé par le bruit, mais après nous avons parlé avec les parents. Ils ont expliqué qu'ils viennent d'une autre région et qu'ils n'ont pas encore acheté de jouets pour l'enfant. Nous leur avons proposé nos anciens livres et quelques jeux. Le week-end dernier, nous avons tous pris un café ensemble dans la cour. La fille a porté un gâteau qu'elle avait fait avec sa mère. Maintenant nous nous entendons bien : ils aident parfois à arroser les plantes de l'entrée, et nous gardons la porte quand ils partent en vacances. Je suis contente d'avoir rencontré ces voisins sympathiques.",
+      "questions": [
+        {
+          "question": "Depuis combien de temps les voisins habitent-ils dans l'immeuble ?",
+          "options": [
+            "Une semaine",
+            "Un mois",
+            "Un an",
+            "Six mois"
+          ],
+          "answer": "Un mois",
+          "explanation": "Le texte indique « ერთი თვეა » qui signifie « depuis un mois »."
+        },
+        {
+          "question": "Quelle est la composition de la nouvelle famille ?",
+          "options": [
+            "Un homme et un chien",
+            "Deux frères",
+            "Un homme, une femme et une fille",
+            "Un couple âgé"
+          ],
+          "answer": "Un homme, une femme et une fille",
+          "explanation": "Le texte décrit « მამა, დედა და დაახლოებით ექვსი წლის გოგონა », c'est-à-dire un homme, une femme et une fille."
+        },
+        {
+          "question": "Pourquoi le frère de la narratrice était-il d'abord dérangé ?",
+          "options": [
+            "Parce qu'ils fumaient dans le couloir",
+            "À cause du bruit de la petite",
+            "Car ils garaient leur voiture devant l'entrée",
+            "Parce qu'ils jouaient de la musique la nuit"
+          ],
+          "answer": "À cause du bruit de la petite",
+          "explanation": "Le texte précise que la petite joue dans le couloir et rit fort, ce qui a gêné le frère au début."
+        },
+        {
+          "question": "Qu'ont fait les voisins et la narratrice le week-end dernier ?",
+          "options": [
+            "Ils ont peint l'appartement",
+            "Ils ont pris un café ensemble dans la cour",
+            "Ils ont acheté des jouets",
+            "Ils sont allés au cinéma"
+          ],
+          "answer": "Ils ont pris un café ensemble dans la cour",
+          "explanation": "Le texte indique « გვქონდა და ვსვამდით ყავას ეზოში » (ils ont pris un café ensemble dans la cour)."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-006",
+      "title": "პარკში პიკნიკი",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 6,
+      "text": "ჩემს მეგობარ სოლოსა და მე ძალიან გვიყვარს პარკში სეირნობა. ამ წვიმიან ოთხშაბათს შემდეგ ჩვენ გადავწყვიტეთ პატარა პიკნიკი გამოგვეყვანა დიდი ხის თავლთან. მე მოვიტანე სენდვიჩები, მწვანილი და თაფლი, სოლომ კი ჩაი და რამდენიმე ხილი. დაიწყო სუსხიანი ქარი, მაგრამ ქვეშ ხის ჩვენ ვიყავით მშვენივრად. რამდენიმე ხალხი იყო პარკში: მოხუცი მამაკაცი თავისი ძაღლით, სტუდენტი კალმებით და ორი ბავშვი სათამაშოთ მოსახვევში. ჩვენ ვჭამდით და ვსაუბრობდით სამსახურზე, წიგნებზე და მომავალ გეგმებზე. სოლო მომიყვებოდა ახალ რესტორანზე, სადაც ძალიან კარგი წვნიანია. როდესაც დრო მოვიდა სახლში წასვლაზე, მოვხარშეთ წყალი თერმოსში და გავუწიეთ გასაუბრებისთვის სოლოს სამუშაოზე. გზაზე, სენდის ერთი ნაწილი დაგვრჩა ბენზე და ჩუმად გადაიტანა ნიაღვარი. მიუხედავად მზე-ნამზეურა ამინდის, ეს დღე იყო მშვიდი და სასიამოვნო. სახლში რომ მივედით, ორივენი ვგრძნობდით მოტყუებულს და სავსეს სითბოთი.",
+      "translation": "Mon ami Soso et moi aimons beaucoup nous promener au parc. Ce mercredi pluvieux, nous avons décidé de faire un petit pique-nique près d'un grand arbre. J'ai apporté des sandwiches, des légumes verts et du miel; Soso a pris du thé et quelques fruits. Un vent froid a commencé, mais sous l'arbre nous étions très bien. Il y avait quelques personnes dans le parc : un vieil homme avec son chien, un étudiant avec des stylos et deux enfants qui jouaient dans le coin. Nous mangions et parlions du travail, des livres et des projets futurs. Soso m'a parlé d'un nouveau restaurant où la soupe est très bonne. Quand il fut temps de rentrer, nous avons mis de l'eau chaude dans un thermos et nous nous sommes préparés pour l'entretien de travail de Soso. Sur le chemin, une partie de mon sandwich est restée sur le banc et a été mouillée par la pluie. Malgré le temps un peu changeant, la journée était calme et agréable. En rentrant, nous nous sentions tous les deux réconfortés et remplis de chaleur.",
+      "questions": [
+        {
+          "question": "Où ont-ils installé le pique-nique ?",
+          "options": [
+            "Sur un banc près de la rivière",
+            "Sous un grand arbre",
+            "Devant le restaurant",
+            "Dans une voiture"
+          ],
+          "answer": "Sous un grand arbre",
+          "explanation": "Le texte dit qu'ils ont fait le pique-nique « დიდი ხის თავლთან », c'est-à-dire près d'un grand arbre (sous l'arbre)."
+        },
+        {
+          "question": "Qu'a apporté Soso pour le pique-nique ?",
+          "options": [
+            "Des sandwiches et du miel",
+            "Du thé et des fruits",
+            "Des gâteaux et du café",
+            "Du pain et du fromage"
+          ],
+          "answer": "Du thé et des fruits",
+          "explanation": "Le texte indique « სოლო ... ჩაი და რამდენიმე ხილი » : Soso a apporté du thé et quelques fruits."
+        },
+        {
+          "question": "Qu'est-il arrivé au sandwich sur le banc ?",
+          "options": [
+            "Il a été mangé par un chien",
+            "Il est tombé et a été mouillé par la pluie",
+            "Il a été volé",
+            "Il est resté propre"
+          ],
+          "answer": "Il est tombé et a été mouillé par la pluie",
+          "explanation": "Le passage explique qu'une partie du sandwich est restée sur le banc et a été mouillée par la pluie."
+        },
+        {
+          "question": "Comment se sont-ils sentis en rentrant chez eux ?",
+          "options": [
+            "Tristes et fatigués",
+            "Énervés et pressés",
+            "Réconfortés et pleins de chaleur",
+            "Affamés et froids"
+          ],
+          "answer": "Réconfortés et pleins de chaleur",
+          "explanation": "La fin du texte indique qu'ils se sentaient « მშვიდი და სასიამოვნო » et « სავსეს სითბოთი », donc réconfortés et remplis de chaleur."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-009",
+      "version": 9,
+      "cefr": "A2",
+      "level_name": "A2",
+      "title": "ბაზარში ახალი კომბინაცია",
+      "text": "სოფიო ყოველ შაბათს ბაზარში დადის, რათა ოჯახისთვის სურსათი შეისყიდოს. ის გაოცებულია იმით, როგორი ბევრი სხვადასხვა პროდუქტია ბაზარში: ხილი, ბოსტნეული, პური, ყველი და თუნდაც სანელებლები. დღეს სოფიომ გადაწყვიტა, რომ ახალი სალათი ჩამოაყალიბოს. მან იყიდა თირკმლის ზომის ქარწაღების პომიდორი, შავი მოცხარი, წითელი ხახვი და ახალი მწვანილი. ასევე შეიძინა ფეტა ყველის პატარა კუთხე სალათისთვის. როდესაც მოიხსნა ყველი და დაჭრა პომიდვრები, მან დააკვირდა ღირებულებას და დაინახა, რომ მისი ბიუჯეტი თითქმის მთავრდება. მიმტანი მაღაზიაში მიუთითა დღევანდელ ფასდაკლებაზე და სოფიომ მიიღო რამდენიმე რჩევა, როგორ შეენარჩუნებინა ხილი და ბოსტნეული ახალი რამდენიმე დღით. სახლში დაბრუნების შემდეგ სოფიომ მოამზადა სალათი და მოწოდებულ სტუმრებს შესთავაზა. მათ მოეწონათ ახალი გემო და სოფიო გრძნობდა სიამოვნებას, რადგან შეძლო კარგი კოლბა შეეძინა და ოჯახისთვის სასარგებლო კერძი მოამზადა.",
+      "translation": "Sophie va au marché tous les samedis pour acheter des provisions pour la famille. Elle est étonnée par la grande variété de produits au marché : des fruits, des légumes, du pain, du fromage et même des épices. Aujourd'hui Sophie a décidé de préparer une nouvelle salade. Elle a acheté des tomates de taille moyenne, des mûres noires, un oignon rouge et des herbes fraîches. Elle a aussi acheté un petit morceau de feta pour la salade. En sortant le fromage et en coupant les tomates, elle a regardé le total et a vu que son budget était presque épuisé. La vendeuse du magasin lui a indiqué la réduction du jour et Sophie a reçu quelques conseils pour conserver les fruits et les légumes frais pendant quelques jours. De retour à la maison, Sophie a préparé la salade et l'a proposée aux invités. Ils ont aimé la nouvelle saveur et Sophie a ressenti de la satisfaction, car elle a pu faire un bon achat et préparer un plat sain pour la famille.",
+      "questions": [
+        {
+          "question": "Pourquoi Sophie va-t-elle au marché chaque samedi ?",
+          "options": [
+            "Pour rencontrer ses amis",
+            "Pour acheter des provisions pour la famille",
+            "Pour vendre des légumes",
+            "Pour travailler comme vendeuse"
+          ],
+          "answer": "Pour acheter des provisions pour la famille",
+          "explanation": "Le texte dit explicitement que Sophie va au marché tous les samedis pour acheter des provisions pour la famille."
+        },
+        {
+          "question": "Quel fromage Sophie a-t-elle acheté pour la salade ?",
+          "options": [
+            "emmental",
+            "feta",
+            "cheddar",
+            "fromage de chèvre"
+          ],
+          "answer": "feta",
+          "explanation": "Le texte précise qu'elle a acheté un petit morceau de feta pour la salade."
+        },
+        {
+          "question": "Que s'est-il passé quand elle a vérifié le prix total ?",
+          "options": [
+            "Son budget était presque épuisé",
+            "Elle a trouvé plus d'argent",
+            "Le vendeur a annulé l'achat",
+            "Elle a décidé de revenir plus tard"
+          ],
+          "answer": "Son budget était presque épuisé",
+          "explanation": "Après avoir regardé le coût, elle a vu que son budget était presque terminé."
+        },
+        {
+          "question": "Quelle aide a-t-elle reçue de la vendeuse ?",
+          "options": [
+            "Un sac gratuit",
+            "Des conseils pour conserver les produits",
+            "Une recette de gâteau",
+            "Un coupon pour le restaurant"
+          ],
+          "answer": "Des conseils pour conserver les produits",
+          "explanation": "La vendeuse lui a indiqué la réduction du jour et lui a donné des conseils pour conserver les fruits et légumes frais."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-a2-gen-010",
+      "version": 10,
+      "cefr": "A2",
+      "level_name": "A2",
+      "title": "მეგობრის დაბადების დღე ქალაქში",
+      "text": "ამხანაგური ჯგუფი გადაწყვეტა, რომ მარიამის დაბადების დღე ქალაქში მოეწყვიათ. ისინი დაგეგმეს მოკლე ბილი, რომლის დროსაც დედაქალაქის რამდენიმე საინტერესო ადგილი დაინახავდნენ. შეხვედრა იყო დილით გადმოყრილი კაფეს წინ, სადაც ისინი ყავას იღებდნენ და გზაზე რუკას განიხილავდნენ. პირველმა შესამჩნევმა ადგილმა იყო პატარა პარკი შუაგულ ქალაქში; მარიამმა მოინახულა ძველი შადრევანი და ჯგუფმა ფოტოსურათები გადაიღო. შემდეგ ისინი გაემართნენ ქალაქის მუზეუმისკენ, სადაც მოკლე გამოფენა ადგილობრივ ხელოვნებას მიძღვნილი იყო. მუზეუმში ყოფნის შემდეგ მარიამმა ერთ კოლოფში საჩუქარი მიიღო და საღამოსთვის რესტორანში სუფრა მოაძებნეს. რესტორანში მეგობრებმა ჩაატარეს მცირე ლაპარაკი და მარიამმა მადლობა გადაუხადა ყველა დამხარებისთვის. დღის ბოლოს მარიამი იყო ბედნიერი, რადგან მეგობრებსთან ერთად მშვიდი და მხიარული დღე გაატარა, და ყველა აღნიშნავდა პატარა სასმელით მისი წარმატებები.",
+      "translation": "Le groupe d'amis a décidé d'organiser l'anniversaire de Mariam en ville. Ils ont prévu une courte balade pendant laquelle ils allaient voir plusieurs endroits intéressants de la capitale. Le rendez-vous était fixé le matin devant un café, où ils prenaient un café et regardaient la carte pour le trajet. Le premier lieu visité était un petit parc au centre-ville ; Mariam a vu une vieille fontaine et le groupe a pris des photos. Ensuite ils se sont dirigés vers le musée de la ville, où avait lieu une petite exposition consacrée à l'art local. Après la visite au musée, Mariam a reçu un cadeau dans une boîte et pour le soir ils ont cherché une table au restaurant. Au restaurant les amis ont eu une petite conversation et Mariam a remercié tous les organisateurs. À la fin de la journée Mariam était heureuse, car elle avait passé une journée calme et joyeuse avec ses amis, et tous ont célébré ses réussites avec une petite boisson.",
+      "questions": [
+        {
+          "question": "Où s'est déroulée la rencontre du groupe le matin ?",
+          "options": [
+            "Devant un cinéma",
+            "Devant un café",
+            "À la gare",
+            "À la maison de Mariam"
+          ],
+          "answer": "Devant un café",
+          "explanation": "Le texte indique que le rendez-vous était le matin devant un café, où ils prenaient un café et regardaient la carte."
+        },
+        {
+          "question": "Quel lieu ont-ils visité en premier ?",
+          "options": [
+            "Le musée",
+            "Un parc",
+            "Un restaurant",
+            "La bibliothèque"
+          ],
+          "answer": "Un parc",
+          "explanation": "Le texte précise que le premier endroit visité était un petit parc au centre-ville avec une vieille fontaine."
+        },
+        {
+          "question": "Qu'a reçu Mariam après la visite au musée ?",
+          "options": [
+            "Un billet de cinéma",
+            "Un cadeau dans une boîte",
+            "Une carte-postale",
+            "Des fleurs"
+          ],
+          "answer": "Un cadeau dans une boîte",
+          "explanation": "Après la visite au musée, Mariam a reçu un cadeau dans une boîte, comme le texte l'indique."
+        },
+        {
+          "question": "Comment Mariam se sentait à la fin de la journée ?",
+          "options": [
+            "Triste et fatiguée",
+            "En colère",
+            "Heureuse",
+            "Indifférente"
+          ],
+          "answer": "Heureuse",
+          "explanation": "Le texte conclut que Mariam était heureuse d'avoir passé une journée calme et joyeuse avec ses amis."
+        }
+      ]
+    }
+  ]
+}

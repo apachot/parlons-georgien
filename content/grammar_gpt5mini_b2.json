@@ -1,0 +1,243 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "grammar-b2-gen-001",
+      "title": "Temps : distinction présent simple / passé simple (perfectif)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 1,
+      "body": "Explication concise en français : en géorgien, la forme verbale du présent (პრეზენტ) exprime une action en cours ou un état (ვ- + radical), tandis que le passé simple (პერიოდული წარსული) indique une action achevée ; le radical peut changer et la terminaison -ე marque souvent le passé. Ne pas généraliser : certains verbes sont irréguliers et le système aspectuel est plus complexe (perfectif vs imperfectif).",
+      "examples": [
+        [
+          "მე ვახერხებ პრობლემას.",
+          "Je résous le problème (action en cours / habitude)."
+        ],
+        [
+          "მშოლა გუშინ დაწვა წიგნი.",
+          "Attention : incorrect — correct : 'მან გუშინ დაწვა წიგნი.' — Il/elle a brûlé le livre hier."
+        ],
+        [
+          "მე ვწერდი წერილს გუშინ.",
+          "J'écrivais une lettre hier (imparfait/continuité)."
+        ],
+        [
+          "მე ვწერე წერილი გუშინ.",
+          "J'ai écrit la lettre hier (action achevée)."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-002",
+      "title": "Préverbes de mouvement : მი- vs გამ- vs წაშლა (sens de base)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 2,
+      "body": "Explication concise en français : les préverbes (მი-, გაი-, გა-, გა- etc.) modifient le sens du verbe racine, souvent en indiquant direction, achèvement ou intensité. Exemples ci‑dessous montrent principalement მი- (mouvement vers) et გა- (achèvement/transition). Indiquer les limites : l'effet exact dépend du verbe et doit être appris cas par cas.",
+      "examples": [
+        [
+          "მივდივარ მაღაზიაში.",
+          "Je vais (vers) au magasin."
+        ],
+        [
+          "მივედი ცოტა ხნის წინ.",
+          "Je suis venu(e) il y a peu (mouvement vers le locuteur/lieu)."
+        ],
+        [
+          "გავხტი წყალში.",
+          "J'ai sauté dans l'eau (préverbe გა- signale l'action accomplie/transformatrice)."
+        ],
+        [
+          "დავწერე წერილი.",
+          "J'ai écrit (action accomplie) la lettre."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-003",
+      "title": "Cas : datif pour l'objet expérientiel et agentivité",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 3,
+      "body": "Explication concise en français : le cas datif (forme en -ს / forme déclinaison selon nom) est utilisé pour marquer le bénéficiaire, la personne affectée ou, dans certaines constructions (comme avec მოწყობილობები du verbe \"წერ\"), l'agent expérientiel. Ne pas conclure qu'il remplace toujours le nominatif — le nominatif marque le sujet grammatical dans la plupart des phrases actives.",
+      "examples": [
+        [
+          "თეოს წიგნი გაეხარდა.",
+          "Théo (datif) a été heureux du livre / théo a aimé le livre (construction expérientielle)."
+        ],
+        [
+          "მან მომცა წიგნი.",
+          "Il/elle m'a donné un livre. (მე = datif pour bénéficiaire)."
+        ],
+        [
+          "ჩემმა მეგობარმა მანქანა მიყიდა.",
+          "Mon ami m'a vendu une voiture. (მე = datif bénéficiaire)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-004",
+      "title": "Suffixes : formation du pluriel -ები et ses allomorphes",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 4,
+      "body": "Explication concise en français : le pluriel régulier se forme avec le suffixe -ები ; selon la terminaison du radical, une voyelle d'appui peut apparaître et l'accent peut se déplacer. Limite : certains noms irréguliers ou d'emprunt ont des pluriels particuliers.",
+      "examples": [
+        [
+          "წიგნი — წიგნები",
+          "livre — livres"
+        ],
+        [
+          "ბიჭი — ბიჭები",
+          "garçon — garçons"
+        ],
+        [
+          "ქალაქი — ქალაქები",
+          "ville — villes"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-005",
+      "title": "Négation : position de 'არ' et négation du passé",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 5,
+      "body": "Explication concise en français : la négation principale se réalise avec 'არ' placé immédiatement avant la forme verbale conjuguée (არ + ვ-/ა-...). Pour le passé, 'არ' précède la forme passée (არ + ვწერე = je n'ai pas écrit). Attention : pour l'auxiliaire / formes composées et certaines particules (comme 'არავის'), la structure diffère.",
+      "examples": [
+        [
+          "მე არ ვწერ.",
+          "Je n'écris pas / je ne suis pas en train d'écrire."
+        ],
+        [
+          "ის არ მოვიდა გუშინ.",
+          "Il/elle n'est pas venu(e) hier."
+        ],
+        [
+          "ჩვენ არ ვნახეთ ფილმი.",
+          "Nous n'avons pas vu le film."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-006",
+      "title": "Accord verbal : personne et marqueur expérientiel (მომწონს etc.)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 6,
+      "body": "Explication concise en français : les verbes conjugués s'accordent en personne et en nombre (préfixe/particule v-, g-...), mais certaines constructions impersonnelles fonctionnent différemment : 'მომწონს' se traduit littéralement \"il est agréable à moi\" — la personne qui éprouve est en datif (მოდაგა) et le verbe reste à la 3e personne. Ne pas confondre avec un vrai verbe transitif qui s'accorde différemment.",
+      "examples": [
+        [
+          "მე მომწონს ეს წიგნი.",
+          "J'aime ce livre. (litt. Ce livre est agréable pour moi.)"
+        ],
+        [
+          "მას არ მოსწონს ყავა.",
+          "Il/elle n'aime pas le café. (მას = datif)"
+        ],
+        [
+          "ჩვენ მოგვწონს ეს ადგილი.",
+          "Nous aimons cet endroit. (verbe à la 3e personne, changement du préfixe)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-007",
+      "title": "Ordre des mots : Emphase et variation (SOV par défaut)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 7,
+      "body": "Explication concise en français : l'ordre neutre en géorgien est SOV (sujet — objet — verbe). La langue est cependant flexible : déplacer un constituant en tête permet de marquer l'accent ou le thème. Limite : la mobilité affecte l'information focus, pas la grammaire fondamentale — les cas restent marqués même si l'ordre change.",
+      "examples": [
+        [
+          "მარიამი წიგნს კითხულობს.",
+          "Mariam lit un livre. (ordre neutre SOV)"
+        ],
+        [
+          "წიგნს მარიამი კითხულობს.",
+          "C'est LE LIVRE que Mariam lit. (emphase sur \"le livre\")"
+        ],
+        [
+          "კითხვას ის არასოდეს აყენებს.",
+          "Il/elle ne pose jamais de question. (adverbe d'intensité avant le verbe)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-008",
+      "title": "Subordination : conjonction 'რომ' pour propositions complétives",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 8,
+      "body": "Explication concise en français : 'რომ' introduit des complétives équivalentes à 'que' en français (verbe principal + que + subordonnée). La subordonnée conserve l'ordre et la morphologie verbale normale. Limites : d'autres particules (თუ, როცა) servent à d'autres types de subordination (condition, temps) et ne sont pas interchangeables avec 'რომ'.",
+      "examples": [
+        [
+          "ვფიქრობ, რომ ის მართალი არის.",
+          "Je pense qu'il/elle a raison."
+        ],
+        [
+          "მინდა, რომ დამეხმარო.",
+          "Je veux que tu m'aides."
+        ],
+        [
+          "გეტყვი, რომ მოვალ ადრე.",
+          "Je te dirai que je viendrai tôt."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-009",
+      "title": "Subordination relative : 'რომელი/რომ' et relativa avec 'რომელი'",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 9,
+      "body": "Explication concise en français : pour former une relative, on peut employer 'რომელი' (qui/que/lequel) ou la conjonction 'რომ' combinée à une structure participiale. 'რომელი' s'accorde en genre/nombre conceptuel et introduit l'antécédent ; la forme participiale est fréquente à l'oral. Limite : choix entre 'რომელი' et 'რომ' dépend du registre et de la construction syntaxique.",
+      "examples": [
+        [
+          "აღმოვაჩინე კაცი, რომელიც დამეხმარა.",
+          "J'ai trouvé un homme qui m'a aidé. ('რომელი' = რომელიც)"
+        ],
+        [
+          "ეს არის წიგნი, რომელიც მომწონს.",
+          "C'est le livre que j'aime."
+        ],
+        [
+          "მითხრა რამ, რის გამოც დავიწყე გაღვიძება.",
+          "Il/elle m'a dit quelque chose pour lequel j'ai commencé à m'inquiéter. (participiale, registre formel)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b2-gen-010",
+      "title": "Suffixes verbaux aspectuels et verbalisation : -ა / -ინ- / -ულ-",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 10,
+      "body": "Explication concise en français : certains suffixes verbaux modifient l'aspect ou causent la transitivité : par exemple -ინ- peut former un verbe itératif ou intensif, -ულ- apparaît dans passifs et participes ; la terminaison -ა est l'infinitif/radical de base. Limite : l'effet précis varie selon la racine ; il faut apprendre les dérivations lexicales individuellement.",
+      "examples": [
+        [
+          "წერა — ვწერ — წერილი",
+          "écrire — j'écris — l'écriture (radical/présent/nom dérivé)"
+        ],
+        [
+          "არამარტო მოვიდა, არამედ დაბრუნდა და მიაყენა წყენაც.",
+          "Il/elle n'est pas seulement venu(e), mais est revenu(e) et a causé aussi du tort. (verbes composés et préverbes)"
+        ],
+        [
+          "დავალე რომ დაეწყო მუშაობა.",
+          "J'ai ordonné qu'il/elle commence à travailler. (დაეწყო : préverbe + suff.)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    }
+  ]
+}

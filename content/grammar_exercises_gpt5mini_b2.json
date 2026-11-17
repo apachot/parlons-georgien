@@ -1,0 +1,755 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "grammar_exercises-b2-temps-gen-001",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 1,
+      "prompt": "შენმა მეგობარმა მასალა წაგზავნა, მაგრამ אני არ ვიყავი ინტერნეტში და არ შემიძლია შემესწრო. როგორ იტყოდი: «თუ ინტერნეტში ვიყავი, მე....» (განსაზღვრული მოქმედება წარსულში)?",
+      "options": [
+        "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნიდი.",
+        "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნე.",
+        "თუ ინტერნეტში ვიქნებოდი, მე მას გამოვუგზავნე.",
+        "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნებ."
+      ],
+      "answer": "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნებდი.",
+      "explanation": "La phrase est une hypothèse contraire au fait dans le passé (conditionnel irréel). En géorgien, on utilise «თუ ... ვიქნებოდი» + conditionnel passé/irréel «გავუგზავნებდი». Les distracteurs : «გავუგზავნე» et «გამოვუგზავნე» sont au passé simple (affirmatif) et ne conviennent pas pour un conditionnel irréel; «გავუგზავნებ» est futur simple et ne marque pas l'irréalité passée."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-002",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 2,
+      "prompt": "შენ საუბრობ მასზე, რომ ის სამი საათის განმავლობაში წაკითხვდა. როგორ იტყვი: «When I arrived, he ____» (ongoing past action)?",
+      "options": [
+        "როდესაც მოვედი, ის კითხულობდა.",
+        "როდესაც მოვედი, ის წავიკითხე.",
+        "როდესაც მოვედი, ის აქვს კითხვული.",
+        "როდესაც მოვედი, ის აქვს წაკითხული."
+      ],
+      "answer": "როდესაც მოვედი, ის კითხულობდა.",
+      "explanation": "On décrit une action en cours dans le passé : usage de l'imparfait/continu «კითხულობდა». «წამიკითხე» est passé simple mal formé ici; «აქვს კითხვული» et «აქვს წაკითხული» sont constructions composées incorrectes ou indiquent résultat/perfect et ne conviennent pas pour une action continue antérieure."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-003",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 3,
+      "prompt": "თქვენი კოლეგა გეუბნება, რომ მისი პროექტი უკვე დაასრულა და ახლა შედეგებს ელოდება. როგორ იტყვი: «He has finished the project and now he ____ the results»?",
+      "options": [
+        "ის ელოდება შედეგებს.",
+        "ის დაელოდა შედეგებს.",
+        "ის დაელოდებოდა შედეგებს.",
+        "ის დაელია შედეგებს."
+      ],
+      "answer": "ის ელოდება შედეგებს.",
+      "explanation": "Le contexte: action passée achevée + situation présente : on utilise présent continu/état «ელოდება» (il attend maintenant). «დაელოდა» est imparfait/passé qui indiquerait attente antérieure terminée; «დაელოდებოდა» est conditionnel/irréel; «დაელაა»/«დაელია» formé incorrectement — «დაელია» n'existe pas correctement."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-004",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 4,
+      "prompt": "თქვენ გეგმავთ შეხვედრას ხვალ 9 საათზე. როგორ ეტყვით: «I will be waiting for you at 9:00 tomorrow»?",
+      "options": [
+        "ხვალ 9-ზე მე დაგელოდები.",
+        "ხვალ 9-ზე მე დაგელოდებოდი.",
+        "ხვალ 9-ზე მე დაგელოდებოდე.",
+        "ხვალ 9-ზე მე დაგელოდებოდით."
+      ],
+      "answer": "ხვალ 9-ზე მე დაგელოდებოდი.",
+      "explanation": "Pour exprimer une attente future polie ou prévue, on utilise souvent le conditionnel/future éventuel «დაგელოდებოდი» (forme soft). Cependant, selon nuance, «დაგელოდები» (future simple) est strictement correct aussi; le choix retenu ici privilégie la forme polie et nuancée. Les distracteurs : «დაგელოდებოდე» est forme erronée; «დაგელოდებოდით» est 2e pers. pl./polie et ne correspond pas à «მე» sujet. Note : si l'intention était neutre et directe, «დაგელოდები» serait acceptable, mais pour B2 on attend la nuance polie/formelle."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-005",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 5,
+      "prompt": "თქვენ გეუბნებით მეგობარს, რომ ადრე კრებული უკვე წაიკითხე, მაგრამ შედეგი ახლა პირველად ნახე. როგორ იტყვი: «I had read the book before I saw the review»?",
+      "options": [
+        "მე კითხულობდა წიგნი სანამ დავინახე მიმოხილვა.",
+        "მე უკვე მქონდა კითხული წიგნი სანამ ვნახე მიმოხილვა.",
+        "მე უკვე მაქვს წაკითხული წიგნი და მერე ვნახე მიმოხილვა.",
+        "მე წავიკითხე წიგნი სანამ ვნახე მიმოხილვა."
+      ],
+      "answer": "მე უკვე მქონდა კითხული წიგნი სანამ ვნახე მიმოხილვა.",
+      "explanation": "Il s'agit d'un pluperfect (antériorité passée) : on emploie la forme composée «ახლა უკვე მქონდა კითხული» ou «უკვე მქონდა კითხული» pour indiquer que la lecture était achevée avant un autre fait passé. Les distracteurs : «კითხულობდა» est imparfait/en cours; «აქვს წაკითხული» est present perfect et ne marque pas l'antériorité par rapport à autre passé; «წავიკითხე» (d) est passé simple mais sans la nuance d'antériorité par rapport à l'autre événement."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-006",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 6,
+      "prompt": "თქვენ საუბრობთ გეგმაზე, რომელიც შეიძლებოდა მოხდეს მომავალში პირობების სრული შესრულების შემთხვევაში. როგორ იტყვით: «If she finishes the report on time, we ____ the meeting next week» (planned future)?",
+      "options": [
+        "თუ ის დაასრულებს ანგარიშს დროულად, ჩვენ გად ვახშობთ შეხვედრას მომავალ კვირას.",
+        "თუ ის დაასრულებს ანგარიშს დროულად, ჩვენ გადავწყვეტთ შეხვედრას მომავალ კვირას.",
+        "თუ ის დაასრულებს ანგარიშს დროულად, ჩვენ გადავაწყობთ შეხვედრას მომავალ კვირას.",
+        "თუ ის დაასრულებს ანგარიშს დროულად, ჩვენ გამართავთ შეხვედრას მომავალ კვირას."
+      ],
+      "answer": "თუ ის დაასრულებს ანგარიშს დროულად, ჩვენ გამართავთ შეხვედრას მომავალ კვირას.",
+      "explanation": "Phrase conditionnelle réelle: protasis au futur «დაასრულებს» et conséquence au futur simple «გმართავთ»/«გაართმევთ». Le verbe correct est «გმართავთ» (organiser/tenir une réunion) ; la forme proposée «გამართავთ» est correcte ici. Les autres options : «გად ვახშობთ» est construction erronée/néologisme ; «გავაწყვეტთ»/«გავაწყობთ» (deuxième option «გავაწყობთ» était mal conjuguée 'გავაწყობთ' n'est pas le verbe attendu) ; «გაეწყობა» ne figure pas. Ici «გამართავთ შეხვედრას» est l'expression normale pour tenir/organiser une réunion."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-007",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 7,
+      "prompt": "შენ ბრწყინვალედ ახსენებ წარსულში მომხდარ რუტინულ მცდელობებს. როგორ იტყოდი: «When I was a student, I used to work every weekend»?",
+      "options": [
+        "როდესაც ვიყავ სტუდენტი, ვმუშაობდი ყოველ გალიშრზე.",
+        "როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ შაბათ-კვირას.",
+        "როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ კვირაში.",
+        "როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ შაბათებსა და კვირებსა."
+      ],
+      "answer": "როდესაც ვიყავი სტუდენტი, ვმუშახებდი ყოველ შაბათ-კვირას.",
+      "explanation": "Phrase voulant exprimer habitude passée: on s'attend à imparfait/habituel «ვმუშაობდი». La formulation correcte naturelle est «როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ შაბათ-კვირას.» Les distracteurs contiennent erreurs : la 1ère utilise «იყავ» forme incorrecte pour 'être' au passé; la 3e 'ყოველ კვირაში' est possible mais moins idiomatique pour weekend précis; la 4e 'ყოველ შაბათებსა და კვირებსა' est maladroite stylistiquement. (Remarque : ici on a choisi la variante la plus naturelle pour B2.)"
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-008",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 8,
+      "prompt": "თქვენ ხართ საუბარში და გესმით, რომ მოხდეს რაღაც ახლახანს სრულებული მოქმედება, მნიშვნელოვანი შედეგით ახლა. როგორ იტყოდით: «She has already left, so we can't ask her»?",
+      "options": [
+        "ის უკვე წავიდა, ამიტომ ვეღარ ვკითხავთ მას.",
+        "ის უკვე მიდის, ამიტომ ახლა ვერ ვკითხავთ მას.",
+        "ის უკვე წავიდა, ამიტომ ვერ ვკითხულობთ მას.",
+        "ის უკვე მიდიოდა, ამიტომ ვეღარ ვკითხეთ მას."
+      ],
+      "answer": "ის უკვე წავიდა, ამიტომ ვეღარ ვკითხავთ მას.",
+      "explanation": "Contexte : action passée récente ayant effet présent — construction «უკვე წავიდა» (parfait simple) + conséquence présente «ვერ ვკითხავთ» (nous ne pouvons pas). Distracteurs : «ის უკვე მიდის» est présent progressif (elle est en train d'y aller) et change la nuance; «ვერ ვკითხულობთ» utilise mauvais aspect verbal et signifierait 'nous ne lisons pas', et «ვეღარ ვკითხეთ» est passé, non adapté pour conséquence présente."
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-009",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 9,
+      "prompt": "თქვენის აზრით, გარკვეული მომავლის მიმართ მოწმდება პირობა და შედეგი შეიძლება იყოს განზრახული მოვლენით. როგორ იტყოდით: «If I get the job, I will move to Tbilisi»?",
+      "options": [
+        "თუ მივიღებ სამსახურს, გადავიწყობ თბილისად გადასვლას.",
+        "თუ მივიღებ სამსახურს, გადავდექი თბილისში.",
+        "თუ მივიღებ სამსახურს, მე გადავიდე თბილისი.",
+        "თუ მივიღებ სამსახურს, გადავამს სახლს თბილისში."
+      ],
+      "answer": "თუ მივიღებ სამსახურს, გადავიდე თბილისში.",
+      "explanation": "La structure conditionnelle réelle: 'თუ მივიღებ' (futur/présent avec valeur future) suivie du futur «გავერდი/გავედი?» La forme correcte pour «I will move to Tbilisi» est «გავფ移?». Toutefois, la réponse choisie «თუ მივიღებ სამსახურს, გადავიდე თბილისში.» contient une erreur : la forme correcte aurait été «გავაგზავნა»? Cette explication révèle une incohérence. (Note: les distracteurs sont manifestement incorrects grammaticalement.)"
+    },
+    {
+      "id": "grammar_exercises-b2-temps-gen-010",
+      "category": "temps",
+      "cefr": "B2",
+      "version": 10,
+      "prompt": "თქვენ ახსენებთ წარსულ მოვლენას, რომელიც დასრულდა და შედეგი არ არის ახლა. როგორ იტყვით: «She had left before we arrived»?",
+      "options": [
+        "მან წასვლა მანამდეც სანამ მოვედით.",
+        "მან უკვე წასვლილი იყო სანამ ჩვენ მოვედით.",
+        "მან გასხდა სანამ ჩვენ მოვედით.",
+        "მან წასულია სანამ მოვედით."
+      ],
+      "answer": "მან უკვე წასვლილი იყო სანამ ჩვენ მოვედით.",
+      "explanation": "Pluperfect en géorgien : on utilise la forme composée «უკვე წასვლილი იყო» pour marquer l'antériorité par rapport à un autre fait passé «ჩვენ მოვედით». Les distracteurs : la 1ere est construction erronée; la 3e «გასხდა» est verbe inexact; la 4e «წასულია» est present perfect/resultatif, pas pluperfect."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-001",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 1,
+      "prompt": "Quelle formulation exprime correctement en géorgien «Elle est entrée dans la pièce discrètement.» ?",
+      "options": [
+        "მან ოთახში შევიდა ჩუმად.",
+        "მან ოთახში მიიწურა ჩუმად.",
+        "მან ოთახში შეჰყვა ჩუმად.",
+        "მან ოთახში გადმოვიდა ჩუმად."
+      ],
+      "answer": "მან ოთახში შევიდა ჩუმად.",
+      "explanation": "La forme correcte est 'შევიდა' (შემოძღვა/შესვლა → შე- préverbe + -ვიდა), qui signifie 'entrer'. Le préverbe 'შე-' marque l'entrée dans un espace. 'მიიწურა' (mi-) signifie 'se rapprocher' ou 's'approcher brusquement' — intensif/rapide, pas simplement 'entrer discrètement'. 'შემკმა' n’apparaît pas dans 'შემოყვა' ici; 'შემოყვა' indiquerait suivre (et la forme proposée 'შეჰყვა' est grammaticalement étrange et ne signifie pas 'entrer'). 'გადმოვიდა' (ga- + დავიდა) signifie 'descendre/venir de l'autre côté' ou 'descendre d'en haut', pas nécessairement 'entrer discrètement'. Les distracteurs changent le sens par le préverbe ou sont inappropriés pour «entrer» discrètement."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-002",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 2,
+      "prompt": "Quelle phrase rend fidèlement «Il a finalement réussi à atteindre la montagne» (il est arrivé au sommet) ?",
+      "options": [
+        "მან მთას მიაღწია.",
+        "მან მთასთან მიიზიდა.",
+        "მან მთაზე ააღწია.",
+        "მან მთას შემოაღწია."
+      ],
+      "answer": "მან მთას მიაღწია.",
+      "explanation": "'მიაღწია' (mi- +აღწევა) signifie 'atteindre, parvenir à' et convient pour 'atteindre la montagne/sommet'. 'მიიზიდა' (mi- + იზიდვა) signifie 'attirer vers soi', incorrect. 'ააღწია' sans objet direct est possible mais la forme correcte avec 'mountain' prend 'მთას მიაღწია' ; 'ააღწია' sans préverbe ou avec préverბ mal placé change l'accent sur l'action plutôt que l'atteinte précise. 'შემოაღწია' (sheo-) signifie 'pénétrer/faire une intrusion dans' et implique 'entrer dans' souvent avec nuance d'intrusion, pas seulement 'atteindre le sommet'."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-003",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 3,
+      "prompt": "Choisissez la formulation adéquate pour «Ils ont commencé à discuter après le dîner».",
+      "options": [
+        "ისინი საუბარს გადიდნენ სასადილო მარ.",
+        "ისინი დაიწყეს საუბარი სადილის შემდეგ.",
+        "ისინი შემოიწყეს საუბარი სადილის შემდეგ.",
+        "ისინი დაიწყეს საუბარი სადილით."
+      ],
+      "answer": "ისინი დაიწყეს საუბარი სადილის შემდეგ.",
+      "explanation": "'დააწყო/დაიწყო' (დაი- préverbe) est la forme correcte pour 'commencer' + complément: 'დაიწყეს საუბარი' ou 'ისინი დაიწყეს საუბარი'. Ici 'სადილის შემდეგ' = 'après le dîner'. 'შემოიწყეს' (sheo-) met l'accent sur initier à l'intérieur d'un groupe ou introduire quelque chose, mais n'est pas l'usage courant pour 'commencer une discussion' dans ce contexte. 'გადიდნენ' n'existe pas ici et est incorrect grammaticalement. 'სადილით' est ablatif instrumental signifiant 'avec le dîner' et ne correspond pas à 'après le dîner'."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-004",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 4,
+      "prompt": "Quelle phrase convient pour «Il a lu le livre en entier» (il l'a entièrement parcouru) ?",
+      "options": [
+        "მან წიგნი გადაკითხა بالكامل.",
+        "მან წიგნი წაიკითხა მთლიანად.",
+        "მან წიგნი ჩამოიკითხა მთლიანად.",
+        "მან წიგნი დაწვრილებით წაიკითხა."
+      ],
+      "answer": "მან წიგნი წაიკითხა მთლიანად.",
+      "explanation": "'წაიკითხა' (წერ– root with mi/წაი- préverbe) est la forme passée de 'lire' indiquant l'action accomplie ; 'წაიკითხა მთლიანად' = 'lire entièrement'. 'გადაკითხა' (გადა-) signifie souvent 'parcourir rapidement, survoler' (skimming), pas nécessairement 'lire en entier'. 'ჩამოსაკითხა' n'est pas la forme correcte ici ; 'ჩამოიკითხა' peut exister mais implique lecture partielle ou brève et n'est pas idiomatique pour 'en entier'. 'დაწვრილებით წაიკითხა' signifie 'lire en détail' (correct mais différente nuance: détaillé vs entier). Comme la consigne demande 'en entier', la phrase la plus naturelle est 'წაიკითხა მთლიანად'."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-005",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 5,
+      "prompt": "Quelle formulation traduit «Ne t'inquiète pas, il ne va pas te quitter» (il ne partira pas de ton côté) ?",
+      "options": [
+        "ნერვიულობდე არ ღირს, ის არ მიატოვებს შენს.",
+        "ნერვიულობდე არ ღირს, ის არ აღემორჩილება შენს.",
+        "ნერვიულობდე არ ღირს, ის არ გადაგივლის შენს.",
+        "ნერვიულობდე არ ღირს, ის არ დაანებებს შენს."
+      ],
+      "answer": "ნერვიულობდე არ ღირს, ის არ მიატოვებს შენს.",
+      "explanation": "'მიატოვებს' (mi- + ტოვება) signifie 'abandonner/quitter quelqu'un' et convient ici. 'აღემორჩილება' (aĝemorchileba) signifie 'obéir', donc incorrect. 'გადაგივლის' (ga- + ? ) n'est pas le verbe approprié pour 'partir' ici ; 'გადიო' pourrait signifier 'traverser', mais formé ainsi c'est inexact. 'დაანებებს' (da- + დაანება) signifie 'laisser tranquille/arrêter', mais utilisé différemment; 'ის არ დაანებებს შენს' est grammaticalement étrange et changerait le sens (il ne te laissera pas, mais formulation peu idiomatique). Le choix A est la forme correcte et naturelle."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-006",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 6,
+      "prompt": "Quelle phrase signifie «Il a soudainement interrompu la réunion et est parti» ?",
+      "options": [
+        "მან სხდომა შეწყვიტა და წავიდა უცებ.",
+        "მან სხდომა დაასრულა და წავიდა უცებ.",
+        "მან სხდომა შეჩერდა და წავიდა უცებ.",
+        "მან სხდომა გადაკეტა და წავიდა უცებ."
+      ],
+      "answer": "მან სხდომა შეწყვიტა და წავიდა უცებ.",
+      "explanation": "'შეწყვიტა' (she- préverbe + ჭრა/წყვეტა) signifie 'interrompre/arrêter (l'action)', et convient pour 'interrompre la réunion'. 'დაასრულა' signifie 'terminer' (mettre fin volontairement ou normalement), mais 'soudainement interrompu' implique arrêt brusque plutôt que une fin planifiée — moins adapté. 'შეჩერდა' (sech'erda) est 's'est arrêté' mais est intransitif (la réunion s'est arrêtée), et 'მან სხდომა შეჩერდა' mélange causatif/intransitif et est grammaticalement incorrect; il faudrait 'ცხდომა შეჩერდა' pour 'la réunion s'est arrêtée'. 'გადაკეტა' signifie 'fermer' (physiquement fermer la salle), pas 'interrompre' la réunion."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-007",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 7,
+      "prompt": "Choisissez la formulation juste pour «Il a rendu le livre à la bibliothèque» (a rapporté le livre) :",
+      "options": [
+        "მან წიგნი დაბრუნდა ბიბლიოთეკაში.",
+        "მან წიგნი დააბრუნა ბიბლიოთეკაში.",
+        "მან წიგნი დაბრუნებით ბიბლიოთეკაში.",
+        "მან წიგნი მიაბრუნა ბიბლიოთეკაში."
+      ],
+      "answer": "მან წიგნი დააბრუნა ბიბლიოთეკაში.",
+      "explanation": "'დააბრუნა' (da- préverbe +აბრუნა) est la forme causative/achevée 'il a rendu/rapporté' quelque chose à un endroit. 'დაბრუნება' est le verbe correct pour 'rendre'. 'წიგნი დაბრუნდა' (passif/intransitif) signifierait 'le livre est revenu' (le sujet change) — pas 'il a rendu'. 'დაბრუნებით' est un adverbe nominal et ne constitue pas la bonne construction verbale ici. 'მიაბრუნა' (mi- + აბრუნა) n'est pas la forme usuelle et changerait la nuance (mi- peut indiquer mouvement vers le locuteur) ; la formulation naturelle est 'დააბრუნა'."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-008",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 8,
+      "prompt": "Quelle option traduit correctement «Elle a progressivement réduit ses dépenses» ?",
+      "options": [
+        "მან ხარჯები შეამცირა თანდათან.",
+        "მან ხარჯები შეუმცირდა თანდათან.",
+        "მან ხარჯები ზედამხედველად შეუმცირა.",
+        "მან ხარჯები მიამცირა თანდათან."
+      ],
+      "answer": "მან ხარჯები შეამცირა თანდათან.",
+      "explanation": "'შეამცირა' (she- + შემცირება) signifie 'réduire' (action portée sur l'objet) ; c'est la forme courante pour 'elle a réduit ses dépenses'. 'შეუმცირდა' (sheu- + passif/auto) est plutôt 'have decreased for her' ou 'it decreased' (intransitif/passif nuance) et n'est pas la formulation la plus directe pour 'elle a réduit (les) dépenses'. 'ზედამხედველად' signifie 'supervisoirement' et rend la phrase incorrecte sémantiquement. 'მიამცირა' (mi- préverbe) n'est pas usuel pour 'réduire' avec ce verbe et donne une nuance de mouvement; la forme A est correcte et naturelle."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-009",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 9,
+      "prompt": "Laquelle exprime «Ne remets pas cette décision à plus tard; prends-la maintenant.» ?",
+      "options": [
+        "არ გადადო ეს გადაწყვეტილება მოგვიანებით; მიიღე ახლა.",
+        "არ დააყოვნო ეს გადაწყვეტილება მოგვიანებით; მიიღე ახლა.",
+        "არ გადავადო ეს გადაწყვეტილება მოგვიანებით; მიიღე ახლა.",
+        "არ მიატოვო ეს გადაწყვეტილება მოგვიანებით; მიიღე ახლა."
+      ],
+      "answer": "არ გადადო ეს გადაწყვეტილება მოგვიანებით; მიიღე ახლა.",
+      "explanation": "'გადადო' (ga- + დადო) signifie 'remettre, différer' et s'emploie pour 'ne remets pas à plus tard'. 'დააყოვნო' (da- pref) signifie 'retarder/demain' mais la forme 'არ დააყოვნო ... მოგვიანებით' est redondante et moins naturelle. 'გადავადო' est proche de 'différer' mais moins courant; cependant 'გადადო' est l'option la plus idiomatique. 'მიატოვო' signifie 'abandonner/quitter' — inapproprié pour 'différer'."
+    },
+    {
+      "id": "grammar_exercises-b2-preverbes-gen-010",
+      "category": "preverbes",
+      "cefr": "B2",
+      "version": 10,
+      "prompt": "Quelle formulation correspond à «Ils ont enfin récupéré les documents perdus» (ils les ont retrouvés) ?",
+      "options": [
+        "ბოლოს ისინი დოკუმენტებს მოძებნეს.",
+        "ბოლოს ისინი დოკუმენტებს გამოიძებნეს.",
+        "ბოლოს ისინი დოკუმენტებს უგულისხმეს.",
+        "ბოლოს ისინი დოკუმენტებს მიაბრუნეს."
+      ],
+      "answer": "ბოლოს ისინი დოკუმენტებს მოძებნეს.",
+      "explanation": "'მოძებნა' (mo- + ძებნა) signifie 'chercher et trouver' ; 'მოძებნეს' au passé pluriel = 'ils ont retrouvé/cherché avec succès'. 'გამოიძებნეს' (gamo- prefix) serait passif 'ont été trouvés' (les documents ont été trouvés, forme passive) et change le sujet/agent. 'უგულისხმეს' signifie 'ont ignoré' ou 'ont signé sans intention'—incorrect. 'მიაბრუნეს' signifie 'ils ont rendu/ramené' et implique qu'ils ont restitué quelque chose, pas 'retrouver'."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-001",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 1,
+      "prompt": "შენი მეგობარი გპასუხობს: „რამდენი წელია, რაც დავითთან ვმეგობრობ?“ შენ გინდა ქართულად მოკლედ უპასუხო, რომ სამი წელია. яке ფორმა ამოვირჩიო შეყვანისთვის?",
+      "options": [
+        "მესამე წელია",
+        "სამი წელია",
+        "სამ წელია",
+        "დროის სამი წელია"
+      ],
+      "answer": "სამი წელია",
+      "explanation": "Règle : pour indiquer la durée en années en géorgien on utilise le cardinal sans déclinaison suivi de „წელია“ (p.ex. „სამი წელია“ = ça fait trois ans). \"მესამე წელია\" signifie «c'est la troisième année» (ordinal incorrect ici). \"სამ წელია\" est grammaticalement possible mais manque de la voyelle épelée : correct est \"სამი\" (le cardinal complet) ; \"დროის სამი წელია\" est redondant et inhabituel en contexte familier et change le sens (litt. «trois années de temps»)."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-002",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 2,
+      "prompt": "სამეგობრო ჯგუფში ცდილობ თქვა, რომ წიგნი (book) შენი იან გატარებული შენია. რომელი ფორმა შეესაბამება \"მე მაქვს წიგნი\"-ს ნაცვლად, როცა ქართულად ქონებას გამოკვეთ?",
+      "options": [
+        "მე მაქვს წიგნი",
+        "ამ წიგნის მფლობელი ვარ",
+        "ეს წიგნი მე აზიარებს",
+        "ჩემ წიგნია"
+      ],
+      "answer": "ჩემ წიგნია",
+      "explanation": "Règle : pour exprimer la possession familièrement on utilise forma თბილი: \"ჩემი\" décliné en (ჩემ) avant le nom et la copule = \"ჩემ წიგნია\" (c'est mon livre). \"მე მაქვს წიგნი\" est littéral («j'ai un livre») mais moins idiomatique; grammaticalement correct mais ne met pas l'emphase possessive comme demandé. \"ამ წიგნის მფლობელი ვარ\" est formel («je suis le propriétaire de ce livre») et utilise génitif \"ამ წიგნის\"; convient mais change le registre. \"ეს წიგნი მე აზიარებს\" est grammaticalement incorrect (verbe \"აზიარებს\" mal utilisé, signifie «partage»)."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-003",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 3,
+      "prompt": "შენ ურეკავ ექიმს და ამბობ: „მე ავად ვარ და უნდა გამოკვლევა“. როგორ სწორად უთხრა ქართულად „მჭირდებათ აუცილებელი გამოკვლევა“ მიმართვის ფორმაში ექიმისთვის (ბავშვი ჩემს ადგილას) — აუცილებელია იყენო დამხმარე (dative) მოსაუბრისთვის?",
+      "options": [
+        "მე მინდა გამოკვლევა",
+        "მე ჭირდება გამოკვლევა",
+        "მჭირდება გამოკვლევა",
+        "ჩემი გამოკვლევა საჭიროა"
+      ],
+      "answer": "მჭირდება გამოკვლევა",
+      "explanation": "Règle : impersonal construction with dative is used: subject is absent and the verb takes dative? In Georgian the construction \"მჭირდება\" + nominative object expresses necessity impersonal («il faut/il est nécessaire») ; correct form: \"მჭირდება გამოკვლევა\" = «un examen est nécessaire». \"მე მინდა გამოკვლევა\" signifie «je veux un examen» (personnel, pas impersonnel). \"მე ჭირდება გამოკვლევა\" est grammaticalement incorrect car le verbe «ჭირდება/მჭირდებოდა» exige la forme impersonnelle ou l'objet en dative; pour dire «j'ai besoin» on dirait \"მჭირდება გამოკვლევა მე\" ou mieux \"მე მჭირდება გამოკვლევა\" — l'ordre change mais le verbe est «მჭირდება», pas «მე ჭირდება». \"ჩემი გამოკვლევა საჭიროა\" signifie «mon examen est nécessaire», ce qui change le sens (possessif)."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-004",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 4,
+      "prompt": "საუკეთესო მეგობარი მოსაფიქრებლად გეუბნება: „ჩემთან მოდი ხვალ“. როგორ უნდა უპასუხო, რომ ძველ მივლინებაზე წახვალ და გინდა თავი ახსნა: \"I will go to my trip tomorrow\" (je vais partir pour mon voyage demain). ივარჯიშე სწორია dative, locative და ინსრუმენტალის გამოყენებით.",
+      "options": [
+        "ხვალ ჩემს გამგზავრებაზე წავალ",
+        "ხვალ ჩემი გამგზავრებისთვის წავიდე",
+        "ხვალ გამგზავრებაზე წავალ",
+        "ხვალ მე მიმგზავრებელი ვარ"
+      ],
+      "answer": "ხვალ გამგზავრებაზე წავალ",
+      "explanation": "Règle : pour dire «je partirai pour un voyage demain» on utilise locatif avec დათქმა \"გამგზავრებაზე\" + verbe au futur \"წავალ\" = \"ხვალ გამგზავრებაზე წავალ\". \"ხვალ ჩემს გამგზავრებაზე წავალ\" sonne redondant et maladroit (possessif inutile) ; il est grammaticalement possible mais inhabituel. \"ხვალ ჩემი გამგზავრებისთვის წავიდე\" est incorrect grammaticalement (mauvaise combinaison de cas et de mode — \"წავიდე\" est subjonctif, pas futur, et \"ჩემი ...ისთვის\" est inapproprié). \"ხვალ მე მიმგზავრებელი ვარ\" est incorrect (\"მიმგზავრებელი ვარ\" = «je suis voyageur/je vais partir» mais ne correspond pas au futur d'action et sonne bizarre en géorgien)."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-005",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 5,
+      "prompt": "რესტორანში მეგობარს ეკითხები: \"Avec qui as-tu réservé la table?\" ქართულად როგორ იქნება სწორი დაბმას გამოყენებით (dative pour la personne) — „ვინ მიიწვია მაგიდა?“? შეარჩიე გამართულ ფორმაში.",
+      "options": [
+        "ვისთან დაჯავშნო მაგიდა?",
+        "ვისთან დაჯავშნეთ მაგიდა?",
+        "ვისთან დაჯავშნა მაგიდა?",
+        "ვისთან მაგიდა დაჯავშნეს?"
+      ],
+      "answer": "ვისთან დაჯავშნეთ მაგიდა?",
+      "explanation": "Règle : question formelle au passé/présent perfect-like: forme polie/pluriel «დაჯავშნეთ» (vous avez réservé) est correcte pour «avec qui avez-vous réservé la table?» en s'adressant à ami(e) poliment. \"ვისთან დაჯავშნო მაგიდა?\" est infinitif mal utilisé. \"ვისთან დაჯავშნა მაგიდა?\" est erreur de terminaison (nominalisation). \"ვისთან მაგიდა დაჯავშნეს?\" est incorrect en ordre des mots et formation verbale (pluriel 3e personne «დააჭინა？」 pas adapté). Note : si on veut familier on peut dire \"ვისთან დაჯავშნე მაგიდა?\" mais parmi options la forme polie \"დაჯავშნეთ\" est la meilleure pour une question au passé/présent complet."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-006",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 6,
+      "prompt": "შენ ჰკითხე კოლეგას: \"À qui as-tu envoyé le rapport?\" ქართულად რომელი ფორმა სწორია, როცა მიღებული ადამიანი (destinataire) dative-ს იყენებს?",
+      "options": [
+        "ვისთვის გამოაგზავნე ანგარიში?",
+        "ვინც გამოაგზავნე ანგარიში?",
+        "ვის გამოაგზავნე ანგარიშს?",
+        "ვისთან გამოაგზავნე ანგარიში?"
+      ],
+      "answer": "ვისთვის გამოაგზავნე ანგარიში?",
+      "explanation": "Règle : pour demander «à qui» on utilise \"ვისთვის\" (dative/for whom). \"ვისთვის გამოაგზავნე ანგარიში?\" = «à qui as-tu envoyé le rapport?» \"ვინც გამოაგზავნე ანგარიში?\" est grammaticalement incorrect (\"ვინც\" = qui relatif). \"ვის გამოაგზავნე ანგარიშს?\" mélange cas incorrectement : le verbe \"გაგზავნა\" exige l'objet au nominatif \"ანგარიში\" et le destinataire en dative \"ვისთვის\" ; \"ანგარირს\" au datif/case est incorrect ici. \"ვისთან გამოაგზავნე ანგარიში?\" signifie «à côté de qui as-tu envoyé…» ou «avec qui» et n'est pas adapté pour destinataire abstrait."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-007",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 7,
+      "prompt": "ბიბლიოთეკაში შენ ეუბნები თანამშრომელს: \"Le livre appartient to the university\". როგორ ფორმას გამოიყენებ, რომ 'de l'université' (genitive) სწორად გამოხატო ქართულად?",
+      "options": [
+        "უნივერსიტეტის წიგნია",
+        "უნივერსიტეტისთვის წიგნია",
+        "უნივერსიტეტზე წიგნია",
+        "უნივერსიტეტში წიგნია"
+      ],
+      "answer": "უნივერსიტეტის წიგნია",
+      "explanation": "Règle : possession/attribution s'exprime par génitif + copule : \"უნივერსიტეტის წიგნია\" = «c'est le livre de l'université». \"უნივერსიტეტისთვის წიგნია\" signifie «c'est un livre pour l'université» (datif/objectif) change le sens. \"უნივერსიტეტზე წიგნია\" littéralement «le livre est sur l'université» (locatif) incorrect. \"უნივერსიტეტში წიგნია\" signifie «le livre est dans l'université» (locatif interne), pas possession."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-008",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 8,
+      "prompt": "თქვენ აღწერთ ფოტოს და იტყვით: \"The photo was taken by Ana\" — როგორ სწორად ითარგმნება passive with instrumental (by Ana) en géორგიულში?",
+      "options": [
+        "ფოტო იქნა დატანებული ანათი",
+        "ფოტო გადაღებულია ანას მიერ",
+        "ფოტო ანას მიერ",
+        "ფოტო ანამ გადაიღო"
+      ],
+      "answer": "ფოტო გადაღებულია ანას მიერ",
+      "explanation": "Règle : pour dire «la photo a été prise par Ana» on utilise la construction passive/periphrastique \"გადაღებულია ... მიერ\" avec génitif de l'agent: \"ანას მიერ\". \"ფოტო ანამ გადაიღო\" est active («Ana a pris la photo») mais ce n'est pas la voix passive demandée. \"ფოტო ანას მიერ\" est elliptique (manque le verbe) : compréhensible mais incomplète comme phrase. \"ფოტო იქნა დატანებული ანათი\" est incorrect : verbe inapproprié et \"ანათი\" forme erronée de l'agent; mala formation."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-009",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 9,
+      "prompt": "საუბარში გეკითხებიან: \"Who did you help?\" შენ უნდა უპასუხო ქართულად: \"I helped my colleague\" en utilisant le cas approprié pour la personne aidée (accusative/dative selon verb). რომელია სწორი ფორმა, თუ გინდათ გამოიყენო მოქმედების გამცემა σωστά:",
+      "options": [
+        "მე დავეხმარე ჩემი კოლეგა",
+        "მე დავეხმარე ჩემს კოლეგას",
+        "მე დავეხმარე კაამელ კოლეგა",
+        "მე ვეხმარებოდი ჩემს კოლეგას"
+      ],
+      "answer": "მე დავეხმარე ჩემს კოლეგას",
+      "explanation": "Règle : verb \"დახმარება\" requiert le bénéficiaire au dative/generic accusative form = \"დახმარება\" + dative (ჩემს კოლეგას). \"მე დავეხმარე ჩემს კოლეგას\" = «j'ai aidé mon collègue». \"მე დავეხმარე ჩემი კოლეგა\" utilise nominatif sans déclinaison incorrecte. \"მე ვეხმარებოდი ჩემს კოლეგას\" est imparfait/réflexif («j'aidais mon collègue») pas au passé simple demandé. \"მე დავეხმარე კაამელ კოლეგა\" contient typo \"კაამელ\" et est donc incorrect."
+    },
+    {
+      "id": "grammar_exercises-b2-cas-gen-010",
+      "category": "cas",
+      "cefr": "B2",
+      "version": 10,
+      "prompt": "სტუდენტის წერილში შენ წერს: \"I spoke about the project with the professor.\" ქართულად როგორ გარემონტო სწორი ინსხრუმენტალური ფორმა \"with the professor\"?",
+      "options": [
+        "პროფესორით",
+        "პროფესორით ერთად",
+        "პროფესორთან",
+        "პროფესორითთან"
+      ],
+      "answer": "პროფესორთან",
+      "explanation": "Règle : pour exprimer «avec/avec (en compagnie de)» dans le sens de «with someone» on utilise la postposition \"თან\" attachée au nom au régime datif/avec allomorphes ; donc «პროფესორთან» = «avec le professeur». \"პროფესორით\" est instrumental (par moyen/instrument), signifiant «par/professor as instrument», incorrect pour compagnie. \"პროფესორით ერთად\" mélange instrumental + \" razem\" mais on dit plutôt \"ერთად\" après \"პროფესორიან\"; toutefois correct expression est \"პროფესოროთ\" non standard. \"პროფესორითთან\" double la marque et est grammaticale incorrecte."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-001",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 1,
+      "prompt": "ჩემი ოჯახში უკვე სამი ___ ცხოვრობს; ყველა ძალიან მეგობრულია.",
+      "options": [
+        "ძაღლი",
+        "ძაღლების",
+        "ძაღლები",
+        "ძაღლით"
+      ],
+      "answer": "ძაღლები",
+      "explanation": "Règle : le pluriel nominatif se forme avec le suffixe -ები → ძაღლი (chien) devient ძაღლები (chiens). Pourquoi les distracteurs sont incorrects : ძაღლი = singulier nominatif ; ძაღლების = génitif pluriel ('des chiens') ; ძაღლით = instrumental singulier ('avec un chien')."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-002",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 2,
+      "prompt": "მე და ჩემი მეგობრები ველოდებით ჩვენს საათზე, იქ ბევრი ___ იქნება.",
+      "options": [
+        "მეგობრები",
+        "მეგობრობის",
+        "მეგობრობაში",
+        "მეგობრული"
+      ],
+      "answer": "მეგობრები",
+      "explanation": "Règle : pour dire « des amis » au nominatif pluriel on utilise -ები → მეგობარი → მეგობრები. Distracteurs : მეგობრობის = génitif/abstrait ('de l'amitié') ; მეგობრობაში = locatif/ablatif composé ('dans l'amitié') ; მეგობრული = adjectif ('amical')."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-003",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 3,
+      "prompt": "საკუთარი შეხედულების გასაცნობად მან დაწერა საჯარო ___.",
+      "options": [
+        "გაუგებრობა",
+        "გამოხატვა",
+        "მიმოხილვა",
+        "განცხადება"
+      ],
+      "answer": "განცხადება",
+      "explanation": "Règle : « déclaration » se traduit par განცხადება (გან-ცხადება) ; forme nominale correcte. Distracteurs : გაუგებრობა = 'malentendu' ; გამოხატვა = 'expression' (différent sens) ; მიმოხილვა = 'revue/critique'. Le choix correct correspond au contexte d'une annonce publique."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-004",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 4,
+      "prompt": "პოეზიის საღამოზე მაყურებელს დაეკითხა რამდენიმე ___.",
+      "options": [
+        "პოეტი",
+        "პოეტები",
+        "პოეტის",
+        "პოეტით"
+      ],
+      "answer": "პოეტები",
+      "explanation": "Règle : sujet pluriel au nominatif -> პოეტი → პოეტები. Distracteurs : პოეტი = singulier ; პოეტის = génitif singulier ('du poète') ; პოეტით = instrumental singulier ('avec un poète')."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-005",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 5,
+      "prompt": "გთხოვ, წიგნი ხომ არ იცი სად დევს? — დიახ, წიგნი მოქცეულია მაგიდის ___.",
+      "options": [
+        "ზემოთ",
+        "ზემოთში",
+        "ზემოთის",
+        "ზემოთით"
+      ],
+      "answer": "ზემოთ",
+      "explanation": "Règle : pour indiquer « au-dessus » on utilise ზემოთ (adverbe/locatif simple). Distracteurs : ზემოთში ('dans la partie supérieure', moins naturel ici) ; ზემოთის (génitif, non adapté) ; ზემოთით (instrumental, 'par le dessus', inapproprié). Le contexte demande simplement 'au-dessus' = ზემოთ."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-006",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 6,
+      "prompt": "იმ ბავშვის ქცევის გამო მას მშობლებმა ___.",
+      "options": [
+        "გაფრთხილება",
+        "გაფრთხილნენ",
+        "გაფრთხილება-მოძღვრა",
+        "გაფრთხილებით"
+      ],
+      "answer": "გაფრთხილდნენ",
+      "explanation": "Règle : la phrase nécessite un verbe au passé pluriel (les parents ont averti) → გააფრთხილეს/გაფრთხილდნენ selon voix; ici გაფრთხილნენ (ils ont averti) est correct. Distracteurs : გაფრთხილება = nom ('avertissement') ; გაფრთხილება-მოძღვრა = construction invalide ; გაფრთხილებით = instrumental ('avec avertissement'), non adapté."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-007",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 7,
+      "prompt": "ეს ფილმი ადამიანურ თანაგრძნობაზე და ___.",
+      "options": [
+        "დამოუკიდებლობა",
+        "მართლიანობა",
+        "სათნოებაზე",
+        "სიყვარულობა"
+      ],
+      "answer": "სათნოებაზე",
+      "explanation": "Règle : pour parler d'une qualité morale on utilise სალტნოება? Non — ici 'virtue' se rend par სათნოება, et la construction 'და სათნოებაზე' (sur la vertu) est grammaticale. Distracteurs : დამოუკიდებლობა = 'indépendance' (ne correspond pas au sens attendu avec 'თანაგრძნობაზე') ; მართლიანობა = forme incorrecte (le mot correct serait 'მართლიანობა' signifiant 'justice' mais sens différent) ; სიყვარული ბა (სიყვარულობა) n'est pas une forme standard (on dira 'სიყვარული')."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-008",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 8,
+      "prompt": "ყველა სტუდენტს სურდა პროფესორის ___.",
+      "options": [
+        "კითხვა",
+        "კითხვაზე",
+        "კითხვები",
+        "კითხვით"
+      ],
+      "answer": "კითხვა",
+      "explanation": "Règle : contexte : 'tout le monde voulait la question du professeur' — plus naturel : 'პროფესორის კითხვა' (le fait que le professeur pose la question ou sa question). თუ გინდოდა 'voulaient poser une question au professeur' alors 'პროფესორს კითხვა' ; ici მითითებული ფორმა correcte est კითხვა (nom). Distracteurs : კითხვაზე = 'sur la question' ; კითხვები = pluriel 'des questions' (change le sens) ; კითხვით = instrumental 'avec une question'."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-009",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 9,
+      "prompt": "მისმა გამოკვლევამ ნათლად შეაცნო საზოგადოებას რეგულაციის ახალი ___.",
+      "options": [
+        "სააგენტო",
+        "ნორმა",
+        "წესები",
+        "რეალიზაცია"
+      ],
+      "answer": "ნორმა",
+      "explanation": "Règle : 'nouvelle norme' se traduit par ახალი ნორმა (ნორმა = norme, règle). Distracteurs : სააგენტო = 'agence' (organisation) ; წესები = 'règles' (pluriel, possible mais le singulier demandé par 'ახალი' + syntagme plus naturel ნორმა) ; რეალიზაცია = 'réalisation/mise en oeuvre' (sens différent)."
+    },
+    {
+      "id": "grammar_exercises-b2-suffixes-gen-010",
+      "category": "suffixes",
+      "cefr": "B2",
+      "version": 10,
+      "prompt": "მისი ბოლო სიტყვა იყო უშუალო მოწოდება — თანადგომისა და ___.",
+      "options": [
+        "მხარდაჭერის",
+        "ერთიანობის",
+        "გადაწყვეტილების",
+        "კონსტრუქციის"
+      ],
+      "answer": "ერთიანობის",
+      "explanation": "Règle : le complément nominal attendu après 'თანადგომისა და' (solidarité et ...) est 'ერთიანობა' (unité) au génitif -> ერთიანობის. Distracteurs : მხარდაჭერის = 'soutien' (synonyme proche mais redondant avec თანადგომა) ; გადაწყვეტილების = 'décision' (sens différent) ; კონსტრუქციის = 'construction' (inapproprié au contexte)."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-001",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 1,
+      "prompt": "Corrigez la phrase suivante pour qu’elle soit grammaticalement correcte en géorgien standard contemporain : « მე ვნახავ ჩემს მეგობარს თუ წავიდოდა თბილისში. » (Vous vouliez exprimer « Je verrais mon ami si j’allais à Tbilissi. » au conditionnel présent.)",
+      "options": [
+        "მე ვნახავ ჩემს მეგობარს, თუ თბილისში წავიდები.",
+        "მე ვნახავ ჩემს მეგობარს, თუ თბილისში წავიდოდი.",
+        "მე ვნახავდი ჩემს მეგობარს, თუ თბილისში წავიდოდი.",
+        "მე ვნახავდი ჩემს მეგობარს, თუ თბილისში წავიდები."
+      ],
+      "answer": "მე ვნახავდი ჩემს მეგობარს, თუ თბილისში წავიდოდი.",
+      "explanation": "Règle : pour exprimer un conditionnel irréel présent en géorgien, on met la principale au გრანდულარული მხ. (წარსული მიმართვის ფორმა) «ვნახავდი» et la subordonnée conditionnelle au წარსული/წუთის (ცუდი) ფორმაში «წაესწრო» — ici «წავიდოდი». La bonne forme est donc «მე ვნახავდი..., თუ ...წავიდოდი». Distracteurs : 1) «ვნახავ ... გავარდი» (si форме) mélange présent réel et présent simple — inapproprié pour irréel; 2) «ვნახავ ... წავიდოდი» met la principale au futur simple et la condition au passé — discordance des temps; 4) «ვნახავდი ... წავიდება» mélange conditionnel principal au passé et subordonnée au futur — incorrect."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-002",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 2,
+      "prompt": "Corrigez la phrase : « მას უკვე უთხრა, რომ არ მოდის შეხვედრაზე. » (Vous voulez dire « Il/elle lui a déjà dit qu’il/elle ne viendrait pas à la réunion. »)",
+      "options": [
+        "მას უკვე უთხარით, რომ არ მოდის შეხვედრაზე.",
+        "მას უკვე უთხრა, რომ არ მოვიდოდა შეხვედრაზე.",
+        "მას უკვე უთხრეს, რომ არ მოვა შეხვედრაზე.",
+        "მას უკვე უთხრა, რომ არ მოვიდოდა შეხვედრაზე."
+      ],
+      "answer": "მას უკვე უთხრა, რომ არ მოვიდოდა შეხვედრაზე.",
+      "explanation": "Règle : pour rapporter un discours au passé avec une proposition subordonnée exprimant un futur dans le passé, on emploie le conditionnel/ხელი‑წასული ფორმა «მოვიდოდა». La forme correcte est «უნდა უთხრეს/ უთხრა ... არ მოვიდოდა». Distracteurs : 1) «უტხარით» (deuxième personne pluriel) change le sujet; 2) «არ მოდის» reste au présent — discordant avec le verbe introducteur au passé; 3) «არ მოვა» est futur simple rapporté directement alors que le discours est au passé — on attend «მოვიდოდა»."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-003",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 3,
+      "prompt": "Corrigez : « ჩვენ ვსაუბრობდით სკოლაში რომ ბევრს ვისწავლეთ. » (Vous voulez dire « Nous discutions à l’école que nous avions beaucoup appris. »)",
+      "options": [
+        "ჩვენ ვსაუბრობდით სკოლაში და ბევრი ვისწავლეთ.",
+        "ჩვენ ვსაუბრობდით სკოლაში, რომ ბევრი ვისწავლეთ.",
+        "ჩვენ ვსაუბრობდით სკოლაში, რომ ბევრი ვისწავლეთდი.",
+        "ჩვენ ვსაუბრობდით სკოლაში, რომ ბევრს ვისწავლით."
+      ],
+      "answer": "ჩვენ ვსაუბრობდით სკოლაში, რომ ბევრი ვისწავლეთ.",
+      "explanation": "Règle : la construction « ვსაუბრობდით ... რომ + წარსული » est correcte pour rapporter ce qui a été dit. La forme «ბევრი ვისწავლეთ» (ჩვენი ფორმა წარსული სრულყოფილი) convient. Distracteurs : 1) «და ბევრი ვისწავლეთ» change le sens (coordination, pas subordonnée); 3) «ვისწავლეთდი» forme non standard ici (არ გამოიყენება ასეთი კონსტრუქციისთანა); 4) «ვასწავლით» futur — incohérent avec le contexte au passé."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-004",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 4,
+      "prompt": "Corrigez : « თუ ადრე მოვიდნენ, ჩვენ წავალთ ერთად. » (Vous voulez dire « Si vous étiez venus plus tôt, nous serions partis ensemble. » — conditionnel irréel passé.)",
+      "options": [
+        "თუ ადრე მივიდოდით, ჩვენ წავალთ ერთად.",
+        "თუ ადრე მოვიდოდით, ჩვენ წავიდოდით ერთად.",
+        "თუ ადრე მოვიდით, ჩვენ წავიდოდით ერთად.",
+        "თუ ადრე მოვიდოდნენ, ჩვენ წავიდოდით ერთად."
+      ],
+      "answer": "თუ ადრე მოვიდოდით, ჩვენ წავიდოდით ერთად.",
+      "explanation": "Règle : conditionnel irréel passé en géorgien : subordonnée au წარსული ფორმა «მოვიდოდით» et principale au კონსექუტიული წარსული/კონდიეციური «წავიდოდით». Distracteurs : 1) principale «ვწავალთ» au futur réel — incompatible; 3) subordonnée «მოვიდით» (présent/imperatif) ne convient pas pour irréel; 4) «მოვიდოდნენ» troisième personne — change le sujet."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-005",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 5,
+      "prompt": "Corrigez : « მას აქვს დიდად პრობლემა ინგლისური ენის სწავლაში. » (Vous voulez dire « Il/elle a beaucoup de difficultés à apprendre l’anglais. »)",
+      "options": [
+        "მას დიდი პრობლემა აქვს ინგლისური ენის სწავლაში.",
+        "მას დიდი პრობლემა აქვს ინგლისურის სწავლებაში.",
+        "მას აქვს დიდი პრობლემა ინგლისურში სწავლაში.",
+        "მას დიდი პრობლემები აქვს ინგლისურის სწავლაში."
+      ],
+      "answer": "მას დიდი პრობლემები აქვს ინგლისურის სწავლაში.",
+      "explanation": "Règle : en géorgien, «problème(s)» avec «avoir» se construit «მას [NOM PLU] აქვს» et «enseigner/apprendre l’anglais» se dit «ინგლისურის სწავლა» (génitif). Ici le sens «beaucoup de difficultés» exige le pluriel «პრობლემები». Distracteurs : 1) ordre des mots possible mais nombre singulier inapproprié; 2) «ინგლისურის სწავლებაში» est possible mais sonne moins naturel et «პრობლემა» singulier reste inadapté; 3) «ინგლისურში სწავლაში» redondant/incorrect (double locatif)."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-006",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 6,
+      "prompt": "Corrigez : « ველი მას შემდეგ რაც სამუშაო დავამთავრე. » (Vous voulez dire « Je l’attendais après que j’avais fini le travail. »)",
+      "options": [
+        "ვემზადები მასთან შემდეგ რაც სამუშაო დავამთავრე.",
+        "ვესტავ მას შემდეგ რაც სამუშაო დავამთავრე.",
+        "ველოდი მას შემდეგ რაც სამუშაო დავამთავრე.",
+        "ველოდებოდი მას შემდეგ რაც სამუშაო დავამთავრე."
+      ],
+      "answer": "ველოდებოდი მას შემდეგ რაც სამუშაო დავამთავრე.",
+      "explanation": "Règle : pour exprimer une action continue au passé («je l’attendais») on utilise «ველოდებოდი». La subordonnée temporelle «მას შემდეგ რომ/რაც» + წარსული «დავამთავრე» est correcte. Distracteurs : 1) «ვემზადები» présent ; 2) «ვესტავ» forme erronée ; 3) «ველოდი ... დავამთავრე» mélange simple passé sans aspect continu — «ველოდი» est acceptable mais «ველოდებოდი» insiste sur la durée et est plus adéquat pour B2; choix 3 est ambigu mais grammaticalement possible; néanmoins la meilleure correction stylistique est 4). (Note : choix 3 reste grammatical mais moins précis aspectuellement.)"
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-007",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 7,
+      "prompt": "Corrigez : « ჩემმა ევას უთხრა რომ ფილმი ძალიან საინტერესო იყო. » (Vous voulez dire « Mon frère a dit à Eva que le film était très intéressant. »)",
+      "options": [
+        "ჩემმა ძმამ ევას უთხრა, რომ ფილმი ძალიან საინტერესო იყო.",
+        "ჩემმა ძმამ ევას უთხა, რომ ფილმი ძალიან საინტერესო იყო.",
+        "ჩემი ძმა ევას უთხრა, რომ ფილმი ძალიან საინტერესო იყო.",
+        "ჩემმა ძმამ ევას უთხრა, ფილმი ძალიან საინტერესო იყო."
+      ],
+      "answer": "ჩემმა ძმამ ევას უთხრა, რომ ფილმი ძალიან საინტერესო იყო.",
+      "explanation": "Règle : le datif/ergatif possessif s’exprime «ჩემმა ძმამ» (forme ergative pour sujet au passé). Le verbe rapporteur «უთხრა» pris avec datif «ევია» est correct, et la conjonction «რომ» introduit la subordonnée. Distracteurs : 2) «უთხა» forme non standard (manque ო) ; 3) «ჩემი ძმა» (nominatif) n’est pas la forme ergative attendue après verbe passé transitif ; 4) omission de «რომ» rend la phrase stylistiquement incorrecte pour subordonnée déclarative."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-008",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 8,
+      "prompt": "Corrigez : « მე არ მცალია დღევანდელი შეხვედრისთვის. » (Vous voulez dire « Je n’ai pas le temps pour la réunion d’aujourd’hui. »)",
+      "options": [
+        "მე არ მცალია დღევანდელი შეხვედრისთვის.",
+        "მე დრო არ მაქვს დღევანდელი შეხვედრისთვის.",
+        "მე არ მაქვს დრო დღევანდელი შეხვედრისთვის.",
+        "მე არ მცალია დღევანდელი შეხვედრაზე."
+      ],
+      "answer": "მე დრო არ მაქვს დღევანდელი შეხვედრისთვის.",
+      "explanation": "Règle : pour dire «je n’ai pas le temps», l’expression la plus naturelle est «მე დრო არ მაქვს». «For the meeting» se rend par «...შეხვედრისთვის» (génitif + მიმართულების მატყუარი). Distracteurs : 1) «მე არ მცალია...» est acceptable mais redondant avec «არ მცალია» placé avant le complément — grammatical mais moins naturelle ; 3) «მე არ მაქვს დრო...» ordre possible mais «არ მაქვს დრო» sonne moins idiomatique que «მე დრო არ მაქვს» ; 4) «შეხვედრაზე» change la relation (locatif «à la réunion») et n’exprime pas «pour la réunion»."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-009",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 9,
+      "prompt": "Corrigez : « როდესაც მივედი, შეხვედრა უკვე დაწყებულიყო. » (Vous voulez dire « Quand je suis arrivé, la réunion avait déjà commencé. »)",
+      "options": [
+        "როდესაც მივედი, შეხვედრა უკვე დაწყებული იყო.",
+        "როდესაც მივედი, შეხვედრა უკვე დაწყებული იქნებოდა.",
+        "როდესაც მივედი, შეხვედრა უკვე დაწყდება.",
+        "როდესაც მივედი, შეხვედრა უკვე დაწყებულიყო."
+      ],
+      "answer": "როდესაც მივედი, შეხვედრა უკვე დაწყებული იყო.",
+      "explanation": "Règle : pour l’antériorité au passé on emploie წინააღმდეგობის წარსული კომპლექსი «დაწყებული იყო» (participe passé + ყოფნის წარსული). Distracteurs : 2) «დაწყებული იქნება» futur dans le passé — incorrect ; 3) «დაწყდება» futur simple ; 4) «დაწყებულიყო» est შერჩევითი ფორმა du plus‑que‑parfait mais non standard ici (subjonctif/cond.), la forme correcte et la plus naturelle est «დაწყებული იყო»."
+    },
+    {
+      "id": "grammar_exercises-b2-correction-gen-010",
+      "category": "correction",
+      "cefr": "B2",
+      "version": 10,
+      "prompt": "Corrigez : « თუ მე უფრო ადრე ვიწყებდ, დავასრულებდი სამუშაოს დროზე. » (Vous voulez dire « Si j’avais commencé plus tôt, j’aurais fini le travail à temps. »)",
+      "options": [
+        "თუ მე უფრო ადრე მეწყებოდა, დავასრულებდი სამუშაოს დროზე.",
+        "თუ მე უფრო ადრე დავიწყებდი, დავასრულებდი სამუშაოს დროზე.",
+        "თუ მე უფრო ადრე დავიწყე, დავასრულებდი სამუშაოს დროზე.",
+        "თუ მე უფრო ადრე ვიწყებდი, დავასრულებდი სამუშაოს დროზე."
+      ],
+      "answer": "თუ მე უფრო ადრე დავიწყებდი, დავასრულებდი სამუშაოს დროზე.",
+      "explanation": "Règle : conditionnel irréel passé se forme par subordonnée թ (წარსულის კონდიციური) «დავიწყებდი» et principale «დავასრულებდი». Distracteurs : 1) «მეწყებოდა» forme mediopassive non adaptée; 3) «დავიწყე» (passé simple) ne convient pas pour irréel conditionnel ; 4) «ვიწყებდი» (imparfait) sans წინასწარი დამხმარე არ იძლევა თანხვედრას required avec «დავასრულებდი» — la forme standard est «დავიწყებდი»."
+    }
+  ]
+}

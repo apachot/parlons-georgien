@@ -1,0 +1,1480 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "elearning_lessons-c2-gen-001",
+      "title": "Nuances modales et hypotaxie avancée en géorgien",
+      "level": "CECRL C2",
+      "cefr": "C2",
+      "version": 1,
+      "tag": "grammaire avancée",
+      "icon": "🔁",
+      "goal": "Comprendre et produire des phrases complexes exprimant modalité, hypothèse et atténuation en géorgien contemporain.",
+      "slides": [
+        {
+          "eyebrow": "Rappel",
+          "title": "Modalité et particules modales",
+          "body": "Présentons les particules modales courantes (შეგიძლიათ, იქნებოდა, ხომ არ) et leur rôle pour atténuer, conjecturer ou exprimer permission/possibilité.",
+          "examples": [
+            {
+              "ka": "შეგიძლიათ მომერიდოთ?",
+              "fr": "Pourriez-vous me déranger ? / Pouvez-vous m'éviter ?",
+              "note": "atténuation polie"
+            },
+            {
+              "ka": "დიდი ალბათობით ის წავიდა.",
+              "fr": "Très probablement, il est parti.",
+              "note": "conjecture forte"
+            },
+            {
+              "ka": "ხომ არ დაგავიწყდა შეხვედრა?",
+              "fr": "Tu n'aurais pas oublié la réunion, par hasard ?",
+              "note": "question atténuée"
+            }
+          ],
+          "takeaway": "Les particules modales modifient le degré de certitude ou de politesse ; leur position est généralement en début ou avant le verbe."
+        },
+        {
+          "eyebrow": "Approfondissement",
+          "title": "Constructions hypothétiques complexes",
+          "body": "Étudions les structures de condition irréelle et leurs variations temporelles (თუ მიცემულიყო, რომ ჰქონდა, რომ დაემართა).",
+          "examples": [
+            {
+              "ka": "თუ დათო სახლში მიგვიანებოდა, იქნებოდა დრო მომზადებისთვის.",
+              "fr": "Si Dato était arrivé en retard chez nous, il y aurait eu du temps pour se préparer.",
+              "note": "condition irréelle au passé"
+            },
+            {
+              "ka": "თუ ვიცი, გეტყვი.",
+              "fr": "Si je sais, je te dirai.",
+              "note": "condition réaliste au futur/imparfait selon le contexte"
+            },
+            {
+              "ka": "თუ იგი ამბობდა სიმართლეს, საქმე სხვაგვარად resolved იქნებოდა.",
+              "fr": "Si elle avait dit la vérité, l'affaire se serait résolue différemment.",
+              "note": "condition contrefactuelle passée"
+            }
+          ],
+          "takeaway": "En géorgien, l'expression de l'irréel combine formes verbales spécifiques et particules; repérez le temps et la modalité pour interpréter la condition."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Atténuation et diplomatie linguistique",
+          "body": "Travail sur des reformulations polies : transformer des affirmations catégoriques en propositions atténuées grâce à particules et tournures verbales.",
+          "examples": [
+            {
+              "ka": "არ შემიძლია დაგეთანხმო.",
+              "fr": "Je ne peux pas être d'accord avec toi.",
+              "note": "refus direct"
+            },
+            {
+              "ka": "მეტ-ნაკლებად დავხვდებოდი შეცდომას ამაში.",
+              "fr": "Je rencontrerais une erreur à ce sujet, plus ou moins.",
+              "note": "atténuation de responsabilité"
+            },
+            {
+              "ka": "შესაძლოა, სხვა ახსნა არსებობდეს.",
+              "fr": "Il se peut qu'il y ait une autre explication.",
+              "note": "conjecture polie"
+            }
+          ],
+          "takeaway": "Pour adoucir une critique ou un désaccord, combinez particules modales et verbes au conditionnel/optatif."
+        },
+        {
+          "eyebrow": "Consolidation",
+          "title": "Production contrôlée et synthèse",
+          "body": "Écrire un passage argumentatif court (8–12 lignes) en intégrant au moins trois particules modales et une structure conditionnelle irréelle.",
+          "examples": [
+            {
+              "ka": "თუკი მეტ ყურადღებას მივაქცევდი, უკეთ გავმართავდი პროექტს. თუმცა, შესაძლოა, რესურსები არ ყოფილიყო საკმარისი.",
+              "fr": "Si j'avais accordé plus d'attention, j'aurais mieux géré le projet. Cependant, il se peut que les ressources n'aient pas été suffisantes.",
+              "note": "exemple synthétique avec condition irréelle et conjecture"
+            },
+            {
+              "ka": "შეგიძლიათ გამითვალისწინოთ სხვა ვარიანტი, რათა პრობლემა უკეთ მოგვარდეს.",
+              "fr": "Vous pouvez envisager une autre option afin de résoudre mieux le problème.",
+              "note": "demande polie avec particule modale"
+            }
+          ],
+          "takeaway": "Combiner particules modales et structures conditionnelles permet d'exprimer nuancés argumentatifs et diplomatiques."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle phrase illustre une condition irréelle au passé ?",
+              "options": [
+                "შეგიძლიათ მომერიდოთ?",
+                "დიდი ალბათობით ის წავიდა.",
+                "თუ იგი ამბობდა სიმართლეს, საქმე სხვაგვარად resolved იქნებოდა.",
+                "თუ ვიცი, გეტყვი."
+              ],
+              "answer": "თუ იგი ამბობდა სიმართლეს, საქმე სხვაგვარად resolved იქნებოდა.",
+              "explanation": "Cette phrase utilise une construction contrefactuelle (« თუ ... იქნებოდა ») indiquant l'irréel au passé."
+            },
+            {
+              "prompt": "Quelle particule est principalement utilisée pour atténuer une question en géorgien ?",
+              "options": [
+                "რა",
+                "ხომ არ",
+                "თუ",
+                "კი"
+              ],
+              "answer": "ხომ არ",
+              "explanation": "« ხომ არ » sert à formuler des questions atténuées ou suggérant une hypothèse."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans l'exercice de production, quel élément n'est PAS requis selon la consigne ?",
+              "options": [
+                "Intégrer trois particules modales",
+                "Utiliser une condition irréelle",
+                "Écrire 8–12 lignes",
+                "Employer exclusivement des temps du présent"
+              ],
+              "answer": "Employer exclusivement des temps du présent",
+              "explanation": "La consigne demande d'utiliser des particules modales et une condition irréelle, pas de rester au présent."
+            },
+            {
+              "prompt": "Quel est le rôle principal des particules modales tels que 'შესაძლოა' et 'შეგიძლიათ' ?",
+              "options": [
+                "Exprimer la négation catégorique",
+                "Marquer l’aspect accompli",
+                "Atténuer ou exprimer possibilité/permission",
+                "Former le futur composé"
+              ],
+              "answer": "Atténuer ou exprimer possibilité/permission",
+              "explanation": "Ces particules servent à atténuer une assertion ou à indiquer possibilité/permission."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c2-gen-002",
+      "title": "Cohérence discursive : connecteurs argumentatifs et leurs effets pragmatiques",
+      "level": "CECRL C2",
+      "cefr": "C2",
+      "version": 2,
+      "tag": "discours & rhétorique",
+      "icon": "🧭",
+      "goal": "Maîtriser les connecteurs avancés (cause, concession, but, conséquence) et choisir l'effet pragmatique adapté en géorgien écrit et oral formel.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Taxonomie des connecteurs",
+          "body": "Classifier les connecteurs selon leur fonction : cause (იმიტომ რომ), conséquence (ამიტომ), concession (თუნდაც/თუმცა), but (რომ).",
+          "examples": [
+            {
+              "ka": "იმიტომ რომ ვარჯიშია სერიოზული, შედეგიც შესაბამისია.",
+              "fr": "Parce que l'exercice est sérieux, le résultat est en conséquence.",
+              "note": "cause → conséquence"
+            },
+            {
+              "ka": "თუმცა მისი არგუმენტი სუსტი იყო, აუდიტორიამ მოუსმინა.",
+              "fr": "Cependant son argument était faible, l'auditoire l'a écouté.",
+              "note": "concession"
+            },
+            {
+              "ka": "ის ეცდილებოდა, რომ პროექტი ადრე დაეწერა.",
+              "fr": "Il/elle s'efforçait pour terminer le projet plus tôt.",
+              "note": "but (რომ)"
+            }
+          ],
+          "takeaway": "Choisir correctement le connecteur modifie le lien logique et l'attente du récepteur."
+        },
+        {
+          "eyebrow": "Nuances",
+          "title": "Concession et atténuation rhétorique",
+          "body": "Différencier თუნდაც, თუმცა, მიუხედავად იმისა, რომ et მათი ფუნქციები pour nuancer la concession et l'opposition.",
+          "examples": [
+            {
+              "ka": "თუნდაც ის მართალი იყოს, ეს არ ნიშნავს, რომ ყველაფერი მის მიერ თქმული უნდა იყოს მიღებული.",
+              "fr": "Même s'il/elle a raison, cela ne signifie pas que tout ce qu'il/elle dit doit être accepté.",
+              "note": "თუნდაც marque concession forte"
+            },
+            {
+              "ka": " მიუხედავად იმისა, რომ პრობლემები გრძელდება, პროგრესი არის.",
+              "fr": "Bien que les problèmes persistent, il y a du progrès.",
+              "note": "formulation plus formelle de concession"
+            },
+            {
+              "ka": "თუმცა დასკვნა სწრაფად ვერ გამოიტანება.",
+              "fr": "Cependant, on ne peut pas tirer de conclusion rapidement.",
+              "note": "თუმცა = toutefois"
+            }
+          ],
+          "takeaway": "La force de la concession varie : choisir le mot adéquat selon l’intensité souhaitée."
+        },
+        {
+          "eyebrow": "Application",
+          "title": "Restructurer un argument",
+          "body": "Exercice : prendre un paragraphe catégorique et le réécrire en intégrant au moins deux types de connecteurs pour clarifier relations causales et concessions.",
+          "examples": [
+            {
+              "ka": "პარაგრაფი: ეს ახალი მეთოდი შეცვლის საქმის entire პოზიციას. -> მოდიფიცირებული: მიუხედავად იმისა, რომ ახალი მეთოდი ეფექტიანი ჩანს, დამატებითი შემოწმება საჭიროა, რადგან შედეგები ჯერაც გაურკვეველია.",
+              "fr": "Exemple de réécriture avec concession et cause.",
+              "note": "intègre concession + cause"
+            },
+            {
+              "ka": "ამერიკული: კომპლექსური მოსაზრება საჭიროებს თანმიმდევრულობის ხაზს.",
+              "fr": "Remarque : logique et cohérence textuelle favorisent persuasivité.",
+              "note": "commentaire didactique"
+            }
+          ],
+          "takeaway": "Alterner connecteurs permet d'équilibrer persuasion et prudence argumentative."
+        },
+        {
+          "eyebrow": "Production",
+          "title": "Discours persuasif en contexte professionnel",
+          "body": "Rédiger une conclusion persuasive (6–8 phrases) pour un rapport technique en utilisant cause, conséquence, concession et but — variez les connecteurs pour montrer contrôle stylistique.",
+          "examples": [
+            {
+              "ka": "ამ დასკვნაში უნდა ხაზგასმული იყოს, მიუხედავად იმისა, რომ სახიფათო ფაქტორები არსებობს, სწორი პროტოკოლით უარყოფითი შედეგები შეიძლება შემცირდეს.",
+              "fr": "Dans cette conclusion, il faut souligner que, malgré les facteurs risqués, avec un bon protocole les effets négatifs peuvent être réduits.",
+              "note": "exemple combinant concession et conséquence"
+            },
+            {
+              "ka": "შემდეგი ნაბიჯი უნდა იყოს მკაფიოდ განსაზღვრული, რათა მიზანი რეალურად შესრულდეს.",
+              "fr": "L'étape suivante doit être clairement définie afin que l'objectif soit réellement atteint.",
+              "note": "but + conséquence attendue"
+            }
+          ],
+          "takeaway": "La maîtrise des connecteurs renforce la crédibilité et la clarté d'un discours professionnel."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel connecteur georgien convient le mieux pour introduire une concession atténuée et formelle ?",
+              "options": [
+                "იმიტომ რომ",
+                "თუნდაც",
+                "მიუხედავად იმისა, რომ",
+                "ამისთვის"
+              ],
+              "answer": "მიუხედავად იმისა, რომ",
+              "explanation": "« მიუხედავად იმისა, რომ » est une tournure formelle souvent utilisée pour introduire une concession atténuée."
+            },
+            {
+              "prompt": "Lequel exprime explicitement la conséquence ?",
+              "options": [
+                "იმიტომ",
+                "თუმცა",
+                "თუნდაც",
+                "რომ"
+              ],
+              "answer": "იმიტომ",
+              "explanation": "« ამიტომ » signifie « par conséquent / c'est pourquoi », marquant la conséquence."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans la consigne de production, quel élément est demandé ?",
+              "options": [
+                "Écrire une introduction personnelle",
+                "Rédiger une conclusion persuasive",
+                "Traduire un texte du français",
+                "Écrire une narration fictive"
+              ],
+              "answer": "Rédiger une conclusion persuasive",
+              "explanation": "La consigne demande de rédiger une conclusion persuasive pour un rapport technique."
+            },
+            {
+              "prompt": "Quel couple de connecteurs serait le mieux pour combiner concession et but ?",
+              "options": [
+                "თუმცა + იმიტომ რომ",
+                "მიუხედავად იმისა, რომ + რათა",
+                "იმისთვის + თუმცა",
+                "თუ + ამიტომ"
+              ],
+              "answer": "მიუხედავად იმისა, რომ + რათა",
+              "explanation": "« მიუხედავად იმისა, რომ » introduit une concession formelle ; « რათა » (synonyme de რომ) indique le but."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c2-gen-003",
+      "title": "Nominalisation avancée et économie de l'énoncé",
+      "level": "CECRL C2",
+      "cefr": "C2",
+      "version": 3,
+      "tag": "style & syntaxe",
+      "icon": "✂️",
+      "goal": "Apprendre à nominaliser pour produire des rapports concis et stylistiquement adaptés au registre professionnel en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Concept",
+          "title": "Pourquoi nominaliser ?",
+          "body": "La nominalisation permet de condenser l'information, focaliser sur les processus et créer un ton formel. En géorgien, on utilise suffixes et tournures (ება, უშუალობა, დაკლება) et des constructions participiales.",
+          "examples": [
+            {
+              "ka": "გადაწყვეტილების მიღება.",
+              "fr": "La prise de décision.",
+              "note": "infinitif substantivé"
+            },
+            {
+              "ka": "დაკლება ხარჯების.",
+              "fr": "La réduction des coûts.",
+              "note": "nominalisation procédurale"
+            },
+            {
+              "ka": "his საქმიანობა — საქმიანობის უწყვეტობა.",
+              "fr": "continuité de son activité (exemple composé).",
+              "note": "exemple de nominalisation composée"
+            }
+          ],
+          "takeaway": "Les nominalisations structurent le texte professionnel et augmentent la densité informative."
+        },
+        {
+          "eyebrow": "Formes",
+          "title": "Suffixes productifs et participes",
+          "body": "Étudions les suffixes -ება, -ობა, -ობა-სა და participe construit avec -ლი/-ებული pour transformer verbes en noms et adjectifs verbaux.",
+          "examples": [
+            {
+              "ka": "გისურვებ-ბა -> სურვილის არსებობა (სურვილის არსებობა)",
+              "fr": "souhait -> existence d'un souhait (reformulation nominalisante)",
+              "note": "illustration morphologique"
+            },
+            {
+              "ka": "დაძალებული ადამიანი -> ადამიანი, რომელსაც დატვირთვა ჰქონდა.",
+              "fr": "personne forcée -> personne qui avait une contrainte.",
+              "note": "participe adjectival -ებული"
+            },
+            {
+              "ka": "ინიციატივის აღება -> ინიციატივის აღება (სუფიქსით)",
+              "fr": "prendre l'initiative -> nominalisation directe",
+              "note": "-ება courant"
+            }
+          ],
+          "takeaway": "Repérer et utiliser ces affixes permet de créer un style administratif et dense."
+        },
+        {
+          "eyebrow": "Transformation",
+          "title": "Transformer phrases en titres et résumés",
+          "body": "Exercice pratique : convertir trois phrases complètes en titres ou énoncés nominaux sans perte d'information essentielle.",
+          "examples": [
+            {
+              "ka": "ჩვენ ვატარებთ სცენარებს, რათა დავწინაუროთ შედეგი. -> სცენარების ჩატარება შედეგის დასაწინაურებლად.",
+              "fr": "Nous menons des scénarios pour prioriser le résultat. -> Conduite de scénarios pour prioriser le résultat.",
+              "note": "phrase -> nominalisation"
+            },
+            {
+              "ka": "სააგენტომ შეაფასა რისკები და შემოიღო ზომები. -> რისკების შეფასება და ზომების მიღება.",
+              "fr": "L'agence a évalué les risques et pris des mesures. -> Évaluation des risques et prise de mesures.",
+              "note": "coordination nominale"
+            }
+          ],
+          "takeaway": "Les titres et résumés gagnent en clarté via nominalisation; attention à la lisibilité."
+        },
+        {
+          "eyebrow": "Style et lisibilité",
+          "title": "Équilibre entre densité et clarté",
+          "body": "Discuter des dangers de l'abus de nominalisation (obscurité, lourdeur) et stratégies pour rester lisible : ponctuer, varier constructions, expliciter agents.",
+          "examples": [
+            {
+              "ka": "ჟურნალში შემცირება სახიფათოა -> თუ ძალიან ბევრნიშნის შემცირება, ტექსტი გახდება არასპষ্টი.",
+              "fr": "La suppression excessive dans un article est dangereuse -> trop de nominalisation rend le texte imprécis.",
+              "note": "mettre en garde contre l'accumulation"
+            },
+            {
+              "ka": "ვფიქრობ, რომ უნდა დავნიშნოთ პასუხისმგებელი პირები.",
+              "fr": "Je pense qu'il faut désigner des responsables.",
+              "note": "préférence pour clarté agentive quand nécessaire"
+            }
+          ],
+          "takeaway": "Nominaliser avec discernement : viser densité informative sans sacrifier la compréhension."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel suffixe géorgien est le plus courant pour former des noms d'action ?",
+              "options": [
+                "-ა",
+                "-ება",
+                "-მა",
+                "-ითი"
+              ],
+              "answer": "-ება",
+              "explanation": "Le suffixe -ება forme fréquemment des noms d'action (ex. მიღება, დაწევა)."
+            },
+            {
+              "prompt": "Quel participe adjectival est correct pour 'forcé' ?",
+              "options": [
+                "დაძალებული",
+                "დაძალებულიი",
+                "დაჯალებული",
+                "დაძალება"
+              ],
+              "answer": "დაძალებული",
+              "explanation": "« დაძალებული » est la forme adjectivale correcte dérivée du verbe 'forcer'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quel risque est associé à l'abus de nominalisation selon la leçon ?",
+              "options": [
+                "Augmentation de la longueur des phrases uniquement",
+                "Obscurité et lourdeur du texte",
+                "Réduction du vocabulaire",
+                "Perte de la grammaire"
+              ],
+              "answer": "Obscurité et lourdeur du texte",
+              "explanation": "L'abus de nominalisation peut rendre le texte obscur et lourd, affectant la lisibilité."
+            },
+            {
+              "prompt": "Quelle stratégie permet d'améliorer la lisibilité après nominalisation ?",
+              "options": [
+                "Supprimer tous les verbes",
+                "Préciser les agents et varier les constructions",
+                "Augmenter l'usage des suffixes",
+                "Écrire uniquement des titres"
+              ],
+              "answer": "Préciser les agents et varier les constructions",
+              "explanation": "Préciser qui fait quoi et varier structures garde la clarté malgré la nominalisation."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c2-gen-004",
+      "title": "Registres et stratégies d'atténuation : parler sans offenser",
+      "level": "CECRL C2",
+      "cefr": "C2",
+      "version": 4,
+      "tag": "pragmatique & sociolinguistique",
+      "icon": "🗣️",
+      "goal": "Savoir choisir le registre et employer stratégies linguistiques pour atténuer critiques, rejets ou désaccords en géorgien formel et informel.",
+      "slides": [
+        {
+          "eyebrow": "Cadre",
+          "title": "Registre et contexte",
+          "body": "Comparer registres : familier, neutre, formel. Repérer indices morphosyntaxiques et lexicaux (thèmes, particules, pronoms, formes verbales).",
+          "examples": [
+            {
+              "ka": "მათე, მოდი აქ!",
+              "fr": "Mate, viens ici !",
+              "note": "familier, usage du prénom sans marque de politesse"
+            },
+            {
+              "ka": "გთხოვთ, მოდით გაიარეთ კაბინეტში.",
+              "fr": "Veuillez entrer dans le bureau.",
+              "note": "formel, impératif poli avec გთხოვთ"
+            },
+            {
+              "ka": "ვინ შეძლებს დახმარებას?",
+              "fr": "Qui pourra aider ?",
+              "note": "neutre/question générale"
+            }
+          ],
+          "takeaway": "Adapter le registre au locuteur et au contexte évite malentendus et offense."
+        },
+        {
+          "eyebrow": "Atténuation",
+          "title": "Formules d'atténuation et mitigateurs",
+          "body": "Présenter formules types : დამეთანხმებით თუ არ ვცდები, იქნებ უფრო სწორი გამოსავალი იყოს, შეიძლება მათ შორის განხილვა გამოგვადგეს.",
+          "examples": [
+            {
+              "ka": "დამეთანხმებით, თუ არ ვცდები, რომ ეს გზა რისკიანია.",
+              "fr": "Vous conviendrez, si je ne me trompe, que cette voie est risquée.",
+              "note": "atténuation par réserve personnelle"
+            },
+            {
+              "ka": "ვფიქრობ, შეიძლება განვიხილოთ სხვა ვარიანტი.",
+              "fr": "Je pense que nous pourrions considérer une autre option.",
+              "note": "mitigateur « შეიძლება » pour proposer doucement"
+            },
+            {
+              "ka": "თუ არ იქნებით წინააღმდეგი, დაპირებულ დროს გადავწევ.",
+              "fr": "Si vous n'êtes pas contre, je repousse à la date convenue.",
+              "note": "demande polie conditionnelle"
+            }
+          ],
+          "takeaway": "Les mitigateurs réduisent la force d'une assertion et facilitent l'acceptation du message."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Reformulation critique sans agression",
+          "body": "Transformer critiques directes en critiques constructives via restructuration, questionnement et proposition d'alternatives.",
+          "examples": [
+            {
+              "ka": "გთხოვთ ნუ აკეთებთ ეს ასე. -> იქნებ ვილაპარაკოთ ალტერნატივებზე, რადგან ასე პრობლემები წარმოიქმნება?",
+              "fr": "S'il vous plaît, ne faites pas ça ainsi. -> Ne pourrions-nous pas parler d'alternatives, car ainsi des problèmes apparaissent ?",
+              "note": "exemple de transformation"
+            },
+            {
+              "ka": "ეს კანონი გაუმართლებელია. -> ეს კანონი შესაძლოა გაუმკლავდეს გამოწვევებს, მაგრამ უფრო ეფექტიანი რომ შემუშავდეს, დასჭირდება ცვლილებები.",
+              "fr": "Cette loi est injustifiée. -> Cette loi pourrait répondre aux défis, mais pour être plus efficace, elle nécessiterait des changements.",
+              "note": "critique adoucie"
+            }
+          ],
+          "takeaway": "Présenter critique + alternative augmente la probabilité d'acceptation."
+        },
+        {
+          "eyebrow": "Jeu de rôle",
+          "title": "Simulation formelle : réunion de comité",
+          "body": "Tâche : en binômes, un participant exprime une objection forte ; l'autre doit répondre en atténuant et en proposant une solution, sans abandonner le point essentiel.",
+          "examples": [
+            {
+              "ka": "ობიექტორი: ეს ქუჩა სახიფათოა, გავლა უნდა დაიკეტოს.",
+              "fr": "Objection : cette rue est dangereuse, il faut la fermer.",
+              "note": "position forte"
+            },
+            {
+              "ka": "პასუხი: ვაცნობიერებთ საფრთხეს; შესაძლოა დროებითი რიგგარეშე ზომები მიიღოთ, სანამ სრულ განვითარების გეგმა შესრულდება.",
+              "fr": "Réponse : nous sommes conscients du danger ; peut-être prendre des mesures temporaires d'urgence jusqu'à l'exécution d'un plan complet.",
+              "note": "atténuation + proposition concrète"
+            }
+          ],
+          "takeaway": "L'atténuation réussie combine empathie, reconnaissance du problème et alternatives faisables."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle expression convient pour adoucir une assertion personnelle ?",
+              "options": [
+                "დარწმუნებული ვარ",
+                "დამეთანხმებით თუ არ ვცდები",
+                "დასაჭერია",
+                "გაუმჯობესდება"
+              ],
+              "answer": "დამეთანხმებით თუ არ ვცდები",
+              "explanation": "Cette expression introduit une réserve personnelle et atténue l'assertion."
+            },
+            {
+              "prompt": "Quel mot sert de mitigateur indiquant possibilité ?",
+              "options": [
+                "უნდა",
+                "რა",
+                "შეიძლება (ვწუხოთ)",
+                "შესაძლოა"
+              ],
+              "answer": "შესაძლოა",
+              "explanation": "« შესაძლებელია »/« შესაძლოა » expriment la possibilité et atténuent l'énoncé."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans la simulation, quelle stratégie n'appartient PAS à l'atténuation ?",
+              "options": [
+                "Reconnaissance du problème",
+                "Proposition d'une mesure intérimaire",
+                "Ignorer la critique et changer de sujet",
+                "Formuler une alternative concrète"
+              ],
+              "answer": "Ignorer la critique et changer de sujet",
+              "explanation": "Ignorer la critique n'est pas une stratégie d'atténuation constructive."
+            },
+            {
+              "prompt": "Quelle formulation montre empathie dans la réponse modèle ?",
+              "options": [
+                "ვაცნობიერებთ საფრთხეს",
+                "ეს თქვენი პრობლემა არაა",
+                "შეგვიძლია დაელოდოთ",
+                "არ აღვიქვამთ"
+              ],
+              "answer": "ვაცნობიერებთ საფრთხეს",
+              "explanation": "« ვაცნობიერებთ საფრთხეს » montre la prise en compte du souci et crée de l'empathie."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c2-gen-005",
+      "title": "Expressions idiomatiques avancées et néologie contemporaine",
+      "level": "CECRL C2",
+      "cefr": "C2",
+      "version": 5,
+      "tag": "lexique avancé",
+      "icon": "💡",
+      "goal": "Reconnaître, comprendre et utiliser des idiomes contemporains et néologismes en géorgien des médias et du web.",
+      "slides": [
+        {
+          "eyebrow": "Contexte",
+          "title": "Idiomes fréquents dans les médias",
+          "body": "Présentons idiomes courants et leur sens figuré (გამოდის, როგორც ჭალა; ხელში გვჭირდება), et comment ils opèrent pragmatiquement.",
+          "examples": [
+            {
+              "ka": "ეს ყველაფერი გამოდის ისე, როგორც ჭალა.",
+              "fr": "Tout cela se passe comme prévu / comme sur des rails.",
+              "note": "signale conformité aux attentes"
+            },
+            {
+              "ka": "ამისთვის ხელში გვჭირდება მეტი რესურსი.",
+              "fr": "Pour cela, nous avons besoin de plus de ressources.",
+              "note": "expression utilitaire, pas idiomatique forte"
+            }
+          ],
+          "takeaway": "Les idiomes condensent culture et contexte ; leur usage nécessite une bonne connaissance pragmatique."
+        },
+        {
+          "eyebrow": "Néologie",
+          "title": "Formation de néologismes et anglicismes",
+          "body": "Analyser mécanismes : emprunts (სტარტაპი), calques, dérivations (დიჯიტალიზაცია) et adaptations phonologiques/orthographiques.",
+          "examples": [
+            {
+              "ka": "სტარტაპები თბილისში სწრაფად იზრდებიან.",
+              "fr": "Les startups croissent rapidement à Tbilissi.",
+              "note": "emprunt direct de 'startup' adapté"
+            },
+            {
+              "ka": "დიჯიტალიზაცია მეტად ყოფილა საჭირო სექტორში.",
+              "fr": "La numérisation a été très nécessaire dans le secteur.",
+              "note": "néologisme formé sur base anglaise/latine"
+            }
+          ],
+          "takeaway": "Les néologismes reflètent changements technologiques et socioculturels ; noter leur degré d'intégration."
+        },
+        {
+          "eyebrow": "Sens et usage",
+          "title": "Identifier registres et acceptabilité",
+          "body": "Classer idiomes et néologismes selon acceptabilité formelle : média, registre familier, milieu professionnel. Évaluer quand éviter un mot nouveau.",
+          "examples": [
+            {
+              "ka": "ფეისბუქზე კომენტარები უფრო აგრესიულია, ვიდრე მსხვილ გამოცემაში.",
+              "fr": "Les commentaires sur Facebook sont plus agressifs que dans un grand média.",
+              "note": "registre informel vs formel"
+            },
+            {
+              "ka": "კორპორატიულ ანგარიშში 'სტარტაპი' შეიძლება ჩანაცვლდეს 'ახალ ინტერნაციონალური საწარმოთი'.",
+              "fr": "Dans un rapport corporatif, 'startup' peut être remplacé par 'nouvelle entreprise internationale'.",
+              "note": "préserver le registre"
+            }
+          ],
+          "takeaway": "Choisir un néologisme dépend du public : en cas de doute, fournir définition ou équivalent formel."
+        },
+        {
+          "eyebrow": "Production",
+          "title": "Intégrer idiomes et néologismes avec précision",
+          "body": "Tâche : rédiger un court article (120–160 mots) sur la transformation numérique d'une entreprise, en utilisant au moins deux néologismes et un idiome, en précisant brièvement tout néologisme peu courant.",
+          "examples": [
+            {
+              "ka": "სწრაფი ტექსტი: კომპანია დიჯიტალიზაციის პროცესში გადადის და სტარტაპური მენტალობით ცდილობს ინოვაციების შეთავაზებას. მიუხედავად ამისა, საჭირო იქნება მეტი რესურსი და სტრატეგია, რათა ყველაფერი 'ჭალად' გამოდგეს.",
+              "fr": "Exemple synthétique incluant d'intégration de néologismes et idiome.",
+              "note": "doit inclure définition si néologisme peu courant"
+            }
+          ],
+          "takeaway": "L'usage responsable de néologismes inclut contextualisation et explication pour un public formel."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot est un emprunt récent de l'anglais couramment utilisé en géorgien ?",
+              "options": [
+                "დიჯიტალიზაცია",
+                "მზადება",
+                "სტარტაპი",
+                "დაგროვება"
+              ],
+              "answer": "სტარტაპი",
+              "explanation": "« სტარტაპი » est un emprunt direct de l’anglais 'startup' intégré au géorgien."
+            },
+            {
+              "prompt": "Quelle stratégie est recommandée en cas d'emploi d'un néologisme peu courant dans un texte formel ?",
+              "options": [
+                "Laisser sans explication",
+                "Fournir une brève définition ou équivalent formel",
+                "Remplacer toujours par un mot géorgien vieux",
+                "Éviter complètement toute innovation lexicale"
+              ],
+              "answer": "Fournir une brève définition ou équivalent formel",
+              "explanation": "Il est conseillé d'expliquer ou de donner un équivalent pour garantir la compréhension."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "La consigne de production exige d'utiliser au moins combien de néologismes ?",
+              "options": [
+                "Zéro",
+                "Un",
+                "Deux",
+                "Cinq"
+              ],
+              "answer": "Deux",
+              "explanation": "La consigne demande l'utilisation d'au moins deux néologismes et un idiome."
+            },
+            {
+              "prompt": "Quel élément doit accompagner tout néologisme peu courant selon la leçon ?",
+              "options": [
+                "Un synonyme français",
+                "Une explication brève",
+                "Une illustration graphique",
+                "Un lien web"
+              ],
+              "answer": "Une explication brève",
+              "explanation": "La leçon recommande de préciser brièvement tout néologisme peu courant pour le public."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c2-gen-006",
+      "title": "Connecteurs discursifs avancés et variations d'usage",
+      "level": "C2",
+      "version": 6,
+      "tag": "discourse",
+      "icon": "link",
+      "goal": "Maîtriser l'usage précis des connecteurs discursifs géorgiens avancés pour structurer un exposé, nuancer des arguments et signaler des digressions.",
+      "slides": [
+        {
+          "eyebrow": "Révision rapide",
+          "title": "Fonctions fondamentales des connecteurs",
+          "body": "Rappel des fonctions: addition, opposition, cause, conséquence, concession, et transition. Nous distinguons connecteurs syntagmatiques (enchaînement lisse) et markers pragmatiques (marquage d'attitude).",
+          "examples": [
+            {
+              "ka": "და",
+              "fr": "et",
+              "note": "addition simple, très fréquent"
+            },
+            {
+              "ka": "მაგრამ",
+              "fr": "mais",
+              "note": "opposition directe"
+            }
+          ],
+          "takeaway": "Les connecteurs remplissent des rôles sémantiques et pragmatiques; leur choix affecte le ton et la cohérence du discours."
+        },
+        {
+          "eyebrow": "Nuance",
+          "title": "Concession et atténuation",
+          "body": "Étudions des formes qui expriment la concession (admettons un fait mais introduisons une réserve) et celles qui atténuent l'assertion. Différences entre 'თუმცა', 'მიუხედავად ამისა', 'ყოვლად რომ ვთქვათ' et 'უბრალოდ' en usages formels/informels.",
+          "examples": [
+            {
+              "ka": "თუმცა კვლევებმა განსხვავებული შედეგები აჩვენა",
+              "fr": "Cependant, les études ont montré des résultats différents",
+              "note": "თუმცა : concession formelle fréquente dans l'écrit"
+            },
+            {
+              "ka": "მიუხედავად ამისა, ფაქტები ცალსახად მიუთითებს...",
+              "fr": "Néanmoins, les faits indiquent clairement...",
+              "note": "მიუხედავად ამისა : marqueur plus emphatique"
+            },
+            {
+              "ka": "ყოვლად რომ ვთქვათ, ეს ცოტა წინდახედული არ არის",
+              "fr": "Pour être tout à fait franc, ce n'est pas très prévoyant",
+              "note": "ყოვლად რომ ვთქვათ : style oral soutenu, atténuation subjective"
+            }
+          ],
+          "takeaway": "Choisir entre ces connecteurs change la force de la concession et le registre."
+        },
+        {
+          "eyebrow": "Technique",
+          "title": "Transition et digression contrôlée",
+          "body": "Connecteurs pour pivoter d'un argument à l'autre ou marquer une parenthèse: 'გარდა ამისა', 'რაც შეეხება', 'ასტრალურად' (ironique), 'სანამ' + participe. Voyons comment marquer une digression sans perdre le fil.",
+          "examples": [
+            {
+              "ka": "გარდა ამისა, უნდა გავიხილოთ საზოგადოებრივი მუხტი",
+              "fr": "De plus, il faut examiner la pression sociale",
+              "note": "გარდა ამისა : addition formelle"
+            },
+            {
+              "ka": "რაც შეეხება ეკონომიკას, იქ სიტუაცია სულ სხვაგვარია",
+              "fr": "Quant à l'économie, la situation est tout autre",
+              "note": "რაც შეეხება : recentrage sur un thème précis"
+            },
+            {
+              "ka": "სანამ დავამთავრებ, ერთი نکته მინდა შემთავაზო",
+              "fr": "Avant de conclure, je voudrais proposer un point",
+              "note": "სანამ ... : prépare une parenthèse ou action"
+            }
+          ],
+          "takeaway": "La transition contrôlée préserve la cohérence; préférez 'რაც შეეხება' pour recadrer, 'გარდა ამისა' pour ajouter."
+        },
+        {
+          "eyebrow": "Application",
+          "title": "Produire un paragraphe argumentatif cohérent",
+          "body": "Écrire un paragraphe de 6–8 phrases intégrant au moins trois connecteurs étudiés qui expriment addition, concession et transition. L'objectif est la fluidité et la précision stylistique.",
+          "examples": [
+            {
+              "ka": "პირველ რიგში, ახალმა პოლიტიკამ გაზარდა რესურსები; მიუხედავად ამისა, ეფექტი ჯერ ნაკლებად არის თვალსაჩინო. გაგზავნილი რეფორმები, რაც შეეხება ადმინისტრაციულ სტრუქტურებს, უფრო რთულია იმპლემენტაციაში. გარდა ამისა, აუცილებელია ადგილობრივი ინიციატივების ჩართვა.",
+              "fr": "Tout d'abord, la nouvelle politique a augmenté les ressources ; néanmoins, l'effet n'est pas encore visible. Les réformes envoyées, quant aux structures administratives, sont plus difficiles à mettre en œuvre. De plus, il est nécessaire d'impliquer les initiatives locales.",
+              "note": "Exemple montrant l'articulation des trois fonctions"
+            }
+          ],
+          "takeaway": "Intégrez choix lexical et connecteurs pour nuancer et structurer l'argumentation."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Parmi ces connecteurs, lequel exprime une concession emphatique étudiée dans la leçon ?",
+              "options": [
+                "და",
+                "მიუხედავად ამისა",
+                "გარდა ამისა",
+                "რაც შეეხება"
+              ],
+              "answer": "მიუხედავად ამისა",
+              "explanation": "მიუხედავად ამისა est présenté comme un marqueur emphatique de concession (néanmoins)."
+            },
+            {
+              "prompt": "Quel connecteur sert principalement à recentrer le discours sur un thème précis ?",
+              "options": [
+                "თუმცა",
+                "გარდა ამისა",
+                "რაც შეეხება",
+                "ყოვლად რომ ვთქვათ"
+              ],
+              "answer": "რაც შეეხება",
+              "explanation": "რის შესახებ 'რაც შეეხება' signifie 'quant à', utilisé pour recadrer sur un thème."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans l'exemple de paragraphe, quel connecteur marque une addition formelle ?",
+              "options": [
+                "პირველ რიგში",
+                "მიუხედავად ამისა",
+                "გარდა ამისა",
+                "რაც შეეხება"
+              ],
+              "answer": "გარდა ამისა",
+              "explanation": "გარდა ამისა est utilisé pour ajouter une information (de plus)."
+            },
+            {
+              "prompt": "Quelle stratégie doit-on privilégier pour maintenir la cohérence lors d'une digression ?",
+              "options": [
+                "Remplacer tous les connecteurs par 'და'",
+                "Utiliser 'გარდა ამისა' systématiquement",
+                "Marquer la parenthèse avec une structure claire ('სანამ', 'რაც შეეხება')",
+                "Éviter toute transition"
+              ],
+              "answer": "Marquer la parenthèse avec une structure claire ('სანამ', 'რაც შეეხება')",
+              "explanation": "La leçon recommande d'utiliser des marqueurs clairs pour digressions et recentrages, comme 'სანამ' ou 'რაც შეეხება'."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C2"
+    },
+    {
+      "id": "elearning_lessons-c2-gen-007",
+      "title": "Particules modales et traces d'évidentialité",
+      "level": "C2",
+      "version": 7,
+      "tag": "mood",
+      "icon": "speech",
+      "goal": "Percevoir et produire les nuances d'évidentialité et d'attitude exprimées par les particules modales (მაგ, ხომ, ხომ არა, ეტყობა, აშკარად) dans des contextes analytiques.",
+      "slides": [
+        {
+          "eyebrow": "Notion",
+          "title": "Evidentialité en géorgien : définitions",
+          "body": "Distinction entre certitude personnelle, inférence et rumeur. Les particules et adverbes étudiés indiquent la source de l'information ou l'attitude du locuteur (visualité, déduction, témoignage rapporté).",
+          "examples": [
+            {
+              "ka": "ეტყობა წარმატებულები იყვნენ",
+              "fr": "Il semble qu'ils aient réussi",
+              "note": "ეტყობა : inférence, faible certitude"
+            },
+            {
+              "ka": "მამაჩემმა თქვა, რომ იგია ფიქრობს",
+              "fr": "Mon père a dit qu'il pense",
+              "note": "reportage direct via verbe 'თქვა'"
+            }
+          ],
+          "takeaway": "Repérer la source de l'information change l'interprétation et la force de l'assertion."
+        },
+        {
+          "eyebrow": "Particules",
+          "title": "Comparaison : 'მგონი', 'ეტყობა', 'როგორც ჩანს'",
+          "body": "Tous expriment l'incertitude, mais diffèrent en degré et registre : 'მგონი' (oral, subjectif), 'ეტყობა' (neutre, inférentiel), 'როგორც ჩანს' (plus formel, souvent écrit).",
+          "examples": [
+            {
+              "ka": "მგონი დღეს არ მოვა",
+              "fr": "Je pense qu'il ne viendra pas aujourd'hui",
+              "note": "მგონი : subjectif, oral"
+            },
+            {
+              "ka": "როგორც ჩანს, მოთხოვნა გაიზარდა",
+              "fr": "Il semble que la demande a augmenté",
+              "note": "როგორც ჩანს : neutre/formel"
+            },
+            {
+              "ka": "ეტყობა, დაგვიანებული იქნება",
+              "fr": "Apparemment, il sera en retard",
+              "note": "ეტყობა : inférence basée sur indices"
+            }
+          ],
+          "takeaway": "Choisir la particule appropriée selon degré d'incertitude et registre."
+        },
+        {
+          "eyebrow": "Subtilités",
+          "title": "Emploi emphatique: 'ახლა ხომ', 'ხო' et 'არა' en modalisation",
+          "body": "Étudier comment 'ხო' confirme une attente, 'ხო არა' sert parfois à vérifier, 'ახლა ხომ' traduit surprise/rappel. L'intonation importe fortement pour l'interprétation.",
+          "examples": [
+            {
+              "ka": "ხო, მართალი ხარ",
+              "fr": "Oui, tu as raison",
+              "note": "ხო : confirmation"
+            },
+            {
+              "ka": "ახლა ხომ არ დაგავიწყდა?",
+              "fr": "Tu n'as pas oublié maintenant, n'est-ce pas ?",
+              "note": "ახლა ხომ : vérification surprise/rappel"
+            },
+            {
+              "ka": "ეს ხომ არ არის სწორად?",
+              "fr": "N'est-ce pas incorrect ?",
+              "note": "ხო არა/ხო ? : question de confirmation"
+            }
+          ],
+          "takeaway": "Les particules courtes modulent force assertive et aspect interactionnel ; l'intonation détermine la lecture."
+        },
+        {
+          "eyebrow": "Production guidée",
+          "title": "Reformulation et nuance",
+          "body": "Exercice : reformuler trois phrases factuelles en changeant la source d'information (observer, déduire, rapporter) en utilisant 'ვიხილე', 'ეტყობა', 'მითხრეს'. Comparez effets de sens.",
+          "examples": [
+            {
+              "ka": "ვნახე, რომ შეხვედრა გადაიდო.",
+              "fr": "J'ai vu que la réunion a été reportée.",
+              "note": "preuve visuelle (certitude élevée)"
+            },
+            {
+              "ka": "ეტყობა, შეხვედრა გადაიდო.",
+              "fr": "Il semble que la réunion a été reportée.",
+              "note": "inférence (incertitude)"
+            },
+            {
+              "ka": "მითხრეს, შეხვედრა გადაიდო.",
+              "fr": "On m'a dit que la réunion a été reportée.",
+              "note": "information rapportée (source extérieure)"
+            }
+          ],
+          "takeaway": "Varier la source d'information modifie la crédibilité et la manière dont le message est reçu."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Laquelle des particules suivantes est décrite comme la plus orale et subjective ?",
+              "options": [
+                "ეტყობა",
+                "მგონი",
+                "როგორც ჩანს",
+                "მითხრეს"
+              ],
+              "answer": "მგონი",
+              "explanation": "მგონი est signalé comme oral et subjectif, exprimant l'opinion du locuteur."
+            },
+            {
+              "prompt": "Quelle particule est associée à une inférence basée sur indices ?",
+              "options": [
+                "მგონი",
+                "როგორც ჩანს",
+                "ეტყობა",
+                "ვიხილე"
+              ],
+              "answer": "ეტყობა",
+              "explanation": "ეტყობა est présenté comme inférentiel, indiquant une conclusion tirée d'indices."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle reformulation correspond à une preuve visuelle assurant une certitude élevée ?",
+              "options": [
+                "მითხრეს, შეხვედრა გადაიდო.",
+                "ეტყობა, შეხვედრა გადაიდო.",
+                "ვნახე, რომ შეხვედრა გადაიდო.",
+                "მგონი შეხვედრა გადაიდო."
+              ],
+              "answer": "ვნახე, რომ შეხვედრა გადაიდო.",
+              "explanation": "ვნახე indique une observation directe (preuve visuelle) et donc une certitude élevée."
+            },
+            {
+              "prompt": "Si l'on veut rapporter une information venant d'une autre personne, quelle expression utiliser ?",
+              "options": [
+                "ეტყობა",
+                "ვიხილე",
+                "მითხრეს",
+                "მგონი"
+              ],
+              "answer": "მითხრეს",
+              "explanation": "მითხრეს signifie 'on m'a dit', indiquant une source externe (information rapportée)."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C2"
+    },
+    {
+      "id": "elearning_lessons-c2-gen-008",
+      "title": "Registre et nuances de politesse en géorgien contemporain",
+      "level": "C2",
+      "version": 8,
+      "tag": "politeness",
+      "icon": "bow",
+      "goal": "Savoir ajuster le registre (formel, neutre, familier) et les stratégies de politesse (diminutifs, euphémismes, tournures impersonnelles) dans des situations professionnelles et sociales.",
+      "slides": [
+        {
+          "eyebrow": "Cadre",
+          "title": "Registres et marqueurs principaux",
+          "body": "Identification des indices de registre : choix des pronoms (თქვენ vs შენ), formes verbales, expressions de déférence, tournures impersonnelles ('უნდა კეთდეს', 'თავისთავად'), et atténuateurs.",
+          "examples": [
+            {
+              "ka": "თქვენ შეგიძლიათ მომიყვეთ დეტალები?",
+              "fr": "Pouvez-vous me donner les détails ?",
+              "note": "vouvoiement formel (თქვენ)"
+            },
+            {
+              "ka": "შენ მაიც გამოგადგები თუ გჭირდება",
+              "fr": "Je peux aussi t'aider si tu as besoin",
+              "note": "tutoiement familier (შენ)"
+            }
+          ],
+          "takeaway": "Le pronom, la politesse verbale et les atténuations marquent clairement le registre."
+        },
+        {
+          "eyebrow": "Atténuation",
+          "title": "Formules d'atténuation et euphémismes",
+          "body": "Étudier 'ბევრად მარტივია' vs 'კარგად იქნებოდა', l'usage d'impératifs adoucis ('გთხოვთ, მოგვწეროთ'), et l'euphémisme pour refus ('ამჯერად ვერ შეგვიძლია').",
+          "examples": [
+            {
+              "ka": "გთხოვთ, მოგვაწოდოთ თქვენი CV",
+              "fr": "Veuillez nous fournir votre CV",
+              "note": "გთხოვთ : impératif poli"
+            },
+            {
+              "ka": "ამჯერად ვერ შეგვიძლია შემოგთავაზოთ პოზიცია",
+              "fr": "Pour le moment, nous ne pouvons pas vous proposer le poste",
+              "note": "euphémisme pour refus"
+            }
+          ],
+          "takeaway": "Les tournures adoucies permettent de refuser ou demander sans brusquer."
+        },
+        {
+          "eyebrow": "Politesse indirecte",
+          "title": "Usage des constructions impersonnelles",
+          "body": "L'impersonnel ('იმისთვის არის საჭირო', 'უნდა გაკეთდეს') déplace la responsabilité et atténue. Utile en communication institutionnelle.",
+          "examples": [
+            {
+              "ka": "იმისთვის არის საჭირო დამატებითი დოკუმენტი",
+              "fr": "Un document supplémentaire est nécessaire",
+              "note": "Impersonnel pour neutralité"
+            },
+            {
+              "ka": "უნდა გაკეთდეს დეტალური ანალიზი",
+              "fr": "Il faut faire une analyse détaillée",
+              "note": "უნდა + infinitif : obligation exprimée de façon impersonnelle"
+            }
+          ],
+          "takeaway": "L'impersonnel est un outil puissant pour la politesse formelle et la responsabilité distante."
+        },
+        {
+          "eyebrow": "Atelier",
+          "title": "Adapter un courriel professionnel",
+          "body": "Réécrire un courriel familier en style formel en modifiant pronoms, verbes, atténuateurs et formules de clôture. Objectif : conserver le message tout en adoptant un registre professionnel.",
+          "examples": [
+            {
+              "ka": "გამარჯობა ლანა, შეგიძლია ეგ მომწერო? ღვთივს, მადლობა!",
+              "fr": "Salut Lana, peux-tu me l'envoyer ? Merci beaucoup !",
+              "note": "Version informelle"
+            },
+            {
+              "ka": "პატივცემულო ლანა, იქნებ შეძლებ აღნიშნული მასალების გამოგზავნილს? წინასწარ მადლობა თქვენი დროისთვის.",
+              "fr": "Chère Lana, pourriez-vous envoyer ces documents ? Merci d'avance pour votre temps.",
+              "note": "Version formelle adaptée"
+            }
+          ],
+          "takeaway": "Changer pronom, formules d'introduction/fin et atténuateurs suffit à modifier le registre."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle tournure est recommandée pour adoucir une demande polie ?",
+              "options": [
+                "გთხოვთ, მოგვაწოდოთ",
+                "მითხარი ახლავე",
+                "შენს ნაწერს არ ვენდობი",
+                "და წერე არ დაიფიქრო"
+              ],
+              "answer": "გთხოვთ, მოგვაწოდოთ",
+              "explanation": "გთხოვთ est un impératif poli utilisé pour adoucir une demande dans le registre formel."
+            },
+            {
+              "prompt": "Quelle expression est un euphémisme pour refuser poliment, selon la leçon ?",
+              "options": [
+                "ამჯერად ვერ შეგვიძლია შემოგთავაზოთ პოზიცია",
+                "შენსავით სულ სხვანაირია",
+                "დამეხმარე ახლავე",
+                "რა თქმა უნდა გამოგივა"
+              ],
+              "answer": "ამჯერად ვერ შეგვიძლია შემოგთავაზოთ პოზიცია",
+              "explanation": "Cette formulation évite un refus frontal en le situant dans le temps ('pour le moment')."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Pour rendre un message plus formel, quelle transformation est la plus appropriée ?",
+              "options": [
+                "Remplacer 'შენ' par 'თქვენ' et adoucir le verbe",
+                "Ajouter des émoticônes",
+                "Utiliser exclusivement l'impératif direct",
+                "Supprimer toute formule de politesse"
+              ],
+              "answer": "Remplacer 'შენ' par 'თქვენ' et adoucir le verbe",
+              "explanation": "La leçon indique que changer le pronom vers le vouvoiement et adoucir les verbes adapte le registre au formel."
+            },
+            {
+              "prompt": "Quelle construction impersonnelle permet d'atténuer la responsabilité ?",
+              "options": [
+                "იმისთვის არის საჭირო დამატებითი დოკუმენტი",
+                "მე მინდა, რომ მომწერო",
+                "შენ უნდა გააკეთო ეს",
+                "გთხოვ, ახლავე გამაგრძელე"
+              ],
+              "answer": "იმისთვის არის საჭირო დამატებითი დოკუმენტი",
+              "explanation": "L'impersonnel 'იმისთვის არის საჭირო' neutralise l'agent et atténue la responsabilité."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C2"
+    },
+    {
+      "id": "elearning_lessons-c2-gen-009",
+      "title": "Aspects verbaux avancés : perfectif, imperfectif et périphrases",
+      "level": "C2",
+      "version": 9,
+      "tag": "grammar",
+      "icon": "clock",
+      "goal": "Distinguer et produire les nuances aspectuelles avancées en géorgien (perfectif vs imperfectif, périphrases modales) pour rendre des temporalités et états avec précision.",
+      "slides": [
+        {
+          "eyebrow": "Fondamentaux",
+          "title": "Aspects de base : perfectif et imperfectif",
+          "body": "Le géorgien marque l'aspect principalement par les formes verbales et le préfixe/alternance radicale. Le perfectif indique achevé ou ponctuel; l'imperfectif, une action en cours, habituelle ou itérative.",
+          "examples": [
+            {
+              "ka": "წერა",
+              "fr": "écrire (lemme)",
+              "note": "verbe de base"
+            },
+            {
+              "ka": "ვწერდი წაკითხვაზე",
+              "fr": "J'écrivais pendant la lecture",
+              "note": "imperfectif (action en déroulement)"
+            },
+            {
+              "ka": "გავწერე ანგარიში",
+              "fr": "J'ai rédigé le rapport",
+              "note": "perfectif (action achevée)"
+            }
+          ],
+          "takeaway": "Choisir l'aspect change la perspective temporelle : achèvement vs déroulement/habitude."
+        },
+        {
+          "eyebrow": "Périphrases",
+          "title": "Périphrases aspectuelles et modales",
+          "body": "Combiner participes et auxiliaires pour nuancer : 'ფეხზე დადგომა' (début), 'მქონდა ნათქვამი' (habitude passée), 'შეიძლება' + infinitif (possibilité).",
+          "examples": [
+            {
+              "ka": "დამეზარება რომ ვთქვა, მაგრამ უნდა აღინიშნოს",
+              "fr": "Je suis paresseux de le dire, mais il faut le noter",
+              "note": "construction modale informelle"
+            },
+            {
+              "ka": "მქონდა ნათქვამი, რომ ყოველ კვირას ვმუშაობდი",
+              "fr": "J'avais l'habitude de dire que je travaillais chaque semaine",
+              "note": "habituel passé via 'მქონდა' + participe"
+            },
+            {
+              "ka": "შეიძლება ჩამოვწერო დეტალები მოგვიანებით",
+              "fr": "Il se peut que je note les détails plus tard",
+              "note": "შეიძლება : modalité de possibilité"
+            }
+          ],
+          "takeaway": "Les périphrases permettent des distinctions fines : début, habitude, possibilité, obligation."
+        },
+        {
+          "eyebrow": "Nuances",
+          "title": "Aspect et implication illocutoire",
+          "body": "L'aspect influence l'acte de langage : perfectif pour les assertions factuelles, imperfectif pour invitations/suggestions ou descriptions de contexte. Exemples contrastés pour choisir l'option la plus appropriée selon l'intention.",
+          "examples": [
+            {
+              "ka": "გავთამაშეთ ეს დეტალი მერე — (imperfectif) მნიშვნელოვანია პროცესის აღწერა",
+              "fr": "Nous jouerons ce détail plus tard — (imperfectif) important pour décrire le processus",
+              "note": "imperfectif pour processus"
+            },
+            {
+              "ka": "გავაკეთე, როგორც მოვპოვე საჭიროება — (perfectif) achèvement",
+              "fr": "Je l'ai fait dès que c'était nécessaire — (perfectif) achèvement",
+              "note": "perfectif indique action terminée"
+            }
+          ],
+          "takeaway": "Adaptez l'aspect selon l'effet communicatif recherché (décrire vs déclarer)."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Transformer et commenter",
+          "body": "Exercice : prendre trois phrases données et produire pour chacune une version perfective, imperfective et une périphrase modale. Justifier le choix aspectuel par une courte note en français.",
+          "examples": [
+            {
+              "ka": "სკოლაში მასწავლებელი წიგნს კითხულობს.",
+              "fr": "Le professeur lit un livre à l'école.",
+              "note": "Imperfectif : action en cours"
+            },
+            {
+              "ka": "მასწავლებელმა წიგნი წაიკითხა.",
+              "fr": "Le professeur a lu le livre.",
+              "note": "Perfectif : action achevée"
+            },
+            {
+              "ka": "მგონია, მასწავლებელმა წიგნი წაიკითხოს მომდევნო საათზე.",
+              "fr": "Je pense que le professeur lira le livre à l'heure suivante.",
+              "note": "Périphrase modale exprimant possibilité/projection"
+            }
+          ],
+          "takeaway": "Pratique régulière des alternances permet une production aspectuelle nuancée."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle expression marque la possibilité modale dans les exemples étudiés ?",
+              "options": [
+                "გავა",
+                "შეიძლება",
+                "ვწერდი",
+                "გავწერე"
+              ],
+              "answer": "შეიძლება",
+              "explanation": "შეიძლება est utilisé pour exprimer la possibilité (modalité)."
+            },
+            {
+              "prompt": "Quelle forme indique une habitude passée selon la leçon ?",
+              "options": [
+                "ვნახავ",
+                "მქონდა ნათქვამი",
+                "გავაკეთებ",
+                "გავწერე"
+              ],
+              "answer": "მქონდა ნათქვამი",
+              "explanation": "მქონდა + participe exprime une habitude passée ou état antérieur."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle forme conviendrait le mieux pour affirmer qu'une action est achevée ?",
+              "options": [
+                "imperfectif (ვწერდი)",
+                "perfectif (გავწერე)",
+                "Périphrase modale (შეიძლება ვწერო)",
+                "Infinitif isolé (წერა)"
+              ],
+              "answer": "perfectif (გავწერე)",
+              "explanation": "Le perfectif est utilisé pour indiquer qu'une action est accomplie (achevée)."
+            },
+            {
+              "prompt": "Pour décrire une action en cours dans le passé, quelle forme utiliser ?",
+              "options": [
+                "Perfectif",
+                "Infinitif",
+                "Imperfectif (ვწერდი)",
+                "Périphrase modale exprimant certitude"
+              ],
+              "answer": "Imperfectif (ვწერდი)",
+              "explanation": "L'imperfectif décrit une action en cours ou habituelle dans le passé."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C2"
+    },
+    {
+      "id": "elearning_lessons-c2-gen-010",
+      "title": "Collocations idiomatiques et proverbes utiles pour l'argumentation",
+      "level": "C2",
+      "version": 10,
+      "tag": "idioms",
+      "icon": "quote",
+      "goal": "Intégrer des collocations idiomatiques et proverbes géorgiens pertinents pour enrichir un discours argumentatif et comprendre leur portée rhétorique.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Pourquoi utiliser des proverbes et collocations ?",
+          "body": "Les idiomes servent à condenser une idée complexe en une formulation familière et persuasive. En contexte académique, ils doivent être choisis pour pertinence et registre.",
+          "examples": [
+            {
+              "ka": "მზე ხომ არ დაგვემხრობა ყველას ერთდროულად",
+              "fr": "Le soleil ne peut pas nous réchauffer tous en même temps",
+              "note": "imagenel, registre familier"
+            }
+          ],
+          "takeaway": "Les proverbes renforcent l'argument si leur image correspond au propos et au public."
+        },
+        {
+          "eyebrow": "Collocations",
+          "title": "Collocations fréquentes en argumentation",
+          "body": "Listes de binômes lexicalisés : 'გაგვიმართლა' + 'შანსი', 'სერიოზული შედეგები', 'მნიშვნელოვანი ნაბიჯი'. Apprendre leur concordance d'usage et restrictions lexicales.",
+          "examples": [
+            {
+              "ka": "აღარ მაქვს შანსი, მაგრამ ეს იყო მნიშვნელოვანი ნაბიჯი",
+              "fr": "Je n'ai plus de chance, mais c'était un pas important",
+              "note": "და + nominalisation courante"
+            },
+            {
+              "ka": "ეს შეიძლება სერიოზული შედეგები გამოიღოს",
+              "fr": "Cela peut avoir de sérieuses conséquences",
+              "note": "Collocation 'სერიოზული შედეგები'"
+            }
+          ],
+          "takeaway": "Les collocations donnent de la naturalité; mémorisez les associations lexicales correctes."
+        },
+        {
+          "eyebrow": "Proverbes utiles",
+          "title": "Proverbes pour nuancer l'argument",
+          "body": "Sélection de proverbes courts adaptés au discours : 'მოსასმენი უნდა გქონდეს, რომ გესმოდეს', 'საჭიროა დრო, რათა ხე გაიზარდოს' — analyse pragmatique et limites d'usage.",
+          "examples": [
+            {
+              "ka": "მოსასმენი უნდა გქონდეს, რომ გესმოდეს",
+              "fr": "Il faut savoir écouter pour comprendre",
+              "note": "Idéal pour introduire une recommandation participative"
+            },
+            {
+              "ka": "საჭიროა დრო, რათა ხე გაიზარდოს",
+              "fr": "Il faut du temps pour qu'un arbre grandisse",
+              "note": "Utilisable pour évoquer patience et long terme"
+            }
+          ],
+          "takeaway": "Employez les proverbes comme illustrations concises, pas comme preuves."
+        },
+        {
+          "eyebrow": "Atelier d'intégration",
+          "title": "Insérer idiomes et proverbes dans une argumentation",
+          "body": "Exercice : rédiger 3 phrases de conclusion d'un essai en intégrant une collocation et un proverbe, en respectant le registre académique. Évitez les clichés inappropriés.",
+          "examples": [
+            {
+              "ka": "ჩვენი სტრატეგია მნიშვნელოვანი ნაბიჯია; მიუხედავად მოკლევადიანი დაბრკოლებებისა, უნდა გვახსოვდეს — საჭიროა დრო, რათა ხე გაიზარდოს.",
+              "fr": "Notre stratégie est un pas important; malgré les obstacles à court terme, il faut se rappeler — il faut du temps pour que l'arbre grandisse.",
+              "note": "Conclusion alliant collocation et proverbe"
+            }
+          ],
+          "takeaway": "Utilisez idiomes et proverbes pour conclure en donnant une image mémorable, en vérifiant la pertinence culturelle."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle collocation est recommandée pour évoquer des conséquences sérieuses ?",
+              "options": [
+                "სერიოზული შედეგები",
+                "მხიარული შედეგები",
+                "სწრაფი გადაწყვეტილებები",
+                "შეიძლება არაფერი"
+              ],
+              "answer": "სერიოზული შედეგები",
+              "explanation": "სერიოზული შედეგები (conséquences sérieuses) est la collocation montrée dans les exemples."
+            },
+            {
+              "prompt": "Selon la leçon, quelle fonction ont les collocations ?",
+              "options": [
+                "Remplacer les arguments par des images",
+                "Donner de la naturalité au discours en associant lexicalement des mots",
+                "Empêcher toute nuance",
+                "Obliger un registre familier"
+              ],
+              "answer": "Donner de la naturalité au discours en associant lexicalement des mots",
+              "explanation": "La leçon indique que les collocations donnent de la naturalité en associant des mots de façon habituelle."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quel proverbe est conseillé pour parler de patience et long terme ?",
+              "options": [
+                "მოსასმენი უნდა გქონდეს, რომ გესმოდეს",
+                "საჭიროა დრო, რათა ხე გაიზარდოს",
+                "მზე ხომ არ დაგვემხრობა ყველა",
+                "მგონი, ყველაფერი მოაგვარებს"
+              ],
+              "answer": "საჭიროა დრო, რათა ხე გაიზარდოს",
+              "explanation": "Le proverbe 'საჭიროა დრო, რათა ხე გაიზარდოს' est explicitement associé à l'idée de patience et de long terme."
+            },
+            {
+              "prompt": "Comment la leçon recommande-t-elle d'utiliser un proverbe dans un essai académique ?",
+              "options": [
+                "Comme seule preuve dans une conclusion",
+                "Pour illustrer une idée de façon concise et mémorable, en vérifiant la pertinence",
+                "L'insérer systématiquement au début de chaque paragraphe",
+                "Éviter toute image et privilégier uniquement des statistiques"
+              ],
+              "answer": "Pour illustrate une idée de façon concise et mémorable, en vérifiant la pertinence",
+              "explanation": "La leçon conseille d'utiliser les proverbes comme illustrations concises et pertinentes, pas comme preuves à elles seules."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C2"
+    }
+  ]
+}

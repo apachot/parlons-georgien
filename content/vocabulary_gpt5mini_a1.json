@@ -1,0 +1,115 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "vocabulary-a1-gen-001",
+      "ka": "კატა",
+      "fr": "chat",
+      "translit": "kata",
+      "pron": "ka-ta",
+      "example": "კატა ძინავს დივანზე.",
+      "example_fr": "Le chat dort sur le canapé.",
+      "cefr": "A1",
+      "version": 1
+    },
+    {
+      "id": "vocabulary-a1-gen-002",
+      "ka": "წიგნი",
+      "fr": "livre",
+      "translit": "ts'igni",
+      "pron": "tsi-gni",
+      "example": "ახალი წიგნი მაგიდაზე დევს.",
+      "example_fr": "Le nouveau livre est posé sur la table.",
+      "cefr": "A1",
+      "version": 2
+    },
+    {
+      "id": "vocabulary-a1-gen-003",
+      "ka": "ფანარი",
+      "fr": "lanterne/lampe torche",
+      "translit": "fanari",
+      "pron": "fa-na-ri",
+      "example": "ღამით ფანარი გზას ანათებს.",
+      "example_fr": "La lampe torche éclaire le chemin la nuit.",
+      "cefr": "A1",
+      "version": 3
+    },
+    {
+      "id": "vocabulary-a1-gen-004",
+      "ka": "ფეხი",
+      "fr": "pied",
+      "translit": "pekhi",
+      "pron": "pé-khi",
+      "example": "პირზე ფეხი არ დააყენოთ.",
+      "example_fr": "Ne posez pas le pied sur le visage.",
+      "cefr": "A1",
+      "version": 4
+    },
+    {
+      "id": "vocabulary-a1-gen-005",
+      "ka": "ტორტი",
+      "fr": "gâteau",
+      "translit": "torti",
+      "pron": "tor-ti",
+      "example": "პირველი ქელმწიფისთვის ტორტი გავუწიეთ.",
+      "example_fr": "Nous avons donné un gâteau pour la première fête.",
+      "cefr": "A1",
+      "version": 5
+    },
+    {
+      "id": "vocabulary-a1-gen-006",
+      "ka": "მაღალი",
+      "fr": "grand (pour la taille)",
+      "translit": "maghali",
+      "pron": "ma-ga-li",
+      "example": "ხე ძალიან მაღალია ეს ქუჩა.",
+      "example_fr": "L'arbre est très grand dans cette rue.",
+      "cefr": "A1",
+      "version": 6
+    },
+    {
+      "id": "vocabulary-a1-gen-007",
+      "ka": "თეფში",
+      "fr": "assiette",
+      "translit": "tefshi",
+      "pron": "tèf-chi",
+      "example": "თეფში სუფთაა.",
+      "example_fr": "L’assiette est propre.",
+      "cefr": "A1",
+      "version": 7
+    },
+    {
+      "id": "vocabulary-a1-gen-008",
+      "ka": "გაკვეთილი",
+      "fr": "leçon",
+      "translit": "gakvetili",
+      "pron": "ga-kve-ti-li",
+      "example": "მასწავლებელმა ახალი გაკვეთილი დაიწყო.",
+      "example_fr": "Le professeur a commencé une nouvelle leçon.",
+      "cefr": "A1",
+      "version": 8
+    },
+    {
+      "id": "vocabulary-a1-gen-009",
+      "ka": "კარი",
+      "fr": "porte",
+      "translit": "kari",
+      "pron": "ka-ri",
+      "example": "კარი ღიაა.",
+      "example_fr": "La porte est ouverte.",
+      "cefr": "A1",
+      "version": 9
+    },
+    {
+      "id": "vocabulary-a1-gen-010",
+      "ka": "ფანჯარა",
+      "fr": "fenêtre",
+      "translit": "panjara",
+      "pron": "pan-ja-ra",
+      "example": "ფანჯარა ღიაა, ჰაერი შემოდის.",
+      "example_fr": "La fenêtre est ouverte, l'air entre.",
+      "cefr": "A1",
+      "version": 10
+    }
+  ]
+}

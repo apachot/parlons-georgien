@@ -1,0 +1,155 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "reading_cloze-c2-gen-001",
+      "sentence": "გადაწყვეტილება მიიღეს, თუმცა მისი საფუძველი ბოლომდე ___.",
+      "answer": "გასაგები არ იყო",
+      "options": [
+        "გასაგები არ ჰქონდა",
+        "გასაგები არ იყო",
+        "გადამოწმებული იყო",
+        "მომწონებელი იყო"
+      ],
+      "translation": "Ils ont pris une décision, mais ses fondements n'étaient pas entièrement compréhensibles.",
+      "explanation": "La tournure correcte est «გასაგები არ იყო» («n'était pas compréhensible»). Les autres distracteurs modifient le sens ou la construction grammaticale : «გასაგები არ ჰქონდა» est inapproprié en géorgien pour ce contexte, «გადამოწმებული იყო» signifie «avait été vérifié», et «მომწონებელი იყო» «était apprécié».",
+      "cefr": "C2",
+      "version": 1
+    },
+    {
+      "id": "reading_cloze-c2-gen-002",
+      "sentence": "მომხსენებელმა შეკითხვა დასვა ისე, რომ მსმენელთა ___ მაქსიმალურად აბსოლუტური არ ჩანდა.",
+      "answer": "ერთსულოვნება",
+      "options": [
+        "დისკუსია",
+        "ერთსულოვნება",
+        "გამოხმაურება",
+        "მხარდაჭერა"
+      ],
+      "translation": "Le conférencier posa la question de telle manière que l'unanimité du public ne paraissait pas totale.",
+      "explanation": "Le mot attendu est «ერთსულოვნება» (unanimité). Les autres choix (discussion, réaction, soutien) sont plausibles mais ne rendent pas précisément l'idée d'«unanimité» évoquée dans la phrase.",
+      "cefr": "C2",
+      "version": 2
+    },
+    {
+      "id": "reading_cloze-c2-gen-003",
+      "sentence": "ის ისე ახსნა შინაარსი, რომ ყველაზე მომთხოვნი კრიტიკოსისაც ___ აღარ შეეძლო.",
+      "answer": "აარაფრის თქმა",
+      "options": [
+        "არაფრის თქმა",
+        "მოთხოვნა",
+        "კმაყოფილება",
+        "შეეგება"
+      ],
+      "translation": "Il expliqua le contenu de telle sorte que même le critique le plus exigeant ne pouvait plus rien reprocher.",
+      "explanation": "La meilleure restitution est «არაფრის თქმა» («ne pouvait rien dire/reprocher»). Les autres options changent le sens : «მოთხოვნა» (exiger), «კმაყოფილება» (satisfaire), «შეეგება» (comprendrait) ne conviennent pas ici.",
+      "cefr": "C2",
+      "version": 3
+    },
+    {
+      "id": "reading_cloze-c2-gen-004",
+      "sentence": "პროექტის შეფასებისას აუცილებელია ყურადღება მიაპყრო როგორც შედეგებს, ასევე ___.",
+      "answer": "პროცესს",
+      "options": [
+        "პროცესს",
+        "თანხას",
+        "ისტორიას",
+        "დოკუმენტებს"
+      ],
+      "translation": "Lors de l'évaluation d'un projet, il est nécessaire d'attacher de l'attention tant aux résultats qu'au processus.",
+      "explanation": "Le mot exact est «პროცესს» («le processus»). Bien que «დოკუმენტებს» ou «თანხას» soient plausibles, la structure «как результатам, так и ___» exige un terme qui contraste avec «résultats», donc «processus» est la bonne réponse.",
+      "cefr": "C2",
+      "version": 4
+    },
+    {
+      "id": "reading_cloze-c2-gen-005",
+      "sentence": "მასთან ამ დროს საუბარი არ შეიძლებოდა; მისი სიტყვები სასტიკად ___ ჰკრა გულს.",
+      "answer": "მტკენდა",
+      "options": [
+        "მტკენდა",
+        "აძლიერებდა",
+        "მაღიზიანებდა",
+        "აპროგრამებდა"
+      ],
+      "translation": "Il était impossible de lui parler à ce moment ; ses paroles lui faisaient terriblement mal au cœur.",
+      "explanation": "Le verbe convenable est «მტკენდა» («faisaient mal»). «მაღიზიანებდა» («irritaient») est proche mais moins fort que «მტკენდა», et «აძლიერებდა»/«აპროგრამებდა» sont inappropriés dans le contexte émotionnel.",
+      "cefr": "C2",
+      "version": 5
+    },
+    {
+      "id": "reading_cloze-c2-gen-006",
+      "sentence": "შესაძლებელია, რომ მის მიერ წარმოდგენილი თეზისი არ იყო უცბად საყურადღებო, მაგრამ ___ ღირებულება ჰქონდა.",
+      "answer": "საკვლევი",
+      "options": [
+        "საკვლევი",
+        "საზოგადოებრივი",
+        "კომერციული",
+        "ინფორმაციული"
+      ],
+      "translation": "Il est possible que la thèse qu'il a présentée n'ait pas été immédiatement remarquable, mais elle avait une valeur examinable.",
+      "explanation": "Le terme recherché est «საკვლევი» («qui mérite d'être étudié/examiné»). Les autres distracteurs modifient la nature de la «valeur» (publique, commerciale, informative) et ne s'accordent pas précisément avec l'idée exprimée.",
+      "cefr": "C2",
+      "version": 6
+    },
+    {
+      "id": "reading_cloze-c2-gen-007",
+      "sentence": "ვფიქრობ, მისი არგუმენტი დასაბუთებულია, თუმცა საბოლოო ჯამში გადაწყვეტილება დამოკიდებული იქნება ___.",
+      "answer": "მსჯელობაზე",
+      "options": [
+        "მსჯელობაზე",
+        "სუბიექტის ასაკზე",
+        "ანგარიშზე",
+        "დოკუმენტაციაზე"
+      ],
+      "translation": "Je pense que son argument est justifié, mais en fin de compte la décision dépendra du débat/deliberation.",
+      "explanation": "La formule idiomatique correcte est «დამოკიდებული იქნება მსჯელობაზე» («dépendra de la délibération/le débat»). Les autres réponses sont grammaticalement possibles mais moins cohérentes avec le contexte d'une décision collective.",
+      "cefr": "C2",
+      "version": 7
+    },
+    {
+      "id": "reading_cloze-c2-gen-008",
+      "sentence": "მიუხედავად გარკვეული წინააღმდეგობებისა, გუნდი მუშაობას განაგრძობდა როგორც არაფერი ___ .",
+      "answer": "შეემჩნია",
+      "options": [
+        "შეემჩნია",
+        "შეინიშნა",
+        "გადაიჭრა",
+        "გააჩერეს"
+      ],
+      "translation": "Malgré certaines oppositions, l'équipe continuait de travailler comme si rien n'avait été remarqué.",
+      "explanation": "La construction correcte est «როგორც არაფერი შეემჩნია» («comme si rien n'avait été remarqué»). «შეინიშნა» signifierait «a été noté» et inverse le sens ; «გადაიჭრა» («a été résolu») et «გააჩერეს» («ont arrêté») ne conviennent pas.",
+      "cefr": "C2",
+      "version": 8
+    },
+    {
+      "id": "reading_cloze-c2-gen-009",
+      "sentence": "ჩვენი დიალოგი განვითარდა ისე, რომ ბოლოს რესპონდენტი პირად გამოცდილებაზე ___ გადავიდა.",
+      "answer": "საუბარი",
+      "options": [
+        "საუბარი",
+        "კრიტიკა",
+        "დასკვნა",
+        "შეურაცხყოფა"
+      ],
+      "translation": "Notre dialogue a évolué de sorte qu'à la fin l'interlocuteur est passé à la discussion sur son expérience personnelle.",
+      "explanation": "Le mot attendu est «საუბარი» («la conversation/discussion»). Les autres distracteurs sont plausibles mais ne reflètent pas le passage vers le récit d'une expérience personnelle aussi précisément.",
+      "cefr": "C2",
+      "version": 9
+    },
+    {
+      "id": "reading_cloze-c2-gen-010",
+      "sentence": "როდესაც პრობლემის ფორმულირება უკეთ გააკეთა, აღმოჩნდა, რომ გამოსავალი აბსოლუტურად ___ იყო.",
+      "answer": "პროგნოზირებადი",
+      "options": [
+        "პრაქტიკული",
+        "პროგნოზირებადი",
+        "ახალი",
+        "შეღწევადი"
+      ],
+      "translation": "Quand il formula mieux le problème, il apparut que la solution était totalement prévisible.",
+      "explanation": "Le terme exact ici est «პროგნოზირებადი» («prévisible»). Les alternatives («pratique», «nouvelle», «accessible») changent le sens et ne correspondent pas à l'effet de clarté entraîné par une meilleure formulation du problème.",
+      "cefr": "C2",
+      "version": 10
+    }
+  ]
+}

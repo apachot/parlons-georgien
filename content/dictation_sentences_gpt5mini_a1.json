@@ -1,0 +1,143 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "dictation_sentences-a1-gen-001",
+      "fr": "Bonjour.",
+      "ka": "გამარჯობა.",
+      "answers": [
+        "გამარჯობა.",
+        "გამარჯობა"
+      ],
+      "note": "Salutation simple.",
+      "cefr": "A1",
+      "version": 1
+    },
+    {
+      "id": "dictation_sentences-a1-gen-002",
+      "fr": "Je m'appelle Marie.",
+      "ka": "მე მქვია მარი.",
+      "answers": [
+        "მე მქვია მარი.",
+        "ჩემი სახელია მარი.",
+        "მე მქვია მარი",
+        "ჩემი სახელია მარი"
+      ],
+      "note": "Formule pour dire son nom (deux tournures possibles).",
+      "cefr": "A1",
+      "version": 2
+    },
+    {
+      "id": "dictation_sentences-a1-gen-003",
+      "fr": "J'habite à Paris.",
+      "ka": "მე ვცხოვრობ პარიზში.",
+      "answers": [
+        "მე ვცხოვრობ პარიზში.",
+        "პარიზში ვცხოვრობ.",
+        "მე ვცხოვრობ პარიზში",
+        "პარიზში ვცხოვრობ"
+      ],
+      "note": "Exprimer son lieu de résidence (ordre des mots variable).",
+      "cefr": "A1",
+      "version": 3
+    },
+    {
+      "id": "dictation_sentences-a1-gen-004",
+      "fr": "J'ai un chat.",
+      "ka": "მე მყავს კატა.",
+      "answers": [
+        "მე მყავს კატა.",
+        "მყავს კატა.",
+        "მე მაქვს კატა.",
+        "მე მყავს კატა",
+        "მყავს კატა",
+        "მე მაქვს კატა"
+      ],
+      "note": "Possession : formes possibles მყავს ou მაქვს, le pronom მე est optionnel.",
+      "cefr": "A1",
+      "version": 4
+    },
+    {
+      "id": "dictation_sentences-a1-gen-005",
+      "fr": "Où est la gare ?",
+      "ka": "სად არის სადგური?",
+      "answers": [
+        "სად არის სადგური?",
+        "სადგური სად არის?",
+        "სად არის სადგური",
+        "სადგური სად არის"
+      ],
+      "note": "Question sur le lieu (deux placements possibles du mot 'სტაცი').",
+      "cefr": "A1",
+      "version": 5
+    },
+    {
+      "id": "dictation_sentences-a1-gen-006",
+      "fr": "Merci beaucoup.",
+      "ka": "დიდი მადლობა.",
+      "answers": [
+        "დიდი მადლობა.",
+        "მადლობა.",
+        "დიდი მადლობა",
+        "მადლობა"
+      ],
+      "note": "Remerciement ; 'მადლობა' est une forme plus courte et courante.",
+      "cefr": "A1",
+      "version": 6
+    },
+    {
+      "id": "dictation_sentences-a1-gen-007",
+      "fr": "Il fait beau aujourd'hui.",
+      "ka": "დღეს კარგი ამინდია.",
+      "answers": [
+        "დღეს კარგი ამინდია.",
+        "დღეს კარგი ამინდია"
+      ],
+      "note": "Observation météo simple (phrase courte).",
+      "cefr": "A1",
+      "version": 7
+    },
+    {
+      "id": "dictation_sentences-a1-gen-008",
+      "fr": "Je veux de l'eau, s'il vous plaît.",
+      "ka": "მე მინდა წყალი, გთხოვთ.",
+      "answers": [
+        "მე მინდა წყალი, გთხოვთ.",
+        "გთხოვთ, წყალი მინდა.",
+        "მე მინდა წყალი გთხოვთ",
+        "გთხოვთ, წყალი მინდა"
+      ],
+      "note": "Demande polie : 'გთხოვთ' = s'il vous plaît ; ordre des éléments variable.",
+      "cefr": "A1",
+      "version": 8
+    },
+    {
+      "id": "dictation_sentences-a1-gen-009",
+      "fr": "Je lis un livre.",
+      "ka": "მე ვკითხულობ წიგნს.",
+      "answers": [
+        "მე ვკითხულობ წიგნს.",
+        "ვკითხულობ წიგნს.",
+        "მე ვკითხულობ წიგნს",
+        "ვკითხულობ წიგნს"
+      ],
+      "note": "Verbe 'lire' à la 1re personne ('მე' est optionnel).",
+      "cefr": "A1",
+      "version": 9
+    },
+    {
+      "id": "dictation_sentences-a1-gen-010",
+      "fr": "Nous allons au marché demain.",
+      "ka": "ხვალ ბაზარში მივდივართ.",
+      "answers": [
+        "ხვალ ბაზარში მივდივართ.",
+        "ჩვენ ხვალ ბაზარში მივდივართ.",
+        "ხვალ ბაზარში მივდივართ",
+        "ჩვენ ხვალ ბაზარში მივდივართ"
+      ],
+      "note": "Action future exprimée simplement (pronom opcional).",
+      "cefr": "A1",
+      "version": 10
+    }
+  ]
+}

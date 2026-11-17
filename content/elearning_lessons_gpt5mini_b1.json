@@ -1,0 +1,1430 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "elearning_lessons-b1-gen-001",
+      "title": "Exprimer une habitude passée et des actions répétées",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 1,
+      "tag": "habitudes_passées",
+      "icon": "🕰️",
+      "goal": "Apprendre à former et utiliser l'imparfait/générique en géorgien pour décrire des habitudes ou actions répétées dans le passé.",
+      "slides": [
+        {
+          "eyebrow": "Contexte",
+          "title": "Quand utiliser l'imparfait/générique",
+          "body": "En géorgien, pour parler d'actions habituelles dans le passé on emploie souvent la forme verbale imparfaite (marquant une action répétée ou habituelle). Le verbe est conjugué au préterit avec une nuance d'habitude selon le contexte ou accompagné d'adverbes temporels.",
+          "examples": [
+            {
+              "ka": "ერთხელ სოფელში ხშირად ვსეირნობდით.",
+              "fr": "Autrefois, nous nous promenions souvent au village.",
+              "note": "literally 'we were walking often'"
+            },
+            {
+              "ka": "ყოველ კვირას პარკში ვპიკნიკობდით.",
+              "fr": "Chaque semaine nous faisions un pique-nique au parc.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Utilisez la forme passée (preterit) et des adverbes (ხშირად, ყოველ კვირას) pour exprimer des habitudes passées."
+        },
+        {
+          "eyebrow": "Formation",
+          "title": "Conjugaison courante au prétérit (habitude)",
+          "body": "Pour les verbes réguliers, la racine + terminaison du préterit est utilisée. Le sens d'habitude se renforce avec des adverbes comme ხშირად (souvent), ჩვეულებრივ (habituellement), ყოველ საღამოს (tous les soirs).",
+          "examples": [
+            {
+              "ka": "ვკითხულობდი წიგნს ყოველ საღამოს.",
+              "fr": "Je lisais un livre tous les soirs.",
+              "note": "ვკითხულობდი = je lisais / I used to read"
+            },
+            {
+              "ka": "მისი ბებია ყოველთვის ახალ ტკბილეულს აცხობდა.",
+              "fr": "Sa grand-mère préparait toujours de nouvelles pâtisseries.",
+              "note": "აყალხირი 'toujours' renforce l'habitude"
+            }
+          ],
+          "takeaway": "Répétez: forme prétérit + adverbe temporel = habitude passée."
+        },
+        {
+          "eyebrow": "Nuances",
+          "title": "Différence avec une action ponctuelle",
+          "body": "Une action ponctuelle au passé utilise aussi le prétérit mais le contexte/les adverbes indiquent la ponctualité : გუშინ (hier), ერთხელ (une fois). Sans adverbe d'habitude, l'action est perçue comme unique.",
+          "examples": [
+            {
+              "ka": "გუშინ ბაზარში ვიყიდე ხილი.",
+              "fr": "Hier j'ai acheté des fruits au marché.",
+              "note": "ვიყიდე = j'ai acheté (ponctuel)"
+            },
+            {
+              "ka": "ერთხელ იგი ქალაქში მივიდა.",
+              "fr": "Il est arrivé en ville une fois.",
+              "note": "ერთხელ indique action unique"
+            }
+          ],
+          "takeaway": "Choisissez vos adverbes pour préciser si c'était habituel ou ponctuel."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Exercices d'application",
+          "body": "Transformez ces phrases au prétérit habituel en ajoutant un adverbe d'habitude ou en insistant sur la répétition ; puis comparez avec une version ponctuelle.",
+          "examples": [
+            {
+              "ka": "ვიმღერებდი სკოლაში ყოველ დღე.",
+              "fr": "Je chantais à l'école tous les jours.",
+              "note": ""
+            },
+            {
+              "ka": "გზაზე ხშირად ვხვდებოდი ჩემს მეზობელს.",
+              "fr": "Je rencontrais souvent mon voisin sur la route.",
+              "note": ""
+            }
+          ],
+          "takeaway": "S'entraîner à marquer l'habitude par le choix des adverbes et du contexte."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel élément aide le plus à indiquer qu'une action au passé était habituelle en géorgien ?",
+              "options": [
+                "L'utilisation de გუშინ (hier).",
+                "L'ajout d'un adverbe comme ხშირად (souvent).",
+                "L'utilisation d'un infinitif après le verbe.",
+                "Le changement du sujet."
+              ],
+              "answer": "L'ajout d'un adverbe comme ხშირად (souvent).",
+              "explanation": "Les adverbes temporels comme ხშირად, ყოველ კვირას signalent que l'action était répétée/habituelle."
+            },
+            {
+              "prompt": "La phrase «ვკითხულობდი წიგნს ყოველ საღამოს.» exprime :",
+              "options": [
+                "Une action ponctuelle hier soir.",
+                "Une habitude passée, lire chaque soir.",
+                "Un ordre impératif de lire le soir.",
+                "Un futur planifié pour les soirs à venir."
+              ],
+              "answer": "Une habitude passée, lire chaque soir.",
+              "explanation": "La construction ღითხულობდი (prétérit) + ყოველ საღამოს indique une habitude passée."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase est ponctuelle plutôt qu'habituelle ?",
+              "options": [
+                "ყოველ კვირას პარკში ვპიკნიკობდით.",
+                "ვკითხულობდი წიგნს ყოველ საღამოს.",
+                "გუშინ ბაზარში ვიყიდე ხილი.",
+                "ხშირად ვხვდებოდი მას სახლთან."
+              ],
+              "answer": "გუშინ ბაზარში ვიყიდე ხილი.",
+              "explanation": "გუშინ (hier) indique clairement une action ponctuelle."
+            },
+            {
+              "prompt": "Pour insister sur l'habitude dans une phrase au passé, on peut :",
+              "options": [
+                "Ajouter მხოლოდ (seulement).",
+                "Remplacer le verbe par un nom.",
+                "Ajouter adverbes comme ყოველთვის ou ხშირად.",
+                "Mettre la phrase à la voix passive."
+              ],
+              "answer": "Ajouter adverbes comme ყოველთვის או ხშირად.",
+              "explanation": "Adverbes tels que ყოველთვის (toujours) ou ხშირად (souvent) renforcent l'idée d'habitude."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-002",
+      "title": "Les verbes modaux de base : უნდა, შეუძლია, არ აქვს მნიშვნელობა",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 2,
+      "tag": "modaux",
+      "icon": "🔑",
+      "goal": "Comprendre et utiliser les verbes modaux უნდა (devoir/nécessité), შეუძლია (pouvoir) et their negations pour exprimer nécessité, capacité et impossibilité.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Trois modaux fréquents",
+          "body": "En géorgien, 'უნდა' exprime une nécessité ou obligation ; 'შიძლება/მშიძლება' et ფორმა 'შეუძლია/შიძლება' expriment la possibilité ou capacité ; la négation se fait par 'არ' devant le verbe.",
+          "examples": [
+            {
+              "ka": "შენ უნდა ისწავლო ახალი სიტყვები.",
+              "fr": "Tu dois apprendre de nouveaux mots.",
+              "note": ""
+            },
+            {
+              "ka": "მას შეუძლია ქართული კითხვა.",
+              "fr": "Il/Elle peut lire le géorgien.",
+              "note": "შეუძლია/მისთვის შესაძლებელია usage"
+            }
+          ],
+          "takeaway": "Positionnez 'უნდა' pour l'obligation, 'შ għandu/შიძლება' pour la possibilité/capacité."
+        },
+        {
+          "eyebrow": "Formes et position",
+          "title": "Construction et négation",
+          "body": "Les modaux précèdent l'infinitif ou la forme verbale. Pour nier, placez 'არ' devant le modal : არ უნდა, არ შეუძლია. Notez la concordance avec le sujet.",
+          "examples": [
+            {
+              "ka": "არ უნდა მოხვიდე გვიან.",
+              "fr": "Tu ne dois pas venir en retard.",
+              "note": ""
+            },
+            {
+              "ka": "შენს ნათესავს არ შეუძლია მოვიდეს დღეს.",
+              "fr": "Ton parent ne peut pas venir aujourd'hui.",
+              "note": ""
+            }
+          ],
+          "takeaway": "La négation du modal se fait avec 'არ' devant le modal ; le verbe principal reste à l'infinitif ou conjugué selon nécessité."
+        },
+        {
+          "eyebrow": "Nuances de sens",
+          "title": "Devoir moral vs nécessité objective",
+          "body": "'უნდა' peut exprimer une obligation morale ou un conseil (tu devrais). Pour une nécessité objective, utilisez contexte et adverbes (საჭიროა = il est nécessaire). 'შიძლება' exprime aussi la permission.",
+          "examples": [
+            {
+              "ka": "საყვარელია რომ დაისვენო — უნდა დაისვენო.",
+              "fr": "Il est souhaitable que tu te reposes — tu devrais te reposer.",
+              "note": ""
+            },
+            {
+              "ka": "შეძლებაა, რომ ამოწმოთ შედეგები.",
+              "fr": "Il est possible de vérifier les résultats.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Lisez le contexte : 'უნდა' = conseil/obligation ; 'შიძლება' = possibilité/permission."
+        },
+        {
+          "eyebrow": "Mise en pratique",
+          "title": "Dialogues courts",
+          "body": "Pratiquez en construisant de courtes répliques : donner un conseil, refuser une possibilité, demander une permission.",
+          "examples": [
+            {
+              "ka": "— მე შეშინებული ვარ, წავიდეთ? — არა, უნდა დავრჩეთ ერთად.",
+              "fr": "— J'ai peur, partons ? — Non, nous devons rester ensemble.",
+              "note": ""
+            },
+            {
+              "ka": "შეგიძლია ჩემი წიგნის გამოყენება? — შესაძლებელია, მაგრამ შეგვირაღლება.",
+              "fr": "Peux-tu utiliser mon livre ? — C'est possible, mais fais attention.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Variez 'უნდა' et 'შიძლება' selon conseil, permission ou capacité."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Comment forme-t-on la négation d'un modal en géorgien ?",
+              "options": [
+                "En ajoutant -ა à la fin du modal.",
+                "En mettant 'არ' devant le modal.",
+                "En doublant le verbe modal.",
+                "En changeant le modal en infinitif."
+              ],
+              "answer": "En mettant 'არ' devant le modal.",
+              "explanation": "La négation se fait en plaçant 'არ' avant le modal : არ უნდა, არ შეუძლია."
+            },
+            {
+              "prompt": "Quelle phrase signifie «Il/elle peut lire le géorgien» ?",
+              "options": [
+                "მას უნდა კითხულობს ქართული.",
+                "მას შეუძლია ქართული კითხვა.",
+                "მას არ შეიძლება ქართული.",
+                "მას ყოველთვის კითხულობს."
+              ],
+              "answer": "მას შეუძლია ქართული კითხვა.",
+              "explanation": "შიძლია/შეუძლია + infinitif ('ქართული კითხვა') exprime la capacité."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Que signifie 'უნდა დაისვენო' dans le contexte d'un conseil ?",
+              "options": [
+                "Tu dois partir immédiatement.",
+                "Tu devrais te reposer / il faut que tu te reposes.",
+                "Tu ne peux pas te reposer.",
+                "Il est impossible de se reposer."
+              ],
+              "answer": "Tu devrais te reposer / il faut que tu te reposes.",
+              "explanation": "'უნდა' exprime un conseil ou une obligation légère selon le contexte."
+            },
+            {
+              "prompt": "Parmi ces phrases, laquelle exprime une permission ?",
+              "options": [
+                "არ უნდა საუბრობო ახლა.",
+                "შეძლება უთხრა მას სიმართლე.",
+                "მძულს მისთვის პასუხი.",
+                "გადავწყვიტე წასვლა."
+              ],
+              "answer": "შეძლება უთხრა მას სიმართლე.",
+              "explanation": "'შეძლება'/'შიძლება' peut exprimer possibilité ou permission de dire la vérité."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-003",
+      "title": "Parler des directions et donner des indications simples",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 3,
+      "tag": "directions",
+      "icon": "🧭",
+      "goal": "Savoir demander et donner des indications en ville en utilisant prépositions, cas locatif et verbes de mouvement.",
+      "slides": [
+        {
+          "eyebrow": "Bases",
+          "title": "Prépositions et suffixes locatifs",
+          "body": "Le géorgien utilise des suffixes locatifs pour indiquer lieu : -ში (à/dans), -ზე (sur), -თან (près de/avec). Les verbes de mouvement fréquents : წავიდე (aller), მივიდე (arriver), მოხვიდე (venir).",
+          "examples": [
+            {
+              "ka": "ბიბლიოთეკაში არის ბევრი ახალი წიგნი.",
+              "fr": "Il y a beaucoup de nouveaux livres à la bibliothèque.",
+              "note": ""
+            },
+            {
+              "ka": "სტადიონზე რაგბის თამაშია.",
+              "fr": "Il y a un match de rugby au stade.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Repérez les suffixes -ში, -ზე, -თან pour situer un lieu."
+        },
+        {
+          "eyebrow": "Directions courantes",
+          "title": "Expressions pour donner une direction",
+          "body": "Pour dire «à droite / à gauche / tout droit» on utilise: მარცხნივ (à gauche), მარჯვნივ (à droite), პირდაპირ (tout droit). Combinez avec verbes : წადით, მოხვდით, გითხრათ.",
+          "examples": [
+            {
+              "ka": "მარჯვნივ გადაიღეთ და პირველი ქუჩა მარცხনივაა.",
+              "fr": "Tournez à droite et la première rue est à gauche.",
+              "note": ""
+            },
+            {
+              "ka": "პირდაპირ გააგრძელეთ ორი ბლოკი.",
+              "fr": "Continuez tout droit pendant deux pâtés de maisons.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Utilisez მარჯვნივ/მარცხნივ/პირდაპირ + verbe de mouvement pour diriger quelqu'un."
+        },
+        {
+          "eyebrow": "Formules polies",
+          "title": "Demander poliment son chemin",
+          "body": "Formules utiles : 'მიწყებთ?' (Pouvez-vous m'aider ?), 'მოკლედ მითხარით' (Dites-moi brièvement), 'სად არის...?' pour demander où se trouve quelque chose.",
+          "examples": [
+            {
+              "ka": "ბოდიშით, სად არის ავტობუსის გაჩერება?",
+              "fr": "Pardon, où est l'arrêt de bus ?",
+              "note": ""
+            },
+            {
+              "ka": "გთხოვთ, მითხარით გზაა თუ პატარა ზვიადი.",
+              "fr": "S'il vous plaît, dites-moi le chemin pour la petite colline.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Utilisez des formules de politesse + სად არის...? pour demander des directions."
+        },
+        {
+          "eyebrow": "Pratique en contexte",
+          "title": "Dialogue bref",
+          "body": "Exercez-vous avec un court échange : un touriste demande où est un site, un habitant donne la route en 3 étapes claires.",
+          "examples": [
+            {
+              "ka": "— ბოდიში, ნაციონალურ პარკამდე როგორ მივაღწიო? — პირდაპირ გაუყევით, შემდეგ მარჯვნივ დატრიალდით, და პირველი ხევს დაანახევართ.",
+              "fr": "— Excusez-moi, comment puis-je atteindre le parc national ? — Continuez tout droit, ensuite tournez à droite, et vous verrez l'entrée.",
+              "note": ""
+            },
+            {
+              "ka": "— ავტობუსის გაჩერება სად არის? — სავალ ნაწილზე, შენობის უკან.",
+              "fr": "— Où est l'arrêt de bus ? — Sur la voie, derrière le bâtiment.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Donnez 2–3 repères simples et utilisez les suffixes locatifs."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel suffixe indique 'dans/à l'intérieur' en géorgien ?",
+              "options": [
+                "-ზე",
+                "-ში",
+                "-თან",
+                "-შიია"
+              ],
+              "answer": "-ში",
+              "explanation": "Le suffixe -ში indique le lieu intérieur : ბიბლიოთეკაში = à la bibliothèque."
+            },
+            {
+              "prompt": "Comment dit-on 'tout droit' en géorgien ?",
+              "options": [
+                "მარცხნივ",
+                "მარჯვნივ",
+                "პირდაპირ",
+                "უკან"
+              ],
+              "answer": "პირდაპირ",
+              "explanation": "პირდაპირ signifie 'tout droit'. მარცხნივ = à gauche, მარჯვნივ = à droite."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase convient pour demander poliment 'Où est la gare ?' en géorgien ?",
+              "options": [
+                "სად არის სადგური?",
+                "მე ვნახავ სადგურს.",
+                "სადგური არის ახლოს?",
+                "სად არის ველოსიპედი?"
+              ],
+              "answer": "სად არის სადგური?",
+              "explanation": "სად არის ...? est la structure directe pour demander 'où est ... ?'."
+            },
+            {
+              "prompt": "Pour indiquer 'tournez à droite', on dira :",
+              "options": [
+                "მარცხნივ გადაიღეთ",
+                "მარჯვნივ გადაიღეთ",
+                "პირდაპირ იარეთ",
+                "უკან მოდით"
+              ],
+              "answer": "მარჯვნივ გადაიღეთ",
+              "explanation": "მარჯვნივ გადაიღეთ = tournez à droite. მარცხნივ = gauche, პირდაპირ = tout droit."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-004",
+      "title": "Relier des idées : conjonctions et connecteurs courants",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 4,
+      "tag": "connecteurs",
+      "icon": "🔗",
+      "goal": "Maîtriser des conjonctions fréquentes pour lier des phrases : მაგრამ (mais), და (et), იმიტომ რომ (parce que), ამიტომ (donc).",
+      "slides": [
+        {
+          "eyebrow": "Rappel",
+          "title": "Conjonctions élémentaires",
+          "body": "Les connecteurs relient idées et permettent d'exprimer contraste, cause, conséquence et addition. Les plus utilisés : და (et), მაგრამ (mais), რადგან/porque (parce que), ამიტომ (donc).",
+          "examples": [
+            {
+              "ka": "მე ვსწავლობდი და თან ვმუშაობდი.",
+              "fr": "J'étudiais et en même temps je travaillais.",
+              "note": ""
+            },
+            {
+              "ka": "მინდა წავალ, მაგრამ დავიღალე.",
+              "fr": "Je veux partir, mais je suis fatigué.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Mémorisez ces connecteurs pour organiser vos idées."
+        },
+        {
+          "eyebrow": "Cause et conséquence",
+          "title": "Parce que / donc",
+          "body": "'იმიტომ რომ' ou 'რათა' introduisent la cause : 'parce que'. 'ამიტომ' est la conséquence : 'donc'. Placez-les pour clarifier le lien logique.",
+          "examples": [
+            {
+              "ka": "მე ჩავაგდე გამოცდა იმიტომ რომ არ ვმეცადინე.",
+              "fr": "J'ai échoué à l'examen parce que je n'ai pas étudié.",
+              "note": ""
+            },
+            {
+              "ka": "არ ვიმუშავე, ამიტომ ვიოზებ გაძვირებულ პირგი.",
+              "fr": "Je n'ai pas travaillé, donc j'ai des problèmes financiers.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Pour exprimer cause utilisez იმიტომ que, pour conséquence utilisez ამიტომ."
+        },
+        {
+          "eyebrow": "Opposition",
+          "title": "Mais / cependant",
+          "body": "'მაგრამ' marque l'opposition ; 'თუმცა' est plus soutenu ('cependant'). On peut les placer en début ou au milieu de la phrase selon l'emphase.",
+          "examples": [
+            {
+              "ka": "მე მოვიდოდი, მაგრამ გზაზე დამაგვიანდა.",
+              "fr": "Je serais venu, mais j'ai été retardé sur la route.",
+              "note": ""
+            },
+            {
+              "ka": "ის სწავლობს ძალიან, თუმცა შედეგები ნელა ჩანს.",
+              "fr": "Il étudie beaucoup ; toutefois les résultats se voient lentement.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Utilisez იმიტომ que/ამიტომ pour cause-conséquence et მაგრამ/თუმცა pour le contraste."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Écrire un petit paragraphe",
+          "body": "Rédigez 5 à 6 phrases en utilisant au moins trois connecteurs différents pour expliquer une situation quotidienne (travail, études, voyage).",
+          "examples": [
+            {
+              "ka": "მე დავგეგმე მოგზაურობა, თუმცა ბილეთები ძვირია, ამიტომ შეიძლება გადავდებ.",
+              "fr": "J'ai prévu un voyage, mais les billets sont chers, donc je pourrais le reporter.",
+              "note": ""
+            },
+            {
+              "ka": "ვმუშაობ სახლში და ამით ვიხენებ დროის ეკონომიას.",
+              "fr": "Je travaille de chez moi et ainsi j'économise du temps.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Alternez conjonctions pour rendre votre discours cohérent : cause, conséquence, contraste, addition."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel connecteur géorgien signifie 'donc' ?",
+              "options": [
+                "მაგრამ",
+                "და",
+                "იმიტომ",
+                "ახლა"
+              ],
+              "answer": "იმიტომ",
+              "explanation": "იმიტომ (souvent suivi de consequence) signifie 'donc' ou 'par conséquent'."
+            },
+            {
+              "prompt": "Quelle conjonction sert à exprimer l'opposition (mais) ?",
+              "options": [
+                "და",
+                "იმიტომ რომ",
+                "მაგრამ",
+                "ამით"
+              ],
+              "answer": "მაგრამ",
+              "explanation": "მაგრამ signifie 'mais' ; ნიშნავს აჩვენებს წინააღმდეგობას."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans «მე ჩავაგდე გამოცდა იმიტომ que არ ვმეცადინე», 'რატომ' est remplacé par :",
+              "options": [
+                "ამიტომ",
+                "მაგრამ",
+                "იმიტომ რომ",
+                "და"
+              ],
+              "answer": "იმიტომ რომ",
+              "explanation": "იმიტომ que (იმიტომ რომ) introduit la cause: parce que."
+            },
+            {
+              "prompt": "Quel connecteur relie simplement deux actions sans nuance ?",
+              "options": [
+                "იმიტომ",
+                "და",
+                "თუმცა",
+                "ამიტომ რომ"
+              ],
+              "answer": "და",
+              "explanation": "და signifie 'et', il relie deux actions de façon neutre."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-005",
+      "title": "Exprimer le projet futur proche et parler d'intentions",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 5,
+      "tag": "futur_proche",
+      "icon": "🚀",
+      "goal": "Savoir former et utiliser le futur proche pour parler de projets et d'intentions (vouloir + aller faire).",
+      "slides": [
+        {
+          "eyebrow": "Concept",
+          "title": "Futur proche : construction",
+          "body": "Le futur proche s'exprime en combinant vouloir/aller + infinitif ou à l'aide de формы 'მივდივარ' + infinitif selon le verbe. On peut dire 'მინდა + verb (infinitif implicite)' pour exprimer l'intention.",
+          "examples": [
+            {
+              "ka": "მე მინდა წახვიდე შემდეგ კვირას.",
+              "fr": "Je veux partir la semaine prochaine.",
+              "note": "Literal structure may vary: common is 'მინდა რომ წავიდე'"
+            },
+            {
+              "ka": "ჩვენ მივიდემ შეხვედრაზე მალე.",
+              "fr": "Nous allons bientôt arriver à la réunion.",
+              "note": "colloquial variants exist"
+            }
+          ],
+          "takeaway": "Utilisez 'მინდა' pour l'intention et 'მივდივარ/ვაპირებ' pour le futur proche."
+        },
+        {
+          "eyebrow": "Formes courantes",
+          "title": "ვაპირებ / მინდა / უნდა",
+          "body": "Pour exprimer un projet : 'ვაპირებ + infinitif' (je prévois), 'მინდა' (je veux), 'უნდა' peut indiquer qu'on doit faire quelque chose bientôt.",
+          "examples": [
+            {
+              "ka": "მე ვაპირებ სწავლა უცხოეთში.",
+              "fr": "J'ai l'intention d'étudier à l'étranger.",
+              "note": ""
+            },
+            {
+              "ka": "მინდა ნაყინი ჭამა დღეს.",
+              "fr": "Je veux manger une glace aujourd'hui.",
+              "note": "colloquial: 'მინდა რომ ვჭამო' is also used"
+            }
+          ],
+          "takeaway": "Choisissez 'ვაპირებ' pour plan sérieux, 'მინდა' pour envie/intention."
+        },
+        {
+          "eyebrow": "Expressions temporelles",
+          "title": "Marquer le futur proche",
+          "body": "Utilisez des marqueurs temporels : დღეს (aujourd'hui), ხვალ (demain), შემდეგ კვირას (la semaine prochaine). Ils clarifient l'aspect proche du futur.",
+          "examples": [
+            {
+              "ka": "ხვალ გავფრინავ პარიზში.",
+              "fr": "Demain je prends l'avion pour Paris.",
+              "note": ""
+            },
+            {
+              "ka": "დღეს საღამოს ვაპირებთ ფილმის ნახვას.",
+              "fr": "Nous prévoyons de regarder un film ce soir.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Associez 'ვაპირებ/მინდა' avec des adverbes temporels pour préciser le futur proche."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Planifier une journée",
+          "body": "Rédigez ce que vous allez faire demain en 4–6 phrases en utilisant 'ვაპირებ', 'მინდა' et des adverbes temporels.",
+          "examples": [
+            {
+              "ka": "ხვალ დილით ვაპირებ jogging-თ გამოსვლას, მერე ოფისში წავალ და საღამოს მეგობრებთან ვიქნები.",
+              "fr": "Demain matin je prévois de sortir courir, puis j'irai au bureau et le soir je serai avec des amis.",
+              "note": ""
+            },
+            {
+              "ka": "დღეს მინდა წიგნი დასრულდეს და შემდეგ ვისვენებ.",
+              "fr": "Aujourd'hui je veux finir le livre et ensuite me reposer.",
+              "note": ""
+            }
+          ],
+          "takeaway": "Mixez 'ვაპირებ' et 'მინდა' selon degré de planification."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel verbe convient pour exprimer une intention planifiée (je prévois) ?",
+              "options": [
+                "ვკითხულობ",
+                "ვაპირებ",
+                "გაჩერდი",
+                "ვდგები"
+              ],
+              "answer": "ვაპირებ",
+              "explanation": "ვაპირებ signifie 'je prévois/intends' et est utilisé pour un projet planifié."
+            },
+            {
+              "prompt": "Quelle phrase exprime une envie (je veux) ?",
+              "options": [
+                "მე ვაპირებ წავიდე",
+                "მე მინდა წახვიდე",
+                "მე მოვდივარ",
+                "მე არ მინდა არსად"
+              ],
+              "answer": "მე მინდა წახვიდე",
+              "explanation": "მე მინდა + infinitif (souvent introduit par რომ) signifie 'je veux partir'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Pour préciser que quelque chose se passe demain (futur proche), quel mot utiliser ?",
+              "options": [
+                "გუშინ",
+                "დღეს",
+                "ხვალ",
+                "გასულ წელს"
+              ],
+              "answer": "ხვალ",
+              "explanation": "ხვალ signifie 'demain' et marque le futur proche."
+            },
+            {
+              "prompt": "Quelle combinaison est la plus appropriée pour dire 'Je prévois d'aller courir demain matin' ?",
+              "options": [
+                "ხვალ დილით მინდა joggin-ი.",
+                "ხვალ დილით ვაპირებ ჯოგზე წასვლას.",
+                "გუშინ დილით ვაპირებ ჯოგზე წასვლას.",
+                "დღეს დილით ვაპირებ გასვლას გუშინ."
+              ],
+              "answer": "ხვალ დილით ვაპირებ ჯოგზე წასვლას.",
+              "explanation": "ხვალ დილით (demain matin) + ვაპირებ (je prévois) + infinitif exprime correctement le projet futur proche."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-006",
+      "title": "Exprimer la nécessité et l'obligation (უნდა, აუცილებელია)",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 6,
+      "tag": "grammaire",
+      "icon": "⚖️",
+      "goal": "Savoir dire ce qui est nécessaire, obligatoire ou conseillé en géorgien et nuancer l'obligation.",
+      "slides": [
+        {
+          "eyebrow": "Intro",
+          "title": "Deux façons courantes d'exprimer l'obligation",
+          "body": "En géorgien, on utilise surtout 'უნდა' (obligation personnelle/conseil) et 'აუცილებელია' (impersonnel, nécessité).",
+          "examples": [
+            {
+              "ka": "შენ უნდა იყვიდე ადრე.",
+              "fr": "Tu dois partir tôt.",
+              "note": "უნდა + verbe à l'infinitif (forme sans ტ) pour obligation personnelle."
+            },
+            {
+              "ka": "აუცილებელია წასვლა.",
+              "fr": "Il est nécessaire de partir.",
+              "note": "აუცილებელია + substantif/verbe en forme nominalisée : phrase impersonnelle."
+            }
+          ],
+          "takeaway": "უნდა = obligation/conseil direct ; აუცილებელია = nécessité impersonnelle."
+        },
+        {
+          "eyebrow": "Usage",
+          "title": "Formes et position de 'უნდა' et 'აუცილებელია'",
+          "body": "უნდა précède normalement le verbe conjugué. ურნათა: 'უნდა' ne change selon le sujet. აუცილებელია s'emploie souvent en tête de phrase ou avant l'infinitif/nominalisation.",
+          "examples": [
+            {
+              "ka": "მასაც უნდა ელი.",
+              "fr": "Il/Elle doit aussi attendre.",
+              "note": "უნდა + forme conjuguée."
+            },
+            {
+              "ka": "აუცილებელია მეტი ძილი.",
+              "fr": "Il est nécessaire de dormir plus.",
+              "note": "აუცილებელია + nom."
+            }
+          ],
+          "takeaway": "Position fixe de უნდა ; აუცილებელია reste impersonnel."
+        },
+        {
+          "eyebrow": "Nuancer l'obligation",
+          "title": "Conseil, forte obligation, interdiction",
+          "body": "Pour atténuer, on ajoute 'სჯობს' ou 'აღარაფერი', pour renforcer on peut dire 'ნამდვილად უნდა' ou 'უნდა აუცილებლად'. L'interdiction se forme avec 'არ უნდა' ou 'უბრძანეს არ'.",
+          "examples": [
+            {
+              "ka": "შენს სჯობს წავიდე დროულად.",
+              "fr": "Il vaudrait mieux que tu partes à l'heure.",
+              "note": "სჯობს = conseil."
+            },
+            {
+              "ka": "არ უნდა თქვა ეს.",
+              "fr": "Tu ne dois pas dire cela.",
+              "note": "არ (négation) + უნდა = interdiction."
+            }
+          ],
+          "takeaway": "On peut nuancer l'obligation avec სჯობს (conseil), ნამდვილი/უნივერსალური adverbes (renforcement) et არ + უნდა (interdiction)."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Expressions fréquentes et exercices rapides",
+          "body": "Remplacez en géorgien les mots entre parenthèses : (tu dois téléphoner), (il est nécessaire d'arriver tôt), (ne pas toucher).",
+          "examples": [
+            {
+              "ka": "შენ უნდა დაერეკა.",
+              "fr": "Tu dois téléphoner.",
+              "note": "Forme simple avec უნდა."
+            },
+            {
+              "ka": "აუცილებელია ადრე მისვლა.",
+              "fr": "Il est nécessaire d'arriver tôt.",
+              "note": "აუცილებელია + nominalisation."
+            },
+            {
+              "ka": "არ უნდა შეეხო.",
+              "fr": "Ne pas toucher.",
+              "note": "არ + უნდა pour interdiction."
+            }
+          ],
+          "takeaway": "S'entraîner à placer უნდა/აუცილებელია et la négation არ devant უნდა."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle forme est impersonnelle pour exprimer la nécessité ?",
+              "options": [
+                "უნდა",
+                "სჯობს",
+                "აუცილებელია",
+                "არ უნდა"
+              ],
+              "answer": "აუცილებელია",
+              "explanation": "აუცილებელია est une construction impersonnelle signifiant 'il est nécessaire'."
+            },
+            {
+              "prompt": "Où se place normalement 'უნდა' ?",
+              "options": [
+                "À la fin de la phrase",
+                "Juste avant le verbe",
+                "Après le sujet uniquement",
+                "Seulement après 'აუცილებელია'"
+              ],
+              "answer": "Juste avant le verbe",
+              "explanation": "უნდა précède normalement le verbe conjugué pour indiquer l'obligation."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment exprime-t-on l'interdiction 'ne pas dire' en géorgien ?",
+              "options": [
+                "უნდა თქვა",
+                "არ უნდა თქვა",
+                "აუცილებელია თქვა",
+                "სჯობს თქვა"
+              ],
+              "answer": "არ უნდა თქვა",
+              "explanation": "La négation 'არ' devant 'უნდა' forme l'interdiction : 'არ უნდა თქვა'."
+            },
+            {
+              "prompt": "Quelle phrase est un conseil atténué ?",
+              "options": [
+                "შენ უნდა წახვიდე ახლა.",
+                "შენს სჯობს წახვიდე ახლა.",
+                "შენ არ უნდა წახვიდე ახლა.",
+                "აუცილებელია წახვიდე ახლა."
+              ],
+              "answer": "შენს სჯობს წახვიდე ახლა.",
+              "explanation": "სჯობს signale un conseil (atténué), contrairement à უნდა ou აუცილებელია."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-007",
+      "title": "Le discours rapporté : dire ce que quelqu'un a dit (თქვა, რომ)",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 7,
+      "tag": "communication",
+      "icon": "🗣️",
+      "goal": "Savoir introduire et transformer des phrases en discours indirect avec 'თქვა/უთხრა' et la conjonction 'რომ'.",
+      "slides": [
+        {
+          "eyebrow": "Base",
+          "title": "Verbes fréquents et structure",
+          "body": "Pour rapporter des paroles, on utilise souvent 'თქვა' (a dit) ou 'უთხრა' (a dit à quelqu'un). La subordonnée est introduite par 'რომ'.",
+          "examples": [
+            {
+              "ka": "მან თქვა, რომ მოვიდოდა.",
+              "fr": "Il a dit qu'il viendrait.",
+              "note": "თქვა + რომ + proposition (forme conjuguée)."
+            },
+            {
+              "ka": "მან მას უთხრა, რომ დაელოდებინა.",
+              "fr": "Il lui a dit de l'attendre.",
+              "note": "უთხრა + datif (მას) + რომ + proposition."
+            }
+          ],
+          "takeaway": "Dicter: sujet + თქვა/უთხრა + რომ + proposition rapportée."
+        },
+        {
+          "eyebrow": "Temps et concordance",
+          "title": "Adaptation des temps",
+          "body": "En discours indirect, le temps de la subordonnée suit le contexte : si l'énonciation est au passé, la subordonnée est généralement au passé aussi.",
+          "examples": [
+            {
+              "ka": "თოვდა და ის თქვა, რომ მალევე გათხოვდებოდნენ.",
+              "fr": "Il neigeait et il a dit qu'ils se marieraient bientôt.",
+              "note": "Temps mis au passé dans la subordonnée pour rester cohérent."
+            },
+            {
+              "ka": "ის იტყოდა, რომ ვერ მოდიოდა.",
+              "fr": "Il disait qu'il ne pouvait pas venir.",
+              "note": "Forme imperfective selon le contexte."
+            }
+          ],
+          "takeaway": "Respecter la concordance des temps: passé → subordonnée au passé."
+        },
+        {
+          "eyebrow": "Impératif et conseil rapportés",
+          "title": "Rapporter des ordres et conseils",
+          "body": "L'impératif direct se transforme souvent avec 'რომ' + verbe conjugué à la troisième personne ou infinitif selon la nuance.",
+          "examples": [
+            {
+              "ka": "მან მითხრა, რომ დამირეკა.",
+              "fr": "Il m'a dit de l'appeler.",
+              "note": "Direct: 'დარეკე' → indirect: 'დამირეკა' (3e pers. conjuguée avec datif)."
+            },
+            {
+              "ka": "მას უთხრეს, რომ არ შეეხოთ.",
+              "fr": "On lui a dit de ne pas toucher.",
+              "note": "Impératif négatif transformé en 'რომ' + négation."
+            }
+          ],
+          "takeaway": "Pour ordres: impératif → 'რომ' + conjugaison adaptée."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Transformer des phrases en discours indirect",
+          "body": "Exercice : transformez ces phrases directes en discours rapporté : 'მე მოვალ', 'დარეკე ახლა', 'არ ეცადო'.",
+          "examples": [
+            {
+              "ka": "თქვა, რომ მოვიდოდა.",
+              "fr": "Il a dit qu'il viendrait.",
+              "note": "მე მოვალ → თქვა, რომ მოვიდოდა."
+            },
+            {
+              "ka": "მან მითხრა, რომ დარეკა.",
+              "fr": "Il m'a dit d'appeler.",
+              "note": "დარეკე → უთხრა, რომ დარეკა."
+            },
+            {
+              "ka": "უთხრეს, რომ არ ეცადა.",
+              "fr": "Ils lui ont dit de ne pas essayer.",
+              "note": "არ ეცადო → უთხრეს, რომ არ ეცადა."
+            }
+          ],
+          "takeaway": "Utiliser 'რომ' et ajuster le verbe (temps/personne) pour rapporter fidèlement."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot introduit en général la subordonnée du discours rapporté ?",
+              "options": [
+                "თუ",
+                "რადგან",
+                "რომ",
+                "მაგრამ"
+              ],
+              "answer": "რომ",
+              "explanation": "La conjonction 'რომ' introduit la proposition rapportée après 'თქვა/უთხრა'."
+            },
+            {
+              "prompt": "Comment transformer l'impératif direct 'დარეკე' pour dire 'il m'a dit d'appeler' ?",
+              "options": [
+                "უთხრა რომ დარეკა",
+                "მითხრა დარეკა",
+                "მითხრა, რომ დავრეკო",
+                "მითხრა, რომ დარეკა"
+              ],
+              "answer": "მითხრა, რომ დარეკა",
+              "explanation": "L'impératif se transforme en 'რომ' + verbe conjugué; avec datif cela donne 'მითხრა, რომ დარეკა'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase est un discours indirect correct de 'მე მოვალ' ?",
+              "options": [
+                "თქვა, რომ მოვიდოდა.",
+                "თქვა, რომ მოვედი.",
+                "თქვა, რომ მოვა.",
+                "თქვა, რომ მოდის."
+              ],
+              "answer": "თქვა, რომ მოვიდოდა.",
+              "explanation": "Pour rapporter 'მე მოვალ' (futur) dans un contexte de parole au passé, on utilisegev. 'მოვიდოდა' (conditionnel passé)."
+            },
+            {
+              "prompt": "Comment rapporte-t-on 'არ შეეხოთ' (impératif négatif) ?",
+              "options": [
+                "უთხრეს რომ არ შეეხონ",
+                "უთხრეს რომ არ შეეხოთ",
+                "უთხრეს არ შეეხონ",
+                "უთხრეს არ შეეხოთდა"
+              ],
+              "answer": "უთხრეს რომ არ შეეხოთ",
+              "explanation": "L'impératif négatif devient 'რომ' + verbe conjugué à la 3e personne (არ შეეხოთ) pour le discours rapporté."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-008",
+      "title": "Objectif et finalité : utiliser 'იმისთვის რომ' et 'რომ' correctement",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 8,
+      "tag": "structure",
+      "icon": "🎯",
+      "goal": "Expliquer une raison d'action (but) en géorgien avec 'იმისთვის რომ' et alternatives.",
+      "slides": [
+        {
+          "eyebrow": "Concept",
+          "title": "Exprimer le but avec 'იმიტომ' vs 'იმისთვის რომ'",
+          "body": "Pour expliquer le but on privilégie 'იმისთვის რომ' (pour que) ; 'იმიტომ' explique la cause (parce que).",
+          "examples": [
+            {
+              "ka": "მე ვსწავლობ იმისთვის რომ გამოცდა ჩავაბარო.",
+              "fr": "J'étudie pour réussir l'examen.",
+              "note": "იმისთვის რომ + proposition finale."
+            },
+            {
+              "ka": "ვერ მოვედი იმიტომ რომ ავად ვიყავი.",
+              "fr": "Je n'ai pas pu venir parce que j'étais malade.",
+              "note": "პუნქცია თან cause = იმიტომ que."
+            }
+          ],
+          "takeaway": "იმისთვის რომ = pour que (but). იმიტომ = parce que (cause)."
+        },
+        {
+          "eyebrow": "Structure et ordre",
+          "title": "Placement et concordance",
+          "body": "იმისთვის რომ précède la subordonnée exprimant l'objectif ; le verbe peut garder la personne et le temps nécessaires au sens.",
+          "examples": [
+            {
+              "ka": "ის მუშაობს რომ ოჯახი ეჭამა.",
+              "fr": "Il travaille pour nourrir la famille.",
+              "note": "Verbe principal + ამისთვის que + subordonnée finale."
+            },
+            {
+              "ka": "დღეს წავედი პატარა მაღაზიაში იმისთვის რომ ყავა მიმეღო.",
+              "fr": "Aujourd'hui je suis allé au petit magasin pour acheter du café.",
+              "note": "Temps passé possible dans la subordonnée selon l'action."
+            }
+          ],
+          "takeaway": "Le temps dans la subordonnée dépend du rapport temporel entre actions."
+        },
+        {
+          "eyebrow": "Alternatives courtes",
+          "title": "Formes plus courtes: 'რომ' seul",
+          "body": "Dans la langue parlée, on peut parfois utiliser juste 'რომ' après un nom ou verbe pour indiquer le but, mais 'იმისთვის რომ' reste plus clair.",
+          "examples": [
+            {
+              "ka": "მე წიგნი ვიყიდე რომ შემესწავლა.",
+              "fr": "J'ai acheté le livre pour l'étudier.",
+              "note": "'რომ' peut suffire à l'oral."
+            },
+            {
+              "ka": "გარეთ გავედი რომ ჰაერი მეშუნთქა.",
+              "fr": "Je suis sorti pour respirer de l'air.",
+              "note": "Usage courant à l'oral."
+            }
+          ],
+          "takeaway": "იმისთვის რომ = formel/clair ; რომ = plus informel, courant à l'oral."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Transformer des phrases (but vs cause)",
+          "body": "Indiquez si la phrase exprime un but (იმისთვის რომ) ou une cause (იმიტომ რომ) et traduisez en géorgien : 'Je cours pour être en forme' ; 'Je cours parce qu'il pleut'.",
+          "examples": [
+            {
+              "ka": "მე ვვარჯიშობ იმისთვის რომ ფორმაში ვიყო.",
+              "fr": "Je fais du sport pour être en forme.",
+              "note": "But -> იმისთვის რომ."
+            },
+            {
+              "ka": "ვიმოძრავდი იმიტომ რომ წვიმდა.",
+              "fr": "Je me déplaçais parce qu'il pleuvait.",
+              "note": "Cause -> იმიტომ რომ."
+            }
+          ],
+          "takeaway": "Savoir distinguer le but (იმისთვის რომ) et la cause (იმიტომ რომ)."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle expression indique le but de l'action de façon formelle ?",
+              "options": [
+                "იმიტომ რომ",
+                "იმისთვის რომ",
+                "რადგან",
+                "მაგრამ"
+              ],
+              "answer": "იმისთვის რომ",
+              "explanation": "იმისთვის რომ est utilisé pour exprimer le but (pour que)."
+            },
+            {
+              "prompt": "Quelle phrase signifie 'J'ai acheté le livre pour l'étudier' ?",
+              "options": [
+                "მე წიგნი ვიყიდე იმიტომ რომ შემესწავლა.",
+                "მე წიგნი ვიყიდე იმისთვის რომ შემესწავლა.",
+                "მე წიგნი ვიყიდე რომ ვერ შევისწავლე.",
+                "მე წიგნი ვიყიდე რომ არა ვსწავლობ."
+              ],
+              "answer": "მე წიგნი ვიყიდე იმისთვის რომ შემესწავლა.",
+              "explanation": "Pour exprimer le but, utiliser 'იმისთვის რომ'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase exprime une cause (parce que) ?",
+              "options": [
+                "მე მომინდა იმისთვის რომ წავიდე.",
+                "მე წავედი იმიტომ რომ მშიერი ვიყავი.",
+                "მე წავედი იმისთვის რომ ვყოფილიყავი.",
+                "მე გავჩერდი რომ ვსუნთქო."
+              ],
+              "answer": "მე წავედი იმიტომ რომ მშიერი ვიყავი.",
+              "explanation": "გამოყენებულია 'იმიტომ რომ' pour indiquer la cause."
+            },
+            {
+              "prompt": "Laquelle est une forme orale acceptable pour 'pour' ?",
+              "options": [
+                "იმდენად რომ",
+                "თუ იმიტომ",
+                "რომ seul",
+                "იმფორმაში რომ"
+              ],
+              "answer": "რომ seul",
+              "explanation": "À l'oral, on utilise parfois simplement 'რომ' pour exprimer le but."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-009",
+      "title": "Comparer : 'უფრო ... ვიდრე' et superlatifs",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 9,
+      "tag": "vocabulaire",
+      "icon": "⚖️",
+      "goal": "Utiliser les comparatifs et superlatifs courants en géorgien pour comparer qualités et quantités.",
+      "slides": [
+        {
+          "eyebrow": "Fondamentaux",
+          "title": "Comparer deux éléments : 'უფრო ... ვიდრე'",
+          "body": "Pour dire 'plus ... que', on emploie 'უფრო' devant l'adjectif et 'ვიდთვის' ou 'ვიდრე' n'est pas utilisé ; la conjonction comparative est 'ვიდრე' parfois, mais le plus courant est 'მადისგან' — cependant la forme standard simple est 'უფრო ... ვიდრე'.",
+          "examples": [
+            {
+              "ka": "მანანა უფრო მაღალია ვიდრე მარია.",
+              "fr": "Manana est plus grande que Maria.",
+              "note": "უფრო + adjectif + ვიდრე + comparé"
+            },
+            {
+              "ka": "ეს წიგნი უფრო საინტერესოა ვიდრე ძველი.",
+              "fr": "Ce livre est plus intéressant que l'ancien.",
+              "note": "Comparer des qualités."
+            }
+          ],
+          "takeaway": "უფრო ... ვიდრე = plus ... que."
+        },
+        {
+          "eyebrow": "Moins et aussi",
+          "title": "Diminution et égalité",
+          "body": "Pour 'moins ... que' on utilise 'ნაკლები' ou ' ნაკლები ... ვიდრე'. Pour 'aussi ... que', on utilise 'ისევე ... როგორც' ou 'არშინად... როგორც'.",
+          "examples": [
+            {
+              "ka": "ის ნაკლები გამოცდილი ყოფილა ვიდრე ჩვენ ვგონებდით.",
+              "fr": "Il était moins expérimenté que ce que nous pensions.",
+              "note": "ნაკლები ... ვიდრე = moins ... que"
+            },
+            {
+              "ka": "ეს მანქანა ისე სწრაფია როგორც აპირებდნენ.",
+              "fr": "Cette voiture est aussi rapide qu'ils l'avaient prévu.",
+              "note": "ისევე ... როგორც = aussi ... que"
+            }
+          ],
+          "takeaway": "ნაკლები ... ვიდრე = moins ; ისე ... როგორც = aussi"
+        },
+        {
+          "eyebrow": "Superlatif",
+          "title": "Le plus / le moins",
+          "body": "Pour dire 'le plus', on peut dire 'ყველაზე' devant l'adjectif. Pour le moins, on utilise 'ყველაზე ნაკლები' ou 'უმეტესად'.",
+          "examples": [
+            {
+              "ka": "ეს არის ყველაზე კარგი იდეა.",
+              "fr": "C'est la meilleure idée.",
+              "note": "ყველაზე + adjectif = le plus..."
+            },
+            {
+              "ka": "ის ყველაზე ნაზი ბავშვია ჯგუფში.",
+              "fr": "C'est l'enfant le plus gentil du groupe.",
+              "note": "Superlatif d'un groupe."
+            }
+          ],
+          "takeaway": "ყველაზე = le plus (superlatif)."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Comparer des objets et des personnes",
+          "body": "Transformez : 'Paul est plus âgé que Marc', 'Cette robe est la plus belle du magasin', 'Ce café est moins fort que l'autre'.",
+          "examples": [
+            {
+              "ka": "პავლე უფრო მოხუცია ვიდრე მარკო.",
+              "fr": "Paul est plus âgé que Marc.",
+              "note": "უფრო ... ვიდრე pour l'âge."
+            },
+            {
+              "ka": "ეს კაბა არის ყველაზე ლამაზი მაღაზიაში.",
+              "fr": "Cette robe est la plus belle du magasin.",
+              "note": "ყველაზე + adjectif pour superlatif."
+            },
+            {
+              "ka": "ამ ყავას ნაკლები რბილი გემო აქვს ვიდრე იმაზე.",
+              "fr": "Ce café est moins fort que l'autre.",
+              "note": "ნაკლები ... ვიდრე pour moins."
+            }
+          ],
+          "takeaway": "Pratiquez მნიშვნელოვანია: უფრო, ნაკლები, და ყველაზე pour comparer."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Comment dit-on 'plus rapide que' en géorgien ?",
+              "options": [
+                "ნაკლები სწრაფი ვიდრე",
+                "უფრო სწრაფი ვიდრე",
+                "ყველაზე სწრაფი ვიდრე",
+                "ისევე სწრაფია როგორც"
+              ],
+              "answer": "უფრო სწრაფი ვიდრე",
+              "explanation": "უფრო + adjectif + ვიდრე = 'plus ... que'."
+            },
+            {
+              "prompt": "Quelle expression signifie 'aussi ... que' ?",
+              "options": [
+                "ნაკლები ... ვიდრე",
+                "უფრო ... ვიდრე",
+                "ისევე ... როგორც",
+                "ყველაზე ... ვიდრე"
+              ],
+              "answer": "ისევე ... როგორც",
+              "explanation": "ისევე ... როგორც sert à exprimer l'égalité (aussi ... que)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle forme est correcte pour 'le meilleur livre' ?",
+              "options": [
+                "ყველაზე ცუდი წიგნი",
+                "უფრო კარგი წიგნი",
+                "ყველაზე კარგი წიგნი",
+                "ნაკლები კარგი წიგნი"
+              ],
+              "answer": "ყველაზე კარგი წიგნი",
+              "explanation": "ყველაზე + adjectif = le plus ... (superlatif): 'le meilleur'."
+            },
+            {
+              "prompt": "Quelle phrase rend 'Ce café est moins fort que l'autre' ?",
+              "options": [
+                "ეს ყავა უფრო ძლიერი ვიდრე იმაზეა.",
+                "ეს ყავა ნაკლები ძლიერია ვიდრე იმაზე.",
+                "ეს ყავა ნაკლები უნდა მეტად ძლიერია.",
+                "ეს ყავა ნაკლები ძლიერი აქვს ვიდრე იმაზე."
+              ],
+              "answer": "ეს ყავა ნაკლები ძლიერია ვიდრე იმაზე.",
+              "explanation": "ნაკლები ... ვიდრე = moins ... que; structure correcte : 'ეს ყავა ნაკლები ძლიერია ვიდრე იმაზე.'"
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b1-gen-010",
+      "title": "Conditionnel simple : si (თუ) + résultat",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 10,
+      "tag": "syntaxe",
+      "icon": "🔁",
+      "goal": "Construire des phrases conditionnelles réelles et hypothétiques simples avec 'თუ' et adapter les temps en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "La conjonction 'თუ' pour poser une condition",
+          "body": "On utilise 'თუ' pour introduire la condition (si). La conséquence suit après la virgule ou dans la seconde proposition.",
+          "examples": [
+            {
+              "ka": "თუ წვიმს, დარჩები სახლში.",
+              "fr": "S'il pleut, tu resteras à la maison.",
+              "note": "Condition réelle, présent → présent/futur."
+            },
+            {
+              "ka": "თუ მოიტანს წიგნს, ვკითხულობთ.",
+              "fr": "Si (il) apporte le livre, nous le lirons.",
+              "note": "Si + présent → action possible."
+            }
+          ],
+          "takeaway": "თუ introduit la condition; la conséquence suit dans la seconde proposition."
+        },
+        {
+          "eyebrow": "Conditions probables",
+          "title": "Si + présent → futur/impératif",
+          "body": "Pour des conditions probables, on emploie souvent le présent dans la subordonnée et le futur/impératif dans la principale.",
+          "examples": [
+            {
+              "ka": "თუ შეხვედრილხარ, უთხარი მას ჩემი ამბავი.",
+              "fr": "Si tu le rencontres, dis-lui de ma part.",
+              "note": "Présent + impératif pour résultat."
+            },
+            {
+              "ka": "თუ მოასწრებენ, დაგვირეკავენ.",
+              "fr": "S'ils ont le temps, ils nous appelleront.",
+              "note": "Présent → futur."
+            }
+          ],
+          "takeaway": "Présent dans 'თუ' pour une condition probable, résultat au futur ou impératif."
+        },
+        {
+          "eyebrow": "Condition irréelle (hypothétique)",
+          "title": "Formulation hypothétique au passé",
+          "body": "Pour des conditions irréelles au passé, on utilise le passé dans la subordonnée et le conditionnel/passé dans la principale.",
+          "examples": [
+            {
+              "ka": "თუ ვიცოდი, დაგეხმარებოდი.",
+              "fr": "Si j'avais su, je t'aurais aidé.",
+              "note": "Subordonnée au passé (ვიცოდი), principale au conditionnel (-ებდი)."
+            },
+            {
+              "ka": "თუ ჩამოხვიდოდ, მეგობრები გახდებოდნენ.",
+              "fr": "Si tu venais, tu deviendrais ami(e)s (hypothèse irréelle).",
+              "note": "Forme irréelle avec დანართი '-ო' + 'დგებოდა' type."
+            }
+          ],
+          "takeaway": "Irréel au passé : passé + conditionnel (სრულიად contraire à la réalité)."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Complétez et transformez",
+          "body": "Complétez les phrases : 'თუ დაგიჯერებენ, ...' ; transformez : 'Si j'avais de l'argent, j'achèterais une voiture.'",
+          "examples": [
+            {
+              "ka": "თუ დაგიჯერებენ, ყველაფერი კარგად იქნება.",
+              "fr": "S'ils te croient, tout ira bien.",
+              "note": "Condition probable → conséquence positive au futur."
+            },
+            {
+              "ka": "თუ მქონოდა ფული, მანქანა ვიყიდებდი.",
+              "fr": "Si j'avais de l'argent, j'achèterais une voiture.",
+              "note": "Irréel au présent/past construction: 'თუ მქონოდა' + 'ვიყიდებდი'."
+            }
+          ],
+          "takeaway": "Différencier condition réelle (présent → futur) et irréelle (passé → conditionnel)."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle conjonction introduit la condition 'si' en géorgien ?",
+              "options": [
+                "როდის",
+                "თუ",
+                "რომ",
+                "მაგრამ"
+              ],
+              "answer": "თუ",
+              "explanation": "თუ est la conjonction standard pour 'si' en géorgien."
+            },
+            {
+              "prompt": "Quelle phrase est une condition probable (présent → futur) ?",
+              "options": [
+                "თუ წვიმდა, ჩვენ დაგვეხმარებიდა.",
+                "თუ მოვიდე, დაგპოულობსნო.",
+                "თუ მოასწრებენ, დაგვირეკავენ.",
+                "თუ მცოდნოდა, მოვიდოდი."
+              ],
+              "answer": "თუ მოასწრებენ, დაგვირეკავენ.",
+              "explanation": "Présent dans 'თუ' (მოასწრებენ) et futur dans la principale (დაგვირეკავენ) indiquent une condition probable."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Comment se traduit 'Si j'avais su, je t'aurais aidé' en géorgien parmi les propositions ?",
+              "options": [
+                "თუ ვიცოდი, დაგეხმარებოდი.",
+                "თუ ვიცი, დაგეხმარები.",
+                "თუ მახსოვს, დაგეხმაროს.",
+                "თუ ვიცოდე, დაგეხმარება."
+              ],
+              "answer": "თუ ვიცოდი, დაგეხმარებოდი.",
+              "explanation": "Ici la subordonnée est au passé (ვიცი→ ვიცოდი) et la principale en conditionnel (დაგეხმარებოდი)."
+            },
+            {
+              "prompt": "Quelle phrase exprime 'Si tu viens, nous irons au cinéma' correctement ?",
+              "options": [
+                "თუ მოხვიდე, წავიდნენ კინოში.",
+                "თუ მოხვიდე, წავიდეთ კინოში.",
+                "თუ მოხვიდე, წავიდოდა კინოში.",
+                "თუ მოვიდე, წახვალ კინოში."
+              ],
+              "answer": "თუ მოხვიდე, წავიდეთ კინოში.",
+              "explanation": "Condition probable : 'თუ' + présent (მოხვიდე) → conséquence au futur/optatif (поევიდეთ - წავიდეთ)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    }
+  ]
+}

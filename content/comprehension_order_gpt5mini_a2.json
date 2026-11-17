@@ -1,0 +1,156 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "comprehension_order-a2-gen-001",
+      "title": "დილით მაღაზიაში",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 1,
+      "text": "შუა კვირას დილით სოფიო 8 საათზე მკვეთრად გაიღვიძა. მან სწრაფად გაიკეთა შხაპი და ჩაიდანი ჩართო. საუზმეზე ჩაი დავლი და თბილი ტოსტი შემომეჭამა. 9 საათზე სოფიო ახლომდებარე მაღაზიაში გავიდა, ფუნთუშა იყიდა და ბაღში პარკის ბილეთს არ მიცვდა. დაბრუნებული სახლში, მან სტუმარს დაურეკა და შეხვედრა გაათავისუფლა.",
+      "events": [
+        "Sofio se réveille à 8 heures.",
+        "Elle prend une douche et met la bouilloire en marche.",
+        "Elle prend un petit déjeuner avec du thé et du toast.",
+        "Vers 9 heures elle va au magasin proche pour acheter une viennoiserie.",
+        "De retour à la maison elle appelle un(e) visiteur(se) et annule un rendez-vous."
+      ],
+      "explanation": "Les étapes suivent l'ordre chronologique du réveil au déplacement au magasin puis au retour et à l'appel; chaque action suit logiquement la précédente."
+    },
+    {
+      "id": "comprehension_order-a2-gen-002",
+      "title": "სამუშაოში ახალი პროექტი",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 2,
+      "text": "ორშაბათს მამუკა ოფისში ჩვენს ახალ პროექტს შეხვდა. მან დილით პრეზენტაცია დახურა და წარდგენა დაიწყო. მოხსენების შემდეგ, კოლეგებმა კითხვებს დაუსვეს და მსჯელობა მოეწყო. დღის ბოლოს მენეჯერმა შტაბური ელ.ფოსტა გააგზავნა და ახალი დავალებები დაადგინა.",
+      "events": [
+        "Le lundi Mamuka arrive au bureau pour un nouveau projet.",
+        "Il commence la présentation le matin.",
+        "Après la présentation les collègues posent des questions et discutent.",
+        "En fin de journée le manager envoie un e-mail et attribue des tâches."
+      ],
+      "explanation": "L'ordre suit la journée de travail: arrivée, présentation, discussion puis décisions finales et envoi d'e-mail."
+    },
+    {
+      "id": "comprehension_order-a2-gen-003",
+      "title": "შემოდგომის ბაზრობა",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 3,
+      "text": "შემოდგომის ერთ შაბათს ნანა ბაზრობაზე წავიდა. მან ყვავილებს შეამჩნია და რამდენიმე ყუთი ვაშლი იყიდა. შემდეგ ის კაფესთან ნუგბარი შეარჩია და თავისი მეგობარი გადაეყარა. ისინი ერთად მიუყვნენ ეზოს მახლობლად პარკში და საღამოს სახლში დაბრუნდნენ.",
+      "events": [
+        "Nana va au marché un samedi d'automne.",
+        "Elle remarque des fleurs et achète plusieurs boîtes de pommes.",
+        "Ensuite elle choisit une pâtisserie près du café.",
+        "Elle rencontre son amie, elles vont au parc près de la cour et rentrent chez elles le soir."
+      ],
+      "explanation": "Les événements sont chronologiques: marché, achats, rencontre, promenade puis retour à la maison."
+    },
+    {
+      "id": "comprehension_order-a2-gen-004",
+      "title": "ავტობუსის მოგზაურობა",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 4,
+      "text": "დღეს დილით ილია ავტობუსით ქალაქის ცენტრში წავიდა. ავტობუსი დაფრინავდა და ცოტა დაგვიანდა. ილიამ ბილეთი კონდუქტორს აჩვენა და თავისუფალი ადგილი მონახა. შუადღეს ის ცივ სუპს ეწვია და სამუშაო ადგილზე დაჯდა.",
+      "events": [
+        "Ilya prend le bus pour le centre-ville ce matin.",
+        "Le bus a un petit retard.",
+        "Ilya montre le ticket au conducteur et trouve une place libre.",
+        "À midi il mange une soupe chaude et s'installe au lieu de travail."
+      ],
+      "explanation": "L'ordre suit le trajet: départ en bus, information sur le retard, contrôle du ticket et installation, puis le repas de midi au travail."
+    },
+    {
+      "id": "comprehension_order-a2-gen-005",
+      "title": "გართობა ოჯახთან",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 5,
+      "text": "ბაბუამ შაბათ-კვირას ოჯახური წვეულება გახსნა. დილას ყველა ერთად სადილი მოამზადა და სამზარეულოში საუბრობდნენ. შუადღის შემდეგ ბავშვები მისაღებში თამაშობდნენ და უფროსები ფოტოებს უყურებდნენ. საღამოს ბაბუამ სუფრა შეზარდა და სტუმრებმა მადლობა იცოდნენ.",
+      "events": [
+        "Le grand-père organise une fête familiale ce week-end.",
+        "Le matin, toute la famille prépare le repas et discute dans la cuisine.",
+        "L'après-midi les enfants jouent dans le salon pendant que les adultes regardent des photos.",
+        "Le soir le grand-père met la table et les invités remercient."
+      ],
+      "explanation": "Les étapes respectent la journée de la fête: préparation le matin, activités l'après-midi et repas le soir avec remerciements."
+    },
+    {
+      "id": "comprehension_order-a2-gen-006",
+      "title": "სკოლის ექსკურსია",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 6,
+      "text": "პოლოს სკოლამ ექსკურსია მოაწყო ისტორიულ მეგრულ ქალაქში. მოსწავლეები ავტობუსით წავიდნენ და გზად მსუბუქად ილაპარაკეს. მუზეუმში გაჩერდნენ და გამცვლებელმა ისტორია შეასრულა. ექსკურსიის ბოლოს ისინი პარკში პიკნიკს გაემართნენ და სახლში მშვიდად დაბრუნდნენ.",
+      "events": [
+        "Leur école organise une excursion dans une ville historique.",
+        "Les élèves partent en bus et discutent en chemin.",
+        "Ils visitent un musée où un guide raconte l'histoire.",
+        "À la fin ils font un pique-nique au parc puis rentrent calmement chez eux."
+      ],
+      "explanation": "Séquence naturelle: départ en bus, visite du musée guidée, pique-nique puis retour à la maison."
+    },
+    {
+      "id": "comprehension_order-a2-gen-007",
+      "title": "შეძენილი ახალი სახლი",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 7,
+      "text": "მარიამმა და ილამ ახლახან ახალი სახლი იყიდეს. პირველ დღეს ისინი მოსვლისას ჭურჭელს დაახარისხეს და ავეჯი ნაწილ-ნაწილ დაალაგეს. მეორე დღეს მეზობლებმა მისალმება გაიცეს და კვალი საჩუქრები მოტანეს. მესამე დღეს ოჯახი პატარა საღამოს გამართვა ჩაატარა და მეგობრები მიიწვია.",
+      "events": [
+        "Mariam et Ila ont acheté une nouvelle maison récemment.",
+        "Le premier jour à l'arrivée ils trient la vaisselle et installent les meubles progressivement.",
+        "Le deuxième jour les voisins viennent saluer et apportent des petits cadeaux.",
+        "Le troisième jour la famille organise une petite soirée et invite des amis."
+      ],
+      "explanation": "L'ordre suit l'installation quotidienne: déménagement et rangement, visite des voisins, puis réception d'amis."
+    },
+    {
+      "id": "comprehension_order-a2-gen-008",
+      "title": "ვარჯიში და ჯანმრთელობა",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 8,
+      "text": "რევაზმა ყოველ დილას ფიტნესისთვის გაიღვიძა. მან 7 საათზე მსუბუქი სირბილი დაიწყო და შემდეგ სახლში ვარჯიშის კომპლექსი გაუკეთა. 8 საათზე იოგურტი და ხილი მიირთვა, ხოლო დღის განმავლობაში წყალი ხშირად დალია. საკვებს უფრო ჯანსაღს მიამზადა და დღე პოზიტიურად დახურა.",
+      "events": [
+        "Revaz se réveille chaque matin pour faire du fitness.",
+        "Il commence un léger jogging à 7 heures puis fait une séance de sport à la maison.",
+        "À 8 heures il prend un yaourt et des fruits.",
+        "Pendant la journée il boit souvent de l'eau et prépare des repas plus sains."
+      ],
+      "explanation": "Les actions suivent la routine matinale: réveil, jogging, petit-déjeuner puis habitudes pendant la journée liées à la santé."
+    },
+    {
+      "id": "comprehension_order-a2-gen-009",
+      "title": "დღე ქალაქშიც და ბუნებაშიც",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 9,
+      "text": "საბამ შაბათს დილით ქალაქში წიგნების მაღაზიაში ეწვია. მან ახალი წიგნი იყიდა და შუადღემდე კაფეში წაიკითხა. ბლომომ გამოიკვლია, რომ საღამოს მეგობართან ერთად მთაში წასვლა სურდა. ამიტომ შუა საღამოს ადრე მანქანით დაჯდა და ბებიასთან გვარიანი პიკნიკით მიაღწია მთაზე.",
+      "events": [
+        "Saba visite une librairie en ville samedi matin.",
+        "Il achète un nouveau livre et lit au café jusqu'à midi.",
+        "Il décide qu'il veut aller en montagne le soir avec un ami.",
+        "En fin d'après-midi il part en voiture et arrive en montagne pour un grand pique-nique."
+      ],
+      "explanation": "Ordre logique: visite et lecture en ville le matin, décision de partir, puis départ en fin d'après-midi et arrivée en montagne le soir."
+    },
+    {
+      "id": "comprehension_order-a2-gen-010",
+      "title": "სურათის გადაღება სოფელში",
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 10,
+      "text": "ლიკა და გიორგი სოფელში ფოტოების გადასაღებად წავიდნენ. ისინი ადრე დილით მანქანაში ჩასხდნენ და ველზე გაჩერდნენ. გიორგიმ კამერა მოამზადა და ლიკამ ყვავილებისკენ გაიქცა. დღისით ისინი ხეებს შორის ბილიკზე სეირნობდნენ და უკან დაბრუნებამდე რამდენიმე სურათი გადაღეს.",
+      "events": [
+        "Lika et Giorgi partent au village pour prendre des photos.",
+        "Ils prennent la voiture tôt le matin et s'arrêtent dans un pré.",
+        "Giorgi prépare l'appareil photo et Lika court vers les fleurs.",
+        "Dans la journée ils se promènent sur le sentier entre les arbres et prennent plusieurs photos avant de rentrer."
+      ],
+      "explanation": "La chronologie suit le voyage: départ le matin, arrêt, préparation et actions de prise de photo pendant la promenade, puis retour."
+    }
+  ]
+}

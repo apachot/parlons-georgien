@@ -1,0 +1,155 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "reading_cloze-a2-gen-001",
+      "sentence": "მან წიგნი ___ დატოვა.",
+      "answer": "მაგიდაზე",
+      "options": [
+        "მაგიდაზე",
+        "ფეხზე",
+        "ზურგზე",
+        "სახლში"
+      ],
+      "translation": "Il/elle a laissé le livre sur la table.",
+      "explanation": "«დატოვა მაგიდაზე» signifie «a laissé sur la table». Les autres options (sur le pied, sur le dos, à la maison) ne conviennent pas au contexte spatial indiqué par «დატოვა».",
+      "cefr": "A2",
+      "version": 1
+    },
+    {
+      "id": "reading_cloze-a2-gen-002",
+      "sentence": "ჩვენ ___ გნახავთ.",
+      "answer": "ხვალ",
+      "options": [
+        "ხვალ",
+        "დღეს",
+        "გუშინ",
+        "ორ საათში"
+      ],
+      "translation": "Nous te/vous verrons demain.",
+      "explanation": "«ჩვენ ხვალ გნახავთ» = «nous te/vous verrons demain». Les autres adverbes de temps changeraient le sens (aujourd'hui, hier, dans deux heures).",
+      "cefr": "A2",
+      "version": 2
+    },
+    {
+      "id": "reading_cloze-a2-gen-003",
+      "sentence": "ეს ფილმი ძალიან ___ არის.",
+      "answer": "სასაცილო",
+      "options": [
+        "სასაცილო",
+        "სუსტი",
+        "ცივი",
+        "მძიმე"
+      ],
+      "translation": "Ce film est très drôle.",
+      "explanation": "L'adjectif approprié pour «très» ici est «სასაცილო» (drôle). Les autres adjectifs (faible, froid, lourd) ne conviennent pas pour qualifier un film comme «très ...».",
+      "cefr": "A2",
+      "version": 3
+    },
+    {
+      "id": "reading_cloze-a2-gen-004",
+      "sentence": "ბავშვს თეთრი ___ აცვია.",
+      "answer": "კაბა",
+      "options": [
+        "კაბა",
+        "კაპიუშონი",
+        "რბილი",
+        "ჯინსი"
+      ],
+      "translation": "L'enfant porte une robe blanche.",
+      "explanation": "«თეთრი კაბა აცვია» signifie «il/elle porte une robe blanche». «კაპიუშონი» (capuche), «რბილი» (doux, adjectif) et «ჯინსი» (jean(s)) sont des distracteurs plausibles mais modifient le sens ou la catégorie grammaticale.",
+      "cefr": "A2",
+      "version": 4
+    },
+    {
+      "id": "reading_cloze-a2-gen-005",
+      "sentence": "მე ჩემს ძმას ფოტო ___ ვაჩვენე.",
+      "answer": "გუშინ",
+      "options": [
+        "გუშინ",
+        "ხვალ",
+        "დღეს",
+        "ხუთშაბათს"
+      ],
+      "translation": "J'ai montré la photo à mon frère hier.",
+      "explanation": "«გუშინ» (hier) indique le moment où l'action a eu lieu. Les autres options changeraient le temps (demain, aujourd'hui, jeudi).",
+      "cefr": "A2",
+      "version": 5
+    },
+    {
+      "id": "reading_cloze-a2-gen-006",
+      "sentence": "ის გუშინ სკოლაში ___.",
+      "answer": "წავიდა",
+      "options": [
+        "წავიდა",
+        "რჩება",
+        "სვამს",
+        "ხართ"
+      ],
+      "translation": "Il/elle est allé(e) à l'école hier.",
+      "explanation": "«გუშინ სკოლაში წავიდა» = «il/elle est allé(e) à l'école hier». Les autres verbes (reste, boit, vous êtes) ne conviennent pas dans ce contexte temporel et aspectuel.",
+      "cefr": "A2",
+      "version": 6
+    },
+    {
+      "id": "reading_cloze-a2-gen-007",
+      "sentence": "მე დაახლოებით ___ წიგნი მაქვს.",
+      "answer": "ათი",
+      "options": [
+        "ათი",
+        "ორი",
+        "სამიასი",
+        "მილიონი"
+      ],
+      "translation": "J'ai environ dix livres.",
+      "explanation": "«თუ დაახლოებით ათი წიგნი მაქვს» est correct pour «j'ai environ dix livres». Les autres nombres sont soit trop petits, soit immensément grands et non plausibles pour «environ».",
+      "cefr": "A2",
+      "version": 7
+    },
+    {
+      "id": "reading_cloze-a2-gen-008",
+      "sentence": "ეს არის ჩემი ___.",
+      "answer": "დედა",
+      "options": [
+        "დედა",
+        "პარკი",
+        "კარადა",
+        "საათი"
+      ],
+      "translation": "C'est ma mère.",
+      "explanation": "Dans un contexte personnel, la phrase la plus naturelle est «ეს არის ჩემი დედა» (c'est ma mère). Les autres options (parc, armoire, montre) ne sont pas des personnes et changeraient complètement le sens.",
+      "cefr": "A2",
+      "version": 8
+    },
+    {
+      "id": "reading_cloze-a2-gen-009",
+      "sentence": "რამდენი ___ არის?",
+      "answer": "საათი",
+      "options": [
+        "საათი",
+        "წამი",
+        "კვირა",
+        "კვირაში"
+      ],
+      "translation": "Quelle heure est-il ?",
+      "explanation": "La question correcte pour l'heure est «რამდენი საათია?» (litt. «combien d'heures y a‑t‑il?»). Les autres unités de temps (seconde, semaine) ne correspondent pas à la question usuelle sur l'heure.",
+      "cefr": "A2",
+      "version": 9
+    },
+    {
+      "id": "reading_cloze-a2-gen-010",
+      "sentence": "ძალიან გეცინება როცა ___ უყურებ.",
+      "answer": "ვიდეოს",
+      "options": [
+        "ვიდეოს",
+        "წიგნს",
+        "ქოლგას",
+        "სურათს"
+      ],
+      "translation": "Tu ris beaucoup quand tu regardes la vidéo.",
+      "explanation": "Le verbe «უყურებ» (tu regardes) prend comme objet «ვიდეოს» (la vidéo) ici; «წიგნს» (le livre), «ქოლგას» (le parapluie) ou «სურათს» (la photo) changeraient le sens et sont moins plausibles pour «tu ris beaucoup quand tu regardes...».",
+      "cefr": "A2",
+      "version": 10
+    }
+  ]
+}

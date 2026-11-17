@@ -89,6 +89,14 @@ Les 17 nouveaux passages A2 sont des récits courts enchaînant plusieurs action
 
 La famille « Sons et reconnaissance des lettres » reste en A1 : l’exercice fait entendre automatiquement un mot géorgien sans l’afficher, puis demande de choisir la lettre initiale. Vingt variantes distinctes de douze lettres sont définies dans `content/alphabet_recognition_a1.json`. La lettre est évaluée à partir d’un mot courant prononcé en géorgien ; cette famille ne reçoit pas de niveaux supérieurs puisque la reconnaissance des lettres isolées est une compétence débutante.
 
+## Troisième tranche : banques multi-niveaux générées
+
+Les fichiers `*_gpt5mini_<niveau>.json` sont découverts automatiquement par le chargeur de contenu. Chaque fichier porte son niveau dans `cefr`, et chaque entrée porte aussi `cefr` et `version`. Les versions générées sont des unités distinctes avec des corrigés associés, pas des permutations des mêmes choix.
+
+Cette tranche comprend **840 entrées** : dix mots ou expressions, dix dialogues, dix dictées, dix phrases à trous, dix récits à remettre dans l’ordre, dix lectures d’examen, dix fiches de grammaire, dix mini-leçons et dix cours interactifs pour chacun des six niveaux. Les questions de grammaire ajoutent dix versions dans chacun des cinq thèmes — temps, préverbes, cas, suffixes et correction — à chaque niveau, soit cinquante questions par niveau.
+
+La lecture guidée avait déjà au moins dix textes par niveau ; elle reste inchangée. La reconnaissance des sons de l’alphabet reste en A1 avec vingt variantes. Les nouvelles fiches de vocabulaire alimentent aussi les activités qui tirent leurs mots de cette banque, dont les paires, la traduction rapide, le mémory, la construction de phrases et les mots fléchés.
+
 ## Statistiques à suivre
 
 Le tableau de bord de la banque devra distinguer, pour chaque famille et chaque niveau : versions rédigées, versions vérifiées, versions actives, couverture sur la cible de 20, items disponibles et taux de réussite observé. Les contenus partagés entre lecture et écoute seront comptés comme une ressource source, tout en restant dénombrés comme versions dans chacune des deux compétences évaluées.

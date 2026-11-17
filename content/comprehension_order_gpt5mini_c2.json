@@ -1,0 +1,165 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "comprehension_order-c2-gen-001",
+      "title": "სატენოლოგია და მემკვიდრეობა",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 1,
+      "text": "წითელქუდას სახლის კიბეებთან დავრჩი; დედა წვიმამ შებოლა და ფანჯარასთან ჩასვა. საღამოს განათება ნელ-ნელა ჩაქრა, მე კი ძმასთან ერთად სათაური წიგნებს ვათვალიერებდი, რომლებსაც ის ბავშვობის დროს ინახავდა. ორ საათზე ძმამ მითხრა, რომ ღამის მატარებელში ადგებოდა და მისი ჩანთა სასტუმროს შუაზე დარჩენილი იყო. დილისთვის ყველაფერი გამოსწორებულიყო: ჩემმა ძმამ ჩამოიღო ვაიფაი-პაროლი, რომლითაც მატარებელში ინტერნეტი გაეშვებოდა, და მე დავრეკე მეგობრებს, რომლებსაც ვიზიტი გადაუდებელი იგრძნობოდათ. ბოლოს კი, წვიმა მორჩა და ფანჯრიდან მზემ თვალი მომჭრა, რაც ყოველდღიურობაში ახალი დასაწყისის შეგრძნებას მანიჭებდა.",
+      "events": [
+        "Le narrateur reste près de l’escalier de la maison de Red Riding Hood pendant que sa mère se repose à la fenêtre à cause de la pluie.",
+        "Le narrateur et son frère parcourent de vieux livres le soir alors que la lumière diminue.",
+        "À deux heures du matin, le frère annonce qu’il partira dans un train de nuit et que son sac est resté à l’hôtel.",
+        "Au matin, le frère rétablit l’accès Internet du train en retrouvant un mot de passe Wi‑Fi et le narrateur appelle des amis pour organiser une visite urgente.",
+        "La pluie cesse et le soleil apparaît, donnant au narrateur le sentiment d’un nouveau départ."
+      ],
+      "explanation": "L’ordre suit la succession temporelle explicite: soirée→2 h du matin→matin→effet final (fin de la pluie et sensation de renouveau)."
+    },
+    {
+      "id": "comprehension_order-c2-gen-002",
+      "title": "არქივიდან ამოღებული ამბავი",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 2,
+      "text": "ბიბლიოთეკის ძველ რკინიგზულ ქუჩაზე რატომღაც ძველი საქაღალდე აღმოვაჩინე, რომელშიც ბავშვობის ჩანახატები და წერილები იყო დახუნძლული. წერილებიდან ერთი ტოტი მოტეხილი ჩანდა და მის შიგნით წერილაკი, რომელიც ჩემს წინაპართა შესახებ მოწმობდა. შემდეგ ერთი მოძველებული ფოსტა რეერობდა და გამომკითხა გამომშვიდობება, რაც მიმიჩნდდა ცრემლების მომტანად. რამდენიმე დღეში ხელოვნებათმცოდნე მივიდა, რათა კოლექცია შესამოწმებლად გადაენაწილებინა, და მან გამიზიარა რამდენიმე კონსერვაციის რჩევა. დოკუმენტები მეხსიერებას შემინარჩუნდა და საბოლოოდ ადგილობრივი არქივში გადავამისამართე.",
+      "events": [
+        "Le narrateur trouve une vieille chemise contenant dessins et lettres d’enfance dans une bibliothèque située rue Ferroviaire.",
+        "Il découvre une lettre attestant des ancêtres, avec un brin arraché et un message émouvant.",
+        "Une vieille carte postale révèle un adieu qui bouleverse le narrateur.",
+        "Quelques jours plus tard, un historien de l’art arrive pour examiner la collection et donne des conseils de conservation.",
+        "Le narrateur transfère finalement les documents à l’archive locale pour les préserver."
+      ],
+      "explanation": "Les événements suivent la découverte, l’examen émotionnel, l’intervention d’un expert et la décision de conservation."
+    },
+    {
+      "id": "comprehension_order-c2-gen-003",
+      "title": "რესტავრაციის პრობლემა",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 3,
+      "text": "სარწყავი ნავიჰარამ საღამოს ნაგვით დაიფარა, ამიტომ მერიას განგაშის სამსახურები გამოეგზავნა. იმ ღამეს, ინჟინრები ადგილზე გამოცხადდნენ და პირველადი ანალიზებით დაადგინეს, რომ პრობლემა სადღაც მილების ჩამონგრევით იყო დაკავშირებული. მეორე დღეს ყველა მერიაში მოვიდა და ღრმად მსჯელობდნენ ადეკვატურ გამოსავლებზე; რამდენიმე კვირით ადგილობრივმა მოსახლეობამ წყლის განახლების გეგმები მიიღო. შემდეგ გარემონტდა ყველაზე დაზიანებული სექტორი, ხოლო მოსახლეობას ტექნიკური ბუკლეტი მიეცა, რომ მათმა სახლებმა მომავალ პრობლემებს თავი დააღწიონ. კვირის ბოლოს წყლის მიწოდება ნორმაში დაბრუნდა და თემმა მშვიდობა და აღდგენა იგრძნო.",
+      "events": [
+        "La municipalité envoie les services d’urgence le soir quand le système d’irrigation est obstrué par des déchets.",
+        "Les ingénieurs arrivent sur place et déterminent que la cause est liée à l’effondrement de certaines canalisations.",
+        "Le lendemain, la mairie réunit des réunions pour décider des solutions et le plan de restauration de l’eau pour les semaines suivantes est établi.",
+        "Le secteur le plus endommagé est réparé et des fiches techniques sont distribuées aux habitants pour prévenir de futurs problèmes.",
+        "À la fin de la semaine, l’approvisionnement en eau est rétabli et la communauté ressent un apaisement."
+      ],
+      "explanation": "Chronologie: incident nocturne→diagnostic→décisions municipales→réparations→retour à la normale."
+    },
+    {
+      "id": "comprehension_order-c2-gen-004",
+      "title": "ფოტოსარხის დალექვა",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 4,
+      "text": "მეგობრის დაბადების დღეზე ქვევით ფოტოს დამინახა, რომელიც წლების წინ ჩემი მეგობრის ნამდვილი სახლის წინ იყო გადაღებული. ფოტო ნელ-ნელა გამიწმინდა და გამახსენდა შესაბამისი ისტორია: ჩვენ ნადირობის შემდეგ წვეთა გადავყრილდით, გვითქვამს, რომ ეს დასასრული იყო. რამდენიმე კვირით მოგვიანებით, მეგობარმა ჩემთან დამიკავშირდა და თქვა, რომ აპირებდა ძველ სახლს მისთვის დაბრუნებისათვის, რადგან მასში ახალი პლასტიკური ფანჯრები დაედგა და იგი თავიდან იყო შეფუთული. შეხვედრის დღეს მე დავხეტიალობდი ფოტოსასტვენზე და ვიხსენებდი, როგორ სახელი და გვარი ჩვენი მემკვიდრეობის იყო. ბოლოს, მთელი დღით ერთად ვიჯექით და ძველი ამბების შესახებ ვისაუბრეთ, ვიდრე საღამოს ბოლოს გზაზე არ დავყავით.",
+      "events": [
+        "Le narrateur revoit une photo prise devant la maison d’un ami lors de sa fête d’anniversaire, photo qui évoque un souvenir d’autrefois.",
+        "La photo le fait se souvenir d’un épisode où, après une chasse, ils avaient considéré que c’était une fin.",
+        "Quelques semaines plus tard, l’ami annonce qu’il va reprendre l’ancienne maison désormais rénovée avec de nouvelles fenêtres.",
+        "Le jour de la rencontre, les deux reviennent à l’endroit du cliché et évoquent le patrimoine familial.",
+        "Ils passent la journée à parler des vieux souvenirs avant de se séparer le soir."
+      ],
+      "explanation": "Les étapes suivent: rappel déclenché par la photo→mémoire d’un épisode→nouvelle annonce→retour sur le lieu→conversation finale."
+    },
+    {
+      "id": "comprehension_order-c2-gen-005",
+      "title": "კონფერენცია და ნაშრომები",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 5,
+      "text": "მე გამოგზავნილი მოხსენების ფაილი ღამით ავტოკრაშით დაზიანდა, ამიტომ საფრთხის აქტმა მომიწია გადამერთო. დილით, კოლეგა გამომცადა და აღმოაჩინა, რომ სადღაც ბექაპი იმხანად იყო შენახული. კონფერენციაზე მისვლა დავიგვიანე, მაგრამ ჩემი საცდელი გამოკვლევები სესიაზე აღიარებული იქნა და მრავალი კითხვა დავაყენე პანელურ წევრებს. საღამოს აუდიტორია ვრცლად პასუხობდა, და მე დავიწყე ახალი პუნქტების ჩანიშვნა მომავალი სტატიისთვის. კვირის ბოლოს რედაქტორმა უდიდეს ინტერესით მაკომენტარა და შემოთავაზა შესაძლებელია ერთობლივი სტატიის გამოქვეყნება.",
+      "events": [
+        "Le fichier de la présentation est corrompu par un crash nocturne, forçant le narrateur à redémarrer en urgence.",
+        "Le matin, un collègue découvre qu’il existe une sauvegarde quelque part.",
+        "Le narrateur arrive en retard à la conférence mais ses recherches sont reconnues et il pose de nombreuses questions lors de la session.",
+        "Le public répond longuement le soir et le narrateur prend des notes pour un futur article.",
+        "À la fin de la semaine, un éditeur montre un grand intérêt et propose une co‑publication."
+      ],
+      "explanation": "Ordre logique: problème technique nocturne→reprise via backup→participation tardive mais fructueuse→réactions et prises de notes→proposition éditoriale."
+    },
+    {
+      "id": "comprehension_order-c2-gen-006",
+      "title": "დარეგულირებული პროექტი",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 6,
+      "text": "პროექტი სამ თვეში უნდა დაემთავრებინა, მაგრამ პირველი პროტოტიპი კრიტიკულად ვერ მუშაობდა, ამიტომ გუნდმა გადაწყვიტა საწყის დაპირებების გადახედვა. კვირის გასვლის შემდეგ მენეჯერმა დაგვიკრიბა და გადაწყდა, რომ ფუნქციების პრიორიტეტი შეიცვალოს და ზოგიერთი მოდული დაეფასებით დაეშვას. ორი კვირის ინტენსიური სამუშაოს შემდეგ საყოველთაო ტესტირება დაიწყეს; პრობლემების ნახევარი იქვე გამოასწორეს. ბოლოს, ბოლო რაუნდში მომხმარებლები მოწინავე ამპლუებით მონაწილეობდნენ და ახალი ვერსია საბოლოოდ დამტკიცდა. პროექტი მენეჯმენტმა დროებით შეაფასა, მაგრამ პრინციპში მიზანმიმართულობა შენარჩუნდა.",
+      "events": [
+        "Le premier prototype échoue et l’équipe décide de revoir les engagements initiaux.",
+        "Le manager convoque une réunion et l’on change la priorité des fonctionnalités en déclassant certains modules.",
+        "Après deux semaines de travail intensif, commencent les tests généraux et la moitié des problèmes sont corrigés.",
+        "Au dernier round, des utilisateurs avancés participent et la nouvelle version est approuvée.",
+        "La direction évalue temporairement le projet mais l’orientation générale reste maintenue."
+      ],
+      "explanation": "Séquence: échec initial→réunion de décision→réalisation technique et tests→validation par utilisateurs→bilan managérial."
+    },
+    {
+      "id": "comprehension_order-c2-gen-007",
+      "title": "სოციალური ექსპერიმენტი",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 7,
+      "text": "სამეზობლოში ახალი დემონსტრაცია გაიმართა, რაც ხალხს ორივე მხარეს გამოყო: ნაწილი უჭერდა მხარს, ნაწილი კი პროტესტს გამოთქვამდა. ღონისძიების ორგანიზატორებმა უსაფრთხოების ზომები მიიღეს და პოლიციამ გადაადგილება კონტროლს დაუბრუნა. საღამოს მხარეებმა დიალოგის შეკრება მოითხოვეს, რის შედეგადაც პატარა სამუშაო ჯგუფები შეიქმნა, რათა პრობლემებზე წყნარი დისკუსია გაეტარებინათ. რამდენიმე შეხვედრის შემდეგ ჩიჩილაკი საკითხები ნაწილობრივ მოიხსნა და სამეზობლო შეთანხმდა ფესტივალის ორგანიზაციაზე. კვირის ბოლოს შედეგებმა შედგენილი პროტოკოლით გაამყარა ნდობა.",
+      "events": [
+        "Une manifestation divise le quartier en deux camps : partisans et opposants.",
+        "Les organisateurs prennent des mesures de sécurité et la police reprend le contrôle des déplacements.",
+        "Les deux camps demandent un dialogue et forment de petits groupes de travail pour discuter calmement.",
+        "Après plusieurs réunions, des points litigieux sont partiellement résolus et on s’accorde sur l’organisation d’un festival.",
+        "En fin de semaine, un protocole officialise les résultats et renforce la confiance locale."
+      ],
+      "explanation": "La narration suit protestation→contrôle/sécurité→démarche dialoguée→résolution partielle→officialisation."
+    },
+    {
+      "id": "comprehension_order-c2-gen-008",
+      "title": "ქალაქის მარგალიტი",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 8,
+      "text": "ნაოჭების გარეშე ქალაქის ცენტრში აშენდა ახალი ბაღი, რომელიც ერთ კვირამდე ამღვრეული ტყის ადგილას წარმოიკვეთა. პირველი დილაა, როცა მცენარეებს სპეციალურად მოწეული მეების მიერ დაანათეს; ხალხი ნელ-ნელა ჩნდება და ფოტოებს იღებს. შუადღისას ბაღში მოწყობილი კონცერტი იწყება და არტისტები ადგილობრივ რეპერტუარს ასრულებენ, რის შემდეგად ბევრი მათგანი ემოციით იღუპება. საბოლოო საღამოს ცერემონიაზე მთავრობა დაფინანსებას ანონსებს ახალ პროექტებზე და ბაღი როგორც კულტურული ადგილია ოფიციალურად აღიარებულია. რამდენიმე თვის შემდეგ ტერიტორია ბუნებრივად დამკვიდრდა და ადგილობრივებთან დაკავშირებული აქტივობები რეგულარულად ტარდებოდა.",
+      "events": [
+        "Un nouveau parc est aménagé en une semaine sur l’emplacement d’un ancien bois sans rides urbaines.",
+        "Le premier matin, des jardiniers éclairés spécialement plantent et les habitants arrivent pour prendre des photos.",
+        "À midi, un concert commence dans le parc avec des artistes locaux suscitant une forte émotion.",
+        "Le soir, une cérémonie voit le gouvernement annoncer des financements et la reconnaissance officielle du parc comme lieu culturel.",
+        "Quelques mois plus tard, le lieu est naturellement établi et des activités régulières avec les habitants ont lieu."
+      ],
+      "explanation": "Chronologie linéaire: construction→inauguration matinale→événement culturel→cérémonie officielle→stabilisation à moyen terme."
+    },
+    {
+      "id": "comprehension_order-c2-gen-009",
+      "title": "მთის ამბავი",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 9,
+      "text": "დილით, როდესაც მზემ ჯერ კიდევ ქედზე არ გამოსულიყო, მე და ჩემი ჯგუფი სათხილამუროდ გავემართეთ. ბილიკზე თოვლი ხმაურიანად ქურდავდა, ჩვენი გზის ყველა ნიშანი ნათლად ჩანდა. შუადღით ერთ-ერთმა მონაწილემ მტკივნეული სიმპტომები გამოავლინა და მომიწია პირველადი დახმარება; ველით, რომ კლინიკამდე მისვლამდე მდგომარეობა არ გამძიმებულიყო. მოგვიანებით ჰელიკოპტერმა მომაკითხა და დაშავებული უსაფრთხოდ გადაიყვანა; დანარჩენებმა ბილიკი გააგრძელეს და ჩანჩქერის პირას მცირე პაუზა მოიყვანეს. დღის ბოლოს ჩვენ უკან დაბრუნება დავიწყეთ, მაგრამ მზისა და მყინვარის სინათლემ დღევანდელი მოგზაურობა სამუდამო მოგონებად ჩაგვიტოვა.",
+      "events": [
+        "Le groupe part skier tôt le matin avant le lever du soleil.",
+        "La neige crisse sur le sentier et les repères du chemin sont visibles.",
+        "À midi, un membre ressent des symptômes douloureux et le narrateur prodigue les premiers soins en attendant une évacuation.",
+        "Un hélicoptère évacue la personne blessée et les autres continuent vers une cascade où ils font une pause.",
+        "Le groupe repart le soir et la lumière du soleil et des glaciers transforme la journée en un souvenir impérissable."
+      ],
+      "explanation": "Ordre naturel: départ matinal→conditions sur la piste→incident médical à midi→évacuation→retour et impression finale."
+    },
+    {
+      "id": "comprehension_order-c2-gen-010",
+      "title": "ბაღის გამოცანა",
+      "level_name": "CEFR C2",
+      "cefr": "C2",
+      "version": 10,
+      "text": "საღამოს ბაღში უცნაური სურნელი დაიცვა და ბევრმა მეზობელმა მის წყაროდ იკვლევა დაიწყო. პირველი ვერსიით, სუნი ახლომდებარე ქობულეთის ქიმიკატებიდან მოდიოდა, მაგრამ ლაბორატორიული ანალიზი უარყოფს ჰაერის რაიმე ტოქსიკურ მდგომარეობას. მეორე დღეს კომიტეტის წევრები მთელი უბნის სკრინინგს ჩაატარებდნენ და დაადგენდნენ, რომ სუნის წყარო ნიადაგში შედგენილი ორგანული კომპოზიცია იყო, რომელიც განახლებული გამწმენდი სისტემის გამო ზედაპირზე ამოქაჩა. გადაწყვეტილება მიიღეს, რომ სადამკვირვებლო ჯგუფი შემდგარიყო და რეგულარული შემოწმება განხორციელდებოდა; მეზობლები განიცდიდნენ შვებას. ბოლოს, რამდენიმე კვირით მოგვიანებით ნიადაგი ბუნებრივად გაუმჯობესდა და სუნი გაქრა.",
+      "events": [
+        "Le soir, un parfum étrange dans le parc alarme plusieurs voisins qui cherchent sa source.",
+        "On suppose d’abord des produits chimiques d’une usine voisine, mais les analyses excluent une toxicité atmosphérique.",
+        "Le comité effectue un dépistage du quartier et identifie l’origine : un composé organique du sol remonté par un système de purification rénové.",
+        "On crée une équipe de surveillance et des contrôles réguliers sont instaurés, apaisant les riverains.",
+        "Quelques semaines plus tard, le sol se régénère naturellement et l’odeur disparaît."
+      ],
+      "explanation": "Suite logique: alerte→hypothèse industrielle→analyse et identification du sol→mesures de surveillance→résolution naturelle."
+    }
+  ]
+}

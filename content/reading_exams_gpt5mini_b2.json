@@ -1,0 +1,555 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "reading_exams-b2-gen-001",
+      "title": "ქალაქის ქალაქმშენებლობა და მოქალაქეების როლი",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 1,
+      "text": "ქალაქების განვითარებასთან ერთად, მოქალაქეების მონაწილეობა ურბანულ პოლიტიკაში უფრო მნიშვნელოვანია. ბოლო წლების განმავლობაში საქართველოში ხერხემლიან ინფრასტრუქტურულ პროექტებთან ერთად გადაიხედა მუნიციპალური გადაწყვეტილების მიღების პროცედურებიც: სახელისუფლებო ორგანოები იწყებენ საჯარო განხილვებს, მოქალაქეებთან კონსულტაციებსა და ქალაქგეგმარებით სამუშაო ჯგუფებს. ეს წართმევა მიზნს არ იძლევა მხოლოდ პროექტების საჯარო წარმოდგენაში — გააქტიურებული ჯგუფები ხშირად აყენებენ ალტერნატიულ ხედვებს, რაც გავლენას ახდენს ტრანსპორტის, მწვანე სივრცეების და კულტურული მემკვიდრეობის შენარჩუნების გეგმებზე. მიუხედავად ამისა, შეკითხვები რჩება: რამდენად თანამიმდევრულია მოქალაქეთა მონაწილეობა სინამდვილეში და რამდენად არის მათზე რეალური მოაზრება მიღებული? მხოლოდ ფორმალური მოსმენა არ კმარა; საჭირო არის ინსტიტუციური მექანიზმები, რომლებიც უზრუნველყოფენ გამჭვირვალობას, ანგარიშვალდებულებას და რესურსების გადანაწილების კონტროლს. საბოლოოდ, ქალაქმშენებლობა წარმატებული იქნება მაშინ, როდესაც ექსპერტიზა და საჯარო ინტერესი თანაბრად იქნებიან წარმოდგენილი, ხოლო გადაწყვეტილებები — მდგრადობისა და სოციალური სამართლიანობის პრინციპებზე დაფუძნებული.",
+      "translation": "À mesure que les villes se développent, la participation des citoyens à la politique urbaine devient plus importante. Ces dernières années en Géorgie, parallèlement à des projets d'infrastructure structurants, les procédures de prise de décision municipale ont été réexaminées : les autorités lancent des consultations publiques, des dialogues avec les citoyens et des groupes de travail en urbanisme. Cette démarche ne sert pas seulement à présenter publiquement les projets — les groupes mobilisés proposent souvent des visions alternatives qui influencent les plans de transport, les espaces verts et la préservation du patrimoine culturel. Néanmoins, des questions subsistent : la participation citoyenne est-elle réellement cohérente et dans quelle mesure leurs avis sont-ils pris en compte ? L'écoute formelle ne suffit pas ; il faut des mécanismes institutionnels garantissant transparence, responsabilité et contrôle de la répartition des ressources. En fin de compte, l'urbanisme ne sera réussi que si l'expertise et l'intérêt public sont représentés également et si les décisions reposent sur des principes de durabilité et de justice sociale.",
+      "questions": [
+        {
+          "question": "Quel est le principal avantage mentionné de l'implication citoyenne dans l'urbanisme ?",
+          "options": [
+            "Elle accélère automatiquement la réalisation des projets.",
+            "Elle apporte des visions alternatives influençant des domaines comme le transport et les espaces verts.",
+            "Elle remplace complètement l'expertise technique des urbanistes.",
+            "Elle garantit un financement direct des initiatives locales."
+          ],
+          "answer": "Elle apporte des visions alternatives influençant des domaines comme le transport et les espaces verts.",
+          "explanation": "Le texte indique que les groupes mobilisés proposent des visions alternatives qui influencent les plans de transport, les espaces verts et la préservation du patrimoine."
+        },
+        {
+          "question": "Quelle critique est faite concernant la participation citoyenne actuelle ?",
+          "options": [
+            "Les citoyens n'ont jamais l'occasion d'exprimer leur opinion.",
+            "La participation est parfois seulement formelle et manque de mécanismes institutionnels.",
+            "Les autorités refusent systématiquement toute suggestion citoyenne.",
+            "La participation remplace les élections locales."
+          ],
+          "answer": "La participation est parfois seulement formelle et manque de mécanismes institutionnels.",
+          "explanation": "Le texte précise que l'écoute formelle ne suffit pas et qu'il faut des mécanismes institutionnels pour garantir transparence et responsabilité."
+        },
+        {
+          "question": "Selon le texte, quels principes devraient guider les décisions d'urbanisme pour qu'elles soient réussies ?",
+          "options": [
+            "Efficacité économique et rapidité d'exécution.",
+            "Durabilité et justice sociale.",
+            "Centralisation et contrôle étroit par l'État.",
+            "Innovation technologique et privatisation."
+          ],
+          "answer": "Durabilité et justice sociale.",
+          "explanation": "Le texte conclut que les décisions doivent être fondées sur les principes de durabilité et de justice sociale."
+        },
+        {
+          "question": "Quelle mesure n'est PAS mentionnée comme nécessaire pour améliorer la participation citoyenne ?",
+          "options": [
+            "Transparence des processus.",
+            "Comptabilité et contrôle de la répartition des ressources.",
+            "Création d'un organe national unique contrôlant toutes les villes.",
+            "Mécanismes institutionnels assurant responsabilité."
+          ],
+          "answer": "Création d'un organe national unique contrôlant toutes les villes.",
+          "explanation": "Le texte mentionne transparence, responsabilité et contrôle des ressources, mais ne parle pas de créer un organe national unique pour toutes les villes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-002",
+      "title": "ხალხური ფესტივალი და ტრანსფორმაცია ადგილობრივი ეკონომიკისა",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 2,
+      "text": "მცირე კუთხის სოფლმა, რომელიც საუკუნეების განმავლობაში ცნობილიყო საკუთარი გემრიელი ღვინით, ბოლო წლებში დაიწყო ტრადიციული ფესტივალის გადაკეთება სამოგზაურო და ეკონომიკურ ღონისძიებად. ადგილობრივი ხელისუფლება, გამგებელი და ახალგაზრდული ორგანიზაციები ერთად ეძებენ ახალ გზებს ტურისტების მოზიდვისა და სოფლის მომგებიანობის ზრდისთვის. ღონისძიებაზე წარმოდგენილია ტრადიციული სამზარეულო, ხელნაკეთი წვრილმანი და ღვინის დეგუსტაციები, თუმცა რეკლამირებაში ასევე აქტიურად არის ჩართული კულტურული დასარტყამი პროგრამები და საგანმანათლებლო სემინარები მევენახეობის შესახებ. ეს ტრანსფორმაცია არა მხოლოდ ზრდის ვიზიტორთა რაოდენობას, არამედ ქმნის მცირე სტარტაპებს, სტუმართმოყვარე ჰოსტელებსა და ადგილობრივ გიდების სამსახურს. მაგრამ პროცესი არ არის უთასო: მოსახლეობის ნაწილმა ძველი წესების ხაზგასმა ურჩევნია და ფიქრობს, რომ კომერციალიზაცია ღირებულებების რღვევას იწვევს. დიალოგი სპორტად იწყება; საჭირო არის კომპრომისი, რომელიც შეუწყობს ადგილობრივ ტრადიციებსა და ეკონომიკურ მიდგომებს შორის დაბალანსებას.",
+      "translation": "Un petit village, connu pendant des siècles pour son vin savoureux, a ces dernières années transformé son festival traditionnel en un événement touristique et économique. Les autorités locales, le maire et des associations de jeunes cherchent ensemble des moyens d'attirer des touristes et d'augmenter la rentabilité du village. L'événement présente la cuisine traditionnelle, l'artisanat et des dégustations de vin, mais la promotion inclut aussi des programmes culturels et des séminaires éducatifs sur la viticulture. Cette transformation augmente non seulement le nombre de visiteurs, mais crée aussi de petites start-ups, des auberges accueillantes et des services de guides locaux. Mais le processus n'est pas sans coûts : une partie de la population préfère souligner les anciennes pratiques et craint que la commercialisation ne rompe les valeurs. Le dialogue commence parfois par des tensions ; un compromis est nécessaire pour équilibrer traditions locales et approches économiques.",
+      "questions": [
+        {
+          "question": "Quel est le principal objectif des autorités locales en transformant le festival ?",
+          "options": [
+            "Supprimer les traditions locales au profit de la modernité.",
+            "Attirer des touristes et augmenter la rentabilité du village.",
+            "Remplacer la production de vin par l'industrie lourde.",
+            "Construire un grand complexe hôtelier international."
+          ],
+          "answer": "Attirer des touristes et augmenter la rentabilité du village.",
+          "explanation": "Le texte indique que les autorités cherchent des moyens d'attirer des touristes et d'augmenter la rentabilité du village."
+        },
+        {
+          "question": "Quelles nouvelles activités accompagne la promotion du festival ?",
+          "options": [
+            "Only des compétitions sportives internationales.",
+            "Des programmes culturels et des séminaires sur la viticulture.",
+            "La suppression des dégustations de vin.",
+            "La fermeture des marchés artisanaux."
+          ],
+          "answer": "Des programmes culturels et des séminaires sur la viticulture.",
+          "explanation": "Le texte mentionne que la promotion inclut des programmes culturels et des séminaires éducatifs sur la viticulture."
+        },
+        {
+          "question": "Quelle conséquence positive est décrite suite à la transformation du festival ?",
+          "options": [
+            "La disparition des emplois agricoles.",
+            "La création de petites start-ups et de services de guides locaux.",
+            "L'augmentation des impôts locaux sans bénéfice.",
+            "La fermeture des auberges familiales."
+          ],
+          "answer": "La création de petites start-ups et de services de guides locaux.",
+          "explanation": "Le texte signale que la transformation crée de petites start-ups, des auberges et des services de guides locaux."
+        },
+        {
+          "question": "Quel problème social émergent est mentionné dans le texte ?",
+          "options": [
+            "Un consensus total entre les habitants sur la commercialisation.",
+            "La résistance d'une partie de la population qui craint la perte de valeurs traditionnelles.",
+            "L'absence totale de visiteurs au festival.",
+            "La décision de vendre toutes les terres communales à des investisseurs étrangers."
+          ],
+          "answer": "La résistance d'une partie de la population qui craint la perte de valeurs traditionnelles.",
+          "explanation": "Le texte explique qu'une partie des habitants préfère les anciennes pratiques et pense que la commercialisation peut briser les valeurs locales."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-005",
+      "title": "შენარჩუნებული ურბანიზაცია",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 5,
+      "text": "თბილისის რამდენიმე უბანში viime წლებში დაინტერესება ურბანული რეკონსტრუქციით გაზრდილია. ქალაქში ძველი შენობების შენარჩუნება და ციფრული ინფრასტრუქტურის გაერთიანება გახდა მნიშვნელოვანი საკითხი ქალაქობანასთვის. გადაწყვეტილებებმა, რომლებიც მიმართულია ისტორიული ფასადების აღდგენასა და ვიწრო ქუჩების რეკოლორიზაციაზე, გამოიწვია როგორც ნდობის ზრდა ადგილობრივ მაცხოვრებლებში, ისე კრიტიკა იმის შესახებ, თუ როგორ შეიცვალა საცხოვრებელი ფასები. ზოგიერთი პროექტი ანთხევდა საცხოვრებელ ბინებზე ახალი მოთხოვნას, რასაც მოჰყვა მცირე ბიზნესის ტურისტულ სექტორში ტრანსფორმაცია. არქიტექტურასთან და კონსერვაციასთან დაკავშირებული ჯგუფები წყვეტენ, რომ ურბანული განვითარების გეგმებში მდგრადობის კუთხით მეტი ჩათვლითობაა საჭირო — არა მხოლოდ ეკოლოგიური, არამედ სოციალურ ვალდებულებათა თვალსაზრისით. ადგილობრივი მერის ოფისი აცხადებს, რომ საზოგადოებრივ ტრანსპორტსა და აქცენტირებულ ჰაერის ხარისხზე მუშაობა თან დასჭირდა პროექტის განხორციელებას. მწარმოებელთათვის და მაცხოვრებელთათვის ამ পরিবর্তნათა მართვა მდგრადი პოლიტიკების შესაბამისობით გამოწვევაა, რომელიც მოითხოვს დიალოგს და კომპრომისს ყველა დაინტერესებულ მხარეს შორის.",
+      "translation": "Ces dernières années, dans plusieurs quartiers de Tbilissi, l'intérêt pour la reconstruction urbaine a augmenté. La conservation des vieux bâtiments et l'intégration d'infrastructures numériques sont devenues des enjeux importants pour l'urbanisme. Les décisions visant à restaurer les façades historiques et à recoloriser les ruelles étroites ont entraîné à la fois un regain de confiance chez les habitants locaux et des critiques sur la manière dont les prix de l'immobilier ont changé. Certains projets ont suscité une nouvelle demande pour les appartements, entraînant une transformation du petit commerce vers le secteur touristique. Les groupes liés à l'architecture et à la conservation estiment que les plans de développement urbain doivent inclure davantage de considérations de durabilité — pas seulement écologiques, mais aussi sociales. Le bureau du maire déclare qu'il fallait également travailler sur les transports publics et la qualité de l'air pour mener le projet à bien. Pour les entreprises et les résidents, gérer ces changements conformément à des politiques durables est un défi qui exige dialogue et compromis entre toutes les parties prenantes.",
+      "questions": [
+        {
+          "question": "Quel a été un effet direct des projets de restauration des façades historiques mentionnés dans le texte ?",
+          "options": [
+            "Une diminution de la fréquentation touristique",
+            "Une hausse de la confiance locale",
+            "La fermeture des transports publics",
+            "La délocalisation des usines"
+          ],
+          "answer": "Une hausse de la confiance locale",
+          "explanation": "Le texte indique que les décisions de restauration ont provoqué une augmentation de la confiance chez les habitants locaux."
+        },
+        {
+          "question": "Quel problème social est associé aux projets urbains décrits ?",
+          "options": [
+            "La réduction de la qualité de l'air uniquement",
+            "La baisse de la population étudiante",
+            "La hausse des prix de l'immobilier",
+            "La disparition des espaces verts"
+          ],
+          "answer": "La hausse des prix de l'immobilier",
+          "explanation": "Le texte mentionne des critiques concernant la manière dont ont changé les prix de l'immobilier, impliquant leur augmentation."
+        },
+        {
+          "question": "Quelle mesure le bureau du maire juge nécessaire pour la réussite des projets ?",
+          "options": [
+            "L'augmentation des impôts locaux",
+            "Le développement de l'industrie lourde",
+            "L'amélioration des transports publics et de la qualité de l'air",
+            "La privatisation des services municipaux"
+          ],
+          "answer": "L'amélioration des transports publics et de la qualité de l'air",
+          "explanation": "Le texte spécifie que le bureau du maire affirme qu'il fallait travailler sur les transports publics et la qualité de l'air."
+        },
+        {
+          "question": "Quelle approche les groupes d'architecture et de conservation recommandent-ils pour les plans urbains ?",
+          "options": [
+            "Prioriser uniquement l'esthétique historique",
+            "Intégrer des aspects de durabilité sociaux et écologiques",
+            "Favoriser l'expansion commerciale sans restriction",
+            "Limiter l'accès des touristes aux quartiers"
+          ],
+          "answer": "Intégrer des aspects de durabilité sociaux et écologiques",
+          "explanation": "Ces groupes estiment que les plans doivent inclure davantage de considérations de durabilité, tant écologiques que sociales."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-006",
+      "title": "ღვინის ტურიზმი და ტრადიციები",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 6,
+      "text": "ქართლში და იმერეთში ბოლო წლებშივე ღვინის ტურიზმის პოპულარობა გაიზარდა. ადგილობრივებმა და თვალსაჩინო მეღვინეობების მფლობელებმა შექმნეს ტურისტული მარშრუტები, რომლებიც აერთიანებს ღვინის дегუსტაციას, ეზოთა სტუმრობას და მცირე საწარმოების გაცნობას. ტრადიციული ქართული ქვევრი და ანბანის წესები ხშირად წარმოადგენს ცენტრალურ ელემენტს, რადგან უცხოელ ვიზიტორებს აინტერესებთ, თუ როგორ შეინარჩუნა რეგიონმა ღვინის წარმოების უნიკალური მეთოდები. მეღვინეები აღნიშნავენ, რომ ტურიზმი მათი შემოსავლის წყაროს მრავალფეროვნებას უზრუნველყოფს, მაგრამ თანმხლდება გამოწვევებიც: სხვა მასშტაბის სტუმრობა და გარემოზე ზემოქმედება საჭიროებს ინფრასტრუქტურის გაუმჯობესებას და გარემოსდაცვითი რეგულაციების დანერგვას. ადგილობრივი სკოლები და კულტურული ორგანიზაციები იწყებენ საგანმანათლებლო პროგრამებს, რომლებიც ასწავლის ახალგაზრდებს ტრადიციების მნიშვნელობას და თანამედროვე მარკეტინგის საფუძვლებს. შედეგად, რეგიონი ცდილობს შეინარჩუნოს ფერმერული კულტურა და თანამშრომლობით განავითაროს ტურისტული მომსახურება ისე, რომასაც არ დააზიანოს ადგილობრივი ეკოსისტემა.",
+      "translation": "La popularité du tourisme viticole a augmenté ces dernières années en Karthli et en Imereti. Les habitants et les propriétaires de domaines viticoles connus ont créé des itinéraires touristiques combinant dégustation de vin, visite de cours et découverte de petites entreprises. Le qvevri traditionnel et les méthodes ancestrales constituent souvent un élément central, car les visiteurs étrangers s'intéressent à la manière dont la région a préservé ses méthodes de production uniques. Les vignerons soulignent que le tourisme diversifie leurs sources de revenus, mais il comporte aussi des défis : l'afflux de visiteurs et les impacts sur l'environnement exigent des améliorations d'infrastructures et la mise en place de réglementations environnementales. Les écoles locales et les organisations culturelles lancent des programmes éducatifs qui enseignent aux jeunes l'importance des traditions et les bases du marketing moderne. En conséquence, la région tente de préserver la culture paysanne et de développer collaborativement les services touristiques sans nuire à l'écosystème local.",
+      "questions": [
+        {
+          "question": "Quel est un des éléments traditionnels souvent mis en valeur lors des visites ?",
+          "options": [
+            "La construction moderne des chais",
+            "Le qvevri et les méthodes ancestrales",
+            "Les techniques industrielles de mise en bouteille",
+            "Les vergers de pommes"
+          ],
+          "answer": "Le qvevri et les méthodes ancestrales",
+          "explanation": "Le texte précise que le qvevri traditionnel et les méthodes anciennes sont des éléments centraux pour les visiteurs."
+        },
+        {
+          "question": "Quel bénéfice les vignerons tirent-ils du tourisme selon le texte ?",
+          "options": [
+            "La suppression des petites exploitations",
+            "La diversification des sources de revenus",
+            "La baisse des normes environnementales",
+            "L'augmentation exclusive des exportations"
+          ],
+          "answer": "La diversification des sources de revenus",
+          "explanation": "Les vignerons indiquent que le tourisme assure une diversification de leurs revenus."
+        },
+        {
+          "question": "Quelle conséquence négative du tourisme est mentionnée ?",
+          "options": [
+            "L'amélioration immédiate de l'infrastructure",
+            "La disparition totale des traditions",
+            "L'impact sur l'environnement nécessitant des réglementations",
+            "La fermeture des écoles locales"
+          ],
+          "answer": "L'impact sur l'environnement nécessitant des réglementations",
+          "explanation": "Le texte évoque que l'afflux de visiteurs a des effets sur l'environnement, demandant des améliorations et des réglementations."
+        },
+        {
+          "question": "Que font les écoles et organisations culturelles locales ?",
+          "options": [
+            "Elles organisent des manifestations commerciales internationales",
+            "Elles lancent des programmes éducatifs sur les traditions et le marketing",
+            "Elles interdisent l'accès des jeunes aux vignobles",
+            "Elles vendent du vin sans contrôle"
+          ],
+          "answer": "Elles lancent des programmes éducatifs sur les traditions et le marketing",
+          "explanation": "Le texte indique que ces structures commencent des programmes qui enseignent l'importance des traditions et des bases du marketing moderne."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-003",
+      "title": "მხატვრული შეხვედრა ქალაქში",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 3,
+      "text": "თბილისის ერთ-ერთ ძველ რაიონში მდებარე პატარა გალერეა ბოლო წლებია მუდმივად იზიდავს ადგილობრივებსა და მოგზაურებს. მეპატრონე ნინა, რომელიც თავადაა მხატვარი, ცდილობს, რომ სივრცე იყოს არა მხოლოდ გამოფენებისთვის, არამედ კომპაქტური შემოქმედებითი შეხვედრებისთვის. ყოველ შაბათს იმართება „ღია სტუდია“ — უცნობი და გამოცდილი കലാകარმების ნამუშევრები ერთმანეთთან უახლოვდება, და დამსწრეთა შორის ხშირად იწყება დისკუსია ტექნიკის, თხრობისა და თემის შესახებ. ნინას თქმით, მსგავსი ინიციატივა ეხმარება მოახლოებულ თაობას გადალახოს შერბილებული სტერეოტიპები: ხელოვნება მხოლოდ ძვირი ფასიანი ნივთი არ არის, არამედ კომუნიკაციის საშუალება და ყოველდღიურობის ნაწილიც. გალერეის მახლობლად პატარა ყავახანა გაიხსნა, სადაც ცნობილმა ბარისტამ საღამოს დროს ჩართო ყავის და წიგნის შეკრების იდეა — სტუმრები ერთმანეთს წაკითხულიდან რჩევებს უზიარებენ და ახალი ურთიერთობებიც იქმნება. ამ პროცესში, თითქოს, ქალაქმა მიიღო ახალი ზნე — კულტურა, რომელიც მარტივად ხელმისაწვდომია, მაგრამ საყურადღებოდ საინტერესოა.",
+      "translation": "Une petite galerie située dans un ancien quartier de Tbilissi attire depuis quelques années habitants et voyageurs. La propriétaire, Nina, elle-même artiste, veille à ce que l'espace ne serve pas seulement aux expositions, mais aussi à de petites rencontres créatives. Chaque samedi a lieu un « atelier ouvert » — les œuvres d'artistes débutants et confirmés se côtoient, et parmi les participants s'engagent souvent des discussions sur les techniques, la narration et les thèmes. Selon Nina, une telle initiative aide la génération montante à dépasser des stéréotypes enracinés : l'art n'est pas seulement un objet de luxe, mais un moyen de communication et une part du quotidien. À côté de la galerie, un petit café a ouvert, où un barista connu a lancé l'idée d'une rencontre café et livres en soirée — les habitués partagent des recommandations de lecture et forment de nouvelles relations. Par ce processus, la ville semble adopter une nouvelle coutume — une culture facilement accessible, mais digne d'attention.",
+      "questions": [
+        {
+          "question": "Quel est le but principal de la galerie selon le texte ?",
+          "options": [
+            "Organiser des ventes d'œuvres d'art à prix élevé.",
+            "Servir comme espace pour expositions et rencontres créatives.",
+            "Fournir des cours de peinture payants chaque semaine.",
+            "Être un musée d'histoire locale."
+          ],
+          "answer": "Servir comme espace pour expositions et rencontres créatives.",
+          "explanation": "Le texte indique que la propriétaire veut que l'espace soit utilisé non seulement pour des expositions, mais aussi pour de petites rencontres créatives (ოც არა მხოლოდ გამოფენებისთვის, არამედ კომპაქტური შემოქმედებითი შეხვედრებისთვის)."
+        },
+        {
+          "question": "Qu'est-ce que l'initiative « atelier ouvert » favorise chez les jeunes artistes ?",
+          "options": [
+            "L'obtention de subventions publiques.",
+            "Le renforcement de stéréotypes traditionnels.",
+            "Le dépassement des stéréotypes et l'échange sur la pratique artistique.",
+            "La spécialisation exclusive dans une technique."
+          ],
+          "answer": "Le dépassement des stéréotypes et l'échange sur la pratique artistique.",
+          "explanation": "Nina explique que l'initiative aide la jeune génération à dépasser les stéréotypes selon lesquels l'art serait seulement un objet de luxe, et les participants discutent techniques et thèmes (ეხმარება ... გადალახოს შერბილებული სტერეოტიპები; დისკუსია ტექნიკის, თხრობისა და თემის შესახებ)."
+        },
+        {
+          "question": "Quelle activité se déroule au café voisin en soirée ?",
+          "options": [
+            "Des concerts de jazz improvisés.",
+            "Une rencontre autour du café et du livre avec échanges de recommandations.",
+            "Des ateliers de torréfaction de café pour débutants.",
+            "Une vente aux enchères d'anciens livres."
+          ],
+          "answer": "Une rencontre autour du café et du livre avec échanges de recommandations.",
+          "explanation": "Le texte mentionne que le barista a lancé une idée de rassemblement « café et livres » en soirée où les invités partagent des conseils de lecture (ყავის და წიგნის შეკრების იდეა — სტუმრები ერთმანეთს წაკითხულიდან რჩევებს უზიარებენ)."
+        },
+        {
+          "question": "Quelle transformation culturelle la ville semble adopter, d'après l'auteur ?",
+          "options": [
+            "Une culture élitiste accessible seulement aux connaisseurs.",
+            "Une culture axée sur le tourisme mais déconnectée des habitants.",
+            "Une culture simple, accessible et néanmoins intéressante.",
+            "Une culture tournée uniquement vers les arts numériques."
+          ],
+          "answer": "Une culture simple, accessible et néanmoins intéressante.",
+          "explanation": "La conclusion dit que la ville adopte une nouvelle coutume : une culture facilement accessible mais digne d'attention (კულტურა, რომელიც მარტივად ხელმისაწვდომია, მაგრამ საყურადღებოდ საინტერესოა)."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-004",
+      "title": "ნატურალისტური ბაღის აღდგენა",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 4,
+      "text": "სოფელში მდებარე ძველი საჯარო ბაღი წლების განმავლობაში განიცდიდა იგნორირებას და დაკარგა თავისი ბიომრავალფეროვნების ნაწილი. უკანასკნელი სამწლიანი პროექტი მიმართული იყო ბუნებრივი ნატურალისტური ზონების აღდგენაზე: ადგილობრივი მცენარეულობის ჩანერგვა, წყლის ნაკადების გაწმენდა და ადგილზე წარმოქმნილი ნიადაგის სტაბილიზაციის პროგრამა. პროექტი ჩართული იყო მეცნიერებისა და ადგილობრივი საზოგადოების წევრები — ეკოლოგები ეძებდნენ ადგილობრივ სახეობებს, რომლებიც უკეთესად შეეზრდებოდნენ სასოფლო ჰაბიტატს, ხოლო მოხალისეები ეხმარებოდნენ მცენარეთა გაშენებას და მონიტორინგს. ერთ-ერთი მნიშვნელოვანი მიზანი იყო არა მხოლოდ პარკის ვიზუალური გაუმჯობესება, არამედ ეკოსისტემურ ურთიერთობის აღდგენა ისე, რომ მტაცებლები და საკვების წყაროები კვლავ თანასწორობაში მოსულიყვნენ. მიუხედავად დანახარჯებისა და ურბანული ენერგიის პრობლემებისა, ინიციატივამ მოზიდა ახალგაზრდა ოჯახები და სკოლები, რომლებმაც გარემოში სწავლების პროგრამები დაიწყეს. ახლა ბაღი თუნდაც სეზონურად მომრავლებული ფრინველებითაა წარმატებული, და პროექტის ხელმძღვანელები გეგმავენ არსებულ გამოცდილებას გარშემო სოფლებისთვის გასავრცელებლად.",
+      "translation": "Le vieux parc public du village avait été négligé pendant des années et avait perdu une partie de sa biodiversité. Un projet de trois ans visait à restaurer des zones naturalistes : plantation de la végétation locale, nettoyage des cours d'eau et programme de stabilisation des sols créés sur place. Au projet ont participé des scientifiques et des membres de la communauté locale — les écologues repéraient les espèces indigènes les mieux adaptées à l'habitat rural, tandis que les bénévoles aidaient à la plantation et au suivi. Un objectif important n'était pas seulement l'amélioration visuelle du parc, mais la restauration des interactions écosystémiques, afin que prédateurs et sources de nourriture retrouvent un équilibre. Malgré les coûts et les problèmes d'énergie urbaine, l'initiative a attiré de jeunes familles et des écoles qui ont lancé des programmes d'éducation environnementale. Aujourd'hui le parc réussit, même saisonnièrement, à accueillir une abondance d'oiseaux, et les responsables du projet prévoient de diffuser cette expérience aux villages voisins.",
+      "questions": [
+        {
+          "question": "Quel était l'objectif principal du projet de restauration ?",
+          "options": [
+            "Transformer le parc en terrain de sport municipal.",
+            "Restaurer des zones naturalistes et la biodiversité locale.",
+            "Construire des logements écologiques sur le terrain.",
+            "Installer des installations artistiques contemporaines."
+          ],
+          "answer": "Restaurer des zones naturalistes et la biodiversité locale.",
+          "explanation": "Le texte indique clairement que le projet visait la restauration de zones naturalistes : plantation locale, nettoyage des cours d'eau et stabilisation des sols pour retrouver la biodiversité (ნატურალისტური ზონების აღდგენაზე; ადგილობრივი მცენარეულობის ჩანერგვა)."
+        },
+        {
+          "question": "Qui a participé au projet selon le texte ?",
+          "options": [
+            "Uniquement des entreprises privées spécialisées en architecture.",
+            "Des scientifiques et des membres de la communauté locale, dont des bénévoles.",
+            "Des touristes internationaux financés par des ONG étrangères.",
+            "Des politiciens locaux sans implication citoyenne."
+          ],
+          "answer": "Des scientifiques et des membres de la communauté locale, dont des bénévoles.",
+          "explanation": "Le passage précise que des scientifiques (écologues) et des membres de la communauté, y compris des bénévoles, ont participé au projet (მეცნიერებისა და ადგილობრივი საზოგადოების წევრები; მოხალისეები)."
+        },
+        {
+          "question": "Quelle difficulté le projet a-t-il rencontrée ?",
+          "options": [
+            "Des conflits juridiques sur la propriété du parc.",
+            "Des coûts et des problèmes liés à l'énergie urbaine.",
+            "Une opposition totale des écoles et des familles.",
+            "L'absence complète d'espèces animales."
+          ],
+          "answer": "Des coûts et des problèmes liés à l'énergie urbaine.",
+          "explanation": "Le texte mentionne explicitement les dépenses et les problèmes d'énergie urbaine comme défis (მიუხედავად დანახარჯებისა და ურბანული ენერგიის პრობლემებისა)."
+        },
+        {
+          "question": "Quel résultat positif est observé actuellement dans le parc ?",
+          "options": [
+            "Il est transformé en centre commercial saisonnier.",
+            "Il attire de nombreux oiseaux, au moins de façon saisonnière.",
+            "Il est devenu inaccessible au public pour protection.",
+            "Il accueille des compétitions sportives internationales."
+          ],
+          "answer": "Il attire de nombreux oiseaux, au moins de façon saisonnière.",
+          "explanation": "Le texte conclut que le parc connaît maintenant le succès, avec une augmentation saisonnière des oiseaux, et les responsables veulent étendre l'expérience (ბაღი თუნდაც სეზონურად მომრავლებული ფრინველებითაა წარმატებული)."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-007",
+      "title": "აპარტამენტის აივანი და ქალაქური კულტურა",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 7,
+      "text": "თბილისში, ბოლო წლებში, ქალაქური ბაღების და პატარა სასოფლო საბოსტნეების მოდა გაჩაღდა. ბევრ უბანში, სადაც ადრე მხოლოდ მოპირკეთებული ბილიკები და ავტომობილების პარკინგი იყო, ახლა მცენარეებით დატვირთული აივნები და საძინებლების თავზე განლაგებული ყანები ჩანს. ადგილობრივები ორ მიზეზს ასახელებენ: πρώτο, საკვები უსაფრთხოება და ხარისხი — ბევრი ოჯახი ბოსტნეულს თავად იჭრის და იყენებს; მეორე, ფსიქოლოგიური სარგებელი — მწვანე სივრცეები შეკავებას უკეთებენ და სტრესს ამცირებენ. ადმინისტრაციები უზრუნველყოფენ მცირე გრანტებს, რათა ადამიანები თიხის ქოთნებსა და ადგილობრივ სასოფლო კულტურებს შეისწავლონ. ზოგიერთმა თემმა კი მოაწყო სენაკები, სადაც სათბურები და წყლის დაზოგვის სისტემები ცალკე პროექტად ფუნქციონირებს. თუმცა გზაზე რჩება გამოწვევებიც: დაბალი ნიადაგის ხარისხი აივნებზე, წყლის მიწოდების პრობლემა და ჰაერის დაბინძურება, რაც ხშირად აზიანებს კულტურებს. ადგილობრივ ორგანიზაციებში ამბობენ, რომ უკეთესი შედეგისთვის საჭიროა თანაინვესტირება — ქალაქის, მოქალაქეთა და სპეციალისტების ერთობლივ ძალისხმევით.",
+      "translation": "À Tbilissi, ces dernières années, la mode des jardins urbains et des petits potagers a éclaté. Dans de nombreux quartiers, où auparavant il n'y avait que des trottoirs pavés et des parkings, on voit maintenant des balcons chargés de plantes et des jardins sur les toits d'immeubles. Les habitants évoquent deux raisons : premièrement, la sécurité et la qualité alimentaire — beaucoup de familles récoltent et utilisent leurs propres légumes ; deuxièmement, le bénéfice psychologique — les espaces verts apaisent et réduisent le stress. Les administrations fournissent de petites subventions pour que les gens s'initient aux pots en terre et aux cultures locales. Certaines communautés ont aménagé des serres où les systèmes de récupération d'eau fonctionnent comme projet distinct. Toutefois, des défis restent : la mauvaise qualité du sol sur les balcons, les problèmes d'approvisionnement en eau et la pollution de l'air, qui endommage souvent les cultures. Les organisations locales affirment que pour de meilleurs résultats il faut un cofinancement — un effort conjoint de la ville, des citoyens et des spécialistes.",
+      "questions": [
+        {
+          "question": "Quelle est la raison non mentionnée dans le texte pour laquelle les habitants développent des potagers urbains ?",
+          "options": [
+            "Améliorer la qualité de l'air en plantant des arbres fruitiers",
+            "Augmenter la sécurité alimentaire en cultivant leurs légumes",
+            "Réduire le stress grâce aux espaces verts",
+            "Bénéficier de petites subventions municipales"
+          ],
+          "answer": "Améliorer la qualité de l'air en plantant des arbres fruitiers",
+          "explanation": "Le texte mentionne la sécurité alimentaire, les bienfaits psychologiques et les subventions, mais pas la plantation d'arbres fruitiers pour améliorer spécifiquement la qualité de l'air."
+        },
+        {
+          "question": "Quel type de projet certaines communautés ont-elles mis en place ?",
+          "options": [
+            "Des potagers souterrains pour économiser la chaleur",
+            "Des serres avec des systèmes d'économie d'eau",
+            "Des marchés hebdomadaires pour vendre les légumes",
+            "Des programmes scolaires pour enseigner l'agriculture"
+          ],
+          "answer": "Des serres avec des systèmes d'économie d'eau",
+          "explanation": "Le texte évoque que certaines communautés ont aménagé des serres où les systèmes de récupération et d'économie d'eau fonctionnent comme projet distinct."
+        },
+        {
+          "question": "Quel problème affecte particulièrement les cultures sur les balcons ?",
+          "options": [
+            "La présence d'animaux sauvages",
+            "Le vol des récoltes par des voisins",
+            "La mauvaise qualité du sol",
+            "Les taxes municipales élevées"
+          ],
+          "answer": "La mauvaise qualité du sol",
+          "explanation": "Le texte mentionne explicitement la basse qualité du sol sur les balcons comme un des défis."
+        },
+        {
+          "question": "Quelle solution est proposée pour améliorer les résultats des projets urbains ?",
+          "options": [
+            "Interdire le stationnement pour agrandir les jardins",
+            "Confier la gestion aux seules administrations municipales",
+            "Un cofinancement entre ville, citoyens et spécialistes",
+            "Exporter les produits pour financer les serres"
+          ],
+          "answer": "Un cofinancement entre ville, citoyens et spécialistes",
+          "explanation": "Le texte indique que les organisations locales demandent une meilleure coopération financière — un effort conjoint de la ville, des citoyens et des spécialistes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-008",
+      "title": "ღვინის მარშრუტები და ადგილობრივი ხელსაწყოები",
+      "level_name": "B2",
+      "cefr": "B2",
+      "version": 8,
+      "text": "საქართველოში ღვინის კულტურა უძველესი ტრადიციით არის ცნობილი. ბოლო წლებში ტურისტული სექტორი ღვინის მარშრუტების განვითარებაზეა ორიენტირებული: პატარა მეღვინეობები ხელს უწყობენ სტუმრებს, რომ მონაწილეობდნენ ქვევრში, დეგუსტაციებს და რესტორნებში ტრადიციული კერძების შეხამებაში. მარშრუტები ხშირად მოიცავს სოფლებთან დაკავშირებულ ეკოტურიზმს და ხელნაკეთი პროდუქტების ბაზრებს. მეწარმეები ამბობენ, რომ ეს უძრავი აქტივობები დაეხმარა მათ შემოსავლების დივერსიფიკაციას და ადგილობრივი ციკლის გახსნაში — სურსათიდან დაწყებული, ღვინის დამზადებით დასრულებული. ტურისტებს იზიდავს ავტენტურობა: მრავალი სტუმარი ამჯობინებს პატარა ოჯახის მარნებს, სადაც ტექნოლოგია და ქალაწარმოების მეთოდები თანაარსებობს. თუმცა გამოწვევაც არის: წლევანდელი კლიმატის ცვლილება ზოგიერთ რეგიონში მოსავალს ამცირებს და მცირე მარნებს სჭირდებათ ინვესტიცია თანამედროვე შენახვის სისტემებში. სპეციალისტების მოსაზრებით, ბალანსი ტრადიციასა და ინოვაციას შორის აუცილებელია, რათა სექტორი მდგრადად განვითარდეს და დაბალ მოცულობასთან დაკავშირებული რისკები შეამციროს.",
+      "translation": "En Géorgie, la culture du vin est connue pour sa tradition millénaire. Ces dernières années, le secteur touristique s'est orienté vers le développement d'itinéraires œnologiques : petites caves qui invitent les visiteurs à participer à la qvevri (cuve en argile), à des dégustations et à associer les vins aux plats traditionnels dans les restaurants. Les circuits incluent souvent l'écotourisme lié aux villages et des marchés de produits artisanaux. Les entrepreneurs disent que ces activités ont aidé à diversifier leurs revenus et à ouvrir le cycle local — depuis la production alimentaire jusqu'à la vinification. Les touristes sont attirés par l'authenticité : beaucoup préfèrent les petites propriétés familiales où technologie et méthodes artisanales coexistent. Toutefois, il y a un défi : le changement climatique de cette année réduit les récoltes dans certaines régions et les petites caves ont besoin d'investissements dans des systèmes modernes de conservation. Selon des spécialistes, l'équilibre entre tradition et innovation est nécessaire pour que le secteur se développe de manière durable et réduise les risques liés aux faibles volumes.",
+      "questions": [
+        {
+          "question": "Qu'est-ce qui attire principalement les touristes vers les petites caves familiales ?",
+          "options": [
+            "Les prix très bas des bouteilles",
+            "L'authenticité et la coexistence de traditions et de techniques",
+            "La proximité des grandes villes",
+            "La modernité exclusive des installations"
+          ],
+          "answer": "L'authenticité et la coexistence de traditions et de techniques",
+          "explanation": "Le texte précise que les touristes recherchent l'authenticité et apprécient que technologie et méthodes artisanales coexistent dans les petites caves familiales."
+        },
+        {
+          "question": "Quelle activité n'est PAS mentionnée comme faisant partie des mardchrutebi (itinéraires) ?",
+          "options": [
+            "Participation à la fabrication dans la qvevri",
+            "Visites de marchés de produits artisanaux",
+            "Séances de formation en sommellerie avancée",
+            "Écotourisme lié aux villages"
+          ],
+          "answer": "Séances de formation en sommellerie avancée",
+          "explanation": "Le texte mentionne la participation à la qvevri, les marchés artisanaux et l'écotourisme, mais pas des formations avancées en sommellerie."
+        },
+        {
+          "question": "Quel problème récent affecte la production des petites caves ?",
+          "options": [
+            "La hausse du coût du verre pour les bouteilles",
+            "Le manque de main-d'œuvre qualifiée",
+            "Le changement climatique réduisant les récoltes",
+            "L'interdiction des exportations"
+          ],
+          "answer": "Le changement climatique réduisant les récoltes",
+          "explanation": "Le texte indique clairement que le changement climatique cette année a réduit les récoltes dans certaines régions, affectant les petites caves."
+        },
+        {
+          "question": "Quelle solution est proposée par les spécialistes pour assurer la durabilité du secteur ?",
+          "options": [
+            "Arrêter les techniques traditionnelles au profit de la modernité",
+            "Augmenter uniquement la production à grande échelle",
+            "Trouver un équilibre entre tradition et innovation",
+            "Réduire le nombre de touristes pour diminuer l'impact"
+          ],
+          "answer": "Trouver un équilibre entre tradition et innovation",
+          "explanation": "Le texte conclut que, selon les spécialistes, un équilibre entre tradition et innovation est nécessaire pour un développement durable et pour réduire les risques liés aux faibles volumes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-009",
+      "version": 9,
+      "cefr": "B2",
+      "level_name": "B2",
+      "title": "ქალაქური ბაღი თბილისის წიაღში",
+      "text": "თბილისში ბოლო წლებში დაიწყო ქალაქური სალათისა და მცენარეების კულტივაცია მეტი ინტერესით. ბევრი მრავალსართულიანი სახლი საკუთარ ეზოში, აივანზე ან კორპუსის საერთო ტერიტორიის პატარა ღამურებში ალაგებს სანერგეებსა და ყუთებს, სადაც თესავენ სალათს, ქილას, კიტრს და კენკრას. ასეთი პრაქტიკა, ადგილობრივების თქმით, არა მხოლოდ საშუალებას აძლევს ჭამონ უმდიდრესი და ახალი პროდუქტი, არამედ ქმნის საზოგადოებრივ განცახდებას: მეზობლები რედის, გაერთიანდებიან სამუშაოში და გაცვლიან გამოცდილებას. ადგილობრივი მუნიციპალიტეტები ხშირად იძლევიან კონსულტაციებს და არცთუ იშვიათად, პატარა გრანტებს ან მიწის ნაკვეთს სტარტისთვის.\n\nიმის გამო, რომ ქალაქში მიწის ხარისხი ზოგან დაბინძურებულია, მცენარეები ხშირად ირგვლივ სპეციალურ კერამიულ ან პლასტმასის ყუთებში ირგებაც. აგრეთვე ჩნდება ინიციატივები უხვი ნარჩენების კომპოსტირებისა და წყლის დაზოგვის შესახებ: მოსახლეობა დამონტაჟებს წვეთოვანათვის სარწყავ სისტემებს ან აგროვებს წვიმის წყალს წყლის სატუმბოებით. ექსპერტები ფიქრობენ, რომ ასეთი მცირე ზომის, მაგრამ ფართოდ გავრცელებული პროექტები მნიშვნელოვნად აუმჯობესებს ქალაქის ეკოლოგიას და მოსახლეობის ცნობიერებას სასურსათო უსაფრთხოების საკითხებზე.",
+      "translation": "Dans les dernières années à Tbilissi, la culture urbaine de salades et de plantes a suscité un intérêt croissant. De nombreux immeubles disposent de potagers dans leur cour, sur les balcons ou dans de petits bacs sur les terrains communs, où l’on sème de la salade, des herbes, des concombres et des petits fruits. Selon les habitants, cette pratique permet non seulement de manger des produits frais et riches, mais crée aussi un sentiment de communauté : les voisins partagent des outils, travaillent ensemble et échangent leurs expériences. Les municipalités locales offrent souvent des conseils et parfois de petits subventions ou des parcelles pour démarrer.\n\nParce que la qualité du sol en ville est parfois polluée, on cultive souvent les plantes dans des bacs en céramique ou en plastique. Des initiatives apparaissent aussi pour composter les déchets organiques et économiser l’eau : des habitants installent des systèmes d’irrigation goutte-à-goutte ou récupèrent l’eau de pluie avec des citernes. Les experts estiment que ces projets, de petite taille mais très répandus, améliorent significativement l’écologie urbaine et la conscience des habitants sur la sécurité alimentaire.",
+      "questions": [
+        {
+          "question": "Quel est l’avantage principal, selon le texte, d’avoir un potager urbain à Tbilissi ?",
+          "options": [
+            "Augmenter la valeur immobilière des immeubles",
+            "Manger des produits frais et renforcer le lien social",
+            "Réduire complètement la pollution du sol",
+            "Remplacer les marchés locaux"
+          ],
+          "answer": "Manger des produits frais et renforcer le lien social",
+          "explanation": "Le texte souligne que la pratique permet de consommer des produits frais et crée un sentiment de communauté entre voisins."
+        },
+        {
+          "question": "Pourquoi certains utilisent des bacs en céramique ou en plastique ?",
+          "options": [
+            "Parce que ces matériaux embellissent la ville",
+            "Parce que le sol urbain peut être pollué",
+            "Parce que la loi l’impose",
+            "Parce que ces bacs coûtent moins cher"
+          ],
+          "answer": "Parce que le sol urbain peut être pollué",
+          "explanation": "Le texte indique qu’en raison de la pollution possible du sol en ville, les plantes sont souvent cultivées dans des bacs."
+        },
+        {
+          "question": "Quelle initiative n’est PAS mentionnée dans le texte ?",
+          "options": [
+            "Installation de systèmes d’irrigation goutte-à-goutte",
+            "Collecte de l’eau de pluie",
+            "Distribution gratuite de semences par l’État",
+            "Compostage des déchets organiques"
+          ],
+          "answer": "Distribution gratuite de semences par l’État",
+          "explanation": "Le texte mentionne l’irrigation goutte-à-goutte, la collecte d’eau de pluie et le compostage, mais pas une distribution gratuite de semences par l’État."
+        },
+        {
+          "question": "Quel effet global les experts attribuent-ils à ces projets urbains ?",
+          "options": [
+            "Une transformation rapide de l’urbanisme en zones agricoles",
+            "Une amélioration de l’écologie urbaine et de la conscience sur la sécurité alimentaire",
+            "La résolution définitive des problèmes d’approvisionnement en eau",
+            "La diminution immédiate des prix des légumes sur les marchés"
+          ],
+          "answer": "Une amélioration de l’écologie urbaine et de la conscience sur la sécurité alimentaire",
+          "explanation": "Le dernier paragraphe précise que les experts pensent que ces projets améliorent l’écologie urbaine et la sensibilisation à la sécurité alimentaire."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b2-gen-010",
+      "version": 10,
+      "cefr": "B2",
+      "level_name": "B2",
+      "title": "ფოლკლორი და თანამედროვე მუსიკა: მრავალხმიანობის დაბრუნება",
+      "text": "საქართველოში მრავალხმიანი სიმღერა, რომელიც უნიკალურ კულტურულ სამკაულად ითვლება, ბოლო ათწლეულებში განიცდის რენესანსს, განსაკუთრებით ახალგაზრდებში. თუ ადრე ეს ჟანრი ხშირად სიყვარულით რთულ ტრენინგებსა და სოფლის სამღერო ტრადიციებში იყო ჩაბმული, დღეს სტუდენტური ანსამბლები, ქალაქური მუსიკალური სტუდიები და ფესტივალები ადგილიან სივრცეს ქმნიან მრავალხმიანობის შესწავლისთვის. ბევრი ახალგაზრდა მომღერალი აერთიანებს ზეპირ ტრადიციას თანამედროვე ვოკალურ ტექნიკებთან და ექსპერიმენტებს ახდენს ახალ ჰარმონიებზე.\n\nსახელმწიფო და არაკომერციული ორგანიზაციები აფინანსებენ კვლევებს, ათვისებენ ტექნოლოგიას ტრადიციების ჩაწერისა და დოკუმენტირებისთვის, ასევე ბრენდავენ პროექტებს ტურიზმისთვის. ამ ყველაფერმა განაპირობა საუბარი იმის შესახებ, როგორ შეინარჩუნონ ავთენტურობა და როგორ გაუწიონ წინააღმდეგობა კომერციალიზაციას, რადგან ზოგი კრიტიკოსი ფიქრობს, რომ გამოფენებზე ხილული და მიმზიდველი ფორმები შეიძლება წარმოაჩინოს დედაენისი მინიშნებულად და აამაღლოს სარეკლამო ელემენტები კულტურის ჭრილში.\n\nშემოქმედებითი სივრცეები ახლა ცდილობენ სამიზნე ფასეულობათა დაბალანსებას: ერთის მხრივ, დაკვირვებით ინარჩუნებენ ტრადიციულ რეპერტუარს; მეორეს მხრივ, აძლევენ თავისუფლებას ექსპერიმენტისთვის. მსმენელთა ინტერესი აშკარად მზარდია, განსაკუთრებით საერთაშორისო აუდიტორიაში, რაც ახალ შესაძლებლობებს უქმნის ადგილობრივ შემოქმედებებს.",
+      "translation": "En Géorgie, le chant polyphonique, considéré comme un joyau culturel unique, connaît depuis quelques décennies une renaissance, surtout chez les jeunes. Alors que ce genre était auparavant lié à des formations exigeantes et aux traditions chantées des villages, aujourd’hui des ensembles étudiants, des studios musicaux urbains et des festivals offrent des espaces pour étudier la polyphonie. De nombreux jeunes chanteurs mêlent la tradition orale aux techniques vocales contemporaines et expérimentent de nouvelles harmonies.\n\nL’État et des organisations non commerciales financent des recherches, utilisent la technologie pour enregistrer et documenter les traditions, et promeuvent des projets pour le tourisme. Tout cela suscite des débats sur la manière de préserver l’authenticité et de résister à la commercialisation, car certains critiques pensent que des formes visibles et attractives dans les expositions risquent de présenter la langue ou la tradition de façon stéréotypée et d’instrumentaliser des éléments culturels à des fins publicitaires.\n\nLes espaces créatifs cherchent maintenant à équilibrer ces valeurs : d’une part, ils préservent scrupuleusement le répertoire traditionnel ; d’autre part, ils laissent libre cours à l’expérimentation. L’intérêt du public augmente clairement, notamment à l’international, ce qui crée de nouvelles opportunités pour les artistes locaux.",
+      "questions": [
+        {
+          "question": "Quelle transformation principale concerne le chant polyphonique en Géorgie ?",
+          "options": [
+            "Il disparaît progressivement dans les zones rurales",
+            "Il renaît surtout chez les jeunes et dans les milieux urbains",
+            "Il devient uniquement une attraction touristique",
+            "Il est interdit dans les festivals officiels"
+          ],
+          "answer": "Il renaît surtout chez les jeunes et dans les milieux urbains",
+          "explanation": "Le texte explique que le chant polyphonique connaît une renaissance, particulièrement parmi les jeunes, grâce à des ensembles étudiants et des festivals urbains."
+        },
+        {
+          "question": "Quel problème les critiques craignent-ils face à la promotion touristique ?",
+          "options": [
+            "La perte d’authenticité et la transformation en objet commercial",
+            "L’interdiction d’utiliser des instruments traditionnels",
+            "La suppression de la musique polyphonique dans les écoles",
+            "L’augmentation des prix des billets de concert"
+          ],
+          "answer": "La perte d’authenticité et la transformation en objet commercial",
+          "explanation": "Le texte mentionne l’inquiétude que la présentation attractive puisse stéréotyper ou instrumentaliser la tradition à des fins publicitaires."
+        },
+        {
+          "question": "Quelles actions prennent l’État et les ONG selon le texte ?",
+          "options": [
+            "Ils construisent de nouvelles salles de concert uniquement",
+            "Ils financent la recherche et documentent les traditions avec la technologie",
+            "Ils interdisent l’expérimentation musicale",
+            "Ils imposent un répertoire standard aux ensembles étudiants"
+          ],
+          "answer": "Ils financent la recherche et documentent les traditions avec la technologie",
+          "explanation": "Le texte indique que l’État et des organisations non lucratives financent des recherches et utilisent la technologie pour enregistrer et documenter les traditions."
+        },
+        {
+          "question": "Comment les espaces créatifs gèrent-ils la tension entre tradition et modernité ?",
+          "options": [
+            "Ils refusent toute modernisation pour protéger la tradition",
+            "Ils combinent préservation scrupuleuse du répertoire et liberté d’expérimentation",
+            "Ils laissent uniquement les experts décider du répertoire",
+            "Ils vendent la musique uniquement à l’international"
+          ],
+          "answer": "Ils combinent préservation scrupuleuse du répertoire et liberté d’expérimentation",
+          "explanation": "Le texte précise que ces espaces tentent d’équilibrer les valeurs en conservant le répertoire traditionnel tout en permettant l’expérimentation."
+        }
+      ]
+    }
+  ]
+}

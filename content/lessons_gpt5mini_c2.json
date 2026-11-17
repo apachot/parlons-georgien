@@ -1,0 +1,415 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "lessons-c2-gen-001",
+      "title": "Salutations et présentations formelles",
+      "tag": "communication",
+      "duration": 20,
+      "goal": "Maîtriser les formules de politesse et les présentations formelles en géorgien contemporain.",
+      "cefr": "C2",
+      "version": 1,
+      "items": [
+        {
+          "ka": "გამარჯობა, დიდი ქებას ვეტყოდი თქვენი გაცნობისთვის.",
+          "fr": "Bonjour, je vous serais très reconnaissant de faire votre connaissance.",
+          "translit": "gamarjoba, didi q'ebas vet'q'odi tkveni gatsnobistvis",
+          "pron": "ga-mar-jo-ba, di-di khe-bas ve-ti-qo-di tkvé-ni gat-sno-bis-tvis"
+        },
+        {
+          "ka": "გთხოვთ, მაპატივით მომართოთ — თქვენი აზრი ჩემთვის მნიშვნელოვანია.",
+          "fr": "Veuillez me répondre avec bienveillance — votre avis m'importe.",
+          "translit": "gtxovt, map'at'ivit momartot — tkveni azri chemTvis mnishvnelovania",
+          "pron": "gtkhovt, ma-pa-ti-vit mo-mar-tot — tkve-ni az-ri chem-tvis mni-shvne-lo-va-nia"
+        },
+        {
+          "ka": "სურვილები და პირობის შესრულება განსაზღვრავს ჩვენი თანამშრომლობის მომავალს.",
+          "fr": "Les souhaits et le respect des engagements déterminent l'avenir de notre collaboration.",
+          "translit": "survilebi da pirobis shesruleba gansazghvras chveni tanamshromlobis momalobs",
+          "pron": "sur-vi-le-bi da pi-ro-bis shes-ru-le-ba gan-saz-ghvras chve-ni ta-nam-shrom-lo-bis mo-ma-lobs"
+        },
+        {
+          "ka": "გმადლობთ დაგვითმეთ დროც და ყურადღება — მომავალი ნაბიჯების დასახაზად.",
+          "fr": "Merci de nous avoir accordé du temps et votre attention — pour fixer les prochaines étapes.",
+          "translit": "gmadlobt dagvitmet droc da ukhrobet'a — momavali nabijebis dasakhazad",
+          "pron": "gmad-lobt dag-vi-tmet drots da ukh-ro-bet-a — mo-ma-va-li na-bi-je-bis da-sa-kha-zad"
+        },
+        {
+          "ka": "მიაწერეთ თქვენი ფუნქცია და საკონტაქტო მონაცემები, თუ შეიძლება.",
+          "fr": "Indiquez votre fonction et vos coordonnées, si possible.",
+          "translit": "miatseiret tkveni funkcia da sakontaqto monacemebi, tu sheidzleba",
+          "pron": "mia-tsei-ret tkve-ni fun-ktsi-a da sa-kon-taq-to mo-na-ce-me-bi, tu she-iz-le-ba"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-002",
+      "title": "Décrire une œuvre littéraire contemporaine",
+      "tag": "littérature",
+      "duration": 35,
+      "goal": "Savoir analyser finement le style, les thèmes et la stratégie narrative d'un texte géorgien moderne.",
+      "cefr": "C2",
+      "version": 2,
+      "items": [
+        {
+          "ka": "ეს მოთხრობა მკაფიოდ ავლენს დროის დაარსების მოულოდნელ დინამიკას.",
+          "fr": "Cette nouvelle révèle clairement la dynamique inattendue de la construction du temps.",
+          "translit": "es motkhroba mk'ap'iod avlens drois daarsebis moulodnel dinamikas",
+          "pron": "es mot-khro-ba mk'a-p'i-od av-lens dro-is daa-ar-se-bis mou-lo-dnel di-na-mi-kas"
+        },
+        {
+          "ka": "ავტორი იყენებს მარტივ, მაგრამ მრავალშრესულ მეტაფორებს შეგრძნებების გადმოსაცემად.",
+          "fr": "L'auteur utilise des métaphores apparemment simples mais à multiples couches pour transmettre les sensations.",
+          "translit": "avt'ori iqenebs martiv, magram mravalshresul metaforebs shegrznebebis gadmosats'ebad",
+          "pron": "av-to-ri i-qe-nebs mar-tiv, ma-gram mra-val-shre-sul me-ta-fo-rebs she-grz-ne-be-bis gad-mo-sa-tse-bad"
+        },
+        {
+          "ka": "ხანდახან ხმოვანი პასაჟები ხმაურით ანთავსებენ შიგა სივრცეს.",
+          "fr": "Parfois, des passages sonores emplissent bruyamment l'espace intérieur.",
+          "translit": "khandakhan xmovani pasajebi xmaurit antavseben shiga svirtses",
+          "pron": "khan-da-khan kho-ma-va-ni pa-sa-je-bi khmau-rit an-tav-se-ben shi-ga svir-tse-s"
+        },
+        {
+          "ka": "ხასიათის ნიუანსები გმირის მოტივაციას მკაფიო ახსნის გარეშე ტოვებს.",
+          "fr": "Les nuances de caractère laissent la motivation du personnage sans explication nette.",
+          "translit": "khaisaT'is niuans'ebi gmiris motivacias mk'ap'iokh akhsnis gareshe tovebs",
+          "pron": "kha-i-sat-is niu-an-se-bi gmi-ris mo-ti-va-tsi-as mk'a-p'i-okh akhs-nis ga-re-she to-vebs"
+        },
+        {
+          "ka": "სტილისტიკურად ნაშრომი იკვეთება თხრობის არარიგიდულობით და მეტყველების მოდულაციებით.",
+          "fr": "Stylistiquement, l'ouvrage se distingue par une non-rigidité narrative et des modulations de langage.",
+          "translit": "stilistikurad nashromi ikvetea tk'hrobis ararigidulobit da met'q'velebis moduliac'ebit",
+          "pron": "sti-li-sti-ku-rad na-shro-mi ik-ve-te-a tkhro-bis a-ra-ri-gi-du-lo-bit da met-khve-le-bis mo-du-la-tsi-e-bit"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-003",
+      "title": "Argumenter une opinion complexe",
+      "tag": "débat",
+      "duration": 30,
+      "goal": "Formuler et nuancer une argumentation convaincante en géorgien, anticiper les objections et y répondre.",
+      "cefr": "C2",
+      "version": 3,
+      "items": [
+        {
+          "ka": "ასპექტები, რომლებსაც ვახსენებთ, არ არიან მხოლოდ თეორეტიკული — მათ პრაქტიკული დატვირთვაც აქვთ.",
+          "fr": "Les aspects que nous évoquons ne sont pas seulement théoriques — ils ont aussi une portée pratique.",
+          "translit": "aspektebi, romelmac varsxvet, ar arian mkholod teor'et'ik'uli — mat praktik'uli datvirtvac aqvt",
+          "pron": "as-pek-te-bi, ro-mel-mats var-skvet, ar a-rian mkho-lod te-o-re-ti-ku-li — mat prak-ti-ku-li dat-vir-t-vats aqvt"
+        },
+        {
+          "ka": "თუ ვაღიარებთ კვლევის შედეგებს, შემოგვყავს ახალი ჰიპოთეზები და აუცილებელი შემოწმება.",
+          "fr": "Si nous admettons les résultats de l'étude, nous introduisons de nouvelles hypothèses et des vérifications nécessaires.",
+          "translit": "tu vagiarebt kvlevebis shetavgeb, shemogvavs akhali hipot'ezebi da auTsk'ebeli shemotsveba",
+          "pron": "tu va-gia-rebt kvle-ve-bis she-ta-vgeb, she-mo-gvavs akha-li hi-po-te-ze-bi da au-tsk'e-be-li she-mo-tsve-ba"
+        },
+        {
+          "ka": "თქვენი კრიტიკა ლოგიკური ჩანს, თუმცა უნდა დავუკონკრეტოთ მაგალითები.",
+          "fr": "Votre critique est logique, cependant il faut préciser des exemples.",
+          "translit": "tkveni kritika logik'uri chanan, toghu unda davukonkreto magalit'ebi",
+          "pron": "tkve-ni kri-ti-ka lo-gi-ku-ri cha-nan, to-ghu un-da da-vu-kon-kre-to ma-ga-li-te-bi"
+        },
+        {
+          "ka": "გთხოვთ, უთხარით, რომელ მოვლენას თქვენ მნიშვნელოვანად მიიჩნევთ პირველ რიგში.",
+          "fr": "Veuillez dire quelle manifestation vous considérez prioritairement importante.",
+          "translit": "gtxovt, utqarit, romel movlenas tkven mnishvnelanad miichnevt p'ervel rigshi",
+          "pron": "gtkhovt, ut-kha-rit, ro-mel mov-le-nas tkven mni-shvne-la-nad mi-ich-nevt per-vel rig-shi"
+        },
+        {
+          "ka": "მოთხოვნაა, რომ მხარეები თავიანთი პოზიციები დალაგებულად და მოკლე შეჯამებით წარმოადგინონ.",
+          "fr": "Il est demandé que les parties exposent leurs positions de façon ordonnée et synthétique.",
+          "translit": "motxovnaa, rom mxareebi taviantevi poziciebi dalagebulad da mokle shejamebit warmoadginon",
+          "pron": "mo-tkhov-naa, rom mkha-ree-bi ta-vian-te-vi po-zi-ci-e-bi da-la-ge-bu-lad da mok-le she-ja-me-bit war-moa-dgi-non"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-004",
+      "title": "Compréhension fine d'un article économique",
+      "tag": "économie",
+      "duration": 40,
+      "goal": "Saisir les nuances lexicales et argumentatives d'un article de presse économique géorgien et paraphraser fidèlement.",
+      "cefr": "C2",
+      "version": 4,
+      "items": [
+        {
+          "ka": "მაკროეკონომიკური მაჩვენებლები ინტერპრეტაციის მრავალშრეიან კონტექსტში უნდა განვიხილოთ.",
+          "fr": "Les indicateurs macroéconomiques doivent être interprétés dans un contexte multi-dimensionnel.",
+          "translit": "makroekonomikuri machinavsheblebi interpretaciis mravalshreian konteqt'sshi unda ganvixlot",
+          "pron": "mak-ro-e-ko-no-mi-ku-ri ma-chi-nav-sheb-le-bi in-ter-pre-ta-ci-is mra-val-shre-i-an kon-teq-tsi-shi un-da gan-vi-xlot"
+        },
+        {
+          "ka": "ვალუტის კოლაფსი რისკებთან ერთად სავალო გავლენას ახდენს იმპორტსა და ფასზე.",
+          "fr": "L'effondrement de la monnaie, avec les risques associés, exerce une influence directe sur les importations et les prix.",
+          "translit": "valut'is kolapsi risket'an ertad savalo gavlenas akhdens importsa da fase",
+          "pron": "va-lut-is ko-lapsi risk-e-tan er-tad sa-va-lo gav-le-nas akh-dens im-port-sa da fas-e"
+        },
+        {
+          "ka": "საშუალო ვადისთვის ინვესტორების განწყობა მნიშვნელოვან როლს თამაშობს — ეს უნდა გავმოკლოთ.",
+          "fr": "Pour le moyen terme, le sentiment des investisseurs joue un rôle majeur — il faut le préciser.",
+          "translit": "sashualo vadistvis investorebis gantsxoba mnishvnelan rol's tamashobs — es unda gavmoklot",
+          "pron": "sa-shua-lo va-dis-tvis in-vest-o-re-bis gan-tso-ba mni-shvne-la-n rol's ta-ma-shobs — es un-da gav-mo-klot"
+        },
+        {
+          "ka": "თუ ვივარაუდებთ ეკონომიკური პოლიტიკის გამკაცრებას, ინფლაციის პროგნოზი უნდა გადაიარაღოს.",
+          "fr": "Si l'on suppose un durcissement de la politique économique, le pronostic d'inflation doit être révisé.",
+          "translit": "tu vivaravtset ekonomikuri politik'is gamkacr'eba, inflaciis progn'oz'i unda ghadayaraghos",
+          "pron": "tu vi-va-ra-vt-set e-ko-no-mi-ku-ri po-li-ti-k'is gam-ka-cr'e-bas, in-fla-ci-is prog-noz'i un-da gha-da-ya-ra-ghos"
+        },
+        {
+          "ka": "შეკითხვა: როგორ ბალანსდება სოციალური შემოსავალი რეგულირების სტანდარტებთან?",
+          "fr": "Question : comment le revenu social est-il équilibré avec les standards de régulation ?",
+          "translit": "shekitkhva: rogor balansdeba sotsialuri shemosavali regulirebis standart'ebtan?",
+          "pron": "she-kit-khva: ro-gor ba-lans-de-ba so-tsi-a-lu-ri she-mo-sa-va-li re-gu-li-re-bis stan-dar-te-btan?"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-005",
+      "title": "Argumentation écrite: lettre de motivation nuancée",
+      "tag": "écriture",
+      "duration": 45,
+      "goal": "Rédiger une lettre de motivation en géorgien qui exprime qualification, motivation et adaptabilité de manière nuancée.",
+      "cefr": "C2",
+      "version": 5,
+      "items": [
+        {
+          "ka": "მიყვარს კომპლექსური პროექტები, რომლებშიც ტექნიკური ექსპერტიზა ეფუძნება კრეატიულ ხედვას.",
+          "fr": "J'aime les projets complexes où l'expertise technique s'appuie sur une vision créative.",
+          "translit": "miqvars kompleqsuri proeqtebi, romelc'is teqnikuri eksper'tiza epudzebna kreatiul khedvas",
+          "pron": "mi-qvar-s kom-plek-su-ri pro-ek-te-bi, ro-mel-ts'is tek-ni-ku-ri ex-per-ti-za e-pu-dzeb-na kre-a-ti-ul khe-dvas"
+        },
+        {
+          "ka": "ჩემმა გამოცდილებამ დამანახა, რომ ცვლილებების მართვა მოითხოვს ემპათიასა და მონაცემთა ანალიზს.",
+          "fr": "Mon expérience m'a montré que gérer le changement demande empathie et analyse de données.",
+          "translit": "chemma gamodz'inebam damanakha, rom ts'vlilebebis martva moitxovs empat'iasa da monacemta anal'isz",
+          "pron": "chem-ma ga-mod-zi-ne-bam da-ma-na-kha, rom ts'vli-le-be-bis mar-tva mo-it-khovs em-pa-thi-a-sa da mo-na-cem-ta a-na-lis-z"
+        },
+        {
+          "ka": "მხარს ვუჭერ გუნდურ მუშაობას, სადაც პასუხისმგებლობა და ინიციატივა თანაბრად მალაგდება.",
+          "fr": "Je soutiens le travail d'équipe où responsabilité et initiative se répartissent équitablement.",
+          "translit": "mxars vuch'er gundur mushaobas, sadac pasuxismgeblob a da iniciativa tanabrad malagdeba",
+          "pron": "mxars vuch-er gun-dur mu-sha-o-bas, sa-dats pa-su-xis-mge-lo-b a da ini-ci-a-ti-va ta-na-brad ma-lag-de-ba"
+        },
+        {
+          "ka": "გთხოვთ იხილოთ ჩემი რეალური მიღწევები თანდართულ დოკუმენტებში.",
+          "fr": "Veuillez consulter mes réalisations réelles dans les documents annexés.",
+          "translit": "gtxovt ixilot chemi realuri migc'vevebi tandartul dokument'ebshi",
+          "pron": "gtkhovt i-khi-lot che-mi re-a-lu-ri mi-gc've-ve-bi tan-dar-tul do-ku-ment-eb-shi"
+        },
+        {
+          "ka": "სიხელთათა წყობა და ანალიტიკური ხედვა გამომარჩევია სხვა კანდიდატებისგან.",
+          "fr": "L'organisation des opérations et une vision analytique me distinguent des autres candidats.",
+          "translit": "sixelta tsk'oba da anal'itikuri khedva gamomarchevia skhva kandid'atebgan",
+          "pron": "si-khel-ta tsko-ba da a-na-li-ti-ku-ri khe-dva ga-mo-mar-che-vi-a skhva kan-di-da-teb-gan"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-006",
+      "title": "Registres et variations stylistiques",
+      "tag": "style",
+      "duration": 25,
+      "goal": "Identifier et utiliser les registres formels, familiers et littéraires, et jouer sur les variations stylistiques en géorgien.",
+      "cefr": "C2",
+      "version": 6,
+      "items": [
+        {
+          "ka": "უფრო ფორმალურად უთხარით — \"ქმედება აუცილებელია\" — ვიდრე იყოს შემართებითი მოწოდება.",
+          "fr": "Dites-le de façon plus formelle — «L'action est nécessaire» — plutôt que sous forme d'appel enthousiaste.",
+          "translit": "upro formalurad utqarit — \"qmedeba auTsk'ebelia\" — radgan iqos shemartebiti mots'odeba",
+          "pron": "u-pro for-ma-lu-rad ut-kha-rit — \"kme-de-ba au-tsk'e-be-lia\" — rad-gan i-qos she-mar-te-bi-ti mots'o-de-ba"
+        },
+        {
+          "ka": "მეგობრულად მიამბეთ — \"კარგად გაუმარჯოს\" — მეგობრის წარმატებისთვის.",
+          "fr": "De façon amicale, dites — «Bonne chance» — pour le succès d'un ami.",
+          "translit": "megobrulad miambet — \"kargad gaumarjos\" — megobris warmatebisatvis",
+          "pron": "me-go-bra-lad mia-mbet — \"kar-gad gau-mar-jos\" — me-go-bris war-ma-te-bi-sat-vis"
+        },
+        {
+          "ka": "საკანონმდებლო ტექსტი უნდა იყოს კონციზური, მაგრამ სამართლებრივი ზედმიწევნით.",
+          "fr": "Un texte législatif doit être concis, mais juridiquement précis au détail près.",
+          "translit": "sakanonmdeblo texti unda ikos koncizuri, magram samartlebrivi zedmitsvevnit",
+          "pron": "sa-ka-non-mde-blo tex-ti un-da i-kos kon-ci-zu-ri, ma-gram sa-mar-tle-bri-vi zed-mit-svev-nit"
+        },
+        {
+          "ka": "პოეტური ფრაზები ვითარდება მეტაფორულ და რიტორიკული დონით.",
+          "fr": "Les tournures poétiques évoluent par le biais de métaphores et du ressort rhétorique.",
+          "translit": "poeturi frazebi vitardeba metaforul da ritorikuli donit",
+          "pron": "po-e-tu-ri fra-ze-bi vi-tar-de-ba me-ta-fo-rul da ri-to-ri-ku-li do-nit"
+        },
+        {
+          "ka": "არქაულიზმი შეიძლება სალიტერატურო ეფექტისთვის გამოყენებულ იქნას სამოტივაციო კონტექსტში.",
+          "fr": "Un archaïsme peut être utilisé pour un effet littéraire dans un contexte motivant.",
+          "translit": "ark'aulizmi sheidzleba saliteratur'o efek't'isTvis gamoyenebul wixvas samotivacio konteqstshi",
+          "pron": "ar-k'au-li-zmi she-idz-le-ba sa-li-te-ra-tu-ro ef-ek-tis-tvis ga-mo-ye-ne-bul wik-vas sa-mo-ti-va-tsi-o kon-teq-stshi"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-007",
+      "title": "Expressions idiomatiques et proverbes",
+      "tag": "idiomes",
+      "duration": 20,
+      "goal": "Connaître, comprendre et employer correctement des idiomatismes et proverbes géorgiens courants et nuancés.",
+      "cefr": "C2",
+      "version": 7,
+      "items": [
+        {
+          "ka": "ქვა-ქვაზე არ რჩება.",
+          "fr": "Il n'y a pas de pierre sur pierre (tout est compromis).",
+          "translit": "qva-qvaze ar rcheba",
+          "pron": "kva-kva-ze ar rche-ba"
+        },
+        {
+          "ka": "სვეტი გადაცდა გადატვირთვისთვის.",
+          "fr": "La colonne a cédé sous la surcharge (image pour l'épuisement).",
+          "translit": "sveti gadacda gadatvirTvisTvis",
+          "pron": "sve-ti ga-da-ts-da ga-da-tvri-tvis-tvis"
+        },
+        {
+          "ka": "გაიხედე არწივივით — მაღლა, მაგრამ სიფრთხილით.",
+          "fr": "Regarde comme un aigle — vers le haut, mais avec prudence.",
+          "translit": "gaikhede ar'ivivit — maghla, magram sifrtkhiltan",
+          "pron": "gai-khe-de ar-i-vi-vit — mag-hla, ma-gram sifr-tkhi-ltan"
+        },
+        {
+          "ka": "მისია გაქვს გულში, მაგრამ სიტყვა ნაკლებად გონივრულია.",
+          "fr": "Tu as la mission dans le cœur, mais la parole est moins rationnelle.",
+          "translit": "misia gaqvs gulsHi, magram sitq'va naklebad gonivurlia",
+          "pron": "mi-si-a ga-qvs gul-shi, ma-gram sit-khva nak-le-bad go-ni-vu-rli-a"
+        },
+        {
+          "ka": "იყავი ეშმაკობაც, მაგრამ მართებულად — ცოდნის შესანარჩუნებლად.",
+          "fr": "Sois rusé, mais raisonnablement — pour préserver la connaissance.",
+          "translit": "iqavi eshmakobac, magram mart'ebulad — codnis shesanaruletad",
+          "pron": "iqa-vi esh-ma-ko-bats, ma-gram mar-te-bu-lad — tso-dnis she-sa-na-ru-le-tad"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-008",
+      "title": "Synthèse et résumé critique d'une conférence",
+      "tag": "synthèse",
+      "duration": 50,
+      "goal": "Produire un résumé critique concis et nuancé d'une conférence scientifique en géorgien.",
+      "cefr": "C2",
+      "version": 8,
+      "items": [
+        {
+          "ka": "მთავარი თეზა შეეხებოდა ინოვაციისა და რეგულაციის რთულ წრებშუა დიალექტიკას.",
+          "fr": "La thèse principale portait sur la dialectique complexe entre innovation et régulation.",
+          "translit": "mtavari teza sheekhedaba inovaciisa da regulaciis rt'ul cr'ebshua dialektikas",
+          "pron": "mta-va-ri te-za she-ek-he-da-ba i-no-va-ci-i-sa da re-gu-la-ci-is rt'ul tsre-bshu-a dia-lek-ti-kas"
+        },
+        {
+          "ka": "პრეზენტატორმა გამოკვეთა მეთოდოლოგიური შეზღუდვები და შესაძლო გაუმჯობესებების გზები.",
+          "fr": "Le présentateur a souligné les limites méthodologiques et les voies possibles d'amélioration.",
+          "translit": "prezentatorma gamokveta metodologiuri shezghudvebi da sheudzlebo gaumjobesebis gzebi",
+          "pron": "pre-zen-ta-tor-ma ga-mo-kve-ta me-to-do-lo-gi-u-ri shez-ghud-ve-bi da she-ud-zle-bo gau-mjo-be-se-bis gze-bi"
+        },
+        {
+          "ka": "ბურთიკურად აღვწერეთ მთავარი არგუმენტები და დავასკვნათ მათი მეტ-ნაკლები სიმტკიცე.",
+          "fr": "Condensément, décrivons les principaux arguments et concluons sur leur force relative.",
+          "translit": "burtikurad agvceret mtavari argumentebi da davasqnat mati met-nakle simt'q've",
+          "pron": "bur-ti-ku-rad ag-vtse-ret mta-va-ri ar-gu-men-te-bi da da-vas-qnat ma-ti met-nak-le sim-t'q've"
+        },
+        {
+          "ka": "ძირითადი დასკვნა გულისხმობს საჭირო დამატებით კვლევებსა და მრავალი შემთხვევის შედარებას.",
+          "fr": "La conclusion principale implique des recherches supplémentaires nécessaires et la comparaison de nombreux cas.",
+          "translit": "dziritadi dasqvna gulismhobs sachiro damatebiti kvlevevsa da mravali shemtxvevis shedarebas",
+          "pron": "dzi-ri-ta-di das-qvna gu-lis-mhobs sa-chi-ro da-ma-te-bi-ti kvle-veg-sa da mra-va-li shem-tkh-ve-vis she-da-re-bas"
+        },
+        {
+          "ka": "საკონტექსტო წყაროების მითითება კრიტიკულ რეპლიკად უნდა იქცეს დახვეწილ მოძრაობად.",
+          "fr": "Citer les sources contextuelles doit devenir une réplique critique sous forme de mouvement raffiné.",
+          "translit": "sakonteqsto ts'qaroebis mitit'eba kritik'ul replikad unda ik'ces daxvevtil modzraobad",
+          "pron": "sa-kon-teq-sto ts'qa-ro-e-bis mi-ti-te-ba kri-ti-kul re-pli-kad un-da ik'-ces dax-ve-vtil modz-ra-o-bad"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-009",
+      "title": "Nuances pragmatiques dans les conversations professionnelles",
+      "tag": "pragmatique",
+      "duration": 30,
+      "goal": "Repérer et produire des nuances de politesse, d'ironie et de diplomatie dans un contexte professionnel géorgien.",
+      "cefr": "C2",
+      "version": 9,
+      "items": [
+        {
+          "ka": "თუ არ ვცდები, თქვენს მტკიცებულებას ადასტურებს ობიექტურიyna მონაცემები.",
+          "fr": "Si je ne me trompe pas, vos preuves sont corroborées par des données objectives.",
+          "translit": "tu ar vcdebi, tkvens mtk'ivebas adasturebs obieqt'uri monacemebi",
+          "pron": "tu ar v-dé-bi, tkven-s mtk'i-ve-bas a-das-tu-rebs o-biek-tu-ri mo-na-ce-me-bi"
+        },
+        {
+          "ka": "ამის თქმა წყნარად, ირონიული ტონით შეიძლება ნიშნავდეს უკმაყოფილებას.",
+          "fr": "Dire cela calmement, sur un ton ironique, peut signifier du mécontentement.",
+          "translit": "amis tqma tsxnarad, ironiuli tonit sheidzleba nishnavdes ukapaght'ilebas",
+          "pron": "a-mis tk-ma tsx-na-rad, i-ro-ni-u-li to-nit she-idz-le-ba ni-shnav-des u-ka-paght'-i-le-bas"
+        },
+        {
+          "ka": "ვინაიდან კომპრომისზე მიდიხართ, შემიძლია შემოგთავაზოთ ალტერნატივა.",
+          "fr": "Puisque vous allez vers le compromis, je peux vous proposer une alternative.",
+          "translit": "vinaidan kompromisze midixart, shemidzlia shemogatazot alternati'va",
+          "pron": "vi-nai-dan kom-pro-mis-ze mi-di-khar-t, she-mid-zlia she-mo-ga-ta-zot al-ter-na-ti-va"
+        },
+        {
+          "ka": "დიპლომატიური „ჩვენ ვიჩქარებთ“ ხშირად აჩვენებს მორიგ შემდგომს და არა დაუყონებლობას.",
+          "fr": "La formule diplomatique «nous nous hâtons» montre souvent une suite prévue et non de l'impatience.",
+          "translit": "diplomatiuri “chven vichk'arebt” sxvaTx anachenvs morig shemdegus da ara daukhonobilobas",
+          "pron": "di-plo-ma-ti-u-ri “chven vi-chka-rebt” shpva-tkh a-na-chen-vs mo-rig shem-de-gus da a-ra dau-kho-nob-i-lo-bas"
+        },
+        {
+          "ka": "წინადადების სიმონტაჟე შეიძლება მსუბუქად შემობრუნდეს კოპმრომისისკენ.",
+          "fr": "La formulation de la proposition peut délicatement se replier vers un compromis.",
+          "translit": "ts'inadadebis simontaze sheidzleba msubugad shemobrundes kompromisisk'en",
+          "pron": "tsi-na-da-de-bis si-mon-ta-ze she-idz-le-ba m-su-bu-gad she-mo-brun-des kom-pro-mi-sis-ken"
+        }
+      ]
+    },
+    {
+      "id": "lessons-c2-gen-010",
+      "title": "Analyse critique d'un discours politique",
+      "tag": "politique",
+      "duration": 60,
+      "goal": "Analyser la rhétorique, les implicites et les stratégies persuasives d'un discours politique géorgien contemporain.",
+      "cefr": "C2",
+      "version": 10,
+      "items": [
+        {
+          "ka": "პროპაგანდისტული ლოგიკა ხშირად მალავს მოკლედ მოხაზულ პრეზუმპციებს.",
+          "fr": "La logique propagandiste masque souvent des présomptions succinctement formulées.",
+          "translit": "propagandistuli logika sxvaTx malavs mokled moxazul prezentpc'iebS",
+          "pron": "pro-pa-gan-dis-tu-li lo-gi-ka shpva-tkh ma-lavs mok-led mo-kha-zul pre-zum-ptsi-ebs"
+        },
+        {
+          "ka": "რეტორიკული ფიგურები ქმნიან ემოციურ ჭრილში სიმპათიას აუდიტორიის გარკვეულ ფენებში.",
+          "fr": "Les figures rhétoriques créent de la sympathie chez certaines franges de l'auditoire.",
+          "translit": "retorik'uli figuraebi k'mnian emoTsiur ch'rilshi simpat'ias auditoriis garkveul penebshi",
+          "pron": "re-to-ri-ku-li fi-gu-ra-e-bi k'm-ni-an e-mo-tsi-ur ch'ri-lshi sim-pa-thi-as au-di-to-ri-is gar-kve-ul pe-ne-bshi"
+        },
+        {
+          "ka": "უსაფრთხოებისა და პროგრესის დისკურსი ხშირად ემსახურება ეკონომიკურ ილუზიებს.",
+          "fr": "Le discours sur la sécurité et le progrès sert souvent des illusions économiques.",
+          "translit": "usaprTkhoebisa da progresis disk'ursi sxvaTx emsakhureba ekonomikul iluziebS",
+          "pron": "u-sa-prt-kho-e-bi-sa da pro-gre-sis dis-kurs-i shpva-tkh em-sa-khu-re-ba e-ko-no-mi-kul i-lu-zi-ebs"
+        },
+        {
+          "ka": "ინტერიორის მკაფიო მოწოდებები მიზნად ისახავს ნარატივის მონოპოლიზაციას.",
+          "fr": "Les appels internes clairs visent à monopoliser le narratif.",
+          "translit": "interioris mk'ap'iO mots'odeblebi miznad isaxavs narativis monopolizac'ias",
+          "pron": "in-te-ri-o-ris mk'a-p'i-yo mots'o-de-ble-bi miz-nad i-sa-khavs na-ra-ti-vis mo-no-po-li-za-tsi-as"
+        },
+        {
+          "ka": "კონტექსტუალური ფაქტჩეკი ავლენს ანომალიებს, რომლებმაც შეიძლება შეცვალოს აუდიტორიის შეფასება.",
+          "fr": "La vérification contextuelle met en lumière des anomalies qui peuvent modifier l'évaluation du public.",
+          "translit": "konteqst'uala p'aktcheki avlens anomalaebs, romelmac sheidzleba shecvlaos auditoriis shefaseba",
+          "pron": "kon-teq-st'u-a-la fakt-che-ki av-lens a-no-ma-la-ebs, ro-mel-mats she-idz-le-ba she-tvla-os au-di-to-ri-is she-fa-se-ba"
+        }
+      ]
+    }
+  ]
+}

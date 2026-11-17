@@ -1,0 +1,235 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "grammar-c1-gen-001",
+      "title": "Emplois contrastés des temps passés : aoriste vs imperfectum",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 1,
+      "body": "Explication en français : distinction d'usage entre le passé simple (аорист, forma narrative - ნახა, მოინახულა) pour actions ponctuelles/terminées et l'imparfait (ურბანული/ნეგატიური форма - იტყოდა, იყო მიხვედი ასე) pour actions habituelles, descriptions en arrière-plan ou actions interrompues. Attention : en géorgien moderne, la frontière s'appuie sur le contexte et les préverbes ; ne généralisez pas qu'une forme sert toujours pour l'histoire vs description sans vérifier l'aspect verbal et la présence de préverbes.",
+      "examples": [
+        [
+          "მან წიგნი წაიკითხა და გაიგო.",
+          "Il a lu le livre et a compris."
+        ],
+        [
+          "ის ბავშვობაში ხშირად დადიოდა ბაღში.",
+          "Dans son enfance, il allait souvent au jardin."
+        ],
+        [
+          "ვერ ვიგებდი, რას აკეთებდა მან იმის დროს.",
+          "Je ne comprenais pas ce qu'il faisait à ce moment-là."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-002",
+      "title": "Préverbes et changement d'aspect du verbe",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 2,
+      "body": "Explication en français : les préverbes (მ- / გა- / და- / დაწ- etc.) modifient l'orientation, l'achèvement ou l'intensité de l'action. Expliquer comment un même radical verbal change de sens et d'aspect selon le préverbe (ex. წერა → დაწერა = écrire achevé / გამოხატვა = ressortir/exprimer). Signaler les limites : certains préverbes lexicalisent totalement le verbe et ne sont pas productifs librement.",
+      "examples": [
+        [
+          "გააკეთე ეს დღევანდელისთვის.",
+          "Fais cela pour aujourd'hui (action achevée/terminée)."
+        ],
+        [
+          "წერას ვაპირებდი, მაგრამ დრო არ შემომრჩა.",
+          "J'avais l'intention d'écrire, mais je n'ai pas eu le temps."
+        ],
+        [
+          "გამოსვლა დაიწყო საოცრად ადრეც.",
+          "Il/elle a commencé à sortir étonnamment tôt."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-003",
+      "title": "Cas direct et ergatif partiel en géorgien contemporain",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 3,
+      "body": "Explication en français : le géorgien moderne utilise une ergativité morphologique limitée : dans certains temps-aspects (aoriste), l'agent prend le cas ergatif (მეტ) marqué par -მა tandis que le patient est au nominatif/absolutif. Démontrer la distribution selon le temps et la voix ; ne pas étendre l'ergativité à tous les temps ni la confondre avec la voix passive.",
+      "examples": [
+        [
+          "ლექსმა წიგნი დაწერა.",
+          "Le poète a écrit le livre. (ლექსმა = agent ergatif)"
+        ],
+        [
+          "ქმარ-მეუღლე სახლში რჩებიან.",
+          "Le mari et la femme restent à la maison. (présent, pas d'ergatif)"
+        ],
+        [
+          "ბიჭმა ფანქარი დაკარგა.",
+          "Le garçon a perdu le crayon. (აორისტი : agent marqué)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-004",
+      "title": "Suffixes de dérivation verbale : -და- Vs -ვ-",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 4,
+      "body": "Explication en français : comparaison de suffixes fréquents pour former verbes dérivés : -და- (indique souvent action causative ou réciproque selon les racines) et les formes en -ვ- (présente pour la première personne ou formes infra-verbes). Préciser les limites : sens précis dépend du radical ; il faut mémoriser les dérivés courants et observer la régularité morphologique.",
+      "examples": [
+        [
+          "ხელახლა დაწესდა წესები.",
+          "Les règles ont été rétablies (mise en place)."
+        ],
+        [
+          "ჩვენ ვცდილობთ შენ გვიყვინო.",
+          "Nous essayons que tu nous aimes. (forme en -ვ- : première personne plur.)"
+        ],
+        [
+          "ვინმემ ის საქმე გააკეთა დიდი პასუხისმგებლობით.",
+          "Quelqu'un a fait ce travail avec grande responsabilité."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-005",
+      "title": "Négation complexe : არა, არ, უ- et პრაქტიკული שימושი",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 5,
+      "body": "Explication en français : distinguer négations lexicales (არა avant nom ou exclamation), la négation verbale простая (არ + verbe) et le préfixe privatif უ- qui transforme radicals en antonymes. Indiquer limites : უ- se fixe au radical et peut affecter la prononciation ; არ + participe/perf. fonctionne différemment selon le temps et la focalisation.",
+      "examples": [
+        [
+          "არ მინდა დაგვიანება.",
+          "Je ne veux pas être en retard."
+        ],
+        [
+          "უინტერესო წიგნი ეს ნამდვილად იყო.",
+          "C'était vraiment un livre inintéressant. (préfixe უ-)"
+        ],
+        [
+          "არა გეშინოდეს, ყველაფერი მალევე მოგვარდება.",
+          "N'aie pas peur, tout s'arrangera bientôt."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-006",
+      "title": "Accord sujet-verbe : personnes et politesse",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 6,
+      "body": "Explication en français : le verbe s'accorde en personne et nombre ; la forme de politesse (vous formel) emploie la 2e personne pluriel mais peut s'accompagner de tournures spécifiques. Noter les particularités : la marque d'ergatif ne change pas l'accord verbal en tous les temps ; au niveau C1, analyser concordance dans phrases complexes et registres formels/informels.",
+      "examples": [
+        [
+          "შენ მიდიხარ?",
+          "Tu y vas ? (2e pers. sing.)"
+        ],
+        [
+          "თქვენ ხართ მიწვეული საზეიმოდ.",
+          "Vous êtes invités à la cérémonie. (politesse / 2e pers. plur.)"
+        ],
+        [
+          "ისენი უკვე დაბრუნდნენ.",
+          "Ils sont déjà revenus. (accord pluriel)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-007",
+      "title": "Ordre des mots : variations pragmatiques et focales",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 7,
+      "body": "Explication en français : le géorgien a un ordre sujet-objet-verbe (SOV) de base, mais la mise en avant (topicalisation, focalisation) permet OSV, VSO, etc. Analyser l'effet pragmatique : déplacement pour emphase, contraste ou nouvelle information. Préciser limites : les altérations requièrent accords et particules ; on ne change pas l'ordre sans conséquence sur l'information mise en relief.",
+      "examples": [
+        [
+          "მე წიგნი წავიკითხე.",
+          "J'ai lu le livre. (SOV neutre)"
+        ],
+        [
+          "წიგნი მე წავიკითხე.",
+          "C'est le livre que j'ai lu. (OSV : mise en relief)"
+        ],
+        [
+          "წავიკითხე წიგნი მთელი ღამე.",
+          "J'ai lu le livre toute la nuit. (VSO emphase sur l'action)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-008",
+      "title": "Subordination : conjonctions vs participes verbaux",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 8,
+      "body": "Explication en français : comparer subordonnées introduites par conjonctions (რომ, რადგან, როცა) et les constructions participiales (adjectival/complétives) qui condensent l'information sans conjonction explicite. Indiquer quand privilégier l'une ou l'autre pour la fluidité et la précision ; souligner que la concordance des temps et l'ergativité peuvent varier dans ces subordonnées.",
+      "examples": [
+        [
+          "მან მითხრა, რომ ასპარეზზე যাবে.",
+          "Il m'a dit qu'il ira sur la scène / qu'il ira concourir."
+        ],
+        [
+          "რაში ყოფნისთვის თუ ვერ მოდიხარ, გამაფრთხილე.",
+          "Si tu ne peux pas venir à l'entraînement, préviens-moi. (conjonction)"
+        ],
+        [
+          "დამთავრების შემდეგ წავედით სახლში.",
+          "Après la fin, nous sommes partis à la maison. (participe/locution temporelle)"
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-009",
+      "title": "Pronoms relatifs et relativisation complexe",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 9,
+      "body": "Explication en français : emploi du pronom relatif რომელიც et de structures elliptiques pour créer des relatives restrictives et non-restrictives ; gérer l'ordre des cas à l'intérieur de la relative et la concordance temporelle. Attention : certaines formes relatives peuvent sembler interchangeables mais changent la focalisation ou la fluidité du discours.",
+      "examples": [
+        [
+          "ეს ბიჭი არის ადამიანი, რომელსაც ვენდობი.",
+          "Ce garçon est la personne en qui j'ai confiance."
+        ],
+        [
+          "გადავწყვიტეთ მუზეუმში მყოფი ძეგლი შემოგვემოკვლა.",
+          "Nous avons décidé d'approcher le monument qui se trouvait dans le musée. (relative descriptive)"
+        ],
+        [
+          "მოყოლა დაწყებული ადამიანი ხშირად იყენებს დეტალებს.",
+          "La personne qui a commencé le récit utilise souvent des détails."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-c1-gen-010",
+      "title": "Adverbes aspectuels et modulateurs d'assertion",
+      "level": "C1",
+      "cefr": "C1",
+      "version": 10,
+      "body": "Explication en français : étudier comment des adverbes (ძალიან, თითქმის, სწორედ, აშკარად) modifient l'aspect et la force d'assertion d'une proposition. Montrer l'impact pragmatique (atténuation, renforcement, correction). Noter les limites : position et combinaison avec négation ou formes modales peuvent changer le sens ; vérifier collocations usuelles.",
+      "examples": [
+        [
+          "მან სწორედ თქვა, რაც საჭიროა.",
+          "Il/elle a dit exactement ce qu'il fallait. (renforcement)"
+        ],
+        [
+          "ის თითქმის მოვიდა, მაგრამ უკან დაბრუნდა.",
+          "Il/elle est presque venu(e), mais est revenu. (atténuation)"
+        ],
+        [
+          "ეს შედეგი აშკარად უკეთესია წინა წელთან შედარებით.",
+          "Ce résultat est manifestement meilleur que l'année précédente."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "dialogues-c1-gen-001",
+      "title": "პროექტის შემდეგო ნაბიჯები",
+      "scene": "Réunion d'équipe pour discuter du retard d'un projet et proposer des solutions pragmatiques.",
+      "cefr": "C1",
+      "version": 1,
+      "turns": [
+        {
+          "speaker": "Chef de projet",
+          "ka": "ჩვენ ვადები ვერ შევინარჩუნეთ და ახლა საქმე კრიზისულ რეჟიმშია. განსაკუთრებულად მნიშვნელოვანია, რომ დავგეგმოთ მომდევნო ოთხი კვირა. რა გზით უნდა წავიდეთ?",
+          "fr": "Nous n'avons pas respecté les délais et la situation est critique. Il faut planifier les quatre prochaines semaines. Quelle démarche suggérez-vous ?"
+        },
+        {
+          "speaker": "Collègue",
+          "ka": "მე ვფიქრობ, უკეთესია დავიყვანოთ ძირითადი ფუნქციები პროდუქტის პირველ ვერსიაში, დანარჩენი — ფაზებად ვაწარმოოთ.",
+          "fr": "Je propose d'inclure les fonctions essentielles dans la première version et de livrer le reste en phases."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(სხვადასხვა ვარიანტს წარადგინეთ, აირჩიეთ თანმიმდევრული, დიპლომატიური ფორმულა გეგმის შეთავაზებისათვის)",
+          "fr": "(Proposez une solution structurée et diplomatique pour l'organisation du travail)",
+          "choices": [
+            {
+              "ka": "ვინიშნავ, რომ პრიორიტეტი მივანიჭოთ ბირთვულ ფუნქციებს, ხოლო დანარჩენი დავანუშაოთ შემდგომი განახლებებისთვის; პარალელურად დავაფიქსიროთ რისკები და საჭირო რესურსი.",
+              "fr": "Je suggère de prioriser les fonctions noyau, traiter le reste en mises à jour, et parallèlement formaliser les risques et ressources nécessaires.",
+              "ok": true
+            },
+            {
+              "ka": "გავიგზავნოთ წერილი ფულის გამომუშავების მიზნით და ვთხოვოთ დამკვეთს დამატებითი ფინანსური ინექცია, რათა ყველა ფუნქცია ერთ მუშმედ ჩამოვაყალიბოთ.",
+              "fr": "Envoyer une demande de financement au client pour tout développer en une fois.",
+              "ok": false
+            },
+            {
+              "ka": "სრულად გადავრეკოთ გრაფიკი და ვცადოთ ყოველდღიურად ყველას ახალი სატელეფონო ანგარიშის გაკეთება, რომ მივმართოთ პროცესს.",
+              "fr": "Réorganiser complètement le calendrier et instaurer des comptes téléphoniques quotidiens pour contrôler le processus.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Chef de projet",
+          "ka": "ეს ფორმულა მკაცრად პრაგმატულია და რთულდება მხოლოდ რესურსების მკაფიო დაკონკრეტებით. მადლობა — ამას განვიხილავთ.",
+          "fr": "Cette proposition est pragmatique, il faudra préciser les ressources. Merci, nous en discuterons."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-002",
+      "title": "სემინარზე დისკუსია ტრანსკრიფციის საკითხზე",
+      "scene": "Débat universitaire sur la traduction d'un concept philosophique intraduisible; l'apprenant doit choisir une reformulation nuancée.",
+      "cefr": "C1",
+      "version": 2,
+      "turns": [
+        {
+          "speaker": "Professeur",
+          "ka": "იზენბერგმა ეს ტერმინი გამოიყენება როგორც „სულიერი მდგომარეობა“, მაგრამ სხვა მეცნიერები თვლიან, რომ ასეთად დაჯგუფება ზედმეტად გამარტივებელია.",
+          "fr": "Izenberg employs the term as «état spirituel», mais certains estiment que cette catégorisation est trop simplificatrice."
+        },
+        {
+          "speaker": "Doctorant",
+          "ka": "სურვილია დავამტკიცოთ, რომ კონკრეტული კონტექსტი განსაზღვრავს მნიშვნელობას და არ შეიძლება ერთი თარგმანი მოვერგოთ მას.",
+          "fr": "Il faut montrer que le contexte détermine le sens et qu'il est impossible d'assigner une seule traduction."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(შეარჩიეთ ერთ-ერთი მეტი ხარისხის, აკადემიური და გადაზუსტებული ფორმულაცია მოსაზრების გამოხატვისათვის)",
+          "fr": "(Choisissez une formulation académique et nuancée pour exprimer l'idée)",
+          "choices": [
+            {
+              "ka": "ვიზიარებ მოსაზრებას, რომ ობიექტურობის შენარჩუნებისათვის საჭიროა კონტექსტუალური ანალიზი: შესაძლოა ერთი ტერმინი სხვადასხვა ჰორიზონტში სრულიად სხვა მნიშვნელობით გამოიხატოს.",
+              "fr": "Je partage l'idée qu'il faut un analyse contextuelle : un terme peut signifier autre chose selon l'horizon.",
+              "ok": true
+            },
+            {
+              "ka": "საჭიროა უცვლელად მივყვეთ ავტორის სიტყვებს და ნებისმიერი მახასიათებლის დამატება არასწორია, რადგან გადმოსაღებად მხოლოდ ერთი შაბლონი არსებობს.",
+              "fr": "Il faut suivre littéralement l'auteur, aucune addition n'est permise car il n'existe qu'un seul modèle.",
+              "ok": false
+            },
+            {
+              "ka": "სჯობს დავუშვათ თავისუფალი ინტერპრეტაცია და ადამიანისთვის უფრო მისაღები სიტყვებით ავხსნათ, მიუხედავად ლექსიკალური სიზუსტის.",
+              "fr": "Mieux vaut interpréter librement et expliquer avec des mots plus accessibles, quitte à sacrifier la précision lexicale.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Professeur",
+          "ka": "შესანიშნავია — ეს შენიშვნა ძალიან შეკვეთილია სამეცნიერო სტანდარტებისკენ.",
+          "fr": "Excellent — cette remarque va précisément dans le sens des standards académiques."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-003",
+      "title": "ბინათმესაკუთრული დავა",
+      "scene": "Conversation entre un locataire et le propriétaire au sujet de dommages non réparés; l'apprenant doit choisir une réponse conciliatrice mais ferme.",
+      "cefr": "C1",
+      "version": 3,
+      "turns": [
+        {
+          "speaker": "Locataire",
+          "ka": "ბარდი ორი კვირაა გაბზარულია და წყალმომარაგების პრობლემა გამიჩნდა. რამდენიმე ხმაურიანად ვცადე დაკავშირება, მაგრამ პასუხი არ მიგვიღია.",
+          "fr": "Le volet est fissuré depuis deux semaines et j'ai des problèmes d'eau. J'ai essayé de contacter, sans réponse."
+        },
+        {
+          "speaker": "Propriétaire",
+          "ka": "ვწუხვარ, დრო გათიშული მაქვს, თუმცა აუცილებლად მივხედავ. შეგიძლიათ დეტალიზებულად მითხრათ ტესტის სიმპტომები და რამდენად მტკივნეულია მისი გავლენა?",
+          "fr": "Désolé, j'étais occupé, mais je vais m'en occuper. Pouvez-vous détailler les symptômes et l'impact ?"
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(გაითვალისწინეთ სამართლებრივი ზღვარი, იყავით კორპორატიულად დარბილებული და განსაზღვრეთ შემდგომი ნაბიჯები)",
+          "fr": "(Respectez le cadre légal, soyez diplomate et définissez les étapes suivantes)",
+          "choices": [
+            {
+              "ka": "გასაგებია, მნიშვნელოვანი შეზღუდვები შეიქმნა: ასევე გირჩევთ, რომ ერთი კვირის ვადაში მოვატანოთ ფოტო და მოკლე აღწერა, ხოლო თუ პრობლემა თანამშრომლობით არ მოგვარდება, იძულებული ვიქნები სამართლებრივ მინიშნებებს მივმართო.",
+              "fr": "Compris, des contraintes majeures existent : j'apporterai photos et description sous une semaine ; si ça ne se règle pas, j'entamerai des démarches légales.",
+              "ok": true
+            },
+            {
+              "ka": "არაუშავს, სიტუაცია არარის კრიტიკული; დაველოდო კიდევ რამდენიმე თვეს და შემდეგ ვცადოთ ისევ დაკავშირება.",
+              "fr": "Ce n'est pas grave ; j'attendrai encore quelques mois puis je reprendrai contact.",
+              "ok": false
+            },
+            {
+              "ka": "თუ არ გსურთ, თავად მოვაგებ თავს — ხარჯებს ჩემით გადავიხდები და არ მოგმართავთ შემდეგში.",
+              "fr": "Si vous ne le souhaitez pas, je m'occuperai et paierai moi-même sans vous demander rien.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Propriétaire",
+          "ka": "გმადლობთ, ფოტოები და მოკლე ინფორმაცია გადმომიგზავნეთ და ვნახავ რამდენად იგებს ეს საკითხი სწრაფ ჩარევას.",
+          "fr": "Merci, envoyez-moi photos et infos et j'évaluerai la possibilité d'une intervention rapide."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-004",
+      "title": "მომსახურე-პაციენტის კონსულტაცია",
+      "scene": "Consultation médicale pour symptôme persistant; l'apprenant doit choisir une réponse claire et nuancée pour expliquer un diagnostic préliminaire.",
+      "cefr": "C1",
+      "version": 4,
+      "turns": [
+        {
+          "speaker": "Médecin",
+          "ka": "პირველადი შემოწმებით ვერ დავიმსხვრევით სახიფათო ნიშნებს, თუმცა რამდენიმე დამატებითი ანალიზი საჭირო იქნება პროგნოზის გასაგებად.",
+          "fr": "L'examen initial n'a pas montré de signes alarmants, mais des analyses complémentaires sont nécessaires pour le pronostic."
+        },
+        {
+          "speaker": "Patient",
+          "ka": "მინდა ვაღიარო, რომ ჩემი ყოფა სტრესით და ზედმეტ დატვირთვით არის დაკავშირებული; ჰოდა, მაინტერესებს, ეს გავლენას ახდენს თუ არა შედეგებზე.",
+          "fr": "Je reconnais être stressé ; cela influence-t-il le diagnostic ?"
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(ფრთხილად ახსენით პერიოდული სამედიცინო მოსაზრებები, არა დოქტორ-მანიპულაციური, და მოეთხოვეთ თანმიმდევრული კვლევები)",
+          "fr": "(Expliquez prudemment les considérations médicales et demandez des examens complémentaires)",
+          "choices": [
+            {
+              "ka": "სტრესს შეუძლია ჰქონდეს მნიშვნელოვანი განცალკევებები სიმპტომებზე; ამიტომ გირჩევთ ჩატარებულ იქნას სისხლის საერთო ანალიზი, ჰორმონალური პროფილი და, საჭიროებისამებრ, სამსახიობო კონსულტაცია ფსიქოთერაპევტთან.",
+              "fr": "Le stress peut influer : je recommande une NFS, un bilan hormonal et, si besoin, une consultation psychothérapeutique.",
+              "ok": true
+            },
+            {
+              "ka": "სტრესი არ იმოქმედებს დღევანდელ მდგომარეობაზე, ამიტომ მედიკამენტს მოკლე კურსით დავუწერ; სხვა გამოკვლევები მარგებელი არ ექნება.",
+              "fr": "Le stress n'affecte pas l'état ; je prescris un court traitement, pas d'examens utiles.",
+              "ok": false
+            },
+            {
+              "ka": "მოსალოდნელია, რომ ყველაფერი თავისთავად გადაწყდება რამდენიმე კვირაში; ნუ ზედმეტდებით ანალიზებს.",
+              "fr": "Tout devrait se régler en quelques semaines, évitez les examens excessifs.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Médecin",
+          "ka": "მადლობას გიხდით ესპერანციის ქაჯისთვის — ამ გეგმით სასურველია დავიწყოთ.",
+          "fr": "Merci pour votre approche — c'est la bonne ligne à suivre."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-005",
+      "title": "კულტურული ღონისძიების ორგანიზება",
+      "scene": "Discussion sur la programmation d'un festival local; l'apprenant propose un argument convaincant pour inclure une pièce controversée.",
+      "cefr": "C1",
+      "version": 5,
+      "turns": [
+        {
+          "speaker": "Directrice du festival",
+          "ka": "ჩვენ ერთი ადგილობრივი სპექტაკლი გავარჩიეთ, თუმცა იგი საკონტროვერსიოა და დაფინანსებიდან კითხვის ნიშნის ქვეშ დგას. როგორ უნდა დავამტკიცოთ მისი მნიშვნელობა?",
+          "fr": "Une pièce locale est controversée et risque d'être exclue du financement. Comment justifier son intérêt ?"
+        },
+        {
+          "speaker": "Programmateur",
+          "ka": "რეალურად, დაგვჭირდება ძლიერი არგუმენტები ფართო აუდიტორიის ჩართვისა და კულტურულ გავლენაზე ცალკეული დასკვნის საფუძველზე.",
+          "fr": "Il faudra des arguments solides montrant l'impact culturel et l'engagement du public."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(შეუკვეთეთ არგუმენტაცია, რომელიც აერთიანებს კულტურულ მნიშვნელობას, საზოგადოებრივ რეაქციას და ფინანსურ ლოგისტიკას)",
+          "fr": "(Proposez une argumentation combinant valeur culturelle, réaction publique et logistique financière)",
+          "choices": [
+            {
+              "ka": "სპექტაკლში გამოკვეთილია ადგილობრივი განცდების გახმოვანება და საზღვრებს მიღმა გასვლის პოტენციალი — შეიძლება წარმოადგინოთ საზოგადოებრივი დისკუსიის ინიციატორად; შეთავაზებას თან ახლდეს სამიზნე აუდიტორიის სტრატეგია და მცირე-შედგი დაფინანსების მოდელი.",
+              "fr": "La pièce exprime des sensibilités locales et peut susciter un débat ; accompagnez la proposition d'une stratégie d'audience et d'un modèle de cofinancement.",
+              "ok": true
+            },
+            {
+              "ka": "შევინარჩუნოთ კონსერვატიული პროგრამა და გამოვრიცხოთ რისკი; მსგავსი შინაარსი არ მოიზიდავს საგრძნობ აუდიტორიას და არც დაფინანსებაა შესაძლებელი.",
+              "fr": "On reste conservateur et exclut les risques ; ce contenu n'attirera pas d'audience ni de financement.",
+              "ok": false
+            },
+            {
+              "ka": "გავაკეთოთ ნახევრად-დეპოლარიზებული ვერსია სპექტაკლისთვის, სადაც ყველა საკონტექსტო ელემენტი ამოღებულია, და გამოვაჩინოთ მხოლოდ ტექნიკური მხარე.",
+              "fr": "Faire une version dépolitisée en retirant le contexte et ne montrer que la technique.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Directrice du festival",
+          "ka": "ეს მოცემულობა კარგად აგროვებს არგუმენტებს — შევეცდებით დაფინანსების კომისიასთან შეტანას.",
+          "fr": "C'est un bon dossier d'arguments — nous tenterons de le présenter au comité de financement."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-006",
+      "title": "ინტერვიუ სამსახურში",
+      "scene": "Entretien d'embauche pour un poste de coordination internationale; l'apprenant doit choisir une réponse montrant leadership et nuance.",
+      "cefr": "C1",
+      "version": 6,
+      "turns": [
+        {
+          "speaker": "Recruteur",
+          "ka": "თქვენს რეზიუმეში საინტერესო პროექტებია, მაგრამ გვაინტერესებს, როგორ მართავდით კულტურულ კონფლიქტებს მრავალეროვან გუნდში.",
+          "fr": "Votre CV est intéressant ; comment gériez-vous des conflits culturels dans une équipe multilingue ?"
+        },
+        {
+          "speaker": "Référence",
+          "ka": "იგი ხშირად ახერხებდა შუამავლობას, თუმცა არ იცოდა ხანდახან მკაცრად გადაწყვეტილების მიღების მაღალ დონეზე გადაადგილება.",
+          "fr": "Il faisait souvent médiation mais avait du mal à prendre des décisions fermes parfois."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(გამოვთქვით სტრატეგია, რომელიც აერთიანებს ინკლუზიურობას და საჭიროებისამებრ გადაწყვეტილების სიმკაცრეს)",
+          "fr": "(Exprimez une stratégie conciliant inclusion et capacité à trancher quand nécessaire)",
+          "choices": [
+            {
+              "ka": "პრიორიტეტია ღია კომუნიკაცია და კულტურული სპეციფიკების გაგება; ვერ ავცდებით კონსენსუსს ყველა საკითხზე, ამიტომ განსაზღვრეთ ნათლად კრიტერიუმები გადაწყვეტილების მისაღებად და ინიციატივა მკაცრად, თუმცა სამართლიანად მიიღეთ.",
+              "fr": "Priorité à la communication ouverte et à la compréhension culturelle ; on définit des critères clairs et on tranche de manière ferme mais juste.",
+              "ok": true
+            },
+            {
+              "ka": "სცადეთ ნებისმიერ შემთხვევში ყველას მოსმენა და გადაწყვეტილებები გადავადდეს მანამ, სანამ სრული თანხმობა არ იქნება მიღწეული.",
+              "fr": "Toujours écouter tout le monde et reporter les décisions jusqu'à l'accord complet.",
+              "ok": false
+            },
+            {
+              "ka": "გაემიჯნეთ დოქტრინარულ პოზიციას და დააწესეთ ერთპიროვანი წესები, რომლებიც ბლოკავენ კულტურულ ნიჰილიზმს.",
+              "fr": "Adopter des règles unilatérales pour contrer le relativisme culturel.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Recruteur",
+          "ka": "შესაფერისი პასუხია — ეს ხაზს უსვამს როგორც მგრძნობელობას, ისე საჭირო ავტორიტეტს.",
+          "fr": "C'est une bonne réponse : elle montre sensibilité et autorité nécessaire."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-007",
+      "title": "პერიოდული საგადასახადო შემოწმება",
+      "scene": "Conversation entre un entrepreneur et son comptable au sujet d'une grosse rectification fiscale; l'apprenant propose une formulation prudente pour contacter l'administration fiscale.",
+      "cefr": "C1",
+      "version": 7,
+      "turns": [
+        {
+          "speaker": "Entrepreneur",
+          "ka": "საგადასახადო სამსახურმა დაგვიდგინა დიდი ქვითარი და იმედგაცრუებული ვარ; როგორ დავუკავშირო მათ მაქსიმალურად პროფესიონალურად, რომ დავრწმუნდე განკითხვის საფუძვლიანობაში?",
+          "fr": "Le fisc nous inflige une grosse sommation ; comment les contacter professionnellement pour vérifier les motifs ?"
+        },
+        {
+          "speaker": "Comptable",
+          "ka": "პირველი ნაბიჯი — მოითხოვეთ დეტალური განმარტება და ადმინისტრაციული ქვითრის საფუძვლები. შემდეგ უნდა გადავხედოთ მოწმობებს და, აუცილებისას, მოვამზადოთ საჩივარი.",
+          "fr": "Demandez d'abord des explications détaillées et les motifs du document, puis examinez les pièces et préparez un recours si besoin."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(წარმოადგინეთ ელ. წერილის ფორმულა ადმინისტრაციისთვის, ნეიტრალური და სამართლებრივად ტყვილიანი სტილით)",
+          "fr": "(Rédigez un courriel à l'administration, neutre et juridiquement prudent)",
+          "choices": [
+            {
+              "ka": "პატივისცემით ვთხოვთ განმარტებას ქვითრის საფუძვლებისა და შემდგომი პროცედურების შესახებ; გთხოვთ მოგვაწოდოთ შესაბამისი მუხლები და დოკუმენტაცია, რათა შეგვიძლია მიმართვა სიმართლესა და კანონმდებლობასთან შესაბამისი დამატებით გამოკვლევებით.",
+              "fr": "Nous demandons poliment les motifs de la sommation et la procédure ; merci de fournir les articles et documents afin de procéder à des vérifications conformes au droit.",
+              "ok": true
+            },
+            {
+              "ka": "მოთხოვეთ თანხის გადახდა არბიტრაჟის გარეშე, რათა დავიწყოთ პროცესი მკვეთრად და სწრაფად.",
+              "fr": "Demandez le paiement sans recours pour accélérer le processus.",
+              "ok": false
+            },
+            {
+              "ka": "ადმინისტრაციას მორიგი უგულებელყოფით მივწეროთ, რადგან მათი ქმედება წარმოუდგენელია.",
+              "fr": "Écrire à l'administration avec indignation, dénonçant l'action comme inacceptable.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Comptable",
+          "ka": "ეს ნეიტრალური, მაგრამ სახიფათო მხარეებს ამოწმებს — კარგი განაცხადია.",
+          "fr": "C'est une formulation neutre qui couvre les risques — bonne initiative."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-008",
+      "title": "თანამშრომლის შეცდომის კორექტირება",
+      "scene": "Conversation informelle entre un manager et un collaborateur suite à une erreur de communication publique; l'apprenant propose une réponse mesurée pour préserver la relation.",
+      "cefr": "C1",
+      "version": 8,
+      "turns": [
+        {
+          "speaker": "Manager",
+          "ka": "დღეს ჩვენი სოციალური ქსელის პოსტი გაუგებრად იქნა ფორმულირებული და დაგვიბრუნდა გაფრთხილებები. ვაპირებ კოლეგასთან ესაუბროს; მიზანია პრობლემა გამოვასწოროთ, მაგრამ ურთიერთობა არ დავაზიანოთ.",
+          "fr": "Un post sur nos réseaux a été ambigu et nous avons reçu des remarques. Je veux parler au collègue pour corriger sans nuire à la relation."
+        },
+        {
+          "speaker": "Collègue",
+          "ka": "რომ ვუთხრა, ნამდვილად თავი გვჭირს; უმჯობესია პირდაპირ განვაცხადო შეცდომა და შევთავაზო გამოსავალი.",
+          "fr": "Je pense qu'il faut reconnaître l'erreur et proposer une solution."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(დაიწყეთ საუბარი თანაგრძნობით, მიუთითეთ ფაქტები და შემდგომი ნაბიჯები; შეარჩიეთ ტონი რომელიც არ მორიგდება თავდასხმაზე)",
+          "fr": "(Commencez avec empathie, exposez les faits et les étapes à suivre ; choisissez un ton non accusatoire)",
+          "choices": [
+            {
+              "ka": "მივმართავდი ასე: მინდა მოგიყვეთ ერთი შეფასება — პოსტის ტონმა გარკვეული ენთუზიაზმი არასწორად გაამარჯვებინა და აუდიტორია დაიბნია; გჯერა, თუ ერთად შევსწავლობთ ტექსტს და შემოგთავაზებ კორექტურებს, რათა სწორი მესიჯი შეინარჩუნდეს?",
+              "fr": "Je proposerais : j'aimerais partager un retour — le ton du post a créé de la confusion ; veux-tu qu'on revoie le texte ensemble et que je propose des corrections pour préserver le bon message ?",
+              "ok": true
+            },
+            {
+              "ka": "თქვენ რეკომენდებული უნდა თქვათ, რომ თქვენ შეცდით და დაუყოვნებლივ უქმნის ანგარიშს საზოგადოებას, რათა ყველა დაიჯეროს.",
+              "fr": "Il faut lui dire qu'il a tort et qu'il doit immédiatement faire un mea culpa public pour que tout soit crédible.",
+              "ok": false
+            },
+            {
+              "ka": "შეურაცხყოფის გარეშე ურჩიოთ, რომ უკეთესი იქნება თუ თავად მოიშორებთ ანგარიშს და აღარ აღვნიშნით მომხდარს.",
+              "fr": "Sans l'offenser, suggérer qu'il supprime le post et qu'on n'en parle plus.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Manager",
+          "ka": "ეს ფორმულა შეუფერებელია — თანაგონიერია და უშუალოდ გამოსავალზე გადის. კარგი იდეაა.",
+          "fr": "Cette formulation est adaptée — empathique et axée solution. Bonne idée."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-009",
+      "title": "მომგებიანი პარტნიორობა",
+      "scene": "Négociation entre deux entreprises pour un partenariat stratégique; l'apprenant propose une clause protectrice dans le contrat.",
+      "cefr": "C1",
+      "version": 9,
+      "turns": [
+        {
+          "speaker": "Directeur commercial A",
+          "ka": "პარტნიორობის პირობები უნდა გვქონდეს მკაფიოდ განსაზღვრული რისკები და პასუხისმგებლობები. თქვენმა გუნდმა შესთავაზა განსხვავებული შემოთავაზება — რაიმე დამატება შეიძლება?",
+          "fr": "Les conditions doivent définir clairement risques et responsabilités. Votre équipe a proposé une alternative — des ajouts possibles ?"
+        },
+        {
+          "speaker": "Directeur commercial B",
+          "ka": "ჩვენ გვინდა ინოვაციური თანამშრომლობა, მაგრამ გაძლიერდეს გარანტიები ინტელექტუალური საკუთრების დაცვისთვის.",
+          "fr": "Nous voulons une collaboration innovante mais des garanties pour la protection de la propriété intellectuelle."
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(საიმედო, სამართლებრივად სავარაუდო პუნქტის ტექსტი, რომელიც არ გაცილდება პარტნიორულ სულს)",
+          "fr": "(Rédigez une clause de protection juridique mais préservant l'esprit de partenariat)",
+          "choices": [
+            {
+              "ka": "პარტნიორობა გულისხმობს, რომ ყოველი მხარე ინარჩუნებს ინოვაციების საკუთერებას, ხოლო საერთო პროდუქტზე მოქმედი გამონაკლისების შემთხვევაში დაწესდება ლიცენზიის ობიექტური პირობები: თანხმობის გარეშე მესამე მხარე არ დაიმკვიდრებს უფლებებს და ხორციელდება დროული არბიტრაჟული მექანიზმი წინააღმდეგობის აღმოსაფხვრელად.",
+              "fr": "Le partenariat prévoit que chaque partie conserve la propriété de ses innovations ; pour les produits communs des conditions objectives de licence s'appliquent ; aucun tiers sans accord ; mécanisme d'arbitrage prévu.",
+              "ok": true
+            },
+            {
+              "ka": "ყველა უფლებას გადმოგვცემთ ჩვენთვის, რათა შესაძლებელი გახდეს სწრაფი კომერციალიზაცია და გართულებები არ შეიქმნას.",
+              "fr": "Transférez-nous tous les droits pour permettre une commercialisation rapide.",
+              "ok": false
+            },
+            {
+              "ka": "ვიყენებთ იურიდიულ ნოტარიულ ფორმულირებას, რომლის მიზანია დაბლოკოს ნებისმიერი ინოვაცია მეორე მხარის მხრიდან.",
+              "fr": "Insérer une rédaction notariale visant à bloquer toute innovation de la part de l'autre.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Directeur commercial A",
+          "ka": "ეს წერტილი უზრუნველყოფს გამოიყენების მოქნილობას და დაცვას — შესანიშნავი საფუძველია",
+          "fr": "Cette clause offre flexibilité et protection — excellent point."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c1-gen-010",
+      "title": "თარგმნის სერბობანი და ნიუანსები",
+      "scene": "Échange entre traducteurs sur le rendu d'une expression idiomatique intraduisible; l'apprenant doit choisir une solution stylistique adaptée au registre cible.",
+      "cefr": "C1",
+      "version": 10,
+      "turns": [
+        {
+          "speaker": "Traducteur 1",
+          "ka": "ორიგინალში არის გამომგონებლური იუმორი და-მეტად აქცენტირებული ლექსიკური თამაში, რომელსაც პირდაპირი თარგმნა შეეწინააღმდეგება.",
+          "fr": "Le texte contient un jeu lexical humoristique que la traduction littérale bafouerait."
+        },
+        {
+          "speaker": "Traducteur 2",
+          "ka": "ჩვენ უნდა გადავწყვიტოთ, ვარჩიოთ თუ არა ფიდელური მიახლოვება ტექსტის ორგანულ სტრუქტურასთან, ან უფრო ფუნქციური, აუდიტორიაზე ფოკუსირებული ოპერაცია.",
+          "fr": "Faut-il privilégier une approche fidèle à la structure originale ou une opération fonctionnelle orientée vers le public ?"
+        },
+        {
+          "speaker": "Vous (apprenant)",
+          "ka": "(შეარჩიეთ შესაფერისი სტრატეგია ტექსტის ჰუმორის და აუდიტორიის მიხედვით და დაასაბუთეთ მოკლედ)",
+          "fr": "(Choisissez la stratégie adéquate selon l'humour et le public et justifiez brièvement)",
+          "choices": [
+            {
+              "ka": "ფუნქციური მიდგომა უკეთ ემსახურება გაუგებრობას აუდიტორიასთან: შენარჩუნდება იოვანველი ეფექტი, თუ საკვანძო იუმორი ადაპტირდება ადგილობრივ ეპიზოდებზე, მიუხედავად იმისა, რომ ლექსიკალური ფორმა შეიცვლება.",
+              "fr": "L'approche fonctionnelle sert mieux le lecteur : on adapte l'humour localement pour garder l'effet malgré un changement lexical.",
+              "ok": true
+            },
+            {
+              "ka": "გადავიდეთ მაქსიმალურად ფიდელურ თარგმანზე: გადმოვიტანთ ყველა სიტყვის ორიგინალურ მნიშვნელობას, რათა ავტორის უბრალოება არ დაიკარგოს.",
+              "fr": "Opter pour une traduction la plus fidèle possible, en conservant chaque mot et sens original.",
+              "ok": false
+            },
+            {
+              "ka": "ნუ შევცვლით არაფერს და დატოვოთ მასზე კომენტარები თან — აუდიტორია თავად მიხვდება ნიუანსებს.",
+              "fr": "Ne rien modifier et laisser des notes en annexe : le public comprendra les nuances par lui-même.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Traducteur 1",
+          "ka": "ფუნქციური არგუმენტი ძლიერია — შერჩეულმა ვერცერთი ორგანული ობიექტი არ დააყენებს სცენას.",
+          "fr": "L'argument fonctionnel est fort — la solution retenue préservera la scène."
+        }
+      ]
+    }
+  ]
+}

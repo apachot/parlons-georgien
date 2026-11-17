@@ -1,0 +1,115 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "vocabulary-b2-gen-001",
+      "ka": "სოლიდარობა",
+      "fr": "solidarité",
+      "translit": "solidaroba",
+      "pron": "so-li-da-ro-ba",
+      "example": "სოლიდარობა კრიზისის დროს აუცილებელია.",
+      "example_fr": "La solidarité est nécessaire en période de crise.",
+      "cefr": "B2",
+      "version": 1
+    },
+    {
+      "id": "vocabulary-b2-gen-002",
+      "ka": "ბიუროკრატია",
+      "fr": "bureaucratie",
+      "translit": "biurokratia",
+      "pron": "bi-ou-ro-kra-ti-a",
+      "example": "ბიუროკრატია ხშირად პროცესებს აჭიანურებს.",
+      "example_fr": "La bureaucratie ralentit souvent les procédures.",
+      "cefr": "B2",
+      "version": 2
+    },
+    {
+      "id": "vocabulary-b2-gen-003",
+      "ka": "კონფიდენციალურობა",
+      "fr": "confidentialité",
+      "translit": "konfidencialoba",
+      "pron": "kon-fi-den-tzia-lo-ba",
+      "example": "კონფიდენციალურობა პროფესიულ კონტექსტში მნიშვნელოვანია.",
+      "example_fr": "La confidentialité est importante dans le contexte professionnel.",
+      "cefr": "B2",
+      "version": 3
+    },
+    {
+      "id": "vocabulary-b2-gen-004",
+      "ka": "გლობალიზაცია",
+      "fr": "mondialisation",
+      "translit": "globalizatsia",
+      "pron": "glo-ba-li-za-tsia",
+      "example": "გლობალიზაცია ეკონომიკურ დამოკიდებულებებს ცვლის.",
+      "example_fr": "La mondialisation modifie les relations économiques.",
+      "cefr": "B2",
+      "version": 4
+    },
+    {
+      "id": "vocabulary-b2-gen-005",
+      "ka": "სტიგმა",
+      "fr": "stigmatisation",
+      "translit": "stigma",
+      "pron": "stig-ma",
+      "example": "სტიგმა სოციალური ინტეგრაციისთვის დაბრკოლება ხდება.",
+      "example_fr": "La stigmatisation devient un obstacle à l'intégration sociale.",
+      "cefr": "B2",
+      "version": 5
+    },
+    {
+      "id": "vocabulary-b2-gen-006",
+      "ka": "რეფლექსია",
+      "fr": "réflexion (réflexivité)",
+      "translit": "refleksia",
+      "pron": "ré-flek-sia",
+      "example": "რეფლექსია პროფესიული პრაქტიკის გაუმჯობესების წინაპირობაა.",
+      "example_fr": "La réflexion est une condition préalable à l'amélioration de la pratique professionnelle.",
+      "cefr": "B2",
+      "version": 6
+    },
+    {
+      "id": "vocabulary-b2-gen-007",
+      "ka": "პარტნიორობა",
+      "fr": "partenariat",
+      "translit": "partnioroba",
+      "pron": "par-tni-or-o-ba",
+      "example": "პარტნიორობა საერთაშორისო პროექტების მნიშვნელოვანი კომპონენტია.",
+      "example_fr": "Le partenariat est un composant important des projets internationaux.",
+      "cefr": "B2",
+      "version": 7
+    },
+    {
+      "id": "vocabulary-b2-gen-008",
+      "ka": "რეგლამენტი",
+      "fr": "règlement",
+      "translit": "reglamenti",
+      "pron": "re-gla-men-ti",
+      "example": "რეგლამენტი საქმიანობის წესებს გამოკვეთს.",
+      "example_fr": "Le règlement définit les règles d'activité.",
+      "cefr": "B2",
+      "version": 8
+    },
+    {
+      "id": "vocabulary-b2-gen-009",
+      "ka": "სინთეზი",
+      "fr": "synthèse",
+      "translit": "sintezi",
+      "pron": "sin-té-zi",
+      "example": "სინთეზი მრავალთარგი იდეის შემოკლებაა.",
+      "example_fr": "La synthèse est la combinaison de nombreuses idées.",
+      "cefr": "B2",
+      "version": 9
+    },
+    {
+      "id": "vocabulary-b2-gen-010",
+      "ka": "მდგრადობა",
+      "fr": "durabilité, pérennité",
+      "translit": "mdgradoba",
+      "pron": "md-gra-do-ba",
+      "example": "მდგრადობა ეკონომიკურ პოლიტიკასა და გადაწყვეტილებებში უნდა აისახოს.",
+      "example_fr": "La durabilité doit se refléter dans la politique économique et les décisions.",
+      "cefr": "B2",
+      "version": 10
+    }
+  ]
+}

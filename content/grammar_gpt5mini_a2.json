@@ -1,0 +1,235 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "grammar-a2-gen-001",
+      "title": "Les temps : présent simple (სისტემა კეთდება)",
+      "level": "A2",
+      "version": 1,
+      "body": "Expliquer l'usage du présent en géorgien pour des actions habituelles et vérités générales. Le verbe conjugué indique la personne et le nombre; il n'y a pas d'auxiliaire. Signaler que la forme présentée est la forme la plus courante pour décrire le présent immédiat et les habitudes.",
+      "examples": [
+        [
+          "მე ვსწავლობ ქართულს.",
+          "J'apprends le géorgien."
+        ],
+        [
+          "ის მუშაობს საავადმყოფოში.",
+          "Il/elle travaille à l'hôpital."
+        ],
+        [
+          "ჩვენ ვცხოვრობთ თბილისში.",
+          "Nous vivons à Tbilissi."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-002",
+      "title": "Les temps : passé simple fréquent (perf. proche fréquent)",
+      "level": "A2",
+      "version": 2,
+      "body": "Présenter la forme passée courante (souvent construite avec le radical passé) pour raconter des actions achevées. Expliquer que la formation peut changer selon la classe de verbe et que certaines formes irrégulières existent — ici donner des exemples réguliers pour A2.",
+      "examples": [
+        [
+          "მე წავედი ბაზარში.",
+          "Je suis allé au marché / Je suis parti au marché."
+        ],
+        [
+          "ის წავიდა სკოლიდან.",
+          "Il/elle est parti(e) de l'école."
+        ],
+        [
+          "ჩვენ ვსადილობდით ადრე.",
+          "Nous avons dîné plus tôt."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-003",
+      "title": "Préverbes fréquents : მი- et გა- (mouvement vers / action achevée)",
+      "level": "A2",
+      "version": 3,
+      "body": "Montrer comment les préverbes (particle préfixes) changent le sens du verbe. Expliquer que მი- indique souvent mouvement vers l'intérieur ou approcher, tandis que გა- peut indiquer l'accomplissement, le passage ou intensification. Souligner que ce ne sont pas des règles absolues mais des tendances utiles.",
+      "examples": [
+        [
+          "მივდივარ.",
+          "Je vais (vers un lieu)."
+        ],
+        [
+          "გავხდი ბედნიერი.",
+          "Je suis devenu heureux / j'ai rendu heureux (selon le verbe)."
+        ],
+        [
+          "მისულა მეგობარი.",
+          "L'ami est arrivé (il est venu)."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-004",
+      "title": "Cas : nominatif / sujet et datif simple (საუბრის მონაწილეები)",
+      "level": "A2",
+      "version": 4,
+      "body": "Introduire la marque du sujet dans les structures simples et la forme du datif pour marquer le bénéficiaire ou l'objet indirect. Expliquer que le géorgien utilise des cas suffixés sur les noms; ici, montrer des formes courantes pour le datif (-ა / -ს selon nom) et rappeler que la déclinaison varie avec le genre et la terminaison du nom.",
+      "examples": [
+        [
+          "მამა მისის წნავს.",
+          "Le père donne de l'eau (au fils)."
+        ],
+        [
+          "მე ვუმადლიერებ ჩემს მასწავლებელს.",
+          "Je remercie mon professeur."
+        ],
+        [
+          "მან წიგნი გოგონას მოუცა.",
+          "Il/elle a donné le livre à la fille."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-005",
+      "title": "Suffixes diminutifs et affectifs : -იკ- და -ელი",
+      "level": "A2",
+      "version": 5,
+      "body": "Présenter des suffixes fréquents pour diminuer ou montrer de l'affection (par ex. -იკ- , -ელი). Expliquer qu'ils modifient le sens du nom et parfois la prononciation; ce sont des formations lexicales, pas des règles de grammaire universelles.",
+      "examples": [
+        [
+          "ბავშვი → ბავშვი-კი: პატარა ბავშვიკი.",
+          "enfant → petit enfant : un petit enfant."
+        ],
+        [
+          "ლამაზი → ლამაზელი",
+          "joli → petit joli / mignon (nuance affective)"
+        ],
+        [
+          "რუტინი → რუტინელი (registre familier)",
+          "routine → petite routine / petite habitude (familier)"
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-006",
+      "title": "Négation verbale : არ და ვერ",
+      "level": "A2",
+      "version": 6,
+      "body": "Comparer ორი particules de négation : არ (ne pas) pour nier une action de façon générale, et ვერ (incapacité) pour exprimer l'impossibilité/capacité. Signaler que la négation se place avant le verbe et peut affecter la forme verbale.",
+      "examples": [
+        [
+          "მე არ ვჭამ ხილს.",
+          "Je ne mange pas de fruits."
+        ],
+        [
+          "უარა, მე ვერ ვიგებ სიტყვას.",
+          "Non, je ne peux pas comprendre le mot."
+        ],
+        [
+          "ის ვერ მოდის დღეს.",
+          "Il/elle ne peut pas venir aujourd'hui."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-007",
+      "title": "Accord sujet-verbe simple (ვინ? რა?)",
+      "level": "A2",
+      "version": 7,
+      "body": "Montrer que le verbe se conjugue selon la personne et le nombre du sujet. Donner des terminaisons régulières communes au présent. Indiquer les limites : certaines formes irrégulières existent mais ne sont pas traitées ici.",
+      "examples": [
+        [
+          "მე ვკითხულობ გაზეთს.",
+          "Je lis le journal."
+        ],
+        [
+          "შენ აკეთებ კარგი საქმეს.",
+          "Tu fais un bon travail."
+        ],
+        [
+          "ის/ისინი მუშაობენ ერთად.",
+          "Il/elle / Ils travaillent ensemble."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-008",
+      "title": "Ordre des mots : sujet - objet - verbe (SOV) fréquent",
+      "level": "A2",
+      "version": 8,
+      "body": "Expliquer la tendance SOV (sujet + objet + verbe) en géorgien pour les phrases déclaratives simples. Préciser que l'ordre peut changer pour insister ou selon le style, mais SOV est la base pour l'A2.",
+      "examples": [
+        [
+          "მე წიგნს ვკითხულობ.",
+          "Je lis le livre. (S OBJ V)"
+        ],
+        [
+          "კაცი ქალს უყურებს.",
+          "L'homme regarde la femme."
+        ],
+        [
+          "ჩვენ ჭამას ვიწყებთ.",
+          "Nous commençons à manger."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-009",
+      "title": "Subordination simple : რომ pour une proposition complétive",
+      "level": "A2",
+      "version": 9,
+      "body": "Présenter la conjonction რომ (que/pour que) utilisée pour introduire des propositions complétives. Montrer la structure basique sujet + verbe + რომ + proposition et expliquer que la conjonction ne change pas selon la personne.",
+      "examples": [
+        [
+          "მან თქვა, რომ მოვიდოდა.",
+          "Il/elle a dit qu'il/elle viendrait."
+        ],
+        [
+          "მე მინდა, რომ ვისწავლო მეტი.",
+          "Je veux apprendre plus."
+        ],
+        [
+          "პედიატრმა ურჩია, რომ ბავშვმა დაისვენოს.",
+          "Le pédiatre a conseillé que l'enfant se repose."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    },
+    {
+      "id": "grammar-a2-gen-010",
+      "title": "Préverbes et aspect : ჩა- და გათ- pour commencer/terminer",
+      "level": "A2",
+      "version": 10,
+      "body": "Montrer comment certains préverbes indiquent l'idée de commencer (ча-, ჩა-) ou d'achèvement (გა-, გათ-). Expliquer que l'ajout d'un préverbe change souvent l'aspect ou le sens du verbe, et que l'interprétation précise dépend du verbe racine.",
+      "examples": [
+        [
+          "შენ ჩააბარე გამოცდა.",
+          "Tu as commencé (ou entrepris) l'examen / Tu as passé l'examen (selon contexte)."
+        ],
+        [
+          "ის გათხარა ჭურჭელი.",
+          "Il/elle a fini / a enterré (selon verbe) ; ici : a nettoyé complètement la vaisselle."
+        ],
+        [
+          "მივიწყე და ჩავიწყე ახალი პროექტი.",
+          "J'ai oublié et j'ai commencé un nouveau projet."
+        ]
+      ],
+      "source": "Contenu pédagogique original",
+      "cefr": "A2"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "lessons-b1-gen-001",
+      "title": "Se présenter et parler de ses études",
+      "tag": "présentation",
+      "duration": 20,
+      "goal": "Savoir se présenter, dire son parcours scolaire et poser des questions basiques sur les études.",
+      "cefr": "B1",
+      "version": 1,
+      "items": [
+        {
+          "ka": "გამარჯობა, მე მქვია მარია და მე ვარ სტუდენტი მკაცრ უნივერსიტეტში.",
+          "fr": "Bonjour, je m'appelle Maria et je suis étudiante à l'université centrale.",
+          "translit": "gamardjoba, me mkvia Maria da me var student'i mkacr universitet'ši.",
+          "pron": "ga-mar-joba, me mk-vi-a Ma-ri-a da me var stu-den-ti mka-tsr u-ni-ver-si-tet-shi."
+        },
+        {
+          "ka": "ჩვენმა ფაკულტეტმა ორი ახალი პროგრამა დაიწყო წლის დასაწყისში.",
+          "fr": "Notre faculté a lancé deux nouveaux programmes au début de l'année.",
+          "translit": "chvunda fakultet'ma ori axali programma dac'oda tslis dasawyibs.",
+          "pron": "ch-vun-da fa-ku-lte-tma o-ri a-kha-li pro-gram-ma da-tso-da ts-lis da-sa-wy-bs."
+        },
+        {
+          "ka": "რას სწავლობ? მე საბუნებისმეტყველებას ვსწავლობ.",
+          "fr": "Qu'est-ce que tu étudies ? J'étudie les sciences naturelles.",
+          "translit": "ras sts'avlob? me sabunebismet'kheveles vsts'avlob.",
+          "pron": "ras sts'av-lob? me sa-bu-ne-bis-me-t'khe-ve-les vs-ts'a-vlob."
+        },
+        {
+          "ka": "რამდენი წელი გრძელდება შენი პროგრამა? ის ოთხი წლის განმავლობაშია.",
+          "fr": "Combien d'années dure ton programme ? Il dure quatre ans.",
+          "translit": "ramdeni ts'eli grdzlenda sheni programma? is otkhi ts'lis ganmavlobashi-a.",
+          "pron": "ram-de-ni ts'e-li gr-dzlen-da she-ni pro-gram-ma? is ot-khi ts-lis gan-ma-vlo-ba-shi-a."
+        },
+        {
+          "ka": "შეგიძლია მომიყვე შენი კვლევის საკითხის შესახებ? მან მინდა უფრო პრაქტიკული შედეგი მივიღო.",
+          "fr": "Peux-tu me parler de ton sujet de recherche ? Je veux obtenir un résultat plus pratique.",
+          "translit": "shegidzlia momiq've sheni kvl'evis sak'uthis shesaxeb? man minda uk'var prakt'ik'uli shedegdi mivigo.",
+          "pron": "she-gid-zlia mo-mi-q've she-ni kvl'e-vis sa-ku-this she-sa-xeb? man mi-nda u-kvar prak-ti-ku-li she-deg-di mi-vi-go."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-002",
+      "title": "Faire des achats et négocier le prix",
+      "tag": "commerce",
+      "duration": 15,
+      "goal": "Apprendre le vocabulaire du magasin, demander le prix, négocier et payer.",
+      "cefr": "B1",
+      "version": 2,
+      "items": [
+        {
+          "ka": "ეს აივანი რამდენი ღირს? ეს ოცდაათი ლარი ღირს.",
+          "fr": "Combien coûte ce pull ? Il coûte trente et un laris.",
+          "translit": "es aivani ramdeni ghirs? es otsdaati lari ghirs.",
+          "pron": "es ai-va-ni ram-de-ni ghirs? es ots-da-a-ti la-ri ghirs."
+        },
+        {
+          "ka": "თუ ვენდობით ხარისხს, შეიძლება ცოტა უადვილესი ფასით მომცე?",
+          "fr": "Si nous faisons confiance à la qualité, peux-tu me le faire à un prix un peu plus bas ?",
+          "translit": "tu vendobit xariskhs, shedzliat tsota uadvilesi fasit momtse?",
+          "pron": "tu ven-do-bit xa-riskh-s, shed-zli-at tso-ta ua-dvi-le-si fa-sit mom-tse?"
+        },
+        {
+          "ka": "ბარათით თუ现金-ისით შეიძლება გადახდა? ბარათითია მოქნილი.",
+          "fr": "Peut-on payer par carte ou en espèces ? La carte est pratique.",
+          "translit": "baratit tu nakrebits-it shedzliat gadakhda? baratit'ia mok'nili.",
+          "pron": "ba-ra-tit tu nak-re-bits-it shed-zli-at ga-dakh-da? ba-ra-tit-i-a mok-ni-li."
+        },
+        {
+          "ka": "აქვე დაჯავშნეთ, თუ არა სხვა ფილიალებს აქვს ეს ზომა.",
+          "fr": "Réservez-le ici, sinon d'autres succursales ont cette taille.",
+          "translit": "aqve dajawshanet, tu ara skhva filialebs akvs es zoma.",
+          "pron": "aq-ve da-jaw-sha-net, tu a-ra skh-va fi-li-a-lebs ak-vs es zo-ma."
+        },
+        {
+          "ka": "რთულია სამოსის დაბრუნება, თუ ნიშანი არ არის წებადი.",
+          "fr": "Il est difficile de retourner le vêtement si l'étiquette n'est pas collée.",
+          "translit": "rt'ulia samosis dabruneba, tu nishani ar aris t'ebadi.",
+          "pron": "rt'u-lia sa-mo-sis da-bru-ne-ba, tu ni-sha-ni ar a-ris t'e-ba-di."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-003",
+      "title": "Donner et comprendre des indications routières",
+      "tag": "voyage",
+      "duration": 25,
+      "goal": "Savoir demander et donner des directions, utiliser les prépositions de lieu et les impératifs.",
+      "cefr": "B1",
+      "version": 3,
+      "items": [
+        {
+          "ka": "თქვენი მიმართულება სად არის? მარცხნივ გადაიღე და შემდეგ პატრული.",
+          "fr": "Où est votre destination ? Tournez à gauche puis continuez tout droit.",
+          "translit": "tkveni mimartuleba sad aris? marrck'niv gadaighe da shemdeg patruli.",
+          "pron": "tk-ve-ni mi-mar-tu-le-ba sad a-ris? mar-tchk'niv ga-dai-ghe da shem-deg pa-tru-li."
+        },
+        {
+          "ka": "შემძვრალი ტერიტორია არის მდინარეზე ახლოს, მონიშნულია რკინის კარით.",
+          "fr": "La zone inondable est près de la rivière, elle est marquée par une barrière en fer.",
+          "translit": "shemzvrali teritoria aris mdinareze akhlos, monishnulia rk'inis karit.",
+          "pron": "shem-zvra-li te-ri-to-ri-a a-ris mdi-na-re-ze akh-los, mo-nish-nu-li-a rk'i-nis ka-rit."
+        },
+        {
+          "ka": "გთხოვთ, მომიწოდოთ ტრანსპორტის შეჩერების ადგილი რუკაზე ან მონიშნეთ იგი ლურჯი წითლით.",
+          "fr": "Veuillez indiquer l'arrêt de transport sur la carte ou marquez-le en bleu et rouge.",
+          "translit": "gtkhovt, momitsodot transportis shecherobis adgili rukaze an monishnet igi lurji ts'it'il.",
+          "pron": "gtkhovt, mo-mi-tso-dot tran-sport-is she-che-ro-bis ad-gi-li ru-ka-ze an mo-nish-net i-gi lur-ji ts'it-il."
+        },
+        {
+          "ka": "თუ ხართ თავგადასავლების მსურველი, გზიდან ჩამოდით და ბილიკით მიაღწევთ ხედამდე.",
+          "fr": "Si vous aimez l'aventure, descendez du chemin et vous atteindrez le point de vue par le sentier.",
+          "translit": "tu khart tavgadasavlebis msruveli, gzidan chamodit da bilikit miach'evt khedamde.",
+          "pron": "tu khart tav-ga-da-sa-vle-bis ms-ru-ve-li, gz-i-dan cha-mo-dit da bi-li-kit mi-a-ch'evt khe-dam-de."
+        },
+        {
+          "ka": "გზაზე წესების დაცვა მნიშვნელოვანია; საპასუხოდ, სიჩქარე მოუმატეთ მხოლოდ ნებადართული მონაკვეთებზე.",
+          "fr": "Respecter le code de la route est important ; en réponse, augmentez la vitesse seulement sur les sections autorisées.",
+          "translit": "gzaze ts'esebis dacva mnishvnelovania; sap'asukhod, sichqare moumatet mxolod nebadurti monaqvetze.",
+          "pron": "gz-a-ze ts'e-se-bis dat-sva mni-shv-ne-lo-va-ni-a; sa-pa-su-khod, si-chqa-re mou-ma-tet mkho-lod ne-ba-dur-ti mo-na-qve-tze."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-004",
+      "title": "Exprimer des opinions et débattre",
+      "tag": "communication",
+      "duration": 30,
+      "goal": "Formuler son opinion, accepter ou réfuter poliment, utiliser des connecteurs logiques.",
+      "cefr": "B1",
+      "version": 4,
+      "items": [
+        {
+          "ka": "ჩემი აზრით, ქალაქში მეტ სატრანსპორტო საშუალებები საჭიროა, რადგან ეს შეღავათია ეკონომიკისთვის.",
+          "fr": "À mon avis, la ville a besoin de plus de transports, car c'est bénéfique pour l'économie.",
+          "translit": "chemi azt'it, qalakshi met satransporto saSualebebi sachiroa, radgan es sheghavathia ekonomikisTvis.",
+          "pron": "che-mi az-t'it, qa-lak-shi met sa-trans-por-to sa-su-a-le-be-bi sa-chi-ro-a, rad-gan es she-gha-va-thi-a e-ko-no-mi-kis-tvis."
+        },
+        {
+          "ka": "მე არ ვეთანხმები სრულად, თუმცა მოსაზრებაში გარკვეული ნაწილი მართალია.",
+          "fr": "Je ne suis pas entièrement d'accord, mais une partie de l'idée est juste.",
+          "translit": "me ar vet'anxmebi srulad, toghu mosazrebashi garkveuli nasi mariTalia.",
+          "pron": "me ar ve-tan-khme-bi sru-lad, to-ghu mo-sa-zre-ba-shi gar-kve-u-li na-si ma-ri-ta-li-a."
+        },
+        {
+          "ka": "გადაწყვეტილების მიღებისას საჭიროა ფაქტების წარმოდგენა და ალტერნატივების შეფასება.",
+          "fr": "Lors de la prise de décision, il faut présenter les faits et évaluer les alternatives.",
+          "translit": "gadats'qvetilebis migebisas sachiroa p'akt'ebis martuleba da alternatiiv-ebis shefaseba.",
+          "pron": "ga-dat-s'qve-ti-le-bis mi-ge-bi-sas sa-chi-ro-a fak-te-bis par-tu-le-ba da al-ter-na-ti-v-e-bis she-fa-se-ba."
+        },
+        {
+          "ka": "თუ გსურთ, შეგვიძლია მოკლე არგუმენტები ჯერ თქვენმ მომაყვანოთ, მერე მე ვუპასუხებ.",
+          "fr": "Si vous voulez, vous pouvez d'abord exposer brièvement vos arguments, puis je répondrai.",
+          "translit": "tu gsurt, shegidzlia mokle argumentebi jer tkven momaqvanot, mere me vupasuxeb.",
+          "pron": "tu gsu-rt, she-gid-zlia mok-le ar-gu-men-te-bi jer tk-ven mo-ma-qva-not, me-re me vu-pa-su-xeb."
+        },
+        {
+          "ka": "ამ თეზისის საფუძველზე პროგნოზი მომეცა: გადასვლა მოდის კლიმატის ცვლილების გამო.",
+          "fr": "Sur cette thèse, j'ai formulé une prévision : la migration vient à cause du changement climatique.",
+          "translit": "am tezisis saSutisze prognozi mometsa: gadisvla modis klimatis ts'vlilebis gamoqu.",
+          "pron": "am te-zi-sis sa-su-ti-sze prog-no-zi mo-me-tsa: ga-dis-vla mo-dis kli-ma-tis ts'vli-le-bis ga-mo-qu."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-005",
+      "title": "Santé et rendez-vous chez le médecin",
+      "tag": "santé",
+      "duration": 20,
+      "goal": "Décrire des symptômes, expliquer l'historique médical et comprendre les prescriptions.",
+      "cefr": "B1",
+      "version": 5,
+      "items": [
+        {
+          "ka": "ბოლოს სამი დღის განმავლობაში მტკივა თავი და ცოტა სიცხე მაქვს.",
+          "fr": "Depuis trois jours j'ai mal à la tête et j'ai un peu de fièvre.",
+          "translit": "bolos sami dgis ganmavlobashi mtk'iva tavi da tsota sitskhe makvs.",
+          "pron": "bo-los sa-mi dg-is gan-ma-vlo-ba-shi mt-ki-va ta-vi da tso-ta sits-khe mak-vs."
+        },
+        {
+          "ka": "გამოწერილი მედიკამენტი უნდა სარგებლო საკვების შემდეგ, ორჯერ დღეში.",
+          "fr": "Le médicament prescrit doit être pris après le repas, deux fois par jour.",
+          "translit": "gamots'erili medikament'i unda saqmebro sak'vebis shemdeg, orjier dgheshe.",
+          "pron": "ga-mot-s'e-ri-li me-di-ka-men-ti un-da sa-qve-bro sak've-bis shem-deg, or-jier dghe-she."
+        },
+        {
+          "ka": "გთხოვთ, მომიყევით ყველა ალერგია ან ქრონიკული დაავადება, რომელზეც ექიმმა არწმუნებს.",
+          "fr": "Veuillez me dire toutes allergies ou maladies chroniques dont le médecin doit être informé.",
+          "translit": "gtkhovt, momiq'veit yvela alergia an khronikuli daavadeba, romelzoes eqimma arcuvebs.",
+          "pron": "gtkhovt, mo-mi-q've-it y-ve-la a-ler-gi-a an khro-ni-ku-li daa-va-de-ba, ro-mel-zo-es e-ki-mm-a ar-cu-ve-bs."
+        },
+        {
+          "ka": "თუ საჭიროა, ჩვენ ვგეგმავთ დამატებით ტესტებს: სისხლის ან ულტრაბგერის გამოკვლევას.",
+          "fr": "Si nécessaire, nous prévoyons des tests supplémentaires : analyses sanguines ou échographie.",
+          "translit": "tu sachiroa, chven vgegmavt damatebit test-ebs: siskhlis an ultrabgeris gamok'vlebas.",
+          "pron": "tu sa-chi-ro-a, chven vgeg-ma-vt da-ma-te-bit test-ebs: sis-khlis an ul-tra-bg-e-ris ga-mo-k'vle-bas."
+        },
+        {
+          "ka": "მნიშვნელოვანია დასვენება და მეტი სითხე — განსაკუთრებით თუ ანტიბიოტიკებს იღებთ.",
+          "fr": "Il est important de se reposer et de boire plus de liquides — surtout si vous prenez des antibiotiques.",
+          "translit": "mnishvneloana dasveneba da meti sitkhe — gansakutrebit tu antibiot'ikebs ightebt.",
+          "pron": "mni-shv-ne-lo-a-na das-ve-ne-ba da me-ti sit-khe — gan-sa-ku-tre-bit tu an-ti-bi-o-ti-kebs i-gh-te-bt."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-006",
+      "title": "Organiser une rencontre professionnelle",
+      "tag": "emploi",
+      "duration": 25,
+      "goal": "Proposer, accepter ou reporter un rendez-vous, rédiger des emails formels et utiliser le conditionnel pour la politesse.",
+      "cefr": "B1",
+      "version": 6,
+      "items": [
+        {
+          "ka": "შეგვიძლია შეხვედრა დავგეგმოთ ორშაბათს 10 საათზე თქვენს ოფისმდე?",
+          "fr": "Pouvons-nous planifier la réunion lundi à 10 heures dans votre bureau ?",
+          "translit": "shegidzlia shekhvedra davamgegot orshabat's 10 sashtze tkven's ofisme?",
+          "pron": "she-gid-zlia she-khve-dra da-vge-got or-sha-bats 10 sas-tze tkven's of-is-me?"
+        },
+        {
+          "ka": "ამ მოახლოებული თარიღისთვის გთხოვთ მომცეთ დღის წესრიგი წინასწარ.",
+          "fr": "Pour cette date proposée, merci de me donner l'ordre du jour à l'avance.",
+          "translit": "am moakhliobuli tarighistvis gtkhovt momcet dgis ts'esrig'i ts'inats'ar.",
+          "pron": "am mo-akh-li-o-bu-li ta-ri-ghis-tvis gtkhovt mo-mtset dgis ts'es-ri-gi tsi-na-ts'ar."
+        },
+        {
+          "ka": "თუ შეხვედრა გადადო, შეგვიძლია ონლაინ ვრცლად ესაუბროთ იმავე დღეს.",
+          "fr": "Si la réunion est reportée, nous pouvons en parler en détail en ligne le même jour.",
+          "translit": "tu shekhvedra gedado, shegidzlia onlain vrtslad esaubroT imave dghes.",
+          "pron": "tu she-khve-dra ge-da-do, she-gid-zlia on-lain vrt-slad e-sau-brot i-ma-ve dghes."
+        },
+        {
+          "ka": "სანამ დავადასტურებ განთავისუფლებას, შეიძლება შეცვალოთ დრო სხვა წინადადებით?",
+          "fr": "Avant que je confirme la disponibilité, pouvez-vous proposer une autre heure ?",
+          "translit": "sanam davadast'urob ganthavisflebas, shedzliat shecvalot dro skhva ts'inadadebit?",
+          "pron": "sa-nam da-va-das-tu-rob gan-tha-vis-fle-bas, shed-zli-at she-tsva-lot dro skh-va tsi-na-da-de-bit?"
+        },
+        {
+          "ka": "მადლობა სწრაფ პასუხისთვის; მოგიმზადებთ მოკლე ნოტებს შეხვედრის შემდეგ.",
+          "fr": "Merci pour la réponse rapide ; je préparerai un bref compte-rendu après la réunion.",
+          "translit": "madloba sprav p'asukhistvis; mogimzadet mokle notebs shekhvdris shemdeg.",
+          "pron": "mad-lo-ba spra-v pa-su-khis-tvis; mo-gim-za-det mok-le no-tebs she-khvd-ris shem-deg."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-007",
+      "title": "Expressions idiomatiques et registres",
+      "tag": "expressions",
+      "duration": 18,
+      "goal": "Reconnaître et utiliser des expressions idiomatiques courantes et adapter le registre (familier, courant, formel).",
+      "cefr": "B1",
+      "version": 7,
+      "items": [
+        {
+          "ka": "არ არის საქმე გიჟური — უბრალოდ დროის დაკარგვაა.",
+          "fr": "Ce n'est pas la folie — juste une perte de temps.",
+          "translit": "ar aris sakme gijuri — ubralod drois dakargvaa.",
+          "pron": "ar a-ris sak-me gi-ju-ri — u-bra-lod dro-is da-kar-gva-a."
+        },
+        {
+          "ka": "მან საქმე კარგად შეასრულა, მითხრა რომ საქმე თავისთვის გადაირჩია.",
+          "fr": "Il a bien fait son travail ; il m'a dit qu'il l'avait fait pour lui-même.",
+          "translit": "man sakme kargad sheasrula, mitxra rom sakme tavistvis gadarTchia.",
+          "pron": "man sak-me kar-gad she-a-sru-la, mit-khra rom sak-me ta-vis-tvis ga-dar-ts'ia."
+        },
+        {
+          "ka": "მეგობრებს შორის საუბარი შეიძლება 'ეფემერული' იყოს — მალე ყველაფერი შეიცვლება.",
+          "fr": "Entre amis la conversation peut être éphémère — tout changera bientôt.",
+          "translit": "megobrebs shoris saubari shegidzlia 'ephemeral'i ikos — male qvelaperi sheicvleba.",
+          "pron": "me-go-brebs sho-ris sa-u-ba-ri she-gid-zlia 'e-phe-me-ru-li' i-kos — ma-le kve-la-pe-ri she-its-vle-ba."
+        },
+        {
+          "ka": "ოფისში ვერ გამოვიდეთ დასაშვებად, რადგან პოზიცია ჯერ განსაზღვრას მოითხოვს.",
+          "fr": "Nous ne pouvons pas quitter le bureau pour l'instant, car la position exige encore d'être définie.",
+          "translit": "ofisshi ver gamovidet dasashvedad, radgan pozicia jer gansazghvras moitkhovs.",
+          "pron": "o-fis-shi ver ga-mo-vi-det da-sa-shve-dad, rad-gan po-zi-ci-a jer gan-saz-ghv-ras moi-tkhovs."
+        },
+        {
+          "ka": "თუ გსურთ უფრო ოფიციალური ფორმა, გამოიყენეთ 'გთხოვთ მიმიწვათ' ნაცვლად 'მოიძახე'.",
+          "fr": "Si vous voulez un ton plus formel, utilisez 'please invite me' au lieu de 'call me' (exemple d'usage formel).",
+          "translit": "tu gsurt upro oficiauli forma, gamoyenebit 'gtkhovt mimitsvat' natzvlad 'moidzax'e'.",
+          "pron": "tu gsu-rt u-pro o-fi-ci-a-u-li for-ma, ga-mo-ye-ne-bit 'gtkhovt mi-mi-ts-vat' natz-vlad 'mo-id-za-khe'."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-008",
+      "title": "Raconter un événement passé et utiliser le passé composé et l'imparfait",
+      "tag": "narration",
+      "duration": 22,
+      "goal": "Savoir raconter une histoire courte au passé, distinguer action ponctuelle et description habituelle.",
+      "cefr": "B1",
+      "version": 8,
+      "items": [
+        {
+          "ka": "ხუთი წლის წინ ვიმოგზაურეთ მთაში და მართლაც საოცრად იყო.",
+          "fr": "Il y a cinq ans nous avons voyagé à la montagne et c'était vraiment merveilleux.",
+          "translit": "khuti tslis ts'in vimogzautret mtashi da martlad saotsrad iko.",
+          "pron": "khut-i ts-lis ts'in vi-mog-zau-tret mta-shi da mar-tlad sa-ots-rad i-ko."
+        },
+        {
+          "ka": "საირმეზე ადრიანად მივედით, რადგან გზაზე ჭრიჭინამ შეგვაჩერა.",
+          "fr": "Nous sommes arrivés tôt sur le marché car un embouteillage nous a retardés sur la route.",
+          "translit": "sairmeze adrianad mivedit, radgan gzaze chrich'inam shegvach'era.",
+          "pron": "sa-ir-me-ze a-dri-a-nad mi-ve-dit, rad-gan gz-a-ze chri-ch'i-nam she-gva-ch'era."
+        },
+        {
+          "ka": "ბიჭები ხშირად თამაშობდნენ ჭადრაკს სასადილო ოთახში, როცა ნება ჰქონდათ.",
+          "fr": "Les garçons jouaient souvent aux échecs dans la salle à manger quand ils en avaient l'occasion.",
+          "translit": "bichebi skhvdla tamashobdnen chadraks sasadilo otakhshi, rotsa neba ikhondat.",
+          "pron": "bi-che-bi skhvd-la ta-ma-shob-dnen cha-dra-ks sa-sa-di-lo o-takh-shi, rot-sa ne-ba i-khon-dat."
+        },
+        {
+          "ka": "მოსწავლე დაწერილი საიდუმლო ჩანაწერით მოვიდა; მას შემდეგ მას დაევალა მოკლე მოხსენება.",
+          "fr": "L'élève est venu avec une note secrète ; ensuite il a dû préparer un bref exposé.",
+          "translit": "moswavle datserili saidumlo chanac'erit movida; mas shemdeg mas dea vla mokle mokhseneba.",
+          "pron": "mo-sva-vle dat-se-ri-li sa-i-dum-lo cha-na-ce-rit mo-vi-da; mas shem-deg mas dea-vla mok-le mokh-se-ne-ba."
+        },
+        {
+          "ka": "ეს ყველაფერი მაშინ დაიწყო, როდესაც ქალაქში ახალი თეატრი გაიხსნა.",
+          "fr": "Tout a commencé quand un nouveau théâtre a ouvert en ville.",
+          "translit": "es qvelaperi mashin dac'oda, rodesac qalakshi axali teatri gaixsna.",
+          "pron": "es kve-la-pe-ri ma-shin da-tso-da, ro-de-sats qa-lak-shi a-kha-li tea-tri gai-khs-na."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-009",
+      "title": "Exprimer la probabilité, la certitude et l'hypothèse",
+      "tag": "modalité",
+      "duration": 18,
+      "goal": "Utiliser les modaux et expressions pour parler de certitude, probabilité et hypothèse.",
+      "cefr": "B1",
+      "version": 9,
+      "items": [
+        {
+          "ka": "ის აუცილებლად მოვა, მე თითქმის დარწმუნებული ვარ.",
+          "fr": "Il viendra certainement, j'en suis presque sûr.",
+          "translit": "is unda-ganits vova, me t'itk'mi dartsk'unebuli var.",
+          "pron": "is un-da-ga-nits vo-va, me tit-kmi dar-tsku-ne-bu-li var."
+        },
+        {
+          "ka": "შეიძლება ჩამოდიან გვიან, თუ გზა მიჭირდა.",
+          "fr": "Ils pourraient arriver en retard si la route était difficile.",
+          "translit": "sheizleba chamodian gvian, tu gza mich'irda.",
+          "pron": "she-iz-le-ba cha-mo-di-an gvi-an, tu gza mi-ch'ir-da."
+        },
+        {
+          "ka": "თუ მე მას ვკითხავდი, ის ალბათ ნებდობოდა დახმარების გაწევაზე.",
+          "fr": "Si je lui demandais, il accepterait probablement de fournir de l'aide.",
+          "translit": "tu me mas vkitkhavdi, is albat nebdoboda dakhmarebis gatsevaze.",
+          "pron": "tu me mas v-ki-tk'av-di, is al-bat neb-do-bo-da da-kha-ma-re-bis gat-se-va-ze."
+        },
+        {
+          "ka": "ვერ მოხერხდა წინასწარმეტყველება ზუსტად, მაგრამ არის მცირე შესაძლებლობა.",
+          "fr": "On ne peut pas prédire cela exactement, mais il y a une petite possibilité.",
+          "translit": "ver mokherxda ts'inatsarmeTveleba zudagt, magram aris mtsre shesadzleblobaa.",
+          "pron": "ver mo-kher-xda tsi-na-tsar-me-tve-le-ba zu-dagt, ma-gram a-ris mt-sre she-sadz-le-lo-ba-a."
+        },
+        {
+          "ka": "სავარაუდოდ, მისი გადაწყვეტილება საბოლოოდ დამოკიდებულია მასზე და ფინანსურ ფაქტორებზე.",
+          "fr": "Probablement sa décision dépendra finalement de lui et des facteurs financiers.",
+          "translit": "savahruiod, misi gadats'qvetileba saSualod damokidebuli aqvs masze da finansur faktor'ebze.",
+          "pron": "sa-va-hru-i-od, mi-si ga-dat-s'qve-ti-le-ba sa-sua-lod da-mo-ki-de-bu-li ak-vs mas-ze da fi-nan-sur fak-tor-eb-ze."
+        }
+      ]
+    },
+    {
+      "id": "lessons-b1-gen-010",
+      "title": "Arguments écrits : rédiger un court essai",
+      "tag": "écriture",
+      "duration": 35,
+      "goal": "Structurer un court essai (introduction, développement, conclusion), utiliser des connecteurs et formuler des positions claires.",
+      "cefr": "B1",
+      "version": 10,
+      "items": [
+        {
+          "ka": "ამ ნოტაში წინადადება იწყება ნათელი განცხადებით, შემდეგ მოყვანილია ორი ან სამი არგუმენტი.",
+          "fr": "Dans cette note, l'introduction commence par une affirmation claire, puis suivent deux ou trois arguments.",
+          "translit": "am notashi ts'inadadeba its'qeba nateli ganakhdebit, shemdeg moqvanilia ori an sami argumenti.",
+          "pron": "am no-ta-shi tsi-na-da-de-ba its'-qe-ba na-te-li ga-na-kh-de-bit, shem-deg mo-qva-ni-li-a o-ri an sa-mi ar-gu-men-ti."
+        },
+        {
+          "ka": "აპრობირებული ფაქტები უნდა შეინიშნოს სეტყვის წყაროებით და ციფრებით.",
+          "fr": "Les faits cités doivent être référencés par des sources fiables et des chiffres.",
+          "translit": "aprobirebuli p'akt'ebi unda sheinishnos setqvis ts'qarobit da ts'ifrebith.",
+          "pron": "a-pro-bi-re-bu-li fak-te-bi un-da she-in-ish-nos set-qvis ts'qa-ro-bit da tsi-fr-e-bit."
+        },
+        {
+          "ka": "ტრადიციული შენიშვნები შეიძლება შეიცავდეს წინააღმდეგობებს, თუმცა დასკვნა უნდა იყოს ნათელი.",
+          "fr": "Les remarques traditionnelles peuvent contenir des contradictions, mais la conclusion doit rester claire.",
+          "translit": "tradic'iuli shenishvnebi shegidzliat sheicavdes ts'visk'idebebi, toghu daskvna unda ikos nateli.",
+          "pron": "tra-di-ci-u-li she-nish-vne-bi she-gid-zli-at she-i-ca-v-des ts'vis-ki-de-be-bi, to-ghu das-kv-na un-da i-kos na-te-li."
+        },
+        {
+          "ka": "ულტიმატუმის ნაცვლად, შეთავაზება უფრო ეფექტურია: \"თუ შეთანხმდებით, შემიძლია დახმარება გავუწიო\".",
+          "fr": "Plutôt que l'ultimatum, une proposition est plus efficace : « si vous acceptez, je peux aider ».",
+          "translit": "ultimatumis natzvlad, shetavazeba upro efek'turia: \"tu shetanxmebt, shegidzlia dakhmareba gavutsi'o\".",
+          "pron": "ul-ti-ma-tum-is natz-vlad, she-ta-va-ze-ba u-pro e-fek-tu-ri-a: \"tu she-tan-khmebt, she-gid-zlia da-kha-ma-re-ba ga-vu-tsi-o\"."
+        },
+        {
+          "ka": "დასკვნის პარაგრაფში შემოგვაპოვეთ მოკლე რეკომენდაციები და შემდგომი ნაბიჯები.",
+          "fr": "Dans le paragraphe de conclusion proposez quelques recommandations courtes et les étapes suivantes.",
+          "translit": "daskvnis paragrapshi shemogvapotet mokle rekomendaciebi da shemdeg nikhbeebi.",
+          "pron": "das-kv-nis pa-ra-gra-phi she-mog-va-po-tet mok-le re-ko-men-da-ci-e-bi da shem-deg ni-kh-be-e-bi."
+        }
+      ]
+    }
+  ]
+}

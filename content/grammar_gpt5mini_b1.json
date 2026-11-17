@@ -1,0 +1,235 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "grammar-b1-gen-001",
+      "title": "წარსული პირდაპირი მოქმედება (ა-orist) — კვეთა მომხდარისთვის",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 1,
+      "body": "Explication en français : L'aoriste (souvent appelé «passé simple» en géorgien) exprime une action achevée ponctuelle ou considérée comme complète. Il se forme souvent avec une racine verbale modifiée et des terminaisons spécifiques (varie selon les verbes). Ne pas confondre avec l'imparfait (-დი) qui indique une action habituelle ou en déroulement dans le passé.",
+      "examples": [
+        [
+          "მე გუშინ წავედი.",
+          "Je suis parti(e) hier."
+        ],
+        [
+          "ის თავის საქმეს გადაწყვიტა.",
+          "Il/elle a résolu son affaire."
+        ],
+        [
+          "მათ ფილიალში ნახეს ახალი თარო.",
+          "Ils ont vu une nouvelle étagère dans la succursale."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-002",
+      "title": "Imparfait (-დი) : action répétée ou en cours dans le passé",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 2,
+      "body": "Explication en français : L'imparfait se forme en ajoutant la marque -დი à la base du présent (avec les désinences personnelles). Il sert pour une action habituelle dans le passé, une description ou une action en cours interrompue. Limite : pour une action ponctuelle et achevée, on préfèrera l'aoriste (fiche 1).",
+      "examples": [
+        [
+          "რაღაც თითქოს არ მესმოდა — მე ხშირად ვკითხულობდი ტექსტს.",
+          "Quelque chose ne me semblait pas clair — je lisais souvent le texte."
+        ],
+        [
+          "ბავშვები ყოველდღე თამაშობდნენ ბაღში.",
+          "Les enfants jouaient tous les jours dans le jardin."
+        ],
+        [
+          "მისი ტელეფონი ხშირად რეკავდა და ის პასუხობდა — ადრე ვმუშაობდი და ეს დარბამდე ხდებოდა.",
+          "Son téléphone sonnait souvent et il/elle répondait — avant je travaillais et cela arrivait fréquemment."
+        ]
+      ],
+      "source": "Contenu pédagogique оригинal"
+    },
+    {
+      "id": "grammar-b1-gen-003",
+      "title": "Présent simple : usage et accords de base",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 3,
+      "body": "Explication en français : Le présent en géorgien sert pour une action habituelle ou une vérité générale. Le verbe s'accorde en personne et en nombre (différentes terminaisons). Limite : le présent peut aussi traduire un futur proche selon le contexte ; vérifier par les marqueurs temporels.",
+      "examples": [
+        [
+          "მე ვსწავლობ ქართულს.",
+          "J'étudie le géorgien."
+        ],
+        [
+          "ის მუშაობს ბიბლიოთეკაში.",
+          "Il/elle travaille à la bibliothèque."
+        ],
+        [
+          "ისინი ხშირად მიდიან კინოს.",
+          "Ils vont souvent au cinéma."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-004",
+      "title": "Futur simple avec le suffixe -ებ- (formation régulière)",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 4,
+      "body": "Explication en français : Le futur simple se forme généralement avec la racine du verbe + le suffixe -ებ- + désinences personnelles (ex. მე ვ-...-ებ). Il exprime une action à venir. Limite : certains verbes ont formes irrégulières ou utilisent périphrases, mais la formation -ებ- est productive pour beaucoup de verbes.",
+      "examples": [
+        [
+          "მე ვიმუშავებ ხვალ.",
+          "Je travaillerai demain."
+        ],
+        [
+          "სახელმწიფო შეეცდება პანდემიის გაუმკლავებას.",
+          "L'État essaiera de faire face à la pandémie."
+        ],
+        [
+          "ისები შენს პროექტს დაამთავრებენ მალე.",
+          "Ils finiront ton projet bientôt."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-005",
+      "title": "Préverbes (წინდები) indiquant direction ou aspect",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 5,
+      "body": "Explication en français : Les préverbes (préfixes comme შე-, ჩა-, გა-, მოხ-, დაწ-, შემ-) modifient le sens du verbe : direction (entrer, sortir), achèvement ou aspect perfectif. Attention : le même préverbe peut changer de sens selon le verbe ; on apprend par paires de verbes et contextes, pas par règle unique.",
+      "examples": [
+        [
+          "მან სახლში შემოაბიჯა.",
+          "Il/elle est entré(e) dans la maison."
+        ],
+        [
+          "ვიმედოვნებ, რომ წერილს დაწერს წარდგენამდე.",
+          "J'espère qu'il/elle écrira la lettre avant la présentation (დაწერა = écrire/achever d'écrire)."
+        ],
+        [
+          "შვრია დაიჭრა — ჭიქა მაგიდიდან გამოიქცა.",
+          "La coupe est tombée — elle est sortie de la table (გამო- marquant sortie)."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-006",
+      "title": "Génitif : marquer la possession avec -ის",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 6,
+      "body": "Explication en français : Le génitif se forme souvent en ajoutant -ის au radical nominal pour indiquer possession ou relation (le livre de X, la porte de la maison). Limite : certaines racines irrégulières changent de voyelle ou consonne; l'article n'existe pas, le contexte détermine la relation.",
+      "examples": [
+        [
+          "ბაბუის წიგნი მაგიდაზეა.",
+          "Le livre du grand-père est sur la table."
+        ],
+        [
+          "ქალაქის ცენტრში ბევრი ადამიანი იდგა.",
+          "Au centre-ville, beaucoup de personnes se tenaient."
+        ],
+        [
+          "სტუდენტის ჩანთაში წიგნებია.",
+          "Il y a des livres dans le sac de l'étudiant."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-007",
+      "title": "Datif (შემატებითი) : marquer le bénéficiaire avec -ს",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 7,
+      "body": "Explication en français : Le datif (souvent marqué par la terminaison -ს sur le nom) indique le destinataire ou le bénéficiaire d'une action (donner à, dire à). En géorgien contemporain, l'ordre peut varier mais le datif est souvent placé avant l'objet direct. Limite : certains pronoms datifs (მას, მასთან) sont distincts et les verbes peuvent prendre des formes spéciales en présence d'objets datifs.",
+      "examples": [
+        [
+          "მე მივეცი ნათიას წიგნი.",
+          "J'ai donné le livre à Natia."
+        ],
+        [
+          "შენს მეგობარს ავუხსენი პრობლემა.",
+          "J'ai expliqué le problème à ton ami."
+        ],
+        [
+          "ვუთხარი მას სიმართლე.",
+          "Je lui ai dit la vérité."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-008",
+      "title": "Négation avec particle 'არ' : position et variations",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 8,
+      "body": "Explication en français : La négation simple se fait avec la particule არ placée avant le verbe (არ + verbe conjugué). Pour l'imparfait, la particule reste devant la forme en -დი. Limite : certains auxiliaires et formes composées (particules comme -სათან) ont des négations spécifiques; ici on traite la négation de base des formes personnelles.",
+      "examples": [
+        [
+          "მე არ ვწერ ახლა.",
+          "Je n'écris pas maintenant."
+        ],
+        [
+          "მას არ სჯეროდა ამ ჭორის.",
+          "Il/elle ne croyait pas à cette rumeur."
+        ],
+        [
+          "ჩვენ არ ვიმუშავებთ დღეს.",
+          "Nous ne travaillerons pas aujourd'hui."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-009",
+      "title": "Accord sujet-verbe en personne et nombre (présent)",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 9,
+      "body": "Explication en français : En présent, le verbe s'accorde en personne (მე, შენ, ის...) et en nombre (მათ/ჩვენ). Les terminaisons changent de façon régulière pour la plupart des verbes. Limite : en passé des verbes transitifs l'accord peut suivre un schéma ergatif — phénomène plus avancé à étudier séparément.",
+      "examples": [
+        [
+          "მე ვნახულობ ახალ ამბებს.",
+          "Je consulte les nouvelles."
+        ],
+        [
+          "შენ სწავლობ ახალ სუბსტანტივებს.",
+          "Tu apprends de nouveaux substantifs."
+        ],
+        [
+          "ისინი თამაშობენ მაგარ გუნდებში.",
+          "Ils/elles jouent dans de bonnes équipes."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    },
+    {
+      "id": "grammar-b1-gen-010",
+      "title": "Subordination avec 'რომ' pour propositions complétives",
+      "level": "B1",
+      "cefr": "B1",
+      "version": 10,
+      "body": "Explication en français : La conjonction 'რომ' introduit une proposition subordonnée complétive (je sais que..., je pense que...). Elle suit souvent le verbe principal et la subordonnée peut conserver son temps propre. Limite : l'ordre sujet-verbe dans la subordonnée peut rester flexible ; 'რომ' ne traduit pas toutes les nuances de 'que' en français (volonté, but exigent d'autres particules).",
+      "examples": [
+        [
+          "მე ვიცი, რომ ის მოვა.",
+          "Je sais qu'il/elle viendra."
+        ],
+        [
+          "გვჯერა, რომ პროექტი წარმატებული იქნება.",
+          "Nous croyons que le projet sera un succès."
+        ],
+        [
+          "ის ამბობს, რომ ვერ მოესწრება შეხვედრას.",
+          "Il/elle dit qu'il/elle ne pourra pas assister à la réunion."
+        ]
+      ],
+      "source": "Contenu pédagogique original"
+    }
+  ]
+}

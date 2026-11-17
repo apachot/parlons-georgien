@@ -1,0 +1,155 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "reading_cloze-a1-gen-001",
+      "sentence": "მე ვსწავლობ ___.",
+      "answer": "ქართულს",
+      "options": [
+        "ქართულს",
+        "ფრანგულს",
+        "ინგლისურს",
+        "რუსულს"
+      ],
+      "translation": "J'apprends le géorgien.",
+      "explanation": "Le verbe 'ვსწავლობ' prend l'objet auillante en -ს : 'ქართულს' = le géorgien.",
+      "cefr": "A1",
+      "version": 1
+    },
+    {
+      "id": "reading_cloze-a1-gen-002",
+      "sentence": "ეს არის ჩემი ___.",
+      "answer": "ძმა",
+      "options": [
+        "ძმა",
+        "დედა",
+        "მამა",
+        "სახლი"
+      ],
+      "translation": "Ceci est mon frère.",
+      "explanation": "'ჩემი' plus un membre de la famille se suit du nom au nominatif : 'ძმა' = frère ; 'სახლი' ne convient pas au contexte familial.",
+      "cefr": "A1",
+      "version": 2
+    },
+    {
+      "id": "reading_cloze-a1-gen-003",
+      "sentence": "მე მინდა ___.",
+      "answer": "პური",
+      "options": [
+        "პური",
+        "ფეხი",
+        "ფერი",
+        "ჭურჭელი"
+      ],
+      "translation": "Je veux du pain.",
+      "explanation": "'მინდა' exprime le désir et prend un objet concret : 'პური' = pain ; les autres distracteurs sont soit hors sens ('ფეხი' pied) soit improbables ici.",
+      "cefr": "A1",
+      "version": 3
+    },
+    {
+      "id": "reading_cloze-a1-gen-004",
+      "sentence": "მე მაქვს ___ კატა.",
+      "answer": "ერთი",
+      "options": [
+        "ერთი",
+        "ორი",
+        "სამი",
+        "ოთხი"
+      ],
+      "translation": "J'ai un chat.",
+      "explanation": "Pour indiquer le nombre, on met le chiffre en position déterminante : 'ერთი კატა' = un chat. Les autres nombres changeraient le sens.",
+      "cefr": "A1",
+      "version": 4
+    },
+    {
+      "id": "reading_cloze-a1-gen-005",
+      "sentence": "ყვავილი არის ___.",
+      "answer": "წითელი",
+      "options": [
+        "წითელი",
+        "ლურჯი",
+        "მწვანე",
+        "ყვითელი"
+      ],
+      "translation": "La fleur est rouge.",
+      "explanation": "Il faut un adjectif de couleur; ici 'წითელი' = rouge correspond à la réponse attendue. Les autres sont des couleurs plausibles mais fausses pour cette phrase.",
+      "cefr": "A1",
+      "version": 5
+    },
+    {
+      "id": "reading_cloze-a1-gen-006",
+      "sentence": "___ ხარ?",
+      "answer": "სად",
+      "options": [
+        "ვინ",
+        "როდის",
+        "სად",
+        "როგორ"
+      ],
+      "translation": "Où es-tu ?",
+      "explanation": "Question sur le lieu demande 'სად' = où. 'ვინ' = qui, 'როდის' = quand, 'როგორ' = comment — incorrects ici.",
+      "cefr": "A1",
+      "version": 6
+    },
+    {
+      "id": "reading_cloze-a1-gen-007",
+      "sentence": "მე ___ არ ვიცი.",
+      "answer": "ქართული",
+      "options": [
+        "ქართული",
+        "ქართული ენა",
+        "ქართულს",
+        "ქართველი"
+      ],
+      "translation": "Je ne connais pas le géorgien.",
+      "explanation": "Après 'არ знаю' on utilise l'adjectival forme 'ქართული' pour dire 'le géorgien' (langue) dans la construction courante 'მე ქართული არ ვიცი'. 'ქართულს' serait l'accusatif marqué — moins idiomatique ici ; 'ქართველი' = Géorgien (personne).",
+      "cefr": "A1",
+      "version": 7
+    },
+    {
+      "id": "reading_cloze-a1-gen-008",
+      "sentence": "დღეს არის ___.",
+      "answer": "ორშაბათი",
+      "options": [
+        "ორშაბათი",
+        "პარასკევი",
+        "კვირა",
+        "შაბათი"
+      ],
+      "translation": "Aujourd'hui c'est lundi.",
+      "explanation": "La phrase demande un jour de la semaine ; 'ორშაბათი' = lundi est la bonne réponse. Les autres sont d'autres jours (vendredi, dimanche, samedi).",
+      "cefr": "A1",
+      "version": 8
+    },
+    {
+      "id": "reading_cloze-a1-gen-009",
+      "sentence": "ეს არის ___ წიგნი.",
+      "answer": "ჩემი",
+      "options": [
+        "ჩემი",
+        "შენი",
+        "მისი",
+        "ჩვენი"
+      ],
+      "translation": "Ceci est mon livre.",
+      "explanation": "Possessif 'ჩემი' = mon/ma. Les autres sont des possessifs plausibles mais changeraient le possesseur (ton, son, notre).",
+      "cefr": "A1",
+      "version": 9
+    },
+    {
+      "id": "reading_cloze-a1-gen-010",
+      "sentence": "გთხოვ, მომაწოდე ___.",
+      "answer": "წყალი",
+      "options": [
+        "წყალი",
+        "ფურცელი",
+        "სკამი",
+        "ხილი"
+      ],
+      "translation": "S'il te plaît, passe-moi de l'eau.",
+      "explanation": "Verbe de demande 'მომაწოდე' attend un objet courant comme 'წყალი' = eau. Les distracteurs sont des objets plausibles mais moins naturels dans une demande courte.",
+      "cefr": "A1",
+      "version": 10
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "dictation_sentences-a2-gen-001",
+      "cefr": "A2",
+      "version": 1,
+      "fr": "Je parle un peu géorgien.",
+      "ka": "მე ცოტა ქართულად ვსაუბრობ.",
+      "answers": [
+        "მე ცოტა ქართულად ვსაუბრობ.",
+        "ცოტა ქართულად ვსაუბრობ."
+      ],
+      "note": "Ordre flexible : le pronom personnel peut être omis en géorgien."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-002",
+      "cefr": "A2",
+      "version": 2,
+      "fr": "Où est la gare ?",
+      "ka": "სადგური სად არის?",
+      "answers": [
+        "სადგური სად არის?",
+        "სადგური სადაა?"
+      ],
+      "note": "Forme interrogative courante : « სად არის » ou plus familier « სადაა »."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-003",
+      "cefr": "A2",
+      "version": 3,
+      "fr": "Je prends le bus pour aller au travail tous les matins.",
+      "ka": "მე ყოველ დილით სამსახურში ავტობუსით მივდივარ.",
+      "answers": [
+        "მე ყოველ დილით სამსახურში ავტობუსით მივდივარ.",
+        "ყოველ დილით სამსახურს ავტობუსით მივდივარ."
+      ],
+      "note": "« ავტობუსით » indique le moyen (instr.). Le sujet peut être exprimé ou omis."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-004",
+      "cefr": "A2",
+      "version": 4,
+      "fr": "Hier, nous avons visité un musée intéressant.",
+      "ka": "გუშინ ჩვენ საინტერესო მუზეუმი ვნახეთ.",
+      "answers": [
+        "გუშინ ჩვენ საინტერესო მუზეუმი ვნახეთ.",
+        "გუშინ საინტერესო მუზეუმი ვნახეთ."
+      ],
+      "note": "Passé simple courant : « ვნახეთ » = « nous avons vu/visité » ; « ჩვენ » est facultatif."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-005",
+      "cefr": "A2",
+      "version": 5,
+      "fr": "Peux-tu fermer la fenêtre, s'il te plaît ?",
+      "ka": "გთხოვ, ფანჯარა დახურე, თუ შეიძლება.",
+      "answers": [
+        "გთხოვ, ფანჯარა დახურე, თუ შეიძლება.",
+        "გთხოვ, ფანჯარა დახურე."
+      ],
+      "note": "Impératif avec « გთხოვ » pour dire « s'il te plaît ». « დახურე » = ferme."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-006",
+      "cefr": "A2",
+      "version": 6,
+      "fr": "J'aime lire des livres faciles en français.",
+      "ka": "მიყვარს მარტივი ფრანგული წიგნების კითხვა.",
+      "answers": [
+        "მიყვარს მარტივი ფრანგული წიგნების კითხვა.",
+        "მომწონს მარტივი ფრანგული წიგნების კითხვა."
+      ],
+      "note": "Deux verbes fréquents pour exprimer l'aimement : « მიყვარს » ou « მომწონს »."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-007",
+      "cefr": "A2",
+      "version": 7,
+      "fr": "Il faut acheter du lait et du pain.",
+      "ka": "უნდა ვიყიდოთ რძე და პური.",
+      "answers": [
+        "უნდა ვიყიდოთ რძე და პური.",
+        "ჩვენ უნდა ვიყიდოთ რძე და პური."
+      ],
+      "note": "Nécessité avec « უნდა » + verbe conjugué (ici « ვიყიდოთ »). Le pronom est optionnel."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-008",
+      "cefr": "A2",
+      "version": 8,
+      "fr": "Mon frère apprend le géorgien depuis trois mois.",
+      "ka": "ჩემი ძმა სამი თვეა ქართულს სწავლობს.",
+      "answers": [
+        "ჩემი ძმა სამი თვეა ქართულს სწავლობს.",
+        "ჩემი ძმა სამი თვის განმავლობაში ქართულს სწავლობს."
+      ],
+      "note": "« სამი თვეა » exprime la durée (« depuis trois mois »). Variante avec « სამი თვის განმავლობაში »."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-009",
+      "cefr": "A2",
+      "version": 9,
+      "fr": "Je voudrais réserver une table pour quatre personnes ce soir.",
+      "ka": "მე მინდა დღეს საღამოს ოთხი ადამიანისთვის მაგიდის დაჯავშნა.",
+      "answers": [
+        "მე მინდა დღეს საღამოს ოთხი ადამიანისთვის მაგიდის დაჯავშნა.",
+        "მე მსურს დღეს საღამოს ოთხი ადამიანისთვის მაგიდის დაჯავშნა."
+      ],
+      "note": "Formulation polie avec « მე მინდა » ou « მე მსურს » et le nom verbal « დაჯავშნა »."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-010",
+      "cefr": "A2",
+      "version": 10,
+      "fr": "Elle a dit qu'elle viendrait demain si le train n'est pas en retard.",
+      "ka": "მან თქვა, რომ თუ მატარებელი არ დაგვიანდება, ის ხვალ მოვა.",
+      "answers": [
+        "მან თქვა, რომ თუ მატარებელი არ დაგვიანდება, ის ხვალ მოვა.",
+        "მან თქვა, რომ თუკი მატარებელი არ დაგვიანდება, ის ხვალ მოვა."
+      ],
+      "note": "Discours rapporté avec « მან თქვა, რომ... » et condition « თუ/თუკი ». « დაგვიანდება » = « n'est pas en retard » au futur."
+    }
+  ]
+}

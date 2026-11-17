@@ -1,0 +1,440 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "dialogues-b1-gen-001",
+      "title": "კაფე — დილის შეკვეთა",
+      "scene": "პირდაპირი მოკლე დიალოგი ბარში ყავის შეკვეთის შესახებ.",
+      "turns": [
+        {
+          "speaker": "მუშა",
+          "ka": "დილა მშვიდობისა! რით შემიძლია დაგეხმაროთ?",
+          "fr": "Bonjour ! Que puis-je vous servir ?"
+        },
+        {
+          "speaker": "მფლობელი (დილა)",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "ერთი ტკბილი კაპუჩინო და ნამცხვარი, გმადლობთ.",
+              "fr": "Un cappuccino sucré et un morceau de gâteau, s'il vous plaît.",
+              "ok": false
+            },
+            {
+              "ka": "ერთი ფინჯანი ფილტრებული ყავა და შოკოლადის ნამცხვარი, გმადლობთ.",
+              "fr": "Je voudrais un café filtre et un gâteau au chocolat, s'il vous plaît.",
+              "ok": true
+            },
+            {
+              "ka": "ერთი ჩაი ლიმონით და ერთი მუჭა ნუშები, გმადლობთ.",
+              "fr": "Un thé au citron et une poignée de noix, merci.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მუშა",
+          "ka": "კარგი, ერთი ფინჯანი ფილტრი და ნამცხვარი — სულ 8 ლარი. მოიცდის თუ მოიკითხავთ გადახდას?",
+          "fr": "Très bien, un café filtre et un gâteau — au total 8 laris. Vous payez maintenant ou après ?"
+        },
+        {
+          "speaker": "მფლობელი (დილა)",
+          "ka": "გმადლობთ, ახლავე გადავიხდი.",
+          "fr": "Merci, je paie tout de suite."
+        }
+      ],
+      "cefr": "B1",
+      "version": 1
+    },
+    {
+      "id": "dialogues-b1-gen-002",
+      "title": "მუზეუმის მისაღწევი გზა",
+      "scene": "ქუჩაში ადამიანი ითხოვს გზას ეროვნულ მუსეუმამდე და სჭირდება დამატებითი ინფორმაცია სიარულის დროის შესახებ.",
+      "turns": [
+        {
+          "speaker": "მოთხოვნა",
+          "ka": "უკაცრავად, როგორ მივიდე ეროვნულ მუზეუმში?",
+          "fr": "Excusez-moi, comment aller au musée national ?"
+        },
+        {
+          "speaker": "ადგილობრივი",
+          "ka": "აი, პირდაპირ უნდა განაგრძოთ ორი ბლოკი, შემდეგ პირველ ქუჩაზე მარჯვნივ მოხვიდეთ. მუზეუმი კუთხეში, დიდი თეთრი შენობაა.",
+          "fr": "Continuez tout droit deux pâtés de maisons, puis tournez à droite à la première rue. Le musée est le grand bâtiment blanc au coin."
+        },
+        {
+          "speaker": "მოთხოვნა (კვლავ)",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "ძალიან მადლობა, რამდენი წუთი სავალზეა ფეხით?",
+              "fr": "Merci beaucoup, combien de minutes à pied cela prend-il généralement ?",
+              "ok": true
+            },
+            {
+              "ka": "მადლობა, შეგიძლიათ მითხრათ მუზეუმის ფასები და დივიდენდები?",
+              "fr": "Merci, pouvez-vous me dire les tarifs et les réductions ?",
+              "ok": false
+            },
+            {
+              "ka": "და რომლითა ტრანსპორტით არის პირდაპირი გზა? მე წასვლა მსურს ავტობუსით.",
+              "fr": "Et quel moyen de transport est direct ? Je préférerais y aller en bus.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ადგილობრივი",
+          "ka": "დაახლოებით ათი—თხუთმეტი წუთი ფეხით. კარგი მოგზაურობა გისურვებთ.",
+          "fr": "Environ 10–15 minutes à pied. Bon trajet !"
+        }
+      ],
+      "cefr": "B1",
+      "version": 2
+    },
+    {
+      "id": "dialogues-b1-gen-003",
+      "title": "აფთიაქი — სიმპტომების აღწერა",
+      "scene": "აფთიაქში მომხმარებელი აფთიაქარს აცნობს თავის სიმპტომებს და ეძახის რჩევას მარტივი წამლების შესახებ.",
+      "turns": [
+        {
+          "speaker": "აფთიაქარი",
+          "ka": "რა გაწუხებთ? სიმპტომები როგორია?",
+          "fr": "Qu'est-ce qui vous gêne ? Quels sont vos symptômes ?"
+        },
+        {
+          "speaker": "პაციენტი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "ყელი მტკივა და ოდნავ სიცხე მაქვს, ეს ორი დღეა მაწუხებს.",
+              "fr": "J'ai mal à la gorge et j'ai un peu de fièvre depuis deux jours.",
+              "ok": true
+            },
+            {
+              "ka": "გავივლი მხოლოდ მსუბუქი თავის ტკივილი, ორი კვირაა.",
+              "fr": "J'ai seulement un léger mal de tête depuis deux semaines.",
+              "ok": false
+            },
+            {
+              "ka": "გული კარგად არ მუშაობს, ძლივს ვსუნძლობ ჰაერს.",
+              "fr": "Je ressens une grosse douleur abdominale et des nausées.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "აფთიაქარი",
+          "ka": "თუ ყელი მტკივა და სიცხე გვაქვს, გირჩევთ ვირუსის საწინააღმდეგო საშუალება, და უამრავი სითხე. თუ ძლიერდება, ექიმს მიმართეთ.",
+          "fr": "Si vous avez mal à la gorge et de la fièvre, je vous conseille un médicament symptomatique et beaucoup de liquides. Si ça s'aggrave, consultez un médecin."
+        }
+      ],
+      "cefr": "B1",
+      "version": 3
+    },
+    {
+      "id": "dialogues-b1-gen-004",
+      "title": "ბინის დათვალიერება — გადასვლის თარიღი",
+      "scene": "ბინის მეპატრონე აღწერს ბინას და ეკითხება, როდის შეძლებთ გადასვლას.",
+      "turns": [
+        {
+          "speaker": "მეპატრონე",
+          "ka": "ბინის ქირა 600 ლარია, დაკვირვებისთვის საჭირო დეპოზიტი — ორი თვის ფასი. როდის შეძლებთ გადასვლას?",
+          "fr": "Le loyer est 600 laris, caution équivalente à deux mois. Quand pourriez-vous emménager ?"
+        },
+        {
+          "speaker": "დათვალიერებადი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "შევძლებ გადავიდე ამ თვეში, 15 რიცხვიდან.",
+              "fr": "Je pourrais emménager le 15 de ce mois.",
+              "ok": true
+            },
+            {
+              "ka": "მე მირჩევნია დროებით ერთი კვირა დაველოდო — შემდეგ გადავალ.",
+              "fr": "Je préférerais attendre une semaine avant d'emménager.",
+              "ok": false
+            },
+            {
+              "ka": "მაშინვე მინდა გადმოვიდე დღესვე, თუ შესაძლოა.",
+              "fr": "Je voudrais emménager immédiatement, dès aujourd'hui si possible.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მეპატრონე",
+          "ka": "15 რიცხვი გამოდგება. დავწეროთ ხელშეკრულება და დეპოზიტს მომცემთ გადასვლისას.",
+          "fr": "Le 15 convient. Nous rédigerons le contrat et vous donnerez la caution à l'arrivée."
+        }
+      ],
+      "cefr": "B1",
+      "version": 4
+    },
+    {
+      "id": "dialogues-b1-gen-005",
+      "title": "სარკინიგზავრო ოფისი — ბილეთის შეცვლა",
+      "scene": "სამგზავრო ოფისში ადამიანი ცდილობს შეცვალოს მატარებლის ბილეთის დრო და ინტერესდება გადასახადებით.",
+      "turns": [
+        {
+          "speaker": "ოპერატორი",
+          "ka": "გამარჯობა, რა დაზოგოთ ამ ბილეთთან დაკავშირებით?",
+          "fr": "Bonjour, en quoi puis-je vous aider concernant votre billet ?"
+        },
+        {
+          "speaker": "მგზავრი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "მე მაქვს ბილეთი ხვალ 10:00-ზე. შესაძლებელია მისი გაცვლა უფრო ადრე, მაგალითად 8:00-ის რეისზე?",
+              "fr": "J'ai un billet pour demain à 10h. Serait-il possible de le changer pour un train plus tôt, par exemple celui de 8h ?",
+              "ok": true
+            },
+            {
+              "ka": "სურთ დამიბრუნოთ თანხა და ვიყიდო ახალი ბილეთი?",
+              "fr": "Souhaitez-vous que je rembourse le billet et que j'achète un nouveau ?",
+              "ok": false
+            },
+            {
+              "ka": "მითხარით, რომელი პლატფორმიდან იწყება ჩემი მატარებელი?",
+              "fr": "Pouvez-vous me dire de quel quai part mon train ?",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ოპერატორი",
+          "ka": "შეგვიძლია შევამოწმოთ ხელმისაწვდომობა და შესაძლებელია იყოს დამატებითი საფასური. გსურთ დავიწყოთ შეცვლის პროცესი?",
+          "fr": "Nous pouvons vérifier la disponibilité et il peut y avoir des frais. Voulez-vous que je lance la procédure de modification ?"
+        },
+        {
+          "speaker": "მგზავრი",
+          "ka": "კი, გთხოვთ გამოკვლიეთ და დამირეკეთ შესაძლო გადასახადებთან ერთად.",
+          "fr": "Oui, s'il vous plaît, vérifiez et appelez-moi avec les frais éventuels."
+        }
+      ],
+      "cefr": "B1",
+      "version": 5
+    },
+    {
+      "id": "dialogues-b1-gen-006",
+      "title": "ინტერვიუ — ძლიერ და სუსტი მხარეები",
+      "scene": "გაკვეთილი ინტერვიუ: კანდიდატი ხსნის თავის ძლიერ და სუსტ მხარეებს, დამქირავებელი ითხოვს კონკრეტულ მაგალითებს.",
+      "turns": [
+        {
+          "speaker": "ინტერვიუერი",
+          "ka": "მითხარე, რა არის შენი ძლიერი მხარე და როგორ იყენებ მას სამუშაოში?",
+          "fr": "Parlez-moi de vos points forts et comment vous les utilisez au travail."
+        },
+        {
+          "speaker": "კანდიდატი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "ჩემი ძლიერი მხარეა კარგი კომუნიკაცია და გუნდში მუშაობა; ადრე პროექტში შორის კონფლიქტი მოვაგვარე, დაველაპარაკე ორივე მხარეს და ვიპოვეთ გამოსავალი.",
+              "fr": "Mon point fort est la communication et le travail en équipe ; dans un projet précédent j'ai résolu un conflit en discutant avec les deux parties et en trouvant une solution.",
+              "ok": true
+            },
+            {
+              "ka": "მე ძალიან სწრაფად ვსწავლობ და ზოგჯერ ვჭვიანობს მეტი დრო, მაგრამ მირჩევნია მარტო ვიმუშაო.",
+              "fr": "J'apprends très vite mais parfois j'hésite ; je préfère travailler seul.",
+              "ok": false
+            },
+            {
+              "ka": "არ ვიცი რა ვთქვა — მიჭირს თავის წარმოჩენა.",
+              "fr": "Je ne sais pas quoi dire — j'ai du mal à me mettre en valeur.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ინტერვიუერი",
+          "ka": "ეს კარგი მაგალითია. შეგიძლია მოგვიყვე, როგორ მოაგვარე კონფლიქტი დეტალურად?",
+          "fr": "C'est un bon exemple. Pouvez-vous détailler comment vous avez résolu le conflit ?"
+        }
+      ],
+      "cefr": "B1",
+      "version": 6
+    },
+    {
+      "id": "dialogues-b1-gen-007",
+      "title": "რეგულარული ხმაურის წუწუნი მეზობლებთან",
+      "scene": "ანაზღაურება ურთიერთობას არწევს ბინის მეწილესა და მეპატრონეს შორის ხმაურის გაცემის გამო წუხილზე.",
+      "turns": [
+        {
+          "speaker": "სახლში მდებარე",
+          "ka": "ბოდიში, ბოლო ორი კვირაა ღამით ძლიერი ხმაურია მეზობლების მხრიდან. ყველას ძილზე მოქმედებს.",
+          "fr": "Désolé, cela fait deux semaines qu'il y a beaucoup de bruit la nuit venant des voisins. Cela perturbe tout le monde."
+        },
+        {
+          "speaker": "მეპატრონე",
+          "ka": "გესმით, პრობლემა რამდენად ხშირად ხდება და რა დროს ძირითადად?",
+          "fr": "Je vois. À quelle fréquence cela arrive-t-il et à quelles heures principalement ?"
+        },
+        {
+          "speaker": "სახლში მდებარე",
+          "ka": "ძირითადად ღამის 11–2 საათამდე ხმაური და მუსიკა. შეგიძლიათ მითხრათ, რა არის მომდევნო ნაბიჯი?",
+          "fr": "Principalement de 23h à 2h du matin, musique et bruit. Pouvez-vous me dire quelle est la prochaine étape ?"
+        },
+        {
+          "speaker": "სახლში მდებარე",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "გთხოვთ, შეუთანხმდეთ მეზობლებს და ითხოვოთ ხმაურის შემცირება ღამით.",
+              "fr": "Pourriez-vous parler aux voisins et leur demander de réduire le bruit la nuit ?",
+              "ok": true
+            },
+            {
+              "ka": "მე თვითონ მივმართავ პოლიციას და პირდაპირ დავაჯარიმებ მეზობლებს.",
+              "fr": "Je contacterai immédiatement la police pour que les voisins soient sanctionnés.",
+              "ok": false
+            },
+            {
+              "ka": "თუ ხმა არ შეწყდება, გადავდივარ საცხოვრებლად ქუჩაში.",
+              "fr": "Si le bruit continue, je déménage de chez moi.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მეპატრონე",
+          "ka": "მხოლოდ კარგი — მე შევეცდები დაველაპარაკო მეზობლებს და გაგაფრთხილებთ შედეგების შესახებ.",
+          "fr": "Très bien — je vais parler aux voisins et je vous informerai des suites."
+        }
+      ],
+      "cefr": "B1",
+      "version": 7
+    },
+    {
+      "id": "dialogues-b1-gen-008",
+      "title": "ექიმის რჩევა — ვარჯიში და დიეტა",
+      "scene": "ექიმი აძლევს რჩევებს ცხოვრების წესის შესახებ ფიზიკური აქტივობისა და დიეტის გაუმჯობესების თაობაზე, პაციენტი იკითხავს დამოუკიდებელ დეტალებს.",
+      "turns": [
+        {
+          "speaker": "ექიმი",
+          "ka": "ქალის მდგომარეობის შესამოწმებლად, გირჩევთ ფიზიკური აქტივობა — მინიმუმ 30 წუთი, სამჯერ კვირაში, და მეტი ბოსტნეული რაციონში.",
+          "fr": "Pour améliorer votre état, je recommande au moins 30 minutes d'exercice, trois fois par semaine, et plus de légumes dans votre alimentation."
+        },
+        {
+          "speaker": "პაციენტი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "რამდენჯერ კვირაში უნდა ვარჯიშო, თუ სამჯერ კვირაზე მეტი დავიწყე?",
+              "fr": "Combien de fois par semaine devrais-je m'entraîner si je veux dépasser trois sessions hebdomadaires ?",
+              "ok": false
+            },
+            {
+              "ka": "სამჯერ სულ ნიშნავდა — კერძოდ, რამდენჯერ კვირაში უნდა ვარჯიშო?",
+              "fr": "Vous avez dit trois fois — concrètement, combien de fois par semaine dois-je m'entraîner ?",
+              "ok": true
+            },
+            {
+              "ka": "მითხარით, დიეტა შეიცვალოს მთლიანად თუ მხოლოდ ხორცის შემცირება საკმარისია?",
+              "fr": "Faut-il changer entièrement de régime ou suffit-il de réduire la viande ?",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ექიმი",
+          "ka": "სამჯერ კვირაში 30 წუთი არის კარგი დასაწყისი; შემდეგ შეგიძლიათ თანდათან გააერთიანოთ ხანგრძლივობა და ინტენსივობა.",
+          "fr": "Trois fois par semaine pendant 30 minutes est un bon départ ; vous pouvez ensuite augmenter progressivement la durée et l'intensité."
+        }
+      ],
+      "cefr": "B1",
+      "version": 8
+    },
+    {
+      "id": "dialogues-b1-gen-009",
+      "title": "ბანკი — ანგარიშის გახსნა",
+      "scene": "ბანკირმა თანამშრომელმა აგიხსნა ანგარიშის გახსნის პროცედურა, კლიენტი სვამს კითხვებს საჭირო დოკუმენტებზე და მაცნობს საცხოვრებლის მტკიცებულების შესახებ.",
+      "turns": [
+        {
+          "speaker": "ბანკირი",
+          "ka": "ანგარიშის გახსნისთვის დაგჭირდებათ პირადობის მოწმობა და საცხოვრებლის გამამტკიცებელი დოკუმენტი, მაგალითად კომუნალური ქვითარი ან საცხოვრებლის რეგისტრაციის ფურცელი.",
+          "fr": "Pour ouvrir un compte, vous aurez besoin d'une pièce d'identité et d'une preuve de domicile, par exemple une facture d'énergie ou un justificatif de résidence."
+        },
+        {
+          "speaker": "კლიენტი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "და საზღვარგარეთიდან მოტანილი პასპორტი საკმარისია პირადობის დასადასტურებლად?",
+              "fr": "Un passeport étranger suffit-il comme pièce d'identité ?",
+              "ok": false
+            },
+            {
+              "ka": "აჭირს თუ არ — საცხოვრებლის მტკიცებულება აუცილებელია თუ რეგისტრაციის ქვითარი გამოკვეთილი არ მაქვს?",
+              "fr": "La preuve de domicile est-elle obligatoire si je n'ai pas de facture au nom ?",
+              "ok": true
+            },
+            {
+              "ka": "შეგიძლიათ მაშინვე გავხსნა ანგარიში მხოლოდ ტელეფონით?",
+              "fr": "Puis-je ouvrir un compte immédiatement, uniquement avec le téléphone ?",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ბანკირი",
+          "ka": "პასპორტი შესაფერისია პირადობისთვის, მაგრამ საცხოვრებლის მტკიცებულება აუცილებელია რეგულაციების გამო. თუ ფურცელი სხვა სახელზეა, გავარკვევთ დამატებით ვარიანტებს.",
+          "fr": "Le passeport convient comme pièce d'identité, mais la preuve de domicile est requise. Si le document est au nom d'une autre personne, nous examinerons d'autres options."
+        }
+      ],
+      "cefr": "B1",
+      "version": 9
+    },
+    {
+      "id": "dialogues-b1-gen-010",
+      "title": "წიგნის კლუბი — აზრის გაზიარება",
+      "scene": "წიგნის კლუბში ორმა ოცნებამ ჩათვალა ახალი რომანის დანახვა; ერთ-ერთი წევრი შეკითხვით მიმართავს მეორე წევრს თქვენი აზრის შესახებ.",
+      "turns": [
+        {
+          "speaker": "წიგნის კლუბის წევრი",
+          "ka": "როგორ მოგეჩვენა ბოლო რომანი? თქვენ ხშირად იყენებდით ლიტერატურულ კლასიკებს ესწორებოდნენ?",
+          "fr": "Que pensez-vous du dernier roman ? Trouvez-vous qu'il utilise souvent des références aux classiques ?"
+        },
+        {
+          "speaker": "მომხსენებელი",
+          "ka": "(არჩეულია)",
+          "fr": "(à choisir)",
+          "choices": [
+            {
+              "ka": "საერთოდ არ მომეწონა — სტილი რთული და ფინალი კი არასასურველი იყო.",
+              "fr": "Je n'ai pas du tout aimé — le style est lourd et la fin décevante.",
+              "ok": false
+            },
+            {
+              "ka": "მე წიგნი მომეწონა: სტილი არის მიმზიდველი და ხასიათები კარგად ჩამოყალიბებულია, თუმცა ფინალი ცოტათი აჩქარებულია და უფრო ღრმა ახსნას საჭიროებდა.",
+              "fr": "J'ai aimé le livre : le style est séduisant et les personnages bien construits, mais la fin est un peu précipitée et mériterait une explication plus profonde.",
+              "ok": true
+            },
+            {
+              "ka": "ამ წიგნის პირდაპირი მიზეზით მსიამოვნებს მხოლოდ რამდენიმე ბმული ისტორიული ინფორმაცია, უმეტეს ნაწილს კი ვერ გავიგე.",
+              "fr": "Je n'ai apprécié que quelques passages historiques ; pour le reste, je n'ai pas bien saisi.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "წიგნის კლუბის წევრი",
+          "ka": "მადლობა — კარგი, რომ ნიუანსები შენიშნე. შემდეგ შეხვედრაზე უფრო ვრცლად განვიხილავთ.",
+          "fr": "Merci — c'est bien que vous ayez remarqué ces nuances. Nous en discuterons plus longuement à la prochaine réunion."
+        }
+      ],
+      "cefr": "B1",
+      "version": 10
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "vocabulary-c1-gen-001",
+      "ka": "გამჭვირვალობა",
+      "fr": "transparence",
+      "translit": "gamchvirvaloba",
+      "pron": "gam-tchvir-va-lo-ba",
+      "example": "გამჭვირვალობა ნდობას აძლიერებს.",
+      "example_fr": "La transparence renforce la confiance.",
+      "cefr": "C1",
+      "version": 1
+    },
+    {
+      "id": "vocabulary-c1-gen-002",
+      "ka": "ინტენსიფიკაცია",
+      "fr": "intensification",
+      "translit": "intensifikatsia",
+      "pron": "in-tên-seu-fi-ka-tsia",
+      "example": "საშემსწავლო პროგრამაში ინტენსიფიკაცია დაეხმარა სტუდენტებს პრაქტიკული უნარების გამყარებაში.",
+      "example_fr": "L'intensification du programme d'études a aidé les étudiants à renforcer leurs compétences pratiques.",
+      "cefr": "C1",
+      "version": 2
+    },
+    {
+      "id": "vocabulary-c1-gen-003",
+      "ka": "კონოტაცია",
+      "fr": "connotation",
+      "translit": "konotatsia",
+      "pron": "ko-no-ta-tsia",
+      "example": "სტილისტურმა გადაწყვეტამ ტექსტს სხვა კონოტაცია შესძინა, რაც აუდიტორიაზე ძლიერ გავლენას ახდენს.",
+      "example_fr": "Le choix stylistique a conféré une autre connotation au texte, ce qui influence fortement le public.",
+      "cefr": "C1",
+      "version": 3
+    },
+    {
+      "id": "vocabulary-c1-gen-004",
+      "ka": "რეფლექსიური",
+      "fr": "réflexif (qui implique réflexion ou retour sur soi)",
+      "translit": "refleqsuri",
+      "pron": "ref-lek-si-ouri",
+      "example": "რეფლექსიური ექსპოზიცია მოუწოდებდა დამთვალიერებელს საკუთარი გამოცდილების გადაფასებისთვის.",
+      "example_fr": "L'exposition réflexive invitait le spectateur à reconsidérer sa propre expérience.",
+      "cefr": "C1",
+      "version": 4
+    },
+    {
+      "id": "vocabulary-c1-gen-005",
+      "ka": "ეპისტემოლოგია",
+      "fr": "épistémologie",
+      "translit": "epistemologia",
+      "pron": "é-pis-te-mo-lo-gi-a",
+      "example": "სემინარის თემამ ეპისტემოლოგია და კვლევის მეთოდოლოგია შეაერთა, რაც განსაზღვრა დისკურსის ხარისხი.",
+      "example_fr": "Le thème du séminaire a relié épistémologie et méthodologie de recherche, ce qui a déterminé la qualité du discours.",
+      "cefr": "C1",
+      "version": 5
+    },
+    {
+      "id": "vocabulary-c1-gen-006",
+      "ka": "კორექტირება",
+      "fr": "correction, révision",
+      "translit": "korektireba",
+      "pron": "ko-rèk-ti-ré-ba",
+      "example": "ტექსტის კორექტირება საბოლოო ეტაპია.",
+      "example_fr": "La révision du texte est l’étape finale.",
+      "cefr": "C1",
+      "version": 6
+    },
+    {
+      "id": "vocabulary-c1-gen-007",
+      "ka": "არეგულირებული",
+      "fr": "régulé, encadré (par des règles)",
+      "translit": "aregulirebuli",
+      "pron": "a-re-gu-li-re-bou-li",
+      "example": "საზოგადოებრივი სივრცე უფრო ეფექტურად მოქმედებს თუ არეგულირებული სტანდარტები არსებობს.",
+      "example_fr": "L'espace public fonctionne plus efficacement s'il existe des normes régulées.",
+      "cefr": "C1",
+      "version": 7
+    },
+    {
+      "id": "vocabulary-c1-gen-008",
+      "ka": "მრავალმნიშვნელოვანი",
+      "fr": "ambigu, à plusieurs sens",
+      "translit": "mravalmnishvnelovani",
+      "pron": "mra-val-mnish-vné-lo-va-ni",
+      "example": "ეს გამოთქმა მრავალმნიშვნელოვანია.",
+      "example_fr": "Cette expression a plusieurs sens.",
+      "cefr": "C1",
+      "version": 8
+    },
+    {
+      "id": "vocabulary-c1-gen-009",
+      "ka": "კომპეტენცია",
+      "fr": "compétence (savoir-faire)",
+      "translit": "kompetentsia",
+      "pron": "kom-pe-ten-tsi-a",
+      "example": "ორგანიზაციამ განსაზღვრა ძირითადი კომპეტენციები პოზიციის წარმატებისთვის.",
+      "example_fr": "L'organisation a défini les compétences clés pour la réussite du poste.",
+      "cefr": "C1",
+      "version": 9
+    },
+    {
+      "id": "vocabulary-c1-gen-010",
+      "ka": "პროგნოზირება",
+      "fr": "prévision, projection",
+      "translit": "prognozireba",
+      "pron": "pro-gno-zi-ré-ba",
+      "example": "მონაცემები შედეგების პროგნოზირებას ეხმარება.",
+      "example_fr": "Les données aident à prévoir les résultats.",
+      "cefr": "C1",
+      "version": 10
+    }
+  ]
+}

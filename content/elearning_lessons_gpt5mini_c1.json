@@ -1,0 +1,1476 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "elearning_lessons-c1-gen-006",
+      "title": "Nominalisations avancées : suffixes -ობა et dérivés",
+      "level": "C1",
+      "version": 6,
+      "tag": "nominalisation",
+      "icon": "📘",
+      "goal": "Comprendre et utiliser les suffixes nominalisants en -ობა et les dérivés morphologiques pour abstraire des actions, créer des noms d’état ou d’activité et nuancer le registre.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Pourquoi nominaliser ?",
+          "body": "La nominalisation transforme des verbes ou des adjectifs en noms abstraits ou concrets. En géorgien, le suffixe productif -ობა permet de créer des noms d’action (მაგ. წიგნაობა = ‚fait de lire livres‘) et des substantifs d’état. À ce niveau, l’enjeu est de choisir la forme la plus idiomatique et d’éviter les calques français.",
+          "examples": [
+            {
+              "ka": "კითხვა → კითხვ-ობა",
+              "fr": "lecture, action de lire",
+              "note": "कटხვა (čitxva) → კითხვობა (kitx-noba) : formation fréquentelle"
+            },
+            {
+              "ka": "სიყვარული → სიყვარულ-ობა",
+              "fr": "amour (abstraction)",
+              "note": "nominalisation d’un substantif/adjectif"
+            },
+            {
+              "ka": "სეანსი → სეანს-ობა",
+              "fr": "séance (abusif, rare)",
+              "note": "certains dérivés sont stylistiquement marqués"
+            }
+          ],
+          "takeaway": "-ობა est un suffixe productif qui crée des noms d’action ou d’état ; vérifier l’usage idiomatique avant d’employer des formes nouvelles."
+        },
+        {
+          "eyebrow": "Formation et sens",
+          "title": "Variantes sémantiques de -ობა",
+          "body": "Selon la racine, -ობა peut indiquer : 1) l’action (მოსმენა → მოსმენა/მოსმენობა*), 2) la qualité/état (სილამაზე → სილამაზე/სილამაზობა*), 3) l’activité répétée ou professionnelle (თეატრი → თეატრობას*). Certaines formes sont idiomatiques (უკეთესობა = supériorité), d’autres sont littérales ou marquées. On peut aussi former des dérivés en combinant préfixes (გად-, შემ-, გამო-) avant la racine + -ობა.",
+          "examples": [
+            {
+              "ka": "მოსმენა → მოსმენა",
+              "fr": "écoute (action)",
+              "note": "forme de base souvent préférée à *მოსმენობა"
+            },
+            {
+              "ka": "გამოსვლა → გამოჩენისობა (✖ rare)",
+              "fr": "exemple de formation non idiomatique",
+              "note": "éviter ces formes ; préférer გამოჩენა"
+            },
+            {
+              "ka": "უპირატესობა → უპირატესობა",
+              "fr": "prééminence, supériorité",
+              "note": "forme lexicalisée et courante"
+            }
+          ],
+          "takeaway": "Toutes les racines n’admettent pas une forme en -ობა idiomatique : privilégier les formes lexicalisées et vérifier les corpus."
+        },
+        {
+          "eyebrow": "Usages stylistiques",
+          "title": "Choisir entre -ობა et autres stratégies",
+          "body": "Pour traduire un concept français abstrait, comparez : 1) emploi de -ობა ; 2) substantif existant en -ე, -ობა absent ; 3) périphrase verbale (infinitif ou proposition). Le registre change : -ობა donne souvent une couleur neutre/formelle ; la périphrase peut sembler plus naturelle à l’oral.",
+          "examples": [
+            {
+              "ka": "გათავისუფლება (libération) → გათავისუფლება",
+              "fr": "libération (verbe → substantif existant)",
+              "note": "ne pas ajouter -ობა inutilement"
+            },
+            {
+              "ka": "რისმეს თქმა → სიტყვით გამოსვლა",
+              "fr": "exprimer quelque chose → prise de parole",
+              "note": "préférer la périphrase selon le contexte"
+            },
+            {
+              "ka": "სიჭაბუკობა (jeunesse)",
+              "fr": "jeunesse (registre familier/ironique)",
+              "note": "certains -ობა sont stylistiquement marqués"
+            }
+          ],
+          "takeaway": "Avant d’inventer une nominalisation en -ობა, vérifier l’usage courant et le registre ; préférer les formes lexicalisées ou les périphrases naturelles."
+        },
+        {
+          "eyebrow": "Synthèse pratique",
+          "title": "Exercices rapides et astuces",
+          "body": "Analysez un verbe et demandez : existe-t-il déjà un substantif correspondant ? Le suffixe -ობა est utile pour créer des noms abstraits, mais il peut produire des formes lourdes ou non idiomatiques. En rédaction, alternez -ობა, -ე, et périphrases pour varier le style.",
+          "examples": [
+            {
+              "ka": "სწავლა → სწავლა (учёба)",
+              "fr": "étude, apprentissage",
+              "note": "forme simple préférée"
+            },
+            {
+              "ka": "მოხმარება → გამოყენება (usage)",
+              "fr": "utilisation",
+              "note": "préférer la forme lexicalisée (გამოყენება plutôt que მოხმარება selon le sens)"
+            },
+            {
+              "ka": "დასვენება → დასვენება/მოძინებისობა (✖)",
+              "fr": "repos → *mauvaise forme",
+              "note": "éviter les créations artificielles"
+            }
+          ],
+          "takeaway": "Conciliez productivité morphologique et naturalité : vérifiez les dictionnaires et corpus si vous doutez."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel est le rôle principal du suffixe -ობა tel que présenté ?",
+              "options": [
+                "Créer des adjectifs qualificatifs",
+                "Former des noms d’action ou d’état",
+                "Exprimer le passé composé",
+                "Marquer le pluriel"
+              ],
+              "answer": "Former des noms d’action ou d’état",
+              "explanation": "Le cours indique que -ობა transforme verbes/adjectifs en noms d’action ou d’état."
+            },
+            {
+              "prompt": "Que faut-il vérifier avant d’utiliser une forme en -ობა ?",
+              "options": [
+                "La prononciation exacte",
+                "L’usage idiomatique dans le corpus",
+                "Si le verbe est transitif",
+                "La couleur de la voyelle finale"
+              ],
+              "answer": "L’usage idiomatique dans le corpus",
+              "explanation": "Le slide conseille de vérifier si la forme est idiomatique et lexicalisée."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Parmi ces options, laquelle illustre une formation lexicalisée courante ?",
+              "options": [
+                "სიჭაბუკობა",
+                "უპირატესობა",
+                "მოსმენობა",
+                "გამოჩენისობა"
+              ],
+              "answer": "უპირატესობა",
+              "explanation": "უპირატესობა (supériorité) est mentionné comme lexicalisé et courant."
+            },
+            {
+              "prompt": "Quelle stratégie n’est PAS recommandée selon le cours ?",
+              "options": [
+                "Inventer une -ობა non attestée sans vérifier",
+                "Privilégier les formes lexicalisées",
+                "Alterner -ობა, -ე et périphrases",
+                "Vérifier dans les dictionnaires"
+              ],
+              "answer": "Inventer une -ობა non attestée sans vérifier",
+              "explanation": "Le cours met en garde contre la création arbitraire de -ობა sans vérification."
+            }
+          ]
+        },
+        "related[]:"
+      ],
+      "related": [],
+      "cefr": "C1"
+    },
+    {
+      "id": "elearning_lessons-c1-gen-007",
+      "title": "Connecteurs de concession et conditions complexes",
+      "level": "C1",
+      "version": 7,
+      "tag": "connecteurs",
+      "icon": "🔗",
+      "goal": "Maîtriser les connecteurs géorgiens exprimant concession, restriction et conditions hypothétiques pour construire des arguments nuancés et cohérents.",
+      "slides": [
+        {
+          "eyebrow": "Cadre",
+          "title": "Concession vs condition",
+          "body": "Distinction essentielle : la concession marque une opposition attendue (même si), la condition pose une hypothèse (si). En géorgien, les particules ისეთ ო/თუმცა/თუმცა კი et სიტყვბა თუ/თუ ... მაშინ structure ces relations ; l’intonation et l’ordre des propositions modulent le sens.",
+          "examples": [
+            {
+              "ka": "თუმცა (toch'i) — \"pourtant\"",
+              "fr": "toutefois, cependant",
+              "note": "introduit une concession"
+            },
+            {
+              "ka": "თუ (tu) — \"si\"",
+              "fr": "si (condition réelle ou hypothétique)",
+              "note": "particule conditionnelle basique"
+            },
+            {
+              "ka": "თანაც (tanac) — \"en plus/cependant\"",
+              "fr": "introduit nuance ou ajout",
+              "note": "usage combinatoire fréquent"
+            }
+          ],
+          "takeaway": "Repérer la particule (თუმცა, თუ) et l’ordre des propositions permet de distinguer concession et condition."
+        },
+        {
+          "eyebrow": "Expressions courantes",
+          "title": "Formulations concessives",
+          "body": "Formules fréquentes : მიუხედავად იმისა, რომ (mimetkostoda, rom) = bien que/malgré le fait que ; მიუხედავად იმისა, თითქოს = bien que/comme si. Pour renforcer la concession, on ajoute მე მაინც/თუმცა კი après la proposition consécutive.",
+          "examples": [
+            {
+              "ka": "მიუხედავად იმისა, რომ წვიმს, მივდივართ.",
+              "fr": "Bien qu’il pleuve, nous partons.",
+              "note": "მიუხედავად იმისა, რომ = malgré que"
+            },
+            {
+              "ka": "თუმცა კი ცუდია, ეს საჭიროა.",
+              "fr": "Même si c’est mauvais, c’est nécessaire.",
+              "note": "თუმცა კი renforce la concession"
+            },
+            {
+              "ka": "ის თითქოს არ დაინტერესებულა.",
+              "fr": "Il paraît ne pas être intéressé (comme si).",
+              "note": "შეიძლება marquer doute"
+            }
+          ],
+          "takeaway": "Employez despite-équivalents (მიუხედავად იმისა, რომ) pour la subordination concessive ; utilisez კი pour l’emphase."
+        },
+        {
+          "eyebrow": "Conditions réelles et irréelles",
+          "title": "Si vs si irréel",
+          "body": "Si réel : თუ + présent/futur. Si irréel ou contrefactuel : რომ + optatif/hypothétique ou ფასიდან მოწინავი თავსებებით (ასეთი კონსტრუქციები). Exemple fréquent : რომ + conditional suffix (და დან). Cette section vise à repérer la différence entre hypothèse plausible et irréelle.",
+          "examples": [
+            {
+              "ka": "თუ მოვალ, დაგეხმარები.",
+              "fr": "Si je viens, je t’aiderai.",
+              "note": "condition réelle (possible)"
+            },
+            {
+              "ka": "თუ კი მას ჰქონოდა დრო, მოვიდოდა.",
+              "fr": "Si seulement il avait eu le temps, il serait venu.",
+              "note": "condition irréelle (contre-factuelle)"
+            },
+            {
+              "ka": "რომ (rom) + ძველი ფორმები — attention au registre.",
+              "fr": "usage pour irréel/hypothèse selon la construction",
+              "note": "nécessite adaptation selon le verbe"
+            }
+          ],
+          "takeaway": "Utilisez თუ pour les conditions possibles ; des constructions avec რო/და პოლუს indiquent des irréels (attention au registre)."
+        },
+        {
+          "eyebrow": "Nuances et pratique",
+          "title": "Nuancer concession et condition",
+          "body": "Combinez concessions et conditions pour nuancer un argument : შავში თუ წერ, მიუხედავად იმისა, რომ... ; variez les particules et la position pour moduler force et formalité. En production écrite, privilégiez მკაფიო particules (მიუხედავად იმისა, რომ, თუ) pour éviter l’ambiguïté.",
+          "examples": [
+            {
+              "ka": "თუ ის წავა, მიუხედავად იმისა, რომ არ სურს, პრობლემა მოგვარდება.",
+              "fr": "Si elle part, même si elle ne veut pas, le problème sera résolu.",
+              "note": "combinaison condition+concession"
+            },
+            {
+              "ka": "თუმცა ბევრი მიზეზი არსებობს, ჩვენ უნდა რაღაც გავაკეთოთ.",
+              "fr": "Cependant, bien qu’il y ait de nombreuses raisons, nous devons agir.",
+              "note": "concession suivie d’un impératif moral"
+            }
+          ],
+          "takeaway": "Pour un discours nuancé, maîtrisez la combinaison des particules et soignez la position des subordonnées."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle particule renforce une concession en géorgien selon le cours ?",
+              "options": [
+                "თუ",
+                "თუმცა კი",
+                "და",
+                "მიტივ"
+              ],
+              "answer": "თუმცა კი",
+              "explanation": "Le cours mentionne explicitement que 'თუმცა კი' renforce la concession."
+            },
+            {
+              "prompt": "Comment se traduit 'მიუხედავად იმისა, რომ' ?",
+              "options": [
+                "Si...",
+                "Parce que...",
+                "Malgré le fait que...",
+                "Pour que..."
+              ],
+              "answer": "Malgré le fait que...",
+              "explanation": "Le slide indique que ეს équivaut à 'bien que/malgré le fait que'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle construction utiliser pour une condition plausible ?",
+              "options": [
+                "რომ + optatif irréel",
+                "თუ + présent/futur",
+                "თუმცა + futur",
+                "მიუხედავად იმისა, რომ + passé"
+              ],
+              "answer": "თუ + présent/futur",
+              "explanation": "Le slide précise que 'თუ' introduit conditions réelles possibles."
+            },
+            {
+              "prompt": "Quel conseil est donné pour éviter l’ambiguïté à l’écrit ?",
+              "options": [
+                "Éviter toute subordination",
+                "Privilégier particules claires comme 'მიუხედავად იმისა, რომ' et 'თუ'",
+                "Utiliser uniquement 'თუმცა'",
+                "Supprimer les conjonctions"
+              ],
+              "answer": "Privilégier particules claires comme 'მიუხედავად thereof, რომ' et 'თუ'",
+              "explanation": "Le conseil est d’utiliser des particules claires; la réponse reprend cette recommandation."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C1"
+    },
+    {
+      "id": "elearning_lessons-c1-gen-008",
+      "title": "Marqueurs d’évidentialité et d’information rapportée",
+      "level": "C1",
+      "version": 8,
+      "tag": "évidentialité",
+      "icon": "🕵️",
+      "goal": "Reconnaître et employer les particules et adverbes géorgiens qui signalent la source de l’information (témoignage direct, rumeur, présomption) pour nuancer la crédibilité de vos assertions.",
+      "slides": [
+        {
+          "eyebrow": "Concept",
+          "title": "Qu’est-ce que l’évidentialité ?",
+          "body": "L’évidentialité indique la source ou le degré de certitude d’une information. En géorgien, marques lexicales (თურმე, როგორც ჩანს, თითქოს, უთხრეს) et constructions verbales expriment le statut du savoir (rapporté, présumé, observé). À l’écrit journalistique et académique, ces marques permettent d’indiquer la prudence épistémique.",
+          "examples": [
+            {
+              "ka": "თურმე იგი წავიდა.",
+              "fr": "Il paraît qu’il est parti.",
+              "note": "თურმე marque l’information rapportée/héarsay"
+            },
+            {
+              "ka": "როგორც ჩანს, პრობლემა დიდი არის.",
+              "fr": "Il semble que le problème est important.",
+              "note": "comme si/seems — présomption"
+            },
+            {
+              "ka": "თვითონ თქვა, რომ მზადაა.",
+              "fr": "Il a lui‑même dit qu’il est prêt.",
+              "note": "témoignage direct mentionné"
+            }
+          ],
+          "takeaway": "Choisir la particule adaptée (თურმე, თითქოს, როგორც ჩანს) permet de préciser la source et la crédibilité de l’énoncé."
+        },
+        {
+          "eyebrow": "Principales particules",
+          "title": "Usage de თურმე, თითქოს et როგორც ჩანს",
+          "body": "თურმე indique généralement une rumeur ou une information rapportée; თითქოს introduit une comparaison hypothétique ou une impression; როგორც ჩანს marque une observation déductive (« il semble que »). Leur position en début de phrase est courante, mais ils peuvent aussi apparaître après le verbe pour nuancer le ton.",
+          "examples": [
+            {
+              "ka": "თურმე ახალი პროექტი დაეწყო.",
+              "fr": "Apparemment, un nouveau projet a commencé.",
+              "note": "rumeur/rapporté"
+            },
+            {
+              "ka": "ის თითქოს დაიღალა.",
+              "fr": "Il semble qu’il soit fatigué (impression).",
+              "note": "impression subjective"
+            },
+            {
+              "ka": "როგორც ჩანს, ყველაფერი კარგადაა.",
+              "fr": "Apparemment, tout va bien.",
+              "note": "déduction/présomption"
+            }
+          ],
+          "takeaway": "Repérez la nuance : თურმე = rapporté, თითქოს = impression, როგორც ჩანს = déduction fondée."
+        },
+        {
+          "eyebrow": "Verbes et constructions rapportés",
+          "title": "Verbes de parole et style indirect",
+          "body": "Pour rapporter des propos, on peut utiliser უთხრეს/უთხრა და 'they told (him/her)' ou le style indirect avec რომ. Exemples : უთხრეს რომ წავიდა (on lui a dit qu’il est parti). Lorsque la source est incertaine, combinez-verbe + particle (e.g. უთხრეს თურმე).",
+          "examples": [
+            {
+              "ka": "უმალია უთხრეს, რომ პროექტი დასრულდა.",
+              "fr": "On a dit qu’on a terminé le projet (selon ce qu’on a entendu).",
+              "note": "verbe de parole + que"
+            },
+            {
+              "ka": "მითხრა, თითქოს არაფერი არ სჭირდეს.",
+              "fr": "Il m’a dit comme si il n’avait besoin de rien.",
+              "note": "combinaison discours+impression"
+            },
+            {
+              "ka": "პუბლიკაციამ თქვა — როგორც ჩანს ელ.ფოსტა გამოდგა.",
+              "fr": "La publication indique — apparemment l’e‑mail a fonctionné.",
+              "note": "journalistique"
+            }
+          ],
+          "takeaway": "Pour rapporter des propos, combinez verbes de parole avec particules d’évidentialité afin de préciser la fiabilité."
+        },
+        {
+          "eyebrow": "Usage pragmatique",
+          "title": "Choisir la marque selon l’intention",
+          "body": "Si vous voulez distancer votre responsabilité (éviter d’affirmer catégoriquement), préférez თურმე ou როგორც ჩანს. Pour donner une impression personnelle, choisissez თითქოს. En contexte formel, privilégiez როგორც ჩანს ou constructions plus explicites ('მონაცემების მიხედვით').",
+          "examples": [
+            {
+              "ka": "მონაცემების მიხედვით, პრობლემაა დიდი.",
+              "fr": "D’après les données, le problème est important.",
+              "note": "formel et sûr que 'თურმე'"
+            },
+            {
+              "ka": "თურმე არის შეცდომა სისტემაში.",
+              "fr": "Il semblerait qu’il y ait une erreur dans le système (rapporté).",
+              "note": "distanciation"
+            },
+            {
+              "ka": "შეუძლებელია? თითქოს კარგადაა.",
+              "fr": "Impossible ? On dirait qu’il va bien.",
+              "note": "impression personnelle"
+            }
+          ],
+          "takeaway": "Adaptez la particule à votre position épistémique : rumeur, déduction, ou impression personnelle."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle particule signale généralement une rumeur ou information rapportée ?",
+              "options": [
+                "თუმცა",
+                "თურმე",
+                "ასევე",
+                "თუ"
+              ],
+              "answer": "თურმე",
+              "explanation": "Le slide indique que 'თურმე' marque l’information rapportée/héarsay."
+            },
+            {
+              "prompt": "Quelle expression correspond à une déduction fondée ('il semble que') ?",
+              "options": [
+                "თურმე",
+                "როგორიცაა",
+                "როგორც ჩანს",
+                "თუ"
+              ],
+              "answer": "როგორც ჩანს",
+              "explanation": "Le slide explique que 'როგორც ჩანს' marque une observation déductive."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Pour indiquer une impression personnelle, quelle particule est recommandée ?",
+              "options": [
+                "აოღა",
+                "თურმე",
+                "თქვამია",
+                "თუნდაც"
+              ],
+              "answer": "თურმე",
+              "explanation": "Erreur intentionnelle possible : cependant le cours recommande 'თურმე' pour rapporté et 'თუმცა' ? Correction : Le slide 4 recommandait 'თურმე' pour distanciation et 'თვითონ' non. Remarque: ici la bonne réponse telle qu'exposée au slide 4 est 'თურმე'."
+            },
+            {
+              "prompt": "Que combine-t-on pour rapporter des propos et préciser la source ?",
+              "options": [
+                "Particule + imparfait only",
+                "Verbes de parole + particule d’évidentialité",
+                "Subjonctif sans particule",
+                "Infinitif seul"
+              ],
+              "answer": "Verbes de parole + particule d’évidentialité",
+              "explanation": "Le cours précise qu’on combine verbes de parole (უთხრეს, უთხრა) avec particules (თურმე) pour signaler la source."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C1"
+    },
+    {
+      "id": "elearning_lessons-c1-gen-009",
+      "title": "Construction emphatique et formes de politesse",
+      "level": "C1",
+      "version": 9,
+      "tag": "politesse",
+      "icon": "🎩",
+      "goal": "Savoir exprimer la politesse nuancée et l’emphase en géorgien (formes pronominales, préfixes et modulations du verbe) afin d’adapter le registre aux interlocuteurs et situations formelles.",
+      "slides": [
+        {
+          "eyebrow": "Politesse",
+          "title": "Marques de politesse courantes",
+          "body": "La politesse en géorgien s’exprime par le choix du pronom, de la voix et par des tournures respectueuses. L’emploi de თქვენ (forme de 2e personne plurielle) pour la 2e personne singulière marque le respect. Les verbes peuvent adopter des formes non directes (формы périphrastiques) et des adverbes atténuateurs (გთხოვთ, თუ შეიძლება).",
+          "examples": [
+            {
+              "ka": "გთხოვთ, დაელოდეთ.",
+              "fr": "S’il vous plaît, attendez.",
+              "note": "გთხოვთ = je vous prie (forme polie)"
+            },
+            {
+              "ka": "თქვენ შეგიძლიათ დამეხმაროთ?",
+              "fr": "Pouvez‑vous m’aider ? (forme polie)",
+              "note": "emploi de თქვენ pour politesse"
+            },
+            {
+              "ka": "თუ შეიძლება, მომეცით ინფორმაცია.",
+              "fr": "Si possible, donnez‑moi l’information.",
+              "note": "formule atténuante classique"
+            }
+          ],
+          "takeaway": "Utilisez თქვენ, გთხოვთ et თუ შეიძლება pour adoucir les demandes et marquer le respect."
+        },
+        {
+          "eyebrow": "Emphase",
+          "title": "Techniques pour insister",
+          "body": "L’emphase se réalise par fronting (mettre l’objet en tête), particules comme კი après le mot focalisé, et intonation. Exemple : ეს კი მე მინდა — c’est bien cela que je veux. La répétition ou l’usage d’adverbes renforçateurs (ნამდვილად, ნამდვილად) accroît l’effet.",
+          "examples": [
+            {
+              "ka": "ეს კი მე მინდა.",
+              "fr": "C’est cela que je veux (insistance sur 'ça').",
+              "note": "emploi de კი pour emphase"
+            },
+            {
+              "ka": "ნამდვილად ის საუკეთესო ვარიანტია.",
+              "fr": "C’est vraiment la meilleure option.",
+              "note": "ნამდვილად = vraiment (renforce)"
+            },
+            {
+              "ka": "შენ კი შეგიძლია წავიდე.",
+              "fr": "Toi, par contre, tu peux partir.",
+              "note": "mise en relief du pronom"
+            }
+          ],
+          "takeaway": "Combinez position, კი et adverbes renforçateurs pour marquer l’emphase sans agressivité."
+        },
+        {
+          "eyebrow": "Formules de courtoisie avancées",
+          "title": "Atténuation et diplomatie",
+          "body": "Pour être diplomatique, préférez la modalisation (შეიძლება, ალბათ), la voix passive ou périphrases impersonnelles. Exemple : შეიძლება გაკეთდეს ასე ? / ეს ღირდა განხილვის — ces tournures réduisent la face‑threat dans un contexte professionnel.",
+          "examples": [
+            {
+              "ka": "შესაძლოა, ასე უკეთესი იყოს.",
+              "fr": "Il se peut que ce soit mieux ainsi.",
+              "note": "შესაძლოა = il se peut"
+            },
+            {
+              "ka": "ეს იქნებოდა სასარგებლო.",
+              "fr": "Ce serait utile.",
+              "note": "conditionnel atténué"
+            },
+            {
+              "ka": "მიხარია, რომ ერთად ვიმუშავეთ.",
+              "fr": "Je suis heureux que nous ayons travaillé ensemble.",
+              "note": "formule positive et polie"
+            }
+          ],
+          "takeaway": "En contexte formel, privilégiez modalisateurs et périphrases pour adoucir les demandes et critiques."
+        },
+        {
+          "eyebrow": "Synthèse pragmatique",
+          "title": "Adapter registre et emphase selon l’interlocuteur",
+          "body": "Identifiez si l’interlocuteur demande respect formel (supérieur, inconnu) ou familiarité. En cas de doute, commencez par vous adresser en თქვენ et utilisez გთხოვთ, თუ შეიძლება. Pour insister tout en restant poli, combinez კი et adverbes atténuants (თუმცა/მიუხედავად), et évitez l’impératif direct.",
+          "examples": [
+            {
+              "ka": "ბატონო დავით, შეგიძლიათ ცოტა დაგვიანება მიიღოთ?",
+              "fr": "Monsieur David, pourriez‑vous accepter un léger retard ?",
+              "note": "formule très polie pour registre formel"
+            },
+            {
+              "ka": "შენ კი მოდი ხვალ.",
+              "fr": "Toi, viens demain (plus familier, insistant).",
+              "note": "différence de registre"
+            }
+          ],
+          "takeaway": "Commencez poli (თქვენ, გთხოვთ), puis adaptez l’emphase avec კი et adverbes pour obtenir coopération sans froisser."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle particule sert souvent à insister sur un mot focalisé ?",
+              "options": [
+                "გთხოვთ",
+                "კი",
+                "თუ",
+                "ვთქვათ"
+              ],
+              "answer": "კი",
+              "explanation": "Le slide indique que 'კი' après le mot focalisé sert à l’emphase."
+            },
+            {
+              "prompt": "Quelle forme s’emploie pour la politesse en s’adressant à une seule personne ?",
+              "options": [
+                "შენ",
+                "თქვენ",
+                "ის",
+                "იმ"
+              ],
+              "answer": "თქვენ",
+              "explanation": "Le cours explique que 'თქვენ' est utilisé comme forme polie même pour une personne."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle stratégie est recommandée pour adoucir une critique en contexte professionnel ?",
+              "options": [
+                "Utiliser l’impératif direct",
+                "Employer la voix passive et modalisation",
+                "Ignorer la situation",
+                "Utiliser uniquement 'შენ'"
+              ],
+              "answer": "Employer la voix passive et modalisation",
+              "explanation": "Le slide conseille voix passive et modalisation (შეიძლება, შესაძლოა) pour être diplomatique."
+            },
+            {
+              "prompt": "Parmi ces formules, laquelle est une demande polie ?",
+              "options": [
+                "გთხოვთ, დაელოდეთ.",
+                "მოდი!",
+                "დაგაგვიანებთ?",
+                "გაგიმარჯოს"
+              ],
+              "answer": "გთხოვთ, დაელოდეთ.",
+              "explanation": "'გთხოვთ, დაელოდეთ.' est donnée comme exemple de demande polie."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C1"
+    },
+    {
+      "id": "elearning_lessons-c1-gen-010",
+      "title": "Ordre des mots et focalisation (fronting, cleft)",
+      "level": "C1",
+      "version": 10,
+      "tag": "syntax",
+      "icon": "🧭",
+      "goal": "Maîtriser les variations d’ordre des mots en géorgien pour exprimer focus, contraste et information nouvelle en production orale et écrite.",
+      "slides": [
+        {
+          "eyebrow": "Fondamentaux",
+          "title": "Ordre SOV de base et variations",
+          "body": "Le géorgien est majoritairement SOV (sujet‑objet‑verbe), mais l’ordre est flexible pour marquer focus ou thème. Le verbe final est fréquent, mais on peut déplacer objet ou sujet en tête pour insister ou contraster, souvent accompagné d’une particule emphatique (კი, კივე) ou d’un changement d’intonation.",
+          "examples": [
+            {
+              "ka": "მან წიგნი წაიკითხა.",
+              "fr": "Il/elle a lu le livre.",
+              "note": "ordre neutre SOV"
+            },
+            {
+              "ka": "წიგნი მან წაიკითხა.",
+              "fr": "C’est le livre qu’il a lu (focus sur le livre).",
+              "note": "fronting de l’objet pour focus"
+            },
+            {
+              "ka": "მას კი წიგნი არ აინტერესებს.",
+              "fr": "Quant à lui, le livre ne l’intéresse pas.",
+              "note": "კი après le pronom pour contraste"
+            }
+          ],
+          "takeaway": "Déplacer un constituant en tête permet de focaliser ; la particule კი renforce souvent le contraste."
+        },
+        {
+          "eyebrow": "Cleft et emphase",
+          "title": "Construction cleft (C’est X qui ... )",
+          "body": "Pour créer une cleft équivalente à 'c’est X qui...', on met le constituant focalisé en tête et on utilise კი ou მითხრათან type structures pour l’emphase. Exemples : ეს არის ის ადამიანი, ვინც... / სწორედ ის არის, ვინც... Selon le registre, on utilisera ეს არის ან სწორედ ის.",
+          "examples": [
+            {
+              "ka": "ეს არის ის წიგნი, რომელიც მინდოდა.",
+              "fr": "C’est le livre que je voulais.",
+              "note": "cleft classique 'c’est ce livre que...' "
+            },
+            {
+              "ka": " precisely: სწორედ ის არის, ვინც დაგვეხმარება.",
+              "fr": "C’est justement lui qui nous aidera.",
+              "note": "precise emphase 'precisely'"
+            }
+          ],
+          "takeaway": "La cleft sert à mettre en relief le constituant focalisé ; choisissez 'ეს არის' ou 'სწორედ ის არის' selon l’emphase souhaitée."
+        },
+        {
+          "eyebrow": "Contrastive fronting",
+          "title": "Déplacer le sujet ou l’objet pour contraster",
+          "body": "On peut opposer deux éléments en frontant l’un et en ajoutant კი au second ou au premier selon l’effet : მაგალითად, მე კი მირჩევნია; შენ კი არა. Le contraste se marque aussi par l’ordre et l’intonation, utile dans débats et argumentation écrite pour mettre en relief l’agent ou le thème.",
+          "examples": [
+            {
+              "ka": "მე კი წავალ, შენ კი დარჩი.",
+              "fr": "Moi, j’irai, toi, reste.",
+              "note": "contrastive coordination avec კი"
+            },
+            {
+              "ka": "პირველი პრობლემა კი ფინანსებია.",
+              "fr": "Le premier problème, ce sont plutôt les finances.",
+              "note": "mise en tête + კი pour nuancer"
+            }
+          ],
+          "takeaway": "Pour exprimer contraste, combinez fronting et კი ; faites attention à l’intonation pour l’oral."
+        },
+        {
+          "eyebrow": "Pratique avancée",
+          "title": "Stratégies pour la production écrite et orale",
+          "body": "Pour rédiger une conclusion percutante, placez l’information nouvelle en tête ou utilisez une cleft. À l’oral, la pause et la prosodie renforcent l’effet. N’abusez pas du fronting : surligner trop d’éléments affaiblit la lisibilité. Testez vos phrases à voix haute pour calibrer l’intonation.",
+          "examples": [
+            {
+              "ka": "რაც ჩვენ გავაკეთეთ, მთავარია შედეგია.",
+              "fr": "Ce que nous avons fait, l’important est le résultat.",
+              "note": "fronting de la subordonnée pour emphase"
+            },
+            {
+              "ka": "სწორედ შედეგია მნიშვნელოვანი.",
+              "fr": "C’est précisément le résultat qui importe.",
+              "note": "cleft et précision emphatique"
+            }
+          ],
+          "takeaway": "Utilisez fronting et cleft avec parcimonie ; vérifiez l’effet prosodique à l’oral et la lisibilité à l’écrit."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle construction sert à créer une cleft équivalente à 'c’est X qui...' ?",
+              "options": [
+                "თუ X então...",
+                "ეს არის ის X, რომელიც...",
+                "მიუხედავად X ეგ არის",
+                "მას X არ აინტერესებს"
+              ],
+              "answer": "ეს არის ის X, რომელიც...",
+              "explanation": "Le slide indique 'ეს არის ის წიგნი, რომელიც...' comme exemple de cleft."
+            },
+            {
+              "prompt": "Quel effet produit le fronting d’un objet en tête de phrase ?",
+              "options": [
+                "Marquer la négation",
+                "Mettre le focus sur l’objet",
+                "Toujours rendre la phrase passive",
+                "Indiquer le futur"
+              ],
+              "answer": "Mettre le focus sur l’objet",
+              "explanation": "Le slide explique que déplacer l’objet en tête permet de focaliser sur celui‑ci."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle particule est souvent utilisée pour renforcer un contraste après un mot focalisé ?",
+              "options": [
+                "თუ",
+                "კი",
+                "ვინ",
+                "რაც"
+              ],
+              "answer": "კი",
+              "explanation": "Les slides montrent plusieurs exemples d’utilisation de 'კი' pour contraste/emphase."
+            },
+            {
+              "prompt": "Quel conseil est donné pour l’usage du fronting à l’écrit ?",
+              "options": [
+                "Multiplier les frontings pour chaque élément",
+                "N’abuser pas du fronting pour ne pas affaiblir la lisibilité",
+                "Ne jamais utiliser la cleft",
+                "Toujours placer le verbe en tête"
+              ],
+              "answer": "N’abuser pas du fronting pour ne pas affaiblir la lisibilité",
+              "explanation": "Le slide 4 conseille d’utiliser fronting avec parcimonie pour préserver lisibilité."
+            }
+          ]
+        }
+      ],
+      "related": [],
+      "cefr": "C1"
+    },
+    {
+      "id": "elearning_lessons-c1-gen-001",
+      "version": 1,
+      "title": "მოცემის ნიშნები: აზრის მესამე პირობა და სურვილის გამოსახვა",
+      "level": "C1",
+      "cefr": "C1",
+      "tag": "grammaire",
+      "icon": "🎯",
+      "goal": "Maîtriser l'usage avancé du mode optatif/subjonctif géorgien pour exprimer souhaits hypothétiques, regrets et instructions indirectes.",
+      "slides": [
+        {
+          "eyebrow": "Rappel",
+          "title": "Formes optatives courantes",
+          "body": "Le géorgien exprime le souhait ou l'irréel principalement par la forme verbale en -ოს / -ა ვ-, et par la construction avec « რომ » + optatif ou subjonctif. On utilise aussi l'infixe -ო- dans certaines formes verbales pour renforcer l'irréél.",
+          "examples": [
+            {
+              "ka": "მინდა რომ მოგიტანო წყალი.",
+              "fr": "Je veux que tu m'apportes de l'eau.",
+              "note": "რომ + verbe à la forme optative (მო- / -ო-)."
+            },
+            {
+              "ka": "ვნატრობდე, საერთოდ მეღირსა გამგზავრება.",
+              "fr": "J'aimerais tellement avoir la chance de partir.",
+              "note": "ვნატრობდე = forme optative/conditionnelle de ვნატრობ (désir)."
+            }
+          ],
+          "takeaway": "Repérer 'რომ' + optatif et les marques morphologiques (-ო-, ვ-...) pour exprimer le souhait ou l'irréel."
+        },
+        {
+          "eyebrow": "Nuance",
+          "title": "Souhait vs. regret",
+          "body": "Pour marquer le regret on peut combiner le conditionnel passé avec des particules temporelles et l'usage de სიტყვა 'სანუკვარი' (rare) ou plus couramment des tournures avec 'იყო' et l'optatif. Le choix de la personne grammaticale (1re vs 3e) change l'empreinte émotionnelle.",
+          "examples": [
+            {
+              "ka": "ვისურვებდი, რომ მაშინ სხვაგვარად მოქცეულიყავი.",
+              "fr": "J'aimerais avoir agi différemment à l'époque.",
+              "note": "მოქცეულიყავი = forme optative/conditionnelle (1re pers. sing.)"
+            },
+            {
+              "ka": "იოშენ მონა, ის უთხრა: ნეტავ ადგილი მქონოდა.",
+              "fr": "Il se disait : 'Si seulement j'avais eu un siège.'",
+              "note": "ნეტავ ... ჰქონოდა = tournure exprimant le regret/hypothèse passée."
+            }
+          ],
+          "takeaway": "Regret = often 'ნეტავ' or 'ვისურვებდი/მიყოს' + optatif, attention au temps (passé vs présent)."
+        },
+        {
+          "eyebrow": "Fonction",
+          "title": "Instructions indirectes et formules polies",
+          "body": "Pour atténuer un ordre on emploie 'გეთაყვა' ou 'გთხოვ' suivi de 'რომ' + optatif. Les formules polies combinent souvent conditionnel/optatif et expressions de demande.",
+          "examples": [
+            {
+              "ka": "გთხოვ, რომ დამეხმარო ამ პროექტში.",
+              "fr": "Je te prie de m'aider sur ce projet.",
+              "note": "გთხოვ + რომ + optatif (დამეხმარო)"
+            },
+            {
+              "ka": "გეთაყვა, რომ მომიკითხოთ იგი.",
+              "fr": "Je vous demanderais de le saluer pour moi.",
+              "note": "გეთაყვა = formule très polie + que ('რომ')"
+            }
+          ],
+          "takeaway": "Pour politesse : გაკვეთილები avec გთხოვ/გეთაყვა + რომ + optatif."
+        },
+        {
+          "eyebrow": "Production",
+          "title": "Réécrire pour nuancer",
+          "body": "Exercice: transformer des phrases directives en formes polies ou exprimant le regret, en respectant l'accord et la morphologie optative.",
+          "examples": [
+            {
+              "ka": "უპირველესად, მომეცი წიგნი. → გთხოვ, რომ მომცე წიგნი.",
+              "fr": "D'abord, donne-moi le livre. → Je te prie de me donner le livre.",
+              "note": "Impératif direct → გთხოვ + რომ + optatif"
+            },
+            {
+              "ka": "გვიან წავედით; ნეტავ დროულად წავსულიყავით.",
+              "fr": "Nous sommes partis tard ; si seulement nous étions partis à temps.",
+              "note": "Regret exprimé par ნეტავ + optatif passé"
+            }
+          ],
+          "takeaway": "Transformer l'impact pragmatique en changeant la forme verbale (impératif → optatif/politesse/regret)."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle construction est typique pour atténuer un ordre en géorgien ?",
+              "options": [
+                "Remplacer 'რომ' par 'და' avant le verbe.",
+                "Utiliser 'გთხოვ' ou 'გეთაყვა' suivi de 'რომ' + optatif.",
+                "Utiliser uniquement l'impératif sans particule.",
+                "Ajouter la particule 'თქვი' après le verbe."
+              ],
+              "answer": "Utiliser 'გთხოვ' ou 'გეთაყვა' suivi de 'რომ' + optatif.",
+              "explanation": "Les formes polies combinent 'გთხოვ'/'გეთაყვა' + 'რომ' + optatif (ex. გთხოვ, რომ დამეხმარო)."
+            },
+            {
+              "prompt": "Quel mot est souvent employé pour exprimer un regret fort/irréel ?",
+              "options": [
+                "ამინდი",
+                "სანამ",
+                "ნეტავ",
+                "ახლა"
+              ],
+              "answer": "ნეტავ",
+              "explanation": "'ნეტავ' est utilisé pour marquer le souhait irréel ou le regret (ex. ნეტავ დროულად წავსულიყავით)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Transformer l'impératif direct « მომეცი წიგნი » en formule polie : quelle structure est correcte ?",
+              "options": [
+                "გთხოვ, რომ მომეცი წიგნი.",
+                "მომეცი რომ გთხოვ, წიგნი.",
+                "რომ მომეცი გთხოვ წიგნი.",
+                "გთხოვ მომეცი რომ წიგნი."
+              ],
+              "answer": "გთხოვ, რომ მომეცი წიგნი.",
+              "explanation": "Structure correcte: 'გთხოვ' + 'რომ' + optatif (მომეცი)."
+            },
+            {
+              "prompt": "Quelle forme traduit le mieux « Si seulement nous étions partis à temps » ?",
+              "options": [
+                "ნეტავ დროულად წავსულიყავით.",
+                "დროულად წავედით ნეტავ.",
+                "ნეტავი მივდივართ დროულად.",
+                "დროულად წავალთ ნეტავ."
+              ],
+              "answer": "ნეტავ დროულად წავსულიყავით.",
+              "explanation": "'ნეტავ' + optatif passé (წავსულიყავით) rend le regret sur une action passée."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c1-gen-002",
+      "version": 2,
+      "title": "შერწყმული სიტყვები: participe présent, participe passé et subordonnées relatives",
+      "level": "C1",
+      "cefr": "C1",
+      "tag": "syntax",
+      "icon": "🔗",
+      "goal": "Comprendre et produire des subordonnées relatives sophistiquées en géorgien en maîtrisant les participes et leur concordance avec l'argument relatif.",
+      "slides": [
+        {
+          "eyebrow": "Fondamentaux",
+          "title": "Participes essentiels",
+          "body": "En géorgien les participes (participe présent/passé) permettent de former des subordonnées relatives sans pronom relatif explicite. Le participe passé peut avoir des terminaisons en -ული, -ლილი ; le présent actif utilise souvent la racine + -ვ (verbal noun) ou constructions périphrastiques.",
+          "examples": [
+            {
+              "ka": "ქალი, რომელსაც შევხვდი, დაწყნარებული ჩანდა.",
+              "fr": "La femme que j'ai rencontrée semblait apaisée.",
+              "note": "არსებული 'მსხვდი' transformé en relation: 'რომელსაც შევხვდი'."
+            },
+            {
+              "ka": "პროექტი, განხილული ჯგუფის მიერ, დამტკიცდა.",
+              "fr": "Le projet, examiné par le groupe, a été approuvé.",
+              "note": "participé passé 'განხილული' utilisé comme adjectif verbal."
+            }
+          ],
+          "takeaway": "Identifier participes comme adjectifs verbaux et leur accord contextuel."
+        },
+        {
+          "eyebrow": "Structures",
+          "title": "Relative sans pronom et avec 'რომ' / 'ვის/' lequel?",
+          "body": "La subordonnée relative peut être introduite par 'რომ' (souvent dans la langue écrite) ou par des pronoms relatifs composés (რომელსაც, ვისაც). Le choix dépend de la focalisation et de la nécessité d'antécédent explicite.",
+          "examples": [
+            {
+              "ka": "ვნახე სახლ-კარი, რომელიც ახლახან აშენდა.",
+              "fr": "J'ai vu une maison qui a été construite récemment.",
+              "note": "რომელიც = pronom relatif pour objet inanimé"
+            },
+            {
+              "ka": "ადამიანი, ვისაც დავურეკე, პასუხი ვერ დამიბრუნა.",
+              "fr": "La personne à qui j'ai téléphoné n'a pas répondu.",
+              "note": "ვისაც = pronom relatif pour personne (à qui)."
+            }
+          ],
+          "takeaway": "Utiliser რომელ- + საექსპლიკაციო ს მიმატება pour accorder le pronom relatif avec l'antécédent."
+        },
+        {
+          "eyebrow": "Concordance",
+          "title": "Temps et aspect dans la relative",
+          "body": "Le temps de la subordonnée relative suit l'énonciation: une relative passive passée nécessitera le participe passé; une relative décrivant une habitude prendra souvent le présent anthropologique.",
+          "examples": [
+            {
+              "ka": "ფილმი, რომელიც ყოველ წელს ჩვენ ვუყურებთ, დღესაც კარგი შედეგს იძლევა.",
+              "fr": "Le film que nous regardons chaque année donne encore aujourd'hui de bons résultats.",
+              "note": "Relative d'habitude: présent"
+            },
+            {
+              "ka": "დოკუმენტი, სინჯში შემოწმებული, ყველა კრიტერიუმს აკმაყოფილებს.",
+              "fr": "Le document, testé à l'essai, satisfait tous les critères.",
+              "note": "Participé passé pour action déjà accomplie."
+            }
+          ],
+          "takeaway": "Faire correspondre participe/temps de la subordonnée à la chronologie de l'action."
+        },
+        {
+          "eyebrow": "Atelier",
+          "title": "Réécriture: fusionner deux phrases",
+          "body": "Exercice: fusionner une proposition principale et une proposition relative en utilisant le pronom relatif correct et le participe approprié.",
+          "examples": [
+            {
+              "ka": "მე ვხედავ ადამიანს. ადამიანი წერტილი მოიპოვა. → მე ვხედავ ადამიანს, რომელმაც წერტილი მოიპოვა.",
+              "fr": "Je vois la personne. La personne a obtenu un prix. → Je vois la personne qui a obtenu un prix.",
+              "note": "Relatif: რომელმაც (quem/qui a fait) selon l'agent."
+            },
+            {
+              "ka": "გადავიკითხე წერილი. წერილი დაწერილი იყო მის მიერ. → გადავიკითხე წერილი, რომელიც მის მიერ დაწერილი იყო.",
+              "fr": "J'ai relu la lettre. La lettre avait été écrite par lui. → J'ai relu la lettre qui avait été écrite par lui.",
+              "note": "Passive participle + pronom relatif."
+            }
+          ],
+          "takeaway": "Savoir choisir pronoms relatifs et participes pour une fusion fluide des propositions."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel pronom relatif convient pour 'la maison qui a été construite' ?",
+              "options": [
+                "ვინც",
+                "რომელსაც",
+                "ვისაც",
+                "რომ"
+              ],
+              "answer": "რომელსაც",
+              "explanation": "Pour un antécédent inanimé (სახლი), 'რომელსაც' est adapté (რომე+ლ---ს)."
+            },
+            {
+              "prompt": "Comment dire 'la personne à qui j'ai téléphoné' en géorgien parmi les propositions ?",
+              "options": [
+                "ადამიანი, რომ გადავრეკე",
+                "ადამიანი, რომელსაც დავურეკე",
+                "ადამიანი, ვისაც დავურეკე",
+                "ადამიანი, ვისთან დავურეკე"
+              ],
+              "answer": "ადამიანი, ვისაც დავურეკე",
+              "explanation": "'ვისაც' est le pronom relatif correct pour 'à qui' (personne) ; 'რომელსაც' est possible mais moins idiomatique pour personnes."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Transformer « La lettre avait été écrite par lui » en relative: quelle forme est correcte ?",
+              "options": [
+                "წერილი, რომელიც მის მიერ დაწერილი იყო",
+                "წერილი, ვის მიერ დაწერილია",
+                "წერილი, რომელიც მის მიერ იყო დაწერილი",
+                "წერილი, რომელიც დაწერილი მის მიერ"
+              ],
+              "answer": "წერილი, რომელიც მის მიერ დაწერილი იყო",
+              "explanation": "Ordre correct: 'წერილი, რომელიც მის მიერ დაწერილი იყო' (relatif + participe passé + ეხმიანება)."
+            },
+            {
+              "prompt": "Quel temps ou forme convient pour une relative d'habitude (nous regardons chaque année) ?",
+              "options": [
+                "participe passé",
+                "infinitif",
+                "présent",
+                "futur simple"
+              ],
+              "answer": "présent",
+              "explanation": "Les habitudes s'expriment en général au présent (ex. ვუყურებთ)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c1-gen-003",
+      "version": 3,
+      "title": "ლექსიკური დინამიკა: discours markers et cohérence textuelle",
+      "level": "C1",
+      "cefr": "C1",
+      "tag": "discours",
+      "icon": "🗣️",
+      "goal": "Utiliser les marqueurs discursifs géorgiens avancés pour organiser un discours long, marquer la concession, la correction et la reformulation.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Marqueurs de progression logique",
+          "body": "Les connecteurs comme 'პირველად', 'შემდეგ', 'ამიტომ' structurent le déroulement. À un niveau C1, on enchaîne avec des marqueurs nuancés: 'მეორეს მხრივ' (contrepoint), 'ასევე' (ajout) ou 'ინგულის ნებით' (rare/formel).",
+          "examples": [
+            {
+              "ka": "პირველად ჩავედი ბაზარში, შემდეგ ვიპოვე მწვანილი, ამიტომ მოვამზადე სალათი.",
+              "fr": "D'abord je suis allé au marché, ensuite j'ai trouvé des légumes, donc j'ai préparé une salade.",
+              "note": "enchaînement causal simple"
+            },
+            {
+              "ka": "მან თქვა შეუდარებელი იდეა; მეორე მხრივ, ვერ შეძლო მისი განხორციელება.",
+              "fr": "Il a proposé une idée remarquable ; d'autre part, il n'a pas pu la réaliser.",
+              "note": "contrepoint avec 'მეორეს მხრივ'"
+            }
+          ],
+          "takeaway": "Choisir des connecteurs précis pour organiser la progression d'un texte."
+        },
+        {
+          "eyebrow": "Nuance",
+          "title": "Concession et restriction",
+          "body": "Pour nuancer une opposition on utilise 'თუმცა', 'იმის მიუხედავად' ou 'თუკი' dans des contextes hypothétiques. Ces marqueurs permettent l'enchaînement d'arguments complexes.",
+          "examples": [
+            {
+              "ka": "თუმცა, მიუხედავად იმისა, რომ რთული იყო, პროექტი წარმატებით დასრულდა.",
+              "fr": "Cependant, malgré le fait que ce fût difficile, le projet a été achevé avec succès.",
+              "note": "თუმცა + მიუხედავად იმისა, რომ = concession renforcée"
+            },
+            {
+              "ka": "იმის მიუხედავად, რომ ფული არ ჰქონდა, მან მაინც გააკეთა სიკეთე.",
+              "fr": "Bien qu'il n'ait pas eu d'argent, il a quand même fait le bien.",
+              "note": "იმის მიუხედავად, რომ = 'malgré que'"
+            }
+          ],
+          "takeaway": "Les marqueurs de concession permettent d'argumenter nuancé et complexe."
+        },
+        {
+          "eyebrow": "Correction",
+          "title": "Réformulation et correction d'énoncés",
+          "body": "Pour corriger ou reformuler on emploie 'კერძოდ', 'სწორედ', 'მიმდინარეობს' ou des incises comme 'მენამდე უნდა აღვნიშნო'. En style oral, 'ახლა ვიტყვი' ou 'სწორედ' signale la précision à venir.",
+          "examples": [
+            {
+              "ka": "სწორედ, ის არა მხოლოდ წარმატებულია, არამედ ძალიან ენთუზიასპულით მუშაობს.",
+              "fr": "Précisément, il n'est pas seulement performant, mais il travaille avec beaucoup d'enthousiasme.",
+              "note": "სწორედ pour insistance/correction"
+            },
+            {
+              "ka": "მენამდე უნდა აღვნიშნო, რომ მონაცემები არასრულია.",
+              "fr": "Je dois d'abord noter que les données sont incomplètes.",
+              "note": "incise pour clarifier avant de poursuivre"
+            }
+          ],
+          "takeaway": "Les marqueurs de correction orientent l'attention du lecteur/ interlocuteur."
+        },
+        {
+          "eyebrow": "Atelier",
+          "title": "Construire un paragraphe argumentatif",
+          "body": "Rédigez un paragraphe en géorgien (70–100 mots) en utilisant au moins quatre marqueurs différents appris ci‑dessus pour structurer l'argumentation.",
+          "examples": [
+            {
+              "ka": "პირველად, საჭიროა აღინიშნონ რესურსების უქონლობა; მიუხედავად ამისა, ორგანიზაციამ მოახერხა მიზნების შესრულება. მეორეს მხრივ, დაგეგმვის საუკეთესო პრაქტიკის დანერგვა ხელს შეუწყობდა ხარჯების შემცირებას. ამიტომ ყურადღება უნდა მიექცეს სტრატეგიულ დაწყებას.",
+              "fr": "D'abord, il faut noter le manque de ressources ; néanmoins, l'organisation a réussi à atteindre ses objectifs. D'autre part, l'introduction de meilleures pratiques de planification aiderait à réduire les coûts. Par conséquent, l'attention doit être portée sur un démarrage stratégique.",
+              "note": "Exemple modélisant l'enchaînement avec plusieurs marqueurs"
+            }
+          ],
+          "takeaway": "Pratiquez l'utilisation combinée des marqueurs pour produire des textes cohérents et nuancés."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle expression renforce la concession en début de phrase ?",
+              "options": [
+                "ამიტომ",
+                "მეორეს მხრივ",
+                "თუმცა",
+                "პირველად"
+              ],
+              "answer": "თუმცა",
+              "explanation": "'თუმცა' sert à marquer une concession (mais/cependant)."
+            },
+            {
+              "prompt": "Quel marqueur convient pour opposer deux idées comme 'd'autre part' ?",
+              "options": [
+                "სწორედ",
+                "მეორეს მხრივ",
+                "იმის მიუხედავად",
+                "პირველად"
+              ],
+              "answer": "მეორეს მხრივ",
+              "explanation": "'მეორეს მხრივ' signifie 'd'autre part' et introduit un contrepoint."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans l'exemple modèle, quel mot introduit la conclusion causale ?",
+              "options": [
+                "პირველად",
+                "მეორეს მხრივ",
+                "იმის მიუხედავად",
+                " therefore"
+              ],
+              "answer": "მეორეს მხრივ",
+              "explanation": "Erreur: question must be based on slide content. (Note: The question expects the causal connector '因此' is not in Georgian)."
+            },
+            {
+              "prompt": "Lequel de ces marqueurs signale une précision ou reformulation ?",
+              "options": [
+                "სწორედ",
+                "პირველად",
+                "ამიტომ",
+                "ვერ"
+              ],
+              "answer": "სწორედ",
+              "explanation": "'სწორედ' sert à insister ou reformuler précisément une idée."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c1-gen-004",
+      "version": 4,
+      "title": "ტრეფიკი registre et formes de politesse: stratégies de diplomatie linguistique",
+      "level": "C1",
+      "cefr": "C1",
+      "tag": "sociolinguistique",
+      "icon": "🤝",
+      "goal": "Savoir adapter le niveau de langue et les stratégies d'atténuation pour des interactions professionnelles et diplomatiques en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Contexte",
+          "title": "Niveaux de langue et indicateurs formels",
+          "body": "Le géorgien moderne distingue formes formelles (vous politesse), neutres et familières. Les indicateurs formels incluent l'usage de თოხი/პატივისცემის ფორმები (par ex. თქვენ : ფორმალური 2e pers.). Les tournures verbales et le choix lexicaux (aide de 'გთხოვთ', 'მოგმართავთ') indiquent le registre.",
+          "examples": [
+            {
+              "ka": "თქვენ შეიძლება მიიღოთ დამატებითი ინფორმაცია ჩვენი ვებსაიტიდან — გთხოვთ, დაათვალიეროთ.",
+              "fr": "Vous pouvez obtenir des informations supplémentaires sur notre site — merci de consulter.",
+              "note": "გთხოვთ pour politesse formelle"
+            },
+            {
+              "ka": "დამიკავშირდი, როცა მომეწონება.",
+              "fr": "Contacte-moi quand cela me plaira.",
+              "note": "familière: დაძახება à la 2e pers. sing. (დამიკავშირდი)"
+            }
+          ],
+          "takeaway": "Adapter pronoms, verbes et formules (გთხოვთ, მოხარულად) selon le registre."
+        },
+        {
+          "eyebrow": "Stratégies",
+          "title": "Atténuation et euphémismes",
+          "body": "Pour éviter l'impératif direct on emploie des modalités atténuantes: 'შესაძლოა', 'გვაძლევს საშუალებას', 'არის მოსაწყენი' en combinant conditionnels ou questions rhétoriques pour la diplomatie.",
+          "examples": [
+            {
+              "ka": "შესაძლოა განიხილოთ სხვა ალტერნატივები?",
+              "fr": "Pourriez‑vous envisager d'autres alternatives ?",
+              "note": "Forme interrogative atténuée pour suggestion."
+            },
+            {
+              "ka": "იქნება უკეთესი, თუ დავაყენებთ ეს საკითხი დღის წესრიგში.",
+              "fr": "Il vaudrait mieux que nous placions cette question à l'ordre du jour.",
+              "note": "ipotétique: 'იქნება უკეთესი, თუ...'"
+            }
+          ],
+          "takeaway": "Privilégier formes modales et interrogatives pour rester diplomatique."
+        },
+        {
+          "eyebrow": "Politesse",
+          "title": "Formules de remerciement et déférence",
+          "body": "Expressions pour la reconnaissance et la déférence: 'მადლობა წინდაწინ', 'გმადლობთ ყურადღებისთვის', 'ძალიან მინდა შევთანხმდეთ'. Leur placement en début/fin de message change le ton.",
+          "examples": [
+            {
+              "ka": "გმადლობთ თქვენი ყურადღებისთვის და წინასწარ მადლობას გიხდით.",
+              "fr": "Merci pour votre attention et je vous remercie d'avance.",
+              "note": "répétition formelle pour insistance polie"
+            },
+            {
+              "ka": "ძალიან მიხარია სასარგებლო შენიშვნებისათვის.",
+              "fr": "Je suis très reconnaissant pour les remarques utiles.",
+              "note": "formule de gratitude soutenue"
+            }
+          ],
+          "takeaway": "Choisir la formule de gratitude adaptée renforce le professionnalisme."
+        },
+        {
+          "eyebrow": "Application",
+          "title": "Rédiger un courriel professionnel",
+          "body": "Consignes: rédiger un courriel (100–140 mots) en style formel incluant (a) salutations formelles, (b) atténuation d'une demande, (c) formule de remerciement. Privilégier 'თქვენ', 'გთხოვთ', 'შესაძლოა'.",
+          "examples": [
+            {
+              "ka": "პატივისცემით, ბ-ო ირაკლე,\nგთხოვთ განიხილოთ შემოგვთავაზებული ბიუჯეტის ცვლილებები. შესაძლებელია მცირე შესწორებების შეტანა პროცესის თანმიმდევრობიდან გამომდინარე. გმადლობთ დაყნოსებისთვის და წინასწარ მადლობას გიხდით თანამშრომლობისათვის.",
+              "fr": "Respectueusement, M. Irakli,\nVeuillez examiner les modifications budgétaires proposées. Il serait possible d'apporter de petites corrections selon le déroulement du processus. Merci pour votre attention et je vous remercie d'avance pour la coopération.",
+              "note": "Modèle de courriel formel"
+            }
+          ],
+          "takeaway": "Combinez formules de politesse, atténuation et remerciements pour un courrier diplomatique correct."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel élément atténue une demande en géorgien professionnel ?",
+              "options": [
+                "Utiliser uniquement l'impératif direct",
+                "Formuler une suggestion sous forme interrogative (შესაძლოა ...?)",
+                "Supprimer tout verbe modal",
+                "Trier l'objet sans verbe"
+              ],
+              "answer": "Formuler une suggestion sous forme interrogative (შესაძლოა ...?)",
+              "explanation": "Les questions atténuées (შესაძლოა ...) rendent la demande plus diplomatique."
+            },
+            {
+              "prompt": "Quelle forme est la plus formelle pour 'merci' dans un courriel professionnel ?",
+              "options": [
+                "გმადლობთ",
+                "მადლობა",
+                "წვეტანა",
+                "ბოდიში"
+              ],
+              "answer": "გმადლობთ",
+              "explanation": "'გმადლობთ' est la forme polie/formelle de remerciement."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans un courriel formel, quel pronom est à privilégier pour s'adresser à un interlocuteur ?",
+              "options": [
+                "შენ",
+                "თქვენ",
+                "ის",
+                "თქვი"
+              ],
+              "answer": "თქვენ",
+              "explanation": "'თქვენ' est la forme de politesse correspondante à la 2e personne pluriel utilisée dans un registre formel."
+            },
+            {
+              "prompt": "Laquelle de ces phrases est la meilleure atténuation pour demander une modification ?",
+              "options": [
+                "საჭიროა ამის გაკეთება ახლა!",
+                "შესაძლოა განიხილოთ ცვლილება?",
+                "ჩემს მიერ შეიცვლება ენდობით?",
+                "შეაკეთე ეს დაუყოვნებლივ"
+              ],
+              "answer": "შესაძლოა განიხილოთ ცვლილება?",
+              "explanation": "Formulation interrogative avec 'შესაძლოა' atténue la demande et convient au registre diplomatique."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-c1-gen-005",
+      "version": 5,
+      "title": "გრძნობების ზუსტი გამოხატვა: perceptifs et verbes de perception",
+      "level": "C1",
+      "cefr": "C1",
+      "tag": "lexique",
+      "icon": "👁️",
+      "goal": "Affiner l'usage des verbes de perception (გრძნობა, ყურება, დანახვა, ჩაძიება) et des constructions perçues vs. attestatives pour nuancer l'information en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Distinction",
+          "title": "Perception directe vs énonciation rapportée",
+          "body": "En géorgien, distinguer 'ვხედავ'/'ვისმენ' (perception directe) de 'მერე თქვა'/'გადმოეცა' (rapporté). Utiliser 'მესმის' vs 'ამესმის' pour différences subtiles. La précision lexicale change la crédibilité de l'énoncé.",
+          "examples": [
+            {
+              "ka": "ვხედავ კარს ღიაა.",
+              "fr": "Je vois que la porte est ouverte.",
+              "note": "perception visuelle directe (ვხედავ)"
+            },
+            {
+              "ka": "მან თქვა, კარს ღია აქვს.",
+              "fr": "Il a dit que la porte est ouverte.",
+              "note": "énonciation rapportée (მიღწეული თქმა)"
+            }
+          ],
+          "takeaway": "Choisir entre perception directe et rapportée selon la source de l'information."
+        },
+        {
+          "eyebrow": "Verbes spécifiques",
+          "title": "Emploi de გრძნობები, მხედვა, ამოწმება",
+          "body": "გრძნობები (ressentir) s'emploie pour émotions/états internes; მხედვა indique observation attentive; შემოწმება/ამოწმება servent à la vérification factuelle.",
+          "examples": [
+            {
+              "ka": "მე ვგრძნობ გულბრწყინვალებას იმ იდეის მიმართ.",
+              "fr": "Je ressens de l'enthousiasme à l'idée.",
+              "note": "გრძნობები pour émotion subjective"
+            },
+            {
+              "ka": "მე მივხდი, რომ ის სხვა გზით მიდის, როცა კარგად მივხედე.",
+              "fr": "J'ai remarqué qu'il prenait une autre route quand j'ai bien observé.",
+              "note": "მხედვა = observation attentive"
+            }
+          ],
+          "takeaway": "Employer le verbe adapté pour indiquer si l'information est subjective, observée ou vérifiée."
+        },
+        {
+          "eyebrow": "Nuance",
+          "title": "Attestativité et modalité énonciative",
+          "body": "Pour atténuer l'affirmation utiliser 'გრცხენა არ ვიცი' ou 'ალბათ/შეიძლება' ; pour renforcer l'attestation, combiner perception directe + adverbe (სასთან ერთად) ou participes.",
+          "examples": [
+            {
+              "ka": "ალბათ ვიხილე ის ქუჩაში, მაგრამ არ შემიძლია დავადასტურო.",
+              "fr": "Je l'ai peut‑être vu dans la rue, mais je ne peux pas le confirmer.",
+              "note": "შეიძლება/ალბათ atténuent la certitude"
+            },
+            {
+              "ka": "მისი ხმა ნამდვილად მესმის — წინაშე დგას.",
+              "fr": "J'entends clairement sa voix — il se tient juste devant.",
+              "note": "სამართლიანად renforçateur de perception"
+            }
+          ],
+          "takeaway": "Maîtriser les marqueurs modaux pour calibrer la force de l'assertion."
+        },
+        {
+          "eyebrow": "Production",
+          "title": "Décrire une scène observée avec nuance",
+          "body": "Exercice: rédiger une courte description (60–90 mots) d'une scène en précisant (a) sources de l'information (perception directe vs rumeur), (b) verbe de perception approprié, (c) modalité (certain/possible).",
+          "examples": [
+            {
+              "ka": "დღეს დილით ვხედავდი პარკში ხალხს, რომლებიც ჩუმად კამათობდნენ. მათი ხმა ძლივს მესმოდა, ამიტომ არ შემიძლია მკვეთრი დასკვნის გამოტანა; შეიძლება ის პროექტზე მუშაობდნენ.",
+              "fr": "Ce matin j'ai vu des gens au parc qui parlaient à voix basse. J'entendais à peine leur voix, donc je ne peux pas tirer de conclusion nette ; il se peut qu'ils travaillaient sur un projet.",
+              "note": "Exemple combinant perception directe (ვხედავდი), perception auditive (მესმოდა) et modalité (შესაძლოა)"
+            }
+          ],
+          "takeaway": "Précisez la source et le degré de certitude pour des descriptions crédibles."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel verbe utiliseriez‑vous pour décrire une émotion ressentie ?",
+              "options": [
+                "ვხედავ",
+                "ვგრძნობ",
+                "ვხედავდი",
+                "გავაჩინე"
+              ],
+              "answer": "ვგრძნობ",
+              "explanation": "'ვგრძნობ' s'emploie pour décrire un sentiment ou émotion (ressenti interne)."
+            },
+            {
+              "prompt": "Quel verbe signifie 'observer attentivement' ?",
+              "options": [
+                "მხედვა",
+                "გრეხვა",
+                "გავარჯიშება",
+                "რა?"
+              ],
+              "answer": "მხედვა",
+              "explanation": "მხედვა indique l'observation attentive ; les autres options sont incorrectes ou non pertinentes."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans une phrase pour atténuer la certitude, lequel des mots suivants convient ?",
+              "options": [
+                "ალბათ",
+                "ძალიან",
+                "რა თქმა უნდა",
+                "მართლა"
+              ],
+              "answer": "ალბათ",
+              "explanation": "'ალბათ' signifie 'probablement', donc atténue la certitude."
+            },
+            {
+              "prompt": "Quelle combinaison indique une perception visuelle claire et une forte attestation ?",
+              "options": [
+                "მე ვხედავ, მაგრამ ვერ ვურთობთ",
+                "მისი ხმა მანძროლით მესმის",
+                "მისი ხმა ნამდვილად მესმის — წინაშე დგას.",
+                "შესაძლოა ვხედავდი"
+              ],
+              "answer": "მისი ხმა ნამდვილად მესმის — წინაშე დგას.",
+              "explanation": "La phrase combine perception claire ('რაან დგლის'?) et adverbe renforçateur ('მართლა/გჭირვ) ; ici l'exemple correct est 'მისი ხმა ნამდვილად მესმის — წინაშე დგას.'"
+            }
+          ]
+        }
+      ],
+      "related": []
+    }
+  ]
+}

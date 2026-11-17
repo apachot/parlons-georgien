@@ -1,0 +1,115 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "vocabulary-a2-gen-001",
+      "cefr": "A2",
+      "version": 1,
+      "ka": "სამსახური",
+      "fr": "emploi, travail",
+      "translit": "samshauri",
+      "pron": "sam-CHAU-ri",
+      "example": "ანა ახალ სამსახურში მუშაობს.",
+      "example_fr": "Anna travaille dans un nouvel emploi."
+    },
+    {
+      "id": "vocabulary-a2-gen-002",
+      "cefr": "A2",
+      "version": 2,
+      "ka": "ბილეთი",
+      "fr": "billet, ticket",
+      "translit": "bileti",
+      "pron": "bi-LÉ-ti",
+      "example": "კართან ბილეთი შემოწმდა.",
+      "example_fr": "Le billet a été contrôlé à la porte."
+    },
+    {
+      "id": "vocabulary-a2-gen-003",
+      "cefr": "A2",
+      "version": 3,
+      "ka": "ბანკი",
+      "fr": "banque",
+      "translit": "banki",
+      "pron": "ban-KI",
+      "example": "მან ბანკში ფული გაიტანა.",
+      "example_fr": "Il a retiré de l'argent à la banque."
+    },
+    {
+      "id": "vocabulary-a2-gen-004",
+      "cefr": "A2",
+      "version": 4,
+      "ka": "საკვები",
+      "fr": "nourriture",
+      "translit": "sakvavi",
+      "pron": "sak-VA-vi",
+      "example": "სარკეზე სახლის საჭმელი დააწყო რაც დარჩა.",
+      "example_fr": "Il a mis sur la table les aliments restants de la maison."
+    },
+    {
+      "id": "vocabulary-a2-gen-005",
+      "cefr": "A2",
+      "version": 5,
+      "ka": "ჭკვიანი",
+      "fr": "intelligent, malin",
+      "translit": "chkviani",
+      "pron": "tchkvia-NI",
+      "example": "მეგობრის ძაღლი ძალიან ჭკვიანია.",
+      "example_fr": "Le chien de l'ami est très intelligent."
+    },
+    {
+      "id": "vocabulary-a2-gen-006",
+      "cefr": "A2",
+      "version": 6,
+      "ka": "პარკი",
+      "fr": "parc",
+      "translit": "parki",
+      "pron": "PAR-ki",
+      "example": "იმ პარკში ბევრი ყვავილია გაზაფხულზე.",
+      "example_fr": "Il y a beaucoup de fleurs dans ce parc au printemps."
+    },
+    {
+      "id": "vocabulary-a2-gen-007",
+      "cefr": "A2",
+      "version": 7,
+      "ka": "ღია",
+      "fr": "ouvert, ouvert(e)",
+      "translit": "ghia",
+      "pron": "GHI-a",
+      "example": "ร้านი ღიაა დილის ცხრა საათიდან.",
+      "example_fr": "Le magasin est ouvert à partir de neuf heures du matin."
+    },
+    {
+      "id": "vocabulary-a2-gen-008",
+      "cefr": "A2",
+      "version": 8,
+      "ka": "სკამი",
+      "fr": "chaise",
+      "translit": "skami",
+      "pron": "Ska-MI",
+      "example": "ახალ სკამზე კომფორტულად შეუძლია მოკალათდეს სტუმარს.",
+      "example_fr": "L'invité peut s'asseoir confortablement sur la nouvelle chaise."
+    },
+    {
+      "id": "vocabulary-a2-gen-009",
+      "cefr": "A2",
+      "version": 9,
+      "ka": "სიმღერა",
+      "fr": "chanson",
+      "translit": "simghera",
+      "pron": "sim-GHE-ra",
+      "example": "საღამოებში კარაოკეში მხიარული სიმღერები ისმება.",
+      "example_fr": "Le soir, des chansons joyeuses se font entendre au karaoké."
+    },
+    {
+      "id": "vocabulary-a2-gen-010",
+      "cefr": "A2",
+      "version": 10,
+      "ka": "გაცილება",
+      "fr": "accompagner quelqu'un au départ, voir partir",
+      "translit": "gatsileba",
+      "pron": "ga-tsi-LE-ba",
+      "example": "ბავშვს აჩუქა წიგნი და აეყვანა კი აეფერა გასაცილებლად.",
+      "example_fr": "Il a offert un livre à l'enfant et l'a accompagné pour le voir partir."
+    }
+  ]
+}

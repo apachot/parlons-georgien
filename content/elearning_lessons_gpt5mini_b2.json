@@ -1,0 +1,1406 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "elearning_lessons-b2-gen-006",
+      "title": "მიზეზის გადაცემის წესები (discours indirect)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 6,
+      "tag": "discours indirect",
+      "icon": "💬",
+      "goal": "Comprendre et reformuler des déclarations, questions et injonctions en discours indirect en géorgien courant.",
+      "slides": [
+        {
+          "eyebrow": "Introduction",
+          "title": "Principes généraux",
+          "body": "En géorgien, le discours direct se transforme souvent par adaptation du temps verbal, du pronom et de la conjonction introductive (რომ, ვითომ, თუ). Le verbe introducteur commun est თქვა / დასწერა selon le registre ou «ამბობს/ამბობდა».",
+          "examples": [
+            {
+              "ka": "მან თქვა: „მე მოვალ.“",
+              "fr": "Il a dit : «Je viendrai.»",
+              "note": "Exemple direct"
+            },
+            {
+              "ka": "მან თქვა, რომ მოვიდოდა.",
+              "fr": "Il a dit qu'il viendrait.",
+              "note": "Discours indirect — futur→conditionnel/გადაცემული ფორმა"
+            }
+          ],
+          "takeaway": "Repérer l'introducteur (თქვა/ამბობს) et adapter temps/pronom et conjonction (რომ)."
+        },
+        {
+          "eyebrow": "Transformation des temps",
+          "title": "Correspondances temporelles",
+          "body": "Quand on passe du direct à l'indirect, les temps changent selon le décalage temporel. Exemples fréquents : présent→მეთქი/მეტყოდა (selon nuance), futur→გადასაცემ ფორმა (conditionnel ou aoriste selon contexte), წარსული→გადმოცემული წარსული.",
+          "examples": [
+            {
+              "ka": "ის წერს: „მე ვსწავლობ.“",
+              "fr": "Il écrit : «J'étudie.»",
+              "note": "Présent direct"
+            },
+            {
+              "ka": "მან დაწერა, რომ ის სწავლობდა.",
+              "fr": "Il a écrit qu'il étudiait.",
+              "note": "Présent→imparfait en discours indirect"
+            },
+            {
+              "ka": "მან თქვა: „ვიქნები იქ.“",
+              "fr": "Il a dit : «Je serai là.»",
+              "note": ""
+            },
+            {
+              "ka": "მან თქვა, რომ იქ იქნებოდა.",
+              "fr": "Il a dit qu'il serait là.",
+              "note": "Futur→conditionnel/გადასაცემ ფორმა"
+            }
+          ],
+          "takeaway": "Conserver le sens temporel en ajustant le temps du verbe dans la proposition introduite par que (რომ)."
+        },
+        {
+          "eyebrow": "Questions et injonctions",
+          "title": "Transformer questions et impératifs",
+          "body": "Les interrogations se rapportent avec conjonctions comme თუ (si) ou indirectement par სიტყვით გადმოცემა; les impératifs emploient souvent სიტყვა წასვლა + გთხოვა/მოთხოვნა ou წაუკითხა/უთხრა que + participe.",
+          "examples": [
+            {
+              "ka": "იმახსოვრე: „მოდი დაგეხმარები?“",
+              "fr": "Il demande : «Tu viens, je t'aide ?»",
+              "note": "Question directe"
+            },
+            {
+              "ka": "მან ჰკითხა, თუ მოვიდოდი.",
+              "fr": "Il a demandé si je viendrais.",
+              "note": "Question indirecte avec თუ"
+            },
+            {
+              "ka": "უფრო უბრალო: „აი, წადი!“",
+              "fr": "Impératif direct : «Va !»",
+              "note": ""
+            },
+            {
+              "ka": "მან სთხოვა, რომ წავიდეს.",
+              "fr": "Il lui a demandé d'y aller.",
+              "note": "Impératif→demande indirecte avec conjonction que (რომ)"
+            }
+          ],
+          "takeaway": "Questions→utiliser თუ; impératifs→გთხოვა/სთხოვა + conjonction que (რომ)."
+        },
+        {
+          "eyebrow": "Usage et nuances",
+          "title": "Nuances de registre et style",
+          "body": "Choisir’entre თქვა, აღნიშნა, ჰკითხა, სთხოვა selon le degré d'oralité et la précision. Les verbes de parole précis signalent l'attitude (გაიმეორა, აღიარა, უარყო).",
+          "examples": [
+            {
+              "ka": "მან აღიარა, რომ შეცდა.",
+              "fr": "Il a reconnu qu'il s'était trompé.",
+              "note": "აღიარა = il a admis"
+            },
+            {
+              "ka": "მისმა ბატონმა გააფრთხილა, რომ ზედმეტად ხმაურით არ დაეცხოვრა.",
+              "fr": "Son patron l'a averti de ne pas faire trop de bruit.",
+              "note": "გაფრთხილა = avertir"
+            },
+            {
+              "ka": "მეგობარმა თქვა, რომ ვენახე მას რამდენიმე დღეში.",
+              "fr": "Un ami a dit qu'il le verrait dans quelques jours.",
+              "note": "სჩანს, ჩვეულებრივი გადმოცემა"
+            }
+          ],
+          "takeaway": "Adapter le verbe de parole au registre et préciser l'attitude du locuteur."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Comment se traduit généralement un futur du discours direct en discours indirect selon les exemples ?",
+              "options": [
+                "Par le présent simple",
+                "Par le conditionnel/forme reportée",
+                "Par l'impératif",
+                "Par l'infinitif"
+              ],
+              "answer": "Par le conditionnel/forme reportée",
+              "explanation": "Les exemples montrent futur direct → forme reportée (conditionnel/გადასაცემ ფორმა) : „იქ იქნება“ → „იქ იქნებოდა“. "
+            },
+            {
+              "prompt": "Quelle conjonction apparaît pour introduire une proposition indirecte déclarative ?",
+              "options": [
+                "თუ",
+                "რომ",
+                "და",
+                "ან"
+              ],
+              "answer": "რომ",
+              "explanation": "La conjonction que en géorgien est ‚რომ‘ pour introduire les propositions déclaratives indirectes."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quel verbe serait le plus précis pour traduire «il a admis» dans l'exemple ?",
+              "options": [
+                "დაგროვება",
+                "აღიარო",
+                "გაიგო",
+                "გაურთულება"
+              ],
+              "answer": "აღიარო",
+              "explanation": "„აღიარა“ signifie «il a admis», comme indiqué dans l'exemple."
+            },
+            {
+              "prompt": "Pour transformer un impératif direct «Va !» en demande indirecte, quelle structure est montrée ?",
+              "options": [
+                "პირდაპირი ფორმა",
+                "გთხოვა + რომ + verbe conjugué",
+                "თუ + verbe à l'infinitif",
+                "და + verbe"
+              ],
+              "answer": "გთხოვა + რომ + verbe conjugué",
+              "explanation": "L'exemple montre l'impératif transformé en demande: მან სთხოვა, რომ წავიდეს (გთხოვა + რომ + verbe)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-007",
+      "title": "პარტაციპული შენიშვები და განსაზღვრები (participes adjectivaux)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 7,
+      "tag": "participes",
+      "icon": "✍️",
+      "goal": "Savoir former et utiliser les participes actants et passifs fréquents en géorgien pour nuancer la description et alléger les propositions relatives.",
+      "slides": [
+        {
+          "eyebrow": "Formes de base",
+          "title": "Participe présent et passé",
+          "body": "Le géorgien utilise des formes participiales pour exprimer une action qualifiant un nom : le participe présent (-ელი/-ელი ფორმები) et le participe passé (-ებული). Le participe s'accorde en sens, pas en flexion grammaticalement.",
+          "examples": [
+            {
+              "ka": "მოსწავლე მომზადებული მოდის.",
+              "fr": "L'élève vient préparé.",
+              "note": "მომზადებული = préparé (participe passé)"
+            },
+            {
+              "ka": "წერის მცოდნე სტუდენტი.",
+              "fr": "Étudiant connaissant l'écriture.",
+              "note": "მცოდნე = connaissant (participe présent)"
+            }
+          ],
+          "takeaway": "Reconnaître -ელი et -ებული comme marqueurs courants de participes."
+        },
+        {
+          "eyebrow": "Usage descriptif",
+          "title": "Participe pour une phrase relative",
+          "body": "On peut remplacer une subordonnée relative par un participe pour alléger la phrase. Exemple fréquent : ადამიანი, ვინც ... → მოქმედობა-სა/პარტიციპი.",
+          "examples": [
+            {
+              "ka": "ფეხით მოსიარულე ადამიანი.",
+              "fr": "La personne qui marche (à pied).",
+              "note": "მოსიარულე = qui marche (participe présent)"
+            },
+            {
+              "ka": "დასუფთავებული სახლი.",
+              "fr": "La maison nettoyée.",
+              "note": "დასუფთავებული = nettoyée (participe passé)"
+            }
+          ],
+          "takeaway": "Les participes réduisent les subordonnées relatives et rendent le discours plus concis."
+        },
+        {
+          "eyebrow": "Formations irrégulières",
+          "title": "Verbes fréquents et irrégularités",
+          "body": "Certains verbes forment des participes irréguliers : voir, venir, faire. Il faut mémoriser les formes courantes (ნახული, მოსული, გაკეთებული).",
+          "examples": [
+            {
+              "ka": "ნახული ფილმი.",
+              "fr": "Le film vu.",
+              "note": "ნახული (vu) — participe passé irrégulier"
+            },
+            {
+              "ka": "მოსული სტუმარი.",
+              "fr": "L'invité venu.",
+              "note": "მოსული (venu) — participe passé irrégulier"
+            },
+            {
+              "ka": "გაკეთებული საქმე.",
+              "fr": "La tâche faite.",
+              "note": "გაკეთებული = fait"
+            }
+          ],
+          "takeaway": "Apprendre les participes irréguliers fréquents par listes et réemploi."
+        },
+        {
+          "eyebrow": "Restrictions et ambiguïtés",
+          "title": "Ambiguïtés sémantiques",
+          "body": "Un participe peut indiquer une action antérieure ou une qualité permanente. Le contexte et les adverbes (უკვე, ახლახანს) précisent la valeur temporelle.",
+          "examples": [
+            {
+              "ka": "დასუფთავებული ოთახი უკვე მზადაა.",
+              "fr": "La chambre nettoyée est déjà prête.",
+              "note": "დასუფთავებული indique action antérieure récente"
+            },
+            {
+              "ka": "მოსიარულე ადამიანი ყოველთვის დროულია.",
+              "fr": "La personne qui marche est toujours ponctuelle.",
+              "note": "მოსიარულე indique habitude / qualité"
+            }
+          ],
+          "takeaway": "Utiliser adverbes temporels pour lever l'ambiguïté du participe."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle terminaison est donnée pour un participe passé courant ?",
+              "options": [
+                "-ელი",
+                "-ებული",
+                "-ვა",
+                "-დი"
+              ],
+              "answer": "-ებული",
+              "explanation": "Les exemples montrent -ებული comme marqueur du participe passé (დასუფთავებული, გაკეთებული). "
+            },
+            {
+              "prompt": "Remplacer une subordonnée relative par un participe sert principalement à :",
+              "options": [
+                "rendre la phrase plus longue",
+                "ajouter un nouveau verbe",
+                "alléger et condenser la phrase",
+                "changer le sens"
+              ],
+              "answer": "alléger et condenser la phrase",
+              "explanation": "Le slide indique que les participes réduisent les subordonnées relatives et rendent le discours plus concis."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quel participe est utilisé pour «vu» dans les exemples ?",
+              "options": [
+                "მოსული",
+                "ნახული",
+                "დასუფთავებული",
+                "გაკეთებული"
+              ],
+              "answer": "ნახული",
+              "explanation": "Le slide donne explicitement ნახული ფილმი pour «film vu»."
+            },
+            {
+              "prompt": "Comment lever l'ambiguïté temporelle d'un participe selon le cours ?",
+              "options": [
+                "en changeant le verbe",
+                "en ajoutant adverbes temporels comme უკვე",
+                "en mettant la phrase à l'impératif",
+                "en supprimant le participe"
+              ],
+              "answer": "en ajoutant adverbes temporels comme უკვე",
+              "explanation": "Le cours recommande d'utiliser adverbes (უკვე, ახლახანს) pour préciser la valeur temporelle."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-008",
+      "title": "აზრების გამოხატვის საშუალებები: პერსპექტივის აზოტები (aspects verbaux et préfixes)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 8,
+      "tag": "aspect",
+      "icon": "🔁",
+      "goal": "Identifier et utiliser les préfixes verbaux (mi-, ga-, ვ-) et l'aspect perfectif/imperfectif pour nuancer l'action en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Notion générale",
+          "title": "Aspect imperfectif vs perfectif",
+          "body": "Le géorgien oppose souvent actions achevées (perfectif) et continues/répétées (imperfectif). Les préfixes (mi-, ga-, ღ-) et la forme sans préfixe indiquent l'aspect. La concordance dépend du verbe.",
+          "examples": [
+            {
+              "ka": "ვკითხულობ წიგნს.",
+              "fr": "Je lis un livre (action en cours).",
+              "note": "imperfectif (sans préfixe)"
+            },
+            {
+              "ka": "გავიკითხე წიგნი.",
+              "fr": "J'ai lu le livre (achevé).",
+              "note": "ga- + verbe = perfectif/achevé"
+            }
+          ],
+          "takeaway": "Repérer préfixe (ga-, mi-) pour distinguer terminé vs en cours."
+        },
+        {
+          "eyebrow": "Préfixe mi-",
+          "title": "mi- pour mouvement dans/vers l'intérieur",
+          "body": "Le préfixe mi- marque souvent entrée, insertion ou action dans un espace : მისვლა, მიბწოლა. Il traduit parfois l'idée de «aller vers» ou «entrer dans» et peut changer l'aspect.",
+          "examples": [
+            {
+              "ka": "მისვლა ადრე მოხდა.",
+              "fr": "L'arrivée a eu lieu tôt.",
+              "note": "მისვლა = arriver (mi- indique mouvement vers) "
+            },
+            {
+              "ka": "ფოსტა ოთახში შესულია.",
+              "fr": "Le courrier est entré dans la pièce.",
+              "note": "შესულია ← შესვლა (mi- équivalent morphologique de mouvement)"
+            }
+          ],
+          "takeaway": "mi- indique souvent mouvement d'entrée ou direction vers."
+        },
+        {
+          "eyebrow": "Préfixe ga-",
+          "title": "ga- pour achèvement, sortie ou résultat",
+          "body": "Ga- peut indiquer que l'action a été menée à son terme, une sortie ou la mise en évidence du résultat. Parfois il crée le parfait: გაუშვა, გაგზავნა, გამოაცხადა.",
+          "examples": [
+            {
+              "ka": "წერილი გაგზავნეს.",
+              "fr": "Ils ont envoyé la lettre.",
+              "note": "გაგზავნა = envoi achevé (ga- perfectif) "
+            },
+            {
+              "ka": "ხმა გამოითქვა საჯაროდ.",
+              "fr": "La voix a été exprimée publiquement.",
+              "note": "გა- marque ici l'achèvement/manifestation"
+            }
+          ],
+          "takeaway": "ga- signale fréquemment l'achèvement ou la mise en résultat d'une action."
+        },
+        {
+          "eyebrow": "Confrontation d'exemples",
+          "title": "Comparer pour choisir l'aspect",
+          "body": "Comparer deux phrases proches révèle la nuance : ვხატავ (je peins/en cours) vs გამოვხატე (j'ai exprimé/résultat). L'exercice consiste à identifier l'intention (processus vs résultat).",
+          "examples": [
+            {
+              "ka": "ვხატავ სურათს ახლა.",
+              "fr": "Je peins un tableau maintenant.",
+              "note": "action en cours"
+            },
+            {
+              "ka": "სურათი გადავხატე დიდი დეტალებით.",
+              "fr": "J'ai achevé le tableau avec beaucoup de détails.",
+              "note": "résultat/achevé"
+            }
+          ],
+          "takeaway": "Choisir préfixe et forme selon si l'on insiste sur le processus ou le résultat."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel préfixe est associé à l'idée d'entrée ou de mouvement vers l'intérieur ?",
+              "options": [
+                "ga-",
+                "mi-",
+                "re-",
+                "უ-"
+              ],
+              "answer": "mi-",
+              "explanation": "Le slide indique que mi- marque souvent entrée ou direction vers (მისვლა)."
+            },
+            {
+              "prompt": "Quelle phrase exprime une action en cours selon les exemples ?",
+              "options": [
+                "გავიკითხე წიგნი.",
+                "ვკითხულობ წიგნს.",
+                "წერილი გაგზავნეს.",
+                "ხმა გამოითქვა საჯაროდ."
+              ],
+              "answer": "ვკითხულობ წიგნს.",
+              "explanation": "ვკითხულობ წიგნს est donnée comme imperfectif (action en cours)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Selon le cours, que signale principalement ga- ?",
+              "options": [
+                "processus continu",
+                "achèvement / résultat",
+                "négation",
+                "futurité"
+              ],
+              "answer": "achèvement / resultaat",
+              "explanation": "Ga- est décrit comme marquant l'achèvement ou le résultat (გაგზავნა, გამოაცხადა)."
+            },
+            {
+              "prompt": "Quelle paire illustre le contraste processus vs résultat ?",
+              "options": [
+                "მისვლა / მისვლა",
+                "ვხატავ / გამოვხატე",
+                "წერილი / წერილი",
+                "გაგზავნა / გაგზავნა"
+              ],
+              "answer": "ვხატავ / გამოვხატე",
+              "explanation": "Le slide compare ვხატავ (processus) et გამოვხატე (résultat/achevé)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-009",
+      "title": "ფსევდო-კონდიციონალი და სინამდვილის ჰიპოთეზები (conditionnels en géorgien)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 9,
+      "tag": "conditionnel",
+      "icon": "🔮",
+      "goal": "Maîtriser les structures conditionnelles courantes (réaliste, irréel, passé irréel) et exprimer conséquences et regrets en géorgien.",
+      "slides": [
+        {
+          "eyebrow": "Types",
+          "title": "Trois types de conditionnels",
+          "body": "1) Réel : თუ + indicatif (si situation possible). 2) Iréel présent : თუ + conjonction + პირობითი/форма (souvent utiliser იქნებოდა/შეიძლებოდა). 3) Iréel passé : თუ + participe/passé + შედეგი ვერ იქნებოდა/შეიძლოდა.",
+          "examples": [
+            {
+              "ka": "თუ მოაწვები ყავას, დავჯდები შენთან.",
+              "fr": "Si tu prépares du café, je m'assois avec toi.",
+              "note": "Réel, possible (présent/futur)."
+            },
+            {
+              "ka": "თუ გქონდეს დრო, ვილაპარაკებდი უფრო ხშირად.",
+              "fr": "Si tu avais du temps, je parlerais plus souvent.",
+              "note": "Iréel présent — hypothèse non réalisée (შეიძლება ფორმა)."
+            }
+          ],
+          "takeaway": "Reconnaître le type de conditionnel par la forme du verbe après თუ."
+        },
+        {
+          "eyebrow": "Formation de l'irréel",
+          "title": "Comment former l'irréel présent",
+          "body": "L'irréel présent emploie souvent იქნებოდა/შეიძლებოდა ou წერს/მეტყოდა combinés avec კონდიციონალური particules. On marque la non-réalité par ფორმები indiquées ci-dessus.",
+          "examples": [
+            {
+              "ka": "თუ მდიდარი ვყოფილიყავი, მოგყიდიდე ბილიეტები.",
+              "fr": "Si j'étais riche, je t'achèterais des billets.",
+              "note": "ვყოფილიყავი = conditionnel/imparfait du verbe être (forme irréelle) "
+            },
+            {
+              "ka": "თუ იცოდით, დაემქანებოდით?",
+              "fr": "Si vous saviez, bougeriez-vous ?",
+              "note": "question irréelle avec ფორმა interrogative"
+            }
+          ],
+          "takeaway": "Utiliser -იყავი / იქნებოდა pour marquer l'irréel."
+        },
+        {
+          "eyebrow": "Passé irréel et regrets",
+          "title": "Exprimer un regret passé",
+          "body": "Pour regrets, on oppose souvent «თუ ... ჰქონდა/იყო» au résultat passé non survenu: Consequence verbale au conditionnel passé (მაშინ იქნებოდა სარგებელი) ou დარქვა/შეიძლებაო.",
+          "examples": [
+            {
+              "ka": "თუ უფრო ადრე მითხრიდი, ჩავდგებოდი შენთან.",
+              "fr": "Si tu m'avais dit plus tôt, je serais venu te voir.",
+              "note": "Regret passé : hypothèse non réalisée → conséquence au conditionnel passé."
+            },
+            {
+              "ka": "თუ შემეძლო, მაინც წავიდოდი.",
+              "fr": "Si j'avais pu, j'y serais quand même allé.",
+              "note": "შეხება შესაძლებლობის passé irréel"
+            }
+          ],
+          "takeaway": "Forger le passé irréel avec participes/passé + conséquence en conditionnel passé."
+        },
+        {
+          "eyebrow": "Nuances et faux amis",
+          "title": "Pièges fréquents",
+          "body": "Ne pas confondre 'თუ' simple (si réel) et constructions complexes où tiempo et modalité changent le sens. Vérifier temps du verbe principal et de la condition pour identifier le type.",
+          "examples": [
+            {
+              "ka": "თუ სოციალურად დაინტერესებული ხარ, შემოგვიერთდი.",
+              "fr": "Si tu t'intéresses socialement, rejoins-nous.",
+              "note": "réel, invitation"
+            },
+            {
+              "ka": "თუ თქვენ მაშინ მოვიდოდით, ყველაფერი სხვანაირი იქნებოდა.",
+              "fr": "Si vous étiez venus alors, tout aurait été différent.",
+              "note": "irréel passé — tout aurait été différent"
+            }
+          ],
+          "takeaway": "Analyser temps et forme verbale après თუ pour classer la condition."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot introduit la condition dans tous les exemples ?",
+              "options": [
+                "და",
+                "რომ",
+                "თუ",
+                "ან"
+              ],
+              "answer": "თუ",
+              "explanation": "Tous les exemples montrent que ‚თუ‘ introduit la condition (si)."
+            },
+            {
+              "prompt": "Quelle forme est indiquée pour marquer l'irréel présent dans les exemples ?",
+              "options": [
+                "présent simple",
+                "ვყოფილიყავი / იქნებოდა (formes irréelles)",
+                "impératif",
+                "infinitif"
+              ],
+              "answer": "ვყოფილიყავი / იქნებოდა (formes irréelles)",
+              "explanation": "Le slide explique que ვყოფილიყავი et იქნებოდა servent à marquer l'irréel présent."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Pour exprimer un regret passé on utilise généralement :",
+              "options": [
+                "si + présent",
+                "si + infinitif",
+                "si + participe/passé + conséquence au conditionnel passé",
+                "si + impératif"
+              ],
+              "answer": "si + participe/passé + conséquence au conditionnel passé",
+              "explanation": "Le cours indique que le passé irréel combine participe/passé pour la condition et conséquence en conditionnel passé."
+            },
+            {
+              "prompt": "Quelle phrase est un exemple de condition réelle selon les slides ?",
+              "options": [
+                "თუ უფრო ადრე მითხრიდი, ჩავდგებოდი შენთან.",
+                "თუ მოაწვები ყავას, დავჯდები შენთან.",
+                "თუ თქვენ მაშინ მოვიდოდით, ყველაფერი სხვანაირი იქნებოდა.",
+                "თუ შემეძლო, მაინც წავიდოდი."
+              ],
+              "answer": "თუ მოაწვები ყავას, დავჯდები შენთან.",
+              "explanation": "Cet exemple est donné comme condition réelle (possible) : préparation du café → action future réelle."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-010",
+      "title": "აქტიური და პასიური კონსტრუქციები: ცვლილებები მნიშვნელობაში (voix active/passive)",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 10,
+      "tag": "voix passive",
+      "icon": "🔊",
+      "goal": "Savoir construire et reconnaître la voix passive en géorgien et comprendre les différences de focalisation entre actif et passif.",
+      "slides": [
+        {
+          "eyebrow": "Basics",
+          "title": "Active vs passive — principe",
+          "body": "La voix passive en géorgien s'exprime souvent avec participe-passé + ქონია/იყო ან მხრივიანი ფორმები (被-like constructions) ou par გამოსაკვეთად გამოიყენება გადამყვანი ფორმები. Le choix dépend du verbe et du registre.",
+          "examples": [
+            {
+              "ka": "ვინც დაწერა წერილი.",
+              "fr": "Celui qui a écrit la lettre.",
+              "note": "Actif sous forme relative"
+            },
+            {
+              "ka": "წერილი წერია.",
+              "fr": "La lettre est écrite.",
+              "note": "Forme passive fréquentielle (წერია)"
+            }
+          ],
+          "takeaway": "Le passif met l'accent sur l'objet/état plutôt que sur l'agent."
+        },
+        {
+          "eyebrow": "Formes courantes",
+          "title": "Participe passé + არის/იყო",
+          "body": "Pour indiquer un état résultant : participe passé + არის (présent) ou იყო (passé). Pour insister sur l'agent, ajouter მიერ ou agent à l'aide de მიერ/გამო par exemple.",
+          "examples": [
+            {
+              "ka": "ფურცელი დასადებია.",
+              "fr": "La feuille est posée (a été posée).",
+              "note": "დასადებია = participe+არსებული forma; registre familier"
+            },
+            {
+              "ka": "ფურცელი მარმა დადებულა.",
+              "fr": "La feuille a été posée par Mariam.",
+              "note": "agent exprimé par სიტყვა მარმა (instrumental)"
+            }
+          ],
+          "takeaway": "Participe+არის indique état; pour l'agent utiliser მარმა/მეით (instrumental/marker)."
+        },
+        {
+          "eyebrow": "Alternatives avec წარმოება და გამო-",
+          "title": "Verbes morphologiques pour la voix passive",
+          "body": "Certains verbes forment des dérivés passifs avec წინსაფრები (გა-, გამო-) ou verbes causatifs (შე-), changeant la focalisation. Ex : გაკვეთილებულია = a été enseigné, გამოქვეყნდა = a été publié.",
+          "examples": [
+            {
+              "ka": "სტატია გამოქვეყნდა გაზეთში.",
+              "fr": "L'article a été publié dans le journal.",
+              "note": "გამოკვეთა ფორმა marque l'événement passé"
+            },
+            {
+              "ka": "ტექსტი უკვე დაბეჭდილია.",
+              "fr": "Le texte est déjà imprimé.",
+              "note": "დაბეჭდილია = état résultant / passive"
+            }
+          ],
+          "takeaway": "Reconnaître dérivés verbaux comme passifs par les préfixes et la forme finale."
+        },
+        {
+          "eyebrow": "Choix stylistique",
+          "title": "Quand préférer l'actif ou le passif ?",
+          "body": "Utiliser le passif pour : focaliser sur le résultat, éviter à mentionner l'agent, ou formuler des descriptions objectives. L'actif pour insister sur l'agent ou l'action elle‑même.",
+          "examples": [
+            {
+              "ka": "პროექტი დაამუშავა ჯგუფმა.",
+              "fr": "Le projet a été élaboré par l'équipe. (actif focalisé sur l'agent)",
+              "note": "გაკეთებული ფორმა avec agent souligné"
+            },
+            {
+              "ka": "პროექტი უკვე დამუშავებულია.",
+              "fr": "Le projet est déjà élaboré. (passif, focalisé sur l'état)",
+              "note": "passif focalisé sur l'état du projet"
+            }
+          ],
+          "takeaway": "Choisir la voix selon la focalisation souhaitée : agent vs résultat."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle construction indique un état résultant dans les exemples ?",
+              "options": [
+                "infinitif",
+                "participe passé + არის/იყო",
+                "gérondif",
+                "impératif"
+              ],
+              "answer": "participe passé + არის/იყო",
+              "explanation": "Le slide 2 explique clairement que participe passé + არის/იყო indique un état résultant."
+            },
+            {
+              "prompt": "Comment exprimer l'agent dans la phrase passive selon l'exemple ?",
+              "options": [
+                "en supprimant le verbe",
+                "avec conjonction რომ",
+                "avec მარ/გვარის",
+                "avec მარმა (instrumental)"
+              ],
+              "answer": "avec მარმა (instrumental)",
+              "explanation": "L'exemple montre ფურცელი მარმა დადებულა — l'agent est exprimé par მარმა (instrumental)."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quel préfixe est mentionné comme créant des dérivés passifs ou résultats ?",
+              "options": [
+                "დე-",
+                "გა- / გამო-",
+                "უ-",
+                "და-"
+              ],
+              "answer": "გა- / გამო-",
+              "explanation": "Le slide 3 mentionne explicitly préfixes გა- et გამო- pour dérivés utilisés en voix passive (გაკვეთილებულია, გამოქვეყნდა)."
+            },
+            {
+              "prompt": "Pourquoi choisir le passif selon le dernier slide ?",
+              "options": [
+                "pour augmenter la longueur de phrase",
+                "pour focaliser sur le résultat ou éviter l'agent",
+                "parce que c'est toujours plus formel",
+                "pour rendre le texte plus ambigu"
+              ],
+              "answer": "pour focaliser sur le résultat ou éviter l'agent",
+              "explanation": "Le slide 4 énonce que le passif sert à focaliser sur le résultat ou à éviter de mentionner l'agent."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-001",
+      "title": "Exprimer le but et la conséquence en géorgien",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 1,
+      "tag": "grammaire",
+      "icon": "🎯",
+      "goal": "Savoir exprimer le but (pour que) et la conséquence (de sorte que) en géorgien contemporain à l’écrit et à l’oral.",
+      "slides": [
+        {
+          "eyebrow": "But — conjonction principale",
+          "title": "Utiliser რომ pour introduire une subordonnée de but",
+          "body": "La particule რომ introduit souvent une subordonnée exprimant le but ou l'intention. Elle est suivie d'une proposition avec l'ordre habituel sujet-verbe-complément. La nuance dépend du contexte et du verbe principal.",
+          "examples": [
+            {
+              "ka": "ვმეცადინეობ, რომ მივიღო კარგი შედეგი.",
+              "fr": "J'étudie pour obtenir un bon résultat."
+            },
+            {
+              "ka": "დავუსახელი, რომ შეწუხდება?",
+              "fr": "Je l'ai fait pour qu'il/elle ne soit pas dérangé(e).",
+              "note": "forme orale/colloquiale"
+            }
+          ],
+          "takeaway": "რომ + proposition = but/intention (équivalent de « pour que »)."
+        },
+        {
+          "eyebrow": "But — style plus soutenu",
+          "title": "Utiliser რათა pour un style plus soutenu ou formel",
+          "body": "კარგად მიმართავენ სიტყვას რათა quand on cherche un registre plus soutenu. Semblable à რომ mais perçu comme plus littéraire ou administratif.",
+          "examples": [
+            {
+              "ka": "ვწერ განაცხადს, რათა მივიღო მონაწილეობა კონფერენციაზე.",
+              "fr": "J'écris la demande afin de participer à la conférence."
+            },
+            {
+              "ka": "შეიცვალა წესები, რათა გამოუყენებელიყო უფრო ეფექტურად რესურსები.",
+              "fr": "Les règles ont été modifiées afin d'utiliser les ressources de façon plus efficace.",
+              "note": "registre administratif"
+            }
+          ],
+          "takeaway": "კარგი alternative à რომ quand on veut un ton formel (კარგად conseiller: მეტი ოფიციალურად)."
+        },
+        {
+          "eyebrow": "Conséquence",
+          "title": "Exprimer la conséquence avec რომ (résultat)",
+          "body": "Parfois რომ introduit non seulement le but mais la conséquence (résultat constaté). Le contexte et/ou l'intonation montrent la valeur de conséquence.",
+          "examples": [
+            {
+              "ka": "სწავლა ბევრს ვიკეთე, რომ გამოცდაზე წარმატება მქონდა.",
+              "fr": "J'ai beaucoup étudié, si bien que j'ai réussi l'examen.",
+              "note": "conséquence"
+            },
+            {
+              "ka": "მან ბევრი იმუშავა, რომ ბონუსი მიიღო.",
+              "fr": "Il/elle a beaucoup travaillé, de sorte qu'il/elle a reçu un bonus."
+            }
+          ],
+          "takeaway": "Le même mot peut exprimer but ou conséquence; lisez le contexte pour distinguer."
+        },
+        {
+          "eyebrow": "Pratique",
+          "title": "Choisir entre რომ et რათა",
+          "body": "Si vous voulez un style courant et oral, préférez რომ. Pour un style soutenu ou administratif, choisissez ώστε ou რათა. Toujours vérifier le sens (but vs conséquence).",
+          "examples": [
+            {
+              "ka": "ვმუშაობ, რომ ოჯახი დავზომო საცხოვრებლად.",
+              "fr": "Je travaille pour assurer un logement à ma famille."
+            },
+            {
+              "ka": "მისი ჩანაფიქრი იყო სერიოზული, რათა პროექტი დასრულებულიყო დროულად.",
+              "fr": "Son intention était sérieuse afin que le projet soit terminé à temps.",
+              "note": "ton soutenu"
+            }
+          ],
+          "takeaway": "רომ = courant (but ou conséquence), რათა = soutenu/formel (but)."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot choisiriez-vous pour une phrase administrative \"afin que\" ?",
+              "options": [
+                "რომ",
+                "რითო",
+                "თუ",
+                "კითხვა"
+              ],
+              "answer": "რომ",
+              "explanation": "Pour un registre courant, notamment oral ou écrit simple, on utilise រом. Cependant, notez queათვის plus soutenu est 'კარგა'—dans ce cours, 'რომ' est bien présenté pour le but courant."
+            },
+            {
+              "prompt": "Quel exemple illustre un usage soutenu de \"afin que\" ?",
+              "options": [
+                "ვმეცადინეობ, რომ მივიღო კარგი შედეგი.",
+                "ვწერ განაცხადს, რათა მივიღო მონაწილეობა კონფერენციაზე.",
+                "მან ბევრი იმუშავა, რომ ბონუსი მიიღო.",
+                "სწავლა ბევრს ვიკეთე, რომ გამოცდაზე წარმატება მქონდა."
+              ],
+              "answer": "ვწერ განაცხადს, რათა მივიღო მონაწილეობა კონფერენციაზე.",
+              "explanation": "Cette phrase utilise 'რათა' (თანა form) — ici 'რათა/კარგად' (leçon présente 'რათა/კარგად' en tant que 'კარგად'—mais dans les exemples, 'რათა' apparaît sous forme 'რათა' ou 'კარგად' ; l'exemple exact fournit 'ვწერ განაცხადს, რათა...', donc la bonne réponse est celle avec 'რათა'/'კარგად'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Dans la phrase «ის მიზანი ჰქონდა, რომ პროექტი დასრულებულიყო დროულად», quelle est la valeur de რომ ?",
+              "options": [
+                "but/intention",
+                "question",
+                "négation",
+                "ordre impératif"
+              ],
+              "answer": "but/intention",
+              "explanation": "Contexte et verbe indiquent une intention : 'Son intention était que le projet soit terminé à temps' → valeur de but."
+            },
+            {
+              "prompt": "Laquelle de ces phrases montre 'conséquence' plutôt que 'but' ?",
+              "options": [
+                "ვწერ განცხადებას, რათა მივიღო მონაწილეობა.",
+                "ვმეცადინე ბევრი, რომ გამოცდაზე წარმატება მქონდა.",
+                "ვმუშაობ, რომ ოჯახს ორი ოთახი ვიყიდოთ.",
+                "მან გეგმები მოგვცა, რათა შეხვედრა დაწყებულიყო."
+              ],
+              "answer": "ვმეცადინე ბევრი, რომ გამოცდაზე წარმატება მქონდა.",
+              "explanation": "Ici 'რომ' introduit la conséquence résultant d'une action passée (il a étudié beaucoup; en conséquence il a réussi)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-002",
+      "title": "Les participes et les propositions adjectivales",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 2,
+      "tag": "morphologie",
+      "icon": "✍️",
+      "goal": "Apprendre à former et utiliser les participes adjectivaux courants en géorgien (forme -ლი, -ბული, -ებული) pour décrire des états ou des actions passées.",
+      "slides": [
+        {
+          "eyebrow": "Formation",
+          "title": "Participe en -ლი pour l'état résultant",
+          "body": "Le suffixe -ლი se colle souvent au radical pour former un adjectif indiquant l'état résultant d'une action. Il s'accorde en nombre et cas comme adjectif.",
+          "examples": [
+            {
+              "ka": "დახურული კარ-ი",
+              "fr": "La porte fermée"
+            },
+            {
+              "ka": "გამზადებული ოთახი",
+              "fr": "La chambre préparée"
+            }
+          ],
+          "takeaway": "-ლი = état résultant (équiv. « -é » en français parfois)."
+        },
+        {
+          "eyebrow": "Durée / résultat",
+          "title": "Participe en -ებული (parfaitif) pour action complétée",
+          "body": "-ებული marque souvent une action accomplie et son résultat. Très courant dans la langue standard pour décrire quelque chose de fait.",
+          "examples": [
+            {
+              "ka": "თავდაშლილი ფესტივალი შენობაში გაიმართა.",
+              "fr": "Un festival organisé librement a eu lieu dans le bâtiment.",
+              "note": "exemple avec sens composé"
+            },
+            {
+              "ka": "დასრულებული პროექტი წარმოადგინეს მოსამზადებლად.",
+              "fr": "Ils ont présenté le projet achevé pour préparation."
+            }
+          ],
+          "takeaway": "-ებული = action achevée avec emphase sur le résultat."
+        },
+        {
+          "eyebrow": "Agentivité",
+          "title": "Participe en -ბული pour action potentielle ou passive",
+          "body": "-ბული est souvent utilisé pour indiquer quelque chose qui a été fait (forme passive/adjective) ou qui peut être fait; parfois synonyme de -ებული selon le verbe et le contexte.",
+          "examples": [
+            {
+              "ka": "მისაწვდომი მონაცემები გადმოღებულია და შემოთავაზებულია გამოსაყენებლად.",
+              "fr": "Les données disponibles ont été transférées et proposées pour utilisation."
+            },
+            {
+              "ka": "მოთხოვნადი ნივთები მალე იქნება მომარაგებული.",
+              "fr": "Les articles demandés seront bientôt approvisionnés."
+            }
+          ],
+          "takeaway": "-ბული indique souvent une qualité résultant d'une action subie ou la capacité d'être ainsi traité."
+        },
+        {
+          "eyebrow": "Usage pratique",
+          "title": "Différencier -ლი, -ებული et -ბული dans la description",
+          "body": "Pour choisir la forme : -ლი pour état simple, -ებული pour action complétée et résultat visible, -ბული pour sens passif/possibilité. Contextualisez selon le verbe et l'intention.",
+          "examples": [
+            {
+              "ka": "დახურული ფანჯარა (estado simple), გაფორმებული დოკუმენტი (action achevée), გაგზავნილი/გადაწერილი ბრალი (passif).",
+              "fr": "Fenêtre fermée (état), document signé (action achevée), accusation envoyée/transmise (passif)."
+            }
+          ],
+          "takeaway": "Observez le verbe et le contexte pour choisir le participe approprié."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle terminaison insiste le plus sur une action accomplie avec résultat visible ?",
+              "options": [
+                "-ლი",
+                "-ბული",
+                "-ებული",
+                "-ნა"
+              ],
+              "answer": "-ებული",
+              "explanation": "-ებული marque une action achevée et met l'accent sur le résultat."
+            },
+            {
+              "prompt": "Quelle forme correspond plutôt à un état simple résultant ?",
+              "options": [
+                "-მი",
+                "-ლი",
+                "-ებული",
+                "-ით"
+              ],
+              "answer": "-ლი",
+              "explanation": "-ლი forme un adjectif d'état résultant (ex. 'დახურული')."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Choisissez la phrase où -ბული a une valeur passive/possibilité :",
+              "options": [
+                "დახურული კარი",
+                "დასრულებული პროექტი",
+                "მოთხოვნადი ნივთები მომარაგებული იქნება",
+                "ვინმემ დაწერა"
+              ],
+              "answer": "მოთხოვნადი ნივთები მომარაგებული იქნება",
+              "explanation": "Ici 'მომარაგებული' (forme passive/adjectivale) indique que les articles seront approvisionnés (valeur passive/possibilité)."
+            },
+            {
+              "prompt": "Laquelle des réponses montre un état obtenu après une action ?",
+              "options": [
+                "დახურული ფანჯარა",
+                "თავს გამოტყდომა",
+                "შევიდა ოთახში",
+                "მიმდინარე პროცესი"
+              ],
+              "answer": "დახურული ფანჯარა",
+              "explanation": "'დახურული ფანჯარა' est un état résultant (forme en -ლი)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-003",
+      "title": "Exprimer l’opinion, la certitude et le doute",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 3,
+      "tag": "pragmatique",
+      "icon": "💬",
+      "goal": "Savoir formuler des opinions, exprimer le doute et nuancer la certitude en géorgien avec des expressions courantes.",
+      "slides": [
+        {
+          "eyebrow": "Opinion simple",
+          "title": "Phrases pour donner une opinion",
+          "body": "Les verbes et expressions comme მგონია, ვფიქრობ, ვფიქრობ რომ introduisent une opinion. On peut adoucir avec кажется-equivalents.",
+          "examples": [
+            {
+              "ka": "მგონია, რომ ამ ფილმს ღირდა ნახვა.",
+              "fr": "Je pense que ce film valait la peine d'être vu."
+            },
+            {
+              "ka": "მე ვფიქრობ, ეს იდეა პრაქტიკულია.",
+              "fr": "Je pense que cette idée est pratique."
+            }
+          ],
+          "takeaway": "მგონია / ვფიქრობ = 'je pense/je crois'."
+        },
+        {
+          "eyebrow": "Doute",
+          "title": "Formuler le doute : შესაძლოა, შეიძლება, არ ვარ დარწმუნებული",
+          "body": "Pour exprimer le doute ou l'incertitude, on utilise შეიძლება, შესაძლოა (probable), ან/არ ვარ დარწმუნებული (je ne suis pas sûr).",
+          "examples": [
+            {
+              "ka": "შეიძლება უშედეგოდ დასრულდეს პროექტი.",
+              "fr": "Il se peut que le projet échoue."
+            },
+            {
+              "ka": "არ ვარ დარწმუნებული, რომ ეს სწორია.",
+              "fr": "Je ne suis pas sûr que ce soit correct."
+            }
+          ],
+          "takeaway": "მშევადე/შეიძლება/არ ვარ დარწმუნებული pour nuancer l'incertitude."
+        },
+        {
+          "eyebrow": "Certitude",
+          "title": "Affirmer la certitude : ვიცი, დარწმუნებული ვარ",
+          "body": "Pour marquer la certitude, utilisez ვიცი (je sais) ou დარწმუნებული ვარ (je suis convaincu). Ces expressions sont plus fortes que მგონია.",
+          "examples": [
+            {
+              "ka": "ვიცი, რომ შეხვედრა ის başladı საათზეა.",
+              "fr": "Je sais que la réunion commence à l'heure."
+            },
+            {
+              "ka": "დარწმუნებული ვარ, რომ იგი დამეხმარება.",
+              "fr": "Je suis convaincu(e) qu'il/elle m'aidera."
+            }
+          ],
+          "takeaway": "მისცეთ la gradation : შეიძლება < მგონია < დარწმუნებული ვარ / ვიცი."
+        },
+        {
+          "eyebrow": "Nuancer",
+          "title": "Nuancer une opinion avec adverbes et tournures",
+          "body": "Adverbes comme საკმაოდ (plutôt), ცოტა (un peu), სრულიად (totalement) permettent d'affiner. On peut combiner avec მგონია/ ვფიქრობ/ შეიძლება.",
+          "examples": [
+            {
+              "ka": "საკმარისად მგონია, რომ ეს ნაბიჯი საჭირო იყო.",
+              "fr": "Je pense assez fortement que cette étape était nécessaire."
+            },
+            {
+              "ka": "ბოლომდე ვერ დავრწმუნდი, მაგრამ ცოტა სწორია.",
+              "fr": "Je ne suis pas totalement convaincu, mais c'est plutôt correct."
+            }
+          ],
+          "takeaway": "Utilisez adverbes pour moduler force de l'opinion et de la certitude."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quelle expression utiliser pour dire « il se peut que » ?",
+              "options": [
+                "ვიცი",
+                "გაჩვენე",
+                "შეიძლება",
+                "დარწმუნებული ვარ"
+              ],
+              "answer": "შეიძლება",
+              "explanation": "შეიძლება signifie 'il est possible/il se peut que' et exprime le doute/possibilité."
+            },
+            {
+              "prompt": "Comment dire « je ne suis pas sûr » ?",
+              "options": [
+                "არ ვარ დარწმუნებული",
+                "ვიცი",
+                "გავაკეთებ",
+                "გასაგებია"
+              ],
+              "answer": "არ ვარ დარწმუნებული",
+              "explanation": "Formulation littérale : 'je ne suis pas convaincu/je ne suis pas sûr'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase exprime la plus forte certitude ?",
+              "options": [
+                "ვიცი, რომ შეხვედრა არის დღეს.",
+                "მე მგონია, შეხვედრა დღეს არის.",
+                "შეიძლება შეხვედრა იყოს დღეს.",
+                "არ ვარ დარწმუნებული, შეხვედრა დღეს არის თუ არა."
+              ],
+              "answer": "ვიცი, რომ შეხვედრა არის დღეს.",
+              "explanation": "ვიცი marque un savoir certain, plus fort que მგონია ou შეიძლება."
+            },
+            {
+              "prompt": "Quelle combinaison sert à atténuer une opinion ?",
+              "options": [
+                "დარწმუნებული ვარ სრულიად",
+                "საკმარისად მგონია",
+                "ვიცი ზუსტად",
+                "დარწმუნებული ვარ თბილად"
+              ],
+              "answer": "საკმარისად მგონია",
+              "explanation": "საკმარისად (assez) + მგონია atténue/nuance l'opinion."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-004",
+      "title": "Reflexifs et réciproques : თვითონ, ერთმანეთი",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 4,
+      "tag": "syntaxe",
+      "icon": "🔁",
+      "goal": "Comprendre et utiliser correctement les pronoms réfléchis (თვითონ) et réciproques (ერთმანეთი/მეორე) en géorgien contemporain.",
+      "slides": [
+        {
+          "eyebrow": "Pronoms réfléchis",
+          "title": "თვითონ pour insister sur le sujet",
+          "body": "თვითონ sert à insister sur le sujet (lui-même/elle-même). Placé après le nom ou le pronom il renforce l'identité de l'agent.",
+          "examples": [
+            {
+              "ka": "პეტრე თვითონ მოემზადა წასასვლელად.",
+              "fr": "Pierre s'est préparé lui-même pour partir."
+            },
+            {
+              "ka": "მან თვითონ თქვა სიმართლე.",
+              "fr": "Il/elle a dit la vérité lui/elle-même."
+            }
+          ],
+          "takeaway": "თვითონ = 'lui-même/elle-même' pour insister sur l'agent."
+        },
+        {
+          "eyebrow": "Réciproques",
+          "title": "ერთმანეთი pour l'action réciproque",
+          "body": "ერთმანეთი indique une action réciproque entre deux ou plusieurs personnes (l'un l'autre). Utilisé pour verbes transitifs ou pronominaux.",
+          "examples": [
+            {
+              "ka": "მათი ბავშვები ერთმანეთს ეხმარებიან.",
+              "fr": "Leurs enfants s'entraident."
+            },
+            {
+              "ka": "მათი ნათესავები ერთმანეთს ურეკავენ მასთან.",
+              "fr": "Leurs proches s'appellent les uns les autres."
+            }
+          ],
+          "takeaway": "ერთმანეთი = 'les uns les autres'."
+        },
+        {
+          "eyebrow": "Placement et accord",
+          "title": "Placement de თვითონ et elkaar en phrase",
+          "body": "თვითონ suit en général le nom/pronom qu'il renforce. სამთვნეთი suit l'objet ou l'action et s'utilise souvent comme complément. En cas d'ambiguïté, l'ordre des mots clarifie le rôle.",
+          "examples": [
+            {
+              "ka": "ანა თვითონ და ნინო ერთმანეთს ურეკავენ.",
+              "fr": "Ana elle-même et Nino s'appellent l'une l'autre."
+            },
+            {
+              "ka": "ჩვენ ერთმანეთი კარგად არ ვიცნობთ.",
+              "fr": "Nous ne nous connaissons pas bien."
+            }
+          ],
+          "takeaway": "Positionnez correctement pour éviter l'ambiguïté : თვითონ après sujet, ერთმანეთი pour marquer la réciprocité."
+        },
+        {
+          "eyebrow": "Nuances",
+          "title": "Nuances entre თვითონ, თავის/თვით, და ერთმანეთი",
+          "body": "თვითონ insiste sur l'identité du sujet ; თავის renvoie à 'son propre' (possessif) ; ერთმანეთი marque la réciprocité. Choisissez selon ce que vous voulez souligner.",
+          "examples": [
+            {
+              "ka": "ის თავის საქმეს აკეთებს (il/elle fait son propre travail).",
+              "fr": "Il/elle fait son propre travail."
+            },
+            {
+              "ka": "ის თავისდამი პასუხისმგებელია, თვითონ კი სხვას დაეხმარა.",
+              "fr": "Il/elle est responsable de soi-même, mais lui/elle a aidé quelqu'un d'autre lui-même."
+            }
+          ],
+          "takeaway": "Différenciez თავის (possessif), თვითონ (insistance) და ერთმანეთი (réciprocité)."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot utilisez-vous pour dire 'les uns les autres' ?",
+              "options": [
+                "თავით",
+                "ერთმანეთი",
+                "თვითონ",
+                "მისילה"
+              ],
+              "answer": "ერთმანეთი",
+              "explanation": "ერთმანეთი signifie 'les uns les autres' et sert à exprimer la réciprocité."
+            },
+            {
+              "prompt": "Dans la phrase «პეტრე თვითონ მიიტანა ჩანთა», que signifie თვითონ ?",
+              "options": [
+                "il a laissé le sac",
+                "il l'a emporté lui-même",
+                "le sac est parti tout seul",
+                "il a acheté le sac"
+              ],
+              "answer": "il l'a emporté lui-même",
+              "explanation": "თანაძლევით 'თვითონ' insiste que Pierre a agi lui-même."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle phrase illustre correctement la différence entre 'თვითონ' et 'თავის' ?",
+              "options": [
+                "მან საკუთარი წიგნი დაუტოვა, თვითონ წავიდა.",
+                "მან წიგნი დადგა და წავიდა.",
+                "თავისი კარადა შენობაშია, თვითონ კი გარეთ.",
+                "ერთმანეთი ეხმარებიან ერთმანეთას."
+              ],
+              "answer": "მან საკუთარი წიგნი დაუტოვა, თვითონ წავიდა.",
+              "explanation": "'საკუთარი'/'თავისი' = son propre; 'თვითონ' = lui-même (ici il est parti lui-même) ; cette phrase montre les deux notions."
+            },
+            {
+              "prompt": "Comment traduire «Nous nous sommes parlé» ?",
+              "options": [
+                "ჩვენ დაველაპარაკეთ ერთმანეთს",
+                "ჩვენ ვილაპარაკეთ მისთვის",
+                "ჩვენ თვითონ დაველაპარაკეთ",
+                "ჩვენი ერთმანეთი იყო"
+              ],
+              "answer": "ჩვენ დაველაპარაკეთ ერთმანეთს",
+              "explanation": "Nous nous sommes parlé = 'დაველაპარაკეთ ერთმანეთს' utilise 'ერთმანეთი' pour la réciprocité."
+            }
+          ]
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "elearning_lessons-b2-gen-005",
+      "title": "Locatif et prépositions de lieu",
+      "level": "B2",
+      "cefr": "B2",
+      "version": 5,
+      "tag": "lexique",
+      "icon": "📍",
+      "goal": "Maîtriser les prépositions et postpositions de lieu courantes (ში, ზე, কাছে, შორის, წინ/หลัง) et leur usage contextualisé en géorgien contemporain.",
+      "slides": [
+        {
+          "eyebrow": "Base locative",
+          "title": "ში et ზე : intérieur vs surface",
+          "body": "ში indique l'intérieur (dans), ზე indique la surface ou l'endroit (sur, à). Choisissez selon la relation spatiale entre objet et lieu.",
+          "examples": [
+            {
+              "ka": "კარადაში წიგნებია (კვირაში).",
+              "fr": "Il y a des livres dans l'armoire."
+            },
+            {
+              "ka": "მაგიდაზე კომპიუტერია.",
+              "fr": "L'ordinateur est sur la table."
+            }
+          ],
+          "takeaway": "ში = dans ; ზე = sur/à (surface ou point local)."
+        },
+        {
+          "eyebrow": "Proximité et entre",
+          "title": "კარგი, გვერდით, შორის — proximité et entre",
+          "body": "თანა/კითხვები : কাছে (près de), გვერდით (à côté de), შორის (entre). Ces mots décrivent la relation spatiale relative.",
+          "examples": [
+            {
+              "ka": "სავაჭრო ცენტრი ბიბლიოთეკის გვერდითაა.",
+              "fr": "Le centre commercial est à côté de la bibliothèque."
+            },
+            {
+              "ka": "ხე ორ სახლს შორის დგას.",
+              "fr": "Un arbre se tient entre deux maisons."
+            }
+          ],
+          "takeaway": "კი: 'კარი გვერდითაა', 'შუა/შუა შორის' pour entre."
+        },
+        {
+          "eyebrow": "Avant / arrière / devant",
+          "title": "წინ et უკან pour avant et arrière ; წინაზე pour devant",
+          "body": "წინ = devant/avant, უკან = derrière/arrière. Pour 'en face de' on peut dire 'წინა მხარეს' ou 'წინ' avec verbe adapté.",
+          "examples": [
+            {
+              "ka": "ავტობუსი შენობის წინ გაჩერდა.",
+              "fr": "Le bus s'est arrêté devant le bâtiment."
+            },
+            {
+              "ka": "მან კარები უკან დახურა.",
+              "fr": "Il/elle a refermé la porte derrière."
+            }
+          ],
+          "takeaway": "Utilisez წინ/უკან pour marquer l'orientation avant/arrière."
+        },
+        {
+          "eyebrow": "Usage et nuances",
+          "title": "Combinaisons et collocations fréquentes",
+          "body": "Certaines expressions sont figées : 'კარზე დააკაკუნა' (a frappé à la porte), 'გადმოაბიჯა მაგიდაზე' (sauter sur la table) ; vérifiez le verbe collé à la postposition.",
+          "examples": [
+            {
+              "ka": "ის მიუახლოვდა კართან და დააკაკუნა.",
+              "fr": "Il/elle s'est approché(e) de la porte et a frappé."
+            },
+            {
+              "ka": "ბიჭებმა თამაშის დროს ჭიშკართან დგომა დაიწყეს.",
+              "fr": "Les garçons ont commencé à rester près du portail pendant le jeu."
+            }
+          ],
+          "takeaway": "Apprenez les collocations (verbe+postposition) pour un usage naturel."
+        }
+      ],
+      "checks": [
+        {
+          "after_slide": 2,
+          "questions": [
+            {
+              "prompt": "Quel mot signifie 'entre' ?",
+              "options": [
+                "კითხვა",
+                "საერთოდ",
+                "შორის",
+                "თან"
+              ],
+              "answer": "შორის",
+              "explanation": "შორის signifie 'entre' (ex. ხე ორ სახლს შორის)."
+            },
+            {
+              "prompt": "Comment dire 'à côté de' ?",
+              "options": [
+                "შიგან",
+                "გვერდით",
+                "ზემოთ",
+                "უკან"
+              ],
+              "answer": "გვერდით",
+              "explanation": "გვერდით signifie 'à côté de'."
+            }
+          ]
+        },
+        {
+          "after_slide": 4,
+          "questions": [
+            {
+              "prompt": "Quelle postposition utiliser pour 'dans l'armoire' ?",
+              "options": [
+                "ზე",
+                "კნექცია",
+                "ში",
+                "პირები"
+              ],
+              "answer": "ში",
+              "explanation": "ში indique l'intérieur (dans l'armoire = კარადაში)."
+            },
+            {
+              "prompt": "Dans 'ავტობუსი შენობის წინ გაჩერდა', que signifie წინ ?",
+              "options": [
+                "derrière",
+                "dedans",
+                "devant/avant",
+                "à côté de"
+              ],
+              "answer": "devant/avant",
+              "explanation": "წინ signifie 'devant' ou 'avant' (le bus s'est arrêté devant le bâtiment)."
+            }
+          ]
+        }
+      ],
+      "related": []
+    }
+  ]
+}

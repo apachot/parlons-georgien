@@ -1,0 +1,117 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "dictation_sentences-c1-gen-001",
+      "version": 1,
+      "cefr": "C1",
+      "fr": "Malgré la pluie, il a couru jusqu'à la gare.",
+      "ka": "წვიმის მიუხედავად, მან სადგურისკენ გაიქცა.",
+      "answers": [
+        "წვიმის მიუხედავად, მან სადგურისკენ გაიქცა."
+      ],
+      "note": "« despite » = « მიუხედავად » ; verbes de mouvement avec locatif (« სადგურისკენ გაიქცა »)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-002",
+      "version": 2,
+      "cefr": "C1",
+      "fr": "Elle m'a dit qu'elle viendrait si elle pouvait.",
+      "ka": "მან მითხრა, რომ მოვიდოდა, თუ შეძლებდა.",
+      "answers": [
+        "მან მითხრა, რომ მოვიდოდა, თუ შეძლებდა."
+      ],
+      "note": "discours rapporté avec conjonction « რომ » et conditionnel en géorgien (« მოვიდოდა », « შეძლებდა »)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-003",
+      "version": 3,
+      "cefr": "C1",
+      "fr": "Il faut que nous ayons terminé le rapport avant vendredi soir.",
+      "ka": "უნდა დავასრულოთ ანგარიში პარასკევის საღამომდე.",
+      "answers": [
+        "უნდა დავასრულოთ ანგარიში პარასკევის საღამომდე.",
+        "უნდა დავასრულოთ ანგარიში პარასკევის საღამოსთვის."
+      ],
+      "note": "« Il faut que » rendu par « უნდა » + 1re personne du pluriel ; deux formulations temporelles acceptables."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-004",
+      "version": 4,
+      "cefr": "C1",
+      "fr": "La concertation entre les services a permis d'éviter des doublons coûteux.",
+      "ka": "სამსახურებს შორის შეთანხმებით თავიდან ავიცილეთ ხარჯიანი ორმაგი სამუშაო.",
+      "answers": [
+        "სამსახურებს შორის შეთანხმებით თავიდან ავიცილეთ ხარჯიანი ორმაგი სამუშაო."
+      ],
+      "note": "vocabulaire administratif ; « éviter » = « თავიდან აცილება/თავიდან ავიცილეთ » ; « doublons » rendu par « ორმაგი (შრომა/სამუშაო) ». "
+    },
+    {
+      "id": "dictation_sentences-c1-gen-005",
+      "version": 5,
+      "cefr": "C1",
+      "fr": "Sa maîtrise de la langue trahissait des années de pratique en contexte professionnel.",
+      "ka": "მისი ენის გამოყენება გვამცნობდა, რომ მას პროფესიულ გარემოში მრავალი წლის გამოცდილება ჰქონდა.",
+      "answers": [
+        "მისი ენის გამოყენება გვამცნობდა, რომ მას პროფესიულ გარემოში მრავალი წლის გამოცდილება ჰქონდა."
+      ],
+      "note": "expression idiomatique : « trahir » = « გვამცნობდა » ; construction possessive + expérience (« ჰქონდა »)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-006",
+      "version": 6,
+      "cefr": "C1",
+      "fr": "Je crains que les mesures proposées ne suffisent pas à compenser les pertes.",
+      "ka": "მეშინია, რომ შემოთავაზებული ზომები არ იქნება საკმარისი ზარალის კომპენსაციისათვის.",
+      "answers": [
+        "მეშინია, რომ შემოთავაზებული ზომები არ იქნება საკმარისი ზარალის კომპენსაციისათვის.",
+        "მეშინია, რომ შემოთავაზებული ზომები არ იქნება საკმარისი ზარალის კომპენსაციისთვის."
+      ],
+      "note": "« Je crains que » = « მეშინია, რომ » ; deux variantes orthographiques/flexionnelles acceptables pour « compensation ». "
+    },
+    {
+      "id": "dictation_sentences-c1-gen-007",
+      "version": 7,
+      "cefr": "C1",
+      "fr": "Lorsqu'on lit ses articles, on perçoit un souci constant de nuance et d'équilibre.",
+      "ka": "როცა ვკითხულობთ მის სტატიებს, იგრძნობა მუდმივი ზრუნვა ნიუანსების და წონასწორობისადმი.",
+      "answers": [
+        "როცა ვკითხულობთ მის სტატიებს, იგრძნობა მუდმივი ზრუნვა ნიუანსების და წონასწორობისადმი."
+      ],
+      "note": "subordination temporelle « როცა » + construction impersonnelle « იგრძნობა » ; préposition « -ადმი » pour l'orientation du souci. "
+    },
+    {
+      "id": "dictation_sentences-c1-gen-008",
+      "version": 8,
+      "cefr": "C1",
+      "fr": "Il a négocié son départ en convenant d'une clause de non-concurrence stricte.",
+      "ka": "მან მოლაპარაკების შედეგად შეთანხმდა თავისი წასვლა და დათანხმდა მკაცრ არაკონკურენციულ დებულებას.",
+      "answers": [
+        "მან მოლაპარაკების შედეგად შეთანხმდა თავისი წასვლა და დათანხმდა მკაცრ არაკონკურენციულ დებულებას."
+      ],
+      "note": "« négocier » et « convenir » rendus par « შეთანხმდა » et « დათანხმდა » ; nomenclature juridique « არაკონკურენციული დებულება ». "
+    },
+    {
+      "id": "dictation_sentences-c1-gen-009",
+      "version": 9,
+      "cefr": "C1",
+      "fr": "La perspective d'une réforme graduelle a apaisé certaines réticences, sans pour autant convaincre tous les sceptiques.",
+      "ka": "ეტაპობრივი რეფორმის პერსპექტივამ შეამსუბუქა ზოგიერთი წინააღმდეგობა, თუმცა ყველა სკეპტიკოსი ასე არ დაარწმუნა.",
+      "answers": [
+        "ეტაპობრივი რეფორმის პერსპექტივამ შეამსუბუქა ზოგიერთი წინააღმდეგობა, თუმცა ყველა სკეპტიკოსი ასე არ დაარწმუნა."
+      ],
+      "note": "nuance concessive : « sans pour autant » = « თუმცა ... არ » ; « convaincre » = « დაარწმუნა ». "
+    },
+    {
+      "id": "dictation_sentences-c1-gen-010",
+      "version": 10,
+      "cefr": "C1",
+      "fr": "S'il fallait résumer son argumentation en une phrase, ce serait : la cohérence prime sur l'originalité.",
+      "ka": "თუ მისი არგუმენტაციის ერთი წინადადებით ჩამოყალიბება მოგვიწიოს, ის იქნებოდა: თანმიმდევრობა ორიგინალურობაზე უფრო მნიშვნელოვანია.",
+      "answers": [
+        "თუ მისი არგუმენტაციის ერთი წინადადებით ჩამოყალიბება მოგვიწიოს, ის იქნებოდა: თანმიმდევრობა ორიგინალურობაზე უფრო მნიშვნელოვანია."
+      ],
+      "note": "hypothèse conditionnelle + style synthétique ; comparaison « უფრო მნიშვნელოვანია » pour « prime sur ». "
+    }
+  ]
+}

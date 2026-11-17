@@ -1,0 +1,155 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "reading_cloze-b2-gen-001",
+      "sentence": "თუ ხვალ ___, პიკნიკი გადაიწევს.",
+      "answer": "იქნება",
+      "options": [
+        "იქნება",
+        "იქნებოდა",
+        "არის",
+        "იყო"
+      ],
+      "translation": "Si demain il pleut, le pique-nique sera reporté.",
+      "explanation": "La proposition conditionnelle «თუ ხვალ ___» requiert le futur simple 'იქნება' pour exprimer une condition réelle future. 'იქნებოდა' est le conditionnel/გადასატანი (hypothétique), 'არსია/იყო' ne conviennent pas pour une prévision future.",
+      "cefr": "B2",
+      "version": 1
+    },
+    {
+      "id": "reading_cloze-b2-gen-002",
+      "sentence": "მისმა რჩევამ ჩემი გადაწყვეტილება სრულიად ___.",
+      "answer": "შეიცვალა",
+      "options": [
+        "შეიცვალა",
+        "ცვლილა",
+        "დარჩა",
+        "გაუმჯობესდა"
+      ],
+      "translation": "Son conseil a complètement changé ma décision.",
+      "explanation": "Le verbe exact pour 'changer (quelque chose)' est 'შეიცვალა' (forme causative/réflexive de 'ცვლილება' utilisée ici). 'ცვლილა' est possible mais sans préfixe 'შე' le sens n'exprime pas l'action subie comme ici ; 'დარჩა' et 'გაუმჯობესდა' sont sémantiquement incompatibles.",
+      "cefr": "B2",
+      "version": 2
+    },
+    {
+      "id": "reading_cloze-b2-gen-003",
+      "sentence": "მისი ნათქვამი იმას მოასწავებდა, რომ საქმე უფრო ___ იქნებოდა.",
+      "answer": "სერიოზული",
+      "options": [
+        "სერიოზული",
+        "სრული",
+        "მსუბუქი",
+        "მარტივი"
+      ],
+      "translation": "Ce qu'il a dit laissait entendre que l'affaire serait plus sérieuse.",
+      "explanation": "Le contexte 'უფრო ___ იქნებოდა' demande un adjectif qualifiant l'intensité ; 'სერიოზული' est le seul qui rende le sens «plus grave». 'სრული' signifie 'complet', 'მსუბუქი' et 'მარტივი' contredisent 'უფრო' dans ce contexte.",
+      "cefr": "B2",
+      "version": 3
+    },
+    {
+      "id": "reading_cloze-b2-gen-004",
+      "sentence": "მომხსენებელს რეკომენდაცია უნდა გაუკეთოს, თუ დოკუმენტი ___.",
+      "answer": "შეესაბამება",
+      "options": [
+        "შეესაბამება",
+        "ეალინა",
+        "მასახელებს",
+        "უკვეთავს"
+      ],
+      "translation": "Le présentateur doit faire une recommandation si le document est conforme.",
+      "explanation": "Le verbe correct pour 'être conforme' est 'შეესაბამება' (3e pers. fut.). Les autres options sont des formes incorrectes ou non pertinentes (inventées ou mal construites) et ne conviennent pas au sens.",
+      "cefr": "B2",
+      "version": 4
+    },
+    {
+      "id": "reading_cloze-b2-gen-005",
+      "sentence": "ვინ დაელოდა, რომ პრობლემის გადაწყვეტა ასე ___ ყოფილიყო?",
+      "answer": "მომგებიანი",
+      "options": [
+        "მომგებიანი",
+        "სწრაფი",
+        "გონივრული",
+        "არაზღვრული"
+      ],
+      "translation": "Qui aurait pensé que la résolution du problème serait aussi avantageuse?",
+      "explanation": "Le contexte 'ასე ___ ყოფილიყო' avec nuance appréciative convient à 'მომგებიანი' (avantageux). 'სწრაფი' et 'გონივრული' sont plausibles mais modifient le sens ; 'არაზღვრული' est inapproprié.",
+      "cefr": "B2",
+      "version": 5
+    },
+    {
+      "id": "reading_cloze-b2-gen-006",
+      "sentence": "მაინც გადავწყვიტეთ პროექტი სხვა გუნდს გადავცეთ, რადგან დროის რესურსი ___.",
+      "answer": "კონცენტრირებული არ იქნებოდა",
+      "options": [
+        "კონცენტრირებული არ იქნებოდა",
+        "მოაკლდა",
+        "საკმარისი იყო",
+        "დაგვჭირდა"
+      ],
+      "translation": "Nous avons quand même décidé de confier le projet à une autre équipe, car les ressources temporelles ne seraient pas concentrées.",
+      "explanation": "La phrase exige une tournure exprimant l'incapacité à mobiliser/ concentrer le temps sur le projet : 'კონცენტრირებული არ იქნებოდა' correspond bien. Les autres options changent le sens (par ex. 'საკმარისი იყო' contredit la décision) ou sont grammaticalement moins appropriées.",
+      "cefr": "B2",
+      "version": 6
+    },
+    {
+      "id": "reading_cloze-b2-gen-007",
+      "sentence": "ბავშვები თამაშობდნენ, სანამ მშობლები ჭამას ___.",
+      "answer": "სრულებდნენ",
+      "options": [
+        "სრულებდნენ",
+        "ერთობოდნენ",
+        "დაველოდებოდით",
+        "გადაეწყვიტათ"
+      ],
+      "translation": "Les enfants jouaient pendant que les parents terminaient de manger.",
+      "explanation": "Le verbe 'სრულებდნენ' (terminaient) convient avec 'ჭამას' (l'action de manger). 'ერთობოდნენ' signifie 's'amusaient' et pourrait être possible mais modifie le sens ; 'დაველოდებოდით' et 'გადაეწყვიტათ' sont incompatibles temporellement.",
+      "cefr": "B2",
+      "version": 7
+    },
+    {
+      "id": "reading_cloze-b2-gen-008",
+      "sentence": "მას უნდოდა, რომ შეხვედრა ცოტა გვიანი ___, რათა ყველა მიიღწეოდა.",
+      "answer": "დაწყებულიყო",
+      "options": [
+        "დაწყებულიყო",
+        "დაეგეგმა",
+        "დასრულებულიყო",
+        "დაგვიანებოდა"
+      ],
+      "translation": "Il voulait que la réunion commence un peu plus tard afin que tout le monde puisse arriver.",
+      "explanation": "Dans la subordonnée au mode optatif, on attend 'დაწყებულიყო' (commence) pour exprimer 'qu'elle commence plus tard'. 'დაეგეგმა' (fût planifiée) ou 'დასრულებულიყო' (se termine) ne rendent pas l'idée de décaler le début ; 'დაგვიანებოდა' est mal formé ici.",
+      "cefr": "B2",
+      "version": 8
+    },
+    {
+      "id": "reading_cloze-b2-gen-009",
+      "sentence": "რამდენიმე ის მუხლი, რომელსაც ჩვენ ვეცნობით, სამართლებრივად განსაკუთრებულად ___.",
+      "answer": "მნიშვნელოვანია",
+      "options": [
+        "მნიშვნელოვანია",
+        "შესაბამისი",
+        "ნაკლებმნიშვნელოვანი",
+        "გასაიდუმლოებული"
+      ],
+      "translation": "Plusieurs des articles que nous examinons sont juridiquement particulièrement importants.",
+      "explanation": "Le contexte 'განსაკუთრებულად ___' nécessite 'მნიშვნელოვანია' (important). 'შესაბამისი' (adéquat) ou 'ნაკლებმნიშვნელოვანი' (moins important) changent le sens ; 'გასაიდუმლოებული' (classifié) est hors contexte.",
+      "cefr": "B2",
+      "version": 9
+    },
+    {
+      "id": "reading_cloze-b2-gen-010",
+      "sentence": "თუ ფინანსური მონაცემები არ იქნება მკაფიო, ბანკი ქონებას ___.",
+      "answer": "უარყოფს",
+      "options": [
+        "უარყოფს",
+        "მოითხოვს",
+        "გაუფრთხილდება",
+        "დაიგნორებს"
+      ],
+      "translation": "Si les données financières ne sont pas claires, la banque refusera le bien (ou refusera le financement lié à l'actif).",
+      "explanation": "Le verbe 'უარყოფს' (refusera) est le plus logique : sans données claires, la banque refusera la demande. 'მოითხოვს' (exigera) est possible mais change le sens ; 'გაუფრთხილდება' et 'დაიგნორებს' sont inappropriés dans le contexte formel bancaire.",
+      "cefr": "B2",
+      "version": 10
+    }
+  ]
+}

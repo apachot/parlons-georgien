@@ -1,0 +1,115 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "vocabulary-c2-gen-001",
+      "version": 1,
+      "cefr": "C2",
+      "ka": "სინქრონიზაცია",
+      "fr": "synchronisation",
+      "translit": "sinkronizatsia",
+      "pron": "sin-kro-ni-za-tsia",
+      "example": "პროექტის გუნდმა ბაზების მონაცემების სინქრონიზაცია რამდენიმე დღეში განახორციელა, რათა ტექნიკური კომენტარები აღარ შეუსაბამდეს ერთმანეთს.",
+      "example_fr": "L'équipe du projet a réalisé la synchronisation des bases de données en quelques jours afin que les remarques techniques ne soient plus discordantes."
+    },
+    {
+      "id": "vocabulary-c2-gen-002",
+      "version": 2,
+      "cefr": "C2",
+      "ka": "კონსოლიდაცია",
+      "fr": "consolidation",
+      "translit": "konsolidatsia",
+      "pron": "kon-so-li-da-tsia",
+      "example": "ფინანსური კრიზისის შემდეგ კომპანიები ხშირად მიმართავენ კონსოლიდაციას საცავის სტაბილურობის გასაძლიერებლად.",
+      "example_fr": "Après la crise financière, les entreprises recourent souvent à la consolidation pour renforcer la stabilité du bilan."
+    },
+    {
+      "id": "vocabulary-c2-gen-003",
+      "version": 3,
+      "cefr": "C2",
+      "ka": "პროტოკოლი",
+      "fr": "protocole (procédure formelle)",
+      "translit": "protokoli",
+      "pron": "pro-to-koli",
+      "example": "ხელშეკრულების ახალ დროჟში შეტანა დაუყოვნებლად მოხდა, შესაბამისად დოკუმენტზე ვერ დაირღვა წინა პროტოკოლი.",
+      "example_fr": "L'ajout de la nouvelle clause au contrat s'est fait sans délai ; par conséquent, le protocole antérieur du document n'a pas été violé."
+    },
+    {
+      "id": "vocabulary-c2-gen-004",
+      "version": 4,
+      "cefr": "C2",
+      "ka": "იმპერატივი",
+      "fr": "impératif (exigence morale ou nécessité pressante)",
+      "translit": "imperativi",
+      "pron": "im-pe-ra-ti-vi",
+      "example": "კლიმატის ცვლილების წინაშე პასუხისმგებლობა მოქმედების იმპერატივად დაახლოებს პოლიტიკოსებს და საზოგადოებას.",
+      "example_fr": "Face au changement climatique, la responsabilité rapproche les politiques et la société en un impératif d'action."
+    },
+    {
+      "id": "vocabulary-c2-gen-005",
+      "version": 5,
+      "cefr": "C2",
+      "ka": "ეგზისტენციალიზმი",
+      "fr": "existentialisme",
+      "translit": "egzistentsializmi",
+      "pron": "eg-zi-sten-tsia-li-zmi",
+      "example": "მასპინძელმა ლექციაზე ისაუბრა ეგზისტენციალიზმის ძირითად პრინციპებზე და ინდივიდუალური შეტევების შედეგებზე.",
+      "example_fr": "Le conférencier a parlé, lors de la leçon, des principes fondamentaux de l'existentialisme et des conséquences des engagements individuels."
+    },
+    {
+      "id": "vocabulary-c2-gen-006",
+      "version": 6,
+      "cefr": "C2",
+      "ka": "დიქოტომია",
+      "fr": "dichotomie",
+      "translit": "dikotomia",
+      "pron": "di-ko-to-mi-a",
+      "example": "სტატიამ წარმოადგინა დიქოტომია განწყობისა და რეალური პოლიტიკური მოღვაწეობის შორის.",
+      "example_fr": "L'article a présenté la dichotomie entre l'attitude (disposition) et l'activité politique effective."
+    },
+    {
+      "id": "vocabulary-c2-gen-007",
+      "version": 7,
+      "cefr": "C2",
+      "ka": "ანტითეზა",
+      "fr": "antithèse",
+      "translit": "antiteza",
+      "pron": "an-ti-te-za",
+      "example": "პროზის ამ მონაკვეთმა მათი განმარტება როგორც ანტითეზა – ჰუმანიზმისა და ცივად რაციონალური დასკვნის – აღნიშნა.",
+      "example_fr": "Ce passage de la prose a présenté leur interprétation comme une antithèse — entre humanisme et conclusion froidement rationnelle."
+    },
+    {
+      "id": "vocabulary-c2-gen-008",
+      "version": 8,
+      "cefr": "C2",
+      "ka": "დისკორდი",
+      "fr": "discorde, désaccord profond",
+      "translit": "diskordi",
+      "pron": "dis-kor-di",
+      "example": "სამინისტროებს შორის დისკორდი დაგეგმილ რეფორმებს მნიშვნელოვნად აფერხებდა.",
+      "example_fr": "Le désaccord entre les ministères retardait considérablement les réformes prévues."
+    },
+    {
+      "id": "vocabulary-c2-gen-009",
+      "version": 9,
+      "cefr": "C2",
+      "ka": "სემანტიკური ნიუანსი",
+      "fr": "nuance sémantique",
+      "translit": "semant'ikuri niuansi",
+      "pron": "sé-man-ti-kou-ri niou-anssi",
+      "example": "პერფორმანსის აღწერაში თითოეულ ტერმინს ისმენდა სხვა სემანტიკური ნიუანსი, ამიტომ თარჯიმანი დეტალურად განასხდა კონტექსტს.",
+      "example_fr": "Dans la description de la performance, chaque terme portait une nuance sémantique différente ; c'est pourquoi l'interprète a précisé longuement le contexte."
+    },
+    {
+      "id": "vocabulary-c2-gen-010",
+      "version": 10,
+      "cefr": "C2",
+      "ka": "დივერსიფიკაცია",
+      "fr": "diversification",
+      "translit": "diversifikatsia",
+      "pron": "di-ver-si-fi-ka-tsia",
+      "example": "პორვოლიოების სტრატეგია გულისხმობდა აქტივების დივერსიფიკაციას რისკის შემცირების მიზნით.",
+      "example_fr": "La stratégie du portefeuille visait la diversification des actifs afin de réduire le risque."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "reading_cloze-b1-gen-001",
+      "version": 1,
+      "cefr": "B1",
+      "sentence": "ჩვენ შევხვდებით ___ კაფეში.",
+      "answer": "საღამოს",
+      "options": [
+        "საღამოს",
+        "ჩვენთვის",
+        "ხვალ",
+        "სასწრაფოდ"
+      ],
+      "translation": "Nous nous rencontrerons ce soir au café.",
+      "explanation": "«საღამოს» signifie «le soir / ce soir» et complète correctement l'expression «შევხვდებით საღამოს კაფეში». Les autres options ne conviennent pas au sens temporeლ/locatif de la phrase."
+    },
+    {
+      "id": "reading_cloze-b1-gen-002",
+      "version": 2,
+      "cefr": "B1",
+      "sentence": "კი, გუშინ ვნახე ფილმი, მაგრამ ___ უფრო საინტერესო იყო წიგნი.",
+      "answer": "მართლა",
+      "options": [
+        "მართლა",
+        "მხოლოდ",
+        "ისევე",
+        "სრულიად"
+      ],
+      "translation": "Oui, hier j'ai vu le film, mais en réalité le livre était plus intéressant.",
+      "explanation": "«მართლა» signifie «vraiment / en réalité» et insiste sur le fait que le livre était plus intéressant ; les autres adverbes changeraient le sens ou seraient inappropriés ici."
+    },
+    {
+      "id": "reading_cloze-b1-gen-003",
+      "version": 3,
+      "cefr": "B1",
+      "sentence": "გთხოვ, დარლე ___ ფანჯარა, ძალიან ცივა.",
+      "answer": "ღებე",
+      "options": [
+        "ღებე",
+        "გახსნა",
+        "ხიდი",
+        "გადააღე"
+      ],
+      "translation": "S'il te plaît, ouvre la fenêtre, il fait très froid.",
+      "explanation": "La forme correcte pour «ouvre» à l'impératif familier est ici «გადააღე» ou «გახსნა» selon registre ; cependant dans ce contexte standard le verbe attendu est «გადააღე». (Remarque : parmi les options, «გადააღე» est l'impératif approprié ; les autres ne conviennent.)"
+    },
+    {
+      "id": "reading_cloze-b1-gen-004",
+      "version": 4,
+      "cefr": "B1",
+      "sentence": "ის ყოველთვის ___ მუშაობს, ამიტომ დასვენება უნდა.",
+      "answer": "მიზანმიმართულად",
+      "options": [
+        "მიზანმიმართულად",
+        "სწრაფად",
+        "თვითონ",
+        "ნებით"
+      ],
+      "translation": "Il/Elle travaille toujours de façon concentrée, donc il/elle doit se reposer.",
+      "explanation": "«მიზანმიმართულად» = «de manière ciblée/concentrée», correspondant au sens «toujours travaille de manière ciblée» ; les autres options ne rendent pas ce sens précis."
+    },
+    {
+      "id": "reading_cloze-b1-gen-005",
+      "version": 5,
+      "cefr": "B1",
+      "sentence": "თუ დღეს წვიმს, ჩვენ ___ არ გავალთ პარკში.",
+      "answer": "მაგრამ",
+      "options": [
+        "მაგრამ",
+        "ანუ",
+        "ამიტომ",
+        "ალბათ"
+      ],
+      "translation": "S'il pleut aujourd'hui, nous n'irons pas au parc, cependant...",
+      "explanation": "Ici la conjonction attendue pour opposer l'idée conditionnelle et la conséquence est «ამიტომ» ou «-> Actually», mais la seule conjonction appropriée dans les options pour exprimer contraste est «მაგრამ» ; elle est la meilleure option donnée."
+    },
+    {
+      "id": "reading_cloze-b1-gen-006",
+      "version": 6,
+      "cefr": "B1",
+      "sentence": "მან საბუთები ___ მაგიდაზე დადო.",
+      "answer": "დაისვა",
+      "options": [
+        "დაისვა",
+        "დადო",
+        "დაიფარა",
+        "დატოვა"
+      ],
+      "translation": "Il/Elle a posé les documents sur la table.",
+      "explanation": "Le verbe simple «დადო» (poser) est l'option correcte et naturelle ici. Les autres formes changeraient le sens (par ex. «დატოვა» = a laissé, «დაისვა» est passif/incorrect ici)."
+    },
+    {
+      "id": "reading_cloze-b1-gen-007",
+      "version": 7,
+      "cefr": "B1",
+      "sentence": "შვილს ვასწავლი სწორად ___ წერა.",
+      "answer": "ქართული",
+      "options": [
+        "ქართულად",
+        "ქართული",
+        "ქართული ენით",
+        "ქართულის"
+      ],
+      "translation": "J'apprendrai à mon enfant à écrire correctement en géorgien.",
+      "explanation": "L'adverbe «ქართულად» (en géorgien) est la forme correcte pour exprimer «écrire en géorgien». Les autres formes grammaticales sont incorrectes dans ce contexte."
+    },
+    {
+      "id": "reading_cloze-b1-gen-008",
+      "version": 8,
+      "cefr": "B1",
+      "sentence": "ვფიქრობ, მისი მიზეზი ნამდვილად ___ იყო.",
+      "answer": "პატიოსნება",
+      "options": [
+        "პატიოსნება",
+        "სერიოზული",
+        "სიფრთხილე",
+        "მიზეზი"
+      ],
+      "translation": "Je pense que sa raison était vraiment sérieuse/honnête.",
+      "explanation": "La phrase attend un substantif ou qualité qui complète « davvero était ». Dans le sens correct et fluide, «სერიოზული» (sérieuse) est l'option correcte pour «avait vraiment une raison sérieuse». Parmi les choix donnés, «სერიოზული» est la forme adéquate."
+    },
+    {
+      "id": "reading_cloze-b1-gen-009",
+      "version": 9,
+      "cefr": "B1",
+      "sentence": "ჩვენი ახალი ბინა არის ___ ცენტრთან ახლოს.",
+      "answer": "ავტობუსის",
+      "options": [
+        "ავტობუსის",
+        "ღამის",
+        "მსუქანი",
+        "სკოლის"
+      ],
+      "translation": "Notre nouvel appartement est proche du centre des bus.",
+      "explanation": "La préposition de proximité se construit ici avec le nom au génitif ; «ავტობუსის ცენტრი» signifierait «centre de bus», donc «ავტობუსის» est la forme appropriée pour indiquer proximité par rapport au centre des bus. Les autres options sont inadaptées au sens."
+    },
+    {
+      "id": "reading_cloze-b1-gen-010",
+      "version": 10,
+      "cefr": "B1",
+      "sentence": "მომავალი წელი მინდა ___ უფრო მეტი ვიმოგზაურო.",
+      "answer": "რომ",
+      "options": [
+        "რომ",
+        "ვისთვის",
+        "რადგან",
+        "თუ"
+      ],
+      "translation": "L'année prochaine, je voudrais voyager more (que) — J'aimerais voyager davantage l'année prochaine.",
+      "explanation": "La conjonction complétive «რომ» est nécessaire pour introduire la subordonnée «pour que je voyage davantage» après «მინდა». Les autres conjonctions ne conviennent pas ici."
+    }
+  ]
+}
