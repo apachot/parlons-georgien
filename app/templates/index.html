@@ -3,13 +3,8 @@
   <div class="hero-copy wow-copy">
     <div class="wow-kicker"><span class="wow-kicker-dot"></span> PARLONS GÉORGIEN <span class="wow-kicker-line"></span> LE GÉORGIEN AU QUOTIDIEN</div>
     <h1>La Géorgie.<br><em>Dans vos mots.</em></h1>
-    <p>Apprenez à lire, comprendre et parler géorgien avec des séances courtes, des situations réelles et un parcours qui avance avec vous.</p>
-    <aside class="home-free-promise" aria-label="Le site est entièrement gratuit et sans inscription obligatoire">
-      <div class="home-free-promise-heading"><span class="home-free-promise-check" aria-hidden="true">✓</span><span><small>LIBRE D’ACCÈS, POUR TOUT LE MONDE</small><strong>100 % gratuit</strong></span></div>
-      <div class="home-free-promise-points"><span>Sans abonnement</span><span>Sans publicité</span><span>Sans compte obligatoire</span></div>
-      <p>Un compte reste facultatif : il sert uniquement à retrouver votre progression.</p>
-    </aside>
-    <div class="wow-actions"><a class="button primary" href="{{ url_for('session') }}">Commencer gratuitement <span>↗</span></a><a class="wow-secondary-link" href="{{ url_for('courses') }}">Voir les leçons <span>→</span></a></div>
+    <p>Apprenez à lire, comprendre et parler géorgien avec des séances courtes, des situations réelles et un parcours qui avance avec vous. Le site est <strong class="home-free-emphasis">entièrement gratuit</strong>, <strong class="home-free-emphasis">sans abonnement ni publicité</strong> et <strong class="home-free-emphasis">sans inscription obligatoire</strong>.</p>
+    <div class="wow-actions"><a class="button primary" href="{{ url_for('session') }}">Commencer à apprendre <span>↗</span></a><a class="wow-secondary-link" href="{{ url_for('courses') }}">Voir les leçons <span>→</span></a></div>
     <a class="home-account-cta" href="{{ url_for('account') if current_account else url_for('register') }}">{{ 'Ouvrir mon espace personnel →' if current_account else 'Créer un compte gratuit pour sauvegarder mes progrès →' }}</a>
     <div class="wow-hero-foot"><span class="wow-foot-mark">✳</span><span>Une première séance en 10 minutes</span><span class="wow-foot-divider"></span><span>Du niveau A1 au C2</span></div>
   </div>
