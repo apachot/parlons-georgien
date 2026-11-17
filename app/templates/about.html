@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}À propos — Parlons géorgien{% endblock %}
+{% block content %}
+<div class="about-page">
+  <section class="activity-hero about-hero" data-section-scene="lesson" aria-labelledby="about-title">
+    <div class="activity-hero-copy">
+      <div class="eyebrow"><span class="dot"></span>À propos du projet</div>
+      <h1 id="about-title">Le géorgien, pas à pas et au quotidien.</h1>
+      <p>Parlons géorgien est un site en français pour découvrir le mkhedruli, enrichir son vocabulaire et progresser en lecture, à l’oral et en grammaire.</p>
+      <div class="about-level-line"><span>Un parcours du niveau débutant</span><b>A1</b><i aria-hidden="true">→</i><b>C2</b></div>
+    </div>
+    <div class="activity-hero-art" data-section-scene="lesson" aria-hidden="true"></div>
+  </section>
+
+  <section class="about-section" aria-labelledby="about-learning-title">
+    <div class="about-section-heading"><div><div class="eyebrow">Une langue vivante</div><h2 id="about-learning-title">Comprendre, pratiquer, recommencer.</h2></div><p>Des exercices courts et des leçons interactives pour avancer à son rythme, avec des repères de niveau CECRL.</p></div>
+    <div class="about-feature-grid">
+      <article class="about-feature-card"><span class="about-feature-icon"><img src="{{ url_for('static', filename='icons/lucide/type.svg') }}" alt=""></span><small>01 · DÉCOUVRIR</small><h3>Partir des lettres</h3><p>Apprivoisez les 33 lettres géorgiennes, leurs sons et vos premiers mots.</p></article>
+      <article class="about-feature-card"><span class="about-feature-icon"><img src="{{ url_for('static', filename='icons/lucide/headphones.svg') }}" alt=""></span><small>02 · S’ENTRAÎNER</small><h3>Varier les exercices</h3><p>Jouez avec le vocabulaire, écoutez, écrivez, lisez des textes et construisez des phrases.</p></article>
+      <article class="about-feature-card"><span class="about-feature-icon"><img src="{{ url_for('static', filename='icons/lucide/graduation-cap.svg') }}" alt=""></span><small>03 · PROGRESSER</small><h3>Aller plus loin</h3><p>Suivez des leçons et des activités de difficulté croissante, jusqu’aux contenus avancés.</p></article>
+    </div>
+  </section>
+
+  <section class="about-creator" aria-labelledby="about-creator-title">
+    <div class="about-creator-mark" aria-hidden="true">ა</div>
+    <div><div class="eyebrow">À l’origine du projet</div><h2 id="about-creator-title">Arnault Pachot</h2><p>Entrepreneur et docteur en informatique, Arnault Pachot a initié Parlons géorgien pour créer un parcours d’apprentissage progressif, interactif et accessible en français.</p><a class="about-text-link" href="https://arnault.pachot.fr/" target="_blank" rel="noopener">Découvrir son parcours <span aria-hidden="true">↗</span></a></div>
+  </section>
+
+  <section class="about-open-source" aria-labelledby="about-open-source-title">
+    <div class="about-open-source-copy"><div class="eyebrow">Un projet ouvert</div><h2 id="about-open-source-title">Faites-le grandir avec nous.</h2><p>Le code et les contenus originaux sont publiés sous licence GNU GPL version 3 ou ultérieure. Les contributions sont les bienvenues : corrections, nouvelles activités, contenus pédagogiques et améliorations du code.</p><small>Les ressources tierces, comme certaines images et voix, gardent leurs licences propres ; leurs crédits sont dans le dépôt.</small></div>
+    <div class="about-actions"><a class="button primary" href="https://github.com/apachot/parlons-georgien" target="_blank" rel="noopener">Explorer le dépôt <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/apachot/parlons-georgien/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Comment contribuer <span aria-hidden="true">↗</span></a><a class="about-license-link" href="https://github.com/apachot/parlons-georgien/blob/main/LICENSE" target="_blank" rel="noopener">Lire la licence GPL-3.0-or-later ↗</a></div>
+  </section>
+</div>
+{% endblock %}

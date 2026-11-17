@@ -591,6 +591,10 @@ def create_app(test_config=None):
                                practiced=practiced, total=total,
                                percent=round(practiced * 100 / max(total, 1)), errors=errors)
 
+    @app.get("/about")
+    def about():
+        return render_template("about.html")
+
     @app.get("/alphabet")
     def alphabet():
         return render_template("alphabet.html", letters=load_content("alphabet"),
