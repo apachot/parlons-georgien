@@ -1,9 +1,9 @@
 {% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}{% block title %}Alphabet géorgien — Parlons géorgien{% endblock %}{% block page_styles %}<link rel="stylesheet" href="{{ url_for('static', filename='alphabet-recognition.css') }}?v=a1-bank-v1">{% endblock %}{% block content %}
 {{ activity_hub('Alphabet · les sons du mkhedruli', '33 lettres, une nouvelle lecture.', 'Apprenez à reconnaître les sons, puis mettez votre vitesse de lecture à l’épreuve.', [
-  {'icon':'⏱️','label':'01 · CHRONO','title':'Contre la montre','text':'Combien de sons reconnaissez-vous en 60 secondes ?','href':'#alphabet-speed-title','action':'Jouer'},
-  {'icon':'👂','label':'02 · ÉCOUTE','title':'Reconnaître un son','text':'Écoutez un son et retrouvez la lettre correspondante.','href':'#alphabet-practice','action':'S’entraîner'},
-  {'icon':'🔤','label':'03 · LECTURE','title':'Lire des mots','text':'Décodez des mots géorgiens en 60 secondes, du mkhedruli à la translittération.','href':'#alphabet-word-speed','action':'Jouer'},
-  {'icon':'📚','label':'04 · MÉMO','title':'Les 33 lettres','text':'Parcourez les sons, les repères et des exemples audio.','href':'#alphabet-grid','action':'Explorer'}
+  {'icon':'timer','label':'01 · CHRONO','title':'Contre la montre','text':'Combien de sons reconnaissez-vous en 60 secondes ?','href':'#alphabet-speed-title','action':'Jouer'},
+  {'icon':'ear','label':'02 · ÉCOUTE','title':'Reconnaître un son','text':'Écoutez un son et retrouvez la lettre correspondante.','href':'#alphabet-practice','action':'S’entraîner'},
+  {'icon':'type','label':'03 · LECTURE','title':'Lire des mots','text':'Décodez des mots géorgiens en 60 secondes, du mkhedruli à la translittération.','href':'#alphabet-word-speed','action':'Jouer'},
+  {'icon':'book-open-text','label':'04 · MÉMO','title':'Les 33 lettres','text':'Parcourez les sons, les repères et des exemples audio.','href':'#alphabet-grid','action':'Explorer'}
 ], 'ქართული', 'alphabet') }}
 
 <section class="exercise-box alphabet-speed hidden" data-activity-panel data-difficulty="A1" aria-labelledby="alphabet-speed-title">

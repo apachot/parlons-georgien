@@ -3,8 +3,8 @@
 {% block content %}
 <a class="back-link" href="{{ url_for('home') }}">← Toutes les leçons</a>
 {{ activity_hub('Leçon · découvrir puis pratiquer', lesson.title, lesson.goal, [
-  {'icon':'📘','label':'01 · DÉCOUVERTE','title':'Les mots et expressions','text':'Écoutez les mots, observez la prononciation et leur sens.','href':'#lesson-words'},
-  {'icon':'🎯','label':'02 · PRATIQUE','title':'Quiz dans les deux sens','text':'Répondez aux questions et reprenez celles qui vous résistent.','href':'#lesson-quiz'}
+  {'icon':'book-open','label':'01 · DÉCOUVERTE','title':'Les mots et expressions','text':'Écoutez les mots, observez la prononciation et leur sens.','href':'#lesson-words'},
+  {'icon':'target','label':'02 · PRATIQUE','title':'Quiz dans les deux sens','text':'Répondez aux questions et reprenez celles qui vous résistent.','href':'#lesson-quiz'}
 ], 'ქართული', 'lesson') }}
 
 <div class="learn-list hidden" id="lesson-words" data-activity-panel><button class="back-to-games" data-activity-back type="button">← Retour à la leçon</button>

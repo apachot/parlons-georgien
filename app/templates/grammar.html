@@ -1,14 +1,14 @@
 {% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}
 {% block title %}Grammaire — Parlons géorgien{% endblock %}{% block content %}
 {{ activity_hub('Grammaire · observer les formes', 'Les formes prennent leur sens.', 'Explorez les verbes géorgiens dans des phrases réelles : temps, préverbes, cas et terminaisons, avec des exercices à reprendre à votre rythme.', [
-  {'icon':'🧭','label':'01 · CONJUGAISON','title':'Temps verbaux','text':'Présent, passé et futur à partir de formes attestées.','href':'#grammar-practice','category':'temps'},
-  {'icon':'🧩','label':'02 · CONSTRUCTION','title':'Préverbes','text':'Repérez comment le préverbe change le sens du verbe.','href':'#grammar-practice','category':'preverbes'},
-  {'icon':'✍️','label':'03 · TERMINAISONS','title':'Suffixes & pluriel','text':'Entraînez-vous aux marques de nombre et aux terminaisons.','href':'#grammar-practice','category':'suffixes'},
-  {'icon':'📚','label':'04 · DÉCLINAISONS','title':'Les cas en contexte','text':'Lieu, provenance, destinataire et possession.','href':'#grammar-practice','category':'cas'},
-  {'icon':'🎲','label':'05 · RÉVISION','title':'Quiz mélangé','text':'Un parcours qui combine les notions de grammaire.','href':'#grammar-practice','category':'all'},
-  {'icon':'🔎','label':'06 · COMPRENDRE','title':'Fiches de grammaire','text':'Relisez les explications et écoutez des exemples.','href':'#grammar-cards'},
-  {'icon':'🛠️','label':'07 · CORRECTION','title':'Réparer la phrase','text':'Repérez une erreur et choisissez la formulation géorgienne correcte.','href':'#grammar-practice','category':'correction'},
-  {'icon':'⚡','label':'08 · DÉFI MINUTE','title':'Conjugaison flash','text':'En 60 secondes, répondez à un maximum de questions sur les temps.','href':'#grammar-speed','action':'Jouer'}
+  {'icon':'compass','label':'01 · CONJUGAISON','title':'Temps verbaux','text':'Présent, passé et futur à partir de formes attestées.','href':'#grammar-practice','category':'temps'},
+  {'icon':'git-branch','label':'02 · CONSTRUCTION','title':'Préverbes','text':'Repérez comment le préverbe change le sens du verbe.','href':'#grammar-practice','category':'preverbes'},
+  {'icon':'pencil-line','label':'03 · TERMINAISONS','title':'Suffixes & pluriel','text':'Entraînez-vous aux marques de nombre et aux terminaisons.','href':'#grammar-practice','category':'suffixes'},
+  {'icon':'case-sensitive','label':'04 · DÉCLINAISONS','title':'Les cas en contexte','text':'Lieu, provenance, destinataire et possession.','href':'#grammar-practice','category':'cas'},
+  {'icon':'shuffle','label':'05 · RÉVISION','title':'Quiz mélangé','text':'Un parcours qui combine les notions de grammaire.','href':'#grammar-practice','category':'all'},
+  {'icon':'book-open','label':'06 · COMPRENDRE','title':'Fiches de grammaire','text':'Relisez les explications et écoutez des exemples.','href':'#grammar-cards'},
+  {'icon':'wrench','label':'07 · CORRECTION','title':'Réparer la phrase','text':'Repérez une erreur et choisissez la formulation géorgienne correcte.','href':'#grammar-practice','category':'correction'},
+  {'icon':'zap','label':'08 · DÉFI MINUTE','title':'Conjugaison flash','text':'En 60 secondes, répondez à un maximum de questions sur les temps.','href':'#grammar-speed','action':'Jouer'}
 ], 'ვმუშაობ', 'grammar') }}
 <section class="grammar-practice exercise-box hidden" id="grammar-practice" data-activity-panel data-difficulty="B1" data-total="{{ exercise_total }}">
  <button class="back-to-games" data-activity-back type="button">← Tous les exercices</button><div class="grammar-practice-head"><div><div class="eyebrow">Quiz de formes · score enregistré</div><h2 id="grammar-quiz-title">À vous de conjuguer.</h2><p id="grammar-quiz-lead">Répondez puis lisez l’explication. Après une erreur, réessayez ou passez à la question suivante.</p></div><div class="grammar-score" id="grammar-score">0 / 0</div></div>

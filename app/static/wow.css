@@ -461,6 +461,9 @@
 .level-onboarding-option:nth-child(6) { border-left-color: #775e92; }
 .level-onboarding-footnote { margin: 16px 0 0; color: #82767a; font-size: 10px; line-height: 1.6; }
 .progress-dialog-actions { flex-wrap: wrap; gap: 8px; }
+.activity-card-icon img, .module-icon img, .home-exercise-icon img { display: block; width: 28px; height: 28px; max-width: 100%; max-height: 100%; object-fit: contain; }
+.home-exercise-icon img { width: 22px; height: 22px; }
+.home-exercise-number { color: #9a8589; font-size: 9px; font-weight: 750; font-variant-numeric: tabular-nums; letter-spacing: .12em; }
 @media (max-width: 620px) {
   .level-onboarding-dialog { padding: 20px 15px; }
   .level-onboarding-grid { grid-template-columns: 1fr; gap: 7px; }
