@@ -5,7 +5,7 @@
   const SKILL_NAMES = {
     alphabet: 'Alphabet', vocabulary: 'Vocabulaire', reading: 'Lecture',
     comprehension: 'Compréhension orale', dictation: 'Dictées',
-    grammar: 'Grammaire', dialogues: 'Dialogues', mixed: 'Révisions', placement: 'Test de positionnement'
+    grammar: 'Grammaire', dialogues: 'Dialogues', mixed: 'Révisions', placement: 'Testez votre géorgien'
   };
   const levelFromRating = rating => {
     if (rating < 900) return 'A1';
@@ -30,10 +30,11 @@
   const readProfile = () => {
     try {
       const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      const placementTest = data.placementTest || data.onboarding || {};
       return {ratings: data.ratings || {}, history: Array.isArray(data.history) ? data.history : [],
         levels: data.levels || {}, overallLevel: data.overallLevel || null, pending: data.pending || {},
-        onboarding: data.onboarding || {completedAt: null, dismissedAt: null}, accountOwner: data.accountOwner || null};
-    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, onboarding: {completedAt: null, dismissedAt: null}, accountOwner: null}; }
+        placementTest, accountOwner: data.accountOwner || null};
+    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, placementTest: {}, accountOwner: null}; }
   };
   let profile = readProfile();
   const activeQuestion = {};
@@ -65,7 +66,7 @@
     const personal = window.getEstimatedCefr(skill);
     return LEVELS[Math.max(LEVELS.indexOf(overall), LEVELS.indexOf(personal))];
   };
-  window.recordPlacementAssessment = responses => {
+  window.recordPlacementTest = responses => {
     if (!Array.isArray(responses) || !responses.length) return overallLevel();
     const placement = profile.ratings.placement || {value: profile.history.length ? overallRating() : 1000, count: 0, correct: 0};
     responses.forEach(item => {
@@ -78,22 +79,18 @@
       placement.correct += score;
       profile.levels.placement = hysteresisLevel(placement.value, profile.levels.placement || levelFromRating(placement.value));
       profile.history.push({at: item.at || new Date().toISOString(), skill: 'placement', level, correct: item.correct,
-        score, attempts: 1, wrong: item.correct ? 0 : 1, rating: placement.value, source: 'onboarding'});
+        score, attempts: 1, wrong: item.correct ? 0 : 1, rating: placement.value, source: 'placement-test'});
     });
     profile.ratings.placement = placement;
     profile.overallLevel = hysteresisLevel(overallRating(), profile.overallLevel || levelFromRating(overallRating()));
-    profile.onboarding = {completedAt: new Date().toISOString(), dismissedAt: profile.onboarding?.dismissedAt || null,
+    profile.placementTest = {completedAt: new Date().toISOString(),
       questionCount: responses.length, correct: responses.filter(item => item.correct).length, draft: null};
     if (profile.history.length > 5000) profile.history.splice(0, profile.history.length - 5000);
     saveProfile();
     return overallLevel();
   };
-  window.dismissPlacementWelcome = () => {
-    profile.onboarding = {...(profile.onboarding || {}), dismissedAt: new Date().toISOString(), dismissedVersion: 2};
-    saveProfile();
-  };
   window.savePlacementDraft = draft => {
-    profile.onboarding = {...(profile.onboarding || {}), draft: draft || null,
+    profile.placementTest = {...(profile.placementTest || {}), draft: draft || null,
       updatedAt: new Date().toISOString()};
     saveProfile();
   };
@@ -259,7 +256,7 @@
     dialog?.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
     document.querySelector('#open-placement')?.addEventListener('click', () => {
       dialog?.close();
-      if (window.openPlacementDiagnostic) window.openPlacementDiagnostic();
+      if (window.openPlacementTest) window.openPlacementTest();
       else document.querySelector('#placement-dialog')?.showModal();
     });
   });

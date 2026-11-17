@@ -11,7 +11,10 @@
   const show = selector => $(selector).classList.remove('hidden');
   const hide = selector => $(selector).classList.add('hidden');
   const readDraft = () => {
-    try { return JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}').onboarding?.draft || null; }
+    try {
+      const profile = JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}');
+      return profile.placementTest?.draft || profile.onboarding?.draft || null;
+    }
     catch (_) { return null; }
   };
   const saveDraft = () => {
@@ -70,7 +73,7 @@
     show('#placement-next');
   };
   const start = () => {
-    state = {level: 'A2', index: 0, streak: 0, responses: [], used: new Set(), item: null, locked: false,
+    state = {level: 'A1', index: 0, streak: 0, responses: [], used: new Set(), item: null, locked: false,
       startedAt: new Date().toISOString()};
     beginScreen();
     saveDraft();
@@ -153,14 +156,15 @@
     hide('#placement-quiz');
     show('#placement-result');
     const correct = state.responses.filter(item => item.correct).length;
-    const level = window.recordPlacementAssessment(state.responses);
+    const level = window.recordPlacementTest(state.responses);
     $('#placement-progress-fill').style.width = '100%';
-    $('#placement-result-title').textContent = `Votre niveau de départ : ${level}`;
-    $('#placement-result-copy').textContent = 'Cette estimation est un premier repère, construit à partir de vos réponses. Elle évoluera au fil de vos exercices et de vos réussites.';
-    $('#placement-result-stats').innerHTML = `<div><b>${correct}/${state.responses.length}</b><span>bonnes réponses</span></div><div><b>${state.responses[0]?.level || 'A2'} → ${state.responses.at(-1)?.level || 'A2'}</b><span>difficulté explorée</span></div>`;
+    $('#placement-result-title').textContent = `Votre niveau estimé : ${level}`;
+    $('#placement-result-copy').textContent = 'Cette estimation se base sur vos réponses au test. Elle pourra évoluer à mesure que vous pratiquerez.';
+    $('#placement-result-stats').innerHTML = `<div><b>${correct}/${state.responses.length}</b><span>bonnes réponses</span></div><div><b>${state.responses[0]?.level || 'A1'} → ${state.responses.at(-1)?.level || 'A1'}</b><span>difficulté explorée</span></div>`;
   };
 
-  window.openPlacementDiagnostic = () => {
+  window.openPlacementTest = async () => {
+    await window.accountSyncReady;
     const draft = readDraft();
     if (!restore(draft)) {
       state = null;
@@ -172,10 +176,6 @@
   };
 
   $('#placement-start')?.addEventListener('click', start);
-  $('#placement-later')?.addEventListener('click', () => {
-    window.dismissPlacementWelcome?.();
-    dialog.close();
-  });
   $('.placement-close')?.addEventListener('click', () => dialog.close());
   $('#placement-finish')?.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
@@ -189,13 +189,6 @@
   });
   document.addEventListener('DOMContentLoaded', async () => {
     await window.accountSyncReady;
-    try {
-      const profile = JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}');
-      if (!profile.onboarding?.completedAt && restore(profile.onboarding?.draft)) {
-        dialog.showModal();
-      } else if (!profile.onboarding?.completedAt && profile.onboarding?.dismissedVersion !== 2) {
-        dialog.showModal();
-      }
-    } catch (_) { /* The assessment remains available from the level profile. */ }
+    if (restore(readDraft())) dialog.showModal();
   });
 })();

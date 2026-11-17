@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='parlons-georgien-logo.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=modern-v1">
   <link rel="stylesheet" href="{{ url_for('static', filename='modern.css') }}?v=4">
-  <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}?v=placement-resume-v2">
+  <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}?v=placement-test-v1">
   <link rel="stylesheet" href="{{ url_for('static', filename='wow.css') }}?v=8">
   {% block page_styles %}{% endblock %}
 </head>
@@ -29,22 +29,22 @@
   <div class="progress-summary" id="progress-summary"></div>
   <section class="progress-chart-section"><div class="progress-section-title"><b>Évolution du niveau estimé</b><span>par question</span></div><div id="progress-chart" class="progress-chart"></div></section>
   <section class="progress-skills-section"><div class="progress-section-title"><b>Par compétence</b><span id="progress-period"></span></div><div id="progress-skills"></div></section>
-  <div class="progress-dialog-actions"><button class="button secondary" id="open-placement" type="button">Évaluer mon niveau</button></div>
+  <div class="progress-dialog-actions"><button class="button secondary" id="open-placement" type="button">Testez votre géorgien</button></div>
   <div class="progress-history" id="progress-history"></div>
 </dialog>
 <dialog class="placement-dialog" id="placement-dialog" aria-labelledby="placement-title">
-  <div class="placement-head"><div><span class="exercise-level-kicker">Diagnostic adaptatif · CECRL</span><button class="progress-close placement-close" type="button" aria-label="Fermer">×</button></div></div>
+  <div class="placement-head"><div><span class="exercise-level-kicker">Test adaptatif · CECRL</span><button class="progress-close placement-close" type="button" aria-label="Fermer">×</button></div></div>
   <section id="placement-intro" class="placement-intro">
     <div class="placement-mark" aria-hidden="true">↗</div>
-    <h2 id="placement-title">Votre géorgien, où en est-il ?</h2>
-    <p>Répondez à une dizaine de questions de compréhension écrite. Leur difficulté monte ou descend selon vos réponses, de A1 à C2. Ce premier repère aidera à choisir des exercices adaptés ; il s’affinera avec votre pratique.</p>
-    <div class="placement-meta"><span>≈ 3 minutes</span><span>Jusqu’à 12 questions</span><span>Sans pression</span></div>
-    <div class="placement-actions"><button class="button primary" id="placement-start" type="button">Commencer le diagnostic <span>→</span></button><button class="placement-later" id="placement-later" type="button">Je le ferai plus tard</button></div>
+    <h2 id="placement-title">Testez votre géorgien !</h2>
+    <p>Quelques questions courtes pour découvrir ce que vous savez déjà. Le test commence doucement et s’adapte à vos réponses. Vous pouvez choisir « Je ne sais pas » ou arrêter à tout moment.</p>
+    <div class="placement-meta"><span>≈ 3 minutes</span><span>Jusqu’à 12 questions</span><span>À votre rythme</span></div>
+    <div class="placement-actions"><button class="button primary" id="placement-start" type="button">Lancer le test <span>→</span></button></div>
   </section>
   <section id="placement-quiz" class="placement-quiz hidden" aria-live="polite">
-    <div class="placement-progress-line"><span id="placement-count">Question 1</span><span class="placement-level-tag" id="placement-level">A2</span></div>
+    <div class="placement-progress-line"><span id="placement-count">Question 1</span><span class="placement-level-tag" id="placement-level">A1</span></div>
     <div class="placement-progress"><i id="placement-progress-fill"></i></div>
-    <p class="placement-instruction">Lisez ce passage en géorgien, puis choisissez la bonne réponse.</p>
+    <p class="placement-instruction">Lisez ce passage en géorgien, puis choisissez une réponse. Vous pouvez aussi passer.</p>
     <blockquote class="placement-text ka" lang="ka" id="placement-text"></blockquote>
     <h3 id="placement-question"></h3>
     <div id="placement-options" class="placement-options"></div>
@@ -61,7 +61,7 @@
 </dialog>
 <script src="{{ url_for('static', filename='app.js') }}?v=modern-v1" defer></script>
 <script src="{{ url_for('static', filename='learning-profile.js') }}?v=account-v1" defer></script>
-<script src="{{ url_for('static', filename='placement.js') }}?v=placement-resume-v3" defer></script>
+<script src="{{ url_for('static', filename='placement.js') }}?v=placement-test-v1" defer></script>
 <script src="{{ url_for('static', filename='account-sync.js') }}?v=account-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>
