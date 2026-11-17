@@ -1,5 +1,5 @@
 {% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}{% block title %}Ma séance — Parlons géorgien{% endblock %}{% block content %}
-{% if not request.args.get('exercise') %}{{ activity_hub('Séance quotidienne · environ 10 min', 'Un peu de géorgien, chaque jour.', 'Choisissez un entraînement ciblé ou mélangez les formats pour réviser un peu de tout.', [
+{% if not request.args.get('exercise') %}{{ activity_hub('Révision du vocabulaire · environ 10 min', 'Révisez avec quatre formats d’exercices.', 'Choisissez une séance mélangée, un QCM de traduction, un exercice d’écriture ou un jeu pour reconstruire des phrases.', [
  {'icon':'dices','label':'01 · VARIÉ','title':'Séance mélangée','text':'Traduction, écriture, association et phrases à remettre en ordre.','href':url_for('session', exercise='mixed'),'action':'Démarrer'},
  {'icon':'languages','label':'02 · QCM','title':'Sens des mots','text':'Lisez en géorgien et choisissez la traduction française.','href':url_for('session', exercise='mcq'),'action':'Démarrer'},
  {'icon':'keyboard','label':'03 · ÉCRITURE','title':'Écrire en géorgien','text':'Retrouvez les mots depuis leur sens en français.','href':url_for('session', exercise='type'),'action':'Démarrer'},

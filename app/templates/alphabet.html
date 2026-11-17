@@ -1,5 +1,5 @@
 {% extends "base.html" %}{% from "_activity_hub.html" import activity_hub %}{% block title %}Alphabet géorgien — Parlons géorgien{% endblock %}{% block page_styles %}<link rel="stylesheet" href="{{ url_for('static', filename='alphabet-recognition.css') }}?v=a1-bank-v1">{% endblock %}{% block content %}
-{{ activity_hub('Alphabet · les sons du mkhedruli', '33 lettres, une nouvelle lecture.', 'Apprenez à reconnaître les sons, puis mettez votre vitesse de lecture à l’épreuve.', [
+{{ activity_hub('Alphabet · les sons du mkhedruli', 'Apprenez les 33 lettres et leurs sons.', 'Parcourez l’alphabet, écoutez des exemples et entraînez-vous à reconnaître les sons puis à lire des mots.', [
   {'icon':'timer','label':'01 · CHRONO','title':'Contre la montre','text':'Combien de sons reconnaissez-vous en 60 secondes ?','href':'#alphabet-speed-title','action':'Jouer'},
   {'icon':'ear','label':'02 · ÉCOUTE','title':'Reconnaître un son','text':'Écoutez un son et retrouvez la lettre correspondante.','href':'#alphabet-practice','action':'S’entraîner'},
   {'icon':'type','label':'03 · LECTURE','title':'Lire des mots','text':'Décodez des mots géorgiens en 60 secondes, du mkhedruli à la translittération.','href':'#alphabet-word-speed','action':'Jouer'},
