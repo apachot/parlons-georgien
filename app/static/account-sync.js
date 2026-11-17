@@ -69,10 +69,15 @@
         const levels = localIsNewer
           ? {...(profile.levels || {}), ...(localProfile.levels || {})}
           : {...(localProfile.levels || {}), ...(profile.levels || {})};
+        const remoteOnboarding = profile.onboarding || {};
+        const localOnboarding = localProfile.onboarding || {};
+        const onboarding = remoteOnboarding.completedAt ? remoteOnboarding
+          : localOnboarding.completedAt ? localOnboarding
+          : (String(localOnboarding.updatedAt || '') > String(remoteOnboarding.updatedAt || '') ? localOnboarding : remoteOnboarding);
         profile = {...(localIsNewer ? profile : localProfile), ...profile,
           ratings, levels, history,
           overallLevel: (localIsNewer ? localProfile.overallLevel : profile.overallLevel) || localProfile.overallLevel || profile.overallLevel || null,
-          onboarding: profile.onboarding?.completedAt ? profile.onboarding : (localProfile.onboarding || profile.onboarding || {})};
+          onboarding};
       }
       profile.accountOwner = String(userId);
       try { localStorage.setItem(PROFILE_KEY, JSON.stringify(profile)); } catch (_) {}

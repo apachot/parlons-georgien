@@ -1,6 +1,7 @@
 (() => {
   const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
   const TOTAL = 12;
+  const PROFILE_KEY = 'parlons-georgien-learning-profile-v1';
   const base = document.documentElement.dataset.appBase || '';
   const $ = selector => document.querySelector(selector);
   const dialog = $('#placement-dialog');
@@ -9,15 +10,81 @@
   let state;
   const show = selector => $(selector).classList.remove('hidden');
   const hide = selector => $(selector).classList.add('hidden');
-  const start = () => {
-    state = {level: 'A2', index: 0, streak: 0, responses: [], used: new Set(), item: null, locked: false};
+  const readDraft = () => {
+    try { return JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}').onboarding?.draft || null; }
+    catch (_) { return null; }
+  };
+  const saveDraft = () => {
+    if (!state) return;
+    window.savePlacementDraft?.({...state, used: [...state.used]});
+  };
+  const beginScreen = () => {
     hide('#placement-intro');
     hide('#placement-result');
     show('#placement-quiz');
+  };
+  const renderItem = item => {
+    $('#placement-count').textContent = `Question ${state.locked ? state.index : state.index + 1} sur ${TOTAL}`;
+    $('#placement-level').textContent = state.level;
+    $('#placement-progress-fill').style.width = `${state.index / TOTAL * 100}%`;
+    $('#placement-feedback').textContent = '';
+    $('#placement-feedback').className = 'placement-feedback';
+    hide('#placement-next');
+    $('#placement-options').replaceChildren();
+    $('#placement-text').textContent = item.text || '';
+    $('#placement-question').textContent = item.question || '';
+    const addOption = (label, choice, unknown = false) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'placement-option';
+      button.textContent = label;
+      if (unknown) button.dataset.unknown = 'true';
+      button.addEventListener('click', () => answer(choice, button));
+      $('#placement-options').append(button);
+      return button;
+    };
+    item.options.forEach(option => addOption(option, option));
+    const unknownButton = addOption('Je ne sais pas', null, true);
+    if (!state.locked) return;
+
+    document.querySelectorAll('.placement-option').forEach(button => {
+      button.disabled = true;
+      if (!button.dataset.unknown && button.textContent === item.answer) button.classList.add('is-correct');
+    });
+    const selected = [...document.querySelectorAll('.placement-option')].find(button =>
+      state.selectedUnknown ? button === unknownButton : !button.dataset.unknown && button.textContent === state.selectedChoice);
+    selected?.classList.add(state.selectedUnknown ? 'is-unknown' : state.lastCorrect ? 'is-correct' : 'is-wrong');
+    const prefix = state.selectedUnknown ? 'Bien noté.' : state.lastCorrect ? 'Bonne réponse !' : 'Pas tout à fait.';
+    $('#placement-feedback').textContent = state.lastCorrect
+      ? `${prefix} La prochaine question pourra être un peu plus exigeante.`
+      : `${prefix} La bonne réponse était « ${item.answer} ». ${item.explanation || ''}`;
+    $('#placement-feedback').classList.add(state.lastCorrect ? 'is-correct' : 'is-wrong');
+    $('#placement-next').textContent = state.index >= TOTAL ? 'Voir mon résultat' : 'Question suivante';
+    $('#placement-next').onclick = loadQuestion;
+    show('#placement-next');
+  };
+  const start = () => {
+    state = {level: 'A2', index: 0, streak: 0, responses: [], used: new Set(), item: null, locked: false};
+    beginScreen();
     loadQuestion();
+  };
+  const restore = draft => {
+    if (!draft || !draft.item || !Array.isArray(draft.responses) || !Number.isInteger(draft.index)) return false;
+    const level = LEVELS.includes(draft.level) ? draft.level : 'A1';
+    const index = Math.max(0, Math.min(TOTAL, draft.index));
+    state = {...draft, level, index, streak: Math.max(0, Number(draft.streak) || 0),
+      responses: draft.responses, used: new Set(Array.isArray(draft.used) ? draft.used : []),
+      locked: Boolean(draft.locked)};
+    beginScreen();
+    renderItem(state.item);
+    return true;
   };
   const loadQuestion = async () => {
     if (state.index >= TOTAL) return finish();
+    state.locked = false;
+    state.selectedChoice = null;
+    state.selectedUnknown = false;
+    beginScreen();
     $('#placement-count').textContent = `Question ${state.index + 1} sur ${TOTAL}`;
     $('#placement-level').textContent = state.level;
     $('#placement-progress-fill').style.width = `${state.index / TOTAL * 100}%`;
@@ -37,24 +104,8 @@
       }
       state.item = item;
       state.used.add(item.id);
-      state.locked = false;
-      $('#placement-text').textContent = item.text;
-      $('#placement-question').textContent = item.question;
-      item.options.forEach(option => {
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'placement-option';
-        button.textContent = option;
-        button.addEventListener('click', () => answer(option, button));
-        $('#placement-options').append(button);
-      });
-      const unknown = document.createElement('button');
-      unknown.type = 'button';
-      unknown.className = 'placement-option';
-      unknown.dataset.unknown = 'true';
-      unknown.textContent = 'Je ne sais pas';
-      unknown.addEventListener('click', () => answer(null, unknown));
-      $('#placement-options').append(unknown);
+      renderItem(item);
+      saveDraft();
     } catch (error) {
       $('#placement-feedback').textContent = error.message || 'Une erreur est survenue.';
       $('#placement-feedback').classList.add('is-wrong');
@@ -66,34 +117,25 @@
   const answer = (choice, button) => {
     if (state.locked) return;
     state.locked = true;
+    state.selectedChoice = choice;
+    state.selectedUnknown = button.dataset.unknown === 'true';
     const item = state.item;
     const correct = choice === item.answer;
+    state.lastCorrect = correct;
     state.responses.push({id: item.id, level: item.cefr, correct});
-    document.querySelectorAll('.placement-option').forEach(option => {
-      option.disabled = true;
-      if (option.textContent === item.answer) option.classList.add('is-correct');
-    });
     if (correct) {
-      button.classList.add('is-correct');
       state.streak += 1;
       if (state.streak >= 2 && LEVELS.indexOf(state.level) < LEVELS.length - 1) {
         state.level = LEVELS[LEVELS.indexOf(state.level) + 1];
         state.streak = 0;
       }
-      $('#placement-feedback').textContent = 'Bonne réponse ! La prochaine question pourra être un peu plus exigeante.';
-      $('#placement-feedback').classList.add('is-correct');
     } else {
-      const didntKnow = button.dataset.unknown === 'true';
-      button.classList.add(didntKnow ? 'is-unknown' : 'is-wrong');
       state.streak = 0;
       if (LEVELS.indexOf(state.level) > 0) state.level = LEVELS[LEVELS.indexOf(state.level) - 1];
-      $('#placement-feedback').textContent = `${didntKnow ? 'Bien noté.' : 'Pas tout à fait.'} La bonne réponse était « ${item.answer} ». ${item.explanation || ''}`;
-      $('#placement-feedback').classList.add('is-wrong');
     }
     state.index += 1;
-    $('#placement-next').textContent = state.index >= TOTAL ? 'Voir mon résultat' : 'Question suivante';
-    $('#placement-next').onclick = loadQuestion;
-    show('#placement-next');
+    renderItem(item);
+    saveDraft();
   };
   const finish = () => {
     hide('#placement-quiz');
@@ -107,10 +149,13 @@
   };
 
   window.openPlacementDiagnostic = () => {
-    state = null;
-    show('#placement-intro');
-    hide('#placement-quiz');
-    hide('#placement-result');
+    const draft = readDraft();
+    if (!restore(draft)) {
+      state = null;
+      show('#placement-intro');
+      hide('#placement-quiz');
+      hide('#placement-result');
+    }
     if (!dialog.open) dialog.showModal();
   };
 
@@ -124,7 +169,7 @@
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('close', () => {
     if (!state || !$('#placement-result').classList.contains('hidden')) return;
-    window.dismissPlacementWelcome?.();
+    saveDraft();
     state = null;
     show('#placement-intro');
     hide('#placement-quiz');
@@ -133,8 +178,10 @@
   document.addEventListener('DOMContentLoaded', async () => {
     await window.accountSyncReady;
     try {
-      const profile = JSON.parse(localStorage.getItem('parlons-georgien-learning-profile-v1') || '{}');
-      if (!profile.onboarding?.completedAt && !profile.onboarding?.dismissedAt && !profile.history?.length) {
+      const profile = JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}');
+      if (!profile.onboarding?.completedAt && restore(profile.onboarding?.draft)) {
+        dialog.showModal();
+      } else if (!profile.onboarding?.completedAt && !profile.onboarding?.dismissedAt && !profile.history?.length) {
         dialog.showModal();
       }
     } catch (_) { /* The assessment remains available from the level profile. */ }

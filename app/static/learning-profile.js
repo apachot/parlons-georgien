@@ -83,13 +83,18 @@
     profile.ratings.placement = placement;
     profile.overallLevel = hysteresisLevel(overallRating(), profile.overallLevel || levelFromRating(overallRating()));
     profile.onboarding = {completedAt: new Date().toISOString(), dismissedAt: profile.onboarding?.dismissedAt || null,
-      questionCount: responses.length, correct: responses.filter(item => item.correct).length};
+      questionCount: responses.length, correct: responses.filter(item => item.correct).length, draft: null};
     if (profile.history.length > 5000) profile.history.splice(0, profile.history.length - 5000);
     saveProfile();
     return overallLevel();
   };
   window.dismissPlacementWelcome = () => {
     profile.onboarding = {...(profile.onboarding || {}), dismissedAt: new Date().toISOString()};
+    saveProfile();
+  };
+  window.savePlacementDraft = draft => {
+    profile.onboarding = {...(profile.onboarding || {}), draft: draft || null,
+      updatedAt: new Date().toISOString()};
     saveProfile();
   };
   const saveProfile = () => {
