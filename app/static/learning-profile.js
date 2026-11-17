@@ -33,8 +33,11 @@
       const placementTest = data.placementTest || data.onboarding || {};
       return {ratings: data.ratings || {}, history: Array.isArray(data.history) ? data.history : [],
         levels: data.levels || {}, overallLevel: data.overallLevel || null, pending: data.pending || {},
-        placementTest, accountOwner: data.accountOwner || null};
-    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, placementTest: {}, accountOwner: null}; }
+        placementTest, selfAssessmentLevel: data.selfAssessmentLevel || null,
+        selfAssessmentAt: data.selfAssessmentAt || null, levelOnboardingDismissedAt: data.levelOnboardingDismissedAt || null,
+        accountOwner: data.accountOwner || null};
+    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, placementTest: {},
+      selfAssessmentLevel: null, selfAssessmentAt: null, levelOnboardingDismissedAt: null, accountOwner: null}; }
   };
   let profile = readProfile();
   const activeQuestion = {};
@@ -53,7 +56,7 @@
   };
   const overallRating = () => {
     const ratings = Object.values(profile.ratings).filter(item => item && item.count > 0);
-    if (!ratings.length) return 800;
+    if (!ratings.length) return POINTS[normalizeLevel(profile.selfAssessmentLevel || 'A1')];
     return Math.round(ratings.reduce((sum, item) => sum + item.value, 0) / ratings.length);
   };
   const overallLevel = () => hysteresisLevel(overallRating(), profile.overallLevel);
@@ -66,9 +69,21 @@
     const personal = window.getEstimatedCefr(skill);
     return LEVELS[Math.max(LEVELS.indexOf(overall), LEVELS.indexOf(personal))];
   };
+  window.setSelfAssessedCefr = level => {
+    if (!LEVELS.includes(level)) return overallLevel();
+    profile.selfAssessmentLevel = level;
+    profile.selfAssessmentAt = new Date().toISOString();
+    if (!Object.values(profile.ratings).some(item => item && item.count > 0)) profile.overallLevel = level;
+    saveProfile();
+    return overallLevel();
+  };
+  window.dismissLevelOnboarding = () => {
+    profile.levelOnboardingDismissedAt = new Date().toISOString();
+    saveProfile();
+  };
   window.recordPlacementTest = responses => {
     if (!Array.isArray(responses) || !responses.length) return overallLevel();
-    const placement = profile.ratings.placement || {value: profile.history.length ? overallRating() : 1000, count: 0, correct: 0};
+    const placement = profile.ratings.placement || {value: profile.history.length || profile.selfAssessmentLevel ? overallRating() : 1000, count: 0, correct: 0};
     responses.forEach(item => {
       const level = normalizeLevel(item.level);
       const expected = 1 / (1 + (10 ** ((POINTS[level] - placement.value) / 400)));

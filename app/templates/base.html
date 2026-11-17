@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=modern-v1">
   <link rel="stylesheet" href="{{ url_for('static', filename='modern.css') }}?v=4">
   <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}?v=email-verify-v1">
-  <link rel="stylesheet" href="{{ url_for('static', filename='wow.css') }}?v=home-exercise-ctas-v1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='wow.css') }}?v=level-onboarding-v1">
   {% block page_styles %}{% endblock %}
 </head>
 <body>
@@ -59,9 +59,25 @@
     <button class="button primary" id="placement-finish" type="button">Découvrir les exercices adaptés <span>→</span></button>
   </section>
 </dialog>
+<dialog class="level-onboarding-dialog" id="level-onboarding-dialog" aria-labelledby="level-onboarding-title">
+  <div class="level-onboarding-head"><span class="exercise-level-kicker">Votre point de départ</span><button class="progress-close" id="level-onboarding-close" type="button" aria-label="Fermer">×</button></div>
+  <p class="level-onboarding-step">Niveaux du CECRL · A1 à C2</p>
+  <h2 id="level-onboarding-title">Où en êtes-vous en géorgien ?</h2>
+  <p class="level-onboarding-intro">Choisissez la description qui vous ressemble le plus. C’est une première estimation : vos exercices l’affineront au fil du temps.</p>
+  <div class="level-onboarding-grid" role="group" aria-label="Choisissez votre niveau de départ">
+    <button class="level-onboarding-option" type="button" data-level="A1"><span>A1</span><b>Je débute</b><small>Je découvre l’alphabet, les salutations et quelques mots utiles. Je peux me présenter avec des phrases très simples.</small></button>
+    <button class="level-onboarding-option" type="button" data-level="A2"><span>A2</span><b>Je connais les bases</b><small>Je comprends des phrases courantes et peux parler de moi, de mes habitudes et de besoins immédiats.</small></button>
+    <button class="level-onboarding-option" type="button" data-level="B1"><span>B1</span><b>Je me débrouille</b><small>Je peux raconter une expérience, parler de projets et comprendre l’essentiel d’un échange sur un sujet familier.</small></button>
+    <button class="level-onboarding-option" type="button" data-level="B2"><span>B2</span><b>Je suis autonome</b><small>Je comprends des textes assez complexes et peux échanger avec aisance, expliquer un avis et le défendre.</small></button>
+    <button class="level-onboarding-option" type="button" data-level="C1"><span>C1</span><b>Je suis avancé·e</b><small>Je comprends des contenus longs et nuancés, et m’exprime de façon fluide dans des situations variées.</small></button>
+    <button class="level-onboarding-option" type="button" data-level="C2"><span>C2</span><b>Je maîtrise la langue</b><small>Je comprends presque tout, y compris les sous-entendus, et peux m’exprimer avec précision et nuance.</small></button>
+  </div>
+  <p class="level-onboarding-footnote">Un doute ? Choisissez le niveau qui vous semble le plus proche. Votre estimation s’affinera ensuite avec les exercices.</p>
+</dialog>
 <script src="{{ url_for('static', filename='app.js') }}?v=modern-v1" defer></script>
-<script src="{{ url_for('static', filename='learning-profile.js') }}?v=account-v1" defer></script>
+<script src="{{ url_for('static', filename='learning-profile.js') }}?v=level-onboarding-v1" defer></script>
 <script src="{{ url_for('static', filename='placement.js') }}?v=placement-test-v2" defer></script>
 <script src="{{ url_for('static', filename='account-sync.js') }}?v=account-v1" defer></script>
+<script src="{{ url_for('static', filename='onboarding.js') }}?v=level-choice-v1" defer></script>
 {% block scripts %}{% endblock %}
 </body></html>
