@@ -2,6 +2,17 @@
 {% block title %}À propos — Parlons géorgien{% endblock %}
 {% block content %}
 <div class="about-page">
+  <section class="about-creator" aria-labelledby="about-creator-title">
+    <div class="about-creator-mark" aria-hidden="true">ა</div>
+    <div class="about-creator-copy"><div class="eyebrow">À l’origine du projet</div><h1 id="about-creator-title">Arnault Pachot</h1>
+      <p>Je m’appelle Arnault Pachot. Entrepreneur et chercheur en intelligence artificielle, je me suis installé à Tbilissi avec ma famille à l’été 2026.</p>
+      <p>Apprendre le géorgien fait partie de cette aventure. Pour moi, c’est une façon de mieux comprendre le pays qui nous accueille, de rencontrer ses habitants et de participer à la vie quotidienne. Commander au restaurant, échanger quelques mots avec un voisin ou réussir à tenir une petite conversation deviennent autant de petites victoires.</p>
+      <p>J’ai créé Parlons géorgien pour accompagner mon propre apprentissage et partager des outils utiles avec d’autres francophones. Ce projet réunit mon goût pour les langues, la pédagogie et les possibilités offertes par l’informatique.</p>
+      <p>Le site se construit au fil de cet apprentissage. Vos retours, vos idées et vos corrections sont les bienvenus pour le faire progresser !</p>
+      <a class="about-text-link" href="https://arnault.pachot.fr/" target="_blank" rel="noopener">Découvrir mon parcours <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
   <section class="activity-hero about-hero" data-section-scene="lesson" aria-labelledby="about-title">
     <div class="activity-hero-copy">
       <div class="eyebrow"><span class="dot"></span>À propos du projet</div>
@@ -19,11 +30,6 @@
       <article class="about-feature-card"><span class="about-feature-icon"><img src="{{ url_for('static', filename='icons/lucide/headphones.svg') }}" alt=""></span><small>02 · S’ENTRAÎNER</small><h3>Varier les exercices</h3><p>Jouez avec le vocabulaire, écoutez, écrivez, lisez des textes et construisez des phrases.</p></article>
       <article class="about-feature-card"><span class="about-feature-icon"><img src="{{ url_for('static', filename='icons/lucide/graduation-cap.svg') }}" alt=""></span><small>03 · PROGRESSER</small><h3>Aller plus loin</h3><p>Suivez des leçons et des activités de difficulté croissante, jusqu’aux contenus avancés.</p></article>
     </div>
-  </section>
-
-  <section class="about-creator" aria-labelledby="about-creator-title">
-    <div class="about-creator-mark" aria-hidden="true">ა</div>
-    <div><div class="eyebrow">À l’origine du projet</div><h2 id="about-creator-title">Arnault Pachot</h2><p>Entrepreneur et docteur en informatique, Arnault Pachot a initié Parlons géorgien pour créer un parcours d’apprentissage progressif, interactif et accessible en français.</p><a class="about-text-link" href="https://arnault.pachot.fr/" target="_blank" rel="noopener">Découvrir son parcours <span aria-hidden="true">↗</span></a></div>
   </section>
 
   <section class="about-open-source" aria-labelledby="about-open-source-title">

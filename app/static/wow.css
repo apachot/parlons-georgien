@@ -418,7 +418,7 @@
 .about-level-line i { color: #c58d4c; font-size: 17px; font-style: normal; }
 .about-section { margin-top: 59px; }
 .about-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 26px; margin-bottom: 21px; }
-.about-section-heading h2, .about-creator h2, .about-open-source h2 { margin: 6px 0 0; font-size: clamp(29px, 3.8vw, 43px); letter-spacing: -.055em; line-height: 1.05; }
+.about-section-heading h2, .about-creator h1, .about-open-source h2 { margin: 6px 0 0; font-size: clamp(29px, 3.8vw, 43px); letter-spacing: -.055em; line-height: 1.05; }
 .about-section-heading > p { max-width: 400px; margin: 0; color: #716469; font-size: 12px; line-height: 1.7; }
 .about-feature-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; }
 .about-feature-card { min-height: 220px; padding: 22px; border: 1px solid #e5d9d8; border-top: 3px solid #8f4e5e; background: #fffdfb; }
@@ -427,10 +427,11 @@
 .about-feature-card > small { color: #8d737a; font-size: 8px; font-weight: 800; letter-spacing: .14em; }
 .about-feature-card h3 { margin: 8px 0 7px; color: #35222d; font-size: 19px; letter-spacing: -.035em; }
 .about-feature-card p, .about-creator p, .about-open-source p { margin: 0; color: #74686b; font-size: 12px; line-height: 1.75; }
-.about-creator { display: grid; grid-template-columns: 100px minmax(0, 1fr); align-items: center; gap: 23px; margin-top: 38px; padding: 29px; border: 1px solid #e5d9d8; background: #f7f2eb; }
+.about-creator { display: grid; grid-template-columns: 100px minmax(0, 1fr); align-items: start; gap: 23px; margin-top: 0; padding: 29px; border: 1px solid #e5d9d8; background: #f7f2eb; }
 .about-creator-mark { display: grid; width: 90px; height: 90px; place-items: center; background: #442436; color: #f2cf7e; font: 500 54px/1 var(--ka); }
-.about-creator h2 { margin-bottom: 10px; }
-.about-creator p { max-width: 740px; }
+.about-creator h1 { margin-bottom: 17px; }
+.about-creator p { max-width: 900px; }
+.about-creator-copy p + p { margin-top: 12px; }
 .about-text-link { display: inline-flex; gap: 10px; margin-top: 13px; color: #653247; font-size: 11px; font-weight: 750; text-decoration: none; }
 .about-text-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .about-open-source { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 34px; margin-top: 14px; padding: clamp(27px, 4vw, 43px); border-left: 5px solid #e6bd64; background: #442436; color: #fff9ed; }
