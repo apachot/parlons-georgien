@@ -104,9 +104,17 @@
 .wow-copy > p { max-width: 480px; margin: 0 0 28px; color: #6d6064; font-size: 15px; line-height: 1.8; }
 .wow-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; }
 .wow-actions .button { min-height: 54px; padding-inline: 21px; }
-.home-free-note { display: flex; align-items: flex-start; gap: 9px; max-width: 500px; margin-top: 17px; padding: 10px 12px; border-left: 3px solid #12645e; background: #eaf4f1; color: #465b59; font-size: 11px; line-height: 1.55; }
-.home-free-note > span:first-child { flex: 0 0 auto; color: #12645e; font-size: 15px; font-weight: 800; }
-.home-free-note strong { color: #0c4542; font-weight: 800; }
+.home-free-promise { max-width: 540px; margin-top: 19px; padding: 15px 17px 12px; border-left: 4px solid #efbd5d; background: #12645e; color: #fffdf6; }
+.home-free-promise-heading { display: flex; align-items: center; gap: 11px; }
+.home-free-promise-check { display: grid; width: 31px; height: 31px; flex: 0 0 auto; place-items: center; background: #f2cf7e; color: #164c48; font-size: 17px; font-weight: 900; }
+.home-free-promise-heading > span:last-child { display: grid; gap: 1px; }
+.home-free-promise-heading small { color: #c7e4da; font-size: 8px; font-weight: 800; letter-spacing: .14em; }
+.home-free-promise-heading strong { color: #fffdf6; font-size: 22px; letter-spacing: -.035em; line-height: 1.15; }
+.home-free-promise-points { display: flex; flex-wrap: wrap; gap: 7px 16px; margin: 12px 0 0 42px; }
+.home-free-promise-points span { color: #fffdf6; font-size: 10px; font-weight: 750; }
+.home-free-promise-points span::before { content: "✓"; margin-right: 5px; color: #f2cf7e; }
+.home-free-promise p { margin: 9px 0 0 42px; color: #d0e3dc; font-size: 9px; line-height: 1.45; }
+.home-free-promise + .wow-actions { margin-top: 16px; }
 .wow-secondary-link { display: inline-flex; align-items: center; gap: 10px; color: var(--green-dark); font-size: 12px; font-weight: 750; }
 .wow-secondary-link span { color: var(--orange); font-size: 18px; transition: transform .18s ease; }
 .wow-secondary-link:hover span { transform: translateX(4px); }
@@ -305,7 +313,11 @@
   .wow-copy > p { font-size: 13px; }
   .wow-actions { gap: 14px; }
   .wow-actions .button { width: 100%; }
-  .home-free-note { margin-top: 14px; font-size: 10px; }
+  .home-free-promise { margin-top: 16px; padding: 13px 14px 11px; }
+  .home-free-promise-heading strong { font-size: 20px; }
+  .home-free-promise-points { gap: 6px 11px; margin-left: 0; }
+  .home-free-promise-points span { font-size: 9px; }
+  .home-free-promise p { margin-left: 0; font-size: 9px; }
   .wow-hero-foot { gap: 8px; margin-top: 27px; font-size: 8px; }
   .wow-visual { min-height: 410px; height: 410px; }
   .wow-visual-top { top: 20px; right: 20px; left: 20px; }
