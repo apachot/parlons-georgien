@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=modern-v1">
   <link rel="stylesheet" href="{{ url_for('static', filename='modern.css') }}?v=4">
   <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}?v=email-verify-v1">
-  <link rel="stylesheet" href="{{ url_for('static', filename='wow.css') }}?v=home-free-v1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='wow.css') }}?v=next-exercise-v1">
   {% block page_styles %}{% endblock %}
 </head>
 <body>
@@ -74,7 +74,8 @@
   </div>
   <p class="level-onboarding-footnote">Un doute ? Choisissez le niveau qui vous semble le plus proche. Votre estimation s’affinera ensuite avec les exercices.</p>
 </dialog>
-<script src="{{ url_for('static', filename='app.js') }}?v=modern-v1" defer></script>
+<script src="{{ url_for('static', filename='app.js') }}?v=next-exercise-v1" defer></script>
+<script src="{{ url_for('static', filename='exercise-next.js') }}?v=next-exercise-v1" defer></script>
 <script src="{{ url_for('static', filename='learning-profile.js') }}?v=level-onboarding-v1" defer></script>
 <script src="{{ url_for('static', filename='placement.js') }}?v=placement-test-v2" defer></script>
 <script src="{{ url_for('static', filename='account-sync.js') }}?v=account-v1" defer></script>

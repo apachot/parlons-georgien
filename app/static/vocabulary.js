@@ -938,6 +938,8 @@ function returnToGameHome() {
 document.querySelectorAll('.vocabulary-module').forEach(button => {
   button.addEventListener('click', () => openGame(button.dataset.module));
 });
+const requestedGame = new URLSearchParams(location.search).get('next');
+if (requestedGame && gameCopy[requestedGame]) openGame(requestedGame);
 game.back.addEventListener('click', returnToGameHome);
 document.querySelector('#back-to-vocabulary-games')?.addEventListener('click', returnToGameHome);
 game.replay.addEventListener('click', startRound);

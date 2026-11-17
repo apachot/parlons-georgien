@@ -35,6 +35,16 @@ document.addEventListener('DOMContentLoaded', () => {
     panel.querySelector('[data-activity-back]')?.classList.remove('hidden');
     refreshExerciseDifficulty();
   }));
+  const fragment = decodeURIComponent(location.hash.slice(1));
+  const fragmentTarget = fragment ? document.getElementById(fragment) : null;
+  const fragmentPanel = fragmentTarget?.closest('[data-activity-panel]');
+  if (fragmentPanel && activityPanels.includes(fragmentPanel)) {
+    activityPanels.forEach(panel => panel.classList.toggle('hidden', panel !== fragmentPanel));
+    activityMenus.forEach(menu => menu.classList.toggle('hidden', !menu.classList.contains('activity-hero')));
+    fragmentPanel.querySelector('[data-activity-back]')?.classList.remove('hidden');
+    refreshExerciseDifficulty();
+    requestAnimationFrame(() => fragmentTarget.scrollIntoView({block: 'start'}));
+  }
   document.querySelectorAll('[data-activity-back]').forEach(button => button.addEventListener('click', showActivityMenu));
   document.querySelector('#word-search')?.addEventListener('input', e => {
     const query = e.target.value.trim().toLocaleLowerCase('fr');
