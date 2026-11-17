@@ -7,11 +7,16 @@ from functools import wraps
 import hmac
 import re
 import secrets
+import smtplib
+import ssl
+import unicodedata
+from email.message import EmailMessage
 
-from flask import Flask, flash, g, jsonify, redirect, render_template, request, send_file, session as flask_session, url_for
+from flask import Flask, current_app, flash, g, jsonify, redirect, render_template, request, send_file, session as flask_session, url_for
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import func
+from sqlalchemy import func, inspect, text
 from sqlalchemy.exc import IntegrityError
+from itsdangerous import BadSignature, SignatureExpired, URLSafeTimedSerializer
 from werkzeug.security import check_password_hash, generate_password_hash
 from .tts import audio_name, normalise_speech
 from .crossword import build_crossword
@@ -66,8 +71,11 @@ class User(db.Model):
     __tablename__ = "user_account"
     id = db.Column(db.Integer, primary_key=True)
     display_name = db.Column(db.String(80), nullable=False)
+    display_name_key = db.Column(db.String(160), nullable=False)
     email = db.Column(db.String(254), nullable=False, unique=True)
     password_hash = db.Column(db.String(255), nullable=False)
+    email_verified = db.Column(db.Boolean, nullable=False, default=True, server_default=db.true())
+    verification_sent_at = db.Column(db.DateTime, nullable=True)
     created_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
     last_login_at = db.Column(db.DateTime, nullable=True)
 
@@ -103,6 +111,41 @@ class AccountData(db.Model):
     learning_profile = db.Column(db.JSON, nullable=False, default=dict)
     browser_data = db.Column(db.JSON, nullable=False, default=dict)
     updated_at = db.Column(db.DateTime, nullable=False, server_default=func.now(), onupdate=func.now())
+
+
+def migrate_account_schema():
+    """Add account verification fields and enforce case-insensitive display-name uniqueness."""
+    columns = {column["name"] for column in inspect(db.engine).get_columns("user_account")}
+    with db.engine.begin() as connection:
+        if "display_name_key" not in columns:
+            connection.execute(text("ALTER TABLE user_account ADD COLUMN display_name_key VARCHAR(160)"))
+        if "email_verified" not in columns:
+            # Accounts predating verification remain usable; only new registrations need confirmation.
+            connection.execute(text("ALTER TABLE user_account ADD COLUMN email_verified BOOLEAN NOT NULL DEFAULT 1"))
+        if "verification_sent_at" not in columns:
+            connection.execute(text("ALTER TABLE user_account ADD COLUMN verification_sent_at DATETIME"))
+        rows = connection.execute(text("SELECT id, display_name FROM user_account ORDER BY id")).mappings().all()
+        reserved = {unicodedata.normalize("NFKC", (row["display_name"] or "Utilisateur").strip()).casefold()
+                    for row in rows}
+        seen = set()
+        for row in rows:
+            name = (row["display_name"] or "Utilisateur").strip() or "Utilisateur"
+            key = unicodedata.normalize("NFKC", name).casefold()
+            if key in seen:
+                base_name = name[:76]
+                suffix = 2
+                while unicodedata.normalize("NFKC", f"{base_name}{suffix}").casefold() in reserved:
+                    suffix += 1
+                name = f"{base_name}{suffix}"
+                key = unicodedata.normalize("NFKC", name).casefold()
+                reserved.add(key)
+            connection.execute(text("UPDATE user_account SET display_name = :name, display_name_key = :key WHERE id = :id"),
+                               {"name": name, "key": key, "id": row["id"]})
+            seen.add(key)
+        connection.execute(text(
+            "CREATE UNIQUE INDEX IF NOT EXISTS uq_user_account_display_name_key "
+            "ON user_account (display_name_key)"
+        ))
 
 
 class _AccountScopedProxy:
@@ -199,6 +242,12 @@ def create_app(test_config=None):
         SESSION_COOKIE_HTTPONLY=True,
         SESSION_COOKIE_SAMESITE="Lax",
         SESSION_COOKIE_SECURE=os.environ.get("SESSION_COOKIE_SECURE", "1") == "1",
+        SMTP_HOST=os.environ.get("SMTP_HOST", ""),
+        SMTP_PORT=int(os.environ.get("SMTP_PORT", "587")),
+        SMTP_USE_TLS=os.environ.get("SMTP_USE_TLS", "1").strip().lower() in {"1", "true", "yes", "on"},
+        SMTP_USERNAME=os.environ.get("SMTP_USERNAME", ""),
+        SMTP_PASSWORD=os.environ.get("SMTP_PASSWORD", ""),
+        MAIL_FROM=os.environ.get("MAIL_FROM", ""),
     )
     if test_config:
         app.config.update(test_config)
@@ -207,6 +256,7 @@ def create_app(test_config=None):
     with app.app_context():
         Path(app.instance_path).mkdir(parents=True, exist_ok=True)
         db.create_all()
+        migrate_account_schema()
 
     @app.before_request
     def load_logged_in_account():
@@ -226,6 +276,44 @@ def create_app(test_config=None):
     def valid_csrf():
         expected = flask_session.get("csrf_token")
         return bool(expected) and hmac.compare_digest(str(request.form.get("csrf_token", "")), str(expected))
+
+    def verification_serializer():
+        return URLSafeTimedSerializer(app.config["SECRET_KEY"], salt="parlons-georgien-email-verification")
+
+    def mail_is_configured():
+        return bool(app.config["SMTP_HOST"] and app.config["MAIL_FROM"])
+
+    def send_verification_email(account):
+        token = verification_serializer().dumps({"user_id": account.id, "email": account.email})
+        link = url_for("verify_email", token=token, _external=True)
+        message = EmailMessage()
+        message["Subject"] = "Confirmez votre adresse e-mail — Parlons géorgien"
+        message["From"] = app.config["MAIL_FROM"]
+        message["To"] = account.email
+        message.set_content(
+            f"Bonjour {account.display_name},\n\n"
+            "Pour confirmer votre adresse e-mail et activer votre compte, ouvrez ce lien :\n"
+            f"{link}\n\nCe lien expire dans 24 heures. Si vous n’avez pas créé ce compte, ignorez ce message.\n"
+        )
+        with smtplib.SMTP(app.config["SMTP_HOST"], app.config["SMTP_PORT"], timeout=20) as smtp:
+            smtp.ehlo()
+            if app.config["SMTP_USE_TLS"]:
+                smtp.starttls(context=ssl.create_default_context())
+                smtp.ehlo()
+            username = app.config["SMTP_USERNAME"]
+            if username:
+                smtp.login(username, app.config["SMTP_PASSWORD"])
+            smtp.send_message(message)
+
+    def unique_display_name_suggestion(name):
+        base_name = name.strip()[:80]
+        for suffix in range(2, 10000):
+            ending = str(suffix)
+            candidate = f"{base_name[:80 - len(ending)]}{ending}"
+            key = unicodedata.normalize("NFKC", candidate).casefold()
+            if not User.query.filter_by(display_name_key=key).first():
+                return candidate
+        return f"{base_name[:68]}-{secrets.token_hex(4)}"
 
     def account_required(view):
         @wraps(view)
@@ -255,23 +343,101 @@ def create_app(test_config=None):
         password = request.form.get("password", "")
         if not name or not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", email):
             flash("Indiquez un nom et une adresse e-mail valide.", "error")
-            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 400
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
+                                   display_name=name, email=email), 400
         if len(password) < 8 or len(password) > 256:
             flash("Le mot de passe doit contenir entre 8 et 256 caractères.", "error")
-            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 400
-        account = User(display_name=name, email=email, password_hash=generate_password_hash(password))
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
+                                   display_name=name, email=email), 400
+        name_key = unicodedata.normalize("NFKC", name).casefold()
+        if User.query.filter_by(display_name_key=name_key).first():
+            suggestion = unique_display_name_suggestion(name)
+            flash("Ce prénom ou pseudo est déjà utilisé. Voici une variante disponible :", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
+                                   display_name=name, email=email, suggested_name=suggestion), 409
+        if not mail_is_configured():
+            flash("L’inscription est momentanément indisponible : l’envoi des e-mails de validation n’est pas configuré.", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
+                                   display_name=name, email=email), 503
+        account = User(display_name=name, display_name_key=name_key, email=email,
+                       password_hash=generate_password_hash(password), email_verified=False)
         db.session.add(account)
         try:
             db.session.commit()
         except IntegrityError:
             db.session.rollback()
-            flash("Un compte utilise déjà cette adresse e-mail.", "error")
-            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", "")), 409
+            duplicate_email = User.query.filter_by(email=email).first()
+            suggestion = unique_display_name_suggestion(name) if User.query.filter_by(display_name_key=name_key).first() else None
+            flash("Un compte utilise déjà cette adresse e-mail." if duplicate_email else
+                  "Ce prénom ou pseudo vient d’être pris. Choisissez la variante proposée.", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
+                                   display_name=name, email=email, suggested_name=suggestion), 409
+        try:
+            send_verification_email(account)
+        except Exception:
+            current_app.logger.exception("Could not send the account verification email")
+            db.session.delete(account)
+            db.session.commit()
+            flash("Le message de validation n’a pas pu être envoyé. Réessayez dans un instant.", "error")
+            return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
+                                   display_name=name, email=email), 503
+        account.verification_sent_at = utc_now_naive()
+        db.session.commit()
         flask_session.clear()
-        flask_session["account_id"] = account.id
+        flask_session["pending_verification_email"] = email
         csrf_token()
-        flash("Votre compte est créé. Votre progression sera désormais sauvegardée.", "success")
-        return redirect(url_for("account"))
+        return redirect(url_for("verification_pending"))
+
+    @app.get("/verify-email")
+    def verification_pending():
+        return render_template("verification_pending.html",
+                               email=flask_session.get("pending_verification_email", ""))
+
+    @app.post("/verify-email/resend")
+    def resend_verification_email():
+        if not valid_csrf():
+            flash("Le formulaire a expiré. Réessayez.", "error")
+            return redirect(url_for("verification_pending"))
+        email = request.form.get("email", "").strip().casefold()
+        account = User.query.filter_by(email=email).first() if email else None
+        if account and not account.email_verified:
+            if not mail_is_configured():
+                flash("L’envoi des e-mails de validation n’est pas configuré pour le moment.", "error")
+                return redirect(url_for("verification_pending"))
+            now = utc_now_naive()
+            if not account.verification_sent_at or now - account.verification_sent_at >= timedelta(minutes=1):
+                try:
+                    send_verification_email(account)
+                except Exception:
+                    current_app.logger.exception("Could not resend the account verification email")
+                    flash("Le message n’a pas pu être envoyé. Réessayez plus tard.", "error")
+                    return redirect(url_for("verification_pending"))
+                account.verification_sent_at = now
+                db.session.commit()
+        flask_session["pending_verification_email"] = email
+        flash("Si cette adresse correspond à un compte en attente, un lien de validation vient d’être envoyé.", "success")
+        return redirect(url_for("verification_pending"))
+
+    @app.get("/verify-email/<token>")
+    def verify_email(token):
+        try:
+            payload = verification_serializer().loads(token, max_age=24 * 60 * 60)
+        except SignatureExpired:
+            flash("Ce lien a expiré. Demandez-en un nouveau pour valider votre adresse.", "error")
+            return redirect(url_for("verification_pending"))
+        except BadSignature:
+            flash("Ce lien de validation est invalide.", "error")
+            return redirect(url_for("verification_pending"))
+        account = db.session.get(User, payload.get("user_id"))
+        if account is None or account.email != payload.get("email"):
+            flash("Ce lien de validation est invalide.", "error")
+            return redirect(url_for("verification_pending"))
+        account.email_verified = True
+        account.verification_sent_at = None
+        db.session.commit()
+        flask_session["pending_verification_email"] = account.email
+        flash("Adresse e-mail confirmée. Vous pouvez maintenant vous connecter.", "success")
+        return redirect(url_for("login"))
 
     @app.get("/login")
     def login():
@@ -289,6 +455,10 @@ def create_app(test_config=None):
         if account is None or not check_password_hash(account.password_hash, request.form.get("password", "")):
             flash("Adresse e-mail ou mot de passe incorrect.", "error")
             return render_template("account_auth.html", mode="login", next_url=request.form.get("next", "")), 401
+        if not account.email_verified:
+            flask_session["pending_verification_email"] = account.email
+            flash("Confirmez votre adresse e-mail avant de vous connecter.", "error")
+            return redirect(url_for("verification_pending"))
         flask_session.clear()
         flask_session["account_id"] = account.id
         csrf_token()

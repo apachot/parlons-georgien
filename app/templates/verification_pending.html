@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Validez votre adresse e-mail — Parlons géorgien{% endblock %}
+{% block content %}
+<section class="account-auth-wrap page-wrap">
+  <div class="account-auth-aside"><span class="exercise-level-kicker">Dernière étape</span><h1>Confirmez votre adresse e-mail.</h1><p>Nous vous avons envoyé un lien de validation. Ouvrez-le pour activer votre compte et sauvegarder votre progression.</p><div class="account-auth-benefits"><span>✦ Le lien expire après 24 heures</span><span>✦ Pensez à vérifier vos courriers indésirables</span></div></div>
+  <form class="account-form" method="post" action="{{ url_for('resend_verification_email') }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <span class="exercise-level-kicker">E-mail de validation</span><h2>Vous ne l’avez pas reçu ?</h2>
+    <label>Adresse e-mail<input type="email" name="email" autocomplete="email" maxlength="254" value="{{ email }}" required></label>
+    <button class="button primary" type="submit">Renvoyer le lien <span>→</span></button>
+    <p class="account-form-switch"><a href="{{ url_for('login') }}">Retour à la connexion</a></p>
+  </form>
+</section>
+{% endblock %}

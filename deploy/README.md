@@ -27,3 +27,9 @@ scp app/static/style.css "$DEPLOY_HOST:$APP_ROOT/app/static/style.css"
 ```
 
 Adaptez les chemins de sauvegarde et de transfert. Ne remplacez pas la base SQLite ni le cache audio lors d’un déploiement de code ordinaire. Après transfert, rechargez Gunicorn selon la configuration du serveur, puis vérifiez la page derrière Apache. Pour un déploiement sous `/kartuli/`, l’application attend l’en-tête `X-Forwarded-Prefix`; à la racine du domaine, cet en-tête n’est pas nécessaire.
+
+## Validation des adresses e-mail
+
+Les nouveaux comptes doivent confirmer leur adresse avant de pouvoir se connecter. Les comptes existants sont conservés comme déjà validés. Configurez un relais SMTP avant d’ouvrir les inscriptions : copiez `deploy/mail.env.example` vers `/etc/parlons-georgien/mail.env`, renseignez les valeurs fournies par votre service de messagerie, protégez le fichier (`chmod 600`) et redémarrez le service. Ne placez jamais ces secrets dans Git.
+
+Le relais doit accepter TLS sur le port configuré. Le lien de validation est signé par la clé Flask du serveur et expire après 24 heures. Le formulaire de renvoi limite les envois à un message par minute et ne révèle pas si une adresse est associée à un compte.

@@ -105,6 +105,8 @@ body {
 .account-form > .button { justify-content: space-between; margin-top: 4px; }
 .account-form-switch, .account-privacy-note { margin: 0; color: #74676b; font-size: 10px; }
 .account-form-switch a { color: var(--green); font-weight: 700; text-decoration: underline; }
+.username-suggestion { margin: -7px 0 0; color: #8a3e32; font-size: 11px; line-height: 1.5; }
+.username-suggestion button { padding: 0; border: 0; background: transparent; color: var(--green); font: inherit; font-weight: 800; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
 .account-privacy-note { padding-top: 13px; border-top: 1px solid #eee5e4; font-size: 9px; }
 .account-page-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; margin-bottom: 23px; }
 .account-page-head h1 { margin: 7px 0 9px; font: 500 clamp(36px, 5vw, 52px)/1.08 Georgia, serif; letter-spacing: -.04em; }

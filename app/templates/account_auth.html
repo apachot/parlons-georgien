@@ -7,8 +7,10 @@
     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="next" value="{{ next_url }}">
     <span class="exercise-level-kicker">{{ 'Inscription gratuite' if mode == 'register' else 'Connexion à votre compte' }}</span>
     <h2>{{ 'Créer mon compte' if mode == 'register' else 'Me connecter' }}</h2>
-    {% if mode == 'register' %}<label>Votre prénom ou pseudo<input name="display_name" autocomplete="name" maxlength="80" required></label>{% endif %}
-    <label>Adresse e-mail<input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+    {% if mode == 'register' %}<label>Votre prénom ou pseudo<input name="display_name" autocomplete="nickname" maxlength="80" value="{{ display_name or '' }}" required></label>
+      {% if suggested_name %}<p class="username-suggestion">Ce pseudo est déjà pris. Essayez <button type="button" data-username-suggestion="{{ suggested_name }}">{{ suggested_name }}</button>.</p>{% endif %}
+    {% endif %}
+    <label>Adresse e-mail<input type="email" name="email" autocomplete="email" maxlength="254" value="{{ email or '' }}" required>{% if mode == 'register' %}<small>Un lien de confirmation sera envoyé avant l’activation du compte.</small>{% endif %}</label>
     <label>Mot de passe<input type="password" name="password" autocomplete="{{ 'new-password' if mode == 'register' else 'current-password' }}" minlength="{{ 8 if mode == 'register' else 1 }}" maxlength="256" required>{% if mode == 'register' %}<small>8 caractères minimum</small>{% endif %}</label>
     <button class="button primary" type="submit">{{ 'Créer mon compte' if mode == 'register' else 'Me connecter' }} <span>→</span></button>
     <p class="account-form-switch">{{ 'Vous avez déjà un compte ?' if mode == 'register' else 'Pas encore de compte ?' }} <a href="{{ url_for('login', next=next_url) if mode == 'register' else url_for('register', next=next_url) }}">{{ 'Connexion' if mode == 'register' else 'Créer un compte' }}</a></p>
@@ -16,3 +18,4 @@
   </form>
 </section>
 {% endblock %}
+{% block scripts %}{% if mode == 'register' %}<script src="{{ url_for('static', filename='account-auth.js') }}?v=email-verify-v1" defer></script>{% endif %}{% endblock %}
