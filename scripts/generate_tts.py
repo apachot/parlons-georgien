@@ -56,7 +56,7 @@ def phrases():
             uncertain = set(data.get("uncertain_ids", []))
             fields = data["fields"]
             data = [dict(zip(fields, row)) for row in data["items"] if row[0] not in uncertain]
-        visit(data, path.name == "elearning_lessons.json")
+        visit(data, path.name.startswith("elearning_lessons"))
     return {language: sorted(text for text in texts if text) for language, texts in found.items()}
 
 

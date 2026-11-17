@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "A1",
+  "items": [
   {
     "id": "a1-home-georgia",
     "level": 1,
@@ -340,3 +342,4 @@
     "explanation": "ქართულს ვსწავლობ signifie « j’étudie le géorgien »."
   }
 ]
+}

@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A1", "A2", "B1"],
+  "items": [
  {"id":"tense-etre-present","category":"temps","prompt":"ახლა სახლში ვარ. À quel temps est la forme ვვარ?","options":["Présent : je suis à la maison maintenant.","Passé : j’étais à la maison hier.","Futur : je serai à la maison demain.","Impératif : reste à la maison."],"answer":"Présent : je suis à la maison maintenant.","explanation":"ახლა signifie « maintenant » et ვარ est la forme « je suis »."},
  {"id":"tense-etre-past","category":"temps","prompt":"გუშინ სახლში ვიყავი. Que signifie ვიყავი dans cette phrase ?","options":["J’étais.","Je suis.","Je serai.","Je reste."],"answer":"J’étais.","explanation":"Avec le repère გუშინ (« hier »), ვიყავი exprime ici le passé de « être »."},
  {"id":"tense-etre-future","category":"temps","prompt":"ხვალ სახლში ვიქნები. Que signifie ვიქნები ?","options":["Je serai.","J’étais.","Je suis.","Je veux."],"answer":"Je serai.","explanation":"ხვალ signifie « demain » ; ვიქნები est la forme future de « être » dans cet exemple."},
@@ -20,3 +22,4 @@
  {"id":"repair-ana-third-person","category":"correction","prompt":"Réparez l’erreur : ანა სახლში ხარ. (« Ana est à la maison. »)","options":["ანა სახლშია.","ანა სახლში ვარ.","ანა სახლში ხარ.","ანა სახლში ხართ."],"answer":"ანა სახლშია.","explanation":"სახლშია signifie « est à la maison » à la troisième personne. ხარ correspond à « tu es »."},
  {"id":"repair-from-georgia","category":"correction","prompt":"Réparez l’erreur : Je viens de Géorgie. მე საქართველოში ვარ.","options":["მე საქართველოდან ვარ.","მე საქართველოში ვარ.","მე საქართველოს ვარ.","მე საქართველოზე ვარ."],"answer":"მე საქართველოდან ვარ.","explanation":"საქართველოდან signifie « depuis/de Géorgie ». საქართველოში signifie « en Géorgie »."}
 ]
+}

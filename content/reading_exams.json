@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A2", "B1"],
+  "items": [
   {
     "id": "exam-tbilissi-une-journee",
     "level_name": "A2 · Une journée à Tbilissi",
@@ -28,3 +30,4 @@
     ]
   }
 ]
+}

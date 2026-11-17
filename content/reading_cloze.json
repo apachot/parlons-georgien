@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A1", "A2", "B1"],
+  "items": [
   {
     "id": "cloze-tbilisi",
     "sentence": "თბილისში ___ და ქართულს ვსწავლობ.",
@@ -64,3 +66,4 @@
     "explanation": "არ placé avant le verbe marque la négation : არ მინდა, « je ne veux pas »."
   }
 ]
+}

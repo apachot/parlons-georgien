@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "B2",
+  "items": [
   {
     "id": "b2-city-traffic-policy",
     "level": 5,
@@ -357,3 +359,4 @@
     "explanation": "La nouvelle formule répond au manque de temps identifié chez les clients, alors que la réduction ne répondait pas à leur principal obstacle."
   }
 ]
+}

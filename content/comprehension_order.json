@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A2", "B1"],
+  "items": [
   {
     "id": "order-ana-librairie",
     "title": "Une journée à la librairie",
@@ -28,3 +30,4 @@
     "explanation": "D’abord, les amis décident de voyager. Ils construisent ensuite leur itinéraire, organisent le trajet et finissent par préparer leurs affaires."
   }
 ]
+}

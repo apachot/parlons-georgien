@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A1", "A2"],
+  "items": [
   {
     "id": "sentence-greeting",
     "fr": "Bonjour, comment allez-vous ?",
@@ -54,3 +56,4 @@
     "answers": ["ხვალ შეხვედრა გვაქვს.", "ხვალ შეხვედრა გვაქვს"]
   }
 ]
+}

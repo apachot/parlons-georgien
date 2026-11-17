@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "C1",
+  "items": [
   {
     "id": "c1-public-transport-evaluation",
     "level": 6,
@@ -408,3 +410,4 @@
     "explanation": "Un échantillon plus inclusif peut modifier le score mesuré sans que la confiance de la population se soit réellement détériorée."
   }
 ]
+}

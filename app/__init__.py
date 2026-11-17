@@ -24,6 +24,8 @@ from .crossword import build_crossword
 db = SQLAlchemy()
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
+CEFR_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
+READING_LEVEL_NUMBERS = {"a1": 1, "a2": 3, "b1": 4, "b2": 5, "c1": 6, "c2": 7}
 
 
 def utc_now_naive():
@@ -174,17 +176,73 @@ Progress = _AccountScopedProxy(Progress, AccountProgress)
 LessonCompletion = _AccountScopedProxy(LessonCompletion, AccountLessonCompletion)
 
 
+def content_files(name):
+    """Return a content bank and its automatically discovered additions."""
+    base = CONTENT / f"{name}.json"
+    files = ([base] if base.is_file() else [])
+    variants = sorted(CONTENT.glob(f"{name}_*.json"))
+    excluded_prefixes = {
+        "alphabet": ("alphabet_recognition",),
+        "grammar": ("grammar_exercises",),
+        "vocabulary": ("vocabulary_images",),
+    }.get(name, ())
+    variants = [path for path in variants
+                if not any(path.stem == prefix or path.stem.startswith(f"{prefix}_")
+                           for prefix in excluded_prefixes)]
+    files.extend(path for path in variants if path.is_file())
+    if not files:
+        raise FileNotFoundError(f"Aucun fichier JSON trouvé pour la banque « {name} ».")
+    return files
+
+
+def _content_cefr_values(value, path):
+    levels = [value] if isinstance(value, str) else value
+    if not isinstance(levels, list) or not levels or any(level not in CEFR_LEVELS for level in levels):
+        raise ValueError(f"{path.name}: le champ 'cefr' doit contenir un niveau ou une liste de niveaux CECRL valides.")
+    return list(dict.fromkeys(levels))
+
+
 def load_content(name):
-    with (CONTENT / f"{name}.json").open(encoding="utf-8") as f:
-        data = json.load(f)
-    if name == "vocabulary" and isinstance(data, dict):
-        items = [dict(zip(data["fields"], row)) for row in data["items"]]
+    """Load a JSON bank plus any sibling files named ``<bank>_<slug>.json``."""
+    combined = []
+    seen_ids = set()
+    for path in content_files(name):
+        with path.open(encoding="utf-8") as stream:
+            bank = json.load(stream)
+        if not isinstance(bank, dict) or "cefr" not in bank or not isinstance(bank.get("items"), list):
+            raise ValueError(f"{path.name}: attendu un objet JSON avec les champs 'cefr' et 'items'.")
+        levels = _content_cefr_values(bank["cefr"], path)
+        if "fields" in bank:
+            items = [dict(zip(bank["fields"], row)) for row in bank["items"]]
+        else:
+            items = bank["items"]
+
+        accepted = bank.get("accepted", {})
+        uncertain = set(bank.get("uncertain_ids", []))
+        reading_match = re.fullmatch(r"reading_(a1|a2|b1|b2|c1|c2)(?:_.*)?", path.stem)
         for item in items:
-            if item["id"] in data.get("accepted", {}):
-                item["answers"] = list(dict.fromkeys([item["fr"], *data["accepted"][item["id"]]]))
-        uncertain = set(data.get("uncertain_ids", []))
-        return [item for item in items if item["id"] not in uncertain]
-    return data
+            if not isinstance(item, dict):
+                raise ValueError(f"{path.name}: chaque entrée de 'items' doit être un objet JSON.")
+            item = dict(item)
+            if len(levels) == 1:
+                item.setdefault("cefr", levels[0])
+            if "cefr" in item:
+                item_levels = _content_cefr_values(item["cefr"], path)
+                if len(item_levels) != 1:
+                    raise ValueError(f"{path.name}: le champ 'cefr' d’un élément doit contenir un niveau unique.")
+                item["cefr"] = item_levels[0]
+            if reading_match:
+                item.setdefault("level", READING_LEVEL_NUMBERS[reading_match.group(1)])
+            if name == "vocabulary" and item["id"] in accepted:
+                item["answers"] = list(dict.fromkeys([item["fr"], *accepted[item["id"]]]))
+            if item.get("id"):
+                if item["id"] in seen_ids:
+                    raise ValueError(f"Identifiant de contenu dupliqué « {item['id']} » dans la banque « {name} ».")
+                seen_ids.add(item["id"])
+            if name == "vocabulary" and item["id"] in uncertain:
+                continue
+            combined.append(item)
+    return combined
 
 
 def build_lesson_questions(items):
@@ -217,7 +275,10 @@ def reading_texts():
              + load_content("reading_b2") + load_content("reading_c1")
              + load_content("reading_c2"))
     cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1", 5: "B2", 6: "C1", 7: "C2"}
+    step_by_cefr = {"A1": 1, "A2": 3, "B1": 4, "B2": 5, "C1": 6, "C2": 7}
     for item in items:
+        if "level" not in item and item.get("cefr") in step_by_cefr:
+            item["level"] = step_by_cefr[item["cefr"]]
         item.setdefault("cefr", cefr_by_step.get(item.get("level"), "A1"))
     return items
 

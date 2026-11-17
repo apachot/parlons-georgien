@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "A1",
+  "items": [
   {
     "id": "alphabet-georgien",
     "title": "L’alphabet géorgien",
@@ -828,3 +830,4 @@
     ]
   }
 ]
+}

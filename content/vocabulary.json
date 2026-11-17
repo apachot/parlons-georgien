@@ -1,4 +1,5 @@
 {
+ "cefr":["A1", "A2", "B1"],
  "fields":["id","ka","fr","translit","pron","example","example_fr"],
  "accepted":{"v-008":["bien","bon"],"v-010":["comment allez-vous","comment vas-tu"],"v-016":["géorgien","langue géorgienne"],"v-028":["matin","le matin"],"v-047":["restaurant","le restaurant"],"v-086":["personne","être humain"],"v-110":["grand","grande"],"v-111":["petit","petite"],"v-120":["libre","disponible"]},
  "uncertain_ids":[],

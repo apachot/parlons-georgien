@@ -24,7 +24,8 @@ def main():
     output_root = Path(os.environ.get("KARTULI_AUDIO_DIR", ROOT / "instance" / "audio")) / "ka"
     output_root.mkdir(parents=True, exist_ok=True)
     espeak = os.environ.get("ESPEAK_NG_BIN", "espeak-ng")
-    letters = json.loads((ROOT / "content" / "alphabet.json").read_text(encoding="utf-8"))
+    alphabet_bank = json.loads((ROOT / "content" / "alphabet.json").read_text(encoding="utf-8"))
+    letters = alphabet_bank["items"]
     generated = 0
 
     for item in letters:

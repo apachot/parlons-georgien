@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "A2",
+  "items": [
   {
     "id": "a2-market-yesterday",
     "level": 3,
@@ -289,3 +291,4 @@
     "explanation": "იაფი აირჩია signifie « elle a choisi le moins cher »."
   }
 ]
+}

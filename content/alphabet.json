@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "A1",
+  "items": [
  {
   "id": "letter-a",
   "letter": "ა",
@@ -330,3 +332,4 @@
   "note": "ჰ est un h glottal léger."
  }
 ]
+}

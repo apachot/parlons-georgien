@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A1", "A2", "B1"],
+  "items": [
   {
     "id": "intro-ana",
     "level": 1,
@@ -192,3 +194,4 @@
     "explanation": "ახლა indique « maintenant », გუშინ « hier » et ხვალ « demain » ; les formes de « commencer » changent avec le moment."
   }
 ]
+}

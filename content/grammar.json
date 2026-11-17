@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A1", "A2"],
+  "items": [
  {
   "title": "Le verbe « être »",
   "level": "A1",
@@ -158,3 +160,4 @@
   ]
  }
 ]
+}

@@ -1,4 +1,6 @@
-[
+{
+  "cefr": ["A1", "A2", "B1"],
+  "items": [
   {"id":"v-031","file":"1F4A7.svg","alt":"goutte d’eau"},
   {"id":"v-032","file":"2615.svg","alt":"tasse de café"},
   {"id":"v-033","file":"1F375.svg","alt":"tasse de thé"},
@@ -49,3 +51,4 @@
   {"id":"v-119","file":"1F91D.svg","alt":"rencontre et poignée de main"},
   {"id":"v-120","file":"1F4C5.svg","alt":"calendrier"}
 ]
+}

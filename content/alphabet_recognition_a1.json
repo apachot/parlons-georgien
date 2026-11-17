@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "A1",
+  "items": [
   {
     "id": "alphabet-sound-a1-01",
     "exercise": "alphabet-sound-recognition",
@@ -440,3 +442,4 @@
     "rationale": "Reconnaissance du son initial dans un mot géorgien courant ; les lettres seules restent au niveau A1."
   }
 ]
+}

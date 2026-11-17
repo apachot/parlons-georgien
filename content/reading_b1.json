@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "B1",
+  "items": [
   {
     "id": "b1-svaneti-weather",
     "level": 4,
@@ -289,3 +291,4 @@
     "explanation": "Le résultat de sa nouvelle méthode est présenté dans la dernière phrase : elle retrouve les mots plus rapidement à l’oral."
   }
 ]
+}

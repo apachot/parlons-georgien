@@ -1,4 +1,6 @@
-[
+{
+  "cefr": "C2",
+  "items": [
   {
     "id": "c2-city-memory",
     "level": 7,
@@ -476,3 +478,4 @@
     "explanation": "La nouvelle formulation reconnaît que l’argent peut aider et financer la restauration sans rendre équivalentes des pertes culturelles ou territoriales."
   }
 ]
+}
