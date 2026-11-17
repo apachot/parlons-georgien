@@ -5,7 +5,7 @@
   const SKILL_NAMES = {
     alphabet: 'Alphabet', vocabulary: 'Vocabulaire', reading: 'Lecture',
     comprehension: 'Compréhension orale', dictation: 'Dictées',
-    grammar: 'Grammaire', dialogues: 'Dialogues', mixed: 'Révisions'
+    grammar: 'Grammaire', dialogues: 'Dialogues', mixed: 'Révisions', placement: 'Test de positionnement'
   };
   const levelFromRating = rating => {
     if (rating < 900) return 'A1';
@@ -31,8 +31,9 @@
     try {
       const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
       return {ratings: data.ratings || {}, history: Array.isArray(data.history) ? data.history : [],
-        levels: data.levels || {}, overallLevel: data.overallLevel || null, pending: data.pending || {}};
-    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}}; }
+        levels: data.levels || {}, overallLevel: data.overallLevel || null, pending: data.pending || {},
+        onboarding: data.onboarding || {completedAt: null, dismissedAt: null}};
+    } catch (_) { return {ratings: {}, history: [], levels: {}, overallLevel: null, pending: {}, onboarding: {completedAt: null, dismissedAt: null}}; }
   };
   let profile = readProfile();
   const activeQuestion = {};
@@ -63,6 +64,33 @@
     const overall = overallLevel();
     const personal = window.getEstimatedCefr(skill);
     return LEVELS[Math.max(LEVELS.indexOf(overall), LEVELS.indexOf(personal))];
+  };
+  window.recordPlacementAssessment = responses => {
+    if (!Array.isArray(responses) || !responses.length) return overallLevel();
+    const placement = profile.ratings.placement || {value: profile.history.length ? overallRating() : 1000, count: 0, correct: 0};
+    responses.forEach(item => {
+      const level = normalizeLevel(item.level);
+      const expected = 1 / (1 + (10 ** ((POINTS[level] - placement.value) / 400)));
+      const k = placement.count < 10 ? 64 : 36;
+      const score = item.correct ? 1 : 0;
+      placement.value = Math.max(600, Math.min(2200, Math.round(placement.value + k * (score - expected))));
+      placement.count += 1;
+      placement.correct += score;
+      profile.levels.placement = hysteresisLevel(placement.value, profile.levels.placement || levelFromRating(placement.value));
+      profile.history.push({at: item.at || new Date().toISOString(), skill: 'placement', level, correct: item.correct,
+        score, attempts: 1, wrong: item.correct ? 0 : 1, rating: placement.value, source: 'onboarding'});
+    });
+    profile.ratings.placement = placement;
+    profile.overallLevel = hysteresisLevel(overallRating(), profile.overallLevel || levelFromRating(overallRating()));
+    profile.onboarding = {completedAt: new Date().toISOString(), dismissedAt: profile.onboarding?.dismissedAt || null,
+      questionCount: responses.length, correct: responses.filter(item => item.correct).length};
+    if (profile.history.length > 5000) profile.history.splice(0, profile.history.length - 5000);
+    saveProfile();
+    return overallLevel();
+  };
+  window.dismissPlacementWelcome = () => {
+    profile.onboarding = {...(profile.onboarding || {}), dismissedAt: new Date().toISOString()};
+    saveProfile();
   };
   const saveProfile = () => {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(profile)); } catch (_) { /* Storage may be disabled. */ }
@@ -151,7 +179,7 @@
           path.endsWith('/next') || path.endsWith('/quiz') || path.endsWith('/true-false') ||
           path.endsWith('/order') || path.endsWith('/exam')
         );
-        if (response.ok && isQuestionRequest) {
+        if (response.ok && isQuestionRequest && !path.startsWith('/api/placement/')) {
           const item = await response.clone().json();
           if (item.id !== undefined) trackNextQuestion(skill, item.id);
         }
@@ -223,5 +251,10 @@
     });
     dialog?.querySelector('.progress-close')?.addEventListener('click', () => dialog.close());
     dialog?.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+    document.querySelector('#open-placement')?.addEventListener('click', () => {
+      dialog?.close();
+      if (window.openPlacementDiagnostic) window.openPlacementDiagnostic();
+      else document.querySelector('#placement-dialog')?.showModal();
+    });
   });
 })();

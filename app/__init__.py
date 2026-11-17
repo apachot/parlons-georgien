@@ -517,6 +517,24 @@ def create_app(test_config=None):
         response["options"] = options
         return jsonify(response)
 
+    @app.get("/api/placement/next")
+    def next_placement_question():
+        """Return a graded reading question for the adaptive first-visit diagnostic."""
+        cefr = request.args.get("cefr", "A2").upper()
+        if cefr not in {"A1", "A2", "B1", "B2", "C1", "C2"}:
+            return jsonify({"error": "Niveau CECRL invalide."}), 400
+        excluded = set(request.args.get("exclude", "").split(","))
+        candidates = [item for item in reading_texts()
+                      if item.get("cefr") == cefr and item["id"] not in excluded]
+        if not candidates:
+            return jsonify({"empty": True, "cefr": cefr})
+        selected = random.choice(candidates)
+        options = list(selected["options"])
+        random.shuffle(options)
+        return jsonify({key: selected[key] for key in
+                        ("id", "level", "cefr", "level_name", "text", "question", "answer", "explanation")}
+                       | {"options": options})
+
     @app.post("/api/reading/answer")
     def answer_reading():
         data = request.get_json(silent=True) or {}
