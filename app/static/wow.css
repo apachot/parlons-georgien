@@ -419,8 +419,9 @@
 .about-bio p { margin: 0; color: #5f5558; font-size: 16px; line-height: 1.8; }
 .about-bio p + p { margin-top: 15px; }
 .about-bio .about-signature { margin-top: 23px; color: #442436; font: italic 24px/1.2 Georgia, serif; }
-.about-signature + .about-text-link { margin-top: 8px; }
 .about-portrait { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 37%; background: #eee8e0; }
+.about-contact-links { display: flex; flex-wrap: wrap; gap: 0 22px; margin-top: 13px; }
+.about-contact-links .about-text-link { margin-top: 0; }
 .about-text-link { display: inline-flex; gap: 10px; margin-top: 18px; color: #653247; font-size: 12px; font-weight: 750; text-decoration: none; }
 .about-text-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .about-project { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 40px; margin-top: 62px; padding: 27px 0; border-top: 1px solid #ddd3cf; border-bottom: 1px solid #ddd3cf; }

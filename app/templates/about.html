@@ -11,7 +11,11 @@
       <p>J’ai créé Parlons géorgien pour accompagner mon propre apprentissage et partager des outils utiles avec d’autres francophones. Ce projet réunit mon goût pour les langues, la pédagogie et les possibilités offertes par l’informatique.</p>
       <p>Le site se construit au fil de cet apprentissage. Vos retours, vos idées et vos corrections sont les bienvenus pour le faire progresser !</p>
       <p class="about-signature">Arnault Pachot</p>
-      <a class="about-text-link" href="https://arnault.pachot.fr/" target="_blank" rel="noopener">Mon parcours <span aria-hidden="true">↗</span></a>
+      <div class="about-contact-links">
+        <a class="about-text-link" href="https://arnault.pachot.fr/" target="_blank" rel="noopener">Mon parcours <span aria-hidden="true">↗</span></a>
+        <a class="about-text-link" href="https://www.linkedin.com/in/arnaultpachot/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="about-text-link about-email-link" href="mailto:" data-about-email aria-label="Envoyer un courriel">arnault [at] pachot.fr</a>
+      </div>
     </div>
     <img class="about-portrait" src="{{ url_for('static', filename='images/arnault-pachot.webp') }}" width="720" height="631" alt="Portrait d’Arnault Pachot" fetchpriority="high">
   </section>
@@ -30,3 +34,4 @@
   </section>
 </div>
 {% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='about.js') }}?v=1" defer></script>{% endblock %}
