@@ -93,6 +93,11 @@
     briefing.className = 'exercise-briefing';
     briefing.dataset.exerciseBriefing = '';
     briefing.setAttribute('aria-labelledby', `${root.id || 'exercise'}-briefing-title`);
+    const intro = document.createElement('div');
+    intro.className = 'exercise-briefing-intro';
+    const kicker = document.createElement('span');
+    kicker.className = 'exercise-briefing-kicker';
+    kicker.textContent = 'Votre séance';
     const title = document.createElement('h2');
     title.id = `${root.id || 'exercise'}-briefing-title`;
     title.textContent = 'Avant de commencer';
@@ -123,6 +128,15 @@
     const score = document.createElement('p');
     score.className = 'exercise-briefing-copy';
     score.textContent = config.score;
+    const details = document.createElement('div');
+    details.className = 'exercise-briefing-details';
+    const methodCard = document.createElement('section');
+    methodCard.className = 'exercise-briefing-detail';
+    methodCard.append(methodTitle, method);
+    const scoreCard = document.createElement('section');
+    scoreCard.className = 'exercise-briefing-detail';
+    scoreCard.append(scoreTitle, score);
+    details.append(methodCard, scoreCard);
     const actions = document.createElement('div');
     actions.className = 'exercise-briefing-actions';
     const changeLevel = document.createElement('button');
@@ -136,7 +150,8 @@
     begin.textContent = 'Commencer le test →';
     begin.addEventListener('click', () => start.click());
     actions.append(changeLevel, begin);
-    briefing.append(title, goal, facts, methodTitle, method, scoreTitle, score, actions);
+    intro.append(kicker, title, goal);
+    briefing.append(intro, facts, details, actions);
     const back = root.querySelector(':scope > [data-activity-back], :scope > .back-to-games');
     if (back) back.after(briefing);
     else root.prepend(briefing);
