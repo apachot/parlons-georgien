@@ -9,6 +9,7 @@ import re
 import secrets
 import smtplib
 import ssl
+import threading
 import unicodedata
 from email.message import EmailMessage
 
@@ -26,6 +27,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 CEFR_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
 READING_LEVEL_NUMBERS = {"a1": 1, "a2": 3, "b1": 4, "b2": 5, "c1": 6, "c2": 7}
+_CONTENT_BANK_CACHE = {}
+_CONTENT_BANK_CACHE_LOCK = threading.RLock()
 
 
 def utc_now_naive():
@@ -203,47 +206,59 @@ def _content_cefr_values(value, path):
 
 
 def load_content(name):
-    """Load a JSON bank plus any sibling files named ``<bank>_<slug>.json``."""
-    combined = []
-    seen_ids = set()
-    for path in content_files(name):
-        with path.open(encoding="utf-8") as stream:
-            bank = json.load(stream)
-        if not isinstance(bank, dict) or "cefr" not in bank or not isinstance(bank.get("items"), list):
-            raise ValueError(f"{path.name}: attendu un objet JSON avec les champs 'cefr' et 'items'.")
-        levels = _content_cefr_values(bank["cefr"], path)
-        if "fields" in bank:
-            items = [dict(zip(bank["fields"], row)) for row in bank["items"]]
-        else:
-            items = bank["items"]
+    """Load a JSON bank, caching parsed files until their directory contents change."""
+    files = content_files(name)
+    signature = tuple(
+        (str(path), path.stat().st_mtime_ns, path.stat().st_size)
+        for path in files
+    )
+    with _CONTENT_BANK_CACHE_LOCK:
+        cached = _CONTENT_BANK_CACHE.get(name)
+        if cached and cached[0] == signature:
+            return list(cached[1])
 
-        accepted = bank.get("accepted", {})
-        uncertain = set(bank.get("uncertain_ids", []))
-        reading_match = re.fullmatch(r"reading_(a1|a2|b1|b2|c1|c2)(?:_.*)?", path.stem)
-        for item in items:
-            if not isinstance(item, dict):
-                raise ValueError(f"{path.name}: chaque entrée de 'items' doit être un objet JSON.")
-            item = dict(item)
-            item.setdefault("_content_pack", path.stem)
-            if len(levels) == 1:
-                item.setdefault("cefr", levels[0])
-            if "cefr" in item:
-                item_levels = _content_cefr_values(item["cefr"], path)
-                if len(item_levels) != 1:
-                    raise ValueError(f"{path.name}: le champ 'cefr' d’un élément doit contenir un niveau unique.")
-                item["cefr"] = item_levels[0]
-            if reading_match:
-                item.setdefault("level", READING_LEVEL_NUMBERS[reading_match.group(1)])
-            if name == "vocabulary" and item["id"] in accepted:
-                item["answers"] = list(dict.fromkeys([item["fr"], *accepted[item["id"]]]))
-            if item.get("id"):
-                if item["id"] in seen_ids:
-                    raise ValueError(f"Identifiant de contenu dupliqué « {item['id']} » dans la banque « {name} ».")
-                seen_ids.add(item["id"])
-            if name == "vocabulary" and item["id"] in uncertain:
-                continue
-            combined.append(item)
-    return combined
+        combined = []
+        seen_ids = set()
+        for path in files:
+            with path.open(encoding="utf-8") as stream:
+                bank = json.load(stream)
+            if not isinstance(bank, dict) or "cefr" not in bank or not isinstance(bank.get("items"), list):
+                raise ValueError(f"{path.name}: attendu un objet JSON avec les champs 'cefr' et 'items'.")
+            levels = _content_cefr_values(bank["cefr"], path)
+            if "fields" in bank:
+                items = [dict(zip(bank["fields"], row)) for row in bank["items"]]
+            else:
+                items = bank["items"]
+
+            accepted = bank.get("accepted", {})
+            uncertain = set(bank.get("uncertain_ids", []))
+            reading_match = re.fullmatch(r"reading_(a1|a2|b1|b2|c1|c2)(?:_.*)?", path.stem)
+            for item in items:
+                if not isinstance(item, dict):
+                    raise ValueError(f"{path.name}: chaque entrée de 'items' doit être un objet JSON.")
+                item = dict(item)
+                item.setdefault("_content_pack", path.stem)
+                if len(levels) == 1:
+                    item.setdefault("cefr", levels[0])
+                if "cefr" in item:
+                    item_levels = _content_cefr_values(item["cefr"], path)
+                    if len(item_levels) != 1:
+                        raise ValueError(f"{path.name}: le champ 'cefr' d’un élément doit contenir un niveau unique.")
+                    item["cefr"] = item_levels[0]
+                if reading_match:
+                    item.setdefault("level", READING_LEVEL_NUMBERS[reading_match.group(1)])
+                if name == "vocabulary" and item["id"] in accepted:
+                    item["answers"] = list(dict.fromkeys([item["fr"], *accepted[item["id"]]]))
+                if item.get("id"):
+                    if item["id"] in seen_ids:
+                        raise ValueError(f"Identifiant de contenu dupliqué « {item['id']} » dans la banque « {name} ».")
+                    seen_ids.add(item["id"])
+                if name == "vocabulary" and item["id"] in uncertain:
+                    continue
+                combined.append(item)
+
+        _CONTENT_BANK_CACHE[name] = (signature, tuple(combined))
+        return list(combined)
 
 
 def build_lesson_questions(items):
@@ -271,10 +286,9 @@ def dictation_words():
 
 
 def reading_texts():
-    items = (load_content("readings") + load_content("reading_a1")
-             + load_content("reading_a2") + load_content("reading_b1")
-             + load_content("reading_b2") + load_content("reading_c1")
-             + load_content("reading_c2"))
+    items = [dict(item) for bank in (
+        "readings", "reading_a1", "reading_a2", "reading_b1", "reading_b2", "reading_c1", "reading_c2"
+    ) for item in load_content(bank)]
     cefr_by_step = {1: "A1", 2: "A1", 3: "A2", 4: "B1", 5: "B2", 6: "C1", 7: "C2"}
     step_by_cefr = {"A1": 1, "A2": 3, "B1": 4, "B2": 5, "C1": 6, "C2": 7}
     for item in items:
@@ -284,7 +298,7 @@ def reading_texts():
     return items
 
 def reading_exam_texts():
-    items = load_content("reading_exams")
+    items = [dict(item) for item in load_content("reading_exams")]
     for item in items:
         if "cefr" not in item:
             item["cefr"] = item.get("level_name", "").split(" · ", 1)[0]
@@ -824,7 +838,7 @@ def create_app(test_config=None):
 
     @app.get("/vocabulary")
     def vocabulary():
-        vocab = selected_version(load_content("vocabulary"), "vocabulary")
+        vocab = [dict(item) for item in selected_version(load_content("vocabulary"), "vocabulary")]
         illustrations = {item["id"]: item for item in load_content("vocabulary_images")}
         for item in vocab:
             illustration = illustrations.get(item["id"])
