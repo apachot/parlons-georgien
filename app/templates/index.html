@@ -3,7 +3,7 @@
   <div class="hero-copy wow-copy">
     <div class="wow-kicker"><span class="wow-kicker-dot"></span> PARLONS GÉORGIEN <span class="wow-kicker-line"></span> LE GÉORGIEN AU QUOTIDIEN</div>
     <h1>Apprenez le géorgien.<br><em>À votre rythme.</em></h1>
-    <p>Progressez avec <strong class="home-free-emphasis">{{ test_version_count }} versions de tests, d’exercices et de jeux</strong>, du niveau débutant au niveau expérimenté : lecture, écoute, vocabulaire, grammaire et dialogues. Le site est <strong class="home-free-emphasis">entièrement gratuit</strong>, <strong class="home-free-emphasis">sans abonnement ni publicité</strong> et <strong class="home-free-emphasis">sans inscription obligatoire</strong>.</p>
+    <p>Progressez avec <strong class="home-free-emphasis">{{ test_version_count }} versions de tests, d’exercices et de jeux</strong>, du niveau débutant au niveau expérimenté : lecture, écoute, vocabulaire, grammaire et dialogues. Le site est <strong class="home-free-emphasis">entièrement gratuit</strong>, <strong class="home-free-emphasis">sans abonnement ni publicité</strong>.</p>
     <div class="wow-actions"><a class="button primary" href="{{ url_for('session') }}">Commencer à apprendre <span>↗</span></a><a class="wow-secondary-link" href="{{ url_for('courses') }}">Voir les leçons <span>→</span></a></div>
     <a class="home-account-cta" href="{{ url_for('account') if current_account else url_for('register') }}">{{ 'Ouvrir mon espace personnel →' if current_account else 'Créer un compte gratuit pour sauvegarder mes progrès →' }}</a>
     <div class="wow-hero-foot"><span class="wow-foot-mark">✳</span><span>Une première séance en 10 minutes</span><span class="wow-foot-divider"></span><span>Du niveau A1 au C2</span></div>
