@@ -113,6 +113,7 @@
   }
 
   const observer = new MutationObserver(scan);
+  window.refreshNextExerciseCallout = scan;
   observer.observe(document.body, {
     attributes: true, attributeFilter: ['class'], childList: true, characterData: true, subtree: true
   });

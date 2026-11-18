@@ -9,8 +9,24 @@
   };
   const configs = [
     {
-      start: '#reading-start', goal: 'Comprendre un court texte géorgien et repérer les informations utiles.',
-      method: 'Lisez le passage, choisissez une réponse et consultez la correction avant de poursuivre.',
+      start: '#lesson-start', goal: 'Vérifier ce que vous retenez des mots et expressions de cette leçon.',
+      method: 'Répondez aux questions dans les deux sens, puis consultez la correction. Une erreur ne bloque pas la suite.',
+      plan: () => `${JSON.parse(document.querySelector('#lesson-questions')?.textContent || '[]').length} questions · quiz de fin de leçon`,
+      level: 'A1–A2', score: 'Le résultat résume vos réponses. Vous pouvez refaire les questions et enregistrer la progression de la leçon.'
+    },
+    {
+      start: '#quiz-start', goal: 'Réviser le vocabulaire avec une séance adaptée à votre mode de travail.',
+      method: root => ({mcq: 'Lisez le mot géorgien et choisissez sa traduction française.', type: 'Lisez le sens français et écrivez le mot en géorgien.', order: 'Reconstituez une phrase géorgienne à partir des mots proposés.'}[root.dataset.exercise] || 'Répondez à dix questions variées. Après chaque réponse, lisez l’explication et notez la difficulté.'),
+      plan: () => '10 questions · réponses et corrections immédiates',
+      score: 'Votre bilan présente les réponses travaillées. Les mots difficiles reviendront plus tôt dans vos révisions.'
+    },
+    {
+      start: '#reading-start', goal: root => root.dataset.oral === 'true'
+        ? 'Comprendre un court passage oral en géorgien et repérer les informations utiles.'
+        : 'Comprendre un court texte géorgien et repérer les informations utiles.',
+      method: root => root.dataset.oral === 'true'
+        ? 'Écoutez le passage, choisissez une réponse et consultez la correction avant de poursuivre.'
+        : 'Lisez le passage, choisissez une réponse et consultez la correction avant de poursuivre.',
       plan: root => `${countFrom(root, 'total', 21)} questions · passages courts`,
       score: 'Le bilan compte les bonnes réponses. Les erreurs restent visibles et vous pouvez réessayer avant de passer.'
     },
@@ -53,16 +69,22 @@
       score: 'Le résultat affiche les bonnes réponses, le nombre de tentatives et votre précision.'
     },
     {
-      start: '#word-speed-start', goal: 'Lire des mots en mkhedruli et retrouver leur translittération.',
-      method: 'Lisez chaque mot et choisissez sa translittération parmi quatre propositions avant la fin du chronomètre.',
+      start: '#word-speed-start', goal: 'Lire rapidement des mots en alphabet géorgien.',
+      method: 'Lisez le mot affiché et choisissez sa translittération parmi quatre propositions avant la fin du chronomètre.',
       plan: () => '60 secondes · 120 mots dans la banque', level: 'A2',
-      score: 'Le résultat affiche le nombre de mots lus correctement et votre précision.'
+      score: 'Le récapitulatif indique le nombre de mots lus correctement et votre précision.'
     },
     {
-      start: '#grammar-speed-start', goal: 'Répondre rapidement à des questions de conjugaison au présent, au passé et au futur.',
-      method: 'Choisissez la forme verbale correcte. En cas d’erreur, la question reste affichée pour vous permettre de réessayer ou de passer.',
-      plan: root => `60 secondes · jusqu’à ${Number(root.dataset.total || 0)} questions`,
-      score: 'Le résultat présente les bonnes réponses, les tentatives, le pourcentage de précision et votre record.'
+      start: '#grammar-speed-start', goal: 'Choisir rapidement la bonne forme verbale en géorgien.',
+      method: 'Lisez la phrase et sélectionnez la forme qui convient. Une erreur laisse la question ouverte pour réessayer ou passer.',
+      plan: root => `60 secondes · jusqu’à ${Number(root.dataset.total || 0)} questions`, level: 'B1',
+      score: 'Le bilan affiche les bonnes réponses, les tentatives, la précision et votre record.'
+    },
+    {
+      start: '#grammar-practice .grammar-category-list button.active', goal: 'Comprendre les formes grammaticales à partir de phrases en géorgien.',
+      method: 'Choisissez la réponse correcte, puis lisez l’explication. Après une erreur, vous pouvez réessayer ou passer la question.',
+      plan: root => `${countFrom(root, 'total', 10)} questions · thème sélectionné`,
+      score: 'Le bilan reprend vos réponses et les notions à revoir. Votre progression est mémorisée.'
     },
     {
       start: '#vf-start', goal: 'Vérifier si vous avez compris les informations essentielles d’un passage entendu.',
@@ -84,6 +106,20 @@
     }
   ];
 
+  const quizPanel = document.querySelector('#quiz');
+  if (quizPanel?.dataset.exercise && !quizPanel.querySelector('#quiz-start')) {
+    const beginQuiz = document.createElement('button');
+    beginQuiz.type = 'button'; beginQuiz.id = 'quiz-start'; beginQuiz.className = 'button primary hidden';
+    beginQuiz.textContent = 'Commencer ma séance →';
+    quizPanel.insertBefore(beginQuiz, quizPanel.querySelector('#quiz-word'));
+  }
+  const lessonPanel = document.querySelector('#lesson-quiz');
+  if (lessonPanel && !lessonPanel.querySelector('#lesson-start')) {
+    const beginLesson = document.createElement('button');
+    beginLesson.type = 'button'; beginLesson.id = 'lesson-start'; beginLesson.className = 'button primary hidden';
+    beginLesson.textContent = 'Commencer le test →'; lessonPanel.insertBefore(beginLesson, lessonPanel.querySelector('#lesson-question'));
+  }
+
   const entries = [];
   for (const config of configs) {
     const start = document.querySelector(config.start);
@@ -103,7 +139,7 @@
     title.textContent = 'Avant de commencer';
     const goal = document.createElement('p');
     goal.className = 'exercise-briefing-goal';
-    goal.textContent = config.goal;
+    goal.textContent = typeof config.goal === 'function' ? config.goal(root) : config.goal;
     const facts = document.createElement('div');
     facts.className = 'exercise-briefing-facts';
     const levelFact = document.createElement('div');
@@ -171,6 +207,43 @@
     }, true);
     entries.push({root, briefing, config, levelValue, planValue, method});
   }
+
+  window.presentExerciseBriefing = ({root, goal, method, plan, level, score, onStart}) => {
+    if (!root || root.querySelector('[data-exercise-briefing]')) return;
+    const briefing = document.createElement('section');
+    briefing.className = 'exercise-briefing';
+    briefing.dataset.exerciseBriefing = '';
+    const intro = document.createElement('div'); intro.className = 'exercise-briefing-intro';
+    const kicker = document.createElement('span'); kicker.className = 'exercise-briefing-kicker'; kicker.textContent = 'Votre séance';
+    const title = document.createElement('h2'); title.textContent = 'Avant de commencer';
+    const goalText = document.createElement('p'); goalText.className = 'exercise-briefing-goal'; goalText.textContent = goal;
+    intro.append(kicker, title, goalText);
+    const facts = document.createElement('div'); facts.className = 'exercise-briefing-facts';
+    [["NIVEAU PRÉVU", levelNames[level] ? `${level} · ${levelNames[level]}` : level, 'level'], ['AU PROGRAMME', plan, 'plan']].forEach(([label, value, kind]) => {
+      const fact = document.createElement('div'); fact.className = `exercise-briefing-fact exercise-briefing-fact-${kind}`;
+      const small = document.createElement('small'); small.textContent = label;
+      const bold = document.createElement('b'); bold.textContent = value;
+      fact.append(small, bold); facts.append(fact);
+    });
+    const details = document.createElement('div'); details.className = 'exercise-briefing-details';
+    [["01", 'Comment ça se passe ?', method], ['02', 'Comment le résultat est calculé', score]].forEach(([number, label, copy]) => {
+      const card = document.createElement('section'); card.className = 'exercise-briefing-detail';
+      const heading = document.createElement('h3'); const index = document.createElement('span');
+      index.className = 'exercise-briefing-detail-index'; index.textContent = number; heading.append(index, document.createTextNode(label));
+      const text = document.createElement('p'); text.className = 'exercise-briefing-copy'; text.textContent = copy;
+      card.append(heading, text); details.append(card);
+    });
+    const actions = document.createElement('div'); actions.className = 'exercise-briefing-actions';
+    const changeLevel = document.createElement('button'); changeLevel.type = 'button'; changeLevel.className = 'button secondary'; changeLevel.textContent = 'Modifier le niveau';
+    changeLevel.addEventListener('click', () => document.querySelector('#exercise-level-sticker')?.click());
+    const begin = document.createElement('button'); begin.type = 'button'; begin.className = 'button primary'; begin.textContent = 'Commencer le test →';
+    begin.addEventListener('click', () => { root.classList.remove('exercise-briefing-active'); briefing.hidden = true; onStart?.(); });
+    actions.append(changeLevel, begin); briefing.append(intro, facts, details, actions);
+    const back = root.querySelector(':scope > [data-activity-back], :scope > .back-to-games, :scope > .game-screen-top');
+    if (back) back.after(briefing); else root.prepend(briefing);
+    root.classList.add('exercise-briefing-active');
+    window.refreshExerciseDifficulty?.();
+  };
 
   function updateBriefings() {
     const params = new URLSearchParams(location.search);

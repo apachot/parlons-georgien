@@ -166,6 +166,10 @@ async function renderKeyboard() {
   }); keyboard.append(controls);
 }
 document.querySelector('#quiz-next')?.addEventListener('click', advanceQuiz);
+document.querySelector('#quiz-start')?.addEventListener('click', event => {
+  event.currentTarget.classList.add('hidden');
+  loadQuestion();
+});
 function finishSession() {
   document.querySelector('#quiz-instruction').textContent = 'Séance terminée';
   document.querySelector('#quiz-word').textContent = 'Belle régularité !';
@@ -184,4 +188,4 @@ document.querySelector('#quiz-pron-toggle')?.addEventListener('click', () => {
   const pron = document.querySelector('#quiz-pron'); pron.classList.toggle('hidden');
   document.querySelector('#quiz-pron-toggle').textContent = pron.classList.contains('hidden') ? 'Afficher la prononciation' : 'Masquer la prononciation';
 });
-if (quizBox && !quizBox.classList.contains('hidden')) loadQuestion();
+if (quizBox && !quizBox.classList.contains('hidden') && !quizBox.dataset.exercise) loadQuestion();

@@ -110,6 +110,10 @@ function finishLessonQuiz() {
 }
 
 document.querySelector('#lesson-next')?.addEventListener('click', advanceLessonQuestion);
+document.querySelector('#lesson-start')?.addEventListener('click', event => {
+  event.currentTarget.classList.add('hidden');
+  renderLessonQuestion();
+});
 
 document.querySelector('#lesson-restart')?.addEventListener('click', () => {
   document.querySelector('#lesson-question-tools').classList.remove('hidden');
@@ -119,5 +123,4 @@ document.querySelector('#lesson-restart')?.addEventListener('click', () => {
 
 if (lessonQuiz && lessonQuestionData.length) {
   prepareLessonQuestions();
-  renderLessonQuestion();
 }

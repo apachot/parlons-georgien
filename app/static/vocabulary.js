@@ -184,7 +184,18 @@ function openGame(mode) {
   game.instruction.textContent = gameCopy[mode].instruction;
   game.direction.classList.toggle('hidden', mode !== 'audio');
   game.direction.querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.direction === activeDirection));
-  startRound();
+  window.presentExerciseBriefing?.({
+    root: gameScreen,
+    goal: `Travailler le vocabulaire géorgien avec le jeu « ${gameCopy[mode].title} ».`,
+    method: gameCopy[mode].instruction,
+    plan: ({speed: '60 secondes · mots et traductions', crossword: '1 grille · mots horizontaux et verticaux', audio: '10 mots · écoute et choix', builder: '6 phrases à reconstruire'})[mode] || '6 associations · une manche courte',
+    level: vocabularyDifficulty[mode],
+    score: 'Le bilan récapitule vos bonnes réponses et vos erreurs. Les mots travaillés sont enregistrés pour vos prochaines révisions.',
+    onStart: () => {
+      startRound();
+      if (mode === 'speed') vocabularySpeedUi.start?.click();
+    }
+  });
 }
 window.openVocabularyGame = openGame;
 window.getActiveVocabularyGame = () => activeGame;

@@ -230,6 +230,14 @@ async function newLetterQuestion() {
 }
 document.querySelector('.activity-card[href="#alphabet-practice"]')?.addEventListener('click', () => {
   clearAutoAdvance();
-  startLetterRecognition();
+  window.presentExerciseBriefing?.({
+    root: document.querySelector('#alphabet-practice'),
+    goal: 'Reconnaître les sons des lettres géorgiennes à l’intérieur de mots prononcés.',
+    method: 'Écoutez chaque mot et choisissez la lettre entendue au début. Une bonne réponse lance directement la suivante.',
+    plan: '12 sons · niveau A1 · une variante tirée au hasard',
+    level: 'A1',
+    score: 'Le bilan indique les sons identifiés correctement. Vous pouvez ensuite relancer une autre variante.',
+    onStart: startLetterRecognition
+  });
 });
 document.querySelector('#letter-restart')?.addEventListener('click', startLetterRecognition);
