@@ -2,7 +2,8 @@ const vocabularyDataNode = document.querySelector('#vocabulary-data');
 const vocabularyData = JSON.parse(vocabularyDataNode?.textContent || '{"items":[],"due_ids":[]}');
 const vocabularyItems = vocabularyData.items || [];
 const vocabularyDueIds = new Set(vocabularyData.due_ids || []);
-const gameMenu = document.querySelector('.vocabulary-games-section');
+const gameMenu = document.querySelector('#vocabulary-games');
+const gameHero = document.querySelector('.vocabulary-page > .activity-hero');
 const gameCatalog = document.querySelector('#vocabulary-home-catalog');
 const gameScreen = document.querySelector('#vocabulary-game-screen');
 const vocabularyDifficulty = {pairs:'A1', audio:'A2', images:'A1', memory:'A1', crossword:'B1', builder:'B1', speed:'A2'};
@@ -169,12 +170,13 @@ function openGame(mode) {
   clearAutoAdvance();
   stopVocabularySpeed();
   if (mode === 'catalog') {
-    gameMenu.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
+    gameHero?.classList.add('hidden'); gameMenu.classList.add('hidden'); gameScreen.classList.add('hidden'); gameCatalog.classList.remove('hidden');
     window.refreshExerciseDifficulty?.();
     return;
   }
   activeGame = mode;
   activeDirection = 'ka-fr';
+  gameHero?.classList.add('hidden');
   gameMenu.classList.add('hidden');
   gameCatalog.classList.add('hidden');
   gameScreen.classList.remove('hidden');
@@ -186,6 +188,7 @@ function openGame(mode) {
   game.direction.querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.direction === activeDirection));
   window.presentExerciseBriefing?.({
     root: gameScreen,
+    testName: gameCopy[mode].title,
     goal: `Travailler le vocabulaire géorgien avec le jeu « ${gameCopy[mode].title} ».`,
     method: gameCopy[mode].instruction,
     plan: ({speed: '60 secondes · mots et traductions', crossword: '1 grille · mots horizontaux et verticaux', audio: '10 mots · écoute et choix', builder: '6 phrases à reconstruire'})[mode] || '6 associations · une manche courte',
@@ -943,12 +946,13 @@ function returnToGameHome() {
   stopVocabularySpeed();
   activeGame = null;
   gameScreen.classList.add('hidden');
+  gameHero?.classList.remove('hidden');
   gameMenu.classList.remove('hidden');
   gameCatalog.classList.add('hidden');
   window.refreshExerciseDifficulty?.();
 }
 
-document.querySelectorAll('.vocabulary-module').forEach(button => {
+document.querySelectorAll('.activity-card[data-module]').forEach(button => {
   button.addEventListener('click', () => openGame(button.dataset.module));
 });
 const requestedGame = new URLSearchParams(location.search).get('next');

@@ -2,72 +2,62 @@
 {% block title %}Jeux de vocabulaire — Parlons géorgien{% endblock %}
 {% block content %}
 <div class="vocabulary-page" data-practiced="{{ practiced }}">
-<div class="vocabulary-home" id="vocabulary-home">
-  <section class="vocabulary-hero">
-    <div class="vocabulary-hero-copy">
-      <div class="eyebrow"><span class="dot"></span> Le coin des mots · 120 à découvrir</div>
+  <section class="activity-hero" data-activity-menu data-section-scene="vocabulary">
+    <div class="activity-hero-copy">
+      <div class="eyebrow"><span class="dot"></span> Vocabulaire · {{ vocab|length }} mots à découvrir</div>
       <h1>Choisissez un jeu pour retenir vos mots.</h1>
       <p>Associez, écoutez, traduisez, composez des phrases, remplissez des mots fléchés ou révisez avec les fiches, du géorgien vers le français et inversement.</p>
       <div class="vocabulary-hero-stats"><span><b>{{ vocab|length }}</b> mots en jeu</span><span><b>{{ practiced }}</b> déjà travaillés</span></div>
-      <a class="button primary" href="#vocabulary-games">Choisir un jeu <span>↓</span></a>
     </div>
-    <div class="vocabulary-hero-art" data-section-scene="vocabulary" aria-hidden="true">
-      <div class="hero-sticker hero-sticker-one"><img src="{{ url_for('static', filename='images/openmoji/2615.svg') }}" alt=""></div>
-      <div class="hero-sticker hero-sticker-two"><img src="{{ url_for('static', filename='images/openmoji/1F34E.svg') }}" alt=""></div>
-      <div class="hero-ka">გამარჯობა</div>
-      <div class="hero-fr">gamarjoba · bonjour</div>
-      <span class="hero-spark spark-one">✦</span><span class="hero-spark spark-two">✳</span>
-    </div>
+    <div class="activity-hero-art" data-section-scene="vocabulary" aria-hidden="true"><span>ქართული</span><small>Parlons géorgien · apprendre en jouant</small><i>✦</i><b class="activity-art-index">VOCABULAIRE</b></div>
   </section>
 
-  <section class="vocabulary-games-section" id="vocabulary-games">
+  <section class="activity-hub" id="vocabulary-games" data-activity-menu>
     <div class="vocabulary-section-heading"><div><div class="eyebrow">Choisissez votre défi</div><h2>Qu’est-ce qu’on joue ?</h2></div><span class="section-side-note">Des manches courtes · votre score se mémorise</span></div>
-    <div class="vocabulary-module-grid">
-      <button type="button" class="vocabulary-module module-pairs" data-module="pairs">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/link-2.svg') }}" alt=""></span>
-        <span class="module-copy"><small>01 · ASSOCIATION</small><b>Retrouve les paires</b><span>Géorgien ↔ français · rassemble les mots qui vont ensemble.</span></span>
+    <div class="activity-card-grid">
+      <button type="button" class="activity-card activity-tone-0" data-module="pairs">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/link-2.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>01 · ASSOCIATION</small><b>Retrouve les paires</b><span>Géorgien ↔ français · rassemble les mots qui vont ensemble.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-audio" data-module="audio">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/headphones.svg') }}" alt=""></span>
-        <span class="module-copy"><small>02 · ÉCOUTE & SENS</small><b>À l’oreille</b><span>Écoute le géorgien, ou pars du français pour retrouver le mot.</span></span>
+      <button type="button" class="activity-card activity-tone-1" data-module="audio">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/headphones.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>02 · ÉCOUTE & SENS</small><b>À l’oreille</b><span>Écoute le géorgien, ou pars du français pour retrouver le mot.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-images" data-module="images">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/image.svg') }}" alt=""></span>
-        <span class="module-copy"><small>03 · IMAGES</small><b>Mot ou image ?</b><span>Relie un mot géorgien à son illustration, sans traduction affichée.</span></span>
+      <button type="button" class="activity-card activity-tone-2" data-module="images">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/image.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>03 · IMAGES</small><b>Mot ou image ?</b><span>Relie un mot géorgien à son illustration, sans traduction affichée.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-memory" data-module="memory">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/brain.svg') }}" alt=""></span>
-        <span class="module-copy"><small>04 · MÉMOIRE</small><b>Le mémory</b><span>Retourne deux cartes et retrouve les traductions cachées.</span></span>
+      <button type="button" class="activity-card activity-tone-3" data-module="memory">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/brain.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>04 · MÉMOIRE</small><b>Le mémory</b><span>Retourne deux cartes et retrouve les traductions cachées.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-crossword" data-module="crossword">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/grid-2x2.svg') }}" alt=""></span>
-        <span class="module-copy"><small>05 · MOTS FLÉCHÉS</small><b>Mots fléchés</b><span>Résous les définitions en français et remplis les cases en mkhedruli.</span></span>
+      <button type="button" class="activity-card activity-tone-0" data-module="crossword">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/grid-2x2.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>05 · MOTS FLÉCHÉS</small><b>Mots fléchés</b><span>Résous les définitions en français et remplis les cases en mkhedruli.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-builder" data-module="builder">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/list-ordered.svg') }}" alt=""></span>
-        <span class="module-copy"><small>06 · CONSTRUCTION</small><b>Construis la phrase</b><span>Replace les mots géorgiens dans le bon ordre à partir de la traduction.</span></span>
+      <button type="button" class="activity-card activity-tone-1" data-module="builder">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/list-ordered.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>06 · CONSTRUCTION</small><b>Construis la phrase</b><span>Replace les mots géorgiens dans le bon ordre à partir de la traduction.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-speed" data-module="speed">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/timer.svg') }}" alt=""></span>
-        <span class="module-copy"><small>07 · CONTRE LA MONTRE</small><b>Traduisez à toute vitesse</b><span>60 secondes pour retrouver le sens français des mots géorgiens.</span></span>
+      <button type="button" class="activity-card activity-tone-2" data-module="speed">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/timer.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>07 · CONTRE LA MONTRE</small><b>Traduisez à toute vitesse</b><span>60 secondes pour retrouver le sens français des mots géorgiens.</span></span>
         <span class="module-arrow">Jouer <b>↗</b></span>
       </button>
-      <button type="button" class="vocabulary-module module-memory" data-module="catalog">
-        <span class="module-icon"><img src="{{ url_for('static', filename='icons/lucide/book-open.svg') }}" alt=""></span>
-        <span class="module-copy"><small>08 · FEUILLETER</small><b>Les fiches de vocabulaire</b><span>Parcourez les mots, leur prononciation et des phrases exemples.</span></span>
+      <button type="button" class="activity-card activity-tone-3" data-module="catalog">
+        <span class="activity-card-icon"><img src="{{ url_for('static', filename='icons/lucide/book-open.svg') }}" alt=""></span>
+        <span class="activity-card-copy"><small>08 · FEUILLETER</small><b>Les fiches de vocabulaire</b><span>Parcourez les mots, leur prononciation et des phrases exemples.</span></span>
         <span class="module-arrow">Ouvrir <b>↗</b></span>
       </button>
     </div>
     <a class="all-versions-link" href="{{ url_for('content_versions', section='vocabulary') }}">Voir tous les jeux et exercices par niveau <span>↗</span></a>
   </section>
-
-</div>
 
   <section class="vocabulary-game-screen hidden" id="vocabulary-game-screen" data-activity-panel>
     <div class="game-screen-top"><button type="button" class="back-to-games" id="back-to-games">← Tous les jeux</button><span class="game-round" id="game-round"></span></div>
@@ -132,4 +122,4 @@
 </div>
 <script type="application/json" id="vocabulary-data">{{ {"items": vocab, "due_ids": due_ids}|tojson }}</script>
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='vocabulary.js') }}?v=uniform-flow-v1" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='vocabulary.js') }}?v=uniform-section-v2" defer></script>{% endblock %}

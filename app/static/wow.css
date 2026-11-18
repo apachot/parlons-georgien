@@ -48,9 +48,11 @@
 }
 .activity-hero-art[data-section-scene="alphabet"] { background: url("images/ushguli-towers-960.v1.webp") center 62% / cover; }
 .activity-hero-art[data-section-scene="dictation"] { background: url("images/tbilisi-old-town-960.v1.webp") center 48% / cover; }
+.activity-hero-art[data-section-scene="vocabulary"] { background: url("images/kakheti-vineyards-960.v1.webp") center 51% / cover; }
 .activity-hero-art[data-section-scene="grammar"] { background: url("images/tbilisi-church-fresco-960.v1.webp") center 52% / cover; }
 .activity-hero-art[data-section-scene="alphabet"] > *,
 .activity-hero-art[data-section-scene="dictation"] > *,
+.activity-hero-art[data-section-scene="vocabulary"] > *,
 .activity-hero-art[data-section-scene="grammar"] > *,
 .activity-hero-art[data-section-scene="reading"] > *,
 .activity-hero-art[data-section-scene="dialogues"] > *,

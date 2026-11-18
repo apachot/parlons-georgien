@@ -106,6 +106,27 @@
     }
   ];
 
+  function exerciseName(root, config) {
+    if (config.name) return config.name;
+    if (root.id === 'grammar-practice') {
+      const category = root.querySelector('.grammar-category-list button.active')?.textContent.trim();
+      if (category) return `À vous de conjuguer · ${category}`;
+    }
+    const card = [...document.querySelectorAll('.activity-card[href^="#"]')].find(item => {
+      const targetId = decodeURIComponent(item.getAttribute('href').slice(1));
+      const target = document.getElementById(targetId);
+      return target && (target === root || target.closest('[data-activity-panel]') === root);
+    });
+    const cardName = card?.querySelector('.activity-card-copy b')?.textContent.trim();
+    if (cardName) return cardName;
+    if (root.id === 'quiz') {
+      return ({mcq: 'Traduisez en français', type: 'Écrivez le mot en géorgien', order: 'Reconstituez la phrase'})[root.dataset.exercise] || 'Vocabulaire et révision';
+    }
+    if (root.id === 'lesson-quiz') return 'Quiz de fin de leçon';
+    const heading = root.querySelector('.speed-heading h2, .game-title-row h2, h2[id], :scope > h2');
+    return heading?.textContent.trim() || 'Exercice';
+  }
+
   const quizPanel = document.querySelector('#quiz');
   if (quizPanel?.dataset.exercise && !quizPanel.querySelector('#quiz-start')) {
     const beginQuiz = document.createElement('button');
@@ -140,6 +161,10 @@
     const goal = document.createElement('p');
     goal.className = 'exercise-briefing-goal';
     goal.textContent = typeof config.goal === 'function' ? config.goal(root) : config.goal;
+    const testName = document.createElement('p');
+    testName.className = 'exercise-briefing-test-name';
+    testName.innerHTML = `<span>TEST SÉLECTIONNÉ</span><b></b>`;
+    testName.querySelector('b').textContent = exerciseName(root, config);
     const facts = document.createElement('div');
     facts.className = 'exercise-briefing-facts';
     const levelFact = document.createElement('div');
@@ -194,7 +219,7 @@
     begin.textContent = 'Commencer le test →';
     begin.addEventListener('click', () => start.click());
     actions.append(changeLevel, begin);
-    intro.append(kicker, title, goal);
+    intro.append(kicker, testName, title, goal);
     briefing.append(intro, facts, details, actions);
     const back = root.querySelector(':scope > [data-activity-back], :scope > .back-to-games');
     if (back) back.after(briefing);
@@ -208,7 +233,7 @@
     entries.push({root, briefing, config, levelValue, planValue, method});
   }
 
-  window.presentExerciseBriefing = ({root, goal, method, plan, level, score, onStart}) => {
+  window.presentExerciseBriefing = ({root, goal, method, plan, level, score, onStart, testName: name = 'Exercice'}) => {
     if (!root || root.querySelector('[data-exercise-briefing]')) return;
     const briefing = document.createElement('section');
     briefing.className = 'exercise-briefing';
@@ -216,8 +241,10 @@
     const intro = document.createElement('div'); intro.className = 'exercise-briefing-intro';
     const kicker = document.createElement('span'); kicker.className = 'exercise-briefing-kicker'; kicker.textContent = 'Votre séance';
     const title = document.createElement('h2'); title.textContent = 'Avant de commencer';
+    const testName = document.createElement('p'); testName.className = 'exercise-briefing-test-name';
+    testName.innerHTML = '<span>TEST SÉLECTIONNÉ</span><b></b>'; testName.querySelector('b').textContent = name;
     const goalText = document.createElement('p'); goalText.className = 'exercise-briefing-goal'; goalText.textContent = goal;
-    intro.append(kicker, title, goalText);
+    intro.append(kicker, testName, title, goalText);
     const facts = document.createElement('div'); facts.className = 'exercise-briefing-facts';
     [["NIVEAU PRÉVU", levelNames[level] ? `${level} · ${levelNames[level]}` : level, 'level'], ['AU PROGRAMME', plan, 'plan']].forEach(([label, value, kind]) => {
       const fact = document.createElement('div'); fact.className = `exercise-briefing-fact exercise-briefing-fact-${kind}`;
