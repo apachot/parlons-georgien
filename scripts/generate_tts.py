@@ -99,9 +99,21 @@ def main():
                         check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
                     )
                 else:
-                    with wave.open(str(temporary), "wb") as wav_file:
-                        voice = georgian_voice if language == "ka" else french_voice
-                        voice.synthesize_wav(text, wav_file)
+                    voice = georgian_voice if language == "ka" else french_voice
+                    try:
+                        with wave.open(str(temporary), "wb") as wav_file:
+                            voice.synthesize_wav(text, wav_file)
+                    except wave.Error as error:
+                        # Piper may return no chunks for an unsupported/empty
+                        # phoneme sequence. Keep the cache complete with the
+                        # matching local system voice instead of aborting.
+                        if "channels not specified" not in str(error):
+                            raise
+                        fallback_voice = "ka" if language == "ka" else "fr"
+                        subprocess.run(
+                            [espeak, "-v", fallback_voice, "-s", "138", "-w", str(temporary), text],
+                            check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
+                        )
                 temporary.replace(target)
             finally:
                 temporary.unlink(missing_ok=True)
