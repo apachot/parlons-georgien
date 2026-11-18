@@ -25,7 +25,7 @@
       "level": 3,
       "cefr": "B1",
       "level_name": "B1",
-      "text": "გუშინ სოფლის ბაზარზე wallet დავრჩა. დავბრუნდი станцииზე, მაგრამ ვერ ვიპოვნე. მეორე დღეს მაღაზიის მეპატრონემ დამირეკა და მითხრა, რომ მიისწრაფე ჩემთვის დაკარგული ნივთი. When I arrived, he handed me the wallet with all the cards inside. მე ძალიან გავახარე და მადლობა გადავუხადე.",
+      "text": "გუშინ სოფლის ბაზარში საფულე დამეკარგა. სადგურზე დავბრუნდი, მაგრამ ვერ ვიპოვე. მეორე დღეს მაღაზიის მეპატრონემ დამირეკა და მითხრა, რომ ჩემი დაკარგული ნივთი იპოვა. როცა მივედი, მან საფულე ყველა ბარათთან ერთად დამიბრუნა. ძალიან გამიხარდა და მადლობა გადავუხადე.",
       "question": "Selon le récit, qui a retrouvé le portefeuille ?",
       "options": [
         "Un ami du narrateur.",
@@ -35,7 +35,7 @@
       ],
       "answer": "Le propriétaire du magasin.",
       "translation": "Hier, j'ai perdu mon portefeuille au marché du village. Je suis retourné à la gare, mais je n'ai pas réussi à le retrouver. Le lendemain, le propriétaire du magasin m'a appelé et m'a dit qu'il avait trouvé mon objet perdu. Quand je suis arrivé, il m'a remis le portefeuille avec toutes les cartes à l'intérieur. J'étais très heureux et je l'ai remercié.",
-      "explanation": "Le texte indique «მაღაზიის მეპატრონემ დამირეკა» et ensuite «he handed me the wallet», donc c'est le propriétaire du magasin qui a retrouvé et rendu le portefeuille."
+      "explanation": "Le texte indique que le propriétaire du magasin a appelé le narrateur, puis lui a rendu son portefeuille : c’est donc lui qui a retrouvé l’objet perdu."
     },
     {
       "id": "reading_guided-b1-gen-004",

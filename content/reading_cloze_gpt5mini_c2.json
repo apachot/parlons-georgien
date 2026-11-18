@@ -57,7 +57,7 @@
         "დოკუმენტებს"
       ],
       "translation": "Lors de l'évaluation d'un projet, il est nécessaire d'attacher de l'attention tant aux résultats qu'au processus.",
-      "explanation": "Le mot exact est «პროცესს» («le processus»). Bien que «დოკუმენტებს» ou «თანხას» soient plausibles, la structure «как результатам, так и ___» exige un terme qui contraste avec «résultats», donc «processus» est la bonne réponse.",
+      "explanation": "Le mot exact est «პროცესს» («le processus»). Bien que «დოკუმენტებს» ou «თანხას» soient plausibles, la structure «tant aux résultats qu'à ___» exige un terme qui contraste avec «résultats», donc «პროცესს» est la bonne réponse.",
       "cefr": "C2",
       "version": 4
     },
@@ -185,7 +185,7 @@
       "id": "reading_cloze-c2-gen-023",
       "version": 23,
       "cefr": "C2",
-      "sentence": "იმისათვის, რომ კონფერენციაზე მისი თეორია უფრო убедительно ჟღეროდეს, მან სტატისტიკური მტკიცებულება ___ და დეტალებს ინდაც გამოიკვლია.",
+      "sentence": "იმისათვის, რომ კონფერენციაზე მისი თეორია უფრო დამაჯერებლად ჟღეროდეს, მან სტატისტიკური მტკიცებულება ___ და დეტალებიც გამოიკვლია.",
       "answer": "მტკიცებულება ___ და დეტალებს ინდაც გამოიკვლია",
       "options": [
         "შემოგზავნა",
@@ -230,16 +230,16 @@
       "id": "reading_cloze-c2-gen-026",
       "version": 26,
       "cefr": "C2",
-      "sentence": "დარგის სპეციალისტები დისკუსიისას ხშირად იყენებენ ჰიპოთეზებს, რომლებიც წინასწარ ___, შემდეგ კი ექსპერიმენტებით გადაამოწმეს.",
-      "answer": "გადასაგზავნი",
+      "sentence": "კვლევის დაწყებამდე სპეციალისტებმა დისკუსიისას წამოჭრილი ჰიპოთეზები ___, შემდეგ კი ისინი ექსპერიმენტებით გადაამოწმეს.",
+      "answer": "ჩამოაყალიბეს",
       "options": [
-        "გადასაგზავნი",
-        "თვალია",
-        "გამოყენებული",
-        "დასაბუთებული"
+        "ჩამოაყალიბეს",
+        "გამოაქვეყნეს",
+        "უარყვეს",
+        "დაადასტურეს"
       ],
-      "translation": "Les spécialistes du domaine utilisent souvent des hypothèses au cours des discussions qui sont d'abord formulées (préalablement) puis vérifiées par des expériences.",
-      "explanation": "L'item contient wrong forms. 'დასაბუთებული' (justifiées/étayées) convient pour des hypothèses validées ; les autres options sont inappropriées."
+      "translation": "Avant de commencer l’étude, les spécialistes ont formulé les hypothèses soulevées lors de la discussion, puis les ont vérifiées par des expériences.",
+      "explanation": "« ჩამოაყალიბეს » signifie « ils ont formulé ». Les spécialistes formulent d’abord les hypothèses, puis les vérifient par des expériences."
     },
     {
       "id": "reading_cloze-c2-gen-027",
@@ -254,7 +254,7 @@
         "დაიდო"
       ],
       "translation": "La lettre découverte aux archives de la bibliothèque était si personnelle que l'éditeur prit la seule décision éthique : retirer le fragment de la lecture.",
-      "explanation": "La formulation correcte pour 'retirer de la lecture' en géorgien est 'შეინახა' n'est pas correct; need precise single answer."
+      "explanation": "La formulation correcte pour 'retirer de la lecture' en géorgien n'est pas 'შეინახა' ; il faut une réponse précise adaptée au contexte."
     },
     {
       "id": "reading_cloze-c2-gen-028",
@@ -290,16 +290,16 @@
       "id": "reading_cloze-c2-gen-030",
       "version": 30,
       "cefr": "C2",
-      "sentence": "საგარეო პოლიტიკის ანალიზში აუცილებელია განსხვავება გაკეთდეს მიზეზსა და შედეგს შორის, რადგან ხშირად ერთი და იგივე ფაქტი შეიძლება ორივე სხვადასხვა დონეზე გამოიყურებოდეს და მხოლოდ დრო ___ აჩვენებს რეალურს.",
-      "answer": "მიმაჩნია",
+      "sentence": "საგარეო პოლიტიკის ანალიზში აუცილებელია მიზეზისა და შედეგის გარჩევა; ხშირად ერთი და იგივე ფაქტი ორივე ჭრილში განიხილება, ხოლო მხოლოდ დრო ___, რამდენად სწორია ჩვენი დასკვნა.",
+      "answer": "მიგვანიშნებს",
       "options": [
-        "მიმაჩნია",
+        "მიგვანიშნებს",
         "მიწოდებას",
         "მანიშნებს",
         "გადის"
       ],
-      "translation": "Dans l'analyse de la politique étrangère, il est nécessaire de distinguer cause et effet, car souvent un même fait peut apparaître différemment sur différents niveaux et seul le temps montre la réalité.",
-      "explanation": "La phrase correcte demande 'მხოლოდ დრო აჩვენებს რეალურს' ; l'option doit être 'ა' form. Provided options incorrect."
+      "translation": "Dans l’analyse de la politique étrangère, il faut distinguer la cause de l’effet. Un même fait peut souvent être examiné sous les deux angles ; seul le temps nous indique si notre conclusion est juste.",
+      "explanation": "« მიგვანიშნებს » signifie « nous indique » et convient avec « დრო » (« le temps »). Les autres options ne forment pas une construction grammaticale adaptée au contexte."
     },
     {
       "id": "reading_cloze-c2-gen-011",
@@ -319,7 +319,7 @@
     {
       "id": "reading_cloze-c2-gen-012",
       "sentence": "პროექტის შეფასებისას ყურადღება მიაქციეს როგორც საბოლოო შედეგს, ___ პროცესშიც დაფიქსირებული იყო მრავალი წარუმატებლობა.",
-      "answer": "также",
+      "answer": "ასევე",
       "options": [
         "ასევე",
         "მაგრამ",
@@ -327,7 +327,7 @@
         "მათთვის"
       ],
       "translation": "Lors de l'évaluation du projet, on a pris en compte à la fois le résultat final, et le processus dans lequel plusieurs échecs ont été constatés.",
-      "explanation": "Le choix correct est «ასევე» («aussi / ainsi que») pour coordonner les deux éléments évalués ; les autres mots n'expriment pas cette addition. Note : «также» était accidentellement cyrillique dans 'answer' — corrigé ici par les options ; l'élément attendu en géorgien est «ასევე».",
+      "explanation": "Le choix correct est «ასევე» («aussi / ainsi que») pour coordonner les deux éléments évalués ; les autres mots n'expriment pas cette addition. Remarque : le mot russe 'takzhe' était en cyrillique par erreur — l'élément attendu en géorgien est «ასევე».",
       "cefr": "C2",
       "version": 12
     },

@@ -149,10 +149,10 @@
       "cefr": "A2",
       "version": 13,
       "fr": "Je prends un café sans sucre.",
-      "ka": "მე ყავას ვსვამ בלי შაქრის.",
+      "ka": "მე ყავას ვსვამ შაქრის გარეშე.",
       "answers": [
-        "მე ყავას ვსვამ בלי შაქრის.",
-        "მე ვსვამ ყავას בלי შაქრის."
+        "მე ყავას ვსვამ შაქრის გარეშე.",
+        "მე ვსვამ ყავას შაქრის გარეშე."
       ],
       "note": "Deux ordres des mots sont possibles en géorgien pour le verbe et l'objet."
     },
@@ -417,7 +417,7 @@
     {
       "id": "dictation_sentences-a2-gen-026",
       "fr": "Mon frère étudie l'informatique à l'université.",
-      "ka": "ჩემი братი უნივერსიტეტში ინფორმატიკას სწავლობს.",
+      "ka": "ჩემი ძმა უნივერსიტეტში ინფორმატიკას სწავლობს.",
       "answers": [
         "ჩემი ძმა უნივერსიტეტში informatikas სწავლობს.",
         "ჩემი ძმა უნივერსიტეტში ინფორმატიკას სწავლობს."

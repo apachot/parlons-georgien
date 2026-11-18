@@ -122,7 +122,7 @@
         },
         {
           "speaker": "ტურისტი",
-          "ka": "დიდი მადლობა — თქვენRIGHT ტურისტს გზას უხელმძღვანელებთ?",
+          "ka": "დიდი მადლობა — თქვენ ტურისტებს გზის პოვნაში ეხმარებით?",
           "fr": "Merci beaucoup — vous indiquez le chemin au touriste ?"
         }
       ],
@@ -155,7 +155,7 @@
               "ok": false
             },
             {
-              "ka": "გთხოვთ, მომიტანთ XXL-ს, ალბათ იქნება კარგი.",
+              "ka": "გთხოვთ, დიდი ზომა მომიტანოთ, თუ შეიძლება.",
               "fr": "Apportez-moi un XXL, ça ira peut-être.",
               "ok": false
             }
@@ -214,7 +214,7 @@
     {
       "id": "dialogues-a2-gen-006",
       "title": "ვალუტის გაცვლა ბანკში",
-      "scene": "ბანკის ფოიე — უცხოური המטבעის გადაცვლა.",
+      "scene": "Hall de la banque — échange de devises étrangères.",
       "turns": [
         {
           "speaker": "ბანკის თანამშრომელი",
@@ -420,8 +420,8 @@
       "id": "dialogues-a2-gen-011",
       "version": 11,
       "cefr": "A2",
-      "title": "На აეროპორტში (À l'aéroport)",
-      "scene": "სასკუთარი მიედინება აეროპორტში. სასურველია სალაპარაკო ბилетისა და მოგონებების შესახებ.",
+      "title": "À l'aéroport",
+      "scene": "Affluence à l'aéroport. Idéal pour parler des billets et des souvenirs.",
       "turns": [
         {
           "speaker": "Agent",
@@ -767,7 +767,7 @@
         },
         {
           "speaker": "Cashier",
-          "ka": "כמה დრო დაგვჭირდება პროცედურას?",
+          "ka": "რამდენი დრო დაგვჭირდება პროცედურას?",
           "fr": "Combien de temps cela prendra pour la procédure ?"
         },
         {
@@ -840,7 +840,7 @@
           "choices": [
             {
               "ka": "მართლაც საჭიროა სამი თვე; ეს გამყარებულია და საკმარისია პროცედურისთვის.",
-              "fr": "Trois months are indeed required; that's validated and sufficient for the procedure.",
+              "fr": "Trois mois sont effectivement nécessaires ; cette durée est validée et suffit pour la démarche.",
               "ok": true
             },
             {
@@ -1444,7 +1444,7 @@
         },
         {
           "speaker": "Ami B",
-          "ka": "არ specific-ი არაფერი. შენ რას ფიქრობ?",
+          "ka": "განსაკუთრებული მოთხოვნა არ მაქვს. შენ რას ფიქრობ?",
           "fr": "Rien de précis. Et toi ?"
         },
         {
@@ -1643,7 +1643,7 @@
       "turns": [
         {
           "speaker": "Touriste",
-          "ka": "ბოდიში, როგორ მივალ מוזეუმ 'საბჭოთა ხელოვნების' ზედა შესასვლელთან?",
+          "ka": "ბოდიში, როგორ მივალ მუზეუმ 'საბჭოთა ხელოვნების' ზედა შესასვლელთან?",
           "fr": "Excusez-moi, comment puis-je aller à l'entrée principale du musée 'Art soviétique' ?"
         },
         {
@@ -1857,7 +1857,7 @@
       "turns": [
         {
           "speaker": "Agent",
-          "ka": "სად გსურთ რომ გავგზავნოთ ამ colis-ს?",
+          "ka": "სად გსურთ, რომ ეს ამანათი გავაგზავნოთ?",
           "fr": "Où souhaitez-vous envoyer ce colis ?"
         },
         {
@@ -1974,7 +1974,7 @@
         },
         {
           "speaker": "Étudiant",
-          "ka": "მე შეიძლება მოვახდინო prolongation ონლაინ თუ რომელიმე მოთხოვნა იქნება?",
+          "ka": "შესაძლებელია ონლაინ გაგრძელება, თუ ამისთვის რაიმე მოთხოვნა უნდა დავაკმაყოფილო?",
           "fr": "Puis-je faire la prolongation en ligne si quelqu'un en fait la demande ?"
         },
         {
@@ -1983,12 +1983,12 @@
           "fr": "Oui, vous pourrez le faire en ligne, mais si un autre étudiant le réserve, nous l'indiquerons et vous ne pourrez pas prolonger.",
           "choices": [
             {
-              "ka": "მისაღებია, ამიტომ ვაპირებ ორი კვირით დავიტოვო და მერე გადავამოწმებ prolongation-ი.",
+              "ka": "მისაღებია, ამიტომ ვაპირებ, ორი კვირით დავიტოვო და შემდეგ გაგრძელების შესაძლებლობას გადავამოწმებ.",
               "fr": "D'accord, je compte le garder deux semaines puis vérifierai la prolongation.",
               "ok": true
             },
             {
-              "ka": "არ მინდა გაიაროს ონლაინ პროცესი, მხოლოდ ადგილზე უნდა გადავიდეს და აღარ ვწარმოებ prolongation-ი.",
+              "ka": "ონლაინ გაგრძელება არ მსურს. მინდა, მხოლოდ ადგილზე მოვაგვარო ეს საკითხი და ვადა აღარ გავაგრძელო.",
               "fr": "Je ne veux pas le faire en ligne, seulement sur place et je ne prolongerai pas.",
               "ok": false
             },
@@ -2001,7 +2001,7 @@
         },
         {
           "speaker": "Bibliothécaire",
-          "ka": "კარგი, მოგაწოდებთ გასაღებს და მითითებებს ონლაინ prolongation-ის შესახებ.",
+          "ka": "კარგი, გასაღებსა და ვადის გაგრძელების ონლაინ წესებს მოგაწვდით.",
           "fr": "Très bien, nous vous donnerons la carte et les instructions pour la prolongation en ligne."
         }
       ]
@@ -2030,7 +2030,7 @@
         },
         {
           "speaker": "Collègue",
-          "ka": "მონაწილეები: ნიკო, მარი, אתה და მე. თუ შეიძლება, რომ ყველა მიიღოს დღის წესრიგი, კარგი იქნება.",
+          "ka": "მონაწილეები: ნიკო, მარი, შენ და მე. თუ შესაძლებელია, რომ ყველა მიიღოს დღის წესრიგი, კარგი იქნება.",
           "fr": "Les participants : Niko, Mari, toi et moi. Ce serait bien que tout le monde reçoive l'ordre du jour.",
           "choices": [
             {

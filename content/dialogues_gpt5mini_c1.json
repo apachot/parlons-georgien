@@ -57,7 +57,7 @@
         {
           "speaker": "Professeur",
           "ka": "იზენბერგმა ეს ტერმინი გამოიყენება როგორც „სულიერი მდგომარეობა“, მაგრამ სხვა მეცნიერები თვლიან, რომ ასეთად დაჯგუფება ზედმეტად გამარტივებელია.",
-          "fr": "Izenberg employs the term as «état spirituel», mais certains estiment que cette catégorisation est trop simplificatrice."
+          "fr": "Izenberg emploie le terme au sens d’« état spirituel », mais certains estiment que cette catégorisation est trop simplificatrice."
         },
         {
           "speaker": "Doctorant",
@@ -521,7 +521,7 @@
         },
         {
           "speaker": "ტექნიკური ლიდერი",
-          "ka": "ინტეგრაციის ფაზაში აღმოჩნდა კომუნიკაციის შეზღუდვა გუნდის შიგნით; specification-ების დაუსრულებლობა ბადებს გაუგებრობებს.",
+          "ka": "ინტეგრაციის ეტაპზე გუნდში კომუნიკაციის პრობლემა გამოვლინდა; მოთხოვნების დეტალების დაუზუსტებლობა გაუგებრობას იწვევს.",
           "fr": "Lors de l'intégration, il y a eu un déficit de communication interne ; le manque de finalisation des spécifications engendre des malentendus."
         },
         {
@@ -632,7 +632,7 @@
               "ok": true
             },
             {
-              "ka": "კარგი იქნება HR-ის ერთპიროვნული გადაწყვეტილება, რათა სიტუაცია სწრაფად გადაწყდეს.",
+              "ka": "სასარგებლო იქნება, თუ პერსონალის განყოფილება გადაწყვეტილებას სწრაფად მიიღებს.",
               "fr": "Il vaudrait mieux une décision unilatérale des RH pour régler vite la situation.",
               "ok": false
             }
@@ -1061,7 +1061,7 @@
               "ok": false
             },
             {
-              "ka": "სრულად გავჩუმდები და ვივიწყებ თემას, რათა არ შევქმნა არახელსაყრელიprecedent.",
+              "ka": "სრულად გავჩუმდები და თემას დავივიწყებ, რათა არასასურველი პრეცედენტი არ შევქმნა.",
               "fr": "Je garderai le silence et oublierai le sujet pour éviter de créer un précédent défavorable.",
               "ok": false
             }

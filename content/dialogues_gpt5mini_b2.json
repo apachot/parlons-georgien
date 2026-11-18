@@ -170,7 +170,7 @@
               "ok": false
             },
             {
-              "ka": "სჯობს პირდაპირ მთელი თანხა წინასწარ გადავიხადოთ და spontaneitè-ს დავუთმოთ.",
+              "ka": "სჯობს მთელი თანხა წინასწარ გადავიხადოთ და სპონტანურობასაც დავუთმოთ ადგილი.",
               "fr": "Il vaut mieux tout payer d'avance et laisser place à la spontanéité.",
               "ok": false
             }
@@ -854,7 +854,7 @@
       "turns": [
         {
           "speaker": "Superviseur",
-          "ka": "შენი პრეზენტაცია იყო მომხიბლავი სტრუქტურით, მაგრამ რამდენიმე თვალსაზრისი deserves ნემსი დასწორება.",
+          "ka": "შენი პრეზენტაცია სტრუქტურულად მიმზიდველი იყო, თუმცა რამდენიმე საკითხის დაზუსტებაა საჭირო.",
           "fr": "Ta présentation avait une structure attrayante, mais quelques points méritent d'être affinés."
         },
         {
@@ -922,7 +922,7 @@
         },
         {
           "speaker": "Apprenant",
-          "ka": "ვფიქრობ, საინტერესო იქნებოდა რეგიონული მეტყველების და თანამედროვე ხელოვნების ჰიბრიდი — ადგილობრივი ტრადიციების reinterpretation თანამედროვე ნარატივებით.",
+          "ka": "ვფიქრობ, საინტერესო იქნებოდა რეგიონული მეტყველებისა და თანამედროვე ხელოვნების შერწყმა — ადგილობრივი ტრადიციების ახლებური გააზრება თანამედროვე ნარატივების საშუალებით.",
           "fr": "Je pense qu'un hybride entre discours régional et art contemporain serait intéressant — réinterprétation des traditions locales avec des récits contemporains."
         },
         {
@@ -1036,7 +1036,7 @@
         },
         {
           "speaker": "Collègue B",
-          "ka": "მე უფრო გამიჯნულ ვარ: მონაცემები აჩვენებს, რომ მიზნობრივი მესიჯები და A/B ტესტირება ეფექტურია ROI-ს მისაღწევად.",
+          "ka": "მე უფრო თავშეკავებული ვარ: მონაცემები აჩვენებს, რომ მიზნობრივი გზავნილები და A/B ტესტირება ინვესტიციაზე უკუგებას ზრდის.",
           "fr": "Je suis plus réservé : les données montrent que les messages ciblés et les tests A/B sont efficaces pour atteindre le ROI."
         },
         {
@@ -1045,7 +1045,7 @@
           "fr": "Les deux visions ont du vrai ; serait-il possible une campagne hybride — noyau émotionnel avec des messages segmentés ciblés ?",
           "choices": [
             {
-              "ka": "დიახ, ჰიბრიდი კარგი compromise იქნება: საერთო ემოციური კონცეფცია პლუს სპეციფიკური ედპერსონალიზაციები.",
+              "ka": "დიახ, შერწყმული მიდგომა კარგი იქნება: საერთო ემოციური კონცეფცია და მასზე მორგებული კონკრეტული გზავნილები.",
               "fr": "Oui, l'hybride serait un bon compromis : concept émotionnel global plus personnalisations spécifiques.",
               "ok": true
             },
@@ -1068,7 +1068,7 @@
         },
         {
           "speaker": "Apprenant",
-          "ka": "პირველი ფაზა: ემოციური, ბრეენდული ვიდეოები. მეორე: სეგმენტირებული მესიჯები ციფრულ არხებში A/B ტესტების საშუალებით. მესამე: ანგარიშგება KPI-ებით.",
+          "ka": "პირველ ეტაპზე შევქმნათ ემოციური, ბრენდული ვიდეოები. მეორე ეტაპზე გამოვიყენოთ სეგმენტირებული გზავნილები ციფრულ არხებში და ჩავატაროთ A/B ტესტირება. მესამე ეტაპზე მოვამზადოთ ანგარიში ძირითადი მაჩვენებლებით.",
           "fr": "Phase 1 : vidéos émotionnelles de branding. Phase 2 : messages segmentés sur canaux digitaux avec A/B tests. Phase 3 : reporting avec KPI."
         }
       ]
@@ -1545,7 +1545,7 @@
               "ok": false
             },
             {
-              "ka": "გააკეთოთ ფრესკი სალათა სეზონური ბოსტნეულით და ღვინის რომელიმე ვირუსით, ცალკე შემოგვყავს ფეტა და გრილovaný წიწილიებს.",
+              "ka": "მოამზადეთ ახალი სალათი სეზონური ბოსტნეულით; ფეტა ცალკე მიიტანეთ, ხოლო ბულგარული წიწაკა ცალკე შეწვით.",
               "fr": "Préparer une salade fraîche de légumes de saison, avec la feta servie à part et des poivrons grillés séparément.",
               "ok": true
             }
@@ -1725,7 +1725,7 @@
         },
         {
           "speaker": "Freelance",
-          "ka": "მე შემიძლია ავიდე მიკრო-გრაფიკზე, თუ დავგეგმავთ მექანიზმს გადახდის ნაწილში და მიტანის ეტაპებზე. IP-ს შესახებ, ჩვეულებრივ ვთანხმდები კონფიდენციალურობაზე და ლიცენზიაზე.",
+          "ka": "შემიძლია მოქნილ გრაფიკზე მუშაობა, თუ გადახდის წესსა და სამუშაოს ჩაბარების ეტაპებზე შევთანხმდებით. ინტელექტუალური საკუთრების საკითხებში, როგორც წესი, კონფიდენციალურობისა და ლიცენზიის პირობებს ვიღებ.",
           "fr": "Je peux suivre un micro-planning si nous définissons un mécanisme de paiement et des étapes de livraison. En matière d'IP, j'accepte généralement confidentialité et licence."
         },
         {
@@ -1802,7 +1802,7 @@
               "ok": false
             },
             {
-              "ka": "შევქმნათ თანამშრომლობის პיתוחი, სადაც უფროსები და მშივრები ერთად შეიმუშავებენ პრიორიტეტებს და შემდეგ დავივიწყოთ მარტო ფინანსებზე ფიქრი.",
+              "ka": "შევქმნათ თანამშრომლობის მოდელი, სადაც ხელმძღვანელები და თანამშრომლები ერთად შეიმუშავებენ პრიორიტეტებს და მხოლოდ ფინანსებზე არ იფიქრებენ.",
               "fr": "Développer une culture de coopération où supérieurs et employés établissent ensemble des priorités, puis ignorer uniquement la réflexion financière.",
               "ok": false
             },
@@ -1926,7 +1926,7 @@
       "turns": [
         {
           "speaker": "ექიმი",
-          "ka": "თქვენი ტემპერატურა უკვე სამდღეა მაღალი, ხველა გაძლიერდა და სუნთქვა გიჭირთ. მოკლედ რომ ვთქვათ, თუ არ იქნება გაუმჯობესება, საჭიროა სისხლის ანალიზი და ჩარ esperado ჯერჯერობით.",
+          "ka": "უკვე სამი დღეა მაღალი ტემპერატურა გაქვთ, ხველა გაძლიერდა და სუნთქვა გიჭირთ. თუ მდგომარეობა არ გაუმჯობესდება, სისხლის ანალიზი და შესაძლოა სამედიცინო ჩარევაც დაგჭირდეთ.",
           "fr": "Votre fièvre dure depuis trois jours, la toux s'est aggravée et vous avez du mal à respirer. En bref, si cela ne s'améliore pas, des analyses de sang et une intervention seront nécessaires."
         },
         {
@@ -2122,7 +2122,7 @@
         },
         {
           "speaker": "პროფესორი",
-          "ka": "ამ ტაქტიკით მნიშვნელოვნად შეუწყობთ ხელს პროექტის արդյունավետობას. მოამზადეთ რვა-კვირიანი გეგმა და წარადგინეთ მკაფიო ამოცანები თითოეულ მონაწილესა და შეფასების კრიტერიუმები.",
+          "ka": "ამ მიდგომით მნიშვნელოვნად გააუმჯობესებთ პროექტის შედეგებს. მოამზადეთ რვაკვირიანი გეგმა, მიუთითეთ თითოეული მონაწილის ამოცანები და განსაზღვრეთ შეფასების კრიტერიუმები.",
           "fr": "Cette tactique contribuera grandement à l'efficacité du projet. Préparez un plan de huit semaines et présentez des tâches claires pour chaque participant et des critères d'évaluation."
         }
       ]

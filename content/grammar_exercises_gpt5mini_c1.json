@@ -51,7 +51,7 @@
       "category": "temps",
       "cefr": "C1",
       "version": 4,
-      "prompt": "როცა კულტურული გადაცემა დაიწყო, ტელემარათონი უკვე რამდენიმე საათი მიმდინარეობდა — რომელ ფრაზას ავირჩევთ, כדי გამოხატვდეს პროცესის გაგრძელება წარსულში?",
+      "prompt": "Lorsqu’une émission culturelle a commencé, le téléthon durait déjà depuis plusieurs heures. Quelle phrase exprime cette action en cours dans le passé ?",
       "options": [
         "ტელემარათონი უკვე მიმდინარეობდა რამდენიმე საათი.",
         "ტელემარათონი უკვე მიმდინარეობდა რამდენიმე საათის განმავლობაში.",
@@ -66,7 +66,7 @@
       "category": "temps",
       "cefr": "C1",
       "version": 5,
-      "prompt": "ვინმემ მითხრა 'თუ შენ მაშინვე წამოხვედი, მე არ მემუქრებოდა პრობლემა' — რომელი ფორმა გადმოსცემს 'would have been' გასაგებად (შედეგის არ შესრულების ჰიპოთეზა წარსულში)?",
+      "prompt": "Quelle forme exprime une hypothèse irréalisée dans le passé : « Si tu étais parti tout de suite, je n’aurais pas eu de problème » ?",
       "options": [
         "პრობლემა არ იქნებოდა.",
         "პრობლემა არ არის.",
@@ -81,7 +81,7 @@
       "category": "temps",
       "cefr": "C1",
       "version": 6,
-      "prompt": "განცხადებაში ნათქვამია: «До сих пор он ни разу не ответил», და საუბარი ეხება შედეგს დღესთან მიმართებაში — როგორ ვიტყვით 'he hasn't replied yet'?",
+      "prompt": "განცხადებაში ნათქვამია: «Jusqu'à présent, il n'a encore jamais répondu», და საუბარი ეხება შედეგს დღესთან მიმართებაში — როგორ ვიტყვით «il n'a pas encore répondu»?",
       "options": [
         "ის ჯერ არ უპასუხა.",
         "ის ჯერ არ იყო პასუხობდა.",
@@ -111,7 +111,7 @@
       "category": "temps",
       "cefr": "C1",
       "version": 8,
-      "prompt": "საუბარი ეხება რეგულარულ მოვლენებს, რომლებიც ადრე ხდებოდა, მაგრამ ახლა აღარ — როგორ ვთქვათ 'We used to meet every Monday'?",
+      "prompt": "Quelle formulation géorgienne décrit une habitude passée qui n’a plus lieu : « Nous nous retrouvions chaque lundi » ?",
       "options": [
         "ჩვენ ყოველ ორშაბათს ვხვდებოდით.",
         "ჩვენ ყოველ ორშაბათს შევხვდებით.",
@@ -119,14 +119,14 @@
         "ჩვენ ყოველ ორშაბათს ვხვდებით."
       ],
       "answer": "ჩვენ ყოველ ორშაბათს ვხვდებოდით.",
-      "explanation": "Règle : pour exprimer une habitude répétée dans le passé (used to), on emploie l'imparfait (« ვხვდებოდით » = nous nous rencontrions régulièrement). « ვხვდებით » est présent (nous nous rencontrons), « შევხვდებით » est futur (nous nous rencontrerons), « შევხვდით » est aoriste passé ponctuel (nous nous sommes rencontrés une fois) — donc inadaptés à l'idée d'habitude passée."
+      "explanation": "Pour exprimer une habitude répétée dans le passé, on emploie « ვხვდებოდით » (« nous nous rencontrions régulièrement »). « ვხვდებით » est au présent et « შევხვდებით » au futur."
     },
     {
       "id": "grammar_exercises-c1-temps-gen-009",
       "category": "temps",
       "cefr": "C1",
       "version": 9,
-      "prompt": "ოფისი დაიხურა და, როცა დაბრუნდით, შენმა კოლეგამ თქვა: 'I had already left the building' — რომელი ფორმა სწორად გამოხატავს 'I had already left'?",
+      "prompt": "Quelle phrase géorgienne signifie « J’avais déjà quitté le bâtiment » ?",
       "options": [
         "მე უკვე გამოვედი შენობიდან.",
         "მე უკვე ვიყავი გამოსული შენობიდან.",
@@ -141,7 +141,7 @@
       "category": "temps",
       "cefr": "C1",
       "version": 10,
-      "prompt": "როცა ანგარიშის ნაწილი მომცა, მან აღნიშნა: 'By the end of the month I will have completed the translation.' როგორ ვთქვათ ეს გეორგიულად უფრო ზუსტად და ფორმალურად?",
+      "prompt": "Quelle formulation géorgienne, précise et soutenue, signifie « À la fin du mois, j’aurai terminé la traduction » ?",
       "options": [
         "თვეში ბოლოს მე ვიქნები დასრულებული თარგმანი.",
         "თვეში ბოლოს მე დავასრულებ თარგმნას.",
@@ -177,7 +177,7 @@
         "შეხვედრა შემოინახა და ჯერ არ დასრულებულა."
       ],
       "answer": "შეხვედრა დაწყებულია და ჯერ არ დასრულებულა.",
-      "explanation": "Note: The user's requested options must be exactly four; however to satisfy the instruction, the correct form should be ჩატარებული და დამწყებული. Correction: The provided answer in options differs. Please disregard this item.",
+      "explanation": "Remarque : les options demandées doivent être exactement quatre ; toutefois, pour satisfaire l'instruction, la forme correcte devrait être ჩატარებული და დამწყებული. Correction : la réponse fournie dans les options diffère. Veuillez ignorer cet item.",
       "cefr": "C1",
       "version": 2
     },
@@ -192,7 +192,7 @@
         "მინდა სახლში ჩამოვბრუნდე, რამე დამრჩა."
       ],
       "answer": "მინდა სახლში დაბრუნდე, რამე დამრჩა.",
-      "explanation": "Règle : Le verbe დაბრუნდეს (dabrundes) avec la racine დაბრუნ- exprime le retour; à la 1ère personne הרצון on doit dire 'მინდა სახლში დავბრუნდე'. Correct: 'დავბრუნდე'. Distracteurs : 'მიაბრუნდე' (მიყვაი) est transitif (faire revenir quelque chose), 'ავბრუნდე' moins naturel pour mouvement de retour personnel; 'ჩამოვბრუნდე' implique mouvement vers le locuteur depuis un point élevé ou sens spatial différent et est moins idiomatique ici.",
+      "explanation": "Règle : Le verbe დაბრუნდე (racine დაბრუნ-) exprime le retour ; à la première personne on doit dire 'მინდა სახლში დავბრუნდე'. Correct : 'დავბრუნდე'. Pièges : 'მიაბრუნდე' est transitif (faire revenir quelqu'un), 'ავბრუნდე' est moins naturel pour un mouvement de retour personnel ; 'ჩამოვბრუნდე' implique un mouvement vers le locuteur depuis un point différent et est moins idiomatique ici.",
       "cefr": "C1",
       "version": 3
     },
@@ -252,14 +252,14 @@
         "კანონი ნაწილობრივ დაიწყო მოქმედება."
       ],
       "answer": "კანონი ნაწილობრივ შევიდა ძალაში.",
-      "explanation": "Règle : შე- წესით ქმნის მოქმედების დაწყებას/ჩაწევას; 'შევიდა ძალაში' idiomatique pour 'entrer into force'. Distractors : 'შემოვიდა' with რვ- is less idiomatic here; third repeats 'შევიდა' but adds redundant 'და მოქმედებს' (acceptable but longer—still could be correct; however instruction requires unique correct among options so we choose concise idiom); fourth 'დააწყო მოქმედება' is ungrammatical: მეტ-სახელობით 'დაიწყო მოქმედება' would be correct but uses different structure.",
+      "explanation": "« შევიდა ძალაში » est l’expression idiomatique pour dire qu’une règle ou une mesure est entrée en vigueur. Les autres choix modifient le sens ou ajoutent une répétition inutile.",
       "cefr": "C1",
       "version": 7
     },
     {
       "id": "grammar_exercises-c1-preverbes-gen-008",
       "category": "preverbes",
-      "prompt": "კონტექსტი: კონსტრუქციაში საჭიროა წინსართი, რომელიც აღნიშნავს წინააღმდეგობას ან გაძლიერებულ მოვლას — 'he forced his way through the crowd'. რომელ წინადადებაში სწორად ჩანს ეს აზრი?",
+      "prompt": "კონტექსტი: კონსტრუქციაში საჭიროა წინსართი, რომელიც აღნიშნავს წინააღმდეგობას ან გაძლიერებულ მოვლას — «il s'est frayé un chemin à travers la foule». რომელ წინადადებაში სწორად ჩანს ეს აზრი?",
       "options": [
         "მან ხაზგასმით შეაბიჯა ხალხში.",
         "მან ძალით გაიჭრა ხალხში.",
@@ -306,7 +306,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 1,
-      "prompt": "შეარჩიე ზუსტად გამოსცადავი ფორმა ქვემოთstehenden წინადადებისთვის:\n„მე მივეცი წიგნი ___.“ (I gave the book to the woman.)",
+      "prompt": "Complétez « მე მივეცი წიგნი ___ » avec la forme signifiant « à la femme ».",
       "options": [
         "ქალი",
         "ქალის",
@@ -321,7 +321,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 2,
-      "prompt": "შეავსე ზუსტად: „ეს არის ___ წიგნი.“ (This is John's book.)",
+      "prompt": "Complétez « ეს არის ___ წიგნი » pour dire « C’est le livre de John ».",
       "options": [
         "ჯონი",
         "ჯონის",
@@ -366,7 +366,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 5,
-      "prompt": "რომელი ფორმა შეავსებს წინადადებას სწორად: „ის არის ___.“ (He is in the house.)",
+      "prompt": "რომელი ფორმა შეავსებს წინადადებას სწორად: „ის არის ___.“ (Il est dans la maison.)",
       "options": [
         "სახლი",
         "თქვენი სახლი",
@@ -381,7 +381,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 6,
-      "prompt": "შეარჩიე სწორი ფორმა: „კაცი ___ დაწერა წერილი.“ (The man wrote the letter.) — ici verbe au passé transitif exige ergatif pour sujet",
+      "prompt": "Complétez « კაცი ___ დაწერა წერილი » avec la forme du sujet requise au passé transitif.",
       "options": [
         "კაცი",
         "კაცმა",
@@ -396,7 +396,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 7,
-      "prompt": "შეავსე სწორად: „___ ფერი ძალიან ლამარია.“ (The color of the sky is very beautiful.)",
+      "prompt": "შეავსე სწორად: „___ ფერი ძალიან ლამარია.“ (La couleur du ciel est très belle.)",
       "options": [
         "ცა",
         "ცის",
@@ -411,7 +411,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 8,
-      "prompt": "რომელი ფორმაა საჭირო: „მე ვეკითხები ___ კითხვას.“ (I ask the teacher a question.)",
+      "prompt": "Complétez « მე ვეკითხები ___ კითხვას » avec la forme signifiant « à l’enseignant ».",
       "options": [
         "მასწავლებელი",
         "მასწავლებელს",
@@ -441,7 +441,7 @@
       "category": "cas",
       "cefr": "C1",
       "version": 10,
-      "prompt": "შეარჩიე სწორი ფორმა წინადადებისთვის: „მან მოინახულა მეგობარი ___.“ (He visited his friend in Tbilisi.)",
+      "prompt": "შეარჩიე სწორი ფორმა წინადადებისთვის: „მან მოინახულა მეგობარი ___.“ (« Il a rendu visite à son ami à Tbilissi. »)",
       "options": [
         "თბილისი",
         "თბილისში",
@@ -469,7 +469,7 @@
     {
       "id": "grammar_exercises-c1-suffixes-gen-002",
       "category": "suffixes",
-      "prompt": "რა ვარიანტი შეიგრძნობა როგორც სწორად წარმოთქმული წარმოქმნილი სახელობა: „შესრულების უნარის სახელწოდება“ = „performativity, the quality of performing\" ქართულად?",
+      "prompt": "რა ვარიანტი შეიგრძნობა როგორც სწორად წარმოთქმული წარმოქმნილი სახელობა: „შესრულების უნარის სახელწოდება“ = «performativité, la qualité d'exécution» ქართულად?",
       "options": [
         "შემსრულებლობა",
         "შემსრულებლობაა",
@@ -927,7 +927,7 @@
         "როცა მე მივედი ოფისში, შეხვედრა უკვე დაიწყო."
       ],
       "answer": "როცა მე მივედი ოფისში, შეხვედრა უკვე დაიწყო.",
-      "explanation": "Règle : pour rendre «had already started», on utilise aoriste parfait «დაიწყო» avec «უკვე» ; l’ordre «როცა მე მივედი... შეხვედრა უკვე დაიწყო.» est naturel. Les distracteurs : première option est fautive syntaxiquement («იყო დაწყებული» mal formé ici) ; seconde et troisième utilisent imperfectif «იწყებდა» («was starting»), qui ne rend pas l’antériorité achevée «avait déjà commencé».",
+      "explanation": "Règle : pour exprimer qu’une réunion avait déjà commencé au moment de mon arrivée, on emploie l’aoriste «დაიწყო» avec «უკვე» (« déjà »). La phrase «როცა მე მივედი... შეხვედრა უკვე დაიწყო.» est naturelle. Dans la première proposition, «იყო დაწყებული» est mal formé dans ce contexte ; les deux autres utilisent l’imparfait «იწყებდა» (« commençait »), qui n’indique pas que la réunion avait déjà commencé.",
       "cefr": "C1",
       "version": 22
     },
@@ -1042,13 +1042,13 @@
       "category": "temps",
       "prompt": "En expliquant une planification passée interrompue : «J'allais partir quand tu as appelé.» Quelle phrase exprime correctement en géorgien l'interruption d'une action en cours par un événement ponctuel ?",
       "options": [
-        "მე მივდიოდი როცა ты დაიკავე.",
+        "მე მივდიოდი, როცა შენ მოხვედი.",
         "მე გეზი მქონდა წასასვლელად როცა შენ დამირეკე.",
         "მე მივდიოდი, როცა შენ დამირეკე.",
         "მე წავიდოდი, როდესაც შენ დამირეკე."
       ],
       "answer": "მე მივდიოდი, როცა შენ დამირეკე.",
-      "explanation": "Règle : pour marquer une action en cours interrompue par un événement passé ponctuel, on emploie imparfait/continu «მივდიოდი» + aoriste pour l'événement «შენ დამირეკე». Donc «მე მივდიოდი, როცა შენ დამირეკე.» est correct. Distractors : première option contient du russe «ты დაიკავე» mélangé, inacceptable ; deuxième option «გეზი მქონდა წასასვლელად» est maladroit et moins naturel ; quatrième option «მე წავიდოდი» exprime une hypothèse/conditionnel et non l'action en cours interrompue.",
+      "explanation": "Règle : pour marquer une action en cours interrompue par un événement passé ponctuel, on emploie imparfait/continu «მივდიოდი» + aoriste pour l'événement «შენ დამირეკე». Donc «მე მივდიოდი, როცა შენ დამირეკე.» est correct. Distractors : la première option contient une expression en russe inappropriée, inacceptable ; la deuxième option «გეზი მქონდა წასასვლელად» est maladroite et moins naturelle ; la quatrième option «მე წავიდოდი» exprime une hypothèse/conditionnel et non l'action en cours interrompue.",
       "cefr": "C1",
       "version": 30
     },
@@ -1060,19 +1060,19 @@
       "prompt": "Choisissez la formulation géorgienne correcte pour : « Hier, quand il est arrivé, nous étions déjà partis. »",
       "options": [
         "გუშინ, როცა ის მოვიდა, ჩვენ უკვე წასულები ვიყავით.",
-        "გუშინ, כשה ის მოვიდა, ჩვენ უკვე წავალთ.",
+        "გუშინ, როცა ის მოვიდა, ჩვენ უკვე წავიდოდით.",
         "გუშინ, როცა ის მოვიდა, ჩვენ უკვე წავედით.",
-        "გუშინ, როცა ის მოვიდა, ჩვენ უკვე წავალთდით."
+        "გუშინ, როცა ის მოვიდა, ჩვენ უკვე წავლთდით."
       ],
       "answer": "გუშინ, როცა ის მოვიდა, ჩვენ უკვე წასულები ვიყავით.",
-      "explanation": "Règle : pour traduire le past perfect (« nous étions déjà partis ») en géorgien on utilise la forme შედგენილი წარსულის (participial adjective + copula au passé) : წასულები ვიყავით. Explication des distracteurs : 1) « ჩვენ უკვე წავალთ » est au futur – inapproprié pour une antériorité passée. 2) « ჩვენ უკვე წავედით » est une forme aoriste/past simple qui peut signifier « nous sommes partis » mais ne rend pas clairement l’antériorité par rapport à l’arrivée ; en contexte narratif, on attend le past perfect. 3) « ჩვენ უკვე წავლთდით » est incorrecte morphologiquement (conjugaison erronée et mélange de marques)."
+      "explanation": "Règle : pour traduire le plus-que-parfait (« nous étions déjà partis ») en géorgien on utilise la forme შედგენილი წარსულის (participial adjective + copula au passé) : წასულები ვიყავით. Explication des distracteurs : 1) « ჩვენ უკვე წავალთ » est au futur – inapproprié pour une antériorité passée. 2) « ჩვენ უკვე წავედით » est une forme aoriste/passé simple qui peut signifier « nous sommes partis » mais ne rend pas clairement l’antériorité par rapport à l’arrivée ; en contexte narratif, on attend le plus-que-parfait. 3) « ჩვენ უკვე წავლთდით » est incorrecte morphologiquement (conjugaison erronée et mélange de marques)."
     },
     {
       "id": "grammar_exercises-c1-temps-gen-032",
       "category": "temps",
       "cefr": "C1",
       "version": 32,
-      "prompt": "Contexte : Vous rapportez les paroles d’un collègue qui a dit hier « Если бы у меня было больше времени, я бы написал отчёт ». Quelle est la meilleure traduction en géorgien du discours indirect au passé ?",
+      "prompt": "Contexte : Vous rapportez les paroles d’un collègue qui a dit hier «Si j'avais eu plus de temps, j'aurais écrit le rapport.» Quelle est la meilleure traduction en géorgien du discours indirect au passé ?",
       "options": [
         "მან თქვა, რომ თუ მას მეტი დრო ექნებოდა, ის ანგარიშს დაწერდა.",
         "მან თქვა, რომ თუ მას მეტი დრო ექნება, ის ანგარიშს დაწერს.",
@@ -1087,7 +1087,7 @@
       "category": "temps",
       "cefr": "C1",
       "version": 33,
-      "prompt": "Vous voulez exprimer une habitude passée qui n’existe plus : « Quand j lived in Tbilisi, I used to meet her every Sunday. » Quelle phrase géorgienne est la plus naturelle ?",
+      "prompt": "Vous voulez exprimer une habitude passée qui n’existe plus : « Quand je vivais à Tbilissi, je la rencontrais tous les dimanches. » Quelle phrase géorgienne est la plus naturelle ?",
       "options": [
         "როდესაც თბილისში ვცხოვრობდი, ყოველ კვირას მას ვესალმებოდი.",
         "როდესაც თბილისში ვიცხოვრე, ყოველკვირას მას დავპატიჟებდი.",
@@ -1185,7 +1185,7 @@
         "უკვე ვიცოდით, რომ პროექტი წარმატებულად არის."
       ],
       "answer": "უკვე ვიცოდით, რომ პროექტი წარმატებას მიაღწევდა.",
-      "explanation": "Règle : pour exprimer une expectation/certitude passée concernant un résultat futur relatif au passé, on utilise ნეტვირთული კონდიციონალი/მიწერა « მიაღწევდა » (would achieve). « ვიცოდით » + « მიაღწევდა » exprime que l’on savait alors qu’il réussirait. Explication des distracteurs : 1) « იქნება » est futur simple mais sans accord de perspective temporelle avec „ ვიცოდით “ ; 3) « დასრულდებოდა » insiste sur la fin matérielle et est grammatical mais moins idiomatique pour « réussir » ; 4) « არის » au présent est inadapté."
+      "explanation": "« უკვე ვიცოდით, რომ პროექტი წარმატებას მიაღწევდა » exprime une connaissance située dans le passé et un résultat alors attendu. « იქნება » est au futur simple, « დასრულდებოდა » insiste sur l’achèvement du projet et « არის » est au présent."
     },
     {
       "id": "grammar_exercises-c1-temps-gen-040",
@@ -1378,7 +1378,7 @@
         "დამივალ"
       ],
       "answer": "შემოგივალ",
-      "explanation": "Règle : წინდების შემო- indique direction vers l'intérieur, vers l'interlocuteur (venir chez toi). « შემოგივალ » = je viendrai chez toi/je passerai te voir. « მოგივალ » suggère venir vers toi mais sans l'idée d'entrée; toutefois ეს ფორმა არ არის სწორი საწყისი კონტექსტისთვის (ჩემგან մոտილი სიტყვასხმულ თვალსაზრისით), «გავივალ» = je passerai par (traverser), «დამივალ» signifie 'je t'aurი' n'adapte pas; donc distracteurs incorrects.",
+      "explanation": "Le préverbe « შემო- » exprime ici un mouvement vers l’intérieur ou vers l’interlocuteur. « შემოგივალ » signifie « je passerai te voir ». Les autres formes n’expriment pas aussi clairement cette visite chez la personne à qui l’on s’adresse.",
       "cefr": "C1",
       "version": 32
     },
@@ -1423,7 +1423,7 @@
         "დავადგები"
       ],
       "answer": "შემოვალ",
-      "explanation": "Règle : შემო- показывает вход или приближение внутрь, donc \"შემოვალ\" = je viendrai chez vous/examinerai. «მივალ» = je vais (aller), mais без идеї входа/შესვლას; moins précis. «გავკარებ» signifie 'je toucherai' (non approprié). «დავადგები» littéralement 'je m'arrêterai/je me tiendrai', pas 'venir examiner' ; ainsi distracteurs inadaptés.",
+      "explanation": "Règle : შემო- indique une entrée ou un rapprochement vers l'intérieur, donc \"შემოვალ\" = je viendrai chez vous/entrerai. «მივალ» = je vais (aller), mais sans l'idée d'entrée/შესვლა; moins précis. «გავკარებ» signifie 'je toucherai' (non approprié). «დავადგები» littéralement 'je m'arrêterai/je me tiendrai', pas 'venir examiner' ; ainsi distracteurs inadaptés.",
       "cefr": "C1",
       "version": 35
     },
@@ -1438,7 +1438,7 @@
         "გადაწერო"
       ],
       "answer": "გამოუშვა",
-      "explanation": "Règle : გა- préverbe სიგნიფიცირებს 'to release/publish' : \"გამოუშვა\" = le laisser sortir/publier (impératif ou injonctif selon contexte). «გამოყვანო» = faire sortir (plus transitif mais stylistiquement possible), mais форма არ ადეკვატურად აქ; toutefois \"გამოუშვა\" est la formulation usuelle pour 'mettre en ligne/publier'. «ადამიანს დაუდგა» = 's'est positionné une personne', hors sujet. «გადაწერო» = 'réécrire/copier', pas 'publier'.",
+      "explanation": "Règle : გა- préverbe სიგნიფიცირებს signification 'libérer/publier' : \"გამოუშვა\" = le laisser sortir/publier (impératif ou injonctif selon contexte). «გამოყვანო» = faire sortir (plus transitif mais stylistiquement possible), mais la forme n'est pas adéquate ici ; toutefois \"გამოუშვა\" est la formulation usuelle pour 'mettre en ligne/publier'. «ადამიანს დაუდგა» = 'une personne s'est positionnée', hors sujet. «გადაწერო» = 'réécrire/copier', pas 'publier'.",
       "cefr": "C1",
       "version": 36
     },
@@ -1460,7 +1460,7 @@
     {
       "id": "grammar_exercises-c1-preverbes-gen-038",
       "category": "preverbes",
-      "prompt": "რესტორანში მიმტანი ეკითხება: \"მოგიჭიროთ ლიმონიც?\" შენ ამბობ, რომ არ გინდა, მაგრამ შემდეგ გადაწყვიტე: \"კარგი, ახლა ...\" (გაიმეორე ფორმა, რომელიც ნიშნავს 'добавь/дополнительно положи').",
+      "prompt": "რესტორანში მიმტანი ეკითხება: \"მოგიჭიროთ ლიმონიც?\" შენ ამბობ, რომ არ გინდა, მაგრამ შემდეგ გადაწყვიტე: \"კარგი, ახლა ...\" (გაიმეორე ფორმა, რომელიც ნიშნავს დაამატე).",
       "options": [
         "დამატე",
         "გადამატე",
@@ -1475,7 +1475,7 @@
     {
       "id": "grammar_exercises-c1-preverbes-gen-039",
       "category": "preverbes",
-      "prompt": "წინასწარ გაცნობის დროს შენ აღწერ სამსახურის დეტალს: \"კრიტიკული გადაწყვეტილება აუცილებლად უნდა უპასუხეს ხარისხიანად — გარეშე შეცდომისა\". შენ ბრძნულად თქვა: \"ამ საკითხს ჯერ ...\" და დაამატე proper preverb ფორმა, რომელიც ნიშნავს 'we will examine it thoroughly/in depth'.",
+      "prompt": "Complétez la phrase avec le préverbe qui convient pour exprimer « Nous allons examiner la question en profondeur ».",
       "options": [
         "განვიხილავთ",
         "გადავიხილავთ",
@@ -1530,7 +1530,7 @@
         "გაბრუნდნენ"
       ],
       "answer": "დაბრუნდნენ",
-      "explanation": "Règle : წინსართი დაბა-/დაბუნებითი ფორმა დასკვნად წარმოაჩენს საბაზისო სუბიექტს, და here «დაბრუნდნენ» = ils sont revenus/they returned (3e plur. passé). Les distracteurs : «დააბრუნეს» (causatif : ils ont fait revenir quelqu'un), «ბრუნდნენ» (imparfait/progressif «they were returning», pas un acte accompli), «გაბრუნდნენ» (préverbe გა- change le sens vers 'faire retourner' ou 'renverser' selon verbe, ici inapproprié)."
+      "explanation": "« დაბრუნდნენ » signifie « ils sont revenus » et décrit le retour des enfants. « დააბრუნეს » signifie qu’ils ont fait revenir quelqu’un ; « ბრუნდნენ » décrit une action en cours ou répétée, tandis que « გაბრუნდნენ » change le sens."
     },
     {
       "id": "grammar_exercises-c1-preverbes-gen-023",
@@ -1635,7 +1635,7 @@
         "გადავიტანე საკითხი"
       ],
       "answer": "გადავიტანე საკითხი",
-      "explanation": "Règle : წინსართი გადა- souvent indique transfert/déplacement dans l'espace ou au sens figuré. «გადავიტანე საკითხი» = j'ai reporté/déplacé la question (1ère pers. passée). Distractors : «გადაგვიწყდა კითხვა» (construction erronée : გადაგვიწყდა n'est pas standard ; გაბმულად 'we forgot' = დაგვავიწყდა), «გადასახა ტექსტი» (გადაასახა n'est pas forme correcte ; გადასახვა rare), «გადავკითხე ტექსტი» (გადავკითხე = j'ai relu/lu entièrement, pas 'déplacer/transferer' la question)."
+      "explanation": "Le préverbe « გადა- » peut exprimer un déplacement au sens figuré. « გადავიტანე საკითხი » signifie que j’ai déplacé ou reporté le sujet. « გადავიკითხე ტექსტი » signifie que j’ai relu le texte ; les autres formes ne conviennent pas ici."
     },
     {
       "id": "grammar_exercises-c1-preverbes-gen-030",
@@ -1650,7 +1650,7 @@
         "დატოვონ"
       ],
       "answer": "შეჩერდეს",
-      "explanation": "Règle : შეწყვეტის იდეას ხშირად გამოხატავს შეკის (შე-) წინსართი კომპლექსური ფორმებით; «შეჩერდეს» = qu'il/elle soit arrêté/ interrompu (subjonctif/optatif). Distractors : «დაჯანყდეს» (to revolt/rebel — sens complètement différent), «გადაუწყვიტეს» (passé/plupartiel 'they decided otherwise', formation awkward et sens différent), «დატოვონ» (laisser, abandonner ; possible mais ne rend pas exactement l'idée d'interruption officielle du projet)."
+      "explanation": "« შეჩერდეს » signifie que le projet doit s’arrêter. « დაჯანყდეს » signifie se révolter ; « გადაუწყვიტეს » ne convient pas à cette construction et « დატოვონ » signifie laisser ou abandonner."
     },
     {
       "id": "grammar_exercises-c1-cas-gen-021",
@@ -2060,7 +2060,7 @@
     {
       "id": "grammar_exercises-c1-cas-gen-038",
       "category": "cas",
-      "prompt": "სტატიაში: „ფერმერებმა მოსავალი შეაგროვეს და გაგზავნეს მოსახსნელი პუნქტში.“ როგორი ფორმა გამოდის სიტყვისთვის „პუნქტი“, თუ მიზნის ისმის 'to the collection point'?",
+      "prompt": "სტატიაში: „ფერმერებმა მოსავალი შეაგროვეს და გაგზავნეს მოსახსნელი პუნქტში.“ როგორი ფორმა გამოდის სიტყვისთვის „პუნქტი“, თუ მიზნის ისმის „საგროვებელ პუნქტში“?",
       "options": [
         "პუნქტში",
         "პუნქტს",
@@ -2075,7 +2075,7 @@
     {
       "id": "grammar_exercises-c1-cas-gen-039",
       "category": "cas",
-      "prompt": "ბერძნულიაში გამგზავრება: „მე ვბარებ ბილეთს მეგობრის ___ გამგზავრებაზე.“ რომელი ფორმაა სწორი, თუ განვიხილავთ 'with my friend' ან 'in the company of my friend' (instrumental/with)?",
+      "prompt": "ბერძნულიაში გამგზავრება: „მე ვბარებ ბილეთს მეგობრის ___ გამგზავრებაზე.“ რომელი ფორმაა სწორი, თუ განვიხილავთ „ჩემს მეგობართან ერთად“ (ინსტრუმენტალი)?",
       "options": [
         "მეგობართან",
         "მეგობრისთან",
@@ -2158,7 +2158,7 @@
         "მომართვების"
       ],
       "answer": "მომართვიანობა",
-      "explanation": "Règle : контекстში 'მკვეთრი ცვლილება' ზოგადად მიმართვის მანერაში — აბსტრაქტული ჯამური ცნება; აბსტრაქტული სახელები ქმნიან ფორმას -ობა: 'მომართვიანობა'. 'მომართვები' და 'მომართვების' იქნებოდნენ კონკრეტული 'მიმართვები' (განურჩეველი ერთეულები), 'მომართვიანობაში' ნიშნავს 'შიდა საქართველოში'-ს (ლოკატივური), ამიტომ არ შეესაბამება მნიშვნელობას.",
+      "explanation": "Règle : dans le contexte de 'changement net' qui relève de la manière d'adresse — notion abstraite; les noms abstraits forment la dérivation en -ობა : 'მომართვიანობა'. 'მომართვები' და 'მომართვების' seraient des formes pour des occurrences concrètes 'მიმართვები', 'მომართვიანობაში' donnerait un sens localisé et ne correspond pas au sens abstrait attendu.",
       "cefr": "C1",
       "version": 14
     },
@@ -2188,7 +2188,7 @@
         "გაზიარებებში"
       ],
       "answer": "გაზიარებებს",
-      "explanation": "Règle : 'აგზავნიან მოთხრობებს ...' требует ბლურის ობიექტის (დამატებითი ობიექტი) — 'მოთხრობები' სხვა ობიექტი: 'მათი გამოცდილების გაზიარებებს' (accusatif pluriel 'გაზიარებებს'). 'გაზიარება' (infinitif/nom abstrait singulier) და 'გაზიარების' (génitif singulier) არ подходят; 'გაზიარებებში' (locatif pluriel) signifie 'dans les partages' et не совместимо с 'აგზავნიან მოთხრობებს'.",
+      "explanation": "Règle : 'აგზავნიან მოთხრობებს ...' exige un complément d'objet supplémentaire — 'მოთხრობები' requièrent un autre objet : 'მათი გამოცდილების გაზიარებებს' (accusatif pluriel 'გაზიარებებს'). 'გაზიარება' (infinitif/nom abstrait singulier) et 'გაზიარების' (génitif singulier) ne conviennent pas; 'გაზიარებებში' (locatif pluriel) signifie 'dans les partages' et n'est pas compatible avec 'აგზავნიან მოთხრობებს'.",
       "cefr": "C1",
       "version": 16
     },
@@ -2623,7 +2623,7 @@
         "იყოება"
       ],
       "answer": "იყო",
-      "explanation": "Règle: après «როგორც будто/as if» (ისეთი, თითქოს) en géorgien, on utilise généralement l'aoriste/indéfini «იყო» pour une hypothèse irréelle au passé. «იმყოფება» est stylistiquement soutenu et rarement utilisé dans cette subordonnée; «იყოს» est injonctif/subjonctif inadapté; «იყოება» n'existe pas. Ainsi «ისეთი, თითქოს არავინ იყო იქ» (ici réduit à «ისეთი, თითქოს არავინ იყო») — «იყო» est correct.",
+      "explanation": "Règle : après « ისეთი, თითქოს » (« comme si »), le géorgien emploie ici la forme « იყო » pour exprimer une hypothèse irréelle passée. « იმყოფება » est soutenu et peu naturel dans cette subordonnée ; « იყოს » ne convient pas à ce contexte, et « იყოება » n’existe pas.",
       "cefr": "C1",
       "version": 15
     },
@@ -2668,7 +2668,7 @@
         "ეს ინფორმაცია უნდა გაუგზავნოთ ფრანგულად, რათა მათი მომხმარებლებს შეუძლიათ გაიგონ."
       ],
       "answer": "ეს ინფორმაცია უნდა გაუგზავნოთ ფრანგულად, რათა მათი მომხმარებლები შეძლონ გაგება.",
-      "explanation": "Règle: pour exprimer finalité («so that their customers can understand»), on emploie «რათა» + subordonnée optative/possibilité («შეძლონ») + infinitif nominal («გაგება»). L'option correcte emploie l'impératif réfléchi/nécessité «უნდა გაუგზავნოთ» avec «რათა ... შეძლონ გაგება». Les autres fautes: première option a accord sujet-verbe incorrect et ordre; troisième change la voix (passive) et laisse la subordonnée mal formulée; quatrième mélange cas et temps incorrects («მომხმარებლებს შეუძლიათ გაიგონ» est grammaticalement maladroit dans ce contexte et double cas).",
+      "explanation": "Pour exprimer le but, « რათა » introduit ici la proposition « მომხმარებლებმა შეძლონ გაგება » (« afin que les clients puissent comprendre »). Les autres options comportent un accord ou une construction moins correcte.",
       "cefr": "C1",
       "version": 18
     },

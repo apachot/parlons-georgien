@@ -284,7 +284,7 @@
       "turns": [
         {
           "speaker": "მოთხოვნა კეთილი კოლეგისგან",
-          "ka": "ჩვენმა HR–მა სთხოვა ზუსტი და გულწრფელი მიმოხილვა. თქვენი დამოუკიდებელი შეფასება აუცილებელია მათ დასკვნებისა და თანამდებობის აღრიცხვისათვის.",
+          "ka": "პერსონალის განყოფილებამ ზუსტი და გულწრფელი შეფასება გვთხოვა. თქვენი დამოუკიდებელი მოსაზრება მათ დასაქმების გადაწყვეტილებისთვის მნიშვნელოვანია.",
           "fr": "Les RH demandent une évaluation précise et sincère. Votre appréciation indépendante est nécessaire pour leur décision de recrutement."
         },
         {
@@ -303,7 +303,7 @@
               "ok": false
             },
             {
-              "ka": "კანდიდატი იყო საშუალო დონეზე; კარგი იქნება, თუ HR-ი ინდივიდუალურად მიხედავს მის განვითარებას და, თუ წარმატების ნიშნებია, შემდეგ მიირთვას უკეთ.",
+              "ka": "კანდიდატის დონე საშუალო იყო. კარგი იქნება, თუ პერსონალის განყოფილება მის განვითარებაზე იზრუნებს და წარმატების შემთხვევაში უფრო საპასუხისმგებლო საქმეს მიანდობს.",
               "fr": "Le candidat était moyen ; il serait bon que les RH gèrent individuellement son développement et envisagent une promotion si des signes d’amélioration apparaissent.",
               "ok": false
             }
@@ -311,7 +311,7 @@
         },
         {
           "speaker": "HR",
-          "ka": "ეს განზოგადება კმაყოფილებად მიმაჩნია; წერილი ხანგრძლივად დაბალანსებულია და სასარგებლო იქნება our selection process.",
+          "ka": "ეს შეფასება ზედმეტად ზოგადია. წერილი დაბალანსებული და სასარგებლო იქნება ჩვენი შერჩევის პროცესისთვის.",
           "fr": "Ce résumé me convient ; la lettre est équilibrée et utile pour notre processus de sélection."
         }
       ],
@@ -376,7 +376,7 @@
         },
         {
           "speaker": "Apprenant",
-          "ka": "(დაწერეთ ერთი_precise משפטი, რომელიც მკაფიოდ განსაზღვრავს პასუხისმგებლობის სტანდარტს და შეთავაზებას დაზღვევის შესახებ)",
+          "ka": "(დაწერეთ ერთი ზუსტი წინადადება, რომელიც მკაფიოდ განსაზღვრავს პასუხისმგებლობის სტანდარტს და დაზღვევის შეთავაზებას)",
           "fr": "(formuler une phrase précise qui définit clairement la norme de responsabilité et la proposition d’assurance)",
           "choices": [
             {
@@ -535,7 +535,7 @@
               "ok": false
             },
             {
-              "ka": "სწორედ ამიტომ შემოთავაზებული მაქვს უფრო ჩვეულებრივი და დაზუსტებული რედაქცია: 'პასუხისმგებლობის გადანაწილება მოიხდება მხოლოდ ობიექტურად დადგენილ форს-მაჟორულ ვითარებებში', რომელსაც ავღწერენ რამდენიმე სამომხილე კრიტერიუმით.",
+              "ka": "სწორედ ამიტომ შემოთავაზებული მაქვს უფრო ჩვეულებრივი და დაზუსტებული რედაქცია: 'პასუხისმგებლობის გადანაწილება მოიხდება მხოლოდ ობიექტურად დადგენილ ფორს-მაჟორულ ვითარებებში', რომელსაც ავღწერენ რამდენიმე სამომხილე კრიტერიუმით.",
               "fr": "Je propose une rédaction plus précise : « la répartition des responsabilités n'interviendra qu'en cas de force majeure objectivement déterminée », décrite par plusieurs critères d'expertise.",
               "ok": true
             },
@@ -608,7 +608,7 @@
       "id": "dialogues-c2-gen-014",
       "version": 14,
       "cefr": "C2",
-      "title": "მշვთა ეკონომიკური მოდელი",
+      "title": "მდგრადი ეკონომიკური მოდელი",
       "scene": "ეკონომისტები საჯარო დისკუსიაზე არგუმენტავენ სუბსიდიების ეფექტურობაზე და ბიუჯეტის პრიორიტეტზე.",
       "turns": [
         {
@@ -771,7 +771,7 @@
         },
         {
           "speaker": "ფინანსისტი",
-          "ka": "როდესაც შემოწირულობის წყარო концентრირებულია, ბიუჯეტის შოკი ან პოლიტიკურმა ცვლილებამ შეიძლება მთელ პროგრამას დააზარალოს; მრავალფეროვნების პოლიტიკა უნდა იყოს მკაფიო ბიზნეს–მაგვარი მოდელით.",
+          "ka": "როდესაც შემოწირულობის წყარო კონცენტრირებულია, ბიუჯეტის შოკი ან პოლიტიკურმა ცვლილებამ შეიძლება მთელ პროგრამას დააზარალოს; მრავალფეროვნების პოლიტიკა უნდა იყოს მკაფიო ბიზნეს–მაგვარი მოდელით.",
           "fr": "La concentration des dons expose aux chocs budgétaires ou changements politiques ; la diversification doit suivre un modèle quasi-entrepreneurial."
         },
         {
@@ -934,7 +934,7 @@
         },
         {
           "speaker": "ადგილობრივი ფერმერი (მოთხოვნის დასაზუსტებლად)",
-          "ka": "თქვენ რას გულისხმობთ 'ეკოსისტემური კომპენსაციით'? შეიძლება თუ არა, დაზუსტდეს პროგრამის ფორმატი: ად hoc თანხა, ხანგრძლივი გარანტიები თუ ტექნიკური მხარდაჭერა?",
+          "ka": "რას გულისხმობთ «ეკოსისტემურ კომპენსაციაში»? შეგიძლიათ დააზუსტოთ პროგრამის ფორმა: ერთჯერადი გადახდა, გრძელვადიანი გარანტიები თუ ტექნიკური მხარდაჭერა?",
           "fr": "Que voulez-vous dire par « compensation écosystémique » ? Pouvez-vous préciser le format : paiement ad hoc, garanties à long terme ou appui technique ?",
           "choices": [
             {
@@ -1016,7 +1016,7 @@
       "turns": [
         {
           "speaker": "Diplomate A",
-          "ka": "ჩვენი ეროვნულ ინტერესებს ეყრდნობა მდინარის მდგრადი მართვა, მაგრამ ვერ ვაჩვენებთ unilateral ნაბიჯებს, რომლებიც სხვა მხარის ეკონომიკას დააზიანებს.",
+          "ka": "ჩვენი ეროვნული ინტერესები მდინარის მდგრად მართვას მოითხოვს, თუმცა ცალმხრივ ნაბიჯებს ვერ გადავდგამთ, რადგან ამან მეორე მხარის ეკონომიკა შეიძლება დააზიანოს.",
           "fr": "Nos intérêts nationaux exigent une gestion durable du fleuve, mais nous ne pouvons pas prendre d'actions unilatérales qui nuiraient à l'économie de l'autre partie."
         },
         {
@@ -1062,7 +1062,7 @@
       "turns": [
         {
           "speaker": "Critique",
-          "ka": "ეს რומן-სპექტაკლი მეტად თამაშობს ცნობიერების სტრუქტურებითა და მეტა-კომენტარებით, რაც მკითხველს ცნობიერებას უქმნის როგორც მოთხრობით მოწყობილობას.",
+          "ka": "ეს რომანი-სპექტაკლი მეტად თამაშობს ცნობიერების სტრუქტურებითა და მეტა-კომენტარებით, რაც მკითხველს ცნობიერებას უქმნის როგორც მოთხრობის მოწყობილობას.",
           "fr": "Ce roman-spectacle joue beaucoup sur les structures de la conscience et les méta-commentaires, créant chez le lecteur une conscience comme dispositif narratif."
         },
         {
@@ -1260,7 +1260,7 @@
           "fr": "Quelle importance accordez-vous à ignorer l'expression de l'auteur au profit de l'interprétation libre du spectateur ?",
           "choices": [
             {
-              "ka": "ავტორის მიზანმა საბოლოოდ არ უნდა განსაზღვროს, თუ რას ხედავს დამკვირვებელი; ხელოვნება მუდმივად განიცდის reinterpretაციას საზოგადოებრივი კონტექსტიდან.",
+              "ka": "ავტორის განზრახვამ საბოლოოდ არ უნდა განსაზღვროს, რას ხედავს მკითხველი; ხელოვნების ნაწარმოები საზოგადოებრივ კონტექსტში მუდმივად ახლებურად განიმარტება.",
               "fr": "L'intention de l'auteur ne doit pas déterminer ce que voit le spectateur ; l'art est constamment réinterprété selon le contexte social.",
               "ok": true
             },
@@ -1424,7 +1424,7 @@
     {
       "id": "dialogues-c2-gen-021",
       "title": "შეხვედრა აკადემიურ კონფერენციაზე",
-      "scene": "ორ გამოცდილი კვლევողի საუბრობს პოსტპრესენტაციისკენ მიმავალ დისკუსიაზე.",
+      "scene": "ორი გამოცდილი მკვლევარი საუბრობს კვლევის პრეზენტაციის შემდეგ გამართულ დისკუსიაზე.",
       "cefr": "C2",
       "version": 21,
       "turns": [
@@ -1665,7 +1665,7 @@
         },
         {
           "speaker": "B",
-          "ka": "მკვეთრად უნდა გავზარდოთ permeabiliteti: მწვანე ჭერი, პერფუზიულ ბაღები და ნალექების შეკავება მკვეთრ პიკის აქცენტით — თანაც, საზოგადოებრივი განათლებაც აუცილებელია.",
+          "ka": "წყლის გამტარობა მკვეთრად უნდა გავზარდოთ: მოვაწყოთ მწვანე სახურავები, წყალგამტარი ბაღები და წვიმის წყლის შემაკავებელი სისტემები; ამასთან, საჭიროა საზოგადოების ინფორმირებაც.",
           "fr": "Il faut augmenter la perméabilité de manière marquée : toits verts, jardins de percolation et retenue des pluies aux pics—et l'éducation publique est aussi nécessaire."
         },
         {
@@ -1752,7 +1752,7 @@
         },
         {
           "speaker": "B",
-          "ka": "ღირებულებების წარმოშობა შეიძლება იყოს both ბიოლოგიური და კულტურული; მაგრამ ავტონომია თავს იჩენს მხოლოდ მაშინ, როცა ინდივიდი იდილებს კრიტიკულ უფლებას და კანონზომიერად მანიპულაციებს ყოფს.",
+          "ka": "ღირებულებების წარმოშობა შეიძლება ბიოლოგიურიც იყოს და კულტურულიც; ავტონომია კი თავს იჩენს მაშინ, როცა ადამიანი კრიტიკულად აფასებს საკუთარ უფლებებსა და მანიპულაციის მცდელობებს.",
           "fr": "L'origine des valeurs peut être à la fois biologique et culturelle ; mais l'autonomie s'affirme seulement quand l'individu exerce un droit critique et se prémunit contre les manipulations."
         },
         {

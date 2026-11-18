@@ -584,7 +584,7 @@
         "დიდ საათს"
       ],
       "translation": "Je lis toujours le livre rouge la nuit.",
-      "explanation": "'წითел წიგნს' = 'le livre rouge' est l'objet direct de 'ვკითხულობ' (je lis). Les autres options ne sont pas des objets logiques pour 'lire'."
+      "explanation": "'წითელ წიგნს' = 'le livre rouge' est l'objet direct de 'ვკითხულობ' (je lis). Les autres options ne sont pas des objets logiques pour 'lire'."
     },
     {
       "id": "reading_cloze-a2-gen-040",

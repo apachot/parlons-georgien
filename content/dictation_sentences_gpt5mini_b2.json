@@ -6,7 +6,7 @@
       "version": 1,
       "cefr": "B2",
       "fr": "Traduis en géorgien : « Il a évoqué plusieurs pistes, mais n’a proposé aucune solution concrète. »",
-      "ka": "მან რამდენიმე მიმართულება ახსენა, მაგრამConcrete? Wait kept earlier: \"მან რამდენიმე მიმართულება ახსენა, მაგრამ konkreti?\"",
+      "ka": "მან რამდენიმე მიმართულება ახსენა, მაგრამ კონკრეტული გამოსავალი არ შემოუთავაზებია.",
       "answers": [
         "მან რამდენიმე მიმართულება ახსენა, მაგრამ კონკრეტული გამოსავალი არ შემოუთავაზებია."
       ],
@@ -44,7 +44,7 @@
         "ექსპერიმენტისათვის ნებართვის მიცემის წინ ჩვენ უნდა გავითვალისწინოთ ეთიკური შედეგები.",
         "ნებართვის მიცემის წინ ჩვენ უნდა გავითვალისწინოთ ექსპერიმენტთან დაკავშირებული ეთიკური ასპექტები."
       ],
-      "note": "Deux formulations acceptables : littérale et plus analytique (« аспектები » pour « implications »)."
+      "note": "Deux formulations acceptables : littérale et plus analytique (« aspects » pour « implications »)."
     },
     {
       "id": "dictation_sentences-b2-gen-005",
@@ -84,9 +84,9 @@
       "version": 8,
       "cefr": "B2",
       "fr": "Exprime une hypothèse en géorgien : « Si l’entreprise investissait dans la formation, la productivité s’améliorerait notablement. »",
-      "ka": "თუ კომპანია ტრენინგებში ინვესტირებას გააკეთებდა, პროდუქტიულობა משמעותოვნად გაიზრდებოდა.",
+      "ka": "თუ კომპანია ტრენინებში ინვესტირებას გააკეთებდა, პროდუქტიულობა მნიშვნელოვნად გაიზრდებოდა.",
       "answers": [
-        "თუ კომპანია ტრენინგებში ინვესტირებას გააკეთებდა, პროდუქტიულობა משמעותოვნად გაიზრდებოდა.",
+        "თუ კომპანია ტრენინებში ინვესტირებას გააკეთებდა, პროდუქტიულობა მნიშვნელოვნად გაიზრდებოდა.",
         "თუ კომპანია მომზადებაში/in განათლებაში ინვესტირებას გააკეთებდა, პროდუქტიულობა მნიშვნელოვნად გაიზრდებოდა."
       ],
       "note": "Conditionnel hypothétique en géorgien; variantes possibles pour « formation » (ტრენინგები, მომზადება, განათლება)."
@@ -370,9 +370,9 @@
     {
       "id": "dictation_sentences-b2-gen-033",
       "fr": "Bien que fatiguée, elle a continué à travailler tard dans la nuit.",
-      "ka": "მიუხედავად того, რომ დაღლილი იყო, იგი მაინც განაგრძო მუშაობა გვიან ღამით.",
+      "ka": "მიუხედავად იმისა, რომ დაღლილი იყო, იგი მაინც განაგრძო მუშაობა გვიან ღამით.",
       "answers": [
-        "მიუხედავად того, რომ დაღლილი იყო, იგი მაინც განაგრძო მუშაობა გვიან ღამით.",
+        "მიუხედავად იმისა, რომ დაღლილი იყო, იგი მაინც განაგრძო მუშაობა გვიან ღამით.",
         "მიუხედავად იმისა, რომ დაღლილი იყო, მან მაინც განაგრძო მუშაობა გვიან ღამით."
       ],
       "cefr": "B2",
@@ -399,7 +399,7 @@
       ],
       "cefr": "B2",
       "version": 35,
-      "note": "forme passive/impersonnelle informant d'une décision collective ; 'სცდომილების მიზნით' remplace 'pour' → ici 'მიზნ' = 'в целях'."
+      "note": "forme passive/impersonnelle informant d'une décision collective ; 'სცდომილების მიზნით' remplace 'pour' → ici 'მიზანი' = 'aux fins de'."
     },
     {
       "id": "dictation_sentences-b2-gen-036",

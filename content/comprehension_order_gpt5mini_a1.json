@@ -183,7 +183,7 @@
       "text": "დღეს მე სამსახურში ახალი ჰეიხი შევხვდი. შემოდგომით ის ახალია. მე მოვიდნენ და ხელი ჩამომართვა. შემდეგ ჩვენ ერთად ყავაზე ვისაუბრეთ.",
       "events": [
         "Aujourd'hui, la personne a rencontré une nouvelle collègue au travail.",
-        "La nouvelle collèгә est récemment arrivée (à l'automne).",
+        "La nouvelle collègue est récemment arrivée (à l'automne).",
         "La collègue est venue et lui a serré la main.",
         "Ensuite, ils ont parlé autour d'un café."
       ],
@@ -322,7 +322,7 @@
         "გიორგი მეგობრებს დაურეკა და კომპიუტერი ჩართო.",
         "გიორგი შუადღისას ლანჩს ჭამა."
       ],
-      "explanation": "ზუსტად ასე მოხდა: წასვლა, შენობაში შესვლა და лифтით ასვლა, ოფისში მუშაობა და ბოლოს ლანჩი.",
+      "explanation": "ზუსტად ასე მოხდა: წასვლა, შენობაში შესვლა და ლიფტით ასვლა, ოფისში მუშაობა და ბოლოს ლანჩი.",
       "cefr": "A1",
       "version": 11
     },

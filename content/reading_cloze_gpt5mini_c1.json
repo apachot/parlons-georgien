@@ -89,7 +89,7 @@
         "ჭეშმარიტებას"
       ],
       "translation": "Quand la source d'information a changé plusieurs fois, le lecteur n'a pas pu déterminer à laquelle faire confiance.",
-      "explanation": "Ici le verbe 'ვერ иადგინა' exige complément exprimant 'à laquelle' ; 'ურთიერთობაში' n'est pas correct — (CORRECTION NEEDED)"
+      "explanation": "Ici le verbe 'ვერ დაადგინა' exige un complément exprimant 'à laquelle' ; 'ურთიერთობაში' n'est pas correct."
     },
     {
       "id": "reading_cloze-c1-gen-007",

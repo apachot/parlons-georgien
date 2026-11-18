@@ -157,7 +157,7 @@
     },
     {
       "id": "vocabulary-c2-gen-015",
-      "ka": "გლობალურიადგენს (neolog.)",
+      "ka": "გლობალიზაცია",
       "fr": "mettre en perspective globale (verbe néologique)",
       "translit": "globaluri-shebmartavi",
       "pron": "glo-ba-LU-ri sheb-mar-TA-vi",
@@ -172,7 +172,7 @@
       "fr": "antagoniste (adj.)",
       "translit": "antigonisturi",
       "pron": "an-ti-go-NIS-tu-ri",
-      "example": "ანტიგონისტური პოზიციები often კი არ ქმნის კატეგორიულ ბარიერებს, არამედ პროვოცირებს დისკურსს.",
+      "example": "ანტაგონისტური პოზიციები ყოველთვის არ ქმნის კატეგორიულ ბარიერებს; პირიქით, ისინი დისკუსიას ახალ მიმართულებას აძლევს.",
       "example_fr": "Les positions antagonistes ne créent pas toujours des barrières catégorielles, elles provoquent souvent le discours.",
       "cefr": "C2",
       "version": 16
@@ -216,7 +216,7 @@
       "fr": "intensif (adj.)",
       "translit": "intensivi",
       "pron": "in-ten-SI-vi",
-      "example": "ინტენსივი კურსი ენის სირთულეების დაძლევაში მოითხოვს ყოველდღიურ კონტაქტს მეტ native რესურსებთან.",
+      "example": "ენის რთული საკითხების დასაძლევად საჭიროა ყოველდღიური კონტაქტი ავთენტურ რესურსებთან.",
       "example_fr": "Un cours intensif nécessite un contact quotidien avec davantage de ressources native pour surmonter les difficultés de la langue.",
       "cefr": "C2",
       "version": 20
@@ -304,14 +304,14 @@
       "fr": "rhétorique",
       "translit": "reitorika",
       "pron": "ré-i-to-RI-ka",
-      "example": "აქტივისტების ახალი რеитორიკა მიზნად ისახავს საზოგადოების გაღვივებას არამარტო ემოციით, არამედ არგუმენტებით.",
+      "example": "აქტივისტების ახალი რიტორიკა მიზნად ისახავს საზოგადოების გააქტიურებას არა მხოლოდ ემოციით, არამედ არგუმენტებით.",
       "example_fr": "La nouvelle rhétorique des activistes vise à mobiliser la société non seulement par l'émotion mais aussi par des arguments.",
       "cefr": "C2",
       "version": 28
     },
     {
       "id": "vocabulary-c2-gen-029",
-      "ka": "ანტიკურიემოცია (neolog.)",
+      "ka": "ემოციური შთაბეჭდილება",
       "fr": "émotion antique/archétypale (néologisme)",
       "translit": "antik'uri emocia",
       "pron": "an-ti-KOU-ri é-mo-TSI-a",
@@ -337,7 +337,7 @@
       "fr": "paradigme",
       "translit": "paradigma",
       "pron": "pa-ra-DIG-ma",
-      "example": "ახალი პარადიგმა գիտების ეპისტემოლოგიურ გადახედვას მოითხოვს.",
+      "example": "ახალი პარადიგმა მეცნიერების ეპისტემოლოგიურ გადახედვას მოითხოვს.",
       "example_fr": "Le nouveau paradigme exige une révision épistémologique des sciences.",
       "cefr": "C2",
       "version": 31
@@ -370,7 +370,7 @@
       "fr": "anthropologisation (processus de rendre anthropologique)",
       "translit": "antropologizatsia",
       "pron": "an-tro-po-lo-gi-za-TSI-a",
-      "example": "მან versucht-სა ტექსტმა კულტურულ მოვლენებს ანტროპოლოგიზაცია გზა გაუხსნა ინტერდისციპლინარულ გამოკითხვებს.",
+      "example": "ამ ტექსტმა კულტურული მოვლენების ანთროპოლოგიური გააზრებისა და ინტერდისციპლინური კვლევის გზა გახსნა.",
       "example_fr": "Le texte a ouvert la voie à l'anthropologisation des phénomènes culturels pour des recherches interdisciplinaires.",
       "cefr": "C2",
       "version": 34
