@@ -1,10 +1,15 @@
 {% extends "base.html" %}{% block title %}Leçons interactives — Parlons géorgien{% endblock %}{% block content %}
-<section class="course-catalog page-wrap">
-  <div class="course-catalog-hero" data-section-scene="courses"><div><div class="eyebrow">Leçons interactives · apprendre pas à pas</div><h1>Apprendre le géorgien, étape par étape.</h1><p>Chaque leçon alterne explications, exemples géorgiens à écouter et quiz pour vérifier ce que vous avez retenu.</p></div><div class="course-catalog-mark" aria-hidden="true">✦</div></div>
-  <div class="course-catalog-heading"><div><span class="eyebrow">Votre bibliothèque</span><h2>Commencer par les bases</h2></div><span>Une leçon à la fois · progression mémorisée sur cet appareil</span></div>
-  <div class="course-card-grid">{% for lesson in lessons %}<a class="course-card" href="{{ url_for('course_lesson', lesson_id=lesson.id) }}" data-course-id="{{ lesson.id }}">
-    <div class="course-card-top"><span class="course-icon">{{ lesson.icon }}</span><span class="cefr-pill">{{ lesson.level }}</span></div><small>{{ lesson.tag }}</small><h3>{{ lesson.title }}</h3><p>{{ lesson.goal }}</p><div class="course-card-bottom"><span class="course-completed hidden">✓ Leçon terminée</span><b>Commencer <span>↗</span></b></div>
-  </a>{% endfor %}</div>
-  <a class="all-versions-link" href="{{ url_for('content_versions', section='lesson') }}">Voir toutes les leçons et versions par niveau <span>↗</span></a>
+<section class="lesson-catalog">
+  <section class="activity-hero" data-section-scene="lesson">
+    <div class="activity-hero-copy"><div class="eyebrow"><span class="dot"></span> Leçons interactives · apprendre pas à pas</div><h1>Apprendre le géorgien, étape par étape.</h1><p>Chaque leçon alterne explications, exemples géorgiens à écouter et quiz pour vérifier ce que vous avez retenu.</p></div>
+    <div class="activity-hero-art" data-section-scene="lesson" aria-hidden="true"><span>ქართული</span><small>Parlons géorgien · apprendre en jouant</small><i>✦</i><b class="activity-art-index">LEÇONS</b></div>
+  </section>
+  <section class="activity-hub">
+    <div class="vocabulary-section-heading"><div><div class="eyebrow">Votre bibliothèque</div><h2>Commencer par les bases</h2></div><span class="section-side-note">Une leçon à la fois · progression mémorisée sur cet appareil</span></div>
+    <div class="activity-card-grid">{% for lesson in lessons %}<a class="activity-card activity-tone-{{ loop.index0 % 4 }}" href="{{ url_for('course_lesson', lesson_id=lesson.id) }}" data-course-id="{{ lesson.id }}">
+      <span class="activity-card-icon" aria-hidden="true">{{ lesson.icon }}</span><span class="activity-card-copy"><small>{{ lesson.tag }} · {{ lesson.level }}</small><b>{{ lesson.title }}</b><span>{{ lesson.goal }}</span><span class="course-completed hidden">✓ Leçon terminée</span></span><span class="module-arrow">Commencer <b>↗</b></span>
+    </a>{% endfor %}</div>
+    <a class="all-versions-link" href="{{ url_for('content_versions', section='lesson') }}">Voir toutes les leçons et versions par niveau <span>↗</span></a>
+  </section>
 </section>
 {% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='course-catalog.js') }}?v=first-lesson-v2" defer></script>{% endblock %}

@@ -260,6 +260,8 @@ h3 { letter-spacing: -.025em; }
 .vocabulary-hero-stats { display:flex; flex-wrap:wrap; gap:21px; margin-top:20px; color:#716469; font-size:11px; }
 .vocabulary-hero-stats span { padding-left:12px; border-left:2px solid #d9c6c8; }
 .vocabulary-hero-stats b { color:var(--ink); font-size:15px; }
+.lesson-catalog { padding-bottom:65px; }
+.activity-card .course-completed:not(.hidden) { color:#3d7551; font-size:10px; font-weight:750; }
 .vocabulary-game-screen { border: 1px solid #e2eaea; border-radius: 24px; background: #fff; box-shadow: var(--surface-shadow); }
 .matching-tile, .audio-options button { border-radius: 13px; }
 .game-progress { overflow: hidden; border-radius: 10px; background: #eaf0ee; }
