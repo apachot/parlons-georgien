@@ -243,6 +243,7 @@
     if (back) back.after(briefing); else root.prepend(briefing);
     root.classList.add('exercise-briefing-active');
     window.refreshExerciseDifficulty?.();
+    requestAnimationFrame(() => briefing.scrollIntoView({behavior: 'smooth', block: 'start'}));
   };
 
   function updateBriefings() {
