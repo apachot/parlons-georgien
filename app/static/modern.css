@@ -397,7 +397,8 @@ body :not(.sun):not(.course-catalog-mark):not(.dot) {
 .exercise-level-options button span { color:#667269; font-size:.82rem; }
 .exercise-level-options button:disabled { opacity:.38; cursor:not-allowed; }
 .exercise-briefing-active > :not(.exercise-briefing):not(.back-to-games):not(.game-screen-top) { display:none !important; }
-.exercise-briefing { position:relative; isolation:isolate; overflow:hidden; margin:26px 0 32px; padding:clamp(24px,4vw,44px); border:1px solid #d8e2d7; border-top:4px solid #c96c43; background:radial-gradient(ellipse at 96% 0%,#e8efe3 0,transparent 34%),linear-gradient(145deg,#fffefa 0%,#f7f6ef 100%); color:#263d34; box-shadow:0 12px 34px #203a2810; }
+.exercise-briefing { position:relative; isolation:isolate; overflow:visible; margin:26px 0 32px; padding:clamp(24px,4vw,44px); border:0; background:none; color:#263d34; box-shadow:none; }
+.exercise-briefing::before { position:absolute; z-index:-1; inset-block:0; left:50%; width:100vw; transform:translateX(-50%); border-block:1px solid #d8e2d7; border-top:4px solid #c96c43; background:radial-gradient(ellipse at 96% 0%,#e8efe3 0,transparent 34%),linear-gradient(145deg,#fffefa 0%,#f7f6ef 100%); box-shadow:0 12px 34px #203a2810; content:""; pointer-events:none; }
 .exercise-briefing::after { position:absolute; z-index:0; top:-125px; right:-76px; width:300px; height:300px; border:1px solid #315d4920; border-radius:50%; box-shadow:0 0 0 24px #315d4908,0 0 0 50px #315d4905; content:""; pointer-events:none; }
 .exercise-briefing-intro,.exercise-briefing-facts,.exercise-briefing-details,.exercise-briefing-actions { position:relative; z-index:1; }
 .exercise-briefing-intro { max-width:760px; }
