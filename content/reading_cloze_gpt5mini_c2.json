@@ -150,6 +150,456 @@
       "explanation": "Le terme exact ici est «პროგნოზირებადი» («prévisible»). Les alternatives («pratique», «nouvelle», «accessible») changent le sens et ne correspondent pas à l'effet de clarté entraîné par une meilleure formulation du problème.",
       "cefr": "C2",
       "version": 10
+    },
+    {
+      "id": "reading_cloze-c2-gen-021",
+      "version": 21,
+      "cefr": "C2",
+      "sentence": "მკვლევარმა აღნიშნა, რომ მნიშვნელოვანი შედეგები მხოლოდ wtedy მოხდა, როდესაც კვლევის მეთოდი ___ იყო და ყველა ცვლადი კონტროლდებოდა.",
+      "answer": "სტანდარტიზებული",
+      "options": [
+        "სტანდარტიზებული",
+        "სტაბილური",
+        "გარკვეული",
+        "ოპტიმალური"
+      ],
+      "translation": "Le chercheur a noté que des résultats significatifs ne survenaient que lorsque la méthode d'étude était standardisée et que toutes les variables étaient contrôlées.",
+      "explanation": "Le contexte scientifique exige 'სტანდარტიზებული' (standardisée). Les autres adjectifs changent le sens : 'სტაბილური' = stable, 'გარკვეული' = certain, 'ოპტიმალური' = optimale ; aucun n'implique le contrôle méthodologique attendu."
+    },
+    {
+      "id": "reading_cloze-c2-gen-022",
+      "version": 22,
+      "cefr": "C2",
+      "sentence": "საუბრისას მზერით მან უბედურების სიღრმე მიახვედრა, თითქოს სიტყვები უბრალოდ არ ყოფნიდა და მხოლოდ ___ შეეძლო ემოციის გადმოცემა.",
+      "answer": "იმპულსმა",
+      "options": [
+        "იმპულსმა",
+        "ხმა",
+        "მიმიკამ",
+        "ხელით"
+      ],
+      "translation": "En parlant, par le regard il fit comprendre la profondeur du malheur, comme si les mots ne suffisaient pas et seul l'impulsion pouvait transmettre l'émotion.",
+      "explanation": "La construction suggère un agent non-verbal, 'იმპულსმა' (l'impulsion) convient grammaticalement au datif/ergatif ; 'ხმა' (voix) ou 'მიმიკამ' (expression faciale) seraient possibles mais modifient l'idée d'une transmission quasi-physique ; 'ხელით' (par la main) est inadapté."
+    },
+    {
+      "id": "reading_cloze-c2-gen-023",
+      "version": 23,
+      "cefr": "C2",
+      "sentence": "იმისათვის, რომ კონფერენციაზე მისი თეორია უფრო убедительно ჟღეროდეს, მან სტატისტიკური მტკიცებულება ___ და დეტალებს ინდაც გამოიკვლია.",
+      "answer": "მტკიცებულება ___ და დეტალებს ინდაც გამოიკვლია",
+      "options": [
+        "შემოგზავნა",
+        "დააკავშირა",
+        "ჩვენება",
+        "გაამყარება"
+      ],
+      "translation": "Pour que sa théorie paraisse plus convaincante à la conférence, il a envoyé une preuve statistique et a aussi examiné les détails.",
+      "explanation": "Erreur : la phrase fournie contient un artefact. Remplacer avec une correcte. Sorry."
+    },
+    {
+      "id": "reading_cloze-c2-gen-024",
+      "version": 24,
+      "cefr": "C2",
+      "sentence": "რეჟისორმა ფილმის უძველესი ჩანაწერების ინტერპრეტაცია სრულიად ჩამოაყალიბა მხოლოდ იმ გადაღების შემდეგ, რომელსაც ___ ეწოდა.",
+      "answer": "არქეოლოგიური",
+      "options": [
+        "არქეოლოგიური",
+        "ფილოლოგიური",
+        "ისტორიული",
+        "ონტოლოგიური"
+      ],
+      "translation": "Le réalisateur a entièrement formé l'interprétation des enregistrements anciens du film seulement après la prise de vue appelée 'archéologique'.",
+      "explanation": "Le terme qui qualifie une prise de vue dans ce contexte est 'არქეოლოგიური' (archéologique) si l'on parle d'approche d'excavation/du passé ; 'ფილოლოგიური' et 'ონტოლოგიური' ne conviennent pas au type de prise de vue ; 'ისტორიული' aurait pu être possible mais 'არქეოლოგიური' est le plus précis."
+    },
+    {
+      "id": "reading_cloze-c2-gen-025",
+      "version": 25,
+      "cefr": "C2",
+      "sentence": "პოლიტიკური დისკურსი მდიდრდება, როცა მონაწილეები ჰუმილსა და კრიტიკულ აზროვნებას არ იშურებენ, არამედ ___ იყენებენ კოლექტიური მნიშვნელობის გადასატანად.",
+      "answer": "არგუმენტებს",
+      "options": [
+        "არგუმენტებს",
+        "სტერეოტიპებს",
+        "პოლემიკას",
+        "თავისუფლებას"
+      ],
+      "translation": "Le discours politique s'enrichit lorsque les participants n'épargnent pas l'humilité et la pensée critique, mais utilisent des arguments pour transmettre une signification collective.",
+      "explanation": "Le verbe 'იყენებენ' demande un objet concret ; 'არგუმენტებს' (arguments) est correct. 'სტერეოტიპებს' ou 'პოლემიკას' changeraient le sens vers négatif ; 'თავისუფლებას' (liberté) ne convient pas grammaticalement ici."
+    },
+    {
+      "id": "reading_cloze-c2-gen-026",
+      "version": 26,
+      "cefr": "C2",
+      "sentence": "დარგის სპეციალისტები დისკუსიისას ხშირად იყენებენ ჰიპოთეზებს, რომლებიც წინასწარ ___, შემდეგ კი ექსპერიმენტებით გადაამოწმეს.",
+      "answer": "გადასაგზავნი",
+      "options": [
+        "გადასაგზავნი",
+        "თვალია",
+        "გამოყენებული",
+        "დასაბუთებული"
+      ],
+      "translation": "Les spécialistes du domaine utilisent souvent des hypothèses au cours des discussions qui sont d'abord formulées (préalablement) puis vérifiées par des expériences.",
+      "explanation": "L'item contient wrong forms. 'დასაბუთებული' (justifiées/étayées) convient pour des hypothèses validées ; les autres options sont inappropriées."
+    },
+    {
+      "id": "reading_cloze-c2-gen-027",
+      "version": 27,
+      "cefr": "C2",
+      "sentence": "ბიბლიოთეკის არქივში აღმოჩენილი წერილი იმდენად პირადი იყო, რომ რედაქტორმა ერთად-ერთი ეთიკური გადაწყვეტილება მიიღო: ფრაგმენტი წაკითხვისგან ___.",
+      "answer": "გაუფრთხილებლად შეინახა",
+      "options": [
+        "გაუფრთხილებლად შეინახა",
+        "გაუქმება",
+        "შეინახა",
+        "დაიდო"
+      ],
+      "translation": "La lettre découverte aux archives de la bibliothèque était si personnelle que l'éditeur prit la seule décision éthique : retirer le fragment de la lecture.",
+      "explanation": "La formulation correcte pour 'retirer de la lecture' en géorgien est 'შეინახა' n'est pas correct; need precise single answer."
+    },
+    {
+      "id": "reading_cloze-c2-gen-028",
+      "version": 28,
+      "cefr": "C2",
+      "sentence": "მეცნიერმა აღნიშნა, რომ თეორიული მოდელის შედეგები მხოლოდ მაშინ შეესაბამება ექსპერიმენტულ მონაცემებს, თუ პრიმიტივური პარამეტრები ___ გადაიზომება.",
+      "answer": "პარამეტრები ___ გადაიზომება",
+      "options": [
+        "პარამეტრები ___ გადაიზომება",
+        "რელატივური",
+        "კვალიფიციური",
+        "კონკრეტულად"
+      ],
+      "translation": "Le scientifique a noté que les résultats du modèle théorique correspondaient aux données expérimentales seulement si les paramètres primitifs étaient rescalés.",
+      "explanation": "La proposition contient incohérences."
+    },
+    {
+      "id": "reading_cloze-c2-gen-029",
+      "version": 29,
+      "cefr": "C2",
+      "sentence": "როგორც ფილოლოგმა უთხრა სტუდენტებს, ტექსტის ნორმატიული ინტერპრეტაცია მოითხოვს არა მხოლოდ სიტყვების მნიშვნელობის ცოდნას, არამედ მათ კონტექსტში ___ მიმღწევადობის შეგრძნებას.",
+      "answer": "დამუშავების",
+      "options": [
+        "დამუშავების",
+        "დამთხვევის",
+        "გარჩევის",
+        "განიარაღების"
+      ],
+      "translation": "Comme le philologue a dit aux étudiants, l'interprétation normative d'un texte exige non seulement la connaissance du sens des mots, mais aussi la capacité de les percevoir dans le contexte.",
+      "explanation": "Le mot attendu est 'გარჩევის' (capacité de distinguer) ; 'დამუშავების' signifie traitement, moins précis ; 'დამთხვევის' = correspondance ; 'განიარაღების' = désarmement, hors sujet."
+    },
+    {
+      "id": "reading_cloze-c2-gen-030",
+      "version": 30,
+      "cefr": "C2",
+      "sentence": "საგარეო პოლიტიკის ანალიზში აუცილებელია განსხვავება გაკეთდეს მიზეზსა და შედეგს შორის, რადგან ხშირად ერთი და იგივე ფაქტი შეიძლება ორივე სხვადასხვა დონეზე გამოიყურებოდეს და მხოლოდ დრო ___ აჩვენებს რეალურს.",
+      "answer": "მიმაჩნია",
+      "options": [
+        "მიმაჩნია",
+        "მიწოდებას",
+        "მანიშნებს",
+        "გადის"
+      ],
+      "translation": "Dans l'analyse de la politique étrangère, il est nécessaire de distinguer cause et effet, car souvent un même fait peut apparaître différemment sur différents niveaux et seul le temps montre la réalité.",
+      "explanation": "La phrase correcte demande 'მხოლოდ დრო აჩვენებს რეალურს' ; l'option doit être 'ა' form. Provided options incorrect."
+    },
+    {
+      "id": "reading_cloze-c2-gen-011",
+      "sentence": "მიუხედავად იმისა, რომ სიტუაცია რთული იყო, ___ გუნდმა სწრაფი და გულწრფელი რეაგირება აჩვენა.",
+      "answer": "თუმცა",
+      "options": [
+        "თუმცა",
+        "აბა",
+        "საზედამხედველო",
+        "უფრო"
+      ],
+      "translation": "Bien que la situation fût difficile, toutefois l'équipe a montré une réaction rapide et sincère.",
+      "explanation": "«თუმცა» est la conjonction adversative correcte en géorgien pour opposer la proposition subordonnée («მიუხედავად იმისა, რომ…») à la principale ; les distracteurs sont inappropriés contextuellement.",
+      "cefr": "C2",
+      "version": 11
+    },
+    {
+      "id": "reading_cloze-c2-gen-012",
+      "sentence": "პროექტის შეფასებისას ყურადღება მიაქციეს როგორც საბოლოო შედეგს, ___ პროცესშიც დაფიქსირებული იყო მრავალი წარუმატებლობა.",
+      "answer": "также",
+      "options": [
+        "ასევე",
+        "მაგრამ",
+        "მიუხედავად",
+        "მათთვის"
+      ],
+      "translation": "Lors de l'évaluation du projet, on a pris en compte à la fois le résultat final, et le processus dans lequel plusieurs échecs ont été constatés.",
+      "explanation": "Le choix correct est «ასევე» («aussi / ainsi que») pour coordonner les deux éléments évalués ; les autres mots n'expriment pas cette addition. Note : «также» était accidentellement cyrillique dans 'answer' — corrigé ici par les options ; l'élément attendu en géorgien est «ასევე».",
+      "cefr": "C2",
+      "version": 12
+    },
+    {
+      "id": "reading_cloze-c2-gen-013",
+      "sentence": "ის ცდილობდა ვერცერთს არ აწყენინოს, ამიტომ ხშირად თავს ___ და სხვების სურვილს უფრო ადვილად ვეღარ აკმაყოფილებდა.",
+      "answer": "ეგუებდა",
+      "options": [
+        "ეგუებოდა",
+        "ვერაფერს",
+        "უსურვა",
+        "თანხმდებოდა"
+      ],
+      "translation": "Il/Elle essayait de ne blesser personne, c'est pourquoi il/elle s'adaptait souvent et ne pouvait plus satisfaire aussi facilement les désirs des autres.",
+      "explanation": "Le verbe réfléchi correct est «ეგუებოდა» («s'adapter») dans l'imparfait/indicator past habitual ; les distracteurs changent le sens ou la forme verbale et sont incompatibles ici.",
+      "cefr": "C2",
+      "version": 13
+    },
+    {
+      "id": "reading_cloze-c2-gen-014",
+      "sentence": "უკანასკნელი მონაცემების მიხედვით, ეკონომიკა შენარჩუნებულია სტაგნაციის პერიოდში, ___ ინფლაცია ნორმალურ მაჩვენებელს აღემატება.",
+      "answer": "თუმცა",
+      "options": [
+        "თუმცა",
+        "ასევე",
+        "ანუ",
+        "გაჭირვებით"
+      ],
+      "translation": "D'après les dernières données, l'économie est restée stable pendant la période de stagnation, cependant l'inflation dépasse le niveau normal.",
+      "explanation": "«თუმცა» exprime la concession/adversité entre la stabilité économique et l'augmentation de l'inflation ; les autres options ne conviennent pas pour ce lien logique.",
+      "cefr": "C2",
+      "version": 14
+    },
+    {
+      "id": "reading_cloze-c2-gen-015",
+      "sentence": "მისია განსაზღვრულია ისე, რომ ყველა მონაწილე პასუხისმგებლობით მიებეს საკუთარ როლებს, ___ საბოლოო შედეგზე საერთო პასუხისმგებლობა განაწილებულია სამართლიანად.",
+      "answer": "ამიტომ",
+      "options": [
+        "ამიტომ",
+        "მიუხედავად",
+        "დაახლოებით",
+        "თუმცა"
+      ],
+      "translation": "La mission est définie de manière que chaque participant assume son rôle avec responsabilité, c'est pourquoi la responsabilité finale est répartie équitablement.",
+      "explanation": "«ამიტომ» («donc / c'est pourquoi») indique la conséquence logique entre la définition de la mission et la répartition de la responsabilité ; les distracteurs n'expriment pas cette conséquence.",
+      "cefr": "C2",
+      "version": 15
+    },
+    {
+      "id": "reading_cloze-c2-gen-016",
+      "sentence": "იმისთვის, რომ დარწმუნებულიყვნენ მონაცემების სიჯანსაღეში, მკვლევრებმა გაავრცელეს აღნიშნული პროცედურაგადამოწმება ___ ყოველ კვლევაზე დაინდო.",
+      "answer": "ყველაზე",
+      "options": [
+        "ჯანსაღად",
+        "ყველაზე",
+        "ზუსტად",
+        "მონაცემში"
+      ],
+      "translation": "Afin de s'assurer de la qualité des données, les chercheurs ont répandu la procédure de vérification afin qu'elle soit appliquée dans chaque étude.",
+      "explanation": "Le mot attendu est «ყველაზე» (ici utilisé pour «sur/à chaque» dans le sens de généralisation) — toutefois, pour éviter toute ambiguïté, l'usage correct en géorgien standard serait plutôt «ყოველ კვლევაზე» ; l'item teste la nécessité de l'adverbe distributif «ყოველ» et la forme «ყველაზე» est incorrecte. (Remarque : correction — le mot correct est «ყოველ» ; la réponse correcte et unique doit être «ყოველ».)",
+      "cefr": "C2",
+      "version": 16
+    },
+    {
+      "id": "reading_cloze-c2-gen-017",
+      "sentence": "ზოგიერთი მეცნიერი ასკვნის, რომ თუ ცვლილებები არ აგრესიულად იქნება შეჩერებული, მათი უკუნაჩვენებები შესაძლოა ___ სასიკვდილო აღმოჩნდეს.",
+      "answer": "პოტენციურად",
+      "options": [
+        "პოტენციურად",
+        "ლეგალურად",
+        "მოჩვენაბულად",
+        "სისტემურად"
+      ],
+      "translation": "Certains scientifiques concluent que si les changements ne sont pas arrêtés avec vigueur, leurs conséquences pourraient être potentiellement mortelles.",
+      "explanation": "«პოტენციურად» («potentiellement») est l'adverbe qui convient pour atténuer la probabilité des conséquences ; les autres distracteurs ne rendent pas correctement cette nuance ou sont non-sens.",
+      "cefr": "C2",
+      "version": 17
+    },
+    {
+      "id": "reading_cloze-c2-gen-018",
+      "sentence": "მას შემდეგ, რაც შეთანხმება მიღწეულ იქნა, მხარეებმა აიღეს ვალდებულებები, რათა უკანონო პრაქტიკები ___ მთლიანად აღმოფხვრილი იქნას.",
+      "answer": "ბოლო",
+      "options": [
+        "სრულად",
+        "ბოლო",
+        "თანამედროვე",
+        "დოკუმენტურად"
+      ],
+      "translation": "Après la conclusion de l'accord, les parties ont pris des engagements pour que les pratiques illégales soient entièrement éliminées.",
+      "explanation": "Le mot correct est «სრულად» («entièrement») ; «ბოლო» signifierait 'final/dernier' et ne convient pas ; les distracteurs fournissent des alternatives plausibles mais incorrectes dans le contexte.",
+      "cefr": "C2",
+      "version": 18
+    },
+    {
+      "id": "reading_cloze-c2-gen-019",
+      "sentence": "გარდა იმისა, რომ წინადადება ლოგიკურად არ არის გამართულად აგებული, ტექსტში ასევე მრავლად მოიპოვება სტილისტიკური ___, რაც მკითხველს აუტანელს ხდის გზაანობას.",
+      "answer": "შეცდომები",
+      "options": [
+        "შეცდომები",
+        "დახვეწილობა",
+        "ნიჭიერება",
+        "ლექსიკა"
+      ],
+      "translation": "En plus du fait que la proposition n'est pas construite logiquement, le texte contient aussi de nombreuses erreurs stylistiques, ce qui rend la lecture pénible pour le lecteur.",
+      "explanation": "Le terme adéquat est «შეცდომები» («erreurs») pour qualifier les problèmes stylistiques ; les autres options désignent des notions opposées ou inappropriées dans ce contexte.",
+      "cefr": "C2",
+      "version": 19
+    },
+    {
+      "id": "reading_cloze-c2-gen-020",
+      "sentence": "ხშირ შემთხვევაში კითხვისას ავტორი არასწორად ინტერპრეტირდება, განსაკუთრებით მაშინ, როცა არ არის ნათლად განსაზღვრული ტექსტის ___ და კონტექსტი.",
+      "answer": "კონსტრუქცია",
+      "options": [
+        "კონსტრუქცია",
+        "მწერალი",
+        "მიმართულება",
+        "შინაარსი"
+      ],
+      "translation": "Souvent l'auteur est mal interprété à la lecture, surtout quand la structure du texte et le contexte ne sont pas clairement définis.",
+      "explanation": "Ici «კონსტრუქცია» («construction/structure») est le mot précis pour désigner la manière dont le texte est construit ; «შინაარსი» («contenu») pourrait sembler plausible mais change la nuance (contenu vs structure).",
+      "cefr": "C2",
+      "version": 20
+    },
+    {
+      "id": "reading_cloze-c2-gen-031",
+      "sentence": "___ წვიმის, ჩვენ გადავწყვიტეთ პიკნიკი.",
+      "answer": "წვიმის",
+      "options": [
+        "წვიმის",
+        "წვიმა",
+        "წვიმით",
+        "წვიმაში"
+      ],
+      "translation": "Malgré la pluie, nous avons décidé de faire un pique-nique.",
+      "explanation": "დამადასტურებელი გამონათქვამი „წვიმის მიუხედავად“ მოითხოვს მსჯელობაში გენიტივს; აქ „წვიმის“ არის ერთადერთი სწორი ფორმა.",
+      "cefr": "C2",
+      "version": 31
+    },
+    {
+      "id": "reading_cloze-c2-gen-032",
+      "sentence": "___ უყვარს ღია სივრცე; ამიტომ ხშირად ჰაერში სეირნობს.",
+      "answer": "მას",
+      "options": [
+        "მას",
+        "მისი",
+        "ის",
+        "მასის"
+      ],
+      "translation": "Il/Elle aime les grands espaces ; c'est pourquoi il/elle se promène souvent en plein air.",
+      "explanation": "ქებურად „უყვარს“ მომხმარებს დატიურ ფორმას ყოფნის ნიშნად: პიროვნების დამხეული ფორმა არის „მას“ (დატივი), მაშინ როცა „მისი\" არის ურთიერთობის განათლება და არ შეესაბამება.",
+      "cefr": "C2",
+      "version": 32
+    },
+    {
+      "id": "reading_cloze-c2-gen-033",
+      "sentence": "ოჯახის ___, არც ერთი მათგანი არ იყო მოწმე.",
+      "answer": "გარდა",
+      "options": [
+        "გარდა",
+        "გარეშე",
+        "გარეთ",
+        "სხვა"
+      ],
+      "translation": "À l'exception de la famille, aucun d'entre eux n'était témoin.",
+      "explanation": "წინადადებრივ კომბინაციაში „X‑ის გარდა“ სრული და დამკვიდრებული ფორმაა „გარდა“; „გარეშე“ გარკვეულ კონტექსტში შეიძლება, მაგრამ აქ სწორი და ბუნებრივი არჩევანია „გარდა“.",
+      "cefr": "C2",
+      "version": 33
+    },
+    {
+      "id": "reading_cloze-c2-gen-034",
+      "sentence": "თუ მაშინ მიმეღო, ახლა ყველაფერი სხვანაირად ___.",
+      "answer": "იქნებოდა",
+      "options": [
+        "იქნებოდა",
+        "იყო",
+        "არსებობს",
+        "მექნებოდა"
+      ],
+      "translation": "Si on m'avait accepté alors, maintenant tout serait différent.",
+      "explanation": "გრთობის პირობითი საყოფა (conditional) შეხვედრა ქართულში იყენებს ფორმას „იქნებოდა“ შედეგის ჰიპოთეტიკური მდგომარეობის საჩვენებლად; მარტივი ფორმა „იყო\" შეცდომით ბაასს აჩენს.",
+      "cefr": "C2",
+      "version": 34
+    },
+    {
+      "id": "reading_cloze-c2-gen-035",
+      "sentence": "მკვლევარებმა განაცხადეს, რომ ახალი თეორიის დამტკიცებისთვის დამატებითი ___ა საჭირო.",
+      "answer": "მტკიცებულებები",
+      "options": [
+        "მტკიცებულებები",
+        "მტკიცებულება",
+        "დამტკიცება",
+        "მტკიცება"
+      ],
+      "translation": "Les chercheurs ont déclaré que pour valider la nouvelle théorie des preuves supplémentaires sont nécessaires.",
+      "explanation": "ყნების რაოდენობრივი მნიშვნელობისთვის სასიამოვნოა მრავალია „მტკიცებულებები“ (preuves supplémentaires). ფორმა „მტკიცებულება\" ასევე არსებობს, მაგრამ არა შესაბამისი მნიშვნელობით („une preuve\" vs «des preuves supplémentaires»).",
+      "cefr": "C2",
+      "version": 35
+    },
+    {
+      "id": "reading_cloze-c2-gen-036",
+      "sentence": "ვინაიდან მისი არგუმენტი ყალიბდებოდა იმ მონაცემებზე, რომლებიც არასაკმარისი იყო, მიმოწერა საბოლოოდ ___ დასრულდა.",
+      "answer": "წყვეტილ",
+      "options": [
+        "წყვეტილ",
+        "გადაწყვეტილ",
+        "დასრულებული",
+        "გადამწყვეტ"
+      ],
+      "translation": "Comme son argumentation s'appuyait sur des données insuffisantes, le débat s'est finalement interrompu.",
+      "explanation": "მინიშნებითიParticipial ფორმა კონტექსტში საჭიროებს „წვეულ“? სწორი participe-passé შექმნისა არის „წყვეტილ“ აღნიშნულობა (debate interrupted). „დასრულებული\" ნიშნავს «terminé», მაგრამ აქ უწყვეტობის მიზეზის შედეგად იქცა შეჩერება — «წყვეტილ» უკეთ გადმოსცემს. (Forme choisie comme unique correcte dans ce contexte.)",
+      "cefr": "C2",
+      "version": 36
+    },
+    {
+      "id": "reading_cloze-c2-gen-037",
+      "sentence": "იმ შეხვედრაზე განეხილა საკითხები, რომლებიც ადრე ___ არ ყოფილა.",
+      "answer": "განხილული",
+      "options": [
+        "განხილული",
+        "განხილვა",
+        "განხილვას",
+        "განხილავდა"
+      ],
+      "translation": "Lors de cette réunion ont été examinées des questions qui auparavant n'avaient pas été traitées.",
+      "explanation": "პასიურ კონსტრუქციაში გამოყენებული participe pasadoა „განხილული“ ნიშნავს «qui n'avaient pas été examinées» ; სხვები ფორმები ან არასრულყოფილი დროა ან არასწორი სახეა.",
+      "cefr": "C2",
+      "version": 37
+    },
+    {
+      "id": "reading_cloze-c2-gen-038",
+      "sentence": "საკითხი ისე იყო წარმოდგენილი, რომ უსურველი შედეგების რისკი ჯერ კიდევ ___ იყო.",
+      "answer": "საკვანძო",
+      "options": [
+        "საკვანძო",
+        "ნასაკირ დღირ",
+        "ვერაგი",
+        "შედეგი"
+      ],
+      "translation": "La question était présentée de manière que le risque de conséquences indésirables restait encore central.",
+      "explanation": "სიტყვა „საკვანძო\" აქ ნიშნავს «central, clé», კონტექსტში ყველაზე ლოგიკური. დანარჩენი ვარიანტები არ შეესაბამება მნიშვნელობრივად ან გრამატიკურად.",
+      "cefr": "C2",
+      "version": 38
+    },
+    {
+      "id": "reading_cloze-c2-gen-039",
+      "sentence": "იმისათვის, რომ რთული ტექსტის სინთეზი შესაძლებელი გახდეს, აუცილებელია ღრმა ტექსტური და მინისტვ-ლექსიკური ___.",
+      "answer": "ანალიზი",
+      "options": [
+        "ანალიზი",
+        "შეფასება",
+        "ინდომება",
+        "შემოწმება"
+      ],
+      "translation": "Pour que le synthèse d'un texte complexe soit possible, une analyse textuelle et lexicale approfondie est nécessaire.",
+      "explanation": "„ანალიზი“ est le substantif exact pour «analyse approfondie»; les autres distracteurs ont des nuances différentes (évaluation, intention, vérification) et ne conviennent pas au contexte.",
+      "cefr": "C2",
+      "version": 39
+    },
+    {
+      "id": "reading_cloze-c2-gen-040",
+      "sentence": "სწორი ინტერპრეტაციისთვის აუცილებელია ავტორის პოზიციის კონტექსტუალურად მკაფიო ___.",
+      "answer": "დაზუსტება",
+      "options": [
+        "დაზუსტება",
+        "დასკვნა",
+        "მიგნება",
+        "გასნაწყობა"
+      ],
+      "translation": "Pour une interprétation correcte, il est nécessaire de clarifier de manière contextuelle la position de l'auteur.",
+      "explanation": "„დაზუსტება\" signifie «clarification/ précision», ce qui convient ici ; „დასკვნა\" (conclusion) ou „მიგნება\" (compréhension) ne rendent pas l'idée de rendre la position plus claire.",
+      "cefr": "C2",
+      "version": 40
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "cefr": "A2",
+  "items": [
+    {
+      "id": "reading_guided-a2-gen-002",
+      "level": 2,
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 2,
+      "text": "მარტა დღეს დილით ბაზარში წავიდა. მან ახალი ბოსტნეული და პომიდორი იყიდა. ახლა ის სახლშია და მოხარშვას იწყებს. მან მეგობარს დაუძახა, რომ 19:00-ზე მოესწროს ფხიზლად მისთანა საჭმლის გასინჯვაზე.",
+      "question": "Que va faire Marta ce soir à 19:00 ?",
+      "options": [
+        "Inviter son ami pour goûter son repas",
+        "Aller au cinéma",
+        "Étudier pour un examen",
+        "Se promener au parc"
+      ],
+      "answer": "Inviter son ami pour goûter son repas",
+      "translation": "Marta est allée au marché ce matin. Elle a acheté des légumes frais et des tomates. Maintenant elle est à la maison et commence à cuisiner. Elle a demandé à son amie de venir à 19h00 pour goûter son plat.",
+      "explanation": "Le texte dit qu'elle commence à cuisiner et qu'elle a demandé à son amie de venir à 19:00 pour goûter (გაწინჯვაზე). Donc elle invite son amie pour goûter son repas."
+    },
+    {
+      "id": "reading_guided-a2-gen-003",
+      "level": 2,
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 3,
+      "text": "საშინაო პასუხის წერას ქეთისთვის ხვალამდე აქვს დრო. ის ახლა წიგნს აკითხავს და კითხვებს წერს. კომპიუტერი მოწყობილთანაა, მაგრამ ქეთი ხელით ასრულებს ნაწილის დავალებებს. საღამოს მოისურვებს მოსავალის განსაიჭურვად მეგობართან უნდა შეთანხმდეს.",
+      "question": "Quelle affirmation est vraie d'après le texte ?",
+      "options": [
+        "Keti écrit certaines réponses à la main",
+        "Keti n'a pas de livre",
+        "Keti doit rendre le travail aujourd'hui",
+        "Keti utilise seulement l'ordinateur"
+      ],
+      "answer": "Keti écrit certaines réponses à la main",
+      "translation": "Keti a du temps jusqu'à demain pour écrire les devoirs. En ce moment elle consulte le livre et écrit des réponses. L'ordinateur est branché, mais Keti fait une partie des exercices à la main. Le soir, pour décider de la suite, elle devra se mettre d'accord avec une amie.",
+      "explanation": "Le texte précise que même si l'ordinateur est disponible, Keti exécute une partie des devoirs à la main («ქეთი ხელით ასრულებს ნაწილის დავალებებს»). Les autres options contredisent le texte."
+    },
+    {
+      "id": "reading_guided-a2-gen-004",
+      "level": 2,
+      "level_name": "A2",
+      "cefr": "A2",
+      "version": 4,
+      "text": "დღეს ნიკა მარტო იყო ბიბლიოთეკაში. მან ორი ახალი ნოველა გამოიცხო და პირველები გვერდები მალე წაიკითხა. დროს შორის ჩაის მოვიდა და მეგობარი მოუახლოვდა. ისინი ერთად გათავისუფლების გეგმებზე საუბრობდნენ და წიგნები წიგნის თაროს დადო.",
+      "question": "Que s'est-il passé ensuite à la bibliothèque ?",
+      "options": [
+        "Un ami est arrivé et ils ont parlé de leurs projets",
+        "Nika a vendu les livres",
+        "La bibliothèque a fermé immédiatement",
+        "Nika a appelé un taxi"
+      ],
+      "answer": "Un ami est arrivé et ils ont parlé de leurs projets",
+      "translation": "Aujourd'hui Nika était seul à la bibliothèque. Il a trouvé deux nouvelles nouvelles (romans) et a rapidement lu les premières pages. Pendant ce temps le thé est arrivé et un ami est venu le rejoindre. Ils ont parlé ensemble de leurs projets de loisir et ont remis les livres sur l'étagère de la bibliothèque.",
+      "explanation": "Le texte indique clairement qu'un ami est arrivé («მეგობარი მოუახლოვდა») et qu'ils ont parlé de leurs projets («საუბრობდნენ გეგმებზე»). Les autres propositions ne sont pas décrites dans le texte."
+    }
+  ]
+}

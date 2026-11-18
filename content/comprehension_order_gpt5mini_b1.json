@@ -154,6 +154,472 @@
         "À la fin de la rencontre, le narrateur achète un cadeau en chemin et rentre chez lui heureux."
       ],
       "explanation": "Les événements suivent la progression de la journée: réunion matinale, discussion, déjeuner au restaurant, puis acte final (achat d’un cadeau) et retour."
+    },
+    {
+      "id": "comprehension_order-b1-gen-021",
+      "title": "ფრანგულიდან თბილისში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 21,
+      "text": "სანდრო ფრანკოფონული ჯგუფის შეხვედრაზე ბილეთით ჩავიდა თბილისში. შეხვედრა საღამოს რვის საათზე დაიწყო და მანამდე გინდაგინდელ კაფეში მეგობრებთან ერთად კოფე მიიტანა. შეხვედრის შემდეგ ორგანიზატორებმა მოამზადეს პატარა მიღება, სადაც სანდრომ ახალი ადამიანებს მიმართა და თავისი გამოცდილება ფრანგულ ენაზე გააზიარა. ბოლოს, ღამით, ის სახლში იმაში დარწმუნდა, რომ ყველა ბილეთი და ჩანთა უსაფრთხოდ ეყარა და მშვიდად დაძინა.",
+      "events": [
+        "სანდრო ჩავიდა თბილისში შეხვედრაზე ბილეთით",
+        "მანამდე ის კაფეში მეგობრებთან ერთად ერთი კოფე მიიღო",
+        "შეხვედრაზე ორგანიზატორებმა მინი მიღება მოაწყეს და სანდრომ საუბრები დაიწყო",
+        "ღამით სანდრო მოამოწმა, რომ მისი ნივთები უსაფრთხოდ იყვნენ და ჩაძინდა"
+      ],
+      "explanation": "შემთხვევები მიჰყვება დროს: ჩამოსვლა, წინაღამური შეხვედრა კაფეში, შეხვედრა და მიღება, ბოლოს ნივთების შემოწმება და ჩაძინება."
+    },
+    {
+      "id": "comprehension_order-b1-gen-022",
+      "title": "ბაღის სამუშაოდღე",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 22,
+      "text": "ოთხშაბათს ალიამ გადაწყვიტა ბაღში მცენარეები დაერგო. დილით მან ნერგები შეიძინა ბაზრობაზე და სახლში დაბრუნდა საჭურჭლის შეკრებისთვის. შუადღისთვის ალია უკვე გათხარავდა ხუთ დიდ გორაკს და თითოეულში ნერგი ჩასვა. საღამოს, როცა მზე ჩადიოდა, მან გაანავლო წყალი და შეამჩნია, რომ ერთი ნერგი სუსტი იყო — მან გადაწყვიტა მისი დაცვის ქუდი შეკრა.",
+      "events": [
+        "ალიამ დილით ნერგები შეიძინა ბაზრობაზე",
+        "მან სახლში დაბრუნდა ხელსაწყოების მომზადებისთვის",
+        "შუადღისთვის ალიამ გათხარა ხუთი გორაკი და ნერგები ჩაასხა",
+        "საღამოს მან მოავლო წყალი და ნაკლებად ძლიერი ნერგისთვის დაცვის ქუდი გააკეთა"
+      ],
+      "explanation": "რიგითაა: ყიდვა, მზადება, ნერგების დარგვა შუადღეზე, და საბოლოო მოვლა საღამოს."
+    },
+    {
+      "id": "comprehension_order-b1-gen-023",
+      "title": "სასწავლო პროექტი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 23,
+      "text": "კლასში მარიამმა ახალი საგამოცდო პროექტი დაიწყო. პირველ კვირას ჯგუფები დამყარდა და ისინი თეორიული კვლევის ნაწილს სწავლობდნენ. მეორე კვირაში თითოეული ჯგუფი ვარგისი ექსპერიმენტის დაგეგმვას და საჭირო მასალის შეგროვებას მიეყო. ბოლო კვირის ბოლოს მარიამმა ყოველ ჯგუფს სთხოვა ანგარიში წარედგინათ და ნამუშევარი საჯაროდ შეაფასეს.",
+      "events": [
+        "პროექტი დაიწყო კლასში და ჯგუფები შექმნეს",
+        "პირველ კვირაში ისინი თეორიულ კვლევას სწავლობდნენ",
+        "მეორე კვირაში ჯგუფებმა შეაგროვეს მასალები და დაგეგმა ექსპერიმენტები",
+        "ბოლო კვირაში ჯგუფებმა ანგარიშები წარადგინეს და ნამუშევრები შეაფასეს"
+      ],
+      "explanation": "პროექტის ეტაპები დროის მიხედვით: ფორმირება, თეორია, პრაქტიკა, მიწოდება და შეფასება."
+    },
+    {
+      "id": "comprehension_order-b1-gen-024",
+      "title": "საგანგებო სახლი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 24,
+      "text": "მარტიამ მოისმინა გამაფრთხილებელი სიგნალი და ახლობლებთან ერთად სახლის დატოვება მოინდომა. პირველადი შეხვედრიდან ყველა სახლი სწრაფად დაიტოვეს და ახლომახლო სპორტულ დარბაზში შეიკრიბნენ. მეორეში მეხანძრეები მოვიდნენ და მდგომარეობა შეაფასეს; ისინი აბედნიერებდნენ, რომ ცეცხლი გაჩნდა სამზარეულოში. მოგვიანებით, ცეცხლის საბრძოლველო ჯგუფმა სიტუაცია ამსუბუქა და მოსახლეობა უსაფრთხოდ დაუბრუნდა სახლებში.",
+      "events": [
+        "მარტია მოისმინა სიგნალი და ოჯახმა სახლი დატოვა",
+        "მათ ახლომახლო სპორტულ დარბაზში შეიკრიბნენ",
+        "მეხანძრეები მოვიდნენ და დაასხეს, რომ ცეცხლი სამზარეულოში იყო",
+        "ცეცხლი ჩააქრეს და მოსახლეობა მშვიდობით სახლში დაბრუნდა"
+      ],
+      "explanation": "მოძღვრება: სიგნალის მოსმენა და ევაკუაცია, შეერთება შეკრებაში, მეხანძრეების ჩარევა, ჩაქრობა და დაბრუნება."
+    },
+    {
+      "id": "comprehension_order-b1-gen-025",
+      "title": "ბიბლიოთეკის საღამო",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 25,
+      "text": "ბიბლიოთეკამ გადაწყვიტა ლიტერატურული საღამო ეწყო შაბათ საღამოს. პირველმა მომხსენებელმა ახალი ნოველა წაიკითხა და აუდიტორიამ ხოტბა დასცა. შემდეგ მონაწილეობა ახალგაზრდულმა პოეტმა მიიღო, რომელმაც თავისი ლექსები მოჰკითხა და მსმენელმა გულშემატკივრობა გამოჩინა. საღამოს ბოლოს ორგანიზატორებმა მადლობა გადაუხადეს სტუმრებს და განაცხადეს, რომ ასეთი საღამო ყოველთვიურად გაიმართება.",
+      "events": [
+        "ბიბლიოთეკამ შაბათ საღამოს ლიტერატურული საღამო დაგეგმა",
+        "პირველმა მომხსენებელმა ნოველა წაიკითხა",
+        "შემდეგ ახალგაზრდა პოეტმა თავისი ლექსები წაუკითხა აუდიტორიას",
+        "ოფიციალურად საღამო დაასრულეს მადლობით და მომავალ შეხვედრაზე განაცხადით"
+      ],
+      "explanation": "დროითი დაცვა: გამართვა, პირველი მოხსენება, შემდეგი მონაწილე, საბოლოო გამოხმაურება და დახურვა."
+    },
+    {
+      "id": "comprehension_order-b1-gen-026",
+      "title": "სუპერმარკეტში შაბათი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 26,
+      "text": "შაბათს დილით სოფიო სუპერმარკეტში წავიდა კამპანიის სასურსათო კალათისთვის. მან ჯერ გაფართოებული სია შემოწმო და პირველი გზავნილი იყო ხილი და ბოსტნეული. შუადღისას სალაროებში დიდი რიგი წარმოიქმნა, ამიტომ სოფიო მოიწყო დაჩქარება და ბოლოს ყიდვა წარმატებით დაასრულა. დღის ბოლოს მან სახლში ყველაფერი გამოალაგა და სამზარეულოში მოამზადო ვახშამი ოჯახისათვის.",
+      "events": [
+        "სოფიო შაბათ დილით წავიდა სუპერმარკეტში ყიდვისთვის",
+        "პირველად მან შეამოწმა სასურსათო სია და აიღო ხილი და ბოსტნეული",
+        "სალაროში დიდი რიგი გაჩნდა და სოფიო შეძაშინდა დაჩქარებისთვის",
+        "სოფიო სახლში დაბრუნდა, ნივთები გამოალაგა და ვახშამი მოამზადო"
+      ],
+      "explanation": "ლოგიკური და დროითი თანმიმდევრობა: გამგზავრება, შეძენა (თანმიმდევრე ნივთები), რიგის პრობლემა და საბოლოო დასრულება სახლში."
+    },
+    {
+      "id": "comprehension_order-b1-gen-027",
+      "title": "გაზრდილი ვარჯიში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 27,
+      "text": "ანდრემ გადაწყვიტა ორი თვის განმავლობაში ფიზიკური ფორმა გაეუმჯობესებინა. პირველ კვირებში ის იარაღაღებულ საწყის ჩარჩოებას მიჰყვა და მსუბუქი სავარჯიშოები გააკეთა. შემდეგ, მეორე თვის შუაში, მან გაძლიერებული ვარჯიშები და დატვირთვები დაწესა და ბრტყელი კვების გეგმაც შეცვალა. ბოლო დღეებში ანდრეპლამ შეამჩნია, რომ ენერგია გაიზარდა და მან რჩეულ მიზანს მიაღწია.",
+      "events": [
+        "ანდრემე ორი თვესა განზრახა ფიზიკური ფორმის გაუმჯობესება",
+        "პირველ კვირებში მან მსუბუქი სავარჯიშოებით დაიწყო",
+        "მეორე თვის შუა პერიოდიდან იმატა დატვირთვები და ვარჯიშები",
+        "მეორე ბოლოს ანდრემე შეამჩნია ენერგიის ზრდა და მიზნის მიღწევა"
+      ],
+      "explanation": "პროგრესის თანმიმდევრობა: გადაწყვეტა, მსუბუქი დაწყება, დატვირთვის ზრდა და საბოლოო შედეგი."
+    },
+    {
+      "id": "comprehension_order-b1-gen-028",
+      "title": "მოზარდების ექსკურსია",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 28,
+      "text": "მოსწავლეებმა მთელი წლის განმავლობაში მოემზადნენ სკოლაში გამგზავრებისთვის. იმავე დილას ავტობუსი სკოლასთან გაჩერდა და ჯგუფები მიაწყვეს. გამგზავრების დროს მათ მოინახულეს ისტორიული ადგილი და ისწავლეს მისი თანამედროვე მნიშვნელობა. შემდეგ საღამოს სკოლაში დაბრუნდნენ და მასწავლებლებთან ერთად მასალის შესახებ მოკლე პრეზენტაციები მოაწყეს.",
+      "events": [
+        "მოსწავლეები მზად იყვნენ მთელი წლის განმავლობაში ექსკურსიისთვის",
+        "დილის ავტობუსი სკოლასთან მოვიდა და ჯგუფები ბრუნდნენ ავტობუსში",
+        "დღის განმავლობაში მოინახულეს ისტორიული ადგილი და ისწავლეს მის შესახებ",
+        "საღამოს დაბრუნებულებმა მართეს მოკლე პრეზენტაციები მასწავლებლებთან"
+      ],
+      "explanation": "დროითი რიგი: მზადება, გამგზავრება დილით, დღის ვიზიტი და საღამოს დაბრუნება/პრეზენტაციები."
+    },
+    {
+      "id": "comprehension_order-b1-gen-029",
+      "title": "დასასვენებელი კვირა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 29,
+      "text": "გიორგი და მისი მეგობრები ერთი კვირით ბუნებაში გაემართნენ დასასვენებლად. პირველი დღეები მათდა თავისუფლად იცხოვრეს: მოიარეს მდინარეებს და მოეწყო პიკნიკები. შუა კვირაში ისინი როდოდე აღუნიშნეს ქარიშხალი და იძულებულნი იყვნენ ჩერნა ნაციონალურ პარკში დარჩენილიყვნენ. ბოლო დღეს ამინდი დამშვიდდა; ისინი უკან სამშობლოში დაბრუნდნენ, გახარებულნი და სავსე მეხსიერებებით.",
+      "events": [
+        "გიორგი და მეგობრები ერთკვირიან დასვენებაზე გავიდნენ ბუნებაში",
+        "პირველ დღეებში ისინი პიკნიკავდნენ და მდინარეებს მოატაროდნენ",
+        "შუა კვირაში ქარები გაძლიერდა და მათ პარკში დარჩენა მოუწიათ",
+        "ბოლოს ამინდი დამშვიდდა და ისინი შინ დაბრუნდნენ ხალისით"
+      ],
+      "explanation": "ნარატივის ხაზია: გამგზავრება, სასიამოვნო დასვენება, პრობლემა (ქარიშხალი) და საბოლოო გამოსავალი დაბრუნებით."
+    },
+    {
+      "id": "comprehension_order-b1-gen-030",
+      "title": "მუზეუმის დღე",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 30,
+      "text": "ლეკომ მოინდომა კულტურული შთაბეჭდილების მიღება და მუზეუმში საღამოს გამოფენა მოინახულა. იქ მისვლამდე მან ონლაინში შეიძინა ბილეთი, რათა რიგში დრო არ დაეკარგა. მუზეუმში მან ერთ ფრანგულ ექსპონატს დაათვალიერა და გაჩერდა სპეციალურ აუდიოგიდთან. გამოსვლისას ლეკომ მცირე საჩუქარი იყიდა მაღაზიაში და სახლში ბედნიერი დაბრუნდა.",
+      "events": [
+        "ლეკომ ონლაინში ბილეთი იყიდა მუზეუმის გამოფენაზე",
+        "შემდეგ მუზეუმში წავიდა და ექსპონატებს დაათვალიერა",
+        "მას ჰიტნა ფრანგულ ექსპონატთან და გამოიყენო აუდიოგიდი",
+        "გამოსვლისას ის მაღაზიაში საჩუქარს იყიდა და შინ დაბრუნდა"
+      ],
+      "explanation": "რიგითაა: ბილეთის ყიდვა, მუზეუმის დათვალიერება, აუდიოგიდით გაჩერება კონკრეტულ экспონატზე, გამოსვლა და საჩუქრის შეძენა."
+    },
+    {
+      "id": "comprehension_order-b1-gen-011",
+      "title": "პიკის საათი და ავტობუსი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 11,
+      "text": "დილით ნიკამ გამოეღვიძა, როდესაც საათმა შვიდი დარეკა. მას სწრაფად უნდა მოსულიყო სამსახურში, ამიტომ მან ყავა მოწია და სწრაფად ჩაიცვა. რვის ნახევარზე, ის სახლის გზიდან ქუჩაში გავიდა და ავტობუსის გაჩერებისკენ დაიძრა. ავტობუსი უკვე იქ იყო, მაგრამ ხმისამოვლებელმა ქალმა თქვა, რომ გაჩერება სრულად დატვირთული იყო. ნიკამ თბილად გაუღიმა მძღოლს და შემდეგ მშვიდად მოითმინა მომდევნო ავტობუსისთვის. ერთხელაც მისკენ მეორე ავტობუსი მოადგა და მან ადგილიდან ისხდა, შემდეგ სამსახურში მისვლამდე მუშაობის გეგმას გაიაზრა.",
+      "events": [
+        "Le réveil sonne à 7 heures.",
+        "Nika boit un café et s'habille rapidement pour aller au travail.",
+        "À 8h30, il quitte la maison et marche vers l'arrêt de bus.",
+        "Le premier bus est plein et il attend le suivant.",
+        "Un deuxième bus arrive et il monte pour aller au travail."
+      ],
+      "explanation": "L'ordre suit la chronologie de la matinée : réveil, préparation, départ, rencontre d'un bus plein, puis montée dans le deuxième bus."
+    },
+    {
+      "id": "comprehension_order-b1-gen-012",
+      "title": "შენობა და ავარიული დილით",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 12,
+      "text": "დღეს დილით სოფელში ძლიერი ქვის ნგრევა მოხდა, როცა მშენებელმა გუნდი შენობას ამოღვაწა. სამშენებლო სამუშაოების დაწყებამდე ყველა მუშა შეიკრიბა და უსაფრთხოების ინსტრუქციები მოისმინა. სამუშაოები სწრაფად წარიმართა, მაგრამ ორი საათში ხმაური გაისმა და ერთი მხარე ჩამოიშალა. პასუხისმგებელმა მა მანქანა შეაჩერა და სასწრაფოდ ყველა დამუშავდა შენობიდან. დაშავებული არ იყო, მაგრამ ჯგუფი შოკში დარჩა და შემდეგ მათ დემონტაჟის გეგმა მოაწყეს უსაფრთხოების გასაძლიერებლად.",
+      "events": [
+        "Les ouvriers se rassemblent pour recevoir des consignes de sécurité avant de commencer.",
+        "Ils commencent les travaux de construction.",
+        "Après deux heures, une partie du bâtiment s'effondre.",
+        "Le responsable arrête les machines et évacue tout le monde.",
+        "Le groupe met en place un plan pour démonter et sécuriser le bâtiment."
+      ],
+      "explanation": "L'ordre suit le déroulement du chantier : réunion, début du travail, effondrement, évacuation, puis décision de sécurisation."
+    },
+    {
+      "id": "comprehension_order-b1-gen-013",
+      "title": "ბაღში ახალი მცენარე",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 13,
+      "text": "პრობა ბაღში ახალი მცენარე შეიძინა და დილით გადაწყვიტა ის დარგო. მან მიწა მოამზადა, ძველი ბალახი ამოიღო და კენჭები შეკრიბა. შუადღით მან პატარა ხვრელი ამოთხარა და მცენარე ფრთხილად ჩასვა. შემდეგ ნატრიკი და წყალი დაასხა მცენარეს, რომ ძირები კარგად ჩაებარებინათ. საღამოს, მოსვლისას მან ისევ შეამოწმა მიწა და დაადგინა, რომ მცენარე კარგად გამოიყურებოდა და საჭირო იყო კიდევ ერთი რწყილი კვირაში.",
+      "events": [
+        "Prôba prépare la terre en enlevant les mauvaises herbes et en retirant les pierres.",
+        "Elle creuse un trou à midi et plante la nouvelle plante.",
+        "Elle arrose la plante immédiatement après la plantation.",
+        "Le soir, elle vérifie que la plante est en bon état et décide du prochain arrosage."
+      ],
+      "explanation": "Les étapes suivent l'ordre logique du jardinage : préparation du sol, plantation, arrosage initial puis contrôle le soir."
+    },
+    {
+      "id": "comprehension_order-b1-gen-014",
+      "title": "ბიბლიოთეკა და დავიწყებული წიგნი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 14,
+      "text": "გიორგიმ ბიბლიოთეკაში ახალი წიგნი მოითხოვა და იჯარით სახლში წაიყვანა. საღამოს კითხვის შემდეგ მან წიგნი მაგიდაზე ჩააბარა და დაძინებამდე ჩარეცხა. დილით სწრაფად წავიდა უნივერსიტეტში და წიგნი ავიწყდა სახლში. ვახტანგმა, მისი მეგობარმა, სახლში მივიდა საეჭვოდ და წიგანი ნახა მაგიდაზე. მეორე დღეს გიორგი აღელვებული მაინც ბიბლიოთეკაში მივიდა, რადგან წიგნი დროში დააბრუნოს. ვახტანგმა მოაყენა მეგობრის ტელეფონით და უთხრა, რომ წიგნი სახლში იყო, და გიორგი დაგვიანებით იმავე დღეს სახლში დაბრუნდა, რათა სიტყვიერად დააბრუნოს წიგნი.",
+      "events": [
+        "Giorgi emprunte un livre à la bibliothèque et le ramène chez lui.",
+        "Après la lecture du soir, il le pose sur la table puis part à l'université le lendemain matin.",
+        "Il oublie le livre à la maison.",
+        "Vakhang découvre le livre sur la table lorsqu'il vient chez Giorgi.",
+        "Vakhang appelle Giorgi pour lui dire que le livre est à la maison, et Giorgi rentre le soir pour le rendre."
+      ],
+      "explanation": "Ordre chronologique : emprunt, oubli, découverte par un ami, appel et retour pour rendre le livre."
+    },
+    {
+      "id": "comprehension_order-b1-gen-015",
+      "title": "ქალაქში პირველი პიკნიკი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 15,
+      "text": "მარიამს და ლელას ქალაქში პიკნიკი დაერგათ ახალი პარკის გახსნისთანავე. ისინი ადრე მივიდნენ და ირგვნენ საბნებს ხის ჩრდილში. ორ საათში მეგობრებმა საჭმელი გაშალეს, ხაჭაპური და სალათი მიირთვეს და საუბარი დაიწყეს. ჰაერი თბილი იყო, მაგრამ მოულოდნელად მცირე ესნაამოვლება წამოვიდა და ისინი ჭრილები სწრაფად ააბრუნეს. ბოლოს ამასთანავე მზით ვთხოვეს სახლში და მოგვიანებით დალპეფონობდნენ საღამოს ფილმს ერთად.",
+      "events": [
+        "Mariam et Lela arrivent tôt au nouveau parc et installent leur couverture à l'ombre d'un arbre.",
+        "Après deux heures, elles sortent le repas et mangent ensemble.",
+        "Un petit vent se lève et elles rangent rapidement leur pique-nique.",
+        "Elles rentrent à la maison et regardent un film le soir."
+      ],
+      "explanation": "Le récit suit la journée : arrivée, repas, perturbation par le vent, puis retour et activité du soir."
+    },
+    {
+      "id": "comprehension_order-b1-gen-016",
+      "title": "სწავლის დღე და გამოცდა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 16,
+      "text": "პაატამ გამოცდაზე ჩასაწერი მოამზადა მთელი კვირა. გამოცდის დილას ის ადრე გაიღვიძა და დეტალებს კიდევ ერთხელ წაიკითხა. სასწავლო ცენტრში მისვლის შემდეგ მან რეესტრაციის დოკუმენტი ჩააბარა და ოთახში შევიდა. გამოცდის შუა პერიოდში მან ცოტა გაჭირვება იგრძნო რთული შეკითხვების გამო, მაგრამ არ დატოვა ფურცელი. ბოლოს დროზე დასრულდა და პასუხები ჩაბარდა კონტროლიორს. საღამოს მან პოზიტიურად განიხილა, რომ რამდენიმე კითხვა კარგად ვერ გამოსცადა, მაგრამ ზოგადად კარგად მიიღო გამოცდილება.",
+      "events": [
+        "Paata révise les détails une dernière fois le matin de l'examen.",
+        "Il arrive au centre d'examen et remet son document d'inscription.",
+        "Pendant l'examen, il rencontre des questions difficiles mais continue.",
+        "Il termine à temps et rend ses réponses au surveillant."
+      ],
+      "explanation": "L'ordre suit la journée d'examen : révision matinale, arrivée et inscription, déroulement difficile puis remise des copies."
+    },
+    {
+      "id": "comprehension_order-b1-gen-017",
+      "title": "ბლოგი და პირველი დაწერა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 17,
+      "text": "სკოლიდან გამოსვლის შემდეგ ელენემ გადაწყვიტა გამოეყენებინა თავისი საკამათო იდეები და ბლოგი დაიწყოს. მან სახლში კომპიუტერი ჩართო და დღის თემატიკაზე ჩანახატი დაწერა. შემდეგ მასმა დაქალმა გადახედა და რამდენიმე რჩევა მისცა სტილის შესახებ. საღამოს ელენე საბოლოო ტექსტს გამოაქვეყნა და სოციალური ქსელებში მეგობრებს გაუზიარა. მეორე დღეს ბლოგმა რამდენიმე კომენტარი და მოწონება მიიღო, რის გამოც ელენემ ახალი პოსტის დაწერა დღესვე გადაწყვიტა.",
+      "events": [
+        "Elene écrit un brouillon sur son ordinateur après l'école.",
+        "Son amie relit le texte et lui donne des conseils de style.",
+        "Elene publie le texte le soir et le partage sur les réseaux.",
+        "Le lendemain, le blog reçoit des commentaires et des likes, ce qui l'encourage à écrire un nouveau post."
+      ],
+      "explanation": "L'ordre suit la création d'un article : rédaction, relecture et conseils, publication, puis réaction des lecteurs le lendemain."
+    },
+    {
+      "id": "comprehension_order-b1-gen-018",
+      "title": "მაიას მოგზაურობა მთებში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 18,
+      "text": "მაია გეგმავდა მთებში სამ დღიან ტურს და პირველი დღეს ადრიანად დაიწყო გზა. მან მანქანით ეყო მთისკენ და შუადღით ბენდერაში გააჩერა პიკნიკისთვის. მეორე დღეს მან ლაშქრობა დაიწყო მწვერვალისკენ და ეკლიანი გზა ნელ-ნელა მოიკვლია. ღამით სასტონში დაბრუნდა, სადაც მეგობრები უკვე ელოდნენ და ჯანსაღად ივახშმეს. ბოლო დღეს, დაბრუნებისას, მან გზაზე ფოტოები გადაუღო და სახლისკენ მშვიდად გაფრინდა.",
+      "events": [
+        "Maya part tôt en voiture pour les montagnes.",
+        "À midi, elle s'arrête pour un pique-nique dans la vallée.",
+        "Le deuxième jour, elle fait une randonnée vers le sommet.",
+        "Ils retournent à l'auberge le soir pour dîner avec des amis.",
+        "Le dernier jour, elle prend des photos sur la route du retour et rentre chez elle."
+      ],
+      "explanation": "La narration suit le voyage : départ, pause pique-nique, randonnée le lendemain, retour à l'auberge, puis retour final à la maison."
+    },
+    {
+      "id": "comprehension_order-b1-gen-019",
+      "title": "თემატური შეხვედრა ოფისში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 19,
+      "text": "ოფისში თანამშრომლებმა თვეში ერთხელ თემატური შეხვედრა მოაწყეს, და ამჯერად საკითხის განსახილველად ფორმატი შეიცვალა. შეხვედრის დაწყებიდან પહેલા, ორგანიზატორებმა დრესონორები მოიმაგრეს და საქმის დღის წესრიგი განაწილდა. პრეზენტაციები შუა ნაწილში გაიმართა, სადაც რამდენიმე კოლეგამ საკუთარ იდეებზე ისაუბრა. შეხვედრის ბოლოს კითხვა-პასუხის სესიაც გაიმართა, სადაც კომენტარები და შესთავაზებები აღინიშნა. მერე გუნდმა გადაწყვიტა შეაეწყოს შემდეგი კვირის მსხვილ პროექტზე და შეხვედრა შეწყდა.",
+      "events": [
+        "Les organisateurs préparent la salle et distribuent l'ordre du jour avant la réunion.",
+        "La réunion commence et des présentations ont lieu au milieu.",
+        "Pendant la session, plusieurs collègues présentent leurs idées.",
+        "À la fin, il y a une session de questions-réponses avec commentaires.",
+        "L'équipe conclut en décidant de coordonner le grand projet de la semaine suivante."
+      ],
+      "explanation": "Ordre logique d'une réunion : préparation, début et présentations, échanges, puis décisions finales."
+    },
+    {
+      "id": "comprehension_order-b1-gen-020",
+      "title": "შუადღე ბაზარში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 20,
+      "text": "შუადღისას ივანეს მოენატრა ახალი ხილი, ამიტომ იგი ახლომდებარე ბაზარში გამოვიდა. მან სიაში შემოწმებულმა firstიმიდან საჭირო ნივთები მოძებნა და მოვაჭრეებთან ფასი შეკამათა. ნახევარზე, მან საჭმლის მზარეულისთვის შაქარი და ახალი ბოსტნეული იყიდა. წამში კი მეღებისგან მიიღო შესანიშნავი რეკომენდაცია და ახალი რეჟისურა საცხოვრებლად. უკან დაბრუნებისას მან სახლში ყველაფერი მოათავსა და სამზარეულოში ახალი კერძის მომზადება დაიწყო.",
+      "events": [
+        "Ivan va au marché à midi pour acheter des fruits.",
+        "Il cherche les articles de sa liste et négocie les prix avec les vendeurs.",
+        "À la moitié du marché, il achète du sucre et des légumes pour le cuisinier.",
+        "Il reçoit un bon conseil d'un vendeur et rentre chez lui.",
+        "De retour, il range les achats et commence à préparer un nouveau plat en cuisine."
+      ],
+      "explanation": "L'ordre suit le trajet au marché : départ, achats et négociations, achats supplémentaires, conseil reçu, puis retour et préparation du repas."
+    },
+    {
+      "id": "comprehension_order-b1-gen-031",
+      "title": "შესაცვლელი ავტობუსი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 31,
+      "text": "დილას ელენე ადრე გაიღვიძა, რადგან სამსახურში უნდა მიეღწია. როდესაც მზის პირველი სხივები შუშის ფარდაში ირეკლებოდა, მან ყავა მოამზადა და სწრაფად საუზმე შეჭამა. საათს უყურებდა და მიხვდა, რომ ჩვეულებრივი ავტობუსი ჩამოტოვებული იქნებოდა, ამიტომ ფეხით სამი გაჩერება გაიარა მეტროსკენ. მეტროში ბილეთი იყიდა და მუშაობის ქუჩაზე გადავიდა. ოფისში შეხვალისას დირექტორი უკვე მისულიყო და შეხვედრა დაიწყო, ამიტომ ელენემ თავისი ლეპტოპი სწრაფად გახსნა და მოხსენების ბოლოსწინ მომზადება დაიწყო.",
+      "events": [
+        "Élène se réveille tôt le matin pour aller au travail.",
+        "Elle prépare et prend rapidement son petit-déjeuner.",
+        "Voyant qu'elle risquait de rater le bus, elle marche jusqu'au métro.",
+        "Elle achète un ticket et descend à la station proche du travail.",
+        "Elle arrive au bureau et ouvre son ordinateur alors que la réunion a déjà commencé."
+      ],
+      "explanation": "L'ordre suit la chronologie: réveil, préparation, décision face au bus, trajet en métro, puis arrivée au bureau et début du travail."
+    },
+    {
+      "id": "comprehension_order-b1-gen-032",
+      "title": "პარკში პიკნიკი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 32,
+      "text": "შვეიკამ და მარიამ იშვიათად ნახეს ერთმანეთს, ამიტომ აპირებდნენ პარკში პიკნიკს. შუადღისთვის მზიანი და თბილი იყო, ისინი ყვავილოვ და ნაჭრის ხალიჩით მოვიდნენ. ჯერ სალათებს და სნეკებს გაშალეს, შემდეგ კი ჩაის და მჟავე ნამცხვარზე გადახტნენ. ბავშვები ბურთით სათამაშოდ გავიდნენ, ამიტომ შვეიკა წიგნით ჩარჩა ჩრდილში. საღამოს, როდესაც მზე ჩადიოდა, მეგობრებმა ჭურჭელი და ნაგავი შეაგროვეს და შინ დაბრუნდნენ.",
+      "events": [
+        "Ils se retrouvent au parc pour un pique-nique l'après-midi.",
+        "Ils installent la nappe, les salades et les snacks.",
+        "Ils servent le thé et le gâteau.",
+        "Les enfants vont jouer au ballon pendant que Shveika lit à l'ombre.",
+        "Au coucher du soleil, ils rangent et rentrent chez eux."
+      ],
+      "explanation": "Les étapes suivent le déroulement d'un pique-nique: arrivée, installation, repas, activités, rangement et départ au coucher du soleil."
+    },
+    {
+      "id": "comprehension_order-b1-gen-033",
+      "title": "ახალი რესტორანი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 33,
+      "text": "თაზო და ნინო ახალ რესტორანს გაუწიეს რეკომენდაცია მეგობრებმა, ამიტომ გადაწყვიტეს გასეირნება და საღამოს იქ ვახშამი მიეღოთ. ჭეშმარიტად, ადგილი პოპულარული გახდა: მათ დაბოლილი მენიუ და გემრიელი კერძები მოეწონათ. საჭმლის შემდეგ ხელი მოიკიდეს და მოკლედ პარკში გაიარეს. წავიდნენ სახლში, მაგრამ გზაში ნინოს ტელეფონმა დაძროლა: კოლეგამ მალე ახალი პროექტისთვის დახმარება სთხოვა. იმავე ღამეს ნინო მოკლე წერილობით უპასუხა და დასაძინებლად წავიდა.",
+      "events": [
+        "Ils décident d'aller dîner dans un nouveau restaurant sur recommandation d'amis.",
+        "Ils consultent le menu et goûtent plusieurs plats.",
+        "Après le repas, ils se promènent brièvement dans le parc.",
+        "En rentrant, Nino reçoit un message pour aider sur un projet.",
+        "Nino répond rapidement par message avant d'aller se coucher."
+      ],
+      "explanation": "Ordre chronologique: décision de dîner, repas, promenade, réception du message sur le chemin du retour, réponse puis coucher."
+    },
+    {
+      "id": "comprehension_order-b1-gen-034",
+      "title": "ვიქტორინას მომზადება",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 34,
+      "text": "მიშამ უნივერსიტეტის მეორე სემესტრისთვის ვიქტორინაზე დასწრება გადაწყვიტა. ჯერ მან სხდომები დახვედრა და კითხვის თემებს შესწავლა. შემდეგ ის მეგობრებთან ჯგუფურად მოიკითხა, რათა რთული რეონვები აეხსნა. ვიქტორინის წინ ღამით ცოტა რამ გამოიკითხა და ცდების კითხვებზე მკაფიო პასუხები დაწერა. დასასრულს, გამოცდის დღეს მშვიდად ჩავიდა ლექტორთან და წარმატებით ჩააბარა გამოცდა.",
+      "events": [
+        "Misha décide de participer à un quiz pour le deuxième semestre.",
+        "Il étudie d'abord les sujets et prépare les questions.",
+        "Ensuite il révère les notions difficiles en groupe avec des amis.",
+        "La veille, il révise quelques points et rédige des réponses claires.",
+        "Le jour de l'examen il se présente calmement et réussit le test."
+      ],
+      "explanation": "Suit la progression d'une préparation: décision, étude individuelle, révision en groupe, révision finale puis passage et réussite de la quiz."
+    },
+    {
+      "id": "comprehension_order-b1-gen-035",
+      "title": "სავარძელი მეზობელთან",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 35,
+      "text": "ნიკოლოზს ახალი სავარძელი სჭირდებოდა, ამიტომ იმ დღეს ბაზრობაზე წავიდა. იქ ნახა ბევრი მოდელი, მაგრამ ერთმა მას უფრო მოეწონა — კომფორტული და იაფი. მან რამდენიმე საათი მოილაპარაკა გამყიდველთან ფასზე და გადაუწყვიტა, რომ საბარგულში არ ეტეოდა. ამიტომ მეზობელს, რომელიც მანქანას ფლობდა, დახმარება სთხოვა და მალე მათთან ერთად უკან დაბრუნდა. საღამოს ახალი სავარძელი მის სახლში მიიტანეს და ნიკოლოზმა აწესრიგა მის მისაღებში.",
+      "events": [
+        "Nikoloz va au marché pour acheter un fauteuil.",
+        "Il trouve un modèle confortable et négocie le prix avec le vendeur.",
+        "Comme le fauteuil ne rentre pas dans son coffre, il demande l'aide d'un voisin motorisé.",
+        "Ils retournent ensemble pour transporter le fauteuil.",
+        "Le soir, le fauteuil est livré à la maison et Nikoloz le place dans le salon."
+      ],
+      "explanation": "Chronologie: achat au marché, négociation, problème de transport, demande d'aide au voisin, transport et installation à la maison."
+    },
+    {
+      "id": "comprehension_order-b1-gen-036",
+      "title": "უცნობი წერილი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 36,
+      "text": "საშინელო დღეს ლიკა ფოსტაში გაუჩერებლად მიიღო უცნაური კონვერტი: ხელი არ გაუფრთხილდა მიმღებს და უცნობი პირის ხელმოწერით იყო. მან კონვერტი სახლამდე მიჰქონდა და ოფისში არ გახსნიდა, რადგან ეშინოდა შეცდომის. საღამოს სახლში მშვიდად შეუკვეთა ტელეფონით მათი ნომრის გამოჩენა და, ბოლოს, მეგობრის რჩევით, კონვერტი გახსნა. შიგნით ძველი ფოტოსურათი და მოკლე სარეკომენდაციო ბარათი იყო — მემკვიდრის წერილი, რომელიც დარჩენილი იყო მის ბაბუას. მან მოიკითხა სამოქალაქო რეესტრში და გაიგო ოჯახური ამბავი.",
+      "events": [
+        "Lika reçoit un étrange courrier sans destinataire précis.",
+        "Elle ramène l'enveloppe chez elle mais hésite à l'ouvrir au travail.",
+        "Le soir, après avoir cherché le numéro et consulté une amie, elle décide d'ouvrir l'enveloppe.",
+        "Elle trouve une vieille photo et une note indiquant un héritage lié à son grand-père.",
+        "Elle vérifie ensuite les informations au registre civil et apprend l'histoire familiale. "
+      ],
+      "explanation": "Suit la découverte: réception du courrier, hésitation à l'ouvrir, décision le soir, découverte du contenu, vérification officielle et révélation familiale."
+    },
+    {
+      "id": "comprehension_order-b1-gen-037",
+      "title": "ვარჯიში და მეგობრები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 37,
+      "text": "ანდრია ყოველდღე მოულოდნელად ირჯულებდა ძილის შემდეგ სპორტულ დარბაზში წასასვლელად. ერთი კვირა მან სპორტული კლუბის აბონემენტი იყიდა და შემდეგ ყველას მოუწოდა რომ შეეუერთებინათ. პირველ დღეს მხოლოდ ორი მეგობარი მოვიდა, მაგრამ დროთა განმავლობაში ჯგუფი დიდხანს გაიზარდა. ტრენინგებზე ისინი ერთად ერთმანეთის შედეგებს აფასებდნენ და კვირის ბოლოს ექსკურსიაზე ერთად წასასვლაზე შეთანხმდნენ. საბოლოოდ, სპორტის და კომპანიის წყალობით, მათი ურთიერთობა მყარდა.",
+      "events": [
+        "Andria achète un abonnement au club de sport après une période d'hésitation.",
+        "Il invite ses amis à rejoindre les entraînements.",
+        "Au début, seuls deux amis viennent.",
+        "Progressivement le groupe s'agrandit et ils évaluent ensemble leurs progrès.",
+        "À la fin de la semaine ils organisent une sortie en groupe, renforçant leur amitié."
+      ],
+      "explanation": "Ordre logique: inscription, invitation, début modeste, augmentation régulière de participants, puis sortie collective qui renforce les liens."
+    },
+    {
+      "id": "comprehension_order-b1-gen-038",
+      "title": "წვიმის შემდეგ",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 38,
+      "text": "ძლიერი წვიმა ატყდა შუადღით, ქუჩები წყლით აივსო და ტროტუარები ჩაკეტილიყო. მაკა სამსახურში არ მივიდა, რადგან სამარშრუტო ტელეფონმა მას შეტყობინება გაუგზავნა —-ზეავდრეკა ტრანსპორტი შეფერხებით. მან სახლში დარჩა და ფანჯრიდან გარესამყარო თვალიერება, შემდეგ წიგნი აიღო და ჩაი დალია. საღამოს, როდესაც წყალდიდობა გაქრა და ქუჩები გაიწმინდა, მან მეგობარს დარეკა და ერთად ყავის დასალევად მთლიანად შევიდნენ კაფეში.",
+      "events": [
+        "Une forte pluie inonde les rues à midi.",
+        "Maka ne peut pas aller au travail à cause des perturbations des transports.",
+        "Elle reste à la maison, regarde dehors, lit un livre et boit du thé.",
+        "Le soir, quand l'eau se retire et les rues sont nettoyées, elle appelle une amie.",
+        "Elles vont ensemble prendre un café au café local."
+      ],
+      "explanation": "Chronologie: l'événement météo, conséquence sur le trajet, décision de rester et activités à la maison, amélioration en soirée et sortie avec une amie."
+    },
+    {
+      "id": "comprehension_order-b1-gen-039",
+      "title": "ბაღიდან ყვავილები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 39,
+      "text": "თინათინი საკუთარ ბაღში ახალ ყვავილებს აყვანდა გაზაფხულის დასაწყისში. სანამ ნარგავებს დარგავდა, მან ნიადაგი შემოწმდა და სასუქი დაამატა. დარგვის შემდეგ თინათინმა ყველა მცენარეს ხელი შეაყენა და დღეში რამდენჯერმე გააორო. რამდენიმე კვირაში ყვავილები გახსნილა და მეზობლებსაც მოეწონათ. ბოლოს, თინათინმა მოჰყავს ჭურჭელი და გარშემო სივრცე დალაგდა, რათა გაზაფხულის საღამოებში სტუმრები მიეღო.",
+      "events": [
+        "Tinatin prépare la terre et ajoute de l'engrais dans son jardin au début du printemps.",
+        "Elle plante ensuite les nouvelles fleurs.",
+        "Elle arrose et entretient régulièrement les plantes chaque jour.",
+        "Quelques semaines plus tard, les fleurs s'ouvrent et plaisent aux voisins.",
+        "Enfin, elle nettoie l'espace et prépare le jardin pour recevoir des invités."
+      ],
+      "explanation": "Suite naturelle: préparation du sol, plantation, entretien quotidien, floraison après semaines, puis nettoyage et accueil des invités."
+    },
+    {
+      "id": "comprehension_order-b1-gen-040",
+      "title": "კარგი სურათი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 40,
+      "text": "პეტრიმ ახალი კამერა მიიღო დაბადების დღეზე და გადაწყვიტა ქალაქში ფოტოსესია გაეტარებინა. დილით მან ადგილები დაასწრო, კარგი სინათლისთვის იყო დასაწყისი. მან ქუჩებთან გამავალ ქუჩებს ესხივა და სხვადასხვა მოედნებსა და შენობებზე სურათები გადაიღო. შუადღის საიტზე პეტრიმ ფოტოები დაამუშავა და რამდენიმე დაწერა სოციალურ ქსელში. საღამოს მისი სურათები მეგობრებმა მოიხიბლნენ და მას ღვაწლი გამოგზავნეს — მათ უმკაცრესად შეადარეს პეტრის შემოქმედება.",
+      "events": [
+        "Petri reçoit un nouvel appareil photo pour son anniversaire et décide de faire une séance photo en ville.",
+        "Le matin il repère des lieux pour obtenir une bonne lumière.",
+        "Il prend des photos des rues, places et bâtiments.",
+        "À midi il retouche ses photos et en publie quelques-unes sur les réseaux sociaux.",
+        "Le soir ses amis apprécient les photos et lui envoient des compliments."
+      ],
+      "explanation": "Ordre: réception du cadeau, repérage le matin pour la lumière, prise des photos, retouches et publication à midi, puis réactions des amis le soir."
     }
   ]
 }

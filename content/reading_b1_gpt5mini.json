@@ -1,0 +1,59 @@
+{
+  "cefr": "B1",
+  "items": [
+    {
+      "id": "reading_guided-b1-gen-002",
+      "version": 2,
+      "level": 3,
+      "cefr": "B1",
+      "level_name": "A2",
+      "text": "მე ვაპირებ შაბათ-კვირას მთაში წასვლას. მეგობრები ჩემთან ერთად მოდიან. ჩვენ გავიდით ადრე და ავივლით ახალ საძილე ადგილს. საღამოს კი ცეცხლს მოვუხდი და ვილაპარაკებთ.",
+      "question": "Que vont faire les personnes le soir pendant le week-end selon le texte ?",
+      "options": [
+        "Ils vont regarder la télévision.",
+        "Ils vont allumer un feu et discuter.",
+        "Ils vont dormir tout de suite.",
+        "Ils vont visiter un musée."
+      ],
+      "answer": "Ils vont allumer un feu et discuter.",
+      "translation": "J'ai l'intention d'aller à la montagne ce week-end. Des amis viennent avec moi. Nous partirons tôt et explorerons un nouvel endroit pour dormir. Le soir, j'allumerai un feu et nous discuterons.",
+      "explanation": "Le texte dit «საღამოს კი ცეცხლს მოვუხდი და ვილაპარაკებთ» qui signifie qu'ils allumeront un feu et parleront le soir; aucune mention de télévision, de dormir immédiatement ou de musée."
+    },
+    {
+      "id": "reading_guided-b1-gen-003",
+      "version": 3,
+      "level": 3,
+      "cefr": "B1",
+      "level_name": "B1",
+      "text": "გუშინ სოფლის ბაზარზე wallet დავრჩა. დავბრუნდი станцииზე, მაგრამ ვერ ვიპოვნე. მეორე დღეს მაღაზიის მეპატრონემ დამირეკა და მითხრა, რომ მიისწრაფე ჩემთვის დაკარგული ნივთი. When I arrived, he handed me the wallet with all the cards inside. მე ძალიან გავახარე და მადლობა გადავუხადე.",
+      "question": "Selon le récit, qui a retrouvé le portefeuille ?",
+      "options": [
+        "Un ami du narrateur.",
+        "Le propriétaire du magasin.",
+        "Le conducteur du train.",
+        "La police du village."
+      ],
+      "answer": "Le propriétaire du magasin.",
+      "translation": "Hier, j'ai perdu mon portefeuille au marché du village. Je suis retourné à la gare, mais je n'ai pas réussi à le retrouver. Le lendemain, le propriétaire du magasin m'a appelé et m'a dit qu'il avait trouvé mon objet perdu. Quand je suis arrivé, il m'a remis le portefeuille avec toutes les cartes à l'intérieur. J'étais très heureux et je l'ai remercié.",
+      "explanation": "Le texte indique «მაღაზიის მეპატრონემ დამირეკა» et ensuite «he handed me the wallet», donc c'est le propriétaire du magasin qui a retrouvé et rendu le portefeuille."
+    },
+    {
+      "id": "reading_guided-b1-gen-004",
+      "version": 4,
+      "level": 3,
+      "cefr": "B1",
+      "level_name": "B2",
+      "text": "მთელი წლის განმავლობაში ლექტორმა სამი სხვადასხვა შეთავაზება მიიღო. პირველის შემთხვევაში სამუშაო საათები დააბრკოლებდნენ პირად ცხოვრებას, ხოლო მეორე ძალიან მაღალი ხელფასით მოდიოდა, მაგრამ პროექტი არ შეესაბამებოდა მის საკვლევ ინტერესებს. საბოლოოდ ის უარს თქვა ორივეზე, რადგან უწესდებოდა პრიორიტეტი პროფესიულ თავისუფლებას და მესამეში ჰქონდა შესაძლებლობა მასწავლებლობა მოქნილი გრაფიკით. ამიტომ მან აირჩია მესამე სამსახური და იმედი აქვს, რომ მომავალში შეძლებს საკუთარი კვლევების გაგრძელებას.",
+      "question": "Pourquoi la personne a-t-elle refusé la deuxième offre ?",
+      "options": [
+        "Parce que le salaire était trop bas.",
+        "Parce que l'emploi ne correspondait pas à ses intérêts de recherche.",
+        "Parce que les horaires auraient gêné sa vie personnelle.",
+        "Parce que le troisième poste était déjà accepté."
+      ],
+      "answer": "Parce que l'emploi ne correspondait pas à ses intérêts de recherche.",
+      "translation": "Pendant toute l'année, le professeur a reçu trois offres différentes. Dans le premier cas, les horaires auraient perturbé la vie personnelle, tandis que la deuxième venait avec un salaire très élevé, mais le projet ne correspondait pas à ses intérêts de recherche. Finalement il a refusé les deux, car il donnait la priorité à la liberté professionnelle et dans la troisième il avait la possibilité d'enseigner avec un horaire flexible. C'est pourquoi il a choisi le troisième poste et il espère pouvoir poursuivre ses propres recherches à l'avenir.",
+      "explanation": "Le texte précise que la deuxième offre avait un salaire élevé mais «პროექტი არ შეესაბამებოდა მის საკვლევ ინტერესებს», donc il a refusé parce que le projet ne correspondait pas à ses intérêts de recherche."
+    }
+  ]
+}

@@ -112,6 +112,352 @@
         "მინისტრმა განაცხადა, რომ კრიტიკის მიუხედავად რეფორმა უცვლელი დარჩება მანამ, სანამ ეკონომიკური პირობები ხელსაყრელად არ შეიცვლება."
       ],
       "note": "Discours rapporté avec concession (« malgré les critiques ») et subordonnée temporelle exprimant la condition temporelle (« tant que... ne... pas »)."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-011",
+      "fr": "Explique-moi pourquoi tu as choisi ce métier.",
+      "ka": "შემიხსენი, რატომ აირჩიე ეს პროფესია?",
+      "answers": [
+        "შემიხსენი, რატომ აირჩიე ეს პროფესია?",
+        "შემიხსენი რატომ აირჩიე ეს პროფესია?"
+      ],
+      "note": "Impératif direct «შემიხსენი» + question; variante possible sans virgule.",
+      "cefr": "B2",
+      "version": 11
+    },
+    {
+      "id": "dictation_sentences-b2-gen-012",
+      "fr": "Même si le projet échoue, nous aurons appris beaucoup de choses.",
+      "ka": "თუ პროექტი ჩავარდება, ჩვენ ბევრს ვისწავლით მაინც.",
+      "answers": [
+        "თუ პროექტი ჩავარდება, ჩვენ ბევრს ვისწავლით მაინც.",
+        "თუ პროექტი ჩავარდა, ჩვენ ბევრს ვისწავლით მაინც."
+      ],
+      "note": "Concession exprimée par «თუ ... ჩავარდება» et adverbe «მაინც» ; deux formes temporelles acceptables du verbe.",
+      "cefr": "B2",
+      "version": 12
+    },
+    {
+      "id": "dictation_sentences-b2-gen-013",
+      "fr": "Je lui ai dit que je préférerais commencer la réunion par une courte présentation.",
+      "ka": "ვუთხარი, რომ მერჩივნა შეხვედრის დაწყება მოკლე პრეზენტაციით.",
+      "answers": [
+        "ვუთხარი, რომ მერჩივნა შეხვედრის დაწყება მოკლე პრეზენტაციით.",
+        "ვუთხარი, რომ მერჩივნა შეხვედრა დაწყებულიყო მოკლე პრეზენტაციით."
+      ],
+      "note": "Discours rapporté avec «ვუთხარი, რომ...» et deux formulations acceptables pour l'infinitif/subjonctif.",
+      "cefr": "B2",
+      "version": 13
+    },
+    {
+      "id": "dictation_sentences-b2-gen-014",
+      "fr": "Il faut prendre en compte les différences culturelles lorsque l'on communique à l'étranger.",
+      "ka": "უკეთ უნდა იქნას გათვალისწინებული კულტურული განსხვავებები უცხოური კომუნიკაციის დროს.",
+      "answers": [
+        "უკეთ უნდა იქნას გათვალისწინებული კულტურული განსხვავებები უცხოური კომუნიკაციის დროს.",
+        "კულტურული განსხვავებების გათვალისწინება საჭიროა უცხოეთში კომუნიკაციისას."
+      ],
+      "note": "Deux formulations idiomatiques : passive impersonnelle et substantivée.",
+      "cefr": "B2",
+      "version": 14
+    },
+    {
+      "id": "dictation_sentences-b2-gen-015",
+      "fr": "Elle a réussi à convaincre le conseil malgré ses réserves initiales.",
+      "ka": "მან შეძლო საბჭოს დარწმუნება მისი თავდაპირველი ეჭვების მიუხედავად.",
+      "answers": [
+        "მან შეძლო საბჭოს დარწმუნება მისი თავდაპირველი ეჭვების მიუხედავად.",
+        "ის შეძლო საბჭოს დარწმუნება მისი თავდაპირველი ეჭვების მიუხედავად."
+      ],
+      "note": "Construction «სკვლო ... დარწმუნება» + locution concessive «...ს მიუხედავად». Variante du pronom sujet (მან/ის).",
+      "cefr": "B2",
+      "version": 15
+    },
+    {
+      "id": "dictation_sentences-b2-gen-016",
+      "fr": "Nous avons dû reporter la réunion à la dernière minute à cause d'un empêchement imprévu.",
+      "ka": "ჩვენ მოგვიწია შეხვედრის გადადება ბოლო წუთზე გაუთვალისწინებელი შეფერხების გამო.",
+      "answers": [
+        "ჩვენ მოგვიწია შეხვედრის გადადება ბოლო წუთზე გაუთვალისწინებელი შეფერხების გამო.",
+        "შ reunião მიღებული ვარ"
+      ],
+      "note": "Expression de nécessité au passé «ჩვენ მოგვიწია...» et cause exprimée par «...წარმოების გამო».",
+      "cefr": "B2",
+      "version": 16
+    },
+    {
+      "id": "dictation_sentences-b2-gen-017",
+      "fr": "Peux-tu rédiger un résumé en trois phrases qui synthétise les arguments principaux?",
+      "ka": "შეგიძლია დაწერო სამ წინადადებით რეზიუმე, რომელიც შეაჯამებს მთავარ არგუმენტებს?",
+      "answers": [
+        "შეგიძლია დაწერო სამ წინადადებით რეზიუმე, რომელიც შეაჯამებს მთავარ არგუმენტებს?",
+        "შეგიძლიათ დაწეროთ სამ წინადადებიან რეზიუმე, რომელიც შეაჯამებს მთავარ არგუმენტებს?"
+      ],
+      "note": "Formulation interrogative polie ; variante en vouvoiement possible.",
+      "cefr": "B2",
+      "version": 17
+    },
+    {
+      "id": "dictation_sentences-b2-gen-018",
+      "fr": "La transparence et la responsabilité renforcent la confiance entre les institutions et les citoyens.",
+      "ka": "გამჭვირვალობა და ანგარიშვალდებულება ამყარებს ინსტიტუტებსა და მოქალაქეებს შორის ნდობას.",
+      "answers": [
+        "გამჭვირვალობა და ანგარიშვალდებულება ამყარებს ინსტიტუტებსა და მოქალაქეებს შორის ნდობას.",
+        "გამჭვირვალობა და პასუხისმგებლობა აძლიერებს ინსტიტუტებსა და მოქალაქეებს შორის ნდობას."
+      ],
+      "note": "Vocabulaire institutionnel : variantes pour ' responsabilité' (ანგარიშვალდებულება/პასუხისმგებლობა) et verbes synonymes.",
+      "cefr": "B2",
+      "version": 18
+    },
+    {
+      "id": "dictation_sentences-b2-gen-019",
+      "fr": "Si j'avais su, je serais intervenu plus tôt, mais je n'avais pas toutes les informations.",
+      "ka": "თუ მაშინ მეცოდნებოდა, უფრო ადრე გამოვეხმაურებოდი, მაგრამ არ მქონდა სრული ინფორმაცია.",
+      "answers": [
+        "თუ მაშინ მეცოდნებოდა, უფრო ადრე გამოვეხმაურებოდი, მაგრამ არ მქონდა სრული ინფორმაცია.",
+        "თუ მაშინ მცოდნოდა, უფრო ადრე გამოვეხმაურებოდი, მაგრამ არ მქონდა სრული ინფორმაცია."
+      ],
+      "note": "Conditionnel passé exprimé par «თუ ... მეცოდნებოდა ... გამოვეხმაურებოდი» ; deux variantes du verbe 'connaître' au subjonctif.",
+      "cefr": "B2",
+      "version": 19
+    },
+    {
+      "id": "dictation_sentences-b2-gen-020",
+      "fr": "Il faudra que tu t'assures de la conformité des documents avant de les soumettre au service juridique.",
+      "ka": "შენ უნდა დარწმუნდე დოკუმენტების შესაბამისობაში, სანამ მათ სამართლებრივ სამსახურს წარუდგენ.",
+      "answers": [
+        "შენ უნდა დარწმუნდე დოკუმენტების შესაბამისობაში, სანამ მათ სამართლებრივი სამსახურისთვის წარუდგენ.",
+        "შენ უნდა დარწმუნდე დოკუმენტების შესაბამისობაში, სანამ მათ სამართლებრივ სამსახურს წარუდგენ."
+      ],
+      "note": "Obligation exprimée par «უნდა დარწმუნდე» et subordonnée temporelle «სანამ ... წარუდგენ».",
+      "cefr": "B2",
+      "version": 20
+    },
+    {
+      "id": "dictation_sentences-b2-gen-021",
+      "version": 21,
+      "cefr": "B2",
+      "fr": "Avant de partir, il m'a demandé si j'avais confirmé la réservation.",
+      "ka": "გასვლის წინ მან მკითხა, დაჯავშნილი მქონდა თუ არა ოთახი.",
+      "answers": [
+        "გასვლის წინ მან მკითხა, დაჯავშნილი მქონდა თუ არა ოთახი."
+      ],
+      "note": "Construction du discours indirect en géorgien : «მან მკითხა, ... თუ არა» pour rapporter une question."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-022",
+      "version": 22,
+      "cefr": "B2",
+      "fr": "Il faut que tu prennes en compte les différences culturelles lorsque tu travailles à l'étranger.",
+      "ka": "საჭიროა, რომ გაითვალისწინო კულტურული განსხვავებები, როცა უცხოეთში იმუშავებ.",
+      "answers": [
+        "საჭიროა, რომ გაითვალისწინო კულტურული განსხვავებები, როცა უცხოეთში იმუშავებ."
+      ],
+      "note": "Subordonnée finale avec საჭიროება + რომ + subjontif («გაითვალისწინო»)."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-023",
+      "version": 23,
+      "cefr": "B2",
+      "fr": "Elle a expliqué qu'elle n'avait pas voulu blesser son collègue, mais que la situation l'avait dépassée.",
+      "ka": "მან განმარტა, რომ არ უნდოდა კოლეგის დაზიანება, მაგრამ სიტუაცია მისი ძალების მიღმა აღმოჩნდა.",
+      "answers": [
+        "მან განმარტა, რომ არ უნდოდა კოლეგის დაზიანება, მაგრამ სიტუაცია მისი ძალების მიღმა აღმოჩნდა."
+      ],
+      "note": "Rapport d'intention négative et expression de dépassement des capacités («მისი ძალების მიღმა აღმოჩნდა»)."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-024",
+      "version": 24,
+      "cefr": "B2",
+      "fr": "Si j'avais su, je t'aurais appelé plus tôt.",
+      "ka": "თუ წინასწარ მცოდნოდა, ადრე დაგირეკავდი.",
+      "answers": [
+        "თუ წინასწარ მცოდნოდა, ადრე დაგირეკავდი."
+      ],
+      "note": "Conditionnel irréel en géorgien avec «თუ ... მცოდნოდა» + «დაგირეკავდი». (Forme courante pour regrets.)"
+    },
+    {
+      "id": "dictation_sentences-b2-gen-025",
+      "version": 25,
+      "cefr": "B2",
+      "fr": "Le rapport, dont plusieurs sections datent de l'année dernière, nécessite une mise à jour complète.",
+      "ka": "ანგარიში, რომლის რამდენიმე თავი გასულ წელსაა თარიღებული, სრულ განახლებას საჭიროებს.",
+      "answers": [
+        "ანგარიში, რომლის რამდენიმე თავი გასულ წელსაა თარიღებული, სრულ განახლებას საჭიროებს."
+      ],
+      "note": "Relative avec ნაწილი «ისთვის whose» → «რისის» structure: «რისთვის რამდენიმე თავი ... არის თარიღებული». Ici: «რისისი» remodelé en «რისი დამატებით», tournure standard : «რისი რამდენიმე თავი ...»."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-026",
+      "version": 26,
+      "cefr": "B2",
+      "fr": "Malgré les objections, ils ont maintenu leur décision sans en discuter davantage.",
+      "ka": "წინააღმდეგობების მიუხედავად, მათ თავიანთი გადაწყვეტილება არ შეუცვლიათ და საკითხი აღარ განიხილეს.",
+      "answers": [
+        "წინააღმდეგობების მიუხედავად, მათ თავიანთი გადაწყვეტილება არ შეუცვლიათ და საკითხი აღარ განიხილეს."
+      ],
+      "note": "Expression de concession «წინააღმდეგობების მიუხედავად» + passé composé/antérieur («არ შეუცვლიათ», «არ განიხილეს»)."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-027",
+      "version": 27,
+      "cefr": "B2",
+      "fr": "Il a dit : 'Je viendrai demain, sauf si quelque chose d'imprévu se produit'.",
+      "ka": "მან თქვა: „ხვალ მოვალ, თუ არ მოხდა რამე მოულოდნელი.“",
+      "answers": [
+        "მან თქვა: „ხვალ მოვალ, თუ არ მოხდა რამე მოულოდნელი.“",
+        "მან თქვა: „ხვალ მოვალ, თუ რამე მოულოდნელი არ მოხდა.“"
+      ],
+      "note": "Discours direct avec condition («თუ არ მოხდა რამე მოულოდნელი»). Variante acceptable d'ordre des éléments dans la subordonnée conditionnelle."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-028",
+      "version": 28,
+      "cefr": "B2",
+      "fr": "Les start-ups locales bénéficient aujourd'hui d'un soutien financier et d'un mentorat qui n'existaient pas il y a cinq ans.",
+      "ka": "დღეს ადგილობრივი სტარტაპები სარგებლობენ ფინანსური მხარდაჭერითა და მენტორობით, რომელიც ხუთი წლის წინ არ არსებობდა.",
+      "answers": [
+        "დღეს ადგილობრივი სტარტაპები სარგებლობენ ფინანსური მხარდაჭერითა და მენტორობით, რომელიც ხუთი წლის წინ არ არსებობდა.",
+        "დღეს ადგილობრივი სტარტაპები სარგებლობენ ფინანსური მხარდაჭერითა და მენტორობით, რაც ხუთი წლის წინ არ არსებობდა."
+      ],
+      "note": "Relatif «რომლი» ou «რაც» pour «qui»; deux formulations courantes et acceptables."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-029",
+      "version": 29,
+      "cefr": "B2",
+      "fr": "En relisant ton essai, j'ai remarqué plusieurs tournures qui rendent le texte plus vivant mais parfois ambigu.",
+      "ka": "შენი ესეს ხელახლა წაკითხვისას დავამჩნიე რამდენიმე ფრაზა, რომლებიც ტექსტს უფრო ცოცხალს ხდის, მაგრამ ზოგჯერ ბუნდოვანს.",
+      "answers": [
+        "შენი ესეს ხელახლა წაკითხვისას დავამჩნიე რამდენიმე ფრაზა, რომლებიც ტექსტს უფრო ცოცხალს ხდის, მაგრამ ზოგჯერ ბუნდოვანს."
+      ],
+      "note": "Usage de la subordonnée relative «რომლებიც/რომელიც» → ici «რომლები» implicite dans «რომელები»; formulation standard avec «რომლებიც» ou «რომელიც» selon accord."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-030",
+      "version": 30,
+      "cefr": "B2",
+      "fr": "Pour que la réunion soit productive, il serait préférable d'envoyer l'ordre du jour aux participants au moins trois jours à l'avance.",
+      "ka": "იმისთვის, რომ შეხვედრა შედეგიანი იყოს, უკეთესი იქნებოდა მონაწილეებს შეხვედრის დღის წესრიგი მინიმუმ სამი დღით ადრე გაეგზავნათ.",
+      "answers": [
+        "იმისთვის, რომ შეხვედრა შედეგიანი იყოს, უკეთესი იქნებოდა მონაწილეებს შეხვედრის დღის წესრიგი მინიმუმ სამი დღით ადრე გაეგზავნათ."
+      ],
+      "note": "But final avec «იმისთვის, რომ ... იყოს» + conditionnel de politesse «უკეთესი იქნებოდა ... გაეგზავნათ». Traduction fidèle du registre formulé."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-031",
+      "fr": "Nous avons finalement décidé de reporter la réunion à la semaine prochaine.",
+      "ka": "ჩვენ საბოლოოდ გადავწყვიტეთ შეხვედრის გადადება მომდევნო კვირისთვის.",
+      "answers": [
+        "ჩვენ საბოლოოდ გადავწყვიტეთ შეხვედრის გადადება მომდევნო კვირისთვის."
+      ],
+      "cefr": "B2",
+      "version": 31,
+      "note": "verbe გადავწყვიტე + infinitif (გადადება) ; expression temporelle 'მომდევნო კვირისთვის' équivalente à 'la semaine prochaine'."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-032",
+      "fr": "Il m'a expliqué qu'il n'avait pas reçu le courriel.",
+      "ka": "მან მითხრა, რომ ელფოსტა არ ჰქონდა მიღებული.",
+      "answers": [
+        "მან მითხრა, რომ ელფოსტა არ ჰქონდა მიღებული."
+      ],
+      "cefr": "B2",
+      "version": 32,
+      "note": "discours rapporté au passé : 'მითხრა' + 'არ ჰქონდა მიღებული' pour le plus-que-parfait."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-033",
+      "fr": "Bien que fatiguée, elle a continué à travailler tard dans la nuit.",
+      "ka": "მიუხედავად того, რომ დაღლილი იყო, იგი მაინც განაგრძო მუშაობა გვიან ღამით.",
+      "answers": [
+        "მიუხედავად того, რომ დაღლილი იყო, იგი მაინც განაგრძო მუშაობა გვიან ღამით.",
+        "მიუხედავად იმისა, რომ დაღლილი იყო, მან მაინც განაგრძო მუშაობა გვიან ღამით."
+      ],
+      "cefr": "B2",
+      "version": 33,
+      "note": "subordination concessive 'მიუხედავად იმისა, რომ' ; variantes acceptables du pronom sujet ('იგი'/'მან')."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-034",
+      "fr": "Si j'étais à ta place, je lui demanderais conseil.",
+      "ka": "თუ მე შენი ადგილას ვიქნებოდი, მას რჩევას ვთხოვდი.",
+      "answers": [
+        "თუ მე შენი ადგილას ვიქნებოდი, მას რჩევას ვთხოვდი."
+      ],
+      "cefr": "B2",
+      "version": 34,
+      "note": "conditionnel hypothétique : 'თუ ... ვიქნებოდი' + conditionnel 'ვთხოვდი'."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-035",
+      "fr": "Les autorités ont annoncé de nouvelles mesures pour réduire la pollution.",
+      "ka": "ხელისუფლებამ გამოაცხადა ახალი ღონისძიებები დაბინძურების შემცირების მიზნით.",
+      "answers": [
+        "ხელისუფლებამ გამოაცხადა ახალი ღონისძიებები დაბინძურების შემცირების მიზნით."
+      ],
+      "cefr": "B2",
+      "version": 35,
+      "note": "forme passive/impersonnelle informant d'une décision collective ; 'სცდომილების მიზნით' remplace 'pour' → ici 'მიზნ' = 'в целях'."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-036",
+      "fr": "Il est essentiel de vérifier la fiabilité des sources avant de publier une information.",
+      "ka": "აუცილებელია წყაროების სანდოობის შემოწმება ინფორმაციის გამოქვეყნების წინ.",
+      "answers": [
+        "აუცილებელია წყაროების სანდოობის შემოწმება ინფორმაციის გამოქვეყნების წინ."
+      ],
+      "cefr": "B2",
+      "version": 36,
+      "note": "impersonnel 'აუცილებელია' + nominalisation 'შემოწმება' ; 'ინფორმაციის გამოქვეყნების წინ' = 'avant de publier'."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-037",
+      "fr": "La chambre était si froide que j'ai pris mon manteau.",
+      "ka": "ოთახი იმდენად ცივი იყო, რომ მე ავიღე ქურთუკი.",
+      "answers": [
+        "ოთახი იმდენად ცივი იყო, რომ მე ავიღე ქურთუკი.",
+        "ოთახი იმდენად ცივი იყო, რომ მე გადავიცვი ქურთუკი."
+      ],
+      "cefr": "B2",
+      "version": 37,
+      "note": "construction de conséquence 'მისადომ... რომ' ; variantes acceptables pour 'prendre/metter le manteau' : 'ავიღე' ou 'გადავიცვი'."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-038",
+      "fr": "Elle m'a rappelé qu'il fallait respecter le délai imparti.",
+      "ka": "მან შემახსენა, რომ განსაზღვრული ვადა უნდა დაცულიყო.",
+      "answers": [
+        "მან შემახსენა, რომ განსაზღვრული ვადა უნდა დაცულიყო."
+      ],
+      "cefr": "B2",
+      "version": 38,
+      "note": "verbe 'შემახსენა' (elle m'a rappelé) + necessity passive 'უნდა დაცულიყო' pour 'il fallait respecter'."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-039",
+      "fr": "Il a pris l'habitude de lire le journal avant le petit déjeuner.",
+      "ka": "მან შეეჩვია გაზეთის კითხვას საუზმობამდე.",
+      "answers": [
+        "მან შეეჩვია გაზეთის კითხვას საუზმობამდე.",
+        "ის შეეჩვია გაზეთის კითხვას საუზმობამდე."
+      ],
+      "cefr": "B2",
+      "version": 39,
+      "note": "verbe réfléchi 'შეეჩვია' pour 'prendre l'habitude' ; variante du sujet possible ('მან'/'ის')."
+    },
+    {
+      "id": "dictation_sentences-b2-gen-040",
+      "fr": "Bien que la tâche paraisse simple, elle exige une préparation minutieuse et plusieurs validations.",
+      "ka": "თუნდაც დავალება მარტივად მოგვეჩვენოს, ის მოითხოვს დეტალურ მომზადებასა და რამდენჯერჯერ სტანდარტულ შემოწმებებს.",
+      "answers": [
+        "თუნდაც დავალება მარტივად მოგვეჩვენოს, ის მოითხოვს დეტალურ მომზადებასა და რამდენჯერჯერ სტანდარტულ შემოწმებებს.",
+        "თუნდაც დავალება მარტივად მოგვეჩვენოს, ის მოითხოვს დეტალურ მომზადებას და მრავალჯერ საკითხის შემოწმებას."
+      ],
+      "cefr": "B2",
+      "version": 40,
+      "note": "concession 'თუნდაც ... მოგვეჩვენოს' ; vocabulaire nuance 'დეტალური მომზადება' et 'მრავალჯერადი შემოწმება' pour 'plusieurs validations'."
     }
   ]
 }

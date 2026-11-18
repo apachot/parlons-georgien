@@ -1,0 +1,59 @@
+{
+  "cefr": "C2",
+  "items": [
+    {
+      "id": "reading_guided-c2-gen-002",
+      "level": 6,
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 2,
+      "text": "ქალაქის ცენტრში ახალი ბიბლიოთეკა ღიაა, თუმცა ადგილობრივები ამბობენ, რომ მას იდეალურად არ იყენებენ. ვრცელ კონკურსში არჩეული არქიტექტურა შუქსა და სივრცეს აქცევს აქცენტად, მაგრამ წიგნებისთვის განკუთვნილი ადგილი ხშირად გაურკვეველი რჩება. მოხალისეები კი თითოეული საღამო წიგნების კატალოგირებით და წამკითხველობით ავსებენ, თითქოს ბიბლიოთეკა მათ მიერაცაა აღდგენილი.",
+      "question": "D'après le texte, quelle affirmation est la plus vraisemblable ?",
+      "options": [
+        "La bibliothèque a été conçue principalement pour des expositions lumineuses.",
+        "Les habitants exploitent pleinement toutes les salles réservées aux livres.",
+        "Les bénévoles contribuent activement au fonctionnement quotidien de la bibliothèque.",
+        "La bibliothèque reste fermée le soir à cause d'un manque d'usage."
+      ],
+      "answer": "Les bénévoles contribuent activement au fonctionnement quotidien de la bibliothèque.",
+      "translation": "Une nouvelle bibliothèque est ouverte au centre-ville, mais les habitants disent qu'elle n'est pas utilisée de manière optimale. L'architecture choisie lors d'un large concours met l'accent sur la lumière et l'espace, mais l'espace réservé aux livres reste souvent incertain. Les bénévoles remplissent chaque soir le catalogue et la lecture publique, comme si la bibliothèque avait été restaurée aussi par eux.",
+      "explanation": "Le texte indique que «მოხალისეები თითოეული საღამო წიგნების კატალოგირებით და წამკითხველობით ავსებენ», ce qui montre qu'ils participent activement au fonctionnement quotidien. Rien dans le texte n'affirme que toutes les salles sont pleinement utilisées ni que la bibliothèque est fermée le soir ; l'accent n'est pas dit être principalement pour des expositions, mais sur la lumière et l'espace."
+    },
+    {
+      "id": "reading_guided-c2-gen-003",
+      "level": 6,
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 3,
+      "text": "მისაღები სივრცე, რომელსაც მუზეუმი ახალადგაიფუძნებად აწვდის, ხშირად იცვლება — არა როგორც გამოფენა, არამედ როგორც დამოკიდებულება ნამუშევრის მიმართ. კრიტიკოსები ამ ცვლის მხარს უჭერენ: ისინი მიუთითებენ, რომ დღევანდელი დამთვალიერებელი ინფორმაციის გადაჭარბებულ ნაკადში ემპათიითა და დროით უკეთ განსაზღვრავს მნიშვნელობას. თანამშრომლები კი შენიშნავენ, რომ ასეთი მოდიფიკაცია ორგანიზაციულ ძვირფასებებსაც მოითხოვს, ციფრული არქივის მართვიდან დაწყებული ეკრობებისა და განათებულ სივრცეებამდე.",
+      "question": "Quelle inference le plus raisonnablement déduire du texte ?",
+      "options": [
+        "Le musée a diminué le nombre d'œuvres exposées pour économiser.",
+        "Le public contemporain valorise davantage le temps et l'empathie dans la visite muséale.",
+        "Les critiques pensent que la technologie doit remplacer les œuvres physiques.",
+        "Les employés refusent tout changement organisationnel."
+      ],
+      "answer": "Le public contemporain valorise davantage le temps et l'empathie dans la visite muséale.",
+      "translation": "L'espace d'accueil, que le musée présente comme nouvellement fondé, change souvent — non pas en tant qu'exposition, mais en tant qu'attitude envers l'œuvre. Les critiques soutiennent ce changement : ils indiquent que le visiteur d'aujourd'hui, face à un flux excessif d'informations, détermine mieux la signification grâce à l'empathie et au temps. Les employés remarquent que cette modification exige aussi des ressources organisationnelles, depuis la gestion des archives numériques jusqu'aux écrans et aux espaces éclairés.",
+      "explanation": "Le texte dit explicitement que «დღევანდელი დამთვალიერებელი ... ემპათიითა და დროით უკეთ განსაზღვრავს მნიშვნელობას», ce qui soutient l'option sur la valorisation du temps et de l'empathie. Les autres options ne sont pas soutenues : il n'est pas question de réduction d'œuvres pour économiser, ni d'une substitution technologique totale, ni d'un refus des employés."
+    },
+    {
+      "id": "reading_guided-c2-gen-004",
+      "level": 6,
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 4,
+      "text": "შენიშვნა კონფერენციაზე ისმოდა ირონიული ტონით: სპიკერმა განმარტა, რომ ინოვაცია ხშირად იმეფებს წარსულის კრიტიკით, ვიდრე დემონტრირება რეალური ღირებულებისა. რამდენიმე მონაწილე თანხმდებოდა — ისინი აღიარებდნენ, რომ ახალი იდეები ხშირად იზრდება თეორიულ მხარდაჭერაზე, არა პრაქტიკულ შედეგზე. მიუხედავად ამისა, დებატა არ დასრულებულა; სცენიდან გასვლისას ჯგუფები განაგრძობდნენ მსჯელობას მცირე კოლაბორაციების და ექსპერიმენტების საჭიროებაზე.",
+      "question": "Quelle conclusion est la plus pertinente à partir du texte ?",
+      "options": [
+        "Les participants ont unanimement rejeté l'innovation.",
+        "Les échanges ont encouragé la réflexion sur des collaborations concrètes.",
+        "Le conférencier a prouvé que l'innovation n'a aucune valeur réelle.",
+        "Les débats ont cessé dès la fin de la conférence."
+      ],
+      "answer": "Les échanges ont encouragé la réflexion sur des collaborations concrètes.",
+      "translation": "Une remarque lors de la conférence avait un ton ironique : le conférencier a expliqué que l'innovation règne souvent via la critique du passé plutôt que par la démonstration d'une valeur réelle. Plusieurs participants étaient d'accord — ils admettaient que les nouvelles idées reposent souvent sur un soutien théorique plutôt que sur des résultats pratiques. Malgré cela, le débat ne s'est pas terminé ; en quittant la scène, les groupes ont continué à discuter de la nécessité de petites collaborations et d'expériences.",
+      "explanation": "Le texte précise que «გუნდები განაგრძობდნენ მსჯელობას მცირე კოლაბორაციების და ექსპერიმენტების საჭიროებაზე», ce qui indique que les échanges ont encouragé une réflexion sur collaborations concrètes. On n'y voit pas un rejet unanime de l'innovation, ni la preuve que l'innovation n'a aucune valeur, ni la fin des débats à la clôture."
+    }
+  ]
+}

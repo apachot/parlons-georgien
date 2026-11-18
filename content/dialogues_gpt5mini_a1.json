@@ -663,6 +663,1597 @@
       ],
       "cefr": "A1",
       "version": 10
+    },
+    {
+      "id": "dialogues-a1-gen-031",
+      "title": "Salutation et prénom",
+      "scene": "Rencontre informelle dans la rue.",
+      "cefr": "A1",
+      "version": 31,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა! მე ვარ გიორგი. შენს სახელს რა ქვია?",
+          "fr": "Bonjour ! Je m'appelle Giorgi. Comment tu t'appelles ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "გამარჯობა, მე ელენე მქვია.",
+          "fr": "Bonjour, je m'appelle Elene."
+        },
+        {
+          "speaker": "A",
+          "ka": "ძალიან სასიამოვნოა, ელენე. ცოტა გადმოდი, გთხოვ.",
+          "fr": "Enchanté, Elene. Approche-toi un peu, s'il te plaît."
+        },
+        {
+          "speaker": "B",
+          "ka": "რა კარგი! შენთან მეკითხება, სად მუშაობ?",
+          "fr": "Très bien ! Je voudrais te demander, où travailles-tu ?",
+          "choices": [
+            {
+              "ka": "მე სახლში ვმუშაობ.",
+              "fr": "Je travaille à la maison.",
+              "ok": false
+            },
+            {
+              "ka": "მე აფთიაქში ვმუშაობ.",
+              "fr": "Je travaille à la pharmacie.",
+              "ok": false
+            },
+            {
+              "ka": "მე სკოლაში ვმუშაობ.",
+              "fr": "Je travaille à l'école.",
+              "ok": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-032",
+      "title": "Demander l'heure",
+      "scene": "Dans un parc, deux personnes discutent.",
+      "cefr": "A1",
+      "version": 32,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ბოდიში, თუ შეიძლება, ფეხზე საათი გაქვთ?",
+          "fr": "Pardon, s'il vous plaît, avez-vous une montre ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "კი, მაქვს. ახლა რამდენია?",
+          "fr": "Oui, j'en ai une. Quelle heure est-il maintenant ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "მე ბიზნესზე დაგვიანებით ვარ, ამიტომ უნდა ვიცოდე.",
+          "fr": "Je suis en retard pour un rendez-vous, donc j'ai besoin de savoir."
+        },
+        {
+          "speaker": "B",
+          "ka": "ახლა სამი საათი და ოცდაათი წუთია.",
+          "fr": "Il est maintenant trois heures trente.",
+          "choices": [
+            {
+              "ka": "1 საათი 15 წუთია.",
+              "fr": "Il est 1h15.",
+              "ok": false
+            },
+            {
+              "ka": "3 საათი 30 წუთია.",
+              "fr": "Il est 3h30.",
+              "ok": true
+            },
+            {
+              "ka": "5 საათი 45 წუთია.",
+              "fr": "Il est 5h45.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-033",
+      "title": "Au café",
+      "scene": "Commander une boisson au comptoir.",
+      "cefr": "A1",
+      "version": 33,
+      "turns": [
+        {
+          "speaker": "Vendeur",
+          "ka": "დილა მშვიდობისა. რას მოიმზადებთ?",
+          "fr": "Bonjour. Que souhaitez-vous commander ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "შაქარი მინდა ყავაში და პატარა ფენიქსი, თუ შეიძლება.",
+          "fr": "Je voudrais du sucre dans le café et un petit croissant, s'il vous plaît."
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "შაქარი წესით რისკითაა. სასურველია სხვა რამ გამოარჩიოთ?",
+          "fr": "Le sucre est normalement sur le comptoir. Voulez-vous autre chose ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "კი, პატარა ლატე და შაქარი ორი კოვზი, გმადლობთ.",
+          "fr": "Oui, un petit latte et deux cuillères de sucre, merci.",
+          "choices": [
+            {
+              "ka": "ერთი კოვზი შაქარი.",
+              "fr": "Une cuillère de sucre.",
+              "ok": false
+            },
+            {
+              "ka": "ორი კოვზი შაქარი.",
+              "fr": "Deux cuillères de sucre.",
+              "ok": true
+            },
+            {
+              "ka": "საყვარლად არ მინდა შაქარი.",
+              "fr": "Je ne veux pas du sucre.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-034",
+      "title": "Demander le prix",
+      "scene": "Magasin de vêtements, caisse.",
+      "cefr": "A1",
+      "version": 34,
+      "turns": [
+        {
+          "speaker": "Client",
+          "ka": "ეს პერანგი რამდენი ღირს?",
+          "fr": "Combien coûte cette chemise ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "ამ პერანგი ოცდაათია ლარი.",
+          "fr": "Cette chemise coûte trente laris."
+        },
+        {
+          "speaker": "Client",
+          "ka": "შეგიძლია ფუნქცია მომცე თუ ფასდაკლება გაქვთ?",
+          "fr": "Pouvez-vous me dire si il y a une remise ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "ვინმესთვის რჩეული ფასდაკლებაა დღეს მხოლოდ სტუდენტებისთვის.",
+          "fr": "Il y a une remise aujourd'hui seulement pour les étudiants.",
+          "choices": [
+            {
+              "ka": "მე სტუდენტი ვარ.",
+              "fr": "Je suis étudiant(e).",
+              "ok": true
+            },
+            {
+              "ka": "მე გაზრდილი ადამიანი ვარ.",
+              "fr": "Je suis un adulte.",
+              "ok": false
+            },
+            {
+              "ka": "მე არ მინდა ფასდაკლება.",
+              "fr": "Je ne veux pas de remise.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-035",
+      "title": "Demander un chemin court",
+      "scene": "Devant une station de métro, une touriste demande son chemin.",
+      "cefr": "A1",
+      "version": 35,
+      "turns": [
+        {
+          "speaker": "Touriste",
+          "ka": "ბოდიში, როგორ მივიდე თეატრამდე?",
+          "fr": "Excusez-moi, comment puis-je aller au théâtre ?"
+        },
+        {
+          "speaker": "Passant",
+          "ka": "მილიერი გზა აქედან მარჯვნივ გადის ქუჩაზე, შემდეგ ნახევარზე მოხვდი.",
+          "fr": "La route principale va à droite d'ici, puis prenez la petite rue à la moitié."
+        },
+        {
+          "speaker": "Touriste",
+          "ka": "ყველა გზა მარტივია თუ უნდა თუ მე ფეხით მივდივარ?",
+          "fr": "Est-ce un chemin facile si je vais à pied ?"
+        },
+        {
+          "speaker": "Passant",
+          "ka": "დიახ, ფეხით სასიამოვნოა. მხოლოდ ორი ქუჩა უნდა გადაჭკვეთ.",
+          "fr": "Oui, c'est agréable à pied. Il faut juste traverser deux rues.",
+          "choices": [
+            {
+              "ka": "სამი ქუჩა უნდა გადავაჭკვიო.",
+              "fr": "Je dois traverser trois rues.",
+              "ok": false
+            },
+            {
+              "ka": "ორი ქუჩა უნდა გადავაჭკვიო.",
+              "fr": "Je dois traverser deux rues.",
+              "ok": true
+            },
+            {
+              "ka": "ორასი ქუჩა უნდა გადავაჭკვიო.",
+              "fr": "Je dois traverser vingt rues.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-036",
+      "title": "Parler de la famille",
+      "scene": "Deux voisins discutent de leurs familles.",
+      "cefr": "A1",
+      "version": 36,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "შეგიძლია მიყვები, რამდენი ძმაა შენს ოჯახში?",
+          "fr": "Peux-tu me dire combien de frères et sœurs tu as dans ta famille ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "მე მაქვს ერთი და ერთი და სამი მარტივი ბიძები.",
+          "fr": "J'ai une sœur et deux frères simples."
+        },
+        {
+          "speaker": "A",
+          "ka": "ჰო, ძალიან საინტერესოა. შენი მშობლები სად არიან?",
+          "fr": "Ah, très intéressant. Où sont tes parents ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "მათი სოფლად მუშაობენ და ხშირად გვესტუმრებიან ქალაქში.",
+          "fr": "Ils travaillent au village et viennent souvent nous rendre visite en ville.",
+          "choices": [
+            {
+              "ka": "მათი ხშირად გვესტუმრებიან.",
+              "fr": "Ils viennent souvent nous voir.",
+              "ok": true
+            },
+            {
+              "ka": "მათი არ გვესტუმრებიან არასდროს.",
+              "fr": "Ils ne nous rendent jamais visite.",
+              "ok": false
+            },
+            {
+              "ka": "მათი მხოლოდ ზაფხულში მოდიან.",
+              "fr": "Ils viennent seulement en été.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-037",
+      "title": "Numéros de téléphone",
+      "scene": "Un ami donne son numéro à un autre.",
+      "cefr": "A1",
+      "version": 37,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "მოდი შენ მომცე შენი ნომერი, რომ შეგეხმიანო.",
+          "fr": "Donne-moi ton numéro pour que je puisse t'appeler."
+        },
+        {
+          "speaker": "B",
+          "ka": "ჩემი ნომერია: 5-5-2-1-3-8.",
+          "fr": "Mon numéro est : 5-5-2-1-3-8."
+        },
+        {
+          "speaker": "A",
+          "ka": "გაგიმეორები თუ შეიძლება? მსურს ვიშველო.",
+          "fr": "Peux-tu répéter ? Je veux noter."
+        },
+        {
+          "speaker": "B",
+          "ka": "5-5-2-1-3-8, გაიმეორე შენთვის.",
+          "fr": "5-5-2-1-3-8, répète pour toi-même.",
+          "choices": [
+            {
+              "ka": "5-5-2-1-3-8",
+              "fr": "5-5-2-1-3-8",
+              "ok": true
+            },
+            {
+              "ka": "5-2-2-1-3-8",
+              "fr": "5-2-2-1-3-8",
+              "ok": false
+            },
+            {
+              "ka": "6-5-2-1-3-8",
+              "fr": "6-5-2-1-3-8",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-038",
+      "title": "Parler de la météo",
+      "scene": "Deux collègues commentent le temps avant de partir.",
+      "cefr": "A1",
+      "version": 38,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "დღეს ისეთი მზიანი და თბილია!",
+          "fr": "Aujourd'hui il fait si ensoleillé et chaud !"
+        },
+        {
+          "speaker": "B",
+          "ka": "დაახლოებით გვიან ცივია იქნება საღამოს, თუ არ შეცვალეთ ადგილი.",
+          "fr": "Il fera plutôt froid le soir si vous ne changez pas de plan."
+        },
+        {
+          "speaker": "A",
+          "ka": "როგორც ჩანს, შოუ უნდა ვიცადე ქურთუკი საღამოსთვის.",
+          "fr": "Il semble que je devrai prendre une veste pour le soir."
+        },
+        {
+          "speaker": "B",
+          "ka": "დიახ, ქურთუკი კარგი იდეაა.",
+          "fr": "Oui, une veste est une bonne idée.",
+          "choices": [
+            {
+              "ka": "არ მჭირდება ქურთუკი.",
+              "fr": "Je n'ai pas besoin de veste.",
+              "ok": false
+            },
+            {
+              "ka": "უნდა ვიყიდო ქურთუკი.",
+              "fr": "Je dois acheter une veste.",
+              "ok": true
+            },
+            {
+              "ka": "მე არ ვიცი რა გავაკეთო.",
+              "fr": "Je ne sais pas quoi faire.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-039",
+      "title": "Au marché - quantité",
+      "scene": "Acheteur choisit des légumes au marché.",
+      "cefr": "A1",
+      "version": 39,
+      "turns": [
+        {
+          "speaker": "Client",
+          "ka": "რამდენი ხარჩილია ეს პომიდორი?",
+          "fr": "Combien coûtent ces tomates au kilo ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "ეს პომიდორი თითო კილოა. სამი ლარი თითო კილოდ.",
+          "fr": "Ces tomates sont par kilo. Trois laris le kilo."
+        },
+        {
+          "speaker": "Client",
+          "ka": "მერგე ფოთლები თუ ვყიდულობ ორ კილოს?",
+          "fr": "Y a-t-il une différence si j'achète deux kilos ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "ორ კილოზე გადავა ფასდაკლება — თითო კილოზე ორი ლარი ოთხმოცი თეთრი.",
+          "fr": "Pour deux kilos, il y a une remise — par kilo deux laris quatre-vingts tetri.",
+          "choices": [
+            {
+              "ka": "ორ კილოზე თითო კილო სამი ლარი ღირს.",
+              "fr": "Pour deux kilos, chaque kilo coûte trois laris.",
+              "ok": false
+            },
+            {
+              "ka": "ორ კილოზე თითო კილო ორი ლარი 80 თეთრია.",
+              "fr": "Pour deux kilos, chaque kilo coûte 2 laris 80 tetri.",
+              "ok": true
+            },
+            {
+              "ka": "ორ კილოზე ფასდაკლება არ არის.",
+              "fr": "Il n'y a pas de remise pour deux kilos.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-040",
+      "title": "Inviter au cinéma",
+      "scene": "Deux amis organisent une sortie.",
+      "cefr": "A1",
+      "version": 40,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "პატარა ვიქნები რამდენად ხნით? ხვალ საღამოს თეატრში ფილმი იქნება.",
+          "fr": "Je serai bref : demain soir il y a un film au cinéma."
+        },
+        {
+          "speaker": "B",
+          "ka": "რა ფილმია და რას ვაკეთებთ?",
+          "fr": "Quel film et que faisons-nous ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "ეს კომედიაა და ჩვენ ვიხვევთ დაწყებას ჩვიდმეტ საათზე.",
+          "fr": "C'est une comédie et nous commencerons à 17 heures."
+        },
+        {
+          "speaker": "B",
+          "ka": "ჩემი ქმარი მოითხოვს შვილთან, მაგრამ მე შემიძლია ერთად მოვიდე.",
+          "fr": "Mon mari doit garder l'enfant, mais je peux venir.",
+          "choices": [
+            {
+              "ka": "შენ შეგიძლია მყუდრო დრო გამოვიყენო და ჩემს ოჯახს მიუახლოვდე.",
+              "fr": "Tu peux profiter d'un moment tranquille et rejoindre ma famille.",
+              "ok": false
+            },
+            {
+              "ka": "მე შემიძლია ერთად მოვიდე.",
+              "fr": "Je peux venir avec toi.",
+              "ok": true
+            },
+            {
+              "ka": "მე არ შემიძლია მოვიდე, რადგან დავიღალე.",
+              "fr": "Je ne peux pas venir car je suis fatigué(e).",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-011",
+      "title": "პირველი შეხვედრა",
+      "cefr": "A1",
+      "version": 11,
+      "scene": "ორი ადამიანი წვრილმანად ერთმანეთთან გაცნობას იწყებენ.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, მე ნათია მქვია.",
+          "fr": "Bonjour, je m'appelle Natia."
+        },
+        {
+          "speaker": "B",
+          "ka": "გამარჯობა, მე მარისა ვარ. როგორც ხარ?",
+          "fr": "Bonjour, je suis Marisa. Comment vas-tu ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "კარგად, მადლობა. შენ?",
+          "fr": "Bien, merci. Et toi ?",
+          "choices": [
+            {
+              "ka": "მე ცუდად ვარ.",
+              "fr": "Je vais mal.",
+              "ok": false
+            },
+            {
+              "ka": "მე ძალიან კარგად ვარ.",
+              "fr": "Je vais très bien.",
+              "ok": true
+            },
+            {
+              "ka": "არ ვიცი.",
+              "fr": "Je ne sais pas.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "რაღაც გეგმები გაქვს დღეს?",
+          "fr": "Tu as des plans aujourd'hui ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "χιლომეტრში შევხვდეთ? მაპატიე, გართობა ვგულისხმობ.",
+          "fr": "On se voit dans une heure ? Pardon, je voulais dire pour se divertir."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-012",
+      "title": "გმადლობ და მოპირდაპირე მხარე",
+      "cefr": "A1",
+      "version": 12,
+      "scene": "გადასახადი მაღაზიაში; მადლობის და მოკლევადიანი პასუხის გაცვლა.",
+      "turns": [
+        {
+          "speaker": "Caissière",
+          "ka": "ეს ღირებულება არის 5 ლარი.",
+          "fr": "C'est 5 laris."
+        },
+        {
+          "speaker": "A",
+          "ka": "გმადლობთ. შეგიძლიათ თუ არა ბარათი მიიღოთ?",
+          "fr": "Merci. Pouvez-vous accepter la carte ?",
+          "choices": [
+            {
+              "ka": "დიახ, ბარათს ვიღებთ.",
+              "fr": "Oui, nous acceptons la carte.",
+              "ok": true
+            },
+            {
+              "ka": "არა, მხოლოდ ნაღდი ფულია.",
+              "fr": "Non, seulement en espèces.",
+              "ok": false
+            },
+            {
+              "ka": "გაითვალისწინეთ, არ ვიცი.",
+              "fr": "Veuillez noter, je ne sais pas.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Caissière",
+          "ka": "კარგია. ბარათს ჩართავთ თუ ჩიპს?",
+          "fr": "Très bien. Vous insérez la carte ou la puce ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "ჩავდოთ ბარათი, გთხოვთ.",
+          "fr": "Je vais insérer la carte, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-013",
+      "title": "საუზმე კაფეში",
+      "cefr": "A1",
+      "version": 13,
+      "scene": "მომხმარებელი კაფეში საუზმის შეკვეთას აკეთებს.",
+      "turns": [
+        {
+          "speaker": "Serveuse",
+          "ka": "დილა მშვიდობისა! რით გამოგიცვალოთ?",
+          "fr": "Bonjour! Que puis-je vous servir ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "დღეს მარტივია: ერთი ყავა და ქიქრო, გთხოვთ.",
+          "fr": "Ce sera simple aujourd'hui : un café et une pâtisserie, s'il vous plaît.",
+          "choices": [
+            {
+              "ka": "ერთხელ ყავა და ქიქრო, გმადლობთ.",
+              "fr": "Un café et une pâtisserie, merci.",
+              "ok": false
+            },
+            {
+              "ka": "ერთ ჭიქა წყალი და წვენი.",
+              "fr": "Un verre d'eau et du jus.",
+              "ok": false
+            },
+            {
+              "ka": "ეს არის: ერთი ყავა და ქიქრო, გმადლობთ.",
+              "fr": "Voici : un café et une pâtisserie, merci.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "Serveuse",
+          "ka": "სახელით თუ ბრძანდებით? მაგიდისკენ მივიტან?",
+          "fr": "C'est pour emporter ou pour une table ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "მოვრჩებით აქ, მაგიდაზე, თუ შეიძლება.",
+          "fr": "On reste ici, à une table, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-014",
+      "title": "მიმართულება და ქუჩა",
+      "cefr": "A1",
+      "version": 14,
+      "scene": "ამბობენ გზას მოპირდაპირე ქუჩამდე.",
+      "turns": [
+        {
+          "speaker": "პერსონA",
+          "ka": "ბოდიში, როგორ მივიდე რესპუბლიკის მოედანზე?",
+          "fr": "Pardon, comment puis-je aller à la place de la République ?"
+        },
+        {
+          "speaker": "პერსონB",
+          "ka": "შენ შენს წინედან მე–2 ქუჩაა, იქ მარჯვნივ გადაიღე და შემდეგ პირდაპირ გააგრძელე.",
+          "fr": "Prends la deuxième rue devant toi, tourne à droite, puis continue tout droit."
+        },
+        {
+          "speaker": "პერსონA",
+          "ka": "დაუჭერო ქუჩა რამდენი ნაბიჯია?",
+          "fr": "Combien de pas jusqu'à la rue ?",
+          "choices": [
+            {
+              "ka": "ძალიან შორს არის, მანქანით უნდა წახვიდე.",
+              "fr": "C'est très loin, il faut y aller en voiture.",
+              "ok": false
+            },
+            {
+              "ka": "რამდენიმე წუთი = სამი–ხუთი წუთი ფეხით.",
+              "fr": "Quelques minutes = trois à cinq minutes à pied.",
+              "ok": true
+            },
+            {
+              "ka": "არ არის საშუალებას, მხოლოდ ავტობუსით.",
+              "fr": "Impossible, seulement en bus.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "პერსონB",
+          "ka": "თუ აჩქარებ, სრულიად მალე იქნები.",
+          "fr": "Si tu te dépêches, tu seras là très vite."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-015",
+      "title": "საუბარი ოჯახის შესახებ",
+      "cefr": "A1",
+      "version": 15,
+      "scene": "ხალხი ერთმანეთის ოჯახზე საუბრობს; უფრო განსაზღვრული ინფორმაცია.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "შენი ოჯახის წევრები ვინ არიან?",
+          "fr": "Qui sont les membres de ta famille ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "მე მამა, დედა და ორი და მყავს.",
+          "fr": "J'ai un père, une mère et deux sœurs."
+        },
+        {
+          "speaker": "A",
+          "ka": "და და-ძმების ასაკი რა არის?",
+          "fr": "Quel est l'âge des frères et sœurs ?",
+          "choices": [
+            {
+              "ka": "ერთი ორის ორმოცდაათი წლისაა.",
+              "fr": "L'une a cinquante ans.",
+              "ok": false
+            },
+            {
+              "ka": "ორი და არიან: ერთი თორმეტი და მეორე თხუთმეტი.",
+              "fr": "Les deux sœurs : une a douze ans et l'autre quinze.",
+              "ok": true
+            },
+            {
+              "ka": "მე არ ვიცი, ისინი სამუშაოში არიან.",
+              "fr": "Je ne sais pas, ils sont au travail.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ჩვენ ხშირად ერთად ვსულაპარაკებთ და ვჭამთ ვახშამს.",
+          "fr": "Nous parlons souvent ensemble et dînons ensemble."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-016",
+      "title": "დრო და შეხვედრა",
+      "cefr": "A1",
+      "version": 16,
+      "scene": "ორი მეგობარი შეხვედრის დრო დაადასტურებენ.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "შეგვიძლია შევხვდეთ ხვალ 10 საათზე?",
+          "fr": "Peut-on se rencontrer demain à 10 heures ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "10 საათი ჩემთვის კარგადაა, მაგრამ იქნებ 10:30 უკეთესია?",
+          "fr": "10 heures me convient, mais 10h30 serait peut-être mieux ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "მე 10:30-ზეც ვამართლებ, მაგრამ თუ შენ გინდა 10 საათზე არ მაქვს პრობლემა.",
+          "fr": "10h30 me va aussi, mais si tu préfères 10h, ça ne me pose pas problème.",
+          "choices": [
+            {
+              "ka": "მომწონს 10:30, შევხვდეთ მაშინ.",
+              "fr": "J'aime 10h30, rencontrons-nous alors.",
+              "ok": true
+            },
+            {
+              "ka": "არ მინდა შეხვედრა, გადავდოთ.",
+              "fr": "Je ne veux pas de rencontre, reportons-la.",
+              "ok": false
+            },
+            {
+              "ka": "მასტუმრონი ვარ შუადღით.",
+              "fr": "Je suis occupé à midi.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "შევხვდეთ კაფესთან 10:30-ზე, ოჰჯახი ვიფიქრებთ გზაზე.",
+          "fr": "Rendez-vous au café à 10h30, on improvisera sur le chemin."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-017",
+      "title": "ტელეფონის ნომერი",
+      "cefr": "A1",
+      "version": 17,
+      "scene": "შეხვედრის შემდეგ ერთ-ერთი მხარე ტელეფონის ნომრის გაცვლას ითხოვს.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "შეგიძლია შენი ნომერი მომცე?",
+          "fr": "Peux-tu me donner ton numéro ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "რა თქმა უნდა: +995 598 12 34 56.",
+          "fr": "Bien sûr : +995 598 12 34 56."
+        },
+        {
+          "speaker": "A",
+          "ka": "მესმის კარგად, დაადასტურე თუ არადა: 598-12-34-56?",
+          "fr": "J'entends bien, peux-tu confirmer : 598-12-34-56 ?",
+          "choices": [
+            {
+              "ka": "არა, 577 არის.",
+              "fr": "Non, c'est 577.",
+              "ok": false
+            },
+            {
+              "ka": "დიახ, სწორია — 598 12 34 56.",
+              "fr": "Oui, c'est correct — 598 12 34 56.",
+              "ok": true
+            },
+            {
+              "ka": "მე ნომერი არ მაქვს.",
+              "fr": "Je n'ai pas de numéro.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "გმადლობ, მალე დაგიკავშირდები.",
+          "fr": "Merci, je te contacterai bientôt."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-018",
+      "title": "ექიმთან ჩაწერა",
+      "cefr": "A1",
+      "version": 18,
+      "scene": "პაციენტი კლინიკაში აცრებისას დროისა და მიზეზის მოკითხვა.",
+      "turns": [
+        {
+          "speaker": "რეგისტრატორი",
+          "ka": "გამარჯობა, რისთვის მოდიხართ?",
+          "fr": "Bonjour, pour quoi venez-vous ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "მე ყელი მტკივა და მინდა ექიმთან ჩაწერა.",
+          "fr": "J'ai mal à la gorge et je veux prendre rendez-vous avec le médecin."
+        },
+        {
+          "speaker": "რეგისტრატორი",
+          "ka": "დღეს 15:00 თავისუფალი გვაქვს, ხვალ 9:00 და 11:30-ც. რომელ საათს შეარჩენთ?",
+          "fr": "Nous avons 15h aujourd'hui, demain 9h et 11h30. Quel horaire choisissez-vous ?",
+          "choices": [
+            {
+              "ka": "მე ვიზიარებ 11:30-ას ხვალ.",
+              "fr": "Je préfère 11h30 demain.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ 20:00 საღამოს მაცდური ვარ.",
+              "fr": "Je suis disponible seulement à 20h le soir.",
+              "ok": false
+            },
+            {
+              "ka": "არ მინდა ვიწერო, დავუბრუნდები შემდეგში.",
+              "fr": "Je ne veux pas prendre rendez-vous, je reviendrai plus tard.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "რეგისტრატორი",
+          "ka": "ხელი მოაწერეთ ფორმაზე და დაელოდეთ, ექიმი შეგიკეთებთ.",
+          "fr": "Signez le formulaire et attendez, le médecin vous appellera."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-019",
+      "title": "საყიდლების სიაში",
+      "cefr": "A1",
+      "version": 19,
+      "scene": "მეგობრები საერთო აუცილებელ ნივთებზე პოულობენ შეთანხმებას.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ჩვენი საყიდლების სამიზნე: რძე, პური და კვერცხი. რაიმე კიდევ?",
+          "fr": "Notre liste : lait, pain et œufs. Autre chose ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "ჩემი აზრით, აუცილებელია კოფე და ტომიო ასევე.",
+          "fr": "Je pense qu'il faut aussi du café et du sucre.",
+          "choices": [
+            {
+              "ka": "მხოლოდ რძე მჭირდება.",
+              "fr": "J'ai seulement besoin de lait.",
+              "ok": false
+            },
+            {
+              "ka": "კი, დავამატოთ კოფე და შაქარი.",
+              "fr": "Oui, ajoutons le café et le sucre.",
+              "ok": true
+            },
+            {
+              "ka": "არ ვყიდულობ წამლებს.",
+              "fr": "Je n'achète pas de médicaments.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "დღეს წავიდეთ მაღაზიაში და მალე დავბრუნდეთ.",
+          "fr": "Allons au magasin aujourd'hui et revenons vite."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-020",
+      "title": "სასაუბრო მოედანი",
+      "cefr": "A1",
+      "version": 20,
+      "scene": "ბინადრები ბინაში შემოსვლის და გასვლის შესახებ მოკლედ საინფორმებენ ერთმანეთს.",
+      "turns": [
+        {
+          "speaker": "ახლობილი",
+          "ka": "მე საღამოს დავბრუნდები 22:00, კარები იყოს გააღო თუ შესაძლებელი.",
+          "fr": "Je rentre à 22h, si possible garde la porte ouverte."
+        },
+        {
+          "speaker": "სახლჭერი",
+          "ka": "არ ინერვიულო. მე ვიქნები აქ და გავაღებ.",
+          "fr": "Ne t'inquiète pas. Je serai là et j'ouvrirai.",
+          "choices": [
+            {
+              "ka": "მე მივდივარ 21:00, თუ დაგჭირდათ შემოვიდეთ.",
+              "fr": "Je pars à 21h, si vous avez besoin entrez.",
+              "ok": false
+            },
+            {
+              "ka": "კარგი, მე დავრჩები სახლში და გავაღებ 22:00-ზე.",
+              "fr": "D'accord, je resterai à la maison et j'ouvrirai à 22h.",
+              "ok": true
+            },
+            {
+              "ka": "მე არ ვიცი სადაა კარი.",
+              "fr": "Je ne sais pas où est la porte.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ახლობილი",
+          "ka": "გმადლობთ დახმარებისთვის, მალე დაგხედავთ.",
+          "fr": "Merci pour l'aide, à bientôt."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-021",
+      "version": 21,
+      "cefr": "A1",
+      "title": "შეგვიძლია ბინა დავათვალიეროთ?",
+      "scene": "ავსტრალიელი მსახური უჩვენებს საფოსტო ბინას მეგობარს, რომელიც ინტერესდება უქირავამდე.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, ეს ბინა მოგვწონდა. შეგიძლია ავუხსნა რამდენიმე კითხვა?",
+          "fr": "Bonjour, cet appartement nous plaît. Puis-je poser quelques questions ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "კი, რა გინდათ იცოდეთ?",
+          "fr": "Oui, que voulez-vous savoir ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "რამდენია თვიური ქირა და არის თუ არა კომუნალური შედებული?",
+          "fr": "Quel est le loyer mensuel et les charges sont-elles incluses ?",
+          "choices": [
+            {
+              "ka": "ქირა თვეში ორასი ევროსაა, კომუნალური ცალკეა.",
+              "fr": "Le loyer est de 200 € par mois, charges séparées.",
+              "ok": false
+            },
+            {
+              "ka": "თვიური ქირა თვითონ არ ვიცი, უნდა დავკითხოთ ეს მომხმარებელი.",
+              "fr": "Je ne connais pas le loyer mensuel, il faut demander au propriétaire.",
+              "ok": false
+            },
+            {
+              "ka": "ქირა თვეში 500 ლარია და კომუნალურები შედის.",
+              "fr": "Le loyer est 500 laris par mois et les charges sont incluses.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "სასიამოვნოა. გსურთ სახლს ახლავე ნახავ თუ კიდევ ფიქრობთ?",
+          "fr": "C'est bien. Voulez-vous voir l'appartement maintenant ou réfléchir encore ?",
+          "choices": [
+            {
+              "ka": "ვიფიქრებ და დავრეკავ ორშაბათს.",
+              "fr": "Je vais réfléchir et appelerai lundi.",
+              "ok": false
+            },
+            {
+              "ka": "გვითხარით, რას კი მივდივართ ახლავე მოსანახულებლად.",
+              "fr": "Dites-nous, nous y allons tout de suite pour visiter.",
+              "ok": true
+            },
+            {
+              "ka": "არ მინდა, არ მომწონს ქალაქი.",
+              "fr": "Je n'en veux pas, je n'aime pas la ville.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-022",
+      "version": 22,
+      "cefr": "A1",
+      "title": "სურსხელი კაფეში",
+      "scene": "დმინას მეგობარია კაფეში; ვეუბნებით შეკვეთის შესახებ და თანხაზე საუბარს.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, მინდა ერთი კაპუჩინო და ნამცხვარი.",
+          "fr": "Bonjour, je voudrais un cappuccino et une pâtisserie."
+        },
+        {
+          "speaker": "B",
+          "ka": "კარგი, პატარა თუ დიდი კაპუჩინო გინდათ?",
+          "fr": "Très bien, petit ou grand cappuccino ?",
+          "choices": [
+            {
+              "ka": "პატარა, გმადლობთ.",
+              "fr": "Petit, merci.",
+              "ok": false
+            },
+            {
+              "ka": "დიდი, რადგან ძალიან მშია დღეს.",
+              "fr": "Grand, car j'ai très faim aujourd'hui.",
+              "ok": true
+            },
+            {
+              "ka": "როგორც ჩანს, არ მინდა კაფე.",
+              "fr": "Finalement je ne veux pas de café.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ნამცხვარი შოკოლადისია თუ ვანილის?",
+          "fr": "Le gâteau est au chocolat ou à la vanille ?",
+          "choices": [
+            {
+              "ka": "შოკოლადი, გთხოვთ.",
+              "fr": "Au chocolat, s'il vous plaît.",
+              "ok": true
+            },
+            {
+              "ka": "არ ვიცი, სახლში ვაჭარბებ.",
+              "fr": "Je ne sais pas, je vérifie chez moi.",
+              "ok": false
+            },
+            {
+              "ka": "ვანილის არ მიყვარს, მადლობა.",
+              "fr": "Je n'aime pas la vanille, merci.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ჯამში 7 ლარია. მოგიტანოთ ბლომეტი თუ გადააბარებთ?",
+          "fr": "Au total 7 laris. Voulez-vous le reçu, ou payez-vous en liquide ?",
+          "choices": [
+            {
+              "ka": "გადავიხდი کارتით.",
+              "fr": "Je paie par carte.",
+              "ok": true
+            },
+            {
+              "ka": "არ მაქვს ფული, გპირდებით შემდგომ გადავუხდი.",
+              "fr": "Je n'ai pas d'argent, je paierai plus tard.",
+              "ok": false
+            },
+            {
+              "ka": "როგორც გინდათ, პასუხი არ მაქვს.",
+              "fr": "Comme vous voulez, je n'ai pas de réponse.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-023",
+      "version": 23,
+      "cefr": "A1",
+      "title": "ბაზარში ხილი",
+      "scene": "ორმა ნაცნობმა ბაზარზე ხილის ფასებს განიხილავს და მიჰყავს რამდენიმე ნორმალური ფრაზა სადილზე.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "სად არიან მსხლის ყუთები? მინდა ცოტა ყური.",
+          "fr": "Où sont les caisses de poires ? Je veux en acheter quelques-unes."
+        },
+        {
+          "speaker": "B",
+          "ka": "პირდაპირ, მეორე დახლთან. ერთი კილოგრამი რამდენია?",
+          "fr": "Tout droit, au deuxième stand. Combien coûte un kilo ?"
+        },
+        {
+          "speaker": "A",
+          "ka": "ფასი 2 ლარია კილოსთვის. მინდა სამი კილო მივიღო.",
+          "fr": "Le prix est 2 laris le kilo. Je voudrais prendre 3 kilos.",
+          "choices": [
+            {
+              "ka": "ორი კილო საკმარისია თქვენთვის?",
+              "fr": "Deux kilos vous suffisent-ils ?",
+              "ok": false
+            },
+            {
+              "ka": "სამი კილოს ვიზრდებით, თუ ჯერ არ გაქვთ სხვა.",
+              "fr": "Nous prendrons 3 kilos si vous n'en avez pas déjà d'autres.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ ერთი ყუთი გვაქვს დღეს.",
+              "fr": "Nous n'avons qu'une caisse aujourd'hui.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ესეც, გეპატიჟებით სახლში ჩაის დალევას?",
+          "fr": "Et aussi, voulez-vous venir boire du thé chez moi ?",
+          "choices": [
+            {
+              "ka": "კი, არაფერია, ცოტა ხნით მოვალ.",
+              "fr": "Oui, pourquoi pas, je viendrai un moment.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ მინდა სტუმრად წასვლა.",
+              "fr": "Non, je ne veux pas aller en visite.",
+              "ok": false
+            },
+            {
+              "ka": "ბედნიერი ვარ, მაგრამ დღეს ვმუშაობ.",
+              "fr": "Je suis heureux mais je travaille aujourd'hui.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-024",
+      "version": 24,
+      "cefr": "A1",
+      "title": "საავადმყოფოში: იაპონური ვიზიტი",
+      "scene": "პაციენტი ექიმთან მიდის, ამბობს თმის ტკივილს და ექიმი ეკითხება სიმპტომებს.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "დილა მშვიდობისა, ცოტა მტკივა თავის წინა მხარე.",
+          "fr": "Bonjour, j'ai un peu mal devant la tête."
+        },
+        {
+          "speaker": "B",
+          "ka": "რამე სხვა სიმპტომი გაქვთ? ხომ არ გაქვთ ცხელება ან ცხელება ხველა?",
+          "fr": "Avez-vous d'autres symptômes ? Fièvre ou toux ?",
+          "choices": [
+            {
+              "ka": "ცხელება არა, მხოლოდ მსუბუქი ხველა.",
+              "fr": "Pas de fièvre, seulement une légère toux.",
+              "ok": false
+            },
+            {
+              "ka": "უნდა ვთქვა, რომ ბოლო ორი დღეა მაქვს მაღალი სიცხე.",
+              "fr": "Je dois dire que j'ai eu de la fièvre depuis deux jours.",
+              "ok": true
+            },
+            {
+              "ka": "ყველაფერი რიგზეა, უბრალოდ ვიცი ცოტა.",
+              "fr": "Tout va bien, je sais juste un peu.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "გთხოვთ, თუ შეიძლება მაღალი სიცხის სამკურნალო რამ მომცეთ.",
+          "fr": "S'il vous plaît, pouvez-vous me donner quelque chose contre la fièvre ?",
+          "choices": [
+            {
+              "ka": "დიახ, წამალი მიგიყვანთ სახლში.",
+              "fr": "Oui, je vous apporterai le médicament à la maison.",
+              "ok": false
+            },
+            {
+              "ka": "დიახ, დავწერ პატარა წამალს და შესასწავლად გაგიწევთ დანარჩენს.",
+              "fr": "Oui, je prescrirai un petit médicament et ferai d'autres examens.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ არის საჭირო წამალი.",
+              "fr": "Non, aucun médicament n'est nécessaire.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ჯანრში თუ გექნებათ, 3 დღეში გამოფხიზლდით და დამირეკეთ.",
+          "fr": "Si ça va, réveillez-vous dans 3 jours et appelez-moi.",
+          "choices": [
+            {
+              "ka": "შესანიშნავია, მადლობა ექიმო.",
+              "fr": "Très bien, merci docteur.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ დავინებო 3 დღეს, მოვუწოდებ სხვა პირებს.",
+              "fr": "Non, je ne vérifierai pas dans 3 jours, je demanderai à d'autres personnes.",
+              "ok": false
+            },
+            {
+              "ka": "ეს მართალია, დავაწერ მიჩვენვებას.",
+              "fr": "C'est vrai, j'écrirai une note.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-025",
+      "version": 25,
+      "cefr": "A1",
+      "title": "პошта: საჩუქრის გაგზავნა",
+      "scene": "მამაკაცი მოდის ფოსტაში, უნდა გაიგზავნოს პატარა საჩუქარი უცხოეთში; თანამშრომელი ასწავლის ფორმალობას.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, მინდა გადავაგზავნო პატარა ყუთი საფრანგეთში.",
+          "fr": "Bonjour, je voudrais envoyer un petit colis en France."
+        },
+        {
+          "speaker": "B",
+          "ka": "სწორად, რამდენი მძიმეა ყუთი?",
+          "fr": "D'accord, combien pèse le colis ?",
+          "choices": [
+            {
+              "ka": "რამდენიმე მესამედი, არ ვიცი თუ კილო.",
+              "fr": "Quelques tiers, je ne sais pas en kilos.",
+              "ok": false
+            },
+            {
+              "ka": "ყუთი 1 კილოგრამია.",
+              "fr": "Le colis pèse 1 kilogramme.",
+              "ok": true
+            },
+            {
+              "ka": "ძალიან მძიმეა, ალბათ 20 კგ.",
+              "fr": "Il est très lourd, probablement 20 kg.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "რას აწერია შინაარსი? საკვები თუ ტანსაცმელი?",
+          "fr": "Quel est le contenu ? Nourriture ou vêtements ?",
+          "choices": [
+            {
+              "ka": "ეს ტანსაცმელია, ახალი სვიტერი.",
+              "fr": "Ce sont des vêtements, un nouveau pull.",
+              "ok": true
+            },
+            {
+              "ka": "ეს არის ცოცხალი მცენარეები.",
+              "fr": "Ce sont des plantes vivantes.",
+              "ok": false
+            },
+            {
+              "ka": "არ არის შინაარსი, მხოლოდ ქაღალდი.",
+              "fr": "Il n'y a pas de contenu, juste du papier.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "კარგი, ველით 7-10 დღე მიწოდებას. გსურთ დაზღვევა?",
+          "fr": "Bien, la livraison prend 7-10 jours. Voulez-vous une assurance ?",
+          "choices": [
+            {
+              "ka": "დიახ, მინდა დაზღვევა, რადგან საჩუქარია.",
+              "fr": "Oui, je veux une assurance car c'est un cadeau.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ მინდა დანახარჯების გაზრდა.",
+              "fr": "Non, je ne veux pas augmenter les frais.",
+              "ok": false
+            },
+            {
+              "ka": "ვიქნებით ვნახოთ, მოვძებნი მეორე გზას.",
+              "fr": "On verra, je chercherai une autre façon.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-026",
+      "version": 26,
+      "cefr": "A1",
+      "title": "უნივერსიტეტში: კურსის არჩევა",
+      "scene": "ახალმა სტუდენტმა კონსულტაციას სთხოვა სამაგისტრო თავში; თანამშრომელი ხსნის, რა კურსები ხელმისაწვდომია.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "საწყისში, მე ახალი სტუდენტია. როგორ შევარჩიო ჩვენი კურსები?",
+          "fr": "Bonjour, je suis un nouvel étudiant. Comment choisir mes cours ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "გსურთ თეორიული თუ პრაქტიკული კურსები?",
+          "fr": "Voulez-vous des cours théoriques ou pratiques ?",
+          "choices": [
+            {
+              "ka": "მიყვარს თეორია, ამიტომ სამხნებრო კურსები მირჩევნია.",
+              "fr": "J'aime la théorie, donc je préfère des cours pratiques.",
+              "ok": false
+            },
+            {
+              "ka": "სახარბი მაქვს პრაქტიკული, რადგან მინდა პრაქტიკაში ვიმუშაო.",
+              "fr": "Je préfère le pratique car je veux travailler sur le terrain.",
+              "ok": true
+            },
+            {
+              "ka": "არაფიდან არ ვიცი განსხვავება.",
+              "fr": "Je ne connais pas la différence.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "კარგი, პრაქტიკული სამუშაოებში არის მცირე ლაბორატორია კვირაში ორჯერ და პროექტი.",
+          "fr": "Très bien, les pratiques comprennent un labo deux fois par semaine et un projet."
+        },
+        {
+          "speaker": "A",
+          "ka": "და რამდენი ხარ წიგნები და გამოცდები?",
+          "fr": "Et combien y a-t-il de livres et d'examens ?",
+          "choices": [
+            {
+              "ka": "ერთი წიგნი და ერთი მოწმობა არ არის.",
+              "fr": "Un livre et pas de certificat.",
+              "ok": false
+            },
+            {
+              "ka": "ორი სასწავლო წიგნია და ერთი შაბათის გამოცდა გვაქვს.",
+              "fr": "Il y a deux manuels et un examen le samedi.",
+              "ok": true
+            },
+            {
+              "ka": "მომიწევს დამოუკიდებლად წერა და სახლში სწავლა.",
+              "fr": "Je devrai écrire seul et étudier à la maison.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-027",
+      "version": 27,
+      "cefr": "A1",
+      "title": "რეისის გაუქმება",
+      "scene": "მგზავრი აეროპორტში მოდის, მისი რეისი გადაიდო; თანამშრომელი ახდენს ახსნა-განმარტებას ალტერნატივაზე.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "მაპატიეთ, ჩემი რეისი ნომერი 342 უნდა გაფრენილიყო. რატომ ვერ ვხედავ დაფათურაზე?",
+          "fr": "Excusez-moi, mon vol 342 devait décoller. Pourquoi ne le vois-je pas sur l'écran ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "რეისი ცოტა დაგვიანდა ქარიშხლის გამო. ჩვენ შეგვიძლია შეცვალოთ თქვენი ბილეთი საყოველთაო რეისზე ან სხვა დღეს.",
+          "fr": "Le vol est retardé à cause d'une tempête. Nous pouvons changer votre billet sur un autre vol ou un autre jour."
+        },
+        {
+          "speaker": "A",
+          "ka": "მე ვჭირდები დღეს საღამოს, არ მინდა დარჩენა. რას შეიძლება დაუჯდეს სხვა ავიაბილეთი?",
+          "fr": "J'ai besoin d'y être ce soir, je ne veux pas rester. Quel serait le coût d'un autre billet ?",
+          "choices": [
+            {
+              "ka": "სხვა ბილეთი დღეს საღამოს დამატებით 100 ლარი დაგიჯდებათ.",
+              "fr": "Un autre billet ce soir coûtera 100 laris supplémentaires.",
+              "ok": true
+            },
+            {
+              "ka": "უფასოა, რადგან დაბლოკილი გაქვთ ბონუსი.",
+              "fr": "C'est gratuit car vous avez un bonus bloqué.",
+              "ok": false
+            },
+            {
+              "ka": "არც ერთი ბილეთი აღარ არის დღეს, ყველა დაკავებულია.",
+              "fr": "Il n'y a aucun billet aujourd'hui, tout est complet.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "თუ მისაღები გაქვთ დავისას, შეგვიძლია ავიღოთ ბილეთი 100 ლარით.",
+          "fr": "Si vous êtes d'accord, nous pouvons vous donner un billet pour 100 laris.",
+          "choices": [
+            {
+              "ka": "კარგი, ავიღებ ბილეთს და გადავალ.",
+              "fr": "D'accord, je prends le billet et je pars.",
+              "ok": true
+            },
+            {
+              "ka": "არა, მადლობა, დაველოდები რომ ბიუჯეტი იყოს.",
+              "fr": "Non merci, j'attendrai que le budget soit.",
+              "ok": false
+            },
+            {
+              "ka": "მითხარით თუ ორშაბათისთვის გაქვთ ბილეთი.",
+              "fr": "Dites-moi si vous avez un billet pour lundi.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-028",
+      "version": 28,
+      "cefr": "A1",
+      "title": "ספרი ბიბლიოთეკაში",
+      "scene": "საფრანგელი სტუდენტი ბიბლიოთეკაში კითხულობს წიგნს და თანამშრომელი ეუბნება წესებს და ვადებს წიგნის დაბრუნებაზე.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, მინდა ვკითხო ეს წიგნი ცოტახნით.",
+          "fr": "Bonjour, je voudrais emprunter ce livre pour un moment."
+        },
+        {
+          "speaker": "B",
+          "ka": "რა ძალა ჩრდილია? რამდენი დღე გჭირდებათ?",
+          "fr": "Pour combien de temps ? Combien de jours vous en avez besoin ?",
+          "choices": [
+            {
+              "ka": "ერთი თვე საკმარისია.",
+              "fr": "Un mois suffira.",
+              "ok": true
+            },
+            {
+              "ka": "ერთი საათი, რადგან მალე უნდა წავიდე.",
+              "fr": "Une heure seulement, car je dois partir bientôt.",
+              "ok": false
+            },
+            {
+              "ka": "ორი წელი, რადგან მჭირდება სამეცადინოდ.",
+              "fr": "Deux ans, car j'en ai besoin pour étudier.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ჩვენი წესით ერთი თვე შეიძლება, მაგრამ იქნებ გააგრძელოთ დაბრუნება სამი დღის შიგნით.",
+          "fr": "Selon nos règles, un mois est possible, mais il faudra prolonger si besoin trois jours avant le retour.",
+          "choices": [
+            {
+              "ka": "გმადლობთ, მივდივარ და დავბრუნებ დროულად.",
+              "fr": "Merci, je pars et je rendrai à temps.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ ვიცი შეიძლება თუ არა გადავადება.",
+              "fr": "Non, je ne sais pas si le prolongement est possible.",
+              "ok": false
+            },
+            {
+              "ka": "მე დავტოვებ წიგნს დაითხოვდა სხვა.",
+              "fr": "Je laisserai le livre pour quelqu'un d'autre.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-029",
+      "version": 29,
+      "cefr": "A1",
+      "title": "ახლადჩამოსული მეზობელი",
+      "scene": "ახალი მეზობელი წყნარად მიიკითხავს მეზობლებს და ეკითხება საცხოვრებლის შესახებ.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, მე ახალივარ ამ ბირჟაზე. მე მქვია ლორა.",
+          "fr": "Bonjour, je suis nouvelle dans cet immeuble. Je m'appelle Laura."
+        },
+        {
+          "speaker": "B",
+          "ka": "გამარჯობა ლორა, მე ვარ ნიკა. სასიამოვნოა დაგინახო.",
+          "fr": "Bonjour Laura, je suis Nika. Ravi de vous rencontrer."
+        },
+        {
+          "speaker": "A",
+          "ka": "საკმაოდ მშვიდი ადგილი ჩანს. როგორია ხმაური ღამით?",
+          "fr": "Le quartier semble calme. Y a-t-il du bruit la nuit ?",
+          "choices": [
+            {
+              "ka": "მოწონა ხმაური ხშირად გვაწუხებს ღამით.",
+              "fr": "Le bruit nous dérange souvent la nuit.",
+              "ok": false
+            },
+            {
+              "ka": "სავარაუდოდ მშვიდი, მხოლოდ საინტერესო მიმოსვლა საღამოობით.",
+              "fr": "Plutôt calme, seulement un peu de circulation le soir.",
+              "ok": true
+            },
+            {
+              "ka": "ცოტა ბუშტები და საღამოს სიუჟეტები.",
+              "fr": "Un peu de bulles et des émissions le soir.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "თუ გსურთ რაიმე დაგჭირდეთ, სთხოვეთ. ვისაუბროთ შემდეგ კვირას კაფეში?",
+          "fr": "Si vous avez besoin de quelque chose, demandez. On se voit la semaine prochaine au café ?",
+          "choices": [
+            {
+              "ka": "კი, ძალიან მჭირდება მომავალი კვირა, მოვიდოდი.",
+              "fr": "Oui, j'ai grand besoin la semaine prochaine, je viendrai.",
+              "ok": true
+            },
+            {
+              "ka": "არა, არ მოდის მე გავჩერდე სახლში.",
+              "fr": "Non, je ne viens pas, je resterai à la maison.",
+              "ok": false
+            },
+            {
+              "ka": "შესაძლებელია, მაგრამ არ ვიცი ზუსტად დღეს.",
+              "fr": "Peut-être, mais je ne sais pas exactement quel jour.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-a1-gen-030",
+      "version": 30,
+      "cefr": "A1",
+      "title": "ტაქსის გატარება",
+      "scene": "პირსი ტაქსის მძღოლთან მიდის, აკითხვებს მის მისამართსა და საფასურს.",
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "გამარჯობა, შეგიძლიათ დიდუბის მოედანზე მიგიყვანოთ?",
+          "fr": "Bonjour, pouvez-vous m'emmener à la place Didube ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "რა დრო დაგჭირდებათ წასვლა? ცოცხალი ტრაფიკია.",
+          "fr": "À quelle heure voulez-vous partir ? Il y a beaucoup de trafic.",
+          "choices": [
+            {
+              "ka": "ყოველთვის ახლა, ვმოძებნი წასვლას ახლავე.",
+              "fr": "Tout de suite, je cherche à partir maintenant.",
+              "ok": true
+            },
+            {
+              "ka": "ხვალ დილის, რადგან დღეს დაკავებული ვარ.",
+              "fr": "Demain matin, car je suis occupé aujourd'hui.",
+              "ok": false
+            },
+            {
+              "ka": "ასე მგონი, არ მინდა ისევ თავის შესვლა.",
+              "fr": "Je ne pense pas vouloir y aller maintenant.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "გადასახდელი დაახლოებით 8 ლარია, დამატებით გზის გადასახადი შეიძლება იყოს.",
+          "fr": "Le tarif est d'environ 8 laris, avec un éventuel supplément de péage.",
+          "choices": [
+            {
+              "ka": "8 ლარი კარგი და მზად ვარ გადავიხადო ნაღდი ფულით.",
+              "fr": "8 laris ça va, je paierai en espèces.",
+              "ok": true
+            },
+            {
+              "ka": "არც ერთს არ დავთანხმდები, მე მაქვს საკუთარი მანქანა.",
+              "fr": "Je ne suis d'accord avec aucun, j'ai ma propre voiture.",
+              "ok": false
+            },
+            {
+              "ka": "გთხოვთ, მხოლოდ გაიაროთ ერთი გზის ხარჯი.",
+              "fr": "S'il vous plaît, seulement prenez le coût d'un trajet.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "კარგია, წამოდი დავიძარით. ქუჩაზე დამაყენეთ ძირითადი შესასვლელის წინ.",
+          "fr": "Très bien, allons-y. Déposez-moi devant l'entrée principale, s'il vous plaît."
+        }
+      ]
     }
   ]
 }

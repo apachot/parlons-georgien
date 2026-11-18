@@ -110,6 +110,356 @@
         "მან დაასრულა ლექცია, აუდიტორიას მოუხმო კრიტიკული ცნობის მოყვარეობის გამორჩევისკენ, დარწმუნებული, რომ მხოლოდ სწორედ ეს აერთიანებს სამეცნიერო მკაცრობას და ჰუმანურ მგრძნობელობას."
       ],
       "note": "Conclusion avec infinitive et conviction; vérifier 'კრიტიკული ცნობის მოყვარეობა' et combinaison 'სამეცნიერო მკაცრობა' + 'ჰუმანური მგრძნობელობა'."
+    },
+    {
+      "id": "dictation_sentences-c2-gen-011",
+      "fr": "Rédige une synthèse critique des arguments avancés lors de la réunion, en mettant l'accent sur les implications éthiques.",
+      "ka": "შექმენი შეხვედრაზე წარმოთქმული არგუმენტების კრიტიკული სინთეზი და განსაკუთრებული აქცენტი გააკეთე მათი ეთიკური შედეგების აღწერაზე.",
+      "answers": [
+        "შექმენი შეხვედრაზე წარმოთქმული არგუმენტების კრიტიკული სინთეზი და განსაკუთრებული აქცენტი გააკეთე მათი ეთიკური შედეგების აღწერაზე."
+      ],
+      "note": "Formulation impérative; «მაგისტრალური» expression pour «mettre l'accent» = გააკეთე აქცენტი.",
+      "cefr": "C2",
+      "version": 11
+    },
+    {
+      "id": "dictation_sentences-c2-gen-012",
+      "fr": "Explique, en citant des exemples précis, pourquoi la préservation des langues minoritaires est une question de justice sociale.",
+      "ka": "ზუსტი მაგალითების მოყვანით დაასაბუთე, რატომ წარმოადგენს უმცირესობათა ენების დაცვა სოციალური სამართლიანობის საკითხს.",
+      "answers": [
+        "ზუსტი მაგალითების მოყვანით დაასაბუთე, რატომ წარმოადგენს უმცირესობათა ენების დაცვა სოციალური სამართლიანობის საკითხს."
+      ],
+      "note": "Construction impérative + subordination finale; «justice sociale» rendu par სოციალური სამართლიანობა.",
+      "cefr": "C2",
+      "version": 12
+    },
+    {
+      "id": "dictation_sentences-c2-gen-013",
+      "fr": "Relate, au discours indirect, ce que le ministre a déclaré concernant la réforme fiscale.",
+      "ka": "ირიბი სიტყვით გადმოსცე, რა განაცხადა მინისტრმა საგადასახადო რეფორმის შესახებ.",
+      "answers": [
+        "ირიბი სიტყვით გადმოსცე, რა განაცხადა მინისტრმა საგადასახადო რეფორმის შესახებ."
+      ],
+      "note": "«Relate, au discours indirect» = ირიბი სიტყვით გადმოსცე ; syntaxe adaptée au registre soutenu.",
+      "cefr": "C2",
+      "version": 13
+    },
+    {
+      "id": "dictation_sentences-c2-gen-014",
+      "fr": "Traduis en géorgien une critique littéraire qui fasse référence au style baroque et à la modernité.",
+      "ka": "თარგმნე ქართულად ლიტერატურული კრიტიკა, სადაც მოხსენიებულია ბაროკოს სტილი და თანამედროვეობა.",
+      "answers": [
+        "თარგმნე ქართულად ლიტერატურული კრიტიკა, სადაც მოხსენიებულია ბაროკოს სტილი და თანამედროვეობა."
+      ],
+      "note": "«Faire référence à» rendu par მოხსენიებულია ; registre formel conservé.",
+      "cefr": "C2",
+      "version": 14
+    },
+    {
+      "id": "dictation_sentences-c2-gen-015",
+      "fr": "Formule cinq objections solides à l'hypothèse selon laquelle la technologie seule résoudra les inégalités.",
+      "ka": "დაწერე ხუთი მყარი არგუმენტი იმის წინააღმდეგ, რომ მხოლოდ ტექნოლოგია მოაგვარებს უთანასწორობებს.",
+      "answers": [
+        "დაწერე ხუთი მყარი არგუმენტი იმის წინააღმდეგ, რომ მხოლოდ ტექნოლოგია მოაგვარებს უთანასწორობებს."
+      ],
+      "note": "Impératif simple + conjonction «ისინი რომლებიც» omise pour concision ; «inégalités» = უთანასწორობები.",
+      "cefr": "C2",
+      "version": 15
+    },
+    {
+      "id": "dictation_sentences-c2-gen-016",
+      "fr": "Condense en une phrase l'essentiel d'un essai universitaire de dix pages sur la laïcité.",
+      "ka": "გაჯამე ერთ წინადადებაში ათგვერდიანი სამეცნიერო ესეს ძირითადი სათქმელი სეკულარიზმის შესახებ.",
+      "answers": [
+        "გაჯამე ერთ წინადადებაში ათგვერდიანი სამეცნიერო ესეს ძირითადი სათქმელი სეკულარიზმის შესახებ."
+      ],
+      "note": "«Essai universitaire» = სამეცნიერო შემცირებით; «laïcité» rendu par სეკულარიზმი.",
+      "cefr": "C2",
+      "version": 16
+    },
+    {
+      "id": "dictation_sentences-c2-gen-017",
+      "fr": "Propose une reformulation plus nuancée de la phrase : « La culture populaire est inférieure à la haute culture ».",
+      "ka": "შეადგინე უფრო ნიუანსური ფორმულირება ფრაზისთვის: «La culture populaire est inférieure à la haute culture».",
+      "answers": [
+        "შეადგინე უფრო ნიუანსური ფორმულირება ფრაზისთვის: «La culture populaire est inférieure à la haute culture»."
+      ],
+      "note": "La consigne garde la citation en français pour clarté; «propose» = შეადგინე, registre soutenu.",
+      "cefr": "C2",
+      "version": 17
+    },
+    {
+      "id": "dictation_sentences-c2-gen-018",
+      "fr": "Énonce, en langage soutenu, les conséquences imprévues d'une politique migratoire restrictive.",
+      "ka": "განაცხადე დახვეწილ სტილში მიგრაციის მკაცრი პოლიტიკის მოულოდნელი და შეუქცევადი შედეგები.",
+      "answers": [
+        "განაცხადე დახვეწილ სტილში მიგრაციის მკაცრი პოლიტიკის მოულოდნელი და შეუქცევადი შედეგები."
+      ],
+      "note": "«Langage soutenu» = დახვეწილი სტილი ; nuances «imprévues» et «irréversibles» rendues par მოულოდნელი და შეუქცევადი.",
+      "cefr": "C2",
+      "version": 18
+    },
+    {
+      "id": "dictation_sentences-c2-gen-019",
+      "fr": "Rédige une mise en garde à l'usage d'un vocabulaire péjoratif à l'égard d'un groupe social, en insistant sur les conséquences juridiques et éthiques.",
+      "ka": "დაწერე გაფრთხილება სოციალური ჯგუფის მიმართ პეიორატიული ლექსიკის გამოყენების შესახებ და დაასახელე მისი სამართლებრივი და ეთიკური შედეგები.",
+      "answers": [
+        "დაწერე გაფრთხილება სოციალური ჯგუფის მიმართ პეიორატიული ლექსიკის გამოყენების შესახებ და დაასახელე მისი სამართლებრივი და ეთიკური შედეგები."
+      ],
+      "note": "«Vocabulaire péjoratif» = პეიორატიული ლექსიკა ; double accent sur conséquences juridiques et éthiques.",
+      "cefr": "C2",
+      "version": 19
+    },
+    {
+      "id": "dictation_sentences-c2-gen-020",
+      "fr": "Comparez, de manière critique et synthétique, deux approches contemporaines de la protection des données personnelles.",
+      "ka": "შეადარეთ კრიტიკულად და სინთეტურად ორი თანამედროვე მიდგომა პირადი მონაცემების დაცვის სფეროში.",
+      "answers": [
+        "შეადარეთ კრიტიკულად და სინთეტურად ორი თანამედროვე მიდგომა პირადი მონაცემების დაცვის სფეროში."
+      ],
+      "note": "Impératif pluriel «Comparez» = შეადარეთ ; «protection des données personnelles» = პირადი მონაცემების დაცვა.",
+      "cefr": "C2",
+      "version": 20
+    },
+    {
+      "id": "dictation_sentences-c2-gen-021",
+      "fr": "Expliquez pourquoi, malgré les apparences, il est crucial de différencier information et opinion dans tout débat public.",
+      "ka": "ხაზგასმით აუხსენით, რატომ არის მნიშვნელოვანი, მიუხედავად გარეგანი შთაბეჭდილებისა, საზოგადოებრივ დისკუსიაში ინფორმაციისა და მოსაზრებების ერთმანეთისაგან გამიჯვნა.",
+      "answers": [
+        "ხაზგასმით აუხსენით, რატომ არის მნიშვნელოვანი, მიუხედავად გარეგანი შთაბეჭდილებისა, საზოგადოებრივ დისკუსიაში ინფორმაციისა და მოსაზრებების ერთმანეთისაგან გამიჯვნა.",
+        "ხაზგასმით აუხსენით რატომ არის მნიშვნელოვანი, მიუხედავად გარეგანი შთაბეჭდილებისა, საზოგადოებრივ დისკუსიაში ინფორმაციისა და მოსაზრებების ერთმანეთისაგან გამიჯვნა"
+      ],
+      "note": "Impératif explicatif; ordre des compléments et subordonnée concessive (« malgré ») reproduits en géorgien.",
+      "cefr": "C2",
+      "version": 21
+    },
+    {
+      "id": "dictation_sentences-c2-gen-022",
+      "fr": "Même si l’auteur use d’un ton ironique, son propos révèle une inquiétude sincère quant à l’avenir.",
+      "ka": "მიუხედავად იმისა, რომ ავტორი იყენებს ირონიულ ტონს, მისი სიტყვები გულწრფელ შფოთვას ამხელს მომავალთან დაკავშირებით.",
+      "answers": [
+        "მიუხედავად იმისა, რომ ავტორი იყენებს ირონიულ ტონს, მისი სიტყვები გულწრფელ შფოთვას ამხელს მომავალთან დაკავშირებით.",
+        "მიუხედავად იმისა რომ ავტორი იყენებს ირონიულ ტონს, მისი სიტყვები გულწრფელ შფოთვას ამხელს მომავალთან დაკავშირებით"
+      ],
+      "note": "Concession + conséquence ; « quant à » rendu par \"მომავალთან დაკავშირებით\".",
+      "cefr": "C2",
+      "version": 22
+    },
+    {
+      "id": "dictation_sentences-c2-gen-023",
+      "fr": "Racontez, au style indirect, ce que le témoin a déclaré au juge, en gardant la nuance d’hésitation.",
+      "ka": "მორიდებით გადმოაცემით აღწერეთ, რა განაცხადა მოწმემ მოსამართლეს, შეინარჩუნეთ ეჭვის და ჰეზიტაციის ნიუნსი.",
+      "answers": [
+        "მორიდებით გადმოაცემით აღწერეთ, რა განაცხადა მოწმე მოსამართლეს, შეინარჩუნეთ ეჭვის და ჰეზიტაციის ნიუნსი.",
+        "მორიდებით გადმოაცემით აღწერეთ, რა განაცხადა მოწმემ მოსამართლეს, შეინარჩუნეთ ეჭვის და ჰეზიტაციის ნიუნსი."
+      ],
+      "note": "Style indirect demandé ; « nuance d’hésitation » rendu littéralement par \"ეჭვის და ჰეზიტაციის ნიუნსი\" pour conserver la précision stylistique.",
+      "cefr": "C2",
+      "version": 23
+    },
+    {
+      "id": "dictation_sentences-c2-gen-024",
+      "fr": "Si l’on admet que la vérité peut être fragmentée, comment recompose-t-on un récit cohérent sans trahir les faits ?",
+      "ka": "თუ ვაღიარებთ, რომ სიმართლე შეიძლება ფრაგმენტული იყოს, როგორ ვაერთიანებთ მას თანმიმდევრულ მოთხრობაში ისე, რომ არ შევღალოთ ფაქტები?",
+      "answers": [
+        "თუ ვაღიარებთ, რომ სიმართლე შეიძლება ფრაგმენტული იყოს, როგორ ვაერთიანებთ მას თანმიმდევრულ მოთხრობაში ისე, რომ არ შევღალოთ ფაქტები?",
+        "თუ ვაღიარებთ, რომ სიმართლე შეიძლება ფრაგმენტული იყოს, როგორ ვაერთიანებთ მას თანმიმდევრულ მოთხრობაში ისე რომ არ შევღალოთ ფაქტები?"
+      ],
+      "note": "Conditionnel admis + interrogation rhétorique ; \"recomposer\" rendu par \"ვაერთიანებთ\".",
+      "cefr": "C2",
+      "version": 24
+    },
+    {
+      "id": "dictation_sentences-c2-gen-025",
+      "fr": "Formulez une objection nuancée à l’argument selon lequel la culture est uniquement une question d’héritage.",
+      "ka": "წარადგინეთ ამშვენიერებული, წონიანი შენიშვნა იმ არგუმენტისთვის, რომლის მიხედვითაც კულტურა მხოლოდ მემკვიდრეობის საკითხია.",
+      "answers": [
+        "წარადგინეთ ამშვენიერებული, წონიანი შენიშვნა იმ არგუმენტისთვის, რომლის მიხედვითაც კულტურა მხოლოდ მემკვიდრეობის საკითხია.",
+        "წარადგინეთ ამშვენიერებული წონიანი შენიშვნა იმ არგუმენტისთვის, რომლის მიხედვითაც კულტურა მხოლოდ მემკვიდრეობის საკითხია"
+      ],
+      "note": "« Objection nuancée » rendu par \"ამშვენიერებული, წონიანი შენიშვნა\" ; structure rapportée \"selon laquelle\" = \"რის მიხედვითაც\".",
+      "cefr": "C2",
+      "version": 25
+    },
+    {
+      "id": "dictation_sentences-c2-gen-026",
+      "fr": "Traduis ce passage en géorgien en respectant le registre soutenu : 'To grapple with complexity requires both intellectual humility and intellectual courage.'",
+      "ka": "საუფრო რეგისტრში: რთულ პრობლემებთან გამკლავება მოითხოვს როგორც ინტელექტუალურ თავმდაბლობას, ისე ინტელექტუალურ გულგონიერულობას.",
+      "answers": [
+        "საუფრო რეგისტრში: რთულ პრობლემებთან გამკლავება მოითხოვს როგორც ინტელექტუალურ თავმდაბლობას, ისე ინტელექტუალურ გულგონიერულობას.",
+        "საუფრო რეგისტრში: რთულ პრობლემებთან გამკლავება მოითხოვს, როგორც ინტელექტუალურ თავმდაბლობას, ისე ინტელექტუალურ გულგონიერულობას"
+      ],
+      "note": "Registre soutenu demandé ; paire parallèle « both... and... » rendue par \"როგორც... ისე...\".",
+      "cefr": "C2",
+      "version": 26
+    },
+    {
+      "id": "dictation_sentences-c2-gen-027",
+      "fr": "Comparez, en montrant les implications épistémiques, l’approche empirique et l’approche théorique dans les sciences humaines.",
+      "ka": "შეადარეთ, მხოლად ეპისტემური ანალიზით, ემპირიული და თეორიული მიდგომები ჰუმანიტარულ მეცნიერებებში და დაასახეთ მათი ეპისტემური შედეგები.",
+      "answers": [
+        "შეადარეთ, მხოლად ეპისტემური ანალიზით, ემპირიული და თეორიული მიდგომები ჰუმანიტარულ მეცნიერებებში და დაასახეთ მათი ეპისტემური შედეგები.",
+        "შეადარეთ მხოლად ეპისტემური ანალიზით ემპირიული და თეორიული მიდგომები ჰუმანიტარულ მეცნიერებებში და დაასახეთ მათი ეპისტემური შედეგები"
+      ],
+      "note": "Comparaison plus exposition des conséquences épistémiques ; formulation impérative complexe adaptée au registre C2.",
+      "cefr": "C2",
+      "version": 27
+    },
+    {
+      "id": "dictation_sentences-c2-gen-028",
+      "fr": "Rédigez une critique brève mais incisive d’un essai qui sacralise le progrès technique sans discuter ses externalités.",
+      "ka": "დაწერეთ მოკლე, თუმცა მწვავე კრიტიკა ese-ს, რომელიც თაყვანს სცემს ტექნოლოგიურ პროგრესს მისი გვერდითი შედეგების განხილვის გარეშე.",
+      "answers": [
+        "დაწერეთ მოკლე, თუმცა მწვავე კრიტიკა ese-ს, რომელიც თაყვანს სცემს ტექნოლოგიურ პროგრესს მისი გვერდითი შედეგების განხილვის გარეშე.",
+        "დაწერეთ მოკლე თუმცა მწვავე კრიტიკა ese-ს, რომელიც თაყვანს სცემს ტექნოლოგიურ პროგრესს მისი გვერდითი შედეგების განხილვის გარეშე"
+      ],
+      "note": "Style concis et percutant ; « sacraliser » rendu par \"თაყვანს სცემს\" ; « externalités » = \"გვერდითი შედეგები\".",
+      "cefr": "C2",
+      "version": 28
+    },
+    {
+      "id": "dictation_sentences-c2-gen-029",
+      "fr": "Expliquez en quoi la notion de 'communauté épistémique' remet en cause l’indépendance absolue de l’expert.",
+      "ka": "ხაზგასმით ახსენით, როგორ აქცევს 'ეპისტემიკური საზოგადოება' ეჭვქვეშ ექსპერტის აბსოლუტურ დამოუკიდებლობას.",
+      "answers": [
+        "ხაზგასმით ახსენით, როგორ აქცევს 'ეპისტემიკური საზოგადოება' ეჭვქვეშ ექსპერტის აბსოლუტურ დამოუკიდებლობას.",
+        "ხაზგასმით ახსენით როგორ აქცევს 'ეპისტემიკური საზოგადოება' ეჭვქვეშ ექსპერტის აბსოლუტურ დამოუკიდებლობას"
+      ],
+      "note": "'Remet en cause' rendu par \"აჩვევს ეჭვქვეშ\" ; notion citée entre guillemets conservée en géorgien.",
+      "cefr": "C2",
+      "version": 29
+    },
+    {
+      "id": "dictation_sentences-c2-gen-030",
+      "fr": "Proposez une reformulation élégante et précise de la phrase suivante : 'Il faut parfois préférer la vérité incomplète à l’illusion complète.'",
+      "ka": "ზოგჯერ უფრო გონივრულია არასრული სიმართლის არჩევა სრულ ილუზიაზე.",
+      "answers": [
+        "ზოგჯერ უფრო გონივრულია არასრული სიმართლის არჩევა სრულ ილუზიაზე.",
+        "ზოგჯერ უფრო გონივრულია არასრული სიმართლის არჩევა სრულ ილუზიაზე."
+      ],
+      "note": "Reformulation élégante et concise ; registre nuancé avec \"გონივრულია\" pour « il faut parfois préférer ».",
+      "cefr": "C2",
+      "version": 30
+    },
+    {
+      "id": "dictation_sentences-c2-gen-031",
+      "fr": "Expliquez, en moins de cent mots, pourquoi il est vain de vouloir réglementer toutes les modalités d'expression artistique.",
+      "ka": "მოკლედ დააკონკრეტეთ, რატომ არის ფუჭი მცდელობა ხელოვნებისა და გამოხატვის ყველა ფორმის რეგულირება.",
+      "answers": [
+        "მოკლედ დააკონკრეტეთ, რატომ არის фუჭი მცდელობა ხელოვნებისა და გამოხატვის ყველა ფორმის რეგულირება.",
+        "მოკლედ დააკონკრეტეთ, რატომ არის ფუჭი მცდელობა ხელოვნებისა და გამოხატვის ყველა ფორმის რეგულირება."
+      ],
+      "note": "«ფუჭი მცდელობა» = vain; syntaxe: infinitive-regarder après 'რატომ არის' pour expliquer la cause.",
+      "cefr": "C2",
+      "version": 31
+    },
+    {
+      "id": "dictation_sentences-c2-gen-032",
+      "fr": "Racontez ce que vous comprenez par «liberté négative» et donnez un exemple concret.",
+      "ka": "რცავად აღწერეთ, რას გულისხმობს „უარყოფითი თავისუფლება“ და მოიყვანეთ ერთი კონკრეტული მაგალითი, რომელიც ხელს უშლის სხვების ჩარევას ინდივიდუალური საქმიანობისას.",
+      "answers": [
+        "რცავად აღწერეთ, რას გულისხმობს „უარყოფითი თავისუფლება“ და მოიყვანეთ ერთი კონკრეტული მაგალითი, რომელიც ხელს უშლის სხვების ჩარევას ინდივიდუალური საქმიანობისას.",
+        "რცადად აღწერეთ, რას გულისხმობს „უარყოფითი თავისუფლება“ და მოიყვანეთ ერთი კონკრეტული მაგალითი, რომელიც ხელს უშლის სხვების ჩარევას ინდივიდუალური საქმიანობისას."
+      ],
+      "note": "Vocabulaire: „უარყოფითი თავისუფლება“; phrase explicative et exemple concret; orthographe vérifiée.",
+      "cefr": "C2",
+      "version": 32
+    },
+    {
+      "id": "dictation_sentences-c2-gen-033",
+      "fr": "Soulignez la nuance entre «vouloir» et «désirer» dans un contexte philosophique.",
+      "ka": "ფილოსოფიურ კონტექსტში ხაზგასასმელია ნიუანსი სიტყვებს „vouloir“ და „désirer“ შორის: პირველი მეტისმეტად მახვილი მოტივაციასა და აქტიურ ნების აქტს აღნიშნავს, მეორე კი გულისხმობს გულსაკლავი ან ინტერნალური მისწრაფებას.",
+      "answers": [
+        "ფილოსოფიურ კონტექსტში ხაზგასასმელია ნიუანსი სიტყვებს „vouloir“ და „désirer“ შორის: პირველი მეტისმეტად მახვილი მოტივაციასა და აქტიურ ნების აქტს აღნიშნავს, მეორე კი გულისხმობს გულსაკლავი ან ინტერნალური მისწრაფებას.",
+        "ფილოსოფიურ კონტექსტში ხაზგასასმელია ნიუანსი სიტყვებს „vouloir“ და „désirer“ შორის: პირველი მეტისმეტად მახვილი მოტივაციასა და აქტიურ ნების აქტს აღნიშნავს, მეორე კი გულისხმობს გულისაკლს ან ინტერნალურ მისწრაფებას."
+      ],
+      "note": "On laisse les vocables français en guillemets; explication en géorgien des différences de registre et d'intensité.",
+      "cefr": "C2",
+      "version": 33
+    },
+    {
+      "id": "dictation_sentences-c2-gen-034",
+      "fr": "Reformulez cette affirmation en style indirect: «Il a prétendu qu'il ne connaissait pas la pièce.»",
+      "ka": "მან ამტკიცა, რომ არ იცნობდა პიესას.",
+      "answers": [
+        "მან ამტკიცა, რომ არ იცნობდა პიესას.",
+        "მან ამტკიცებდა, რომ არ იცნობდა პიესას."
+      ],
+      "note": "Deux variantes acceptables du verbe ('ამტკიცა' perfectif, 'ამტკიცებდა' imperfectif) selon nuance; subordination correcte avec 'რომ'.",
+      "cefr": "C2",
+      "version": 34
+    },
+    {
+      "id": "dictation_sentences-c2-gen-035",
+      "fr": "Proposez une objection rigoureuse à l'argument selon lequel la spontanéité authentique est incompatible avec l'artifice technique.",
+      "ka": "თან მოსაყენებელია კრმა: spontaneous მეტაფორიკულად არ არის აუცილებელი წინააღმდეგობა ტექნიკურ ღელვასთან; კერძოდ, შეუძლებელია ჯგუფური ან რეფლექსური აქტები, რომლებსაც ტექნიკური ჩარჩო არ აძლიერებდეს — ამიტომ არგუმენტი, რომელიც გამორიცხავს სინთეზს spontanéité-სა და ტექნიკის შორის, არ არის საკმარისად ინსტრუმენტალური და ორიენტირებული პრაქტიკულად.",
+      "answers": [
+        "თან მოსაყენებელია კრმა: spontanéité მეტაფორიკულად არ არის აუცილებელი წინააღმდეგობა ტექნიკურ ღელვასთან; კერძოდ, შეუძლებელია ჯგუფური ან რეფლექსური აქტები, რომლებსაც ტექნიკური ჩარჩო არ აძლიერებდეს — ამიტომ არგუმენტი, რომელიც გამორიცხავს სინთეზს spontanéité-სა და ტექნიკის შორის, არ არის საკმარისად ინსტრუმენტალური და ორიენტირებული პრაქტიკულად.",
+        "მოსაყენებელია ობიექტირებული შენიშვნა: spontaneous არ აუცილებლად ეწინააღმდეგება ტექნიკას; პრაქტიკული მშენებლობა ხშირად სარგებლობს ტექნიკოსური საფუძვლებით, ამიტომ სრული აგრეგაცია არაეფექტურია."
+      ],
+      "note": "Formulation argumentative complexe; accepte variante avec plus synthétique objection.",
+      "cefr": "C2",
+      "version": 35
+    },
+    {
+      "id": "dictation_sentences-c2-gen-036",
+      "fr": "Expliquez les implications éthiques de l'intelligence artificielle en médecine en citant un dilemme précis.",
+      "ka": "ჩანაწერით განმარტეთ სამედიცინო ჩემპიონატის ეთიკური იმპლიკაციები: მაგალითად, თუ ალგორითმი ავირჩიოს მკურნალობას, რომელიც ზრდის საშუალო სიკვდილიანობას ფართომასშტაბიანად, მაგრამ გადაარჩენს რესურსებს სხვა ჯგუფისთვის, წარდგენილი დილემა აინტერესებს სამართლიანობისა და სიმარტივის პრინციპებს.",
+      "answers": [
+        "ჩანაწერით განმარტეთ სამედიცინოChampionატის ეთიკური იმპლიკაციები: მაგალითად, თუ ალგორითმი ავირჩიოს მკურნალობას, რომელიც ზრდის საშუალო სიკვდილიანობას ფართომასშტაბიანად, მაგრამ გადაარჩენს რესურსებს სხვა ჯგუფისთვის, წარდგენილი დილემა აინტერესებს სამართლიანობისა და სიმარტივის პრინციპებს.",
+        "ჩანაწერით განმართეთ სამედიცინო ეთიკის იმპლიკაციები: მაგალითად, თუ ალგორითმი აირჩევს მკურნალობას, რომელიც ზრდის საშუალო სიკვდილიანობას ფართომასშტაბიანად, მაგრამ გადაარჩენს რესურსებს სხვა ჯგუფისთვის, ასეთი დილემა ართულებს სამართლიანობისა და ეფექტურობის პრინციპებს."
+      ],
+      "note": "Présenter un dilemme: triage algorithmique; variante orthographique et reformulation acceptables.",
+      "cefr": "C2",
+      "version": 36
+    },
+    {
+      "id": "dictation_sentences-c2-gen-037",
+      "fr": "Comparez la notion de responsabilité morale chez Kant et chez Nietzsche en mettant en évidence au moins deux différences fondamentales.",
+      "ka": "შედარებითი ანალიზი: კანტის მორალური პასუხისმგებლობა ეფუძნება კანონზომიერებას და უნივერსალურ იმპერატივს, შევარდნილისა და მსჯვლის ავტონომიას; ნიცშესთვის კი პასუხისმგებლობა ხშირად კონტექსტუალურ თვითშეფასებასა და თვითშეწირვის კრიტიკას უკავშირდება, რაც ორი ძირითადი სხვაობაა — ნორმატიურობა مقابل საეთნიკური ანტი-უნივერსალიზმი და ავტორიტეტი مقابل ინდივიდუალური თვითგადაწყვეტილების მნიშვნელობა.",
+      "answers": [
+        "შედარებითი ანალიზი: კანტის მორალური პასუხისმგებლობა ეფუძნება კანონზომიერებას და უნივერსალურ იმპერატივს, შეზღუდვებისა და მსჯელობის ავტონომიას; ნიცშესთვის კი პასუხისმგებლობა ხშირად კონტექსტუალურ თვითშეფასებასა და თვითშეწირვის კრიტიკას უკავშირდება, რაც ორი ძირითადი სხვაობაა — ნორმატიურობა مقابل საეთნიკური ანტი-უნივერსალიზმი და ავტორიტეტი مقابل ინდივიდუალური თვითგადაწყვეტილების მნიშვნელობა.",
+        "შედარებითი ანალიზი: კანტის მორალური პასუხისმგებლობა დაფუძნებულია უნივერსალურ კანონს და ნიმუშურ მხრიდან შენარჩუნებულობის პრინციპზე, ნიცშესის მიხედვით კი პასუხისმგებლობა უფრო მეტად ინდივიდუალური თვითშემოქმედებისა და ძალნის ეტიკის კონტექსტში იქმნება; ორი განსხვავება: უნივერსალიზმი-ის versus კონტექსტუალური შეფასება და სამართლიანობის ფორმალური პრიორიტეტი versus ურთიერთპროტესტი."
+      ],
+      "note": "Exiger deux différences: universalité vs contextualisme, norme vs créativité; formulations légèrement variées acceptées.",
+      "cefr": "C2",
+      "version": 37
+    },
+    {
+      "id": "dictation_sentences-c2-gen-038",
+      "fr": "Traduisez en géorgien l'aphorisme suivant et commentez-le en une phrase: «Le style, c'est l'homme même.»",
+      "ka": "სტილი — ეს არის თავად ადამიანი; ეს უკავშირებს ენისა და რიტმის არჩევანს ავტორის წყობასა და ზნეობრივ პრეფერენციებს, ანუ სტილი არის პიროვნების პრაქტიკული გამოცხადება.",
+      "answers": [
+        "სტილი — ეს არის თავად ადამიანი; ეს უკავშირდება ენისა და რიტმის არჩევანს ავტორის წყობასა და ზნეობრივ პრეფერენციებს, ანუ სტილი არის პიროვნების პრაქტიკული გამოცხადება.",
+        "სტილი — თავად ადამიანია; ეს გამოკვეთავს, რომ სტილი ნიუანსობრივად გამოხატავს ავტორის ხასიათსა და მსოფლმხედველობას."
+      ],
+      "note": "Traduction idiomatique de Buffon; commentaire bref reliant style et personnalité; deux variantes acceptées.",
+      "cefr": "C2",
+      "version": 38
+    },
+    {
+      "id": "dictation_sentences-c2-gen-039",
+      "fr": "Rédigez une objection brève au présupposé que la vérité est toujours accessible par la raison pure.",
+      "ka": "კრიტიკული მოკლე საპირისპირო: განვლილება რომ მიზანშეწონილია — მიზეზს ყოველგვარ კონტექსტს და ეგზისტენციალურ პარამეტრებს არ მიაკუთვნებს — არ სჯერა, რომ წმინდა გააზრება მარტივად წყვეტს ყველა ეპისტემურ შეზღუდვას.",
+      "answers": [
+        "კრიტიკული მოკლე საპირისპირო: განვლილება რომ მიზანშეწონილია — მიზეზს ყოველგვარ კონტექსტს და ეგზისტენციალურ პარამეტრებს არ მიაკუთვნებს — არ სჯერა, რომ წმინდა გააზრება მარტივად წყვეტს ყველა ეპისტემურ შეზღუდვას.",
+        "მოკლე არაგვარდნა: მტკიცება, რომ ჭეშმარიტება ყოველთვის ჭეშმარიტად მიღწევადია კვლავგამოხატული წმინდა ჭკუის საშუალებით, იგნორირებს ისტორიულ, ემპირულ და პარსპექტივურ ლიმიტებს."
+      ],
+      "note": "Objection concise; met en avant limites empiriques et historiques; variantes acceptées.",
+      "cefr": "C2",
+      "version": 39
+    },
+    {
+      "id": "dictation_sentences-c2-gen-040",
+      "fr": "Énoncez, en géorgien, une proposition conditionnelle complexe (trois niveaux) sur les conséquences sociales d'une perte généralisée de confiance dans les institutions.",
+      "ka": "თუ საზოგადოებამ და მფლობელებმა დაკარგეს ნდობა ინსტიტუტებისადმი, მაშინ კერძო ინიციატივები და მოქალაქობრივი სიახლოვე შეიძლება გადაინაცვლოს ადგილობრივ, არასამთავრობო ქსელებსაკენ; ხოლო თუ ეს არხები არ შეძლებენ სოციალური მომსახურების კომპენსირებას, მაშინ ზრდა ტენდენცია სოციალური პოლარიზაციისა და პოლიტიკური დეზინტეგრაციისკენ გახდება პრაქტიკულად გარდაუვალი.",
+      "answers": [
+        "თუ საზოგადოებამ და მფლობელებმა დაკარგეს ნდობა ინსტიტუტებისადმი, მაშინ კერძო ინიციატივები და მოქალაქობრივი სიახლოვე შეიძლება გადაინაცვლოს ადგილობრივ, არასამთავრობო ქსელებსაკენ; ხოლო თუ ეს არხები არ შეძლებენ სოციალური მომსახურების კომპენსირებას, მაშინ ზრდა ტენდენცია სოციალური პოლარიზაციისა და პოლიტიკური დეზინტეგრაციისკენ გახდება პრაქტიკულად გარდაუვალი.",
+        "თუ საზოგადოებამ დაკარგა ინსტიტუტებისადმი მასობრივი ნდობა, ადგილობრივი და არასამთავრობო ფორმები შესაძლოა დარეგისტრირდნენ, მაგრამ თუ ისინი არ ეყოფათ რესურსსა და ნდობას, საბოლოო შედეგი შეიძლება იყოს სოციალური პოლარიზაციისა და პოლიტიკური დეზინტეგრაციის გაღრმავება."
+      ],
+      "note": "Conditionnelle en trois étapes: cause → conséquence intermédiaire → conséquence finale; deux formulations acceptables.",
+      "cefr": "C2",
+      "version": 40
     }
   ]
 }

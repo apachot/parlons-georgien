@@ -575,6 +575,1649 @@
           ]
         }
       ]
+    },
+    {
+      "id": "dialogues-b2-gen-011",
+      "title": "Demander des précisions sur un rapport",
+      "scene": "Réunion au bureau pour clarifier un passage d'un rapport",
+      "cefr": "B2",
+      "version": 11,
+      "turns": [
+        {
+          "speaker": "Manager",
+          "ka": "კეთილი ხართ. წაიკითხეთ ბოლო პუნქტი ანგარიშში და თქვით, რა ნაწილში გსურთ მეტი ინფორმაცია.",
+          "fr": "Bonjour. Lisez le dernier point du rapport et dites où vous voulez plus d'informations."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "მე ვფიქრობ, რომ გამომდინარე სტრატეგიული მიზნებიდან, შედეგების შეფასება ცოტა მოუხელთებელია — რომელ პარამეტრებს გულისხმობთ კონკრეტულად?",
+          "fr": "Je pense qu'à partir des objectifs stratégiques, l'évaluation des résultats manque de clarté — de quels paramètres parlez-vous précisément?",
+          "choices": [
+            {
+              "ka": "გულდასმით ვთავაზობ შემდეგ პარამეტრებს: ბრენდის ცნობადობა, მომხმარებლის შენარჩუნება და ფინანსური მაჩვენებლები.",
+              "fr": "Je propose soigneusement ces paramètres : notoriété de la marque, fidélisation et indicateurs financiers.",
+              "ok": false
+            },
+            {
+              "ka": "მნიშვნელოვანი იქნება საოპერაციო პარამეტრები, მაგალითად, შესრულების დონე, კონვერსია და ხანგრძლივობა.",
+              "fr": "Il serait important d'avoir des paramètres opérationnels, par exemple : niveau d'exécution, conversion et durée.",
+              "ok": true
+            },
+            {
+              "ka": "უნდა დავამატოთ მხოლოდ სუბიექტური შეფასებები მომხმარებელთა სიზუსტის შესახებ.",
+              "fr": "Il faut ajouter seulement des évaluations subjectives sur la précision des clients.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Manager",
+          "ka": "კარგი, კონვერსია და ხანგრძლივობა მიიჩნიეთ პრიორიტეტულად; შეადგინეთ შესაბამისი მეტრიკა.",
+          "fr": "Bien. Considérez la conversion et la durée comme prioritaires ; établissez les métriques correspondantes."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "როგორია თქვენი შეხედულება კოსულტაციის პერიოდში მიღწევებული შედეგების საშუალო საზომზე — გადავწეროთ თუ არა წარსული პერიოდის ბენდები კომუნიკაციაში?",
+          "fr": "Quelle est votre opinion sur la moyenne des résultats obtenus durant la période de consultation — devons-nous réécrire les plages de la période précédente dans la communication?",
+          "choices": [
+            {
+              "ka": "პირდაპირ უნდა მოვიყვანოთ წინა პერიოდის ციფრები, რათა გვაქვს გამჭვირვალობა.",
+              "fr": "Nous devrions indiquer directement les chiffres de la période précédente pour être transparents.",
+              "ok": false
+            },
+            {
+              "ka": "სჯობს გაუმკლავდეთ შედეგებს კონტექსტში და აუცილებელი იყოს ტენდენციების ანალიზი, არა მხოლოდ ნომინალური ციფრები.",
+              "fr": "Il vaut mieux présenter les résultats dans leur contexte et analyser les tendances, pas seulement les chiffres nominaux.",
+              "ok": true
+            },
+            {
+              "ka": "საკმარისია მხოლოდ პროგნოზის ზოლების დამატება და მეტი არ დაგვჭირდება.",
+              "fr": "Il suffit d'ajouter des bandes de prévision et rien de plus.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-012",
+      "title": "Organiser une visite professionnelle",
+      "scene": "Vous organisez une visite d'étude à Tbilissi pour des partenaires étrangers",
+      "cefr": "B2",
+      "version": 12,
+      "turns": [
+        {
+          "speaker": "Coordinateur",
+          "ka": "ჩვენ ისეთ დეტალებს უნდა ავუხსნათ სტუმრებს, როგორიცაა ტრანსპორტი და პროგრამის გრაფიკი. გთხოვ მოამზადო მოკლე აღწერა.",
+          "fr": "Il faut expliquer aux invités des détails comme le transport et le programme. Peux-tu préparer une brève description ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "რა ტიპის ტრანსპორტის გამოყენებას მოითხოვენ სტუმრები — კერძო ტრანსფერი, ტრანსპორტის ბარათი თუ საზოგადოებრივი გადაადგილება?",
+          "fr": "Quel type de transport les invités demandent-ils — transfert privé, carte de transport ou transports publics ?",
+          "choices": [
+            {
+              "ka": "ვფიქრობ, პრიორიტეტული იქნება კერძო ტრანსფერი და შემდეგ საზოგადოებრივი საშუალებები მოკლე სიგრძეებისთვის.",
+              "fr": "Je pense qu'un transfert privé est prioritaire, puis les transports publics pour les courts trajets.",
+              "ok": true
+            },
+            {
+              "ka": "შესაძლოა, საკმარისი იყოს მხოლოდ ტრანსპორტის ბარათი და მოგვარება პანდემიის გამო.",
+              "fr": "Peut-être qu'une carte de transport suffit, compte tenu de la pandémie.",
+              "ok": false
+            },
+            {
+              "ka": "სტუმრები აუცილებლად მოითხოვენ ორმაგი ბილეთების სისტემას და გიდის მისვლა ყველა შემთხვევაში.",
+              "fr": "Les invités exigeront forcément un système de billets doubles et la présence d'un guide dans tous les cas.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Coordinateur",
+          "ka": "კარგია. წინა შეხვედრებზე სტუმრები ხშირად ითხოვდნენ გიდს კულტურულ სეანსებზე; ჩათვალე ეს პროგრამაში.",
+          "fr": "Bien. Lors des précédentes visites, les invités demandaient souvent un guide pour les séances culturelles ; inclue cela dans le programme."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "რომელი ტიპის კულტურული აქტივობები უნდა შევთავაზოთ, რომ ჯანსაღი ბალანსი ჩამოვაყალიბოთ საქმიანი და სოციალურ-მცოდნეობრივ ნაწილებს შორის?",
+          "fr": "Quel type d'activités culturelles devrions-nous proposer pour équilibrer affaires et parties socio-culturelles ?",
+          "choices": [
+            {
+              "ka": "ადგილობრივი კულინარია, მოკლე ისტორიული სეანსები და მუზეუმების ექსკურსიები შეავსებს პროგრამას.",
+              "fr": "La cuisine locale, de courtes présentations historiques et des visites de musées enrichiront le programme.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ ღამის გასართობი პროგრამები და არტ-გალერეების ღია ქეისი საკმარისია.",
+              "fr": "Seules des soirées festives et des visites libres de galeries suffiraient.",
+              "ok": false
+            },
+            {
+              "ka": "სჯობს საერთოდ გამოვტოვოთ კულტურა და კონცენტრირდეთ მხოლოდ სავაჭრო შეხვედრებზე.",
+              "fr": "Il vaudrait mieux omettre la culture et se concentrer uniquement sur les rencontres commerciales.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-013",
+      "title": "Négocier un délai",
+      "scene": "Un collègue demande un délai pour rendre un dossier urgent",
+      "cefr": "B2",
+      "version": 13,
+      "turns": [
+        {
+          "speaker": "Collègue",
+          "ka": "არაერთხელ ვისაუბრე ხელმძღვანელობასთან, და მინდა დრო მოვითხოვო დოკუმენტის მოხვეჭისთვის — კიდევ ორი დღე განიხილება შესაძლებლად?",
+          "fr": "J'ai discuté plusieurs fois avec la direction et je veux demander du temps pour peaufiner le document — deux jours de plus sont-ils possibles ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "შეგვიძლია გავითვალისწინოთ დამატებითი დრო, მაგრამ უნდა ვიცოდეთ, როგორ შეიცვლება წარდგენის ხარისხი — რას დაამატებთ მეორე დღეს?",
+          "fr": "Nous pouvons accorder du temps supplémentaire, mais il faut savoir comment cela améliorera la présentation — qu'ajouteras-tu pendant ces deux jours ?",
+          "choices": [
+            {
+              "ka": "გავაკეთებ დეტალურ ანალიზს, შევავსებ მონაცემთა დაფას და გადავამოწმებ რეფერენცებს.",
+              "fr": "Je ferai une analyse détaillée, remplirai le tableau de données et vérifierai les références.",
+              "ok": true
+            },
+            {
+              "ka": "უბრალოდ შევაკეთებ ფორმატს და დავუბეჭდავ ისევ იგივე ვერსიას.",
+              "fr": "Je vais simplement reformater et réimprimer la même version.",
+              "ok": false
+            },
+            {
+              "ka": "მხოლოდ დაემატება შესავლის ერთ აბზაცს, სხვა არაფერი.",
+              "fr": "Il n'y aura qu'un paragraphe d'introduction supplémentaire, rien d'autre.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "თუ მონაცემთა დაფა სრულყოფილი იქნება და რეფერენციები იდენტური წყაროებით შეკრებილი — მზად ვარ ვახანგვეჭო დამატებითი ორი დღე, მაგრამ ვადასტურებ, რომ საბოლოო ვერსია ჩემთვის წარედგინება რევიზე.",
+          "fr": "Si le tableau des données est complet et les références regroupées, je suis prêt à accorder deux jours de plus, à condition que la version finale me soit soumise pour révision."
+        },
+        {
+          "speaker": "Collègue",
+          "ka": "ეს შეთანხმება მისაღებია; მე მოგიძახებთ საბოლოო ვერსიისთან დაკავშირებით, როგორც კი ყველაფერი მზად იქნება.",
+          "fr": "Cet accord me convient ; je vous contacterai dès que la version finale sera prête."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-014",
+      "title": "Réagir à une critique publique",
+      "scene": "Discussion après qu'un article critique l'entreprise dans la presse",
+      "cefr": "B2",
+      "version": 14,
+      "turns": [
+        {
+          "speaker": "Journaliste",
+          "ka": "სტატიაში აღნიშნულია რიგი შენიშვნები ჩვენი მომსახურების გონივრულობაზე; რას პასუხობთ ამ დამოკიდებულებებს?",
+          "fr": "L'article mentionne des critiques sur la rationalité de notre service ; que répondez-vous à ces reproches ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "ჩვენ ვმუშაობთ პრობლემების სათანადოდ იდენტიფიცირებაზე; მსურს ინფო მოგაწოდოთ კონკრეტული ნაბიჯების შესახებ, რომლებიც უკვე აღსრულდა.",
+          "fr": "Nous travaillons à identifier correctement les problèmes ; je souhaite vous fournir des informations sur les mesures déjà prises."
+        },
+        {
+          "speaker": "Journaliste",
+          "ka": "კონკრეტულად, რა ღონისძიებები დანიშნულ იქნა მომხმარებელთა უკმაყოფილების შესამცირებლად?",
+          "fr": "Concrètement, quelles mesures ont été prises pour réduire l'insatisfaction des clients ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "ჩვენ გავზარდეთ მომხმარებელთა მომსახურების გუნდი, შემუშავდა სწრაფი რეაგირების პროცედურა და უმნიშვნელოვანესი პრობლემებისათვის იყო კომპენსაციის პროცესი.",
+          "fr": "Nous avons augmenté l'équipe support, mis en place une procédure de réponse rapide et introduit un processus de compensation pour les problèmes majeurs."
+        },
+        {
+          "speaker": "Journaliste",
+          "ka": "რას გრძნობთ ახლა, შემდეგი ნაბიჯი იქნება მომხმარებელთა სანდოობის კვლავაღორძინება თუ სხვანაირია სტრატეგია?",
+          "fr": "Que pensez-vous maintenant : le prochain pas sera de restaurer la confiance des clients ou la stratégie est-elle différente ?",
+          "choices": [
+            {
+              "ka": "ჩვენი სტრატეგია ორიენტირებულია სანდოობის აღდგენისკენ, მაგრამ ეს მოითხოვს თვიურ მონიტორინგს და ღია კომუნიკაციას.",
+              "fr": "Notre stratégie vise à restaurer la confiance, mais cela exige un suivi mensuel et une communication ouverte.",
+              "ok": true
+            },
+            {
+              "ka": "წინაშეა მხოლოდ კონკურენტებზე ხალხის ინფორმირება და განგაშის სისტემა.",
+              "fr": "Il s'agit seulement d'informer le public sur les concurrents et un système d'alerte.",
+              "ok": false
+            },
+            {
+              "ka": "სანდოობა არაა პრიორიტეტი; აქაც მთავარი წილი მოგებაზეა.",
+              "fr": "La confiance n'est pas prioritaire ; l'objectif principal reste la part de profit.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-015",
+      "title": "Planifier une conférence",
+      "scene": "Équipe qui prépare une conférence internationale",
+      "cefr": "B2",
+      "version": 15,
+      "turns": [
+        {
+          "speaker": "Organisateur",
+          "ka": "კონფერენციის თემა უნდა იყოს კონცეფციურად მკაფიო და საინტერესოდ წარმოჩენილი — რა წინადადებები გაქვთ თეზისათვის?",
+          "fr": "Le thème de la conférence doit être conceptuellement clair et présenté de façon attractive — quelles propositions avez-vous pour la thèse ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "შეგვიძლია დავაყენოთ აქცენტი ინოვაციებსა და მდგრად განვითარებაზე, კერძოდ, ქცევითი ცვლილებების ინიცირება და პრაქტიკული მიდგომები.",
+          "fr": "Nous pourrions mettre l'accent sur l'innovation et le développement durable, en particulier l'initiation de changements de comportement et des approches pratiques."
+        },
+        {
+          "speaker": "Organisateur",
+          "ka": "ეს ძალიან ფარულია კონკურსისთვის; შესთავაზე სამი სექცია, რომლებიც ტექსტს გააგრძელებენ მიზნისკენ.",
+          "fr": "C'est très adapté pour l'appel à communication ; propose trois sections qui prolongeront le texte vers l'objectif."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "პირველი სექცია: პოლიტიკა და სტრატეგია; მეორე: ტექნოლოგიები და ინოვაცია; მესამე: საზოგადოებრივი ჩართულობა და სწავლება.",
+          "fr": "Première section : politique et stratégie ; deuxième : technologies et innovation ; troisième : engagement public et formation.",
+          "choices": [
+            {
+              "ka": "ეს სექციები კარგად მოიცავს არსს და საშუალებას გაძლევთ მიაპყროთ სხვადასხვა დარგის წარმომადგენლებს.",
+              "fr": "Ces sections couvrent bien l'essentiel et attireront des représentants de différents domaines.",
+              "ok": true
+            },
+            {
+              "ka": "ეს ზუსტად იგივეა, რაც წინა კონფერენციაზე იყო, ამიტომ არ იქნება ახალი და საინტერესო.",
+              "fr": "C'est exactement ce qui était lors de la conférence précédente, donc ce ne sera pas nouveau ni intéressant.",
+              "ok": false
+            },
+            {
+              "ka": "სჯობს ერთი დიდი პანელი მოვაწყოთ და სხვა არაფერზე დავხარჯოთ რესურსები.",
+              "fr": "Il vaudrait mieux organiser un seul grand panel et ne pas dépenser de ressources sur autre chose.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-016",
+      "title": "Donner un feedback nuancé",
+      "scene": "Vous devez donner un retour détaillé à un stagiaire sur sa présentation",
+      "cefr": "B2",
+      "version": 16,
+      "turns": [
+        {
+          "speaker": "Superviseur",
+          "ka": "შენი პრეზენტაცია იყო მომხიბლავი სტრუქტურით, მაგრამ რამდენიმე თვალსაზრისი deserves ნემსი დასწორება.",
+          "fr": "Ta présentation avait une structure attrayante, mais quelques points méritent d'être affinés."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "გთხოვთ უფრო კონკრეტულად მეტყვით, რომელ ელემენტებს გამოასწორებდი პირველ რიგში — სტილი, მონაცემთა მოცულობა თუ ლოგიკური გადასვლა?",
+          "fr": "Pouvez-vous préciser : quels éléments corrigeriez-vous en premier — le style, la quantité de données ou les transitions logiques ?",
+          "choices": [
+            {
+              "ka": "პირველ რიგში გავუმკლავდებოდი ლოგიკურ გადასვლებს და შემდეგ შევამცირებდი არასაჭირო მონაცემების მოცულობას.",
+              "fr": "Je m'attaquerais d'abord aux transitions logiques puis je réduirais la quantité de données superflues.",
+              "ok": true
+            },
+            {
+              "ka": "აუცილებლად მხოლოდ სტილს შევცვლიდი და ყველა ციფრს უცვლელად დავტოვებდი.",
+              "fr": "Je changerais seulement le style et laisserais tous les chiffres tels quels.",
+              "ok": false
+            },
+            {
+              "ka": "შევამცირებდი მხოლოდ პრეზენტაციის დროს გამოყოფილი ვიზუალებს, ტექსტს არ ეხები ამ სიახლეში.",
+              "fr": "Je réduirais uniquement les visuels ; je ne toucherais pas au texte.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Superviseur",
+          "ka": "კარგი, კარგად ჟღერს. დამატებით, სცადე თითოეული სქიმის მთავარი იდეის მოკლე ფრაზით გამოკვრა და დრო განსაზღვრო თითო სლაიდზე.",
+          "fr": "Bien, ça sonne bien. De plus, essaie de résumer l'idée principale de chaque schéma en une courte phrase et limite le temps par diapositive."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "მადლობა. იმ მომენტისთვის მომცემთ თუ არა მაგალითს, რა თქმა უნდა იქნება ოპტიმალური ფრაზა თითო სქემისთვის?",
+          "fr": "Merci. Pourriez-vous me donner un exemple d'une phrase optimale pour un schéma ?",
+          "choices": [
+            {
+              "ka": "მაგალითად: \"ეს სქემა აჩვენებს მომხმარებლის მოგების მთავარი არხებს\" — მოკლე და მიზანმიმართული.",
+              "fr": "Par exemple : \"Ce schéma montre les principaux canaux d'acquisition client\" — court et ciblé.",
+              "ok": true
+            },
+            {
+              "ka": "მაგალითად: \"ამოიღეთ აქ მნიშვნელოვანი ელემენტები\" — ზოგადად და არაჩვეულებრივად.",
+              "fr": "Par exemple : \"Retirez les éléments importants ici\" — général et peu précis.",
+              "ok": false
+            },
+            {
+              "ka": "მაგალითად: \"იხილეთ დეტალური მიმოხილვა ფაილში\" — რაც არ იძლევა კონტექსტს.",
+              "fr": "Par exemple : \"Voir le rapport détaillé dans le fichier\" — ne donne pas de contexte.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-017",
+      "title": "Discuter d'un partenariat",
+      "scene": "Négociation avec un futur partenaire pour un projet culturel",
+      "cefr": "B2",
+      "version": 17,
+      "turns": [
+        {
+          "speaker": "Partenaire",
+          "ka": "ჩვენს ინტერესშია კოლაბორაცია განსაკუთრებული ფესტივალის ორგანიზებაში; რაიმე გეგმა ან იდეა გაქვთ კონკრეტულად თემა-კუთხით?",
+          "fr": "Nous souhaitons collaborer pour organiser un festival ; avez-vous un plan ou une idée thématique précise ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "ვფიქრობ, საინტერესო იქნებოდა რეგიონული მეტყველების და თანამედროვე ხელოვნების ჰიბრიდი — ადგილობრივი ტრადიციების reinterpretation თანამედროვე ნარატივებით.",
+          "fr": "Je pense qu'un hybride entre discours régional et art contemporain serait intéressant — réinterprétation des traditions locales avec des récits contemporains."
+        },
+        {
+          "speaker": "Partenaire",
+          "ka": "როგორ გეგმავთ აუდიტორიის ჩართულობას? ეს ძირითადად ადგილობრივები იქნებიან თუ საერთაშორისო მასპინძლობა?",
+          "fr": "Comment prévoyez-vous l'engagement du public ? S'agira-t-il principalement de locaux ou d'une audience internationale ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "სჯობს ორივე: დღესასწაული მოიზიდავს ადგილობრივ თემებს სპეციალური აქტივობებით და პარალელურად ჩამოვიყვანთ საერთაშორისო არტისტებს, რათა გაფართოვდეს ვიზიტორთა სპექტრი.",
+          "fr": "Il serait préférable de combiner les deux : attirer les communautés locales avec des activités spécifiques et inviter des artistes internationaux pour élargir le public."
+        },
+        {
+          "speaker": "Partenaire",
+          "ka": "ეს სურვილისამებრ კარგია, მაგრამ ფინანსური და ლოჯისტიკური მხარე რომ მოიცილოთ, რა მოდელი გსურთ შემოთავაზებული?",
+          "fr": "C'est bien sur le papier, mais en excluant les aspects financiers et logistiques, quel modèle proposez-vous ?",
+          "choices": [
+            {
+              "ka": "პროფილი: ჰიბრიდული მოდელი — ადგილობრივი სპონსორები + საერთაშორისო გრანტები და ბილეთების შეზღუდული გაყიდვა.",
+              "fr": "Profil : modèle hybride — sponsors locaux + subventions internationales et vente limitée de billets.",
+              "ok": true
+            },
+            {
+              "ka": "სრულიად კომერციული მოდელი: მხოლოდ ბილეთები და ბაკსაიდ რეკლამა.",
+              "fr": "Modèle purement commercial : uniquement billets et publicité sur site.",
+              "ok": false
+            },
+            {
+              "ka": "არავითარი შემოსავალი არ იქნება; ღონისძიება სრული უფასო იქნება, მაგრამ ვერავინ ვერაფერს პირობას ვერ დებს.",
+              "fr": "Aucun revenu ; l'événement serait entièrement gratuit, mais sans garanties.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-018",
+      "title": "Préparer une inspection",
+      "scene": "Un responsable explique à son équipe l'imminence d'une inspection qualité",
+      "cefr": "B2",
+      "version": 18,
+      "turns": [
+        {
+          "speaker": "Responsable",
+          "ka": "ზედამხედველობა გამოჩნდება ორშაბათს ორშაბათ დილიდან და ყველა პროდუქტის დოკუმენტაცია უნდა იყოს სრულყოფილად მზად.",
+          "fr": "L'inspection aura lieu lundi matin et toute la documentation produit doit être parfaitement prête."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "რეალურად, რომელ პროცედურებს შეამოწმებენ პირველობაში — ხარისხის კონტროლი, ეტიკეტირება თუ ლოგისტიკა?",
+          "fr": "Concrètement, quelles procédures seront vérifiées en priorité — contrôle qualité, étiquetage ou logistique ?",
+          "choices": [
+            {
+              "ka": "პირველ რიგში ხარისხისა და ეტიკეტირების შესაბამისობა გამოიკითხება, შემდეგ კი ლოგისტიკური სქემები.",
+              "fr": "D'abord la conformité de la qualité et de l'étiquetage sera contrôlée, puis les schémas logistiques.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ ლოჯისტიკა გაითვალისწინება; სხვა არაფერი მათი ინტერესია.",
+              "fr": "Seule la logistique sera prise en compte ; rien d'autre ne les intéresse.",
+              "ok": false
+            },
+            {
+              "ka": "პირველ რიგში მათ ფინანსურ ანგარიშს მოუხდებათ და მხოლოდ შემდეგ ვესტუმრებთ დანარჩენებს.",
+              "fr": "Ils regarderont d'abord les comptes financiers puis le reste.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Responsable",
+          "ka": "სადამდეც შესაძლებელია, მოამზადეთ სინთეზური ფაილი შესაბამისი სერტიფიკატებით და კომპლაიანსის ჩანაწერებით.",
+          "fr": "Autant que possible, préparez un dossier synthétique avec les certificats et les enregistrements de conformité."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "თუ რაიმე დოკუმენტი არ იქნება მზად, რა პროცედურაა ჩვენთვის და როგორ შევამციროთ რისკი დასკვნის უარესი გავლენის?",
+          "fr": "Si un document n'est pas prêt, quelle est la procédure et comment réduire le risque d'un avis défavorable ?",
+          "choices": [
+            {
+              "ka": "უნდა შევადგინოთ დროებითი ახსნა-შეთავაზება და ობიექტურ გზებს შევთავაზოთ დამატებითი მტკიცებულების წარდგენისთვის.",
+              "fr": "Il faut rédiger une explication provisoire et proposer des moyens objectifs pour fournir des preuves complémentaires.",
+              "ok": true
+            },
+            {
+              "ka": "არაფერი, დაველოდოთ და იმედი გვაქვს, რომ არაფერი მომხდარა.",
+              "fr": "Rien ; nous attendrons et espérerons que rien ne se passe.",
+              "ok": false
+            },
+            {
+              "ka": "საკმარისია პირადი სიტყვით შევცვალოთ დოკუმენტი, დაზღვევის გარეშე.",
+              "fr": "Il suffit de modifier le document oralement, sans assurance.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-019",
+      "title": "Concilier deux opinions",
+      "scene": "Deux collègues ont des visions opposées sur une campagne publicitaire",
+      "cefr": "B2",
+      "version": 19,
+      "turns": [
+        {
+          "speaker": "Collègue A",
+          "ka": "მე ვფიქრობ რომ კამპანია უნდა იყოს ემოციური და მიმართული გულზე — ამგვარი მიდგომა ზრდის განწყობას და ბრენდის ადაგენობას.",
+          "fr": "Je pense que la campagne doit être émotionnelle et toucher le cœur — cela augmente l'engagement et la mémorabilité de la marque."
+        },
+        {
+          "speaker": "Collègue B",
+          "ka": "მე უფრო გამიჯნულ ვარ: მონაცემები აჩვენებს, რომ მიზნობრივი მესიჯები და A/B ტესტირება ეფექტურია ROI-ს მისაღწევად.",
+          "fr": "Je suis plus réservé : les données montrent que les messages ciblés et les tests A/B sont efficaces pour atteindre le ROI."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "ასე თუ ისე ორივე ხედვა აქვს სიმართლეს; შეიძლება თუ არა ჰიბრიდული კამპანია — ემოციური ბირთვი მინიშნებით სპეციალურ, სეგმენტირებულ მესიჯებზე?",
+          "fr": "Les deux visions ont du vrai ; serait-il possible une campagne hybride — noyau émotionnel avec des messages segmentés ciblés ?",
+          "choices": [
+            {
+              "ka": "დიახ, ჰიბრიდი კარგი compromise იქნება: საერთო ემოციური კონცეფცია პლუს სპეციფიკური ედპერსონალიზაციები.",
+              "fr": "Oui, l'hybride serait un bon compromis : concept émotionnel global plus personnalisations spécifiques.",
+              "ok": true
+            },
+            {
+              "ka": "არა, უნდა აირჩიოს ერთმხრივი მიდგომა და მხოლოდ ემოციები ან მხოლოდ მონაცემები.",
+              "fr": "Non, il faut choisir une approche unique : soit émotions, soit données.",
+              "ok": false
+            },
+            {
+              "ka": "სჯობს საერთოდ გადავიდეთ პირდაპირ გაყიდვებზე და უარი ვთქვათ ბრენდინგზე.",
+              "fr": "Mieux vaut se concentrer sur la vente directe et abandonner le branding.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Collègue A",
+          "ka": "ხელი ჩავიქნიე, თუ არსებობს პრაქტიკული სამოქმედო გეგმა — როგორ ავამუშავებთ ამ ჰიბრიდს ეტაპობრივად?",
+          "fr": "D'accord, s'il y a un plan pratique : comment implémenterons-nous cet hybride par étapes ?"
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "პირველი ფაზა: ემოციური, ბრეენდული ვიდეოები. მეორე: სეგმენტირებული მესიჯები ციფრულ არხებში A/B ტესტების საშუალებით. მესამე: ანგარიშგება KPI-ებით.",
+          "fr": "Phase 1 : vidéos émotionnelles de branding. Phase 2 : messages segmentés sur canaux digitaux avec A/B tests. Phase 3 : reporting avec KPI."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-020",
+      "title": "Gérer un conflit éthique",
+      "scene": "Un fournisseur a proposé un pot-de-vin pour accélérer une commande — discussion avec le directeur",
+      "cefr": "B2",
+      "version": 20,
+      "turns": [
+        {
+          "speaker": "Fournisseur",
+          "ka": "ვიცი, რომ პროცესი ნელია; შეიძლებოდა ცოტათი \"დავეხმაროთ\" და ყველაფერი მალე იქნება მოგვარებული.",
+          "fr": "Je sais que le processus est lent ; on pourrait un peu \"aider\" et tout serait réglé rapidement."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "ჩვენი კომპანიას აქვს მკაცრად განსაზღვრული ეთიკური კოდექსი და მსგავსი წინადადებები არ შეგვიძლია მივიღოთ — გვჭირდება შესწავლა და გამჭვირვალე პროცედურა.",
+          "fr": "Notre entreprise a un code éthique strict et nous ne pouvons accepter de telles propositions — il nous faut enquête et procédure transparente."
+        },
+        {
+          "speaker": "Fournisseur",
+          "ka": "ეს უბრალოდ მცირე შებოჭვაა, რომელსაც ყოველთვის აკეთებენ; მართლა პრობლემაა თუ არა ეს თქვენთვის?",
+          "fr": "C'est juste une petite connivence que tout le monde fait ; est-ce vraiment un problème pour vous ?",
+          "choices": [
+            {
+              "ka": "კომპანიისთვის ეს არა მხოლოდ პრობლემა, ეს არის შეუსაბამობა ჩვენი წესებთან; დანარჩენი შედეგები შეიძლება მნიშვნელოვანი იყოს.",
+              "fr": "Pour l'entreprise, ce n'est pas seulement un problème, c'est incompatible avec nos règles ; les conséquences peuvent être sérieuses.",
+              "ok": true
+            },
+            {
+              "ka": "არაა პრობლემა — თუ ეს შეავსებს ჩვენთვის პროცესს, დავუმალავთ და ყველაფერს გავაკეთებთ.",
+              "fr": "Ce n'est pas un problème — si cela accélère le processus, nous le cacherons et ferons tout.",
+              "ok": false
+            },
+            {
+              "ka": "მე არ ვიცი, შეიძლება სხვა ხელმძღვანელობა სხვა გადაწყვეტილებას მიიღებს.",
+              "fr": "Je ne sais pas, peut-être que la direction prendra une autre décision.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Directeur",
+          "ka": "თუ ასეთი ფაქტი დადასტურდება, აუცილებელია საქმე სამართლებრივ ორგანოებთან შეთანხმებით და მომწყვდევი ზომები.",
+          "fr": "Si ce fait est confirmé, il faudra agir avec les autorités juridiques et prendre les mesures appropriées."
+        },
+        {
+          "speaker": "Apprenant",
+          "ka": "კარგია — მე შევინარჩუნებ ყველა წერილობით ჩანაწერს და შევუზღუდავ შემდგომ კომუნიკაციას, სანამ კითხვა არ იქნება დასრულებული.",
+          "fr": "Très bien — je conserverai toutes les traces écrites et limiterai les communications jusqu'à clôture de l'enquête."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-021",
+      "title": "Demande de précision sur un projet",
+      "scene": "Au bureau, deux collègues discutent des objectifs d'un projet commun.",
+      "cefr": "B2",
+      "version": 21,
+      "turns": [
+        {
+          "speaker": "Colleague",
+          "ka": "გამარჯობა, პროცესის კონცეფცია კარგადაა, მაგრამ მინდა დავწეროთ ზუსტი მაჩვენებლები, რომ მომავალში შედეგი შევამოწმოთ.",
+          "fr": "Bonjour, la conception du processus est bonne, mais j'aimerais qu'on écrive des indicateurs précis pour pouvoir vérifier les résultats plus tard."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "რას გულისხმობთ, რა ტიპის მაჩვენებლები იქნებიან ყველაზე პრაქტიკული ჩვენს შემთხვევაში?",
+          "fr": "Que voulez-vous dire, quel type d'indicateurs seraient les plus pratiques dans notre cas ?",
+          "choices": [
+            {
+              "ka": "არის შეცდომების რაოდენობა და შესრულების მარყუჟი.",
+              "fr": "Le nombre d'erreurs et la boucle de performance.",
+              "ok": false
+            },
+            {
+              "ka": "შეგვიძლია ჩავრთოთ დროში განაწილებული შედეგი, შესრულების ხარისხი და მომხმარებლის კმაყოფილება.",
+              "fr": "Nous pouvons inclure les résultats répartis dans le temps, la qualité d'exécution et la satisfaction client.",
+              "ok": true
+            },
+            {
+              "ka": "მნიშვნელობა აქვს მხოლოდ მოგების ზრდას და ბაზრის წილის ზრდას.",
+              "fr": "Seule la hausse du profit et la part de marché comptent.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Colleague",
+          "ka": "კარგი, მაშინ დავგეგმოთ ეს მაჩვენებლები ტრიმესტრულ ეტაპებად და დავაყენოთ სწორედ სესხის მომენტის მონიტორინგი.",
+          "fr": "Très bien, planifions ces indicateurs par trimestres et mettons en place un suivi précis au moment de leur recueil."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "შეგვიძლია დავამატონ კარგი ოცნებები თუ განსაზღვრული რესურსები არ გვაქვს?",
+          "fr": "Peut-on ajouter des objectifs ambitieux si nous ne disposons pas des ressources définies ?",
+          "choices": [
+            {
+              "ka": "კარგი იდეებია, მაგრამ უპირველესად ვიფიქროთ რეალისტური რესურსების განაწილებაზე.",
+              "fr": "Ce sont de bonnes idées, mais d'abord pensons à répartir les ressources de façon réaliste.",
+              "ok": true
+            },
+            {
+              "ka": "კიდევ უფრო მეტ მიზნებს დავამატებთ და დანარჩენი მერე მოგვარდება.",
+              "fr": "Ajoutons encore plus d'objectifs et le reste se règlera après.",
+              "ok": false
+            },
+            {
+              "ka": "რესურსები არ არის მნიშვნელოვანი, მთავარი მოტივაციაა.",
+              "fr": "Les ressources ne sont pas importantes, la motivation compte avant tout.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-022",
+      "title": "Réservation d'une salle pour une conférence",
+      "scene": "Une responsable organise une conférence et discute des conditions de réservation avec le service logistique.",
+      "cefr": "B2",
+      "version": 22,
+      "turns": [
+        {
+          "speaker": "Organizer",
+          "ka": "მოგვიწევს საკონფერენციო დარბაზის დაჯავშნა 120 მონაწილისთვის და საჭიროა ტექნიკური აღჭურვილობა პროექტორით და აუდიო სისტემით.",
+          "fr": "Nous devons réserver une salle de conférence pour 120 personnes et il faut un équipement technique avec projecteur et système audio."
+        },
+        {
+          "speaker": "Logistics",
+          "ka": "არის რამდენიმე ვარიანტი; ერთში არის კონფერენციაზე მორგებული ვერტიკალური სკამები, სხვაში — ფართო დარბაზი სტანდარტული განლაგებით.",
+          "fr": "Il y a plusieurs options ; l'une a des sièges verticaux adaptés aux conférences, l'autre est une grande salle avec disposition standard.",
+          "choices": [
+            {
+              "ka": "ვირჩევთ ფართო დარბაზს, რადგან გვჭირდება დამოუკიდებელი სივრცე და შესვენების ზონა.",
+              "fr": "Je choisis la grande salle, car nous avons besoin d'un espace indépendant et d'une zone pour les pauses.",
+              "ok": true
+            },
+            {
+              "ka": "ვირჩევთ ვერტიკალურ სკამებს, ეს უფრო ეკონომიური და სწრაფია.",
+              "fr": "Je choisis les sièges verticaux, c'est plus économique et rapide.",
+              "ok": false
+            },
+            {
+              "ka": "სქემა არაა მნიშვნელოვანი, მთავარია მხოლოდ პროექტორი არსებობდეს.",
+              "fr": "La configuration n'importe peu, seul le projecteur doit être présent.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Organizer",
+          "ka": "შეგიძლია დარბაზის ხელმისაწვდომობა გთხოვო ნომრებზე და ცხრილზე 9:00-17:00? ასევე, დაადასტურე ქაფე-პაუზის ადგილი.",
+          "fr": "Peux-tu demander la disponibilité de la salle pour les dates et pour 9h-17h ? Et confirme aussi l'espace pause-café."
+        },
+        {
+          "speaker": "Logistics",
+          "ka": "გადავამოწმებ და დაგიბრუნდები დოკუმენტაციით და ფასით.",
+          "fr": "Je vérifierai et je reviens vers toi avec la documentation et le tarif.",
+          "choices": [
+            {
+              "ka": "დიდი მადლობა, კიდევ დამატებით მოთხოვნა: სცენას მსუბუქი განათება უნდა ჰქონდეს.",
+              "fr": "Merci beaucoup, une demande supplémentaire : la scène doit avoir un éclairage doux.",
+              "ok": false
+            },
+            {
+              "ka": "გთხოვ, განსაკუთრებული პრიორიტეტით მოითხოვო სიმინდის ცხრილი.",
+              "fr": "S'il te plaît, demande en priorité un tableau de maïs.",
+              "ok": false
+            },
+            {
+              "ka": "გასაგებია, ვითხოვ ხმისა და სინათლის სინქრონიზაციას და კამერის წერტილს.",
+              "fr": "Compris, je demanderai la synchronisation son-lumière et un point caméra.",
+              "ok": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-023",
+      "title": "Discussion sur un film et ses thèmes",
+      "scene": "Au café, deux amis discutent d'un film récent et de son interprétation symbolique.",
+      "cefr": "B2",
+      "version": 23,
+      "turns": [
+        {
+          "speaker": "Friend A",
+          "ka": "ფილმში ძირითადი თემა პოლიტიკურობისა და პიროვნების თავისუფლების წინააღმდეგობაა; რეჟისორმა სიმბოლურად წარმოგვიდგინა მთვარე როგორც იმედის სინონიმი.",
+          "fr": "Le thème principal du film est la confrontation entre la politique et la liberté individuelle ; le réalisateur a présenté symboliquement la lune comme synonyme d'espoir."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "რატომ არის მთვარე იმედის სიმბოლო და როგორ აისახება ეს პერსონაჟების გადაწყვეტილებებზე?",
+          "fr": "Pourquoi la lune est-elle un symbole d'espoir et comment cela se reflète-t-il dans les décisions des personnages ?",
+          "choices": [
+            {
+              "ka": "მთვარე დაფიქსირებულია როგორც უწყვეტი ცვლილება, რაც გმირების ქმედებებს არ იხსნის.",
+              "fr": "La lune est vue comme un changement continu, ce qui ne disculpe pas les actions des héros.",
+              "ok": false
+            },
+            {
+              "ka": "მას აქვს ინტრაპერსონალური მნიშვნელობა — პერსონაჟებსა და მათ არჩევანს შორის სინთეზი, რაც მათ გაცეცხლებას აძლიერებს.",
+              "fr": "Elle a une intrapersonnelle signification — une synthèse entre personnages et choix, renforçant leur détermination.",
+              "ok": false
+            },
+            {
+              "ka": "მთვარე გამოხატავს პაექრობას იმედსა და შიშს შორის; პერსონაჟები ხშირად მიეყრდნობიან მას, როცა რთული გადაწყვეტილებების წინაშე დგანან.",
+              "fr": "La lune exprime la lutte entre espoir et peur ; les personnages s'y réfèrent souvent lorsqu'ils font face à des décisions difficiles.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "Friend A",
+          "ka": "მხატვრულმა სურათმა ასევე აჩვენა, როგორ ხდება პირადი დოვლათის მსხვრევა საცდურის მომენტისას.",
+          "fr": "La composition visuelle a aussi montré comment la richesse personnelle se brise au moment de l'épreuve."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "ეს უსვამს ხაზს ამბოხსა და პასუხისმგებლობას შორის კონფლიქტს?",
+          "fr": "Cela souligne le conflit entre révolte et responsabilité ?",
+          "choices": [
+            {
+              "ka": "დიახ, საბოლოო მესიჯი არის, რომ პასუხისმგებლობა ყოველთვის უფრო მნიშვნელოვანია ვიდრე ამბოხი.",
+              "fr": "Oui, le message final est que la responsabilité est toujours plus importante que la révolte.",
+              "ok": false
+            },
+            {
+              "ka": "არა, ფილმი უფრო მიიჩნევს, რომ ამბოხი აუცილებელია ცვლილებისთვის, მაგრამ თანაც პასუხისმგებლობა მნიშვნელოვანია შედეგების მიმართ.",
+              "fr": "Non, le film estime plutôt que la révolte est nécessaire au changement, mais la responsabilité envers les conséquences reste importante.",
+              "ok": true
+            },
+            {
+              "ka": "ფილმში არ არსებობს კონფლიქტი, ყველაფერი ჰარმონიულად წყდება.",
+              "fr": "Il n'y a pas de conflit dans le film, tout se termine harmonieusement.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-024",
+      "title": "Retour sur une formation professionnelle",
+      "scene": "Après un atelier, le formateur demande un bilan et des suggestions pour améliorer la prochaine session.",
+      "cefr": "B2",
+      "version": 24,
+      "turns": [
+        {
+          "speaker": "Trainer",
+          "ka": "მშვენიერია, რომ მონაწილეები აქტიურები იყვნენ. ახლა მაინტერესებს, რას გულისხმობთ ისეთ საკითხად, რომელიც შემდეგი სესტისთვის დაემატოს?",
+          "fr": "C'est bien que les participants aient été actifs. Maintenant, qu'entendez-vous par quel sujet devrait être ajouté pour la prochaine session ?"
+        },
+        {
+          "speaker": "Learner",
+          "ka": "მიღებული უკავშირება თუ გვინდა გავაძლიეროთ პრაქტიკული ნაწილები, იქნებოდა სასარგებლო დამატებითი ჯგუფური სავარჯიშოები კონკრეტულ სიტუაციებში.",
+          "fr": "Si nous voulons renforcer la partie pratique, il serait utile d'ajouter des exercices de groupe supplémentaires pour des situations concrètes.",
+          "choices": [
+            {
+              "ka": "დიახ, ჯგუფური სავარჯიშოები დაგვეხმარება თეორიის პრაქტიკაში გადანერგვაში და გუნდის მუშაობის გაძლიერებაში.",
+              "fr": "Oui, ces exercices de groupe nous aideront à transposer la théorie en pratique et à renforcer le travail d'équipe.",
+              "ok": true
+            },
+            {
+              "ka": "არა მგონია პრაქტიკა მნიშვნელოვანი იყოს, თეორია საკმარისია.",
+              "fr": "Je ne pense pas que la pratique soit importante, la théorie suffit.",
+              "ok": false
+            },
+            {
+              "ka": "არცერთი — იქნებოდა უკეთესი მხოლოდ ინდივიდუალური გამოცდები.",
+              "fr": "Aucune — ce serait mieux uniquement des tests individuels.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Trainer",
+          "ka": "კარგი, კიდევ რას შეცვლიდით ლექციების ხანგრძლივობაზე და შესვენებებზე?",
+          "fr": "Bien, que changeriez-vous concernant la durée des exposés et des pauses ?"
+        },
+        {
+          "speaker": "Learner",
+          "ka": "მინდა უფრო მცირე ლექციური მონაკვეთები და ხშირად აქტიური შესვენებები, რათა კონცენტრაცია არ დავკარგოთ.",
+          "fr": "Je préférerais des modules d'exposé plus courts et des pauses actives plus fréquentes pour garder la concentration.",
+          "choices": [
+            {
+              "ka": "ეს პრაქტიკული და გონივრულია — შევცვალოთ სქემა ამ პრინციპებით.",
+              "fr": "C'est pratique et raisonnable — changeons le plan selon ces principes.",
+              "ok": true
+            },
+            {
+              "ka": "კარგია, მაგრამ საბოლოოდ არაფერი შევცვლით, რადგან არ არის საჭირო.",
+              "fr": "C'est bien, mais finalement nous ne changerons rien car ce n'est pas nécessaire.",
+              "ok": false
+            },
+            {
+              "ka": "საკმარისია უფრო მეტი კითხვა-პასუხის სესიები, სხვა არაფერი არ ჭირდება.",
+              "fr": "Il suffit d'avoir plus de sessions de questions-réponses, rien d'autre n'est nécessaire.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-025",
+      "title": "Conflit de voisinage lié au bruit",
+      "scene": "Deux voisins discutent calmement d'un problème de bruit récurrent le soir.",
+      "cefr": "B2",
+      "version": 25,
+      "turns": [
+        {
+          "speaker": "Neighbor A",
+          "ka": "ბოდიში, დღესღა მივხვდი, რომ ბოლო ერთი თვის განმავლობაში თქვენთან მომხდარი ხმაური გვაწუხებს, განსაკუთრებით ღამით.",
+          "fr": "Désolé, je viens de constater que le bruit provenant de chez vous nous dérange depuis un mois, surtout la nuit."
+        },
+        {
+          "speaker": "Neighbor B",
+          "ka": "გამოგვყავხართ კონკრეტულად რომელ საათებში და რა ტიპის ხმაური არის პრობლემა?",
+          "fr": "Peux-tu préciser à quelles heures et quel type de bruit pose problème ?",
+          "choices": [
+            {
+              "ka": "ძირითადად 23:00-დან 2:00-მდე საძინებელ ოთახებში გადმოსული საუბრების და მუსიკის ხმებია.",
+              "fr": "Principalement entre 23h00 et 2h00, des voix et de la musique qui se propagent jusque dans les chambres.",
+              "ok": true
+            },
+            {
+              "ka": "დილით ადრე, როგორც შეშის ჩურჩული, და დღის განმავლობაში სასიარულოდ.",
+              "fr": "Tôt le matin, comme le bruissement du bois, et pendant la journée en marchant.",
+              "ok": false
+            },
+            {
+              "ka": "მსუბუქი წვიმა და ქარი ბენზინის გაგრილების ხმას ახდენენ.",
+              "fr": "Une légère pluie et le vent produisent un son de refroidissement de la benzine.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Neighbor A",
+          "ka": "სამწუხაროდ ეს დრო ყველაზე პრობლემატურია ბავშვებისთვის დასაძინებლად. როგორ ფიქრობთ, შეგვიძლია თუ არა საათობრივი ლიმიტი დააწესოთ?",
+          "fr": "Malheureusement, cette plage horaire est la plus problématique pour l'endormissement des enfants. Pensez-vous que nous pouvons fixer une limite horaire ?"
+        },
+        {
+          "speaker": "Neighbor B",
+          "ka": "მინდა ვუთხრა, რომ შესაძლებლობა არსებობს ხმაურის შემცირებისთვის: ვცადოთ მუსიკის ნორმალური დონე 22:00-ის შემდეგ და უზრუნვეყოფლად ვუზრუნველვყოთ სტუმრების გაფრთხილება.",
+          "fr": "Je voudrais dire qu'il est possible de réduire le bruit : essayons de maintenir le volume de la musique raisonnable après 22h00 et d'informer nos invités."
+        },
+        {
+          "speaker": "Neighbor A",
+          "ka": "ეს გამოსავალი სუფთავაა; თუ ხმაური არ შემცირდება, მოგვმართავთ ადმინისტრაციას?",
+          "fr": "Cette solution semble acceptable ; si le bruit ne baisse pas, allons-nous contacter l'administration ?",
+          "choices": [
+            {
+              "ka": "აუცილებლად, მაგრამ ვეცდებით პირველ რიგში თავად გამოვასწოროთ მდგომარეობა.",
+              "fr": "Absolument, mais nous essaierons d'abord de résoudre cela nous-mêmes.",
+              "ok": true
+            },
+            {
+              "ka": "არა, ადმინისტრაციას არასდროს მივმართავთ, რადგან არაფერს დააკრინებს.",
+              "fr": "Non, nous ne contacterons jamais l'administration car rien ne sera imputé.",
+              "ok": false
+            },
+            {
+              "ka": "მიდის მხოლოდ პოლიცია, არ არის სხვა საშუალება.",
+              "fr": "Il n'y a que la police, il n'y a pas d'autre moyen.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-026",
+      "title": "Préparation d'un voyage d'affaires à l'étranger",
+      "scene": "Un salarié prépare un déplacement professionnel et consulte son manager sur l'itinéraire et le budget.",
+      "cefr": "B2",
+      "version": 26,
+      "turns": [
+        {
+          "speaker": "Employee",
+          "ka": "მე უნდა გადავფრინდე ქ. ქ. სამ დღეზე, და ვმუშაობ მოლაპარაკებების ფორმატზე; მაინტერესებს, რა ბიუჯეტს ვუწესებთ დღიური ხარჯებისთვის?",
+          "fr": "Je dois me rendre à X pour trois jours pour des négociations ; quelle allocation budgétaire fixons-nous pour les dépenses journalières ?"
+        },
+        {
+          "speaker": "Manager",
+          "ka": "დღიური კომპენსაცია დამოკიდებული იქნება ქალაქის ფასებზე. წინადადებად ვთავაზობ 70 ევროს დღეში, მაგრამ ტრანსპორტის და სასტუმროს ღირებულება ცალკეა.",
+          "fr": "L'indemnité journalière dépendra des prix locaux. Je propose 70 euros par jour, mais le transport et l'hôtel sont séparés."
+        },
+        {
+          "speaker": "Employee",
+          "ka": "ეს ფასი საკმარისია თუ შეხვედრები გაგრძელდება საღამომდე და დამატებითი კვება იქნება საჭირო?",
+          "fr": "Ce montant est-il suffisant si les réunions durent jusqu'au soir et des repas supplémentaires sont nécessaires ?",
+          "choices": [
+            {
+              "ka": "პროვაიდერი ხელს შეუწყობს სხვადასხვა ვაუჩერებს, ასე რომ 70 ევრო მოიცავს ძირითად კვებას, ანხორციელებთ პრეაპროსტს.",
+              "fr": "Le fournisseur offrira divers bons, donc 70 euros couvriront les repas de base, vous procéderez à une préautorisation.",
+              "ok": false
+            },
+            {
+              "ka": "თუ შეხვედრები გაგრძელდება საღამომდე, გვჭირდება დამატებითი საშუამავლო ფული ან საკვები საგანი ანგარიშზე; შევინარჩუნოთ 70 ევრო, მაგრამ მოვერიდოთ დამძიმებულ შაბლონებს.",
+              "fr": "Si les réunions s'étendent au soir, il faut un complément ou une prise en charge des repas ; gardons 70 euros mais évitons les dépenses excessives.",
+              "ok": true
+            },
+            {
+              "ka": "70 ევრო საკმარისია ყოველთვის, არავითარი დამატება არ არის საჭირო.",
+              "fr": "70 euros suffisent toujours, aucun supplément n'est nécessaire.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Manager",
+          "ka": "კარგი. სასტუმროსა და ბილეთების მიწოდება იწერება ცალკე. გაგზავნე მოგზაურობის გეგმა და მივიღებ დასტურს.",
+          "fr": "Très bien. L'hôtel et les billets seront pris en charge séparément. Envoie le plan de voyage et j'approuverai."
+        },
+        {
+          "speaker": "Employee",
+          "ka": "შეგიძლიათ დაადასტუროთ თუ საჭიროა ვიზა ან სხვა დოკუმენტი ჩვენი კომპანიის სახელით?",
+          "fr": "Pouvez-vous confirmer si un visa ou d'autres documents sont nécessaires au nom de l'entreprise ?",
+          "choices": [
+            {
+              "ka": "თუ ვიზა არის საჭირო, კომპანიამ უზრუნველყოფს მხარდაჭერას და დელეგაციის წერილს.",
+              "fr": "Si un visa est requis, l'entreprise fournira le soutien et une lettre de délégation.",
+              "ok": true
+            },
+            {
+              "ka": "ვიზა არასდროს არის საჭირო ნებისმიერი მიმართულებით.",
+              "fr": "Un visa n'est jamais nécessaire pour aucune destination.",
+              "ok": false
+            },
+            {
+              "ka": "თუ საჭიროა, თავად უნდა მოძებნოთ საჭირო დოკუმენტები.",
+              "fr": "Si nécessaire, vous devez trouver vous-même les documents requis.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-027",
+      "title": "Planification d'un menu pour un dîner",
+      "scene": "Un couple discute de l'élaboration d'un menu pour inviter des amis ayant des régimes alimentaires variés.",
+      "cefr": "B2",
+      "version": 27,
+      "turns": [
+        {
+          "speaker": "Partner A",
+          "ka": "მეგობრებს შორის არიან ვეგეტარიანელები და ერთი ალერგიკოსია წყლის ნიღბების მიმართ. უნდა მოვიფიქროთ ასეთი მენიუ, რომელიც ყველას მოეწონება.",
+          "fr": "Parmi les amis il y a des végétariens et un allergique aux fruits de mer. Il faut concevoir un menu qui plaise à tous."
+        },
+        {
+          "speaker": "Partner B",
+          "ka": "სურვილამდე, შევადგინოთ სამი კერძი: წინასწარი სალათა, მთავარი კერძი და დესერტი, სადაც ვეგეტარიანული და ხორციანი ვარიანტები იქნება.",
+          "fr": "Idéalement, préparons trois plats : une entrée, un plat principal et un dessert, avec des options végétariennes et carnées."
+        },
+        {
+          "speaker": "Partner A",
+          "ka": "პირველი კერძისთვის რას ირჩევთ, რამე მსუბუქი და არალტერნატიული ინგრედიენტით?",
+          "fr": "Pour l'entrée, que choisissez-vous, quelque chose de léger et sans ingrédients alternatifs ?",
+          "choices": [
+            {
+              "ka": "ციტრუსიანი სალათი თხილისა და მწვანილით, რომელიც შეიძლება შეუცვალოთ ფეტათი ვეგეტარიანელებისთვის.",
+              "fr": "Salade d'agrumes aux noix et aux verts, qu'on peut remplacer par de la feta pour les végétariens.",
+              "ok": false
+            },
+            {
+              "ka": "კივი-ბოსტნეულის კომბინაცია პერეულით, რომელიც ზღვის პროდუქტებს შეიცავს — არასწორია ალერგიკისთვის.",
+              "fr": "Combinaison kiwi-légumes au piment contenant des fruits de mer — inappropriée pour l'allergique.",
+              "ok": false
+            },
+            {
+              "ka": "გააკეთოთ ფრესკი სალათა სეზონური ბოსტნეულით და ღვინის რომელიმე ვირუსით, ცალკე შემოგვყავს ფეტა და გრილovaný წიწილიებს.",
+              "fr": "Préparer une salade fraîche de légumes de saison, avec la feta servie à part et des poivrons grillés séparément.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "Partner B",
+          "ka": "მთავარ კერძს რაც შეეხება, შეიძლებოდეს მომზადდეს ერთი ვეგეტარიანული და ერთი ხორცეული ალტერნატივა?",
+          "fr": "Pour le plat principal, peut-on préparer une option végétarienne et une viande alternative ?"
+        },
+        {
+          "speaker": "Partner A",
+          "ka": "დიახ, ვრჩე შემწვარი ბოსტნეულით ლაზანია ვეგეტარიანებისთვის და ნაზი ქათმის ფილე მარინადით ხორციანი ვარიანტისთვის.",
+          "fr": "Oui, une lasagne aux légumes grillés pour les végétariens et un filet de poulet mariné pour l'option carnée.",
+          "choices": [
+            {
+              "ka": "ეს იდეა ნორმალურია, მაგრამ ჯობს ქათმის გემო ძლიერი არ იყოს და ალერგიისგან რამდენიმე რეკომენდაცია დავიდგინოთ.",
+              "fr": "Bonne idée, mais mieux vaut que le poulet ne soit pas trop épicé et prévoir des recommandations contre l'allergie.",
+              "ok": true
+            },
+            {
+              "ka": "საუკეთესოა მხოლოდ ხორციანი მენიუ, რადგან სტუმრები ამას ელიან.",
+              "fr": "Le mieux est un menu uniquement carnivore car les invités l'attendent.",
+              "ok": false
+            },
+            {
+              "ka": "ყველასთვის ერთი დიდი პიცა მოიტანე და პრობლემა წყდება.",
+              "fr": "Apporte une seule grande pizza pour tout le monde et le problème est résolu.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-028",
+      "title": "Entretien de performance annuel",
+      "scene": "Le responsable RH mène un entretien annuel avec un employé pour discuter des objectifs, des points forts et des axes d'amélioration.",
+      "cefr": "B2",
+      "version": 28,
+      "turns": [
+        {
+          "speaker": "HR",
+          "ka": "მინდა დავიწყოთ შენი წლიური შეფასებით: შენ წარმოადგენ მნიშვნელოვან წვლილს გუნდში, განსაკუთრებით პროექტების მართვაში, თუმცა რამდენიმე მიმართულებაში საგრძნობი პროგრესი იქნებოდა საჭირო.",
+          "fr": "Je souhaite commencer ton évaluation annuelle : tu apportes une contribution importante à l'équipe, surtout dans la gestion de projets, mais quelques domaines nécessitent un progrès notable."
+        },
+        {
+          "speaker": "Employee",
+          "ka": "რას ნიშნავს 'საგრძნობი პროგრესი' კონკრეტულად? რომელ კომპეტენციებს ვგულისხმობთ?",
+          "fr": "Que signifie 'progrès notable' concrètement ? Quelles compétences visez-vous ?",
+          "choices": [
+            {
+              "ka": "შეხედეთ კომპეტენციებს: კომუნიკაცია, დროს მენეჯმენტი და ხარისხის კონტროლი — ეს სამივე პლუსზე უნდა ავიდეს.",
+              "fr": "Considère les compétences : communication, gestion du temps et contrôle qualité — ces trois doivent progresser.",
+              "ok": true
+            },
+            {
+              "ka": "ერთი კომპეტენცია — მხოლოდ ტექნიკური ცოდნა, ყველაფერი დანარჩენი წვერი.",
+              "fr": "Une compétence seulement — la connaissance technique, tout le reste est secondaire.",
+              "ok": false
+            },
+            {
+              "ka": "განვითარება არ არის მნიშვნელოვანი, მთავარია რაოდენობა სამუშაოს.",
+              "fr": "Le développement n'est pas important, seule la quantité de travail compte.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "HR",
+          "ka": "შეგვააჩნია წესიერი გეგმა მომავალი წლისთვის? ვფიქრობ, აუცილებელია უკეთესი კომუნიკაციური სტრატეგიები და ჯეროვანი ვორქშოფები.",
+          "fr": "Penses-tu à un plan pour l'année prochaine ? Je pense qu'il faut de meilleures stratégies de communication et des ateliers appropriés."
+        },
+        {
+          "speaker": "Employee",
+          "ka": "კონკრეტულად, შემიძლია გავაშუქო ტრენინგები და კვირის მოკლე სახელმძღვანელო შეხვედრები, რათა გავაუმჯობესო დროის მართვა და ფოკუსი.",
+          "fr": "Concrètement, je peux organiser des formations et des réunions-guides hebdomadaires pour améliorer la gestion du temps et le focus.",
+          "choices": [
+            {
+              "ka": "ეს ძალიან პრაქტიკული გეგმაა; დავგეგმოთ შესრულების ინდიკატორები და თვე-თვეზე შევაფასოთ პროგრესი.",
+              "fr": "C'est un plan très pratique ; fixons des indicateurs de performance et évaluons le progrès mensuellement.",
+              "ok": true
+            },
+            {
+              "ka": "ტრენინგები უეფექტურია, უკეთესია მხოლოდ დამოუკიდებელი სწავლება.",
+              "fr": "Les formations sont inefficaces, mieux vaut l'auto-apprentissage.",
+              "ok": false
+            },
+            {
+              "ka": "გავაკეთოთ ყოველთვიური საზღვრები, მაგრამ არავინ შეაფასოს შედეგები.",
+              "fr": "Fixons des limites mensuelles mais que personne n'évalue les résultats.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-029",
+      "title": "Demande d'explications sur une facture",
+      "scene": "Un client contacte le service facturation pour clarifier plusieurs lignes d'une facture récente.",
+      "cefr": "B2",
+      "version": 29,
+      "turns": [
+        {
+          "speaker": "Client",
+          "ka": "მინდა დავშალო ბოლო ინვოისი: რამდენიმე ხაზი არ მესმის, განსაკუთრებით გადასახადებისა და ჰაზრების დამატებითი წესები.",
+          "fr": "Je voudrais détailler la dernière facture : je ne comprends pas certaines lignes, surtout les taxes et règles d'ajout de frais."
+        },
+        {
+          "speaker": "Billing",
+          "ka": "კარგად, თუ დაასახელებთ კონკრეტულ ხაზებს, მე აგიხსნით ტერპებსა და შეღავათებს, რომლებიც იქ ჩანს.",
+          "fr": "Très bien, si vous indiquez les lignes concernées, je vous expliquerai les termes et les remises qui y apparaissent."
+        },
+        {
+          "speaker": "Client",
+          "ka": "ხაზები 5-7 ეხება მომსახურების 'პრემიუმი' და ' ტექნიკური მხარდაჭერა'—რატომ არის დამატებული ეს თანხები?",
+          "fr": "Les lignes 5-7 concernent le service 'premium' et le 'support technique' — pourquoi ces sommes ont-elles été ajoutées ?",
+          "choices": [
+            {
+              "ka": "პრემიუმი არის წლიური რეგლამენტული გადასახადი და ტექნიკური მხარდაჭერა არის საათობრივი საათების მიხედვით ქვითარში.",
+              "fr": "Le premium est une taxe réglementaire annuelle et le support technique est facturé à l'heure.",
+              "ok": false
+            },
+            {
+              "ka": "პრემიუმი მოიცავს დამატებით სერვისებს, როგორიცაა უფრო სწრაფი რეაგირება და საცდელი ფუნქციები; მხარდაჭერა დაგენეგრე დაშვების მიხედვით გამოითვლება.",
+              "fr": "Le premium couvre des services supplémentaires comme une réactivité accrue et des fonctions beta ; le support est calculé selon l'accès fourni.",
+              "ok": true
+            },
+            {
+              "ka": "ეს ყველა ხაზები ასახულია მხოლოდ ინფორმაციულად და არ არის გადასახდელი.",
+              "fr": "Ces lignes sont purement informatives et ne sont pas payables.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Billing",
+          "ka": "შეგიძლიათ დაადასტუროთ, თუ გსურთ ამ მომსახურების გაუქმება მომდევნო ციკლში?",
+          "fr": "Pouvez-vous confirmer si vous souhaitez annuler ce service lors du prochain cycle ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "მინდა ვიკვლიო გაუქმების პირობები — შეიძლება თუ არა თანხის პროპორციული დაბრუნება და რამდენი წინასწარ უნდა შევამცირო?",
+          "fr": "Je veux connaître les conditions d'annulation — un remboursement proportionnel est-il possible et combien devons-nous prévenir à l'avance ?",
+          "choices": [
+            {
+              "ka": "თუ კონტრაქტი შეიცავს 30 დღიან გაუქმების პირობას, თანხის პროპორციული დაბრუნება ხდება, სხვა შემთხვევაში არ არის.",
+              "fr": "Si le contrat prévoit un préavis de 30 jours, un remboursement proportionnel s'effectue, sinon non.",
+              "ok": true
+            },
+            {
+              "ka": "ვერავინ დააბრუნებს არაფერს, არც წინასწარი ჩანაწერი არ არის საჭირო.",
+              "fr": "Personne ne remboursera quoi que ce soit, aucun préavis n'est nécessaire.",
+              "ok": false
+            },
+            {
+              "ka": "ყველა თანხა ყოველთვის სრულად დაბრუნდება ავტომატურად.",
+              "fr": "Toutes les sommes seront toujours remboursées intégralement automatiquement.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-030",
+      "title": "Négociation d'un contrat freelance",
+      "scene": "Un freelance négocie les termes d'un contrat avec un client potentiel, abordant le calendrier, la rémunération et la propriété intellectuelle.",
+      "cefr": "B2",
+      "version": 30,
+      "turns": [
+        {
+          "speaker": "Client",
+          "ka": "ჩვენ სამწუხაროდ დასჭირდებით პროექტი სამ კვირაში, თუმცა ორმხრივი შეთანხმება მნიშვნელოვანია პირობებში, განსაკუთრებით ინტელექტუალური საკუთრების ნაწილში.",
+          "fr": "Nous avons besoin du projet dans trois semaines, mais il est important de convenir des conditions bilatérales, surtout sur la propriété intellectuelle."
+        },
+        {
+          "speaker": "Freelance",
+          "ka": "მე შემიძლია ავიდე მიკრო-გრაფიკზე, თუ დავგეგმავთ მექანიზმს გადახდის ნაწილში და მიტანის ეტაპებზე. IP-ს შესახებ, ჩვეულებრივ ვთანხმდები კონფიდენციალურობაზე და ლიცენზიაზე.",
+          "fr": "Je peux suivre un micro-planning si nous définissons un mécanisme de paiement et des étapes de livraison. En matière d'IP, j'accepte généralement confidentialité et licence."
+        },
+        {
+          "speaker": "Client",
+          "ka": "თქვენი აზრით, როგორი გადახდა იქნება სამართლიანი: ნაწილი წინ, ნაწილი მიტანის შემდეგ ან მთლიანი თანხა მიღების შემდეგ?",
+          "fr": "Selon vous, quel mode de paiement serait équitable : une partie à l'avance, une partie après livraison, ou le paiement intégral après réception ?",
+          "choices": [
+            {
+              "ka": "საუკეთესოა 30% წინასწარ, 50% შუა მიტანისას და 20% საბოლოო მიღების შემდეგა — ეს თანაბრად დაიცავს ორივეს ინტერესებს.",
+              "fr": "Idéalement 30% à l'avance, 50% à mi-livraison et 20% à la réception finale — cela protège équitablement les deux parties.",
+              "ok": true
+            },
+            {
+              "ka": "ყველა თანხა მხოლოდ წინასწარ უნდა გადაიხადდეს, რათა თავი დავიცვათ რისკებისგან.",
+              "fr": "La totalité doit être payée à l'avance pour couvrir les risques.",
+              "ok": false
+            },
+            {
+              "ka": "გავიდა მხოლოდ საბოლოო გადახდა მიღების შემდეგ, რადგან ყოველთვის მორჩება შეუსრულებლობა.",
+              "fr": "Payer uniquement après réception car des manquements surviennent toujours.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Freelance",
+          "ka": "რაც შეეხება ინტელექტუალურ საკუთრებას, გთავაზობთ გაგვეცეს ლიცენზია დროზე უაღრესად შერჩეული პირობებით და ორ საათიან კონსულტაციას მოგვიანებით თუ დასჭირდება.",
+          "fr": "Concernant la propriété intellectuelle, je propose de concéder une licence avec des conditions déterminées dans le temps et une consultation de deux heures ultérieure si nécessaire."
+        },
+        {
+          "speaker": "Client",
+          "ka": "ეს მოსაწონია; ერთმნიშვნელოვნად უნდა ავხდეთ ლიცენზიის ვრცელებას და ნებართვების ფარგლებს. დავამთავროთ ეს დეტალები დოკუმენტად, შემდეგ კი დავიწყოთ.",
+          "fr": "C'est acceptable ; nous devons clarifier l'étendue de la licence et les limites d'autorisation. Finalisons ces détails par écrit puis commençons.",
+          "choices": [
+            {
+              "ka": "სრულად ვეთანხმები — შემომაქვს კონტრპროპოზიცია ტექსტთან ერთად და დატოვეთ 48 საათი მოსაზრებისთვის.",
+              "fr": "Je suis entièrement d'accord — je soumets une contre-proposition avec le texte et laissez 48 heures pour réflexion.",
+              "ok": true
+            },
+            {
+              "ka": "არ არის საჭირო კონტრაქტი, შეთანხმება რეპუტაციით საკმარისია.",
+              "fr": "Pas besoin de contrat, l'accord verbal suffit par réputation.",
+              "ok": false
+            },
+            {
+              "ka": "გავაგზავნოთ მხოლოდ ინვოისი და ველოდოთ დამტკიცებას, სხვა არაფერია საჭირო.",
+              "fr": "Envoyons simplement la facture et attendons l'approbation, rien d'autre n'est nécessaire.",
+              "ok": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-031",
+      "title": "ჩვეულებრივი მშივრები და სამუშაოს პირობები",
+      "cefr": "B2",
+      "version": 31,
+      "scene": "ინტერვიუ მშივრებთან დაკავშირებული პრობლემებისა და სამუშაოს პირობების გაუმჯობესებაზე",
+      "turns": [
+        {
+          "speaker": "რეგინალი",
+          "ka": "ჩვენი მშივრები ხშირად იტვირთებიან შრომით სტრესით და ზოგიერთი შეთანხმება არ სრულდება დროულად. რატომ არის, რომ კომპანიები არ ინვესტირებენ პირობების გაუმჯობესებაში?",
+          "fr": "Nos employés subissent souvent beaucoup de stress au travail et certains accords ne sont pas respectés à temps. Pourquoi les entreprises n'investissent-elles pas dans l'amélioration des conditions ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "თქვენ როგორ გესახება გამოსავალი, რომელიც არა მხოლოდ შეღავათებსა და ხელფასს ეხება, არამედ სამუშაო გარემოს ხარისხის ამაღლებასაც?",
+          "fr": "Quelle solution envisagez-vous, qui concernerait non seulement les avantages et les salaires, mais aussi l'amélioration de la qualité du milieu de travail ?",
+          "choices": [
+            {
+              "ka": "სისტემატური კვლევა და თანამშრომლების საჭიროებების შესწავლა, შემდეგ კი ეტაპობრივი ინვესტიცია ინფრასტრუქტურაში.",
+              "fr": "Une étude systématique et une enquête sur les besoins des employés, puis des investissements progressifs dans l'infrastructure.",
+              "ok": false
+            },
+            {
+              "ka": "შევქმნათ თანამშრომლობის პיתוחი, სადაც უფროსები და მშივრები ერთად შეიმუშავებენ პრიორიტეტებს და შემდეგ დავივიწყოთ მარტო ფინანსებზე ფიქრი.",
+              "fr": "Développer une culture de coopération où supérieurs et employés établissent ensemble des priorités, puis ignorer uniquement la réflexion financière.",
+              "ok": false
+            },
+            {
+              "ka": "საუკეთესო იქნება, თუ კომპანიის სტრატეგიაში ჩათვლით გეგმას თანამშრომლების ჩართულობის გაზრდისა და სამუშაო სივრცის ნაკლებად სტრესულ გარემოდ გარდაქმნისთვის.",
+              "fr": "Il vaudrait mieux inclure dans la stratégie de l'entreprise un plan pour augmenter l'engagement des employés et transformer l'espace de travail en un environnement moins stressant.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "რეგინალი",
+          "ka": "თქვენი შენიშვნა პრაქტიკული და რეალისტურია. როგორ მოახერხებთ მიღწევების შეფასებას და პრიორიტეტების გადანაწილებას სწრაფად?",
+          "fr": "Votre remarque est pratique et réaliste. Comment comptez-vous mesurer les progrès et répartir les priorités rapidement ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "მომზადებული გეგმა ეფუძნება მოკლევადიან ძირითად მაჩვენებლებს, როგორიცაა თანამშრომლების შემზღუდავი დრო, უკმაყოფილება და ბრუნვის მაჩვენებელი; ყოველ კვარტალში გადავხედავთ შედეგებს და კორექტირებას შევიტანთ.",
+          "fr": "Le plan s'appuie sur des indicateurs à court terme tels que le temps excessif de travail, l'insatisfaction et le taux de turnover ; nous réexaminerons les résultats chaque trimestre et apporterons des corrections."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-032",
+      "title": "შეზღუდული ბიუჯეტი და კულტურული ღონისძიების ორგანიზება",
+      "cefr": "B2",
+      "version": 32,
+      "scene": "ინიციატივის შესახებ მსჯელობა კულტურული საღამოს მოწყობის მიზნობრიობაზე შეზღუდული ბიუჯეტით",
+      "turns": [
+        {
+          "speaker": "ლელა",
+          "ka": "ჩვენ გვინდა ქალაქში მუსიკალური საღამო მოაწყოთ, მაგრამ ბიუჯეტი შეზღუდულია. როგორ მოვიზიდოთ გამომსვლელები და აუდიტორია შეწუხების გარეშე?",
+          "fr": "Nous souhaitons organiser une soirée musicale en ville, mais le budget est limité. Comment attirer des artistes et le public sans se ruiner ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "თუ მივმართავთ ადგილობრივ მუსიკოსებს და კულტურულ ცენტრებს, შეიძლება შეთანხმება ვიპოვოთ გაცვლის პრინციპზე: პლატფორმა მათთვის პოპულარობის გასაზრდელად, და ისინი შემოსავლის ნაწილს მიიღებენ იმდენს, რამდენიც შეგვეძლება.",
+          "fr": "Si nous contactons des musiciens locaux et des centres culturels, nous pourrions convenir d'un échange : une plateforme pour accroître leur visibilité, et ils percevront une part des recettes selon nos moyens.",
+          "choices": [
+            {
+              "ka": "შესაბამისად, სწრაფი გადაწყვეტილება იქნება ძლიერ ფასდაკლებული ბილეთების გაყიდვა, რათა მოვიზიდოთ ბევრი ადამიანი და შევურიგდეთ მომღერლებს.",
+              "fr": "Donc, la solution rapide serait de vendre des billets fortement réduits pour attirer beaucoup de monde et compenser les artistes.",
+              "ok": false
+            },
+            {
+              "ka": "შევძლებთ პარტნიორობას ადგილობრივ ბიზნესთან, რომელიც დააფინანსებს ნაწილობრივ ღონისძიებას საცალო განაკვეთების ან საგანმანათლებლო სესხის სანაცვლოდ.",
+              "fr": "Nous pourrions nous associer à des commerces locaux qui financeraient partiellement l'événement en échange de promotions ou d'ateliers.",
+              "ok": true
+            },
+            {
+              "ka": "უმჯობესია დაველოდოთ უფრო დიდ ბიუჯეტს და გადავდოთ ღონისძიება მომავალი წლიდან, რითაც დავკარგავთ ამ სეზონის აუდიტორიას.",
+              "fr": "Mieux vaut attendre un budget plus important et reporter l'événement à l'année prochaine, ce qui nous ferait perdre l'audience saisonnière.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ლელა",
+          "ka": "პარტნიორობის იდეა საინტერესოა. როგორ დავარწმუნოთ მცირე ბიზნესები, რომ მოვლენაში მონაწილეობა მათთვისაც სასარგებლო იქნება?",
+          "fr": "L'idée du partenariat est intéressante. Comment convaincre les petites entreprises que leur participation leur sera bénéfique ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "ჩავთვალეთ შეთავაზება, რომელიც მათ ბრენდინგს, უფასო ადგილის პოპულარიზაციას და პირდაპირი კომუნიკაციის შესაძლებლობას აძლევს აუდიტორიასთან, და მზად ვიქნებით ახლო მეილ კამპანიების შეთავაზებისთვის.",
+          "fr": "Proposons-leur une offre incluant branding, promotion d'un emplacement gratuit et communication directe avec le public, et préparons des mini-campagnes email."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-033",
+      "title": "ქირავდება ბინა და შეთანხმების პირობები",
+      "cefr": "B2",
+      "version": 33,
+      "scene": "მოტივირებული მსჯელობა ბინის ქირით და მოვლასთან დაკავშირებულ ვალდებულებებზე",
+      "turns": [
+        {
+          "speaker": "მაქსიმე",
+          "ka": "ბინის ქირის შეთანხმებაში მინდა ჩავრთო პუნქტი მოვლასთან დაკავშირებით, რადგან წინა მეპატრონემ არ დაალაგა ტექნიკური პრობლემები დროულად.",
+          "fr": "Je veux inclure une clause sur l'entretien dans le contrat de location, parce que l'ancien propriétaire ne réglait pas les problèmes techniques à temps."
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "რატომ არის თქვენთვის მნიშვნელოვანი მექანიკურ პრობლემებზე დროული რეაგირება და როგორ მოიქცეთ, თუ მეპატრონის მხრიდან უგულებელყოფა გაგრძელდება?",
+          "fr": "Pourquoi est-ce important pour vous d'obtenir une réaction rapide aux problèmes mécaniques et que ferez-vous si le propriétaire continue à négliger cela ?",
+          "choices": [
+            {
+              "ka": "მნიშვნელოვანს ვთვლი უსაფრთხოებასა და სამუშაო პირობებს, ამიტომ ვთხოვ უფრო მკაცრ ვალდებულებებსა და ფრთხილ კონტრაქტს, ხოლო თუ უგულებელყოფა გაგრძელდება, მიმართავ სააგენტოს ან სასამართლოს.",
+              "fr": "Je considère la sécurité et les conditions de vie importantes, donc je demanderai des obligations plus strictes et un contrat clair ; si la négligence continue, j'appellerai l'agence ou saisirai la justice.",
+              "ok": true
+            },
+            {
+              "ka": "ჩემი პოზიციაა, რომ მეპატრონე მხოლოდ მცირე რემონტებს აკეთებდეს, დიდი ხარჯები კი სრულად ჩემს თავზე გადავიღებ, რათა არ შევქმნა პრობლემა.",
+              "fr": "Je pense que le propriétaire devrait seulement faire les petites réparations, et je prendrai en charge les gros travaux pour éviter les conflits.",
+              "ok": false
+            },
+            {
+              "ka": "არ მჭირდება დამატებითი გარანტიები; დავთანხმდები ისე, როგორც არის და ვიმედოვნებ ყველაფრის კარგად წარიმართებას.",
+              "fr": "Je n'ai pas besoin de garanties supplémentaires ; je signerai tel quel et j'espère que tout se passera bien.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მაქსიმე",
+          "ka": "თქვენი მიდგომა დამაჯერებელია. იქნებ დავამატოთ კონტრაქტში სერვისის დროის ლიმიტი და ჯარიმა დაგვიანების შემთხვევაში?",
+          "fr": "Votre approche est convaincante. Devrait-on ajouter au contrat un délai d'intervention et une pénalité en cas de retard ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "დიახ, კონკრეტული ვადები და დაფარული ხარჯების სია შეუშვას რაღაც სიმწიფეს შეთანხმებას და მაქსიმალურად დაიცავს ქირავნებას.",
+          "fr": "Oui, des délais précis et une liste des coûts couverts donneront plus de maturité à l'accord et protégeront au mieux la location."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-034",
+      "title": "გადაუდებელი სამედიცინო კონსულტაცია",
+      "cefr": "B2",
+      "version": 34,
+      "scene": "სამედიცინო კონსულტაცია გრიპის სიმპტომების გაგრძელების შესახებ და მკურნალობის ალტერნატივები",
+      "turns": [
+        {
+          "speaker": "ექიმი",
+          "ka": "თქვენი ტემპერატურა უკვე სამდღეა მაღალი, ხველა გაძლიერდა და სუნთქვა გიჭირთ. მოკლედ რომ ვთქვათ, თუ არ იქნება გაუმჯობესება, საჭიროა სისხლის ანალიზი და ჩარ esperado ჯერჯერობით.",
+          "fr": "Votre fièvre dure depuis trois jours, la toux s'est aggravée et vous avez du mal à respirer. En bref, si cela ne s'améliore pas, des analyses de sang et une intervention seront nécessaires."
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "ვგრძნობ დაღლილობას და ზოგჯერ მსუბუქი თავბრუ, მაგრამ მინდა სცადოთ ბოლომდე არ ინვაზიური მკურნალობა. რა მეთოდებს შემთავაზებთ ჯერინ?",
+          "fr": "Je ressens de la fatigue et parfois des vertiges légers, mais je préfère essayer d'abord un traitement non invasif. Quelles méthodes proposez-vous ?",
+          "choices": [
+            {
+              "ka": "მოკლე მკურნალობა ირიბი ანტიბიოტიკებით და ვიტამინებით, სახლში მკურნალობის მკაცრი რეკომენდაციებით და სტაციონარიზაცია მხოლოდ კრიტიკულ შემთხვევაში.",
+              "fr": "Traitement court par antibiotiques et vitamines de façon non invasive, repos à domicile et hospitalisation seulement en cas critique.",
+              "ok": true
+            },
+            {
+              "ka": "სულ თავიდან დავიწყოთ მძიმე მკურნალობა საავადმყოფოში, რომ თავიდან ავიცილოთ ნებისმიერი გართულება და დავაყენოთ მკაცრი კონტროლი.",
+              "fr": "Commencer immédiatement un traitement lourd à l'hôpital pour éviter toute complication et mettre en place un contrôle strict.",
+              "ok": false
+            },
+            {
+              "ka": "საუკეთესო გამოსავალია მხოლოდ ბუნებრივი საშუალებასების გამოყენება და ექიმის გარეშე თვითმკურნალობა, თუ სიმპტომები გაძლიერდა დაველოდოთ.",
+              "fr": "La meilleure solution est d'utiliser uniquement des remèdes naturels et de s'auto-soigner sans médecin, et d'attendre si les symptômes s'aggravent.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ექიმი",
+          "ka": "ცნობისმოყვარე ვარ თქვენს სურვილზე მინიმალურად ინტერვენციული ოპერაციების მიმართ. დავიწყებთ თერაპიას და ყოველდღიური კონტროლი ჩატარდება ტელეფონით; თუ არ დაფიქსირდება გაუმჯობესება, გადავაყენებთ გამოკვლევებს.",
+          "fr": "Je comprends votre préférence pour des interventions minimales. Nous commencerons la thérapie et ferons un suivi quotidien par téléphone ; si aucune amélioration n'est constatée, nous ferons des examens."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-035",
+      "title": "სხვადასხვა მოსაზრებები ეკოლოგიაზე",
+      "cefr": "B2",
+      "version": 35,
+      "scene": "დისკუსია ადგილობრივ კანონის პროექტზე, რომელიც კრძალავს პლასტმასის საგნების გამოყენებას ბაზარში",
+      "turns": [
+        {
+          "speaker": "მერიის თანამშრომელი",
+          "ka": "პროექტი ითვალისწინებს პლასტმასის პარკების და ერთი გამოყენების ჭურჭლის აკრძალვას. როგორ განვითარდება იგი ადგილობრივი სავაჭრო ქსელისათვის?",
+          "fr": "Le projet prévoit d'interdire les sacs en plastique et la vaisselle jetable. Quelle sera son incidence sur le commerce local ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "აღნიშნულ ცვლილებებს შეუძლია გაზარდოს ხარჯები მოკლევადიან პერსპექტივაში, მაგრამ შეიძლება ხელი შეუწყოს კონკურენტული უპირატესობის მოპოვებას იმ ვაჭრებისთვის, რომლებიც სწრაფად მოერგებიან ეკოლოგიურ ალტერნატივებს.",
+          "fr": "Ces changements peuvent augmenter les coûts à court terme, mais permettre aux commerçants qui adoptent rapidement des alternatives écologiques d'obtenir un avantage concurrentiel.",
+          "choices": [
+            {
+              "ka": "საუკეთესო იქნება ჯარიმების მკაცრი სისტემა, რომელიც დაუყოვნებლივ აიძულებს ყველა მოვაჭრეს გადაჯგუფდეს.",
+              "fr": "Il serait préférable d'avoir un système d'amendes strict qui obligerait immédiatement tous les commerçants à se conformer.",
+              "ok": false
+            },
+            {
+              "ka": "პოლიტიკა უნდა იყოს თანმიმდევრული და მხარდამჭერი: სუბსიდირება ალტერნატივების შესაძენად და საინფორმაციო კამპანიები, რათა შემცირდეს წინააღმდეგობა.",
+              "fr": "La politique doit être cohérente et soutenante : subventions pour l'achat d'alternatives et campagnes d'information pour réduire la résistance.",
+              "ok": true
+            },
+            {
+              "ka": "უფრო ეფექტურია საერთოდ არ შეზღუდვა და ბაზრამდე მოლაპარაკებებისათვის მეპატრონეების სრული თავისუფლების დატოვება.",
+              "fr": "Il est plus efficace de ne rien limiter et de laisser totale liberté aux propriétaires pour négocier avec le marché.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მერიის თანამშრომელი",
+          "ka": "სუბსიდიები შეიძლება სახარჯია, მაგრამ საზოგადოებრივი მხარდაჭერაც მნიშვნელოვანია. როგორ დააყენებთ კომუნიკაციას მოსახლეობასთან, რათა მიაღწიოთ თანხმობას?",
+          "fr": "Les subventions peuvent coûter cher, mais le soutien public est aussi important. Comment communiquerz-vous avec la population pour obtenir un consensus ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "გამართოთ ცენტრალიზებული საინფორმაციო შეხვედრები, მცირე ბიზნესისთვის განკუთვნილი მუშაობითი ჯგუფები და სოციალური მედიის კამპანიები, რომლებიც ხაზს გაუსვამენ ეკონომიკურ და ჯანმრთელობითი მრავლისმხრივი სარგებელს.",
+          "fr": "Organiser des réunions d'information centralisées, des groupes de travail pour les petites entreprises et des campagnes sur les réseaux sociaux soulignant les bénéfices économiques et sanitaires multiformes."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-036",
+      "title": "საკვების ხარისხი რესტორნისგან",
+      "cefr": "B2",
+      "version": 36,
+      "scene": "კლერტი უკმაყოფილოა კერძის ხარისხით და მზადაა ადმინისტრაციასაც მიმართოს",
+      "turns": [
+        {
+          "speaker": "კლიენტი",
+          "ka": "დღეს შეუკვეთე წითელ თევზთან კერძი და გემო არასასიამოვნო იყო — შეიძლებოდა პროდუქტი არ ყოფილიყო ჯეროვანი. მინდა თქვენი პოზიცია.",
+          "fr": "Aujourd'hui j'ai commandé un plat au poisson rouge et le goût était désagréable — il se peut que le produit n'était pas de qualité. J'aimerais connaître votre position."
+        },
+        {
+          "speaker": "მენეჯერი",
+          "ka": "მადლობას გეტყვით, რომ შეგატყობინეთ. პირველ რიგში, ბოდიშს გიხდით. შემიძლია შემოგთავაზოთ შეცვლა ან თანხის უკან დაბრუნება. რას მიზანდავთ ყოველ შემთხვევაში?",
+          "fr": "Merci de nous l'avoir signalé. D'abord, je m'excuse. Je peux vous proposer un remplacement ou un remboursement. Que préférez-vous ?",
+          "choices": [
+            {
+              "ka": "გთხოვთ მიგვაპასუხოთ შეცვლით იგივე სახეობის კერძით, მაგრამ დაერწმუნებით, რომ პროდუქტი სუფთა და ახალია.",
+              "fr": "Veuillez me le remplacer par le même plat en vous assurant que le produit est propre et frais.",
+              "ok": true
+            },
+            {
+              "ka": "არ მინდა შეცვლა — მხოლოდ ძალიან მაღალი კომპენსაცია ნაღდი თანხით, რადგან ეს შემთხვევა შეუქცევადია.",
+              "fr": "Je ne veux pas de remplacement — seulement une très grosse indemnisation en espèces, car c'est irréparable.",
+              "ok": false
+            },
+            {
+              "ka": "კარგია, წავიკითხავ სხვა რესტორანში და აღარ დავბრუნდები აქ, მადლობა ყურადღებისთვის.",
+              "fr": "Très bien, j'irai dans un autre restaurant et je ne reviendrai plus ici, merci de votre attention.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მენეჯერი",
+          "ka": "შევეცდებით დაუყოვნებლივ გამოვასწოროთ სიტუაცია: დავალაგებთ საწყობს, გადავამოწმებთ სერტიფიკატებს და შემოგთავაზებთ ახალ კერძს ან თანხის ამოღებას.",
+          "fr": "Nous tenterons de corriger la situation immédiatement : nous contrôlerons l'entrepôt, vérifierons les certificats et vous proposerons un nouveau plat ou un remboursement."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-037",
+      "title": "დელაივერის პრობლემა და ფასიანი კომპენსაცია",
+      "cefr": "B2",
+      "version": 37,
+      "scene": "მიწოდების სერვისში შეფერხება და კომპენსაციის პირობებზე აზრთა სხვადასხვაობა",
+      "turns": [
+        {
+          "speaker": "მომხმარებელი",
+          "ka": "პროდუქტი, რომელიც შეუკვეთე, დაგვიანდა უკვე 48 საათია. ეს ჩემთვის ყველაზე ცუდი გამოცდილებაა — მკაფიო მიზეზი ვერ მომეცით საკომუნიკაციოდ.",
+          "fr": "Le produit que j'ai commandé est retardé depuis 48 heures. C'est la pire expérience pour moi — vous n'avez pas donné de raison claire pour la communication."
+        },
+        {
+          "speaker": "მოქმედების წარმომადგენელი",
+          "ka": "ვწუხვართ შენთვის შექმნილი შეურაცხყოფისთვის. შეგვიძლია შემოგთავაზოთ ფასდაკლება მომდევნო შეკვეთაზე ან ნაწილობრივი თანხის დაბრუნება. რომელს მიიჩნევთ უფრო მიზანშეწონილად?",
+          "fr": "Nous sommes désolés pour la gêne occasionnée. Nous pouvons vous proposer une remise sur la prochaine commande ou un remboursement partiel. Laquelle préférez-vous ?",
+          "choices": [
+            {
+              "ka": "მაქვს პრიორიტეტი სწრაფი გამყიდველობითი გადაწყვეტილების შემთხვევაში: ნაწილობრივი თანხის უკან დაბრუნება, რადგან სერვისმა დღეს ვერ შეასრულა ვალდებულება.",
+              "fr": "Je préfère une solution commerciale rapide : un remboursement partiel, car le service n'a pas rempli ses obligations aujourd'hui.",
+              "ok": true
+            },
+            {
+              "ka": "მინდა მხოლოდ ნაღდი ფული სრულად უკან, მიუხედევდ იმისა, რომ დავკარგე დრო, სხვა არაფერი ხდის მე კომფორტულად.",
+              "fr": "Je veux uniquement un remboursement intégral en espèces, peu importe le temps perdu, rien d'autre ne me convient.",
+              "ok": false
+            },
+            {
+              "ka": "საუკეთესო იქნება, თუ მომეცით ვაუჩერი მომდევნო 12 თვეში გამოიყენებისათვის, რამდენიმე პროცენტიანი ფასდაკლებით.",
+              "fr": "Ce serait mieux de me donner un voucher valable 12 mois avec un rabais de quelques pourcents pour la prochaine commande.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მოქმედების წარმომადგენელი",
+          "ka": "შეგვიძლია დაუყოვნებლივ დაავალოთ კომპენსაცია და ასევე გამოვხედოთ ადგილზე, რათა გავარკვიოთ პრობლემა კომუნიკაციის სისტემაში.",
+          "fr": "Nous pouvons ordonner la compensation immédiatement et enquêter sur place pour identifier le problème dans le système de communication."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-038",
+      "title": "სხვადასხვა არგუმენტები სასწავლო პროექტში",
+      "cefr": "B2",
+      "version": 38,
+      "scene": "უნივერსიტეტის ჯგუფური პროექტის ხელმძღვანელობა და როლების გადანაწილების დებატები",
+      "turns": [
+        {
+          "speaker": "პროფესორი",
+          "ka": "პროექტის დეტალები მკაცრად დაკავშირებულია კლინიკურ კვლევასთან. საჭიროა, რომ გუნდმა თანაბრად დააკისროს პასუხისმგებლობები. როგორ შეფარდებით როლებს?",
+          "fr": "Les détails du projet sont strictement liés à une étude clinique. Il est nécessaire que l'équipe répartisse les responsabilités équitablement. Comment allez-vous répartir les rôles ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "აღვწერეთ ყველა დანიშნულ საქმე და განსაზღვრეთ ძირითადი პირობა: ეს იქნება ორი მკვლევარი სფეროში, ერთი ანალიტიკოსი და ერთი კომუნიკატორი. თუმცა, უნდა გათვალისწინდეს გუნდის წევრების სპეციფიკური გამოცდილება.",
+          "fr": "Décrivons toutes les tâches et définissons la règle de base : deux chercheurs sur le terrain, un analyste et un communicant. Il faut cependant tenir compte de l'expérience spécifique des membres.",
+          "choices": [
+            {
+              "ka": "ვკარგავ დამატებით დროს იმის გამო, რომ სწორი იქნას როგორ გავაკეთოთ—ამიტომ ყველა ერთნაირად, როტაციის პრინციპით უნდა შეასრულოს ყველა ფუნქცია.",
+              "fr": "Je perds du temps à décider comment faire — donc chacun doit assumer toutes les fonctions de manière rotative.",
+              "ok": false
+            },
+            {
+              "ka": "საუკეთესოა დავაყენოთ როლი სტატუსზე და გამოცდილებაზე დაყრდნობით: მოვიყვანოთ ორი მოაზროვნე გამსჭვალველნი ველზე, ანალიტიკოსი; კომუნიკატორი კი ურთიერთობებსა და მოხელეობას მიხედავს.",
+              "fr": "Le mieux est d'attribuer les rôles selon le statut et l'expérience : deux personnes sur le terrain, un analyste ; le communicant s'occupera des relations et de la logistique.",
+              "ok": true
+            },
+            {
+              "ka": "არცერთ მოწყობას არ ვუჭერ მხარს; პროექტის სივრცე უნდა იყოს ჰიპოტეტური და დამოუკიდებელი, სანამ ყველა მონაწილეობას არ მიიღებს თანაბრად.",
+              "fr": "Je ne soutiens aucune structure ; le projet doit rester hypothétique et indépendant jusqu'à ce que tout le monde participe de façon égale.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "პროფესორი",
+          "ka": "ამ ტაქტიკით მნიშვნელოვნად შეუწყობთ ხელს პროექტის արդյունավետობას. მოამზადეთ რვა-კვირიანი გეგმა და წარადგინეთ მკაფიო ამოცანები თითოეულ მონაწილესა და შეფასების კრიტერიუმები.",
+          "fr": "Cette tactique contribuera grandement à l'efficacité du projet. Préparez un plan de huit semaines et présentez des tâches claires pour chaque participant et des critères d'évaluation."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-039",
+      "title": "სირცხვილის მიზეზი საჯარო ტრანსპორტში",
+      "cefr": "B2",
+      "version": 39,
+      "scene": "სიტუცაცია: პირადი უკმაყოფილების გამოხატვა ავტობუსში verlorenen ადგილმა და ადეკვატური გამოსავლის მოკითხვა",
+      "turns": [
+        {
+          "speaker": "მგზავრი A",
+          "ka": "ადრე ეს სამგზავრო ხაზი არასდროს იყო გადავსებული, თუმცა დღეს ვნახე, რომ ორი ავტობუსი გაურკვეველი დროით ჩამოვიდა და მესამე საერთოდ არ იყო. მგზავრები ინერვიულეს.",
+          "fr": "Avant, cette ligne n'était jamais aussi bondée, mais aujourd'hui j'ai vu deux bus arriver à des intervalles irréguliers et le troisième n'est pas venu du tout. Les passagers sont inquiets."
+        },
+        {
+          "speaker": "სტადიონის ადმინისტრატორი",
+          "ka": "ეს პრობლემა გამოწვეულია სატრანსპორტო კომპანია-პლუსის გრაფიკის ცვლილებით და მძღოლების არასწორი გადანაწილებით. რა მექანიზმები იქნებოდა დამაკმაყოფილებელი მგზავრებისთვის?",
+          "fr": "Ce problème est dû à un changement d'horaire du transporteur et à une mauvaise répartition des conducteurs. Quels mécanismes seraient satisfaisants pour les passagers ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "უნდა იყოს სწრაფი ინფორმაციის სისტემები რეალურ დროში და კონკრეტული პასუხისმგებლობის მქონე კონტაქტი, რათა მგზავრები მოძებნონ ალტერნატივები; ასევე უნდა გათვალისწინდეს დანაშაულის ანაზღაურება მანკიერი დღისთვის.",
+          "fr": "Il doit y avoir des systèmes d'information en temps réel et un contact responsable pour que les passagers trouvent des alternatives ; il faut aussi prévoir une compensation pour le jour défectueux.",
+          "choices": [
+            {
+              "ka": "მგზავრებს საკმარისია მხოლოდ ბოდიში და არაფრის შეთავაზება, რადგან ასეთი შემთხვევები ხშირია და აქ ვერავის დავადებთ ბრალს.",
+              "fr": "Les passagers se contentent d'excuses et de rien d'autre, car ces cas sont fréquents et on ne peut en blâmer personne.",
+              "ok": false
+            },
+            {
+              "ka": "სისტემური გადაწყვეტა არის რეალური დროში შეტყობინებები, ავტობუსების პოზიციონირების თვალყურის დევნება და ნაწილობრივი საფასურის ან ბილეთების დაბრუნება გავლენიანობის დროს.",
+              "fr": "La solution systémique consiste en notifications en temps réel, suivi de la position des bus et remboursement partiel ou billets gratuits pour les jours concernés.",
+              "ok": true
+            },
+            {
+              "ka": "რაიმე სასჯელის დაწესება მძღოლებზე და კომპანიის დაჯარიმება სადაცაა, ეს დაეხმარება იმავე დღეს პრობლემის მოგვარებაში.",
+              "fr": "Imposer des sanctions aux conducteurs et pénaliser immédiatement l'entreprise résoudra le problème le jour même.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "სტადიონის ადმინისტრატორი",
+          "ka": "თქვენი წინადადება პრაქტიკული და განხორციელებადია. გავაცნობებთ კომპანიას და მოვითხოვთ ანგარიშს რეალურ დროში ინფორმაციის სისტემის დანერგვაზე.",
+          "fr": "Votre proposition est pratique et réalisable. Nous informerons l'entreprise et exigerons un rapport sur la mise en place d'un système d'information en temps réel."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b2-gen-040",
+      "title": "ხმაურის დაბრკოლება საცხოვრებელ უბანში",
+      "cefr": "B2",
+      "version": 40,
+      "scene": "მეზობლებს შორის კონფლიქტი ხმაურის გამო—პასუხისმგებლობის დათვლა და კომპრომისის ძიება",
+      "turns": [
+        {
+          "speaker": "მეზობელი 1",
+          "ka": "ბოლო თვის განმავლობაში მრავალი საღამო ხმაურია საფეხბურთო ბაღთან ახლოს ქეიფითა და ხმაურით; ეს აშფოთებს ბავშვებსა და მოხუცებს. უკვე რამდენჯერმე ვთხოვეთ მომატებული სიმშვიდე.",
+          "fr": "Depuis un mois il y a beaucoup de bruit le soir près du terrain de foot à cause des fêtes ; cela dérange les enfants et les personnes âgées. Nous avons demandé plusieurs fois plus de calme."
+        },
+        {
+          "speaker": "მეზობელი 2",
+          "ka": "ჩვენ სხვადასხვა მიზეზით ვიკრიბებით — და ზოგი ღონისძიება ბოლო დროს მართლაც იყო ხმაურიანი. როგორ მოვაგვაროთ ისე, რომ ყველას ინტერესები იქნას გათვალისწინებული?",
+          "fr": "Nous nous réunissons pour différentes raisons — et certains événements ont effectivement été bruyants récemment. Comment résoudre cela de manière à respecter les intérêts de tous ?"
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "ორი შესაძლებლობაა: დავაწესოთ საღამოების საათობრივი ლიმიტები და ხმაურის დონე, ან ვიმსჯელოთ ცალკე ადგილებით, სადაც საღამოები შეიძლება უფრო თავისუფლად ჩატარდეს. რომელზე მოინდომებთ შეთანხმებას?",
+          "fr": "Deux possibilités : instaurer des limites horaires et niveaux sonores pour les soirées, ou négocier des lieux spécifiques où les fêtes peuvent se tenir plus librement. Sur laquelle souhaitez-vous vous mettre d'accord ?",
+          "choices": [
+            {
+              "ka": "სმს და ზარი საკმარისია; მხოლოდ შეხსენება მოვალეობიდან და დრო შეზღუდვები არ არის საჭირო, რადგან ეს არასდროს გრძელდება დიდხანს.",
+              "fr": "Un SMS et un appel suffisent ; un simple rappel et pas de limites horaires, car ça ne dure jamais longtemps.",
+              "ok": false
+            },
+            {
+              "ka": "აუცილებელია ნახაზით დავწეროთ ცხრილი წესებთან ერთად: კონკრეტული დღეები და ბოლო საათი, ხმაურის მისაღები ზღვარი და გამონაკლისების რეგისტრაცია, რათა ყველამ იცოდეს რა ვალდებულებები აქვს.",
+              "fr": "Il faut formuler un règlement avec un calendrier : jours précis et heure de fin, un seuil sonore acceptable et enregistrement des exceptions, pour que chacun connaisse ses obligations.",
+              "ok": true
+            },
+            {
+              "ka": "ყველაფერი ძალზე მარტივია — მოვარგოთ მხოლოდ ერთდროულად ყველას მოთხოვნები და კანონის დაცვას მივანდოთ მხოლოდ პოლიციას.",
+              "fr": "Tout est simple — on satisfera toutes les demandes simultanément et confiera le respect de la loi uniquement à la police.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მეზობელი 1",
+          "ka": "პირდაპირი, წესიერი და გამჭვირვალე შინაარსით შეთანხმება გარდაუვალია. მზად ვარ ვითანხმო ცხრილი და მოვუაროთ შესრულებას ხელმოწერით.",
+          "fr": "Un accord direct, juste et transparent est indispensable. Je suis prêt à signer le calendrier et à veiller à son respect."
+        }
+      ]
     }
   ]
 }

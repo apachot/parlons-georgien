@@ -138,6 +138,368 @@
       "note": "Action future exprimée simplement (pronom opcional).",
       "cefr": "A1",
       "version": 10
+    },
+    {
+      "id": "dictation_sentences-a1-gen-011",
+      "cefr": "A1",
+      "version": 11,
+      "fr": "Bonjour.",
+      "ka": "გამარჯობა.",
+      "answers": [
+        "გამარჯობა.",
+        "გამარჯობა"
+      ],
+      "note": "Salutation simple : « Bonjour ». La forme sans ponctuation est aussi acceptée."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-012",
+      "cefr": "A1",
+      "version": 12,
+      "fr": "Je m'appelle Marie.",
+      "ka": "მე მქვია მარიამ.",
+      "answers": [
+        "მე მქვია მარიამ.",
+        "ჩემი სახელი მარიამია."
+      ],
+      "note": "Formule basique pour dire son nom. Variante équivalente : « Mon nom est Marie. » en géorgien."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-013",
+      "cefr": "A1",
+      "version": 13,
+      "fr": "Où est la gare ?",
+      "ka": "სადგური სად არის?",
+      "answers": [
+        "სადგური სად არის?",
+        "სადგური სადაა?"
+      ],
+      "note": "Question simple de localisation. Les deux formulations sont courantes à l'oral."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-014",
+      "cefr": "A1",
+      "version": 14,
+      "fr": "J'ai un frère et une sœur.",
+      "ka": "მე მყავს ძმა და და.",
+      "answers": [
+        "მე მყავს ძმა და და.",
+        "მყავს ძმა და და."
+      ],
+      "note": "Expression de la famille proche ; le pronom peut être omis en géorgien courant."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-015",
+      "cefr": "A1",
+      "version": 15,
+      "fr": "Il fait chaud aujourd'hui.",
+      "ka": "დღეს ცხელა.",
+      "answers": [
+        "დღეს ცხელა.",
+        "დღეს თბილია."
+      ],
+      "note": "Deux façons idiomatiques de dire qu'il fait chaud aujourd'hui."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-016",
+      "cefr": "A1",
+      "version": 16,
+      "fr": "Je veux un café, s'il vous plaît.",
+      "ka": "მე მინდა ყავა, თუ შეიძლება.",
+      "answers": [
+        "მე მინდა ყავა, თუ შეიძლება.",
+        "მე მინდა ერთი ყავა, თუ შეიძლება."
+      ],
+      "note": "Demande polie pour un café ; la quantité «une» est facultative."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-017",
+      "cefr": "A1",
+      "version": 17,
+      "fr": "Nous habitons à Paris.",
+      "ka": "ჩვენ პარიზში ვცხოვრობთ.",
+      "answers": [
+        "ჩვენ პარიზში ვცხოვრობთ.",
+        "ჩვენ ვცხოვრობთ პარიზში."
+      ],
+      "note": "Phrase déclarative simple sur le lieu d'habitation ; l'ordre des mots est flexible."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-018",
+      "cefr": "A1",
+      "version": 18,
+      "fr": "Le train part à huit heures.",
+      "ka": "მატარებელი რვა საათზე მიდის.",
+      "answers": [
+        "მატარებელი რვა საათზე მიდის.",
+        "მატარებელი მიდის რვა საათზე."
+      ],
+      "note": "Annonce horaire simple ; deux ordres de mots habituels."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-019",
+      "cefr": "A1",
+      "version": 19,
+      "fr": "J'aime lire des livres le soir.",
+      "ka": "მე მიყვარს საღამოს წიგნების კითხვა.",
+      "answers": [
+        "მე მიყვარს საღამოს წიგნების კითხვა.",
+        "მიყვარს საღამოს წიგნების კითხვა."
+      ],
+      "note": "Exprimer un loisir : le pronom peut être omis en géorgien courant."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-020",
+      "cefr": "A1",
+      "version": 20,
+      "fr": "Peux-tu m'aider ?",
+      "ka": "შეგიძლია დამეხმარო?",
+      "answers": [
+        "შეგიძლია დამეხმარო?",
+        "შეგიძლიათ დამეხმაროთ?"
+      ],
+      "note": "Demande d'aide informelle ; la forme polie/plurielle est fournie en variante."
+    },
+    {
+      "id": "dictation_sentences-a1-gen-021",
+      "fr": "Bonjour.",
+      "ka": "გამარჯობა.",
+      "answers": [
+        "გამარჯობა.",
+        "გამარჯობა"
+      ],
+      "note": "Salutation simple et standard en géorgien.",
+      "cefr": "A1",
+      "version": 21
+    },
+    {
+      "id": "dictation_sentences-a1-gen-022",
+      "fr": "Je m'appelle Marie.",
+      "ka": "მე მქვია მარიამ.",
+      "answers": [
+        "მე მქვია მარიამ.",
+        "მე მქვია მარიამ"
+      ],
+      "note": "Construction basique «მე მქვია + prénom».",
+      "cefr": "A1",
+      "version": 22
+    },
+    {
+      "id": "dictation_sentences-a1-gen-023",
+      "fr": "J'habite à Tbilissi.",
+      "ka": "მე ვცხოვრობ თბილისში.",
+      "answers": [
+        "მე ვცხოვრობ თბილისში.",
+        "მე ვცხოვრობ თბილიში."
+      ],
+      "note": "Verbe ვცხოვრობ + locatif de lieu; deux graphies courantes pour Tbilissi.",
+      "cefr": "A1",
+      "version": 23
+    },
+    {
+      "id": "dictation_sentences-a1-gen-024",
+      "fr": "J'ai un chat.",
+      "ka": "მე მაქვს კატა.",
+      "answers": [
+        "მე მაქვს კატა.",
+        "მე მაქვს კატა"
+      ],
+      "note": "Construction possessionnelle simple «მე მაქვს + nom».",
+      "cefr": "A1",
+      "version": 24
+    },
+    {
+      "id": "dictation_sentences-a1-gen-025",
+      "fr": "Il fait beau aujourd'hui.",
+      "ka": "დღეს კარგი ამინდია.",
+      "answers": [
+        "დღეს კარგი ამინდია.",
+        "დღეს კარგი ამინდი არის."
+      ],
+      "note": "Expression météorologique basique; variante avec არსებითი+არის possible.",
+      "cefr": "A1",
+      "version": 25
+    },
+    {
+      "id": "dictation_sentences-a1-gen-026",
+      "fr": "Je veux un café, s'il vous plaît.",
+      "ka": "გთხოვთ, ერთი ყავა.",
+      "answers": [
+        "გთხოვთ, ერთი ყავა.",
+        "ერთი ყავა, გთხოვთ."
+      ],
+      "note": "Formule polie pour commander: გთხოვთ = s'il vous plaît.",
+      "cefr": "A1",
+      "version": 26
+    },
+    {
+      "id": "dictation_sentences-a1-gen-027",
+      "fr": "Où est la gare ?",
+      "ka": "სადგური სად არის?",
+      "answers": [
+        "სადგური სად არის?",
+        "სად არის სადგური?"
+      ],
+      "note": "Question de localisation; deux ordres de mots acceptables.",
+      "cefr": "A1",
+      "version": 27
+    },
+    {
+      "id": "dictation_sentences-a1-gen-028",
+      "fr": "Je parle un peu géorgien.",
+      "ka": "მე ცოტა ქართული ვიცი.",
+      "answers": [
+        "მე ცოტა ქართული ვიცი.",
+        "მე ცოტა ქართულად ვლაპარაკობ."
+      ],
+      "note": "Deux façons simples d'exprimer la compétence linguistique.",
+      "cefr": "A1",
+      "version": 28
+    },
+    {
+      "id": "dictation_sentences-a1-gen-029",
+      "fr": "Demain, je vais au marché.",
+      "ka": "ხვალ ბაზარში მივალ.",
+      "answers": [
+        "ხვალ ბაზარში მივალ.",
+        "ხვალ მე ბაზარში მივალ."
+      ],
+      "note": "Futur simple informel avec le verbe მიალ (je vais aller).",
+      "cefr": "A1",
+      "version": 29
+    },
+    {
+      "id": "dictation_sentences-a1-gen-030",
+      "fr": "Merci beaucoup.",
+      "ka": "დიდი მადლობა.",
+      "answers": [
+        "დიდი მადლობა.",
+        "მადლობა."
+      ],
+      "note": "Remerciement courant; მადლობა est la forme plus courte.",
+      "cefr": "A1",
+      "version": 30
+    },
+    {
+      "id": "dictation_sentences-a1-gen-031",
+      "fr": "Traduis en géorgien : Bonjour.",
+      "ka": "გამარჯობა.",
+      "answers": [
+        "გამარჯობა.",
+        "გამარჯობა"
+      ],
+      "note": "Salutation standard ; ponctuation optionnelle.",
+      "cefr": "A1",
+      "version": 31
+    },
+    {
+      "id": "dictation_sentences-a1-gen-032",
+      "fr": "Traduis en géorgien : Je m'appelle Marie.",
+      "ka": "მე მქვია მარი.",
+      "answers": [
+        "მე მქვია მარი.",
+        "მე მქვია მარი"
+      ],
+      "note": "Formule personnelle «მე მქვია + prénom».",
+      "cefr": "A1",
+      "version": 32
+    },
+    {
+      "id": "dictation_sentences-a1-gen-033",
+      "fr": "Traduis en géorgien : Où est la gare ?",
+      "ka": "სად არის სადგური?",
+      "answers": [
+        "სად არის სადგური?",
+        "სად არის სადგური"
+      ],
+      "note": "Question simple avec სად (où) +'être'.",
+      "cefr": "A1",
+      "version": 33
+    },
+    {
+      "id": "dictation_sentences-a1-gen-034",
+      "fr": "Traduis en géorgien : J'ai un chat noir.",
+      "ka": "მე მყავს შავი კატა.",
+      "answers": [
+        "მე მყავს შავი კატა.",
+        "მე მყავს შავი კატა"
+      ],
+      "note": "Possession pour animal : მე მყავს + nom.",
+      "cefr": "A1",
+      "version": 34
+    },
+    {
+      "id": "dictation_sentences-a1-gen-035",
+      "fr": "Traduis en géorgien : Il fait chaud aujourd'hui.",
+      "ka": "დღეს თბილია.",
+      "answers": [
+        "დღეს თბილია.",
+        "დღეს თბილია"
+      ],
+      "note": "Expression climatique : დღეს (aujourd'hui) + adjectif + -ი არის omis.",
+      "cefr": "A1",
+      "version": 35
+    },
+    {
+      "id": "dictation_sentences-a1-gen-036",
+      "fr": "Traduis en géorgien : Je voudrais de l'eau, s'il vous plaît.",
+      "ka": "გთხოვთ, წყალი მომეცით.",
+      "answers": [
+        "გთხოვთ, წყალი მომეცით.",
+        "გთხოვთ წყალი მომეცით."
+      ],
+      "note": "Formule polie : გთხოვთ + impératif «მომეცით».",
+      "cefr": "A1",
+      "version": 36
+    },
+    {
+      "id": "dictation_sentences-a1-gen-037",
+      "fr": "Traduis en géorgien : Où sont les toilettes ?",
+      "ka": "სად არის ტუალეტი?",
+      "answers": [
+        "სად არის ტუალეტი?",
+        "ტუალეტები სად არის?",
+        "სად არის ტუალეტი"
+      ],
+      "note": "Question pratique ; variante au pluriel («ტუალეტები სად არის?») acceptée.",
+      "cefr": "A1",
+      "version": 37
+    },
+    {
+      "id": "dictation_sentences-a1-gen-038",
+      "fr": "Traduis en géorgien : Je ne comprends pas.",
+      "ka": "არ მესმის.",
+      "answers": [
+        "არ მესმის.",
+        "არ მესმის"
+      ],
+      "note": "Forme courante pour 'je ne comprends pas'.",
+      "cefr": "A1",
+      "version": 38
+    },
+    {
+      "id": "dictation_sentences-a1-gen-039",
+      "fr": "Traduis en géorgien : Combien ça coûte ?",
+      "ka": "ეს რამდენი ღირს?",
+      "answers": [
+        "ეს რამდენი ღირს?",
+        "რამდენი ღირს ეს?",
+        "ეს რამდენი ღირს"
+      ],
+      "note": "Question sur le prix ; l'ordre des mots peut varier.",
+      "cefr": "A1",
+      "version": 39
+    },
+    {
+      "id": "dictation_sentences-a1-gen-040",
+      "fr": "Traduis en géorgien : À demain !",
+      "ka": "ხვალამდე!",
+      "answers": [
+        "ხვალამდე!",
+        "ხვალამდე"
+      ],
+      "note": "Formule pour 'à demain' : adverbe + -ამდე.",
+      "cefr": "A1",
+      "version": 40
     }
   ]
 }

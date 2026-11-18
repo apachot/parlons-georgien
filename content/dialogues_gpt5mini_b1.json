@@ -435,6 +435,1386 @@
       ],
       "cefr": "B1",
       "version": 10
+    },
+    {
+      "id": "dialogues-b1-gen-031",
+      "title": "ბინის ქირის შეთანხმება",
+      "scene": "გიორგი რეკლამას ხედავს აპარტამენტზე და ტელეფონით ეკითხება სააგენტოს აგენტს დეტალებს.",
+      "turns": [
+        {
+          "speaker": "აგენტი",
+          "ka": "გამარჯობა, ესაა ბინის რეკლამა — რით შემიძლია დაგეხმაროთ?",
+          "fr": "Bonjour, c'est l'annonce de l'appartement — comment puis-je vous aider ?"
+        },
+        {
+          "speaker": "გიორგი",
+          "ka": "მე ვნახე ფოტოები და მაინტერესებს, ნიშნავდით თუ არა ოთახის ფართობას და დამატებითი გადასახადები bestaan?",
+          "fr": "J'ai vu les photos et je voudrais savoir si vous indiquiez la surface de la pièce et s'il y a des charges supplémentaires ?",
+          "choices": [
+            {
+              "ka": "სულ ბინის სილუეტი არ გვაქვს აღწერილი, მოითხოვეთ პროექტის სქემა.",
+              "fr": "Nous n'avons pas décrit le plan exact, demandez le plan du logement.",
+              "ok": false
+            },
+            {
+              "ka": "ბინას აქვს 45 მ², კომუნალური იცვლება სეზონურად და არ არის ჩართული ქირაში.",
+              "fr": "L'appartement fait 45 m², les charges varient selon la saison et ne sont pas incluses dans le loyer.",
+              "ok": true
+            },
+            {
+              "ka": "ფოტოებით ჩანს, რომ დიდი აივანი აქვს; გადასახადები შესანიშნავად მცირეა.",
+              "fr": "Les photos montrent qu'il y a un grand balcon ; les charges sont très faibles.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "აგენტი",
+          "ka": "სწორი პასუხია — ქირა და ხარჯები ცალკე გავიხსენიებთ და ყველა დეტალს გაგიწერთ კონტაქტზე.",
+          "fr": "C'est exact — le loyer et les charges seront détaillés séparément et je vous enverrai tous les détails par contact."
+        }
+      ],
+      "cefr": "B1",
+      "version": 31
+    },
+    {
+      "id": "dialogues-b1-gen-032",
+      "title": "ინდაურის აღნიშვნა ოჯახურ კერძში",
+      "scene": "სოფლის ბაზარში მარიამი მეგობარს ეუბნება, როგორ აკეთებს სააბაზანო დროს იგულისხმებიან ეზოში გამართულ დღესასწაულზე ტრადიციული კერძს.",
+      "turns": [
+        {
+          "speaker": "მარიამი",
+          "ka": "ჩვენს ოჯახში ყოველთვის აღვნიშნავთ სოფლის დღეს — მე ვამზადებ ინდაურს ახალი ჯინჯერით და შინდის ჩირიით.",
+          "fr": "Dans ma famille, nous célébrons toujours la fête du village — je prépare la dinde avec du gingembre frais et des pruneaux."
+        },
+        {
+          "speaker": "მეგობარი",
+          "ka": "ეს ძალიან მაცდურად მესმის. როდის მომიტანონ, რომ დაგეხმაროთ?",
+          "fr": "Ça me paraît très appétissant. Quand dois-je venir pour t'aider ?",
+          "choices": [
+            {
+              "ka": "დაბა კვირას დილას — ადრე მოვდივართ და ბოსტანში ყველანი ვმუშაობთ.",
+              "fr": "Dimanche matin — on arrive tôt et tout le monde travaille au potager.",
+              "ok": false
+            },
+            {
+              "ka": "შაბათ საღამოს, რადგან შემთხევით მომწონს შენთან დარჩენა და ერთად მოვამზადოთ.",
+              "fr": "Samedi soir, car j'aime l'idée de rester chez toi et de cuisiner ensemble.",
+              "ok": true
+            },
+            {
+              "ka": "პარასკევს შუადღით — ეს დრო უმჯობესია უცხო სტუმრებისთვის.",
+              "fr": "Vendredi midi — c'est mieux pour les invités étrangers.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მარიამი",
+          "ka": "შაბათ საღამოს დავედოთ, მაშინვე გავშემზადებ ინგრედიენტებს და დაგირეკავთ.",
+          "fr": "D'accord pour samedi soir, je préparerai les ingrédients et je t'appellerai."
+        }
+      ],
+      "cefr": "B1",
+      "version": 32
+    },
+    {
+      "id": "dialogues-b1-gen-033",
+      "title": "ბანკში თანხის ჩარიცხვა",
+      "scene": "ელენე ბანკში მიდის ანგარიშზე თანხის ჩარიცხვაც და მის ანგარიშზე ავტორიზაციის პრობლემის მოგვარებაც სურს.",
+      "turns": [
+        {
+          "speaker": "ფისკალი",
+          "ka": "მოგესალმებით, რითი დაგეხმაროთ?",
+          "fr": "Bonjour, comment puis-je vous aider ?"
+        },
+        {
+          "speaker": "ელენე",
+          "ka": "მინდა თანხა ჩავრიცხო ჩემ მეგობრის ანგარიშზე, მაგრამ ინტერნეტბანკში ვერ შევდივარ — შეიძლება დახმარება?",
+          "fr": "Je veux virer de l'argent sur le compte d'une amie, mais je ne peux pas accéder à la banque en ligne — pouvez-vous aider ?",
+          "choices": [
+            {
+              "ka": "რა თანხას გეგმავთ ჩარიცხოთ და ანგარიშის ნომერი მომეცით, მეც ვამოწმებ უსაფრთხოებას.",
+              "fr": "Quel montant comptez-vous virer et donnez-moi le numéro de compte, je vérifierai la sécurité.",
+              "ok": true
+            },
+            {
+              "ka": "თუ პაროლის პრობლემა გაქვთ, გამოგიგზავნით ახალ პინს პირდაპირ თქვენს ელ-მეილს.",
+              "fr": "Si le problème vient du mot de passe, je vous enverrai un nouveau code PIN directement par e-mail.",
+              "ok": false
+            },
+            {
+              "ka": "ინტერნეტბანკს დღეს გამოვრთავთ ანგარიშის დასაცავად, მოდით ისევ შემდგომ აიტვირთოს.",
+              "fr": "Nous allons désactiver la banque en ligne aujourd'hui pour protéger le compte, revenez plus tard.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ფისკალი",
+          "ka": "გმადლობთ — გამოგიშვებთ მაძიებლის ფორმას და ჩამოგალაგებთ ნაბიჯ-ნაბიჯ.",
+          "fr": "Merci — je vais vous donner le formulaire et vous guider pas à pas."
+        }
+      ],
+      "cefr": "B1",
+      "version": 33
+    },
+    {
+      "id": "dialogues-b1-gen-034",
+      "title": "ქალაქის ტრანსპორტი და ბილეთები",
+      "scene": "ტურისტი სვეტლანა აპირებს ავტობუსით გამგზავრებას და რკინიგზის თანამშრომლთან აპარატზე ბილეთის ყიდვის წესს ეკითხება.",
+      "turns": [
+        {
+          "speaker": "თანამშრომელი",
+          "ka": "გთხოვთ, მითხარით, საით მიდიხართ და რომელ საათზე უნდა გამოხვიდეთ?",
+          "fr": "Veuillez me dire où vous allez et à quelle heure vous devez partir ?"
+        },
+        {
+          "speaker": "სვეტლანა",
+          "ka": "მე მინდა მივდიოდე ცენტრალურ ბაზარამდე ამ საღამოს 18:30-ზე. ეღირება თუ არა ბილეთი აპარატზე მეტი?",
+          "fr": "Je veux aller au marché central ce soir à 18h30. Le billet acheté au distributeur coûte plus cher ?",
+          "choices": [
+            {
+              "ka": "სტანდარტული ბილეთი აპარატზე თანაბარია პირად ბარათზე, მაგრამ პიკ-საათზე მატულობს ტარიფი.",
+              "fr": "Le billet standard coûte la même chose au distributeur qu'avec la carte personnelle, mais en heures de pointe le tarif augmente.",
+              "ok": false
+            },
+            {
+              "ka": "არ — აპარატი ყიდის ჩვეულებრივ ბილეთს, თქვენ მხოლოდ მიმართულება უნდა მიუთითოთ.",
+              "fr": "Non — le distributeur vend un billet normal, il vous suffit d'indiquer la destination.",
+              "ok": true
+            },
+            {
+              "ka": "დიახ, აპარატი სულ ოდნავ იძვირებს, მაგრამ ორჯერ გადახდით უფრო იაფია.",
+              "fr": "Oui, le distributeur est un peu plus cher, mais en payant deux fois c'est moins cher.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "თანამშრომელი",
+          "ka": "მაშინ აპარატთან მიდით და ბარათით ან ნაღდით გადაიხადეთ — ადმინისტრატორი დაგეხმარებათ, თუ საჭირო იქნება.",
+          "fr": "Alors allez au distributeur et payez par carte ou en espèces — l'administrateur vous aidera si nécessaire."
+        }
+      ],
+      "cefr": "B1",
+      "version": 34
+    },
+    {
+      "id": "dialogues-b1-gen-035",
+      "title": "მედიცინის ჩვეულებრივი ჩივილი",
+      "scene": "დავითმა ოჯახის ექიმს ონლაინ შეხვედრაზე სურდო და ხველა დაუწერა და მოესურვა გაიგოს, რა მისცეს მთავარ სიმპტომებზე.",
+      "turns": [
+        {
+          "speaker": "ექიმი",
+          "ka": "გამარჯობა, ვის მოიძებნე და რა კლინიკურ სიმპტომებს გრძნობ?",
+          "fr": "Bonjour, qui ai-je en ligne et quels symptômes ressentez-vous ?"
+        },
+        {
+          "speaker": "დარეგისტრირებული პაციენტი",
+          "ka": "მე ალერგიული ხველა მაქვს და ტემპერატურა 38°სში, რა მედიკამენტი გვირჩევთ?",
+          "fr": "J'ai une toux allergique et de la fièvre à 38°C, quel médicament recommandez-vous ?",
+          "choices": [
+            {
+              "ka": "საშუალო სიცხისთვის შეგიძლიათ მიიღოთ პარაცეტამოლი და ხშირად დაისვენოთ; ხველისთვის — თბილი სითხე და თუ მკვეთრად ძლიერდება, შემოგვიერთდით ბეჭზე.",
+              "fr": "Pour la fièvre modérée, vous pouvez prendre du paracétamol et vous reposer ; pour la toux, des boissons chaudes et si elle s'aggrave, revenez.",
+              "ok": true
+            },
+            {
+              "ka": "არ გირჩევთ არაფრის დანიშვნას — სიცხე აუცილებლად უნდა გავა თქვენს სახლში თავის მხრივ.",
+              "fr": "Je ne conseille rien — la fièvre doit forcément partir toute seule à la maison.",
+              "ok": false
+            },
+            {
+              "ka": "სხეულზე წაისვით გამაგრილებელი მალამო და ისროლეთ 15 წუთით წყალში.",
+              "fr": "Appliquez une pommade rafraîchissante sur le corps et plongez-le 15 minutes dans l'eau.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ექიმი",
+          "ka": "თუ სიმპტომები გაძლიერდება ან ახალი ნიშნები გამოჩნდება, გთხოვთ დაუყოვნებლივ მოგვმართოთ.",
+          "fr": "Si les symptômes s'aggravent ou apparaissent de nouveaux signes, merci de nous contacter immédiatement."
+        }
+      ],
+      "cefr": "B1",
+      "version": 35
+    },
+    {
+      "id": "dialogues-b1-gen-036",
+      "title": "ინტერვიუ სამსახურში",
+      "scene": "მარიანა ჩასართავს მოკლე სატელეფონო ინტერვიუს სამსახურის გამგესთან — ის უნდა დაადასტუროს თავისი გამოცდილება პროექტების მართვაში.",
+      "turns": [
+        {
+          "speaker": "მმართველი",
+          "ka": "გამარჯობა, მარიანაა? დავარეკე თქვენი რეზიუმეს გამო. შეგიძლიათ მოკლედ მომიყვეთ თქვენი პროექტის მართვის გამოცდილება?",
+          "fr": "Bonjour, Mariana ? Je vous appelle pour votre CV. Pouvez-vous me parler brièvement de votre expérience en gestion de projets ?"
+        },
+        {
+          "speaker": "მარიანა",
+          "ka": "მაქვს სამი წლის გამოცდილება სტარტაპში, სადაც ვმართავდი გუნდს ხუთი ადამიანით და ვაკონტროლებდი ვადებს და ბიუჯეტს.",
+          "fr": "J'ai trois ans d'expérience dans une startup où je dirigeais une équipe de cinq personnes et contrôlais les délais et le budget.",
+          "choices": [
+            {
+              "ka": "ეს შესანიშნავია — მაგრამ როგორ იყენებდით რისკის შეფასების მეთოდებს რეალურად?",
+              "fr": "C'est excellent — mais comment utilisiez-vous concrètement les méthodes d'évaluation des risques ?",
+              "ok": true
+            },
+            {
+              "ka": "დიდი ხანია ძიებაში არ ვარ, ამიტომ არ შეგიძლია მეტი დაწვრილებით გვითხრა?",
+              "fr": "Cela fait longtemps que je ne suis pas en recherche, pouvez-vous nous en dire plus ?",
+              "ok": false
+            },
+            {
+              "ka": "ჩვენი მოთხოვნები სხვანაირია; გაქვთ თუ არა შინაური ცხოველი?",
+              "fr": "Nos exigences sont différentes ; avez-vous des animaux domestiques ?",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მარიანა",
+          "ka": "მნიშვნელოვანი იყო პროექტების დაწყებამდე თავის დროზე რისკების იდენტიფიცირება, კრიტიკული ბერკეტების განსაზღვრა და მოთხოვნების რეგულარული გადახედვაCli — ამიტომ კარგი კომუნიკაცია ყოველთვის პირველ ადგილზე იყო.",
+          "fr": "Il était essentiel d'identifier les risques avant le lancement, définir des points de contrôle critiques et revoir régulièrement les exigences — donc une bonne communication était primordiale."
+        }
+      ],
+      "cefr": "B1",
+      "version": 36
+    },
+    {
+      "id": "dialogues-b1-gen-037",
+      "title": "საოჯახო პრობლემების გახსნა მესიჯით",
+      "scene": "ლიკა შვილს მესიჯს უგზავნის, რომ აქედან თვეებია თანამშრომლობა და იქ მოყოლილი დავალებები როგორ უნდა გადაიყვანოს.",
+      "turns": [
+        {
+          "speaker": "ლიკა",
+          "ka": "გამარჯობა, შენ ხომ გახსოვარ, რომ ამ ბოლო დროს სახლიდან მუშაობს? მინდა დავგეგმაროთ, როგორ გადანაწილდეს ბინა-მალენის მოვლა.",
+          "fr": "Bonjour, tu te souviens que tu travailles depuis la maison récemment ? Je veux organiser comment répartir les tâches ménagères."
+        },
+        {
+          "speaker": "შვილი",
+          "ka": "კი, ვიცი, მაგრამ რამდენი საათი ვიმუშავებ იმ კვირაში და როგორ გადავლენ ჩვენი როლიებია?",
+          "fr": "Oui, je sais, mais combien d'heures vais-je travailler cette semaine et comment seront répartis nos rôles ?",
+          "choices": [
+            {
+              "ka": "შენ კვირაში 30 საათამდე მუშაობ, მე 10 საათს ვხელმძღვანელობ; დროებით უნდა მივიღოთ გრაფიკი და შეამჩნია.",
+              "fr": "Tu travailleras jusqu'à 30 heures par semaine, moi je gère 10 heures ; il faut temporairement prendre un planning et le tester.",
+              "ok": false
+            },
+            {
+              "ka": "შემდეგი ორი კვირის განმავლობაში შენზე მოდის ვაკანსია — შეგიძლია პირველ რიგში გააკეთო საქმეები საღამოებით.",
+              "fr": "Pour les deux prochaines semaines, je te confie la charge — peux-tu faire les tâches le soir en priorité ?",
+              "ok": false
+            },
+            {
+              "ka": "მომავალ კვირაში კონტრაქტი უფრო მჭრით — შევთანხმდეთ, რომ გამთენიისას შენ ითხოვ შენობის მოწესრიგებას და შემდეგ ვასწავლით თავისუფალ დღეებს.",
+              "fr": "La semaine prochaine le contrat est plus serré — convenons que tu t'occupes du rangement tôt le matin puis on répartira les jours libres.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "ლიკა",
+          "ka": "კარგი, მაშინ დავწეროთ კონკრეტული გრაფიკი — ადრე მოგწერ, რომ დაადასტურო.",
+          "fr": "Bien, alors rédigeons un planning concret — je t'enverrai bientôt pour confirmation."
+        }
+      ],
+      "cefr": "B1",
+      "version": 37
+    },
+    {
+      "id": "dialogues-b1-gen-038",
+      "title": "სინოპსისი კინოსთვის",
+      "scene": "სტუდენტური ჯგუფი წარდგინებასამზადებს მოკლემეტრაჟიანი ფილმისთვის და რეჟისორი გუნდის წევრს მკაცრად აკითხავს სცენის არქიტექტურას.",
+      "turns": [
+        {
+          "speaker": "რეჟისორი",
+          "ka": "ჩვენ გვჭირდება სრული რუკა სცენისთვის — როგორ წარმოგიდგენია გადასაღები ადგილი ღამის სცენისათვის?",
+          "fr": "Il nous faut une carte complète pour la scène — comment imagines-tu le lieu de tournage pour la scène nocturne ?"
+        },
+        {
+          "speaker": "მწვანე",
+          "ka": "ვინმე, ვის მხრებზეა აქცენტი — მინდა განვსაზღვრო განათება და შრიფტი, რათა ემოცია იყოს ინტენსიური და ბუნებრივი.",
+          "fr": "Je veux savoir sur qui porte l'accent — je définirai l'éclairage et le cadre pour que l'émotion soit intense et naturelle.",
+          "choices": [
+            {
+              "ka": "არსებებს რამდენიმე ფართო ჩაშვება და მოკლე კლოს-აპები, განათება მკვეთრად კონტრასტული იქნება და ფონი თანდათანობით გაუფერულდება.",
+              "fr": "Il y aura quelques plans larges et des gros plans courts, l'éclairage sera fortement contrasté et l'arrière-plan se dé-saturera progressivement.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ დღის სინათლე გვჭირდება, რადგან ღამის ასახვა კამერით ძნელი იქნება — გადავაკეთოთ სცენარი.",
+              "fr": "Nous avons seulement besoin de lumière du jour car reproduire la nuit sera difficile — réécrivons le scénario.",
+              "ok": false
+            },
+            {
+              "ka": "ჩემი აზრით, სიმღერა და სრული დე-ტონის შეღებვა საკმარისი იქნება, სხვა ტექნიკა დიდხანს დაგვჭირდეს.",
+              "fr": "À mon avis, une chanson et une saturation totale suffiront, l'autre technique prendra trop de temps.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "რეჟისორი",
+          "ka": "კარგი — დაამუშავე დეტალური ჩანახატი და შემდეგ შევხედავთ ბიუჯეტს.",
+          "fr": "Bien — prépare une esquisse détaillée puis nous examinerons le budget."
+        }
+      ],
+      "cefr": "B1",
+      "version": 38
+    },
+    {
+      "id": "dialogues-b1-gen-039",
+      "title": "ბიბლიოთეკაში წიგნის დაბრუნება",
+      "scene": "მერაბი ბიბლიოთეკაში მიდის და ლექტორის ქრისტიენს უბრუნებს ნაშუადღევს გამოცემულ წიგნს; დაინტერესებულია თუ აქვს დაგვიანების ჯარიმა.",
+      "turns": [
+        {
+          "speaker": "ბიბლიოთეკარი",
+          "ka": "გთხოვთ, წიგნის კოდი მომეცით და შევამოწმებ, თუ არის შენს ჩანაწერში დაგვიანება.",
+          "fr": "Donnez-moi le code du livre et je vérifierai si vous avez un retard dans vos emprunts."
+        },
+        {
+          "speaker": "მერაბი",
+          "ka": "ეს კოდი: 572-თ. დავაგვიანე კითხვის გამო, მინდა ვიცოდე ჯარიმის თანხა და რა პირობებია.",
+          "fr": "Voici le code : 572. J'ai pris du retard à cause de la lecture, je veux connaître le montant de l'amende et les conditions.",
+          "choices": [
+            {
+              "ka": "რაც შეეხება ამ კატეგორიას, დაგვიანების დღიურ საკომისიო 0,50 ლარია; შესაძლებელია განვადება, თუ დიდი თანხაა.",
+              "fr": "Pour cette catégorie, la pénalité quotidienne est de 0,50 Lari ; il est possible de fractionner si le montant est élevé.",
+              "ok": true
+            },
+            {
+              "ka": "დაგვიანება არ არის სანქცირებული — უბრალოდ ახლავე დააბრუნეთ, ხელი მოგეწერებათ.",
+              "fr": "Le retard n'est pas sanctionné — rendez-le simplement maintenant et nous signerons.",
+              "ok": false
+            },
+            {
+              "ka": "ჩვენ გვჭირდება ახალი რეგისტრაცია შენს გადმოსაბარებლად; ჯარიმა ავტომატურად გაიქცევა ერთი კვირის შემდეგ.",
+              "fr": "Nous avons besoin d'une nouvelle inscription pour le renvoyer ; l'amende disparaîtra automatiquement après une semaine.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ბიბლიოთეკარი",
+          "ka": "სწორია, გადაიხდით ადმინისტრაციულ ნაწილს და შემდეგ მიიღებთ ახალ ბარათს თუ დაგჭირდებათ.",
+          "fr": "Exact, payez au service administratif puis vous obtiendrez une nouvelle carte si nécessaire."
+        }
+      ],
+      "cefr": "B1",
+      "version": 39
+    },
+    {
+      "id": "dialogues-b1-gen-040",
+      "title": "საუკეთესო მარშრუტი ლაშქრობაში",
+      "scene": "ხატია და მისი მეგობარი გეგმავენ დაორგანიზებულ თრეკინგს მთის მიმართულებით და გაინტერესებთ, რომელი მარშრუტი უფრო უსაფრთხოა მიმდინარე ამინდის პირობებით.",
+      "turns": [
+        {
+          "speaker": "ხატია",
+          "ka": "ამ კვირის ბოლოს წვიმები პროგნოზირებულია. ვფიქრობთ, რომელი ბილიკი უნდა ავირჩიოთ — ჭაობიანი გზა თუ უფრო ხის-ტრასა?",
+          "fr": "Des pluies sont prévues pour la fin de semaine. Nous hésitons entre quel sentier choisir — le chemin marécageux ou la piste forestière ?"
+        },
+        {
+          "speaker": "მეგობარი",
+          "ka": "ხის-ტრასა ხასიათდება უფრო სტაბილური საფარით, მაგრამ შესაძლოა სველობის გამო ხეები დაეტყოს; შენ როგორ ფიქრობ აღნიშნულზე?",
+          "fr": "La piste forestière a un revêtement plus stable, mais l'humidité peut rendre les arbres dangereux ; qu'en penses-tu ?",
+          "choices": [
+            {
+              "ka": "მხოლოდ ჭაობის გზაზე სეირნობა სარისკოა — ამიტომ გირჩევთ აირჩიოთ ხის-ტრასა, ტურისტული საშუალებები მოამზადეთ წვიმისთვის.",
+              "fr": "Seuls les chemins marécageux sont risqués — je recommande donc la piste forestière et de se préparer pour la pluie.",
+              "ok": true
+            },
+            {
+              "ka": "ჭაობიანი გზა უფრო საინტერესოა და უსაფრთხოა, რადგან მას ნაკლები ნაპირია და შესაძლებელია გვერდზე გასვლა.",
+              "fr": "Le chemin marécageux est plus intéressant et sûr, car il a moins de bords et on peut facilement s'écarter.",
+              "ok": false
+            },
+            {
+              "ka": "სამედიცინო წერტილი უფრო გრძელი იქნება ორივეზე, ანუ უკეთესია თვითონ არ წავიდეთ და გადავრჩეთ ქალაქში.",
+              "fr": "Le poste médical sera plus long pour les deux, donc mieux vaut rester en ville et ne pas y aller du tout.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ხატია",
+          "ka": "მისაზღვრეთ შესაბამისი აღჭურვილობა და დავაპიროთ ხის-ტრასაზე მონახულება — შევკრებთ ჩანთებს და გადასცემით ერთს.",
+          "fr": "Préparons l'équipement nécessaire et optons pour la piste forestière — nous rassemblerons les sacs et ferons une répartition."
+        }
+      ],
+      "cefr": "B1",
+      "version": 40
+    },
+    {
+      "id": "dialogues-b1-gen-011",
+      "title": "გახსენება შეხვედრაზე",
+      "scene": "ორი კოლეგა გეგმავენ შეხვედრას პროექტის წინ წიგნიერებისთვის.",
+      "cefr": "B1",
+      "version": 11,
+      "turns": [
+        {
+          "speaker": "მარიამ",
+          "ka": "გამარჯობა, თომო. შეგიძლია თუ არა სახელმძღვანელო გუნდისთვის შეხვედრის დრო დაადგინო?",
+          "fr": "Bonjour, Thomo. Peux-tu fixer l'heure de la réunion pour l'équipe du manuel ?"
+        },
+        {
+          "speaker": "თომო",
+          "ka": "გამარჯობა, მარიამ. რა დღე და დრო უფრო გამოგვადგება ყველას? მე უკეთესი ვარ შუა კვირას.",
+          "fr": "Bonjour, Mariam. Quel jour et quelle heure conviendraient le mieux à tout le monde ? Pour moi, le milieu de la semaine est mieux."
+        },
+        {
+          "speaker": "მარიამ",
+          "ka": "ვფიქრობ, ოთხშაბათი დღის პირველ ნახევარში კარგი იქნებოდა. შენ რას მიიჩნევ?",
+          "fr": "Je pense que mercredi matin serait bien. Qu'en penses-tu ?",
+          "choices": [
+            {
+              "ka": "დღეისთვის ძალიან დაკავებული ვარ, მაგრამ შუადღით შემიძლია.",
+              "fr": "Je suis très occupé ce jour-là, mais je peux à midi.",
+              "ok": false
+            },
+            {
+              "ka": "ოთხშაბათი შუშა დღეა, შუადღით მირჩევნია, რადგან მითითებები მოვასწროთ.",
+              "fr": "Mercredi est un bon jour, je préfère midi pour pouvoir finaliser les indications.",
+              "ok": false
+            },
+            {
+              "ka": "ოთხშაბათი დილა ჩემთვის შესაფერისია, ცხადდება შეხვედრაზე მოსვლა შესაძლებელი იქნება.",
+              "fr": "Mercredi matin me convient ; ma présence à la réunion sera possible.",
+              "ok": true
+            }
+          ]
+        },
+        {
+          "speaker": "თომო",
+          "ka": "გასაგებია. მაშინ დავაყენებ ოთხშაბათს 10:00 საათზე და გაგზავნი საკითხების გეგმით ავკრეფს ყველას.",
+          "fr": "Très bien. Alors je fixerai mercredi à 10h00 et j'enverrai l'ordre du jour pour que tout le monde se prépare."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-012",
+      "title": "ბინაში შესვლა და პრობლემების მოკვლევა",
+      "scene": "ახალი გაქირავებული ბინაში ინსპექციის დროს პატარა პრობლემა ჩანს.",
+      "cefr": "B1",
+      "version": 12,
+      "turns": [
+        {
+          "speaker": "ქირავნებაში მყოფი",
+          "ka": "გამარჯობა, მე ახალი მეზობლად გადავედი. მინდა დარწმუნდე, რომ ყველაფერი წესრიგშია ბინაში.",
+          "fr": "Bonjour, je viens d'emménager. Je voudrais vérifier que tout est en ordre dans l'appartement."
+        },
+        {
+          "speaker": "ემილი",
+          "ka": "დიახ, ასეა. შენ ნახე რაიმე პრობლემა განსაკუთრებული?",
+          "fr": "Oui. As-tu remarqué un problème particulier ?"
+        },
+        {
+          "speaker": "ქირავნებაში მყოფი",
+          "ka": "გარშემო სანათი ცოტა სუსტია და აბაზანის ჩასაფარებელი კარადა ჩახუნებული მგონია.",
+          "fr": "L'éclairage semble faible et la porte de la douche paraît abîmée.",
+          "choices": [
+            {
+              "ka": "შეგიძლია ელექტრიკოსი მივიყვანო, და კარადის შესახებ მესამედ დავუკავშირდეთ მენეჯერს.",
+              "fr": "Je peux amener un électricien et recontacter le gestionnaire au sujet de la porte.",
+              "ok": true
+            },
+            {
+              "ka": "ვფიქრობ, სინათლის გამოცვლა ძალიან ძვირი იქნება, ვერც კი გადავწყვეტთ ახლა.",
+              "fr": "Je pense que changer l'éclairage coûtera trop cher, on ne peut pas décider maintenant.",
+              "ok": false
+            },
+            {
+              "ka": "კარადა არ არის პრობლემა, უბრალოდ წყალი გამჩერებლობა უნდა შეამჩნოს.",
+              "fr": "La porte n'est pas un problème, il faut juste vérifier l'étanchéité.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ემილი",
+          "ka": "სასწრაფოდ დავუკავშირდებით და მივუხსენით მენეჯერს, რომ საჭიროებისამებრ ოსტატი მოვიდეს.",
+          "fr": "Nous contacterons le gestionnaire et lui demanderons de faire venir un réparateur si nécessaire."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-013",
+      "title": "ბიბლიოთეკაში წიგნის დაბრუნება",
+      "scene": "სტუდენტი ბიბლიოთეკის თანამშრომელთან იმყოფება განმავლობაში დაბრუნების პირობებზე საუბრისას.",
+      "cefr": "B1",
+      "version": 13,
+      "turns": [
+        {
+          "speaker": "სტუდენტი",
+          "ka": "გამარჯობა, ეს წიგნი მინდა დაბრუნება, მაგრამ ვგრძნობ, რომ ბოლო რიცხვში დავაგვიანდი.",
+          "fr": "Bonjour, je veux rendre ce livre, mais je crois que je suis en retard pour la date de retour."
+        },
+        {
+          "speaker": "ბიბლიოთეკარი",
+          "ka": "გამარჯობა! რომელი წიგნია და რამდენი დღე დაიგვიანე? დაგვჭირდება შენს ბილეთზე ფორმალობა.",
+          "fr": "Bonjour ! Quel est le livre et de combien de jours es-tu en retard ? Nous aurons besoin de vérifier sur ta carte."
+        },
+        {
+          "speaker": "სტუდენტი",
+          "ka": "ეს რომანი არის 'ხელოვნების ისტორია', და ვფიქრობ, ორი კვირა გადამიხდა. შემიძლია გადაუხადო ჯარიმა ბარათით?",
+          "fr": "C'est le roman 'Histoire de l'art', et je crois que j'ai deux semaines de retard. Puis-je payer l'amende par carte ?",
+          "choices": [
+            {
+              "ka": "ბარათით შეგიძლიათ გადაიხადოთ, მაგრამ ჯარიმა მომატებული იქნება მხოლოდ ნაშთით.",
+              "fr": "Vous pouvez payer par carte, mais l'amende sera majorée uniquement en espèces.",
+              "ok": false
+            },
+            {
+              "ka": "დიახ, ბარათით გადახდა თავისუფალია; ჯერ ანგარიშს შევამოწმებ და შემდეგ შენთვის გავეცი ქვითარი.",
+              "fr": "Oui, le paiement par carte est possible ; je vérifierai d'abord le compte et ensuite je te donnerai le reçu.",
+              "ok": true
+            },
+            {
+              "ka": "ბარათით არ შეიძლება, მხოლოდ სახლობს გადაიხადებთ თვემდე და ვერ მივიღებთ ქვითარს.",
+              "fr": "On ne peut pas payer par carte, seulement en espèces jusqu'à la fin du mois et on ne délivrera pas de reçu.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ბიბლიოთეკარი",
+          "ka": "მეგობრულად მოიტანე ბარათი, დავამუშავებთ გადახდას და წიგნს წაშლით შენი ანგარიშიდან.",
+          "fr": "Apporte ta carte, nous effectuerons le paiement et retirerons le livre de ton compte."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-014",
+      "title": "სუპერმარკეტში ასორტიმენტის შესახებ კითხვა",
+      "scene": "ყოვლისმომცველი მაღაზიის მომხმარებელი დახმარებას სთხოვს პროდუქტის პოვნაში.",
+      "cefr": "B1",
+      "version": 14,
+      "turns": [
+        {
+          "speaker": "მომხმარებელი",
+          "ka": "ბოდიში, შეგიძლიათ დამეხმაროთ? ვეძებ ორგანულ ზღვის მარილს, მაგრამ პოლი გარეუბნით გასაგებია.",
+          "fr": "Excusez-moi, pouvez-vous m'aider ? Je cherche du sel marin bio, mais je ne le trouve pas."
+        },
+        {
+          "speaker": "გაყიდვის დამხმარე",
+          "ka": "რა კარგი შეკითხვა. შევამოწმოთ ერთ-ერთ თაროებზე: მარილები და სანელებლები კუთხეშია. გინდა ვიდეოს სია თუ კონკრეტული ბრენდი?",
+          "fr": "Bonne question. Vérifions les rayons : sels et épices dans le coin. Tu veux la liste ou une marque spécifique ?"
+        },
+        {
+          "speaker": "მომხმარებელი",
+          "ka": "მე მაქვს ორი ბრენდი ამოწერილი, მაგრამ თუ არ არის, ტყემლის და სხვა ნაწარმი სჭირდება. შეგიძლიათ შემომთავაზოთ ალტერნატივა?",
+          "fr": "J'ai noté deux marques, mais si elles ne sont pas là, j'aurais besoin d'alternative. Pouvez-vous proposer ?",
+          "choices": [
+            {
+              "ka": "შეგიძლიათ მიიღოთ სამხარეულო ყველა მარილი, რომლიც ჩვეულებრივი მოხმარებისთვისაა, ან ჰიმალაის ვარდისფერი მარილი, რომელიც კარგი ალტერნატივაა.",
+              "fr": "Vous pouvez prendre n'importe quel sel de cuisine pour l'usage courant, ou du sel rose de l'Himalaya comme alternative.",
+              "ok": true
+            },
+            {
+              "ka": "დღეს მარილის შემოწმება შეუძლებელია, თუმცა სუნამოს გუნდი დაგვეხმარება.",
+              "fr": "Impossible de vérifier le sel aujourd'hui, mais l'équipe des parfums aidera.",
+              "ok": false
+            },
+            {
+              "ka": "უფრო მიზანშეწონილი იქნებოდა, თუ თქვენ იმავე ბრენდის შოკოლადი აიღებდით.",
+              "fr": "Il vaudrait mieux que vous preniez le même marque de chocolat.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "გაყიდვის დამხმარე",
+          "ka": "მანამდე შემოგთავაზებთ გვიმურობას: თუ გინდათ, გადავიტან თქვენს წერილში ნამეტანი ბრენდებს და მოძებნი.",
+          "fr": "Je peux te proposer de marquer les marques recherchées et les chercher pour toi."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-015",
+      "title": "ექიმთან ჩადუღება",
+      "scene": "პაციენტი ექიმს ეთხოვება ზედმეტი სიმპტომების ახსნას და შემდეგ სამკურნალო გეგმაზე შეთანხმდება.",
+      "cefr": "B1",
+      "version": 15,
+      "turns": [
+        {
+          "speaker": "პაციენტი",
+          "ka": "დილა მშვიდობისა. ბოლო ორი დღეა ყელის მტკივა და ცხელება მაქვს. რამე შვება შემიძლია?",
+          "fr": "Bonjour. J'ai mal à la gorge et de la fièvre depuis deux jours. Que puis-je prendre pour soulager ?"
+        },
+        {
+          "speaker": "ექიმი",
+          "ka": "დილა მშვიდობისა. ჰქონდა თუ არა ალერგია ან სხვა მედიკამენტები, რომლებიც იღებთ ამჟამად?",
+          "fr": "Bonjour. As-tu des allergies ou des médicaments en cours ?"
+        },
+        {
+          "speaker": "პაციენტი",
+          "ka": "არ მაქვს ალერგია, მაგრამ ზოგჯერ ნაღვლიდან ერთი წამალი ვიღებ ტკივილგამაყუჩებლად.",
+          "fr": "Je n'ai pas d'allergies, mais je prends parfois un analgésique occasionnellement.",
+          "choices": [
+            {
+              "ka": "იმისდა მიხედვით, გავუგზავნი უბრალო ანტიბიოტიკს, რადგან შესაძლოა დაინფიცირება მიმდინარეობს.",
+              "fr": "En fonction de ça, je prescris un antibiotique car il pourrait s'agir d'une infection.",
+              "ok": false
+            },
+            {
+              "ka": "პირველ რიგში შემოწმებას გავაკეთებთ და გირჩევთ დასვენება, სითხეები და საეჭვო ნიშნების დამახსოვრება; თუ წაურდება, დავწერ რეაციულ მკურნალობას.",
+              "fr": "D'abord nous ferons un examen ; je recommande repos, hydratation et surveillance ; si ça ne s'améliore pas, je proposerai un traitement adapté.",
+              "ok": true
+            },
+            {
+              "ka": "საუკეთესო იქნება, თუ დაუყოვნებლივ ქირურგიულ ჩარევას განვიხილავთ.",
+              "fr": "Il serait mieux de considérer une intervention chirurgicale immédiate.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ექიმი",
+          "ka": "კარგი, გავაკეთებთ ბეჭდის შემოწმებას და დავაკვირდებით მომდევნო ორი დღე. თუ სუსტი გაუმჯობესება არ იქნება, დაგიკავშირდებით სამედიცინო მკურნალობისთვის.",
+          "fr": "Très bien, nous ferons un examen et surveillerons pendant deux jours. Si pas d'amélioration, je te contacterai pour un traitement médical."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-016",
+      "title": "სასკოლო პროექტის განხილვა",
+      "scene": "ორი სტუდენტი დრამატულად განიხილავენ ჯგუფით განხორციელებადი პროექტის იდეას.",
+      "cefr": "B1",
+      "version": 16,
+      "turns": [
+        {
+          "speaker": "ლიკა",
+          "ka": "მინდოდა შენი აზრი მეკითხა: ჩვენი პროექტი უნდა იყოს კვლევა თუ პრაქტიკული გამოცდა?",
+          "fr": "Je voulais ton avis : notre projet doit-il être une recherche ou une épreuve pratique ?"
+        },
+        {
+          "speaker": "სერგი",
+          "ka": "ორივე საინტერესოა, მაგრამ თუ გავითვალისწინებთ რესურსებს და დრო-ს რესურსს, პრაქტიკული პრეზენტაცია უფრო რეალისტურია.",
+          "fr": "Les deux sont intéressants, mais compte tenu des ressources et du temps, une présentation pratique est plus réaliste."
+        },
+        {
+          "speaker": "ლიკა",
+          "ka": "ვინ მიგვაჩნია ჯგუფში ლიდერად? მე შემიძლია ორგანიზება გავუწიო, მაგრამ ჯგუფს სჭირდება ტექნიკური რესურსი.",
+          "fr": "Qui sera le leader du groupe ? Je peux organiser, mais il nous faut des ressources techniques.",
+          "choices": [
+            {
+              "ka": "მე მესმის ტექნიკა და ვწერ პროექტის ნაწილს; სწავლის დრო მგონია, რომ მე შევასრულებ ლიდერის ამოცანას.",
+              "fr": "Je comprends la technique et j'écrirai la partie projet ; je pense pouvoir assumer le rôle de leader.",
+              "ok": true
+            },
+            {
+              "ka": "მე უფრო დავამხტარი იდეების შეთავაზებაში და არ მსურს მეტი პასუხისმგებლობა.",
+              "fr": "Je préfère proposer des idées et ne veux pas plus de responsabilités.",
+              "ok": false
+            },
+            {
+              "ka": "დაველოდოთ და ვნახოთ, თუ ლექტორი თავად გვიშვებს ჯგუფს სხვების მიხედვით.",
+              "fr": "Attendons de voir si le professeur nous attribue le groupe en fonction des autres.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "სერგი",
+          "ka": "ჩემი აზრით კარგი იქნება, თუ შენ იყო კოორდინატორი, მე ვიზრუნებ ტექნიკურ ნაწილზე და დავგეგმავთ სამივე შეკრებას მანამდე.",
+          "fr": "Je pense que ce serait bien si tu étais coordinatrice ; je m'occuperai du technique et nous planifierons trois réunions avant."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-017",
+      "title": "ტურისტული ინფორმაციის მოთხოვნა",
+      "scene": "ტურისტი ქალაქის ინფო ცენტრში ცდილობს ისეთი მოტივის პოვნას, რომელიც შეეფერება მწვანე მარშრუტს.",
+      "cefr": "B1",
+      "version": 17,
+      "turns": [
+        {
+          "speaker": "ტურისტი",
+          "ka": "გამარჯობა, მსურს ქალაქში რამდენიმე საათეული მწვანე მარშრუტი. რა შემოგვთავაზებთ?",
+          "fr": "Bonjour, je voudrais un itinéraire vert de quelques heures en ville. Que proposez-vous ?"
+        },
+        {
+          "speaker": "ინფო-მონაცემთა",
+          "ka": "გამარჯობა! გვაქვს ბაღების და მდინარის სანაპიროს ციკლომარშრუტი, ასევე ისტორიული ბეღლების გავლით მინი-ტური.",
+          "fr": "Bonjour ! Nous avons une boucle des parcs et du bord de rivière, et aussi une mini-visite via les entrepôts historiques."
+        },
+        {
+          "speaker": "ტურისტი",
+          "ka": "მე მოვდივარ ბავშვთან ერთად და გვჭირდება მატერიალური შესვენებები და მოქნილი გზა. თუ შეიძლება, განსხვავებული ვარიანტები.",
+          "fr": "J'arrive avec un enfant et nous avons besoin de pauses et d'un itinéraire flexible. Des options différentes, s'il vous plaît.",
+          "choices": [
+            {
+              "ka": "პირველი ვარიანტი: მოკლე ციკლი პარკში, ლანჩის პიკნიკით და შემდეგ შემდგომში მცირე მუსიკალური დაგეგმვით; მეორე — მდინარის სანაპირო ნავიგაცია ცხელი კოფით.",
+              "fr": "Option 1 : petit circuit au parc avec pique-nique puis animation musicale ; option 2 : bord de rivière avec café chaud.",
+              "ok": false
+            },
+            {
+              "ka": "ეს ორი შეიძლება ერთობლივად შევაერთოთ: მცირე პარკი, შემდეგ მდინარის სანაპირო, სადაც ბევრი საფეხმავლო დასვენებაა და ბავშვებისთვის სათამაშოები. ამგვარად მოქნილი და მშვიდი დღე გამოვა.",
+              "fr": "On peut combiner les deux : petit parc puis bord de rivière avec de nombreuses aires de repos et jeux pour enfants. Ainsi la journée sera flexible et tranquille.",
+              "ok": true
+            },
+            {
+              "ka": "მე შემიძლია მხოლოდ გრძელი ფეხით გასეირნება შემოგთავაზოთ, არ არის შესვენებები გზაზე.",
+              "fr": "Je ne peux proposer qu'une longue promenade sans arrêts.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ინფო-მონაცემთა",
+          "ka": "თუ გსურთ, დავწვებით რუკას და დაგიწეროთ შეთავაზებული στάები და საჭირო ინფორმაცია ბავშვთა სავარგულებზე.",
+          "fr": "Si vous voulez, on sortira la carte et on notera les étapes et les informations sur les aires pour enfants."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-018",
+      "title": "ტექნიკური მხარდაჭერა: პაროლის აღდგენა",
+      "scene": "საოფისე თანამშრომელი იძულებულია აღადგინოს დაკარგული სამუშაო ფოტოს შინაგანი სისტემის პაროლი.",
+      "cefr": "B1",
+      "version": 18,
+      "turns": [
+        {
+          "speaker": "თანამშრომელი",
+          "ka": "გამარჯობა, ვერ ვხსნი ჩემს სამსახურის ანგარიშს. მგონია, პაროლი დავიწყებული მაქვს. რა უნდა ვქნა?",
+          "fr": "Bonjour, je n'arrive pas à ouvrir mon compte professionnel. Je crois que j'ai oublié le mot de passe. Que faire ?"
+        },
+        {
+          "speaker": "ტექნიკური მხარდაჭერა",
+          "ka": "გამარჯობა. პირველ რიგში სცადე 'პაროლის დამავიწყების' ფუნქცია. თუ არ გაგიძლიათ, შეგვიძლია შევცვალოთ პაროლი დაშიფვრის მეშვეობით.",
+          "fr": "Bonjour. D'abord essaie la fonction 'mot de passe oublié'. Si ça ne marche pas, on peut réinitialiser via vérification."
+        },
+        {
+          "speaker": "თანამშრომელი",
+          "ka": "სინამდვილეში საკონტაქტო ელფოსტა აღარ მაქვს წვდომის, რადგან პირადი ელფოსტა შეცვალა. შესაძლებელია თუ არა უსაფრთხოების კითხვების გზით აღდგენა?",
+          "fr": "En fait, je n'ai plus accès à l'e-mail de contact ; mon adresse a changé. Peut-on récupérer avec les questions de sécurité ?",
+          "choices": [
+            {
+              "ka": "ჩვენ შეიძლება გამოვიყენოთ დადასტურება ტელეფონზე, რომლითაც სისტემა გაგზავნის კოდს; ეს უსაფრთხოა და სწრაფი.",
+              "fr": "On peut utiliser la vérification par téléphone, le système enverra un code ; c'est sûr et rapide.",
+              "ok": true
+            },
+            {
+              "ka": "ერთადერთი გზა არის ახალი ანგარიშის გახსნა; არაფერი არ არის რომ თქვენი სტატუსი აღდგეს.",
+              "fr": "La seule façon est d'ouvrir un nouveau compte ; il n'y a rien à faire pour rétablir votre statut.",
+              "ok": false
+            },
+            {
+              "ka": "მოდით დაველოდოთ 48 საათს და სისტემა თავისთავად აღადგენს პაროლს.",
+              "fr": "Attendons 48 heures et le système réinitialisera le mot de passe automatiquement.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ტექნიკური მხარდაჭერა",
+          "ka": "გამოგზავნე მოთხოვნა ტელეფონზე ტესტისთვის. როგორც კი მიიღებ კოდს, შეიყვანე და განახლდება შენი პაროლი.",
+          "fr": "J'ai envoyé la demande de vérification par téléphone. Dès que tu reçois le code, entre-le et ton mot de passe sera réinitialisé."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-019",
+      "title": "რესტორანში შეკვეთის ცვლილება",
+      "scene": "პაემანი რესტორანში; სტუმარმა გადაწყვიტა შეცვალოს ძირითადი კერძი ალერგიის გამო.",
+      "cefr": "B1",
+      "version": 19,
+      "turns": [
+        {
+          "speaker": "სტუმარი",
+          "ka": "უკაცრავად, ცოტა ხნის წინ შევუკვეთე კერძი, მაგრამ ახლა მივხვდი, რომ ალერგია მაქვს თხილს. შესაძლებელია თუ არა შეიცვალოს კერძი?",
+          "fr": "Excusez-moi, j'ai commandé un plat il y a peu mais je viens de réaliser que je suis allergique aux noix. Peut-on changer le plat ?"
+        },
+        {
+          "speaker": "მეფრინჩი",
+          "ka": "გასაგებია. შეგვიძლია შემოგთავაზოთ ალტერნატივა, რომელიც არ შეიცავს თხილს. რომელ სოუსს იყენებთ მითითებით?",
+          "fr": "Je comprends. Nous pouvons proposer une alternative sans noix. Quel type de sauce avait-il demandé ?"
+        },
+        {
+          "speaker": "სტუმარი",
+          "ka": "მახსოვს, რომ ქათმის სალათი იყო ტეხილი თხილით და თხილის სოუსით. მნიშვნელოვანია, რომ არაფერი შეიცავდეს კვერცხეულს ან თხილს.",
+          "fr": "Il me semble que c'était une salade de poulet avec noix et une sauce aux noix. Il est important qu'il n'y ait ni oeuf ni noix.",
+          "choices": [
+            {
+              "ka": "ჩვენ შეგვიძლია მოვამზადოთ იგივე სალათი თხილის გარეშე და სოუსი გარედან, რომ დარწმუნდეთ ალერგიისაგან დაცვაში.",
+              "fr": "Nous pouvons préparer la même salade sans noix et avec une sauce séparée, pour assurer la sécurité contre l'allergie.",
+              "ok": false
+            },
+            {
+              "ka": "საუკეთესო იქნება, თუ თქვენ აირჩევთ სხვა კერძი, რომელიც არ შეიცავს თხილს და მზა ხდება უსაფრთხო გზით; მე მივაწერე სარკინზე შენიშვნა.",
+              "fr": "Il vaut mieux que vous choisissiez un autre plat sans noix ; je note la remarque en cuisine.",
+              "ok": true
+            },
+            {
+              "ka": "არ არის პრობლემა, თხილს უბრალოდ ავიღებთ და დანარჩენი ისე დარჩება, როგორც არის.",
+              "fr": "Pas de problème, on enlèvera les noix et le reste restera le même.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მეფრინჩი",
+          "ka": "მოგესალმებით, წაგიყვანთ ახალ მენიუსთან და დაგეხმარებით ნაზი ალტერნატივის არჩევაში.",
+          "fr": "Je vais vous montrer le menu et vous aider à choisir une alternative adaptée."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-020",
+      "title": "გადასახადის შესახებ მოკლე კონსულტაცია",
+      "scene": "თავდაპირველად მცირე ბიზნესის მფლობელი კონსულტაციას ითხოვს ადგილობრივ ბუღალტერთან გადასახადების პირობით განყოფილებაზე.",
+      "cefr": "B1",
+      "version": 20,
+      "turns": [
+        {
+          "speaker": "მეწარმე",
+          "ka": "გამარჯობა, ახლახან დავიწყე პატარა მაღაზია და მსურს გავარკვიო, როგორ და როდის უნდა გადავიხადო გადასახადები.",
+          "fr": "Bonjour, je viens de lancer une petite boutique et je voudrais savoir comment et quand payer les impôts."
+        },
+        {
+          "speaker": "ბუღალტერი",
+          "ka": "გამარჯობა! მთავარი არის რეგისტრაცია და მოხსენების ვადების დაცვა. თქვენი გამორჩეული ბრუნვის მიხედვით შესაძლებელია კვოტირების ტიპი შეიცვალოს.",
+          "fr": "Bonjour ! L'essentiel est l'enregistrement et le respect des délais de déclaration. Selon votre chiffre d'affaires, le régime peut varier."
+        },
+        {
+          "speaker": "მეწარმე",
+          "ka": "მე ვარ სეზონური პროდუქტების გაყიდვით, და ბრუნვა განსხვავდება ზამთარში. როგორ მოვაწყო ანგარიშგება სწორად?",
+          "fr": "Je vends des produits saisonniers et le chiffre d'affaires varie en hiver. Comment organiser la comptabilité correctement ?",
+          "choices": [
+            {
+              "ka": "შეგიძლიათ დაარეგისტრირდეთ როგორც შეთანხმებული გადასახადის მიღებული, ყოველ თვე შეიტანოთ სქემა და გაკეთდეს ერთობლივი ანგარიშგება წლის ბოლოს.",
+              "fr": "Vous pouvez vous enregistrer comme régime convenu, payer chaque mois et faire une déclaration annuelle consolidée.",
+              "ok": true
+            },
+            {
+              "ka": "თქვენ უნდა გადაიხადოთ მხოლოდ ერთჯერადად ყველა დღიური შემოსავალი და არ არის საჭირო აღრიცხვა.",
+              "fr": "Vous devez payer une seule fois tous les revenus journaliers et aucune comptabilité n'est nécessaire.",
+              "ok": false
+            },
+            {
+              "ka": "საუკეთესოა არ ვადასტუროთ არაფერი და ველოდოთ სამსახურის შემოწმებას, მერე დავგეგმავთ.",
+              "fr": "Le mieux est de ne rien déclarer et d'attendre un contrôle, puis on planifiera.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ბუღალტერი",
+          "ka": "დავალდებულებული ვარ დაგეხმაროთ რეგისტრაციაში და ყოველთვიური ანგარიშგებების შევსებაში; შევადგინოთ გრაფიკი და დავიწყოთ დოკუმენტების მომზადება.",
+          "fr": "Je peux vous aider pour l'enregistrement et les déclarations mensuelles ; on établira un calendrier et préparera les documents."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-021",
+      "title": "À la poste",
+      "cefr": "B1",
+      "version": 21,
+      "scene": "Vous envoyez un colis à l'étranger et demandez des options d'assurance.",
+      "turns": [
+        {
+          "speaker": "Agent",
+          "ka": "გამარჯობა! რით შემიძლია დაგეხმაროთ?",
+          "fr": "Bonjour ! En quoi puis-je vous aider ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "მინდა ამ ჩამონათვალიდან უცხო ქვეყანაში საფოსტო ნუსხა გავუგზავნო და შემიძლია თუ არა დაზღვევა დამატებით მივატანო?",
+          "fr": "Je voudrais envoyer ce colis à l'étranger. Est-il possible d'ajouter une assurance ?"
+        },
+        {
+          "speaker": "Agent",
+          "ka": "დიახ, გვაქვს სხვადასხვა საფასური და დაზღვევის დონე. რა მნიშვნელობა აქვს ნაკეთობის ღირებულებას და რამდენად სწრაფად გინდათ მიწოდება?",
+          "fr": "Oui, nous avons plusieurs tarifs et niveaux d'assurance. Quelle est la valeur de l'objet et à quelle rapidité souhaitez-vous la livraison ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "ღირებულება დაახლოებით 200 ევროა და კარგი იქნებოდა თუ ორი დღით ადრე ჩამოვიდეს. რა ვარიანტს შემომთავაზებთ?",
+          "fr": "La valeur est environ 200 euros et j'aimerais une livraison en deux jours. Que proposez-vous ?",
+          "choices": [
+            {
+              "ka": "მოგვიწევს სწრაფი საერთაშორისო სერვისი დაზღვევით, რომლის საფასურიც ოდნავ მაღალია, მაგრამ მასწავლებელი არ დააზიანებს პაკეტს.",
+              "fr": "Nous devons prendre un service international express avec assurance, légèrement plus cher, mais il protège bien le colis.",
+              "ok": false
+            },
+            {
+              "ka": "სწრაფ ექსპრეს-გზავნა დაზღვევის ვარიანტით შემოგთავაზებთ — ფასიც მეტია და დაზღვევის ლიმიტიც შენთან შეესაბამება; ესაა საუკეთესო არჩევანი.",
+              "fr": "Je vous propose un envoi express assuré — le prix est plus élevé et le plafond d'assurance convient à votre cas ; c'est le meilleur choix.",
+              "ok": true
+            },
+            {
+              "ka": "ზოგადი საერთაშორისო ფოსტით დაზღვევა არ იძლევა სრულ დაცვის იმ ობიექტისთვის, რომლის ღირებულებაც 200 ევროსაა; თუ არ გინდა გადაახდინო, შეიძლება ნორმალური ვარიანტი.",
+              "fr": "La poste standard n'offre pas une couverture complète pour un objet de 200€, si vous ne voulez pas payer davantage, il y a l'option normale.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Agent",
+          "ka": "თუ ექსპრესს აირჩევთ, ჩამოგაწერთ ტრეკინგ-ნომერს და დაზღვევის პირობებს — ყველაფერი ელამაზედ იქნება აღწერილი.",
+          "fr": "Si vous choisissez l'express, je vous donnerai le numéro de suivi et les conditions d'assurance — tout sera bien expliqué."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-022",
+      "title": "Demande d'avis médical",
+      "cefr": "B1",
+      "version": 22,
+      "scene": "Vous décrivez des symptômes au médecin et demandez un traitement approprié.",
+      "turns": [
+        {
+          "speaker": "Médecin",
+          "ka": "სალამი. რისი ჩივილი გაქვთ დღეს?",
+          "fr": "Bonjour. Quels sont vos symptômes aujourd'hui ?"
+        },
+        {
+          "speaker": "Patient",
+          "ka": "ხუთი დღეა მაქვს მუდმივი ტემპერატურა, ყელში ეჭორავება და ხოლმე მაწუხებს დაღლილობა. როგორ მოვიქცე?",
+          "fr": "J'ai eu de la fièvre pendant cinq jours, mal à la gorge et fatigue. Que devrais-je faire ?"
+        },
+        {
+          "speaker": "Médecin",
+          "ka": "შეგიძლია გრძნობები უფრო დაწვრილებით მითხრა — ტემპერატურა რამდენია, აქვს თუ არა გამონაყარი ან ხველა?",
+          "fr": "Pouvez-vous préciser — quelle est la température, avez-vous des éruptions ou de la toux ?"
+        },
+        {
+          "speaker": "Patient",
+          "ka": "არ არსებობს გამონაყარი, მაგრამ ზოგჯერ მსიამოვნებს მშრალი ხველა. ტემპერატურა კი ჩვეულებრივ 38,2°C-მდე ადის. რას მირჩევთ?",
+          "fr": "Pas d'éruptions, mais parfois une toux sèche. La température atteint 38,2°C. Que me conseillez-vous ?",
+          "choices": [
+            {
+              "ka": "პირველი გირჩევთ სიმპტომატურ მკურნალობას — უამრავი სითხე, ლორწოების დასვენება და შემდეგ ანტიბიოტიკი.",
+              "fr": "Je recommande d'abord un traitement symptomatique — beaucoup de liquides, repos des muqueuses, puis un antibiotique.",
+              "ok": false
+            },
+            {
+              "ka": "პირველი ეტაპი არის ანტიგენული ან ტესტი და სიმპტომების მონიტორინგი; თუ ამ შემთხვევაში არ შემცირდება, მაშინ გადავინიშნოთ წამალი ან დამატებითი კვლევა.",
+              "fr": "D'abord un test antigénique ou un examen et surveillance des symptômes ; si cela ne s'améliore pas, on prescrira un médicament ou des examens complémentaires.",
+              "ok": true
+            },
+            {
+              "ka": "სჯობს დაუყოვნებლივ ძლიერი ანტიბიოტიკი სჯარდეს, რადგან მაღალი სიცხე ინდიკატორია ინფექციისა.",
+              "fr": "Il vaut mieux prescrire immédiatement un antibiotique fort, car la fièvre élevée indique une infection.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Médecin",
+          "ka": "ოქეი, მე დაგიწერთ ტესტის მითითებას და რამდენიმე დღის შემდეგ კვლავ დაგიკავშირდებით შედეგების მიხედვით.",
+          "fr": "D'accord, je vais vous prescrire un test et je vous recontacterai dans quelques jours selon les résultats."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-023",
+      "title": "Réclamation dans un hôtel",
+      "cefr": "B1",
+      "version": 23,
+      "scene": "Vous signalez un problème dans votre chambre et demandez une solution.",
+      "turns": [
+        {
+          "speaker": "Réceptionniste",
+          "ka": "როგორ დაგეხმარებით? რას ეძებთ დღეს?",
+          "fr": "Comment puis-je vous aider ? Que recherchez-vous aujourd'hui ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "ჩამოვედი ჩემს ნომერში და აქ კონდინციონერი არ მუშაობს, აგრეთვე საწოლზე ლაქებია. მინდა შეცვალოთ ოთახი ან სხვა გამოსავალი.",
+          "fr": "Je suis arrivé dans ma chambre et la climatisation ne marche pas, de plus il y a des taches sur le lit. J'aimerais changer de chambre ou trouver une autre solution."
+        },
+        {
+          "speaker": "Réceptionniste",
+          "ka": "მაპატიეთ არაკომფორტისთვის. შემიძლია შემოგთავაზოთ ოთახის ცვლილება ან ტექნიკოსის გამოძახება. რომელ ვარიანტს ანიჭებთ უპირატესობას?",
+          "fr": "Désolé pour le désagrément. Je peux vous proposer un changement de chambre ou appeler un technicien. Quelle option préférez-vous ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "მე მსგავსი პირობებით ვერ დავრჩები. რა უზრუნველყოფა გაქვთ, რომ ახალი ნომერი უკეთესი იქნება?",
+          "fr": "Je ne peux pas rester dans ces conditions. Quelles garanties avez-vous que la nouvelle chambre sera meilleure ?",
+          "choices": [
+            {
+              "ka": "შეგვიძლია დაუყოვნებლივ გაცვალოთ ოთახი, მოგვიწევს შინაგანად შემოწმება და გარანტია, რომ ყველაფერი გამართულია; ასევე, შეგიძლიათ კომპენსაციაც მიიღოთ.",
+              "fr": "Nous pouvons immédiatement changer votre chambre, elle sera vérifiée en interne et nous garantissons que tout fonctionnera ; vous pouvez aussi recevoir une compensation.",
+              "ok": true
+            },
+            {
+              "ka": "სჯობს დაველოდოთ ტექნიკოსს და თუ არ დაარეგულირდება პრობლემა, შესაძლოა სხვა სასტუმროში გადაგიყვანოთ, თუმცა ეს პროცესი დაგვეყოს.",
+              "fr": "Il vaut mieux attendre le technicien et si le problème persiste, on pourrait vous transférer dans un autre hôtel, mais cela prendra du temps.",
+              "ok": false
+            },
+            {
+              "ka": "სამწუხაროდ, ახლა ვერ შევცვლით ოთახს და უნდა დარჩეთ იმავე ნომერში საათნახევარი, სანამ ყველაფერი მოწესრიგდება.",
+              "fr": "Malheureusement, nous ne pouvons pas changer la chambre maintenant et vous devrez rester dans la même chambre pendant une heure et demie.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Réceptionniste",
+          "ka": "გმადლობთ მოთმინებისთვის — თუ გნებავთ, ახლავე დაგიკავშირდებით, როცა ახალი ოთახი მზად იქნება.",
+          "fr": "Merci de votre patience — si vous voulez, je vous contacte dès que la nouvelle chambre est prête."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-024",
+      "title": "Organiser une réunion de travail",
+      "cefr": "B1",
+      "version": 24,
+      "scene": "Vous planifiez une réunion et discutez du programme et de la durée.",
+      "turns": [
+        {
+          "speaker": "Chef de projet",
+          "ka": "მეგობრებო, ჩვენს გუნდს უნდა დაგეგმოს შეხვედრა მომავალი პროექტის შესახებ. ვინ აქვს თავისუფალი დრო დღეიდან სამ დღეში?",
+          "fr": "Bonjour à tous, notre équipe doit planifier une réunion pour le projet à venir. Qui est disponible dans trois jours ?"
+        },
+        {
+          "speaker": "Collègue A",
+          "ka": "მე გუშინ დამტკიცებული ჩარჩო მაქვს, მაგრამ სამი დღის შემდეგ ადრე საღამოს თავისუფალი ვარ; რა დრო მოგწონთ?",
+          "fr": "J'ai un délai à respecter, mais dans trois jours je suis libre en début de soirée ; quelle heure vous convient ?"
+        },
+        {
+          "speaker": "Chef de projet",
+          "ka": "ყველა უნდა მოვინახულოთ ძირითადი საკითხები: დრო დასჭირდეს დაახლოებით ერთი საათი, თანაც საჭირო იქნება პრეზენტაციის სანახავად კომპიუტერი და პროექტორი.",
+          "fr": "Nous devons voir les points principaux : la durée nécessaire est environ une heure, et il faudra un ordinateur et un vidéoprojecteur pour la présentation."
+        },
+        {
+          "speaker": "Collègue B",
+          "ka": "თუ შეხვედრა ერთ საათზე ნაკლები იქნება, შეიძლება გვინდა მოკლე შეხვედრა საღამოს 18:00-ზე — ყველამ თუ დამიდასტურეთ?",
+          "fr": "Si la réunion dure moins d'une heure, on pourrait se voir brièvement à 18h — pouvez-vous tous confirmer ?",
+          "choices": [
+            {
+              "ka": "მე გირჩევთ 17:00-თვის, რადგან 18:00-ზე სხვა მოვალეობები მაქვს; შეუძლია გუნდს ადრე დაასრულოს?",
+              "fr": "Je propose 17h, car j'ai d'autres engagements à 18h ; l'équipe peut finir plus tôt ?",
+              "ok": false
+            },
+            {
+              "ka": "18:00 ჩემთვის მოსახერხებელია; ერთი საათი საკმარისი იქნება ძირითადი თემების გასავლელად და პრეზენტაციის დასასრულებლად.",
+              "fr": "18h me convient ; une heure suffira pour couvrir les points principaux et terminer la présentation.",
+              "ok": true
+            },
+            {
+              "ka": "შეიძლება შეხვედრაც დილას გავმართოთ, მაგრამ მთავარია ყველა იყოს მოწყვეტილი და ჰქონდეს პრეზენტაციის დამუშავებული მასალები.",
+              "fr": "On peut organiser la réunion le matin, mais l'important est que tout le monde soit disponible et ait préparé les documents.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Chef de projet",
+          "ka": "ხარობს გაგზავნილი ოფიციალური მოწვევა და ოთახი 18:00-ზე დაჯავშნულია. წინასწარ მადლობა მომზადებისთვის.",
+          "fr": "L'invitation officielle a été envoyée et la salle est réservée à 18h. Merci d'avance pour la préparation."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-025",
+      "title": "Au marché local",
+      "cefr": "B1",
+      "version": 25,
+      "scene": "Vous achetez des légumes et négociez le prix avec le vendeur.",
+      "turns": [
+        {
+          "speaker": "Vendeur",
+          "ka": "დილამშვიდობისა! რამდენი კილოგრამი გვინდა?",
+          "fr": "Bonjour ! Combien de kilos voulez-vous ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "მსურს ორი კილოგრამი პომიდორი და ერთ კგ კიტრი. ფასები როგორია?",
+          "fr": "Je voudrais 2 kg de tomates et 1 kg de concombres. Quels sont les prix ?"
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "პომიდორი 3 ლარი კილო, კიტრი 2 ლარი. ჯამში გამოდის 8 ლარი. დაგიმატოთ თუ ულტრას მოლაპარაკება გსურთ?",
+          "fr": "Les tomates sont à 3 lari/kg, les concombres 2 lari. Total 8 lari. Voulez-vous que je vous fasse un geste commercial ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "თუ ნაყიდი ხილი ახლავე გავვარჯიშე, შეძლებთ ფასის დაბალანსებას? რა შემოთავაზება გაქვთ?",
+          "fr": "Si j'achète maintenant, pouvez-vous ajuster le prix ? Quelle offre proposez-vous ?",
+          "choices": [
+            {
+              "ka": "მოგცემთ ერთი კუპონი მომავალ ყიდვაზე ან დავაკეცოთ 0.50 ლარი ფასიდან; ყოველი ვარიანტი დაგეხმარებათ.",
+              "fr": "Je peux vous donner un bon pour votre prochain achat ou retirer 0,50 lari du prix ; chaque option aide.",
+              "ok": false
+            },
+            {
+              "ka": "მოგცემთ 0.50 ლარის ფასდაკლებას და უფასო პარკს, ასე ჯამი გახდება 7.50 ლარი — ეს ჩემი შემოთავაზებაა.",
+              "fr": "Je vous fais une remise de 0,50 lari et un sac gratuit, donc le total sera 7,50 lari — voici mon offre.",
+              "ok": true
+            },
+            {
+              "ka": "სამწუხაროდ ფასი ფიქსირებულია და ვერ შევამცირებ; თუ გსურთ, შეგიძლიათ სხვა დუქანში ჰკითხოთ.",
+              "fr": "Désolé, le prix est fixe et je ne peux pas le baisser ; si vous voulez, vous pouvez demander dans un autre magasin.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Vendeur",
+          "ka": "კარგი, აქვე სალარო მარჯვნივაა — შეგიძლიათ გადახდა დროულად განახორციელოთ.",
+          "fr": "Très bien, la caisse est à droite — vous pouvez payer immédiatement."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-026",
+      "title": "Inscription à un cours",
+      "cefr": "B1",
+      "version": 26,
+      "scene": "Vous demandez des informations sur un cours du soir et les modalités d'inscription.",
+      "turns": [
+        {
+          "speaker": "Secrétaire",
+          "ka": "ვინელი კურსით ინტერესდებით? შემიძლია დაგეხმაროთ რეგისტრაციაში.",
+          "fr": "Quel cours vous intéresse ? Je peux vous aider pour l'inscription."
+        },
+        {
+          "speaker": "Étudiant",
+          "ka": "ვინაობითა და ვერტიკალურად საუბრობს სასწავლო ჯგუფი? არის თუ არა საღამოს ჯგუფი უფროსებისთვის?",
+          "fr": "Y a-t-il un groupe du soir pour adultes ?"
+        },
+        {
+          "speaker": "Secrétaire",
+          "ka": "დიახ, გვაქვს საღამოს ჯგუფი სამშაბათსა და ხუთშაბათს 18:30-დან 20:00-მდე. საფასური კვარტალშია გადახდადი. გსურთ რეგისტრაციის ფორმა?",
+          "fr": "Oui, il y a un groupe le mardi et jeudi de 18h30 à 20h. Les frais se paient par trimestre. Voulez-vous le formulaire d'inscription ?"
+        },
+        {
+          "speaker": "Étudiant",
+          "ka": "მითხარით, საჭიროა თუ არა წინასწარი ტესტი ჩემი დონისთვის და რა საბუთები მომაქვს?",
+          "fr": "Dites-moi, y a-t-il un test préalable pour mon niveau et quels documents dois-je apporter ?",
+          "choices": [
+            {
+              "ka": "არანაირი ტესტი არ საჭიროა, უბრალოდ ფორმა და ფოტო — მსურდო გირჩევთ პირდაპირ შევდოთ ჯგუფში.",
+              "fr": "Aucun test nécessaire, juste le formulaire et une photo — je vous conseille de vous inscrire directement.",
+              "ok": false
+            },
+            {
+              "ka": "სავარაუდოდ შეგვიძლია მოკლე შესაფასებელი საუბარი გავლა ადგილზე; რეგისტრაციისას ითხოვენ პირადობის მოწმობას და შევსებულ ფორმას.",
+              "fr": "Nous ferons probablement un bref entretien d'évaluation sur place ; pour l'inscription on demande une carte d'identité et le formulaire rempli.",
+              "ok": true
+            },
+            {
+              "ka": "საჭიროა სერიოზული წერითი გამოცდა და ორი რეკომენდაცია; მხოლოდ ამის შემდგომ შეგვიძლია ჩაწეროთ ჯგუფში.",
+              "fr": "Il faut un examen écrit rigoureux et deux recommandations ; seulement après cela vous pouvez être inscrit.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Secrétaire",
+          "ka": "თუ გსურთ, დღესვე შეგვიძლია მოკლე საუბარი და მაშინვე შეგეწერათ ჯგუფში.",
+          "fr": "Si vous voulez, nous pouvons faire l'entretien bref aujourd'hui et vous inscrire immédiatement."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-027",
+      "title": "Réparer une voiture",
+      "cefr": "B1",
+      "version": 27,
+      "scene": "Vous apportez la voiture au garage et décrivez un bruit étrange lors du freinage.",
+      "turns": [
+        {
+          "speaker": "Mécanicien",
+          "ka": "რას ყვირი და ასმენთ მანქანაში? რა პრობლემა გაქვთ?",
+          "fr": "Que se passe-t-il avec votre voiture ? Quel est le problème ?"
+        },
+        {
+          "speaker": "Conducteur",
+          "ka": "როცა საჭეს ვაჭერ და ბრეიკს ვაჭერ, ვისმენ ხრინწიან ხმას წინა მხარედან; თითქოს უხეში ხახუნია.",
+          "fr": "Quand je freine, j'entends un grincement venant de l'avant ; comme un frottement rude."
+        },
+        {
+          "speaker": "Mécanicien",
+          "ka": "ეს შეიძლება დისკების, კალიდრების ან ხელსაწყოს ცვეთის ნიშანი იყოს. ჩათვალეთ თუ არა ბოლო თავიდან შემოწმება?",
+          "fr": "Cela peut venir des disques, des étriers ou de l'usure des plaquettes. Voulez-vous une inspection complète ?"
+        },
+        {
+          "speaker": "Conducteur",
+          "ka": "მსურს ყველაზე სწრაფი და უსაფრთხო მწყობრიდან გამოსწორება. რამდენი დროიჭირდება ეს და რა ფასი მოგველის?",
+          "fr": "Je veux une réparation rapide et sûre. Combien de temps cela prendra et quel sera le prix ?",
+          "choices": [
+            {
+              "ka": "მარტივად შევამოწმებთ და საჭიროების შემთხვევაში გავცვალოთ წამლები — დრო იქნება დაახლოებით ორი საათი და ღირებულება 40-120 ლარს შორის.",
+              "fr": "Nous vérifierons et remplacerons les pièces si nécessaire — environ deux heures et le coût entre 40 et 120 lari.",
+              "ok": true
+            },
+            {
+              "ka": "ეს აუცილებლად მთელი დღით შეგჭრით, რადგან ნაწილების შეკვეთა სჭირდება უცხო ქვეყნიდან და იქნება ძვირი — მინიმუმ 400 ლარი.",
+              "fr": "Cela nécessitera une journée entière car des pièces doivent être commandées de l'étranger et ce sera cher — au moins 400 lari.",
+              "ok": false
+            },
+            {
+              "ka": "დაველოდოთ ხვალისთვის, რადგან დღეს ნორმალური მუშაობის დრო აღარ გვაქვს; არ შეგვიძლია შეფასების გაკეთება.",
+              "fr": "Attendez jusqu'à demain, car nous n'avons pas le temps de travail aujourd'hui ; nous ne pouvons pas évaluer.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Mécanicien",
+          "ka": "თუ დაგვეთანხმებით, დაუყოვნებლივ დავიწყებთ შემოწმებას და დაგიკავშირდებით შედეგით.",
+          "fr": "Si vous acceptez, nous commencerons l'inspection tout de suite et vous tiendrons informé du résultat."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-028",
+      "title": "Invitation à un anniversaire",
+      "cefr": "B1",
+      "version": 28,
+      "scene": "Vous invitez un(e) ami(e) à une fête et proposez des thèmes et horaires.",
+      "turns": [
+        {
+          "speaker": "Hôte",
+          "ka": "გამარჯობა! აუცილებლად უნდა მოხვიდე ჩემს დაბადების დღეზე შაბათს; თან წავამოვიტან სუპრიზს.",
+          "fr": "Salut ! Tu dois venir à ma fête d'anniversaire samedi ; je préparerai une surprise."
+        },
+        {
+          "speaker": "Ami",
+          "ka": "მადლობა მოწვევისთვის! რა დრო დაიწყება და აქვს თუ არა ღონისძიებას სპეციფიკური თემა?",
+          "fr": "Merci pour l'invitation ! À quelle heure ça commence et y a-t-il un thème ?"
+        },
+        {
+          "speaker": "Hôte",
+          "ka": "დაწყება 19:00-ზე, თემაა 'ინტერნაციონალური სტილი' — შეიძლება ყველამ მოიტანოს რეცეპტი საკუთარი ქვეყნისგან ან ტანსაცმელი შესაბამისი.",
+          "fr": "Ça commence à 19h, le thème est 'style international' — chacun peut apporter une recette de son pays ou un vêtement adapté."
+        },
+        {
+          "speaker": "Ami",
+          "ka": "ძალიან საინტერესოა. თუ გვსურს განსაკუთრებული კერძის მოტანა, ხომ შეგვიძლია ადრე მოგიმზადოთ რაღაც? მინდა დარწმუნდე სივრცე საკმარისია.",
+          "fr": "C'est très intéressant. Si nous voulons apporter un plat spécial, pouvons-nous le préparer à l'avance ? Je veux m'assurer que l'espace suffira.",
+          "choices": [
+            {
+              "ka": "დიახ, შეგიძლია მოიტანო ყველასთან შეთანხმებით, მე ვუპასუხებ სივრცის მოცულობას და მაგიდას მოვუსამრთლებთ.",
+              "fr": "Oui, tu peux apporter en coordination avec les autres ; je m'occuperai de l'espace et de la table.",
+              "ok": true
+            },
+            {
+              "ka": "სჯობს არაფრის მოტანა — მე უკვე ყველაფერი მაქვს, და არ მინდა არეულობა მაგიდაზე.",
+              "fr": "Il vaut mieux ne rien apporter — j'ai tout déjà et je ne veux pas de désordre sur la table.",
+              "ok": false
+            },
+            {
+              "ka": "მოწვევა მხოლოდ კოლეგებისთვისაა, არ შეიძლება ოჯახის წევრები და სტუმრები; ამიტომ არ გირჩევთ მოტანას.",
+              "fr": "L'invitation est réservée aux collègues uniquement, pas aux membres de la famille ; donc je ne conseille pas d'apporter quoi que ce soit.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Hôte",
+          "ka": "მ Great, მაშინ შეგხვდებით შაბათს 19:00-ზე — მოგვიყევით თუ რომელ კერძს მოამზადებთ.",
+          "fr": "Super, alors on se voit samedi à 19h — dites-moi quel plat vous préparerez."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-029",
+      "title": "Réserver un billet de train",
+      "cefr": "B1",
+      "version": 29,
+      "scene": "Vous appelez pour réserver un billet et demandez des réductions possibles.",
+      "turns": [
+        {
+          "speaker": "Agent",
+          "ka": "პრივეტ! როგორ დაგეხმაროთ ბილეთთან დაკავშირებით?",
+          "fr": "Bonjour ! Comment puis-je vous aider pour le billet ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "მინდა ორმხრივი ბილეთი თბილისში-ბათუმი, გასვლა მომდევნო კვირა ორშაბათს. აქვს თუ არა რაიმე ფასდაკლება სტუდენტებისთვის ან წინასწარი ყიდვისას?",
+          "fr": "Je veux un aller-retour Tbilissi-Batoumi pour lundi prochain. Y a-t-il des réductions pour étudiants ou en achetant à l'avance ?"
+        },
+        {
+          "speaker": "Agent",
+          "ka": "გვაქვს სტუდენტთა ფასდაკლება 10%-ით, წინასწარ შეძენა ასევე უზრუნველყოფს ადგილზე საუკეთესო ადგილს და ზოგჯერ დამატებით 5%-ს. საჭიროა სტუდენტის მოწმობა?",
+          "fr": "Nous avons une réduction étudiante de 10%, l'achat anticipé garantit de bonnes places et parfois 5% en plus. Avez-vous une carte étudiante ?"
+        },
+        {
+          "speaker": "Client",
+          "ka": "მე მაქვს საერთაშორისო სტუდ کارتალი, მაგრამ ვიქნები გზაჯვარედინი გაფართოებით. როგორ გავაკეთო დაჯავშნა და რა დოკუმენტები უნდა მივუტანო?",
+          "fr": "J'ai une carte étudiante internationale, mais je voyagerai avec des bagages supplémentaires. Comment réserver et quels documents dois-je présenter ?",
+          "choices": [
+            {
+              "ka": "გზაზე მოსვლამდე უნდა შეავსოთ ფორმა, წარადგინოთ სტუდენტის ბარათი და პასპორტი; დიდი ბარგისთვის დამატებითი საფასურია.",
+              "fr": "Avant le départ, remplissez le formulaire et présentez la carte étudiante et le passeport ; bagages supplémentaires entraînent un supplément.",
+              "ok": true
+            },
+            {
+              "ka": "სტუდენტებისთვის არ გვაქვს შეღავათი, მხოლოდ პენსიონერებსა და სამხედროებს; ბარგი უფასოა.",
+              "fr": "Il n'y a pas de réduction pour les étudiants, seulement pour les retraités et militaires ; les bagages sont gratuits.",
+              "ok": false
+            },
+            {
+              "ka": "მხოლოდ ონლაინ გადახდა ამართლებს; დოკუმენტები ადგილზე არ საჭიროა, საკმარისი იქნება ელექტრონული ბარათი.",
+              "fr": "Seul le paiement en ligne est accepté ; pas besoin de documents sur place, la carte électronique suffit.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Agent",
+          "ka": "შევქმნი დაჯავშნას და გამოგიგზავნით რიცხვებს თუ გსურთ. გმადლობთ.",
+          "fr": "Je vais créer la réservation et vous enverrai les détails si vous le souhaitez. Merci."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-b1-gen-030",
+      "title": "Visite d'appartement",
+      "cefr": "B1",
+      "version": 30,
+      "scene": "Vous visitez un appartement en location et posez des questions sur le contrat et les charges.",
+      "turns": [
+        {
+          "speaker": "Propriétaire",
+          "ka": "სალამი! მოდით, გიჩვენებთ ბინას. რა კითხვები გაქვთ დასაწყისისთვის?",
+          "fr": "Bonjour ! Venez, je vous montre l'appartement. Quelles questions avez-vous au départ ?"
+        },
+        {
+          "speaker": "Locataire potentiel",
+          "ka": "დილა მშვიდობისა. მაინტერესებს როგორც გარიგების პირობები, ისე თუ შედის თუ არა კომუნალური გადასახადები და რა უძრავი ქონების მდგომარეობაა.",
+          "fr": "Bonjour. Je voudrais connaître les conditions du contrat, si les charges sont incluses et l'état général du bien."
+        },
+        {
+          "speaker": "Propriétaire",
+          "ka": "აქ შედის წყალი და გამთენიის მომსახურება, თუმცა ელექტროენერგია და გაზი ცალკე იხდება. სავარაუდოდ ვეგრძნობინებთ ხელშეკრულების პირობებს ერთი წლით, დააკონკრეტებთ გარანტიას?",
+          "fr": "L'eau et l'entretien des parties communes sont inclus, mais l'électricité et le gaz sont payés séparément. Le contrat est généralement d'un an ; souhaitez-vous discuter d'un dépôt de garantie ?"
+        },
+        {
+          "speaker": "Locataire potentiel",
+          "ka": "დიახ, მაინტერესებს შესაძლო ინვესტიცია და ქირის პერიოდიული ზრდის წესები; ასევე რამდენი თვე იქნება საჭირო დარიცხვისთვის.",
+          "fr": "Oui, je voudrais savoir les règles d'augmentation du loyer, le montant du dépôt et combien de mois de garantie sont nécessaires.",
+          "choices": [
+            {
+              "ka": "დეპოზიტი არის ორ თვესა შესაბამისი ქირა, ყოველწლიური ზრდა შეიძლება ინდექსით გამოჩნდეს; ეს ჩვეულებრივი პრაქტიკაა.",
+              "fr": "Le dépôt correspond à deux mois de loyer, l'augmentation annuelle peut être indexée ; c'est la pratique habituelle.",
+              "ok": true
+            },
+            {
+              "ka": "ეს ბინა გამოდის არავაობრივი ხელშეკრულებით — დეპოზიტი არ არის და ფასიც მუდმივად უცვლელია.",
+              "fr": "Cet appartement est loué sans contrat formel — pas de dépôt et le prix ne change jamais.",
+              "ok": false
+            },
+            {
+              "ka": "დეპოზიტი გადაგიწერთ საჭიროების მიხედვით, მაგრამ ყოველდღიური გადახდა საკმარისია; ხელშეკრულება ერთთვიანი იქნება.",
+              "fr": "Nous demanderons un dépôt au besoin, mais un paiement quotidien suffit ; le contrat sera d'un mois.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Propriétaire",
+          "ka": "თუ დაეთანხებით, შემდეგ შევადგინოთ ხელშეკრულება წერილობით და ვიკითხოთ ყველა დეტალი, რათა არ დარჩეს გაუგებრობა.",
+          "fr": "Si vous êtes d'accord, nous rédigerons ensuite le contrat par écrit et vérifierons tous les détails pour éviter tout malentendu."
+        }
+      ]
     }
   ]
 }

@@ -150,6 +150,456 @@
       "explanation": "Verbe de demande 'მომაწოდე' attend un objet courant comme 'წყალი' = eau. Les distracteurs sont des objets plausibles mais moins naturels dans une demande courte.",
       "cefr": "A1",
       "version": 10
+    },
+    {
+      "id": "reading_cloze-a1-gen-011",
+      "version": 11,
+      "cefr": "A1",
+      "sentence": "შენ ___ გქვია?",
+      "answer": "როგორ",
+      "options": [
+        "რატომ",
+        "როდის",
+        "რამდენი",
+        "როგორ"
+      ],
+      "translation": "Comment t'appelles-tu ?",
+      "explanation": "En géorgien, la question 'Comment t'appelles-tu ?' se forme avec 'როგორ გქვია?'. Les autres mots sont d'autres mots interrogatifs ('pourquoi','quand','combien')."
+    },
+    {
+      "id": "reading_cloze-a1-gen-012",
+      "version": 12,
+      "cefr": "A1",
+      "sentence": "დღეს მე ___ ვმუშაობ.",
+      "answer": "არ",
+      "options": [
+        "მეთავ",
+        "არ",
+        "გად",
+        "ჯერ"
+      ],
+      "translation": "Aujourd'hui je ne travaille pas.",
+      "explanation": "La négation en géorgien se fait avec la particule 'არ' avant le verbe. Les autres options ne forment pas la négation."
+    },
+    {
+      "id": "reading_cloze-a1-gen-013",
+      "version": 13,
+      "cefr": "A1",
+      "sentence": "ეს ჩემი ___აა.",
+      "answer": "დედა",
+      "options": [
+        "მამა",
+        "დედა",
+        "ძმა",
+        "სკოლა"
+      ],
+      "translation": "Ceci est ma mère.",
+      "explanation": "Pour dire 'Ceci est ma mère' on utilise 'ეს ჩემი დედაა'. Les autres options ('père','frère','école') ne conviennent pas au contexte possessif familial demandé."
+    },
+    {
+      "id": "reading_cloze-a1-gen-014",
+      "version": 14,
+      "cefr": "A1",
+      "sentence": "მე მაქვს ___ წიგნი.",
+      "answer": "ერთი",
+      "options": [
+        "ორი",
+        "ერთი",
+        "ნახევარი",
+        "ყოველდღე"
+      ],
+      "translation": "J'ai un livre.",
+      "explanation": "Le déterminant numéral 'ერთი' signifie 'un'. Les autres propositions sont 'deux','demi','tous les jours' et ne conviennent pas ici."
+    },
+    {
+      "id": "reading_cloze-a1-gen-015",
+      "version": 15,
+      "cefr": "A1",
+      "sentence": "საქართველოს დედაქალაქი არის ___.",
+      "answer": "თბილისი",
+      "options": [
+        "ბათუმი",
+        "თბილისი",
+        "ქუთაისი",
+        "რუსთავი"
+      ],
+      "translation": "La capitale de la Géorgie est Tbilissi.",
+      "explanation": "La capitale de la Géorgie est 'თბილისი' (Tbilissi). Les autres villes sont vraies mais ne sont pas la capitale."
+    },
+    {
+      "id": "reading_cloze-a1-gen-016",
+      "version": 16,
+      "cefr": "A1",
+      "sentence": "მან ___ კექსი იყიდა.",
+      "answer": "ერთი",
+      "options": [
+        "ერთი",
+        "ნახევარი",
+        "უფრო",
+        "სულ"
+      ],
+      "translation": "Il/elle a acheté un gâteau.",
+      "explanation": "'მან ერთი კექსი იყიდა' = 'Il/elle a acheté un gâteau'. Les autres mots ('demi','plus','entièrement') ne conviennent pas pour indiquer 'un'."
+    },
+    {
+      "id": "reading_cloze-a1-gen-017",
+      "version": 17,
+      "cefr": "A1",
+      "sentence": "ლიმონი არის ___.",
+      "answer": "მჟავე",
+      "options": [
+        "ტკბილი",
+        "მჟავე",
+        "მარილიანი",
+        "ცივი"
+      ],
+      "translation": "Le citron est acide.",
+      "explanation": "Le goût caractéristique du citron est 'მჟავე' (acide). Les autres adjectifs ('sucré','salé','froid') sont plausibles mais incorrects ici."
+    },
+    {
+      "id": "reading_cloze-a1-gen-018",
+      "version": 18,
+      "cefr": "A1",
+      "sentence": "პური არის ___.",
+      "answer": "საჭმელი",
+      "options": [
+        "საჭმელი",
+        "სახლი",
+        "ყედა",
+        "სკოლა"
+      ],
+      "translation": "Le pain est de la nourriture.",
+      "explanation": "'პური არის საჭმელი' signifie 'Le pain est de la nourriture'. Les autres options ('maison','chaise','école') ne conviennent pas sémantiquement."
+    },
+    {
+      "id": "reading_cloze-a1-gen-019",
+      "version": 19,
+      "cefr": "A1",
+      "sentence": "ჩემი ძმა ___ 20 წლისაა.",
+      "answer": "ახლა",
+      "options": [
+        "წინ",
+        "ახლა",
+        "გუშინ",
+        "ვერსად"
+      ],
+      "translation": "Mon frère a maintenant 20 ans.",
+      "explanation": "'ახლა' signifie 'maintenant' et convient avec l'âge ('ახლა 20 წლისაა'). Les autres adverbes ('avant','hier','nulle part') sont incorrects contextuellement."
+    },
+    {
+      "id": "reading_cloze-a1-gen-020",
+      "version": 20,
+      "cefr": "A1",
+      "sentence": "მე ___ ვსწავლობ ქართულს.",
+      "answer": "ყოველდღე",
+      "options": [
+        "ყოველდღე",
+        "გაგვიანებით",
+        "არასდროს",
+        "ცხენოზე"
+      ],
+      "translation": "J'apprends le géorgien tous les jours.",
+      "explanation": "'ყოველდღე' signifie 'tous les jours' et convient naturellement avec 'ვსწავლობ'. Les autres adverbes ('plus tard','jamais','sur un cheval'—absurde) sont incorrects."
+    },
+    {
+      "id": "reading_cloze-a1-gen-031",
+      "sentence": "მე ___ ექიმი.",
+      "answer": "ვარ",
+      "options": [
+        "ვერ",
+        "ვარ",
+        "იყო",
+        "გაქვს"
+      ],
+      "translation": "Je suis médecin.",
+      "explanation": "'ვარ' არის პირველ პირის ერთეულში ყოფნის ზმნა (to be) ქართულში: 'მე ვარ' = 'je suis'. დანარჩენი ფორმები შესაბამისად არ შეესაბამებიან პირველ პირს ან შემთხვევას.",
+      "cefr": "A1",
+      "version": 31
+    },
+    {
+      "id": "reading_cloze-a1-gen-032",
+      "sentence": "ეს წიგნი ___ მაგიდაზეა.",
+      "answer": "არის",
+      "options": [
+        "არიან",
+        "არის",
+        "ვაქვთ",
+        "იყო"
+      ],
+      "translation": "Ce livre est sur la table.",
+      "explanation": "საერდავად third person singular-ის ფორმა 'არის' გამოიყენება ერთი საგნის მდებარეობის აღწერისთვის: 'ეს წიგნი არის მაგიდაზე'.",
+      "cefr": "A1",
+      "version": 32
+    },
+    {
+      "id": "reading_cloze-a1-gen-033",
+      "sentence": "გთხოვ, მომეცი ___ ძაღლისთვის.",
+      "answer": "საჭმელი",
+      "options": [
+        "საჭმელი",
+        "უსაფრთხოება",
+        "ნათურა",
+        "საპონი"
+      ],
+      "translation": "S'il te plaît, donne-moi de la nourriture pour le chien.",
+      "explanation": "სიტუაცია მიუთითებს საკვაზე ('საჭმელი') ძაღლისთვის. სხვა სიტყვები (უსაფრთხოება, ნათურა, საპონი) არ მიიღებიან როგორ 'საჭმლის' მნიშვნელობით.",
+      "cefr": "A1",
+      "version": 33
+    },
+    {
+      "id": "reading_cloze-a1-gen-034",
+      "sentence": "სად არის სკოლა? — სკოლა ___ ქუჩაზეა.",
+      "answer": "მომავალ",
+      "options": [
+        "მთავარ",
+        "მომავალ",
+        "პირველ",
+        "შეიარაღ"
+      ],
+      "translation": "Où est l'école ? — L'école est dans la rue principale.",
+      "explanation": "ქართული 'მთვარი' შეცდომაა; სწორი= 'მთავარ ქუჩაზეა' — 'მთავარ' ნიშნავს principal (rue principale). სხვა არჩევანი ('მომავალ','პირველ','შეიარაღ') არ შესაბამისობს კონტექსტს.",
+      "cefr": "A1",
+      "version": 34
+    },
+    {
+      "id": "reading_cloze-a1-gen-035",
+      "sentence": "ის ___ სწავლობს ინგლისურს.",
+      "answer": "დღეს",
+      "options": [
+        "დღეს",
+        "წინ",
+        "სწრაფად",
+        "ინსტრუქცია"
+      ],
+      "translation": "Aujourd'hui, il/elle étudie l'anglais.",
+      "explanation": "სიტყვა 'დღეს' ('aujourd'hui') შეესაბამება 'ის ___ სწავლობს ინგლისურს'–ის კონტექსტს. 'წინ' და 'სწრაფად' შეცვლიან მნიშვნელობას ან არ შეესაბამებიან გრამატიკას.",
+      "cefr": "A1",
+      "version": 35
+    },
+    {
+      "id": "reading_cloze-a1-gen-036",
+      "sentence": "საკითხს ვკითხავ ___ კლასში.",
+      "answer": "შუაზე",
+      "options": [
+        "შუაზე",
+        "საღამო",
+        "ავტომობილში",
+        "კუთხეში"
+      ],
+      "translation": "Je poserai la question au milieu de la classe.",
+      "explanation": "'კლასში'—სთან შესაბამისობაში 'შუაზე' ('au milieu') ნიშნავს ადგილზე within the classroom; სხვა არჩევანი ('საღამო','ავტომობილში','კუთხეში') არ მოგონსონ კონტექსტს.",
+      "cefr": "A1",
+      "version": 36
+    },
+    {
+      "id": "reading_cloze-a1-gen-037",
+      "sentence": "ჩვენ ___ ყველასთან ვცხოვრობთ.",
+      "answer": "ერთად",
+      "options": [
+        "ერთად",
+        "მარტო",
+        "ხშირად",
+        "ახლოს"
+      ],
+      "translation": "Nous vivons tous ensemble.",
+      "explanation": "'ერთად' ნიშნავს 'ensemble' და სწორედ ეს სიტყვა შეესაბამება წინადადების მნიშვნელობას. 'მარტო' და 'ხშირად' არ გაძლევენ იგივე მნიშვნელობას.",
+      "cefr": "A1",
+      "version": 37
+    },
+    {
+      "id": "reading_cloze-a1-gen-038",
+      "sentence": "ისინი ითამაშებენ ბაღში ___ ბავშვებს.",
+      "answer": "სხვა",
+      "options": [
+        "სხვა",
+        "დიდი",
+        "ნაწილი",
+        "ახალი"
+      ],
+      "translation": "Ils joueront dans le jardin avec les autres enfants.",
+      "explanation": "'სხვა ბავშვებს' ნიშნავს 'les autres enfants' და ერთად იწერება კონტექსტთან. სხვა სიტყვები ('დიდი','ნაწილი','ახალი') არ ქმნიან 'les autres' მნიშვნელობას.",
+      "cefr": "A1",
+      "version": 38
+    },
+    {
+      "id": "reading_cloze-a1-gen-039",
+      "sentence": "დილით მე ვჭამ ___ რძესთან.",
+      "answer": "ყავას",
+      "options": [
+        "ყავას",
+        "პურით",
+        "საპონს",
+        "ხელს"
+      ],
+      "translation": "Le matin je bois/consomme du café avec du lait.",
+      "explanation": "ფრაზა 'ვჭამ ___ რძესთან' ნიშნავდა 'je prends ___ avec du lait' — საჭირო სიტყვა 'ყავას' (café). 'პურით' ('avec du pain') ან 'საპონს' ('savon') არ არის სენსორული და არ შეესაბამება საზედამხედველო კონტექსტს.",
+      "cefr": "A1",
+      "version": 39
+    },
+    {
+      "id": "reading_cloze-a1-gen-040",
+      "sentence": "დღეს კლასი ___ ორისაა.",
+      "answer": "ორი",
+      "options": [
+        "ორი",
+        "მეოთხე",
+        "სხვა",
+        "პირველი"
+      ],
+      "translation": "Aujourd'hui la classe est à deux heures.",
+      "explanation": "'ხიფ two' — 'ორთავე' შერჩევის საჭიროება: 'კლასი ორი საათია' ნიშნავს 'la classe est à deux heures'; სწორი ფორმა 'ორი'. სხვა სიტყვები არ აღნიშნავენ '2'.",
+      "cefr": "A1",
+      "version": 40
+    },
+    {
+      "id": "reading_cloze-a1-gen-021",
+      "sentence": "მე ___ მარიამი.",
+      "answer": "ვარ",
+      "options": [
+        "ვარ",
+        "არის",
+        "ვიქნები",
+        "იყო"
+      ],
+      "translation": "Je suis Mariam.",
+      "explanation": "Verbe 'être' à la 1re personne du singulier au présent : 'მე ვარ'.",
+      "cefr": "A1",
+      "version": 21
+    },
+    {
+      "id": "reading_cloze-a1-gen-022",
+      "sentence": "ეს ___ დიდი სახლი.",
+      "answer": "არის",
+      "options": [
+        "არის",
+        "ვარ",
+        "იყო",
+        "ვიყავი"
+      ],
+      "translation": "C'est une grande maison.",
+      "explanation": "Troisième personne du singulier au présent pour 'être' : 'ეს არის'.",
+      "cefr": "A1",
+      "version": 22
+    },
+    {
+      "id": "reading_cloze-a1-gen-023",
+      "sentence": "ეს ბავშვი ___ სკოლაშია.",
+      "answer": "ახლა",
+      "options": [
+        "ახლა",
+        "დღეს",
+        "ხვალ",
+        "ყოველთვის"
+      ],
+      "translation": "Cet enfant est à l'école maintenant.",
+      "explanation": "Le mot indiquant le moment présent ici est 'ახლა' (maintenant) ; les autres adverbes changeraient le sens temporel.",
+      "cefr": "A1",
+      "version": 23
+    },
+    {
+      "id": "reading_cloze-a1-gen-024",
+      "sentence": "მე ___ სწჯულები მაქვს.",
+      "answer": "ორი",
+      "options": [
+        "ორი",
+        "ერთი",
+        "ხუთი",
+        "ათი"
+      ],
+      "translation": "J'ai deux stylos.",
+      "explanation": "Le nombre 'ორი' (deux) s'accorde avec 'სიწმულები' (stylos) dans la phrase ; les autres nombres donneraient une quantité différente.",
+      "cefr": "A1",
+      "version": 24
+    },
+    {
+      "id": "reading_cloze-a1-gen-025",
+      "sentence": "ის ___ საქართველოს დედაქალაქია.",
+      "answer": "თბილისი",
+      "options": [
+        "თბილისი",
+        "ქუთაისი",
+        "ბათუმი",
+        "რუსთავი"
+      ],
+      "translation": "Tbilissi est la capitale de la Géorgie.",
+      "explanation": "La capitale de la Géorgie est 'თბილისი' ; les autres villes sont incorrectes pour 'capitale'.",
+      "cefr": "A1",
+      "version": 25
+    },
+    {
+      "id": "reading_cloze-a1-gen-026",
+      "sentence": "მე ___ ვჭამე პურის წუხელ.",
+      "answer": "რამდენიმე",
+      "options": [
+        "რამდენიმე",
+        "ერთი",
+        "ახალი",
+        "დიდი"
+      ],
+      "translation": "J'ai mangé quelques morceaux de pain hier soir.",
+      "explanation": "'რამდენიმე' signifie 'quelques' et convient ici ; 'ახალი' ou 'დიდი' ne donnent pas la quantité demandée.",
+      "cefr": "A1",
+      "version": 26
+    },
+    {
+      "id": "reading_cloze-a1-gen-027",
+      "sentence": "თემა ___ მივდივართ მაღაზიაში.",
+      "answer": "დღეს",
+      "options": [
+        "დღეს",
+        "ხელს",
+        "ადრე",
+        "იქნებ"
+      ],
+      "translation": "Aujourd'hui nous allons au magasin.",
+      "explanation": "L'adverbe temporel correct pour 'aujourd'hui' est 'დღეს' ; les autres mots ne conviennent pas pour marquer le temps.",
+      "cefr": "A1",
+      "version": 27
+    },
+    {
+      "id": "reading_cloze-a1-gen-028",
+      "sentence": "ის ბიჭები სკოლაში ___.",
+      "answer": "სპორტდამთავრებულები",
+      "options": [
+        "სპორტდამთავრებულები",
+        "სტუმრები",
+        "მოსწავლეები",
+        "ეუდგებიან"
+      ],
+      "translation": "Ces garçons sont des diplômés en sport à l'école.",
+      "explanation": "Le mot formé 'სპორტდამთავრებულები' (diplômés en sport) est requis ici selon le contexte donné ; les autres choix ne correspondent pas au sens demandé.",
+      "cefr": "A1",
+      "version": 28
+    },
+    {
+      "id": "reading_cloze-a1-gen-029",
+      "sentence": "მე ___ ცოცხალი ვსწავლობ ქართულს.",
+      "answer": "ყოველდღე",
+      "options": [
+        "ყოველდღე",
+        "რამდენიმე",
+        "უკვე",
+        "პატარა"
+      ],
+      "translation": "J'apprends le géorgien tous les jours.",
+      "explanation": "L'adverbe de fréquence adéquat est 'ყოველდღე' (tous les jours) ; les autres mots ne signifient pas la fréquence quotidienne.",
+      "cefr": "A1",
+      "version": 29
+    },
+    {
+      "id": "reading_cloze-a1-gen-030",
+      "sentence": "მან ___ ყავა მოსცა სტუმარს.",
+      "answer": "ცივი",
+      "options": [
+        "ცივი",
+        "თბილი",
+        "ცხელიც",
+        "ტკბილი"
+      ],
+      "translation": "Il/elle a servi du café froid à l'invité.",
+      "explanation": "L'adjectif 'ცივი' (froid) complète la phrase ; les autres adjectifs changeraient la qualité du café et ne correspondent pas au contexte proposé.",
+      "cefr": "A1",
+      "version": 30
     }
   ]
 }

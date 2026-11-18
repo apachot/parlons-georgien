@@ -120,6 +120,357 @@
         "მან თქვა, რომ თუკი მატარებელი არ დაგვიანდება, ის ხვალ მოვა."
       ],
       "note": "Discours rapporté avec « მან თქვა, რომ... » et condition « თუ/თუკი ». « დაგვიანდება » = « n'est pas en retard » au futur."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-011",
+      "cefr": "A2",
+      "version": 11,
+      "fr": "Présente-toi en une phrase.",
+      "ka": "გთხოვ, ერთი წინადადებით წარმოადგინე თავი.",
+      "answers": [
+        "გთხოვ, ერთი წინადადებით წარმოადგინე თავი."
+      ],
+      "note": "Formulation impérative courante pour demander une brève présentation."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-012",
+      "cefr": "A2",
+      "version": 12,
+      "fr": "Où se trouve la gare, s'il vous plaît ?",
+      "ka": "გთხოვთ, მითხარით, სად არის სადგური?",
+      "answers": [
+        "გთხოვთ, მითხარით, სად არის სადგური?",
+        "გთხოვთ, მითხარით სად არის სადგური?"
+      ],
+      "note": "Formule polie avec გთხოვთ + მითხარით ; la virgule n'est pas obligatoire en géorgien."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-013",
+      "cefr": "A2",
+      "version": 13,
+      "fr": "Je prends un café sans sucre.",
+      "ka": "მე ყავას ვსვამ בלי შაქრის.",
+      "answers": [
+        "მე ყავას ვსვამ בלי შაქრის.",
+        "მე ვსვამ ყავას בלי შაქრის."
+      ],
+      "note": "Deux ordres des mots sont possibles en géorgien pour le verbe et l'objet."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-014",
+      "cefr": "A2",
+      "version": 14,
+      "fr": "Nous avons visité le musée hier.",
+      "ka": "გუშინ მუზეუმს ვესტუმრეთ.",
+      "answers": [
+        "გუშინ მუზეუმს ვესტუმრეთ.",
+        "მუზეუმს ვესტუმრეთ გუშინ."
+      ],
+      "note": "Placement temporel variable : გუშინ peut précéder ou suivre la phrase."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-015",
+      "cefr": "A2",
+      "version": 15,
+      "fr": "Il faut acheter du pain pour ce soir.",
+      "ka": "დღეს საღამოსთვის პური უნდა ვიყიდოთ.",
+      "answers": [
+        "დღეს საღამოსთვის პური უნდა ვიყიდოთ.",
+        "პური უნდა ვიყიდოთ დღეს საღამოსთვის."
+      ],
+      "note": "Construction impersonnelle avec უნდა + verbe à l'infinitif."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-016",
+      "cefr": "A2",
+      "version": 16,
+      "fr": "Mon frère cadet étudie l'informatique à l'université.",
+      "ka": "ჩემი უმცროსი ძმა უნივერსიტეტში ინფორმატიკას სწავლობს.",
+      "answers": [
+        "ჩემი უმცროსი ძმა უნივერსიტეტში ინფორმატიკას სწავლობს."
+      ],
+      "note": "Vocabulaire familier pour «informatique» : ინფორმატიკა."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-017",
+      "cefr": "A2",
+      "version": 17,
+      "fr": "Peux-tu m'aider avec mes devoirs ce soir ?",
+      "ka": "შეგიძლია დღეს საღამოს დამეხმარო საშინაო დავალებების გაკეთებაში?",
+      "answers": [
+        "შეგიძლი დღეს საღამოს დამეხმარო საშინაო დავალებების კეთებაში?",
+        "შეგიძლია დღეს საღამოს დამეხმარო საშინაო დავალებების გაკეთებაში?"
+      ],
+      "note": "Forme interrogative avec შეგიძლია ; deux variantes orthographiques possibles pour გაკეთებაში/კეთებაში (თითქმის identiques mais აქცენტი)."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-018",
+      "cefr": "A2",
+      "version": 18,
+      "fr": "Ils vont souvent au cinéma le week-end.",
+      "ka": "შაბათ-კვირას ისინი ხშირად დადიან კინოში.",
+      "answers": [
+        "შაბათ-კვირას ისინი ხშირად დადიან კინოში.",
+        "ისინი ხშირად დადიან კინოში შაბათ-კვირას."
+      ],
+      "note": "Ordre des éléments temporels et fréquentiels variable."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-019",
+      "cefr": "A2",
+      "version": 19,
+      "fr": "La ville est plus calme en été qu'en hiver.",
+      "ka": "ქალაქი ზაფხულში უფრო მშვიდია ვიდრე ზამთარში.",
+      "answers": [
+        "ქალაქი ზაფხულში უფრო მშვიდია ვიდრე ზამთარში.",
+        "ქალაქი უფრო მშვიდია ზაფხულში ვიდრე ზამთარში."
+      ],
+      "note": "Comparatif simple avec უფრო ... ვიდრე."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-020",
+      "cefr": "A2",
+      "version": 20,
+      "fr": "Je ne comprends pas ce mot ; peux-tu le répéter, s'il te plaît ?",
+      "ka": "მე არ მესმის ეს სიტყვა. გთხოვ, გაიმეორე.",
+      "answers": [
+        "მე არ მესმის ეს სიტყვა. გთხოვ, გაიმეორე.",
+        "მე არ მესმის ეს სიტყვა. შეგიძლია გაიმეორო, გთხოვ?"
+      ],
+      "note": "Deux formulations polies pour demander la répétition ; ponctuation stylisée en deux phrases."
+    },
+    {
+      "id": "dictation_sentences-a2-gen-031",
+      "fr": "Je vais au marché demain matin.",
+      "ka": "ხვალ დილით ბაზარში მივდივარ.",
+      "answers": [
+        "ხვალ დილით ბაზარში მივდივარ."
+      ],
+      "note": "Futur proche exprimé par გამართულობის ფორმა ‘მივდივარ’ avec indication temporelle.",
+      "cefr": "A2",
+      "version": 31
+    },
+    {
+      "id": "dictation_sentences-a2-gen-032",
+      "fr": "Elle a acheté du pain et du lait.",
+      "ka": "ის შეიძინა პური და რძე.",
+      "answers": [
+        "ის შეიძინა პური და რძე."
+      ],
+      "note": "Passé simple courant en géorgien (perfekt-like) : შეიძინა = elle a acheté.",
+      "cefr": "A2",
+      "version": 32
+    },
+    {
+      "id": "dictation_sentences-a2-gen-033",
+      "fr": "Nous habitons près de la rivière.",
+      "ka": "ჩვენ ვცხოვრობთ მდინარის کنارებთან.",
+      "answers": [
+        "ჩვენ ვცხოვრობთ მდინარის کنارებთან.",
+        "ჩვენ ვცხოვრობთ მდინარეის გვერდით."
+      ],
+      "note": "Expression de la proximité : «მდინარის کنارებთან» ou plus courant «მდინარის გვერდით» (deux variantes acceptées).",
+      "cefr": "A2",
+      "version": 33
+    },
+    {
+      "id": "dictation_sentences-a2-gen-034",
+      "fr": "Peux-tu fermer la fenêtre, s'il te plaît ?",
+      "ka": "შენ შეგიძლია ფანჯარა დახურო, გთხოვ?",
+      "answers": [
+        "შენ შეგიძლია ფანჯარა დახურო, გთხოვ?",
+        "გთხოვ, ფანჯარა დახურე.",
+        "შეგიძლია ფანჯარა დახურო, გთხოვ?"
+      ],
+      "note": "Formes interrogatives et impératives polies : plusieurs formulations courantes.",
+      "cefr": "A2",
+      "version": 34
+    },
+    {
+      "id": "dictation_sentences-a2-gen-035",
+      "fr": "Le bus arrive à huit heures.",
+      "ka": "ავტობუსი მივა რვაზე.",
+      "answers": [
+        "ავტობუსი მივა რვაზე.",
+        "ავტობუსი ჩამოვა რვაზე."
+      ],
+      "note": "Verbes pour l'arrivée : მივა ou ჩამოვა sont acceptables selon contexte.",
+      "cefr": "A2",
+      "version": 35
+    },
+    {
+      "id": "dictation_sentences-a2-gen-036",
+      "fr": "Ils mangent souvent au restaurant le week-end.",
+      "ka": "ისინი ხშირად ჭამენ რესტორანში შაბათ–კვირას.",
+      "answers": [
+        "ისინი ხშირად ჭამენ რესტორანში შაბათ–კვირას."
+      ],
+      "note": "Adverbe de fréquence et complément temporel combinés; orthographe avec trait-d'union courant pour 'შაბათ–კვირა'.",
+      "cefr": "A2",
+      "version": 36
+    },
+    {
+      "id": "dictation_sentences-a2-gen-037",
+      "fr": "J'ai besoin d'aide pour porter ces sacs.",
+      "ka": "მჭირდება დახმარება ამ ჩანთების წაღებაში.",
+      "answers": [
+        "მჭირდება დახმარება ამ ჩანთების წაღებაში.",
+        "მე მჭირდება დახმარება ამ ჩანთების წაღებაში."
+      ],
+      "note": "Construction impersonnelle 'მჭირდება' + complément au gérondif; avec ou sans pronom sujet 'მე'.",
+      "cefr": "A2",
+      "version": 37
+    },
+    {
+      "id": "dictation_sentences-a2-gen-038",
+      "fr": "Où est la pharmacie la plus proche ?",
+      "ka": "სადაა უახლოესი აფთიაქი?",
+      "answers": [
+        "სადაა უახლოესი აფთიაქი?",
+        "რომელია უახლოესი აფთიაქი?"
+      ],
+      "note": "Questions sur emplacement : deux formulations naturelles.",
+      "cefr": "A2",
+      "version": 38
+    },
+    {
+      "id": "dictation_sentences-a2-gen-039",
+      "fr": "Il fait très chaud aujourd'hui.",
+      "ka": "დღეს ძალიან ცხელა.",
+      "answers": [
+        "დღეს ძალიან ცხელა."
+      ],
+      "note": "Expression météorologique impersonnelle 'ცხელა'.",
+      "cefr": "A2",
+      "version": 39
+    },
+    {
+      "id": "dictation_sentences-a2-gen-040",
+      "fr": "Je préfère le thé au café.",
+      "ka": "მე ჩაის მსჯელობის ხარისხი არ მჭირდება.",
+      "answers": [
+        "მე უფრო მირჩევნია ჩაი ყავას.",
+        "მირჩევნია ჩაი ყავას.",
+        "მე უფრო მირჩევნია ჩაი ყავას."
+      ],
+      "note": "Formule de préférence : 'მირჩევნია X Y-ს' ou avec 'უფრო' pour insistance.",
+      "cefr": "A2",
+      "version": 40
+    },
+    {
+      "id": "dictation_sentences-a2-gen-021",
+      "fr": "J'ai acheté un café et une pâtisserie.",
+      "ka": "მე ვიყიდე ყავა და ფუნთუშეული.",
+      "answers": [
+        "მე ვიყიდე ყავა და ფუნთუშეული."
+      ],
+      "note": "Passé simple familier: 'ვიყიდე' = j'ai acheté. 'ფუნთუშეული' = pâtisserie.",
+      "cefr": "A2",
+      "version": 21
+    },
+    {
+      "id": "dictation_sentences-a2-gen-022",
+      "fr": "Demain, je vais au marché avec ma mère.",
+      "ka": "ხვალ დედასთან ერთად ბაზარში წავალ.",
+      "answers": [
+        "ხვალ დედასთან ერთად ბაზარში წავალ.",
+        "ხვალ დედასთან ერთად ბაზარში მივალ."
+      ],
+      "note": "Deux formulations acceptées pour 'je vais' : 'წავალ' (j'irai/je vais) et 'მივალ' (j'irai/je vais).",
+      "cefr": "A2",
+      "version": 22
+    },
+    {
+      "id": "dictation_sentences-a2-gen-023",
+      "fr": "Il y a beaucoup de livres sur la table.",
+      "ka": "მაგიდაზე ბევრი წიგნია.",
+      "answers": [
+        "მაგიდაზე ბევრი წიგნია."
+      ],
+      "note": "Structure impersonnelle 'ძირი' pour exprimer 'il y a'. 'ბევრი' = beaucoup.",
+      "cefr": "A2",
+      "version": 23
+    },
+    {
+      "id": "dictation_sentences-a2-gen-024",
+      "fr": "Peux-tu fermer la fenêtre, s'il te plaît ?",
+      "ka": "გთხოვ, ფანჯარა დახურე, თუ შეიძლება.",
+      "answers": [
+        "გთხოვ, ფანჯარა დახურე, თუ შესაძლებელია.",
+        "გთხოვ, ფანჯარა დახურე, თუ შეიძლება."
+      ],
+      "note": "Impératif poli 'გთხოვ' + variante pour 'si possible' ('თუ შეიძლება' / 'თუ შესაძლებელია').",
+      "cefr": "A2",
+      "version": 24
+    },
+    {
+      "id": "dictation_sentences-a2-gen-025",
+      "fr": "Nous avons déjà vu ce film ensemble.",
+      "ka": "ჩვენ უკვე ვნახეთ ეს ფილმი ერთად.",
+      "answers": [
+        "ჩვენ უკვე ვნახეთ ეს ფილმი ერთად."
+      ],
+      "note": "'უკვე ვნახეთ' = nous avons déjà vu. Ordre des mots naturel en géorgien.",
+      "cefr": "A2",
+      "version": 25
+    },
+    {
+      "id": "dictation_sentences-a2-gen-026",
+      "fr": "Mon frère étudie l'informatique à l'université.",
+      "ka": "ჩემი братი უნივერსიტეტში ინფორმატიკას სწავლობს.",
+      "answers": [
+        "ჩემი ძმა უნივერსიტეტში informatikas სწავლობს.",
+        "ჩემი ძმა უნივერსიტეტში ინფორმატიკას სწავლობს."
+      ],
+      "note": "Formulation correcte : 'ჩემი ძმა ... სწავლობს'. 'ინფორმატიკა' au génitif 'ინფორმატიკას'.",
+      "cefr": "A2",
+      "version": 26
+    },
+    {
+      "id": "dictation_sentences-a2-gen-027",
+      "fr": "Le train part à huit heures du matin.",
+      "ka": "მატარებელი მიდის დილის რვაზე.",
+      "answers": [
+        "მატარებელი მიდის დილის რვაზე.",
+        "მატარებელი მიდის დილის რვის საათზე."
+      ],
+      "note": "Expressions horaires : 'დილა' + 'რვა/რვის საათი'. Les deux variantes sont acceptables.",
+      "cefr": "A2",
+      "version": 27
+    },
+    {
+      "id": "dictation_sentences-a2-gen-028",
+      "fr": "J'aime écouter de la musique en travaillant.",
+      "ka": "მიყვარს მუშაობის დროს მუსიკის მოსმენა.",
+      "answers": [
+        "მიყვარს მუშაობის დროს მუსიკის მოსმენა."
+      ],
+      "note": "Structure préférée pour 'aimer + infinitif' : 'მიყვარს ... მოსმენა'.",
+      "cefr": "A2",
+      "version": 28
+    },
+    {
+      "id": "dictation_sentences-a2-gen-029",
+      "fr": "Ils n'ont pas compris la question.",
+      "ka": "ისინი კითხვას ვერ გაიგეს.",
+      "answers": [
+        "ისინი კითხვას ვერ გაიგეს."
+      ],
+      "note": "Négation avec 'ვერ' pour dire 'ne pas pouvoir/ ne pas comprendre'.",
+      "cefr": "A2",
+      "version": 29
+    },
+    {
+      "id": "dictation_sentences-a2-gen-030",
+      "fr": "Si tu veux, je peux t'aider demain.",
+      "ka": "თუ გინდა, ხვალ დაგეხმარები.",
+      "answers": [
+        "თუ გინდა, ხვალ დაგეხმარები.",
+        "თუ გინდა, დავეხმარები ხვალ."
+      ],
+      "note": "Conditionnel simple avec 'თუ გინდა' + futur 'დაგეხმარები'.",
+      "cefr": "A2",
+      "version": 30
     }
   ]
 }

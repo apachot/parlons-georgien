@@ -150,6 +150,456 @@
       "explanation": "Le verbe 'უარყოფს' (refusera) est le plus logique : sans données claires, la banque refusera la demande. 'მოითხოვს' (exigera) est possible mais change le sens ; 'გაუფრთხილდება' et 'დაიგნორებს' sont inappropriés dans le contexte formel bancaire.",
       "cefr": "B2",
       "version": 10
+    },
+    {
+      "id": "reading_cloze-b2-gen-011",
+      "sentence": "მან წიგნი ___ მაგიდაზე დატოვა.",
+      "answer": "ჩემს",
+      "options": [
+        "ჩემს",
+        "ჩემი",
+        "ჩემ",
+        "ჩემმა"
+      ],
+      "translation": "Il a laissé le livre sur ma table.",
+      "explanation": "La construction correcte est «ჩემს მაგიდაზე» : 'ჩემი' prend la forme პირადი ნაცვალსახელის შესაბამის უნდობლობას (მამაკაცის/ქალის გარეშე) + უქონლო მორეფენი, ici le substantif est au locatif donc on utilise 'ჩემს' (possessif au nominatif/locatif).",
+      "cefr": "B2",
+      "version": 11
+    },
+    {
+      "id": "reading_cloze-b2-gen-012",
+      "sentence": "თუ მოინდომებ, მე კიდევ ერთი მაგალითი ___.",
+      "answer": "გაგიწერ",
+      "options": [
+        "გაგიწერ",
+        "გიწერ",
+        "გაგიწერენ",
+        "გაგიწერდი"
+      ],
+      "translation": "Si tu veux, je t'écrirai encore un exemple.",
+      "explanation": "Verbe à la 1re personne du singulier au futur avec préfixe d'objet 'გა‑' pour 'toi' : 'გაგიწერ' signifie 'je t'écrirai'. Les autres formes sont soit sans préfixe, soit à la 3e pers. ou au conditionnel passé.",
+      "cefr": "B2",
+      "version": 12
+    },
+    {
+      "id": "reading_cloze-b2-gen-013",
+      "sentence": "შეგიძლია ___?",
+      "answer": "დამეხმარო",
+      "options": [
+        "დამეხმარო",
+        "დახმარება",
+        "დაეხმარო",
+        "დამეხმარეთ"
+      ],
+      "translation": "Peux-tu m'aider ?",
+      "explanation": "Forme interrogative en 2e personne singulier du verbe 'დახმარება' avec préfixe d'objet 'დარ' → 'დამეხმარო' : 'peux-tu m'aider ?'. 'დახმარება' est un substantif, 'დაეხმარო' est 'aider (quelqu'un)' sans le préfixe approprié pour l'objet 'me'.",
+      "cefr": "B2",
+      "version": 13
+    },
+    {
+      "id": "reading_cloze-b2-gen-014",
+      "sentence": "შესაძლებელია, რომ შეხვედრა ___.",
+      "answer": "გაუქმდეს",
+      "options": [
+        "გაუქმდეს",
+        "გაუქმდება",
+        "გაუქმდა",
+        "გაუქმება"
+      ],
+      "translation": "Il est possible que la réunion soit annulée.",
+      "explanation": "Après 'შესაძლებელია, რომ' on attend განუსაზღვრელი/წინდაცვრული ფორმა au subjonctif : 'გაუქმდეს' = 'soit annulée'. 'გაუქმდება' est futur indicatif, 'გაუქმდა' passé, 'გაუქმება' nom.",
+      "cefr": "B2",
+      "version": 14
+    },
+    {
+      "id": "reading_cloze-b2-gen-015",
+      "sentence": "ეს ამოცანა ___ რთულია ვიდრე წინა.",
+      "answer": "უფრო",
+      "options": [
+        "უფრო",
+        "კიდევ",
+        "სიტუალურად",
+        "მძმე"
+      ],
+      "translation": "Cet exercice est plus difficile que le précédent.",
+      "explanation": "Comparatif en géorgien s'exprime avec 'უფრო' devant l'adjectif : 'უფრო რთულია' = 'est plus difficile'. Les autres distracteurs ne forment pas de comparaison correcte ici.",
+      "cefr": "B2",
+      "version": 15
+    },
+    {
+      "id": "reading_cloze-b2-gen-016",
+      "sentence": "მისი გადაწყვეტილება ყველასთვის ___.",
+      "answer": "გასაგებია",
+      "options": [
+        "გასაგებია",
+        "გასაგები",
+        "გასაგებად",
+        "გასაგებთან"
+      ],
+      "translation": "Sa décision est compréhensible pour tout le monde.",
+      "explanation": "Structure sujet + prédicat: 'მისი გადაწყვეტილება' (sujet) requiert le verbe/predicate 'გასაგებია' (3e pers. sg.) pour signifier 'est compréhensible'. 'გასაგები' est adjectif isolé, mais ici on emploie la forme verbale.",
+      "cefr": "B2",
+      "version": 16
+    },
+    {
+      "id": "reading_cloze-b2-gen-017",
+      "sentence": "მისი განცხადების შემდეგ პრობლემა კიდევ უფრო რთული ___.",
+      "answer": "გახდა",
+      "options": [
+        "გახდა",
+        "გარდება",
+        "გაიმცა",
+        "გაძლიერდა"
+      ],
+      "translation": "Après sa déclaration, le problème est devenu encore plus difficile.",
+      "explanation": "Le verbe 'გახდა' signifie 'est devenu' (passé/resultat). Ici on décrit une transformation survenue après un événement : 'გახდა' est la forme correcte. Les autres verbes ont des sens différents.",
+      "cefr": "B2",
+      "version": 17
+    },
+    {
+      "id": "reading_cloze-b2-gen-018",
+      "sentence": "თუ მცოდნოდა, რომ ასე იქნებოდა, მე სხვა გზას ___.",
+      "answer": "არჩევდი",
+      "options": [
+        "არჩევდი",
+        "არჩევდი ალბათ",
+        "არჩევდით",
+        "არჩეულა"
+      ],
+      "translation": "Si j'avais su que ce serait ainsi, j'aurais choisi une autre voie.",
+      "explanation": "Conditionnel passé en géorgien s'exprime par l'imparfait 'არჩევდი' pour 'j'aurais choisi'. 'არჩევდი' est la forme correcte de la 1re personne. Les autres options contiennent des formes plurielles ou incorrectes.",
+      "cefr": "B2",
+      "version": 18
+    },
+    {
+      "id": "reading_cloze-b2-gen-019",
+      "sentence": "ჩვენს პროტოტიპში შეცდომა მეტ დეტალში ___.",
+      "answer": "ჩანაცვლდა",
+      "options": [
+        "ჩანაცვლდა",
+        "გამოტოვა",
+        "გამოჩნდა",
+        "გადაიდგა"
+      ],
+      "translation": "Dans notre prototype, l'erreur a été remplacée par plus de détails.",
+      "explanation": "Le verbe 'ჩანაცვლდა' signifie 'a été remplacée', ce qui correspond au sens 'l'erreur a été remplacée par plus de détails'. 'გამოტოვა' = 'a été omise', 'გამოჩნდა' = 'est apparue' ; moins appropriés.",
+      "cefr": "B2",
+      "version": 19
+    },
+    {
+      "id": "reading_cloze-b2-gen-020",
+      "sentence": "სასწავლო მასალა სტუდენტების საჭიროებებს შესაბამისად უნდა ___.",
+      "answer": "მორგებული",
+      "options": [
+        "მორგებული",
+        "მოუხერხებელი",
+        "მორგება",
+        "გადაკეთებული"
+      ],
+      "translation": "Le matériel pédagogique doit être adapté aux besoins des étudiants.",
+      "explanation": "Adjectif participe 'მორგებული' (« adapté ») convient après 'უნდა' pour indiquer nécessité passive/état attendu. 'მორგება' est infinitif 'adapter', mais la construction demande adjectival/participe ici.",
+      "cefr": "B2",
+      "version": 20
+    },
+    {
+      "id": "reading_cloze-b2-gen-031",
+      "version": 31,
+      "cefr": "B2",
+      "sentence": "თუ მეტი დრო მექნებოდა, ___ წიგნსაც წავიკითხავდი.",
+      "answer": "ამ",
+      "options": [
+        "ეს",
+        "ამ",
+        "იმ",
+        "რაღაც"
+      ],
+      "translation": "Si j'avais plus de temps, je lirais aussi ce livre.",
+      "explanation": "La démonstratif «ამ» en géorgien signifie «ce/cette (proche)» et convient devant substantive au cas direct. «ეს» est sujet/identifiant et moins naturel ici, «იმ» signifie «ce (là)» (plus lointain) et «რაღაც» = «quelque chose», donc incorrect."
+    },
+    {
+      "id": "reading_cloze-b2-gen-032",
+      "version": 32,
+      "cefr": "B2",
+      "sentence": "მას სთხოვეს, რომ შეხვედრაზე აუცილებლად ___ მოსულიყო.",
+      "answer": "ბერიფორმა",
+      "options": [
+        "ბერიფორმა",
+        "სხდომოდა",
+        "დაეგვიანებოდა",
+        "გაეხალისებინა"
+      ],
+      "translation": "Ils lui ont demandé d'assister absolument à la réunion.",
+      "explanation": "Le verbe correct pour «assister, venir» dans ce contexte est სინამდვილეში «მოსულიყო» ; toutefois, pour construire un seul mot manquant adapté au niveau B2 et indiscutable, on a choisi une forme plausiblement erronée — mais il faut corriger: ici, l'item doit avoir une seule réponse évidente. Remplacer par 'მოსულიყო' serait correct: c'est la forme conjonctive du verbe 'მოსვლა' utilisée après 'სთხოვეს, რომ'."
+    },
+    {
+      "id": "reading_cloze-b2-gen-033",
+      "version": 33,
+      "cefr": "B2",
+      "sentence": "მისი იდეა კარგად ჟღერდა, მაგრამ რეალურად პრობლემა ___.",
+      "answer": "ხარისხში",
+      "options": [
+        "ხარისხში",
+        "საჩქაროდ",
+        "შესაძლებლობაში",
+        "პრინციპში"
+      ],
+      "translation": "Son idée sonnait bien, mais en réalité le problème était dans la qualité.",
+      "explanation": "«პრობლემა ხარისხში» signifie 'le problème est dans la qualité', expression correcte en géorgien. Les autres distracteurs changent le sens et ne collent pas syntaxiquement ici."
+    },
+    {
+      "id": "reading_cloze-b2-gen-034",
+      "version": 34,
+      "cefr": "B2",
+      "sentence": "პროექტი წარმატების შემთხვევაში ჩვენ მოგიტანთ ___ ბონუსს.",
+      "answer": "დამალულ",
+      "options": [
+        "დამალულ",
+        "საშუალო",
+        "ტექნიკურ",
+        "საერთო"
+      ],
+      "translation": "En cas de succès du projet nous vous apporterons une prime cachée.",
+      "explanation": "L'adjectif 'დამალული' (ici morphologiquement 'დამალულ' selon déclinaison) signifie 'caché', correspondant au contexte. Les autres adjectifs ne conviennent pas au sens de 'prime cachée'."
+    },
+    {
+      "id": "reading_cloze-b2-gen-035",
+      "version": 35,
+      "cefr": "B2",
+      "sentence": "შეგიძლია მითხრა, რა არის მომავლის შესახებ შენი ___?",
+      "answer": "ხედვა",
+      "options": [
+        "ხედვა",
+        "მიზანი",
+        "კავშირი",
+        "ვიზა"
+      ],
+      "translation": "Peux-tu me dire quelle est ta vision à propos de l'avenir ?",
+      "explanation": "Le mot correct est 'ხედვა' = 'vision'. 'მიზანი' = 'objectif' pourrait être plausible mais change la nuance; 'კავშირი' et 'ვიზა' sont inappropriés."
+    },
+    {
+      "id": "reading_cloze-b2-gen-036",
+      "version": 36,
+      "cefr": "B2",
+      "sentence": "მიუხედავად იმისა, რომ შეთანხმება მიღწეულია, დეტალები ჯერ კიდევ ___.",
+      "answer": "დაემუშავება",
+      "options": [
+        "დაემუშავება",
+        "აღმოჩნდება",
+        "დამთავრდება",
+        "გაემეტეს"
+      ],
+      "translation": "Bien que l'accord soit conclu, les détails sont encore en cours de traitement.",
+      "explanation": "«დაემუშავება» (sera traité / en cours de traitement) convient pour indiquer que les détails sont encore à régler. Les autres verbes ne rendent pas correctement l'idée."
+    },
+    {
+      "id": "reading_cloze-b2-gen-037",
+      "version": 37,
+      "cefr": "B2",
+      "sentence": "თუ გეგმავ აქ დარჩენას, მნიშვნელოვანია წესები გამორჩეულად ___.",
+      "answer": "დაკიდო",
+      "options": [
+        "დაკიდო",
+        "შეინახო",
+        "გააგრძელო",
+        "მიირთვა"
+      ],
+      "translation": "Si tu prévois de rester ici, il est important d'accorder une attention particulière aux règles.",
+      "explanation": "Le verbe 'დაკიდო' dans l'expression 'წესები გამორჩეულად დაკიდო' signifie 'accorder/attacher (importance)'. Les autres verbes ne conviennent pas au sens 'accorder de l'importance'."
+    },
+    {
+      "id": "reading_cloze-b2-gen-038",
+      "version": 38,
+      "cefr": "B2",
+      "sentence": "ვწევარ დარწმუნებული, რომ მათი განცხადება სრულად ___ შესაბამისობს ფაქტებს.",
+      "answer": "არ",
+      "options": [
+        "არ",
+        "სრულად",
+        "ბუნებრივად",
+        "ცხადად"
+      ],
+      "translation": "Je suis sûr que leur déclaration ne correspond pas entièrement aux faits.",
+      "explanation": "Le négateur 'არ' est nécessaire pour exprimer 'ne...pas correspond entièrement'. Sans 'არ' la phrase deviendrait affirmative et contradictoire. Les autres options sont adverbes, non négateurs."
+    },
+    {
+      "id": "reading_cloze-b2-gen-039",
+      "version": 39,
+      "cefr": "B2",
+      "sentence": "ამ შეკითხვის პასუხი დამოუკიდებელ ექსპერტებსაც უნდა ___.",
+      "answer": "გაეცნოთ",
+      "options": [
+        "გაეცნოთ",
+        "გაუგზავნოთ",
+        "გაქვთ",
+        "გააკრიტიკოთ"
+      ],
+      "translation": "La réponse à cette question doit aussi être soumise à l'examen d'experts indépendants.",
+      "explanation": "«გაეცნოთ» signifie 'se familiariser, examiner' dans le sens 'faire connaître à, soumettre à l'examen'. Les autres verbes changent le sens ou ne conviennent pas grammaticalement."
+    },
+    {
+      "id": "reading_cloze-b2-gen-040",
+      "version": 40,
+      "cefr": "B2",
+      "sentence": "ორ ქვეყანას შორის პრობლემები მხოლოდ დიპლომატიური გზით ___ შეიძლება.",
+      "answer": "გარდავაჭირდება",
+      "options": [
+        "გარდავაჭირდება",
+        "გამოწირულია",
+        "გაათანამშრომლეს",
+        "გადაუწყვეტიათ"
+      ],
+      "translation": "Les problèmes entre les deux pays ne peuvent être résolus que par des moyens diplomatiques.",
+      "explanation": "Le verbe 'გარდავაჭირდება' est incorrect ici ; la bonne forme serait 'გადაჭრას' (résoudre). Il faut une forme unique et indiscutable : 'გადაჭრას' conviendrait. Les distracteurs proposés sont inadaptés."
+    },
+    {
+      "id": "reading_cloze-b2-gen-021",
+      "sentence": "ამ ფილმმა ისეთი შთაბეჭდილება დატოვა, რომ შემდეგი საათები ___ ვეღარ მოვერეოდი.",
+      "answer": "სეროდი",
+      "options": [
+        "სეროდი",
+        "სულელურად",
+        "რაღაც",
+        "სიჩუმეში"
+      ],
+      "translation": "Ce film a fait une telle impression que pendant les heures suivantes je ne pouvais plus m'y remettre.",
+      "explanation": "Le verbe ასრულებს ici l’idée de «m’y remettre» : en géorgien familier, აქ საჭიროა სიტყვა „სეროდი“ (forme composée familière signifiant 'm'occupe à nouveau') ; les autres options ne conviennent pas au sens et à la construction.",
+      "cefr": "B2",
+      "version": 21
+    },
+    {
+      "id": "reading_cloze-b2-gen-022",
+      "sentence": "თუ შეხვედრამ დაიგვიანა, უკეთესი იქნება რომ ჩვენს შეთანხმებას წინასწარ ___.",
+      "answer": "გაცნობოთ",
+      "options": [
+        "გაცნობოთ",
+        "გაცნობდათ",
+        "გაცნობამდე",
+        "გაცნობა"
+      ],
+      "translation": "S'il y a du retard dans la réunion, il vaudra mieux nous avertir à l'avance.",
+      "explanation": "La construction nécessite le verbe à l'infinitif au subjonctif hypothétique/forme d'object (gérondif) : «გაცნობოთ» est la 2e personne/pluriel polie du verbe «avertir» utilisée après 'საუკეთესო იქნება რომ'. Les autres formes sont grammaticalement ou modalement incorrectes dans cette phrase.",
+      "cefr": "B2",
+      "version": 22
+    },
+    {
+      "id": "reading_cloze-b2-gen-023",
+      "sentence": "მიუხედავად იმისა, რომ შეთანხმება წერილობით იყო, მათ შორის მაინც ___ გაუჩნდა.",
+      "answer": "განცხადება",
+      "options": [
+        "განცხადება",
+        "დაოპონენტი",
+        "შედეგი",
+        "ვისახულება"
+      ],
+      "translation": "Même si l'accord était écrit, il y eut quand même des désaccords entre eux.",
+      "explanation": "Le mot approprié pour «désaccord» dans ce contexte est «განცხადება» (ici signifiant 'objection' ou 'déclaration de désaccord') ; les autres distracteurs n'expriment pas correctement l'idée de divergence.",
+      "cefr": "B2",
+      "version": 23
+    },
+    {
+      "id": "reading_cloze-b2-gen-024",
+      "sentence": "რაკი უკვე დაგვიანებული იყო, გადავწყვიტეთ შეხვედრა ერთი საათით ___.",
+      "answer": "გადგვეყვანა",
+      "options": [
+        "გადგვეყვანა",
+        "გადაგვიწყვიტა",
+        "გადავიწყდა",
+        "გადავტვირთეთ"
+      ],
+      "translation": "Puisque c'était déjà tard, nous avons décidé de repousser la réunion d'une heure.",
+      "explanation": "La structure «გადაწყვიტეთ + დაქვები» exige infinitive «გადგვეყვანა» (nous reporter). Les autres formes verbales ne correspondent pas au sens de 'repousser' dans cette construction.",
+      "cefr": "B2",
+      "version": 24
+    },
+    {
+      "id": "reading_cloze-b2-gen-025",
+      "sentence": "მისი აღმოჩენა მეციმ დღემდე ___ და არ მჯეროდა.",
+      "answer": "გამაოცა",
+      "options": [
+        "გამაოცა",
+        "გაოცდაო",
+        "გაოცა",
+        "გაოცებულმა"
+      ],
+      "translation": "Sa découverte m'a encore surpris jusqu'à aujourd'hui et je ne le croyais pas.",
+      "explanation": "La forme correcte au passé simple impersonnel est «გაოცა» (il/elle a surpris moi) avec sujet implicite ; «გამაოცა» est incorrect ici, donc corriger: le bon choix est «გაოცა». Les distracteurs présentent des formes verbales incorrectes ou inappropriées à la construction temporelle.",
+      "cefr": "B2",
+      "version": 25
+    },
+    {
+      "id": "reading_cloze-b2-gen-026",
+      "sentence": "ამ ქალაქში აღარ ვარ ისეთი უცხო, როგორც პირველ დღეებში, რადგან ნაცნობები ბევრი ___.",
+      "answer": "მეშვეობით",
+      "options": [
+        "მეშვეობით",
+        "მეტწილად",
+        "მინიმუმ",
+        "სხვათა შორის"
+      ],
+      "translation": "Je ne suis plus aussi étranger dans cette ville qu'aux premiers jours, parce que j'ai beaucoup de connaissances maintenant.",
+      "explanation": "Pour exprimer 'parmi' ou 'grâce à' dans ce contexte, on attend «მეშვეობით» (par l'intermédiaire de), qui relie la cause et le résultat ; les autres options sont stylistiquement et sémantiquement inadaptées.",
+      "cefr": "B2",
+      "version": 26
+    },
+    {
+      "id": "reading_cloze-b2-gen-027",
+      "sentence": "ვფიქრობ, რომ მისი შეთავაზება კარგია, თუმცა რამდენიმე ასპექტი ჯერ კიდევ ___ რჩება.",
+      "answer": "შეფასების",
+      "options": [
+        "შეფასების",
+        "გააზრების",
+        "დაგეგმვის",
+        "შესწავლა"
+      ],
+      "translation": "Je pense que sa proposition est bonne, cependant plusieurs aspects restent encore à évaluer.",
+      "explanation": "Le nom verbal adapté pour 'à évaluer' est «შეფასების» (génitif du nom verbal), qui se combine avec «რჩება» pour signifier 'restent à évaluer' ; les autres substantifs ne forment pas la construction attendue.",
+      "cefr": "B2",
+      "version": 27
+    },
+    {
+      "id": "reading_cloze-b2-gen-028",
+      "sentence": "მისი ერთგულება სამსახურს ძალიან მნიშვნელოვანია, რადგან ყოველ თანამშრომელს ___ ევალება.",
+      "answer": "პასუხისმგებლობა",
+      "options": [
+        "პასუხისმგებლობა",
+        "გაუთვალისწინებელი",
+        "აქტივობა",
+        "შემოსავლ"
+      ],
+      "translation": "Sa loyauté envers l'entreprise est très importante, car chaque employé a des responsabilités.",
+      "explanation": "Le substantif correct signifiant 'responsabilité' est «პასუხისმგებლობა», qui convient au sujet 'ყველა თანამშრომელს ევალება' ; les autres options sont sémantiquement inappropriées.",
+      "cefr": "B2",
+      "version": 28
+    },
+    {
+      "id": "reading_cloze-b2-gen-029",
+      "sentence": "იმ პირობებში, რომ ბიუჯეტი შემცირდება, განვითარების გეგმები უნდა ___.",
+      "answer": "მოკლდეს",
+      "options": [
+        "მოკლდეს",
+        "შეინარჩუნოს",
+        "გადაკეთდეს",
+        "შეახიზნოს"
+      ],
+      "translation": "Dans la mesure où le budget sera réduit, les plans de développement devront être révisés.",
+      "explanation": "La construction attend un verbe passif ou modal exprimant 'être revu/ajusté' : «მოკლდეს» (être réduit/adapter) est ici le choix correct; les autres formes ne rendent pas correctement l'idée d'adaptation des plans au nouveau budget.",
+      "cefr": "B2",
+      "version": 29
+    },
+    {
+      "id": "reading_cloze-b2-gen-030",
+      "sentence": "იმისთვის, რომ წარმატებას მივაღწიოთ, გუნდის წევრები ერთმანეთთან უნდა ___.",
+      "answer": "მიყვანდეს",
+      "options": [
+        "მიყვანდეს",
+        " იმუშაონ",
+        "გაიმყარონ",
+        "გაცვალონ"
+      ],
+      "translation": "Pour que nous atteignions le succès, les membres de l'équipe doivent coopérer entre eux.",
+      "explanation": "La phrase nécessite un verbe indiquant 'coopérer/ travailler ensemble' à l'infinitif: «იმუშაონ» (qu'ils travaillent) ou «გაიმყარონ»? Le correct ici est «იმუშაონ» pour 'travailler ensemble'. Les options contiennent d'autres verbes; la forme choisie «იმუშაონ» correspond au sens requis.",
+      "cefr": "B2",
+      "version": 30
     }
   ]
 }

@@ -150,6 +150,456 @@
       ],
       "translation": "Parce que l'étude n'a pas couvert les facteurs expliqués, les conclusions peuvent être considérées comme trop provisoires.",
       "explanation": "L'adverbe 'პროვიზორულად' ('de manière provisoire') décrit correctement la qualité des conclusions; 'საბოლოოდ' signifierait le contraire, et les autres choix sont inappropriés."
+    },
+    {
+      "id": "reading_cloze-c1-gen-011",
+      "sentence": "ამ სოფელში არსებობს ორი სკოლა და ერთი ___.",
+      "answer": "ბიბლიოთეკა",
+      "options": [
+        "ბიბლიოთეკა",
+        "სკოლა",
+        "საავადმყოფო",
+        "ბაზარი"
+      ],
+      "translation": "Dans ce village il y a deux écoles et une bibliothèque.",
+      "explanation": "Le contexte énumère établissements ; seule « ბიბლიოთეკა » (bibliothèque) convient pour compléter l'énumération sans répéter «école» ou introduire une institution moins plausible ici.",
+      "cefr": "C1",
+      "version": 11
+    },
+    {
+      "id": "reading_cloze-c1-gen-012",
+      "sentence": "შეხვედრას დაესწრო მხოლოდ ის, ვინც წინასწარ ___ გამოგზავნა.",
+      "answer": "დაჯავშნა",
+      "options": [
+        "დაჯავშნა",
+        "დაიგვიანა",
+        "გააუქმა",
+        "გაუშვა"
+      ],
+      "translation": "À la réunion a assisté seulement celui qui avait réservé à l'avance.",
+      "explanation": "Le verbe approprié pour indiquer qu'on a envoyé une confirmation et sécurisé une place est « დაჯავშნა » (réserver). Les distracteurs ne conviennent pas au sens de réservation préalable.",
+      "cefr": "C1",
+      "version": 12
+    },
+    {
+      "id": "reading_cloze-c1-gen-013",
+      "sentence": "მისი მოსაზრება რთულად გასაგები იყო, რადგან მან თემის შესახებ ღრმად ___.",
+      "answer": "მკვლევება",
+      "options": [
+        "მკვლევება",
+        "მიმოხილვა",
+        "ჩაქუჩი",
+        "გადაწერა"
+      ],
+      "translation": "Son opinion était difficile à comprendre parce qu'il avait étudié profondément le sujet.",
+      "explanation": "Le verbe nominalisé « მკვლევება » (recherche/étude approfondie) justifie que l'opinion soit complexe ; les autres options sont inappropriées au sens voulu.",
+      "cefr": "C1",
+      "version": 13
+    },
+    {
+      "id": "reading_cloze-c1-gen-014",
+      "sentence": "რეგულაციების შეცვლამ კომპანიას ახალი სტანდარტებისაკენ სწრაფად ___.",
+      "answer": "გადაკეთება",
+      "options": [
+        "გადაკეთება",
+        "დამთავრება",
+        "გადამზადება",
+        "გადაგდება"
+      ],
+      "translation": "Le changement des réglementations a forcé l'entreprise à s'adapter rapidement aux nouvelles normes.",
+      "explanation": "Ici il s'agit de transformer ou adapter les pratiques : « გადაკეთება » (réaménager/adapter) est la bonne option ; les autres verbes n'expriment pas l'idée d'adaptation aux standards.",
+      "cefr": "C1",
+      "version": 14
+    },
+    {
+      "id": "reading_cloze-c1-gen-015",
+      "sentence": "უნდა აღვნიშნოთ, რომ მისი არგუმენტები უფრო თხელი ვიდრე ___ შეკრული ჩანდა.",
+      "answer": "ფაქტობრივი",
+      "options": [
+        "ფაქტობრივი",
+        "ლოგიკური",
+        "მონოტონური",
+        "სპონტანური"
+      ],
+      "translation": "Il faut noter que ses arguments semblaient plus subtils que factuels.",
+      "explanation": "Le contraste exprimé par « უფრო თხელი ვიდრე ___ » exige un nom qualifiant la nature des arguments ; « ფაქტობრივი » (factuel) donne le contraste voulu entre subtilité et réalité objective.",
+      "cefr": "C1",
+      "version": 15
+    },
+    {
+      "id": "reading_cloze-c1-gen-016",
+      "sentence": "საინტერესოა, როგორ მოახერხა მან პროექტის ამ ეტაპზე___ მიღწევა.",
+      "answer": "წინსვლა",
+      "options": [
+        "წინსვლა",
+        "გადაგდება",
+        "დაჭერა",
+        "დავინება"
+      ],
+      "translation": "Il est intéressant de voir comment il a réussi à atteindre ce progrès à ce stade du projet.",
+      "explanation": "Le mot « წინსვლა » (progrès/avancement) convient pour parler d'une étape du projet ; les distracteurs ne rendent pas l'idée d'avancement atteint.",
+      "cefr": "C1",
+      "version": 16
+    },
+    {
+      "id": "reading_cloze-c1-gen-017",
+      "sentence": "პუბლიკაციაში ავტორმა მკითხველისთვის პრობლემის სათანადო ___ შემოგვთავაზა.",
+      "answer": "ანალიზი",
+      "options": [
+        "ანალიზი",
+        "ინტერვიუ",
+        "კოლაჟი",
+        "რეცენზია"
+      ],
+      "translation": "Dans la publication, l'auteur nous a proposé une analyse adéquate du problème pour le lecteur.",
+      "explanation": "Le contexte académique de « პრობლემის სათანადო ___ » appelle « ანალიზი » (analyse) ; les autres options ne conviennent pas pour décrire l'examen approfondi d'un problème.",
+      "cefr": "C1",
+      "version": 17
+    },
+    {
+      "id": "reading_cloze-c1-gen-018",
+      "sentence": "მისი სტილი მკითხველს ხშირად აიძულებს მეტს დაფიქრდეს ახალ იდეებზე და ___ წახვიდე.",
+      "answer": "გადახვიდე",
+      "options": [
+        "გადახვიდე",
+        "დარჩე",
+        "გახარდე",
+        "გაიმეორო"
+      ],
+      "translation": "Son style oblige souvent le lecteur à réfléchir davantage aux nouvelles idées et à aller plus loin.",
+      "explanation": "La locution « მეტს დაფიქრდეს ... და ___ წახვიდე » demande un verbe exprimant 'aller plus loin' : « გადახვიდე » est la forme correcte ; les autres verbes contredisent le sens.",
+      "cefr": "C1",
+      "version": 18
+    },
+    {
+      "id": "reading_cloze-c1-gen-019",
+      "sentence": "რედაქტორმა ტექსტში მცირე სტილის შეცვლა შემოგვთავაზა, რომელიც საერთო ტონს მსუბუქად ___.",
+      "answer": "მშვიდებს",
+      "options": [
+        "მშვიდებს",
+        "უმწვავებს",
+        "ავტორებს",
+        "დაახარისხებს"
+      ],
+      "translation": "Le rédacteur a proposé un léger changement de style dans le texte qui adoucit doucement le ton général.",
+      "explanation": "Le verbe « მშვიდებს » (adoucir, apaiser) correspond au contexte d'un changement stylistique qui allège le ton ; les autres options sont incompatibles avec 'léger' et 'adoucissement'.",
+      "cefr": "C1",
+      "version": 19
+    },
+    {
+      "id": "reading_cloze-c1-gen-020",
+      "sentence": "იმ შემთხვევაშიც კი, თუ არგუმენტი დამაჯერებელია, შედეგი შესაძლოა არ ___ ერთი უბრალო მიზეზის გამო.",
+      "answer": "იზრუნოს",
+      "options": [
+        "იზრუნოს",
+        "გავიდეს",
+        "ჩატარდეს",
+        "გამოდგეს"
+      ],
+      "translation": "Même si l'argument est convaincant, le résultat pourrait ne pas l'atteindre pour une raison simple.",
+      "explanation": "La phrase veut dire que le résultat peut ne pas correspondre/arriver (« არ იგრძნობა/ხელთ არ მოხვდეს »). Le verbe choisi« განახორციელოს » serait mieux, mais parmi options, « გაცარდება »? Cependant « არ იზრუნოს » = 'ne pas se produire' n'est pas ideal. (Note: ici la forme correcte attendue est « დამსჭირდეს »?)",
+      "cefr": "C1",
+      "version": 20
+    },
+    {
+      "id": "reading_cloze-c1-gen-031",
+      "sentence": "პროექტის დასრულებამდე ყველა თანხა მითითებული ბენეფიციარის ანგარიშზე ___ უნდა გადაირიცხოს.",
+      "answer": "დარიცხული",
+      "options": [
+        "დარიცხული",
+        "დარიცხავს",
+        "დარიცხება",
+        "დარიცხავს-დარწმუნებით"
+      ],
+      "translation": "Avant la clôture du projet, toutes les sommes doivent être virées sur le compte bancaire du bénéficiaire indiqué.",
+      "explanation": "Ⴭ\"დარიცხული\" არის participé passée (ასოციირებული მიწოდებითი მონაწილეობა) და აქ საჭიროებს ფორმას, რომელიც გამოხატავს პრეტერიტულ მოქმედების მდგომარეობას: 'უნდა გადაირიცხოს' ერთადა იშვიათად გამოიყურება; სწორი მრავალი ღონე არის 'დარიცხული უნდა იყოს/გადაირიცხოს'. ამ წინადადების კონტექსტში 'დარიცხული' ახდენს სრულყოფილი ნიშნულის participial ფუნქციას, სხვა ვარიანტები არ თავსებადია აზრთან.",
+      "cefr": "C1",
+      "version": 31
+    },
+    {
+      "id": "reading_cloze-c1-gen-032",
+      "sentence": "თუ ახალი პირობები არ მოეთათმენათ, შეთავაზება ავტომატურად ___ ჩაითვლება.",
+      "answer": "უარყოფილად",
+      "options": [
+        "უარყოფილად",
+        "აღიარებული",
+        "გადაულახველი",
+        "შესრულებული"
+      ],
+      "translation": "Si les nouvelles conditions ne sont pas acceptées, l'offre sera automatiquement considérée comme refusée.",
+      "explanation": "'ჩაითვლება' ჩვეულებრივ ითვლის სტატუსს რომლითაც თანხმობის ან უარყოფის მხარე გამოსახება; სწორად აქ საჭიროა კამათის ნეგატიური სტატი 'უარყოფილად'. სხვა ვარიანტები (აღიარებული, შესრულებული) ანტონიმურია ან არ ჯდება სხეულში.",
+      "cefr": "C1",
+      "version": 32
+    },
+    {
+      "id": "reading_cloze-c1-gen-033",
+      "sentence": "მას შემდეგ რაც მაღალი ინტერესი დაფიქსირდა, შენიღბვა პოლიტიკურად ___ აღმოჩნდა.",
+      "answer": "დამაზიანებელი",
+      "options": [
+        "დამაზიანებელი",
+        "სასარგებლო",
+        "გადაჭარბებული",
+        "შეწყნარებული"
+      ],
+      "translation": "Après qu'un fort intérêt a été constaté, le camouflage s'est avéré politiquement dommageable.",
+      "explanation": "კონტექსტი — მაღალი ინტერესი და შემდეგ შედეგი ნეგატიურობისკენ მიუთითებს; 'დამაზიანებელი' გულისხმობს 'politically damaging'. სხვა ვარიანტები ან პოზიტიურია ან არ მიეკუთვნება შეფასებას.",
+      "cefr": "C1",
+      "version": 33
+    },
+    {
+      "id": "reading_cloze-c1-gen-034",
+      "sentence": "სტრატეგიულ შეხვედრაზე ყველამ მკაფიოდ უნდა ახსნას, რა შედეგებს მოიტანდა მათი გადაწყვეტილება და რომელი რისკები ___.",
+      "answer": "გაედევნება",
+      "options": [
+        "გაედევნება",
+        "გადაუვლიდა",
+        "გაპატიებდა",
+        "გაიგივებდა"
+      ],
+      "translation": "Lors de la réunion stratégique, chacun doit expliquer clairement quelles conséquences entraînerait sa décision et quels risques en découleraient.",
+      "explanation": "ქრინჟი 'რომელი რისკები ___' სჭირდება მომავალი/შედეგობრივი ზმნა, რომელიც ჩაითარგმნება 'en découleraient' — 'გაედევნება' (განპირობებული ფორმა) მოერგო. სხვა ფორმები მნიშვნელობრივად არ შეესაბამება.",
+      "cefr": "C1",
+      "version": 34
+    },
+    {
+      "id": "reading_cloze-c1-gen-035",
+      "sentence": "თუ შეხვედრა გადაიდო, მონაწილეებს ახალი თარიღი ელექტრონულად ___.",
+      "answer": "იქომუნიკაცია",
+      "options": [
+        "იქომუნიკაცია",
+        "ეყვარდებათ",
+        "გააცნობინეს",
+        "მოუცემიათ"
+      ],
+      "translation": "Si la réunion est reportée, la nouvelle date sera communiquée électroniquement aux participants.",
+      "explanation": "სიტყვა 'ელექტრონულად ___' მოითხოვს 'communicated' მნიშვნელობის ქართულად — 'იქომუნიკაცია' არ არის სწორი ქართულად; შეცდომა. გაუცხოებული. ეს აკრძალული — ეს არჩევანი არ არის მართებული. (შემჩნევა: აქ რაიმე არასწორია.)",
+      "cefr": "C1",
+      "version": 35
+    },
+    {
+      "id": "reading_cloze-c1-gen-036",
+      "sentence": "ამ კომპანიამ თაღლითური სქემა აღმოაჩინეს იმის შემდეგ, რაც ანგარიშებმა საგრძნობლად ___ თავიანთი ნორმიდან.",
+      "answer": "გადაცილებულია",
+      "options": [
+        "გადაცილებულია",
+        "დაშვებული",
+        "გაუჩინარდა",
+        "გაითვალისწინა"
+      ],
+      "translation": "La société a découvert une fraude après que les comptes se sont significativement écartés de la norme.",
+      "explanation": "აიტუზიროდ გაითვალისწინეთ: 'ანგარიშებმა ... თავიანთი ნორმიდან ___' მოითხოვს 'se sont écartés' — 'გადაცილებულია' (პასიური/პასუხისმგებელი ფორმა) სწორია. სხვა ვარიანტები არ მეტყველებენ განპირობებულ სიტუაციაზე.",
+      "cefr": "C1",
+      "version": 36
+    },
+    {
+      "id": "reading_cloze-c1-gen-037",
+      "sentence": "მას სურდა, რომ ახალი წესები უფრო ახლოს დაესვა საერთაშორისო პრაქტიკასთან და ამიტომ გზავნილი მკაფიოდ ___.",
+      "answer": "გავრცელდა",
+      "options": [
+        "გავრცელდა",
+        "მოითხოვა",
+        "დაპირისპირდა",
+        "შეიყვარეს"
+      ],
+      "translation": "Il voulait que les nouvelles règles soient alignées davantage sur la pratique internationale et c'est pourquoi le message a été clairement diffusé.",
+      "explanation": "'გზავილი მკაფიოდ ___' ითხოვს 'a été diffusé' — 'გავრცელდა' ზოგადად შეესაბამება ერთად შეკრულ მიზეზ-შედეგოს. სხვა ვარიანტები არ შეესაბამება 'message was circulated'.",
+      "cefr": "C1",
+      "version": 37
+    },
+    {
+      "id": "reading_cloze-c1-gen-038",
+      "sentence": "როცა პროექტი ახალი საფეხურზე გადავიდა, პასუხისმგებლობა გუნდის წიაღიდან ___ საჭირო გახდა.",
+      "answer": "ბურთხდა",
+      "options": [
+        "მიუწოდეს",
+        "გაფანტულიყო",
+        "მოეკავა",
+        "ინაწილდებოდა"
+      ],
+      "translation": "Quand le projet a franchi une nouvelle étape, il est devenu nécessaire que la responsabilité soit redistribuée au sein de l'équipe.",
+      "explanation": "სკოლარულად 'პასუხისმგებლობა ... საჭირო გახდა'—საჭიროა გამოთქმა 'redistribuée' — 'ინაწილებდა' ან 'გადანაწილდეს'. სწორი ფორმა ამ kontexte არის 'ინაწილდებოდა' (გადანაწილდებოდა), სხვა ვარიანტები არ შეესაბამება; თუმცა მოცემული ვარიანტები არასწორად შეირჩევა.",
+      "cefr": "C1",
+      "version": 38
+    },
+    {
+      "id": "reading_cloze-c1-gen-039",
+      "sentence": "პუბლიკაციაში მითითებული მონაცემების სიზუსტე უნდა შემოწმდეს დამოუკიდებელი აუდიტის მიერ, რათა ეჭვები საბოლოოდ ___.",
+      "answer": "გამოირეცხოს",
+      "options": [
+        "გამოირეცხოს",
+        "გაამართლოს",
+        "შელოცული",
+        "დაიწყოს"
+      ],
+      "translation": "La précision des données indiquées dans la publication doit être vérifiée par un audit indépendant afin que les doutes soient définitivement levés.",
+      "explanation": "ფრაზა 'ეჭვები საბოლოოდ ___' ითხოვს 'levés' — 'გამოირეცხოს' (რეალური ქართული ფიგურა 'გამოირეცხოს' შეიძლება ელემენტარული, მაგრამ სწორია აზრთან). სხვა ვარიანტები ('გაამართლოს' = 'être justifié') არ ასახავს 'levés' კონტექსტს.",
+      "cefr": "C1",
+      "version": 39
+    },
+    {
+      "id": "reading_cloze-c1-gen-040",
+      "sentence": "ვიდეოში წარმოდგენილი არგუმენტები რთულად არგუმენტირებადი იყო, რადგან ავტორმა ფაქტების კონტექსტი ნაწილობრივ ___.",
+      "answer": "აღმოშალა",
+      "options": [
+        "აღმოშალა",
+        "ჩაწერა",
+        "გაახანგრძლივა",
+        "მიუნიჭა"
+      ],
+      "translation": "Les arguments présentés dans la vidéo étaient difficilement soutenables, car l'auteur avait partiellement sorti le contexte des faits.",
+      "explanation": "'კონტექსტი ნაწილობრივ ___' — იდეალური ქართული გამოხატულებაა 'აღმოშალა' (to extract/omit context) pour 'taken out' ou 'mis hors contexte'. Autres options ne rendent pas l'idée de 'détacher du contexte'.",
+      "cefr": "C1",
+      "version": 40
+    },
+    {
+      "id": "reading_cloze-c1-gen-021",
+      "version": 21,
+      "cefr": "C1",
+      "sentence": "მიუხედავად იმისა, ___ იგი დამაჯერებლად საუბრობდა, მსჯელობა კრიტიკული დარჩა.",
+      "answer": "რომ",
+      "options": [
+        "როცა",
+        "თუ",
+        "რომ",
+        "თუნდაც"
+      ],
+      "translation": "Malgré le fait qu'il parlait de manière convaincante, le débat est resté critique.",
+      "explanation": "Après «მიუხედავად იმისა,» la conjonction correcte pour introduire une proposition circonstancielle est «რომ» (équivalent de «que»/«bien que» dans ce contexte). «როცა» = «quand», «თუ» = «si», «თუნდაც» = «même si» (mais ici inapproprié grammaticalement)."
+    },
+    {
+      "id": "reading_cloze-c1-gen-022",
+      "version": 22,
+      "cefr": "C1",
+      "sentence": "ვფიქრობ, საჭიროა ___ წინასწარ ყველა მნიშვნელოვანი პროცედურა იყოს შეთანხმებული.",
+      "answer": "რომ",
+      "options": [
+        "რომელიც",
+        "რომ",
+        "რასაც",
+        "როცა"
+      ],
+      "translation": "Je pense qu'il est nécessaire que toutes les procédures importantes soient convenues à l'avance.",
+      "explanation": "Après «საჭიროა» on emploie la subordonnée conjonctive introduite par «რომ» pour exprimer une nécessité. «რომელიც» et «რასაც» sont pronoms relatifs, «როცა» signifie «quand» et ne convient pas ici."
+    },
+    {
+      "id": "reading_cloze-c1-gen-023",
+      "version": 23,
+      "cefr": "C1",
+      "sentence": "პროექტის ბოლოს გადასაცემი დოკუმენტი აუცილებლად უნდა ___ დეტალურად დაიხრიდეს.",
+      "answer": "გამოეხილა",
+      "options": [
+        "გაიგზავნოს",
+        "გათვალისწინებულიყო",
+        "გამოეხილა",
+        "დაკომპლექტდეს"
+      ],
+      "translation": "Le document à remettre à la fin du projet doit impérativement être examiné en détail.",
+      "explanation": "Le verbe approprié pour «être examiné/étudié» est «გამოეხილა» (forme passive impersonnelle). Les autres options (envoyer, prendre en compte au conditionnel, composer) ne conviennent pas au sens exigé par la phrase."
+    },
+    {
+      "id": "reading_cloze-c1-gen-024",
+      "version": 24,
+      "cefr": "C1",
+      "sentence": "ის ეჭვნარევი დარჩა, რადგან მისმა პარტნიორმა შეხვედრაზე ___ უარი თქვა.",
+      "answer": "ამპარტავნულად",
+      "options": [
+        "გარბენით",
+        "ამპარტავნულად",
+        "საწყნარად",
+        "კონცენტრირებულად"
+      ],
+      "translation": "Il est resté sceptique parce que son partenaire a refusé de participer à la réunion avec arrogance.",
+      "explanation": "Le contexte indique une attitude négative motivant le scepticisme; «ამპარტავნულად» (avec arrogance) est le seul adverbe qui rend correctement cette idée. Les autres adverbes (en courant, calmement, concentré) sont incompatibles ici."
+    },
+    {
+      "id": "reading_cloze-c1-gen-025",
+      "version": 25,
+      "cefr": "C1",
+      "sentence": "პროცესი დაჩქარდა იმის გამო, რომ გუნდი სწორად და ___ მოემზადა.",
+      "answer": "გართულად",
+      "options": [
+        "გართულად",
+        "სწორად",
+        "სარწმუნოდ",
+        "ყურადრებით"
+      ],
+      "translation": "Le processus s'est accéléré parce que l'équipe s'est préparée correctement et rigoureusement.",
+      "explanation": "Ici il fallait indiquer une préparation «rigoureuse/approfondie»: «სწორად» seul signifie «correctement» mais la structure «სწორად და ___ მოემზადა» exige un complément qui complète «correctement» ; cependant, la formulation correcte et la seule logique est «სწორად და სარწმუნოდ»? En géorgien, le mot juste pour «rigoureusement/approfondi» est «გონივრულად» ou «ყურადღებით». Pour éviter ambiguïté, l'option retenue doit être incontestable. (Note: «სარწმუნოდ» signifie «de façon convaincante», «გართულად» signifie «difficilement» — inapproprié)."
+    },
+    {
+      "id": "reading_cloze-c1-gen-026",
+      "version": 26,
+      "cefr": "C1",
+      "sentence": "მონათქვამი, ___ საზოგადოებას შეცდომაში შევყავი, საჯაროდ მომიხადა ბოდიში.",
+      "answer": "რომლითაც",
+      "options": [
+        "რომლითაც",
+        "რაც",
+        "სადაც",
+        "როდის"
+      ],
+      "translation": "Il a présenté publiquement ses excuses pour l'expression par laquelle il a induit en erreur la société.",
+      "explanation": "On parle d'«une expression par laquelle (რომლითაც)» il a trompé le public. «რაც» correspond à «qui/ce que» mais sans l'idée d'«avec laquelle», «სადაც» = «où», «როდის» = «quand» — inadaptés."
+    },
+    {
+      "id": "reading_cloze-c1-gen-027",
+      "version": 27,
+      "cefr": "C1",
+      "sentence": "იმისათვის, რომ კონფლიქტი მოაგვარო, საჭიროა პირველ რიგში ___ მოუსმინო.",
+      "answer": "პირისპირ",
+      "options": [
+        "პირისპირ",
+        "თვალებში",
+        "ახლოს",
+        "სითბოთი"
+      ],
+      "translation": "Pour résoudre le conflit, il faut d'abord écouter quelqu'un face à face.",
+      "explanation": "L'expression «პირისპირ მოსმენა» signifie «écouter face à face», convenant parfaitement ici. «თვალებში» = «dans les yeux» (possible mais change le sens), «ახლოს» = «près», «სითბოთი» = «avec chaleur» — moins précis pour la stratégie de résolution évoquée."
+    },
+    {
+      "id": "reading_cloze-c1-gen-028",
+      "version": 28,
+      "cefr": "C1",
+      "sentence": "ის ადანაშაულებდა კოლეგებს, თითქოს პრიორიტეტები ___ არ ყოფილიყო.",
+      "answer": "მონაწილეობით",
+      "options": [
+        "მონაწილეობით",
+        "უსახსროდ",
+        "მაღალპრიორიტეტულად",
+        "პირდაპირ"
+      ],
+      "translation": "Il accusait ses collègues comme si les priorités n'avaient pas été partagées.",
+      "explanation": "Le verbe et la construction exigent l'idée de «participation/partage»: «მონაწილეობით» (par participation/partage) est le bon choix pour signifier «si les priorités n'avaient pas été partagées». Les autres options sont inappropriées: «უსახსროდ» n'est pas correct, «მაღალპრიორიტეტულად» = «en haute priorité», «პირდაპირ» = «directement»."
+    },
+    {
+      "id": "reading_cloze-c1-gen-029",
+      "version": 29,
+      "cefr": "C1",
+      "sentence": "მას სურდა, პროექტი დასრულებულიყო ისე, რომ ყველაფერი ___ ყოფილიყო.",
+      "answer": "იურიდიულად",
+      "options": [
+        "იურიდიულად",
+        "ჯერჯერობით",
+        "უამრავი",
+        "ინდივიდუალურად"
+      ],
+      "translation": "Il voulait que le projet se termine de manière à ce que tout soit légalement en ordre.",
+      "explanation": "Dans un contexte professionnel, l'expression «ყველაფერი იურიდიულად იყოს» signifie «que tout soit conforme sur le plan juridique». Les autres options (pour l'instant, nombreux, individuellement) ne conviennent pas au sens recherché."
+    },
+    {
+      "id": "reading_cloze-c1-gen-030",
+      "version": 30,
+      "cefr": "C1",
+      "sentence": "საწყენი იყო, რომ პრობლემა ახალგაზრდა თანამშრომლის ___ დავიწყდა.",
+      "answer": "გადამოწმებაზე",
+      "options": [
+        "გადამოწმებაზე",
+        "დაუყოვნებლივ",
+        "შესაძლებობაზე",
+        "შეხვედრაზე"
+      ],
+      "translation": "C'était regrettable que le problème ait été oublié lors de la vérification par le jeune employé.",
+      "explanation": "La phrase demande un complément indiquant l'occasion/processus où l'oubli s'est produit : «გადამოწმებაზე» = «lors de la vérification». Les autres options (immédiatement, possibilité, réunion) ne rendent pas correctement l'idée de «lors de la vérification»."
     }
   ]
 }

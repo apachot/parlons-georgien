@@ -160,6 +160,465 @@
         "Enfin Nika rentre chez lui content et calmement."
       ],
       "explanation": "Ordre des actions: arrivée, préparation (gâteau et table), arrivée des invités et cadeaux, chant pour s'amuser, puis retour à la maison."
+    },
+    {
+      "id": "comprehension_order-a1-gen-021",
+      "title": "გუშინ ბაზარში",
+      "level_name": "A1",
+      "text": "გუშინ დილით მე ბაზარში წავედი. მე ვყიდულობდი ხილს და ბოსტნეულს. მერე მე სახლში წამოვედი. საღამოს მე ვჭამე ცოცხალი სალათი და გავიხალისდი.",
+      "events": [
+        "La personne est allée au marché le matin.",
+        "Elle a acheté des fruits et des légumes.",
+        "Elle est rentrée à la maison.",
+        "Le soir, elle a mangé une salade et s'est sentie bien."
+      ],
+      "explanation": "L'ordre suit la chronologie : départ le matin, achats pendant le marché, retour à la maison, puis le repas du soir.",
+      "cefr": "A1",
+      "version": 21
+    },
+    {
+      "id": "comprehension_order-a1-gen-022",
+      "title": "ერთი ახალი ჰეიხი",
+      "level_name": "A1",
+      "text": "დღეს მე სამსახურში ახალი ჰეიხი შევხვდი. შემოდგომით ის ახალია. მე მოვიდნენ და ხელი ჩამომართვა. შემდეგ ჩვენ ერთად ყავაზე ვისაუბრეთ.",
+      "events": [
+        "Aujourd'hui, la personne a rencontré une nouvelle collègue au travail.",
+        "La nouvelle collèгә est récemment arrivée (à l'automne).",
+        "La collègue est venue et lui a serré la main.",
+        "Ensuite, ils ont parlé autour d'un café."
+      ],
+      "explanation": "L'ordre décrit la rencontre : le moment (aujourd'hui), précision d'arrivée, salutation, puis discussion au café.",
+      "cefr": "A1",
+      "version": 22
+    },
+    {
+      "id": "comprehension_order-a1-gen-023",
+      "title": "რესტორანში ვახშამი",
+      "level_name": "A1",
+      "text": "შაბათს ღამე მე რესტორანში წავედი. მე გვერდით მჯდომთან ერთად მენიუ ვნახე. მე დავნიშნე პიცა და სალათი. ბოლოს გვქონდა დესერტი და სახლში წავედით.",
+      "events": [
+        "La personne est allée au restaurant samedi soir.",
+        "Elle a regardé le menu avec la personne à côté d'elle.",
+        "Elle a commandé une pizza et une salade.",
+        "Enfin, ils ont pris un dessert et sont rentrés chez eux."
+      ],
+      "explanation": "Les étapes suivent la logique d'un repas : arrivée, lecture du menu, commande, puis dessert et départ.",
+      "cefr": "A1",
+      "version": 23
+    },
+    {
+      "id": "comprehension_order-a1-gen-024",
+      "title": "ბაღში თამაში",
+      "level_name": "A1",
+      "text": "დღეს დილით ბავშვები ბაღში წავიდნენ. ისინი დაიწყეს გადახტომა და ბურთის თამაში. რამდენიმემ წყალი დალია. ბოლოს ისინი სახლში დაბრუნდნენ და დაისვენეს.",
+      "events": [
+        "Ce matin les enfants sont allés au parc.",
+        "Ils ont commencé à sauter et à jouer au ballon.",
+        "Quelques-uns ont bu de l'eau.",
+        "Enfin, ils sont rentrés à la maison et se sont reposés."
+      ],
+      "explanation": "Chronologie simple : arrivée au parc, activités de jeu, hydratation, puis retour et repos.",
+      "cefr": "A1",
+      "version": 24
+    },
+    {
+      "id": "comprehension_order-a1-gen-025",
+      "title": "მთაში გასვლა",
+      "level_name": "A1",
+      "text": "გუშინ ჩვენ მთაში ავდიოდით. დილით ჩვენ მანქანით წავედით. შუადღისთვის ჩვენ მწვერვალთან ვიყავით. ჩვენ ვნახეთ ლამაზი ხედები და მერე ქვემოთ ჩავმოდით ღამით სახლში დავბრუნდით.",
+      "events": [
+        "Ils sont montés à la montagne hier.",
+        "Ils sont partis en voiture le matin.",
+        "Ils étaient au sommet vers midi.",
+        "Ils ont vu de beaux paysages, puis sont redescendus et sont rentrés chez eux la nuit."
+      ],
+      "explanation": "L'ordre suit le déroulement d'une excursion : départ, arrivée au sommet, observation, redescente et retour nocturne.",
+      "cefr": "A1",
+      "version": 25
+    },
+    {
+      "id": "comprehension_order-a1-gen-026",
+      "title": "ახალი წიგნი",
+      "level_name": "A1",
+      "text": "დღეს მე წიგნი ვიყიდე. მე ვხსენი და პირველ თავს წავიკითხე. მერე მე ჩაიცვი და სკოლაში წავედი. საღამოს მე განვაგრძე კითხვა და ძილი არეული მქონდა.",
+      "events": [
+        "Aujourd'hui la personne a acheté un livre.",
+        "Elle l'a ouvert et a lu le premier chapitre.",
+        "Ensuite elle s'est habillée et est allée à l'école.",
+        "Le soir elle a continué la lecture et a eu du mal à dormir."
+      ],
+      "explanation": "Séquence logique : achat du livre, lecture initiale, activité quotidienne (école), puis lecture prolongée le soir affectant le sommeil.",
+      "cefr": "A1",
+      "version": 26
+    },
+    {
+      "id": "comprehension_order-a1-gen-027",
+      "title": "სადილს მომზადება",
+      "level_name": "A1",
+      "text": "დილიდან მე ანიშნა ბოსტნეული და ხორცი. მე დავჭერი ხორცი და ბოსტნეული. შემდეგ მე მოვამზადო კერძი ნელ-უჯრებით და ბოლოს ოჯახთან ერთად ვჭამე სადილი.",
+      "events": [
+        "Le matin la personne a préparé les légumes et la viande.",
+        "Elle a coupé la viande et les légumes.",
+        "Ensuite elle a cuisiné le plat lentement.",
+        "Enfin elle a mangé le dîner avec la famille."
+      ],
+      "explanation": "Ordre de préparation culinaire : préparation des ingrédients, découpe, cuisson, puis repas en famille.",
+      "cefr": "A1",
+      "version": 27
+    },
+    {
+      "id": "comprehension_order-a1-gen-028",
+      "title": "სკოლაში პირველი დღე",
+      "level_name": "A1",
+      "text": "დღეს ჩემი შვილისთვის სკოლაში პირველი დღე იყო. ის ადრე ადგა და ახალ სამოსში გასვლა მოინდომა. მშობლებმა მას ხელი მოხვიეს და სკოლაში წაიყვანეს. ბავშვმა იცნო ახალი მასწავლებელი და მეგობრები და ბედნიერი დაბრუნდა სახლებში.",
+      "events": [
+        "Aujourd'hui c'était le premier jour d'école de l'enfant.",
+        "Il s'est levé tôt et a voulu porter ses nouveaux vêtements.",
+        "Les parents l'ont accompagné et l'ont emmené à l'école.",
+        "L'enfant a rencontré la nouvelle maîtresse et des amis, puis est rentré heureux à la maison."
+      ],
+      "explanation": "Déroulement naturel du premier jour : réveil et préparation, départ accompagné par les parents, rencontre à l'école, retour heureux.",
+      "cefr": "A1",
+      "version": 28
+    },
+    {
+      "id": "comprehension_order-a1-gen-029",
+      "title": "ფარეხის შეკეთება",
+      "level_name": "A1",
+      "text": "გუშინ საღამოს ჩვენ ფარეს შეკეთება დავიწყეთ. მამამ მოიტანა იარაღი და მე მას მივეხმარე. ჩვენ შევაკეთეთ კარები და სახურავი. დღეს დილით ყველა იარაღი დავალაგეთ და ფარეხი მართკუთხა იყო.",
+      "events": [
+        "Hier soir ils ont commencé à réparer la cabane.",
+        "Le père a apporté des outils et la personne l'a aidé.",
+        "Ils ont réparé la porte et le toit.",
+        "Ce matin ils ont rangé les outils et la cabane était en bon état."
+      ],
+      "explanation": "Suite logique d'une réparation : début des travaux, apport d'outils et aide, réparation des éléments, rangement et résultat le matin suivant.",
+      "cefr": "A1",
+      "version": 29
+    },
+    {
+      "id": "comprehension_order-a1-gen-030",
+      "title": "პარკში პიკნიკი",
+      "level_name": "A1",
+      "text": "კვირას ჩვენ პარკში პიკნიკი მოვახდინეთ. დილით ვართა ქოლა და საკვები. შუადღით ჩვენ ჭამა და დიდი სეირნობა გვქონდა. შემდეგ ბავშვები ძაღლთან თამაშობდნენ და საღამოს ჩვენ სახლში დავბრუნდით.",
+      "events": [
+        "Dimanche ils ont fait un pique-nique au parc.",
+        "Le matin ils ont préparé la couverture et la nourriture.",
+        "À midi ils ont mangé et ont fait une grande promenade.",
+        "Ensuite les enfants ont joué avec un chien et le soir ils sont rentrés chez eux."
+      ],
+      "explanation": "Chronologie d'un pique-nique : préparation le matin, repas et promenade à midi, jeux ensuite, puis retour le soir.",
+      "cefr": "A1",
+      "version": 30
+    },
+    {
+      "id": "comprehension_order-a1-gen-011",
+      "title": "გიორგი შენობაში შედის",
+      "level_name": "A1",
+      "text": "დღეს დილით გიორგი მუშაობის შენობაში მიდის. მან კარი გააღო და ლიფტით მეოთხე სართულზე ავიდა. ოფისში მისულმა მეგობრებს დაურეკა და კომპიუტერი ჩართო. შუადღისას მან ლანჩი ოფისთან ახლოს ჭამა.",
+      "events": [
+        "გიორგი მუშაობის შენობაში მიდის.",
+        "გიორგი კარი გააღო და ლიფტით ავიდა.",
+        "გიორგი მეგობრებს დაურეკა და კომპიუტერი ჩართო.",
+        "გიორგი შუადღისას ლანჩს ჭამა."
+      ],
+      "explanation": "ზუსტად ასე მოხდა: წასვლა, შენობაში შესვლა და лифтით ასვლა, ოფისში მუშაობა და ბოლოს ლანჩი.",
+      "cefr": "A1",
+      "version": 11
+    },
+    {
+      "id": "comprehension_order-a1-gen-012",
+      "title": "ანა ბაზარში იყიდის",
+      "level_name": "A1",
+      "text": "გუშინ ანა ბაზარში წავიდა. ის ახალი ფორთოხალი და პური შეიძინა. შემდეგ ის სახლში დაბრუნდა და ოჯახთან ერთად საჭმელი მოამზადა. საღამოს ანა დაისვენა და წიგნი წაიკითხა.",
+      "events": [
+        "ანა ბაზარში წავიდა.",
+        "ანა ფორთოხალი და პური შეიძინა.",
+        "ანა სახლში დაბრუნდა და საჭმელი მოამზადა.",
+        "ანა საღამოს დაისვენა და წიგნი წაიკითხა."
+      ],
+      "explanation": "შემთხვევები ქრონოლოგიურად მიდის: ბაზარში წასვლა, ყიდვა, სახლში დაბრუნება და დასვენება.",
+      "cefr": "A1",
+      "version": 12
+    },
+    {
+      "id": "comprehension_order-a1-gen-013",
+      "title": "მეგა და მისი ძაღლი",
+      "level_name": "A1",
+      "text": "დილით მეგა ძაღლს ველზე აცვია. ისინი დაახლოებით შვიდ საათზე გაბრბობენ. მერე მეზობლებმა მოიკითხეს და სახლში დაბრუნდნენ. მეზობლებთან საუბრის შემდეგ მეგა შხაპს იღებს.",
+      "events": [
+        "მეგა ძაღლს აცვია და ველზე გადის.",
+        "მეგა და ძაღლი გაბრბობენ.",
+        "მეგა მეზობლებთან საუბრობს.",
+        "მეგა შხაპს იღებს."
+      ],
+      "explanation": "დროები ამოწმებს თანმიმდევრობას: წასვლა, სირბილი, შეხვედრა მეზობლებთან და შემდეგ შხაპი.",
+      "cefr": "A1",
+      "version": 13
+    },
+    {
+      "id": "comprehension_order-a1-gen-014",
+      "title": "კლასში ახალი მასალა",
+      "level_name": "A1",
+      "text": "დღეს სკოლაში ახალი მასალა გვაქვს. მასწავლებელი დაფასთან გაჩერდა და წესებს აუხსნა. გარეგანი სავარჯიშოები ჩააბარეს და ბავშრები ერთმანეთს დაეხმარნენ. გაკვეთილის შემდეგ ყველა სახლში წავიდა.",
+      "events": [
+        "სკოლაში ახალი მასალა აქვს.",
+        "მასწავლებელი წესებს აუხსნა დაფასთან.",
+        "ბავშვებმა სავარჯიშოები გაიარეს და ერთმანეთს დაეხმარნენ.",
+        "გაკვეთილის შემდეგ ბავშვები სახლში წავიდნენ."
+      ],
+      "explanation": "შემთხვევები ხდება კლასში: გაკვეთილი იწყება, წესების ახსნა, ვარჯიში და გაკვეთილის დასრულება.",
+      "cefr": "A1",
+      "version": 14
+    },
+    {
+      "id": "comprehension_order-a1-gen-015",
+      "title": "მარიამ და ავტობუსი",
+      "level_name": "A1",
+      "text": "მარიამ სკოლიდან გამოვიდა და ავტობუსს დაელოდა. ავტობუსმა რამდენიმე წუთში გაჩერდა და მარიამმა ბილეთი აჩვენა. ავტობუსში ის დაჯდა და ფანჯარიდან ქუჩას უყურებდა. ბოლოს მარიამ თავის გაჩერებაზე ჩამოვიდა და სახლში წავიდა.",
+      "events": [
+        "მარიამ სკოლიდან გამოვიდა და ავტობუსს დაელოდა.",
+        "ავტობუსი გაჩერდა და მარიამმა ბილეთი აჩვენა.",
+        "მარიამ ავტობუსში დაჯდა და ქუჩას უყურებდა.",
+        "მარიამ თავის გაჩერებაზე ჩამოვიდა და სახლში წავიდა."
+      ],
+      "explanation": "ქცევა ერთმანეთს მიყოლებით: საწყისი წერტილი, ავტობუსის ჩასმა, მგზავრობა და ჩამოსვლა.",
+      "cefr": "A1",
+      "version": 15
+    },
+    {
+      "id": "comprehension_order-a1-gen-016",
+      "title": "პარასკევი ბაზრობაზე",
+      "level_name": "A1",
+      "text": "პარასკევს სოფლის ბაზრობა იდგა. ლუკამ სტალზე ფუშფუშა შესცა და მწვანილი იყიდა. ამის შემდეგ ის მეგობრებთან მოკლე შეხვედრას ჰქონდათ და ყავა სვეს. საღამოს ლუკა საცხოვრებლად დაბრუნდა.",
+      "events": [
+        "სოფლის ბაზრობა გაიმართა.",
+        "ლუკა სტალზე შევიდა და მწვანილი იყიდა.",
+        "ლუკა მეგობრებთან მოკლე შეხვედრა მოაწყო და ყავა სვეს.",
+        "ლუკა საღამოს დაბრუნდა."
+      ],
+      "explanation": "ბაზრობის დაწყება, შეძენა, შეხვედრა მეგობრებთან და დაბრუნება არის ბუნებრივი თანმიმდევრობა.",
+      "cefr": "A1",
+      "version": 16
+    },
+    {
+      "id": "comprehension_order-a1-gen-017",
+      "title": "ზაფხულის სეირნობა",
+      "level_name": "A1",
+      "text": "მზე მუშაობის დღის შემდეგ მალე ჩადის. გეგამ მეგობრებთან ერთად პარკში გაიარა. ისინი სკამზე დაჯდნენ და ნაყინს ჭამდნენ. საღამემდე მათ ბილიკზე გაუშვეს პატარა თამაში და შემდეგ სახლში წავიდნენ.",
+      "events": [
+        "მზე მალე დაიშვა სამუშაოს შემდეგ.",
+        "გეგა და მეგობრები პარკში წავიდნენ.",
+        "ისინი სკამზე დაჯდნენ და ნაყინს ჭამდნენ.",
+        "გეგა და მეგობრები მიუერთდნენ თამაშს და შემდეგ სახლში გაემართნენ."
+      ],
+      "explanation": "პირველი დროის მარკერი, შემდეგ წასვლა პარკში, სხდომა და ნაყინის ჭამა, ბოლოს თამაში და სახლში წასვლა.",
+      "cefr": "A1",
+      "version": 17
+    },
+    {
+      "id": "comprehension_order-a1-gen-018",
+      "title": "თინა და წიგნი",
+      "level_name": "A1",
+      "text": "დღეს საღამოს თინამ ახალი წიგნი გახსნა. მან თავი კითხვა დაიწყო და პირველი თავი სწრაფად დასრულა. შემდეგ ის ოთახში სინათლეს ჩააქრო და ძილი მოიწყვა. დილით თინა წიგნს ისევ განაგრძობს.",
+      "events": [
+        "თინა ახალ წიგნს გახსნის საღამოს.",
+        "თინა პირველ თავს წაიკითხავს.",
+        "თინა სინათლეს ჩააქრობს და დაიძინებს.",
+        "თინა დილით კვლავ გაუზიარებს წიგნს."
+      ],
+      "explanation": "საქმეები ასაკობრივად მოვლენენ: საღამოს კითხვა, დასვენება და წიგნის განახლება დილით.",
+      "cefr": "A1",
+      "version": 18
+    },
+    {
+      "id": "comprehension_order-a1-gen-019",
+      "title": "პოლიციის ოფისი ახლოსაა",
+      "level_name": "A1",
+      "text": "დღეს შუადღეს მარკოს სახლში შეატყობინა, რომ პოლიციის ოფისი ახლოს მდებარეობს. მარკომ ქუჩის ბოლოში მოძებნა და თანამშრომლებთან მოკლე კითხვა გაუკეთა. თანამშრომლებმა გზის რაღაც ნაწილი აჩვენეს და მარკო შინ დაბრუნდა. სახლში რომ დაბრუნდა, მან მეგობარს ტელეფონით უთხრა.",
+      "events": [
+        "მარკოს შეატყობინეს, რომ პოლიციის ოფისი ახლოს არის.",
+        "მარკო ოფისს ეძებს ქუჩის ბოლოში.",
+        "მარკო თანამშრომლებთან მოკლე საუბარს მართავს.",
+        "მარკო სახლში დაბრუნდება და მეგობარს დაურეკავს."
+      ],
+      "explanation": "ინფორმაციის მიღება, ოფისის ძებნა, საუბარი პოლიციელებთან და შემდეგ სახლში დაბრუნება/დაუკავშირდეს მეგობარს არის თანმიმდევრული.",
+      "cefr": "A1",
+      "version": 19
+    },
+    {
+      "id": "comprehension_order-a1-gen-020",
+      "title": "ბავშვთა პარკში თამაში",
+      "level_name": "A1",
+      "text": "სანამ მამა სამსახურში წავიდა, ბავშვებმა პარკში თამაში სურდათ. პატარა ნიკა პირველი ბაქანზე ავიდა და რბოლა დაიწყო. შემდეგ ბავშვებმა ერთად თავის სათამაშოები გაუყოლეს და ცერემონია მოაწყვეს. საღამოს ისინი დაღლილები სახლში დაბრუნდნენ და თამაშთან დაკავშირებით დედას სთხოვეს წყლის ჭურჭელი გარეცხა.",
+      "events": [
+        "ბავშვებმა პარკში წასვლა და თამაში გადაწყვიტეს.",
+        "ნიკა ბაქანზე ავიდა და რბოლა დაიწყო.",
+        "ბავშვები ერთად სათამაშოებს გაუყოლეს და ცერემონია მოაწყვეს.",
+        "ბავშვები დაღლილები სახლში დაბრუნდნენ და დედას რამე სთხოვეს."
+      ],
+      "explanation": "პირველი გადაწყვეტილება ითვალისწინებს წასვლას, შემდეგ ინტერაქციები (რბოლა, თამაში), და ბოლოს დაბრუნება და დახმარების მოთხოვნა.",
+      "cefr": "A1",
+      "version": 20
+    },
+    {
+      "id": "comprehension_order-a1-gen-031",
+      "title": "დილა და ყავა",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 31,
+      "text": "ცოტა ადრე მივიღე ხმოვანი სიგნალი. ავდექი და ჩაიქფი გავაკეთე. შემდეგ ფანჯარასთან წავედი და გავხსენი ჟალუზები. მზემ გადმოდიოდა და დილის შუქი იყო. ბოლოს მე ყავას მოვსვი და ვჭამე ყველი და პური.",
+      "events": [
+        "Le réveil a sonné.",
+        "La personne s'est levée et a préparé du thé.",
+        "Elle est allée à la fenêtre et a ouvert les volets.",
+        "Elle a bu du café et a mangé du pain avec du fromage."
+      ],
+      "explanation": "Les événements suivent l'ordre chronologique du matin: réveil, se lever et préparer une boisson, aller à la fenêtre, puis manger et boire."
+    },
+    {
+      "id": "comprehension_order-a1-gen-032",
+      "title": "სკოლაში წასვლა",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 32,
+      "text": "მე ამ ფორმით ვდგები ყოველდღე: პირველ რიგში ვჭამ უცველი ფაფას. ნახევარ საათში მე ვსწავლობ ტემინებს და ვსწორებ ჩანაწერებს. შემდეგ მე ვივლი სკოლაში ფეხით და ვხვდები ჩემს მეგობრებს. სკოლაში მე ვსწავლობ ქართულს და მათემატიკას. საღამოს მე ვბრუნდები სახლში და ვმეცადინეობ.",
+      "events": [
+        "La personne a mangé de la bouillie le matin.",
+        "Elle a étudié des leçons et relu ses notes pendant une demi-heure.",
+        "Elle est allée à l'école à pied et a rencontré des amis.",
+        "À l'école elle a étudié le géorgien et les mathématiques.",
+        "Le soir elle est rentrée à la maison et a fait ses devoirs."
+      ],
+      "explanation": "Le récit suit la journée: petit-déjeuner, étude matinale, déplacement vers l'école, activités scolaires, puis retour et révision le soir."
+    },
+    {
+      "id": "comprehension_order-a1-gen-033",
+      "title": "სასურსათო მაღაზიაში",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 33,
+      "text": "დღეს ბაზარში მივედი. მე მომხიბლა ახალი ხილი. ჯერ ვნახე ხორბალი, შემდეგ ვყიდულობდი ბრინჯს. შემდეგ მე მივედი ხილის სტენდთან და ვიყიდე ბანანი და ვაშლი. ბოლოს გავიხადე თანხა და სახლში დავბრუნდი.",
+      "events": [
+        "La personne est allée au marché.",
+        "Elle a vu d'abord du blé puis acheté du riz.",
+        "Elle est allée au stand de fruits.",
+        "Elle a acheté des bananes et des pommes.",
+        "Elle a payé et est rentrée chez elle."
+      ],
+      "explanation": "Ordre logique des actions au magasin: arriver, regarder/choisir produits, acheter fruits, payer et rentrer."
+    },
+    {
+      "id": "comprehension_order-a1-gen-034",
+      "title": "ბიბლიოთეკა",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 34,
+      "text": "გვიანღა მითხრეს, რომ ბიბლიოთეკა იხსნება. მე ავიღე ჩემი ჩანთა და წავედი. ბიბლიოთეკაში შევედი და მივრისხე წიგნებს. მე ვიპოვე სასიამოვნო ზღაპარი და დავჯექი კუთხეში. ბოლოს იქვე დავჯავშნე წიგნი და წაკითხვის შემდეგ დავბრუნდი სახლში.",
+      "events": [
+        "On a dit que la bibliothèque ouvrait bientôt.",
+        "La personne a pris son sac et est partie.",
+        "Elle est entrée à la bibliothèque et a cherché des livres.",
+        "Elle a trouvé un conte et s'est assise pour le lire.",
+        "Elle a emprunté le livre et est rentrée chez elle après la lecture."
+      ],
+      "explanation": "Suite : information d'ouverture, départ, recherche de livres, lecture sur place, emprunt et retour."
+    },
+    {
+      "id": "comprehension_order-a1-gen-035",
+      "title": "წვიმა და პარკი",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 35,
+      "text": "დღეს დილით ცა იყო მოღრუბლული და წვიმა დაიწყო. მე ვიმოსე ქურთუკი და ავიღე ქოლგა. მე გადავედი პარკში რათა ვიარე იმ ადგილას. პარკში მრავალი ადამიანი იყო და ზოგი წვიმის ქვეშ ეწეოდა. როცა წვიმა შეწყდა, მე დავჯექი სკამზე და ვნახე ლამაზი მყინვარები.",
+      "events": [
+        "Le ciel était nuageux et il a commencé à pleuvoir.",
+        "La personne a mis une veste et pris un parapluie.",
+        "Elle est allée se promener dans le parc.",
+        "Il y avait beaucoup de gens dans le parc, certains sous la pluie.",
+        "Quand la pluie a cessé, elle s'est assise sur un banc et a regardé."
+      ],
+      "explanation": "Ordre simple et temporel: météo, préparation, promenade, observation des gens, fin de la pluie et repos."
+    },
+    {
+      "id": "comprehension_order-a1-gen-036",
+      "title": "შეკვეთა რესტორანში",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 36,
+      "text": "მე შევედი პატარა რესტორანში. მიმტანი მოდის და მეკითხება მენიუს შესახებ. ჯერ მე შევუკვეთე სუპი, შემდეგ კიტრის სალათი და ბოლოს წყალი. საკვების შემდეგ მე გადავიხადე ანგარიში. მე მადლობა ვუთხარი და გამოვედი ელეორატორში.",
+      "events": [
+        "La personne est entrée dans un petit restaurant.",
+        "Le serveur est venu et a demandé la commande.",
+        "Elle a commandé d'abord une soupe, puis une salade et enfin de l'eau.",
+        "Après le repas, elle a payé l'addition.",
+        "Elle a remercié et est sortie."
+      ],
+      "explanation": "Succession dans un repas: entrée au restaurant, prise de commande, plats commandés dans l'ordre, paiement, départ."
+    },
+    {
+      "id": "comprehension_order-a1-gen-037",
+      "title": "მედიკამენტები",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 37,
+      "text": "გუშინ მე გავცანი სიცხე და ვაკითხე ექიმს. ექიმმა შემომთავაზა დასაძინებლად წამალი და სინჯები. მე წავედი აფთიაქში და ვიყიდე რჩევა წამალი. შემდეგ სახლში დავრჩი და დავიღალე, დავწექი საწოლზე და დავისვენე. დღეს მე გაცილებით უკეთ ვგრძნობ.",
+      "events": [
+        "La personne a eu de la fièvre hier et a consulté un médecin.",
+        "Le médecin a prescrit un médicament et des tests.",
+        "Elle est allée à la pharmacie et a acheté le médicament.",
+        "Elle est restée à la maison, s'est couchée et s'est reposée.",
+        "Aujourd'hui elle se sent beaucoup mieux."
+      ],
+      "explanation": "Ordre médical: symptômes, visite chez le médecin, prescription, achat du médicament, repos et amélioration."
+    },
+    {
+      "id": "comprehension_order-a1-gen-038",
+      "title": "ახალ წელს ჩვენ ერთად",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 38,
+      "text": "ახალ წელს ჩვენ სახლში შეკრებილი შევხვდით. ჯერ შვილებმა მორთეს ნაძვის ხე. შემდეგ ჩვენ ვსვამდით ცხინვარე ჩაი და ვჭამდით ტკბილეულს. ღამის დროზე ჩვენ ვნახეთ ფეიერვერკი. წინა დღეს ჩვენ ერთმანეთს ვუსურვეთ ნება და წავედით საჩუქრებზე.",
+      "events": [
+        "La famille s'est réunie à la maison pour le Nouvel An.",
+        "Les enfants ont décoré d'abord le sapin.",
+        "Ils ont bu du thé chaud et mangé des sucreries.",
+        "La nuit ils ont regardé les feux d'artifice.",
+        "La veille, ils se sont souhaité du bien et offert des cadeaux."
+      ],
+      "explanation": "Chronologie des célébrations: réunion, décoration, repas, feu d'artifice, souhaits et échanges de cadeaux (actions proches et liées à la fête)."
+    },
+    {
+      "id": "comprehension_order-a1-gen-039",
+      "title": "სახლში მერვე დღე",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 39,
+      "text": "მე გადავწყვიტე სახლში დავრჩე შაბათს. დილით გავართვი ოთახი და დავგდე როხები. შუადღეს მე მოვამზადო ჭამა და დავჭამე. შემდეგ მე ვნახე ფილმი და გამოვიყავი ბაღში მზეზე. საღამოს მე გადავწყვიტე ძილი და მალე დავიძინე.",
+      "events": [
+        "La personne a décidé de rester à la maison samedi.",
+        "Elle a nettoyé la chambre le matin et rangé les vêtements.",
+        "À midi elle a cuisiné et mangé.",
+        "L'après-midi elle a regardé un film et est sortie au jardin pour le soleil.",
+        "Le soir elle a décidé d'aller dormir et s'est couchée tôt."
+      ],
+      "explanation": "Ordre temporel de la journée à la maison: décision, ménages matinaux, repas de midi, activités de l'après-midi, coucher tôt."
+    },
+    {
+      "id": "comprehension_order-a1-gen-040",
+      "title": "რაღაც ახალი ენას სწავლა",
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 40,
+      "text": "მე გავხსენი წიგნი და დავიწყე ახალი ენის სწავლის. ჯერ მე ვისწავლე აბუვა და ძირითადი სიტყები. შემდეგ მე ვცდილობდი პატარა დიალოგების კითხვა და გამეორებას. ყოველდღე მე ვმეცადინეობ წაკითხვაზე და საუბარზე. რამდენიმე თვეში მე შემიძლია მოკლე წინადადებები ვთქვა.",
+      "events": [
+        "La personne a ouvert un livre et commencé à apprendre une nouvelle langue.",
+        "Elle a d'abord appris l'alphabet et des mots de base.",
+        "Ensuite elle a essayé de lire et répéter de petits dialogues.",
+        "Chaque jour elle a travaillé la lecture et l'expression orale.",
+        "Au bout de quelques mois elle peut dire de courtes phrases."
+      ],
+      "explanation": "Progression logique de l'apprentissage: ouverture du livre, apprentissage de l'alphabet et vocabulaire, pratique de dialogues, exercice quotidien, amélioration après quelques mois."
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "cefr": "C1",
+  "items": [
+    {
+      "id": "reading_guided-c1-gen-002",
+      "level": 5,
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 2,
+      "text": "რამდენიმე წლის წინ ჩემმა მეგობრებმა გადაწყვიტეს ყოველწლიური შეხვედრა გაემეორებინათ. მათ სურდათ, რომ ყველა წარსულის საკითხი გამოესწორებინათ და ერთიანი აზრი მოეპოვებინათ, მაგრამ მე ვერ ვხედავდი საერთო ღირებულებებს, რომლებიც ადრე გვაკავშირებდა. არ ვგულისხმობ მხოლოდ შეხედულებების ისე-მეთქი განსხვავებას, არამედ ძირითადი პრიორიტეტების კვდომას. ამიტომ თავური გადაწყვეტილება მივიღე და უარი ავცი დასწრებაზე.",
+      "question": "Pourquoi le narrateur a-t-il refusé d'aller à la réunion ?",
+      "options": [
+        "Parce qu'il habitait trop loin.",
+        "Parce qu'il ne reconnaissait plus les mêmes valeurs qui les réunissaient auparavant.",
+        "Parce qu'il était débordé par le travail.",
+        "Parce qu'il voulait éviter une confrontation personnelle."
+      ],
+      "answer": "Parce qu'il ne reconnaissait plus les mêmes valeurs qui les réunissaient auparavant.",
+      "translation": "Il y a quelques années, mes amis ont décidé de reprendre une réunion annuelle. Ils voulaient réparer toutes les affaires du passé et parvenir à un avis commun, mais je ne voyais pas les valeurs communes qui nous reliaient autrefois. Je ne parle pas seulement d'une différence d'opinions, mais de la disparition des priorités fondamentales. C'est pourquoi j'ai pris ma propre décision et refusé d'y assister.",
+      "explanation": "Le texte dit explicitement qu'il ne voyait plus les« საერთო ღირებულებები » (valeurs communes) qui les reliaient autrefois, et que pour cette raison il a décidé de ne pas participer. Les autres options ne sont pas mentionnées dans le texte."
+    },
+    {
+      "id": "reading_guided-c1-gen-003",
+      "level": 5,
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 3,
+      "text": "ქალაქმა, სადაც ვცხოვრობ, ცოტა ხნის წინ საცობების შემცირების მიზნით ცენტრალურ უბანში ტრანსპორტის შეზღუდვები შემოიღო. თავდაპირველად მოვაჭრეებმა ჩივილი დაიწყეს, თვლიდნენ, რომ პერსპექტიული კვება შემცირდებოდა. სამი თვე გავიდა და აღმოჩნდა, რომ ფეხით მოსიარულეთა ნაკადი გაიზარდა, არამედ მცირე მაღაზიების მიმოსვლა მხოლოდ ფიზიკურად არ შემცირებულა, არამედ სხვა სერვისების მიმართ ინტერესი მოიმატა. შედეგად მოვაჭრეების შემოსავალი სტაბილურად მოიმატა და ქალაქის დაბალი აეკო-პლანები პოპულარობა მოიპოვა.",
+      "question": "Que constate-t-on après la mise en place des restrictions de transport ?",
+      "options": [
+        "Le nombre de piétons a diminué.",
+        "Les petits commerces ont vu leurs revenus augmenter.",
+        "Les commerçants ont cessé de se plaindre immédiatement.",
+        "La ville a renoncé à ses plans écologiques."
+      ],
+      "answer": "Les petits commerces ont vu leurs revenus augmenter.",
+      "translation": "La ville où je vis a récemment instauré des restrictions de transport dans le centre pour réduire les embouteillages. Au début, les commerçants ont commencé à se plaindre, pensant que leur clientèle potentielle diminuerait. Trois mois plus tard, il s'est avéré que le flux de piétons avait augmenté, et la fréquentation des petits magasins n'avait pas seulement diminué physiquement, mais l'intérêt pour d'autres services avait augmenté. En conséquence, les revenus des commerçants ont augmenté de façon stable et les petits plans éco de la ville ont gagné en popularité.",
+      "explanation": "Le texte indique qu'après trois mois « მოვაჭრეების შემოსავალი სტაბილურად მოიმატა » (les revenus des commerçants ont augmenté de manière stable). L'option correcte reflète cette observation. Les autres options contredisent le texte."
+    },
+    {
+      "id": "reading_guided-c1-gen-004",
+      "level": 5,
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 4,
+      "text": "კვლევითი ჯგუფის მეთაურული გამოცდილებამ დამარწმუნა, რომ კვლევაში წარმატება არა მხოლოდ მონაცემების მყარი ანალიზით, არამედ უპირველეს ყოვლისა მოზომილი საწყისი პრინციპებით და კოლეგებთან ღია დისკუსიით იზომება. ნებისმიერი ჰიპოთეზა შეიძლება შეიცვალოს ახალ ექსპერიმენტულ შედეგებთან კავშირში, ამიტომ თავმდაბლობაა მნიშვნელოვანი — მან არ დაგიშვას საკუთარ შეხედულებებს ღრმა კითხვის გარეშე წამოჭრას. როდესაც ჯგუფი მზადაა გაუზიაროს შეცდომები და მისწავლები — პროგრესი გამაოგნებელია.",
+      "question": "Quelle qualité l'auteur juge essentielle au progrès scientifique ?",
+      "options": [
+        "Une confiance inébranlable en ses hypothèses.",
+        "La modestie et la disposition à partager erreurs et apprentissages.",
+        "L'isolement pour éviter les critiques extérieures.",
+        "La rapidité à publier des résultats avant vérification."
+      ],
+      "answer": "La modestie et la disposition à partager erreurs et apprentissages.",
+      "translation": "L'expérience en tant que chef d'un groupe de recherche m'a convaincu que le succès en recherche se mesure non seulement par une analyse solide des données, mais surtout par des principes initiaux mesurés et par une discussion ouverte avec des collègues. Toute hypothèse peut être modifiée en lien avec de nouveaux résultats expérimentaux, c'est pourquoi l'humilité est importante — elle ne m'a pas permis d'imposer mes propres points de vue sans interrogation approfondie. Lorsque le groupe est prêt à partager ses erreurs et ses apprentissages, le progrès est étonnant.",
+      "explanation": "L'auteur affirme que « თავმდაბლობაა მნიშვნელოვანი » (l'humilité est importante) et insiste sur le partage des erreurs et des leçons (« ჯგუფი მზადაა გაუზიაროს შეცდომები და მისწავლები »). Ces éléments justifient que la modestie et la disposition à partager soient essentielles. Les autres options sont contredites par le texte."
+    }
+  ]
+}

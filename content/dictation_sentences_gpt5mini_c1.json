@@ -112,6 +112,345 @@
         "თუ მისი არგუმენტაციის ერთი წინადადებით ჩამოყალიბება მოგვიწიოს, ის იქნებოდა: თანმიმდევრობა ორიგინალურობაზე უფრო მნიშვნელოვანია."
       ],
       "note": "hypothèse conditionnelle + style synthétique ; comparaison « უფრო მნიშვნელოვანია » pour « prime sur ». "
+    },
+    {
+      "id": "dictation_sentences-c1-gen-011",
+      "fr": "Bien qu'il ait soutenu le contraire, elle continua d'exprimer ses doutes avec une feinte indifférence.",
+      "ka": "მიუხედავად იმისა, რომ ის საპირისპიროს აცხადებდა, მან მაინც განაგრძო ეჭვების გამოთქმა წარმოსახვითი გულგრილების ტონით.",
+      "answers": [
+        "მიუხედავად იმისა, რომ ის საპირისპიროს აცხადებდა, მან მაინც განაგრძო ეჭვების გამოთქმა წარმოსახვითი გულგრილების ტონით."
+      ],
+      "note": "Usage de «მიუხედავად იმისა, რომ» pour la concession ; «გამოთქმა» = exprimer; registre soutenu.",
+      "cefr": "C1",
+      "version": 11
+    },
+    {
+      "id": "dictation_sentences-c1-gen-012",
+      "fr": "Il m'a dit qu'il viendrait si les circonstances le permettaient, mais au fond il doutait de pouvoir se libérer.",
+      "ka": "მითხრა, რომ მოვიდოდა, თუკი პირობები ხელს შეუწყობდა, თუმცა გულის სიღრმეში ეჭვობდა, შეძლებდა თუ არა თავის გათავისუფლებას.",
+      "answers": [
+        "მითხრა, რომ მოვიდოდა, თუკი პირობები ხელს შეუწყობდა, თუმცა გულის სიღრმეში ეჭვობდა, შეძლებდა თუ არა თავის გათავისუფლებას."
+      ],
+      "note": "Discours rapporté au passé avec subordonnée conditionnelle «თუკი» et tournure interrogative indirecte.",
+      "cefr": "C1",
+      "version": 12
+    },
+    {
+      "id": "dictation_sentences-c1-gen-013",
+      "fr": "L'université a demandé aux candidats de justifier leur projet professionnel en répondant à des questions précises, ce qui a permis de distinguer les plus motivés.",
+      "ka": "უნივერსიტეტმა კონკურსანტებს მოთხოვნით გაუგზავნა საკუთარი პროფესიული გეგმის სამართლიანობის გამართლების მოთხოვნა კონკრეტულ კითხვებზე პასუხის გაცმით, რაც შესაძლებ გახადა გამოეყო ყველაზე მოტივირებული კანდიდატები.",
+      "answers": [
+        "უნივერსიტეტმა კონკურსანტებს მოთხოვნით გაუგზავნა საკუთარი პროფესიული გეგმის სამართლიანობის გამართლების მოთხოვნა კონკრეტულ კითხვებზე პასუხის გაცმით, რაც შესაძლებ გახადა გამოეყო ყველაზე მოტივირებული კანდიდატები."
+      ],
+      "note": "Phrase complexe : subordination de but/conséquence («რაც...») et nominalisations.",
+      "cefr": "C1",
+      "version": 13
+    },
+    {
+      "id": "dictation_sentences-c1-gen-014",
+      "fr": "Tout en reconnaissant les progrès accomplis, le rapport souligne néanmoins les lacunes persistantes dans la mise en œuvre des réformes.",
+      "ka": "მიუხედავად მიღწეულ პროგრესის აღიარებისა, ანგარიში მაინც ხაზს უსვამს რეფორმების განხორციელების არსებულ ხარვეზებს.",
+      "answers": [
+        "მიუხედავად მიღწეულ პროგრესის აღიარებისა, ანგარიში მაინც ხაზს უსვამს რეფორმების განხორციელების არსებულ ხარვეზებს."
+      ],
+      "note": "Construction concessive + verbe à la troisième personne pour le commentaire institutionnel.",
+      "cefr": "C1",
+      "version": 14
+    },
+    {
+      "id": "dictation_sentences-c1-gen-015",
+      "fr": "Elle évoqua, avec une précision qui trahissait une longue observation, les comportements convergents des espèces en milieu urbain.",
+      "ka": "მას გაუხსენდა, დიდი გრამატიკით რომ ამჟღავნებდა დიდხანს დაკვირვების შემდეგ, ურბანულ გარემოში სახეობათა ერთმანეთთან დამსგავსებული ქცევები.",
+      "answers": [
+        "მას გაუხსენდა, დიდი გრამატიკით რომ ამჟღავნებდა დიდხანს დაკვირვების შემდეგ, ურბანულ გარემოში სახეობათა ერთმანეთთან დამსგავსებული ქცევები."
+      ],
+      "note": "Vocabulaire scientifique et tournures participiales ; «გაუხსენდა» utilisé pour «évoqua» (registre narratif).",
+      "cefr": "C1",
+      "version": 15
+    },
+    {
+      "id": "dictation_sentences-c1-gen-016",
+      "fr": "Pour peu que l'on examine les chiffres de près, il apparaît que la tendance à long terme diffère sensiblement des fluctuations saisonnières.",
+      "ka": "თუ რიცხვებს ცოტათი დეტალურად დავაკვირდებით, ირკვევა, რომ გრძელვადიანი ტენდენცია მნიშვნელოვნად განსხვავდება სეზონური რყევებისგან.",
+      "answers": [
+        "თუ რიცხვებს ცოტათი დეტალურად დავაკვირდებით, ირკვევა, რომ გრძელვადიანი ტენდენცია მნიშვნელოვნად განსხვავდება სეზონური რყევებისგან."
+      ],
+      "note": "Condition «Pour peu que» rendu par «თუ ... დავაკვირდებით» ; opposition entre tendance et fluctuations.",
+      "cefr": "C1",
+      "version": 16
+    },
+    {
+      "id": "dictation_sentences-c1-gen-017",
+      "fr": "Ils ont proposé de reporter la décision, invoquant la nécessité de consulter des experts indépendants avant toute mesure définitive.",
+      "ka": "ისინი მოითხოვეს გადაწყვეტილების გადადება, ამყარებდნენ არგუმენტად დამოუკიდებელი ექსპერტების კონსულტაციის აუცილებლობას ნებისმიერი საბოლოო ზომის მიღებამდე.",
+      "answers": [
+        "ისინი მოითხოვეს გადაწყვეტილების გადადება, ამყარებდნენ არგუმენტად დამოუკიდებელი ექსპერტების კონსულტაციის აუცილებლობას ნებისმიერი საბოლოო ზომის მიღებამდე."
+      ],
+      "note": "Verbes factitifs et subordination de but/temps ; registre formel administratif.",
+      "cefr": "C1",
+      "version": 17
+    },
+    {
+      "id": "dictation_sentences-c1-gen-018",
+      "fr": "Il faudrait admettre, même à contrecœur, que certaines pratiques traditionnelles ne résistent pas aux exigences contemporaines.",
+      "ka": "მართებულად იქნებოდა აღიარება, თუნდაც უკმაყოფილებით, რომ ზოგიერთი ტრადიციული პრაქტიკა ვერ უძლებს თანამედროვეობის მოთხოვნებს.",
+      "answers": [
+        "მართებულად იქნებოდა აღიარება, თუნდაც უკმაყოფილებით, რომ ზოგიერთი ტრადიციული პრაქტიკა ვერ უძლებს თანამედროვეობის მოთხოვნებს."
+      ],
+      "note": "Conditionnel modalisé «Il faudrait» rendu par périphrase impersonnelle ; nuance de concession.",
+      "cefr": "C1",
+      "version": 18
+    },
+    {
+      "id": "dictation_sentences-c1-gen-019",
+      "fr": "Le conférencier rappela que la critique constructive suppose d'abord une écoute attentive avant de formuler des objections pertinentes.",
+      "ka": "მონაწილემ შეახსენა აუდიტორიას, რომ აჯანსაღებელი კრიტიკა მოითხოვს პირველ რიგში ყურადღების გატანას, შემდეგ კი დასაბუთებული პრეტენზიების გამოთქმას.",
+      "answers": [
+        "მონაწილემ შეახსენა აუდიტორიას, რომ აჯანსაღებელი კრიტიკა მოითხოვს პირველ რიგში ყურადღების გატანას, შემდეგ კი დასაბუთებული პრეტენზიების გამოთქმას."
+      ],
+      "note": "Verbe rappelant + subordonnée complétive ; vocabulaire de communication constructive.",
+      "cefr": "C1",
+      "version": 19
+    },
+    {
+      "id": "dictation_sentences-c1-gen-020",
+      "fr": "Au terme d'une discussion animée, ils convinrent d'un compromis qui satisferait provisoirement les parties sans résoudre le fond du problème.",
+      "ka": "ცხინვალებული დისკუსიის შემდეგ ისინი დაეთანხმნენ კომპრომისს, რომელიც დროებით დააკმაყოფილებდა მხარეებს, მაგრამ პრობლემის არსს არ მოაგვარებდა.",
+      "answers": [
+        "ცხინვალებული დისკუსიის შემდეგ ისინი დაეთანხმნენ კომპრომისს, რომელიც დროებით დააკმაყოფილებდა მხარეებს, მაგრამ პრობლემის არსს არ მოაგვარებდა."
+      ],
+      "note": "Expression d'une conclusion négociée ; «ას დროებით... მაგრამ...» pour contraste et conséquence limitée.",
+      "cefr": "C1",
+      "version": 20
+    },
+    {
+      "id": "dictation_sentences-c1-gen-021",
+      "fr": "Même si sa thèse était solide, il a préféré souligner les limites méthodologiques.",
+      "ka": "მიუხედავად იმისა, რომ მისი თეზა მყარად იყო ჩამოყალიბებული, მან მეთოდოლოგიურ შეზღუდვებზე ხაზგასმა არჩია.",
+      "answers": [
+        "მიუხედავად იმისა, რომ მისი თეზა მყარად იყო ჩამოყალიბებული, მან მეთოდოლოგიურ შეზღუდვებზე ხაზგასმა არჩია."
+      ],
+      "note": "«მიუხედავად იმისა, რომ» exprime la concession; «ხაზგასმა არჩია» = il a préféré souligner.",
+      "cefr": "C1",
+      "version": 21
+    },
+    {
+      "id": "dictation_sentences-c1-gen-022",
+      "fr": "Ils m'ont rapporté qu'on avait supprimé la réunion sans les prévenir.",
+      "ka": "მითხრეს, რომ შეხვედრა მათ ინფორმირების გარეშე გააუქმეს.",
+      "answers": [
+        "მითხრეს, რომ შეხვედრა მათ ინფორმირების გარეშე გააუქმეს."
+      ],
+      "note": "«ინფორმირების გარეშე» rend «sans les prévenir»; structure rapportée avec «მითხრეს, რომ».",
+      "cefr": "C1",
+      "version": 22
+    },
+    {
+      "id": "dictation_sentences-c1-gen-023",
+      "fr": "Elle concilie aisément exigence intellectuelle et sensibilité humaine.",
+      "ka": "მისთვის ადვილია ინტელექტუალური მოთხოვნების და ადამიანური მგრძნობიარობის შეთავსება.",
+      "answers": [
+        "მისთვის ადვილია ინტელექტუალური მოთხოვნების და ადამიანური მგრძნობიარობის შეთავსება."
+      ],
+      "note": "Construction impersonnelle «მოხერხებულია/ადვილია» pour «elle concilie aisément».",
+      "cefr": "C1",
+      "version": 23
+    },
+    {
+      "id": "dictation_sentences-c1-gen-024",
+      "fr": "Dans son article, il soutient que le recours excessif aux algorithmes creuse les inégalités sociales.",
+      "ka": "სტატიაში ის ამტკიცებს, რომ ალგორითმების გადაჭარბებული გამოყენება სოციალური უთანასწორობის გაღრმავებას იწვევს.",
+      "answers": [
+        "სტატიაში ის ამტკიცებს, რომ ალგორითმების გადაჭარბებული გამოყენება სოციალური უთანასწორობის გაღრმავებას იწვევს."
+      ],
+      "note": "«გაყრმავებას იწვევს» = «creuse/aggrave» ; subordination avec «რომ».",
+      "cefr": "C1",
+      "version": 24
+    },
+    {
+      "id": "dictation_sentences-c1-gen-025",
+      "fr": "Il nous faudra renoncer à certaines certitudes si l'on veut progresser ensemble.",
+      "ka": "თუ გვინდა ერთად წინსვლა, მოგვიწევს ზოგიერთი უდავო რწმენის დათმობა.",
+      "answers": [
+        "თუ გვინდა ერთად წინსვლა, მოგვიწევს ზოგიერთი უდავო რწმენის დათმობა."
+      ],
+      "note": "«მოგვიწევს ... დათმობა» = il faudra renoncer à ... ; registre soutenu.",
+      "cefr": "C1",
+      "version": 25
+    },
+    {
+      "id": "dictation_sentences-c1-gen-026",
+      "fr": "La mairie a mis en place un dispositif de médiation pour apaiser les tensions intercommunautaires.",
+      "ka": "მერიამ შექმნა შუამავლობის მექანიზმი თემებს შორის დაძაბულობის შესამსუბუქებლად.",
+      "answers": [
+        "მერიამ შექმნა შუამავლობის მექანიზმი თემებს შორის დაძაბულობის შესამსუბუხებლად.",
+        "მერიამ შექმნა შუამავლობის მექანიზმი თემებს შორის დაძაბულობის შესამსუბუქებლად."
+      ],
+      "note": "Formulation idiomatique : «შუამავლობის მექანიზმი ... შესამსუბუქებლად».",
+      "cefr": "C1",
+      "version": 26
+    },
+    {
+      "id": "dictation_sentences-c1-gen-027",
+      "fr": "Quel que soit le contexte, veillez à distinguer opinion et fait rapporté.",
+      "ka": "რომელ კონტექსტშიც არ უნდა იყოს, ყურადღება მიაქციეთ აზრისა და მოხსენებული ფაქტის გამიჯვნას.",
+      "answers": [
+        "რომელ კონტექსტშიც არ უნდა იყოს, ყურადღება მიაქციეთ აზრისა და მოხსენებული ფაქტის გამიჯვნას."
+      ],
+      "note": "«რომელ კონტექსტშიც არ უნდა იყოს» = quel que soit le contexte ; impératif polie «მიაქციეთ ყურადღება».",
+      "cefr": "C1",
+      "version": 27
+    },
+    {
+      "id": "dictation_sentences-c1-gen-028",
+      "fr": "Il a ponctué son discours d'anecdotes personnelles pour rendre la démonstration moins abstraite.",
+      "ka": "მან თავის გამოსვლას პირადი ისტორიები შეუთავსა, რათა ილუსტრაცია ნაკლებად აბსტრაქტული გამოეჩინებინა.",
+      "answers": [
+        "მან თავის გამოსვლას პირადი ისტორიები შეუთავსა, რათა ილუსტრაცია ნაკლებად აბსტრაქტული გამოეჩინებინა."
+      ],
+      "note": "«პირადი ისტორიები შეუთავსა» = il a ponctué son discours d'anecdotes personnelles ; but «რომე» + subjonctif.",
+      "cefr": "C1",
+      "version": 28
+    },
+    {
+      "id": "dictation_sentences-c1-gen-029",
+      "fr": "Les négociations ont achoppé sur la question du partage équitable des ressources naturelles.",
+      "ka": "მოლაპარაკებები გაჭედა ბუნებრივი რესურსების სამართლიანი განაწილების საკითხზე.",
+      "answers": [
+        "მოლაპარაკებები გაჭედა ბუნებრივი რესურსების სამართლიანი განაწილების საკითხზე."
+      ],
+      "note": "«გაჭედა» traduit «achopper/être bloqué» ; formulation passive idiomatique en géorgien.",
+      "cefr": "C1",
+      "version": 29
+    },
+    {
+      "id": "dictation_sentences-c1-gen-030",
+      "fr": "On m'a prié de formuler des réserves, non par hostilité, mais par souci d'intégrité intellectuelle.",
+      "ka": "მთხოვეს წმადად შენიშვნების ფორმულირება, არა მტრობის გამო, არამედ ინტელექტუალური პატიოსნებით მოტივირებული.",
+      "answers": [
+        "მთხოვეს წმელად შენიშვნების ფორმულირება, არა მტრობის გამო, არამედ ინტელექტუალური პატიოსნებით მოტივირებული.",
+        "მთხოვეს წმენდილად შენიშვნების ფორმულირება, არა მტრობის გამო, არამედ ინტელექტუალური პატიოსნებით მოტივირებული.",
+        "მთხოვეს შენიშვნების ფორმულირება, არა მტრობის გამო, არამედ ინტელექტუალური პატიოსნების გამო."
+      ],
+      "note": "Plusieurs façons acceptables de rendre «prier de formuler des réserves» et la nuance «non par hostilité, mais par souci d'intégrité intellectuelle».",
+      "cefr": "C1",
+      "version": 30
+    },
+    {
+      "id": "dictation_sentences-c1-gen-031",
+      "version": 31,
+      "cefr": "C1",
+      "fr": "Bien qu'il eût promis de venir, il n'a finalement pas assisté à la réunion.",
+      "ka": "ის, მიუხედავად იმისა რომ მოსვლას დაუპირდა, საბოლოოდ შეხვედრას არ დასწრებია.",
+      "answers": [
+        "ის, მიუხედავად იმისა რომ მოსვლას დაუპირდა, საბოლოოდ შეხვედრას არ დასწრებია."
+      ],
+      "note": "Concession en subordination («მიუხედავად იმისა რომ») + past narrative (დასწრებია)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-032",
+      "version": 32,
+      "cefr": "C1",
+      "fr": "Elle a exprimé ses réserves quant à la viabilité du projet sans toutefois compromettre son soutien.",
+      "ka": "მან პროექტის სიცოცხლისუნარიანობასთან დაკავშირებით შენიშვნები გამოთქვა, თუმცა თავისი მხარდაჭერა არ შეუწყვიტა.",
+      "answers": [
+        "მან პროექტის სიცოცხლისუნარიანობასთან დაკავშირებით შენიშვნები გამოთქვა, თუმცა თავისი მხარდაჭერა არ შეუწყვიტა."
+      ],
+      "note": "Verbe composé (გამოთქვა) et tournure négative causale (არ შეუწყვიტა) pour nuancer le maintien du soutien."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-033",
+      "version": 33,
+      "cefr": "C1",
+      "fr": "Si vous aviez pris l'avion la veille, vous seriez déjà arrivé.",
+      "ka": "თუ გუშინ თვითმფრინავით გაემგზავრებოდით, უკვე ჩასული იქნებოდით.",
+      "answers": [
+        "თუ გუშინ თვითმფრინავით გაემგზავრებოდით, უკვე ჩასული იქნებოდით."
+      ],
+      "note": "Conditionnel passé en géorgien avec საპასუხო აკეთებადი კონდიციები (გაემგზავრებოდით ... იქნებოდით)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-034",
+      "version": 34,
+      "cefr": "C1",
+      "fr": "Il a raconté qu'elle avait décliné l'invitation parce qu'elle craignait de paraître impolie.",
+      "ka": "მან განაცხადა, რომ ის მოწვევაზე უარს ამბობდა, რადგან ეშინოდა, უხეშად ჩანდბაო.",
+      "answers": [
+        "მან განაცხადა, რომ ის მოწვევაზე უარს ამბობდა, რადგან ეშინოდა, უხეშად ჩანდბაო.",
+        "მან განაცხადა, რომ ის მოწვევაზე უარს ამბობდა, რადგან ეშინოდა, უხეშად ჩანოდა."
+      ],
+      "note": "Discours rapporté («მან განაცხადა, რომ ...») et deux variantes acceptables de la forme de «paraître» en style rapporté."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-035",
+      "version": 35,
+      "cefr": "C1",
+      "fr": "Le ministre a souligné l'importance de concilier croissance économique et protection de l'environnement.",
+      "ka": "მინისტრმა ეკონომიკური ზრდის და გარემოს დაცვის შუა გაერთიანების მნიშვნელობა ხაზგასმით აღნიშნა.",
+      "answers": [
+        "მინისტრმა ეკონომიკური ზრდის და გარემოს დაცვის შუა გაერთიანების მნიშვნელობა ხაზგასმით აღნიშნა.",
+        "მინისტრმა ეკონომიკური ზრდისა და გარემოს დაცვის ერთობლიობის მნიშვნელობა ხაზგასმით აღნიშნა."
+      ],
+      "note": "Vocabulaire administratif : two acceptable formulations for 'concilier' (შუა გაერთიანება / ერთობლიობა)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-036",
+      "version": 36,
+      "cefr": "C1",
+      "fr": "Après des mois d'atermoiements, ils ont finalement entériné la réforme, bien que des voix discordantes persistent.",
+      "ka": "თვეების ვარდნა-წინაობის შემდეგ ისინი საბოლოოდ დაამტკიცეს რეფორმა, მიუხედავად იმისა რომ არაერთგვაროვანი მოსაზრებები დღემდე არსებობს.",
+      "answers": [
+        "თვეების ვარდნა-წინაობის შემდეგ ისინი საბოლოოდ დაამტკიცეს რეფორმა, მიუხედავად იმისა რომ არაერთგვაროვანი მოსაზრებები დღემდე არსებობს.",
+        "თვეების გადავადებების შემდეგ ისინი საბოლოოდ დაამტკიცეს რეფორმა, მიუხედავად იმისა რომ არაერთგვაროვანი მოსაზრებები ჯერ კიდევ არსებობს."
+      ],
+      "note": "Expression idiomatique pour 'atermoiements' et variante pour 'persistant' (დღემდე / ჯერ კიდევ)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-037",
+      "version": 37,
+      "cefr": "C1",
+      "fr": "Nous devons revoir la stratégie en tenant compte des retours d'expérience afin d'éviter toute redondance.",
+      "ka": "ჩვენ უნდა გადავხედოთ სტრატეგიას, მივიღოთ გამოცდილებიდან მოპოვებული გამოხმაურებები, რათა თავიდან ავიცილოთ ნებისმიერი დუბლიკაცია.",
+      "answers": [
+        "ჩვენ უნდა გადავხედოთ სტრატეგიას, მივიღოთ გამოცდილებიდან მოპოვებული გამოხმაურებები, რათა თავიდან ავიცილოთ ნებისმიერი დუბლიკაცია.",
+        "ჩვენ უნდა გადავხედოთ სტრატეგიას, მოვიყვანოთ გამოცდილების გამოხმაურებები, რათა თავიდან ავიცილოთ გამეორება."
+      ],
+      "note": "Formulations pour 'retours d'expérience' et deux façons courantes de dire 'redondance'."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-038",
+      "version": 38,
+      "cefr": "C1",
+      "fr": "Son usage du registre familier dans un rapport officiel a suscité des critiques acerbes de la part des opposants.",
+      "ka": "ოფიციალურ ანგარიშში მისი ნაცნობური რეგისტრის გამოყენებამ ოპოზიციის მხრიდან მძაფრი კრიტიკა გამოიწვია.",
+      "answers": [
+        "ოფიციალურ ანგარიშში მისი ნაცნობური რეგისტრის გამოყენებამ ოპოზიციის მხრიდან მძაფრი კრიტიკა გამოიწვია."
+      ],
+      "note": "Nominalisation (გამოყენებამ) et registre soutenu (მძაფრი კრიტიკა)."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-039",
+      "version": 39,
+      "cefr": "C1",
+      "fr": "Il convient d'établir des paramètres d'évaluation précis, à la fois qualitatifs et quantitatifs, pour rendre l'audit pertinent.",
+      "ka": "მისაღებია ზუსტი შეფასების პარამეტრების შედეგად ჩამოყალიბება — ხარისხობრივი და რაოდენობრივი, რათა აუდიტი იყოს შესაბამისი.",
+      "answers": [
+        "მისაღებია ზუსტი შეფასების პარამეტრების შედეგად ჩამოყალიბება — ხარისხობრივი და რაოდენობრივი, რათა აუდიტი იყოს შესაბამისი.",
+        "იმისათვის საჭიროა ზუსტი ხარისხობრივი და რაოდენობრივი შეფასების პარამეტრები, რათა აუდიტი გამართლებული იყოს."
+      ],
+      "note": "Deux formulations: nominalisation et tournure explicative pour 'il convient de'."
+    },
+    {
+      "id": "dictation_sentences-c1-gen-040",
+      "version": 40,
+      "cefr": "C1",
+      "fr": "Si l'on considère l'évolution démographique et les projections, il est urgent de repenser l'aménagement urbain sur le long terme.",
+      "ka": "თუ დემოგრაფიული ცვლილებები და პროგნოზები გავითვალისწინეთ, სასწრაფოა გრძელვადიანი ურბანული დაგეგმვის გადახედვა.",
+      "answers": [
+        "თუ დემოგრაფიული ცვლილებები და პროგნოზები გავითვალისწინეთ, სასწრაფოა გრძელვადიანი ურბანული დაგეგმვის გადახედვა.",
+        "დემოგრაფიული ევოლუციისა და პროგნოზების გათვალისწინებით, აუცილებელია გრძელვადიანი ქალაქგეგმარების გადაზ想着ა."
+      ],
+      "note": "Condition et conséquence sur le long terme; deuxième variante offre phrasing participiale (à vérifier orthographiquement)."
     }
   ]
 }

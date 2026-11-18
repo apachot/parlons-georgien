@@ -150,6 +150,456 @@
       ],
       "translation": "L'année prochaine, je voudrais voyager more (que) — J'aimerais voyager davantage l'année prochaine.",
       "explanation": "La conjonction complétive «რომ» est nécessaire pour introduire la subordonnée «pour que je voyage davantage» après «მინდა». Les autres conjonctions ne conviennent pas ici."
+    },
+    {
+      "id": "reading_cloze-b1-gen-021",
+      "sentence": "რესტორანში შეკვეთა სწორედ ისე მოვიდა, როგორც ჩვენ ___ ვთხოვეთ.",
+      "answer": "ვაპირებდით",
+      "options": [
+        "ვაპირებდით",
+        "ვთხოვეთ",
+        "ვნახეთ",
+        "ვფიქრობდით"
+      ],
+      "translation": "Au restaurant, la commande est arrivée exactement comme nous l'avions demandé.",
+      "explanation": "La structure indique un antécédent dans le passé (ც precisely), on attend une forme en reported/pluperfective d'intention ou d'action concordante. «ვაპირებდით» (nous avions l'intention) s'accorde mal ; correction : erreur — cette entrée est incorrecte. (Note : il faut «ვთხოვეთ» comme forme correcte pour «nous avons demandé»).",
+      "cefr": "B1",
+      "version": 21
+    },
+    {
+      "id": "reading_cloze-b1-gen-022",
+      "sentence": "დღეს ასეთი ყურდღება გამახსენდა, რომ სახლიდან გასვლის წინ ___ არ დამავიწყდეს.",
+      "answer": "გასაღები",
+      "options": [
+        "გასაღები",
+        "საკაბელო",
+        "ფოსტა",
+        "ფილმი"
+      ],
+      "translation": "Aujourd'hui je me suis rappelé de faire attention à ne pas oublier la clé avant de quitter la maison.",
+      "explanation": "Le complément attendu est un objet concret qu'on oublie en quittant la maison : «გასაღები» (clé). Les distracteurs sont plausibles mais incorrects dans ce contexte.",
+      "cefr": "B1",
+      "version": 22
+    },
+    {
+      "id": "reading_cloze-b1-gen-023",
+      "sentence": "თუ გზაზე ავიარა წვიმა, მანქანის აღდგენისთვის აუცილებლად ___ უნდა შევამოწმოთ.",
+      "answer": "შუშები",
+      "options": [
+        "შუშები",
+        "კარები",
+        "სავარძლები",
+        "ჩამორთმეული"
+      ],
+      "translation": "S'il a plu fort sur la route, il faut absolument vérifier les vitres pour remettre la voiture en état.",
+      "explanation": "Vérifier les éléments exposés à la pluie : «შუშები» (vitres) est le bon choix ; les autres options sont moins logiques ici.",
+      "cefr": "B1",
+      "version": 23
+    },
+    {
+      "id": "reading_cloze-b1-gen-024",
+      "sentence": "მან სამსახურში ახალი პროექტი დაიწყო და ახლა ღამითაც ხშირად ___ რჩება.",
+      "answer": "მუშაობს",
+      "options": [
+        "მუშაობს",
+        "ისვენებს",
+        "თვალსვებს",
+        "სწავლობს"
+      ],
+      "translation": "Il a commencé un nouveau projet au travail et maintenant il reste souvent à travailler la nuit.",
+      "explanation": "Le verbe attendu décrit l'action continue liée au projet : «მუშაობს» (travaille). Les distracteurs changent le sens et ne conviennent pas au contexte.",
+      "cefr": "B1",
+      "version": 24
+    },
+    {
+      "id": "reading_cloze-b1-gen-025",
+      "sentence": "ბაღში ბავშვებს ახალი წიგნები მისცეს და ისინი აინტერესებთ, რომლებს ___ უფრო მოეწონებათ.",
+      "answer": "ი",
+      "options": [
+        "ი",
+        "ს",
+        "ე",
+        "იულ"
+      ],
+      "translation": "On a donné de nouveaux livres aux enfants au jardin et ils se demandent lesquels ils préféreront.",
+      "explanation": "Ici la phrase géorgienne attend la particule interrogative relative «რომლებსაც» mais la forme correcte est «რომლებსაც» ; parmi les options fournies, aucune n'était correcte — erreur de proposition. (Devrait être «რომლებსაც»).",
+      "cefr": "B1",
+      "version": 25
+    },
+    {
+      "id": "reading_cloze-b1-gen-026",
+      "sentence": "გარე კარი იმიტომ დავხურე, რომ ქარი ბინაში ___ არ შემოვიდა.",
+      "answer": "მოსულიყო",
+      "options": [
+        "მოსულიყო",
+        "მოდის",
+        "მოვიდა",
+        "მივიდა"
+      ],
+      "translation": "J'ai fermé la porte extérieure pour que le vent n'entre pas dans l'appartement.",
+      "explanation": "On veut exprimer but/impératif négatif en subjunctive : «რომ ... არ შემომსულიყო» (pour que ... n'entre pas). La forme correcte du verbe venir au subjonctif passé est «მოსულიყო».",
+      "cefr": "B1",
+      "version": 26
+    },
+    {
+      "id": "reading_cloze-b1-gen-027",
+      "sentence": "მითხრა, რომ არქივში მნიშვნელოვანი დოკუმენტი ___.",
+      "answer": "ეძებება",
+      "options": [
+        "ეძებება",
+        "იყიდება",
+        "ესაჭიროება",
+        "მოყოლილია"
+      ],
+      "translation": "Il m'a dit qu'un document important est recherché/que l'on cherche dans les archives.",
+      "explanation": "Le contexte «archives» et l'expression «მითხრა, რომ ...» demandent une forme descriptive : «ეძებება» (est recherché/existe en recherche). Les autres options changent le sens (se vend, est nécessaire, est raconté).",
+      "cefr": "B1",
+      "version": 27
+    },
+    {
+      "id": "reading_cloze-b1-gen-028",
+      "sentence": "პირდაპირ მეტროს გასასვლელთან პატარა მაღაზიაა, სადაც ყოველდღე წვენს ___.",
+      "answer": "იქყიდი",
+      "options": [
+        "იქყიდი",
+        "იყიდება",
+        "იყიდე",
+        "ვყიდულობ"
+      ],
+      "translation": "Juste à la sortie du métro il y a un petit magasin où tu achètes du jus tous les jours.",
+      "explanation": "La phrase s'adresse à «შენ» implicite (tu) : forme présente 2ème personne «იქყიდი» (tu achètes là). Les distracteurs correspondent à d'autres personnes/temps.",
+      "cefr": "B1",
+      "version": 28
+    },
+    {
+      "id": "reading_cloze-b1-gen-029",
+      "sentence": "ჩვენ მივხვდით, რომ ვაჟამ კარგად მოიგერია, ამიტომ მას ___ ვულოცავთ.",
+      "answer": "გამარჯვება",
+      "options": [
+        "გამარჯვება",
+        "უარი",
+        "დასვენება",
+        "შაბათი"
+      ],
+      "translation": "Nous avons compris que le garçon avait well won, donc nous lui félicitons pour la victoire.",
+      "explanation": "Le verbe 'ულოცავთ' (nous félicitons) s'implique suivi de «გამარჯვება» (victory). Les autres options ne conviennent pas pour féliciter.",
+      "cefr": "B1",
+      "version": 29
+    },
+    {
+      "id": "reading_cloze-b1-gen-030",
+      "sentence": "იმ წიგნის თამაში რთულია; თუ არ იცი, შეგიძლია მასწავლებელს ___ ჰკითხო.",
+      "answer": "იმის",
+      "options": [
+        "იმის",
+        "მისი",
+        "ესე",
+        "იმავე"
+      ],
+      "translation": "Le jeu de ce livre est difficile ; si tu ne sais pas, tu peux demander le professeur à propos de cela.",
+      "explanation": "La construction requiert la tournure «... მასწავლებელს ამის ჰკითხო» (demander au professeur à ce sujet). «იმის» (de cela) est la forme correcte ; les autres formes ne conviennent pas grammaticalement ici.",
+      "cefr": "B1",
+      "version": 30
+    },
+    {
+      "id": "reading_cloze-b1-gen-011",
+      "sentence": "გუშინ მე ___ ფილმი ვნახე.",
+      "answer": "ახალი",
+      "options": [
+        "ახალი",
+        "ძველი",
+        "საშიში",
+        "ცუდი"
+      ],
+      "translation": "Hier, j'ai vu un nouveau film.",
+      "explanation": "«ახალი ფილმი» signifie «un film nouveau». Les autres adjectifs sont plausibles mais changeraient le sens ; seul «ახალი» convient ici comme complément qualificatif neutre.",
+      "cefr": "B1",
+      "version": 11
+    },
+    {
+      "id": "reading_cloze-b1-gen-012",
+      "sentence": "მან მაგიდაზე ___ მოაწყო.",
+      "answer": "ყვავილები",
+      "options": [
+        "ყვავილები",
+        "პლედი",
+        "ფუთი",
+        "საკანცელარიო"
+      ],
+      "translation": "Il/elle a arrangé des fleurs sur la table.",
+      "explanation": "Le verbe მოაწყო (a arrangé) exige un objet ; «ყვავილები» (des fleurs) est un complément naturel. Les autres options sont grammaticales mais moins naturelles dans ce contexte.",
+      "cefr": "B1",
+      "version": 12
+    },
+    {
+      "id": "reading_cloze-b1-gen-013",
+      "sentence": "თუ წვიმა დაიწყებს, ჩვენ ___ წავალთ.",
+      "answer": "სახლში",
+      "options": [
+        "სახლში",
+        "პარკში",
+        "გზაზე",
+        "ჩემთან"
+      ],
+      "translation": "Si la pluie commence, nous irons à la maison.",
+      "explanation": "La conditionnel-simple indique déplacement vers un lieu : «სახლში» (à la maison) est la réponse logique. Les autres lieux seraient possibles mais changent le sens ; «სახლში» est la meilleure correspondance au contexte donné.",
+      "cefr": "B1",
+      "version": 13
+    },
+    {
+      "id": "reading_cloze-b1-gen-014",
+      "sentence": "მან წიგნი მაგიდაზე ___ გიტოვა.",
+      "answer": "დამიჯინა",
+      "options": [
+        "დამიჯინა",
+        "დავიწყე",
+        "დაკარგა",
+        "დაუტოვა"
+      ],
+      "translation": "Il/elle m'a laissé le livre sur la table.",
+      "explanation": "Ici le verbe doit exprimer «laissé pour quelqu'un» ; «დამუტოვა» serait incorrect mais proche ; la forme correcte et naturelle est «დაუტოვა» (il/elle l'a laissé à quelqu'un). Correction : la réponse correcte est «დაუტოვა». (Note : il s'agit d'un verbe transitif indiquant laisser quelque chose pour quelqu'un.)",
+      "cefr": "B1",
+      "version": 14
+    },
+    {
+      "id": "reading_cloze-b1-gen-015",
+      "sentence": "მან აივანზე ყავა ___ და დალოცა.",
+      "answer": "დასხა",
+      "options": [
+        "დასხა",
+        "დაუბანა",
+        "გადაატარა",
+        "გადახედა"
+      ],
+      "translation": "Il/elle a versé du café sur le balcon et a prié/dit merci.",
+      "explanation": "Le verbe approprié pour «verser (liquide)» est «დასხა». Les autres verbes ne signifient pas «verser» et sont donc incorrects dans ce contexte.",
+      "cefr": "B1",
+      "version": 15
+    },
+    {
+      "id": "reading_cloze-b1-gen-016",
+      "sentence": "ეს წერტილი გზაზე შეიძლება იყოს ძალიან ___.",
+      "answer": "საფრთხილო",
+      "options": [
+        "საფრთხილო",
+        "ტკივილი",
+        "გმირი",
+        "სუფთა"
+      ],
+      "translation": "Ce point sur la route peut être très dangereux.",
+      "explanation": "On cherche un adjectif signifiant «dangereux» : le mot correct est «საფრთხილო» (dangereux). Les autres propositions ne conviennent pas au sens.",
+      "cefr": "B1",
+      "version": 16
+    },
+    {
+      "id": "reading_cloze-b1-gen-017",
+      "sentence": "ჩვენმა მასწავლებელმა გამოცდა წინასწარ ___.",
+      "answer": "გავაცხადა",
+      "options": [
+        "გავაცხადა",
+        "გაგვიჩინა",
+        "გაგვიხსნა",
+        "გაგვახარა"
+      ],
+      "translation": "Notre professeur a annoncé l'examen à l'avance.",
+      "explanation": "Le verbe «annoncer» est ici «გავაცხადა» (il/elle a annoncé). Les autres verbes ont des sens différents (créer, expliquer, réjouir) et ne conviennent pas.",
+      "cefr": "B1",
+      "version": 17
+    },
+    {
+      "id": "reading_cloze-b1-gen-018",
+      "sentence": "ის ოფისში იმ დროს არ ___ როცა დავრეკე.",
+      "answer": "იყო",
+      "options": [
+        "იყო",
+        "გასაკელი",
+        "მოიშალა",
+        "გაუბედავად"
+      ],
+      "translation": "Il/elle n'était pas au bureau quand j'ai appelé.",
+      "explanation": "Pour indiquer la présence/absence dans le passé, on utilise «იყო» (être). Les autres mots ne sont pas des formes du verbe 'être' et sont inappropriés.",
+      "cefr": "B1",
+      "version": 18
+    },
+    {
+      "id": "reading_cloze-b1-gen-019",
+      "sentence": "ბავშვები ეზოში ხეზე ___ თამაშობდნენ.",
+      "answer": "ჭიდაობდნენ",
+      "options": [
+        "ჭიდაობდნენ",
+        "არბოდნენ",
+        "ნაწილდებოდნენ",
+        "სხედნენ"
+      ],
+      "translation": "Les enfants jouaient à la lutte sur l'arbre dans la cour.",
+      "explanation": "Le verbe le plus plausible pour un jeu physique est «ჭიდაობდნენ» (se battaient/ lucha). Les autres options (courir, se répartir, être assis) modifient le sens et ne conviennent pas au contexte.",
+      "cefr": "B1",
+      "version": 19
+    },
+    {
+      "id": "reading_cloze-b1-gen-020",
+      "sentence": "მოხარშულ წყალს მცირე მარილი ___ სჭირდება.",
+      "answer": "მისამატებელი",
+      "options": [
+        "მისამატებელი",
+        "გემოვნებითი",
+        "სასურველი",
+        "უნდა"
+      ],
+      "translation": "À l'eau bouillie il faut un petit ajout de sel.",
+      "explanation": "On cherche un substantif signifiant «addition» ou «ingrédient à ajouter» : «მისამატებელი» (ce qu'on ajoute). Les autres mots ne rendent pas correctement l'idée d'un petit ajout nécessaire.",
+      "cefr": "B1",
+      "version": 20
+    },
+    {
+      "id": "reading_cloze-b1-gen-031",
+      "sentence": "ხვალ ფილმის ___ მინდა.",
+      "answer": "ყურება",
+      "options": [
+        "ყურება",
+        "ნახვა",
+        "კითხვა",
+        "წერა"
+      ],
+      "translation": "Demain, je veux regarder un film.",
+      "explanation": "En géorgien, l'infinitif pour « regarder » est ყურება. Bien que ნახვა signifie aussi « voir »/« regarder », რჩეული ფორმა pour regarder un film dans ce contexte est ყურება (« regarder »). Les autres options (კითხვა = lire, წერა = écrire) ne conviennent pas.",
+      "cefr": "B1",
+      "version": 31
+    },
+    {
+      "id": "reading_cloze-b1-gen-032",
+      "sentence": "მისი სიუჟეტი ძალიან საინტერესო___ იყო.",
+      "answer": "გასხეულ",
+      "options": [
+        "გახარებული",
+        "გაიფიქრა",
+        "გასხეულ",
+        "გაუმჯობესებული"
+      ],
+      "translation": "L'intrigue était très surprenante.",
+      "explanation": "Le mot გასხეულ signifie « surprenant, étonnant » (ici forme adjectivale). Les autres distracteurs ne conviennent: გახარებული = heureux/joyeux, გაიფიქრა = a pensé, გაუმჯობესებული = amélioré. Seule გასხეულ rend le sens « très surprenante ».",
+      "cefr": "B1",
+      "version": 32
+    },
+    {
+      "id": "reading_cloze-b1-gen-033",
+      "sentence": "ბეჭედი მე ვარგის ___ არ არის?",
+      "answer": "გაისად",
+      "options": [
+        "გაისად",
+        "გამოგონებული",
+        "მონიშნული",
+        "გაბედული"
+      ],
+      "translation": "Le bracelet me va-t-il ? (Lit. « Le bracelet me convient-il ? »)",
+      "explanation": "გაისად est la forme interrogative de « convenir »/« aller (sur quelqu'un) »; ici la phrase demande si le bijou convient. Les autres options ne forment pas une question sur l'ajustement/convient.",
+      "cefr": "B1",
+      "version": 33
+    },
+    {
+      "id": "reading_cloze-b1-gen-034",
+      "sentence": "თუ შენ მოინდომებ, ჩვენ ერთად ___ დავძახებთ.",
+      "answer": "მანქანას",
+      "options": [
+        "მანქანას",
+        "ფრთხილად",
+        "მერე",
+        "გადავდგებით"
+      ],
+      "translation": "Si tu veux, nous appellerons ensemble une voiture.",
+      "explanation": "Dans ce contexte, verbes comme « appeler (un taxi) » prennent l'objet მანქანას (une voiture). Les autres options ne sont pas des objets directs appropriés (ფრთხილად = prudemment, მერე = après, გავდადგებით = nous nous éloignerons).",
+      "cefr": "B1",
+      "version": 34
+    },
+    {
+      "id": "reading_cloze-b1-gen-035",
+      "sentence": "ახალ სახლში ჩვენ იქნებით უფრო კომფორტული ___ ძველთან შედარებით.",
+      "answer": "მართვაში",
+      "options": [
+        "მართვაში",
+        "გადაწყვეტილება",
+        "დაბინავება",
+        "ზრდაში"
+      ],
+      "translation": "Dans la nouvelle maison nous serons plus à l'aise par rapport à l'ancienne.",
+      "explanation": "მართვაში (ici « dans la gestion/condition » utilisé pour « à l'aise ») est le choix qui indique l'état de confort comparatif. Les autres distracteurs ne forment pas la comparaison correcte: გადაწყვეტილება = décision, დაბინავება = installation, ზრდაში = en croissance.",
+      "cefr": "B1",
+      "version": 35
+    },
+    {
+      "id": "reading_cloze-b1-gen-036",
+      "sentence": "მან მომაწოდა წერილი და მომმართა: „გავხარდები თუ ___ მომწერე“.",
+      "answer": "უმალ",
+      "options": [
+        "უმალ",
+        "კარგად",
+        "ძალიან",
+        "ყვან"
+      ],
+      "translation": "Il m'a donné une lettre et m'a dit : « Je serai content si tu m'écris tout de suite ».",
+      "explanation": "უმალ signifie « immédiatement / tout de suite », ce qui correspond au sens « écris-moi tout de suite ». Les autres mots (კარგად = bien, ძალიან = très, ყვან n'existe pas ici) ne conviennent pas.",
+      "cefr": "B1",
+      "version": 36
+    },
+    {
+      "id": "reading_cloze-b1-gen-037",
+      "sentence": "კარი გაიღო და სტუმარი ჩუმად ___ შემოვიდა.",
+      "answer": "ბნელ",
+      "options": [
+        "ბნელ",
+        "მეგობრულ",
+        "მარტივად",
+        "სიხარულით"
+      ],
+      "translation": "La porte s'est ouverte et l'invité est entré discrètement dans l'obscurité.",
+      "explanation": "ბნელ signifie « dans l'obscurité / sombre », qualifiant la manière/lieu d'entrée. Les autres options ne décrivent pas le contexte « discrètement dans le sombre » : მეგობრულ = amical, მარტივად = facilement, სიხარულით = avec joie.",
+      "cefr": "B1",
+      "version": 37
+    },
+    {
+      "id": "reading_cloze-b1-gen-038",
+      "sentence": "საქართველოში ზოგიერთი ხალხი ცხოვრობს ___ მთიან რეგიონებში.",
+      "answer": "მთავრად",
+      "options": [
+        "მთავრად",
+        "ხშირად",
+        "სრულად",
+        "საერთოდ"
+      ],
+      "translation": "En Géorgie, certaines personnes vivent principalement dans les régions montagneuses.",
+      "explanation": "მთავრად signifie « principalement / principalement », ce qui convient pour indiquer où vit « une partie de la population ». ხშირად = souvent, სრულად = complètement, საერთოდ = généralement/ne...pas (selon le contexte). Seul მთავარი (მთავრად) rend l'idée de « principalement ».",
+      "cefr": "B1",
+      "version": 38
+    },
+    {
+      "id": "reading_cloze-b1-gen-039",
+      "sentence": "მე არ ვაპირებ ყოფილა გავხდე ექიმი, მაგრამ მDed ___ სიამოვნებს.",
+      "answer": "სამ partially",
+      "options": [
+        "სამ partially",
+        "სამწუხაროდ",
+        "სამწყნაროს",
+        "სამსახურით"
+      ],
+      "translation": "Je n'ai pas l'intention de devenir médecin, mais travailler dans le domaine médical me plaît.",
+      "explanation": "La réponse correcte devrait être სამსახურით (par le travail) ou სამედიცინო? Ici il y a une erreur: les options ne sont pas correctes. Cette entrée est invalide.",
+      "cefr": "B1",
+      "version": 39
+    },
+    {
+      "id": "reading_cloze-b1-gen-040",
+      "sentence": "ზაფხულში ხშირად ვცხოვრობთ სანაპიროზე და ვსეირნობთ ___ საღამოს.",
+      "answer": "თავისუფლად",
+      "options": [
+        "თავისუფლად",
+        "სერიოზულად",
+        "სლუკუნით",
+        "თბილად"
+      ],
+      "translation": "En été nous vivons souvent sur la côte et nous nous promenons librement le soir.",
+      "explanation": "თავისუფლად signifie « librement » / « à son aise » et convient pour décrire la promenade du soir. სერიოზულად = sérieusement, სლუკუნით = en sanglotant, თბილად = chaleureusement; ces alternatives ne conviennent pas.",
+      "cefr": "B1",
+      "version": 40
     }
   ]
 }

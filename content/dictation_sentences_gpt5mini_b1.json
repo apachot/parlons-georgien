@@ -121,6 +121,348 @@
         "როცა მან ახსნა წესები, რამდენიმე სტუდენტმა დაუსვა კითხვები რათა დარწმუნებულიყვნენ, რომ სწორად გაეგოთ."
       ],
       "note": "Phrase complexe avec subordonnée temporelle (როდესაც/როცა), objectif exprimé par « რათა » et finale en « რომ ... გაეგოთ ». Virgules autour des subordonnées sont optionnelles."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-021",
+      "cefr": "B1",
+      "version": 21,
+      "fr": "Racontez ce qui s'est passé hier soir en trois phrases.",
+      "ka": "გთხოვთ, აღწეროთ, რა მოხდა გუშინ საღამოს სამ წინადადებაში.",
+      "answers": [
+        "გთხოვთ, აღწეროთ, რა მოხდა გუშინ საღამოს სამ წინადადებაში.",
+        "გთხოვთ აღწეროთ, რა მოხდა გუშინ საღამოს სამ წინადადებაში."
+      ],
+      "note": "Impératif poli et demande de produire trois phrases; virgule après გთხოვთ facultative."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-022",
+      "cefr": "B1",
+      "version": 22,
+      "fr": "Expliquez pourquoi vous aimez (ou n'aimez pas) la cuisine géorgienne.",
+      "ka": "გააწყვეთ ახსნა, რატომ მოგწონთ (ან არ მოგწონთ) ქართული სამზარეულო.",
+      "answers": [
+        "გააწყვეთ ახსნა, რატომ მოგწონთ (ან არ მოგწონთ) ქართული სამზარეულო."
+      ],
+      "note": "Demande d'explication ; verbe გაგააწყვეთ moins courant mais accepté en contexte didactique. Variante standard possible: ახსენით რატომ მოგწონთ..."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-023",
+      "cefr": "B1",
+      "version": 23,
+      "fr": "Décrivez votre maison ou appartement en indiquant au moins quatre pièces.",
+      "ka": "აცხადეთ თქვენი სახლი ან ბინა და მიუთითეთ მაინც ოთხი ოთახი.",
+      "answers": [
+        "აღმოაჩინეთ თქვენი სახლი ან ბინა და მიუთითეთ მაინც ოთხი ოთახი.",
+        "აჩვენეთ თქვენი სახლი ან ბინა და მიუთითეთ მაინც ოთხი ოთახი.",
+        "აცხადეთ თქვენი სახლი ან ბინა და მიუთითეთ მაინც ოთხი ოთახი."
+      ],
+      "note": "Plusieurs verbes pour 'décrire/montrer' acceptables; principal: გამოაცხადე/ხადავ."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-024",
+      "cefr": "B1",
+      "version": 24,
+      "fr": "Parlez d'un voyage que vous avez fait et dites ce que vous avez le plus aimé.",
+      "ka": "ესაუბრეთ მოგზაურობაზე, რომლის გაკეთებაც მოახდინეთ, და უთხარით, რაც ყველაზე მეტად მოგეწონათ.",
+      "answers": [
+        "ესაუბრეთ მოგზაურობაზე, რომლის განხორციელებაც მოახდინეთ, და უთხარით, რა მოგეწონათ ყველაზე მეტად.",
+        "ესაუბრეთ მოგზაურობაზე, რომლის გაკეთებაც მოახდინეთ, და უთხარით, რაც ყველაზე მეტად მოგეწონათ.",
+        "ესაუბრეთ მოგზაურობაზე, რომელსაც გაიარეთ, და უთხარით, რაც ყველაზე მეტად მოგეწონათ."
+      ],
+      "note": "Formulation B1 avec subordination; plusieurs tournures possibles pour 'que vous avez fait'."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-025",
+      "cefr": "B1",
+      "version": 25,
+      "fr": "Donnez des conseils à un ami qui veut apprendre le géorgien.",
+      "ka": "მოსაწონი რჩევები მისცემეთ მეგობარს, რომელიც გეორგიულს უნდა ისწავლოს.",
+      "answers": [
+        "მოსაწონი რჩევები მისცემეთ მეგობარს, რომელიც გეორგიულს უნდა ისწავლოს.",
+        "რჩევები მისცეთ მეგობარს, რომელიც ქართულს უნდა ისწავლოს."
+      ],
+      "note": "Formulation où ქართული est préférable à გეორგიული ; deuxième variante plus naturelle."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-026",
+      "cefr": "B1",
+      "version": 26,
+      "fr": "Expliquez les étapes pour préparer un plat traditionnel géorgien.",
+      "ka": "გახსნათ ნაბიჯები ქართული ტრადიციული ბdish-ის მოსამზადებლად.",
+      "answers": [
+        "აღმოჩინეთ ნაბიჯები ქართული ტრადიციული კერძის მომზადებისთვის.",
+        "გააზიარეთ ნაბიჯები ქართული ტრადიციული კერძის მოსამზადებლად."
+      ],
+      "note": "Remarque : სიტყვა „კერძი“ pour 'plat' ; plusieurs verbes pour 'expliquer/présenter' acceptés."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-027",
+      "cefr": "B1",
+      "version": 27,
+      "fr": "Racontez une situation embarrassante que vous avez vécue.",
+      "ka": "იამბეთ გამოგრჩენილი ან უხერხული სიტუაცია, რომელიც თქვენ გადაგხდათ.",
+      "answers": [
+        "იამბეთ უხერხული სიტუაცია, რომელიც თქვენ გადაგხდათ.",
+        "დასვით თუ რა უხერხული სიტუაცია მოგხდათ და იამბეთ ის."
+      ],
+      "note": "Verbe 'იამბეთ' pour raconter ; variante de formulation proposée."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-028",
+      "cefr": "B1",
+      "version": 28,
+      "fr": "Décrivez votre routine quotidienne en utilisant des adverbes de fréquence.",
+      "ka": "გააკონტროლეთ თქვენი ყოველდღიური რუტინა, გამოიყენეთ სიხშირის ზმნაების წარმომავლობითი შარავანდი.",
+      "answers": [
+        "აღწერეთ თქვენი ყოველდღიური რუტინა და გამოიყენეთ სიხშირის adverb-ები, მაგალითად 'ყოველდღე', 'ხოლმე', 'ხშირად'.",
+        "აღწერეთ თქვენი ყოველდღიური რუტინა, გამოიყენეთ სიხშირის არსებითი adverb-ები."
+      ],
+      "note": "Formulation pour B1; indique d'utiliser adverbes de fréquence (ყოველდღე, ხშირად, ხოლმე)."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-029",
+      "cefr": "B1",
+      "version": 29,
+      "fr": "Imaginez une conversation téléphonique pour demander des informations et écrivez-la.",
+      "ka": "ილუზტრაცია ტელეფონის საუბრის: დაწერეთ დიალოგი ინფორმაციის მოსაპოვებლად.",
+      "answers": [
+        "დაიწყეთ ტელეფონით საუბარი და დაწერეთ დიალოგი ინფორმაციის მისაღებად.",
+        "წერეთ ტელეფონური დიალოგი ინფორმაციის მოთხოვნის შესახებ."
+      ],
+      "note": "Demande de rédiger un dialogue téléphonique ; formulations acceptables variées."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-030",
+      "cefr": "B1",
+      "version": 30,
+      "fr": "Donnez votre opinion sur un film récent et justifiez-la avec au moins deux arguments.",
+      "ka": "გამოაცხადეთ თქვენი აზრი ბოლო ფილმზე და დაასაბუთეთ იგი მინიმუმ ორი არგუმენტით.",
+      "answers": [
+        "გამოთქვით თქვენი აზრი ბოლო ფილმზე და დაასაბუთეთ იგი მინიმუმ ორი არგუმენტით.",
+        "გააკეთეთ აზრი ახალი ფილმის შესახებ და დაასაბუთეთ ორი არგუმენტით."
+      ],
+      "note": "Verbes variés pour 'donner/opiner' ; demander deux arguments pour la justification."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-011",
+      "fr": "Je cherche mes clés depuis ce matin.",
+      "ka": "მე ამ დილიდან ვეძებ ჩემს გასაღებებს.",
+      "answers": [
+        "მე ამ დილიდან ვეძებ ჩემს გასაღებებს."
+      ],
+      "note": "Présent continu en géorgien pour une action qui dure : «ამ დილიდან ვეძებ» ; «გასაღებებს» pluriel accusatif.",
+      "cefr": "B1",
+      "version": 11
+    },
+    {
+      "id": "dictation_sentences-b1-gen-012",
+      "fr": "Il m'a dit qu'il viendrait demain.",
+      "ka": "მან მითხრა, რომ ხვალ მოვიდოდა.",
+      "answers": [
+        "მან მითხრა, რომ ხვალ მოვიდოდა."
+      ],
+      "note": "Discours rapporté au conditionnel/futur dans le passé : «მოვიდოდა» marque le futur vu depuis un point de vue passé.",
+      "cefr": "B1",
+      "version": 12
+    },
+    {
+      "id": "dictation_sentences-b1-gen-013",
+      "fr": "Si tu veux, nous irons au marché après le déjeuner.",
+      "ka": "თუ გინდა, სადილის შემდეგ ბაზარში წავიდეთ.",
+      "answers": [
+        "თუ გინდა, სადილის შემდეგ ბაზარში წავიდეთ."
+      ],
+      "note": "Conditionnel simple avec «თუ გინდა» + proposition principale suggérant une action : «წავიდეთ» (let's go).",
+      "cefr": "B1",
+      "version": 13
+    },
+    {
+      "id": "dictation_sentences-b1-gen-014",
+      "fr": "Écris-moi un e-mail avec tous les détails.",
+      "ka": "მომწერე ყველა დეტალით ელფოსტით.",
+      "answers": [
+        "მომწერე ყველა დეტალით ელფოსტით."
+      ],
+      "note": "Impératif/ordre familier : «მომწერე» (écris‑moi) + complément instrumental «ელფოსტით».",
+      "cefr": "B1",
+      "version": 14
+    },
+    {
+      "id": "dictation_sentences-b1-gen-015",
+      "fr": "Le film que nous avons vu hier était plus intéressant que je ne pensais.",
+      "ka": "ფილმი, რომელსაც ჩვენ გუშინ ვუყურეთ, უფრო საინტერესო იყო, ვიდრე მეგონა.",
+      "answers": [
+        "ფილმი, რომელსაც ჩვენ გუშინ ვუყურეთ, უფრო საინტერესო იყო, ვიდრე მეგონა."
+      ],
+      "note": "Phrase relative « რომელსაც… ვუყურეთ » et comparaison « უფრო … ვიდრე ».",
+      "cefr": "B1",
+      "version": 15
+    },
+    {
+      "id": "dictation_sentences-b1-gen-016",
+      "fr": "Bien qu'il pleuve, elle sort chaque matin pour courir.",
+      "ka": "თუმცა წვიმს, ის ყოველ დილას გარეთ გარბის.",
+      "answers": [
+        "თუმცა წვიმს, ის ყოველ დილას გარეთ გარბის."
+      ],
+      "note": "Concession avec «თუმცა» + habitude au présent «გარბის».",
+      "cefr": "B1",
+      "version": 16
+    },
+    {
+      "id": "dictation_sentences-b1-gen-017",
+      "fr": "Nous devons finir le projet avant la fin du mois.",
+      "ka": "ჩვენ უნდა დავასრულოთ პროექტი თვის ბოლომდე.",
+      "answers": [
+        "ჩვენ უნდა დავასრულოთ პროექტი თვის ბოლომდე."
+      ],
+      "note": "Obligation avec «უნდა» + infinitif verbal «დავასრულოთ» ; expression temporelle «თვის ბოლომდე».",
+      "cefr": "B1",
+      "version": 17
+    },
+    {
+      "id": "dictation_sentences-b1-gen-018",
+      "fr": "Il vaut mieux vérifier deux fois l'information avant de la publier.",
+      "ka": "ინფორმაცია ორჯერ უნდა შეამოწმოთ, სანამ გამოაქვეყნებთ.",
+      "answers": [
+        "ინფორმაცია ორჯერ უნდა შეამოწმოთ, სანამ გამოაქვეყნებთ."
+      ],
+      "note": "Conseil modal avec «უნდა + subj» («შეამოწმოთ») et subordonnée temporelle «სანამ გამოაქვეყნებთ».",
+      "cefr": "B1",
+      "version": 18
+    },
+    {
+      "id": "dictation_sentences-b1-gen-019",
+      "fr": "Je me demande pourquoi ils n'ont pas répondu à mon message.",
+      "ka": "მაინტერესებს, რატომ არ უპასუხეს ჩემს შეტყობინებას.",
+      "answers": [
+        "მაინტერესებს, რატომ არ უპასუხეს ჩემს შეტყობინებას."
+      ],
+      "note": "Verbe impersonnel «მაინტერესებს» + interrogation indirecte «რატომ არ უპასუხეს».",
+      "cefr": "B1",
+      "version": 19
+    },
+    {
+      "id": "dictation_sentences-b1-gen-020",
+      "fr": "Après avoir étudié pendant deux heures, il a décidé de faire une pause.",
+      "ka": "ორი საათი რომ ისწავლა, მან გადაწყვიტა შესვენება.",
+      "answers": [
+        "ორი საათი რომ ისწავლა, მან გადაწყვიტა შესვენება."
+      ],
+      "note": "Structure temporelle «ორი საათი რომ ისწავლა» (après avoir étudié) + conséquence au passé «მან გადაწყვიტა».",
+      "cefr": "B1",
+      "version": 20
+    },
+    {
+      "id": "dictation_sentences-b1-gen-031",
+      "cefr": "B1",
+      "version": 31,
+      "fr": "Dis à ton ami de t'appeler ce soir.",
+      "ka": "გთხოვე მეგობარს, დღეს საღამოს დაგირეკოს.",
+      "answers": [
+        "გთხოვე მეგობარს, დღეს საღამოს დაგირეკოს."
+      ],
+      "note": "Impératif + subordonnée avec verbe au subjonctif (დაგირეკოს) pour exprimer une demande."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-032",
+      "cefr": "B1",
+      "version": 32,
+      "fr": "Le train partira à huit heures et il faudra être à la gare une demi-heure avant.",
+      "ka": "მატარებელი წავა რვაზე, ამიტომ სადგურზე ნახევარი საათით ადრე უნდა იყო.",
+      "answers": [
+        "მატარებელი წავა რვაზე, ამიტომ სადგურზე ნახევარი საათით ადრე უნდა იყო."
+      ],
+      "note": "Futur simple (წავა) et obligation impersonnelle formulée par უნდა + verbe à l'infinitif."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-033",
+      "cefr": "B1",
+      "version": 33,
+      "fr": "Elle m'a dit qu'elle viendrait si le temps était beau.",
+      "ka": "მან მითხრა, რომ კარგი ამინდის შემთხვევაში მოვიდოდა.",
+      "answers": [
+        "მან მითხრა, რომ კარგი ამინდის შემთხვევაში მოვიდოდა."
+      ],
+      "note": "Discours rapporté et conditionnel (მოვიდოდა) pour une hypothèse dans le passé."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-034",
+      "cefr": "B1",
+      "version": 34,
+      "fr": "Nous devrons acheter du pain et du lait avant de rentrer.",
+      "ka": "ჩვენ სახლში დაბრუნებამდე პური და რძე უნდა ვიყიდოთ.",
+      "answers": [
+        "ჩვენ სახლში დაბრუნებამდე პური და რძე უნდა ვიყიდოთ."
+      ],
+      "note": "Ordre des compléments temporels (დაბრუნებამდე) et obligation exprimée par უნდა + verbe."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-035",
+      "cefr": "B1",
+      "version": 35,
+      "fr": "Tu comprends mieux le texte si tu lis lentement.",
+      "ka": "ტექსტს უკეთესი დაიგება თუ ნელა კითხულობ.",
+      "answers": [
+        "ტექსტს უკეთესი დაიგება თუ ნელა კითხულობ.",
+        "ტექსტს უკეთესად გაიგებ, თუ ნელა კითხულობ."
+      ],
+      "note": "Condition réelle (შენს შემთხვევაში) : «თუ» + présent. Deux variantes acceptables pour l'expression «comprendre mieux»."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-036",
+      "cefr": "B1",
+      "version": 36,
+      "fr": "Il paraît qu'ils ont déjà réservé une table au restaurant.",
+      "ka": "ამბობენ, რომ ისინი უკვე დაჯავშნეს მაგიდა რესტორანში.",
+      "answers": [
+        "ამბობენ, რომ ისინი უკვე დაჯავშნეს მაგიდა რესტორანში."
+      ],
+      "note": "Expression impersonnelle «on dit» (ამბობენ) pour rapporter une rumeur."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-037",
+      "cefr": "B1",
+      "version": 37,
+      "fr": "Si j'étais toi, je demanderais de l'aide au professeur.",
+      "ka": "ჩემს ადგილზე რომ ვიყო, მასწავლებელთან დახმარებას ვითხოვდი.",
+      "answers": [
+        "ჩემს ადგილზე რომ ვიყო, მასწავლებელთან დახმარებას ვითხოვდი."
+      ],
+      "note": "Construction conditionnelle irréelle: «ჩემს ადგილზე რომ ვიყო» + conditionnel (ვითხოვდი)."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-038",
+      "cefr": "B1",
+      "version": 38,
+      "fr": "Le film était ennuyeux, mais la fin était surprenante.",
+      "ka": "ფილმი მოსაწყენი იყო, მაგრამ დასასრული მოულოდნელი იყო.",
+      "answers": [
+        "ფილმი მოსაწყენი იყო, მაგრამ დასასრული მოულოდნელი იყო."
+      ],
+      "note": "Contraste exprimé par მაგრამ (mais) ; adjectifs au passé (იყო)."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-039",
+      "cefr": "B1",
+      "version": 39,
+      "fr": "Notre association organise une réunion mensuelle pour discuter des projets locaux.",
+      "ka": "ჩვენი ასოციაცია ყოველთვიურ შეხვედრებს აწყობს ადგილობრივი პროექტების განხილვისთვის.",
+      "answers": [
+        "ჩვენი ასოციაცია ყოველთვიურ შეხვედრებს აწყობს ადგილობრივი პროექტების განხილვისთვის."
+      ],
+      "note": "Verbe აწყობს/მართავს pour organiser ; construction but + génitif (პროექტების განხილვისთვის)."
+    },
+    {
+      "id": "dictation_sentences-b1-gen-040",
+      "cefr": "B1",
+      "version": 40,
+      "fr": "Avant de signer le contrat, lis chaque clause attentivement.",
+      "ka": "ხელშეკრულებაზე ხელმოწერამდე თითოეულ პუნქტს ყურადღებით წაიკითხე.",
+      "answers": [
+        "ხელშეკრულებაზე ხელმოწერამდე თითოეულ პუნქტს ყურადღებით წაიკითხე."
+      ],
+      "note": "Ordre impératif + complément temporel (ხელმოწერამდე) et verbe à l'impératif წაიკითხე."
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "cefr": "B2",
+  "items": [
+    {
+      "id": "reading_guided-b2-gen-002",
+      "version": 2,
+      "level": 4,
+      "cefr": "B2",
+      "level_name": "B2",
+      "text": "თბილისში ბოლო წლებში საზოგადოებრივი ტრანსპორტი რამდენიმე მნიშვნელოვან ცვლილებას განიცდის. გაზრდილია ელექტროავტობუსების ფლობა, რაც ხმაურის და კვამლის ნაკლებობას ნიშნავს. მიუხედავად ამისა, მგზავრთა რაოდენობა ჯერ კიდევ ვერ დაბრუნდა პანდემიამდე არსებულ მაჩვენებლებზე, რადგან ბევრი ადამიანი სახლიდან მუშაობას განაგრძობს. ქალაქის მმართეობა გეგმავს რეაბილიტაციის პროექტს, რომელიც გაჩერებებზე კომფორტს და სიხშირეს გააუმჯობესებს.",
+      "question": "Quelle information est explicitement indiquée dans le texte ?",
+      "options": [
+        "La municipalité a réduit le nombre de lignes de bus.",
+        "Le nombre de passagers n'a pas encore retrouvé le niveau d'avant la pandémie.",
+        "Les transports en commun sont maintenant totalement silencieux.",
+        "Toutes les stations ont déjà été rénovées."
+      ],
+      "answer": "Le nombre de passagers n'a pas encore retrouvé le niveau d'avant la pandémie.",
+      "translation": "Ces dernières années à Tbilissi, les transports publics ont subi plusieurs changements importants. Le nombre d'autobus électriques a augmenté, ce qui signifie moins de bruit et de fumée. Malgré cela, le nombre de passagers ne s'est pas encore rétabli aux niveaux d'avant la pandémie, car beaucoup de personnes continuent de travailler depuis chez elles. La municipalité prévoit un projet de réhabilitation qui améliorera le confort et la fréquence aux arrêts.",
+      "explanation": "Le texte indique clairement que le nombre de passagers n'a pas retrouvé les niveaux précédant la pandémie (« მგზავრთა რაოდენობა ჯერ კიდევ ვერ დაბრუნდა პანდემიამდე არსებულ მაჩვენებლებზე »). Les autres options ne sont pas mentionnées ou sont contredites par le texte."
+    },
+    {
+      "id": "reading_guided-b2-gen-003",
+      "version": 3,
+      "level": 4,
+      "cefr": "B2",
+      "level_name": "B2",
+      "text": "სოფლიდან ქალაქში ახალგაზრდა მშენებელი გადავიდა, რადგან სამუშაოს imkanობები უფრო მეტია. მან თავიდან საწოლები და კრაფტვალიაითების მაღაზიებისთვის მცირე ავეჯი გააკეთა და თავის სოციალურ გვერდზე განათავსა. შეკვეთები მალე მოიმატა, თუმცა თავად მიხვდა, რომ დამკვირვებლების მოსაზიდად ხარისხს და პერიოდულ მიწოდებას უფრო მეტად უნდა აეყოლა. რამდენიმე თვეში მან თანამშრომლის დაქირავება და საწყობის დაქირავება გადაწყვიტა, რათა შეძლებოდა შეკვეთების ზრდის მართვა.",
+      "question": "Quelle décision l'artisan a-t-il prise quelques mois après le début de son activité ?",
+      "options": [
+        "Il a fermé sa boutique en ligne.",
+        "Il a embauché un employé et loué un entrepôt.",
+        "Il est retourné vivre au village.",
+        "Il a arrêté de publier sur son réseau social."
+      ],
+      "answer": "Il a embauché un employé et loué un entrepôt.",
+      "translation": "Un jeune menuisier est parti du village pour la ville parce qu'il y a plus d'opportunités d'emploi. Au début, il fabriquait des petits meubles pour des magasins de literie et d'articles artisanaux et les publiait sur sa page sociale. Les commandes ont rapidement augmenté, mais il a compris qu'il devait davantage assurer la qualité et une livraison régulière pour attirer les clients. Quelques mois plus tard, il a décidé d'embaucher un employé et de louer un entrepôt afin de pouvoir gérer l'augmentation des commandes.",
+      "explanation": "Le texte précise explicitement qu'après quelques mois il a choisi d'embaucher un employé et de louer un entrepôt (« რამდენიმე თვეში მან თანამშრომლის დაქირავება და საწყობის დაქირავება გადაწყვიტა »). Les autres options ne sont pas mentionnées."
+    },
+    {
+      "id": "reading_guided-b2-gen-004",
+      "version": 4,
+      "level": 4,
+      "cefr": "B2",
+      "level_name": "B2",
+      "text": "ზოოპარკის გამოსახულებებმა დაუგეგმავი რებრენდინგი დაიწყო, როცა დირექტორმა განაცხადა, რომ ცხოველთა კეთილდღეობა პრიორიტეტი გახდება. ამის გამო საბიუჯეტო ფონდები გადაკენკილ იქნა საცხოვრებელი პირობების გაუმჯობესებაზე, ასევე აუტანელ გარემოზე კონტროლის გამკაცრებაზე. ნაწილი საზოგადოებისა ამ ცვლით მოიხიბლა, თუმცა იყო კრიტიკოსებიც, რომლებიც მიიჩნევდნენ, რომ ცვლილებები ნაჩქარევი და არასაკმარისი იყო. დირექტორმა ჟურნალისტებთან თქვა, რომ დიალოგს გააგრძელებენ და შედეგებს თანდათან გაასაჯაროებენ.",
+      "question": "Quel point de vue est mentionné dans le texte concernant les changements au zoo ?",
+      "options": [
+        "Tout le monde a immédiatement soutenu les nouveautés.",
+        "Les changements sont présentés comme une priorité pour le bien-être des animaux.",
+        "La direction a refusé de communiquer avec les journalistes.",
+        "Les fonds ont été réduits pour améliorer les conditions."
+      ],
+      "answer": "Les changements sont présentés comme une priorité pour le bien-être des animaux.",
+      "translation": "Le zoo a lancé un rebranding inattendu quand le directeur a déclaré que le bien‑être des animaux deviendrait une priorité. Pour cette raison, des fonds budgétaires ont été redirigés vers l'amélioration des conditions de vie et le renforcement du contrôle de l'environnement insoutenable. Une partie de la population a été séduite par ce changement, mais il y a eu aussi des critiques qui estimaient que les modifications étaient hâtives et insuffisantes. Le directeur a déclaré aux journalistes qu'ils poursuivraient le dialogue et publieraient progressivement les résultats.",
+      "explanation": "Le texte indique que le directeur a annoncé que le bien-être des animaux deviendrait une priorité (« დირექტორმა განაცხადა, რომ ცხოველთა კეთილდღეობა პრიორიტეტი გახდება »). Les autres options sont contraires au texte ou non mentionnées (la direction dit au contraire qu'elle communiquera, et les fonds ont été redirigés pour améliorer les conditions, donc pas réduits)."
+    }
+  ]
+}

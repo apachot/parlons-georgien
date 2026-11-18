@@ -150,6 +150,456 @@
       "explanation": "Le verbe «უყურებ» (tu regardes) prend comme objet «ვიდეოს» (la vidéo) ici; «წიგნს» (le livre), «ქოლგას» (le parapluie) ou «სურათს» (la photo) changeraient le sens et sont moins plausibles pour «tu ris beaucoup quand tu regardes...».",
       "cefr": "A2",
       "version": 10
+    },
+    {
+      "id": "reading_cloze-a2-gen-011",
+      "sentence": "მე სკოლაში ___ მივდივარ ყოველ დილით.",
+      "answer": "პირდაპირ",
+      "options": [
+        "პირდაპირ",
+        "საჭიროა",
+        "გაუფრთხილებლად",
+        "მალე"
+      ],
+      "translation": "Je vais à l'école directement chaque matin.",
+      "explanation": "Le mot attendu est un adverbe exprimant la manière « directement » (პირდაპირ). Les distracteurs sont soit inappropriés (საჭიროა = il faut), soit incorrects en sens (გაუფრთხილებლად = imprudemment, მალე = bientôt).",
+      "cefr": "A2",
+      "version": 11
+    },
+    {
+      "id": "reading_cloze-a2-gen-012",
+      "sentence": "გთხოვ, წიგნი მაგიდაზე ___ დადე.",
+      "answer": "ფრთხილად",
+      "options": [
+        "ფრთხილად",
+        "სწრაფად",
+        "ცხელად",
+        "გახსნულად"
+      ],
+      "translation": "S'il te plaît, pose le livre sur la table doucement.",
+      "explanation": "Contextuellement on demande de poser le livre avec précaution : ფრთხილად = doucement/prudemment. სწრაფად (vite), ცხელად (chaudement) et გახსნულად (incorrect/peu courant) ne conviennent pas.",
+      "cefr": "A2",
+      "version": 12
+    },
+    {
+      "id": "reading_cloze-a2-gen-013",
+      "sentence": "ის ___ ადრე წიგნს კითხულობდა, ამიტომ მშვიდად იყო.",
+      "answer": "ყველამ",
+      "options": [
+        "ყველამ",
+        "იქნება",
+        "მარტომ",
+        "ბევრმა"
+      ],
+      "translation": "Tout le monde lisait le livre auparavant, donc il/elle était calme.",
+      "explanation": "La phrase veut dire « Tout le monde lisait le livre auparavant » → ყველა ან öllum ვარიანტები ; აქ საჭიროა როლო «ყველამ» (forme nominative/ergative selon structure) pour « tout le monde ». სხვა ვარიანტები არ შეესაბამება მასს_CONTEXTს (იქნება = sera, მარტომ = seul, ბევრმა = par beaucoup mais forme différente).",
+      "cefr": "A2",
+      "version": 13
+    },
+    {
+      "id": "reading_cloze-a2-gen-014",
+      "sentence": "ჩვენ ხვალ პარკში ___ ვიბანებთ.",
+      "answer": "ბავშვებს",
+      "options": [
+        "ბავშვებს",
+        "ცხენებს",
+        "ფურებს",
+        "მხოლოდ"
+      ],
+      "translation": "Demain nous lavons les enfants dans le parc.",
+      "explanation": "Le verbe ვიბანებთ (nous lavons) requiert un complément d'objet au cas approprié : ბავშვებს = les enfants (accusatif/pluriel). ცხენებს (chevaux) et ფურებს (chevaux inexact spelling ან დააყოვნებელი) sont plausibles mais changent le sens ; მხოლოდ = seulement n'est pas un complément d'objet.",
+      "cefr": "A2",
+      "version": 14
+    },
+    {
+      "id": "reading_cloze-a2-gen-015",
+      "sentence": "რომ ტომარაში ___, სამზარეულოში დადგა.",
+      "answer": "წითელი ვაშლები",
+      "options": [
+        "წითელი ვაშლები",
+        "მთელი ღამე",
+        "ახლახან",
+        "მწვანე ჩაი"
+      ],
+      "translation": "Quand il mit dans le sac des pommes rouges, il les plaça dans la cuisine.",
+      "explanation": "La structure « რომ + sujet + verbe » indique une action suivie ; ici le complément mis dans le sac doit être un objet concret : წითელი ვაშლები = pommes rouges. მთლი ღამე = toute la nuit (temps), ახლახან = récemment (adverbe), მწვანე ჩაი = thé vert (plausible mais change le sens).",
+      "cefr": "A2",
+      "version": 15
+    },
+    {
+      "id": "reading_cloze-a2-gen-016",
+      "sentence": "შენ გინდოდა ჩემთან ___ საუბარი?",
+      "answer": "გახმაურებული",
+      "options": [
+        "გახმაურებული",
+        "სარკინიგზო",
+        "გაუპასუხებელი",
+        "სამშვიდობო"
+      ],
+      "translation": "Voulait-tu avoir une conversation publique/annoncée avec moi?",
+      "explanation": "Le verbe კონტექსტში ითხოვს რეპლიკაციას: გახმაურებული = rendu public/annoncé (sens plausible « discuter publiquement »). სხვები არ მდგრადია ამ კონტექსტში: სარკინიგზო (ferroviaire), გაუპასუხებელი (sans réponse), სამშვიდობო (de paix).",
+      "cefr": "A2",
+      "version": 16
+    },
+    {
+      "id": "reading_cloze-a2-gen-017",
+      "sentence": "დღეს ___ მაღაზიები საღამოს შვიდზე იხურებიან.",
+      "answer": "მთლიანად",
+      "options": [
+        "მთლიანად",
+        "იქითაც",
+        "მხოლოდ",
+        "ყოველდღე"
+      ],
+      "translation": "Aujourd'hui, tous les magasins ferment à sept heures du soir.",
+      "explanation": "მთლიანად signifie « totalement/tous » et convient pour « tous les magasins ». მხოლოდ (seulement) pourrait être tentant mais change la construction; იქითაც (là-bas aussi) et ყოველდღე (chaque jour) ne conviennent pas ici.",
+      "cefr": "A2",
+      "version": 17
+    },
+    {
+      "id": "reading_cloze-a2-gen-018",
+      "sentence": "მან მაჩვენა, რომ სახლი ___ არის ახლოს.",
+      "answer": "ჩვენგან",
+      "options": [
+        "ჩვენგან",
+        "აქვე",
+        "ქუჩაში",
+        "კარით"
+      ],
+      "translation": "Il/elle m'a montré que la maison est proche de nous.",
+      "explanation": "Le mot exprimant la proximité par rapport à « nous » est ჩვენგან = de chez nous/depuis nous. აქვე (ici même) est possible mais ne suit naturellement la construction « რომ ... არის » avec complément de provenance; ქუჩაში (dans la rue) et კარით (par la porte) sont inappropriés.",
+      "cefr": "A2",
+      "version": 18
+    },
+    {
+      "id": "reading_cloze-a2-gen-019",
+      "sentence": "რამდენი ხანი ___ შენმა ბროშმა დაასრულა სამუშაო?",
+      "answer": "სამსახურში",
+      "options": [
+        "სამსახურში",
+        "ბაღში",
+        "კურსზე",
+        "საოფისე"
+      ],
+      "translation": "Combien de temps ton collègue a-t-il fini le travail au travail?",
+      "explanation": "La question demande le lieu lié au travail : სამსახურში = au travail. ბაღში (dans le jardin), კურსზე (au cours), საოფისე (forme incorrecte; officine) ne conviennent.",
+      "cefr": "A2",
+      "version": 19
+    },
+    {
+      "id": "reading_cloze-a2-gen-020",
+      "sentence": "ბებია ყოველთვის ___ საუზმეს აკეთებს კვირის ბოლოს.",
+      "answer": "სითბოთი",
+      "options": [
+        "სითბოთი",
+        "სწრაფად",
+        "თბილილა",
+        "ამინიდ"
+      ],
+      "translation": "La grand-mère prépare toujours le petit-déjeuner avec chaleur le week-end.",
+      "explanation": "სითბოთი = avec chaleur/affection convient pour décrire comment elle prépare le petit-déjeuner. სწრაფად = rapidement est différent. თბილილა et ამინიდ sont incorrects ou non pertinents.",
+      "cefr": "A2",
+      "version": 20
+    },
+    {
+      "id": "reading_cloze-a2-gen-021",
+      "sentence": "მე ორშაბათს ___ მივდივარ.",
+      "answer": "სამსახურში",
+      "options": [
+        "სამსახურში",
+        "სკოლაში",
+        "მაღაზიაში",
+        "უნივერსიტეტში"
+      ],
+      "translation": "Le lundi, je vais au travail.",
+      "explanation": "Le mot მთლიანი ფორმა 'სამსახურში' (au travail) correspond au lieu de destination avec la postposition -ში ; les autres options sont plausibles mais changeraient le lieu.",
+      "cefr": "A2",
+      "version": 21
+    },
+    {
+      "id": "reading_cloze-a2-gen-022",
+      "sentence": "გთხოვ, კარი ___ დახურე.",
+      "answer": "მყისიერად",
+      "options": [
+        "სწრაფად",
+        "ნელა",
+        "მყისიერად",
+        "ყურადღებით"
+      ],
+      "translation": "S'il te plaît, ferme la porte immédiatement.",
+      "explanation": "L'adverbe 'მყისიერად' (immédiatement) convient avant le verbe 'დახურე'. Les autres adverbes changeraient le sens ou la manière.",
+      "cefr": "A2",
+      "version": 22
+    },
+    {
+      "id": "reading_cloze-a2-gen-023",
+      "sentence": "მან მწვანე ___ იყიდა.",
+      "answer": "ჯინსი",
+      "options": [
+        "კაბა",
+        "შარვალი",
+        "ჯინსი",
+        "ქუდი"
+      ],
+      "translation": "Il/elle a acheté un jean vert.",
+      "explanation": "Le groupe nominal 'მწვანე ჯინსი' (jean vert) est correct ; 'ჯინსი' est le vêtement acheté. Les autres options sont des vêtements plausibles mais incompatibles avec la réponse donnée.",
+      "cefr": "A2",
+      "version": 23
+    },
+    {
+      "id": "reading_cloze-a2-gen-024",
+      "sentence": "დღეს რა გჭირს? მუცელი ___ მტკივა.",
+      "answer": "ძალიან",
+      "options": [
+        "ცოტათი",
+        "ბევრად",
+        "ძალიან",
+        "ზოგჯერ"
+      ],
+      "translation": "Qu'est-ce qui ne va pas aujourd'hui ? J'ai très mal au ventre.",
+      "explanation": "L'adverbe 'ძალიან' (très) renforce la douleur 'მტკივა'. Les autres adverbes modifient l'intensité différemment et ne conviennent pas au sens ici.",
+      "cefr": "A2",
+      "version": 24
+    },
+    {
+      "id": "reading_cloze-a2-gen-025",
+      "sentence": "მან ტელეფონი მაგიდაზე ფრთხილად ___.",
+      "answer": "დადო",
+      "options": [
+        "დადო",
+        "იღებ",
+        "ჩათვალა",
+        "წაიღო"
+      ],
+      "translation": "Il/elle a posé délicatement le téléphone sur la table.",
+      "explanation": "Le verbe 'დადო' (a posé) décrit l'action accomplie ; les autres verbes changeraient complètement l'action.",
+      "cefr": "A2",
+      "version": 25
+    },
+    {
+      "id": "reading_cloze-a2-gen-026",
+      "sentence": "დღეს მაღაზიაში მხოლოდ ხილი და ___ ვიყიდეთ.",
+      "answer": "ბოსტნეული",
+      "options": [
+        "ხორცი",
+        "სასმელი",
+        "ბოსტნეული",
+        "პური"
+      ],
+      "translation": "Aujourd'hui, nous n'avons acheté au magasin que des fruits et des légumes.",
+      "explanation": "'ხილი და ბოსტნეული' (fruits et légumes) est une paire courante ; les autres mots sont plausibles mais ne correspondent pas à l'expression attendue.",
+      "cefr": "A2",
+      "version": 26
+    },
+    {
+      "id": "reading_cloze-a2-gen-027",
+      "sentence": "მე ქართულს ___ ვსწავლობ.",
+      "answer": "სკოლაში",
+      "options": [
+        "სახლში",
+        "სკოლაში",
+        "პარკში",
+        "უნივერსიტეტში"
+      ],
+      "translation": "J'apprends le géorgien à l'école.",
+      "explanation": "La postposition '-ში' indique le lieu d'apprentissage : 'სკოლაში' (à l'école). Les autres lieux changeraient le contexte.",
+      "cefr": "A2",
+      "version": 27
+    },
+    {
+      "id": "reading_cloze-a2-gen-028",
+      "sentence": "ის კვირას ხშირად ___ სეირნობს.",
+      "answer": "პარკში",
+      "options": [
+        "ბარში",
+        "პარკში",
+        "სამზარეულოში",
+        "სკოლაში"
+      ],
+      "translation": "Le dimanche, il/elle se promène souvent dans le parc.",
+      "explanation": "'პარკში' (dans le parc) est l'endroit logique pour 'სეირნობს' (se promener) ; les autres lieux sont moins plausibles ou changeraient le sens.",
+      "cefr": "A2",
+      "version": 28
+    },
+    {
+      "id": "reading_cloze-a2-gen-029",
+      "sentence": "სტუმრები უკვე ___ არიან.",
+      "answer": "ჩამოსულები",
+      "options": [
+        "ჩამოსულები",
+        "წასულები",
+        "მჯდომარეები",
+        "მისულები"
+      ],
+      "translation": "Les invités sont déjà arrivés.",
+      "explanation": "L'adjectif verbal 'ჩამოსულები' signifie 'arrivés'. 'მისულები' est proche mais moins courant ; les autres options ont des sens opposés ou différents.",
+      "cefr": "A2",
+      "version": 29
+    },
+    {
+      "id": "reading_cloze-a2-gen-030",
+      "sentence": "მე მინდა ყავა ___ შაქრით.",
+      "answer": "ცოტა",
+      "options": [
+        "შაქარი",
+        "ცოტა",
+        "ბევრი",
+        "უშაქროდ"
+      ],
+      "translation": "Je veux du café avec un peu de sucre.",
+      "explanation": "'ცოტა' (un peu) est l'adverbe exprimant la quantité de sucre voulue. Les autres options ne conviennent pas grammaticalement ou changent le sens.",
+      "cefr": "A2",
+      "version": 30
+    },
+    {
+      "id": "reading_cloze-a2-gen-031",
+      "version": 31,
+      "cefr": "A2",
+      "sentence": "ანა დღეს ___ წაიკითხა.",
+      "answer": "წიგნი",
+      "options": [
+        "წიგნი",
+        "ფურცელი",
+        "სვეტი",
+        "მწვანე"
+      ],
+      "translation": "Anna a lu un livre aujourd'hui.",
+      "explanation": "Verbe 'წაიკითხა' (il/elle a lu) nécessite un complément objet; 'წიგნი' signifie 'livre'. Les autres options ne conviennent pas au sens 'lire' dans ce contexte."
+    },
+    {
+      "id": "reading_cloze-a2-gen-032",
+      "version": 32,
+      "cefr": "A2",
+      "sentence": "ჩვენ ხშირად ___ ერთად ვსვავთ ყავას.",
+      "answer": "დილით",
+      "options": [
+        "დილით",
+        "ხოლმე",
+        "მალე",
+        "ირბინებით"
+      ],
+      "translation": "Nous buvons souvent du café ensemble le matin.",
+      "explanation": "'დილით' signifie 'le matin' et convient avec 'ჩვენ ხშირად ... ერთად ვსვავთ ყავას' ('nous buvons souvent du café ensemble le matin'). Les autres distracteurs sont soit adverbes mal adaptés ('ხოლმე' redondant avec 'ხშირად'), soit non pertinents."
+    },
+    {
+      "id": "reading_cloze-a2-gen-033",
+      "version": 33,
+      "cefr": "A2",
+      "sentence": "ეს ფუნჯი მაგიდაზე ___ დევს.",
+      "answer": "ახლა",
+      "options": [
+        "ახლა",
+        "ხშირად",
+        "სწრაფად",
+        "ცოტა"
+      ],
+      "translation": "Ce stylo est sur la table maintenant.",
+      "explanation": "'ახლა' = 'maintenant' complète la phrase temporellement. Les autres adverbes décrivent fréquence ou manière et ne conviennent pas après 'მეგიდაზე ... დევს' dans ce contexte."
+    },
+    {
+      "id": "reading_cloze-a2-gen-034",
+      "version": 34,
+      "cefr": "A2",
+      "sentence": "მე ჩემს მეგობარს დღეს ___ ვნახავ.",
+      "answer": "საღამოს",
+      "options": [
+        "საღამოს",
+        "გუშინ",
+        "ყური",
+        "პური"
+      ],
+      "translation": "Je verrai mon ami ce soir.",
+      "explanation": "'საღამოს' = 'ce soir' indique le moment futur et concorde avec 'ვნახავ' (je verrai). 'გუშინ' est au passé et les autres options sont des noms non temporels."
+    },
+    {
+      "id": "reading_cloze-a2-gen-035",
+      "version": 35,
+      "cefr": "A2",
+      "sentence": "ბათუმი ზღვასთან ახლოს ___.",
+      "answer": "მდებარეობს",
+      "options": [
+        "მდებარეობს",
+        "გადის",
+        "ჰყვება",
+        "იღებს"
+      ],
+      "translation": "Batoumi est situé près de la mer.",
+      "explanation": "Le verbe correct pour 'se situer' est 'მდებარეობს'. Les autres verbes ne donnent pas le sens de localisation."
+    },
+    {
+      "id": "reading_cloze-a2-gen-036",
+      "version": 36,
+      "cefr": "A2",
+      "sentence": "ჩემმა ძმამ ახალი ტელეფონი ___ იყიდა.",
+      "answer": "გუშინ",
+      "options": [
+        "გუშინ",
+        "დღესაც",
+        "ვერასდროს",
+        "მხოლოდ"
+      ],
+      "translation": "Mon frère a acheté un nouveau téléphone hier.",
+      "explanation": "'გუშინ' = 'hier' convient avec le passé 'იყიდა' (a acheté). Les autres options donnent un sens temporel incompatible ou ambigu."
+    },
+    {
+      "id": "reading_cloze-a2-gen-037",
+      "version": 37,
+      "cefr": "A2",
+      "sentence": "მან ჩემთან საუბარში ___ ხმა არ გაიგონა.",
+      "answer": "მაღალი",
+      "options": [
+        "მაღალი",
+        "დიდი",
+        "ლამაზი",
+        "სუსტი"
+      ],
+      "translation": "Pendant qu'il parlait avec moi, on n'a pas entendu une voix forte.",
+      "explanation": "'მაღალი' signifie 'fort/élevée' et convient avec 'ხმა' (voix). Les autres adjectifs changeraient le sens ou sont moins plausibles ici."
+    },
+    {
+      "id": "reading_cloze-a2-gen-038",
+      "version": 38,
+      "cefr": "A2",
+      "sentence": "პარკში ბავშვები ხის ქვეშ ___ თამაშობენ.",
+      "answer": "სხვენით",
+      "options": [
+        "სხვენით",
+        "არაყით",
+        "ფეხით",
+        "სირბილით"
+      ],
+      "translation": "Au parc, les enfants jouent sous l'arbre en courant.",
+      "explanation": "'სირბილით' = 'en courant' décrit la manière de jouer. Les autres options sont soit inappropriées (boisson) soit non pertinentes."
+    },
+    {
+      "id": "reading_cloze-a2-gen-039",
+      "version": 39,
+      "cefr": "A2",
+      "sentence": "მე ყოველთვის ღამით ___ ვკითხულობ.",
+      "answer": "წითელ წიგნს",
+      "options": [
+        "წითელ წიგნს",
+        "ლურჯ წყალს",
+        "ახალ კომპოს",
+        "დიდ საათს"
+      ],
+      "translation": "Je lis toujours le livre rouge la nuit.",
+      "explanation": "'წითел წიგნს' = 'le livre rouge' est l'objet direct de 'ვკითხულობ' (je lis). Les autres options ne sont pas des objets logiques pour 'lire'."
+    },
+    {
+      "id": "reading_cloze-a2-gen-040",
+      "version": 40,
+      "cefr": "A2",
+      "sentence": "საოჯახო ვახშმისთვის დედა ყველს ___ ხარშავს.",
+      "answer": "არაქარუ",
+      "options": [
+        "არაქარუ",
+        "ბარეზიც",
+        "გემი",
+        "პური"
+      ],
+      "translation": "Pour le dîner familial, la mère prépare le fromage en le cuisant (sorte spécifique).",
+      "explanation": "'არაქარუ' est le terme régional/spécifique ici choisi comme aliment préparé; les autres distracteurs sont non pertinents. (Dans ce cas l'énoncé demande un aliment; 'პური' par exemple serait plausible mais n'est pas le mot ciblé.)"
     }
   ]
 }

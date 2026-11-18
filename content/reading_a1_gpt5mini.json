@@ -1,0 +1,59 @@
+{
+  "cefr": "A1",
+  "items": [
+    {
+      "id": "reading_guided-a1-gen-002",
+      "level": 1,
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 2,
+      "text": "ანა დღეს ბაზარში წავიდა და ვაშლები იყიდა. ის სახლში დაბრუნდა და ვაშლს ჭამს.",
+      "question": "Que fait Ana après être allée au marché ?",
+      "options": [
+        "Elle achète des pommes.",
+        "Elle monte à cheval.",
+        "Elle nage.",
+        "Elle prend l'avion."
+      ],
+      "answer": "Elle achète des pommes.",
+      "translation": "Ana est allée aujourd'hui au marché et a acheté des pommes. Elle est rentrée à la maison et mange une pomme.",
+      "explanation": "Le texte dit qu'Ana est allée au marché et qu'elle a acheté des pommes (ვაშლები იყიდა). Donc la bonne réponse est qu'elle achète des pommes."
+    },
+    {
+      "id": "reading_guided-a1-gen-003",
+      "level": 1,
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 3,
+      "text": "ეს ჩემი ლეკვია. ის ბონია. ბონი პატარაა და თეთრია.",
+      "question": "Quelle est la couleur du chiot ?",
+      "options": [
+        "Blanc",
+        "Noir",
+        "Brun",
+        "Gris"
+      ],
+      "answer": "Blanc",
+      "translation": "Ceci est mon chiot. Il s'appelle Boni. Boni est petit et blanc.",
+      "explanation": "Le texte dit que le chiot (ბონი) est small (პატარაა) et white (თეთრია). Donc la couleur est blanc."
+    },
+    {
+      "id": "reading_guided-a1-gen-004",
+      "level": 1,
+      "level_name": "A1",
+      "cefr": "A1",
+      "version": 4,
+      "text": "დილით მე ვსვამ ყავას, ვკითხულობ გაზეთს და შემდეგ ვმუშაობ. საღამოობით მე ვსეირნობ პარკში.",
+      "question": "Que fait la personne le matin ?",
+      "options": [
+        "Elle boit du café.",
+        "Elle cuisine le dîner.",
+        "Elle dort toute la matinée.",
+        "Elle voyage en train."
+      ],
+      "answer": "Elle boit du café.",
+      "translation": "Le matin je bois du café, je lis le journal et ensuite je travaille. Le soir je me promène dans le parc.",
+      "explanation": "Le texte commence par «Le matin je bois du café, je lis le journal et ensuite je travaille» (დილით მე ვსვამ ყავას). La première action du matin est boire du café."
+    }
+  ]
+}

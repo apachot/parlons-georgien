@@ -450,6 +450,1431 @@
       ],
       "cefr": "C2",
       "version": 10
+    },
+    {
+      "id": "dialogues-c2-gen-011",
+      "version": 11,
+      "cefr": "C2",
+      "title": "სასამართლო კონტრარქუმენტი",
+      "scene": "ადვოკატი ცდილობს სასამართლოში მოწმე დაიბნეულად არ გამოიყურებინოს; მოსამართლე ითხოვს შეფარდებით ზუსტი განმარტებას.",
+      "turns": [
+        {
+          "speaker": "არისტიდი (ადვოკატი)",
+          "ka": "მიმაჩნია, რომ მოწმის გამოსვლა ნაწილია არჩევითი ინტერპრეტაციისთვის და საჭიროა რამდენიმე კონკრეტული შეკითხვის გადაყნობა, რათა თავიდან ავიცილოთ უსაფუძვლო პროგნოზები.",
+          "fr": "Je considère que le témoignage se prête à des interprétations divergentes ; il faut poser des questions précises pour éviter des conjectures infondées."
+        },
+        {
+          "speaker": "მოსამართლე",
+          "ka": "ვხედავ თქვენს ადგილს, მაგრამ ქართულ სამართალში ჩვენ უფრო ვაფასებთ პირდაპირობას და თანმიმდევრულობას. უპირველეს ყოვლისა, დააკვირდით ფაქტების ქრონოლოგიას; შეუძლიათ თუ არა მოწმეებმა ზუსტად აღსაწერონ ჰოდა-რა მოხდა?",
+          "fr": "Je conçois votre point, mais en droit géorgien on privilégie la clartობრივité et la cohérence. D'abord, respectez la chronologie des faits ; les témoins peuvent-ils décrire précisément ce qui s'est passé ?"
+        },
+        {
+          "speaker": "ადვოკატი",
+          "ka": "ბევრ მომსწრეს ახსოვს დაბნეულად მომხდარი დეტალები; თუ სასამართლო შეანარჩუნებს ანგარიშგასაწევი გონივრულობა, კითხვის ფორმულირება უნდა აკონკრეტდეს დროსა და ადგილს, რათა არ მოხდეს აზრის გადატანა.",
+          "fr": "De nombreux témoins se souviennent des détails de façon confuse ; pour garder une délibération raisonnable, il faut préciser temps et lieu afin d'éviter toute projection d'opinion."
+        },
+        {
+          "speaker": "მოსამართლე (მიმართვა მოწმისკენ)",
+          "ka": "გთხოვთ მოგვიყვეთ ცალსახად: სად იყავით სასწრაფოდ ჩამოწერილ იმ პერიოდში და რა სიძლიერით ხედავდით მოვლენებს?",
+          "fr": "Expliquez-nous clairement : où étiez-vous pendant la période en question et dans quelle mesure avez-vous perçu les événements ?",
+          "choices": [
+            {
+              "ka": "მე ვიყავი დაახლოებით ოც მეტრში, გადაღმა ბალახის წვერზე, და მხოლოდ ფორმები დავინახე; ვერ დავუკვეთავ კონკრეტულ სიტყვებს.",
+              "fr": "J'étais à environ vingt mètres, sur l'autre côté de la pelouse ; je n'ai vu que des silhouettes et ne peux rapporter des paroles précises.",
+              "ok": false
+            },
+            {
+              "ka": "ჩვენი სახლიდან, მეორე სართულის აივნიდან დავინახე ყველაფერი; შუქნიშნისა და კვეთა ნიშნების თანმიმდევრობიდან დადგინდა მომენტის ზუსტი პოზიცია.",
+              "fr": "Depuis notre balcon au deuxième étage, j'ai tout vu ; la succession des feux et des marquages permet de situer précisément le moment.",
+              "ok": true
+            },
+            {
+              "ka": "მე მაშინ მანქანაში ვიჯექი, ფანჯარა დახმარებით ოდნავ დაბალი ჰქონდათ; შემიძლია მხოლოდ ჩამოყალიბებულ მიმართებაზე დავამახსოვრო ზოგადი რუკა.",
+              "fr": "J'étais dans la voiture, la fenêtre légèrement baissée ; je ne peux que restituer un schéma général des directions.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "მოსამართლე",
+          "ka": "კარგია — ჩვენ გავითვალისწინებთ თქვენს დაკვირვებას და დავითიებთ წერილობით მონაცემებთან შეთანხმებას.",
+          "fr": "Très bien — nous prendrons en compte votre observation et la confronterons aux éléments écrits."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-012",
+      "version": 12,
+      "cefr": "C2",
+      "title": "დიპლომატიური მოლაპარაკება",
+      "scene": "ვენის კონფერენციაზე ორი დიპლომატი განიხილავენ კულტურული პასუხისმგებლობისა და სავაჭრო ხელშეკრულების ზუსტი ფორმულირებებს.",
+      "turns": [
+        {
+          "speaker": "გიორგი (დიპლომატი A)",
+          "ka": "ჩვენ ვეთანხმებით ძირითადი პრინციპების საფუძველს, თუმცა ტექსტის ნიუანსები მნიშვნელოვანია: 'სანდო დელეგაცია' და 'ინტერნალური პრინციპები' შორის დავას უნდა გადავაწყოთ კონსტრუქციული ბალანსი.",
+          "fr": "Nous souscrivons aux principes de base, mais les nuances du texte comptent : il faut équilibrer constructivement la notion de « délégation fiable » et celle de « principes internes »."
+        },
+        {
+          "speaker": "სოფი (დიპლომატი B)",
+          "ka": "იმისათვის, რომ თავიდან ავიცილოთ მომავალში სამართლებრივი უთანხმოებები, ჩემის აზრით, საჭიროა ცალსახა განმარტება იმ შემთხვევებისთვის, როდესაც ურთიერთპასუხისმგებლობა ნაწილდება.",
+          "fr": "Pour éviter des litiges futurs, à mon avis il faut clarifier sans équivoque les cas de répartition des responsabilités."
+        },
+        {
+          "speaker": "გიორგი",
+          "ka": "თქვენ ლოგიკურად საუბრობთ. მე ვფიქრობ, რომ ამთავითვე უნდა ჩავსვათ დროის აღიარების მექანიზმი და დავამატოთ პოზა, რომელიც განსაზღვრავს მოლაპარაკებების საშუალო პერიოდს და კომპენსაციას აუცხოველ პირობებში.",
+          "fr": "Vous parlez logiquement. Je propose d'inclure dès le départ un mécanisme de reconnaissance temporelle et d'ajouter une clause définissant la période médiane des négociations et la compensation en cas d'imprévisibilité."
+        },
+        {
+          "speaker": "სოფი (სამეცადინოზე მიმართვა დასკვნითი უფლებით)",
+          "ka": "თქვენი წინადადება ეფექტური ჩანს, მაგრამ კონკრეტული სიტყვა, რომელიც გამოიყენეთ — 'აუცხოველ პირობებში' — შეიძლება არ იყოს საკმარისად პროგნოზირებადი. რომელი ფორმულირით დააკმაყოფილებთ უფრო კომფორტულად ურთიერთობას?",
+          "fr": "Votre proposition est pertinente, mais l'expression « en cas d'imprévisibilité » peut manquer de prévisibilité. Quelle formulation choisiriez-vous pour garantir un cadre plus confortable ?",
+          "choices": [
+            {
+              "ka": "ვინაიდან მიზანი სამართლებრივი ანკავშირების გამყარებაა, შევინარჩუნოთ 'აუცხოველ პირობებში' როგორც ფართო დასაზღვრავი ფრაზა და დავაკისროთ სასამართლოს ინტერპრეტაციის შესაძლებლობა.",
+              "fr": "Puisque l'objectif est de consolider des liens juridiques, conservons « en cas d'imprévisibilité » comme expression large et laissons au tribunal la possibilité d'interpréter.",
+              "ok": false
+            },
+            {
+              "ka": "სწორედ ამიტომ შემოთავაზებული მაქვს უფრო ჩვეულებრივი და დაზუსტებული რედაქცია: 'პასუხისმგებლობის გადანაწილება მოიხდება მხოლოდ ობიექტურად დადგენილ форს-მაჟორულ ვითარებებში', რომელსაც ავღწერენ რამდენიმე სამომხილე კრიტერიუმით.",
+              "fr": "Je propose une rédaction plus précise : « la répartition des responsabilités n'interviendra qu'en cas de force majeure objectivement déterminée », décrite par plusieurs critères d'expertise.",
+              "ok": true
+            },
+            {
+              "ka": "შევიტანოთ საშუალება, რომ მხარეებმა თვითონ განიხილონ და დაადგინონ სპეციფიკური მომენტები ყოველ ახალ საქმეში, გადატვირთვის გარეშე, რათა დარჩეს მოქნილობა.",
+              "fr": "Introduisons la possibilité pour les parties de définir elles-mêmes les points spécifiques dans chaque dossier, sans rigidité, pour préserver la flexibilité.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "გიორგი",
+          "ka": "ეს რედაქცია მიღწევადია და მისცემს მხარეებს მართებულ დაცვას. დავნიშნოთ ტექსტში შესაბამისი კრიტერიუმებიც.",
+          "fr": "Cette rédaction est acceptable et offre une protection juste ; inscrivons aussi les critères appropriés dans le texte."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-013",
+      "version": 13,
+      "cefr": "C2",
+      "title": "საგანმანათლებლო რეფორმა",
+      "scene": "უნივერსიტეტის საბჭო განიხილავს ახალი სახელმძღვანელოს შეტანას; განცხადებები აქცენტირებულია აკადემიურ თავისუფლებასა და ხარისხზე.",
+      "turns": [
+        {
+          "speaker": "რექტორი",
+          "ka": "სოციალური მეცნიერებების დარგში ახალი სახელმძღვანელო გვჭირდება, მაგრამ უნდა დაცულ იქნეს აკადემიური თავისუფლება და მრავალპერსპექტივიანობა — არც ერთკუთვნილება არ უნდა გაძლიერდეს უნივერსიტეტში.",
+          "fr": "Nous avons besoin d'un nouveau manuel en sciences sociales, mais la liberté académique et la pluralité doivent être préservées — aucune hégémonie ne doit s'installer."
+        },
+        {
+          "speaker": "პროფესორი ქურა",
+          "ka": "თუ სახელმძღვანელო შეირჩევა მონოპოლისტური ხედვით, სტუდენტს ვერ მივცემთ კრიტიკული მსჯელობის შესაძლებლობას. საჭიროა რედაქციული საბჭო, რომელიც უზრუნველყოფს დაბალანსებულ შეგნებას და პარადიგმათა ურთიერთშერწყმას.",
+          "fr": "Si le manuel est choisi selon une vision monopolistique, l'étudiant perdra la capacité de raisonnement critique. Il faut un comité éditorial garantissant un équilibre et l'articulation des paradigmes."
+        },
+        {
+          "speaker": "სტუდენტური წარმომადგენელი",
+          "ka": "ჩვენ გვაინტერესებს არა მხოლოდ თეორიის მრავალფეროვნება, არამედ ის პრაქტიკული მაგალითები, რომლებიც ხელს უწყობს ემპირიულ პოვენას; ამიტომ გთხოვთ, გათვალისწინდეს აქტიური სწავლების მეთოდები და დოკუმენტური რესურსების ხელმისაწვდომობა.",
+          "fr": "Nous ne voulons pas seulement la diversité théorique, mais aussi des exemples pratiques favorisant l'enquête empirique ; incluez des méthodes d'enseignement actives et l'accès aux ressources documentaires."
+        },
+        {
+          "speaker": "რექტორი (მიმართვა საბჭოსკენ)",
+          "ka": "თქვენი არგუმენტები დარწმუნებულია. რომელ ნაბიჯებს ვიღებთ, რომ შევქმნათ საზოგადოების ჩართულობის პროცესი და გადავჭრათ, ვინ აკონტროლებს რედაქციას?",
+          "fr": "Vos arguments sont convaincants. Quelles mesures prenons-nous pour mettre en place un processus participatif et trancher qui contrôle la rédaction ?",
+          "choices": [
+            {
+              "ka": "დაარეგისტრირეთ ღია კომისია, სადაც შედიან უნივერსიტეტის, სტუდენტებისა და დამოუკიდებელი ექსპერტების წარმომადგენლები; საბოლოო გადაწყვეტილება მიიღებს კონსენსუსით ან კენჭისყრით.",
+              "fr": "Créer une commission ouverte incluant université, étudiants et experts indépendants ; la décision finale par consensus ou vote.",
+              "ok": true
+            },
+            {
+              "ka": "დროსთან დაკავშირებით და ფინანსური რესურსების გათვალისწინებით, მანდატს მიანიჭოთ მხოლოდ რექტორატსა და მუდმივ კათედრათა თავკაცებს, რათა პროცესი სწრაფად წარიმართოს.",
+              "fr": "Pour des raisons de temps et budget, confier le mandat uniquement au rectorat et aux directeurs de départements pour accélérer le processus.",
+              "ok": false
+            },
+            {
+              "ka": "გავმართოთ რამდენიმე ავტორით საკონკურსო იპოდრომი და გამოვავლინოთ საუკეთესო პროზექტი ფართო პანელის საშუალებით, რომელიც ძირითადად კარგი თვითმმართველობით იმართება.",
+              "fr": "Organiser un concours multi-auteurs et sélectionner le meilleur projet par un large panel, géré en mode autogouvernance.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "პროფესორი ქურა",
+          "ka": "ხაზგასმით ვამხილებ, რომ კომისიის შემადგენლობა და პროცესის გამჭვირვალობა იქნება გადამწყვეტი ხარისხის გარანტი.",
+          "fr": "J'insiste : la composition de la commission et la transparence du processus seront décisives pour la qualité."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-014",
+      "version": 14,
+      "cefr": "C2",
+      "title": "მշვთა ეკონომიკური მოდელი",
+      "scene": "ეკონომისტები საჯარო დისკუსიაზე არგუმენტავენ სუბსიდიების ეფექტურობაზე და ბიუჯეტის პრიორიტეტზე.",
+      "turns": [
+        {
+          "speaker": "ეკონომისტი ლევანი",
+          "ka": "სუბსიდიები შეიძლება ხანგრძლივად დაკარგონ ღირებულებას თუ არ ჩახლართავენ სტრუქტურულ რეფორმებს; საჭიროა მიკროეკონომიური ინტერაქცია ბაზრის მაკარნახებელ მექანიზმებთან.",
+          "fr": "Les subventions peuvent s'épuiser si elles ne s'accompagnent pas de réformes structurelles ; il faut une interaction microéconomique avec les mécanismes du marché."
+        },
+        {
+          "speaker": "ეკონომისტი მარიამი",
+          "ka": "მითითებული ხერხები ხშირად იწვევს დეფიციტის ზრდას. ჩვენ უნდა განვსაზღვროთ საპრიორიტეტო სექტორები და შემოვიღოთ დროითი საზღვრები სუბსიდირებისათვის.",
+          "fr": "Ces instruments entraînent souvent une augmentation du déficit. Il faut définir des secteurs prioritaires et introduire des limites temporelles aux subventions."
+        },
+        {
+          "speaker": "პუბლიკა — ბიზნესმენთა ასოციაციის წარმომადგენელი",
+          "ka": "მარკეტინგის მოკლე პერიოდის სტიმულირება საჭიროა ბიზნესისთვის; თუმცა, ჩვენთან მოქმედ მრეწველობას მოსწონს სტაბილურობის გრძელი ოპერატიული ხედვა.",
+          "fr": "Des stimuli à court terme sont nécessaires pour les entreprises ; toutefois, l'industrie locale préfère une vision opérationnelle stable à long terme."
+        },
+        {
+          "speaker": "ეკონომისტი ლევანი (სკრინინგისკენ)",
+          "ka": "რა არგუმენტი მიაჩნია თქვენთვის ყველაზე პრიორიტეტულად: დროებითი სტიმული, სტრუქტურული რეფორმა თუ პირდაპირი ინვესტირების მოზიდვა?",
+          "fr": "Quel argument privilégiez-vous : stimulus temporaire, réforme structurelle ou attraction d'investissements directs ?",
+          "choices": [
+            {
+              "ka": "მესამე ვარიანტი — ორმხრივი აზარტით მივმართოთ პირდაპირ ინვესტიციებს: მარეგულირებელი გამჭვირვალობა და სპეციალური საგარანტიო მექანიზმები მოიზიდავს დიდ პროექტებს.",
+              "fr": "Opter pour la troisième voie — attirer les IDE via transparence réglementaire et mécanismes de garantie spécifiques.",
+              "ok": false
+            },
+            {
+              "ka": "მე მხარს ვუჭერ სტრუქტურულ რეფორმებს, რადგან მხოლოდ გრძელვადიანი ცვლილებები შეძლებენ კონკურენტუნარიანობის განმტკიცებას და სუბსიდიების საჭიროების შემცირებას.",
+              "fr": "Je préconise les réformes structurelles : seules des transformations durables renforceront la compétitivité et réduiront le besoin de subventions.",
+              "ok": true
+            },
+            {
+              "ka": "დროებითი სტიმული გაცილებით ეფექტურია მოკლევადიანი დასაქმებისთვის და შეიძლება გადაიჭრას ვადების გასვლის შემდეგ მონიტორინგით.",
+              "fr": "Un stimulus temporaire est plus efficace pour l'emploi à court terme et peut être ajusté via suivi ultérieur.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ეკონომისტი მარიამი",
+          "ka": "თუ შევაჯამებთ, კომპრომისი შეიძლება შედგეს: დროებითი სუბსიდია, რომელიც თანაბრად უნდა იყოს თანმიმდევრული სტრუქტურულ ენარჩენებთან.",
+          "fr": "En résumé, un compromis est possible : subventions temporaires assorties d'engagements structuraux concomitants."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-015",
+      "version": 15,
+      "cefr": "C2",
+      "title": "დაიწყოს არქივების დაცვა",
+      "scene": "კულტურის დაცვის საბჭო მსჯელობს ისტორიული არქივების ციფრულ ინვენტარიზაციაზე, კონფიდენციალურობისა და საზოგადოებრივ ინტერესთა თანაფარდობაზე.",
+      "turns": [
+        {
+          "speaker": "საბჭოს თავმჯდომარე",
+          "ka": "არქივების ციფრული შენახვა აუცილებელია, თუმცა არ უნდა დავაკარგვინოთ კონტექსტი და ავტენტურობა; როგორ დავაზუსტოთ წესები ინდექსაციისა და დაცვისთვის?",
+          "fr": "La numérisation des archives est nécessaire, mais sans perte de contexte ni d'authenticité ; comment définir des règles d'indexation et de protection ?"
+        },
+        {
+          "speaker": "არქივისტი",
+          "ka": "ჩვენ უნდა მივცეთ უპირატესობა მეტამონაცემების დეტალებს და ვიმუშაოთ ვერსიების მართვაზე, რათა შეიცავდეს ზედმიწევნით აღწერილ კონტექსტურ განმარტებებს.",
+          "fr": "Il faut privilégier des métadonnées détaillées et gérer les versions pour conserver des descriptions contextuelles précises."
+        },
+        {
+          "speaker": "მოქალაქეების წარმომადგენელი",
+          "ka": "საზოგადოებას ექნება ინტერესის გაღვივება და ზოგიერთი მონაცემი შესაძლოა სპეციფიკური ნეგატიური შედეგების გამოწვევის მიზეზი გახდეს; როგორ დავიცვათ პირადი ინფორმაციის უფლება და ისტორიული ჭეშმარიტება?",
+          "fr": "Le public s'y intéressera et certaines données peuvent provoquer des conséquences négatives ; comment protéger la vie privée tout en préservant la vérité historique ?"
+        },
+        {
+          "speaker": "საბჭოს თავმჯდომარე",
+          "ka": "თქვენ რა მეთოდს დაასახელებდით, რომ აღვნიშნოთ ხელმისაწვდომობა, მაგრამ განმეორებითი ზიანის თავიდან ასაცილებლად დავხუროთ მგრძნობიარე ტიპის ჩანაწერები?",
+          "fr": "Quelle méthode proposeriez-vous pour garantir l'accès tout en limitant les dommages potentiels en restreignant l'accès aux documents sensibles ?",
+          "choices": [
+            {
+              "ka": "ვაადგილოთ კრიტერიუმი: ავტომატური იდენტიფიკაცია და შემდეგ დამოუკიდებელმა კომისიამ დაადგინოს დახურულობის სეზონური პერიოდი; ეს უზრუნველყოფს თანმიმდევრულ შეზღუდვას.",
+              "fr": "Établir un critère : identification automatique puis commission indépendante décidant de périodes de fermeture ; assurer ainsi des restrictions cohérentes.",
+              "ok": false
+            },
+            {
+              "ka": "განვატაროთ კატეგორიზაცია მგრძნობიარეობის მიხედვით და შემოვიღოთ დროებითი აკრძალვები განსაზღვრული პირებისთვის, თანდართული პროცესით აღსრულებადობის აპელაციით — ეს პრინციპულად ინარჩუნებს საჯარო ინტერესს და დაცვას.",
+              "fr": "Catégoriser par sensibilité et introduire des restrictions temporaires pour certaines personnes, avec procédure d'appel ; principe qui préserve intérêt public et protection.",
+              "ok": true
+            },
+            {
+              "ka": "სრულიად საჯარო გახადეთ ყველა მასალა, რადგან ისტორიული სიმართლე არ უნდა იყოს თვითშერჩევის ობიექტი; პირადობა დაიცლება კაცის სტატუსით სამართლებრივი გზით.",
+              "fr": "Rendre tout public ; la vérité historique ne doit pas être triée ; la protection de la vie privée sera réglée juridiquement après coup.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "არქივისტი",
+          "ka": "თქვენს მიერ შემოთავაზებული მოდელი აპელირებს პრინციპებსა და ტექნიკურ შესაძლებლობებს შორის დაბალანსებაზე; ჩვენ შევიმუშავებთ პროექტის პირველ ვერსიას.",
+          "fr": "Le modèle proposé équilibre principes et capacités techniques ; nous élaborerons une première version du projet."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-016",
+      "version": 16,
+      "cefr": "C2",
+      "title": "კლინიკური გადაწყვეტილება",
+      "scene": "კლინიკური ჯგუფი განიხილავს ზრუნვის გეგმას პაციენტისთვის, რომლის დიაგნოსტიკა არ არის ერთმნიშვნელოვანი და საჭიროებს ემპირიულ-ეთიკურ ბალანსს.",
+      "turns": [
+        {
+          "speaker": "თერაპევტი",
+          "ka": "პაციენტი რთულ ნეირომეწყვილეობაზეა: სამედიცინო მონაცემები ნაწილობრივ შეუთავსებელია; ჩვენი სამიზნეა არა მხოლოდ სიმპტომების მართვა, არამედ ცხოვრების ხარისხის შენარჩუნება.",
+          "fr": "Le patient présente une complexité neuro-associative : les données médicales sont partiellement discordantes ; notre objectif est de gérer les symptômes et préserver la qualité de vie."
+        },
+        {
+          "speaker": "ნევროლოგი",
+          "ka": "გარდა იმით, რომ გამოკვლევები არ არის კონსისტენტური, აუცილებელია ჯერ ეფექტების სარეაბილიტაციო პასაჟი შევისწავლოთ; მკურნალობის დაწყებამდე აწარმოეთ რისკ–საპროცენტო შეფასება.",
+          "fr": "Les examens étant non cohérents, il faut d'abord étudier le volet réhabilitatif ; avant traitement, réaliser une évaluation probabiliste des risques."
+        },
+        {
+          "speaker": "სოციალური მუშაკი",
+          "ka": "პაციენტის ოჯახში დატვირთვა უკვე მაღალია; ნებისმიერი არასტანდარტული თერაპია დაემატება ემოციურ და მოულოდნელ ფინანსურ წნეხს. როგორ გავკონკრეტოთ შეთანხმებული სამოქმედო გეგმა?",
+          "fr": "La charge familiale est élevée ; toute thérapie non standard ajoutera pression émotionnelle et financière. Comment préciser un plan d'action commun ?"
+        },
+        {
+          "speaker": "თერაპევტი",
+          "ka": "ჩვენ სისტემატურად უნდა შევაფასოთ კლინიკური სარგებელი, გვერდითი მოვლენები და სოციალური გავლენა; თქვენ რომელ პრიორიტეტს უჭერთ მხარს: კლინიკურად აგრესიული მიდგომა, ფრთხილი წვდომა თუ ხარისხზე ორიენტირებული პალიტრა?",
+          "fr": "Nous devons évaluer systématiquement bénéfice clinique, effets secondaires et impact social. Quel prioritaire retenez-vous : approche agressive, accès prudent ou palette orientée qualité ?",
+          "choices": [
+            {
+              "ka": "მე ვურჩევ ფრთხილ, თანაზიარულ მიდგომას — ეტაპობრივად განვახორციელოთ ცდითი თერაპია მონიტორინგით და მუდმივი კომუნიკაციით ოჯახთან.",
+              "fr": "Je préconise une approche prudente et empathique : thérapie expérimentale progressive sous monitoring et communication continue avec la famille.",
+              "ok": true
+            },
+            {
+              "ka": "ვარამ განწყობილი აგრესიული თერაპიისთვის, რაც შეიძლება სწრაფად შენარჩუნებინოს პროგრესს, მიუხედავად ზრდადი გვერდითი ეფექტებისა, თუ პაციენტს და ოჯახს დასრულებულად აცნობენ რისკებს.",
+              "fr": "Je penche pour une thérapie agressive afin d'obtenir vite des progrès, malgré plus d'effets secondaires, si le patient et la famille sont pleinement informés.",
+              "ok": false
+            },
+            {
+              "ka": "უკეთესია ამ ეტაპზე არავითარი ჩარევა; დავაცდინოთ დამატებითი გამოკვლევები დღემდე, სანამ უამრავ ნაცნობი ფაქტორი არ დადგინდება.",
+              "fr": "Mieux vaut ne rien faire pour l'instant ; attendre des examens supplémentaires jusqu'à clarifier beaucoup de facteurs connus.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ნევროლოგი",
+          "ka": "ფრთხილი სტრატეგია ხელშესახებია და მოიცავს ბევრი მაჩვენებლის მონიტორინგს; დავაფორმულოთ პროტოკოლი და დავიწყოთ მცირე მასშტაბით.",
+          "fr": "La stratégie prudente est viable et implique un suivi de nombreux indicateurs ; rédigeons le protocole et commençons à petite échelle."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-017",
+      "version": 17,
+      "cefr": "C2",
+      "title": "რესურსების განაწილება NGO-ში",
+      "scene": "არასამთავრობო ორგანიზაციის გუნდი განსაზღვრავს შემოწირულობების ეფექტურ მიზნობრიობას და პირობებს, რომ არ გახდეს დამოკიდებული ერთ წყაროზე.",
+      "turns": [
+        {
+          "speaker": "დირექტორი",
+          "ka": "ჩვენ უნდა გავზომოთ პროექტების მდგრადობა და კომპონენტების მომავალი ფინანსური თვითშესაბამისობა; კონკურენტული დაფინანსების მიუხედავად, რისკი განახლებადობის დამოკიდებულებასთან არსებობს.",
+          "fr": "Il faut mesurer la durabilité des projets et leur autofinancement potentiel ; malgré financements compétitifs, il existe un risque de dépendance aux bailleurs."
+        },
+        {
+          "speaker": "ფინანსისტი",
+          "ka": "როდესაც შემოწირულობის წყარო концентრირებულია, ბიუჯეტის შოკი ან პოლიტიკურმა ცვლილებამ შეიძლება მთელ პროგრამას დააზარალოს; მრავალფეროვნების პოლიტიკა უნდა იყოს მკაფიო ბიზნეს–მაგვარი მოდელით.",
+          "fr": "La concentration des dons expose aux chocs budgétaires ou changements politiques ; la diversification doit suivre un modèle quasi-entrepreneurial."
+        },
+        {
+          "speaker": "პროექტ-მენეჯერი",
+          "ka": "ჩვენ დიზაინის ეტაპზე უნდა გამოვავლინოთ რბილი ინფლუცია და დაგეგმოთ ღონისძიებები ამბრაზურის შემცირებლად — ალტერნატიული შემოსავლების წყაროები და საზოგადოებრივი პარტნიორობები.",
+          "fr": "Dès la conception, identifions les leviers faibles et planifions mesures pour réduire la vulnérabilité : sources alternatives de revenus et partenariats communautaires."
+        },
+        {
+          "speaker": "დირექტორი",
+          "ka": "გთხოვთ, დაასახელეთ სამი პრიორიტეტი, რომელიც გუნდმა მალევე უნდა განახორციელოს ფინანსური გამძლეობის გაზრდისთვის.",
+          "fr": "Citez trois priorités à mettre en œuvre rapidement pour renforcer la résilience financière de l'équipe.",
+          "choices": [
+            {
+              "ka": "პირველი — ზრდიდეთ ადმინისტრაციული ხარჯები და მიმართოთ მეტი შემოწირულობა მთავრობიდან; მეორე — ვიპოვნოთ ერთი მსხვილი სტრატეგიული პარტნიორი; მესამე — შეწყვიტოთ პატარა პროექტების დაფინანსება.",
+              "fr": "Augmenter les coûts administratifs et solliciter plus d'aides publiques ; trouver un grand partenaire stratégique ; arrêter le financement de petits projets.",
+              "ok": false
+            },
+            {
+              "ka": "შევქმნათ მრავალარხიანი შემოსავლის სტრატეგია: სოციალური საწარმოს დარეგისტრირება, მცირე გრანტების კომბინირება და ორგანიზაციული ფონდების კონსოლიდაცია; ეს შეამცირებს დამოკიდებულებას ერთ წყაროზე.",
+              "fr": "Élaborer stratégie multicanale : création d'une entreprise sociale, combinaison de petits grants et consolidation de fonds organisationnels ; réduire la dépendance.",
+              "ok": true
+            },
+            {
+              "ka": "ინიციატივის დონეზე გადავიდეთ მხოლოდ მოკლევადიან პროექტებზე, რათა მაქსიმალურად სწრაფად მიიღოთ შედეგი ფინანსური მხარდასაჭერად; ცენტრი გახდეს მოქნილი.",
+              "fr": "Se concentrer sur projets à court terme pour obtenir rapidement des résultats financiers ; rendre le centre flexible.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ფინანსისტი",
+          "ka": "ეს სტრატეგია პრაქტიკულად იმუშავებს, თუ თან ახლავს მკაფიო ინდიკატორები და დროულობის ზომების გრაფიკი.",
+          "fr": "Cette stratégie fonctionnera si elle est assortie d'indicateurs clairs et d'un calendrier de mesures temporelles."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-018",
+      "version": 18,
+      "cefr": "C2",
+      "title": "მედია-ეთიკა და ინფორმაციის განსაკუთრებული პირობები",
+      "scene": "ჟურნალისტური რედაქცია განიხილავს ინტერვიუს გამოქვეყნებას, რომელშიც საუბარია სახელმწიფო სენსიტიურ მოვლენაზე; ეთიკისა და საჯარო ინტერესის კონფლიქტია.",
+      "turns": [
+        {
+          "speaker": "რედაქტორი",
+          "ka": "ინფორმაცია საზოგადოებრივი ინტერესის შინაარსს ატარებს, მაგრამ სენსიტიურობის გამო ადეკვატური კონტექსტუალიზაცია და წყაროს კონფიდენციალურობის დაცვა აუცილებელია.",
+          "fr": "L'information relève de l'intérêt public, mais la contextualisation et la protection des sources sont nécessaires en raison de la sensibilité."
+        },
+        {
+          "speaker": "მთავარი რეპორტიორი",
+          "ka": "ინტერვიუ მოიცავს ნომინალურად მნიშვნელოვან დეტალებს, რომელთა გაშუქებამ შეიძლება ჰარმონიულად დაარღვიოს მიმდინარე გამოძიების პროცესი; როგორი რედაქტორიული გადაწყვეტილება იქნება საუკეთესო პროპორციულობის თვალსაზრისით?",
+          "fr": "L'interview contient des détails significatifs dont la publication pourrait perturber une enquête en cours ; quelle décision éditoriale serait la plus proportionnée ?"
+        },
+        {
+          "speaker": "იურისტი",
+          "ka": "რეგულაციები გვეუბნებიან, რომ საჯარო ინტერესის აბსოლუტური პრიორიტეტი არ არსებობს; უნდა შევიქმნას ბალანსი, რომელიც დაცულია წერილობითი ანალიზით და, საჭიროების შემთხვევაში, ნაწილობრივი ცნება ან გადაჭრა მონაცემების ბლანკირებით.",
+          "fr": "La réglementation dit qu'il n'y a pas de primauté absolue de l'intérêt public ; il faut un équilibre, avec analyse écrite et, si besoin, suppression partielle ou masquage des données."
+        },
+        {
+          "speaker": "რედაქტორი (მისამართით რეპორტიორისკენ)",
+          "ka": "თქვენ როგორ განსაზღვრავთ სტრატეგიას: მთლიანად გამოვაქვეყნოთ ინტერვიუ, გავაანალიზოთ მთელ ტექსტში რისკები თუ გამოვაქვეყნოთ შედედებული ვერსია გადამჭრელი მინიმალური ფაქტებით?",
+          "fr": "Quelle stratégie proposez-vous : publier l'interview intégralement, analyser les risques du texte complet, ou publier une version condensée avec les faits essentiels ?",
+          "choices": [
+            {
+              "ka": "სრული გამოქვეყნება აჩვენებს გამჭვირვალობას, მაგრამ შეუძლებელია გაითვალისწინო გამოძიების უსაფრთხოება; ეს რისკი არ არის მიღებული ჩემი მხრიდან.",
+              "fr": "Publier intégralement montre transparence, mais ne prend pas en compte la sécurité de l'enquête ; je m'y oppose.",
+              "ok": false
+            },
+            {
+              "ka": "მე მხარს ვუჭერ დეტალების კონტექსტუალიზაციას და გარკვეული მონაცემების დაბლოკვას — ამ ფორმით უნარჩუნებთ ინფორმაციის მნიშვნელოვან არსს, მაგრამ მინიმუმამდე მიიყვანთ ზიანის რისკს.",
+              "fr": "Je soutiens contextualiser et masquer certains détails — préserver l'essentiel tout en minimisant les risques de préjudice.",
+              "ok": true
+            },
+            {
+              "ka": "საუკეთესოა საერთოდ არ გაავრცელოთ მასალა, რათა არ შეუშალოთ გამოძიებას და დავიცვათ ყველა პროცედურული ნორმა, თუნდაც ეს იყოს საზოგადოებრივი ინტერესის ხარჯზე.",
+              "fr": "Le mieux est de ne rien publier pour ne pas nuire à l'enquête, même au détriment de l'intérêt public.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "რედაქტორი",
+          "ka": "დამეთანხმებით: უნდა ვეცადოთ მაღალი ეთიკური სტანდარტის შენარჩუნებას და თანაც არ დავუშვათ ინფორმაციის გაუშვება იმგვარად, რომ გამოძიება დაზარალდეს.",
+          "fr": "Nous sommes d'accord : conserver des standards éthiques élevés tout en évitant de compromettre l'enquête."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-019",
+      "version": 19,
+      "cefr": "C2",
+      "title": "ინჟინერული ეთიკის დილემა",
+      "scene": "სამშენებლო პროექტის ინჟინრები განიხილავენ შესაძლო უსაფრთხოების დარღვევებს, რომლებიც შექმნილი იქნება ეკონომიის გამო.",
+      "turns": [
+        {
+          "speaker": "მთავარი ინჟინერი",
+          "ka": "რეკომენდაციები მოითხოვს დამატებით ხარჯს, მაგრამ შემცირებული ასიგნებები აიძულებს სამოქმედო შეზღუდვას; აქედან გამომდინარე, რა კომპრომისი არის ეთიკურობისა და ბიუჯეტის შორის მისაღები?",
+          "fr": "Les recommandations impliquent dépenses supplémentaires, mais des coupes budgétaires imposent des limites ; quel compromis acceptable entre éthique et budget ?"
+        },
+        {
+          "speaker": "ინჟინერი-შენახვა",
+          "ka": "უსაფრთხოება არ შეიძლება იყოს რეჟიმში გადადებული; თუ შეამცირებთ სტანდარტებს, შესაძლებელი იქნება კრიტიკული ფარჩები, რომლებიც საფრთხეს შეუქმნის საზოგადოებას და კომპანიის რეპუტაციას.",
+          "fr": "La sécurité ne peut être différée ; réduire les normes expose à des défaillances critiques mettant en danger le public et la réputation de l'entreprise."
+        },
+        {
+          "speaker": "ფინანსური უფროსი",
+          "ka": "თუ პროექტი აღარ გაბუთდება ეკონომიკურად, იქ დაზოგული თანხაც ვერ მოარგეთ მომავალში; მაგრამ რას ვაკეთებთ მაშინ, როცა საზომი მაჩვენებელი გადასარევად მაღალია?",
+          "fr": "Si le projet devient économiquement inviable, les économies ne seront pas utiles plus tard ; mais que faire quand les indicateurs sont exorbitants ?"
+        },
+        {
+          "speaker": "მთავარი ინჟინერი",
+          "ka": "თქვენი რჩევა გვჭირდება: დავრჩეთ ცალსახად უსაფრთხოების სტანდარტებთან მტკიცედ მიბმული, ვეძებოთ დამატებითი დაფინანსება, ან შეამციროთ გარკვეული არასისტემური ელემენტები პროექტში?",
+          "fr": "Votre conseil : rester strictement lié aux normes de sécurité et chercher financement supplémentaire, ou réduire certains éléments non-essentiels du projet ?",
+          "choices": [
+            {
+              "ka": "ესთეტიკისა და არასისტემური ელემენტების შემცირება მართებული იქნება, თუ უსაფრთხოებაზე არ არის გავლენა; პარალელურად უნდა მოვიძიოთ დამატებითი დაფინანსების წყაროები.",
+              "fr": "Réduire éléments esthétiques et non-essentiels est justifié si la sécurité n'est pas affectée ; parallèlement chercher fonds supplémentaires.",
+              "ok": true
+            },
+            {
+              "ka": "დავთანხმდეთ გაუქმებას და პროექტი თითქმის მთლიანად შევწყვიტოთ; რისკი არ ღირს წინააღმდეგობისათვის, რადგან საზოგადოება უფრო მეტს მოითხოვს ახლა.",
+              "fr": "Accepter l'abandon quasi total du projet ; le risque ne vaut pas la peine car le public exige davantage désormais.",
+              "ok": false
+            },
+            {
+              "ka": "გავიდეთ რადიკალურ მოკლევადიან გადაწყვეტილებაზე და სიგრძეზე შეამციროთ ყველა სტანდარტი, რადგან შედეგი სწრაფ კომერციულ მოგებას მოგვიტანს.",
+              "fr": "Prendre une décision radicale et réduire toutes normes pour maximiser profit commercial à court terme.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ინჟინერი-შენახვა",
+          "ka": "მოდით დავაყენოთ ეს პუნქტი საერთაშორისო სტანდარტებთან შესაბამისობის შემოწმებად და დავიწყოთ დამატებითი დაფინანსების მოძიება.",
+          "fr": "Soumettons le point à conformité internationale et lançons la recherche de financements additionnels."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-020",
+      "version": 20,
+      "cefr": "C2",
+      "title": "ეკოლოგიური ეპისტემა",
+      "scene": "გარემოს დაცვის ჯგუფი მსჯელობს ადგილობრივ მოსახლეობასთან კონსენსუსზე თუ როგორ შეინარჩუნონ მდინარის აუზი განვითარებისა და ბუნებრივი ბიომრავალფეროვნების შორის.",
+      "turns": [
+        {
+          "speaker": "გარემოს დამცველი",
+          "ka": "ჩვენ არ შეგვიძლია უგულებელვყოთ ეკოსისტემური მომსახურება; მდინარის აუზის ჯანმრთელობა პირდაპირ აისახება სოფლების სასმელი წყლის ხარისხზე და გარემოზე.",
+          "fr": "On ne peut ignorer les services écosystémiques ; la santé du bassin fluvial affecte directement la qualité de l'eau potable et l'environnement des villages."
+        },
+        {
+          "speaker": "ადგილობრივი ფერმერი",
+          "ka": "ჩვენთვის ყველაზე მნიშვნელოვანია მოსავალი და ყოველდღიური შემოსავალი; თუ შეზღუდვები გამოიწვევს ჩვენს მეურნეობების დანაკარგს, ბევრი ოჯახი გაჭირვდება.",
+          "fr": "Pour nous, le rendement et le revenu quotidien sont primordiaux ; des restrictions entraînant pertes menaceront de nombreuses familles."
+        },
+        {
+          "speaker": "გარემოს დამცველი",
+          "ka": "პირდაპირი კონფლიქტის თავიდან ასაცილებლად ვთავაზობთ მოწყვლადი ზონების იდენტიფიკაციას და ე.წ. ეკოსისტემურ კომპენსაციებს ფერმერებისთვის, რომლებიც გადასცემენ გარკვეულ პრაქტიკებს.",
+          "fr": "Pour éviter le conflit direct, nous proposons d'identifier zones vulnérables et mises en place de compensations écosystémiques pour les agriculteurs adoptant certaines pratiques."
+        },
+        {
+          "speaker": "ადგილობრივი ფერმერი (მოთხოვნის დასაზუსტებლად)",
+          "ka": "თქვენ რას გულისხმობთ 'ეკოსისტემური კომპენსაციით'? შეიძლება თუ არა, დაზუსტდეს პროგრამის ფორმატი: ად hoc თანხა, ხანგრძლივი გარანტიები თუ ტექნიკური მხარდაჭერა?",
+          "fr": "Que voulez-vous dire par « compensation écosystémique » ? Pouvez-vous préciser le format : paiement ad hoc, garanties à long terme ou appui technique ?",
+          "choices": [
+            {
+              "ka": "ეს იქნება მხოლოდ ერთჯერადი ექსპერიმენტი — მოკლევადიანი უკან დაბრუნება, რომელიც არ უზრუნველყოფს სოფლის მომავლის სტაბილურობას.",
+              "fr": "Ce serait un essai ponctuel — retour à court terme, sans assurer la stabilité future des villages.",
+              "ok": false
+            },
+            {
+              "ka": "გამოგვიყენეთ მრავალკომპონენტიანი მიდგომა: კომბინაცია ფინანსური სტიმულების, ტექნიკური ტრენინგებისა და გრძელვადიანი ხელშეკრულებისა, რომელიც აძლევს მოტივაციას სეზონურად შეინარჩუნონ მდინარის დაცვის პრაქტიკა.",
+              "fr": "Approche multi-composantes : combiner incitations financières, formation technique et contrats à long terme pour motiver la conservation saisonnière.",
+              "ok": true
+            },
+            {
+              "ka": "ჩვენ ვგეგმავთ მხოლოდ იურიდიული რეგულაციების გამკაცრებას, გარეშე ყოველგვარი კომპენსაციისა, რადგან გარემო დაცვა უპირველესია.",
+              "fr": "Nous envisageons seulement un durcissement réglementaire sans compensation, car la protection environnementale prime.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "ადგილობრივი ფერმერი",
+          "ka": "თუ შემოთავაზება მრავალკომპონენტიანია და უზრუნველყოფს გრძელვადიან მხარდაჭერას, მზად ვართ განვიხილოთ ახალი პრაქტიკები და შევთანხმდეთ კონტრაქტზე.",
+          "fr": "Si la proposition est multi-composante et garantit soutien à long terme, nous sommes prêts à envisager de nouvelles pratiques et à signer un contrat."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-031",
+      "title": "Débat sur la responsabilité collective",
+      "scene": "Deux universitaires discutent la notion de responsabilité collective face aux crises contemporaines.",
+      "cefr": "C2",
+      "version": 31,
+      "turns": [
+        {
+          "speaker": "Professeur A",
+          "ka": "ჩვენი კვლევა მიუთითებს, რომ პასუხისმგებლობის კოლექტიური მოდელი მხოლოდ მაშინ იძლევა რეალურ შედეგს, როცა ინდივიდები საკუთარ სიტყვასა და ქმედებას თანაბრად აფასებენ.",
+          "fr": "Notre recherche indique que le modèle de responsabilité collective n'est efficace que si les individus évaluent de façon équivalente leurs paroles et leurs actes."
+        },
+        {
+          "speaker": "Professeur B",
+          "ka": "ეს მოსაზრება პრობლემური მგონია, რადგან საფუძველი არა მხოლოდ ინდივიდუალური ეთიკა უნდა იყოს, არამედ ინსტიტუციური გამჭვირვალობა და სამართლებრივი ინსტრუმენტები.",
+          "fr": "Je trouve cette idée problématique : il ne devrait pas s'agir seulement d'éthique individuelle, mais aussi de transparence institutionnelle et d'outils juridiques."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "თქვენი აზრით, როგორ შეიძლება შეაკავშიროთ ინდივიდუალური პასუხისმგებლობა და ინსტიტუციური რეაქცია ისე, რომ არ დაირღვეს პიროვნული თავისუფლება?",
+          "fr": "Selon vous, comment articuler responsabilité individuelle et réaction institutionnelle sans violer la liberté personnelle ?",
+          "choices": [
+            {
+              "ka": "უნდა შევქმნათ მკაფიო ოქმები და შავ-თეთრი წესები, რომლებსაც ყველა პირი მორჩილად დაიცავს.",
+              "fr": "Il faut établir des règles claires et binaires que chacun suivra docilement.",
+              "ok": false
+            },
+            {
+              "ka": "მნიშვნელოვანია გარდამავალი მექანიზმები, რომლებიც ინდივიდების თავისუფლებას არ კრძალავს, მაგრამ აძლიერებს ანგარიშვალდებულებას და საშუალებას აძლევს ინსტიტუტებს პასუხისმგებლობა გამოიწვიონ.",
+              "fr": "Il est crucial d'avoir des mécanismes progressifs qui ne restreignent pas la liberté individuelle mais renforcent la reddition de comptes et permettent aux institutions d'engager la responsabilité.",
+              "ok": true
+            },
+            {
+              "ka": "ინსტიტუციებმა სრულ კონტროლს უნდა მოიმოქმედონ ინდივიდების ქვეცნობიერ გადაწყვეტილებებზე, რათა საზოგადოებრივი ინტერესები დაცული იყოს.",
+              "fr": "Les institutions doivent prendre un contrôle total des décisions subconscientes des individus pour protéger l'intérêt public.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Professeur A",
+          "ka": "შესაბამისი მექანიზმების შეთავსება რთულია, მაგრამ მაგალითები, სადაც ანგარიშვალდებულება შენი თავისუფლების გარანტი ხდება, უკვე არსებობს.",
+          "fr": "Concilier ces mécanismes est difficile, mais il existe des exemples où la reddition de comptes garantit ta liberté."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-032",
+      "title": "Négociation diplomatique sur l'eau transfrontalière",
+      "scene": "Deux diplomates de pays voisins négocient un traité relatif à la gestion partagée d'un fleuve.",
+      "cefr": "C2",
+      "version": 32,
+      "turns": [
+        {
+          "speaker": "Diplomate A",
+          "ka": "ჩვენი ეროვნულ ინტერესებს ეყრდნობა მდინარის მდგრადი მართვა, მაგრამ ვერ ვაჩვენებთ unilateral ნაბიჯებს, რომლებიც სხვა მხარის ეკონომიკას დააზიანებს.",
+          "fr": "Nos intérêts nationaux exigent une gestion durable du fleuve, mais nous ne pouvons pas prendre d'actions unilatérales qui nuiraient à l'économie de l'autre partie."
+        },
+        {
+          "speaker": "Diplomate B",
+          "ka": "ხალხური საცხოვრებელი ზონები, ფერმერები და ეკოსისტემა უნდა იყოს შეთანხმების ცენტრი; იურიდიულ მექანიზმში უნდა შემოვიტანოთ მარშრუტი კონფლიქტების მოგვარებისთვის.",
+          "fr": "Les zones résidentielles, les agriculteurs et l'écosystème doivent être au cœur de l'accord ; il faut inclure une procédure juridique de résolution des conflits."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "როგორი საარქივო და კონტროლის მექანიზმები იქნებოდა თქვენის თქმით ამგვარი შეთანხმების გარანტია?",
+          "fr": "Quels mécanismes d'archivage et de contrôle garantiraient, selon vous, un tel accord ?",
+          "choices": [
+            {
+              "ka": "მხარეებმა უნდა ქმნან დამოუკიდებელი ზედამხედველობის ორგანო, რომელიც პერიოდულად ავრცელებს ანგარიშებს და აძლევს საჯარო რეკომენდაციებს.",
+              "fr": "Les parties devraient créer un organe de surveillance indépendant qui publie périodiquement des rapports et des recommandations publiques.",
+              "ok": true
+            },
+            {
+              "ka": "სრულფასოვანი კონტროლი უნდა დარჩეს მხოლოდ ცენტრალურ ხელისუფლებებს, რათა ადგილობრივი ინტერესები არ შეცვალონ სტრატეგიულ ესკიზებს.",
+              "fr": "Le contrôle complet doit rester aux mains des gouvernements centraux afin que les intérêts locaux ne modifient pas les esquisses stratégiques.",
+              "ok": false
+            },
+            {
+              "ka": "შეუძლებელია რაიმე კონტროლი; საუკეთესო იქნება ბაზრის ხელშეწყობა, რომელიც თავისთავად გადაწყიბულობს წყლის განაწილებას.",
+              "fr": "Aucun contrôle n'est possible ; mieux vaut laisser le marché réguler la répartition de l'eau.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Diplomate A",
+          "ka": "თავის მხრივ, დავნიშნეთ სასესხო მექანიზმები და მოწესრიგებული ანგარიშგება, მაგრამ საჭირო იქნება სატესტო პერიოდი გარდამავალი გამოსაშვები პირობებით.",
+          "fr": "Nous avons inscrit des mécanismes de prêt et une comptabilité organisée, mais une période d'essai avec conditions de sortie transitoires sera nécessaire."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-033",
+      "title": "Critique littéraire d'un roman postmoderne",
+      "scene": "Un écrivain et un critique débattent des innovations stylistiques d'un roman postmoderne récent.",
+      "cefr": "C2",
+      "version": 33,
+      "turns": [
+        {
+          "speaker": "Critique",
+          "ka": "ეს რומן-სპექტაკლი მეტად თამაშობს ცნობიერების სტრუქტურებითა და მეტა-კომენტარებით, რაც მკითხველს ცნობიერებას უქმნის როგორც მოთხრობით მოწყობილობას.",
+          "fr": "Ce roman-spectacle joue beaucoup sur les structures de la conscience et les méta-commentaires, créant chez le lecteur une conscience comme dispositif narratif."
+        },
+        {
+          "speaker": "Écrivain",
+          "ka": "მიზანად მქონდა არა მხოლოდ ფორმის დეკონსტრუქცია, არამედ ემოციური სიმყარე — იმგვარი მკაფიო გამოცდილების დაბრუნება, რომელიც მრავლისმთქმელია, თუმცა სენტიმენტიდან თავისუფალი.",
+          "fr": "Mon intention n'était pas seulement de déconstruire la forme, mais aussi de restaurer une solidité émotionnelle — une expérience parlante mais affranchie du sentimentalisme."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "თქვენ როგორ ახსნიდით ნაწარმოების თვითმიზნურობისა და ავტორული პასუხისმგებლობის ურთიერთქმედებას?",
+          "fr": "Comment expliqueriez-vous l'interaction entre l'autonomisation de l'œuvre et la responsabilité de l'auteur ?",
+          "choices": [
+            {
+              "ka": "ავტორი შეიძლება სრულად გაექცეს პასუხისმგებლობას, თუ ტექსტი თავის თავში იკლავს ავტორობის ნიშნებს.",
+              "fr": "L'auteur peut totalement échapper à la responsabilité si le texte supprime les indices d'auteur en lui-même.",
+              "ok": false
+            },
+            {
+              "ka": "სრულყოფილი ტექსტი გააჩნია ავტონომია, მაგრამ ავტორული ეთიკა მაინც მოქმედებს მიმართულებით: ავტორი უნდა აღიარებდეს საქმიანობის შედეგებს, რომლებიც საზოგადოებრივმა რეცეფციამ შეიძლება გამოიწვიოს.",
+              "fr": "Un texte peut être autonome, mais l'éthique de l'auteur agit toujours : l'auteur doit reconnaître les conséquences de son travail sur la réception sociale.",
+              "ok": true
+            },
+            {
+              "ka": "იმისათვის, რომ ნოველამძლე იყოს, ავტორს უნდა მოერიდოს ნებისმიერი საჯარო პოზიცია, რათა არ დაანგრიოს ტექსტის წმინდა ესთეტიკა.",
+              "fr": "Pour que l'œuvre survive, l'auteur doit éviter toute prise de position publique afin de ne pas corrompre l'esthétique pure du texte.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Critique",
+          "ka": "ეს 균ცა არგუმენტი გვაფიქრებინებს, რომ ეთიკა და ესთეტიკა ყოველთვის განსხვავებულ სივრცეებს არ იკავებენ — ხშირად ურთიერთში შედიან და ერთმანეთს ყალიბდებიან.",
+          "fr": "Cet échange montre que l'éthique et l'esthétique ne sont pas toujours distinctes : elles s'entrelacent et se forment mutuellement."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-034",
+      "title": "Procès simulé sur la liberté d'expression",
+      "scene": "Un avocat et un juge débattent des limites juridiques de la liberté d'expression dans un cas complexe.",
+      "cefr": "C2",
+      "version": 34,
+      "turns": [
+        {
+          "speaker": "Avocat",
+          "ka": "ჩვენს ძალაშია დაცვის არგუმენტი, რომ საჯაროობის სფეროში მცდარი ინფორმაციის გავრცელება არ უნდა იყოს სავსებით უპასუხისმგებლო, რადგან მისი შედეგები შეიძლება პირდაპირი ზიანი გამოიწვიოს.",
+          "fr": "Nous plaidons que diffuser des informations erronées dans l'espace public ne devrait pas être sans conséquence, car cela peut causer un préjudice direct."
+        },
+        {
+          "speaker": "Juge",
+          "ka": "სარწმუნო მტკიცებულებების გარეშე ხელისუფლებამ ვერ დააწესებს უნივერსალურ აკრძალვებს — საჭიროა მკაფიო იურიდიული მოპედობა ზიანის ხარისხისა და ნებას შორის.",
+          "fr": "Sans preuves fiables, l'autorité ne peut imposer des interdictions universelles : il faut une justification juridique claire entre la gravité du dommage et l'intention."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "როდის შეიძლება კანონმა წინასწარ შეაჩეროს რაიმე შეტყობინების გავრცელება, ისე რომ არ იქნეს შელახული თავისუფლების ძირითადი პრინციპები?",
+          "fr": "Quand la loi peut-elle empêcher la diffusion d'un message sans porter atteinte aux principes fondamentaux de la liberté ?",
+          "choices": [
+            {
+              "ka": "ფრთხილად და წინასწარ უნდა აიკრძალოს ყველაფერი, რაც შესაძლოა კი არაპირდაპირი ზიანი გამოიწვიოს საზოგადოებრივ გრძნობებზე.",
+              "fr": "Il faut interdire précautionneusement à l'avance tout ce qui pourrait indirectement nuire aux sensibilités publiques.",
+              "ok": false
+            },
+            {
+              "ka": "კანონმა უნდა გამოიყენოს მკაცრად განსაზღვრული, პროპორციული ზომები, რომლებიც ეფუძნებიან რეალურ მტკიცებულებებს, საფრთხის არსებობას და მინიმალურად შეზღუდავენ თავისუფლებას.",
+              "fr": "La loi doit utiliser des mesures strictement définies et proportionnelles, fondées sur des preuves réelles et l'existence d'un danger, limitant la liberté au minimum nécessaire.",
+              "ok": true
+            },
+            {
+              "ka": "საჯარო მეზობლების ინტერესები მნიშვნელოვან ფასად უნდა მესაჭიროვდეს ტოლერანტობის პრინციპზე, ამიტომ ნებისმიერი შეზღუდვა არის თვითთქვენი საწინააღმდეგო.",
+              "fr": "Les intérêts du public doivent toujours primer le principe de tolérance, donc toute restriction est intrinsèquement contre-productive.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Juge",
+          "ka": "მზად ვართ გავითვალისწინოთ ზეპირი ჩვენებების ან სპეციალისტების დასკვნები იმისთვის, რომ განსაზღვრონ ზიანის რეალური რისკები.",
+          "fr": "Nous sommes prêts à prendre en compte les témoignages oraux ou les expertises pour déterminer les risques réels de préjudice."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-035",
+      "title": "Politique climatique et justice sociale",
+      "scene": "Responsables d'ONG débattent des priorités d'une coalition pour la justice climatique internationale.",
+      "cefr": "C2",
+      "version": 35,
+      "turns": [
+        {
+          "speaker": "Coordinatrice",
+          "ka": "ჩვენი კამპანიის წარმატება დამოკიდებულია არა მხოლოდ გამოხატულ სლოგანებზე, არამედ ის ფაქტებისა და სტრატეგიების პრიორიტეტიზაციაზე, რომლებიც თავიანთი ეფექტებიანობით დაამხობენ არათუ მხოლოდ რიტორიკას.",
+          "fr": "Le succès de notre campagne dépend non seulement des slogans, mais de la priorisation de faits et stratégies qui feront plus que de la rhétorique par leur efficacité."
+        },
+        {
+          "speaker": "Activiste",
+          "ka": "დასახული მიზნები უნდა ასახავდეს კონკრეტულ სამოქმედო სტრატეგიებს — ემიგრანტთა, მცირე ფერმერების და ზღვრამდე მცხოვრებ მოსახლეობის დაცვის მექანიზმებით.",
+          "fr": "Les objectifs doivent refléter des stratégies d'action concrètes — mécanismes pour protéger les migrants, petits agriculteurs et populations côtières."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "თუ რესურსები შეზღუდულია, რომელ კატეგორიას მიაკუთებთ პრიორიტეტს და რატომ?",
+          "fr": "Si les ressources sont limitées, quelle catégorie prioriseriez-vous et pourquoi ?",
+          "choices": [
+            {
+              "ka": "პირველ რიგში უარვყოფდი ყველაზე სექტორის ინტერესებს, რადგან მათ ეკონომიკური ურთიერთობები უკვე დაცული აქვთ.",
+              "fr": "Je déclinerais en priorité les intérêts du secteur le plus puissant, car ses relations économiques sont déjà protégées.",
+              "ok": false
+            },
+            {
+              "ka": "მივანიჭებდი პრიორიტეტს ყველაზე მოწყვლად ჯგუფებს, ვინაიდან სიღარიბე და ზიანი ხშირად წარმოუდგენლად სცილდება მათ რესურსებს და არის რეალური ბარიერი ადაპტაციისთვის.",
+              "fr": "Je privilégierais les groupes les plus vulnérables, car la pauvreté et les dommages dépassent souvent leurs ressources et constituent une barrière réelle à l'adaptation.",
+              "ok": true
+            },
+            {
+              "ka": "პრიორიტეტი უნდა მიეცეს ინდუსტრიას, რადგან ეკონომიკის მხარდაჭერით უფრო სწრაფად შევძლებთ საერთო ინვესტიციების ზრდას.",
+              "fr": "La priorité devrait aller à l'industrie, car soutenir l'économie permettrait d'augmenter plus rapidement les investissements communs.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Coordinatrice",
+          "ka": "გეთანხმებით; ადაპტაციის ტაშტები ბევრად უფრო სუსტია და სოციალური სამართლიანობა უწევს სტრატეგიულ პრიორიტეტს.",
+          "fr": "Je suis d'accord ; les capacités d'adaptation sont beaucoup plus faibles et la justice sociale doit être une priorité stratégique."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-036",
+      "title": "Réconciliation familiale après un conflit ancien",
+      "scene": "Deux membres d'une famille tentent de renouer après un conflit intergénérationnel grave.",
+      "cefr": "C2",
+      "version": 36,
+      "turns": [
+        {
+          "speaker": "Parent",
+          "ka": "აშშაქვს ტკივილი, რომელიც წლების მანძილზე დაინგრა ჩვენს ურთიერთობებს; მინდა თქვენთან განვმარტო, რატომ მივიღე მაშინ ისეთი გადაწყვეტილებები.",
+          "fr": "Je porte une douleur qui a détruit nos relations pendant des années ; je veux expliquer pourquoi j'ai pris ces décisions à l'époque."
+        },
+        {
+          "speaker": "Enfant",
+          "ka": "თქვენი ახსნები მიჭირს გულით ვიმხილო, მაგრამ მზად ვარ ვუსმინო და შევეცადო გაგებაში; უბრალოდ მჭირდება დრო, რათა არ ვიქცე იმასთან ერთად, რაც ადრე იყო.",
+          "fr": "Il m'est difficile de confier mes explications, mais je suis prêt à écouter et à essayer de comprendre ; j'ai juste besoin de temps pour ne pas retomber dans ce qui était."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "როგორ მოვიქცეთ, რათა აღვადგინოთ ნდობა ისე, რომ არცერთი მხარე არ იგრძნოს იძულებული უკან გადადგომაზე?",
+          "fr": "Comment procéder pour rétablir la confiance sans que l'une ou l'autre des parties ne se sente contrainte de faire marche arrière ?",
+          "choices": [
+            {
+              "ka": "უდავოდ უნდა გამოვტყდეთ და ვაღიაროთ ყველა შეცდომა, მიუხედავად ფორმალური შედეგებისა, რათა პროცესი სწრაფად დასრულდეს.",
+              "fr": "Il faut sans doute se repentir et reconnaître toutes les erreurs, quel que soit le résultat formel, pour clore rapidement le processus.",
+              "ok": false
+            },
+            {
+              "ka": "უნდა გადავცეთ ურთიერთობაში გააზრებული, თანდათანობითი მცდელობები: გამჭვირვალე კომუნიკაცია, შეთანხმებული მცირე ქმედებები და საზღვრების პატივისცემა, რაც ნდობას ეტაპობრივად ააშენებს.",
+              "fr": "Il faut engager des tentatives réfléchies et graduelles : communication transparente, actions conjointes limitées et respect des limites, qui construiront la confiance progressivement.",
+              "ok": true
+            },
+            {
+              "ka": "უმჯობესია ერთპიროვნულად გადავწყვიტოთ ყველა საკითხი და შემდეგ მხოლოდ საინფორმაციოდ მოვახსენოთ მეორე მხარეს, რათა თავიდან ავიცილოთ დაპირისპირება.",
+              "fr": "Il vaut mieux décider seul de tout puis en informer l'autre, afin d'éviter le conflit.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Parent",
+          "ka": "თქვენმა წინადადებამ დამაინტერესა — თანდათანობითი კომპრომისები და მცირე შედეგები ნამდვილად უფრო რეალისტურია.",
+          "fr": "Votre proposition m'intéresse — des compromis progressifs et de petits résultats sont effectivement plus réalistes."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-037",
+      "title": "Visite guidée d'un musée d'art contemporain",
+      "scene": "Un guide explique une installation complexe à un visiteur connaisseur.",
+      "cefr": "C2",
+      "version": 37,
+      "turns": [
+        {
+          "speaker": "Guide",
+          "ka": "ეს ინსტალაცია ინტენსიურად ეთამაშება სივრცის და დროის აღქმას: სინათლე და ხმაც ქმნის მრავალშრიან ნარატივს, რომელსაც დამკვირვებელი თავად ამოკითხავს.",
+          "fr": "Cette installation joue intensément sur la perception de l'espace et du temps : lumière et son créent une narration plurielle que l'observateur déchiffrera lui-même."
+        },
+        {
+          "speaker": "Visiteur",
+          "ka": "ჩემი აღქმა ოდნავ განსხვავებულია: მე ყურადღებას ვამახვილებ ინდივიდუალური მოგონებების ინტერფერენციაზე, რომელიც ეს სივრცე გამიჩინა.",
+          "fr": "Mon ressenti diffère : je focalise sur l'interférence des souvenirs individuels que cet espace a éveillés en moi."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "რამდენად მნიშვნელოვანია თქვენთვის ხელოვნებაში ავტორის გამომხატველობის იგნორირება და დამკვირვებლის თავისუფალი ინტერპრეტაცია?",
+          "fr": "Quelle importance accordez-vous à ignorer l'expression de l'auteur au profit de l'interprétation libre du spectateur ?",
+          "choices": [
+            {
+              "ka": "ავტორის მიზანმა საბოლოოდ არ უნდა განსაზღვროს, თუ რას ხედავს დამკვირვებელი; ხელოვნება მუდმივად განიცდის reinterpretაციას საზოგადოებრივი კონტექსტიდან.",
+              "fr": "L'intention de l'auteur ne doit pas déterminer ce que voit le spectateur ; l'art est constamment réinterprété selon le contexte social.",
+              "ok": true
+            },
+            {
+              "ka": "ავტორის განცხადება არის აბსოლუტური ინსტრუმენტი ტექსტის წარმოსახვისთვის და დამკვირვებლის ინტერპრეტაცია მხოლოდ მისი ნაწილობრივ განცდა უნდა იყოს.",
+              "fr": "La déclaration de l'auteur est l'instrument absolu pour imaginer l'œuvre et l'interprétation du spectateur ne devrait en être qu'une perception partielle.",
+              "ok": false
+            },
+            {
+              "ka": "ყველა ინტერპრეტაცია ერთნაირად მართებულია, რადგან ხელოვნება არის უცვლელი და არ საჭიროებს კონტექსტუალურ დეკონსტრუქციას.",
+              "fr": "Toutes les interprétations sont également valides, car l'art est immuable et ne nécessite pas de déconstruction contextuelle.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Guide",
+          "ka": "საოცარია ეს დისკურსი — ხელოვნების ამბავში ავტორი და დამკვირვებელი ხშირად ერთად ქმნიან აზრის საბოლოო ვერსიას.",
+          "fr": "Ce discours est fascinant : dans le récit de l'art, l'auteur et le spectateur forment souvent ensemble la version finale du sens."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-038",
+      "title": "Séminaire scientifique : éthique des expérimentations",
+      "scene": "Deux chercheurs discutent des limites éthiques d'une expérience à haut risque.",
+      "cefr": "C2",
+      "version": 38,
+      "turns": [
+        {
+          "speaker": "Chercheur A",
+          "ka": "მეტი მეტრის მიღწევაზე ორიენტირებული სივრცე შეიძლება გაუშვას ცხელი დისკუსიები, განსაკუთრებით თუ მანიპულაციები ზიანს მიიყვანს დაუცველ პოპულაციებს.",
+          "fr": "L'espace axé sur la performance peut déclencher des débats vifs, surtout si des manipulations nuisent à des populations vulnérables."
+        },
+        {
+          "speaker": "Chercheur B",
+          "ka": "ქუჩის ნიშნით განსაზღვრული რეგულაციები და დამოუკიდებელი ეთიკური პანელები აუცილებელია, მაგრამ ასევე გვჭირდება პრინციპების გამჭვირვალე კრიტერიუმები, რომლებიც კვლევებს ყოფენ რისკ-პირობებში.",
+          "fr": "Des régulations codifiées et des comités d'éthique indépendants sont indispensables, mais il nous faut aussi des critères transparents qui classent les recherches selon les conditions de risque."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "როდის არის გამართლებული კვლევის შეჩერება ეთიკური შეშფოთების საფუძველზე, თუნდაც როცა შედეგები მნიშვნელოვან ფუნდამენტურ ცოდნას მოუტანს საზოგადოებას?",
+          "fr": "Quand est-il justifié d'arrêter une recherche pour des raisons éthiques, même si les résultats apporteraient des connaissances fondamentales importantes ?",
+          "choices": [
+            {
+              "ka": "კვლევა უნდა გაგრძელდეს ყველანაირად, რადგან მეცნიერება თავისთავად ღირებულია და საფრთხეები მომგებიანია ფართო გამარჯვების შესასრულებლად.",
+              "fr": "La recherche doit se poursuivre coûte que coûte, car la science a une valeur intrinsèque et les risques sont justifiés par les gains potentiels.",
+              "ok": false
+            },
+            {
+              "ka": "კვლევის შეჩერება გამართლებულია მაშინ, როცა რისკი უსამართლოდ ხვდება კონკრეტულ ჯგუფს და არ არსებობს ეფექტიანი ხერხი ზიანის მინიმიზაციისთვის, მიუხედავად პოტენციური ცოდნის.",
+              "fr": "Il est justifié d'arrêter la recherche quand le risque retombe injustement sur un groupe spécifique et qu'il n'existe pas de moyens efficaces de minimiser le dommage, malgré la connaissance potentielle.",
+              "ok": true
+            },
+            {
+              "ka": "შეჩერება უნდა მოხდეს მხოლოდ პოლიტიკურ ძალთა გადაწყვეტით, სხვაავრივე ეთიკური კომენტარები უმნიშვნელოა.",
+              "fr": "L'arrêt ne doit intervenir que par décision des forces politiques ; les commentaires éthiques sont par ailleurs insignifiants.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Chercheur A",
+          "ka": "ეს მაპრიალებს: სწორედ ამიტომ საჭიროა გამჭვირვალე რისკ-შეფასების პროცედურები და მონაწილეების თანხმობის მოგროვების ახალი სტანდარტები.",
+          "fr": "Cela me convainc : c'est pourquoi nous avons besoin de procédures transparentes d'évaluation des risques et de nouveaux standards pour le consentement des participants."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-039",
+      "title": "Négociation salariale pour une position senior",
+      "scene": "Un candidat expérimenté discute des conditions d'embauche avec le directeur RH.",
+      "cefr": "C2",
+      "version": 39,
+      "turns": [
+        {
+          "speaker": "Directeur RH",
+          "ka": "ჩვენი ორგანიზაცია აფასებს თქვენს გამოცდილებას და გთავაზობთ კონკურენტულ კომპენსაციას, თუმცა მოლაპარაკება მოითხოვს კომპრომისს როგორც პოზიციის სასკოლო პასუხისმგებლობის გათვალისწინებით, აგრეთვე ბიუჯეტის შეზღუდვებით.",
+          "fr": "Notre organisation valorise votre expérience et propose une rémunération compétitive, mais la négociation exige des compromis compte tenu des responsabilités du poste et des contraintes budgétaires."
+        },
+        {
+          "speaker": "Candidat",
+          "ka": "ჩემთვის მნიშვნელოვანია თანამშრომლობის გამჭვირვალობა, სწავლების რესურსები და გახანგრძლივებელი სტიმულები, უფრო მეტად ვიდრე მოკლევადიანი ბონუსები.",
+          "fr": "Pour moi, la transparence, les ressources de formation et des incitations durables importent plus que des bonus à court terme."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "თუ თქვენი მოთხოვნა მოიცავს სასწავლო პაკეტსა და საბაზისო დანამატს, როგორ შეხედავთ ჩემს წინადადებას: უფრო მაღალი საწყისი ან უფრო დაბალი, მაგრამ სწრაფად ინდექსირებული ზრდა?",
+          "fr": "Si votre demande inclut un package de formation et un complément de base, que préféreriez-vous : un salaire initial plus élevé ou un salaire plus bas mais indexé sur une progression rapide ?",
+          "choices": [
+            {
+              "ka": "ვირჩევდი დასაწყისის მაქსიმალურ კონტრაქტს, რადგან დასაწყისში მოპოვებული თანხა უზრუნველყოფს ფინანსურ თავისუფლებას და არის ყველაზე მნიშვნელოვანი.",
+              "fr": "Je choisirais un contrat initial maximal, car l'argent gagné au départ assure la liberté financière et est le plus important.",
+              "ok": false
+            },
+            {
+              "ka": "პროფესიონალურ ზრდაზე ორიენტირებული, ინდექსირებული ზრდა მერჩივნებოდა: უფრო მეტია მოტივაცია განვითარების განხორციელებისთვის და უზრუნველყოფს ხანგრძლივ სტაბილური შედეგების წვლილს.",
+              "fr": "Je préférerais une progression indexée axée sur le développement professionnel : c'est plus motivant pour l'évolution et assure des résultats durables.",
+              "ok": true
+            },
+            {
+              "ka": "მეტი მიზანშეწონილია უარი თქვაზე ძვირად ღირებულ სასწავლო პაკეტზე და მთლიანად კონცენტრირება მოკლევადიან მოქნილ ბონუსებზე.",
+              "fr": "Il est préférable de renoncer au coûteux package de formation et de se concentrer uniquement sur des bonus flexibles à court terme.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Directeur RH",
+          "ka": "ამ პერსპექტივით შეგვიძლია განვიხილოთ ინდექსირების მექანიზმი, რომელიც დაფუძნებულია შესრულების ბოიაზე და პროფესიულ ზრდაზე.",
+          "fr": "Avec cette perspective, nous pouvons envisager un mécanisme d'indexation fondé sur les performances et le développement professionnel."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-040",
+      "title": "Planification urbaine et gentrification",
+      "scene": "Un urbaniste et un représentant communautaire débattent des projets de rénovation urbaine et de leurs effets sur les résidents existants.",
+      "cefr": "C2",
+      "version": 40,
+      "turns": [
+        {
+          "speaker": "Urbaniste",
+          "ka": "გეგმა ითვალისწინებს ინფრასტრუქტურის მოდერნიზაციას და კულტურული ობიექტების დამატებას, რაც შეიძლება გაზარდოს უბნის მიმზიდველობა და ეკონომიკური აქტივობა.",
+          "fr": "Le plan prévoit la modernisation des infrastructures et l'ajout d'équipements culturels, ce qui peut accroître l'attrait du quartier et l'activité économique."
+        },
+        {
+          "speaker": "Représentant communautaire",
+          "ka": "იმავე დროს, გაუმჯობესებებმა შეიძლება გამოიწვიოს საცხოვრებლის ფასების ზრდა და ადგილობრივი მოსახლეობის გადასახლება; საჭიროა კომპენსაციური და ინკლუზიური პოლიტიკები.",
+          "fr": "Cependant, ces améliorations peuvent provoquer une hausse des loyers et le déplacement des habitants ; il faut des politiques compensatoires et inclusives."
+        },
+        {
+          "speaker": "Learner",
+          "ka": "რა სახის პოლიტიკა მიიჩნევთ ყველაზე ეფექტურს გადასახლებების თავიდან ასაცილებლად და თანასწორობის დაცვაში?",
+          "fr": "Quel type de politique jugez-vous le plus efficace pour éviter les déplacements et garantir l'équité ?",
+          "choices": [
+            {
+              "ka": "პარტიორობით უნდა ვუპასუხოთ ბაზრის მექანიზმს და არ ჩავერიოთ მყიდველის თავისუფლებაში, რადგან მისი ნებისმიერი შეზღუდვა ეკონომიკას დააზიანებს.",
+              "fr": "Il faut répondre au mécanisme du marché et ne pas interférer dans la liberté d'achat, car toute restriction nuirait à l'économie.",
+              "ok": false
+            },
+            {
+              "ka": "გუნდა შემუშავდეს მრავალშრეიანი მიდგომა: იაფი საცხოვრებლის შენარჩუნების იურიდიული დაცვის მექანიზმები, გადასახადის სტიმულები ადგილობრივ მეწარმეობაზე და ჩართულობის სტრუქტურები, რომლებიც უზრუნველყოფენ დარჩენის შესაძლებლობებს.",
+              "fr": "Il faut une approche à couches : mécanismes juridiques pour préserver le logement abordable, incitations fiscales pour l'entrepreneuriat local et structures de participation garantissant la possibilité de rester.",
+              "ok": true
+            },
+            {
+              "ka": "საუკეთესო გამოსავალია ყველა გამრავლებულ მიწის ნაკვეთებზე მაღალი კულტურული ობიექტების შენება, რაც ბუნებრივად დააკმაყოფილებს მოთხოვნას და შეარბილებს გადაადგილების შედეგებს.",
+              "fr": "La meilleure solution est de construire des équipements culturels sur tous les terrains disponibles, ce qui satisferait naturellement la demande et atténuerait les déplacements.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "Urbaniste",
+          "ka": "ამგვარი სისტემური პოლიტიკა მოითხოვს მრავალწლიანი დაგეგმვას და მკაფიო ფინანსურ გამოყოფებს, მაგრამ შესაძლებელია, თუ განვითარდება საზოგადოებრივი კონსენსუსი.",
+          "fr": "Une telle politique systémique requiert une planification pluriannuelle et des allocations financières claires, mais elle est possible si un consensus public se développe."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-021",
+      "title": "შეხვედრა აკადემიურ კონფერენციაზე",
+      "scene": "ორ გამოცდილი კვლევողի საუბრობს პოსტპრესენტაციისკენ მიმავალ დისკუსიაზე.",
+      "cefr": "C2",
+      "version": 21,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ონლაინკონფერენციის შემდეგ კითხვა დამრჩა: თქვენი ინტერპრეტაცია შედეგების რეგრესიულ მნიშვნელობაზე როგორია, როცა მასშტაბები შედარებადობას ეჭვქვეშ აყენებს?",
+          "fr": "Après la conférence en ligne, une question me reste : quelle est votre interprétation de la signification régressive des résultats quand les échelles remettent en cause la comparabilité ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "თქვენ ერთგვარად გულისხმობთ, რომ ზომის ერთეული გავლენას ახდენს სტანდარტული შეცვლის ინტერპრეტაციაზე; მე ვუთხარი, რომ საჭიროა ნორმალიზაცია და მგრძნობელობის ანალიზი.",
+          "fr": "Vous voulez dire que l'unité de mesure influence l'interprétation des variations standardisées ; j'ai dit qu'il faut normalisation et analyse de sensibilité."
+        },
+        {
+          "speaker": "A",
+          "ka": "წარმატებულთათვის აგრესიული დისტრიბუციის ეფექტები კი როგორ გავითვალისწინოთ? შემიძლია სხვადასხვა ვერსიებით მოდელის ვალიდობა თავისუფლად შემოწმდეს.",
+          "fr": "Et comment prendre en compte les effets d'une distribution 'agressive' pour les variables de succès ? Je peux tester la validité du modèle par différentes approches.",
+          "choices": [
+            {
+              "ka": "შეგვიძლია გამოიყენოთ რობუსტი სტანდარტული შეცვლები და ბიუტსტრაპირება, რათა შემცირდეს აუტლიერული ეფექტი.",
+              "fr": "On peut employer des écarts types robustes et le bootstrap pour réduire l'effet des valeurs aberrantes.",
+              "ok": true
+            },
+            {
+              "ka": "საჭიროა უფრო მრავალმხრივი აზრი, მაგალითად საერთო ჰიპოთეზის სრული უარყოფა ისე, რომ შედარება თავიდანვე გამორიცხდეს.",
+              "fr": "Il faut une perspective plus multiforme, comme rejeter complètement l'hypothèse générale pour exclure toute comparaison.",
+              "ok": false
+            },
+            {
+              "ka": "ყველაფერი დამოკიდებულია მხოლოდ ნულოვანი ჰიპოთეზის p-ვერზე, ამიტომ საჭიროა უფრო მკაცრი ალფა.",
+              "fr": "Tout dépend uniquement du p-value de l'hypothèse nulle, donc il faut un alpha plus strict.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "აგრე—რობუსტი მიდგომა და ბიუტსტრაპი საშუალებას გვაძლევს ინტერვალები უფრო რეალისტურად წარმოვაჩინოთ; გარდა ამისა, მგრძნობელობა დაგვეხმარება წინაპირობების შეფასებაში.",
+          "fr": "Exact—l'approche robuste et le bootstrap permettent de présenter des intervalles plus réalistes ; en plus, l'analyse de sensibilité aide à évaluer les hypothèses sous-jacentes."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-022",
+      "title": "სოციალური პოლიტიკის დებატა",
+      "scene": "ორმხრივი დებატა საზოგადოებრივი ბიუჯეტის განაწილების ეთიკის შესახებ.",
+      "cefr": "C2",
+      "version": 22,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ბიუჯეტის პრიორიტეტიზაცია არ შეიძლება მხოლოდ ეკონომიკური ეფექტურობით განისაზღვროს; რამდენად შეურაცხმყოფელია თქვენთვის სოციალური სამართლიანობის პრიზმი?",
+          "fr": "La priorisation budgétaire ne peut pas être définie uniquement par l'efficacité économique ; dans quelle mesure le prisme de la justice sociale vous semble-t-il incontournable ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "მე ვთვლი, რომ ეთიკური კითხვა მოითხოვს პრორჟორციულობის პრინციპს: ანაბაზებს და რესურსებს ისე უნდა განაწილდნენ, რომ გამოკვეთილი პირდაპირობა შეიქმნას.",
+          "fr": "Je considère que la question éthique exige le principe de proportionnalité : les allocations et ressources doivent être distribuées pour créer une équité tangible."
+        },
+        {
+          "speaker": "A",
+          "ka": "თუ პრიორიტეტი უპირატესობის გაუმჯობესებაზეა, როგორი მაჩვენებლები იქნებოდა სარგებელი ყველაზე მოწყვლადებისთვის?",
+          "fr": "Si la priorité est l'amélioration des chances, quels indicateurs mesureraient le mieux le bénéfice pour les plus vulnérables ?",
+          "choices": [
+            {
+              "ka": "შეიძლება შევათანხმოთ კომბინირებული მაჩვენებლები: ცხოვრების სტანდარტის ინდექსი, ადრეული განათლების ხარჯები და სამედიცინო ხელმისაწვდომობის პარამეტრები.",
+              "fr": "On pourrait convenir d'indicateurs combinés : indice de niveau de vie, dépenses en éducation préscolaire et paramètres d'accès aux soins.",
+              "ok": true
+            },
+            {
+              "ka": "პირდაპირი შემოსავლის ზრდა მხოლოდ ეკონომიკური ზრდით იზომება, ამიტომ დასაწყისისთვის მშპ საკმარისია.",
+              "fr": "La hausse directe des revenus se mesure uniquement par la croissance économique, donc le PIB suffit pour commencer.",
+              "ok": false
+            },
+            {
+              "ka": "მნიშვნელოვანი არის მხოლოდ მონაწილეთა რაოდენობა პროგრამებში; მეტი ჩართვა ავტომატურად უკეთეს შედეგს უზრუნველყოფს.",
+              "fr": "Ce qui importe, c'est seulement le nombre de participants aux programmes ; plus d'inclusion garantit automatiquement de meilleurs résultats.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "კომბინირებული ინდიკატორები დაგვეხმარება მხედველობის გაფართოებაში; ამასთან, არგუმენტი არა მხოლოდ ოდენობითი, არამედ ხარისხობრივ მონაცემებზეც უნდა მყარად დაეყრდნოს.",
+          "fr": "Les indicateurs combinés aident à élargir la perspective ; toutefois, l'argument doit reposer non seulement sur des données quantitatives mais aussi qualitatives."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-023",
+      "title": "კორპორატიული მოლაპარაკება",
+      "scene": "მენეჯერი და აინვესტორი რომ შვილობენ საინვესტიციო გეგმებზე და რისკებზე.",
+      "cefr": "C2",
+      "version": 23,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ჩვენი წინადადება ორი ფაზით განხორციელდება: კონსოლიდაცია და შემდეგი ეტაპის აგრესიული ექსპანსია. რა რისკებს ხედავთ ლიკვიდობასა და კაპიტალის სტრუქტურაში?",
+          "fr": "Notre proposition s'exécutera en deux phases : consolidation puis expansion agressive. Quels risques voyez-vous pour la liquidité et la structure du capital ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "აპრობირებული მოდელი იძლევა მოკლევადიან სტრესს, თუმცა საკმარისია კუდის რისკების გათვალისწინება; საჭიროა ლევერიჯის გაფართოების თანმიმდევრული მართვა და კონტროლირებადი იარაღები.",
+          "fr": "Le modèle testé montre du stress à court terme, mais il faut intégrer les risques de queue ; une gestion graduelle de l'effet de levier et des instruments de contrôle sont nécessaires."
+        },
+        {
+          "speaker": "A",
+          "ka": "თქვენ მიერ შეთავაზებული კონტროლები გულისხმობს მკაცრ ლიმიტებს. კონკრეტულად, რომელ მექანიზმებს ვაყოლებთ აქტივების მასშტაბს?",
+          "fr": "Les contrôles que vous proposez impliquent des limites strictes. Concrètement, quels mécanismes appliquerions-nous à l'escalade des actifs ?",
+          "choices": [
+            {
+              "ka": "ვაწყობთ დინამიკურ ლევერიჯ-ლიმიტს დაკავშირებულ პროცენტებთან, სავალუტო ჰეჯინგს და საკმარის სარეზერვო სითხეს ნეგატიური შოკებისთვის.",
+              "fr": "Nous instaurerions une limite dynamique d'effet de levier liée aux taux, du hedging de change et des réserves suffisantes pour chocs négatifs.",
+              "ok": true
+            },
+            {
+              "ka": "ყველა აქტივი სწრაფად გავყიდოთ, რათა თავიდან ავიცილოთ ყოველგვარი ბაზრის ცდომილება და გავათავისუფლოთ საკმარისი კაპიტალი.",
+              "fr": "Vendre rapidement tous les actifs pour éviter toute volatilité et libérer du capital suffisant.",
+              "ok": false
+            },
+            {
+              "ka": "თუ ბაზარი არ გაიზრდება, წინასწარ შეჩერდება პროექტი და ეს იყო—არანაირი დამატებითი ღონისძიება საჭირო არ იქნება.",
+              "fr": "Si le marché ne croît pas, le projet sera simplement arrêté et aucune mesure supplémentaire ne sera nécessaire.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "სწორი—დინამიკური ლევერიჯი და ჰეჯინგი ჩვენი პრიორიტეტი უნდა იყოს; ასე შევამცირებთ ინტაგრირებულ რისკებს და შენარჩუნდება მოქნილობა.",
+          "fr": "Exact—la limite dynamique et le hedging doivent être prioritaires ; ainsi nous réduirons les risques intégrés et garderons de la flexibilité."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-024",
+      "title": "მიწათმოქმედებითი ინოვაციები",
+      "scene": "აგრონომი კონსულტანტს ესაუბრები ბაზის შემცვლელი ტექნოლოგიების დანერგვაზე.",
+      "cefr": "C2",
+      "version": 24,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "მიწის საყდრისის შემცირების მიზნით გვსურს შეიცვალოს პლანტაციის მახასიათებლები — როგორ აფასებთ სარგებელს ორგანული ამინანქრებისა და ზუსტი მეურნეობის კომბინაციაში?",
+          "fr": "Nous souhaitons modifier les pratiques culturales pour réduire l'appauvrissement du sol : comment évaluez-vous l'intérêt des engrais organiques combinés à l'agriculture de précision ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "ორგანიკული ინგრედიენტები აუმჯობესებს ბიოლოგიურ წონასწორობას, ხოლო ზუსტი ტექნოლოგიები ოპტიმიზაციას იძლევა—ერთი გამოცდა კი საჭიროა საწყის პირობებში ნახვისთვის.",
+          "fr": "Les intrants organiques améliorent l'équilibre biologique, et la précision optimise — un essai initial est nécessaire pour observer les conditions locales."
+        },
+        {
+          "speaker": "A",
+          "ka": "ცნობიერები ვართ, რომ სხვადასხვა მეურნეობის სპეციფიკა როლის დიდ როლს თამაშობს. როგორ წვრილად უნდა დავგეგმოთ პრაქტიკული გამოცდილების პილოტი?",
+          "fr": "Nous savons que la spécificité des exploitations joue un grand rôle. À quelle échelle fine devons-nous planifier le pilote ?",
+          "choices": [
+            {
+              "ka": "პილოტი უნდა მოიცავდეს რამდენიმე ჰაბ-ფერმას სხვადასხვა ეკოლოგიურ ზონაში, კონტროლურ პლოტებთან ერთად, მინიმუმ ორიან კლასტერულ შედარებით.",
+              "fr": "Le pilote devrait couvrir plusieurs fermes-pivots dans différentes zones écologiques, avec parcelles témoins, au moins en comparaisons par paires.",
+              "ok": true
+            },
+            {
+              "ka": "საუკეთესოა დარჩეთ ერთ ადგილზე და მაქსიმალურად შევხებოთ ყველა ტექნიკა, რათა გვერდითი ეფექტები მოაშოროთ ბოლოს.",
+              "fr": "Mieux vaut rester sur un seul site et appliquer toutes les techniques pour éliminer les effets secondaires à la fin.",
+              "ok": false
+            },
+            {
+              "ka": "პილოტის გარეშე პირდაპირ ეროვნული მასშტაბით გადარიცხეთ ინვესტიცია; ფერმერები მაშინვე შეჩვევის შედეგად ისარგებლებენ.",
+              "fr": "Sans pilote, investissez directement à l'échelle nationale ; les agriculteurs s'y habitueront et en bénéficieront immédiatement.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "კლასტერული მიდგომა და კონტროლური პლოტები მოგცემთ მნიშვნელოვან შედარებით მონაცემებს—ეს არის ძირითადი წინაპირობა მასშტაბურობის დასტურად.",
+          "fr": "L'approche par grappes et les parcelles témoins vous fourniront des données comparatives importantes—condition essentielle pour prouver la scalabilité."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-025",
+      "title": "კრიტიკული რეცენზია ლიტერატურულ ნაწარმოებსა",
+      "scene": "მწერალი და ლიტერატურული კრიტიკოსი განიხილავენ ერთთვიან რომანს და მის მრავალმხრივ თარგმნებს.",
+      "cefr": "C2",
+      "version": 25,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "რომანში პირველი პირის ნარატორი იყენებს ნეპატიურ, აჩქარებულ ტემპს, მაგრამ სცენების სიმბოლიკა მეტისმეტად დახურულია. როგორ ფიქრობთ, საჭირო იყო თუ არა გაზომიერი mởრეცხვა მკითხველისთვის?",
+          "fr": "Le narrateur à la première personne adopte un tempo précipité, mais la symbolique des scènes est trop fermée. Pensez-vous qu'il aurait fallu ouvrir un peu pour le lecteur ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "დახურული სიმბოლიკა ქმნის ელემენტარულ ამოსუნთქვას და გვაიძულებს აქტიურ ინტერპრეტაციას; თუმცა გარკვეული ფანჯრები კონტექსტში შესაძლოა აჩქარებული გაგებისათის დაეხმარა.",
+          "fr": "La symbolique fermée crée une respiration élémentaire et oblige à l'interprétation active ; cependant, quelques fenêtres de contexte auraient aidé à la compréhension accélérée."
+        },
+        {
+          "speaker": "A",
+          "ka": "თქვენი აზრით, თარგმანში მუშაობისას როგორ უნდა შეინარჩუნდეს ორიგინალური შინაარსის მეტაფორული სიმკვეთრე, თანაც ფრანგულში სხვა კონოტაციები რომ მიღებულია?",
+          "fr": "Selon vous, en traduisant, comment préserver la netteté métaphorique de l'original alors que le français porte d'autres connotations ?",
+          "choices": [
+            {
+              "ka": "მნიშვნელოვანია მრავალშრიანი ხელმძღვანელობა: შინაარსობრივ მნიშვნელობას მიენიჭოს უპირატესობა, ხოლო ლექსიკური არითმეტიკა არტისტულ შენიშვნებს მიჰყოლიოს—პრობით და კომპრომისებით.",
+              "fr": "Il faut une direction multi-couches : prioriser le sens, tout en laissant la métrique lexicale accompagner les nuances artistiques—par essais et compromis.",
+              "ok": true
+            },
+            {
+              "ka": "საუკეთესოა სიტყვაზე სიტყვა თარგმნა, რადგან მხოლოდ ის შენარჩუნებს ავთენტიკურობას; კონტექსტუალური კორექტირება არასაჭირო იქნება.",
+              "fr": "Le mot à mot est préférable, car seul lui conserve l'authenticité ; la correction contextuelle est superflue.",
+              "ok": false
+            },
+            {
+              "ka": "სუფთა ფორმალური ადაპტაცია, სადაც ყველა მეტაფორა შეიცვლება ადგილობრივ კლიშეებზე, საუკეთესო გზა იქნება მკითხველზე გასვლისთვის.",
+              "fr": "Une adaptation purement formelle, remplaçant toutes les métaphores par des clichés locaux, serait la meilleure stratégie pour le lectorat.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "თარგმანი თუ სახელოსნოს საქმიანობაა, საშუალო გზა—სეტყვითი მართვა მნიშვნელობასა და ენობრივ ელემენტს შორის—უმჯობესი იქნება.",
+          "fr": "La traduction étant un métier, une voie médiane—gestion mesurée entre sens et éléments linguistiques—sera préférable."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-026",
+      "title": "კლიმატის ადგილობრივი მორგება",
+      "scene": "გერმანული ქალაქის ურბანისტი და ადგილობრივი მუნიციპალიტეტის წარმომადგენელი განიხილავენ მწვანე ინფრასტრუქტურას მდგრადობისთვის.",
+      "cefr": "C2",
+      "version": 26,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ჩვენი ქალაქისთვის სულ უფრო კრიტიკული ხდება წყლის მართვა: ქარის, ტემპერატურის ცვლილებები და გასაშრობი პერიოდები. როგორი მწვანე ინფრასტრუქტურა შეესაბამება ადგილობრივ რეალობებს?",
+          "fr": "La gestion de l'eau devient critique pour notre ville : vents, variations de température et sécheresses. Quelle infrastructure verte convient à notre réalité locale ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "მკვეთრად უნდა გავზარდოთ permeabiliteti: მწვანე ჭერი, პერფუზიულ ბაღები და ნალექების შეკავება მკვეთრ პიკის აქცენტით — თანაც, საზოგადოებრივი განათლებაც აუცილებელია.",
+          "fr": "Il faut augmenter la perméabilité de manière marquée : toits verts, jardins de percolation et retenue des pluies aux pics—et l'éducation publique est aussi nécessaire."
+        },
+        {
+          "speaker": "A",
+          "ka": "ბიუჯეტი შეზღუდულია; რომელი ინიციატივა შეასრულებს ყველაზე მეტ კო-ბენეფიტს მოკლე და საშუალო პერიოდში?",
+          "fr": "Le budget est limité ; quelle initiative offrira le plus de co-bénéfices à court et moyen terme ?",
+          "choices": [
+            {
+              "ka": "მწვანე ჭერების გაშენება და მცენარეთა ბარიერების ორგანიზება აუმჯობესებს სითბოს რეგულაციას, წყლის შეწოვას და ბიომრავალფეროვნებას ერთად.",
+              "fr": "Installer toits verts et haies végétales améliore la régulation thermique, l'infiltration des eaux et la biodiversité simultanément.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ მძიმე ინვესტიცია საცნობარო წყლის ღრმად გამტარ სისტემებში უზრუნველყოფს ყველა საჭირო გამოყენებას მომავალში.",
+              "fr": "Seule une lourde infrastructure de drainage profond assurera toutes les utilisations futures.",
+              "ok": false
+            },
+            {
+              "ka": "სადარეაბილიტაციო პროექტების გარეშე საკმარისი იქნება მხოლოდ საკანონმდებლო რეგულაციების გამკაცრება.",
+              "fr": "Sans projets de réhabilitation, le renforcement réglementaire seul suffira.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "მწვანე ჭერები და მცენარეები ხასიათდებიან მაღალი მრავალპუნქტიანი ეფექტით; ეს არის პრაქტიკული და შედარებით სწრაფად მიღწევადი ნაბიჯი.",
+          "fr": "Les toits verts et la végétation ont des effets multi-points ; c'est un pas pratique et relativement rapide à atteindre."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-027",
+      "title": "საფხეკი ზრუნვა და ეთიკა",
+      "scene": "დოქტორი და ეთიკის კომიტეტი განიხილავენ ახალი ბიომედიცინის ექსპერიმენტს.",
+      "cefr": "C2",
+      "version": 27,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ჩვენს გეგმის მიხედვით კანონიერი ნებართვის მიღებისას საჭიროა არცთუ მცირე ეთიკური არგუმენტები: როგორ დავამტკიცოთ მონაწილეთა კეთილდღეობის პრიორიტეტი ინტერვენციის შედეგებთან მიმართებაში?",
+          "fr": "Dans notre protocole, l'obtention d'autorisations légales exige des arguments éthiques solides : comment démontrer la priorité du bien-être des participants face aux résultats de l'intervention ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "პირველ რიგში, საჭიროა შევსებული ინფორმირებული თანხმობა, გამჭვირვალე რისკ-ბენეფიტის კომუნიკაცია და დამოუკიდებელი მონიტორინგი — ორბიტალური შემოწმება პროტოკოლის საკენონაწილების.",
+          "fr": "D'abord, le consentement éclairé complet, une communication transparente sur risques/bénéfices et un monitoring indépendant : audits orbitaux du protocole.",
+          "choices": [
+            {
+              "ka": "ამ კომპონენტების სტანდარტიზაცია, კომიტეტური დეტალური ზედამხედველობა და ეტაპობრივი ინტერვენციის წესები საჭიროა მონაწილეთა უფლებების დასაცავად.",
+              "fr": "La standardisation de ces éléments, une supervision détaillée par le comité et des règles d'intervention par paliers sont nécessaires pour protéger les droits des participants.",
+              "ok": true
+            },
+            {
+              "ka": "მხოლოდ სამუშაო ჯგუფის ეთიკური განცხადება არის საკმარისი, რადგან ექსპერიმენტის ეფექტურობა მთავარია საზოგადოებისათვის.",
+              "fr": "La seule déclaration éthique du groupe de travail suffit, car l'efficacité expérimentale prime pour la société.",
+              "ok": false
+            },
+            {
+              "ka": "არ არის საჭირო დამოუკიდებელი მონიტორინგი თუ მე და ჩემი გუნდი ვუთანხმებთ პროტოკოლს; ეს აჩქარებს პროცესს.",
+              "fr": "Le monitoring indépendant est inutile si mon équipe et moi validons le protocole ; cela accélère le processus.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "A",
+          "ka": "თქვენი წინადადება ანგარიშგასაწევია: სტანდარტიზაცია და ბერკეტები ნამდვილად გაზრდის უსაფრთხოებას და ეთიკურ გამართლებას.",
+          "fr": "Votre proposition est pertinente : la standardisation et des garde-fous augmenteront la sécurité et la justification éthique."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-028",
+      "title": "ფილოსოფიური სასადილო",
+      "scene": "ორ ფილოსოფოსს შორის ინტელექტუალური საუბრობს ცნობადობისა და თავისუფლების თემაზე.",
+      "cefr": "C2",
+      "version": 28,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "როდესაც საქმე ცნობადობის ნელ-ეფექტურობის მსჯელობას ეხება, თუ რა პრეფიქსებით უნდა აღვიქვათ აზრის ავტონომია, რამდენად მნიშვნელოვანია ღირებულებების პირველყოფილი წარმოშობა?",
+          "fr": "Quand on discute de la lente efficacité de la conscience, et de la façon dont percevoir l'autonomie de la pensée, quelle est l'importance de l'origine première des valeurs ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "ღირებულებების წარმოშობა შეიძლება იყოს both ბიოლოგიური და კულტურული; მაგრამ ავტონომია თავს იჩენს მხოლოდ მაშინ, როცა ინდივიდი იდილებს კრიტიკულ უფლებას და კანონზომიერად მანიპულაციებს ყოფს.",
+          "fr": "L'origine des valeurs peut être à la fois biologique et culturelle ; mais l'autonomie s'affirme seulement quand l'individu exerce un droit critique et se prémunit contre les manipulations."
+        },
+        {
+          "speaker": "A",
+          "ka": "შესაძლოა გავარჩიოთ რეფლექსიური თავისუფლება, რომელიც განათლება-ინტერვენციებით ვითარდება, და გენე-კონსტიტუციური საპრინციპო თავისუფლება — როგორ უნდა დავასკვნათ მათი ურთიერთდამოკიდებულება?",
+          "fr": "On peut distinguer la liberté réflexive, développée par éducation et interventions, et la liberté constitutionnelle de principe : comment conclure leur interdépendance ?",
+          "choices": [
+            {
+              "ka": "რეფლექსიური თავისუფლება არის ინსტრუმენტი ზედა ღირებულების სამართავად; კონსტიტუციური კი განაპირობებს ჩარჩოს, ასე რომ ერთს გარეშე მეორეს ვერ მივიღებთ.",
+              "fr": "La liberté réflexive est un instrument pour gouverner les valeurs supérieures ; la constitutionnelle établit le cadre : on ne peut avoir l'une sans l'autre.",
+              "ok": true
+            },
+            {
+              "ka": "ორივე ცნება ნაზავია; რეალურად საჭიროა მხოლოდ ერთგვარი ექსტრაორდინალური ავტორიტეტი, რომელიც განსაზღვრავს ფასეულობებს.",
+              "fr": "Les deux notions sont superflues ; en réalité il suffit d'une autorité extraordinaire qui définit les valeurs.",
+              "ok": false
+            },
+            {
+              "ka": "რეფლექსია დამოუკიდებელია და არანაირად არ უკავშირდება კონსტიტუციურ ამნისტიურ ნორმებს, რადგან მათ სხვადასხვა სფეროებია.",
+              "fr": "La réflexivité est indépendante et n'a aucun lien avec les normes constitutionnelles, car ce sont des domaines distincts.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "შეთავაზებული დიალექტიკა გვაძლევს პერსპექტივას, რის მიხედვითაც თავისუფლების ფორმები ურთიერთსაჭიროა და ნორმატიულ დონემენტს აძლიერებენ.",
+          "fr": "La dialectique proposée offre une perspective selon laquelle les formes de liberté sont mutuellement nécessaires et renforcent le niveau normatif."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-029",
+      "title": "კულტურულ სიმბოლოებზე დასკვნები",
+      "scene": "ანთროპოლოგი და მუზეუმის მკვლევარი განიხილავენ საექსპოზიციო მასალების ციფრულ არქივს.",
+      "cefr": "C2",
+      "version": 29,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ციფრულ არქივში ბევრ საარქივო სქონას ვაწყდებით, რომელთა კულტურული კონტექსტი გადაუჭრელია მხოლოდ ლოკალური ინტერპრეტაციით; როგორ მოვიქცეთ წარმოდგენების დემონსტრირებასთან მიმართებაში?",
+          "fr": "Dans l'archive numérique nous rencontrons des objets dont le contexte culturel n'est pas résoluble par une interprétation locale uniquement ; comment procéder pour leur mise en exposition ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "უმჯობესია ექვივალენტური მეტა-ინფორმაციის შექმნა: მრავალპერსპექტიული აღწერილობები, სათაურები და კონპარატიული ანოტაციები, რათა ვიზუალურ ნიმუშს მეტი ამბავი მიენიჭოს.",
+          "fr": "Il vaut mieux créer une méta-information équivalente : descriptions multi-perspectives, titres et annotations comparatives, pour donner plus d'histoire à l'objet visuel."
+        },
+        {
+          "speaker": "A",
+          "ka": "თუ გარკვეულ სიმბოლურ შინაარსს კონფიდენციალურობა ახასიათებს, როგორ ესარგებლოს მუზეუმი საზოგადოების ინტერესით და ეთიკური გონივრული ცენზურით?",
+          "fr": "Si certains contenus symboliques sont confidentiels, comment le musée concilie intérêt public et censure éthique raisonnable ?",
+          "choices": [
+            {
+              "ka": "სანამ საზოგადოებრივი წვდომა შესაძლებელი ხდება, საჭიროა კონსულტაცია წარმომავლობის წარმომადგენლებთან, თანაფიქრება და კონტრაქტირებული პირობებით წვდომის შემსუბუქება.",
+              "fr": "Avant d'ouvrir l'accès public, il faut consulter les représentants d'origine, se concerter et assouplir l'accès selon des conditions contractuelles.",
+              "ok": true
+            },
+            {
+              "ka": "უკვე შეგროვებული დააარქივებული მასალა თავისუფლად უნდა გამოდის საზოგადოებისთვის, რადგან კულტურული ობიექტი ნაციონალურია და ყველას ეკუთვნის.",
+              "fr": "Tout le matériel déjà collecté doit être librement accessible au public, car l'objet culturel est national et appartient à tous.",
+              "ok": false
+            },
+            {
+              "ka": "კონფიდენციალურობის დარღვევის შიში არ უნდა იყოს, რადგან ეს მხოლოდ ისტორიული მონაცემებია და არ საჭიროებს ეთიკურ დისკურსს.",
+              "fr": "La crainte de briser la confidentialité ne doit pas exister, car ce sont seulement des données historiques et n'exigent pas de discours éthique.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "კონსულტაციები და კონტრაქტული პირობები უზრუნველყოფს შინაარსის პატივისცემას და საზოგადოებრივ ინტერესსაც—ეს დაბალანსებული მიდგომაა.",
+          "fr": "Les consultations et conditions contractuelles assurent le respect du contenu et l'intérêt public—une approche équilibrée."
+        }
+      ]
+    },
+    {
+      "id": "dialogues-c2-gen-030",
+      "title": "ჯანმრთელობის პოლიტიკის სტრატეგია",
+      "scene": "ჯანდაცვის მინისტრი და ეპიდემიოლოგი განიხილავენ ვაქცინაციის სტრატეგიის მატებას რთულ ჰპოპურენტებში.",
+      "cefr": "C2",
+      "version": 30,
+      "turns": [
+        {
+          "speaker": "A",
+          "ka": "ჩვენი მიზანია მაღალი შტატუსის მქონე უბნებში იმუნიზაციის ფართო მასშტაბის უზრუნველყოფა, თუმცა რეზისტენტობისა და ინფრასტრუქტურული დაბრკოლებების გამო შედეგები არაერთგვაროვანია. რა ქმედითი გზა გვსურს ინტერნციულად?",
+          "fr": "Notre objectif est d'assurer une large immunisation dans les quartiers à statut élevé, mais les résistances et obstacles infrastructurels rendent les résultats hétérogènes. Quelle voie d'action concrète viser ?"
+        },
+        {
+          "speaker": "B",
+          "ka": "უმჯობესია მრავალსარჩევი სტრატეგია: სამოქმედო მობილიზაციებიც, ადგილობრივი კომუნიკაცია, მოსახლეობასთან ურთიერთობა და იმუნიზაციის წერტილების გეოგრაფიული ბარიერების აღმოფხვრა.",
+          "fr": "Mieux vaut une stratégie multivoies : mobilisation opérationnelle, communication locale, relation avec la population et levée des barrières géographiques des points de vaccination."
+        },
+        {
+          "speaker": "A",
+          "ka": "რისი ჩართვაა მნიშვნელოვანი ხედვების განხილვისას: როგორც ტექნიკური, ისე საკომუნიკაციო მეთოდები, მაგრამ რით უნდა დავაპყაროთ პრიორიტეტი?",
+          "fr": "Qu'inclure dans l'examen des priorités : méthodes techniques et de communication, mais sur quoi fonder la priorité ?",
+          "choices": [
+            {
+              "ka": "პრიორიტეტი უნდა დაეკისროს ეფექტურობას, მტკევადობას და თანაბარი წვდომის უზრუნველყოფას—მაშინ ტექნიკურმა სივრცემ და კომუნიკაციამ ერთად იმოქმედონ.",
+              "fr": "La priorité doit être donnée à l'efficacité, la durabilité et l'équité d'accès—ainsi technique et communication agiront conjointement.",
+              "ok": true
+            },
+            {
+              "ka": "ყველაზე მნიშვნელოვანი არის მხოლოდ როცა ბრუკეტული კამპანიაა, მასში სხვა მეთოდების გამოყენება მხოლოდ მავნეა რესურსებისთვის.",
+              "fr": "L'essentiel est la campagne de masse uniquement ; l'utilisation d'autres méthodes nuirait aux ressources.",
+              "ok": false
+            },
+            {
+              "ka": "პირველი რიგში საჭიროა ყურადღება მხოლოდ სუსტი ინფრასტრუქტურების კერძო ინვესტიციაზე; კომუნიკაცია ავტომატურად მოიხსნება დროით.",
+              "fr": "Il faut d'abord se concentrer uniquement sur l'investissement privé dans les infrastructures faibles ; la communication se résoudra d'elle-même avec le temps.",
+              "ok": false
+            }
+          ]
+        },
+        {
+          "speaker": "B",
+          "ka": "ეფექტურობა, გამძლეობა და თანასწორობა—ეს იქნება ჩვენი საფუძველი სტრატეგიის ჩამოყალიბებისთვის; ტექნიკა და კომუნიკაცია სინერგიაში უნდა იყოს.",
+          "fr": "Efficacité, résilience et équité—ce seront nos bases ; technique et communication doivent être en synergie."
+        }
+      ]
     }
   ]
 }

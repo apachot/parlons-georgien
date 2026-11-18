@@ -11,6 +11,7 @@ from __future__ import annotations
 import concurrent.futures
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -36,6 +37,12 @@ GRAMMAR_CATEGORIES = {
 }
 
 FAMILIES = {
+    "reading_guided": {
+        "count": 3,
+        "batch": 3,
+        "schema": "Chaque fiche : {id,level,level_name,text,question,options,answer,translation,explanation}. level est un entier de 1 à 6 correspondant à A1 à C2. text est un court texte suivi en géorgien adapté au niveau ; question et options sont en français, exactement 4 options distinctes avec une seule réponse exacte ; translation traduit fidèlement tout le texte ; explanation justifie la réponse à partir du texte.",
+        "rules": "Créer des textes courts, idiomatiques, originaux et très variés. A1 : 2 à 4 phrases simples ; A2 : 4 à 6 phrases liées ; B1 : petit récit cohérent ; B2 : texte plus dense avec connecteurs ; C1/C2 : texte nuancé avec inférence raisonnable. La question doit être résolue uniquement à partir du texte.",
+    },
     "vocabulary": {
         "count": 10,
         "batch": 10,
@@ -175,6 +182,8 @@ def request_items(bank: str, level: str, start: int, end: int, category: str | N
                 item["id"] = f"{bank}-{level.lower()}{category_slug}-gen-{offset:03d}"
                 item["cefr"] = level
                 item["version"] = offset
+                if bank == "reading_guided":
+                    item["level"] = LEVEL_NUMBER[level]
                 if bank == "grammar_exercises":
                     item["category"] = category
             validate_item(bank, item)
@@ -194,6 +203,7 @@ def validate_item(bank: str, item: dict):
         "reading_cloze": ("sentence", "answer", "options", "translation", "explanation"),
         "comprehension_order": ("title", "level_name", "text", "events", "explanation"),
         "reading_exams": ("title", "level_name", "text", "translation", "questions"),
+        "reading_guided": ("level_name", "text", "question", "options", "answer", "translation", "explanation"),
         "grammar": ("title", "level", "body", "examples", "source"),
         "lessons": ("title", "tag", "duration", "goal", "items"),
         "elearning_lessons": ("title", "level", "tag", "goal", "slides", "checks", "related"),
@@ -215,14 +225,21 @@ def validate_item(bank: str, item: dict):
         for question in item["questions"]:
             if len(question.get("options", [])) != 4 or question.get("answer") not in question.get("options", []):
                 raise ValueError(f"{item['id']}: question d’épreuve invalide")
+    if bank == "reading_guided" and (len(item["options"]) != 4 or len(set(item["options"])) != 4
+                                      or item["answer"] not in item["options"]):
+        raise ValueError(f"{item['id']}: QCM de lecture invalide")
     if bank == "elearning_lessons":
         if len(item["slides"]) != 4 or not {2, 4}.issubset({check.get("after_slide") for check in item["checks"]}):
             raise ValueError(f"{item['id']}: structure de cours invalide")
 
 
-def tasks():
+def tasks(families=None, target_counts=None):
+    selected_families = set(families or FAMILIES)
+    target_counts = target_counts or {}
+
     def already_complete(family, level, start, end, category=None):
-        path = CONTENT / f"{family}_gpt5mini_{level.lower()}.json"
+        path = (CONTENT / f"reading_{level.lower()}_gpt5mini.json" if family == "reading_guided"
+                else CONTENT / f"{family}_gpt5mini_{level.lower()}.json")
         if not path.is_file():
             return False
         try:
@@ -236,21 +253,26 @@ def tasks():
         return expected.issubset(ids)
 
     for family in FAMILIES:
-        if family == "grammar_exercises":
+        if family not in selected_families or family == "grammar_exercises":
             continue
         for level in LEVELS:
-            for start, end in chunks(FAMILIES[family]["count"], FAMILIES[family]["batch"]):
+            ranges = ([(2, 4)] if family == "reading_guided" else
+                      chunks(target_counts.get(family, FAMILIES[family]["count"]),
+                             FAMILIES[family]["batch"]))
+            for start, end in ranges:
                 if not already_complete(family, level, start, end):
                     yield family, level, start, end, None
-    for category in GRAMMAR_CATEGORIES:
-        for level in LEVELS:
-            for start, end in chunks(10, 10):
-                if not already_complete("grammar_exercises", level, start, end, category):
-                    yield "grammar_exercises", level, start, end, category
+    if "grammar_exercises" in selected_families:
+        for category in GRAMMAR_CATEGORIES:
+            for level in LEVELS:
+                for start, end in chunks(target_counts.get("grammar_exercises", 10), 10):
+                    if not already_complete("grammar_exercises", level, start, end, category):
+                        yield "grammar_exercises", level, start, end, category
 
 
 def write_family(family: str, level: str, items: list[dict], replace: bool = False):
-    path = CONTENT / f"{family}_gpt5mini_{level.lower()}.json"
+    path = (CONTENT / f"reading_{level.lower()}_gpt5mini.json" if family == "reading_guided"
+            else CONTENT / f"{family}_gpt5mini_{level.lower()}.json")
     if path.exists() and not replace:
         existing = json.loads(path.read_text(encoding="utf-8"))
         old = existing.get("items", [])
@@ -283,13 +305,78 @@ def existing_vocabulary_terms() -> set[str]:
     return terms
 
 
+def extend_alphabet_recognition():
+    path = CONTENT / "alphabet_recognition_a1.json"
+    bank = json.loads(path.read_text(encoding="utf-8"))
+    old_items = bank.get("items", [])
+    existing_versions = {item.get("version") for item in old_items}
+    existing_sets = {tuple(item.get("letter_ids", [])) for item in old_items}
+    all_letters = list(dict.fromkeys(letter for item in old_items
+                                     for letter in item.get("letter_ids", [])))
+    rng = random.Random(20261118)
+    additions = []
+    while len(old_items) + len(additions) < 80:
+        letters = all_letters[:]
+        rng.shuffle(letters)
+        chosen = tuple(letters[:12])
+        if chosen in existing_sets:
+            continue
+        existing_sets.add(chosen)
+        version = max([value for value in existing_versions if isinstance(value, int)]
+                      + [item["version"] for item in additions] + [0]) + 1
+        additions.append({
+            "id": f"alphabet-sound-a1-{version:02d}",
+            "exercise": "alphabet-sound-recognition",
+            "skill": "listening",
+            "cefr": "A1",
+            "version": version,
+            "letter_ids": list(chosen),
+            "rationale": "Reconnaissance du son de lettres géorgiennes dans une nouvelle série de mots courants.",
+        })
+    bank["items"] = [*old_items, *additions]
+    path.write_text(json.dumps(bank, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"OK alphabet_recognition A1 · {len(old_items) + len(additions)} versions", flush=True)
+
+
 def main():
     global REFRESH_VOCABULARY
     REFRESH_VOCABULARY = "--refresh-vocabulary" in sys.argv
+    expand = "--expand-tests-fourfold" in sys.argv
     if "--list" in sys.argv:
         print(f"{len(list(tasks()))} generation batches; model={MODEL}; {len(FAMILIES)} banks plus 5 grammar categories × 6 levels")
         return
+    selected_families = {
+        "reading_guided", "vocabulary", "dialogues", "dictation_sentences",
+        "reading_cloze", "comprehension_order", "reading_exams", "grammar_exercises",
+    } if expand else None
+    target_counts = {family: 40 for family in selected_families or ()
+                     if family != "reading_guided"} if expand else {}
     grouped: dict[tuple[str, str], list[dict]] = {}
+    excluded_terms = existing_vocabulary_terms() if expand else set()
+    if expand:
+        if len(json.loads((CONTENT / "alphabet_recognition_a1.json").read_text(encoding="utf-8")).get("items", [])) < 80:
+            extend_alphabet_recognition()
+        print("Création des nouveaux mots de vocabulaire, sans doublons…", flush=True)
+        for level in LEVELS:
+            vocab_path = CONTENT / f"vocabulary_gpt5mini_{level.lower()}.json"
+            bank_items = json.loads(vocab_path.read_text(encoding="utf-8")).get("items", [])
+            existing_ids = {item.get("id") for item in bank_items if isinstance(item, dict)}
+            expected_ids = {f"vocabulary-{level.lower()}-gen-{number:03d}"
+                            for number in range(11, 41)}
+            if expected_ids.issubset(existing_ids):
+                items = []
+                print(f"Déjà prêt vocabulary {level} · versions 11–40", flush=True)
+            else:
+                items = request_items("vocabulary", level, 11, 40, excluded_terms=excluded_terms)
+                write_family("vocabulary", level, items)
+                grouped[("vocabulary", level)] = items
+                print(f"OK vocabulary {level} · versions 11–40", flush=True)
+            excluded_terms.update("".join(char for char in item["ka"].casefold() if char.isalpha())
+                                  for item in bank_items if isinstance(item, dict)
+                                  and isinstance(item.get("ka"), str))
+            excluded_terms.update("".join(char for char in item["ka"].casefold() if char.isalpha())
+                                  for item in items if isinstance(item.get("ka"), str))
+        selected_families.remove("vocabulary")
     if REFRESH_VOCABULARY:
         excluded = existing_vocabulary_terms()
         print("Renouvellement des 60 fiches de vocabulaire sans doublons…", flush=True)
@@ -300,7 +387,12 @@ def main():
                             for item in items)
             grouped[("vocabulary", level)] = items
             print(f"OK vocabulary {level} · 10 mots distincts", flush=True)
-    task_list = list(tasks())
+    task_list = list(tasks(selected_families, target_counts))
+    batch_limit = next((int(argument.split("=", 1)[1]) for argument in sys.argv
+                        if argument.startswith("--max-batches=") and argument.split("=", 1)[1].isdigit()),
+                       45 if expand else None)
+    if batch_limit:
+        task_list = task_list[:batch_limit]
     print(f"Démarrage : {len(task_list)} lots avec {MODEL}.", flush=True)
     failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:

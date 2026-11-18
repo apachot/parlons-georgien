@@ -160,6 +160,469 @@
         "Quelques semaines plus tard, le sol se régénère naturellement et l’odeur disparaît."
       ],
       "explanation": "Suite logique: alerte→hypothèse industrielle→analyse et identification du sol→mesures de surveillance→résolution naturelle."
+    },
+    {
+      "id": "comprehension_order-c2-gen-011",
+      "title": "სახლში დაბრუნება წვიმის შემდეგ",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 11,
+      "text": "ვახშმის მორჩენიდან ნახევარი საათი გავიდა. როცა გასულა სახლიდან, პირველი წვიმა უკვე დაწყნარებულიყო, მაგრამ ქუჩები ჯერ კიდევ სველიყო. მას სათვალე ჰქონდა გვერდზე დაკიდებული და სლეაკი აკვროდა ქოლგას, რომელიც მანქანის ზედა ნაწილზე დადგა. სახლში მისვლისთანავე მან ფეხსაცმლები hallway-ში ჩამოალაგა და შემოსასვლელში გრძელი ქურთუკი ჩამოიღო. პირველად ფანჯრიდან გაიხედა და დარჩენილი წვეთები ფანჯრს ეხებოდა; მერე სამზარეულოში შევიდა და ჩაიდანი ჩართო.",
+      "events": [
+        "Il quitte la maison sous une pluie déjà moins forte.",
+        "Il range ses affaires à l’extérieur de la maison (lunettes, manteau).",
+        "Il entre dans la maison et enlève ses chaussures dans le couloir.",
+        "Il regarde par la fenêtre puis met l’eau à chauffer dans la cuisine."
+      ],
+      "explanation": "L’ordre suit la chronologie immédiate : départ sous la pluie, rangement des affaires extérieures, entrée et déchaussement, observation par la fenêtre et action suivante en cuisine."
+    },
+    {
+      "id": "comprehension_order-c2-gen-012",
+      "title": "დისკუსია უნივერსიტეტში",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 12,
+      "text": "სემინარი ცხრაზე რეგულარულად ტარდებოდა, მაგრამ ეს შეხვედრა განსაკუთრებული იყო: სტუმარი ლექტორი შემოვიდა საათზე ვრცელი პრეზენტაციით. დაწყებისას მან მოკლედ მოკუმულა სამი ძირითადი თეზისი და აუდიტორია კითხვებისთვის მოამზადა. პირველი კითხვა სტუდენტთან დაკავშირებული ახალგაზრდა ქალისგან წამოვიდა; ლექტორმა პასუხი დეტალურად გასცა და შემდეგ სხვა მონაწილეებმაც დაამატეს საკუთარი მაგალითები. ბოლოს, ორგანიზატორმა ამოხსნა შეხვედრის გაგრძელების შესახებ და დაანონსა შემდეგი სემინარის თარიღი.",
+      "events": [
+        "Le conférencier arrive et présente brièvement trois thèses.",
+        "Il prépare l'auditoire aux questions.",
+        "Une étudiante pose la première question, le conférencier répond en détail.",
+        "D'autres participants ajoutent des exemples, puis l'organisateur annonce la suite et la date du prochain séminaire."
+      ],
+      "explanation": "L’ordre suit la progression naturelle d’une conférence : arrivée et exposé, préparation aux questions, interaction, contributions complémentaires et conclusion/annonces."
+    },
+    {
+      "id": "comprehension_order-c2-gen-013",
+      "title": "ორგანიზაციის მარშრუტის შეცვლა",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 13,
+      "text": "სოფლის გზამკვლევმა სასტუმროდანვე მიიღო შეტყობინება გზების გადაკეტვის შესახებ. მან ჯგუფს აუწყა, რომ მთავარ გზაზე დიდი შტორმის გამო ტრასა არარეგულარული იყო. საზოგადოება საკვების საკმარისი მარაგისთვის სწრაფად მოემზადა და ავტობუსი სხვა, პატარა გზით გაუშვეს. ავარიის რისკის შესამცირებლად ჯგუფი ნელა მოძრაობდა და კომპანიონებმა ერთმანეთს ხშირად გადაამოწმეს კატეგორიული მოდუნების ნიშნები. რამდენიმე საათში ისინი უსაფრთხოდ საშინაო პუნქტში ჩასხდნენ.",
+      "events": [
+        "Le guide reçoit un message annonçant des fermetures de routes.",
+        "Il informe le groupe que la route principale est impraticable à cause de la tempête.",
+        "Le groupe se prépare et prend un itinéraire secondaire en bus.",
+        "Ils progressent lentement, se surveillent mutuellement et arrivent finalement au refuge sûr."
+      ],
+      "explanation": "L’enchaînement est strictement temporel : réception de l’information, communication, préparation et emprunt d’un autre itinéraire, puis déplacement prudent jusqu’à l’arrivée."
+    },
+    {
+      "id": "comprehension_order-c2-gen-014",
+      "title": "ბიბლიოთეკის მოხალისის დღე",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 14,
+      "text": "მოხალისემ სამუშაო დღე სტამბაში დაიწყო, წიგნების თაროების წანამძღვრით. ყველა საგანი მოიწესრიგა და ეტიკეტები კვლავ დააკრა; ამის მერე ახალ ჩამოსული დაფაზე ჩანაწერები შეამოწმა. შუადღისას ერთი ბავშვი მოვიდა გაჭირვებული დავალებით; მოხალისემ აუხსნა, როგორ ეძებნა წყაროები და ერთად მოძებნეს საჭირო ინფორმაცია. სამუშაო დღის ბოლოს ახლად ჩამოწერილი წიგნები ფონდში ჩაანწესეს და მოხალისემ ჩანთით სახლში შემოდგომით დაბრუნდა.",
+      "events": [
+        "Le bénévole commence en rangeant et étiquetant les étagères.",
+        "Il vérifie les nouvelles inscriptions reçues.",
+        "Un enfant vient chercher de l'aide pour un devoir et le bénévole l'aide à trouver des sources.",
+        "En fin de journée, les nouveaux livres sont intégrés au fonds et le bénévole rentre chez lui."
+      ],
+      "explanation": "Ordre séquentiel des tâches durant la journée : rangement, vérification des nouvelles arrivées, aide ponctuelle à un usager, clôture des tâches et départ."
+    },
+    {
+      "id": "comprehension_order-c2-gen-015",
+      "title": "ქოლექციის მიწოდება და შემოწმება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 15,
+      "text": "მასალებს ტრანსპორტში შეაკრიბეს და მოწესრიგებული საქონლით დატვირთეს. პროდუქტები დისკზე ჩამოსხეს და მასალა ჩამოწერეს სატვირთო ნუსხაზე. შემოწმების ჯგუფმა თითოეული ყუთი გადაახსნა და ინვენტარის მიხედვით მოიკითხა ნიშნები დაზიანებისა. იქვე იპოვნეს ორი ეტიკეტი არასწორად მოწებებული და დაუყოვნებლივ შეაკეთეს. საბოლოოდ, მომწოდებლებმა განაცხადი ხელი მოაწერეს, რომ მიწოდება სრული და შეუფერხებელი იყო.",
+      "events": [
+        "Les marchandises sont chargées proprement dans le véhicule.",
+        "On décharge et note la marchandise sur la liste de transport.",
+        "L'équipe de contrôle ouvre chaque caisse et inspecte selon l'inventaire.",
+        "Ils corrigent deux étiquettes mal collées puis les fournisseurs signent le bon de livraison."
+      ],
+      "explanation": "Séquence logique de livraison : chargement, déchargement et enregistrement, inspection détaillée, correction des anomalies et signature finale."
+    },
+    {
+      "id": "comprehension_order-c2-gen-016",
+      "title": "მოხდენილი კონცერტი",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 16,
+      "text": "კონცერტი საღამოს რვაზე იყო დანიშნული, მაგრამ ბენდმა სცენაზე უკვე ექვსზე გამოცდა დაიწყო. ტექნიკოსებმა სინათლე და ხმა რამდენიმე საათის განმავლობაში დაარეგულირეს. საღამოს მაყურებელი დროულად მოვიდა და დარბაზი დაფარული იყო მოლოდინით. მუსიკა პირველი სიმღერიდანვე აუდიტორიას მოაჯადოვა; შუაში სოლოს დროს სოლისტმა პუბლიკას მოკითხვა გაუკეთა და შემდეგ კონცერტი აპლოდისმენტებით დასრულდა.",
+      "events": [
+        "Le groupe commence la répétition en avance et les techniciens règlent lumière et son.",
+        "Le public arrive et la salle se remplit.",
+        "Le concert commence avec la première chanson qui captive l'audience.",
+        "Le soliste salue le public pendant un solo et la soirée se termine sous les applaudissements."
+      ],
+      "explanation": "Ordre reflète la chronologie d’un concert : préparatifs et réglages, arrivée du public, début du spectacle, moment fort puis conclusion."
+    },
+    {
+      "id": "comprehension_order-c2-gen-017",
+      "title": "დისერტაციის მიწერა",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 17,
+      "text": "დოკუმენტაციის შემოკრებისა და თემის დეტალების განსაზღვრიდან დაიწყეს სამუშაო. პირველ ეტაპზე ავტორმა ბევრი წყარო მოიკითხა და კრიტიკულად შეაფასა მათი სანდოობა. შემდგომი თვეების განმავლობაში ის შედეგების ანალიზზე მუშაობდა და კოდების რეაგირებასა და ტესტირებას აყოლებდა. საბოლოო გამოკვლევისა და დასკვნის დაწერის შემდეგ, მან დისერტაცია პრინტში გაამზადა და შაბათს უნივერსიტეტში მიიტანა მოსაპოვნებელი გავლენისთვის.",
+      "events": [
+        "L'auteur définit le sujet et rassemble la documentation.",
+        "Il lit et évalue la fiabilité des sources.",
+        "Pendant des mois il analyse les résultats et teste les codes.",
+        "Après avoir rédigé conclusions et texte final, il imprime la thèse et la soumet à l'université."
+      ],
+      "explanation": "Processus académique séquentiel : définition et collecte, évaluation des sources, analyse et tests, rédaction finale et dépôt."
+    },
+    {
+      "id": "comprehension_order-c2-gen-018",
+      "title": "მომსახურება კაფეში",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 18,
+      "text": "მეხანძრე კაფეში შემთხვევით შევიდა, რათა მეგობრობას თავისუფლად მოეხსენებინა ახალი მენიუ. მან შეკვეთა წინასწარ შეიტანა სისტემაში, შემდგა მაგიდა და მეგობარი გათავდა. ჯერ შემოიტანეს პირველადი ლუდი და რამდენიმე ფილა პიცის; შემდეგ მენეჯერმა მოითხოვა შეხედვა გადასახადზე და ოფიციანტმა მიუტანა ბილეთი. ბოლოს, მეგობრებმა ერთად გაცილეს და მენიზე დარჩენილმა კაპუჩინომ დაასრულა მათი საღამო.",
+      "events": [
+        "Il passe commande via le système puis s'installe avec son ami.",
+        "On sert d'abord les boissons et les pizzas.",
+        "Le manager demande à vérifier l'addition, le serveur apporte l'addition.",
+        "Ils partent et finissent la soirée avec un dernier cappuccino sur la table."
+      ],
+      "explanation": "Ordre naturel d’un repas : commande et installation, service des plats et boissons, vérification de l’addition, départ et dernière consommation."
+    },
+    {
+      "id": "comprehension_order-c2-gen-019",
+      "title": "სასტუმროს ბილეთი და განცხადება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 19,
+      "text": "სასტუმროს ადმინისტრაციამ ახალ წესებს საგანგებოდ წარუდგინა სტუმრებს. პირველი დღისთვის იყო განკუთვნილი ბულეტენი, სადაც ცვლილებები დაწვრილებით იყო ახსნილი. სტუმრებმა კარებაზე მიმაგრებული ინფორმაციის მიხედვით შეიტყვეს დროები და ლიმიტები, ზოგი ტელეფონითაც დაუკავშირდა ადმინისტრაციას. ადმინისტრაციამ მოაგროვა შეკითხვები და დღის ბოლოს პასუხები პოსტის საშუალებით გამოაგზავნა მათთვის, ვინც ვერ დაესწრო შეხვედრას.",
+      "events": [
+        "L'administration affiche un bulletin décrivant les nouvelles règles pour le premier jour.",
+        "Les clients lisent les informations et apprennent les horaires et limites.",
+        "Certains contactent l'administration par téléphone pour des précisions.",
+        "L'administration rassemble les questions et envoie des réponses par courrier à ceux absents."
+      ],
+      "explanation": "Chronologie administrative : notification par bulletin, lecture et prise d'information par les clients, demandes de précisions, compilation des questions et réponses ultérieures."
+    },
+    {
+      "id": "comprehension_order-c2-gen-020",
+      "title": "მიმდინარეობა მთაში",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 20,
+      "text": "უეცრად მთის ქედზე მორიგმა ქარმა წამოწვა და ღრუბლები ოდნავ დაშალა. გზამკვლევმა მოინახა მზის ერთი ფენა და ის სასწრაფოდ ჯგუფს დაუჯერა დასაბამი ნიშნული. ისინი გზაზე წავიდნენ, რამდენიმე ადგილას გასცდნენ მცირე ბილიკებს და შემდეგ ჩრდილოეთის კალთაზე აიღეს მიმართულება, რადგან სავარაუდო ქარის საძირკველი იქ იწვებოდა. რამდენიმე საათში ჯგუფი უსაფრთხოდ ქვედა ბანდზე ჩამოვიდა, სადაც მათ დასვენება მოახდინეს და აღდგენის შემდეგ გააგრძელეს გზა ველითით.",
+      "events": [
+        "Un vent disperse partiellement les nuages sur la crête montagneuse.",
+        "Le guide repère une percée de soleil et choisit un repère pour le groupe.",
+        "Ils quittent parfois le sentier, puis prennent la direction de la pente nord pour éviter le vent.",
+        "Après quelques heures ils descendent à un plateau inférieur où ils se reposent avant de reprendre la route."
+      ],
+      "explanation": "Séquence logique lors d'une randonnée : changement météo, identification d’un repère, ajustement d'itinéraire pour sécurité, descente et repos avant reprise."
+    },
+    {
+      "id": "comprehension_order-c2-gen-021",
+      "title": "სტუმრობის მოულოდნელი გაგრძელება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 21,
+      "text": "გასული შაბათს საღამოს მე და ნატა ჩვეულებრივი სტუმრობა დაგვიჯდა: ვახშამი, ძველი ფოტოებზე საუბარი და ფილმის ჩართვა. შუა ფილმში برقელი გათიშვა მოხდა, ამიტომ ჩვენ ღუმელთან მივედით სანთლებს აღმოფხვრით. ცოტა ხანში, მეზობელმა კარით შემოგვირბინა და სინათლის აღდგენის ნიუანსებზე მოახსენდა, რასაც მე ყურადღებით ვუსმინოდი. ინციდენტის შემდეგ ნატამ ღვინო გახსნა და ჩვენ ხმამაღლა გვიცინოდა გაჩერებული მომენტების შესახებ. ღამის ბოლოს ჩვენ ერთმანეთს ჩავეხუტეთ და დროის აღრიცხვა შევდექით: დასაძინებლად გვინდოდა მალე წასვლა, თუმცა საუბარი ერთი საათით გაგრძელდა.",
+      "events": [
+        "Ils ont commencé la soirée par dîner, regarder de vieilles photos et un film.",
+        "Pendant le film, l'électricité a été coupée et ils ont allumé des bougies près du poêle.",
+        "Un voisin est entré pour expliquer des détails sur la remise en service de l'électricité.",
+        "Après l'incident, Nata a ouvert une bouteille de vin et ils ont ri des moments interrompus.",
+        "La soirée s'est prolongée malgré leur intention de se coucher tôt; ils ont parlé une heure de plus.",
+        "Ils se sont embrassés avant de se séparer pour la nuit."
+      ],
+      "explanation": "Les événements suivent la chronologie du récit: début de la soirée, coupure de courant, arrivée du voisin, réaction après, prolongation de la conversation, puis séparation nocturne."
+    },
+    {
+      "id": "comprehension_order-c2-gen-022",
+      "title": "ბიბლიოთეკის ექსპერიმენტი",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 22,
+      "text": "მარდკაცმა რამდენიმე თვის წინ უნივერსიტეტის ბიბლიოთეკაში არაორდინარული ექსპერიმენტი წამოიწყო: თავისუფლად განლაგებული წიგნების მისაღებად სტუდენტები შეჰყავდა. დაწყების დღიდან, პირველი ორი კვირა დაკვირვებამ აჩვენა, რომ ჯგუფები თავდაპირველად მიიზიდნენ ყველაზე თვალსაჩინო ტომებს. თვეების შემდეგ კვლევამ კიდევ უფრო ვირუსული შედეგი გამოხატა: სტუდენტთა შორის წარმოქმნილი საუბრები ახალი ინტერესების მიზეზი გახდა. წელს ზაფხულში ჩატარებული საბოლოო ანალიზი დაასკვნა, რომ გარემო ცვლილებამ კითხვის არჩევაზე მნიშვნელოვანი გავლენა მოახდინა, ვიდრე რეკომენდაციებმა.",
+      "events": [
+        "Il a lancé une expérience en bibliothèque pour encourager l'accès libre aux livres.",
+        "Les deux premières semaines, l'observation a montré que les étudiants choisissaient d'abord les ouvrages les plus visibles.",
+        "Au fil des mois, les discussions entre étudiants ont généré un intérêt nouveau et diffusé l'effet.",
+        "L'analyse finale, faite l'été suivant, a conclu que l'environnement influençait davantage les choix de lecture que les recommandations."
+      ],
+      "explanation": "Chronologie claire: mise en place de l'expérience, observations initiales, développement social du phénomène, conclusion finale après analyse."
+    },
+    {
+      "id": "comprehension_order-c2-gen-023",
+      "title": "პროსპექტის გადაკეთება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 23,
+      "text": "წლის პირველ თვეებში კომპანია ახალი პროსპექტის შემუშავებას დაერივა, რადგან ბაზრის მოთხოვნები სწრაფად იცვლებოდა. მაისამდე პროექტი მხოლოდ კონცეპტual სკანირებამდე მივიდა და გუნდმა რამდენიმე ღია შეკითხვა უზრუნველყო. ივნისში გადაწყვეტილება წარმოადგინეს საბჭოს, რომელიც მცირე ცვლილებების შემოთავაზებით პასუხობდა. ივლისში საოპერაციო ტესტებმა აჩვენა, რომ გაყიდვებმა დაიწყო გაუმჯობესება, ხოლო სექტემბრის ბოლოს საბოლოო ვერსია დაინერგა ბაზარზე.",
+      "events": [
+        "Ils ont lancé le développement d'un nouveau prospectus en début d'année en réponse aux besoins du marché.",
+        "Jusqu'en mai, le projet est resté au stade conceptuel avec plusieurs questions en suspens.",
+        "En juin, le conseil a proposé des modifications mineures au concept présenté.",
+        "En juillet, des tests opérationnels ont montré une amélioration des ventes.",
+        "Fin septembre, la version finale a été lancée sur le marché."
+      ],
+      "explanation": "Les étapes suivent le calendrier du développement: lancement, stade conceptuel, retours du conseil, tests opérationnels, puis déploiement final."
+    },
+    {
+      "id": "comprehension_order-c2-gen-024",
+      "title": "საზოგადოებრივი ფორმა და რეაქცია",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 24,
+      "text": "რიგი შეხვედრების შემდეგ ქალაქის საბჭომ ახალი საზოგადოებრივი ფორმა დააწესა, რომლის მიზანი სივრცის რეაბილიტაცია იყო. პირველი სამუშაო დღეებში ადგილობრივებმა უხუცესების პოტენციალი გაამართლეს და მოხალისეთა ჯგუფი მოიყვანეს. ერთ თვეში შეხვდნენ პირველ საკონსულტაციო ფორუმს, სადაც მოქალაქეების ძირითად შენიშვნებზე დაფიქრდნენ. განხორციელების დაწყებიდან სამი კვირის შემდეგ მცირე ინფრასტრუქტურული ცვლილებები თვალსაჩინოდ იქნა აღქმული და პოლიტიკოსებმა დადებითი შეფასებები მიიღეს.",
+      "events": [
+        "Le conseil municipal a instauré une nouvelle procédure pour la réhabilitation d'espaces publics.",
+        "Aux premiers jours, les habitants ont mobilisé des bénévoles en valorisant l'expérience des aînés.",
+        "Un mois plus tard, un forum consultatif a réuni les citoyens pour discuter des remarques principales.",
+        "Trois semaines après le début de la mise en œuvre, des changements infrastructurels visibles ont été perçus.",
+        "Les responsables politiques ont reçu des évaluations positives suite aux améliorations observées."
+      ],
+      "explanation": "Ordre logique du processus municipal: décision, mobilisation locale, consultation, mise en œuvre, puis perception publique et retour politique."
+    },
+    {
+      "id": "comprehension_order-c2-gen-025",
+      "title": "ხშირი სავარჯიშოები და შედეგები",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 25,
+      "text": "მარიანას ვარჯიშის გეგმა სამ თვეში ისევ გადაიმუშავა ვარჯიშის მწვრთნელმა, რადგან პირველი ორი კვირის შედეგები არ დააკმაყოფილა მიზნიან მაჩვენებელს. შემდეგი ერთი თვის ინტენსიური სესიები მოიცავდა მრავალფეროვან ამოცანებს და კვების რეჟიმის რეგულაციას. პირველ შედეგებს მან მესამე თვის დასაწყისში შენიშნა: მოიმატა გემოვნების გამძლეობა და ფიზიკური სიმძლავრე. საბოლოოდ, როცა ნახევარი წლის შემდეგ მისმა აქტივობამ რუტინულადვე განვითარდა, მან პრეტენცია ახალი მიზნების მიმართ დააყენა.",
+      "events": [
+        "Le coach a révisé le plan d'entraînement de Mariana après deux semaines de résultats insatisfaisants.",
+        "Le mois suivant, elle a suivi des sessions intensives variées et un régime alimentaire régulé.",
+        "Au début du troisième mois, les premiers progrès (endurance et force) sont apparus.",
+        "Six mois plus tard, ses activités étant devenues routinières, elle a fixé de nouveaux objectifs."
+      ],
+      "explanation": "Séquence temporelle: révision initiale, intensification, premiers progrès, puis consolidation menant à de nouveaux objectifs."
+    },
+    {
+      "id": "comprehension_order-c2-gen-026",
+      "title": "თხრობის მტკიცებულება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 26,
+      "text": "დოკუმენტის აღმოჩენის შემდეგ არქეოლოგებმა ორი დღით ინტენსიური სამუშაო წამოიწყეს, რათა პირველადი ჩანაწერები დაეფიქსირებინათ. პირველივე დღეს მათ რამდენიმე ფრაგმენტი დაასახელეს, ხოლო მეორე დღეს ცალკეული მაღალვოლტაჟი სტრუქტურების ნაშთები იპოვეს. მოდელირების მეშვეობით, ორივე აღმოჩენის ასაკი შესწავლილ იქნა და პირველი დასკვნები გამოიტანეს ამ ადგილის მნიშვნელობაზე. გაზაფხულამდე დაგეგმილმა კვლევამ დამატებითი დასკვნები დაადასტურა, რის შემდეგაც კვლევა ფართომასშტაბიანი პროექტის ნაწილად იქნა ჩათვლილი.",
+      "events": [
+        "Après la découverte du document, les archéologues ont entamé deux jours de travail intensif pour enregistrer les premiers éléments.",
+        "Le premier jour, ils ont identifié plusieurs fragments.",
+        "Le deuxième jour, ils ont trouvé des vestiges de structures de grande envergure.",
+        "La datation par modélisation a permis de tirer des premières conclusions sur l'importance du site.",
+        "Les recherches jusqu'au printemps ont confirmé des conclusions supplémentaires, intégrant l'étude à un projet plus vaste."
+      ],
+      "explanation": "Ordre conforme à l'enquête archéologique: découverte, enregistrement, trouvailles successives, datation et conclusions, puis extension du projet."
+    },
+    {
+      "id": "comprehension_order-c2-gen-027",
+      "title": "სადილი და დისკუსია",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 27,
+      "text": "ჩვენი მეგობრების ჯგუფმა ახალ რესტორანში დაბარება გადაწყვიტა მუშაობის დღის ბოლოს. შეკრებაზე პირველი მოვიდნენ სამი ადამიანი, მალევე სხვებიც შემოგვიერთდნენ და მაგიდაზე სხვადასხვა კერძები დადგეს. შუა საღამოს იხმეს შეფ-მზარეული და სტუმრებისთვის ახსნა-განმარტება მოესმა შემადგენლობის შესახებ. მარწმუნებელმა დილის საათებში დაასრულა შეკრება, როდესაც ჯგუფმა ხანგრძლივი, გულწრფელი დისკუსია გამართა მომავლის გეგმებზე.",
+      "events": [
+        "Ils ont réservé un nouveau restaurant pour se retrouver après une journée de travail.",
+        "Trois personnes sont arrivées en premier, puis le reste du groupe a rejoint et divers plats ont été servis.",
+        "Au milieu de la soirée, le chef est venu expliquer la composition des plats aux convives.",
+        "La réunion s'est terminée aux premières heures du matin après une longue discussion sincère sur les projets futurs."
+      ],
+      "explanation": "Déroulement naturel d'une sortie: réservation, arrivée et service, intervention du chef, puis prolongement nocturne en discussion."
+    },
+    {
+      "id": "comprehension_order-c2-gen-028",
+      "title": "პროექტის შეჩერება და ახალი სტარტი",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 28,
+      "text": "როდესაც გადახურვის სამუშაოები ნორმალურად მიმდინარეობდა, უცებ ფინანსურმა შეფერხებებმა პროექტი ერთი კვირით შეაჩერა. ამ დროის განმავლობაში გუნდი სტრატეგიულ გეგმებზე იმუშავა და ალტერნატიული ბიუჯეტის ვარიანტები გააკეთა. შეჩერებიდან შემდეგი შაბათისთვის ფინანსური უზრუნველყოფა აღდგა და სამუშაოები მყისიერად განახლდა. ოთხი კვირის განმავლობაში გაჩერებული გზები კვლავ დასრულდა და პროექტი საბოლოოდ დაჯავშნა სამუშაო გეგმის დაუსრულებლად.",
+      "events": [
+        "Les travaux d'étanchéité ont été brusquement arrêtés pendant une semaine à cause de problèmes financiers.",
+        "Pendant l'arrêt, l'équipe a travaillé sur des plans stratégiques et des variantes budgétaires.",
+        "Pour le samedi suivant, le financement a été rétabli et les travaux ont repris immédiatement.",
+        "En quatre semaines, les chemins suspendus ont été achevés et le projet a été confirmé comme poursuivi."
+      ],
+      "explanation": "Chronologie: arrêt dû à un problème, période de planification, rétablissement du financement et reprise des travaux, aboutissement en plusieurs semaines."
+    },
+    {
+      "id": "comprehension_order-c2-gen-029",
+      "title": "ბაღის ახალი ფორმები",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 29,
+      "text": "გაზაფხულზე სკოლამ ბაღის განახლების პროექტი გამოაცხადა და მშობლებს გეგმაში მონაწილეობა შესთავაზა. პირველ შეხვედრაზე იდეები შეგროვდა, შემდეგ მოხალისეები განაწილდნენ კონკრეტულ დავალებებზე. ორი კვირის მუშაობის შემდეგ პატარა ნარგავები და საატრაქციო ელემენტები ჩავაყენეთ, რის გამოც ბავშვების სიცილი უფრო მკვეთრად მოისმინდა. სეზონის ბოლოს ღონისძიებაზე მშობლები და მასწავლებლები ერთმანეთს მადლობას უხდიდნენ, აღფრთოვანებულნი გარემოს ცვლილებით.",
+      "events": [
+        "Au printemps, l'école a lancé un projet de rénovation du jardin et invité les parents à participer.",
+        "Lors de la première réunion, des idées ont été collectées et les bénévoles répartis sur des tâches spécifiques.",
+        "Après deux semaines de travail, de petits massifs et des éléments ludiques ont été installés, augmentant les rires des enfants.",
+        "À la fin de la saison, lors d'un événement, parents et enseignants ont remercié mutuellement, impressionnés par le changement."
+      ],
+      "explanation": "Ordre logique: annonce du projet, réunion et répartition, travaux et effet sur les enfants, puis événement de clôture et remerciements."
+    },
+    {
+      "id": "comprehension_order-c2-gen-030",
+      "title": "სოლიდარული ქველმოქმედება",
+      "level_name": "C2",
+      "cefr": "C2",
+      "version": 30,
+      "text": "ზამთრის პირველ თვეებში მათ საწვავის საყიდლოდ მეტი საჭიროება აღმოაჩინეს და გადაწყვიტეს საქველმოქმედო შიდა აქცია დაეწყოთ. სწრაფად მოეწონათ ბაზრის ერთი ნაწილი და შემდეგი კვირისთვის საკრედიტო კამპანია დაიწყეს. ორი კვირის თავზე მოგროვდა საკმარისი თანხა, რის საფუძველზეც მათ პირველ ჩარიცხვებს აბსოლუტურად მოწყვლადი ოჯახებისთვის განახორციელეს. თვეში შეყვანის შემდეგ მათ ხალხის მადლიერების წერილები მიიღეს და გადაწყვიტეს კამპანია რეგულარულად გაეგრძელებინათ.",
+      "events": [
+        "Ils ont constaté en début d'hiver un besoin accru de carburant et lancé une collecte de charité locale.",
+        "En une semaine, la campagne de financement a démarré sur un segment de marché ciblé.",
+        "Au bout de deux semaines, suffisamment d'argent a été recueilli pour effectuer les premiers versements aux familles vulnérables.",
+        "Après un mois, ils ont reçu des lettres de gratitude et ont décidé de prolonger la campagne régulièrement."
+      ],
+      "explanation": "Séquence causale et temporelle: identification du besoin, lancement de la collecte, premier financement distribué, puis retour et décision de continuité."
+    },
+    {
+      "id": "comprehension_order-c2-gen-031",
+      "title": "ბიბლიოთეკიდან დაწყებული მითითებები",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 31,
+      "text": "ბიბლიოთეკაში შესვლამდე დავტოვე ჩემივე ჩანთა მანქანის სეიფში. მაშინვე, როგორაც შევედი, ბიბლიოთეკის მიმღები მიუახლოვდა და გამომკითხა სახელ-გვარი. რამდენიმე წუთში დავჯექი ფანჯრის გვერდითა მაგიდასთან და ვკითხულობდი წყაროებს იმისთვის, რომ შემდეგ ლექციაზე გამეხსნა ძირითადი არგუმენტები. საღამოს, გამოდიოდე დრო, შევატყე რომ ჭერი ჩამქრალიყო და ბიბლიოთეკის თანამშრომელი მთელს შენობას ასხივებდა; საბოლოოდ, გამოვედი და სეიფში დარჩენილი ჩანთა ავტომატურად გამეღო, რამაც მაოცა.",
+      "events": [
+        "Le narrateur a laissé son sac dans le coffre de la voiture avant d'entrer à la bibliothèque.",
+        "À l'entrée, l'agent de la bibliothèque a demandé son nom.",
+        "Il s'est installé près de la fenêtre et a consulté des sources pour préparer une conférence.",
+        "Vers la fin de la journée, il a remarqué que l'éclairage général changeait à l'intérieur.",
+        "En sortant, il a trouvé que le coffre s'était ouvert automatiquement et son sac était accessible."
+      ],
+      "explanation": "L'ordre suit la chronologie explicite du récit : dépôt du sac avant l'entrée, interaction à l'accueil, lecture, changement d'éclairage en fin de journée, puis sortie et constat du coffre ouvert."
+    },
+    {
+      "id": "comprehension_order-c2-gen-032",
+      "title": "უკანასკნელი მიმოხილვა და სატესტო შედეგები",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 32,
+      "text": "დღის დაწყებისას გავხსენი ჩემი წერილები და დავინახე მოწვევა კოლეგებისგან დილის განხილვისთვის. განხილვამდე ვსწავლობდი განაცხადს და შევიმუშავე ძირითადი შენიშვნები. პანელში შეხვედრა დაიწყო წესისამებრ; შევაფასე სხვა მოხსენებების არგუმენტები და გამოვთქვი ჩემი შეხედულება. შეხვედრის დასრულების შემდეგ მივიღე ელექტრონული ფოსტით ტესტის შედეგები, სადაც იყო როგორც დადებითი, ისე უარყოფითი შეფასებები; ამის შემდეგ გადავსვი შენიშვნები და დავგეგმე შემდგომი ნაბიჯები.",
+      "events": [
+        "Il a reçu une convocation pour une réunion matinale.",
+        "Avant la réunion, il a révisé le dossier et préparé des notes.",
+        "La réunion a eu lieu, il a écouté les interventions et exprimé son point de vue.",
+        "Après la réunion, il a reçu par mail les résultats d'un test avec des commentaires mixtes.",
+        "Il a noté les retours et planifié les étapes suivantes."
+      ],
+      "explanation": "Les étapes suivent la succession indiquée dans le texte : convocation, préparation avant la réunion, déroulement de la réunion, réception des résultats après, puis prise de décision sur la base des retours."
+    },
+    {
+      "id": "comprehension_order-c2-gen-033",
+      "title": "მუზეუმის ღამის ინციდენტი",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 33,
+      "text": "ღამის პირველი ნახევრიდან ადრე მივედი მუზეუმში სპეციალური ღამის დათვალიერების საფონდთან. ხელმძღვანელმა მიმიღო მოკლე შეხვედრით და გამიღწია პირად უსაფრთხოების წესები, შემდეგ გვასწავლეს, როგორ შეიძლება შეიცვალოს გამოფენა დღეში. საწყის ეტაპზე მე და ჯგუფმა დავინახეთ თანამედროვე ინსტალაცია, რომელიც ხან შუქით, ხან ხმაურით რეაგირებდა. შუა ღამეს ვინმე ჯგუფიდან აღშფოთდა და გამოიძახა ექსპერტი, რომელიც დილით მოაწესრიგა ტექნიკურ გაუმართაობას. ბოლოს, როცა ღამე მოახლოვდა, ყველა ერთად გამოვედით საგუშაგოდ და მიმიღეს მოკლე კომენტარები.",
+      "events": [
+        "Il est arrivé tôt au musée pour une visite nocturne.",
+        "Le responsable lui a expliqué les règles de sécurité et le fonctionnement des expositions.",
+        "Le groupe a observé une installation réactive alternant lumière et son.",
+        "Un membre du groupe a signalé un problème au milieu de la nuit, et un expert est intervenu pour corriger la panne.",
+        "À la fin de la nuit, ils sont sortis et ont reçu des commentaires de clôture."
+      ],
+      "explanation": "L'ordre respecte la progression temporelle du récit : arrivée et briefing, observation de l'installation, incident signalé pendant la nuit, intervention de l'expert, puis clôture et sortie."
+    },
+    {
+      "id": "comprehension_order-c2-gen-034",
+      "title": "რესტავრაციის პროცესი",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 34,
+      "text": "პირველ დღეს შევამჩნიე იმ ხის სკამის ანდაცხე დაზიანებები და გადავლახეთ მნიშვნელობები რესტავრაციის გეგმაზე. მეორე დღეს შემოვიდა სპეციალური ხის მომზადებული ტაფა, რომლის მეშვეობითაც მოიხსნებოდა კლებადი ნაწილი. მესამე დღეს კი კონსერვატორმა დაიწყო ნაშრომს უკეთესობისკენ და გადაახვია დაზიანებული ელემენტები. პროექტის ბოლო ეტაპზე, როცა ყველაფერი გაწმენდა და დაფიქსირდა, ჩვენ აღვნიშნეთ წინასაანგარიშო შედეგები და გადავწყვიტეთ ხმის ჩაწერისათვის მცირე გამოსვლა მომდევნო კვირაში.",
+      "events": [
+        "Le premier jour, il a constaté les dégâts sur la chaise et établi le plan de restauration.",
+        "Le deuxième jour, des pièces en bois préparées sont arrivées pour remplacer les parties détériorées.",
+        "Le troisième jour, le conservateur a commencé la restauration proprement dite.",
+        "À la fin du projet, tout a été nettoyé et fixé, puis ils ont noté les résultats préliminaires et planifié une présentation la semaine suivante."
+      ],
+      "explanation": "L'enchaînement suit les jours mentionnés : inspection et plan, réception des pièces, intervention du conservateur, puis nettoyage final et planification d'une présentation."
+    },
+    {
+      "id": "comprehension_order-c2-gen-035",
+      "title": "პერიოდული ექსპერიმენტი",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 35,
+      "text": "გამოძიება დაიწყო შეჯიბრის ფორმულაზე ხელმოწერით და პროექტის სათაგანების განსაზღვრით. შემდეგ კვირაში დაფუძნებული გუნდი გადაინაცვლა ლაბორატორიის სააღჭურვოდ; სამი დღე საჭირო იყო აპარატურის მოწყობაში. ექსპერიმენტის პირველ დღეს ჩვენ შევაგროვე საწყისი მონაცემები და დავდგით კონტროლის პარამეტრები. მესამე წუთში კი, დემონსტრაციისას, აღმოჩნდა არასწორი სენსორი, რის შემდეგაც შეიცვალა მოწყობილობა და ექსპერიმენტი განმეორდა; ბოლოს მონაცემები განლაგდა ანგარიშში.",
+      "events": [
+        "Ils ont signé le protocole et défini les objectifs du projet.",
+        "La semaine suivante, l'équipe a installé l'équipement en laboratoire, ce qui a pris trois jours.",
+        "Le premier jour de l'expérience, ils ont collecté les données initiales et fixé les paramètres de contrôle.",
+        "Pendant la démonstration, un capteur défectueux a été détecté, remplacé, puis l'expérience a été relancée.",
+        "Enfin, les données ont été compilées dans le rapport."
+      ],
+      "explanation": "L'ordre suit la succession logique: planification, installation, collecte initiale, incident technique et remplacement, puis compilation finale des données."
+    },
+    {
+      "id": "comprehension_order-c2-gen-036",
+      "title": "სახლის გადატანა და უწარმოები სიურპრიზი",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 36,
+      "text": "პირველივე საურთიერთოდ დავიწყე ყუთების ძებნა და განაწილება; ბევრი რომ არ დავიგვიანე, მეგობრები გამეხმარნენ搬. მეორედ, სტაბილურად ტვირთის გადაყვანა დავგეგმეთ და ფურგონი გამოვიძახეთ. გადატანის დღეს ჩვენ დროულად მოვიტანეთ დიდი ავეჯი ახალი ბინაში და მოვაწყვეთ საძინებელი. საღამოს, როგორც კი დავამთავრეთ, აღმოვაჩინეთ ერთი კარადა დაზიანებული და შეიცვალა გადამზიდავის პასუხისმგებლობა; საბოლოოდ პრობლემა მალევე გადაწყდა და დავხუბდით ღამეს.",
+      "events": [
+        "Il a commencé par trier et préparer les cartons, aidé par des amis.",
+        "Ils ont loué un camion pour transporter les meubles.",
+        "Le jour du déménagement, ils ont apporté et installé les meubles principaux dans le nouvel appartement.",
+        "Le soir, ils ont constaté que une armoire était endommagée et ont attribué la responsabilité au déménageur.",
+        "Le problème a été rapidement résolu et ils ont terminé la soirée ensemble."
+      ],
+      "explanation": "Le récit suit la chronologie du déménagement : préparation, location du véhicule, transport et installation, découverte du dommage, puis résolution et conclusion."
+    },
+    {
+      "id": "comprehension_order-c2-gen-037",
+      "title": "საიტზე გამოქვეყნება და გამოხმაურება",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 37,
+      "text": "პროექტი დასრულდა წინა კვირას და ვებ-გვერდზე ატვირთვის დღეს გამოუშვეს ახალი გვერდი. თავდაპირველად ადმინისტრატორი გააკეთა მოკლე კომუნიკაცია სოციალური ქსელებით და კლიენტებს გაუგზავნეს ინფორმაცია. პირველ საათში მივიღეთ კომპლიმენტები, მაგრამ მეორე დღეს გამოჩნდა კრიტიკული შენიშვნა დიზაინის ერთ-ერთ ელემენტზე. ამ საჩივრის დაგვიანების გამო გუნდი დაუყოვნებლივ მოიკრიბა და დღეში შეცვლა შემუშავდა; სამი დღის შემდეგ განახლება ჩატარდა და პასუხები საჯაროდ გამოქვეყნდა.",
+      "events": [
+        "Le projet a été finalisé et la nouvelle page a été mise en ligne.",
+        "L'administrateur a communiqué la sortie via les réseaux sociaux et par e-mail aux clients.",
+        "Les premières heures ont apporté des compliments, mais le lendemain une critique a ciblé un élément de design.",
+        "L'équipe s'est réunie pour concevoir une modification, et trois jours plus tard la mise à jour a été déployée avec des réponses publiques."
+      ],
+      "explanation": "L'ordre suit la succession : mise en ligne, communication initiale, réactions positives puis critique, puis réunion et déploiement de la correction trois jours après."
+    },
+    {
+      "id": "comprehension_order-c2-gen-038",
+      "title": "მოზარდების ჟურნალისტიკური კვლევა",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 38,
+      "text": "პირველ დღეს მე და ჩემი გუნდი შევკრიბეთ კაფეში თემის გასაანალიზებლად და დავყავით როლები ინტერვიუებისათვის. მეორე დღეს გავყავით კითხვები და დავუკავშირდით რესპონდენტებს სატელეფონო ჩართვით. გამოკითხვების შემდეგ, ჩვენ ერთობ გადავამოწმეთ ფაქტები და შევადგინეთ ტექსტის პირველ ვარიანტს. ერთი კვირის შემდეგ გამოსახულებების ავტორი მოგვაკითხა და მოვაწყვეთ განათლების წევრებთან შერჩევა; საბოლოო სტატიამ დაიბეჭდა ჟურნალში ორი კვირის შემდეგ.",
+      "events": [
+        "Ils se sont réunis pour analyser le sujet et répartir les rôles pour les interviews.",
+        "Le lendemain, ils ont préparé les questions et contacté les répondants par téléphone.",
+        "Après les interviews, ils ont vérifié les faits et rédigé une première version du texte.",
+        "Une semaine plus tard, l'auteur des images est intervenu pour sélectionner les visuels avec l'équipe.",
+        "L'article final a été publié dans le magazine deux semaines après."
+      ],
+      "explanation": "La progression est temporelle et explicite : réunion initiale et répartition, contact et interviews, vérification et rédaction, choix des visuels une semaine plus tard, puis publication finale deux semaines après."
+    },
+    {
+      "id": "comprehension_order-c2-gen-039",
+      "title": "ბაღის პროექტი და პირველი მოსავალი",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 39,
+      "text": "პრაქტიკური სამუშაოები დაიწყო გაზაფხულზე, როცა მიწა ამოვწყვდი და დავრგეთ თესლები. მოკლე დროში ჩვენ ვუპოვეთ პირველი ნერგები და მოვუწყვეთ დროებით სარწყავი სისტემა. რამდენიმე კვირაში მცენარეები უფრო გაიზარდნენ და მერტილაობა დაიწყო; მაშინ, როგორც წინასწარი შემოწმებით, აღმოვაჩინეთ ისეთი დაავადება, რომლის წინააღმდეგ სპეციალური დამცავი სპრეი გამოვიყენეთ. ზაფხულის ბოლოს, როცა მოსავლის დრო მოვიდა, პირველი ნაყოფი შეგროვდა და შემდეგ განაწილდა საზოგადოების წევრებს.",
+      "events": [
+        "Ils ont commencé les travaux de jardinage au printemps en préparant le sol et en semant.",
+        "Ils ont repéré les premières pousses et installé un système d'irrigation temporaire.",
+        "Quelques semaines plus tard, les plantes ont poussé davantage et une maladie a été détectée.",
+        "Ils ont traité la maladie avec un spray protecteur.",
+        "À la fin de l'été, ils ont récolté les premiers fruits et les ont distribués aux membres de la communauté."
+      ],
+      "explanation": "L'enchaînement suit les saisons et étapes du jardinage : semis, apparition des pousses et irrigation, croissance et détection d'une maladie, traitement, puis récolte et distribution."
+    },
+    {
+      "id": "comprehension_order-c2-gen-040",
+      "title": "კონცერტის ორგანიზება შვიდ დღეში",
+      "level_name": "CECRL C2",
+      "cefr": "C2",
+      "version": 40,
+      "text": "შვიდ დღეში უნდა დაგვეკრა კონცერტი, ამიტომ პირველი შეხვედრა მოეწყო ორგანიზატორებთან, რათა განვეჩევით მონაწილეები დაბიუჯეტი. მეორე დღეს გავისაუბრე ვენიუს მენეჯერთან ხელშეკრულების დეტალებზე. მესამე დღეს შემოვიდა პროგრამის დრაფტი და ჩვენ დავამტკიცეთ ძირითადი მომღერლები. კონცერტის წინ უკანასკნელი დღეების განმავლობაში ჩვენ შევამოწმეთ ტექნიკა და სცენა; კონცერტის დღის დილას ხუთმა გამოცანამ მოიყარა მსმენელი და გვქონდა ბრწყინვალე შესრულება, საღამომდე მოაწყვა უკუკავშირი მედიისგან.",
+      "events": [
+        "Ils ont tenu une première réunion pour répartir les participants et établir le budget.",
+        "Le lendemain, il a négocié les détails du contrat avec le responsable du lieu.",
+        "Le troisième jour, le brouillon du programme est arrivé et ils ont confirmé les principaux artistes.",
+        "Pendant les derniers jours avant le concert, ils ont vérifié la technique et la scène.",
+        "Le jour du concert, le public est arrivé et la représentation a été un succès avec des retours médiatiques le soir."
+      ],
+      "explanation": "Le récit suit une préparation sur sept jours : réunion initiale, négociation du lieu, établissement du programme, vérifications techniques finales, puis tenue du concert et retours."
     }
   ]
 }

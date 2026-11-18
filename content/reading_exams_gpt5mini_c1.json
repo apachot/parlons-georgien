@@ -550,6 +550,1656 @@
           "explanation": "Le texte conclut que l'objectif n'est pas seulement améliorer l'accès, mais créer un modèle de partenariat local favorisant la sauvegarde des éléments qui forment la conscience culturelle de la ville."
         }
       ]
+    },
+    {
+      "id": "reading_exams-c1-gen-013",
+      "title": "Transformations urbaines et mémoire",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 13,
+      "text": "ქალაქის არქიტექტურა დროთა განმავლობაში არა მხოლოდ ფუნქციების, არამედ კოლექტიური მეხსიერების მატარებელიც ხდება. ჩვენს საზოგადოებაში, სადაც ახალი ნაგებობების აღება ხშირად მყისიერი აღფრთოვანებით ხორციელდება, ისტორიული ფენების შენახვა ხშირად მეორეხარისხოვან საკითხად გვევლინება. ძველი უბნების რეფარბრიკაცია — ქუჩის მოპირკეთება, ფასადების მოდერნიზაცია, მაღაზიებისა და კაფეების გამოჩენა — ქმნის იმ ილუზიას, რომ ადგილი „განახლდა“, თუმცა ამის შედეგად ხშირად უკვალოთ ქრება ფორმები, რომლებიც ადგილობრივებს იდენტობას ჰქმნიდა. სხვა ქალაქებში, განსხვავებულ მიდგომებს იყენებენ: შენარჩუნების პროექტები ეძებენ გზებს, როგორ შეუთავსონ უმნიშვნელოვანესი ისტორიული ელემენტები თანამედროვეობასთან, რომ კომერციული სტიმულებსა და ადამიანების მოთხოვნილებებს შორის ჰარმონია დაისადგუროს. შემოქმედებითი ადაპტაციები — მაგალითად, ძველ სახლებში კულტურული ცენტრების გახსნა — შესაძლოა მნიშვნელოვნად გაზარდოს როგორც სივრცის სენსორული განწყობა, ისე ეკონომიკური ცოცხალიობა. საბოლოო არჩევანი, როგორც წესი, პოლიტიკურ და ეკონომიკურ კონტრასტებზე დაყრდნობით მიიღება, მაგრამ ქალაქის მდგრადი განვითარებისთვის ცალკეული საზოგადოების წარმოდგენის და მეხსიერების ასახვა აუცილებელია.",
+      "translation": "L'architecture urbaine devient au fil du temps non seulement un instrument fonctionnel mais aussi le dépositaire d'une mémoire collective. Dans nos sociétés, où l'édification de nouveaux bâtiments suscite souvent une admiration immédiate, la conservation des couches historiques apparaît fréquemment comme secondaire. La requalification des vieux quartiers — la rénovation des rues, la modernisation des façades, l'apparition de boutiques et de cafés — crée l'illusion d'un « renouveau » du lieu, mais cela efface souvent sans laisser de traces les formes qui forgeaient l'identité des habitants. Dans d'autres villes, on adopte des approches différentes : les projets de conservation cherchent à concilier les éléments historiques essentiels avec la contemporanéité, afin d'établir une harmonie entre les stimulis commerciaux et les besoins des personnes. Les adaptations créatives — par exemple, la transformation de vieilles maisons en centres culturels — peuvent augmenter significativement à la fois la perception sensorielle de l'espace et sa vitalité économique. Le choix final repose généralement sur des contrastes politiques et économiques, mais pour un développement urbain durable, il est indispensable de refléter la représentation et la mémoire des communautés locales.",
+      "questions": [
+        {
+          "question": "Quel est l'effet principal de la « requalification » des vieux quartiers tel que décrit dans le texte ?",
+          "options": [
+            "Elle renforce automatiquement l'identité historique des habitants.",
+            "Elle crée l'illusion de renouveau tout en effaçant des formes identitaires.",
+            "Elle diminue l'activité commerciale locale.",
+            "Elle conduit à la fermeture des projets culturels."
+          ],
+          "answer": "Elle crée l'illusion de renouveau tout en effaçant des formes identitaires.",
+          "explanation": "Le texte souligne que la modernisation donne l'impression de renouveau, mais fait souvent disparaître des éléments qui formaient l'identité des résidents."
+        },
+        {
+          "question": "Quelle stratégie alternative est proposée pour concilier histoire et modernité ?",
+          "options": [
+            "Remplacer systématiquement les façades anciennes par des façades modernes.",
+            "Transformer tous les espaces commerciaux en logements privés.",
+            "Développer des projets de conservation qui intègrent les éléments historiques.",
+            "Interdire toute intervention architecturale dans les centres-villes."
+          ],
+          "answer": "Développer des projets de conservation qui intègrent les éléments historiques.",
+          "explanation": "Le texte mentionne que dans d'autres villes, on recherche des projets de conservation visant à combiner éléments historiques et contemporanéité."
+        },
+        {
+          "question": "Quel exemple concret d'adaptation créative est donné dans le texte ?",
+          "options": [
+            "La construction d'un centre commercial sur une place historique.",
+            "La transformation de vieilles maisons en centres culturels.",
+            "La démolition des bâtiments vétustes pour des gratte-ciel.",
+            "La piétonnisation complète des quartiers périphériques."
+          ],
+          "answer": "La transformation de vieilles maisons en centres culturels.",
+          "explanation": "L'auteur cite explicitement l'exemple de convertir d'anciennes maisons en centres culturels comme adaptation créative bénéfique."
+        },
+        {
+          "question": "Selon l'auteur, qu'est-ce qui conditionne souvent le choix final en matière d'aménagement urbain ?",
+          "options": [
+            "Les seules préférences des architectes locaux.",
+            "Les contrastes politiques et économiques.",
+            "Le climat et les ressources naturelles uniquement.",
+            "Les traditions culinaires de la région."
+          ],
+          "answer": "Les contrastes politiques et économiques.",
+          "explanation": "Le passage indique que le choix final dépend généralement des contrastes politiques et économiques, même si la représentation des communautés reste nécessaire."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-014",
+      "title": "Vignobles, climat et tradition",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 14,
+      "text": "ქართული ღვინის კულტურა საუკუნეთა მანძილზე განვითარდა როგორც ლოკალური ტრადიცია და ასევე ეროვნული სიმბოლო. თუმცა უკანასკნელი სამოცდაათი წლის განმავლობაში კლიმატის ცვალებადობამ და გლობალურ ეკონომიკურ მოთხოვნამ ვენახების განწყობის შეცვლა დაავალდებულა: გამთბარი ზაფხულები, მოსალოდნელი ნალექის ცვლილებები და ახალი მავნებლების გავრცელება მანამ უცნობი გამოწვევების წინაშე დააყენა მეღვინეებს. გარკვეულმა რეგიონებმა შეძლეს ადაპტაცია — სხვადასხვა ჯიშის ტრადიციული დივერსიფიკაცია, წყლის უფრო ეფექტური მართვა, ჩრდილების გამოყენება და ტექნოლოგიური ინტეგრაცია მიწის პროცესების კონტროლისთვის. მაგრამ წარმოდგენის ნარატივში არსებობს დაპირისპირება: ერთ-ერთ მხარესაა ამპარტავნად მოისმენელი არგუმენტი, რომ ყველა ცვლილების უპირველესი პასუხი ინოვაციაა; მეორეს მხარეს დგას არგუმენტი, რომ კულტურული და გენეტიკური მრავალფეროვნება უნდა შენარჩუნდეს მოახლოებული საფრთხის მიუხედავად. სტრატეგიული მოდელები, რომლებიც აერთიანებს సంపრომებულ გამოცდილებასა და თანამედროვე მეცნიერებას, შესაძლოა ყველაზე მდგრადი გამოსავალი იყოს, რადგან ისინი ამყარებენ რაციონალური რესურსუწყვეტი მართვას და ამავე დროს პატივს სცემენ ტრადიციულ ცოდნას.",
+      "translation": "La culture du vin géorgien s'est développée au fil des siècles à la fois comme tradition locale et symbole national. Cependant, au cours des trente dernières années, les variations climatiques et la demande économique mondiale ont obligé les vignobles à modifier leurs pratiques : étés plus chauds, modifications attendues des précipitations et propagation de nouveaux ravageurs ont confronté les vignerons à des défis inconnus jusqu'alors. Certaines régions ont su s'adapter — diversification des cépages au-delà des variétés traditionnelles, gestion de l'eau plus efficace, utilisation d'ombrages et intégration technologique pour contrôler les processus du sol. Mais le récit dominant comporte une opposition : d'un côté l'argument affirmant que toute réponse prioritaire doit être l'innovation ; de l'autre, l'idée que la diversité culturelle et génétique doit être préservée malgré la menace. Les modèles stratégiques qui combinent l'expérience accumulée et la science contemporaine peuvent constituer la solution la plus durable, car ils établissent une gestion rationnelle et continue des ressources tout en respectant le savoir traditionnel.",
+      "questions": [
+        {
+          "question": "Quel problème principal ont rencontré les vignerons au cours des trente dernières années ?",
+          "options": [
+            "Une diminution de la demande mondiale de vin géorgien.",
+            "La propagation de nouveaux ravageurs et des variations climatiques.",
+            "La perte totale des cépages traditionnels au profit de cultures industrielles.",
+            "L'interdiction de l'irrigation par des lois internationales."
+          ],
+          "answer": "La propagation de nouveaux ravageurs et des variations climatiques.",
+          "explanation": "Le texte précise que étés plus chauds, changements de précipitations et nouveaux ravageurs ont posé des défis aux vignerons."
+        },
+        {
+          "question": "Quelle stratégie n'est PAS mentionnée comme adaptation possible ?",
+          "options": [
+            "Diversification des cépages.",
+            "Gestion plus efficace de l'eau.",
+            "Utilisation d'ombrages et intégration technologique.",
+            "Conversion systématique des vignes en monoculture de blé."
+          ],
+          "answer": "Conversion systématique des vignes en monoculture de blé.",
+          "explanation": "Le texte mentionne diversification, gestion de l'eau, ombrages et technologie ; la conversion en blé n'est pas évoquée."
+        },
+        {
+          "question": "Quelle tension narrative existe concernant la réponse aux changements ?",
+          "options": [
+            "Entre la décision de vendre des terres et la décision de nationaliser les vignobles.",
+            "Entre l'innovation comme réponse prioritaire et la conservation de la diversité culturelle et génétique.",
+            "Entre la production de vin blanc et la production de spiritueux.",
+            "Entre l'exportation vers l'Asie et la concentration sur le marché local."
+          ],
+          "answer": "Entre l'innovation comme réponse prioritaire et la conservation de la diversité culturelle et génétique.",
+          "explanation": "Le texte oppose explicitement l'argument pro-innovation à celui prônant la préservation de la diversité culturelle et génétique."
+        },
+        {
+          "question": "Pourquoi l'auteur considère-t-il que les modèles combinant expérience et science sont prometteurs ?",
+          "options": [
+            "Parce qu'ils favorisent uniquement l'industrialisation intensive.",
+            "Parce qu'ils permettent une gestion rationnelle des ressources tout en respectant le savoir traditionnel.",
+            "Parce qu'ils éliminent le besoin de connaissances locales.",
+            "Parce qu'ils encouragent l'abandon des cépages autochtones."
+          ],
+          "answer": "Parce qu'ils permettent une gestion rationnelle des ressources tout en respectant le savoir traditionnel.",
+          "explanation": "Le passage indique que ces modèles établissent une gestion rationnelle et continue des ressources tout en respectant le savoir traditionnel, d'où leur durabilité."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-011",
+      "title": "რეკონსტრუქცია და საცხოვრებელი მეხსიერება",
+      "level_name": "CEFR C1",
+      "cefr": "C1",
+      "version": 11,
+      "text": "ბოლო წლების განმავლობაში თბილისის რამდენიმე ძველი რაიონი გამოირჩევა ინტენსიური რეკონსტრუქციით, რაც აშკარად ასახავს ქართველი ელიტის ქალაქურ ხედვას. ქუჩების მოწესრიგება, მიწის ქვეშა პარკინგები და მინიმალისტური არქიტექტურა ახალმოსახლეების მოთხოვნილებებს ემსახურება, თუმცა ადგილობრივებისთვის ხშირად გაუგებარია, როგორ დაიკარგა ყოველდღიური ცხოვრების ის დეტალები, რომლებიც ტერიტორიის იდენტობას ქმნიდნენ. გამოკითხვებმა აჩენა მართალი კითხვა: რა დარჩება ადგილობრივი გამყიდველების, პატარა კაფეების და ნაკლებად ოფიციურ კომუნიკაციების მანკიერ ნამსხვრევებში? მხარეების დისკუსია ხშირად ორი პოლარიზებული დისკურსით მიმდინარეობს — ეკონომიკური ეფექტიანობა და კულტურული გახრწნა — თუმცა რეალობაში ეს ორი ბერკეტი ერთმანეთთანაა გადაჯაჭვული. ურბანული პოლიტიკა, რომელიც მხოლოდ ბაზრების ლოგიკას უჭერს მხარს, შესაძლოა მოკლევადიანად მომგებიანი იყოს, მაგრამ გრძელვადიანად ქალაქის მიმზიდველობასა და შემოქმედებით დინამიკას დააზარალებს. ამიტომ საჭიროა კომპრომისური მექანიზმების ძიება, რომლებიც აღადგენენ საერთო სივრცის მდგრადობას ისე, რომ საკულტურო მეხსიერებაც არ დავკარგოთ.",
+      "translation": "Ces dernières années, plusieurs vieux quartiers de Tbilissi se distinguent par une intense reconstruction, reflétant clairement la vision urbaine d'une élite géorgienne. L'aménagement des rues, les parkings souterrains et l'architecture minimaliste répondent aux besoins des nouveaux habitants, mais pour les résidents locaux, il est souvent incompréhensible comment ont disparu les détails de la vie quotidienne qui faisaient l'identité du lieu. Les sondages ont posé la question pertinente : que restera-t-il des vendeurs de rue, des petits cafés et des communications informelles ? Le débat se déroule souvent selon deux discours polarisés — efficacité économique et dégradation culturelle — mais en réalité ces deux leviers sont imbriqués. Une politique urbaine qui ne soutient que la logique des marchés peut être rentable à court terme, mais à long terme elle nuit à l'attractivité de la ville et à sa dynamique créative. Il faut donc chercher des mécanismes de compromis qui restaurent la durabilité des espaces communs sans perdre la mémoire culturelle.",
+      "questions": [
+        {
+          "question": "Quel problème central l'auteur identifie-t-il dans la reconstruction urbaine de Tbilissi ?",
+          "options": [
+            "La hausse des coûts de construction pour les promoteurs.",
+            "La disparition des éléments de vie quotidienne qui construisaient l'identité locale.",
+            "L'inefficacité des parkings souterrains nouvellement construits.",
+            "Le manque d'espaces verts dans les nouveaux projets."
+          ],
+          "answer": "La disparition des éléments de vie quotidienne qui construisaient l'identité locale.",
+          "explanation": "Le texte souligne que détails comme les vendeurs, petits cafés et communications informelles, qui formaient l'identité du quartier, disparaissent avec la reconstruction."
+        },
+        {
+          "question": "Comment l'auteur décrit-il les discours opposés autour de la rénovation ?",
+          "options": [
+            "Comme un débat entre modernité technologique et nostalgie rurale.",
+            "Comme une opposition entre sécurité publique et liberté individuelle.",
+            "Comme une polarisation entre efficacité économique et dégradation culturelle.",
+            "Comme une lutte entre autorités municipales et organisations internationales."
+          ],
+          "answer": "Comme une polarisation entre efficacité économique et dégradation culturelle.",
+          "explanation": "Le passage mentionne explicitement ces deux pôles — efficacité économique d'une part et crainte de la perte culturelle d'autre part."
+        },
+        {
+          "question": "Quelle conséquence à long terme l'auteur craint-il si la politique urbaine favorise seulement la logique du marché ?",
+          "options": [
+            "Un accroissement de la pollution atmosphérique.",
+            "Une baisse des investissements étrangers.",
+            "Une perte d'attractivité de la ville et de sa dynamique créative.",
+            "Une augmentation des impôts locaux pour les résidents."
+          ],
+          "answer": "Une perte d'attractivité de la ville et de sa dynamique créative.",
+          "explanation": "L'auteur affirme que soutenir uniquement la logique du marché peut être rentable à court terme mais endommager l'attractivité et la dynamique créative à long terme."
+        },
+        {
+          "question": "Quelle solution l'auteur propose face au conflit entre marché et mémoire culturelle ?",
+          "options": [
+            "Imposer des limites strictes aux investissements privés.",
+            "Déplacer les communautés locales vers des banlieues planifiées.",
+            "Chercher des mécanismes de compromis pour maintenir la durabilité et la mémoire culturelle.",
+            "Privatiser complètement les espaces publics pour assurer l'entretien."
+          ],
+          "answer": "Chercher des mécanismes de compromis pour maintenir la durabilité et la mémoire culturelle.",
+          "explanation": "Le texte conclut en appelant à des compromis qui assurent la durabilité des espaces communs sans perdre la mémoire culturelle."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-012",
+      "title": "პოლიფონიური სიმღერა: რენესანსი და პოლემიკა",
+      "level_name": "CEFR C1",
+      "cefr": "C1",
+      "version": 12,
+      "text": "ქართული პოლიფონიური თვითმყოფადობები ბოლო დროს მიყენდა renaissance-ს, როცა ახალგაზრდებმა და გამოფენებმა აღადგინეს ადგილობრივი ტრადიციები არა როგორც მუზეუმური ექსპონატები, არამედ როგორც ცოცხალი, კრიზისზე მოსმარჯვე პრაქტიკა. კონცერტები და ინტერნეტ კამპანიები წარმართეს საერთაშორისო აღიარების მისაღებად, რაც ზოგიერთ რეგიონში ტურიზმის ზრდითაც დასრულდა. ამასთანავე არ აკლია კრიტიკა: ზოგი თვლის, რომ კულტურული პროდუქტის მარკეტიზაციამ შესაძლოა დააზიანოს საპრაქტიკო მნიშვნელობასა და ლირიკულ გულწრფელობაში არსებულ მინიფსიქოლოგიურ თავისებურებებს. მეორეს მხრივ, ტრადიციის დინამიკაში ჩაერთო მომღერლების თვითშემოქმედება — ახალი ჰარმონიები, არაორდინალური ინსტრუმენტირება და სცენური ექსპერიმენტები, რაც უფრო რთულ ეთიკურ და ეგზისტენციურ კითხვებს აბადებს: როგორ შეინარჩუნონ ავტენტურობა და როგორ შეასრულონ ტრანსფორმაცია მწარმოებლური კულტურის მოთხოვნების ფონზე? ამ დილემის მოგვარება ბევრ სტუდიაში მიმდინარეობს კოლაბორაციული მუშაობით — ეთნომუსიკოსების, საზოგადოების წარმომადგენლების და კულტურული მენეჯერთა მონაწილეობით — რათა განსაზღვრონ თანამშრომლობის ნორმები და შემოქმედებითი საზღვრები.",
+      "translation": "Les singularités de la polyphonie géorgienne connaissent récemment une sorte de renaissance, lorsque les jeunes et les manifestations ont restauré les traditions locales non comme des objets de musée, mais comme des pratiques vivantes et résilientes. Des concerts et des campagnes en ligne ont été organisés pour obtenir une reconnaissance internationale, ce qui a entraîné une augmentation du tourisme dans certaines régions. Cependant, les critiques ne manquent pas : certains estiment que la marchandisation du produit culturel peut nuire à sa portée pratique et aux particularités psychologiques et lyriques de sa sincérité. D'un autre côté, la dynamique de la tradition a intégré l'auto-création des chanteurs — nouvelles harmonies, instrumentation non conventionnelle et expériences scéniques — ce qui soulève des questions éthiques et existentielles complexes : comment préserver l'authenticité et en même temps se transformer face aux exigences d'une culture productive ? La résolution de ce dilemme se mène dans de nombreux studios par un travail collaboratif — impliquant ethnomusiciens, représentants de la communauté et managers culturels — afin de définir des normes de coopération et des limites créatives.",
+      "questions": [
+        {
+          "question": "Quelle est la nature principale de la 'renaissance' mentionnée dans le texte ?",
+          "options": [
+            "Un redécouverte académique des partitions anciennes.",
+            "La restauration des traditions comme pratiques vivantes, par les jeunes et les manifestations.",
+            "La transformation des polyphonies en musique électronique.",
+            "L'urbanisation des espaces de chant traditionnels."
+          ],
+          "answer": "La restauration des traditions comme pratiques vivantes, par les jeunes et les manifestations.",
+          "explanation": "Le texte insiste sur le fait que les traditions ont été réappropriées par les jeunes et les événements comme pratiques vivantes, et non comme objets de musée."
+        },
+        {
+          "question": "Quel effet indirect la renaissance a-t-elle provoqué dans certaines régions ?",
+          "options": [
+            "La fermeture des studios de musique locaux.",
+            "Une hausse du tourisme.",
+            "La diminution de l'enseignement scolaire de la musique.",
+            "L'exode des musiciens vers la capitale."
+          ],
+          "answer": "Une hausse du tourisme.",
+          "explanation": "Le texte indique que les concerts et campagnes ont mené, dans certaines régions, à une augmentation du tourisme."
+        },
+        {
+          "question": "Quelle inquiétude expriment les critiques vis-à-vis de la valorisation commerciale de la musique traditionnelle ?",
+          "options": [
+            "Qu'elle réduise la durée des concerts.",
+            "Qu'elle pousse les musiciens à s'exiler.",
+            "Qu'elle altère la sincérité lyrique et la portée pratique de la tradition.",
+            "Qu'elle entraîne une baisse des subventions publiques."
+          ],
+          "answer": "Qu'elle altère la sincérité lyrique et la portée pratique de la tradition.",
+          "explanation": "Les critiques craignent que la marchandisation nuise à la sincérité lyrique et à la valeur pratique de la tradition, comme l'explique le texte."
+        },
+        {
+          "question": "Comment le texte décrit-il l'approche pour résoudre le dilemme entre authenticité et transformation ?",
+          "options": [
+            "Par des lois imposant des règles strictes aux artistes.",
+            "Par un retrait complet du marché afin de préserver l'authenticité.",
+            "Par un travail collaboratif en studio impliquant ethnomusiciens, communautés et managers.",
+            "Par une compétition internationale pour standardiser la pratique."
+          ],
+          "answer": "Par un travail collaboratif en studio impliquant ethnomusiciens, communautés et managers.",
+          "explanation": "Le texte conclut que de nombreux studios cherchent une solution via la collaboration entre ethnomusiciens, représentants communautaires et gestionnaires culturels pour définir des normes et limites créatives."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-017",
+      "title": "მცოცავი ქალაქი და ისტორიული მემკვიდრეობა",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 17,
+      "text": "თბილისის ბოლო ორი დეკადის განმავლობაში მომხდარმა ურბანულმა ცვლილებებმა არა მარტო გეგმარებას შეუცვალა მიმართულება, არამედ მოსახლეობის ცხოვრებისა და ქალაქის იდენტობის აღქმა. მშენებართა ინიციატივებმა, ინვესტიციებმა და საერთაშორისო დიზაინის ტრენდებმა ბევრი ძველი უბნის სახე შეჩინა: გრძელ, ბლესტერად გაბრწყინებულ ფასიასა და ძვირადღირებულ აპარტამენტებზე ორიენტირებულმა პროექტებმა გარია იმ მცირე მასშტაბის, სადაც საზოგადოებრივი ცხოვრება ჩერდებოდა—ბაზრები, პატარა კაფეები,artisan-Ateliers. კულტურული მემკვიდრეობის დაცვის აქტივისტები ამ პროცესებს ხშირად კრიტიკულად აფასებენ: თავდაპირველი არქიტექტურული ელემენტები იღუპება ან იკარგება, ადგილობრივი მოსახლეობა იძულებულია გადავიდეს მშობლიურ უბნიდან. მერიის მიერ შემოთავაზებული კომპენსაციისა და ხელახალი განახლებების მოდელები ხანდახან თანაბარ სიმძაფრეს ავლენს წინააღმდეგობრივ პრიორიტეტებში: ეკონომიკური ზრდა თუ ისტორიული სახეები? განსაცვიფრებელია, რომ გადაწყვეტილებები ხშირად მიიღება ტექნოკრატიული ლოგიკით, საზოგადოებრივი კონსულტაციის გარეშე. ინტერესთა დაჯახება დღეს გადამწყვეტია — როგორ შეინარჩუნოს ქალაქმა თავისი მრავალმნიშვნელოვანი ისტორია, მოემზადოს მომავლისთვის და უპოვოს თანასწორი ეტაპი განვითარებისა, რომელზეც ადგილობრივი ხმა რეალურად გაისმენს.",
+      "translation": "Au cours des deux dernières décennies, les transformations urbaines à Tbilissi n'ont pas seulement redéfini l'aménagement, elles ont modifié la perception de la vie quotidienne et de l'identité urbaine. Les initiatives des promoteurs, les investissements et les tendances internationales du design ont figé l'apparence de nombreux quartiers : des façades brillantes et des projets axés sur des appartements coûteux ont érodé l'échelle humaine où la vie sociale s'organisait — marchés, petits cafés, ateliers d'artisans. Les militants pour la protection du patrimoine critiquent souvent ces processus : les éléments architecturaux d'origine meurent ou disparaissent, et les habitants sont contraints de quitter leur quartier natal. Les modèles de compensation et de rénovation proposés par la mairie révèlent parfois une tension entre des priorités contradictoires : croissance économique ou préservation historique ? Il est frappant que les décisions se prennent souvent selon une logique technocratique, sans consultation publique. Le conflit d'intérêts est aujourd'hui décisif — comment la ville préservera-t-elle sa riche histoire, se préparera-t-elle pour l'avenir et trouvera-t-elle une voie de développement équitable où la voix locale sera réellement entendue ?",
+      "questions": [
+        {
+          "question": "Quel est le principal problème soulevé par le texte concernant les transformations urbaines de Tbilissi ?",
+          "options": [
+            "La disparition progressive des espaces commerciaux.",
+            "La perte d'éléments architecturaux et le déplacement des habitants.",
+            "La hausse des impôts municipaux pour financer les rénovations.",
+            "L'augmentation des embouteillages due aux chantiers."
+          ],
+          "answer": "La perte d'éléments architecturaux et le déplacement des habitants.",
+          "explanation": "Le texte insiste sur la disparition des éléments architecturaux d'origine et le fait que la population locale est souvent contrainte de quitter son quartier."
+        },
+        {
+          "question": "Comment l'auteur décrit-il la manière dont les décisions sont souvent prises ?",
+          "options": [
+            "Après de longues consultations publiques.",
+            "Selon une logique technocratique, sans consultation publique.",
+            "Par des référendums locaux.",
+            "Par des experts en patrimoine uniquement."
+          ],
+          "answer": "Selon une logique technocratique, sans consultation publique.",
+          "explanation": "Le texte précise que les décisions sont fréquemment prises selon une logique technocratique, sans consultation publique."
+        },
+        {
+          "question": "Quelle alternative ou tension est présentée entre les priorités municipales ?",
+          "options": [
+            "Développement des transports versus espaces verts.",
+            "Croissance économique versus préservation historique.",
+            "Réduction des impôts versus augmentation des services.",
+            "Construction de gratte‑ciel versus rénovation des écoles."
+          ],
+          "answer": "Croissance économique versus préservation historique.",
+          "explanation": "L'auteur souligne la tension entre la croissance économique (projets immobiliers) et la préservation des formes historiques."
+        },
+        {
+          "question": "Quel exemple illustre la perte de l'échelle humaine mentionnée dans le texte ?",
+          "options": [
+            "La construction de nouveaux ponts modernes.",
+            "La fermeture des musées nationaux.",
+            "Le remplacement de marchés et petits cafés par des projets d'appartements coûteux.",
+            "L'implantation de sièges d'entreprises internationales."
+          ],
+          "answer": "Le remplacement de marchés et petits cafés par des projets d'appartements coûteux.",
+          "explanation": "Le texte mentionne explicitement que marchés, petits cafés et ateliers ont été évincés par des projets axés sur des appartements coûteux, perdant ainsi l'échelle humaine."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-018",
+      "title": "საერთაშორისო გამრავლება და ქართული სამზარეულო",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 18,
+      "text": "ქართული სამზარეულო ბოლო წლებია გაიფანტა მსოფლიოს სხვადასხვა ქალაქებში: რესტორნებისა და ქუჩის სტენდების მეშვეობით იგი გახდა გასაოცარი სალუბანებელი, თუმცა ამ გავრცელებამ თან შეიტანა დაძაბულობა — რესტორანი, რომელიც ‘‘ქართული’’ ნარით ნებივრობს, ხშირად აწყდება ფერმენტირებულ ტრადიციასა და გლობალურ მენიუს მოთხოვნებს შორის თანხვედრას. ვეგეტარიანული და ვეგანური მიდგომები, გლუტენის არარსებობის მოთხოვნები, ასევე არაბრენდირებული ქალაქური ძიებები აიძულებენ მზარეულებს გადააზრონ რეცეპტები ისე, რომ შენარჩუნდეს ქვეყნის გემო და, პარალელურად, მოხიბლონ ახალი მომხმარებელი. ამ პროცესში იგი მნიშვნელოვან კულტურულ დელიკატესად იქცა: პოლიტიკა, ეკონომიკა და რთული ემოციური ბმა — ემიგრაციის მოგონებები, მხოლოსობის მომენტები, ეროვნული სიმბოლოები — ყველაფერი იკიდებს თავს თეფშზე. ზოგი კრიტიკოსი აღნიშნავს, რომ საერთაშორისო აღიარება ხშირად მოდის სტილიზაციის სახით, სადაც ორიგინალი რეცეპტები იკარგება ან დამახინჯებულია. სხვები ამტკიცებენ, რომ ცვლილებები ცოცხალი კულტურის ნიშნად უნდა იქნას აღიარებული: თუ კერძი არ შეგიძლია მორგო ახალ კონტექსტზე, ის უბრალოდ გაქრება. საბოლოო ჯამში განაჩენი დამოკიდებული იქნება იმაზე, მოახერხებს თუ არა გმირები — მზარეულები და სამომხმარებლო საზოგადოება — გაკვეთილების გადაცემას მომავალ თაობებისთვის, შენარჩუნების და ადაპტაციის დელიკატურ შორისად.",
+      "translation": "La cuisine géorgienne s'est récemment répandue dans des villes du monde entier : à travers restaurants et stands de rue, elle est devenue une découverte remarquable, mais cette diffusion a introduit des tensions — un établissement « géorgien » se confronte souvent à la nécessité de concilier tradition fermentée et exigences des menus mondialisés. Les approches végétariennes et véganes, les demandes d'absence de gluten et les recherches urbaines non standard obligent les chefs à repenser les recettes pour préserver le goût national tout en séduisant une nouvelle clientèle. Ce processus est devenu une délicate question culturelle : politique, économie et liens émotionnels complexes — souvenirs de l'émigration, moments d'isolement, symboles nationaux — se retrouvent sur l'assiette. Certains critiques notent que la reconnaissance internationale arrive souvent sous forme de stylisation, où les recettes originales se perdent ou sont déformées. D'autres soutiennent que ces changements doivent être vus comme le signe d'une culture vivante : si un plat ne peut pas être adapté à un nouveau contexte, il disparaîtra. En définitive, le verdict dépendra de la capacité des protagonistes — chefs et consommateurs — à transmettre les leçons aux générations futures, entre conservation et adaptation.",
+      "questions": [
+        {
+          "question": "Quel dilemme principal le texte attribue à la diffusion internationale de la cuisine géorgienne ?",
+          "options": [
+            "La difficulté à obtenir des ingrédients locaux à l'étranger.",
+            "Le conflit entre préservation des recettes traditionnelles et adaptations pour le marché mondial.",
+            "La surmédiatisation des chefs géorgiens.",
+            "Le coût élevé d'importation des épices spécifiques."
+          ],
+          "answer": "Le conflit entre préservation des recettes traditionnelles et adaptations pour le marché mondial.",
+          "explanation": "Le texte met en avant la tension entre conserver les recettes authentiques et les ajuster aux exigences (végétarien, sans gluten, goûts locaux) du marché international."
+        },
+        {
+          "question": "Selon le texte, quel argument avancent ceux qui défendent l'adaptation des plats ?",
+          "options": [
+            "Les adaptations sont une trahison irréparable de la culture.",
+            "Si un plat ne peut pas être adapté, il risque de disparaître, donc l'adaptation montre une culture vivante.",
+            "La modernisation culinaire ne concerne que l'apparence des plats.",
+            "L'adaptation permet de réduire les coûts de production."
+          ],
+          "answer": "Si un plat ne peut pas être adapté, il risque de disparaître, donc l'adaptation montre une culture vivante.",
+          "explanation": "Le texte indique que certains soutiennent que la capacité d'adaptation reflète une culture vivante et prévient la disparition du plat."
+        },
+        {
+          "question": "Quel élément émotionnel la cuisine met-elle en jeu, d'après le texte ?",
+          "options": [
+            "Les rivalités politiques contemporaines uniquement.",
+            "Des souvenirs d'émigration, des moments d'isolement et des symboles nationaux.",
+            "Un désir généralisé de standardisation culinaire.",
+            "Une nostalgie pour les émissions de télévision culinaires."
+          ],
+          "answer": "Des souvenirs d'émigration, des moments d'isolement et des symboles nationaux.",
+          "explanation": "Le texte évoque explicitement les liens émotionnels complexes : souvenirs d'émigration, moments de solitude et symboles nationaux présents dans la cuisine."
+        },
+        {
+          "question": "Quel rôle le texte attribue aux chefs et aux consommateurs dans l'avenir de la cuisine ?",
+          "options": [
+            "Ils doivent uniquement moderniser les recettes pour plaire aux critiques internationaux.",
+            "Ils sont responsables de transmettre les leçons aux générations futures en équilibrant conservation et adaptation.",
+            "Ils doivent rejeter toute influence étrangère pour préserver l'authenticité.",
+            "Ils doivent standardiser les plats pour faciliter l'exportation."
+          ],
+          "answer": "Ils sont responsables de transmettre les leçons aux générations futures en équilibrant conservation et adaptation.",
+          "explanation": "Le texte conclut que le verdict dépendra de la capacité des chefs et des consommateurs à transmettre et à trouver un équilibre entre préservation et adaptation pour les générations futures."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-015",
+      "title": "ხელოვნებისა და ტურიზმის შეჯახება",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 15,
+      "text": "ბმულები თანამედროვე თბილისის მდგომარეობასა და კულტურულ პრაგმატიკას შორის ხშირად შეუცნობელია. ბოლო წლების განმავლობაში მაღალმა საგრანტო აქტივობებმა, კერძოდ საერთაშორისო ბიენალეებისა და რეზიდენციების გახსნამ, ქალაქს ახალი აუდიტორია მოუტანა, თუმცა კიდევ უფრო მნიშვნელოვანი იყო ის დისკურსი, რომელიც შემოქმედებით სექტორსა და ადგილობრივ მოსახლეობას შორის წარმოიშვა. არტ-ინიციატივებმა რეკონსტრუქციის პროცესებში რეალური მონაწილეობის მოდელებიც შემოიტანეს: ისტორიული შენობების გადარჩენის კამპანიებმა არტისტების, არქიტექტორების და მოქალაქეების მიწიერი ინტერაქციები გააღვივა, რამაც გზა შეუხსნა კრიტიკური ნარატივების წარმოქმნას. მეორე მხრივ, ტურიზმის სწრაფი ზრდამ მნიშვნელოვნად შეცვალა სივრცეები: გალერეების მიმდებარე კაფეები კომერციულად აქტიურად იბადებიან, რის შედეგადაც თანდათან იკარგება ადგილობრივი ცხოვრების ინტიმურობა. ამ ტენდენციის შეფასებას წარმოადგენს კითხვა იმაზე, თუ როგორ შეიძლება კულტურულმა პოლიტიკამ უზრუნველყოს ხელოვნებისთვის ნეიტრალური, მაგრამ მდგრადი გარემო, რომელიც როგორც მხარს უჭერს შემოქმედებას, ისე პატივს სცემს სოციალური მეხსიერების მოთხოვნებს.",
+      "translation": "Les liens entre la situation contemporaine de Tbilissi et sa pragmatique culturelle sont souvent insondables. Au cours des dernières années, l'augmentation des activités subventionnées, notamment l'ouverture de biennales internationales et de résidences, a attiré un nouveau public en ville, mais plus important encore fut le discours qui s'est instauré entre le secteur créatif et la population locale. Les initiatives artistiques ont introduit aussi des modèles de participation réelle aux processus de reconstruction : les campagnes pour la sauvegarde de bâtiments historiques ont ravivé les interactions concrètes entre artistes, architectes et citoyens, ouvrant la voie à l'émergence de récits critiques. En revanche, la forte croissance du tourisme a profondément modifié les espaces : les cafés autour des galeries naissent en activité commerciale, entraînant une perte progressive de l'intimité de la vie locale. L'évaluation de cette tendance pose la question de la manière dont la politique culturelle peut assurer un environnement neutre mais durable pour l'art, qui soutienne la création tout en respectant les exigences de la mémoire sociale.",
+      "questions": [
+        {
+          "question": "Quel effet positif principal l'auteur attribue-t-il aux biennales et résidences artistiques à Tbilissi ?",
+          "options": [
+            "Elles ont complètement remplacé les initiatives locales existantes.",
+            "Elles ont attiré un nouveau public et déclenché un discours entre artistes et habitants.",
+            "Elles ont principalement augmenté les revenus du tourisme de masse.",
+            "Elles ont uniformisé l'esthétique des galeries de la ville."
+          ],
+          "answer": "Elles ont attiré un nouveau public et déclenché un discours entre artistes et habitants.",
+          "explanation": "Le texte souligne que ces activités ont apporté une nouvelle audience et surtout un discours entre le secteur créatif et la population locale."
+        },
+        {
+          "question": "Comment les initiatives artistiques ont-elles participé aux processus de conservation selon le texte ?",
+          "options": [
+            "En finançant entièrement la restauration des monuments historiques.",
+            "En proposant des modèles de participation impliquant artistes, architectes et citoyens.",
+            "En remplaçant les autorités municipales dans les décisions urbanistiques.",
+            "En transformant les bâtiments historiques en grandes galeries commerciales."
+          ],
+          "answer": "En proposant des modèles de participation impliquant artistes, architectes et citoyens.",
+          "explanation": "Le passage indique que les initiatives ont introduit des modèles de participation réelle, ravivant les interactions entre artistes, architectes et citoyens pour la sauvegarde des bâtiments."
+        },
+        {
+          "question": "Quel est l'effet négatif lié à la croissance du tourisme décrit dans le texte ?",
+          "options": [
+            "La fermeture complète des galeries d'art.",
+            "La disparition totale de la mémoire sociale.",
+            "La transformation commerciale des espaces autour des galeries et la perte d'intimité locale.",
+            "L'augmentation exclusive d'installations artistiques subventionnées."
+          ],
+          "answer": "La transformation commerciale des espaces autour des galeries et la perte d'intimité locale.",
+          "explanation": "Le texte mentionne que l'essor touristique entraîne la naissance de cafés commerciaux près des galeries, ce qui fait perdre l'intimité de la vie locale."
+        },
+        {
+          "question": "Quelle problématique finale l'auteur pose concernant la politique culturelle ?",
+          "options": [
+            "Comment interdire toute activité touristique dans les quartiers historiques.",
+            "Comment subventionner massivement les galeries pour concurrencer le tourisme.",
+            "Comment garantir un environnement neutre et durable pour l'art qui respecte la mémoire sociale.",
+            "Comment remplacer la population locale par des résidents artistiques internationaux."
+          ],
+          "answer": "Comment garantir un environnement neutre et durable pour l'art qui respecte la mémoire sociale.",
+          "explanation": "L'auteur conclut en se demandant comment la politique culturelle peut assurer un cadre neutre mais durable, soutenant la création tout en respectant les exigences de la mémoire sociale."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-016",
+      "title": "ენვირუსული მემკვიდრეობა და რესტორნების მენიუები",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 16,
+      "text": "გასტროენდემიის თემა, შესაძლოა, ზედაპირულად მოეჩვენოს მხოლოდ მოდურ საჭმელთა ტენდენციად, მაგრამ სინამდვილეში ის ეხება ღრმა კულტურულ მექანიზმებს: როგორ იფასებს საზოგადოება გემოს, რა ელემენტები იქმნება როგორც 'ტრადიცია' და როგორ ჰკლავენ კომერციული სტანდარტები ადგილობრივ კვების კულტურას. ბოლო წლებში მრავალი რესტორანი განაგრძობს მენიუდან ადგილობრივ კერძებს როგორც ეტიკეტს ან მითითებას იყენებს, თუმცა სინამდვილეში ინგრედიენტები ან მომზადების მეთოდები ხშირად მოდიფიცირებულია პოტენციური ვიზიტორის დაკმაყოფილებისათვის. ამ პროცესში იბადება მოზაიკა, სადაც ზოგიერთი გამოხატულება აღმაშფოთებლად თითქოს ეკუთვნის მხოლოდ მოგზაურთა მოლოდინებს, ხოლო სხვა ინიციატივები ცდილობენ ავთენტურობის დაბრუნებას — ვენახის და ბაზრის პარტნიორობები, მრავალპარტიული სასწავლო პროგრამები ადგილობრივ შეფებსა და ახალგაზრდებს შორის. მნიშვნელოვანიაც: კულტურული პოლიტიკა და სოფლის მეურნეობის სტრატეგიები უნდა მუშაობდნენ ჰარმონიულად, რათა არ დაიკარგოს ნაჩვენები გასტრონომიული მემკვიდრეობა და თანდათან არ გადაიქცეს ერთფეროვან, ინტერნაციონალიზებულ მენიუში.",
+      "translation": "Le thème de l'épidémie gastronomique peut sembler à première vue n'être qu'une tendance culinaire, mais il touche en réalité à des mécanismes culturels profonds : comment une société valorise le goût, quels éléments se construisent comme 'tradition' et comment les normes commerciales érodent la culture alimentaire locale. Ces dernières années, de nombreux restaurants continuent d'utiliser les plats locaux sur le menu comme un label ou une indication, alors que les ingrédients ou les méthodes de préparation sont souvent modifiés pour satisfaire le visiteur potentiel. Dans ce processus naît une mosaïque où certaines expressions semblent appartenir uniquement aux attentes des voyageurs, tandis que d'autres initiatives tentent de rétablir l'authenticité — partenariats avec des vignobles et des marchés, programmes de formation multipartites entre chefs locaux et jeunes. Il est également important que les politiques culturelles et les stratégies agricoles travaillent en harmonie afin que l'héritage gastronomique présenté ne se perde pas et ne se transforme progressivement en un menu uniforme et internationalisé.",
+      "questions": [
+        {
+          "question": "Quelle critique principale l'auteur formule-t-il à propos des menus de certains restaurants ?",
+          "options": [
+            "Ils refusent d'inclure toute référence à la tradition locale.",
+            "Ils affichent des plats locaux sans respecter les ingrédients ou méthodes authentiques.",
+            "Ils augmentent systématiquement les prix des plats locaux.",
+            "Ils servent exclusivement des plats internationaux."
+          ],
+          "answer": "Ils affichent des plats locaux sans respecter les ingrédients ou méthodes authentiques.",
+          "explanation": "Le texte indique que les restaurants utilisent souvent des plats locaux comme label mais modifient ingrédients ou techniques pour satisfaire les visiteurs."
+        },
+        {
+          "question": "Quelles initiatives l'auteur cite-t-il comme tentatives de restauration de l'authenticité ?",
+          "options": [
+            "La suppression de tous les plats étrangers des menus.",
+            "La standardisation des recettes par des chaînes internationales.",
+            "Partenariats avec vignobles et marchés, et programmes de formation entre chefs et jeunes.",
+            "La fermeture des marchés traditionnels au profit des supermarchés."
+          ],
+          "answer": "Partenariats avec vignobles et marchés, et programmes de formation entre chefs et jeunes.",
+          "explanation": "Le texte mentionne explicitement les partenariats avec vignobles et marchés et les programmes éducatifs comme tentatives pour rétablir l'authenticité."
+        },
+        {
+          "question": "Quel risque l'auteur associe à l'absence d'une coordination entre politiques culturelles et stratégies agricoles ?",
+          "options": [
+            "La transformation progressive du patrimoine gastronomique en menu uniformisé et internationalisé.",
+            "La fermeture immédiate de tous les restaurants locaux.",
+            "La nationalisation des vignobles et marchés.",
+            "L'interdiction de l'exportation d'ingrédients locaux."
+          ],
+          "answer": "La transformation progressive du patrimoine gastronomique en menu uniformisé et internationalisé.",
+          "explanation": "L'auteur affirme que sans harmonie entre politiques culturelles et agricoles, le patrimoine peut se perdre et devenir un menu homogène et internationalisé."
+        },
+        {
+          "question": "Quelle image métaphorique l'auteur utilise pour décrire la situation culinaire actuelle ?",
+          "options": [
+            "Un désert gustatif sans saveurs.",
+            "Une mosaïque où certaines expressions sont adaptées aux attentes des voyageurs.",
+            "Un océan sans rives ni repères.",
+            "Un bâtiment en ruines voué à être reconstruit."
+          ],
+          "answer": "Une mosaïque où certaines expressions sont adaptées aux attentes des voyageurs.",
+          "explanation": "Le texte parle d'une mosaïque où certaines expressions semblent appartenir uniquement aux attentes des voyageurs, représentant la diversité mais aussi la fragmentation."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-021",
+      "title": "ურბანული მეხსიერება და რეკონსტრუქცია",
+      "level_name": "CEFR C1",
+      "cefr": "C1",
+      "version": 21,
+      "text": "ბოლო ათწლეულის განმავლობაში ქალაქურმა რეკონსტრუქციამ თბილისის ხედვა შეცვალა: ისტორიული უბნები თანამედროვე არქიტექტურითა და კომერციული ობიექტებით დაისაჯა. ასეთი გარდაქმნა ხშირად მოჰყვა შემწყნარებლურ დისკურსს, რომელიც ნოსტალგიასა და პროგრესს ერთმანეთს პირისპირ აყენებს. ერთი მხრივ, ქალაქის ცენტრში საფუძვლიანად გაუმჯობესდა ინფრასტრუქტურა და უსაფრთხოება, ტურისტებისთვის ხელმისაწვდომობა გაიზარდა, ქალაქის ფასი კი მატულობს. მეორე მხრივ, ადგილობრივი მცხოვრებლებმა დაკარგეს საცხოვრებლის ხელმისაწვდომობა; უმცროსი თაობა დროულად ვერ იპოვის იდენტობის ადგილებს, ხოლო ძველი სასწავლო ცენტრები დახურულ ჰოლებსა და შენატანებად იქცა. კულტურული მეხსიერება არ წყდება ავტომატურად, ის საჭიროებს აქტიურ პოლიტიკას: ოპიატიულ სტატუსს, ზონის დაცვას, არქივირებას და საზოგადოებრივი სივრცეების საინკლუზიო მართვას. ეფექტური პოლიტიკა არა მხოლოდ შენობების შენარჩუნებაზე უნდა მაინტერესდეს, არამედ სოციალურ კავშირსა და მრავალფეროვნებაზე, რათა ურბანული ტრანსფორმაცია ადამიანებს შორის ხიდებად იქცეს და არ გარდაიქმნას დეგრადაციის ინდუსტრიულ პროექტებად.",
+      "translation": "Au cours de la dernière décennie, la reconstruction urbaine a transformé le paysage de Tbilissi : des quartiers historiques ont été marqués par une architecture contemporaine et des espaces commerciaux. Ces transformations s'accompagnent souvent d'un discours tolérant qui oppose nostalgie et progrès. D'une part, le centre-ville a vu une nette amélioration des infrastructures et de la sécurité, l'accessibilité pour les touristes a augmenté et la valeur immobilière a grimpé. D'autre part, les habitants locaux ont perdu l'accès à des logements abordables ; la jeune génération peine à trouver des lieux d'identité, et d'anciens centres éducatifs se sont mués en halls clos et commerces. La mémoire culturelle ne se maintient pas automatiquement : elle exige des politiques actives — statut protecteur, zonage, archivage et gestion inclusive des espaces publics. Une politique efficace doit s'intéresser non seulement à la conservation des bâtiments, mais aussi aux liens sociaux et à la diversité, afin que la transformation urbaine devienne un pont entre les gens et non un processus de dégradation transformé en projet industriel.",
+      "questions": [
+        {
+          "question": "Quel est le principal dilemme posé par la reconstruction urbaine selon le texte ?",
+          "options": [
+            "Choisir entre rénover les infrastructures et préserver les espaces verts.",
+            "Trouver un équilibre entre la conservation du patrimoine culturel et le développement moderne.",
+            "Décider si les touristes doivent avoir accès au centre-ville.",
+            "Réorganiser le transport public avant toute rénovation."
+          ],
+          "answer": "Trouver un équilibre entre la conservation du patrimoine culturel et le développement moderne.",
+          "explanation": "Le texte met en avant l'opposition entre nostalgie (préservation de la mémoire culturelle) et progrès (développement moderne), et souligne la nécessité d'un équilibre via des politiques actives."
+        },
+        {
+          "question": "Quelle conséquence négative est mentionnée concernant les habitants locaux ?",
+          "options": [
+            "Ils perdent l'accès aux espaces publics pour se réunir.",
+            "Ils voient augmenter la criminalité dans leurs quartiers.",
+            "Ils perdent l'accès à des logements abordables.",
+            "Ils sont contraints de travailler dans le secteur touristique."
+          ],
+          "answer": "Ils perdent l'accès à des logements abordables.",
+          "explanation": "Le texte évoque explicitement la perte de la disponibilité de logements abordables pour les résidents locaux due à l'augmentation des prix."
+        },
+        {
+          "question": "Quelle mesure n'est PAS explicitement citée comme nécessaire pour préserver la mémoire culturelle ?",
+          "options": [
+            "Attribuer aux sites un statut protecteur.",
+            "Mettre en place un zonage précis.",
+            "Archiver les témoins du passé.",
+            "Interdire toute construction nouvelle dans le centre."
+          ],
+          "answer": "Interdire toute construction nouvelle dans le centre.",
+          "explanation": "Le texte propose statut protecteur, zonage, archivage et gestion inclusive, mais ne préconise pas une interdiction totale de nouvelles constructions."
+        },
+        {
+          "question": "Quel objectif global l'auteur suggère pour une politique urbaine efficace ?",
+          "options": [
+            "Transformer la ville en attraction touristique internationale.",
+            "Augmenter la valeur immobilière des quartiers centraux.",
+            "Faire de la transformation urbaine un pont entre les personnes et protéger la diversité.",
+            "Privatiser les espaces publics pour mieux les entretenir."
+          ],
+          "answer": "Faire de la transformation urbaine un pont entre les personnes et protéger la diversité.",
+          "explanation": "L'auteur insiste sur le fait que la transformation doit renforcer les liens sociaux et la diversité pour servir de pont entre les habitants, et non devenir un projet de dégradation."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-022",
+      "title": "ღვინის ეტიკეტი: ტრადიცია და საერთაშორისო ხარისხი",
+      "level_name": "CEFR C1",
+      "cefr": "C1",
+      "version": 22,
+      "text": "საქართველოში ღვინოს უნიკალური როლი აქვს: იგი ერთადერთია, რომელიც მთავრობის პოლიტიკასა და ადგილობრივ იდენტობას ახასიათებს. ბოლო წლებმა ეტიკეტებისა და სერტიფიკატების მნიშვნელობა გაზარდა. მცირე მეღვინეობები, რომლებიც ტრადიციულად ქვევრში დაამზადებენ ღვინოს, ახლა იძულებულნი არიან განაახლონ საბოთლე დიზაინი და დაარეგისტრირონ გეოგრაფიული აღნიშვნები, რათა უცხოურ ბაზრებზე კონკურენტუნარიანები იყვნენ. ამ პროცესმა მეტოქეობა კვლავ გააღრმავა: ხარისხის გამოხატულებად არა მხოლოდ გემო და ტრადიცია ითვლება, არამედ შეფუთვა, დოკუმენტაცია და რეკლამა. ამასთან, საფრთხეც არსებობს — კომერციული სტანდარტები შეიძლება წაშლონ ბიოსფერო და მიკროზონების ნიუანსები, რომლებიც საუკუნეებია სიმდიდრეს ქმნიან. ნოუ-ჰაუების ადაპტაცია აუცილებელია, მაგრამ უნდა ემყარებოდეს ადგილობრივ ცოდნას: ლაბორატორიული ანალიზი და კონსერვაციული მეთოდები თანხვედრაში უნდა იყვნენ მეღვინის ხედვასთან. სახელმწიფოს როლი მნიშვნელოვანია: რეგულაციები და დახმარება უნდა შეუწყონ ხელს თითოეული ვენახის უნიკალურობის შენარჩუნებას, ისე რომ ქართული ღვინის გემო უცხო ყუთში არ დაიკარგოს.",
+      "translation": "Le vin joue un rôle unique en Géorgie : il est l'un des éléments qui caractérisent à la fois la politique gouvernementale et l'identité locale. Ces dernières années, l'importance des étiquettes et des certifications a augmenté. De petites exploitations viticoles, qui fabriquaient traditionnellement du vin en qvevri, sont désormais contraintes de moderniser le design des bouteilles et d'enregistrer des indications géographiques pour rester compétitives sur les marchés étrangers. Ce processus a approfondi la concurrence : l'expression de la qualité ne se mesure pas seulement au goût et à la tradition, mais aussi à l'emballage, à la documentation et à la publicité. Cependant, un danger existe — les standards commerciaux peuvent effacer la biosphère et les nuances des microzones, qui constituent depuis des siècles une richesse. L'adaptation du savoir-faire est nécessaire, mais elle doit reposer sur la connaissance locale : analyses de laboratoire et méthodes conservatrices doivent s'accorder avec la vision du vigneron. Le rôle de l'État est important : régulations et aides doivent favoriser la préservation de l'unicité de chaque vignoble, afin que le goût du vin géorgien ne se perde pas dans une boîte étrangère.",
+      "questions": [
+        {
+          "question": "Pourquoi les petites exploitations doivent-elles moderniser leur emballage et enregistrer des indications géographiques ?",
+          "options": [
+            "Pour obtenir des aides financières du gouvernement national.",
+            "Pour rester compétitives sur les marchés internationaux.",
+            "Parce que la tradition du qvevri est interdite.",
+            "Pour réduire les coûts de production."
+          ],
+          "answer": "Pour rester compétitives sur les marchés internationaux.",
+          "explanation": "Le texte indique que ces démarches visent à rendre les vins compétitifs à l'étranger, pas à obtenir des subventions ni à réduire les coûts."
+        },
+        {
+          "question": "Quel risque l'auteur associe à la standardisation commerciale ?",
+          "options": [
+            "La multiplication des contrefaçons de vins géorgiens.",
+            "L'augmentation des prix pour les consommateurs locaux.",
+            "La perte de la biodiversité et des nuances des microzones.",
+            "La disparition des cépages internationaux."
+          ],
+          "answer": "La perte de la biodiversité et des nuances des microzones.",
+          "explanation": "L'auteur craint que les standards commerciaux effacent la biosphère et les particularités des microzones, entraînant une perte de richesse locale."
+        },
+        {
+          "question": "Quelle position l'auteur défend-il concernant la modernisation des méthodes ?",
+          "options": [
+            "Elle doit être totale et remplacer les méthodes traditionnelles.",
+            "Elle est inutile et doit être évitée à tout prix.",
+            "Elle est nécessaire mais doit s'appuyer sur le savoir local.",
+            "Elle doit concerner uniquement l'emballage, pas la production."
+          ],
+          "answer": "Elle est nécessaire mais doit s'appuyer sur le savoir local.",
+          "explanation": "Le texte affirme que l'adaptation est essentielle, mais qu'elle doit être fondée sur la connaissance locale et respecter la vision des mėsxvinēbis (vignerons)."
+        },
+        {
+          "question": "Quel rôle l'État devrait-il jouer selon l'article ?",
+          "options": [
+            "Imposer des normes internationales uniformes à toutes les exploitations.",
+            "Favoriser la préservation de l'unicité des vignobles par des régulations et des aides.",
+            "Nationaliser toutes les petites caves pour assurer la qualité.",
+            "Se désengager complètement pour laisser le marché décider."
+          ],
+          "answer": "Favoriser la préservation de l'unicité des vignobles par des régulations et des aides.",
+          "explanation": "L'auteur préconise que l'État mette en place des régulations et une aide pour préserver l'unicité de chaque vignoble, plutôt que des mesures uniformes ou une nationalisation."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-019",
+      "title": "აღმოჩენა ქალაქურ ბაღებში",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 19,
+      "text": "სამხრეთ-თბილისური უბნის ერთი პატარა სადარბაზოს წინ, ბოლო რამდენიმე წლის განმავლობაში, მცენარეებით და ქოთნებით უპროგრამოდ იყო ჩამოკიდებული სოციალური ხალხმრავლობის, ტრაფიკისა და ურბანული სითბოს ფონზე. ადგილობრივი ინიციატივა, რომელსაც რამდენიმე მეზობელი ხელმძღვანელობდა, არ იყო მხოლოდ დეკორატიული — ჩანდა, რომ მცენარეები შეცვლიდნენ ბარიერულობას ადამიანებს შორის. გუნდი ყოველ გაზაფხულზე ერიონის, ფონიაკებისა და ადგილობრივი ბალახების სახეობებს აშენებდა, ცდილობდა ნიადაგის ხარისხის გაუმჯობესებას და სასარგებლო მწერების პოპულაციის წახალისებას. პროექტმა წაახალისა ინტერნაციონალური გაცვლა ნერგების შესახებ და სარგებლობა მოუტანა ხანგრძლივ ურთიერთობებს მეზობელ ოსტატებთან და სკოლის ბიოლოგიის მასწავლებლებთან. თუმცა, სირთულეც იყო: ზოგიერთი მცენარე სივრცის ჩარევის გამო იღუპებოდა, ხოლო მოვლა მოთხოვნიდან გამომდინარე პერიოდულად რყევადია. მიუხედავად ამისა, ინიციატივამ, ქალაქურ ფუნქციებთან დინამიკის გათვალისწინებით, წარმოაჩინა, რომ მცირე გამონაკლისებიც კი შეუძლია შეიქმნას საჯარო სივრცის შეგრძნებაში ცვლილება და დაეხმაროს მოქალაქეებს ერთმანეთს გაუზიარონ პასუხისმგებლობა საერთო გარემოს მიმართ.",
+      "translation": "Devant l'entrée d’un petit immeuble du sud de Tbilissi, ces dernières années, des plantes et des pots ont progressivement transformé l’espace exposé à l’agitation sociale, au trafic et à la chaleur urbaine. L’initiative locale, menée par quelques voisins, n’était pas seulement décorative — on voyait les végétaux réduire les barrières entre les personnes. L’équipe plantait chaque printemps des érions, des phoniques et des herbes locales, s’efforçant d’améliorer la qualité du sol et de favoriser la population d’insectes utiles. Le projet a encouragé des échanges internationaux sur les plantes et a bénéficié de relations durables avec des artisans voisins et les professeurs de biologie de l’école. Cependant, il y avait des difficultés : certaines plantes mouraient en raison de l’empiètement sur l’espace et l’entretien restait irrégulier selon les disponibilités. Néanmoins, l’initiative a montré qu’en tenant compte des dynamiques urbaines, même de petites interventions peuvent modifier la perception de l’espace public et aider les citoyens à partager la responsabilité du milieu commun.",
+      "questions": [
+        {
+          "question": "Quel objectif principal l’initiative poursuivait-elle au-delà de l’aspect décoratif ?",
+          "options": [
+            "Augmenter les places de stationnement",
+            "Réduire les barrières entre les personnes",
+            "Créez un marché local",
+            "Construire une aire de jeux"
+          ],
+          "answer": "Réduire les barrières entre les personnes",
+          "explanation": "Le texte indique que les végétaux «ცვლილებდნენ ბარიერულობას ადამიანებს შორის», donc l’objectif social de réduire les barrières est explicite."
+        },
+        {
+          "question": "Pourquoi certaines plantes mouraient-elles selon le passage ?",
+          "options": [
+            "À cause d’un manque d’eau constant",
+            "À cause de la pollution sonore",
+            "En raison de l’empiètement sur l’espace",
+            "Parce que les espèces n’étaient pas adaptées au climat"
+          ],
+          "answer": "En raison de l’empiètement sur l’espace",
+          "explanation": "Le texte précise que «სบางი მცენარე სივრცის ჩარევის გამო იღუპებოდა», ce qui signifie qu’elles mouraient à cause de l’empiètement (conflits d’usage de l’espace)."
+        },
+        {
+          "question": "Quelle conséquence positive le projet a-t-il eue sur la communauté éducative locale ?",
+          "options": [
+            "Il a remplacé le programme scolaire",
+            "Il a créé des emplois permanents",
+            "Il a renforcé les relations avec des professeurs de biologie",
+            "Il a financé la rénovation de l’école"
+          ],
+          "answer": "Il a renforcé les relations avec des professeurs de biologie",
+          "explanation": "Le texte mentionne des «ხანგრძლივ ურთიერთობებს ... სკოლის ბიოლოგიის მასწავლებლებთან», donc le renforcement des liens avec des professeurs de biologie est la conséquence pertinente."
+        },
+        {
+          "question": "Quel aspect de la gestion du projet est décrit comme variable ?",
+          "options": [
+            "La biodiversité introduite",
+            "La régularité de l’entretien",
+            "Le soutien institutionnel",
+            "La qualité des outils utilisés"
+          ],
+          "answer": "La régularité de l’entretien",
+          "explanation": "Il est dit que «მოვლა მოთხოვნიდან გამომდინარე პერიოდულად რყევადია», indiquant que l’entretien était irrégulier selon les disponibilités."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-020",
+      "title": "წერის და ეროვნული იდენტობა",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 20,
+      "text": "თანამედროვე ქართული ლიტერატურის განხილვისას ხშირად თამაშობს როლს კითხვების კომპლექსური ქსელი: როგორ მიმართავენ ავტორები პოსტსაბჭოთა გამოცდილებას, რა ფორმით ინარჩუნდება ან გარდაიქმნება ხალხური ნარატივები და როგორ განსაზღვრავს ენის ნიუანსი ეროვნული იდენტობის განცდას. ბოლო ათწლეულში გამოჩენილი მწერლები იყენებენ ექსპერიმენტულ პოსტრედაქციულ სტილს, ყალიბობენ უცნაური დროულობის შეგრძნებას და ხშირად ანვითარებენ მრავალხმიანურ პერსპექტივებს, სადაც საგნები და დრო არაფორ-ედეგიანად ირეკლავენ კოლექტიური მეხსიერების რყევებს. ამ მწერლების ნაწერებში ხალხური სიტყვები და დიალექტური ნიუანსები არ იქნა ჩართულნი რეტრო-ლიტერატურულ რწმენაზე, არამედ როგორც ინტეგრაციული ელემენტები, რომლებიც ართულებენ, მაგრამ ამავე დროს გამდიდრავენ ტექსტის ნარატივს. კრიტიკოსების ნაწილი უჩივის, რომ ამ სტილმა პერსონაჟების განწყობებთან დისტანცირება გამოიწვია; სხვები აღნიშნავენ, რომ ეს მეტყველების ჯარიმაა, აუცილებელი დიალოგისთვის პირისპირ წარსულთან. საბოლოო ჯამში, ეს დისკუსია ასახავს უფრო ფართო კულტურულ ძიებას: როგორ მოიცავს ენა უმეტესარს და როგორ ადგენს მას კომუნიკაციური კითხვა.",
+      "translation": "Lorsqu’on analyse la littérature géorgienne contemporaine, un réseau complexe de questions intervient : comment les auteurs abordent-ils l’expérience post-soviétique, sous quelle forme les récits populaires sont-ils préservés ou transformés, et comment la subtilité de la langue façonne-t-elle le sentiment d’identité nationale. Au cours de la dernière décennie, des écrivains apparus récemment utilisent un style expérimental post-éditionnel, créent une sensation temporelle étrange et développent souvent des perspectives polyphoniques où les objets et le temps reflètent de manière non linéaire les secousses de la mémoire collective. Dans les œuvres de ces auteurs, les termes populaires et les nuances dialectales n’ont pas été insérés par nostalgie rétro-littéraire, mais comme éléments d’intégration qui complexifient et en même temps enrichissent le récit. Une partie des critiques se plaint que ce style a créé une distanciation vis-à-vis des états d’âme des personnages ; d’autres soulignent qu’il s’agit d’un acte de parole nécessaire, un dialogue indispensable avec le passé. Au final, ce débat reflète une quête culturelle plus vaste : comment la langue englobe le collectif et comment elle le définit en tant que question communicative.",
+      "questions": [
+        {
+          "question": "Selon le texte, quel rôle jouent les éléments dialectaux dans les œuvres récentes ?",
+          "options": [
+            "Ils servent uniquement la nostalgie rétro-littéraire",
+            "Ils sont des éléments d’intégration qui enrichissent le récit",
+            "Ils remplacent complètement la langue standard",
+            "Ils rendent les textes incompréhensibles au public"
+          ],
+          "answer": "Ils sont des éléments d’intégration qui enrichissent le récit",
+          "explanation": "Le passage affirme que les mots populaires et les nuances dialectales «როგორც ინტეგრაციული ელემენტები ... გამდიდრავენ ტექსტის ნარატივს», donc ils enrichissent le récit comme éléments d’intégration."
+        },
+        {
+          "question": "Quel reproche certains critiques adressent-ils à ce style ?",
+          "options": [
+            "Qu’il est trop fidèle à la tradition",
+            "Qu’il crée une distanciation par rapport aux états d’âme des personnages",
+            "Qu’il est politiquement orienté",
+            "Qu’il n’utilise jamais le dialecte"
+          ],
+          "answer": "Qu’il crée une distanciation par rapport aux états d’âme des personnages",
+          "explanation": "Le texte note explicitement que «კრიტიკოსების ნაწილი უჩივის, რომ ამ სტილმა პერსონაჟების განწყობებთან დისტანცირება გამოიწვია», ce qui correspond au reproche donné."
+        },
+        {
+          "question": "Que signifie l’expression «მრავალხმიანურ პერსპექტივებს» dans le contexte ?",
+          "options": [
+            "Des récits écrits à plusieurs mains",
+            "Des perspectives polyphoniques où se mêlent plusieurs voix",
+            "Un genre musical contemporain",
+            "Une technique de traduction littérale"
+          ],
+          "answer": "Des perspectives polyphoniques où se mêlent plusieurs voix",
+          "explanation": "Contexte mentionne développement de perspectives où objets et temps reflètent la mémoire collective : «მრავალხმიანურ» se réfère à la polyphonie narrative, plusieurs voix/perspectives."
+        },
+        {
+          "question": "Quelle question plus large ce débat sur le style littéraire reflète-t-il ?",
+          "options": [
+            "La modernisation des infrastructures urbaines",
+            "La manière dont la langue engloble le collectif et le définit",
+            "Les politiques éducatives nationales",
+            "Les tendances commerciales de l’édition"
+          ],
+          "answer": "La manière dont la langue engloble le collectif et le définit",
+          "explanation": "La dernière phrase du texte indique que le débat «ასახავს უფრო ფართო კულტურულ ძიებას: როგორ მოიცავს ენა უმეტესარს და როგორ ადგენს მას», donc il s’agit de la façon dont la langue englobe et définit le collectif."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-025",
+      "title": "მწვანე საჯარო სივრცეების დემოკრატია",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 25,
+      "text": "ქალაქების სწრაფი გაფართოება და უძრავი ქონების სპეკულაციები ხშირად აქცევს ქალაქის გულს ბეტონის ზღვად, სადაც მცირდება ისეთი ელემენტები, როგორიცაა ხეები, სკვერები და მცირე საზოგადოებრივ ბაღები. ავტორი ყურადღებას ამახვილებს იმაზე, რომ განუყოფელი ნაწილი ურბანული კეთილდღეობისა არ არის მხოლოდ esthétiques ელემენტები: ისინი მოქმედებენ როგორც სოციალური ცივი ცენტრები, სადაც მცირემიწობრივმა ჯგუფებმა შეიძლება მოახდინონ ერთმანეთთან კომუნიკაცია, და მნიშვნელოვნად შეამცირონ ნეგატიური ფსიქოლოგიური ეფექტები, როგორიცაა განწყობის მელანქოლია და სტრესი. ტექსტში ვკითხულობთ, რომ მართვის გადაწყვეტილებები ხშირად უკავშირდება მოგებაზე ორიენტირებულ პოლიტიკას, რის შედეგადაც მწვანე ზოლები იშლება ან იშოვა კერძო ინვესტორების ხელში. ავტორი ამტკიცებს, რომ ისეთმა მოდელებმა, როგორიცაა საზოგადოებრივი ბაღების და მოქალაქეებთან თანამშრომლობის პროგრამებმა, შეიძლება ხელი შეუწყონ სოციალურ თანასწორობას და მდგრადობას. განსხვავება კი, მისი თქმით, მდგომარეობს არა მხოლოდ ფიზიკურ ინფრასტრუქტურაში, არამედ წვდომის ხარისხსა და მომსახურების თანაბარ წარმოდგენაში, რაც სჭირდება ადგილობრივ მოსახლეობას იმისათვის, რომ ქალაქი მართალი იყოს ყველასთვის.",
+      "translation": "L'expansion rapide des villes et la spéculation foncière transforment souvent le cœur urbain en une mer de béton, réduisant des éléments comme les arbres, les squares et les petits jardins publics. L'auteur souligne que ces éléments ne sont pas une partie accessoire du bien-être urbain : ils fonctionnent comme des centres sociaux informels où des groupes de proximité peuvent communiquer entre eux et diminuent significativement des effets psychologiques négatifs tels que la mélancolie et le stress. Le texte indique que les décisions de gestion sont souvent liées à une politique axée sur le profit, ce qui entraîne la disparition des ceintures végétales ou leur acquisition par des investisseurs privés. L'auteur affirme que des modèles tels que les jardins communautaires et les programmes de collaboration avec les citoyens peuvent favoriser l'équité sociale et la durabilité. La différence, dit-il, ne réside pas seulement dans l'infrastructure physique, mais dans la qualité d'accès et la représentation équitable des services dont la population locale a besoin pour que la ville soit juste pour tous.",
+      "questions": [
+        {
+          "question": "Quel rôle l'auteur attribue principalement aux espaces verts urbains ?",
+          "options": [
+            "Des éléments purement esthétiques améliorant la valeur immobilière.",
+            "Des centres sociaux informels réduisant le stress et facilitant la communication locale.",
+            "Des zones réservées à la conservation de la faune sauvage.",
+            "Des terrains destinés à l'expansion commerciale."
+          ],
+          "answer": "Des centres sociaux informels réduisant le stress et facilitant la communication locale.",
+          "explanation": "Le texte insiste sur la fonction sociale et psychologique des espaces verts, comme lieux de communication et de réduction du stress."
+        },
+        {
+          "question": "Selon le texte, quelle est une cause fréquente de disparition des espaces verts ?",
+          "options": [
+            "La propagation d'espèces invasives.",
+            "Une politique de gestion axée sur le profit et la spéculation immobilière.",
+            "Le désintérêt des citoyens pour la nature.",
+            "Les catastrophes naturelles récurrentes."
+          ],
+          "answer": "Une politique de gestion axée sur le profit et la spéculation immobilière.",
+          "explanation": "Le texte mentionne explicitement la spéculation foncière et les décisions orientées vers le profit comme causes de la disparition des espaces verts."
+        },
+        {
+          "question": "Que sous-entend l'auteur en évoquant la 'qualité d'accès et la représentation équitable des services' ?",
+          "options": [
+            "Que seuls les espaces bien aménagés comptent pour le bien-être urbain.",
+            "Que l'important est d'avoir des espaces verts, même s'ils sont réservés à une élite.",
+            "Que l'égalité d'accès et la gestion participative sont essentielles pour que tous bénéficient des espaces publics.",
+            "Que la priorité doit être donnée à la rentabilité économique des terrains."
+          ],
+          "answer": "Que l'égalité d'accès et la gestion participative sont essentielles pour que tous bénéficient des espaces publics.",
+          "explanation": "L'auteur souligne que la justice urbaine dépend de l'accès et d'une représentation équitable, donc de la participation et de l'égalité d'usage."
+        },
+        {
+          "question": "Quelle solution l'auteur propose pour améliorer la situation des espaces verts ?",
+          "options": [
+            "Confier tous les espaces publics à des entreprises privées.",
+            "Développer des jardins communautaires et des programmes de collaboration avec les citoyens.",
+            "Interdire toute construction dans les villes.",
+            "Transformer les parcs en zones commerciales temporaires."
+          ],
+          "answer": "Développer des jardins communautaires et des programmes de collaboration avec les citoyens.",
+          "explanation": "Le texte propose explicitement les jardins communautaires et la coopération citoyenne comme modèles favorisant l'équité et la durabilité."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-026",
+      "title": "ღვინის რენესანსი და გლობალური ბაზარი",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 26,
+      "text": "საქართველოში, სადაც ღვინის წარმოების ისტორია თხენია ათასობით წელს, ბოლო ტრენდმა – ტრადიციული ტექნიკების და ადგილობრივი ყურძნების კომბინირება თანამედროვე მარკეტინგთან – გამოიწვია როგორც სამართლებრივი, ისე კულტურული ცვლილებები. მცირე მწარმოებლები, რომლებიც მუშაობენ ქვევრში, ცდილობენ დაიცვან უნიკალური გემოები და რეინტრეპრენიორული თვითმყოფადობა, მაგრამ ერთდროულად ზეწოლა გლობალური ბაზრისას აიძულებს მათ სტანდარტიზაციისკენ და ექსპორტის მოთხოვნით ლაბორატორიული კონტროლის გაძლიერებისკენ. ტექსტში აღინიშნება ნიუანსი: ზოგი კრიტიკოსი ფიქრობს, რომ მარკეტინგული პოზიციონირება და ვენახების მოდერნიზაცია ართმევს ღვინის კულტურულ მნიშვნელობას, მაშინ როცა მხარდამჭერები ამტკიცებენ, რომ კონტექსტუალური ინოვაცია უზრუნველყოფს ფინანსურ მდგრადობას და საერთაშორისო აღიარებას. ავტორი მადლიერებით წერს იმ მცირეგანცვლილ პრაქტიკებზე, რომლებიც ახანგრძლივებს ადგილობრივ ტრადიციებს, მაგრამ ამავე დროს მკაცრად აფასებს იმ მოდელებს, რომლებიც ერთი-ორ სასაქონლო ეტიკეტში ამოკლებს მრავალფეროვნებას.",
+      "translation": "En Géorgie, où l'histoire de la production du vin remonte à plusieurs millénaires, la tendance récente — combiner techniques traditionnelles et cépages locaux avec un marketing moderne — a entraîné des changements tant juridiques que culturels. Les petits producteurs travaillant en qvevri (amphores enfouies) cherchent à protéger des saveurs uniques et une identité entrepreneuriale, mais la pression du marché global les pousse vers la standardisation et un renforcement du contrôle en laboratoire pour répondre aux exigences d'exportation. Le texte souligne une nuance : certains critiques estiment que le positionnement marketing et la modernisation des vignobles ôtent au vin sa signification culturelle, tandis que les partisans affirment que l'innovation contextuelle assure la viabilité financière et la reconnaissance internationale. L'auteur exprime sa gratitude pour les pratiques légèrement modifiées qui prolongent les traditions locales, mais critique sévèrement les modèles qui réduisent la diversité à une ou deux étiquettes commerciales.",
+      "questions": [
+        {
+          "question": "Quel dilemme principal les producteurs géorgiens affrontent-ils selon le texte ?",
+          "options": [
+            "Choisir entre vinification en rouge ou en blanc.",
+            "Entre préservation des pratiques traditionnelles et exigences de standardisation pour l'exportation.",
+            "Investir dans le tourisme viticole ou dans l'agriculture céréalière.",
+            "Exporter uniquement vers les marchés asiatiques."
+          ],
+          "answer": "Entre préservation des pratiques traditionnelles et exigences de standardisation pour l'exportation.",
+          "explanation": "Le texte décrit la tension entre conserver les techniques traditionnelles (comme le qvevri) et répondre aux normes des marchés internationaux."
+        },
+        {
+          "question": "Que signifie 'ქვევრი' dans le contexte de la traduction fournie ?",
+          "options": [
+            "Un cépage rare de Géorgie.",
+            "Une méthode de vendange mécanique.",
+            "Une amphore enfouie utilisée pour la vinification traditionnelle.",
+            "Un label d'appellation géorgienne."
+          ],
+          "answer": "Une amphore enfouie utilisée pour la vinification traditionnelle.",
+          "explanation": "La traduction mentionne le qvevri comme amphores enfouies, méthode traditionnelle géorgienne de vinification."
+        },
+        {
+          "question": "Quel argument avancent les partisans de la modernisation ?",
+          "options": [
+            "Que la modernisation détruit inévitablement l'identité locale.",
+            "Que l'innovation contextuelle assure la viabilité financière et la reconnaissance internationale.",
+            "Qu'il faut abandonner les cépages locaux au profit des variétés internationales.",
+            "Que seules les grandes entreprises peuvent produire du vin de qualité."
+          ],
+          "answer": "Que l'innovation contextuelle assure la viabilité financière et la reconnaissance internationale.",
+          "explanation": "Le texte présente l'argument des partisans selon lequel l'innovation adaptée au contexte permet la durabilité économique et l'acceptation mondiale."
+        },
+        {
+          "question": "Quel ton l'auteur adopte face aux modèles qui uniformisent la production ?",
+          "options": [
+            "Indifférent, il ne prend pas position.",
+            "Complaisant, estimant que l'uniformisation est inévitable.",
+            "Critique, il condamne la réduction de la diversité à quelques étiquettes.",
+            "Enthousiaste, car il pense que cela simplifie le marché."
+          ],
+          "answer": "Critique, il condamne la réduction de la diversité à quelques étiquettes.",
+          "explanation": "L'auteur 'მკაცრად აფასებს' (critique sévèrement) les modèles qui réduisent la diversité à une ou deux étiquettes, ce qui montre un ton critique."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-027",
+      "title": "თბილისის ძველი უბნის პეიზაჟის გადაფასება",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 27,
+      "text": "ბოლო ათწლეულების განმავლობაში თბილისის ერთ-ერთი ისტორიული უბნის ვიზუალური იდენტობა ძლიერ იცვლება. ძველ შენობებს, სადაც ადრე მოსახლეობა რამდენიმე ოჯახად ცხოვრობდა და მცირე სახელოსნოები ფუნქციონირებდა, ახლა მეტალის დიზაინის ელემენტებითა და თანამედროვე ფანჯრებით იმეორებენ. განვითარების აქტორები ხშირად არგუმენტირებენ, რომ ცვლილება ეკონომიკურ ინტერესებსა და უსაფრთხოებას ემსახურება, თუმცა ადგილობრივმა საზოგადოებამ მერეც შეინარჩუნა საზრუნავი კულტურული მემკვიდრეობის მიმართ. საკითხი არა მხოლოდ ფასადების ესთეტიკაზეა — ძველი ეპოქური საცხოვრებლის ფუნქციები, საცხოვრებელი ქსელი, სამეზობლო ურთიერთობები და მცირე მომხამრებლური ეკონომიკა იცვლება ან იშლება. ეთნოლოგიური და ურბანული კვლევები ადასტურებს, რომ ნგრევა ან რესტავრაცია თქვენს ქალაქის პარამეტრებზე გავლენას ახდენს არა მხოლოდ ვიზუალურად, არამედ ენის, სანავსებო ჩვევებისა და ადგილობრივი საუნჯეების ინტერაქციაზე. წარმატებული ინტერვენცია გულისხმობს არა მხოლოდ შენობების კონსერვაციას, არამედ მცხოვრებთა მონაწილეობის უზრუნველსაყოფად სოციალურ მექანიზმებსა და იურიდიულ გარანტიებსაც.",
+      "translation": "Au cours des dernières décennies, l'identité visuelle d'un des quartiers historiques de Tbilissi a fortement changé. Les vieilles bâtisses, où jadis plusieurs familles vivaient et de petits ateliers fonctionnaient, sont désormais transformées avec des éléments métalliques et des fenêtres modernes. Les acteurs du développement soutiennent souvent que ce changement sert des intérêts économiques et la sécurité, pourtant la population locale conserve des inquiétudes concernant le patrimoine culturel. La question ne porte pas seulement sur l'esthétique des façades — les fonctions des logements d'époque, le tissu résidentiel, les relations de voisinage et l'économie locale à petite échelle changent ou se disloquent. Les études ethnologiques et urbaines confirment que la démolition ou la restauration influence les paramètres de la ville non seulement visuellement, mais aussi sur la langue, les habitudes alimentaires et l'interaction des trésors locaux. Une intervention réussie implique non seulement la conservation des bâtiments, mais aussi des mécanismes sociaux et des garanties juridiques pour assurer la participation des habitants.",
+      "questions": [
+        {
+          "question": "Quel est le principal effet des transformations architecturales décrit dans le texte ?",
+          "options": [
+            "Amélioration exclusive de la sécurité incendie",
+            "Modification de la vie sociale et économique locale",
+            "Uniformisation des styles architecturaux nationaux",
+            "Réduction immédiate des loyers"
+          ],
+          "answer": "Modification de la vie sociale et économique locale",
+          "explanation": "Le texte explique que les changements affectent le tissu résidentiel, les relations de voisinage et l'économie locale, donc ils modifient la vie sociale et économique, pas seulement la sécurité ou les loyers."
+        },
+        {
+          "question": "Pourquoi les promoteurs justifient-ils souvent les rénovations ?",
+          "options": [
+            "Pour préserver à tout prix les traditions locales",
+            "Pour favoriser l'implantation d'ateliers artisanaux",
+            "Pour répondre à des intérêts économiques et à la sécurité",
+            "Pour diminuer la surface habitable par famille"
+          ],
+          "answer": "Pour répondre à des intérêts économiques et à la sécurité",
+          "explanation": "Le texte indique que les acteurs du développement argumentent que les changements servent des intérêts économiques et la sécurité."
+        },
+        {
+          "question": "Quelle approche est présentée comme nécessaire pour une intervention réussie ?",
+          "options": [
+            "Remplacer complètement les anciens habitants par des investisseurs",
+            "Se concentrer uniquement sur l'esthétique des façades",
+            "Associer conservation des bâtiments et participation des habitants",
+            "Permettre des démolitions sans contraintes juridiques"
+          ],
+          "answer": "Associer conservation des bâtiments et participation des habitants",
+          "explanation": "Le passage conclut qu'une intervention réussie inclut la conservation des bâtiments ainsi que des mécanismes sociaux et des garanties juridiques pour la participation des résidents."
+        },
+        {
+          "question": "Quels domaines culturels sont mentionnés comme affectés par la rénovation ?",
+          "options": [
+            "La langue, les habitudes alimentaires et les trésors locaux",
+            "Le système éducatif national et les médias",
+            "Les pratiques agricoles et la faune sauvage",
+            "Les réseaux de transports interurbains"
+          ],
+          "answer": "La langue, les habitudes alimentaires et les trésors locaux",
+          "explanation": "Le texte cite explicitement la langue, les habitudes alimentaires et l'interaction des trésors locaux comme éléments influencés par les transformations urbaines."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-028",
+      "title": "ღვინის როლიოროლში — თანამედროვე და ტრადიცია",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 28,
+      "text": "საქართველოს ღვინის წარმოება ყოველთვის უპირობო კულტურულ ღირებულებად მიიჩნეოდა, მაგრამ ორიგინალურობა და ბაზრის მოთხოვნები ბოლო წლებმა ახალი გამოწვევები დაუყენეს. თანამედროვე ტყუპი ამბავი დაკავშირებულია ტრადიციულ ქვევრის მეთოდსა და ინოვაციურ ტექნოლოგიებთან: ზოგიერთმა მცირე მარნმა გადადგა ნაბიჯი ორგანულ მეურნეობაზე და ძველი ჯიშების აღდგენა დაიწყეს, სხვა მესაკუთრეები კი ინვესტიციას ცივი ფერმენტაციის ტექნოლოგიებში და საერთაშორისო ბრენდირებას ანიჭებენ უპირატესობას. მნიშვნელობა არა მხოლოდ გემოს მძიმე მხარეებშია, არამედ ადგილის ისტორიის, ლანდშაფტის და მწვანე ეკონომიკის პრეზენტაციაში. დისტრიბუციის მეთოდებმაც მიიღეს მნიშვნელობა: ტურიზმისა და გამოცდილებაზე ორიენტირებული ბრედინგი ხშირად უფრო მოგებიანად წარმოჩნდება, ვიდრე ნაზავი ფართო სუპერმარკეტებისთვის. ამ პროცესში კონფლიქტი წარმოიქმნება იდენტობის მოგებაზე — შეუნარჩუნოს თუ არა მეწარმემ ადგილობრივი ტრადიცია და წარმოების სპეციფიკა, თუ შეებმეს მსოფლიო ბაზრის სტანდარტებს. პასუხი საჭიროებს არა მხოლოდ ტექნოლოგიურ, არამედ სამოქალაქო და კულტურულ დიალოგს.",
+      "translation": "La production de vin en Géorgie a toujours été considérée comme une valeur culturelle incontestable, mais l'originalité et les demandes du marché ont posé de nouveaux défis ces dernières années. L'histoire contemporaine est liée à la méthode traditionnelle qvevri et aux technologies innovantes : certaines petites caves ont fait le pas vers l'agriculture biologique et la restauration des cépages anciens, d'autres propriétaires privilégient l'investissement dans la fermentation à froid et le branding international. L'importance ne réside pas seulement dans les aspects gustatifs, mais aussi dans la présentation de l'histoire du lieu, du paysage et de l'économie verte. Les méthodes de distribution ont aussi pris de l'importance : le tourisme et le branding centré sur l'expérience apparaissent souvent plus rentables que le mélange destiné aux grandes surfaces. Dans ce processus, un conflit émerge sur la question d'identité — l'entrepreneur doit-il préserver la tradition locale et la spécificité de la production ou se conformer aux standards du marché mondial ? La réponse exige non seulement des solutions technologiques, mais aussi un dialogue civique et culturel.",
+      "questions": [
+        {
+          "question": "Quel dilemme principal les vignerons géorgiens rencontrent-ils selon le texte ?",
+          "options": [
+            "Choisir entre cultiver des céréales ou des vignes",
+            "Décider s'ils doivent privilégier la tradition locale ou les standards mondiaux",
+            "Abandonner complètement la production pour se consacrer au tourisme",
+            "Remplacer les cépages locaux par des plants importés uniquement"
+          ],
+          "answer": "Décider s'ils doivent privilégier la tradition locale ou les standards mondiaux",
+          "explanation": "Le texte souligne le conflit d'identité entre maintenir la tradition locale et s'adapter aux standards du marché mondial."
+        },
+        {
+          "question": "Quelle stratégie est mentionnée comme parfois plus rentable que la production pour les supermarchés ?",
+          "options": [
+            "La vente exclusive en vrac",
+            "Le tourisme et le branding axé sur l'expérience",
+            "La baisse des prix pour concurrencer les importations",
+            "L'exportation en grande quantité sans étiquetage"
+          ],
+          "answer": "Le tourisme et le branding axé sur l'expérience",
+          "explanation": "Le texte indique que le tourisme et le branding centré sur l'expérience apparaissent souvent plus rentables que la production destinée aux supermarchés."
+        },
+        {
+          "question": "Quelles approches technologiques certains propriétaires adoptent-ils ?",
+          "options": [
+            "L'utilisation exclusive de levures sauvages sans contrôle de température",
+            "L'investissement dans la fermentation à froid et le branding international",
+            "La construction d'usines pour produire jus de raisin pasteurisé",
+            "L'arrêt de la fermentation pour vendre les raisins frais"
+          ],
+          "answer": "L'investissement dans la fermentation à froid et le branding international",
+          "explanation": "Le texte mentionne explicitement l'investissement dans la fermentation à froid et le branding international comme choix de certains propriétaires."
+        },
+        {
+          "question": "Outre la technologie, quelle autre dimension le texte affirme-t-il nécessaire pour répondre au dilemme ?",
+          "options": [
+            "Un renforcement des contrôles douaniers",
+            "Un dialogue civique et culturel",
+            "La suppression des petites caves",
+            "L'augmentation des subventions publiques sans consultation"
+          ],
+          "answer": "Un dialogue civique et culturel",
+          "explanation": "Le texte conclut que la réponse nécessite non seulement des solutions technologiques, mais aussi un dialogue civique et culturel."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-023",
+      "title": "სივრცისა და იდენტობის გადაფასება ქალაქში",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 23,
+      "text": "საქართველოში ბოლო წლების განმავლობაში დიდი ქალაქების შეცვლა ხშირად ტრადიციისა და თანამედროვე საჭიროებების დაპირისპირებად შემოდის. თბილისში მიმდინარეობს ურბანული რეაბილიტაციის პროექტები, რომლებიც ისტორიულ უბნებს ახალ ფუნქციებს ურიგებენ: ძველი სახლები კაფეებად და coworking-ცენტრებად იქცევა, ხოლო ქუჩის არქიტექტურა ფეხით მოსიარულეებისთვის კეთილმოწყობილია. ადგილობრივ ბრძოლაში კი მნიშვნელოვანი კითხვაა — როგორ შეინარჩუნოს მაცხოვრებლებმა საკუთარი კულტურული იდენტობა კომერციალიზაციის პირობებში? ერთი მხრივ, მოდერნიზაცია ზრდის ინფრასტრუქტურის ხარისხს და ქუჩის უსაფრთხოებას; მეორე მხრივ, ტრადიციული სიკეთეები იშლება: ვიწრო დასაჯდომები, კარები, ოჯახის საწერ-წერილი — ყველაფერი, რაც კომუნიკაციასა და სოციალურ ურთიერთობებს აკავშირებდა, თავის სახეს იცვლის. თემის მხარში იდგება ურბანისტები, რომლებიც კოლაფსის თავიდან ასაცილებლად ინიციატივებს სთავაზობენ: კულტურული მემკვიდრეობის რეგულაციები, მცირე მეწარმეობის მხარდაჭერა და საზოგადოებრივი სივრცეების პროექტები. საბოლოოდ, საკითხი პოლიტიკურ, ეკონომიკურ და ემოციურ განზომილებებს აერთიანებს — როგორ შეთანხმდეს შენება და ისტორიული ხასიათი ისე, რომ ქალაქმა არ დაკარგოს თავის სულიერი შრე?",
+      "translation": "Au cours des dernières années, la transformation des grandes villes de Géorgie confronte souvent tradition et besoins contemporains. À Tbilissi, des projets de réhabilitation urbaine attribuent de nouvelles fonctions à des quartiers historiques : d’anciennes maisons deviennent des cafés et des espaces de coworking, et l’architecture de rue est aménagée pour les piétons. Dans ce contexte, une question importante pour les habitants est la suivante : comment préserver leur identité culturelle dans des conditions de commercialisation ? D’un côté, la modernisation améliore la qualité des infrastructures et la sécurité des rues ; de l’autre, les bienfaits traditionnels se fragilisent : les petites places pour s’asseoir, les porches, les habitudes familiales — tout ce qui liait communication et relations sociales change de visage. Les urbanistes proposent des initiatives pour éviter un effondrement : régulations du patrimoine culturel, soutien aux petites entreprises et projets d’espaces publics. Au final, la question conjugue dimensions politiques, économiques et émotionnelles — comment concilier construction et caractère historique pour que la ville ne perde pas sa couche d’âme ?",
+      "questions": [
+        {
+          "question": "Quel est l’effet positif principal de la modernisation urbaine mentionné dans le texte ?",
+          "options": [
+            "Elle supprime les traditions locales.",
+            "Elle augmente la sécurité et la qualité des infrastructures.",
+            "Elle favorise l’exode rural.",
+            "Elle réduit le coût du logement."
+          ],
+          "answer": "Elle augmente la sécurité et la qualité des infrastructures.",
+          "explanation": "Le texte indique explicitement que la modernisation « ზრდის ინფრასტრუქტურის ხარისხს და ქუჩის უსაფრთხოებას » (améliore la qualité des infrastructures et la sécurité des rues)."
+        },
+        {
+          "question": "Quelle solution les urbanistes proposent-ils pour préserver l’identité des quartiers ?",
+          "options": [
+            "Interdire toute construction nouvelle.",
+            "Appliquer des régulations du patrimoine et soutenir les petites entreprises.",
+            "Remplacer les maisons anciennes par des immeubles modernes.",
+            "Privatiser les espaces publics."
+          ],
+          "answer": "Appliquer des régulations du patrimoine et soutenir les petites entreprises.",
+          "explanation": "Le passage mentionne les initiatives : « კულტურული მემკვიდრეობის რეგულაციები, მცირე მეწარმეობის მხარდაჭერა და საზოგადოებრივი სივრცეების პროექტები » (régulations du patrimoine, soutien aux petites entreprises, projets d’espaces publics)."
+        },
+        {
+          "question": "Quelle conséquence culturelle négative est évoquée par la transformation des quartiers ?",
+          "options": [
+            "L’amélioration de la circulation automobile.",
+            "La disparition des relations sociales liées aux espaces traditionnels.",
+            "L’augmentation des espaces verts.",
+            "L’expansion des transports publics."
+          ],
+          "answer": "La disparition des relations sociales liées aux espaces traditionnels.",
+          "explanation": "Le texte souligne que des éléments comme les petites places, les portes et les habitudes familiales se transforment, affectant la communication et les relations sociales, donc leur disparition ou fragilisation. "
+        },
+        {
+          "question": "Quel ton général l’auteur adopte face au phénomène décrit ?",
+          "options": [
+            "Totalement alarmiste et condamnant toute modernisation.",
+            "Strictement technique et apolitique.",
+            "Nuancé, en soulignant avantages et risques tout en proposant des pistes.",
+            "Indifférent, sans proposer d’analyse."
+          ],
+          "answer": "Nuancé, en soulignant avantages et risques tout en proposant des pistes.",
+          "explanation": "L’auteur présente à la fois les bénéfices (qualité d’infrastructures, sécurité) et les risques (perte de traditions) et évoque des solutions, ce qui correspond à un ton nuancé."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-024",
+      "title": "ხმის მეხსიერება: სოფლისა და ქალაქის ურთიერთობები",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 24,
+      "text": "სოფლის და ქალაქის კულტურული დიალოგი საქართველოში საუკუნეების განმავლობაში ძირს ჰკიდებს როგორც ეკონომიკურ, ისე სიმბოლურ ნიშნებს. ახალგაზრდა თაობა ხშირად მიელტვის დიდ ქალაქებში სწავლაზე და სამუშაოზე, თუმცა ფესვები, ხმები, სადღესასწაულო წესები და ვოკალური ტრადიცია ძალიან ხშირად ექვემდებარება გადატვირთვას — ისინი ან ინახება მოგონებად, ან ნაწილობრივ ინტერპრეტაციის ქვეშ შედიან. ბოლო დროში აქტიურად განიხილება სოფლის მეხსიერების ინვენტარიზაცია: კოლექციები ჩაწერილი სიმღერებით, ოჯახური ისტორიებით და ხეხილის გაშენების ტრადიციებით, რომლებიც შესაძლოა ტურისტულ პროდუქტად გარდაიქმნას. კულტურულ ანთროპოლოგებს აშფოთებთ ორი რამ: წუხანდელი ბაზრის ლოგიკა შეიძლება თანამედროვე ენაზე გადაწეროს ფოლკლორს ისე, რომ ის დაკარგოს შინაგანი მნიშვნელობა; და მეორე — კომერციალიზაციამ შეიძლება დაარღვიოს საზოგადოებრივი ურთიერთობები, რომლებზეც ტრადიცია ნამდვილია. პოეტებიც და აქტივისტებიც ამ პრობლემის მხარს უჭერენ — ისინი სისტემატურ და ემპატიურ მიღწევებს ითხოვენ, რათა გადაიხსნას მეხსიერება საფუძვლიანი, საინტერესო და ეთიკურ ფორმებში. წარმატების გასაღები, როგორც ჩანს, თანხმობა და ადგილობრივთა ჩართვაა: მხოლოდ ადგილობრივი ამბის პატივისცემა განაპირობებს ავთენტურობას და იძლევა გზას მდგრად განვითარებაში.",
+      "translation": "Le dialogue culturel entre campagne et ville en Géorgie repose depuis des siècles sur des bases économiques et symboliques. Les jeunes générations partent souvent vers les grandes villes pour étudier et travailler, mais les racines, les chants, les rites festifs et la tradition vocale subissent souvent une surcharge — elles sont soit conservées comme souvenirs, soit partiellement réinterprétées. Récemment, l’inventaire de la mémoire rurale est activement débattu : collections de chants enregistrés, récits familiaux et traditions fruitières qui peuvent se transformer en produits touristiques. Les anthropologues culturels s’inquiètent de deux choses : la logique du marché d’aujourd’hui pourrait réécrire le folklore dans un langage contemporain au point qu’il perde sa signification intrinsèque ; et la commercialisation pourrait perturber les relations sociales fondatrices de la tradition. Poètes et activistes soutiennent ces enjeux — ils demandent des approches systématiques et empathiques pour préserver la mémoire de manière solide, digne d’intérêt et éthique. La clé du succès semble être le consensus et l’implication des habitants : seul le respect de la narration locale garantit l’authenticité et ouvre la voie à un développement durable.",
+      "questions": [
+        {
+          "question": "Quel exemple d’action est mentionné pour inventorier la mémoire rurale ?",
+          "options": [
+            "Construire de nouveaux centres urbains.",
+            "Enregistrer des chants et collecter des récits familiaux.",
+            "Interdire le tourisme dans les villages.",
+            "Remplacer les traditions par des concerts modernes."
+          ],
+          "answer": "Enregistrer des chants et collecter des récits familiaux.",
+          "explanation": "Le texte cite explicitement « კოლექციები ჩაწერილი სიმღერებით, ოჯახური ისტორიებით » (collections de chants enregistrés, récits familiaux) comme action d’inventaire."
+        },
+        {
+          "question": "Pourquoi les anthropologues sont-ils inquiets selon le texte ?",
+          "options": [
+            "Parce que la population rurale augmente trop rapidement.",
+            "Parce que le marché pourrait dénaturer le folklore et la commercialisation perturber les relations sociales.",
+            "Parce que les jeunes refusent toute modernisation.",
+            "Parce que la langue géorgienne disparaît."
+          ],
+          "answer": "Parce que le marché pourrait dénaturer le folklore et la commercialisation perturber les relations sociales.",
+          "explanation": "Le passage explique que la logique du marché peut réécrire le folklore et que la commercialisation risque de perturber les relations sociales, ce qui inquiète les anthropologues."
+        },
+        {
+          "question": "Quelle solution les poètes et activistes proposent-ils ?",
+          "options": [
+            "Une privatisation totale du patrimoine culturel.",
+            "Des approches systématiques et empathiques pour préserver la mémoire.",
+            "D’interdire toute forme de collecte et documentation.",
+            "D’abandonner les traditions au profit du tourisme."
+          ],
+          "answer": "Des approches systématiques et empathiques pour préserver la mémoire.",
+          "explanation": "Le texte indique que poètes et activistes demandent « სისტემატურ და ემპატიურ მიღწევებს » (approches systématiques et empathiques) pour préserver la mémoire."
+        },
+        {
+          "question": "Selon le texte, quel facteur est essentiel pour garantir l’authenticité et un développement durable ?",
+          "options": [
+            "L’intervention exclusive d’experts étrangers.",
+            "Le consensus et l’implication des habitants locaux.",
+            "La commercialisation intensive pour attirer les touristes.",
+            "La suppression des anciens rituels."
+          ],
+          "answer": "Le consensus et l’implication des habitants locaux.",
+          "explanation": "La conclusion du texte affirme que la clé du succès est « თანხმობა და ადგილობრივთა ჩართვა » (le consensus et l’implication des habitants), condition de l’authenticité et du développement durable."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-029",
+      "title": " urbanos espaces verts et inégalités sociales (lecture géorgienne)",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 29,
+      "text": "ქალაქების მწვანე სივრცეები დღეს ხშირად მოდური ურბანული პოლიტიკის ნაწილი ხდება, მაგრამ მათი განაწილება თანაბარი სულ არაა. ბოლო ათწლეულში ბევრი ევროკომისიისა და არასამთავრობო კვლევა დაადასტურა, რომ ცენტრალურ უბნებში და ახალ, უფრო დაფასებულ რაიონებში პარკები, ბაღები და მოფენილი სკვერები უფრო ხშირია, ვიდრე გარეუბნებში, სადაც დაბალი დონის ინფრასტრუქტურა და ნაკლები ფინანსური ინვესტიციებია. მსგავსი არასწორი განაწილება ზრდის სოციალური არათანასწორობას: მწვანე სივრცეები ჯანმრთელობაზე დადებითად მოქმედებს, ზრდიან ქონების ღირებულებას და ხელს უწყობენ სოციალური ქსელების ფორმირებას. თუმცა სივრცეების შექმნა და მოვლა ხშირად არ ითვალისწინებს ადგილობრივ საჭიროებებს; ახალ პარკში შეიძლება აღმოაჩინო მინიმალური ინფრასტრუქტურა ბავშვებისთვის ან მოხუცებისთვის, რაც მიუთითებს პლანირების არასამართლიანობაზე. ურბანისტები და საზოგადოებრივი აქტივისტები დღემდე დისკუსიას აწარმოებენ იმის შესახებ, როგორ შეიძლება პოლიტიკა დაგეგმდეს ისე, რომ ზრუნავდეს ეკოლოგიურ მიზნებს, ხელმისაწვდომობას და სოციალური თანაბრობას. ერთ-ერთ წინადადებად განიხილება მონაწილე დაგეგმარება, სადაც ადგილობრივები აქტიურად იყვნენ ჩართული გადაწყვეტილების მიღებაში, რათა მწვანე სივრცეები მეტად რეაგირებდეს საერთო საჭიროებებზე.",
+      "translation": "Les espaces verts urbains sont aujourd'hui souvent une partie à la mode des politiques urbaines, mais leur répartition n'est pas du tout équitable. Au cours de la dernière décennie, de nombreuses études de l'Union européenne et d'ONG ont confirmé que les parcs, jardins et squares aménagés sont plus fréquents dans les quartiers centraux et dans les nouveaux quartiers plus valorisés que dans les banlieues où l'infrastructure est de moindre qualité et où il y a moins d'investissements financiers. Une telle répartition inégale accroît les inégalités sociales : les espaces verts ont un impact positif sur la santé, augmentent la valeur immobilière et favorisent la formation de réseaux sociaux. Pourtant, la création et l'entretien de ces espaces ne tiennent souvent pas compte des besoins locaux ; dans un nouveau parc, on peut trouver une infrastructure minimale pour les enfants ou les personnes âgées, ce qui indique une planification injuste. Les urbanistes et les activistes continuent de débattre sur la manière dont la politique pourrait être conçue pour prendre en compte les objectifs écologiques, l'accessibilité et l'égalité sociale. Une des propositions est la planification participative, où les habitants seraient activement impliqués dans la prise de décision afin que les espaces verts répondent davantage aux besoins communs.",
+      "questions": [
+        {
+          "question": "Selon le texte, quelle est la conséquence principale d'une mauvaise répartition des espaces verts en milieu urbain ?",
+          "options": [
+            "Une augmentation des taxes municipales pour tous les habitants.",
+            "Une amplification des inégalités sociales.",
+            "La disparition complète des zones piétonnes.",
+            "Une hausse immédiate de la pollution sonore."
+          ],
+          "answer": "Une amplification des inégalités sociales.",
+          "explanation": "Le texte souligne que la répartition inégale des espaces verts augmente les inégalités sociales, en affectant santé, valeur immobilière et réseaux sociaux."
+        },
+        {
+          "question": "Quelle critique le texte formule-t-il à propos de certains parcs nouvellement créés ?",
+          "options": [
+            "Ils sont systématiquement construits sur des terres protégées.",
+            "Ils remplacent des infrastructures scolaires.",
+            "Ils ne prennent pas en compte les besoins spécifiques des populations locales.",
+            "Ils sont exclusivement réservés aux touristes."
+          ],
+          "answer": "Ils ne prennent pas en compte les besoins spécifiques des populations locales.",
+          "explanation": "Le passage indique que la création et la gestion des espaces verts n'intègrent souvent pas les besoins locaux, par exemple pour enfants ou personnes âgées."
+        },
+        {
+          "question": "Quelle solution est proposée dans le texte pour rendre la planification des espaces verts plus équitable ?",
+          "options": [
+            "Privatiser tous les espaces verts pour assurer leur entretien.",
+            "Augmenter les amendes pour les infractions environnementales.",
+            "Mettre en place une planification participative impliquant les habitants.",
+            "Interdire toute construction nouvelle près des parcs."
+          ],
+          "answer": "Mettre en place une planification participative impliquant les habitants.",
+          "explanation": "Le texte mentionne la planification participative comme proposition afin que les habitants participent aux décisions et les espaces répondent aux besoins."
+        },
+        {
+          "question": "Quelle affirmation est correcte d'après l'auteur concernant l'impact des espaces verts ?",
+          "options": [
+            "Ils n'ont d'effet que sur la biodiversité, pas sur les communautés humaines.",
+            "Ils diminuent systématiquement la valeur des biens immobiliers alentour.",
+            "Ils ont un impact positif sur la santé et peuvent renforcer les réseaux sociaux.",
+            "Ils sont inutiles dans les centres-villes densément peuplés."
+          ],
+          "answer": "Ils ont un impact positif sur la santé et peuvent renforcer les réseaux sociaux.",
+          "explanation": "Le texte indique explicitement que les espaces verts influencent positivement la santé et favorisent la formation de réseaux sociaux."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-030",
+      "title": "conserver le chant polyphonique géorgien à l'ère moderne",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 30,
+      "text": "საქართველოში ტრადიციული პოლიფონიური სიმღერა საუკუნეების მანძილზე გადამდგარა ოჯახურ, ფსიქოთერაპიულ და რიტუალურ ჩარჩოებში. ბოლო საუკუნეში, ურბანიზაციისა და მასობრივი კულტურის გავრცელების ფონზე, ხალხური პრაქტიკები სულ უფრო იშვიათი ხდება, თუმცა ორგანიზმებად გაერთიანებულმა პედაგოგებმა, მკვლევარებმა და მომღერლებმა მოახერხეს ფორმალობა — ჯგუფური სწავლება, ჩანაწერების გააქტიურება და ფესტივალების შექმნა — რაც ხანგრძლივობას უზრუნველყოფს. ამასთან, კონსერვაციის მეთოდების შორის არსებობს ეთიკური კითხვებიც: რედაცირებით თუ არაორიგინალური წარმოდგენებით შეიძლება დავკარგოთ ადგილობრივი მანერების ნიუანსები. მუზეუმებისა და უნივერსიტეტების არქივებმა უმნიშვნელოვანესი როლი შეასრულეს, მაგრამ საჭიროა, რომ პროგრამები არ იყო მხოლოდ აკადემიური — პრაქტიკა უნდა დაბრუნდეს საზოგადოებრივ სივრცეებში, ოჯახებსა და სელექციით არჩეულ ჯგუფებში. უფრო შორსმჭვრეტელობა მოითხოვს, რომ ახალგაზრდებისთვის შექმნილი რესურსები იყვნენ თანამედროვე და მიმზიდველი, თუმცა არ შეამცირონ მუსიკის ვრადიციული სიღრმე. საბოლოო მიზანია პოლიფონიურობის ცოცხალი გადაცემა — არა როგორც რელიკვია, არამედ როგორც ყოველდღიური შემოქმედებრივი ჟივითობა, რომელიც საზოგადოებას ენერგიას და იდენტობას აძლევს.",
+      "translation": "En Géorgie, le chant polyphonique traditionnel s'est transmis pendant des siècles au sein des cadres familiaux, thérapeutiques et rituels. Au XXe siècle, dans le contexte de l'urbanisation et de la diffusion de la culture de masse, les pratiques populaires deviennent de plus en plus rares, cependant des pédagogues, chercheurs et chanteurs organisés ont su formaliser — apprentissage en groupe, activation des enregistrements et création de festivals — assurant une certaine pérennité. Toutefois, parmi les méthodes de conservation se posent des questions éthiques : par réduction ou des interprétations non originelles, on peut perdre les nuances des manières locales. Les archives des musées et des universités ont joué un rôle crucial, mais il est nécessaire que les programmes ne soient pas uniquement académiques — la pratique doit retourner dans les espaces publics, les familles et des groupes choisis par sélection. Une vision plus prospective exige que les ressources pour les jeunes soient modernes et attractives, sans pour autant diminuer la profondeur traditionnelle de la musique. L'objectif final est la transmission vivante de la polyphonie — non pas comme relique, mais comme une vitalité créative quotidienne qui donne énergie et identité à la société.",
+      "questions": [
+        {
+          "question": "Quel est, d'après le texte, l'un des risques liés aux méthodes de conservation de la polyphonie ?",
+          "options": [
+            "La disparition totale des archives sonores.",
+            "La perte des nuances des manières locales par standardisation.",
+            "L'interdiction des festivals folkloriques.",
+            "La transformation de la polyphonie en musique électronique."
+          ],
+          "answer": "La perte des nuances des manières locales par standardisation.",
+          "explanation": "Le texte précise qu'en réduisant ou en proposant des interprétations non originelles, on risque de perdre les nuances locales; il s'agit d'une standardisation problématique."
+        },
+        {
+          "question": "Quelle stratégie est présentée comme ayant aidé à assurer la pérennité du chant polyphonique ?",
+          "options": [
+            "L'exclusion des jeunes pour préserver l'authenticité.",
+            "La formalisation par apprentissage de groupe, enregistrements et festivals.",
+            "La commercialisation complète auprès du marché mondial.",
+            "L'enseignement uniquement en milieu universitaire."
+          ],
+          "answer": "La formalisation par apprentissage de groupe, enregistrements et festivals.",
+          "explanation": "Le texte indique que pédagogues et chanteurs ont formalisé la transmission via apprentissage collectif, enregistrements et festivals, ce qui a assuré une continuité."
+        },
+        {
+          "question": "Selon l'auteur, comment ne doit-on pas considérer la polyphonie ?",
+          "options": [
+            "Comme une relique à préserver statiquement.",
+            "Comme une ressource d'identité et d'énergie sociale.",
+            "Comme un élément à adapter pour les jeunes.",
+            "Comme une pratique devant revenir dans les espaces publics."
+          ],
+          "answer": "Comme une relique à préserver statiquement.",
+          "explanation": "L'auteur affirme que l'objectif est la transmission vivante, pas de considérer la polyphonie comme une relique; il faut qu'elle reste dynamique."
+        },
+        {
+          "question": "Quel équilibre l'auteur suggère-t-il pour les ressources destinées aux jeunes ?",
+          "options": [
+            "Produire uniquement des contenus traditionnels stricts.",
+            "Créer des ressources modernes et attractives sans diminuer la profondeur traditionnelle.",
+            "Remplacer la tradition par des formes musicales contemporaines.",
+            "Limiter l'accès des jeunes aux archives pour éviter les mauvais usages."
+          ],
+          "answer": "Créer des ressources modernes et attractives sans diminuer la profondeur traditionnelle.",
+          "explanation": "Le texte recommande des ressources jeunes modernes et attrayantes qui ne réduisent pas la profondeur traditionnelle de la musique, donc un équilibre entre innovation et respect."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-031",
+      "title": "მუხლჩაუხრელი მემკვიდრეობა",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 31,
+      "text": "ჩემს სამშობლოში, ქალაქის ნაგებობათა ისტორია ხშირად ოჯახური ამბების ქსელისგან შედგება; ასეა ჩემი ბებიის სახლის ამბავიც. ის პატარა, მოულბენო ბოძებით მორთული ტიპიური ქალაქური კარიბჭე იყო, სადაც რამდენიმე თაობა ერთად ცხოვრობდა და საკუთარი წესებით მართავდა ყოველდღიურობას. ბებო მიყვებოდა, რომ ადრე კარიბჭის საერთო ტერიტორია შრომის, საქორწილო წვეულებისა და სადღესასწაულო ქოროების ადგილი იყო. საბჭოთა დროიდან დაწყებული, მწირი რესურსებისა და საცხოვრებლის კომპრესიის გამო, ბევრმა ოჯახმა საკუთარ თავზე აიღო კარიბჭის სივრცის წილი: აივნების დახურული გასხვლა, საერთო სადარბაზოების გადაკეთება საცხოვრებელი ოთახებისთვის. ეს პროცესი формალურადაც და არაფორმალურადაც შეცვალა მეზობლური ურთიერთობის ძალა — ერთდროულად გაძლიერდა მახასიათებლური სოლიდარობა და გაჩნდა ნიუანსები საკუთრების და პასუხისმგებლობის შესახებ. დღევანდელი ახალგაზრდა თაობა უფრო ჩამორჩენილი ხასიათის: მათთვის კომუნალურობის ძველი ფორმები ხშირად უხეში შეზღუდვად აღიქმება. თუმცა რამდენიმე ინიციატივამ, კულტურული პროექტების და პატარა საზოგადოებრივი ბაღების ჩამოყალიბებამ, სულ სხვა ინტენსივობა შესძინა ამ სივრცის ცხოვრებისუნარიანობას და განაახლა ურთიერთობების ელჩები.",
+      "translation": "Dans ma patrie, l'histoire des bâtiments urbains se compose souvent d'un réseau d'histoires familiales ; c'est aussi le cas de la maison de ma grand-mère. C'était un portail typique de la ville, décoré de piliers modestes, où plusieurs générations vivaient ensemble et organisaient le quotidien selon leurs propres règles. Ma grand-mère racontait que l'espace commun du portail servait autrefois pour le travail collectif, les mariages et les danses festives. Depuis l'époque soviétique, en raison de ressources limitées et de la compression de l'habitat, de nombreuses familles se sont approprié une part de l'espace : fermeture des balcons, transformation des paliers communs en pièces d'habitation. Ce processus a changé, formellement et informellement, la force des relations de voisinage — il a simultanément renforcé une solidarité caractéristique et fait apparaître des nuances sur la propriété et la responsabilité. La jeune génération d'aujourd'hui a une sensibilité différente : pour elle, les anciennes formes de communalité sont souvent perçues comme des contraintes. Pourtant, plusieurs initiatives, la création de projets culturels et de petits jardins communautaires, ont insufflé une nouvelle intensité à la viabilité de cet espace et renouvelé les médiateurs des relations.",
+      "questions": [
+        {
+          "question": "Selon le texte, quelle fonction l'espace commun du portail remplissait-il auparavant ?",
+          "options": [
+            "Lieu de stockage pour les outils agricoles.",
+            "Espace pour le travail collectif et les célébrations.",
+            "Marché permanent pour vendre des produits locaux.",
+            "Entrepôt pour les marchandises industrielles."
+          ],
+          "answer": "Espace pour le travail collectif et les célébrations.",
+          "explanation": "Le texte précise que l'espace commun servait pour le travail collectif, les mariages et les danses festives, donc pour le travail collectif et les célébrations."
+        },
+        {
+          "question": "Quel effet la transformation des balcons et des paliers a-t-elle eu sur les relations de voisinage ?",
+          "options": [
+            "Elle a totalement supprimé toute forme de solidarité.",
+            "Elle a renforcé uniquement l'individualisme sans conséquences sociales.",
+            "Elle a simultanément renforcé la solidarité et créé des tensions liées à la propriété.",
+            "Elle a rendu les relations de voisinage formelles et administratives."
+          ],
+          "answer": "Elle a simultanément renforcé la solidarité et créé des tensions liées à la propriété.",
+          "explanation": "Le texte indique que ce processus a à la fois renforcé une solidarité caractéristique et fait apparaître des nuances sur la propriété et la responsabilité."
+        },
+        {
+          "question": "Comment la jeune génération perçoit-elle souvent les anciennes formes de communalité ?",
+          "options": [
+            "Comme une opportunité économique inexploitée.",
+            "Comme une source d'héritage culturel immuable.",
+            "Comme une contrainte gênante.",
+            "Comme la seule manière acceptable de vivre en ville."
+          ],
+          "answer": "Comme une contrainte gênante.",
+          "explanation": "Le texte explique que la jeune génération considère souvent les anciennes formes de communalité comme des contraintes."
+        },
+        {
+          "question": "Quelles initiatives ont aidé à renouveler la vie de l'espace commun ?",
+          "options": [
+            "La construction d'immeubles privés et la privatisation des balcons.",
+            "La fermeture définitive des accès communs.",
+            "Des projets culturels et la création de petits jardins communautaires.",
+            "La transformation des anciens jardins en parkings."
+          ],
+          "answer": "Des projets culturelset la création de petits jardins communautaires.",
+          "explanation": "Le texte mentionne que des initiatives comme des projets culturels et la création de petits jardins communautaires ont redonné de l'intensité à la viabilité de l'espace."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-032",
+      "title": "ენერგეტიკული გადასვლა და ტერიტორიული მასშტაბები",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 32,
+      "text": "ენერგეტიკული გადასვლა, რომელსაც დღეს ბევრმა პოლიტიკურმა აქტორმა აღიარა, არ არის მხოლოდ ტექნოლოგიური პროცესი; ის პირდაპირ აისახება რეგიონულ და ადგილობრივ თავსებადობებზე. მცირე სანაგვე ქსელების გაბატონებისას, ახალი განახლებადი ენერგეტიკული პროექტები კოლექტიურ სასარგებლოზე მეტად მომგებიანობა-სტრატეგიებს უყვართ, შედეგად კი მუნიციპალიტეტები უცხოურ ინვესტიციებთან და კანონის მოთხოვნებთან უწევენ ეშმაკობას. აგრეთვე, ცვლილებები ინფრასტრუქტურის სივრცულ განაწილებაში ზრდის გარემოსდაცვითი კონფლიქტების რისკს: საიდან უნდა გაიღოს წილი წყლის, მიწის ან ხედების გამო? ადგილობრივი კულტურული იდენტობები, რომლებსაც ისედაც შერეული ისტორიული მემკვიდრეობა ამაგრებს, ხშირად ზარალდება, თუ გადაწყვეტილებები ზედმეტად ცენტრალიზებულია. წარმატებული მაგალითები კი, სადაც გადაწყვეტილებები მართმევენ მოსახლეობას, აჩვენებს, რომ ადგილობრივი მონაწილეობა, გამჭვირვალობა და კომპენსაციების საინკლუზიო მექანიზმები არა მხოლოდ სამართლიანობის განცდას ქმნიან, არამედ პროექტების მდგრადობასაც უფრო მეტად უზრუნველყოფენ. მოკლედ, ენერგეტიკული პოლიტიკა უნდა მოერგოს ტერიტორიული რეალობების მქონე წესებს და არა პირიქით.",
+      "translation": "La transition énergétique, reconnue aujourd'hui par de nombreux acteurs politiques, n'est pas seulement un processus technologique ; elle affecte directement les compatibilités régionales et locales. Dans le contexte de domination de petits réseaux, les nouveaux projets d'énergies renouvelables privilégient souvent les stratégies de rentabilité plutôt que l'intérêt collectif ; en conséquence, les municipalités doivent composer avec des investissements étrangers et des exigences légales. De plus, les changements dans la distribution territoriale des infrastructures augmentent le risque de conflits environnementaux : qui doit céder des ressources pour l'eau, la terre ou les paysages ? Les identités culturelles locales, déjà soutenues par un héritage historique mixte, sont souvent endommagées si les décisions sont trop centralisées. Des exemples réussis, où les décisions intègrent la population, montrent que la participation locale, la transparence et des mécanismes de compensation inclusifs créent non seulement un sentiment de justice, mais renforcent aussi la durabilité des projets. En bref, la politique énergétique doit s'adapter aux réalités territoriales et non l'inverse.",
+      "questions": [
+        {
+          "question": "Quel est le principal risque lié à la redistribution spatiale des infrastructures d'énergie ?",
+          "options": [
+            "La disparition totale des petites entreprises locales.",
+            "L'augmentation des conflits environnementaux pour des ressources comme l'eau ou la terre.",
+            "La standardisation des pratiques agricoles.",
+            "La réduction immédiate des coûts énergétiques pour tous."
+          ],
+          "answer": "L'augmentation des conflits environnementaux pour des ressources comme l'eau ou la terre.",
+          "explanation": "Le texte mentionne explicitement que la redistribution augmente le risque de conflits environnementaux concernant l'eau, la terre ou les paysages."
+        },
+        {
+          "question": "Pourquoi certaines municipalités se trouvent-elles en difficulté face aux nouveaux projets renouvelables ?",
+          "options": [
+            "Parce que elles refusent toute forme d'investissement extérieur.",
+            "Parce que ces projets privilégient la rentabilité et impliquent des investissements étrangers et des exigences légales.",
+            "Parce qu'elles manquent totalement d'histoire culturelle.",
+            "Parce que les résidents préfèrent les combustibles fossiles."
+          ],
+          "answer": "Parce que ces projets privilégient la rentabilité et impliquent des investissements étrangers et des exigences légales.",
+          "explanation": "Le texte explique que les projets favorisent les stratégies de rentabilité et forcent les municipalités à composer avec des investissements étrangers et des contraintes juridiques."
+        },
+        {
+          "question": "Quels éléments contribuent, selon le texte, à la réussite durable des projets énergétiques ?",
+          "options": [
+            "La centralisation des décisions et l'accélération administrative.",
+            "La privatisation totale des ressources locales.",
+            "La participation locale, la transparence et des mécanismes de compensation inclusifs.",
+            "L'exclusion des communautés locales pour éviter les contestations."
+          ],
+          "answer": "La participation locale, la transparence et des mécanismes de compensation inclusifs.",
+          "explanation": "Le texte indique clairement que la participation locale, la transparence et des mécanismes de compensation inclusifs renforcent la durabilité des projets."
+        },
+        {
+          "question": "Quelle recommandation finale l'auteur propose pour la politique énergétique ?",
+          "options": [
+            "Que la politique énergétique impose les mêmes règles à toutes les régions sans exception.",
+            "Qu'elle s'adapte aux réalités territoriales plutôt que d'imposer un modèle unique.",
+            "Qu'elle privilégie exclusivement les investisseurs étrangers.",
+            "Qu'elle reporte toute décision aux instances internationales."
+          ],
+          "answer": "Qu'elle s'adapte aux réalités territoriales plutôt que d'imposer un modèle unique.",
+          "explanation": "En conclusion, le texte affirme que la politique énergétique doit s'adapter aux réalités territoriales et non l'inverse."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-033",
+      "version": 33,
+      "cefr": "C1",
+      "level_name": "C1",
+      "title": "ქალაქის რენოვაცია და კულტურული მეხსიერება",
+      "text": "თბილისის ერთ-ერთ ძველ უბანში ბოლო წლების განმავლობაში ინტენსიური რენოვაციის პროცესია — ნანგრევების ნაცვლად შენდება თანამედროვე ბინები და კომერციული სივრცეები. ადგილობრივმა მცხოვრებლებმა შეშფოთება გამოთქვეს: მრავალი ძველი სახლი და საჯარო სივრცე, რომლებშიც არაფორმალური შეხვედრები და საერთო ისტორიული ამბავი იქნა ნერგილი, იკარგება. არქიტექტორები აცხადებენ, რომ რესტავრაცია ხშირად ეკონომიკურ მოთხოვნაზეა მორგებული და სოციალური მხარისთვის ნაკლებ ყურადღებას აქცევს. კულტურის მკვლევრები ამტკიცებენ, რომ მხოლოდ უკვე აღდგენილი ფასადის შენარჩუნება არ კმარა; აუცილებელია სოციალური ურთიერთობების, მეხსიერების და ადამიანური ქსელების აღდგენა. რამდენიმე წარმატებული პროექტი ქვეყნიერების სხვადასხვა ქალაქში გვიჩვენებს, რომ მგრძნობიარე რენოვაცია მოიცავს ადგილობრივ ბიზნესთა შენარჩუნებას, საზოგადოებრივი თავშეყრის წერტილების დამარეგულირებელ პროგრამებს და მემკვიდრეობის ეპიზოდების გამოფენას, რომლის საშუალებითაც მოქალაქეები საკუთარ ისტორიას ინარჩუნებენ. საბოლოოდ, ქალაქის ნორმალიზებული ფუნქციონირება და საცხოვრებელი პირობების გაუმჯობესება შესაძლებელია ისე, რომ საზოგადოების ისტორიული აურა არ დაილეწოს.",
+      "translation": "Dans l’un des vieux quartiers de Tbilissi, un processus intense de rénovation a lieu ces dernières années — à la place des ruines, on construit des immeubles modernes et des espaces commerciaux. Les habitants locaux ont exprimé leur inquiétude : de nombreuses maisons anciennes et espaces publics, où se déroulaient des rencontres informelles et où s’enracinait une histoire collective, disparaissent. Les architectes affirment que la restauration est souvent adaptée à la demande économique et accorde moins d’attention à l’aspect social. Les chercheurs en culture soutiennent que la simple conservation de la façade restaurée ne suffit pas ; il est nécessaire de rétablir les relations sociales, la mémoire et les réseaux humains. Plusieurs projets réussis dans différentes villes du monde montrent qu’une rénovation sensible inclut la préservation des commerces locaux, des programmes régulant les lieux de rassemblement publics et des expositions d’épisodes du patrimoine, permettant aux citoyens de conserver leur histoire. Finalement, la normalisation du fonctionnement urbain et l’amélioration des conditions de vie peuvent se faire sans briser l’aura historique de la communauté.",
+      "questions": [
+        {
+          "question": "Quel est le principal souci des habitants concernant la rénovation du quartier ?",
+          "options": [
+            "La hausse des impôts municipaux",
+            "La disparition des maisons anciennes et des espaces de rencontre",
+            "La mauvaise qualité des nouvelles constructions",
+            "L'augmentation du trafic routier"
+          ],
+          "answer": "La disparition des maisons anciennes et des espaces de rencontre",
+          "explanation": "Le texte indique que les habitants s'inquiètent parce que 'მრავალი ძველი სახლი და საჯარო სივრცე ... იკარგება' (de nombreuses maisons anciennes et espaces publics disparaissent)."
+        },
+        {
+          "question": "Selon les architectes mentionnés, pourquoi la restauration est-elle problématique ?",
+          "options": [
+            "Parce qu'elle détruit complètement l'architecture historique",
+            "Parce qu'elle privilégie l'aspect économique au détriment du social",
+            "Parce qu'elle utilise des matériaux inadaptés au climat",
+            "Parce qu'elle augmente le coût du logement pour les riches"
+          ],
+          "answer": "Parce qu'elle privilégie l'aspect économique au détriment du social",
+          "explanation": "Le texte précise que 'რესტავრაცია ხშირად ეკონომიკურ მოთხოვნაზეა მორგებული და სოციალური მხარისთვის ნაკლებ ყურადღებას აქცევს' (la restauration est souvent adaptée à la demande économique et accorde moins d'attention au social)."
+        },
+        {
+          "question": "Quelle solution les chercheurs en culture proposent-ils pour préserver le patrimoine ?",
+          "options": [
+            "Interdire toute construction neuve dans le quartier",
+            "Conserver uniquement les façades historiques",
+            "Restaurer non seulement les bâtiments mais aussi les relations sociales et les réseaux",
+            "Transformer les bâtiments historiques en musées fermés au public"
+          ],
+          "answer": "Restaurer non seulement les bâtiments mais aussi les relations sociales et les réseaux",
+          "explanation": "Le texte affirme qu'il est nécessaire de 'სოციალური ურთიერთობების, მეხსიერების და ადამიანური ქსელების აღდგენა' (restaurer les relations sociales, la mémoire et les réseaux humains), pas seulement les façades."
+        },
+        {
+          "question": "Quel élément n'est PAS présenté comme faisant partie d'une rénovation sensible ?",
+          "options": [
+            "La préservation des commerces locaux",
+            "La régulation des lieux de rassemblement publics",
+            "L'exposition d'épisodes du patrimoine",
+            "La privatisation complète des espaces publics"
+          ],
+          "answer": "La privatisation complète des espaces publics",
+          "explanation": "Le texte mentionne la préservation des commerces, la régulation des lieux de rassemblement et les expositions patrimoniales ; il ne préconise pas la privatisation complète des espaces publics."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-034",
+      "version": 34,
+      "cefr": "C1",
+      "level_name": "C1",
+      "title": "ღვინის მემკვიდრეობა და თანამედროვე გამოწვევები",
+      "text": "საქართველო ხანგრძლივი ამფორიული ღვინის ტექნიკის, ყურძნის ადგილობრივი ჯიშებისა და სახლის შენახვის კულტურის სამშობლოდ ითვლება. ბოლო ორი ათწლეულის განმავლობაში მცირე მეღვინეობისა და აგროეთნოგრაფიული ტურიზმის პოპულარობამ ახალი სიცოცხლე აჩინა სტარ ქვევრებში დაწურვის ტრადიციებს. თუმცა საერთაშორისო ბაზრის მოთხოვნებმა, ხარისხისა და სტანდარტიზაციის წნეხმა მცირე საწარმოებს კომერციულად უფრო ადაპტირებული მეთოდებისკენ უბიძგა: სტერილური საშრობები, ჩანასახოვანი ფილტრაცია და თანამედროვე ეტიკეტირება. მომდინარეობს დილემა — როგორ შეინარჩუნონ უნიკალური გემო და კულტურული კონტექსტი, samtidig გამძლეობისა და კონკურენტუნარიანობის შენარჩუნების აუცილებლობის პირობებში. კვლევებმა აჩვენა, რომ კონკურენტები, ვინც აერთიანებს ტრადიციულ ტექნიკას თანამედროვე ხარისხის მონიტორინგთან, უკეთ აღწევენ სამომხმარებლო ნიშებს. პარალელურად, სოციალურ ქსელებში და საერთაშორისო დეგუსტაციებზე უნიკალური ისტორიის მოხსენიება ხშირად მეტ ღირებულებას მატებს პროდუქტს. სცდება მხოლოდ ტექნოლოგიას — მხედველობაშია საოჯახო ნარატივები, მიწის მრავალფეროვნების აღწერილობა და პროცესის მონაწილეების სახელი. ამ გზით ქართული ღვინო უფრო თვითმყოფადობის შენარჩუნებით იბრძვის გლობალურ ბაზარზე.",
+      "translation": "La Géorgie est considérée comme la patrie de la technique du vin en amphore, des cépages locaux et de la culture de la conservation domestique. Au cours des deux dernières décennies, la popularité de la petite viticulture et du tourisme agro‑ethnographique a insufflé une nouvelle vie aux traditions de pressage en qvevri. Cependant, les exigences du marché international, la pression sur la qualité et la standardisation ont poussé les petites entreprises vers des méthodes commercialement plus adaptées : caves stériles, filtration précoce et étiquetage moderne. Surgit un dilemme — comment préserver la saveur unique et le contexte culturel tout en assurant durabilité et compétitivité. Des études montrent que les concurrents qui combinent la technique traditionnelle avec un contrôle moderne de la qualité atteignent mieux des niches consommateur. Parallèlement, la mention d'une histoire unique sur les réseaux sociaux et lors de dégustations internationales augmente souvent la valeur du produit. Il ne s'agit pas seulement de technologie — il faut aussi prendre en compte les récits familiaux, la description de la diversité des sols et le nom des participants au processus. De cette manière, le vin géorgien lutte sur le marché mondial en préservant son identité.",
+      "questions": [
+        {
+          "question": "Quelle tradition viticole géorgienne est mentionnée au début du texte ?",
+          "options": [
+            "La viticulture en terrasses",
+            "La technique du vin en amphore (qvevri)",
+            "La vinification en fûts de chêne",
+            "La fermentation malolactique contrôlée"
+          ],
+          "answer": "La technique du vin en amphore (qvevri)",
+          "explanation": "Le texte commence en indiquant que la Géorgie est la patrie de la 'ამფორიული ღვინის ტექნიკის' (technique du vin en amphore) et des 'სტარ ქვევრებში' (qvevri)."
+        },
+        {
+          "question": "Quel effet les marchés internationaux ont-ils eu sur les petites exploitations ?",
+          "options": [
+            "Ils ont forcé la disparition complète des traditions locales",
+            "Ils ont encouragé l'utilisation de méthodes plus commercialement adaptées",
+            "Ils ont imposé l'exportation uniquement des vins pétillants",
+            "Ils ont éliminé la nécessité du marketing narratif"
+          ],
+          "answer": "Ils ont encouragé l'utilisation de méthodes plus commercialement adaptées",
+          "explanation": "Le texte explique que la pression sur la qualité et la standardisation 'უბიძგა მცირე საწარმოებს კომერციულად უფრო ადაპტირებული მეთოდებისკენ' (a poussé les petites entreprises vers des méthodes plus adaptées commercialement)."
+        },
+        {
+          "question": "Selon le texte, qu'est-ce qui augmente souvent la valeur du produit sur les réseaux sociaux et lors des dégustations ?",
+          "options": [
+            "La réduction du prix de vente",
+            "La mention d'une histoire unique",
+            "L'utilisation exclusive de technologie moderne",
+            "L'emballage minimaliste"
+          ],
+          "answer": "La mention d'une histoire unique",
+          "explanation": "Il est dit que 'უნიკალური ისტორიის მოხსენიება ხშირად მეტ ღირებულებას მატებს პროდუქტს' (la mention d'une histoire unique ajoute souvent de la valeur)."
+        },
+        {
+          "question": "Quelle stratégie est présentée comme efficace pour concurrencer sur le marché mondial ?",
+          "options": [
+            "Abandonner les techniques traditionnelles pour adopter uniquement la standardisation",
+            "Combiner techniques traditionnelles et contrôle moderne de la qualité",
+            "Produire uniquement pour le marché local sans exportation",
+            "Se concentrer uniquement sur des cépages internationaux"
+          ],
+          "answer": "Combiner techniques traditionnelles et contrôle moderne de la qualité",
+          "explanation": "Le texte souligne que ceux 'ვინც აერთიანებს ტრადიციულ ტექნიკას თანამედროვე ხარისხის მონიტორინგთან' réussissent mieux à atteindre des niches, donc combiner tradition et contrôle moderne est la stratégie efficace."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-035",
+      "version": 35,
+      "cefr": "C1",
+      "title": "პირობითი მეხსიერება და ციფრული არქივები",
+      "level_name": "C1",
+      "text": "გასული ათწლეულების განმავლობაში უამრავი მატიანე, სპეციალურად ზეპირი მოთხრობები და რიტუალური სიმღერები მუდმივად უკავშირდებოდა კონკრეტულ თანამეგობრობას და ოჯახურ სიტუაციას. თუმცა, ტექნოლოგიური პროგრესი და ციფრული არქივირების შესაძლებლობები მათ ხელმისაწვდომობას რადიკალურად შეცვლის. პრობლემები მრავალფეროვანია: ერთი მხრივ, ციფრული მონაცემები აფართოებს აუდიტორიას და იცავს მას იშვიათი გაქრობისგან; მეორე მხრივ, ზეპირი კულტურა თავის არსს კარგავს, როცა იგი კონტექსტიდან ამოღებულია და მედიუმის წნეხს ექვემდებარება. მკვლევრები ამ დროს ხაზს უსვამენ ეთიკურ საკითხებს: ვინ ფლობს ჩანაწერს ან როგორ უნდა მოხდეს მასთან წვდომა, თუ ის შეიცავს საბჭოჩვეულებრივი წესებს ან პერსონალურ ამბავს? ზოგი აღნიშნავს, რომ არქივირება უნდა დაეხმაროს ადგილობრივ ინიციატივებს — ენისა და ტრადიციის სწავლების პროგრამებს — და არ უნდა გახდეს ტრეფიკინგის იარაღი ტურისტული ბაზრისთვის. საბოლოოდ, ინოვაციური მიდგომები, რომლებიც აერთიანებს ტექნოლოგიას და საზოგადოებებს, ყველაზე перспективულად ცნობილა: აპლიკაციები, ავტორი-მცოდნეობის პატჩები და ღია ლიცენზიები, რომლებიც უკავშირდება ადგილობრივ კონტროლს და გამჭვირვალეობას, შესაძლოა შეინარჩუნოს როგორც მასალა, ისე კონტექსტი.",
+      "translation": "Au cours des dernières décennies, de nombreuses traditions, notamment des récits oraux et des chants rituels, étaient intimement liées à une communauté et à un cadre familial précis. Pourtant, le progrès technologique et les possibilités d'archivage numérique modifient radicalement leur accessibilité. Les enjeux sont multiples : d'une part, les données numériques élargissent l'audience et préservent ces éléments d'une disparition rare ; d'autre part, la culture orale perd de son essence lorsqu'elle est sortie de son contexte et soumise à la contrainte du médium. Les chercheurs soulignent alors des questions éthiques : qui possède un enregistrement, ou comment y accéder si celui-ci contient des règles coutumières ou des récits personnels ? Certains affirment que l'archivage devrait soutenir les initiatives locales — des programmes d'enseignement de la langue et des traditions — et ne pas devenir un instrument de trafic pour le marché touristique. En fin de compte, les approches innovantes qui associent technologie et communautés semblent les plus prometteuses : applications, modules de reconnaissance des auteurs et licences ouvertes liées au contrôle local et à la transparence pourraient préserver à la fois le matériau et le contexte.",
+      "questions": [
+        {
+          "question": "Quel est le principal risque évoqué dans le texte lorsque la culture orale est numérisée ?",
+          "options": [
+            "La perte d'audience locale due à la numérisation",
+            "La décontextualisation qui appauvrit sa signification",
+            "La détérioration physique des enregistrements numériques",
+            "L'interdiction d'accès par les communautés locales"
+          ],
+          "answer": "La décontextualisation qui appauvrit sa signification",
+          "explanation": "Le texte souligne que la culture orale perd son essence lorsqu'elle est sortie de son contexte et soumise au médium numérique : il s'agit donc d'une décontextualisation appauvrissante."
+        },
+        {
+          "question": "Parmi les solutions proposées, laquelle combine technologie et contrôle local ?",
+          "options": [
+            "La privatisation des archives par des entreprises culturelles",
+            "La mise en place d'un monopole national des enregistrements",
+            "Des applications, modules de reconnaissance et licences ouvertes liés au contrôle local",
+            "L'interdiction totale de la numérisation des documents"
+          ],
+          "answer": "Des applications, modules de reconnaissance et licences ouvertes liés au contrôle local",
+          "explanation": "Le texte évoque explicitement les approches innovantes: applications, outils d'authorship et licences ouvertes associées au contrôle local et à la transparence."
+        },
+        {
+          "question": "Quelle préoccupation éthique est mentionnée concernant les enregistrements ?",
+          "options": [
+            "La pollution sonore causée par la diffusion des chants",
+            "La propriété des enregistrements et l'accès en cas de contenu sensible",
+            "Le coût élevé du stockage numérique",
+            "La traduction automatique inexacte des récits"
+          ],
+          "answer": "La propriété des enregistrements et l'accès en cas de contenu sensible",
+          "explanation": "Le passage note des questions éthiques telles que « qui possède le fichier » et « comment y accéder » si le contenu comporte des règles coutumières ou des récits personnels."
+        },
+        {
+          "question": "Quel usage de l'archivage est critiqué comme potentiellement nuisible ?",
+          "options": [
+            "Soutenir des programmes d'enseignement locaux",
+            "Servir d'outil au marché touristique pour exploiter la culture",
+            "Partager des ressources sous licence ouverte",
+            "Utiliser des applications créées par les communautés"
+          ],
+          "answer": "Servir d'outil au marché touristique pour exploiter la culture",
+          "explanation": "Le texte avertit que l'archivage ne doit pas devenir un instrument de « traficotage » pour le marché touristique, c'est-à-dire l'exploitation commerciale de la culture."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-036",
+      "version": 36,
+      "cefr": "C1",
+      "title": "ველომოღვაწეობა ქალაქში: პოლიტიკა და რეალობა",
+      "level_name": "C1",
+      "text": "ბევრ ევროპულ ქალაქში ბოლო წლების განმავლობაში ველოსიპედით გადაადგილების მხარდაჭერამ მნიშვნელოვან ცვლილებებს მოუტანა ურბანულ ყოფას: ინვესტიციები ინფრასტრუქტურაში, საგზაო უსაფრთხოების რეგულაციები და დედაქალაქების გრძელვადიანი კამპანიები. თუმცა בעיר მოქნილი ველორუკები არა მხოლოდ კომფორტსა და გარემოს იცავს, არამედ სოციალური უთანასწორობის სხვა სახესაც გამოაჩენს. უბნები, სადაც ინვესტიციები გაუგონრად მიმდინარეობს, უახლოეს პერიოდში ფასები და საცხოვრებლის მოთხოვნა იზრდება — შედეგად გაუტოლდება ვითარება, რომელიც ადგილობრივებისთვის თავსატეხ ქმნის. პოლიტიკის შემსრულებლები განაპირობებენ მონეტარულ და საჯარო მიმართვას: შეღავათიანი ტრანსპორტი ხელს უწყობს ქალაქში შეუფერხებელ გადაადგილებას, მაგრამ ბიუჯეტის დატვირთვის და კერძო პარტნიორობის გამო გადაწყვეტილებები ხშირად კონსენსუსის გარეშე მიიღება. მკვლევრები და აქტივისტები მითითებენ, რომ ველოსადგურების განაწილებას უნდა მოჰყვეს სოციალური თანასწორობის შეფასები: აბსოლუტური რაოდენობა იშვიათად მეტყველებს სამართლიანობაზე; აუცილებელია ინტეგრირებული გეგმები, თანადგომა საცხოვრებლის პოლიტიკასა და ადგილობრივი პარტნიორების ჩართვა. მოკლედ რომ ვთქვათ, ველოსადგურების სიმარტივე მხოლოდ ნიშანია — მართვა და კონტექსტი განსაზღვრავს მათ რეალურ ეფექტს.",
+      "translation": "Dans de nombreuses villes européennes, le soutien aux déplacements à vélo a apporté des changements significatifs à la vie urbaine ces dernières années : investissements dans les infrastructures, règles de sécurité routière et campagnes longues des capitales. Cependant, des couloirs cyclables souples en ville n'assurent pas seulement le confort et la protection de l'environnement, ils révèlent aussi d'autres formes d'inégalités sociales. Dans les quartiers où les investissements arrivent en masse, les prix et la demande de logement augmentent — ce qui crée des tensions pour les habitants. Les décideurs déterminent les orientations monétaires et publiques : le transport subventionné favorise la mobilité urbaine, mais en raison de la pression budgétaire et de partenariats privés, les décisions sont souvent prises sans consensus. Chercheurs et activistes insistent pour que la répartition des stations de vélos soit accompagnée d'évaluations de justice sociale : le nombre absolu dit peu sur l'équité ; des plans intégrés, une coordination avec la politique du logement et l'inclusion des partenaires locaux sont nécessaires. En somme, la simplicité apparente des stations de vélo n'est qu'un signe — leur gestion et leur contexte déterminent leur effet réel.",
+      "questions": [
+        {
+          "question": "Quel effet indirect des investissements dans les infrastructures cyclables est mis en avant ?",
+          "options": [
+            "La diminution immédiate du trafic automobile",
+            "La hausse des prix et de la demande de logements dans certains quartiers",
+            "La disparition des transports publics traditionnels",
+            "L'augmentation des subventions pour l'agriculture urbaine"
+          ],
+          "answer": "La hausse des prix et de la demande de logements dans certains quartiers",
+          "explanation": "Le texte indique que dans les quartiers où arrivent des investissements, les prix et la demande de logement augmentent, créant des tensions pour les résidents."
+        },
+        {
+          "question": "Pourquoi les décisions relatives au vélo peuvent-elles manquer de légitimité, selon le texte ?",
+          "options": [
+            "À cause d'une opposition massive des citoyens",
+            "Parce qu'elles sont souvent prises sans consensus en raison de contraintes budgétaires et de partenariats privés",
+            "Parce que la technologie de vélos partagés est trop coûteuse",
+            "À cause d'un manque total de données sur les déplacements"
+          ],
+          "answer": "Parce qu'elles sont souvent prises sans consensus en raison de contraintes budgétaires et de partenariats privés",
+          "explanation": "Le texte précise que, sous la pression du budget et des partenariats privés, les décisions sont fréquemment prises sans consensus, ce qui peut nuire à leur légitimité."
+        },
+        {
+          "question": "Quelle mesure les chercheurs et activistes recommandent-ils pour améliorer l'équité ?",
+          "options": [
+            "Augmenter uniquement le nombre absolu de stations",
+            "Évaluer la justice sociale et intégrer la planification avec la politique du logement",
+            "Privatiser entièrement le système de vélos en libre-service",
+            "Interdire les vélos dans les quartiers centraux"
+          ],
+          "answer": "Évaluer la justice sociale et intégrer la planification avec la politique du logement",
+          "explanation": "Le texte recommande des évaluations de justice sociale et des plans intégrés, incluant la politique du logement et la participation des partenaires locaux."
+        },
+        {
+          "question": "Quel est le sens de la phrase finale « მარტივი... ნიშანია » dans le contexte du texte ?",
+          "options": [
+            "Que les stations de vélo sont la solution définitive aux inégalités urbaines",
+            "Que l'apparente simplicité des stations cache l'importance de leur gestion et du contexte",
+            "Que la construction des stations est techniquement très complexe",
+            "Que seules les villes riches peuvent se permettre des stations"
+          ],
+          "answer": "Que l'apparente simplicité des stations cache l'importance de leur gestion et du contexte",
+          "explanation": "La phrase signifie que, bien que les stations semblent simples, leur impact dépend de la manière dont elles sont gérées et du contexte local, comme expliqué dans le texte."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-039",
+      "title": "Tbilisi et la mutation urbaine",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 39,
+      "text": "თბილისმა ბოლო ოცწლეულში რადიკალური ტრანსფორმაცია განიცადა: საკვები ქსელებიდან დაწყებული, ურბანულ სარდაფებამდე და საჯარო სივრცეების რეაბილიტაციამდე. ხელისუფლების განვითარების გეგმა, რომელიც მნიშვნელოვნად ორიენტირებულია ტურიზმისა და ინვესტიციების მოზიდვაზე, ქალაქის ფასეულობების სწრაფი შეცვლის მიზეზი გახდა. მემკვიდრეობით შენობებს ხშირად უცნაური კომბინაციით უწევთ თანაცხოვრება მოდულარულ ახალშენებებთან — ეს ურთიერთობა არაერთხელ იქცა გარეუბნულ კონფლიქტების წყაროდ. კულტურული მემკვიდრეობის დაცვისა და ეკონომიკური განვითარების შორის თანხალმა პოლიტიკამ საზოგადოებაში მწვავე დისკურსი გამოიწვია: ერთი ჯგუფი ცვლილებებს განიხილავს როგორც საჭირო მოდერნიზაციას, მეორე კი ბაირაქტობასა და ორიგინალის დაკარგვას ხედავს. ურბანისტები ხშირად აღნიშნავენ, რომ ფუნქციურ და ესთეტიკურ არქიტექტურულ გადაწყვეტილებებთან ერთად მნიშვნელოვანია ქალაქის სოციალური ქსელის შენარჩუნება — მზარდი არქიტექტურული გეგმარება თუ მოსახლეობის განსახლებასთან ერთად მიმდინარეობს, საჭიროა თანმიმდევრული სოციალური პოლიტიკაც. შედეგად, ქალაქის დიალოგები დაგროვებული ისტორიისა და სწრაფი თანამედროვეობის შორის ყოველდღიური პრაქტიკით იწერება.",
+      "translation": "Tbilissi a connu une transformation radicale au cours des vingt dernières années : depuis les chaînes de restauration jusqu'aux sous-sols urbains et à la réhabilitation des espaces publics. Le plan de développement des autorités, fortement orienté vers le tourisme et l'attraction d'investissements, a provoqué un changement rapide des valeurs de la ville. Les bâtiments patrimoniaux cohabitent souvent de manière étrange avec de nouveaux modules — cette relation est plusieurs fois devenue source de conflits suburbains. La politique oscillant entre protection du patrimoine culturel et développement économique a déclenché un vif discours public : un groupe considère les changements comme une modernisation nécessaire, l'autre y voit du vandalisme et la perte de l'original. Les urbanistes soulignent souvent que, parallèlement aux décisions architecturales fonctionnelles et esthétiques, il est important de préserver le tissu social de la ville — si la planification architecturale s'accompagne de déplacements de population, des politiques sociales cohérentes sont nécessaires. En conséquence, les dialogues de la ville entre histoire accumulée et modernité rapide s'écrivent par une pratique quotidienne.",
+      "questions": [
+        {
+          "question": "Quel est le principal moteur du changement urbain à Tbilissi évoqué dans le texte ?",
+          "options": [
+            "Le départ massif des habitants vers la campagne.",
+            "Les politiques publiques axées sur le tourisme et les investissements.",
+            "La démolition systématique du patrimoine pour créer des parcs.",
+            "L'augmentation des espaces agricoles en périphérie."
+          ],
+          "answer": "Les politiques publiques axées sur le tourisme et les investissements.",
+          "explanation": "Le texte précise que le plan de développement des autorités, orienté vers le tourisme et l'attraction d'investissements, a provoqué le changement rapide des valeurs de la ville."
+        },
+        {
+          "question": "Quel problème social les urbanistes jugent important de prendre en compte selon le texte ?",
+          "options": [
+            "La construction de nouveaux centres commerciaux.",
+            "La préservation du tissu social face aux déplacements de population.",
+            "L'augmentation du nombre de places de parking.",
+            "La création d'un réseau cyclable interurbain."
+          ],
+          "answer": "La préservation du tissu social face aux déplacements de population.",
+          "explanation": "Le texte indique que les urbanistes soulignent l'importance de préserver le tissu social, notamment lorsque la planification entraîne des déplacements de population."
+        },
+        {
+          "question": "Comment la cohabitation entre bâtiments patrimoniaux et nouvelles constructions est-elle décrite ?",
+          "options": [
+            "Comme une intégration harmonieuse saluée par tous.",
+            "Comme une relation parfois conflictuelle entraînant des tensions suburbaines.",
+            "Comme un processus entièrement contrôlé par les architectes municipaux.",
+            "Comme une initiative exclusivement privée sans impacts sociaux."
+          ],
+          "answer": "Comme une relation parfois conflictuelle entraînant des tensions suburbaines.",
+          "explanation": "Le texte mentionne que cette cohabitation devient souvent source de conflits dans les quartiers, indiquant des tensions."
+        },
+        {
+          "question": "Quelle conclusion le texte propose sur la manière d'aborder la mutation urbaine ?",
+          "options": [
+            "Ignorer le passé et privilégier uniquement la croissance économique.",
+            "Concilier décisions architecturales et politiques sociales cohérentes.",
+            "Favoriser la démolition rapide des vieux quartiers sans concertation.",
+            "Limiter toute évolution pour préserver la ville telle qu'elle est."
+          ],
+          "answer": "Concilier décisions architecturales et politiques sociales cohérentes.",
+          "explanation": "Le texte conclut qu'il faut accompagner la planification architecturale par des politiques sociales cohérentes afin de préserver le tissu social durant la transformation."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-040",
+      "title": "Vigne, traditions et appellations en Géorgie",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 40,
+      "text": "საქართველოში ღვინის წარმოების ისტორია ათასობით წლით თარიღდება, მაგრამ ბოლო წლებმა ორმაგი გამოწვევა წარმოშვა: ერთის მხრივ, საერთაშორისო ბაზრებზე კონკურენციის ზრდა, მეორეს მხრივ, მშობლიური ტექნიკებისა და ადგილის იდენტობის შენარჩუნების მოთხოვნა. ტრადიციული ქვევრის მეთოდი და სხვადსხვა რეგიონული ჯიშები ამ ქვეყნაში კულტურულ სიმბოლოს განაპირობებენ; ამავდროულად, ექსპორტის მოსაზრებით წარმოებას თანამედროვე სტანდარტების მიბმვა ხშირად აუცილებლად ითხოვს. ადგილობრივ Winemakers-თა საზოგადოებამ ძლიერ რომანტიკულ და პრაგმატულ პოზიციებს შორის დილემა უნდა გადაწყვიტოს: უსაფრთხო სტანდარტების დანერგვა ზრდის ექსპორტის პოტენციალს, მაგრამ რისკავს ხელით შექმნილი უნიკალობის ნაწილს. კანონიერი რეგულაციები და რეგიონული აპელაციის სისტემის განვითარება შეიძლება მოგვარების გზას წარმოადგენდეს, რადგან ის ერთდროულად კარვის (terroir) მოხსენიებას და ხარისხის კონტროლს უზრუნველყოფს. საბოლოო ჯამში, ქვეყანა ცდილობს პოზიცია დაიცვას: აღიარებული ხარისხი და გლობალური ბაზრები არ უნდა მოხდეს ეროვნული ტრადიციის ამოქაჩვის ხარჯზე.",
+      "translation": "L'histoire de la production viticole en Géorgie remonte à des milliers d'années, mais les dernières années ont engendré un double défi : d'une part, l'accroissement de la concurrence sur les marchés internationaux, d'autre part, l'exigence de préserver les techniques indigènes et l'identité du lieu. La méthode traditionnelle du qvevri et les différentes variétés régionales constituent un symbole culturel ; en même temps, pour l'exportation, il est souvent nécessaire d'aligner la production sur des normes modernes. La communauté des vignerons locaux doit trancher entre des positions fortement romantiques et pragmatiques : l'adoption de normes de sécurité accrédite le potentiel d'exportation, mais met en péril une partie de l'unicité artisanale. Le développement de régulations légales et d'un système d'appellations régionales peut constituer une voie de résolution, car il garantit à la fois la mention du terroir et le contrôle de la qualité. Au final, le pays cherche à préserver une position : la reconnaissance de la qualité et les marchés globaux ne doivent pas se faire au détriment de la tradition nationale.",
+      "questions": [
+        {
+          "question": "Quel dilemme principal affrontent aujourd'hui les vignerons géorgiens selon le texte ?",
+          "options": [
+            "Choisir entre augmenter la production ou diminuer la surface des vignobles.",
+            "Concilier l'adoption de normes modernes pour l'export et la préservation des techniques traditionnelles.",
+            "Décider s'ils doivent remplacer le qvevri par des cuves en béton.",
+            "Exporter uniquement vers des marchés européens et ignorer les marchés asiatiques."
+          ],
+          "answer": "Concilier l'adoption de normes modernes pour l'export et la préservation des techniques traditionnelles.",
+          "explanation": "Le texte met en avant le double défi : répondre à la concurrence internationale via des standards modernes tout en préservant les techniques et l'identité locales."
+        },
+        {
+          "question": "Quelle solution juridique le texte propose comme voie possible ?",
+          "options": [
+            "Interdire toute exportation pour protéger les traditions.",
+            "Imposer des taxes élevées sur les vins modernes.",
+            "Développer des régulations légales et un système d'appellations régionales.",
+            "Privatiser toutes les coopératives viticoles."
+          ],
+          "answer": "Développer des régulations légales et un système d'appellations régionales.",
+          "explanation": "Le texte suggère que des régulations et un système d'appellations peuvent garantir la mention du terroir et le contrôle de la qualité, conciliant tradition et marché."
+        },
+        {
+          "question": "Quel risque est associé à l'adoption de normes de sécurité modernes ?",
+          "options": [
+            "La baisse immédiate de la qualité des raisins.",
+            "La perte d'une partie de l'unicité artisanale liée aux méthodes traditionnelles.",
+            "L'interdiction d'utiliser le qvevri pour tout type de vin.",
+            "L'augmentation des taxes à l'exportation imposées par l'UE."
+          ],
+          "answer": "La perte d'une partie de l'unicité artisanale liée aux méthodes traditionnelles.",
+          "explanation": "Le texte indique que l'introduction de standards peut accroître l'export mais risque de mettre en péril l'unicité artisanale."
+        },
+        {
+          "question": "Quel rôle joue le qvevri dans le contexte présenté ?",
+          "options": [
+            "Un outil industriel récent adopté pour faciliter l'export.",
+            "Un symbole culturel et une méthode de vinification traditionnelle.",
+            "Un produit d'importation utilisé par les vignerons étrangers.",
+            "Une appellation géographique réservée à une seule région."
+          ],
+          "answer": "Un symbole culturel et une méthode de vinification traditionnelle.",
+          "explanation": "Le texte mentionne explicitement la méthode traditionnelle du qvevri et les variétés régionales comme constituant un symbole culturel."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-037",
+      "title": "ურბანული მეხსიერება: თბილისის ახალი ქსოვილი",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 37,
+      "text": "თბილისის ცენტრის არქიტექტურული რელიქტისა და თანამედროვე რეკონსტრუქციის ურთიერთობა ხშირად მიუთითებს ქალაქის მრავალი ფენით გროვილ მეხსიერებაზე. ძველი შენობების მოტეხილი ფირები, ღია ავლაბრის კაფეები და თანამედროვე მინაშენები თანაარსებობენ სივრცეში, რომელიც სულ უფრო ხშირად იქცევა ტურისტულ ატრაქციონად და რომლშიც ადგილობრივი მოსახლეობა საკუთარ ყოველდღიურ რიტმს იძულებულია ადაპტირდეს. ერთი მხრივ, პოსტსაბჭო ფოტოარქივები და მემორიალური დაფები შეგვახსენებენ, როგორ დაიმკვიდრა ქალაქი ეპოქების ჭიდილში; მეორე მხრივ, ინვესტორების ინტერესმა და უძრავი ქონების ბაზრის ლოგიკამ შეიძლება გააქროს ის მცირე, მიუჩინარი საზოგადოებრივი ადგილი, რომლებიც ადრე ჭრიდნენ ქაოსურ, მაგრამ განსაკუთრებულ სოციალური ხასიათს. მომხმარებელთა და ქალაქგეგმეების შორის დინამიკა აჩენს კითხვა-შეშფოთებას — შეუძლებელია მატერიალურმა განვითარებამ გაანადგუროს ის ელემენტები, რომლებიც განაპირობებენ ადგილობრივობის შეგრძნებას. სამომავლო პოლიტიკა ძველის შენარჩუნებისა და ახალი საჭიროებების შეთავსების შესახებ საჭიროებს ფართო კონსენსუსს, კრიტიკულ დისკურსსა და იმასთან მაინც, რომ გალერის, ბაზრისა და საცხოვრებელი სივრცის ღირებულებები სხვა არაფერია თუ არა კულტურული შეთანხმების გამოხატულება.",
+      "translation": "La relation entre les reliques architecturales du centre de Tbilissi et les reconstructions contemporaines illustre souvent la mémoire stratifiée de la ville. Les façades abîmées des vieux immeubles, les cafés ouverts d'Avlabari et les annexes modernes coexistent dans un espace qui devient de plus en plus une attraction touristique, obligeant les habitants à adapter leur rythme quotidien. D'une part, les archives photographiques post-soviétiques et les plaques commémoratives rappellent comment la ville s'est affirmée au gré des affrontements des époques ; d'autre part, l'intérêt des investisseurs et la logique du marché immobilier peuvent effacer ces petits espaces publics informels qui autrefois forgeaient un caractère social chaotique mais singulier. La dynamique entre usagers et urbanistes suscite une inquiétude : le développement matériel pourrait-il détruire les éléments qui constituent le sentiment d'appartenance locale ? Une politique future conciliant sauvegarde du patrimoine et nouvelles nécessités exige un large consensus, un discours critique et la reconnaissance que valeurs de galerie, de marché et d'habitat sont l'expression d'un accord culturel.",
+      "questions": [
+        {
+          "question": "Quel est le principal problème soulevé par le texte concernant le centre de Tbilissi ?",
+          "options": [
+            "La détérioration totale des monuments historiques par le climat.",
+            "La transformation touristique qui impose des changements au mode de vie local.",
+            "Le manque d'archives photographiques post-soviétiques.",
+            "L'absence d'investissements dans l'immobilier moderne."
+          ],
+          "answer": "La transformation touristique qui impose des changements au mode de vie local.",
+          "explanation": "Le texte souligne que l'espace devient une attraction touristique, obligeant la population locale à adapter son rythme quotidien, ce qui est présenté comme un problème central."
+        },
+        {
+          "question": "Quelle conséquence négative attribue le texte à l'activité des investisseurs immobiliers ?",
+          "options": [
+            "La multiplication des plaques commémoratives.",
+            "La disparition des petits espaces publics informels.",
+            "L'augmentation des archives photographiques.",
+            "La création de nouveaux cafés traditionnels."
+          ],
+          "answer": "La disparition des petits espaces publics informels.",
+          "explanation": "Le texte indique que l'intérêt des investisseurs et la logique du marché immobilier peuvent effacer les petits espaces publics informels qui avaient un caractère social particulier."
+        },
+        {
+          "question": "Selon l'auteur, qu'est-ce qui doit accompagner une politique de sauvegarde urbaine ?",
+          "options": [
+            "Une privatisation étendue des espaces publics.",
+            "Un consensus large et un discours critique.",
+            "L'abandon des archives historiques au profit de constructions modernes.",
+            "L'interdiction totale du tourisme dans le centre-ville."
+          ],
+          "answer": "Un consensus large et un discours critique.",
+          "explanation": "L'auteur affirme qu'une politique future nécessite un large consensus et un discours critique pour concilier conservation et nouvelles nécessités."
+        },
+        {
+          "question": "Que signifie, d'après le texte, que les valeurs de galerie, de marché et d'habitat sont « l'expression d'un accord culturel » ?",
+          "options": [
+            "Que ces valeurs sont imposées uniquement par les investisseurs.",
+            "Que ces valeurs résultent d'un compromis social et culturel entre acteurs.",
+            "Que seules les institutions culturelles décident de ces valeurs.",
+            "Que l'accord culturel empêche toute modification urbaine."
+          ],
+          "answer": "Que ces valeurs résultent d'un compromis social et culturel entre acteurs.",
+          "explanation": "L'expression signifie que la coexistence et la valorisation de ces fonctions urbaines proviennent d'un accord culturel, donc d'un compromis entre différents acteurs et usages."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-c1-gen-038",
+      "title": "საშუალების გემო: ქართული სამზარეულოს გლობალიზაცია",
+      "level_name": "C1",
+      "cefr": "C1",
+      "version": 38,
+      "text": "გლობალურ ბაზარზე ქართული სამზარეულო ინტრიგად და ტურისტული სასაჩუქრედ გადათარგმნა: ხაჭაპური, საყვარელი ცხარე წვნიანი და მწნილებები ხშირად პოზიციონირდება როგორც «ავტენტური» გამოცდილება, მოსამზადებლად ადაპტირებული საერთაშორისო პრომესებისთვის. ასეთი დემოკრატიზაცია გაამრავალფეროვნებს კერძების ხელმისაწვდომობას, თუმცა იწვევს კითხვებს ორიგინალის შენარჩუნების, გამდიდრების და კომერციალიზაციის ზღვარზე. ბევრ რესტორანში დიასპორის შეფები აერთიანებენ ადგილობრივ ხილსა და ევროპულ ტექნიკას; ზოგიერთი ფერმერი ოპოზიციურად განიხილავს მასობრივ წარმოებას, რადგან იდეა «ადგილობრივი პროდუქტისა» ქვეწარმავლობს ბაზრისთან დაკავშირებულ სტანდარტებს. კულტურული ინოვაცია, მომხმარებელთა გემოვნების ტრანსფორმაცია და სოციალურ-ეკონომიკური კონტექსტი ქმნიან არანორმალურ წონასწორობას: რამდენად შესაძლებელია რეცეპტის ცვლილება ისე, რომ არ დაკარგოს ისტორიული ნიშა? კონფლიქტის მოგვარება მოითხოვს ეტიკურ მიდგომებს, ბრენდირების სიფრთხილესა და იმ სიტუაციის აღიარებას, რომ კვებითი ტრადიციები მუდმივად ევოლუციას ქვეშ არიან. საბოლოოდ, წარმატება შეიძლება გამოიხატოს არა რეცეპტის ახლებურ პირობებში შენარჩუნებით, არამედ ადრეკომპლექსულობის დაცვის გზით, რომელიც პატივს სცემს წარმომავლობასა და უწესრიგო პრაქტიკებს და ამასთანავე პასუხობს თანამედროვე მოთხოვნებს.",
+      "translation": "La cuisine géorgienne sur le marché global est traduite en curiosité et en souvenir touristique : khachapuri, bouillons épicés appréciés et pickles sont souvent présentés comme une «expérience authentique», adaptés pour des promesses internationales. Cette démocratisation diversifie l'accès aux plats, mais soulève des questions à la frontière entre conservation de l'original, enrichissement et commercialisation. Dans de nombreux restaurants, des chefs de la diaspora mêlent produits locaux et techniques européennes ; certains paysans envisagent la production de masse de manière critique, car l'idée de «produit local» se heurte aux standards du marché. Innovation culturelle, transformation des goûts et contexte socio-économique créent un équilibre instable : jusqu'à quel point une recette peut-elle changer sans perdre son ancrage historique ? Résoudre ce conflit exige une approche éthique, prudence dans le branding et la reconnaissance que les traditions alimentaires évoluent constamment. En définitive, le succès peut se mesurer non par la conservation littérale de la recette, mais par la préservation d'une complexité originelle qui respecte l'origine et les pratiques informelles tout en répondant aux exigences contemporaines.",
+      "questions": [
+        {
+          "question": "Quelle tension principale est décrite dans le texte concernant la cuisine géorgienne ?",
+          "options": [
+            "Le manque d'ingrédients locaux pour les plats traditionnels.",
+            "La tension entre adaptation commerciale et préservation de l'authenticité.",
+            "L'interdiction des chefs de la diaspora d'utiliser des techniques modernes.",
+            "L'hostilité des consommateurs internationaux envers les plats géorgiens."
+          ],
+          "answer": "La tension entre adaptation commerciale et préservation de l'authenticité.",
+          "explanation": "Le texte met en avant le dilemme entre démocratisation/commercialisation des plats et la conservation de leur caractère original et historique."
+        },
+        {
+          "question": "Pourquoi certains fermiers regardent-ils la production de masse de façon critique ?",
+          "options": [
+            "Parce qu'ils préfèrent vendre uniquement à l'étranger.",
+            "Parce que la production de masse menace l'idée de «produit local» face aux standards du marché.",
+            "Parce qu'ils n'ont pas accès aux techniques de conservation modernes.",
+            "Parce qu'ils refusent toute innovation culinaire."
+          ],
+          "answer": "Parce que la production de masse menace l'idée de «produit local» face aux standards du marché.",
+          "explanation": "Le texte indique que l'idée de produit local se heurte aux standards du marché, ce qui inquiète certains fermiers à propos de la production de masse."
+        },
+        {
+          "question": "Quelle solution l'auteur propose-t-il pour concilier tradition et modernité ?",
+          "options": [
+            "Interdire toute adaptation des recettes traditionnelles.",
+            "Préserver la complexité originelle en respectant l'origine et les pratiques informelles.",
+            "Remplacer les ingrédients locaux par des alternatives internationales.",
+            "Standardiser les recettes pour les franchiser mondialement."
+          ],
+          "answer": "Préserver la complexité originelle en respectant l'origine et les pratiques informelles.",
+          "explanation": "L'auteur suggère que le succès vient de la préservation de la complexité initiale, qui honore l'origine et les pratiques informelles tout en répondant aux demandes modernes."
+        },
+        {
+          "question": "Quel rôle jouent les chefs de la diaspora selon le texte ?",
+          "options": [
+            "Ils imposent exclusivement des recettes européennes dans les restaurants géorgiens.",
+            "Ils combinent produits locaux et techniques européennes, participant à l'adaptation culinaire.",
+            "Ils empêchent la commercialisation des plats géorgiens à l'étranger.",
+            "Ils forcent les fermiers à produire pour les marchés internationaux."
+          ],
+          "answer": "Ils combinent produits locaux et techniques européennes, participant à l'adaptation culinaire.",
+          "explanation": "Le texte précise que dans de nombreux restaurants, les chefs de la diaspora mélangent produits locaux et techniques européennes, contribuant ainsi à l'évolution culinaire."
+        }
+      ]
     }
   ]
 }

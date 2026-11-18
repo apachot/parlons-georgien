@@ -550,6 +550,1656 @@
           "explanation": "Le passage explique que certains étaient sceptiques au départ, mais après la réussite des travaux, beaucoup sont revenus et ont aidé l'organisation, d'où la réponse correcte."
         }
       ]
+    },
+    {
+      "id": "reading_exams-b1-gen-011",
+      "title": "ქირავნობის პირველი წელი თბილისში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 11,
+      "text": "წინასწარ სანახავი ბინა ქალაქის ცენტრალურ ქუჩაზე მდებარეობდა. მამუკა გადაწყვიტა ერთი წლის კონტრაქტი დაედო, რადგან სამუშაო ჯგუფი მალე გადმოვიდა თბილისში. ბინას ჰქონდათ დიდი სახურავი, მზიანი ოთახები და ახალი სამზარეულო, თუმცა არცერთი აივანი. მოლაპარაკებისას მეპატრონემ ხაზი გაუსვა უსაფრთხოების სისტემას და ქირავნობის ფასში გათვალისწინებულ კომუნალურ მომსახურებას. მამუკა მოეწონა მეზობლები — ახალგაზრდა ოჯახები და გაწონასწორებული ბულვარი, რომლის კიდეში მოძრავი ტრანსპორტი არ ეტყობოდა. რთული ნაწილი საბარგულის გადაზიდვა იყო: ბინა მეორე სართულზე მდებარეობდა, ლიფტი არ არსებობდა, რის გამოც搬家公司—搬家公司 არ მუშაობდა და კუთვნილი ტელეფონის ნომრით მამუკამ ახლობელი მეგობარი -搬家公司გან დაეხმარა. პირველი თვის მერე მამუკა მიხვდა, რომ ადგილობრივი ბაზრობაზე ახლად გამომცხვარი პური და მაცივრის გვერდით მდებარე პატარა კაფე მისი ყოველდღიური ბედნიერება გახდა. კონტრაქტის პირობები დაწერილად შევიდა, და რომ შეექმნა პრობლემა, მეპატრონე მზად იყო სწრაფად შეხვედროდა. მამუკამ თავისი არჩევანი სწორად შეაფასა და გეგმაში ერთი წლის შემდეგ კიდევ დარჩენის შესაძლებლობასაც განიხილავდა.",
+      "translation": "L'appartement visité se trouvait dans une rue centrale de la ville. Mamuka décida de signer un contrat d'un an parce que son équipe de travail allait bientôt venir à Tbilissi. L'appartement avait une grande terrasse, des pièces ensoleillées et une cuisine neuve, mais il n'y avait pas de balcon. Lors de la négociation, le propriétaire a insisté sur le système de sécurité et sur les services communaux inclus dans le loyer. Mamuka a apprécié les voisins — des jeunes familles — et l'avenue calme, où l'on ne remarquait pas le trafic. La partie difficile fut le déménagement : l'appartement était au deuxième étage sans ascenseur, donc les déménageurs n'ont pas pu intervenir et avec un numéro de téléphone donné Mamuka a demandé de l'aide à un ami proche. Après le premier mois, Mamuka a réalisé que le pain fraîchement cuit du marché local et un petit café près du réfrigérateur étaient son bonheur quotidien. Les conditions du contrat furent établies par écrit et si un problème survenait, le propriétaire était prêt à rencontrer rapidement. Mamuka a jugé son choix juste et envisageait aussi la possibilité de rester après un an.",
+      "questions": [
+        {
+          "question": "Pourquoi Mamuka a-t-il choisi un contrat d'un an ?",
+          "options": [
+            "Parce qu'il voulait économiser de l'argent",
+            "Parce que son équipe de travail allait bientôt arriver à Tbilissi",
+            "Parce que le propriétaire exigeait un an minimum",
+            "Parce que l'appartement n'avait pas d'ascenseur"
+          ],
+          "answer": "Parce que son équipe de travail allait bientôt arriver à Tbilissi",
+          "explanation": "Le texte indique explicitement que Mamuka a décidé d'un contrat d'un an car son groupe de travail allait bientôt venir à Tbilissi."
+        },
+        {
+          "question": "Quelle caractéristique de l'appartement est mentionnée comme manquante ?",
+          "options": [
+            "Une cuisine neuve",
+            "Un balcon",
+            "Une terrasse",
+            "Des voisins calmes"
+          ],
+          "answer": "Un balcon",
+          "explanation": "Le texte précise que l'appartement avait une grande terrasse et une cuisine neuve, mais qu'il n'y avait pas de balcon."
+        },
+        {
+          "question": "Quel problème le déménagement a-t-il posé ?",
+          "options": [
+            "Le propriétaire refusait d'aider",
+            "Il n'y avait pas d'ascenseur et les déménageurs ne pouvaient pas intervenir",
+            "Le système de sécurité empêchait l'accès",
+            "Les voisins se sont plaints du bruit"
+          ],
+          "answer": "Il n'y avait pas d'ascenseur et les déménageurs ne pouvaient pas intervenir",
+          "explanation": "Le texte explique que le logement était au deuxième étage sans ascenseur, donc l'entreprise de déménagement n'a pas travaillé et il a fallu l'aide d'un ami."
+        },
+        {
+          "question": "Qu'est-ce qui est devenu le plaisir quotidien de Mamuka ?",
+          "options": [
+            "Aller au travail en tramway",
+            "Lire dans la grande terrasse",
+            "Acheter du pain au marché local et fréquenter un petit café",
+            "Rencontrer souvent le propriétaire"
+          ],
+          "answer": "Acheter du pain au marché local et fréquenter un petit café",
+          "explanation": "Le texte mentionne que le pain fraîchement cuit du marché local et le petit café sont devenus son bonheur quotidien."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-012",
+      "title": "ფესტივალი და ადგილობრივი კერძები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 12,
+      "text": "წელი ღერიდან დაიწყო მასობრივი სამზარეულო ფესტივალი პატარა ბათუმურ ბაზარში. ორგანიზატორები მისწრაფობდნენ ადგილობრივი კულტურის მოვლაში: კერძების დეგუსტაცია, წარმოდგენები და სადღესასწაულო მუსიკა. სტუმრები შემოვიდნენ როგორც ადგილიდან, ისე ქალაქგარეთიდან; ზოგი ტურისტი ცდილობდა უთარგმნოს გურულების სიმღერები, ზოგი კი ჩვეული ენით ეკითხებოდა რეცეპტზე. ფესტივალზე განსაკუთრებით პოპულარული იყო ხაჭაპური, რომელსაც ორი ადგილობრივი ოსტატი ამზადებდა დიდი ღუმელთან. ბავშვებისთვის მოწყობილი ხასხასა თამაშები და ტრადიციული ცეკვები მენდობელად მიიჩნეოდნენ — პატარები სწავლობდნენ სამეგრელო ცეკვის მთავარ მოძრაობებს. ორგანიზატორებმა ყურადღება გაამახვილეს also ეკოლოგიაზე: დაახლოებით ყველა შეფ-მომმარაგებელმა გამოყენებული მასალები შემცირებული და ბიოდეგრადირებად კონტეინერებში მოათავსა. საღამოსა და ბოლოს, ერთი მზარეული მოუთხრო სტუმრებს წინაპართა რეცეპტების ისტორიას, რაც ბევრისთვის დროისა და ოჯახის მნიშვნელოვანი მონახაზი აღმოჩნდა. ფესტივალის შემდეგ ადგილობრივმა ბაზარმა მომხმარებელთა რაოდენობა გაზარდა და პოპულარული რეცეპტები მცირე ფოთლებში ჩანაწერებად იყიდებოდა.",
+      "translation": "Au début de l'été a eu lieu un grand festival culinaire sur le petit marché de Batoumi. Les organisateurs cherchaient à mettre en valeur la culture locale : dégustations, spectacles et musique festive. Les visiteurs venaient aussi bien des environs que de la ville ; certains touristes essayaient de comprendre les chansons gouroules, d'autres demandaient les recettes dans leur langue. Au festival, le khachapuri était particulièrement populaire, préparé par deux maîtres près d'un grand four. Les jeux colorés et les danses traditionnelles pour les enfants étaient appréciés — les plus jeunes apprenaient les pas principaux de la danse Samegrelo. Les organisateurs ont aussi mis l'accent sur l'écologie : presque tous les chefs-fournisseurs ont réduit l'utilisation de matériaux et utilisé des contenants biodégradables. Le soir, un cuisinier a raconté aux invités l'histoire des recettes des ancêtres, ce qui a représenté pour beaucoup un moment important lié au temps et à la famille. Après le festival, le marché local a vu augmenter son nombre de clients et les recettes populaires étaient vendues en petits livrets.",
+      "questions": [
+        {
+          "question": "Quel était l'objectif principal des organisateurs du festival ?",
+          "options": [
+            "Vendre uniquement des produits importés",
+            "Promouvoir la culture locale à travers la cuisine et les spectacles",
+            "Organiser un concours de chefs internationaux",
+            "Construire un nouveau marché couvert"
+          ],
+          "answer": "Promouvoir la culture locale à travers la cuisine et les spectacles",
+          "explanation": "Le texte indique que les organisateurs visaient à mettre en valeur la culture locale avec dégustations, présentations et musique."
+        },
+        {
+          "question": "Quel plat était particulièrement populaire au festival ?",
+          "options": [
+            "Bortsch",
+            "Sushi",
+            "Khachapuri",
+            "Paella"
+          ],
+          "answer": "Khachapuri",
+          "explanation": "Le texte précise que le khachapuri était très populaire et préparé par deux maîtres près d'un grand four."
+        },
+        {
+          "question": "Quelle initiative écologique les organisateurs ont-ils prise ?",
+          "options": [
+            "Ils ont planté des arbres dans toute la ville",
+            "Ils ont utilisé principalement des contenants biodégradables",
+            "Ils ont interdit la musique électronique",
+            "Ils ont imposé des frais d'entrée élevés"
+          ],
+          "answer": "Ils ont utilisé principalement des contenants biodégradables",
+          "explanation": "Le passage mentionne que presque tous les chefs ont réduit l'utilisation de matériaux et utilisé des contenants biodégradables."
+        },
+        {
+          "question": "Quelle conséquence a eu le festival sur le marché local ?",
+          "options": [
+            "La fermeture du marché pour rénovations",
+            "Une diminution du nombre de clients",
+            "Une augmentation du nombre de clients et la vente de recettes en livrets",
+            "L'interdiction de vendre des produits traditionnels"
+          ],
+          "answer": "Une augmentation du nombre de clients et la vente de recettes en livrets",
+          "explanation": "Le texte conclut que, après le festival, le marché a vu augmenter ses visiteurs et que les recettes populaires étaient vendues en petits livrets."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-015",
+      "title": "სუფრა და თამადა: ქართული ტრადიცია დღევანდელობაში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 15,
+      "text": "ქართული სუფრა ძველითვე ცნობილია როგორც ერთ-ერთი მნიშვნელოვანი სოციალური პრაქტიკა. დღესაც ოჯახებში და განსაკუთრებულ დღესასწაულებზე სუფრის მოწყობა ძალიან მნიშვნელოვანია. სუფრაზე თავმოყრილი ადამიანები ერთად ჭამენ, საუბრობენ და ხშირად იმართება ტოსტები — მოკლე ლექსები ან სიტყვიერები, რომლებსაც ჩვეულებრივ თამადა წარმოთქვამს. თამადა არის სუფრის ბატონი, რომელიც იწყებს და ამთავრებს ტოსტებს, უძღვება საუბარს და იცავს წესრიგს. მას არასწორად არ უნდა ჩაერიონ — მისი სიტყვა ხშირად პატივისცემით მიიღება. სუფრის საკვები მრავალფეროვანია: ხორცი, ბოსტნეული, ფხალი, ყველი და ხაჭო. განსაკუთრებული ადგილი უჭირავს საცხობ კლასიკურ პურფურცელს და ხაჭაპურს. ახალგაზრდა თაობა ცდილობს დაამციროს ალკოჰოლის რაოდენობა და სუფრაზე ხშირად სთავაზობს ადგილობრივ სასმელებსა და ნატურალურ წვენებს. ბევრი ადამიანი ამბობს, რომ სუფრა არა მხოლოდ ჭამის სცენაა, არამედ ურთიერთობის, ისტორიისა და მომავლის დაპირების ადგილი — აქ ოჯახები და მეგობრები სიახლეებს უზიარებენ ერთმანეთს.",
+      "translation": "La sup' (sufra) géorgienne est depuis longtemps connue comme une pratique sociale importante. Aujourd'hui encore, organiser une sup' dans les familles et lors des fêtes est très important. Les personnes réunies à la table mangent ensemble, parlent et font souvent des toasts — de courts discours que le tamada prononce habituellement. Le tamada est le maître de la sup', qui commence et clôt les toasts, dirige la conversation et maintient l'ordre. On ne doit pas l'interrompre — ses paroles sont souvent reçues avec respect. Les plats de la table sont variés : viande, légumes, haricots, fromage et cottage. Le pain au four classique et le khachapuri occupent une place particulière. La jeune génération essaie de réduire la quantité d'alcool et propose souvent des boissons locales et des jus naturels. Beaucoup de gens disent que la sup' n'est pas seulement un lieu pour manger, mais un espace de relations, d'histoire et de promesses pour l'avenir — là où familles et amis se racontent des nouveautés.",
+      "questions": [
+        {
+          "question": "Quelle est la fonction principale du 'tamada' selon le texte ?",
+          "options": [
+            "Il prépare les plats traditionnels.",
+            "Il dirige les toasts et la conversation.",
+            "Il paie toujours l'addition.",
+            "Il chante des chansons populaires."
+          ],
+          "answer": "Il dirige les toasts et la conversation.",
+          "explanation": "Le texte précise que le tamada commence et clôt les toasts, dirige la conversation et maintient l'ordre à la table."
+        },
+        {
+          "question": "Quel changement la jeune génération apporte-t-elle à la sup'?",
+          "options": [
+            "Elle supprime complètement les toasts.",
+            "Elle invite moins de personnes.",
+            "Elle réduit la quantité d'alcool et propose des jus.",
+            "Elle remplace le pain par du riz."
+          ],
+          "answer": "Elle réduit la quantité d'alcool et propose des jus.",
+          "explanation": "Le texte indique que la jeune génération essaie de diminuer l'alcool et propose des boissons locales et des jus naturels."
+        },
+        {
+          "question": "Parmi ces aliments, lequel est mentionné comme ayant une place particulière ?",
+          "options": [
+            "Le riz pilaf.",
+            "Le khachapuri (ხაჭაპური).",
+            "La soupe miso.",
+            "Les crêpes françaises."
+          ],
+          "answer": "Le khachapuri (ხაჭაპური).",
+          "explanation": "Le texte mentionne spécifiquement le pain au four classique et le khachapuri comme occupant une place particulière sur la table."
+        },
+        {
+          "question": "Comment le texte décrit-il la sup' au-delà du repas ?",
+          "options": [
+            "Comme un simple endroit pour dormir.",
+            "Comme un lieu de relations, d'histoire et de promesses.",
+            "Comme une compétition culinaire.",
+            "Comme un marché pour vendre produits locaux."
+          ],
+          "answer": "Comme un lieu de relations, d'histoire et de promesses.",
+          "explanation": "Le texte explique que la sup' est «არ فقط ჭამის სცენა», mais un espace où familles et amis partagent des nouvelles, donc un lieu de relations, d'histoire et de promesses."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-016",
+      "title": "დილა თბილისში: ველობილიკები და მგზავრობა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 16,
+      "text": "თბილისის ქუჩებში დილა განსაკუთრებულია: ხალხი ანთის განათებულ მაღაზიებში ყიდულობს ყავას, მუშაობისკენ მიდის და ზაფხულში უკვე ცდილობს სწრაფად ვიაროს. ბოლო წლებში ქალაქში ველობილიკების ქსელი გაფართოვდა. ახალი ბილიკები აკავშირებს მთავარ უბნებს და ზოგიერთ შემთხვევაში გამოკვეთილად გამოყოფილია ტროტუარებიდან. ველოსიპედი ბევრისთვის სწრაფი და სასიამოვნო ალტერნატივა გახდა, განსაკუთრებით მოძრაობის ჭარბობის შტუხებში. მთავრობა ამბობს, რომ ველობილიკები უნდა გაამხნევონ ასეთი შეკავშირებით და დააყენონ საინფორმაციო ნიშნები; მაგრამ პრობლემებიც არსებობს — ზოგი ქუჩა ძალიან სტ steep (უფრო სწორი: ჩაჩქარებული) და ფეხით მოსიარულეებიც და ავტოსატრანსპორტო საშუალებებიც ხშირად არ იცავენ წესებს. მოქალაქეები ითხოვენ უკეთეს განათებებსა და უსაფრთხო გადმოსვლებს. ადრეული დილის საათებში შეგიძლიათ იხილოთ სხვადასხვა ასაკის ადამიანები: სტუდენტები, მოხუცები, მშობლები ბავშვებით, რომლებიც მშვიდად მოძრაობენ ველობილიკებზე. ქალაქის სატრანსპორტო მრავალფეროვნება და ახალი ინფრასტრუქტურა ხელს უწყობს მის გარემოზე ზრუნვას და მოქალაქეთა ჯანმრთელობაზე ფიქრს.",
+      "translation": "Le matin à Tbilissi est particulier : les gens achètent leur café dans les boutiques éclairées, vont au travail et, en été, essaient déjà de se déplacer rapidement. Ces dernières années, le réseau de pistes cyclables s'est étendu dans la ville. Les nouvelles pistes relient les principaux quartiers et, dans certains cas, sont clairement séparées des trottoirs. Le vélo est devenu une alternative rapide et agréable pour beaucoup, surtout dans les embouteillages. Le gouvernement dit qu'il faut encourager les pistes cyclables par ces connexions et installer des panneaux d'information ; mais il y a aussi des problèmes — certaines rues sont trop en pente et les piétons ainsi que les véhicules ne respectent pas souvent les règles. Les citoyens demandent de meilleurs éclairages et des passages sécurisés. Aux premières heures du matin, on peut voir des personnes de tous âges : étudiants, personnes âgées, parents avec enfants, qui circulent calmement sur les pistes. La diversité des transports en ville et la nouvelle infrastructure contribuent à la protection de l'environnement et au bien-être des habitants.",
+      "questions": [
+        {
+          "question": "Quel est l'avantage principal du vélo mentionné dans le texte ?",
+          "options": [
+            "Il est toujours gratuit.",
+            "Il est rapide et agréable, surtout dans les embouteillages.",
+            "Il remplace complètement les bus.",
+            "Il oblige à payer moins d'impôts."
+          ],
+          "answer": "Il est rapide et agréable, surtout dans les embouteillages.",
+          "explanation": "Le texte dit que le vélo est devenu une alternative rapide et agréable, particulièrement pendant les embouteillages."
+        },
+        {
+          "question": "Quel problème n'est PAS mentionné dans le texte concernant les pistes cyclables ?",
+          "options": [
+            "Certaines rues sont trop pentues.",
+            "Les piétons et véhicules ne respectent pas souvent les règles.",
+            "Les pistes manquent de panneaux d'information.",
+            "Il n'y a pas assez de vélos disponibles."
+          ],
+          "answer": "Il n'y a pas assez de vélos disponibles.",
+          "explanation": "Le texte mentionne pentes, non-respect des règles, manque d'éclairage et demande de panneaux ; il ne parle pas d'un manque de vélos disponibles."
+        },
+        {
+          "question": "Que demandent les citoyens pour améliorer la sécurité ?",
+          "options": [
+            "Plus de jardins publics.",
+            "De meilleurs éclairages et des passages sécurisés.",
+            "Interdire complètement les voitures en ville.",
+            "Baisser les prix des parkings."
+          ],
+          "answer": "De meilleurs éclairages et des passages sécurisés.",
+          "explanation": "Le texte indique que les citoyens demandent un meilleur éclairage et des passages sécurisés pour améliorer la sécurité."
+        },
+        {
+          "question": "Qui peut-on voir sur les pistes cyclables le matin selon le texte ?",
+          "options": [
+            "Uniquement des touristes.",
+            "Étudiants, personnes âgées et parents avec enfants.",
+            "Des chauffeurs de taxi uniquement.",
+            "Des ouvriers de nuit uniquement."
+          ],
+          "answer": "Étudiants, personnes âgées et parents avec enfants.",
+          "explanation": "Le texte précise que le matin on voit des personnes de différents âges : étudiants, personnes âgées et parents avec enfants qui utilisent les pistes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-013",
+      "title": "პარკში კვირის დასვენება",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 13,
+      "text": "საღამოს საათებია, როცა ელისა და მისი მეგობრები კვირაობით პარკისკენ გამოემგზავრნენ. ისინი ცხოვრობენ ქალაქის ცენტრალურ ნაწილში და ხშირად ირჩევენ დიდ დასასვენებელ ზონას, სადაც ბევრი ხეა და პატარა ტბაცაა. ამჯერად ისინი პიკნიკს გეგმავენ: მოჩნდიდანვე თითოეულმა რაღაც მოიტანა — ნამცხვრები, ხილი, წყალი და პლედი, რომელზეც ფორუმით ჩაჯდნენ. ბავშვებმა ფრიზბი და ბურთი გაახმოვნეს, უფროსებმა კი ერთმანეთს წიგნები და Receita დალაპარაკების დროს გაურიგეს. ჰაერი სუფთაა, ხალხი მშვიდად სეირნობს, ზოგი-მეტი ფოტოს იღებს ტბის ნაპირზე. დაახლოებით შუადღის მერე დაიწყო გრილი ქარი, ამიტომ ელისამ და მეგობრებმა გადაწყვიტეს ახლოს მდებარე კაფეში წასულიყვნენ. იქ ყავა და ცხარე მწვადი შეუკვეთეს და საუბარი უსაფრთხოების წესებზე გადაიტანეს — როგორ დაეცვათ სიგრილე, ჭარბი მზისგან თავი როგორ შეიკვეცონ და სად დატოვონ ნაგავი. დაბრუნებისას ყველამ თავისი ადგილი გასუფთავებული დატოვა — პარკის საზრუნავი ყველასთვის ერთნაირად მნიშვნელოვანია.",
+      "translation": "Il est en début de soirée lorsque Élisa et ses amis partent au parc le dimanche. Ils habitent dans le centre-ville et choisissent souvent une grande zone de détente avec beaucoup d'arbres et un petit étang. Cette fois-ci, ils prévoient un pique-nique : dès le départ chacun a apporté quelque chose — des gâteaux, des fruits, de l'eau et une couverture sur laquelle ils se sont assis. Les enfants ont joué au frisbee et au ballon, les adultes ont échangé des livres et parlé de recettes pendant qu'ils discutaient. L'air est pur, les gens se promènent paisiblement, certains prennent des photos au bord de l'étang. Vers l'après-midi un vent frais s'est levé, alors Élisa et ses amis ont décidé d'aller au café voisin. Là, ils ont commandé du café et des brochettes épicées et ont déplacé la conversation vers les règles de sécurité — comment se protéger du froid, éviter le soleil excessif et où jeter les déchets. Au retour, chacun a laissé sa place propre — l'entretien du parc est important pour tous.",
+      "questions": [
+        {
+          "question": "Pourquoi le groupe a-t-il apporté une couverture au parc ?",
+          "options": [
+            "Pour s'asseoir pendant le pique-nique",
+            "Pour se protéger de la pluie",
+            "Pour allumer un feu dessus",
+            "Pour marquer leur emplacement vis-à-vis des autres groupes"
+          ],
+          "answer": "Pour s'asseoir pendant le pique-nique",
+          "explanation": "Le texte dit qu'ils ont apporté une couverture (პლედი) 'ზოგზე ჩაჯდნენ' ; elle sert à s'asseoir pendant le pique-nique."
+        },
+        {
+          "question": "Que faisaient les adultes pendant que les enfants jouaient ?",
+          "options": [
+            "Ils ont regardé la télévision",
+            "Ils ont échangé des livres et parlé de recettes",
+            "Ils ont fait une sieste",
+            "Ils ont planté des arbres"
+          ],
+          "answer": "Ils ont échangé des livres et parlé de recettes",
+          "explanation": "Le texte indique que les adultes ont échangé des livres et discuté de recettes pendant qu'ils parlaient."
+        },
+        {
+          "question": "Pourquoi le groupe est-il allé au café ?",
+          "options": [
+            "Parce qu'il a commencé à pleuvoir",
+            "Parce qu'un vent frais s'est levé",
+            "Parce qu'ils avaient oublié la nourriture",
+            "Parce que le parc était fermé"
+          ],
+          "answer": "Parce qu'un vent frais s'est levé",
+          "explanation": "Le passage précise qu'ils sont allés au café 'დაახლოებით შუადღის მერე დაიწყო გრილი ქარი, ამიტომ... გადავწყვიტეს' — à cause du vent frais."
+        },
+        {
+          "question": "Quel comportement du groupe reflète leur respect pour le parc ?",
+          "options": [
+            "Ils ont cueilli des fleurs pour décorer",
+            "Ils ont laissé leur place propre en partant",
+            "Ils ont allumé un feu de camp",
+            "Ils ont accrochés des affiches sur les arbres"
+          ],
+          "answer": "Ils ont laissé leur place propre en partant",
+          "explanation": "Le texte conclut que 'ყველამ თავისი ადგილი გასუფთავებული დატოვა' — ils ont nettoyé leur emplacement, montrant du respect pour le parc."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-014",
+      "title": "ჩინოვნიკის ვიზიტი სოფელში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 14,
+      "text": "სოფელ მაღაროში ახალი საგადასახადო ინსპექტორი ერთ თვეში პირველად ჩამოვიდა. გურამი, მფარველი მოსახლეობიდან, მიესალმა და მოეხმარა ადმინისტრაციულ საკითხებში. ინსპექტორს სურდა გაეგო, როგორ აკეთებდნენ ფერმერები რეგისტრაციას და სუბსიდიის მიღების წესებს. შეხვედრაზე ბევრი ადამიანი იყო: ხორცმომხმარებელი, დარდიანი მშენებელი, ახალგაზრდა მეურნე და მოხუცი მებაღე, რომელმაც მცირე ბაღი წლების განმავლობაში უვლიდა. ინსპექტორმა აუხსნა ახალ წესებს — ონლაინ დარეგისტრირების მნიშვნელობა, საჭირო დოკუმენტები და მეღრეობა. ნაწილი სოფლის მცხოვრებლებისა შეშფოთდა, რადგან ინტერნეტი ზოგჯერ არ მუშაობს. გურამმა ურჩია დახმარების ცენტრის გახსნა, სადაც მოხალისეები დაეხმარებოდნენ რეგისტრაციაში. შეხვედრის ბოლოს ინსპექტორმა შეჰფიცა, რომ დაბრუნდებოდა შემდეგ თვეს ანგარიშის გასაგებად და დახმარების ორგანიზების გადასაწყვეტად. სოფელი, მიუხედავად სირთულისა, მოელოდა ცვლილებებს იმ იმედით, რომ ადმინისტრაციული პროცესები უფრო გამჭვირვალე და მეგობრული გახდებოდა.",
+      "translation": "Le nouvel inspecteur des impôts est venu pour la première fois au village de Magaro en un mois. Gouram, un habitant du village, l'a accueilli et a aidé dans les questions administratives. L'inspecteur voulait savoir comment les agriculteurs faisaient leur enregistrement et les procédures pour obtenir des subventions. Beaucoup de personnes étaient présentes à la réunion : un éleveur, un charpentier inquiet, un jeune agriculteur et un jardinier âgé qui entretenait un petit potager depuis des années. L'inspecteur a expliqué les nouvelles règles — l'importance de l'enregistrement en ligne, les documents nécessaires et l'agriculture. Une partie des habitants s'est inquiétée parce que l'internet ne fonctionne pas toujours. Gouram a proposé d'ouvrir un centre d'aide où des volontaires aideraient pour les enregistrements. À la fin de la réunion, l'inspecteur a promis de revenir le mois suivant pour vérifier les comptes et décider de l'organisation de l'aide. Malgré les difficultés, le village attendait les changements dans l'espoir que les procédures administratives deviennent plus transparentes et conviviales.",
+      "questions": [
+        {
+          "question": "Quel était le but principal de la visite de l'inspecteur ?",
+          "options": [
+            "Faire un contrôle fiscal surprise",
+            "Vérifier comment les agriculteurs s'enregistraient et obtenaient des subventions",
+            "Construire un nouveau centre communautaire",
+            "Organiser une fête locale"
+          ],
+          "answer": "Vérifier comment les agriculteurs s'enregistraient et obtenaient des subventions",
+          "explanation": "Le texte explique que l'inspecteur voulait savoir comment les fermiers faisaient la registration et les règles pour recevoir des subventions."
+        },
+        {
+          "question": "Pourquoi certains villageois étaient-ils inquiets ?",
+          "options": [
+            "Ils n'aimaient pas l'inspecteur",
+            "Parce que l'internet ne fonctionne pas toujours",
+            "Ils craignaient une hausse d'impôts immédiate",
+            "Ils pensaient que le centre d'aide coûterait trop cher"
+          ],
+          "answer": "Parce que l'internet ne fonctionne pas toujours",
+          "explanation": "Le texte indique explicitement que certains étaient préoccupés parce que l'internet est parfois instable."
+        },
+        {
+          "question": "Quelle solution Gouram a-t-il proposée ?",
+          "options": [
+            "Organiser des cours d'informatique pour tous",
+            "Ouvrir un centre d'aide avec des volontaires pour les enregistrements",
+            "Installer une connexion internet publique gratuite",
+            "Remplacer l'inspecteur par un représentant local"
+          ],
+          "answer": "Ouvrir un centre d'aide avec des volontaires pour les enregistrements",
+          "explanation": "Gouram a suggéré d'ouvrir un centre d'aide où des bénévoles aideraient à la procédure d'enregistrement, comme décrit dans le texte."
+        },
+        {
+          "question": "Que promettait l'inspecteur à la fin de la réunion ?",
+          "options": [
+            "D'octroyer des subventions immédiatement",
+            "De revenir le mois suivant pour vérifier les comptes et organiser l'aide",
+            "De fermer le village temporairement pour des travaux",
+            "D'offrir gratuitement du matériel agricole"
+          ],
+          "answer": "De revenir le mois suivant pour vérifier les comptes et organiser l'aide",
+          "explanation": "Le passage final précise que l'inspecteur a promis de revenir le mois suivant pour examiner les rapports et décider de l'aide à organiser."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-019",
+      "title": "ქალაქური ბაზარი და ადგილობრივი პროდუქტი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 19,
+      "text": "თბილისის ბევრ რაიონში ყველასათვის ნაცნობია ერთი ან ორ ქუჩაზე გაშლილი ბაზარი. იქ მოსახლეობა ზოგჯერ ყოველდღიური საყიდლების გაკეთებას ასწრებს, ზოგჯერ კი სურს ახალ პროდუქტებთან გაცნობა. საღამოს საათებში საფოსტო მანქანების მოწესრიგებული ქვითრები შეიცვლება ხმაურიანი გარიგებებით და ღიმილით. ადგილობრივი ფერმერების პროდუქტი — ყველი, თეთრი პური, ახალი ხილი და ბოსტნეული — ხშირად მეტყველებს იმ რეგიონის განსაკუთრებულობაზე: მესხეთის ყუინძივა, კახური ვენახის ყურძენი ან ხარაგაულის თაფლი. მაია, ერთ-ერთი გამყიდველი, ამბობს, რომ უნდა იცოდე პროდუქტის წარმომავლობა და კითხვა აუნდო ფერმერს: \"შენი პროდუქტი როგორ გაზრდილა?\" მომხმარებელი ხშირად იწონის, სცდის და მხოლოდ ამის შემდეგ იძენს. ბაზრის კიდევ ერთი თვისებაა სასაყიდი დიალოგი: ხალხი ჰკითხავს რეცეპტზე, კერძის მომზადების ხერხებზე და ყიდვისას უწყვეტად იღებს რჩევებს. ამ ურთიერთობამ ბაზარს ცოცხალი ხასიათი მისცა და ბევრ ტურისტსაც იზიდავს.",
+      "translation": "Dans plusieurs quartiers de Tbilissi, un marché installé sur une ou deux rues est bien connu de tous. Là, les habitants font parfois leurs achats quotidiens, parfois cherchent à découvrir de nouveaux produits. Le soir, les rangs ordonnés de caisses sont remplacés par des transactions bruyantes et des sourires. Les produits des paysans locaux — fromage, pain blanc, fruits et légumes frais — témoignent souvent du caractère particulier de la région : abricots de Meskheti, raisins des vignobles de Kakheti ou miel de Kharagauli. Maia, une vendeuse, dit qu'il faut connaître l'origine du produit et poser des questions au paysan : \"Comment votre produit a-t-il été cultivé ?\" Le client pèse souvent, goûte et n'achète qu'après. Une autre caractéristique du marché est le dialogue d'achat : les gens demandent des recettes, des astuces de préparation et reçoivent sans cesse des conseils au moment d'acheter. Cette interaction a donné au marché un caractère vivant et attire aussi de nombreux touristes.",
+      "questions": [
+        {
+          "question": "Quel est le caractère principal du marché décrit dans le texte ?",
+          "options": [
+            "C'est un lieu calme et silencieux le soir.",
+            "C'est un lieu vivant où se déroulent des échanges et des conseils.",
+            "C'est un marché spécialisé uniquement dans les produits importés.",
+            "C'est un marché réservé aux producteurs industriels."
+          ],
+          "answer": "C'est un lieu vivant où se déroulent des échanges et des conseils.",
+          "explanation": "Le texte insiste sur les transactions bruyantes, les sourires et les dialogues sur les recettes, ce qui montre que le marché est vivant et interactif."
+        },
+        {
+          "question": "Pourquoi Maia conseille-t-elle de poser des questions au fermier ?",
+          "options": [
+            "Pour connaître le prix de vente au détail.",
+            "Pour savoir comment le produit a été cultivé.",
+            "Pour obtenir une réduction immédiate.",
+            "Pour apprendre à transporter les produits."
+          ],
+          "answer": "Pour savoir comment le produit a été cultivé.",
+          "explanation": "Maia dit explicitement: «შენი პროდუქტი როგორ გაზრდილა?» (Comment votre produit a-t-il été cultivé?), indiquant qu'il faut connaître l'origine et les méthodes."
+        },
+        {
+          "question": "Quels produits sont mentionnés comme typiques des régions ?",
+          "options": [
+            "Poissons fumés et chocolat suisse.",
+            "Fromage, pain, fruits, légumes et miel.",
+            "Riz, nouilles instantanées et fromage fondu.",
+            "Thé japonais et épices indiennes."
+          ],
+          "answer": "Fromage, pain, fruits, légumes et miel.",
+          "explanation": "Le texte cite explicitement დე– ყველი, თეთრი პური, ახალი ხილი და ბოსტნეული (fromage, pain blanc, fruits et légumes) et aussi le miel de Kharagauli."
+        },
+        {
+          "question": "Qu'est-ce qui attire aussi des touristes selon le texte ?",
+          "options": [
+            "Les prix très bas et les promotions permanentes.",
+            "La possibilité de trouver uniquement des produits importés.",
+            "Le caractère vivant du marché et les interactions avec les vendeurs.",
+            "La présence de monuments historiques sur le marché."
+          ],
+          "answer": "Le caractère vivant du marché et les interactions avec les vendeurs.",
+          "explanation": "Le texte conclut que l'interaction et le caractère vivant du marché attirent de nombreux touristes."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-020",
+      "title": "ავტობუსი, მოხალისეობა და ყოველდღიური ცხოვრება",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 20,
+      "text": "ქალაქში მგზავრობა ხშირად დამოკიდებულია საზოგადოებრივ ტრანსპორტზე: ავტობუსები, მეტრო და მიკროავტობუსები. ბოლო დროს ადგილობრივმა მუნიციპალიტეტმა გადაწყვეტილება მიიღო გაუწიოს სწავლება მგذرების ელეგანტურობისა და წესების შესახებ. პროგრამაში მონაწილეობს ახალგაზრდა თემის წევრები, რომლებმაც უნდა დაეხმარონ ენერგიულ ადამიანებს და მოხალისეებს. ანა ყოველდღე მუშაობის შემდეგ შინ ბრუნდება ავტობუსით და ხშირად ამომძიებლების კითხვებს პასუხობს: საკმარისია თუ მგზავრობა ზედმეტად ხმაურიანია ან უნდა იჩქარო? ერთ დღეს ანა მოეწყო ადგილობრივი აქცია: ხალხს სცადეს თავისუფალი ადგილების მოძებნა მოხუცებისთვის და სამგზავრო წესების გაცნობა. ბევრი მგზავრი პირველად მიხვდა, რომ მსუბუქი დახმარება — ჩანთის გადაცემაც ან სავარძლის გაწევა — შეიძლება კეთილგანწყობის პატარა ჟესტი იყოს. მუნიციპალიტეტი გეგმავს გაფართოებულ საინფორმაციო კამპანიას, რათა ხალხსა და მოხალისეებს შორის კომუნიკაცია უფრო მარტივი გახდეს და საზოგადოებრივი სივრცე ყველასთვის კომფორტული იყოს.",
+      "translation": "Dans la ville, les déplacements dépendent souvent des transports publics : bus, métro et minibuses. Récemment, la municipalité locale a décidé d'offrir une formation sur la courtoisie et les règles des voyageurs. Le programme implique des jeunes membres de la communauté qui doivent aider les personnes actives et les volontaires. Anna rentre chaque jour du travail en bus et répond souvent aux questions des enquêteurs : est-ce suffisant si le trajet est trop bruyant ou faut-il se dépêcher ? Un jour, Anna a organisé une action locale : les gens ont testé la recherche de places libres pour les personnes âgées et la présentation des règles de voyage. Beaucoup de voyageurs ont compris pour la première fois qu'une petite aide — passer un sac ou céder son siège — peut être un geste de bonne volonté. La municipalité prévoit une campagne d'information élargie pour faciliter la communication entre la population et les volontaires et rendre l'espace public confortable pour tous.",
+      "questions": [
+        {
+          "question": "Quel est l'objectif principal de la formation proposée par la municipalité ?",
+          "options": [
+            "Former les conducteurs à conduire plus vite.",
+            "Apprendre aux gens la politesse et les règles de voyage.",
+            "Réduire le nombre de bus en circulation.",
+            "Vendre des abonnements à prix réduit."
+          ],
+          "answer": "Apprendre aux gens la politesse et les règles de voyage.",
+          "explanation": "Le texte explique que la municipalité a décidé d'offrir une formation sur l'élégance (politesse) et les règles des voyageurs."
+        },
+        {
+          "question": "Quel rôle jouent les jeunes membres de la communauté dans le programme ?",
+          "options": [
+            "Ils remplacent les conducteurs pendant les heures de pointe.",
+            "Ils aident les personnes actives et les volontaires.",
+            "Ils vendent des billets dans les stations.",
+            "Ils organisent des spectacles dans le métro."
+          ],
+          "answer": "Ils aident les personnes actives et les volontaires.",
+          "explanation": "Le texte indique que le programme implique des jeunes qui doivent aider les personnes actives et les volontaires."
+        },
+        {
+          "question": "Quelle action Anna a-t-elle organisée ?",
+          "options": [
+            "Une manifestion contre les tarifs des transports.",
+            "Une action pour trouver des places pour les personnes âgées et expliquer les règles.",
+            "Une campagne de distribution de billets gratuits.",
+            "Un concert dans un bus."
+          ],
+          "answer": "Une action pour trouver des places pour les personnes âgées et expliquer les règles.",
+          "explanation": "Le texte raconte qu'Anna a organisé une action locale où les gens ont testé la recherche de places libres pour les personnes âgées et la présentation des règles de voyage."
+        },
+        {
+          "question": "Selon le texte, quel petit geste est mentionné comme utile dans les transports ?",
+          "options": [
+            "Ignorer les demandes des autres passagers.",
+            "Passer un sac ou céder son siège.",
+            "Augmenter le volume de la musique.",
+            "Photographier les autres passagers."
+          ],
+          "answer": "Passer un sac ou céder son siège.",
+          "explanation": "Le texte précise que passer un sac ou céder son siège est un geste de bonne volonté qui aide les autres voyageurs."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-021",
+      "title": "სეზონური ბაზრობა ქალაქში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 21,
+      "text": "ჩვენი ქალაქის ცენტრალურ მოედანზე ყოველ შაბათ-კვირას სეზონური ბაზრობა იხსნება. ვაჭრები ადრე ადიან და სტენდებს ხალიჩებითა და ბეჭდური ნიშნებით ამკობენ. პირველ რიგში, გემოებითა და დედაქალაქური მწვანილით სავსე კუთხეა: ბოსტნეული, ახალი ხილი და ადგილობრივი ბოსტნობის ჯიშები. მეორე ადგილზე იდგება ხელნაკეთი ნივთების ალყა — ქსოვილების, თუნუქის აქსესუარების და ფიტულების გამოფენა. ბევრი ადამიანი მისტუმრობს ბაზრობას იმისთვის, რომ პირდაპირ მწარმოებლებსგან შეიძას პროდუქტი და მოკრძალებული ჭორაობა დაიწყოს. ამ ბაზრობაზე ხშირად მუსიკოსებიც ასპარეზობენ — გასაოცარი სიმღერა ან პატარა ჯგუფი შემოდის 분위ას გამოკეთებლად. იმის გამო, რომ პროდუქტი ხშირად გატესტილია საკუთარ წარმოებაში, ფასები მართალია განსხვავებული, მაგრამ ხარისხი უკეთესია. ზოგიერთმა მახლობელმა თქვა, რომ სწორედ აქ აღმოაჩინა საოცარი ჯამები და უნიკალური სამზარეულო გასაღებები. ბოლოს, ორგანიზატორები ნაგვის შეგროვების აქტივობასაც აწარმოებენ და სტუმრებს ურჩევენ ხელმისაწვდომ ტომრებს და ბანკნოტების არ გამოტოვების გეგმას.",
+      "translation": "Sur la place centrale de notre ville, un marché saisonnier s’ouvre tous les samedis et dimanches. Les commerçants arrivent tôt et décorent leurs étals avec des nappes et des enseignes. En premier lieu, il y a un coin rempli de saveurs et de produits de la capitale : légumes, fruits frais et variétés locales. En deuxième position se tient une zone d’objets artisanaux — exposition de tissus, accessoires en métal et petits pots. Beaucoup de personnes visitent le marché pour acheter les produits directement auprès des producteurs et entamer des discussions conviviales. Sur ce marché, des musiciens se produisent souvent — une belle chanson ou un petit groupe vient pour créer de l’ambiance. Parce que les produits sont souvent testés par leurs propres producteurs, les prix varient, mais la qualité est meilleure. Un voisin a dit qu’il y avait découvert de magnifiques bols et des ustensiles de cuisine uniques. Enfin, les organisateurs mènent aussi une collecte de déchets et conseillent aux visiteurs d’apporter des sacs réutilisables et de ne pas oublier leur argent.",
+      "questions": [
+        {
+          "question": "Pourquoi beaucoup de personnes visitent-elles le marché selon le texte ?",
+          "options": [
+            "Pour écouter uniquement la musique",
+            "Pour acheter directement auprès des producteurs",
+            "Pour participer à des compétitions culinaires",
+            "Pour recevoir des cadeaux gratuits"
+          ],
+          "answer": "Pour acheter directement auprès des producteurs",
+          "explanation": "Le texte indique que beaucoup de personnes visitent le marché pour acheter les produits directement auprès des producteurs et entamer des discussions conviviales."
+        },
+        {
+          "question": "Quel type de produits trouve-t-on au premier coin du marché ?",
+          "options": [
+            "Objets artisanaux et accessoires",
+            "Vêtements importés",
+            "Légumes, fruits frais et variétés locales",
+            "Électronique et appareils ménagers"
+          ],
+          "answer": "Légumes, fruits frais et variétés locales",
+          "explanation": "Le texte précise que le premier coin est rempli de légumes, de fruits frais et de variétés locales."
+        },
+        {
+          "question": "Quelle activité les organisateurs proposent-ils pour améliorer l’environnement ?",
+          "options": [
+            "Offrir des arbres gratuits",
+            "Organiser des compétitions de cuisine",
+            "Mener une collecte de déchets",
+            "Construire un nouveau parc"
+          ],
+          "answer": "Mener une collecte de déchets",
+          "explanation": "Le texte mentionne que les organisateurs mènent une collecte de déchets et conseillent d’apporter des sacs réutilisables."
+        },
+        {
+          "question": "Quel avantage du marché est mis en avant concernant les produits ?",
+          "options": [
+            "Les produits sont toujours les moins chers de la ville",
+            "Les produits sont souvent testés par leurs propres producteurs",
+            "Les produits sont importés d’autres pays",
+            "Les produits sont exclusivement biologiques"
+          ],
+          "answer": "Les produits sont souvent testés par leurs propres producteurs",
+          "explanation": "Le texte indique que les produits sont souvent testés par leurs propres producteurs, ce qui explique une meilleure qualité malgré des prix variables."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-022",
+      "title": "მუზეუმის ახალი გამოფენა და აუდიოგიდი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 22,
+      "text": "ხელოვნების მუზეუმმა ახლახან ახალი გამოფენა გახსნა, რომელიც ქვეყნის თანამედროვე პეიზაჟურ მხატვრობას აჩვენებს. ექსპონატები ორი სართულზეა განთავსებული და თითოეულ ოთახში თემატური სათაურებია. ერთ-ერთ დარბაზში მთავარ ყურადღებას მიიპყრობს ფერის დაუფასებელი ექსპერიმენტი — პლასტიკური ფერები და შეურიებული ტექსტურები. მუზეუმმა ახალი აუდიოგიდიც შექმნა: ის ხელმისაწვდომია სხვადასხვა ენაზე, შედგება მოკლე კომენტარებისა და მუსიკალური ფონებისგან. სტუმრებს ურჩიეს წინა ხაზზე მოსვლა და აუდიოგიდის აპლიკაციის გადმოწერა მათი სმარტფონებზე. გასაკვირი არ არის, რომ პროვოკაციული ტილოს წინ რამდენიმე კაცმა დისკუსია დაიწყო, რადგან ზოგიერთი ნახატი ჩვეულებრივთან უკავშირდება, ზოგი კი ქალაქური ტრანფორმაციების ნარევია. გზამკვლევები აგვარებენ ჯგუფურ ვიზიტებს და მცირეკლაონჯი სახელმძღვანელოებს აძლევენ ახალგაზრდა სტუდენტებს. მუზეუმის კაფედან იშლება მსუბუქი საუზმეები და ხელნაკეთი ნამცხვრებიც, რაც ვიზიტს უფრო მშვიდსა და კომფორტულს ხდის. ბოლოს, თანამშრომლები აცხადებენ, რომ გამოფენა ორი თვის განმავლობაში დარჩება და მოამზადებენ საჯარო შეხვედრებს ავტორებთან.",
+      "translation": "Le musée d’art a récemment ouvert une nouvelle exposition qui présente la peinture paysagère contemporaine du pays. Les pièces sont disposées sur deux étages et chaque salle porte un titre thématique. Dans l’une des salles, l’attention principale est portée aux expériences audacieuses avec les couleurs — peintures plastiques et textures mélangées. Le musée a aussi créé un nouvel audioguide : il est disponible en plusieurs langues et comprend de courts commentaires et des fonds musicaux. On conseille aux visiteurs d’arriver à l’heure et de télécharger l’application de l’audioguide sur leurs smartphones. Il n’est pas surprenant qu’un groupe ait entamé une discussion devant une toile provocante, car certaines œuvres évoquent le quotidien tandis que d’autres mélangent des transformations urbaines. Les guides organisent les visites de groupe et donnent de petits guides aux jeunes étudiants. Le café du musée sert des petits déjeuners légers et des pâtisseries artisanales, ce qui rend la visite plus paisible et confortable. Enfin, les employés annoncent que l’exposition restera deux mois et prépareront des rencontres publiques avec les auteurs.",
+      "questions": [
+        {
+          "question": "Quelle est la spécialité de la nouvelle exposition ?",
+          "options": [
+            "La sculpture ancienne",
+            "La peinture paysage contemporaine du pays",
+            "La photographie de voyage",
+            "L’architecture médiévale"
+          ],
+          "answer": "La peinture paysage contemporaine du pays",
+          "explanation": "Le texte mentionne clairement que l’exposition présente la peinture paysagère contemporaine du pays."
+        },
+        {
+          "question": "Qu’est-ce que le musée recommande aux visiteurs pour profiter de l’audioguide ?",
+          "options": [
+            "Acheter un appareil audio à l’entrée",
+            "Télécharger l’application de l’audioguide sur leur smartphone",
+            "Imprimer un guide papier avant la visite",
+            "Apporter leurs propres écouteurs uniquement"
+          ],
+          "answer": "Télécharger l’application de l’audioguide sur leur smartphone",
+          "explanation": "Le texte conseille aux visiteurs de télécharger l’application de l’audioguide sur leurs smartphones."
+        },
+        {
+          "question": "Pourquoi certaines personnes ont-elles commencé une discussion devant une toile ?",
+          "options": [
+            "Parce que la toile était très petite",
+            "Parce que la toile était provocante et suscitait des interprétations",
+            "Parce que la toile coûtait cher",
+            "Parce que la toile était mal éclairée"
+          ],
+          "answer": "Parce que la toile était provocante et suscitait des interprétations",
+          "explanation": "Le texte explique qu’un groupe a commencé une discussion devant une toile provocante car certaines œuvres évoquent différentes idées et transformations urbaines."
+        },
+        {
+          "question": "Que prépareront les employés pendant la durée de l’exposition ?",
+          "options": [
+            "Des ventes privées d’œuvres d’art",
+            "Des ateliers de cuisine",
+            "Des rencontres publiques avec les auteurs",
+            "Des compétitions de peinture pour enfants"
+          ],
+          "answer": "Des rencontres publiques avec les auteurs",
+          "explanation": "Le texte indique que les employés prépareront des rencontres publiques avec les auteurs pendant les deux mois de l’exposition."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-023",
+      "title": "თვიური ბაზარი პატარა ქალაქში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 23,
+      "text": "საბაძვო ქუჩაში ყოველ თვის პირველ კვირას პატარა ქალაქის ბაზარი იმართება. ეს ბაზარი განსაკუთრებულია: ადგილობრივი ფერმერები, ხელოვანები და საჭმლის მომზადების ოჯახური ბიზნესი აწყობენ მაღაზიებს ღია ჰაერში. ეს ახალი ტრადიცია სამი წლის წინ დაიწყო, როცა नगरपालिका და მცირე ბიზნესის გაერთიანება შეთანხმდნენ, რომ ადგილობრივი პროდუქციის პოპულარიზაციისთვის მოეწყოთ სივრცე. ბაზარში იყიდება ბოსტნეული, ხილი, ჯემი, ტრადიციული ხაჭო და ხელნაკეთი ნივთები — შარფები, ფაიფურა და თუჯის ნაკეთობები. ბევრი ადამიანი ბაზარში არა მხოლოდ საყიდლობით, არამედ მეგობრებთან შეხვედრისა და ადგილობრივი კულტურის შესწავლის მიზნით მოდის. ერთი ადგილი განსაკუთრებით გამოდის: ტანსაცმლის გადაკეთების კუთხე, სადაც მოხალისეები წყარგულებს სასარგებლოდ გადააკეთებენ. ქალაქის სკოლებიც პერიოდულად ატარებენ დეგუსტაციებს და მასწავლებლები მოსწავლეებს სთავაზობენ მცირე ლექციებს პროდუქტის წარმოშობის შესახებ. ასეთი საქმიანობა ხელს უწყობს კომუნიკაციას და ადგილობრივი ეკონომიკის გაძლიერებას, მაგრამ მონაწილეები ამბობენ, რომ ძირითად გამოწვევად ინფраструктურის გაუმჯობესებაა — უკეთესი გზები და საყოფაცხოვრებო პირობები, რომ ბაზარი უკეთ მოვიდეს და უფრო მასშტაბური გახდეს.",
+      "translation": "Le premier week-end de chaque mois, un marché se tient dans la rue commerçante de la petite ville. Ce marché est particulier : des agriculteurs locaux, des artisans et des entreprises familiales de restauration installent des stands en plein air. Cette nouvelle tradition a commencé il y a trois ans, quand la municipalité et l'association des petites entreprises ont décidé de créer un espace pour promouvoir les produits locaux. On y vend des légumes, des fruits, des confitures, du fromage traditionnel et des objets artisanaux — écharpes, faïences et articles en cuivre. Beaucoup de gens viennent au marché non seulement pour acheter, mais aussi pour rencontrer des amis et découvrir la culture locale. Un coin attire particulièrement l'attention : un atelier de retouches où des volontaires transforment des vêtements usagés en articles utiles. Les écoles de la ville organisent parfois des dégustations et les enseignants proposent aux élèves de courtes leçons sur l'origine des produits. Ces activités favorisent la communication et renforcent l'économie locale, mais les participants disent que le principal défi reste l'amélioration des infrastructures — de meilleures routes et des installations sanitaires — afin que le marché soit plus attractif et prenne plus d'ampleur.",
+      "questions": [
+        {
+          "question": "Pourquoi la municipalité a-t-elle soutenu le marché?",
+          "options": [
+            "Pour augmenter les taxes locales",
+            "Pour promouvoir les produits locaux",
+            "Pour fermer les autres commerces",
+            "Pour construire des appartements"
+          ],
+          "answer": "Pour promouvoir les produits locaux",
+          "explanation": "Le texte explique que la municipalité et l'association ont créé l'espace pour promouvoir les produits locaux."
+        },
+        {
+          "question": "Quel type d'objet n'est PAS mentionné parmi ceux vendus au marché?",
+          "options": [
+            "Écharpes",
+            "Faïences",
+            "Articles en cuir",
+            "Confitures"
+          ],
+          "answer": "Articles en cuir",
+          "explanation": "Le texte énumère écharpes, faïences, articles en cuivre et confitures, mais ne mentionne pas d'articles en cuir."
+        },
+        {
+          "question": "Quelle activité attire particulièrement l'attention au marché?",
+          "options": [
+            "Un stand de légumes biologiques",
+            "Un coin de retouches de vêtements",
+            "Un espace pour concerts",
+            "Un atelier de poterie"
+          ],
+          "answer": "Un coin de retouches de vêtements",
+          "explanation": "Le passage indique qu'un coin pour la transformation des vêtements usagés par des volontaires ressort particulièrement."
+        },
+        {
+          "question": "Quel est le principal défi identifié par les participants?",
+          "options": [
+            "Manque de visiteurs",
+            "Concurrence des supermarchés",
+            "Amélioration des infrastructures",
+            "Absence de produits artisanaux"
+          ],
+          "answer": "Amélioration des infrastructures",
+          "explanation": "Le texte précise que le principal défi est l'amélioration des infrastructures, comme de meilleures routes et des installations sanitaires."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-024",
+      "title": "ახალგაზრდა მასწავლის ანგარიში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 24,
+      "text": "ნინო ბოლო წელს თბილისში საჯარო სკოლაში მუშაობს, სადაც იწყებს მასწავლებლის კარიერას. იგი სწავლობს სტუდენტებთან მუშაობის გამოცდილებას თითოეული დღის განმავლობაში. ამ პერიოდში ნინოს შეიმჩნია, რომ კლასში ყველაზე რთულია ორი პრობლემა: დისციპლინა საკლასო ოთახში და მოსწავლეების მოტივაცია ყოველდღიური დავალებების მიმართ. ნინო ცდილობს განსხვავებულ მეთოდს — იყენებს ჯგუფურ პროექტებს, თამაშებს და მოკლე პრეზენტაციებს, რათა მოსწავლეები აქტიურად იყვნენ ჩართულები. მას ასევე უწევს მშობლებთან რეგულარული შეხვედრები, რათა შეატყობინოს ბავშვების პროგრესის შესახებ. რამდენიმე თვეში შედეგები თვალსაჩინო გახდა: ზოგიერთი ჯგუფი მოახერხა უკეთესად გააცნობიეროს მასწავლებლის გაკვეთილები და აკმაყოფილებს დავალებებს დროულად. თუმცა გამოწვევები მაინც რჩება: რესურსები სკოლის ბიუჯეტზე დამოკიდებული უნდა იყოს, ზოგჯერ მასწავლებელმა მოიწიოს სპეციალური მასალები ან მოეწყოს სწავლების სესია სკოლამ გარეთ. ნინო იმედი აქვს, რომ მომავალში სასწავლო საშუალებები გაუმჯობესდება და უფრო მეტი პარტნიორობა ადგილობრივ საზოგადოებასთან დაეხმარება მოსწავლეებს.",
+      "translation": "Nino travaille depuis un an dans une école publique de Tbilissi, où elle commence sa carrière d'enseignante. Elle apprend à travailler avec des élèves au quotidien. Pendant cette période, Nino a remarqué que deux problèmes sont les plus difficiles dans la classe : la discipline en classe et la motivation des élèves pour les devoirs quotidiens. Nino essaie une méthode différente — elle utilise des projets en groupe, des jeux et de courtes présentations pour impliquer activement les élèves. Elle doit aussi organiser des réunions régulières avec les parents pour les informer des progrès des enfants. Au bout de quelques mois, les résultats sont visibles : certains groupes ont réussi à mieux comprendre les leçons de l'enseignante et rendent les devoirs à temps. Cependant, des défis subsistent : les ressources dépendent du budget de l'école, parfois l'enseignante doit solliciter du matériel spécial ou organiser des sessions d'enseignement en dehors de l'école. Nino espère que les outils pédagogiques s'amélioreront à l'avenir et que davantage de partenariats avec la communauté locale aideront les élèves.",
+      "questions": [
+        {
+          "question": "Depuis combien de temps Nino travaille-t-elle à l'école?",
+          "options": [
+            "Deux ans",
+            "Un an",
+            "Cinq ans",
+            "Six mois"
+          ],
+          "answer": "Un an",
+          "explanation": "Le texte indique que Nino travaille depuis un an dans l'école publique."
+        },
+        {
+          "question": "Quelles méthodes Nino utilise-t-elle pour motiver les élèves?",
+          "options": [
+            "Punir les élèves en cas d'échec",
+            "Donner seulement des leçons magistrales",
+            "Projets de groupe, jeux et courtes présentations",
+            "Remplacer les devoirs par des examens"
+          ],
+          "answer": "Projets de groupe, jeux et courtes présentations",
+          "explanation": "Le texte mentionne explicitement l'utilisation de projets en groupe, de jeux et de courtes présentations pour impliquer les élèves."
+        },
+        {
+          "question": "Quel problème ne fait PAS partie des difficultés mentionnées?",
+          "options": [
+            "Motivation des élèves",
+            "Discipline en classe",
+            "Manque de ressources",
+            "Absence de parents"
+          ],
+          "answer": "Absence de parents",
+          "explanation": "Le texte parle de motivation, discipline et manque de ressources, mais ne mentionne pas l'absence des parents."
+        },
+        {
+          "question": "Que pense Nino de l'avenir?",
+          "options": [
+            "Que les conditions ne changeront jamais",
+            "Que la ville fermera l'école",
+            "Que les outils pédagogiques et les partenariats s'amélioreront",
+            "Qu'elle quittera l'enseignement"
+          ],
+          "answer": "Que les outils pédagogiques et les partenariats s'amélioreront",
+          "explanation": "Le texte dit que Nino espère une amélioration des outils pédagogiques et davantage de partenariats avec la communauté locale."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-025",
+      "title": "საბანკო რეჟიმი და პატარა ბიზნესის პრობლემა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 25,
+      "text": "თბილისის პატარა ქვეშა უბანში ცხოვრობს ნინო, რომელსაც საკუთარი წვრილი მაღაზია აქვს — ხელნაკეთი ნივთების საჩუქრებისთვის. ბოლო რამდენიმე წლის განმავლობაში მისი ბიზნესი ნელ-ნელა იზრდება, მაგრამ ბანკრული ტრანზაქციების ახალი წესები ძალიან შეეჯახა. ბანკმა აიძულა ყველა მცირე მეწარმეს ჰქონდეთ აქტიური საბანკო ანგარიში და მყისიერი ელექტრონული ანგარიშისწარმოა. ნინო ამბობს, რომ ინტერნეტთან დაკავშირება მის უბანში ხშირად პრობლემურია, და არც სევდიანად იცის აუხსნას ის ყველა ელექტრონული პროცედურა. გარდა ამისა, ბანკის საკომისიოები უფრო მაღალია ვიდრე ადრე; ეს ზრდის პროდუქციის ღირებულებას და ნაკლებ მომხმარებელს აქცევს. ნინოს ერთ-ერთი მეგობარი დახმარებას სთავაზობს: ადგილობრივმა კოოპერაციამ შეიძლება გახსნას საერთო ანგარიში და სწავლება ჩაატაროს სხვა მცირე მეწარმეთათვის. ნინო ფიქრობს, რომ ეს კარგი გზა იქნებოდეს პრობლემის დასაძლევად, რადგან კლიენტები მაინც მომწონთ მისი ნივთები და მხოლოდ საბანკო შეზღუდვები ინახავდნენ გაყიდვებს.",
+      "translation": "Nino habite dans un petit quartier de Tbilissi et possède une petite boutique d'objets artisanaux pour cadeaux. Son commerce a progressivement augmenté ces dernières années, mais les nouvelles règles bancaires l'ont beaucoup affectée. La banque a obligé tous les petits entrepreneurs à avoir un compte bancaire actif et des paiements électroniques instantanés. Nino dit que la connexion Internet dans son quartier est souvent problématique, et elle ne sait pas bien expliquer toutes les procédures électroniques. De plus, les commissions bancaires sont plus élevées qu'avant ; cela augmente le prix des produits et fait fuir certains clients. Un ami de Nino propose de l'aider : une coopérative locale pourrait ouvrir un compte commun et organiser des formations pour d'autres petits entrepreneurs. Nino pense que ce serait une bonne manière de surmonter le problème, car les clients aiment toujours ses articles et seuls les obstacles bancaires ralentissaient les ventes.",
+      "questions": [
+        {
+          "question": "Quel est le principal problème que Nino rencontre avec sa boutique ?",
+          "options": [
+            "Les fournisseurs ne livrent plus de matériaux.",
+            "Les nouvelles règles bancaires et les paiements électroniques.",
+            "Le quartier est trop éloigné du centre-ville.",
+            "Il n'y a pas assez de clients intéressés par l'artisanat."
+          ],
+          "answer": "Les nouvelles règles bancaires et les paiements électroniques.",
+          "explanation": "Le texte explique que les nouvelles règles bancaires (compte actif et paiements électroniques) et les commissions plus élevées affectent son activité."
+        },
+        {
+          "question": "Pourquoi Nino a des difficultés avec les procédures électroniques ?",
+          "options": [
+            "Parce qu'elle refuse d'utiliser un ordinateur.",
+            "Parce que son quartier a souvent des problèmes de connexion internet.",
+            "Parce qu'elle n'aime pas les nouvelles technologies.",
+            "Parce qu'elle travaille seule et n'a pas le temps."
+          ],
+          "answer": "Parce que son quartier a souvent des problèmes de connexion internet.",
+          "explanation": "Le texte précise que la connexion Internet dans son quartier est souvent problématique, ce qui complique les procédures électroniques."
+        },
+        {
+          "question": "Quelle solution propose un ami pour aider Nino ?",
+          "options": [
+            "Ouvrir un grand magasin dans le centre commercial.",
+            "Trouver des fournisseurs moins chers à l'étranger.",
+            "Créer une coopérative locale avec un compte commun et des formations.",
+            "Arrêter la boutique et vendre en ligne uniquement."
+          ],
+          "answer": "Créer une coopérative locale avec un compte commun et des formations.",
+          "explanation": "Le texte mentionne qu'un ami propose qu'une coopérative locale ouvre un compte commun et organise des formations pour les petits entrepreneurs."
+        },
+        {
+          "question": "Quel est le sentiment général de Nino face à l'avenir de sa boutique ?",
+          "options": [
+            "Elle est certaine qu'elle devra fermer rapidement.",
+            "Elle pense que les clients n'aimeraient plus ses produits.",
+            "Elle est pessimiste et refuse toute aide.",
+            "Elle espère surmonter les obstacles car les clients aiment ses articles."
+          ],
+          "answer": "Elle espère surmonter les obstacles car les clients aiment ses articles.",
+          "explanation": "Le texte conclut que Nino pense que la coopérative pourrait aider et que ses clients aiment toujours ses produits, donc elle espère résoudre le problème."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-026",
+      "title": "ახალი ველოტრასების გზა ქალაქში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 26,
+      "text": "ქალაქის მერია ბოლო თვეს აფორმებს ახალ ველომარშრუტებს, რათა მეტი ადამიანი მოტაცდეს საზოგადოებრივი ტრანსპორტის მიღმა და გამოიყენოს ველოსიპედი. პროექტი მოიცავს სამი ძირითადი გზა: პარკიდან უნივერსიტეტის აღზევებამდე, სასტუმრო ზონიდან სასოფლო უბნამდე და თბილი ნაპირიდან ბაზართან. ბილიკები იქნება გამოყოფილი ლითონის ბარიერებით და სპეციალური სიგნალებით კვეთილობების ადგილებში. მერიის წარმომადგენლები აცხადებენ, რომ ველოტრასებმა არამხოლოდ რამდენიმეჯერ შეამცირა მანქანების მოძრაობა, არამედ გააუმჯობესა ჰაერის ხარისხიც. ადგილობრივმა ბიზნესმა, მაგალითად კაფეებმა, აღნიშნა, რომ ახლა მეტი კლიენტია შვიდამდე, რადგან велосипедისტები გაჩერებულან ყავითა და წახემსებით. თუმცა განვითარების მიმდინარეობისას მოსახლეობის ნაწილი უკმაყოფილო დარჩა: ზოგი შენიშნავს, რომ ქუჩებს ველოდიად გამოყოფა მოძრაობას აქცევს რთულს ავტოსადგომებისთვის და ტვირთების მისაღებად. მერია გეგმავს დამატებით შეხვედრებს, სადაც მოქალაქეები შეძლებენ საკუთარი მოსაზრებების დაფიქსირებას და კომპანიებისთვის სპეციალური ლიცენზიების შექმნას სატვირთო ტრანზიტისთვის.",
+      "translation": "La mairie a récemment aménagé de nouvelles pistes cyclables pour encourager plus de personnes à utiliser le vélo plutôt que les transports en commun. Le projet comprend trois trajets principaux : du parc jusqu'à l'université, de la zone hôtelière au quartier rural et de la rive chaude au marché. Les voies seront séparées par des barrières métalliques et des signaux spéciaux aux intersections. Les représentants municipaux déclarent que les pistes ont non seulement réduit la circulation automobile, mais aussi amélioré la qualité de l'air. Les commerces locaux, comme les cafés, ont remarqué qu'il y a désormais plus de clients jusqu'à sept heures du matin, car les cyclistes s'arrêtent pour un café ou une collation. Cependant, une partie de la population est mécontente : certains remarquent que la transformation des rues en pistes complique le stationnement et la livraison des marchandises. La mairie prévoit des réunions supplémentaires où les citoyens pourront exprimer leurs opinions et créer des licences spéciales pour le transit des camions.",
+      "questions": [
+        {
+          "question": "Quel est l'objectif principal du projet de la mairie ?",
+          "options": [
+            "Construire de nouveaux parkings pour voitures.",
+            "Encourager l'utilisation du vélo et réduire la circulation automobile.",
+            "Fermer certaines rues pour des événements sportifs.",
+            "Augmenter le nombre de taxis disponibles en ville."
+          ],
+          "answer": "Encourager l'utilisation du vélo et réduire la circulation automobile.",
+          "explanation": "Le texte indique que la mairie a créé des pistes pour inciter les gens à utiliser le vélo et ainsi diminuer la circulation des voitures."
+        },
+        {
+          "question": "Quelles mesures physiques sont prises pour séparer les pistes cyclables ?",
+          "options": [
+            "Installer des plantes en pots sur la chaussée.",
+            "Peindre seulement une ligne blanche au sol.",
+            "Poser des barrières métalliques et des signaux aux intersections.",
+            "Mettre des panneaux publicitaires le long des pistes."
+          ],
+          "answer": "Poser des barrières métalliques et des signaux aux intersections.",
+          "explanation": "Le texte précise que les voies seront séparées par des barrières métalliques et auront des signaux spéciaux aux croisements."
+        },
+        {
+          "question": "Quel effet les pistes ont-elles eu sur les cafés locaux ?",
+          "options": [
+            "Les cafés ont perdu des clients à cause du bruit.",
+            "Les cafés ont remarqué une augmentation de clients, surtout le matin.",
+            "Les cafés ont dû fermer à cause des restrictions.",
+            "Les cafés offrent maintenant des locations de vélos."
+          ],
+          "answer": "Les cafés ont remarqué une augmentation de clients, surtout le matin.",
+          "explanation": "Le passage indique que les cafés ont constaté plus de clients jusqu'à sept heures parce que les cyclistes s'y arrêtent pour un café ou une collation."
+        },
+        {
+          "question": "Quelle est une des préoccupations des habitants face aux nouvelles pistes ?",
+          "options": [
+            "Les pistes rendent les bicyclettes plus chères.",
+            "Les pistes empêchent l'accès aux parcs publics.",
+            "Les pistes compliquent le stationnement et la livraison des marchandises.",
+            "Les pistes sont réservées uniquement aux touristes."
+          ],
+          "answer": "Les pistes compliquent le stationnement et la livraison des marchandises.",
+          "explanation": "Le texte mentionne que certains habitants disent que la transformation des rues en pistes rend difficile le stationnement et l'accès pour les livraisons."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-027",
+      "title": "ფესტივალი სახლის ქუჩაში",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 27,
+      "text": "ჩვენი უბანი ყოველწლიურად მცირე ფესტივალს უძღვნის ერთი ქუჩის პატრონს, რომელიც უკვე მოხუცებულია და ბევრი ამბავი აქვს მოსაყოლი. წელსაც, როგორც ყოველთვის, გვქონდა მუსიკა, ხორცეულის პატარა დახლი და ბავშვებისთვის სათამაშოებადი კუთხე. ფესტივალის ორგანიზება სამეზობლომ ერთობლივად მოახდინა: ზოგი მხატვრული ლენტების ჩამოკიდებაში დაეხმარა, ზოგი სმორის და ჩაის მოხარშვაში. მე ახალგაზრდა მოხალისე ვიყავი და პასუხისმგებელი სტუმართა მისალმებაზე — ვუხსნიდი, სად არის სცენა, სად არის საპარკინგე ადგილი და ეკითხებოდი, სურთ თუ არა ადგილობრივი პურის ან იქნებ ჩურჩხელის დაგემოვნება. მოვიპოვე დარიგებული ფურცლები ღონისძიების პროგრამით და ვცდილობდი თითოეული სტუმარი დადებითად მომერთმია.\nფესტივალის დროს მოვისმინეთ ადგილობრივი გიტარის ოსტატის ახალი სიმღერა და რამდენიმე დიასახლისმა ოჯახური რეცეპტები გაგვიზიარა. ბოლოს კი ქუჩაზე პატარა გამოფენა გაიმართა, სადაც ბავშვების ნახატები გამოიფინა. ფესტივალი ყველა მეზობელს და ახლოს მცხოვრებ სტუმრებს აერთიანებს — ეს არის მცირე, მაგრამ მნიშვნელოვანი ღონისძი ჩვენი კომპაქტური ქალაქისთვის.",
+      "translation": "Notre quartier organise chaque année un petit festival dédié au propriétaire d'une rue, un homme âgé qui a beaucoup d'histoires à raconter. Cette année encore, comme toujours, il y avait de la musique, un petit stand de grillades et un coin jeux pour les enfants. L'organisation du festival a été faite collectivement par le voisinage : certains ont aidé à accrocher des guirlandes, d'autres à préparer du thé et du s'more. J'étais jeune bénévole et responsable de l'accueil des invités — j'expliquais où était la scène, où se trouvait le parking et je demandais s'ils voulaient goûter le pain local ou peut-être une chouchkhela. J'avais des feuilles imprimées avec le programme de l'événement et j'essayais d'accueillir chaque visiteur positivement.\nPendant le festival, nous avons entendu une nouvelle chanson d'un guitariste local et plusieurs ménagères ont partagé des recettes familiales. Enfin, il y a eu une petite exposition de rue où ont été affichés des dessins d'enfants. Le festival rassemble tous les voisins et les visiteurs proches — c'est un petit mais important rendez-vous pour notre ville compacte.",
+      "questions": [
+        {
+          "question": "Quel rôle le narrateur a-t-il au festival ?",
+          "options": [
+            "Vendre des produits au stand de nourriture",
+            "Accueillir les invités et donner des informations",
+            "Jouer de la guitare sur la scène",
+            "Organiser l'exposition des enfants"
+          ],
+          "answer": "Accueillir les invités et donner des informations",
+          "explanation": "Le texte indique que le narrateur était volontaire et responsable de l'accueil : il expliquait où était la scène, le parking et proposait des dégustations."
+        },
+        {
+          "question": "Quelle activité n'est PAS mentionnée dans le texte ?",
+          "options": [
+            "Accrochage de guirlandes",
+            "Préparation de thé et s'more",
+            "Projection d'un film en plein air",
+            "Exposition des dessins d'enfants"
+          ],
+          "answer": "Projection d'un film en plein air",
+          "explanation": "Le texte mentionne guirlandes, préparation de boissons et l'exposition de dessins, mais pas de projection de film."
+        },
+        {
+          "question": "Que faisait le propriétaire de la rue selon le texte ?",
+          "options": [
+            "Il chantait sur scène toute la journée",
+            "Il était jeune et organisait le festival",
+            "Il était âgé et avait beaucoup d'histoires à raconter",
+            "Il tenait le stand de nourriture"
+          ],
+          "answer": "Il était âgé et avait beaucoup d'histoires à raconter",
+          "explanation": "Le texte commence en disant que le festival est dédié au propriétaire de la rue, qui est déjà âgé et a beaucoup d'histoires."
+        },
+        {
+          "question": "Quel aspect du festival est présenté comme important pour le quartier ?",
+          "options": [
+            "Sa taille internationale",
+            "Sa contribution à l'économie régionale",
+            "Le fait qu'il rassemble voisins et visiteurs",
+            "La présence d'artistes célèbres"
+          ],
+          "answer": "Le fait qu'il rassemble voisins et visiteurs",
+          "explanation": "La fin du texte explique que le festival rassemble tous les voisins et les visiteurs proches, et que c'est un rendez-vous important pour la communauté."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-028",
+      "title": "ინტერვიუსთვის მზადება და ოჯახური რჩევები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 28,
+      "text": "ნათია დიდი ქალაქის უნივერსიტეტიდან ახლახან დაბრუნდა შინ და ახლა იძებნის პირველ სერიოზულ სამსახურს. კვირას მას ეცალა ერთი მნიშვნელოვანი სატელეფონო კომბინაცია, სადაც კომპანიამ მიწვევა გაუგზავნა ინტერვიზე. ნათია ძალიან გაუხარდა, მაგრამ მშობლებმა შეახსენა, რომ ოჯახის ტრადიციით პირველ შრომით დღეში აუცილებელია სტუმრებს ფუნთუშის ანოჩხი მიართვან და საღამოს ერთად მოახდინონ ლოცვა. ნათიას ეჩქარებოდა დრო და უნდა მოესწრო მოთხოვნილი დოკუმენტების მომზადებას, მაგრამ მან გადაწყვიტა მოკლე შესვენება გამოეყოფა დედას და დაეხმარა პურის გამზადებაში.\nინტერვიუ დილით იყო, და ნათიას უკვე ჰქონდა აღრეული ტანსაცმელი და პასუხების ჩანაწერი შესაძლო კითხვებისთვის. დედამ მას ურჩია, ყურადღებით მოეკიდოს დასაწყისს: მივესალმოთ და მოკლედ შევაფასოთ ჩვენი გამოცდილება. ნათია დაიცვა ოჯახის რჩევა, დაიცვა პაექრობა დროში და პროფესიონალურად იქცეოდა. საბოლოოდ, ინტერვიუ წარმატებული აღმოჩნდა — მას სამსახურის შემოთავაზება გაუგზავნეს ერთი კვირის შემდეგ. ნათია დარწმუნდა, რომ წესრიგი, ოჯახური მხარდაჭერა და მზადება ერთმანეთს არ გამორიცხავენ, პირიქით, უცირებენ ძალას.",
+      "translation": "Natia est récemment revenue chez elle depuis l'université de la grande ville et cherche maintenant son premier vrai emploi. Dimanche, elle a reçu une importante convocation téléphonique : l'entreprise l'a invitée à un entretien. Natia était très contente, mais ses parents lui ont rappelé que, selon la tradition familiale, le premier jour de travail il est nécessaire d'offrir des petits pains aux invités et de prier ensemble le soir. Natia manquait de temps et devait préparer les documents demandés, mais elle a décidé de prendre une courte pause pour aider sa mère à faire du pain.\nL'entretien avait lieu le matin, et Natia avait déjà choisi sa tenue et noté des réponses possibles aux questions. Sa mère lui a conseillé de soigner le début : saluer et résumer brièvement son expérience. Natia a suivi les conseils familiaux, a géré le timing et s'est comportée professionnellement. Finalement, l'entretien a été réussi — elle a reçu une proposition d'emploi une semaine plus tard. Natia a compris que l'organisation, le soutien familial et la préparation ne s'excluent pas ; au contraire, ils donnent de la force.",
+      "questions": [
+        {
+          "question": "Pourquoi Natia a-t-elle aidé sa mère à préparer du pain ?",
+          "options": [
+            "Parce qu'elle n'avait pas de vêtements pour l'entretien",
+            "Parce que la tradition familiale l'exigeait le premier jour",
+            "Parce qu'elle voulait annuler l'entretien",
+            "Parce qu'elle préférait la cuisine au travail"
+          ],
+          "answer": "Parce que la tradition familiale l'exigeait le premier jour",
+          "explanation": "Le texte explique que les parents ont rappelé la tradition familiale : le premier jour de travail il faut offrir des petits pains et prier; donc Natia a aidé pour respecter cette tradition."
+        },
+        {
+          "question": "Qu'a conseillé la mère de Natia pour l'entretien ?",
+          "options": [
+            "De demander immédiatement une augmentation",
+            "De parler longuement de sa vie privée",
+            "De bien soigner le début, saluer et résumer son expérience",
+            "De ne pas répondre aux questions difficiles"
+          ],
+          "answer": "De bien soigner le début, saluer et résumer son expérience",
+          "explanation": "Le texte dit que la mère lui a conseillé d'accorder de l'importance au début : saluer et brièvement présenter son expérience."
+        },
+        {
+          "question": "Quel résultat a eu l'entretien ?",
+          "options": [
+            "Elle a été refusée immédiatement",
+            "Elle a reçu une proposition d'emploi une semaine plus tard",
+            "Elle n'est jamais allée à l'entretien",
+            "On lui a proposé un stage non rémunéré"
+          ],
+          "answer": "Elle a reçu une proposition d'emploi une semaine plus tard",
+          "explanation": "Le texte indique clairement qu'après l'entretien réussi, elle a reçu une offre d'emploi une semaine plus tard."
+        },
+        {
+          "question": "Quelle idée principale ressort du texte ?",
+          "options": [
+            "Les traditions empêchent la réussite professionnelle",
+            "La préparation, le soutien familial et l'organisation se complètent",
+            "Les entretiens sont inutiles si l'on a des contacts",
+            "Il est préférable de travailler sans informer sa famille"
+          ],
+          "answer": "La préparation, le soutien familial et l'organisation se complètent",
+          "explanation": "La conclusion du texte affirme que organisation, soutien familial et préparation ne s'excluent pas mais renforcent la personne."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-029",
+      "title": "კვირის ბოლოს ბაზრობა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 29,
+      "text": "ქუთაისში კვირის ბოლოს პატარა ღია ბაზრობა იკრიბება ქალაქის ცენტრში. ბაზრობაზე ადგილობრივი ფერმერები და ხელნაკეთი ნივთების ოსტატები უკეთეს პროდუქტს და ორიგინალურ ნივთებს აცხებენ. ადრე დილითდე მოზრდილი რიგები იშლება ხილითა და ბოსტნეულით; აქ იყიდება პომიდორი, კომბოსტო, ღვინის ყურძენი და სხვადასხვა მდნარი ყველი. გარეკანი მაღალ ხმაზე რეკლამას არ ვრცელებს; პირიქით, მყიდველები და გამყიდველები ხშირია საუბარში — გაცვლა-გამოცვლა ფასებისა და წარმოების წესების შესახებ. ბაზრობაზე არის პატარა კაფე, სადაც ხალხი შეეხება ყავას და ტრადიციულ ხაჭაპურს. ხშირად ახალგაზრდები წარმოდგენებს მართავენ, ადგილობრივი მუსიკის ან ბავშვთა თეატრის, და ბავშვებისთვის თამაშები იდგმება. ხარისხიანი პროდუქტის შეძენის გარდა, ბაზრობა ხელს უწყობს საზოგადოებრივ ურთიერთობებსაც: მეზობლები ერთმანეთს ეცნობიან, ახალ ამბებს აზიარებენ და დროს მოლაპარაკებით ატარებენ. ამ გარემოში ტურისტებიც ხშირად ჩნდებიან — ისინი ფოტოებს იღებენ და ადგილობრივ კერძებს სცდებიან, რაც ბაზრის კულტურულ მახასიათებელს უფრო აჩენს.",
+      "translation": "Le week-end, un petit marché en plein air se tient au centre de Kou­taïsi. Sur ce marché, des agriculteurs locaux et des artisans proposent de bons produits et des objets originaux. Dès le matin, se forment de longues files pour acheter des fruits et des légumes ; on y trouve des tomates, du chou, du raisin à vin et différents fromages frais. Il n'y a pas de publicité bruyante ; au contraire, acheteurs et vendeurs discutent souvent — ils échangent sur les prix et les méthodes de production. Il y a un petit café où l'on prend un café et le khachapuri traditionnel. Souvent, des jeunes organisent des spectacles, de la musique locale ou du théâtre pour enfants, et des jeux sont prévus pour les enfants. Au-delà de l'achat de produits de qualité, le marché favorise aussi les relations sociales : les voisins se rencontrent, partagent des nouvelles et passent le temps à discuter. Des touristes apparaissent aussi fréquemment — ils prennent des photos et goûtent des plats locaux, ce qui met en valeur le caractère culturel du marché.",
+      "questions": [
+        {
+          "question": "Quel est l'élément le moins présent au marché décrit ?",
+          "options": [
+            "La publicité bruyante",
+            "La vente de légumes",
+            "Un café",
+            "Des spectacles pour enfants"
+          ],
+          "answer": "La publicité bruyante",
+          "explanation": "Le texte précise qu'il n'y a pas de publicité bruyante ; au contraire, les échanges sont calmes, donc la publicité bruyante est l'élément le moins présent."
+        },
+        {
+          "question": "Pourquoi les gens discutent-ils souvent au marché ?",
+          "options": [
+            "Pour échanger sur les prix et les méthodes de production",
+            "Pour regarder des photos de touristes",
+            "Pour jouer de la musique",
+            "Pour vendre des vêtements"
+          ],
+          "answer": "Pour échanger sur les prix et les méthodes de production",
+          "explanation": "Le texte indique que vendeurs et acheteurs discutent souvent pour échanger des informations sur les prix et la manière dont les produits sont fabriqués."
+        },
+        {
+          "question": "Quelle activité convient le mieux aux enfants selon le texte ?",
+          "options": [
+            "Des jeux et du théâtre pour enfants",
+            "La dégustation de fromages forts",
+            "La publicité sur les stands",
+            "Le commerce de gros"
+          ],
+          "answer": "Des jeux et du théâtre pour enfants",
+          "explanation": "Le texte mentionne spécifiquement des spectacles pour enfants et des jeux prévus pour eux, ce qui est l'activité adaptée."
+        },
+        {
+          "question": "Quel effet le marché a-t-il sur la communauté locale ?",
+          "options": [
+            "Il favorise les relations sociales entre voisins",
+            "Il remplace les cafés du centre-ville",
+            "Il diminue le nombre de touristes",
+            "Il interdit la vente d'artisanat"
+          ],
+          "answer": "Il favorise les relations sociales entre voisins",
+          "explanation": "Le texte explique que le marché aide les voisins à se rencontrer, partager des nouvelles et parler ensemble, donc il favorise les relations sociales."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-030",
+      "title": "ერთი წიგნის ისტორია",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 30,
+      "text": "თბილისის ერთ-ერთ პატარა ბიბლიოთეკაში ახალი ინიციატივა დაიწყეს: \"ერთი წიგნის ისტორია\". პროექტის მიზანია, თითოეული წიგნის გარშემო შექმნას დიალოგი — მკითხველი და წიგნი, წიგნი და საზოგადოება. ყოველ კვირას ბიბლიოთეკა შერჩევს თავის ისტორიაში ყველაზე გამორჩეულ წიგნს და არგუმენტირებულ ბროშურას აქვეყნებს ნაწყვეტებით, ავტორის ინტერვიუთი და საკითხებით მოსწავლისთვის. პროექტი მოიცავს საჯარო კითხვის საღამოებს, სადაც ადამიანები ერთმანეთთან წიგნის შინაარსსა და თემებზე მსჯელობენ. ხშირად მოდიან სტუდენტები, პენსიონერები და მშობლებიც — უზარმაზარი ასაკობრივი მანძილი გაერთიანდება საერთო ინტერესით. ინიციატივა განსაკუთრებით წარმატებულია სკოლებთან თანამშრომლობით: მასწავლებლები იყენებენ ბროშურებს კლასში, რათა მოზარდებს ენაზე უწინარესად წიგნის კითხვა დაანახონ. პროექტის ერთ-ერთი იდეაა ასევე მეტყევებისა და საზოგადოებრივი აქტიურობის წახალისება: წიგნი უხსნის რთულ თემებს ქართულ თარგმანში მარტივი ენით. ინიციატივის ორგანიზატორები ოცნებობენ, რომ ეს პატარა კამპანია ქალაქის სხვა თემებშიც გავრცელდება და ერთობლივი კულტურული სივრცე გაჩნდება.",
+      "translation": "Dans une petite bibliothèque de Tbilissi, une nouvelle initiative a été lancée : \"L'histoire d'un livre\". Le but du projet est de créer un dialogue autour de chaque livre — le lecteur et le livre, le livre et la société. Chaque semaine, la bibliothèque choisit un livre marquant de son fonds et publie une brochure argumentée avec des extraits, une interview de l'auteur et des questions pour les lecteurs. Le projet comprend des soirées de lecture publique où les gens débattent du contenu et des thèmes du livre. S'y rendent souvent des étudiants, des retraités et aussi des parents — une grande diversité d'âges se rassemble autour d'un intérêt commun. L'initiative réussit particulièrement grâce à la coopération avec les écoles : les enseignants utilisent les brochures en classe pour encourager d'abord la lecture chez les adolescents. Une des idées du projet est aussi d'encourager la pensée critique et l'engagement social : le livre explique des sujets complexes en géorgien traduit dans un langage simple. Les organisateurs espèrent que cette petite campagne se répandra dans d'autres quartiers de la ville et créera un espace culturel partagé.",
+      "questions": [
+        {
+          "question": "Quel est le principal objectif de l'initiative \"Une histoire d'un livre\" ?",
+          "options": [
+            "Créer un dialogue entre le lecteur, le livre et la société",
+            "Vendre des livres rares",
+            "Organiser des concours d'écriture",
+            "Traduire des livres étrangers"
+          ],
+          "answer": "Créer un dialogue entre le lecteur, le livre et la société",
+          "explanation": "Le texte indique clairement que l'objectif est de créer un dialogue autour de chaque livre entre lecteurs et société."
+        },
+        {
+          "question": "Qu'est-ce que la bibliothèque publie chaque semaine ?",
+          "options": [
+            "Une brochure avec des extraits, une interview et des questions",
+            "Un roman entier",
+            "Un journal de la ville",
+            "Un guide touristique"
+          ],
+          "answer": "Une brochure avec des extraits, une interview et des questions",
+          "explanation": "Le passage précise que chaque semaine la bibliothèque publie une brochure argumentée contenant extraits, interview de l'auteur et questions."
+        },
+        {
+          "question": "Pourquoi l'initiative marche-t-elle bien avec les écoles ?",
+          "options": [
+            "Parce que les enseignants utilisent les brochures en classe pour encourager la lecture",
+            "Parce que les élèves y vendent des livres",
+            "Parce que l'école fournit le financement",
+            "Parce que les examens deviennent plus faciles"
+          ],
+          "answer": "Parce que les enseignants utilisent les brochures en classe pour encourager la lecture",
+          "explanation": "Le texte mentionne que la coopération scolaire fonctionne car les professeurs utilisent les brochures pour montrer aux adolescents l'importance de la lecture."
+        },
+        {
+          "question": "Quelle est une des idées supplémentaires du projet mentionnée dans le texte ?",
+          "options": [
+            "Encourager la pensée critique et l'engagement social",
+            "Organiser des ventes aux enchères",
+            "Créer une bibliothèque numérique payante",
+            "Fermer la bibliothèque le dimanche"
+          ],
+          "answer": "Encourager la pensée critique et l'engagement social",
+          "explanation": "Le texte indique que le projet vise aussi à promouvoir la pensée critique et l'engagement social en expliquant des sujets complexes dans une langue simple."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-017",
+      "title": "ქალაქური ბაღის ახალი გამოწვევა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 17,
+      "text": "წლების წინ ქალაქის საათის მოედანზე პატარა საზოგადოებრივი ბაღი იყო, რომელიც ადგილობრივებისთვის საყვარელი შეხვედრის ადგილია. წელს ბაღს ქალაქის ადმინისტრაცია ახლებურად უყურებს: სურს მეტი ღონისძიება მოგვცეს და მეტი ვიზიტორი მოიზიდოს. გეგმის ნაწილი არის კვირის ბოლოს ფერმერული ბაზრის მოწყობა, მცირე კონცერტები ადგილობრივი მუსიკოსებითა და საღამოს კინოჩვენებები მტვრისგან დაცულ დიდ ეკრანზე. თუმცა იდეას აქვს პრობლემებიც: ხმაურიანი კონცერტები შეიძლება მეზობლებს გაუმწყონ, ხოლო ბაზრის გამართვას ზედმეტი ნაგავი მოჰყვება. ადმინისტრაციამ ადგილობრივებს პეტიცია შეათანხმებინა და ტესტოვანი პროგრამის დაწყება გადაწყვიტა — სამი კვირის განმავლობაში ღონისძიებები მხოლოდ დღიურ პერიოდში გაიმართება და სპეციალური ურნები, ხმაურის კონტროლი და სანიტარული წესები დაინერგება.\nადგილობრივები ორ ნაწილად გაიყო: ერთნი ამბობენ, რომ ბაღი გაცოცხლდება და ქალაქი უკეთ განვითარდება; მეორენი ფიქრობენ, რომ ძველი სიმშვიდე დაიკარგვება. შეხვედრაზე საბოლოო გადაწყვეტილება მერიამ უნდა მიიღოს და იგეგმება დამატებითი მოსმენები, რომ უფრო მეტი ადამიანის ხმა გაიგონ.",
+      "translation": "Il y a des années, une petite jardin public se trouvait sur la place de l'horloge de la ville, un lieu de rencontre apprécié des habitants. Cette année, l'administration municipale voit le jardin différemment : elle veut y organiser plus d'événements et attirer davantage de visiteurs. Une partie du projet consiste à installer un marché fermier le week-end, de petits concerts avec des musiciens locaux et des projections de films en soirée sur un grand écran protégé contre la poussière. Mais l'idée a aussi des problèmes : les concerts bruyants peuvent déranger les voisins, et le marché entraînera des déchets supplémentaires. L'administration a consulté les habitants par pétition et décidé de lancer un programme test : pendant trois semaines les événements auront lieu seulement en journée et des poubelles spéciales, un contrôle du bruit et des règles sanitaires seront mis en place.\nLes habitants se sont divisés en deux camps : certains disent que le jardin va reprendre vie et que la ville s'améliorera ; d'autres pensent que l'ancienne tranquillité disparaîtra. La décision finale doit être prise par la mairie et des audiences supplémentaires sont prévues pour entendre davantage de voix.",
+      "questions": [
+        {
+          "question": "Quel est l'objectif principal de l'administration pour le jardin ?",
+          "options": [
+            "Restaurer des espèces végétales rares.",
+            "Organiser plus d'événements et attirer des visiteurs.",
+            "Vendre le terrain pour construire des immeubles.",
+            "Interdire l'accès au public pendant l'été."
+          ],
+          "answer": "Organiser plus d'événements et attirer des visiteurs.",
+          "explanation": "Le texte indique que l'administration veut donner une nouvelle vie au jardin en organisant davantage d'événements pour attirer plus de visiteurs."
+        },
+        {
+          "question": "Quelle mesure fait partie du programme test de trois semaines ?",
+          "options": [
+            "Interdire complètement la musique.",
+            "Permettre uniquement des événements nocturnes.",
+            "Installer des poubelles spéciales et contrôler le bruit.",
+            "Autoriser la vente d'alcool sans restriction."
+          ],
+          "answer": "Installer des poubelles spéciales et contrôler le bruit.",
+          "explanation": "Le programme prévoit des poubelles spéciales, le contrôle du bruit et des règles sanitaires, et les événements auront lieu en journée."
+        },
+        {
+          "question": "Quelles opinions les habitants ont-ils sur le projet ?",
+          "options": [
+            "Tout le monde est d'accord pour fermer le jardin.",
+            "Ils sont divisés: certains veulent des activités, d'autres préfèrent la tranquillité.",
+            "Ils demandent seulement des concerts plus grands.",
+            "Ils souhaitent transformer le jardin en parking."
+          ],
+          "answer": "Ils sont divisés: certains veulent des activités, d'autres préfèrent la tranquillité.",
+          "explanation": "Le texte précise que les habitants sont partagés: certains pensent que le jardin se revitalisera, d'autres craignent la perte de tranquillité."
+        },
+        {
+          "question": "Qui prendra la décision finale concernant les changements au jardin ?",
+          "options": [
+            "Un groupe de musiciens locaux.",
+            "La mairie après des audiences supplémentaires.",
+            "Les commerçants du marché fermier.",
+            "Une entreprise privée engagée par les habitants."
+          ],
+          "answer": "La mairie après des audiences supplémentaires.",
+          "explanation": "Le passage indique clairement que la décision finale reviendra à la mairie et que d'autres auditions sont prévues."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-018",
+      "title": "ახალი ენის სწავლების კლუბი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 18,
+      "text": "ბავშვობის შემდეგ, ელენე გადავიდა მეგობართან საზღვარგარეთ და იქ გაითვალისწინებდა ორ ქვეყანას შორის კომუნიკაციას. სამი წლის წინ მან გადაწყვიტა ადგილობრივ კოლეჯში ქართული ენის კლუბი დაეწყო, რადგან ბევრმა სტუდენტმა გამოხატა ინტერესი ენისა და კულტურის მიმართ. კლუბი შეხვდა კვირაში ორჯერ: ერთხელ საკონცენტრაციო თემატურ ლექციაზე და ერთხელ პრაქტიკულ საუბრის ჯგუფში. წევრები იყვნენ როგორც დამწყებთ, ისე უფრო გამოცდილები — ზოგიერთი ემზადებოდა მოგზაურობისთვის, ზოგი ემზადებოდა სასწავლო პროგრამისთვის.\nელენე ცდილობდა გაკვეთილებს სქემატიკურად რომ არ გაეკეთებინა: ჩანაწერები, თამაშები, ადგილობრივი საფუარების რეცეპტები და მოკლე თეატრალური სცენები მოყვებოდა. განსაკუთრებული ინტერესი გამოიწვია \"საუკეთესო საუბრის საღამომ\", სადაც სტუდენტები ერთმანეთს ამბებს ყვებოდნენ თავიანთ კულტურებზე. სიტუაცია გაუხდა უფრო აქტიურადა კლუბმა ინტერნეტში ვიდეოები და რეცეპტები დაიწყო გაზიარება, რის შემდეგაც კლუბმა ახალი წევრები მოიზიდა.\nყველა თანხმდება რომ დიალოგის უნარები მნიშვნელოვნად გაუმჯობესდა, თუმცა ელენე გეგმავს მეტი ოფიციალური მასალა და Zertifikatsmöglichkeit-ის წარდგენა მომავალ სემესტრში.",
+      "translation": "Après son enfance, Elene a déménagé à l'étranger chez une amie et y a observé la communication entre deux pays. Il y a trois ans, elle a décidé de créer un club de langue géorgienne dans un collège local, car de nombreux étudiants avaient manifesté de l'intérêt pour la langue et la culture. Le club se réunissait deux fois par semaine : une fois pour une leçon thématique plus formelle et une fois pour un groupe de conversation pratique. Les membres étaient tant des débutants que des plus avancés — certains se préparaient pour un voyage, d'autres pour un programme d'études.\nElene essayait d'éviter des cours trop schématiques : notes, jeux, recettes locales de pains et de pâtisseries, et courtes scènes théâtrales faisaient partie des activités. Un intérêt particulier a été suscité par la \"soirée meilleure conversation\", où les étudiants racontaient des histoires sur leurs cultures. L'activité est devenue plus dynamique et le club a commencé à partager des vidéos et des recettes en ligne, ce qui a attiré de nouveaux membres.\nTous s'accordent à dire que les compétences de dialogue se sont améliorées significativement, mais Elene prévoit d'introduire plus de matériel officiel et la possibilité d'un certificat (Zertifikatsmöglichkeit) au semestre prochain.",
+      "questions": [
+        {
+          "question": "Pourquoi Elene a-t-elle créé le club de langue ?",
+          "options": [
+            "Parce qu'elle voulait ouvrir un restaurant.",
+            "Parce que des étudiants s'intéressaient à la langue et à la culture.",
+            "Parce que l'école lui a demandé d'enseigner.",
+            "Parce qu'elle cherchait du travail rémunéré."
+          ],
+          "answer": "Parce que des étudiants s'intéressaient à la langue et à la culture.",
+          "explanation": "Le texte indique que de nombreux étudiants avaient exprimé leur intérêt pour la langue et la culture, ce qui a motivé la création du club."
+        },
+        {
+          "question": "Comment les réunions du club étaient-elles organisées chaque semaine ?",
+          "options": [
+            "Trois fois par semaine: deux conférences et un examen.",
+            "Une fois par mois pour un grand atelier.",
+            "Deux fois par semaine: une leçon thématique et un groupe de conversation.",
+            "Tous les jours, uniquement en ligne."
+          ],
+          "answer": "Deux fois par semaine: une leçon thématique et un groupe de conversation.",
+          "explanation": "Le texte précise que le club se rencontrait deux fois par semaine, une fois pour une leçon thématique et une fois pour la pratique orale."
+        },
+        {
+          "question": "Quelle activité a particulièrement plu aux membres ?",
+          "options": [
+            "La collecte de timbres anciens.",
+            "La \"soirée meilleure conversation\" où ils racontaient des histoires culturelles.",
+            "La fabrication de meubles traditionnels.",
+            "Les cours de grammaire avancée tous les soirs."
+          ],
+          "answer": "La \"soirée meilleure conversation\" où ils racontaient des histoires culturelles.",
+          "explanation": "Le passage mentionne qu'une 'soirée meilleure conversation' a suscité un intérêt particulier car les étudiants partageaient des histoires sur leurs cultures."
+        },
+        {
+          "question": "Que prévoit Elene pour le semestre prochain ?",
+          "options": [
+            "Arrêter le club faute d'intérêt.",
+            "Organiser un voyage touristique pour tous les membres.",
+            "Introduire plus de matériel officiel et la possibilité d'un certificat.",
+            "Se concentrer uniquement sur la cuisine géorgienne."
+          ],
+          "answer": "Introduire plus de matériel officiel et la possibilité d'un certificat.",
+          "explanation": "Le texte conclut qu'Elene prévoit d'ajouter davantage de matériel officiel et d'offrir la possibilité d'obtenir un certificat le semestre suivant."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-031",
+      "title": "ხარისხიანი ბაზარი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 31,
+      "text": "თბილისის შუაგულში პატარა ბაზარია, რომელიც ზაფხულის ბოლოს განსაკუთრებით ცოცხალი ხდება. სასაკალათო გასაყიდიstände-ებში მწვანე ბოსტნეული, ფოთლოვანი სალათები და ახალი პომიდვრის გროვები დგას. ბევრი ხილი ადგილობრივი ფერმერების მიერაა მოყვანილი: მსხალი, ვაშლი და კიტრი, მაგრამ აქ შეხვდებით უცხოური სუბტროპიკული ნერგების არც ისე ბევრს. ხალხი საუზმის შემდეგ მოდის, რადგან თბილი დილით პროდუქტები ცოტა უფრო იაფია და ხარისხიც ცოცხალი ჩანს. მოვაჭრეები ხშირად გესაუბრებიან, გირჩევენ როდის ჯობს პომიდორი გაყიდოს ან რა სუნელია მთაზე ასამაღლებლად კარგი. ბაზრის გვერდით პატარა ბაქანი და მწვადი აქვს, სადაც მეზობლები ერთმანეთს ხვდებიან და ამბებს უზიარებენ. ზოგი ახალგაზრდა ფოტოს იღებს ახალი პროდუქტის გვერდით და სოციალური ქსელებისთვის აქვეყნებს. რაც უფრო გვიან მიდიხარ, მით უფრო მეტი ხილ-ბოსტნეული იშლება, ამიტომ მერონი ხშირად დილას სიარული მნიშვნელოვანია. ჩინებული ბაზრის ერთ-ერთი დადებითი მხარეა ის, რომ ვხედავთ ადგილობრივ თორ ნაკეთს და ვსარგებლობთ მომზადებული საკვებით.",
+      "translation": "Au centre de Tbilissi se trouve un petit marché qui devient particulièrement animé à la fin de l’été. Dans les stands se vendent des légumes verts, des salades à feuilles et des rangées de tomates fraîches. Beaucoup de fruits sont cultivés par des agriculteurs locaux : poires, pommes et concombres, mais on rencontre peu de plantes subtropicales étrangères. Les gens viennent après le petit-déjeuner, car le matin chaud les produits sont un peu moins chers et paraissent beaucoup plus frais. Les vendeurs parlent souvent avec vous, conseillent quand vendre les tomates ou quel parfum convient pour monter à la montagne. À côté du marché il y a un petit café-kebab où les voisins se rencontrent et échangent des nouvelles. Certains jeunes prennent des photos près d’un produit nouveau et les publient sur les réseaux sociaux. Plus on y va tard, plus les fruits et légumes s’épuisent ; c’est pourquoi beaucoup marchent le matin. Un des aspects positifs de ce beau marché est que nous voyons le travail local et profitons des plats préparés.",
+      "questions": [
+        {
+          "question": "Pourquoi les gens viennent-ils souvent au marché le matin ?",
+          "options": [
+            "Parce que les prix sont plus bas et les produits plus frais.",
+            "Parce qu'il y a des animations musicales seulement le matin.",
+            "Parce que les vendeurs ferment l'après-midi.",
+            "Parce qu'il vaut mieux éviter la chaleur de la journée."
+          ],
+          "answer": "Parce que les prix sont plus bas et les produits plus frais.",
+          "explanation": "Le texte indique que le matin les produits sont un peu moins chers et paraissent plus frais; c'est la raison principale donnée."
+        },
+        {
+          "question": "Quel type de produits est mentionné comme peu présent sur le marché ?",
+          "options": [
+            "Des plantes subtropicales étrangères.",
+            "Des pommes locales.",
+            "Des concombres.",
+            "Des produits en conserve."
+          ],
+          "answer": "Des plantes subtropicales étrangères.",
+          "explanation": "Le texte précise qu'on rencontre peu de plantes subtropicales étrangères."
+        },
+        {
+          "question": "Que font certains jeunes au marché ?",
+          "options": [
+            "Ils prennent des photos et les publient sur les réseaux sociaux.",
+            "Ils aident les vendeurs à porter les sacs.",
+            "Ils préparent des sandwichs au stand.",
+            "Ils jouent de la musique pour attirer des clients."
+          ],
+          "answer": "Ils prennent des photos et les publient sur les réseaux sociaux.",
+          "explanation": "Le texte mentionne que certains jeunes prennent des photos près d’un produit nouveau et les publient sur les réseaux sociaux."
+        },
+        {
+          "question": "Quel est un avantage du marché selon le texte ?",
+          "options": [
+            "Voir le travail local et profiter des plats préparés.",
+            "Acheter uniquement des produits importés.",
+            "Garder les produits toute la journée sans rupture.",
+            "Recevoir des réductions pour les achats en ligne."
+          ],
+          "answer": "Voir le travail local et profiter des plats préparés.",
+          "explanation": "La dernière phrase dit que l'un des aspects positifs est de voir le travail local et de profiter des plats préparés."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-032",
+      "title": "შემოდგომის ფესტივალი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 32,
+      "text": "მრგვალ ქალაქზე წელს პირველად შედგა მოკლე შემოდგომის ფესტივალი, რომელსაც სხვადასხვა უბნის ბაღები და კულტურული ცენტრები ხელმძღვანელობდნენ. ეს ღონისძიება ორი კვირის განმავლობაში გრძელდებოდა და მოიცავდა მუსიკალურ კონცერტებს, საკონცერტო შესრულებებს და საკვებისა და ხელნაკეთი ნივთების ბაზრობებს. ფესტივალის ორგანიზატორებმა განსაკუთრებული ყურადღება მიაქციეს ადგილობრივ ოჯახურ რეწხვას: ბევრი ოჯახი აწყობდა გასტრონომიულ დახლებს, სადაც იმალებოდა ტრადიციული რეცეპტები და ახალი მომზადებული ნამცხვრები. მშობლები ბავშვებთან ერთად დასწრებოდნენ სახვითი ხელოვნების სემინარებს, ხოლო ახალგაზრდები ჩაებნენ სკოლის თეატრის ფინანსურ წარმოდგენებში. პარასკევს საღამოს ყველაზე დიდი კონცერტი გაიმართა, სადაც ნაციონალური და თანამედროვე მუსიკის შერევა შეძლეს. შემთხვევით მოსული ადამიანები ხშირად შეჩერდნენ შეკრებილანეს და ადგილობრივებს ეცნობოდნენ. მერიაში ამბობენ, რომ ასეთი ფესტივალი აახლოებს მოსახლეობას და ხელს უწყობს მცირე ბიზნსების განვითარებას, ამიტომ მომავალ წელსაც იგეგმება ანალოგიური ღონისძიების ჩატარება.",
+      "translation": "Dans la ville circulaire, pour la première fois cette année, a eu lieu un court festival d’automne dirigé par les jardins et les centres culturels des différents quartiers. Cet événement a duré deux semaines et comprenait des concerts, des représentations artistiques et des marchés d’alimentation et d’artisanat. Les organisateurs du festival ont accordé une attention particulière à l’artisanat familial local : de nombreuses familles montaient des stands gastronomiques où se trouvaient des recettes traditionnelles et des pâtisseries fraîchement préparées. Des parents assistaient aux ateliers d’arts plastiques avec leurs enfants, tandis que les jeunes participaient aux représentations théâtrales scolaires. Le vendredi soir eut lieu le plus grand concert, qui a su mêler musique nationale et contemporaine. Les personnes de passage s’arrêtaient souvent pour rencontrer les habitants. La mairie dit qu’un tel festival rapproche la population et favorise le développement des petites entreprises ; c’est pourquoi un événement similaire est prévu l’an prochain.",
+      "questions": [
+        {
+          "question": "Quelle a été la durée du festival ?",
+          "options": [
+            "Deux semaines.",
+            "Un seul jour.",
+            "Un mois.",
+            "Quatre jours."
+          ],
+          "answer": "Deux semaines.",
+          "explanation": "Le texte indique clairement que l'événement a duré deux semaines."
+        },
+        {
+          "question": "Quelle activité impliquait des familles ?",
+          "options": [
+            "Des stands gastronomiques avec des recettes traditionnelles.",
+            "Des compétitions sportives matinales.",
+            "Des cours de langue étrangère.",
+            "Des ventes de voitures d'occasion."
+          ],
+          "answer": "Des stands gastronomiques avec des recettes traditionnelles.",
+          "explanation": "Le texte dit que beaucoup de familles montaient des stands gastronomiques présentant des recettes traditionnelles."
+        },
+        {
+          "question": "Quel effet la mairie attribue au festival ?",
+          "options": [
+            "Il rapproche la population et aide les petites entreprises.",
+            "Il augmente le trafic routier sans bénéfices.",
+            "Il remplace les écoles locales.",
+            "Il réduit la fréquentation des musées."
+          ],
+          "answer": "Il rapproche la population et aide les petites entreprises.",
+          "explanation": "La mairie affirme que le festival rapproche la population et favorise le développement des petites entreprises."
+        },
+        {
+          "question": "Quel type de musique a été joué au grand concert du vendredi ?",
+          "options": [
+            "Un mélange de musique nationale et contemporaine.",
+            "Uniquement de la musique classique étrangère.",
+            "Musique électronique toute la soirée.",
+            "Des chansons pour enfants seulement."
+          ],
+          "answer": "Un mélange de musique nationale et contemporaine.",
+          "explanation": "Le texte précise que le grand concert a su mêler musique nationale et contemporaine."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-035",
+      "title": "არყის და სეზონური ხილი თბილისური ბაზრიდან",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 35,
+      "text": "თბილისის ძველი ბაზრები განსაკუთრებით საინტერესოა სეზონური ხილის გამო. გაზაფხულზე ბაზარში გადრეკილი ნარგავებიდან მწიფდება ხეები, მაისიდან იწყება ამოშვერილი ნაყოფის მიყიდვა. ყველა ქუჩაზე ყურადღებას იქცევს გაცილებით დიდი არჩევანი: ვაშლი, ალუბალი, მოცვი და წითელი ვაზისა. თავად მოვაჭრეები ხშირად გვირჩევენ, როდის ღირს ნაყოფის ყიდვა — ზოგი ამბობს, რომ დილით მეტი სიცხის გარეშე მცირდება წვენის ოდენობა, ზოგი კი ამბობს, რომ საღამოზე ნაყოფი უფრო ნაზი და ტკბილია. ზაფხულში ბაზარი სავსეა ნატურალური კენკრით და ხილით, აგრეთვე მთის თხილით. მაღაზიები ზოგჯერ აწყობინებენ მცირე ფასდაკლებებს, თუ შენ large რაოდენობით ყიდულობ, მაგრამ უმჯობესია ხარისხზე ყურადღება გააკეთოთ: წიპწა და ფერი ფუჭდება მოახლოებულ სიცხეში. აგრეთვე მნიშვნელოვანია მოლაპარაკება — ტრადიციის მიხედვით, ფასზე მცირე დათმობა ზოგჯერ მიღებული წესია. თბილისის ბაზარი არ არის მხოლოდ შესყიდვის ადგილი — ეს პატარა სცენაა, სადაც ადგილობრივი ხალხი ერთმანეთს შეხვდება, უყვება ამბებს და განიცდის სეზონის ახალ ამბებს.",
+      "translation": "Les vieux marchés de Tbilissi sont particulièrement intéressants à cause des fruits de saison. Au printemps, les arbres donnent leurs premières récoltes, et à partir de mai, on commence à vendre les fruits tombés. Dans toutes les rues, on remarque un choix beaucoup plus large : pommes, cerises, groseilles et raisins rouges. Les vendeurs eux-mêmes conseillent souvent quand il vaut mieux acheter — certains disent que le matin, sans chaleur excessive, le jus est moins perdu, d’autres affirment que le soir les fruits sont plus tendres et sucrés. En été, le marché est rempli de baies et de fruits naturels, ainsi que de noisettes de montagne. Les boutiques proposent parfois de petites réductions si vous achetez en grande quantité, mais il vaut mieux faire attention à la qualité : la peau et la couleur se dégradent avec la chaleur proche. La négociation est aussi importante — selon la tradition, faire un petit rabais sur le prix est parfois accepté. Le marché de Tbilissi n’est pas seulement un lieu d’achat — c’est une petite scène où les habitants se rencontrent, racontent des histoires et partagent les nouvelles de la saison.",
+      "questions": [
+        {
+          "question": "Quel est l'aspect principal qui rend les vieux marchés de Tbilissi intéressants selon le texte ?",
+          "options": [
+            "Le grand nombre de boutiques modernes",
+            "La variété de fruits de saison",
+            "Les prix toujours très bas",
+            "Les spectacles de rue quotidiens"
+          ],
+          "answer": "La variété de fruits de saison",
+          "explanation": "Le texte commence en disant que les vieux marchés sont particulièrement intéressants à cause des fruits de saison et il décrit ensuite la diversité des fruits."
+        },
+        {
+          "question": "Que disent certains vendeurs à propos du moment d'achat des fruits ?",
+          "options": [
+            "Il faut acheter uniquement l'après-midi",
+            "Le matin le jus est moins perdu, le soir les fruits sont plus sucrés",
+            "Il vaut mieux acheter pendant la nuit",
+            "Il est conseillé d'acheter seulement en hiver"
+          ],
+          "answer": "Le matin le jus est moins perdu, le soir les fruits sont plus sucrés",
+          "explanation": "Le texte rapporte deux avis des vendeurs : l'un affirme que le matin le jus diminue moins, l'autre que le soir les fruits sont plus tendres et sucrés."
+        },
+        {
+          "question": "Pourquoi l'auteur conseille-t-il de prêter attention à la qualité plutôt qu'au prix ?",
+          "options": [
+            "Parce que les vendeurs mentent toujours sur le poids",
+            "Parce que la peau et la couleur des fruits se détériorent avec la chaleur",
+            "Parce que les fruits sont tous importés",
+            "Parce que seule la quantité compte"
+          ],
+          "answer": "Parce que la peau et la couleur des fruits se détériorent avec la chaleur",
+          "explanation": "Le texte mentionne que la peau et la couleur se gâtent avec la chaleur, donc il est préférable de vérifier la qualité malgré d'éventuelles réductions."
+        },
+        {
+          "question": "Outre l'achat, quelle autre fonction le marché remplit-il selon le texte ?",
+          "options": [
+            "Il sert de centre administratif",
+            "Il est une scène sociale où les habitants se rencontrent et partagent des nouvelles",
+            "C'est un lieu pour faire du sport",
+            "Il devient un musée le soir"
+          ],
+          "answer": "Il est une scène sociale où les habitants se rencontrent et partagent des nouvelles",
+          "explanation": "Le texte conclut en expliquant que le marché est un lieu de rencontre où les locaux racontent des histoires et échangent des nouvelles de la saison."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-036",
+      "title": "საზოგადოებრივი ტრანსპორტი და ახალი წესი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 36,
+      "text": "თუ ბოლო დროს თბილისის საჯარო ტრანსპორტით დადიხართ, შეიძლება შენიშვნასაც დაეტყოთ — საზოგადოებრივი ტრანსპორტი შეცვალა კარგ გამოცდილებას, მაგრამ დაურთო ახალი წესებიც. ბოლო ექვს თვეში ქალაქში დაინერგა ელექტრონული ბარათით გადახდები ავტობუსებში და მეტროში; ბილეთების ქაღალდის სისტემის შემცირება განპირობებულია სწრაფი ამოძრავებით და რიგების შემცირებით. მოსახლეობის ნაწილი დადებითად უყურებს ახალ სისტემას: მგზავრებს აღარ უწევთ ნაღდი ფულის მოძებნა და დროში იშიფრება გადასვლა. თუმცა პრობლემებიც არსებობს. ზოგი ადამიანი ამბობს, რომ ბარათის შეძენა და ჩართვა რთული იყო ასაკოვანი მოქალაქეებისთვის, ხოლო მანქანებიდან შემოსულმა ხალხმაც მოითხოვა მეტი ინფორმაცია სისტემის შესახებ. გარდა ამისა, ზოგიერთ ხაზზე უნდობლობა იყო, როცა ახალი აპარატები ხშირად კი არ მუშაობდა. მუნიციპალიტეტმა პასუხად მოაწყო საინფორმაციო კამპანია და გამარტივებული ბარათები დაურიგა სკოლებსა და ბაღებს. ახლა მთავარია, განვაგრძოთ სწავლება და ტექნიკური მხარდაჭერა, რათა ყველა განვითარებას იოლად მივიღებდეთ, და ტრანსპორტი იყოს ხელმისაწვდომი ყველასთვის.",
+      "translation": "Si vous prenez récemment les transports publics de Tbilissi, vous avez probablement remarqué — les transports publics ont amélioré l'expérience, mais ont aussi introduit de nouvelles règles. Au cours des six derniers mois, la ville a mis en place des paiements par carte électronique dans les bus et le métro ; la réduction du système de tickets en papier s'explique par la rapidité et la diminution des files. Une partie de la population voit le nouveau système positivement : les passagers n'ont plus besoin de chercher de l'argent liquide et le passage est plus rapide. Cependant, il y a aussi des problèmes. Certaines personnes disent que l'achat et l'activation de la carte ont été difficiles pour les citoyens âgés, et les nouveaux venus demandent plus d'informations sur le système. De plus, sur certaines lignes, il y a eu des méfiances quand les nouveaux appareils ne fonctionnaient pas souvent. En réponse, la municipalité a organisé une campagne d'information et distribué des cartes simplifiées aux écoles et aux jardins d'enfants. Maintenant, il est important de continuer l'enseignement et le support technique afin que tout le monde accepte facilement les changements et que les transports soient accessibles à tous.",
+      "questions": [
+        {
+          "question": "Quelle mesure a été mise en place dans les six derniers mois ?",
+          "options": [
+            "La suppression totale des bus",
+            "La gratuité des transports pour tous",
+            "Les paiements par carte électronique dans les bus et le métro",
+            "L'interdiction des passagers âgés"
+          ],
+          "answer": "Les paiements par carte électronique dans les bus et le métro",
+          "explanation": "Le texte indique clairement que la ville a introduit des paiements par carte électronique dans les bus et le métro au cours des six derniers mois."
+        },
+        {
+          "question": "Quel avantage est mentionné pour les passagers ?",
+          "options": [
+            "Ils peuvent conduire les bus eux-mêmes",
+            "Ils n'ont plus besoin de chercher de l'argent liquide et le passage est plus rapide",
+            "Ils reçoivent un remboursement après chaque trajet",
+            "Ils ont obtenu des sièges réservés"
+          ],
+          "answer": "Ils n'ont plus besoin de chercher de l'argent liquide et le passage est plus rapide",
+          "explanation": "Le texte souligne que les passagers n'ont plus à chercher de l'argent liquide et que le passage est accéléré grâce au nouveau système."
+        },
+        {
+          "question": "Quel problème a été particulièrement difficile pour les personnes âgées ?",
+          "options": [
+            "Se lever dans le bus",
+            "Acheter et activer la carte électronique",
+            "Comprendre les horaires du métro",
+            "Porter leurs sacs"
+          ],
+          "answer": "Acheter et activer la carte électronique",
+          "explanation": "Le texte précise que l'achat et l'activation de la carte ont été difficiles pour les citoyens âgés."
+        },
+        {
+          "question": "Quelle réponse la municipalité a-t-elle donnée aux difficultés ?",
+          "options": [
+            "Elle a fermé plusieurs lignes de bus",
+            "Elle a organisé une campagne d'information et distribué des cartes simplifiées",
+            "Elle a augmenté le prix des tickets",
+            "Elle a interdit l'utilisation des cartes"
+          ],
+          "answer": "Elle a organisé une campagne d'information et distribué des cartes simplifiées",
+          "explanation": "Le texte indique que la municipalité a lancé une campagne d'information et a distribué des cartes simplifiées aux écoles et jardins d'enfants."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-033",
+      "title": "ახალი სკოლის ბიბლიოთეკა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 33,
+      "text": "ჩვენი ქალაქის სკოლა წლის დასაწყისში პატარა ბიბლიოთეკას გაიხსნა. დირექტორმა, რამდენიმე მასწავლებელმა და მშობლებმა ერთად მოაგროვეს წიგნები და ოთახი აცხოვრეს მკითხველებისთვის. ბიბლიოთეკა ორი დიდი თაროთი, მაგიდით და კომპიუტერით არის აღჭურვილი. ბავშვებს შეუძლიათ წიგნების კითხვა სკოლაში, ხოლო ზოგიერთი გამოცემა შინაც გაიყოლონ ერთი კვირით. ყველაზე პოპულარული ჟანრებია ფანტასტიკა და ისტორიული მოთხრობები, მაგრამ აქ არის საბუნებისმეტყველო და ლინგვისტიკური წიგნებიც. ბიბლიოთეკის მენეჯერმა გადაწყვიტა ყოველდღე ერთი საათით გახსნის სკოლიდან დაქაჩვის შემდეგ, რათა მოსწავლეებმა მეტი დრო გაატარონ კითხვითს.\n\nბიბლიოთეკის გახსნის შემდეგ ბევრი პრობლემა მოგვარდა: წიგნების დეფიციტი შემცირდა და მოსწავლეები უფრო ხშირად საუბრობენ საკუთარ ნაშრომებზე. თუმცა, დირექტორი აცხადებს, რომ მეტი წიგნი უნდა მოიძებნოს განსხვავებული თემებით და მოხალისეები დაეხმარონ წიგნების მოწესრიგებაში. მშობლების ნაწილი დაჰპირდა ფინანსურად სხვა წიგნების შეძენაში დახმარებას. საერთო ჯამში, ბიბლიოთეკა მცირე, მაგრამ მნიშვნელოვან ცვლილებას მოაქვს სკოლაში და ყველას ელის აქტიურ გამოყენებას.",
+      "translation": "Au début de l'année, notre école de ville a ouvert une petite bibliothèque. Le directeur, quelques enseignants et des parents ont collecté des livres et ont aménagé une salle pour les lecteurs. La bibliothèque est équipée de deux grandes étagères, d'une table et d'un ordinateur. Les élèves peuvent lire les livres à l'école, et certains exemplaires peuvent être empruntés pour une semaine. Les genres les plus populaires sont la fantasy et les récits historiques, mais il y a aussi des livres de sciences naturelles et de linguistique. Le gestionnaire de la bibliothèque a décidé de l'ouvrir chaque jour pendant une heure après les cours, afin que les élèves passent plus de temps à lire.\n\nAprès l'ouverture, de nombreux problèmes ont été résolus : le manque de livres a diminué et les élèves parlent plus souvent de leurs travaux. Cependant, le directeur déclare qu'il faut trouver plus de livres sur des thèmes différents et que des bénévoles doivent aider à classer les livres. Certains parents ont promis d'aider financièrement pour acheter d'autres livres. En somme, la bibliothèque apporte un petit mais important changement à l'école et tout le monde espère l'utiliser activement.",
+      "questions": [
+        {
+          "question": "Comment la bibliothèque a-t-elle été créée ?",
+          "options": [
+            "Le gouvernement a fourni les fonds nécessaires.",
+            "Le directeur, des enseignants et des parents ont collecté des livres et aménagé une salle.",
+            "Un groupe d'étudiants a organisé une collecte de fonds.",
+            "Une entreprise privée a construit la bibliothèque."
+          ],
+          "answer": "Le directeur, des enseignants et des parents ont collecté des livres et aménagé une salle.",
+          "explanation": "Le texte précise que le directeur, plusieurs enseignants et des parents ont ensemble rassemblé les livres et préparé la pièce pour les lecteurs."
+        },
+        {
+          "question": "Quels genres sont les plus populaires dans cette bibliothèque ?",
+          "options": [
+            "La poésie et les guides de voyage.",
+            "La science-fiction et les manuels scolaires.",
+            "La fantasy et les récits historiques.",
+            "Les bandes dessinées et les magazines."
+          ],
+          "answer": "La fantasy et les récits historiques.",
+          "explanation": "Le texte indique explicitement que les genres les plus populaires sont la fanta-stique (ფანტასტიკა) et les récits historiques (ისტორიული მოთხრობები)."
+        },
+        {
+          "question": "Quelle mesure le gestionnaire a-t-il prise pour encourager la lecture ?",
+          "options": [
+            "Fermer la bibliothèque pendant les pauses déjeuner.",
+            "Organiser des concours de lecture chaque mois.",
+            "L'ouvrir une heure par jour après les cours.",
+            "Restreindre l'emprunt des livres aux enseignants."
+          ],
+          "answer": "L'ouvrir une heure par jour après les cours.",
+          "explanation": "Le gestionnaire a décidé d'ouvrir la bibliothèque quotidiennement pendant une heure après l'école pour que les élèves passent plus de temps à lire."
+        },
+        {
+          "question": "Quel problème reste à résoudre selon le directeur ?",
+          "options": [
+            "Le manque d'espace pour la bibliothèque.",
+            "La rareté de volontaires pour surveiller la bibliothèque.",
+            "Le besoin d'un équipement informatique plus moderne.",
+            "L'achat de plus de livres sur des thèmes différents et l'aide des bénévoles."
+          ],
+          "answer": "L'achat de plus de livres sur des thèmes différents et l'aide des bénévoles.",
+          "explanation": "Le texte précise que le directeur pense qu'il faut trouver plus de livres couvrant divers sujets et que des volontaires aideront à organiser les livres."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-034",
+      "title": "კვირის ბოლო სოფლის ბაზარი",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 34,
+      "text": "კვირის ბოლოთი ჩვენს პატარა სოფელში ბაზარი იმართება. ფერმერები-საათამდე ადრე ჩამოდიან, რომ მიიტანონ ახალი ხილი, ბოსტნეული, თაფლი და ყველი. ბაზრის შუაგულში ადგილია, სადაც ადგილობრივი ხელოსნები მატარებლობენ თხელ და მასიური ნივთებს: ჭურჭელი, ტრადიციული ქსოვილები და ხის სათამაშოები. სტუმრებს უჭირთ არჩევანი, რადგან ყველა პროდუქტი სუფთა და ახალია. ადამიანები აქ მოყვებიან არა მხოლოდ ვაჭრობით, არამედ ერთმანეთის ხილვით: უყვებიან ამბებს, გაცვლიან რეცეპტებს და რამდნეიმე ახალგაზრდა მეხვეწება ადგილობრივ ფესტივალში მონაწილეობაზე.\n\nბაზარი ასევე კარგი ადგილია ტურისტებისთვის. რამდენიმე ტურისტული ჯგუფი ყოველ წელს იკრიბება და ადგილობრივი პროდუქტების ნიმუშებს სცდის. ეს გაზრდის სოფლის ეკონომიკას, მაგრამ ზოგჯერ გზის გაჭირვება და პარკირების პრობლემა აყენებს უხერხულობას. მოსახლეობა ცდილობს უკეთესი ორგანიზაციისკენ იაროს: შეიმუშავეს რუკები და დამატებითი ავეჯი, რათა ვიზიტორებსა და ვაჭრებს კომფორტი ჰქონდეთ. შედეგად, ბაზარი უფრო მიმზიდველი გახდა და ხალხი კვირის ბოლოს აღფრთოვანებით იკრიბება.",
+      "translation": "Le week-end, un marché se tient dans notre petit village. Les agriculteurs arrivent tôt pour apporter des fruits frais, des légumes, du miel et du fromage. Au centre du marché il y a un espace où les artisans locaux vendent des objets fins et robustes : de la poterie, des tissus traditionnels et des jouets en bois. Les visiteurs ont du mal à choisir car tous les produits sont propres et frais. Les gens viennent ici non seulement pour commercer, mais aussi pour se voir : ils racontent des histoires, échangent des recettes et quelques jeunes demandent à participer au festival local.\n\nLe marché est aussi un bon endroit pour les touristes. Plusieurs groupes touristiques se réunissent chaque année et goûtent des échantillons de produits locaux. Cela augmente l'économie du village, mais parfois les difficultés d'accès et le problème de stationnement créent des désagréments. Les habitants essaient d'améliorer l'organisation : ils ont préparé des cartes et du mobilier supplémentaire pour le confort des visiteurs et des vendeurs. En conséquence, le marché est devenu plus attractif et les gens se rassemblent le week-end avec enthousiasme.",
+      "questions": [
+        {
+          "question": "Que vendent surtout les agriculteurs au marché ?",
+          "options": [
+            "Des vêtements et des outils métalliques.",
+            "Des fruits, des légumes, du miel et du fromage.",
+            "Des appareils électroniques et des meubles.",
+            "Des fleurs et des plantes ornementales uniquement."
+          ],
+          "answer": "Des fruits, des légumes, du miel et du fromage.",
+          "explanation": "Le texte mentionne que les agriculteurs apportent des fruits, des légumes, du miel et du fromage."
+        },
+        {
+          "question": "Quel type d'objets les artisans proposent-ils au centre du marché ?",
+          "options": [
+            "Des peintures modernes et des sculptures en métal.",
+            "Des poteries, des tissus traditionnels et des jouets en bois.",
+            "Des produits laitiers et des conserves.",
+            "Des produits importés et des souvenirs en plastique."
+          ],
+          "answer": "Des poteries, des tissus traditionnels et des jouets en bois.",
+          "explanation": "Le passage précise que les artisans vendent de la poterie, des tissus traditionnels et des jouets en bois."
+        },
+        {
+          "question": "Quel problème est mentionné comme inconvénient du marché ?",
+          "options": [
+            "Le manque de produits locaux.",
+            "Les prix trop élevés pour les visiteurs.",
+            "Les difficultés d'accès et le stationnement.",
+            "L'absence d'artisans locaux."
+          ],
+          "answer": "Les difficultés d'accès et le stationnement.",
+          "explanation": "Le texte indique que l'accès routier difficile et les problèmes de parking posent des désagréments."
+        },
+        {
+          "question": "Quelle solution les habitants ont-ils mise en place ?",
+          "options": [
+            "Ils ont interdit l'accès aux touristes.",
+            "Ils ont préparé des cartes et ajouté du mobilier pour le confort.",
+            "Ils ont fermé le marché définitivement.",
+            "Ils ont augmenté les prix des stands."
+          ],
+          "answer": "Ils ont préparé des cartes et ajouté du mobilier pour le confort.",
+          "explanation": "Le texte explique que les habitants ont élaboré des cartes et fourni du mobilier supplémentaire pour améliorer l'organisation et le confort."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-037",
+      "title": "სუფრა და ტოსტები",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 37,
+      "text": "ქართული ტრადიცია სუფრა მრავალი წლის ისტორიას ითვლის. ოჯახურ და საერო ღონისძიებებზე, ქორწილებსა და დღიურზე, სუფრა ცენტრალური ადგილია: დიდი მაგიდა, ბევრი საჭმელი და ღვინო. სუფრაზე ხშირად არის თამადა — ადამიანი, რომელმაც ტოსტები უნდა წარმოთქვას. თამადას სიტყვა პატივში, მეგობრობაში და სოლიდარობაში მდგომარეობს. ტოსტები შეიძლება იყოს მოკლე ან გრძელი; ზოგჯერ კალამსავით მეტყველებს პიროვნების ან ოჯახის ისტორიას. სუფრის წესის ერთ-ერთი მნიშვნელოვანი ნაწილი არის სტუმართმოყვარეობა: მიირთმევენ და სვამენ ერთად, არასოდეს მიატოვებენ სტუმრებს უყურადღებოდ. დღეს ახალგაზრდებმა სუფრის მოდერნიზება გადაწყვიტეს: იყენებენ ნაკლებად ძვირფას ღვინოს, უფრო მარტივ სადილს და მოკლე სიტყვებს. თუმცა, ბევრს უწვევენ იმ ტრადიციის შენარჩუნებას, სადაც ტოსტები განიხილავენ ცხოვრებას, სიყვარულს და მეგობრობას. სუფრა არა მხოლოდ საკვებს ნიშნავს — ის ერთგვარი კომუნიკაციის და ღირებულებების გაცვლის ადგილი გახდა.",
+      "translation": "La tradition géorgienne de la soupe (sufra) a une longue histoire. Lors d'événements familiaux et civils, aux mariages et aux funérailles, la table est centrale : une grande table, beaucoup de nourriture et du vin. À la table, il y a souvent un tamada — la personne qui doit prononcer les toasts. La parole du tamada porte sur l'honneur, l'amitié et la solidarité. Les toasts peuvent être courts ou longs ; parfois ils racontent comme un stylo l'histoire d'une personne ou d'une famille. Une des parties importantes de la règle de la table est l'hospitalité : on mange et on boit ensemble, on ne néglige jamais les invités. Aujourd'hui, les jeunes ont décidé de moderniser la table : ils utilisent du vin moins cher, des repas plus simples et des paroles courtes. Pourtant, beaucoup appellent à préserver la tradition où les toasts parlent de la vie, de l'amour et de l'amitié. La table ne signifie pas seulement des aliments — c'est devenu un lieu d'échange de communication et de valeurs.",
+      "questions": [
+        {
+          "question": "Quel est le rôle principal du 'tamada' selon le texte ?",
+          "options": [
+            "Il prépare les plats pour les invités.",
+            "Il annonce le menu et le vin.",
+            "Il prononce les toasts.",
+            "Il paie la note à la fin du repas."
+          ],
+          "answer": "Il prononce les toasts.",
+          "explanation": "Le texte explique que le tamada est la personne qui doit prononcer les toasts pendant la sîte."
+        },
+        {
+          "question": "Quelle attitude envers les invités le texte met-il en avant ?",
+          "options": [
+            "On doit laisser les invités manger seuls pour être polis.",
+            "On doit partager la nourriture et ne pas négliger les invités.",
+            "On doit servir d'abord les enfants puis les adultes.",
+            "On doit limiter la boisson pour les invités."
+          ],
+          "answer": "On doit partager la nourriture et ne pas négliger les invités.",
+          "explanation": "Le texte parle de l'hospitalité: on mange et on boit ensemble et on ne néglige jamais les invités."
+        },
+        {
+          "question": "Comment les jeunes modernisent-ils la sîte selon l'auteur ?",
+          "options": [
+            "En supprimant complètement les toasts.",
+            "En invitant uniquement la famille proche.",
+            "En choisissant du vin moins cher et des repas plus simples.",
+            "En mangeant debout sans table."
+          ],
+          "answer": "En choisissant du vin moins cher et des repas plus simples.",
+          "explanation": "Le texte indique que les jeunes utilisent du vin moins cher, des repas plus simples et des paroles courtes."
+        },
+        {
+          "question": "Quel sens plus large la 'სუფრა' (sufra) a-t-elle d'après le texte ?",
+          "options": [
+            "Un simple repas sans signification sociale.",
+            "Un lieu de communication et d'échange de valeurs.",
+            "Un événement réservé uniquement aux cérémonies religieuses.",
+            "Un marché où l'on vend de la nourriture traditionnelle."
+          ],
+          "answer": "Un lieu de communication et d'échange de valeurs.",
+          "explanation": "L'auteur conclut que la sîte n'est pas seulement nourriture mais un lieu d'échange de communication et de valeurs."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-038",
+      "title": "თბილისის მეტრო და ძველი უბნის რეაბილიტაცია",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 38,
+      "text": "თბილისის ცენტრში ბოლო წლებში ბევრი რესტავრაცია და ინფრასტრუქტურული სამუშაო განხორციელდა. ყველაზე თვალსაჩინო ცვლილება მეტროს ახლადგახსნილი სადგურებია, რომლებმაც ქალაქის კავშირი გახადეს უფრო კომფორტული. მეტროს განახლება ითვალისწინებდა როგორც მატერიალურ ნაწილს — ახალი ეტლები, ტარიფების სისტემა და წასასვლელი ბილიკები — ასევე ვიზუალურ მხარეებს: სადგურების დეკორაცია, განათება და ინფორმაციული დანიშნულების ნიშნები. პარალელურად შენდება პროექტები ძველი უბნების რეაბილიტაციისთვის: შენახული არიან ისტორიული ფასადები, თუმცა ზოგ ადგილას ფასადები მოდერნიზებულია, რათა გამოადგეს ტურიზმისთვის და ადგილობრივ ბიზნესს. მოსახლეობის ნაწილი აფასებს ცვლილებებს: დასაქმება გაიზარდა და ქალაქი უფრო მოწესრიგებულია. სხვა მხრივ, ზოგი მოსახლე ღიმილთან ერთად აღნიშნავს, რომ ფასები მაღალია და ზოგი პატარა მაღაზია დაიკეტა. მერიას აქვს გეგმა, რომ მომდევნო წლებში გადაამოწმოს საზოგადოებრივი ტრანსპორტის გაძლიერება და მცირე ბიზნესის მხარდაჭერა, რათა ქალაქი თანაბრად განვითარდეს.",
+      "translation": "Au centre de Tbilissi, plusieurs rénovations et travaux d'infrastructure ont été réalisés ces dernières années. Le changement le plus visible est l'inauguration de nouvelles stations de métro, qui ont rendu la liaison de la ville plus confortable. La rénovation du métro comprenait la partie matérielle — nouveaux wagons, système tarifaire et voies d'accès — ainsi que les aspects visuels : décoration des stations, éclairage et panneaux d'information. Parallèlement, des projets sont en cours pour la réhabilitation des vieux quartiers : les façades historiques sont préservées, mais dans certains endroits elles sont modernisées pour servir le tourisme et les commerces locaux. Une partie de la population apprécie ces changements : l'emploi a augmenté et la ville est plus ordonnée. D'autres, en revanche, notent avec regret que les prix sont élevés et que certaines petites boutiques ont fermé. La mairie a un plan de renforcer les transports publics et de soutenir les petites entreprises dans les années à venir, afin que la ville se développe de manière équilibrée.",
+      "questions": [
+        {
+          "question": "Quelle amélioration du métro n'est PAS mentionnée dans le texte ?",
+          "options": [
+            "L'installation de nouveaux wagons.",
+            "La rénovation des voies d'accès.",
+            "La création d'une ligne de métro entièrement souterraine.",
+            "La pose de panneaux d'information et un meilleur éclairage."
+          ],
+          "answer": "La création d'une ligne de métro entièrement souterraine.",
+          "explanation": "Le texte parle de nouveaux wagons, des voies d'accès, de panneaux et d'éclairage, mais ne mentionne pas la création d'une nouvelle ligne souterraine."
+        },
+        {
+          "question": "Quel est l'effet positif des travaux sur la population, selon le texte ?",
+          "options": [
+            "La baisse des loyers dans le centre-ville.",
+            "Une augmentation de l'emploi et une meilleure organisation de la ville.",
+            "La fermeture de toutes les petites boutiques.",
+            "Une diminution du nombre de touristes."
+          ],
+          "answer": "Une augmentation de l'emploi et une meilleure organisation de la ville.",
+          "explanation": "Le texte indique que l'emploi a augmenté et que la ville est plus ordonnée, ce que certains habitants apprécient."
+        },
+        {
+          "question": "Quelle préoccupation est exprimée par certains habitants ?",
+          "options": [
+            "Les nouvelles stations de métro sont trop éloignées.",
+            "Les façades historiques ont toutes été détruites.",
+            "Les prix augmentent et certaines petites boutiques ont fermé.",
+            "La mairie veut supprimer le métro."
+          ],
+          "answer": "Les prix augmentent et certaines petites boutiques ont fermé.",
+          "explanation": "Le texte mentionne que certaines personnes remarquent que les prix sont élevés et que des petites boutiques ont fermé."
+        },
+        {
+          "question": "Quel objectif la mairie poursuit-elle pour l'avenir ?",
+          "options": [
+            "Arrêter toutes les rénovations pour préserver l'ancien paysage.",
+            "Construire uniquement des centres commerciaux modernes.",
+            "Renforcer le transport public et soutenir les petites entreprises.",
+            "Interdire l'accès des touristes aux vieux quartiers."
+          ],
+          "answer": "Renforcer le transport public et soutenir les petites entreprises.",
+          "explanation": "Le texte précise que la mairie a un plan pour améliorer le transport public et soutenir le petit commerce afin d'assurer un développement équilibré."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-039",
+      "title": "ბაზარში შეხვედრა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 39,
+      "text": "ბევრჯერ როცა თბილისიდან მსურველ სამგზავრო და მეგობრები ჩამოდიან, მიყვარს მათთან ერთად ერევნისა და ადგილობრივი ბაზრების დათვალიერება. აქაური ბაზარი ვაკის პატარა უბანში მდებარეობს და ურიგო არ არის: ქალები, კაცები და მოხუცები ერთმანეთთან ურთიერთობენ, ყიდულობენ ხილს, ცომეულს, ჩურჩხელას და ახალ მცენარეებს. ასეთი ადგილი ჩემთვის მნიშვნელოვანია, რადგან ბაზარში სიტყვას ვიწყებ ხალხთან და ვსწავლობ ყოველდღიური საუბრის წესებს. ხშირად ვეკითხები გამყიდველებს მათი პროდუქტის შესახებ: სად გაიზარდა ეს მარწყვი, როგორ მივახლოვდე ჩურჩხელას შენახვას, რა ტიპის ხორბალს იყენებენ პურისთვის. ზოგჯერ გამყიდველი მირჩევს კონკრეტულ საჭმელს და გვასწავლის მის მომზადების წესი: როგორ უნდა გააჩერო საცხობის ცომი, ან როგორ გააკეთო თბილი ჩაი საკუთარი ოჯახისთვის. ბაზარზე გატარებული დრო ყოველთვის მადლობელი ვხდები ადგილობრივი კულტურისთვის დარამდენადაც ეს მშვენიერი ადგილი გვეხმარება უკეთ გავიცნოთ ერთმანეთი.",
+      "translation": "Quand des amis ou des passagers souhaitant venir de Tbilissi arrivent, j'aime les visiter et parcourir les marchés locaux. Le marché ici se trouve dans un petit quartier de Vake et n'est pas ordinaire : femmes, hommes et personnes âgées interagissent, achètent des fruits, des pâtisseries, de la churchkhela et des plantes fraîches. Un tel lieu est important pour moi car au marché je commence une conversation avec les gens et j'apprends les règles de la vie quotidienne. Souvent je demande aux vendeurs des informations sur leurs produits : où ces fraises ont-elles poussé, comment conserver la churchkhela, quel type de blé ils utilisent pour le pain. Parfois le vendeur me conseille un plat précis et nous enseigne sa recette : comment faire lever la pâte du four, ou comment préparer un thé chaud pour la famille. Le temps passé au marché me rend toujours reconnaissant pour la culture locale car cet endroit magnifique nous aide à mieux nous connaître les uns les autres.",
+      "questions": [
+        {
+          "question": "Pourquoi le narrateur aime-t-il aller au marché ?",
+          "options": [
+            "Pour acheter uniquement des souvenirs",
+            "Parce qu’il y trouve des produits moins chers",
+            "Pour parler avec les gens et apprendre",
+            "Pour travailler avec les vendeurs"
+          ],
+          "answer": "Pour parler avec les gens et apprendre",
+          "explanation": "Le texte indique qu’au marché il commence des conversations et apprend les règles du quotidien."
+        },
+        {
+          "question": "Quel produit n’est pas mentionné comme vendu au marché ?",
+          "options": [
+            "ცომეული (pâtisserie)",
+            "ჩურჩხელა (churchkhela)",
+            "პური (pain)",
+            "ფარნები (lampes)"
+          ],
+          "answer": "ფარნები (lampes)",
+          "explanation": "Le texte cite pâtisseries, churchkhela et pain, mais pas de lampes."
+        },
+        {
+          "question": "Que demande parfois le narrateur aux vendeurs ?",
+          "options": [
+            "სად არის ნიკაპი (où est la gare)",
+            "როგორ უნდა შეინახო ჩურჩხელა (comment conserver la churchkhela)",
+            "როგორ დავწერო წერილი (comment écrire une lettre)",
+            "რა დროს იწყება ბაზარი (à quelle heure commence le marché)"
+          ],
+          "answer": "როგორ უნდა შეინახო ჩურჩხელა (comment conserver la churchkhela)",
+          "explanation": "Le texte mentionne qu’il demande comment conserver la churchkhela entre autres questions sur les produits."
+        },
+        {
+          "question": "Qu’apprend le narrateur parfois des vendeurs ?",
+          "options": [
+            "Des conseils de jardinage uniquement",
+            "Des recettes et comment préparer des plats",
+            "Des règles de conduite à la douane",
+            "Des horaires de cinéma"
+          ],
+          "answer": "Des recettes et comment préparer des plats",
+          "explanation": "Le texte dit que le vendeur enseigne la recette, comment faire lever la pâte ou préparer du thé."
+        }
+      ]
+    },
+    {
+      "id": "reading_exams-b1-gen-040",
+      "title": "ოჯახური ტრადიციების სუფრა",
+      "level_name": "B1",
+      "cefr": "B1",
+      "version": 40,
+      "text": "ქალაქიდან მცირე სოფელში ვეარცხვი ოჯახში ჩემი ცოლის მშობლები ცხოვრობენ უკვე წლებია. კვირას თითქმის ყოველთვის მიწვეული ვართ ოჯახის სუფრაზე: ერთად ვამზადებთ საჭმელს, ვსხედვართ და ვსაუბრობთ დღის ამბებზე. სუფრა იწყება მარტივი წესით: უფროსები მისასალმებელ სიტყვებს ამბობს, ბავშვები მილოცვებს აწყვია, everybody helps clean the table და მეზობლიც ხშირად ჩნდება სათაურით. ჩვეულებრივ საჭმელი შედგება ხაჭაპურის, წვნიანის და სალათებისაგან; დიდი ადგილი უჭირავს ღვინოს და ტრადიციულ ჩურჩხელას სადესანტოზე. ამ შეხვედრების დროს გვხვდება ოჯახის მოვლენები: ქორწილის დაგეგმვა, მოსწავლეების გამოცდები, თუ გასული წლის მემკვიდრეობა. მე ვცდილობ ჩემი ფრანგული სტუმრებიც დავპატიჟო — ისინი ინტერესით უსმენენ ქართულ ისტორიებს და ცდილობენ ქართულ სიტყვებს წარმოთქმონ. ჩემთვის ასეთი სუფრა არის ადგილი, სადაც ოჯახური ურთიერთობები ძლიერდება და ახალი ანტიკადები იბადება; აქ იცვლება გამოცდილება, გაცვლით რჩევები სამარაგოზე და თითოეულმა პატარა საქმიანობამ მნიშვნელობა პოულობს.",
+      "translation": "Dans un petit village proche de la ville vivent depuis des années les parents de ma femme. Le dimanche nous sommes presque toujours invités à la table familiale : ensemble nous préparons à manger, nous nous asseyons et parlons des nouvelles du jour. Le repas commence par une règle simple : les aînés prononcent des paroles de bienvenue, les enfants récitent des vœux, tout le monde aide à nettoyer la table et le voisin apparaît souvent à l’improviste. Habituellement le repas se compose de khachapuri, de soupe et de salades ; le vin et la churchkhela occupent une place importante sur la table. Lors de ces rencontres on discute des événements familiaux : planification d’un mariage, examens des élèves, ou de l’héritage de l’année passée. J’essaie d’inviter aussi mes amis français — ils écoutent avec curiosité les histoires géorgiennes et essaient de prononcer des mots géorgiens. Pour moi ce repas est un lieu où les liens familiaux se renforcent et où naissent de nouvelles habitudes ; on échange expériences, conseils pratiques et chaque petite activité prend du sens.",
+      "questions": [
+        {
+          "question": "Où vivent les parents de la femme du narrateur ?",
+          "options": [
+            "Dans la même maison que le narrateur",
+            "Dans un petit village près de la ville",
+            "À l’étranger",
+            "En ville, dans un appartement moderne"
+          ],
+          "answer": "Dans un petit village près de la ville",
+          "explanation": "Le texte indique que les parents vivent dans un petit village proche de la ville."
+        },
+        {
+          "question": "Quelle activité n’est pas mentionnée comme faisant partie du repas familial ?",
+          "options": [
+            "პირველი მიმართვა უფროსებისგან (paroles de bienvenue des aînés)",
+            "ბავშვების მილოცვები (vœux des enfants)",
+            "ცეკვა და სიმღერა (danse et chant)",
+            "ყველა წვილი მაგის საწმენდად ეხმარება (tout le monde aide à nettoyer)"
+          ],
+          "answer": "ცეკვა და სიმღერა (danse et chant)",
+          "explanation": "Le texte mentionne accueil, vœux des enfants et aide pour nettoyer, mais pas danse et chant."
+        },
+        {
+          "question": "Quels aliments sont cités dans le texte ?",
+          "options": [
+            "ხაჭაპური, წვნიანი, სალათები (khachapuri, soupe, salades)",
+            "პიცა, ბურგერი, კარტოფილი (pizza, burger, frites)",
+            "სუშიუ, ტაკო, პელმენები (sushi, taco, pelmeni)",
+            "ბანანი, საკუთრება, შოკოლადი (banane, propriété, chocolat)"
+          ],
+          "answer": "ხაჭაპური, წვნიანი, სალათები (khachapuri, soupe, salades)",
+          "explanation": "Le texte mentionne explicitement khachapuri, soupe et salades comme composantes du repas."
+        },
+        {
+          "question": "Pourquoi le narrateur invite-t-il parfois des amis français ?",
+          "options": [
+            "Pour leur apprendre la cuisine géorgienne seulement",
+            "Parce qu’ils aiment les architectures géorgiennes",
+            "Pour qu’ils écoutent les histoires géorgiennes et essayent de parler la langue",
+            "Parce qu’ils travaillent dans le village"
+          ],
+          "answer": "Pour qu’ils écoutent les histoires géorgiennes et essayent de parler la langue",
+          "explanation": "Le texte dit qu’ils écoutent avec curiosité les histoires et essaient de prononcer des mots géorgiens."
+        }
+      ]
     }
   ]
 }
