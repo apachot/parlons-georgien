@@ -396,5 +396,18 @@ body :not(.sun):not(.course-catalog-mark):not(.dot) {
 .exercise-level-options button b { font:700 1.5rem/1 Georgia,serif; }
 .exercise-level-options button span { color:#667269; font-size:.82rem; }
 .exercise-level-options button:disabled { opacity:.38; cursor:not-allowed; }
+.exercise-briefing-active > :not(.exercise-briefing):not(.back-to-games):not(.game-screen-top) { display:none !important; }
+.exercise-briefing { margin:22px 0 28px; padding:24px; border:1px solid #cbd5cb; border-left:5px solid #315d49; background:#fffdf8; color:#263d34; }
+.exercise-briefing h2 { margin:0 0 8px; font:600 clamp(24px,3vw,34px)/1.15 Georgia,serif; }
+.exercise-briefing h3 { margin:20px 0 5px; font-size:14px; }
+.exercise-briefing-goal { max-width:760px; margin:0; color:#48584d; font-size:15px; line-height:1.6; }
+.exercise-briefing-facts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:20px 0; }
+.exercise-briefing-fact { min-height:76px; padding:12px 15px; border:1px solid #d9ded7; background:#f6f7f1; }
+.exercise-briefing-fact small,.exercise-briefing-fact b { display:block; }
+.exercise-briefing-fact small { margin-bottom:7px; color:#707a70; font-size:9px; font-weight:800; letter-spacing:.09em; }
+.exercise-briefing-fact b { color:#254635; font-size:16px; }
+.exercise-briefing-copy { max-width:850px; margin:0; color:#59665c; font-size:13px; line-height:1.65; }
+.exercise-briefing-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
+@media(max-width:600px) { .exercise-briefing { margin:15px 0 20px; padding:17px; } .exercise-briefing-facts { grid-template-columns:1fr; gap:7px; margin:15px 0; } .exercise-briefing-fact { min-height:0; } .exercise-briefing-actions { flex-direction:column; } .exercise-briefing-actions .button { width:100%; } }
 @media (max-width:600px) { .all-versions-link { width:100%; margin-top:1rem; } .version-card { min-height:0; } }
 @media (max-width:480px) { .exercise-level-options { grid-template-columns:repeat(2,minmax(0,1fr)); } }

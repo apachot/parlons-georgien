@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (panel.matches('.dialogue-card')) panel = document.querySelector('#dialogue-flash') || panel;
     const context = {path: location.pathname, panel: panel.id, activity: window.getActiveVocabularyGame?.() || '',
       category: document.querySelector('.grammar-category-list button.active')?.dataset.category || '',
-      direction: document.querySelector('[data-dictation-direction].active')?.dataset.dictationDirection || ''};
+      direction: document.querySelector('[data-dictation-direction].active')?.dataset.dictationDirection || '',
+      started: panel.querySelector('[data-exercise-briefing]')?.hidden ?? true};
     sessionStorage.setItem('practice-level-context', JSON.stringify(context));
     const destination = new URL(location.href);
     ['bank', 'cefr', 'version'].forEach(key => destination.searchParams.delete(key));
@@ -94,9 +95,10 @@ document.addEventListener('DOMContentLoaded', () => {
           const startIds = {reading:'reading-start','reading-exam':'exam-start','reading-cloze':'cloze-start',
             dictation:'dictation-start','dictation-listening':'listening-dictation-start',
             'dictation-sentences':'sentence-dictation-start','dialogue-flash':'dialogue-flash-start',
-            'comprehension-order':'order-start','comprehension-vf':'vf-start'};
+            'comprehension-order':'order-start','comprehension-vf':'vf-start',
+            'alphabet-speed':'speed-start','alphabet-word-speed':'word-speed-start','grammar-speed':'grammar-speed-start'};
           const start = document.getElementById(startIds[panel.id]);
-          if (start) requestAnimationFrame(() => start.click());
+          if (start && context.started) requestAnimationFrame(() => start.click());
         }
         refreshExerciseDifficulty();
       }
