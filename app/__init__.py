@@ -710,6 +710,14 @@ def create_app(test_config=None):
     def home():
         vocab = load_content("vocabulary")
         lessons = load_content("lessons")
+        practice_sections = ("alphabet", "vocabulary", "reading", "comprehension",
+                             "dictation", "grammar", "dialogues")
+        test_versions = {
+            (entry["bank"], entry["level"], str(entry["version"]))
+            for section in practice_sections
+            for entry in version_catalog(section)
+        }
+        test_levels = sorted({level for _, level, _ in test_versions})
         done = {row.lesson_id for row in LessonCompletion.query.all()}
         due = Progress.query.filter(Progress.kind == "vocabulary", Progress.due_at <= func.now()).count()
         practiced = Progress.query.filter_by(kind="vocabulary").count()
@@ -722,6 +730,7 @@ def create_app(test_config=None):
                   .order_by((Progress.seen - Progress.correct).desc()).limit(3).all()]
         return render_template("index.html", lessons=lessons, done=done, due=due,
                                practiced=practiced, total=total,
+                               test_version_count=len(test_versions), test_levels=test_levels,
                                percent=round(practiced * 100 / max(total, 1)), errors=errors)
 
     @app.get("/about")
