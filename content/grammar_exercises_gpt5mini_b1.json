@@ -730,7 +730,6 @@
       "options": [
         "ის ძალიან ჭკვიანია, ამიტომ ყველა მას სწავლობს.",
         "ის ძალიან ჭკვიანია, ამიტომ მას ყველა სწავლობს.",
-        "ის ძალიან ჭკვიანია, ამიტომ ყველა ის სწავლობს.",
         "ის ძალიან ჭკვიანია, ამიტომ ყველა ის სწავლობს."
       ],
       "answer": "ის ძალიან ჭკვიანია, ამიტომ ყველა მას სწავლობს.",
@@ -745,7 +744,6 @@
       "options": [
         "ადამიანი, რომელიც ისტორიას იცის, წარმატებული იქნება.",
         "ადამიანი, რომ იცის ისტორია, წარმატებული იქნება.",
-        "ადამიანი რომ იცის ისტორია წარმატებული იქნება.",
         "ადამიანი რომელიც ისტორია იცის წარმატებული იქნება."
       ],
       "answer": "ადამიანი, რომელიც ისტორიას იცის, წარმატებული იქნება.",
@@ -786,15 +784,16 @@
       "category": "temps",
       "cefr": "B1",
       "version": 13,
-      "prompt": "ხვალ საღამოს ჩვენ თაკოსთან ერთად თეატრში ___ .",
+      "prompt": "ხვალ საღამოს ჩვენ თაკოსთან ერთად თეატრში ___ . (Demain soir, nous allons au théâtre avec Tako.)",
       "options": [
-        "ვიზამთ",
-        "ვიზამთთ",
-        "წავიდziemy",
-        "წავიდებით"
+        "მივდივართ",
+        "მივდიოდით",
+        "მივედით",
+        "მივდივარ"
       ],
-      "answer": "წავიდებთ",
-      "explanation": "Règle : Le verbe correct pour «nous irons» ou «nous irons (formel/pluriel)» doit être à la forme future pour la 1re personne du pluriel en géorgien : «წავიდებთ» est en fait 2e personne pluriel/forme polie ; cependant pour «nous» correcte est «წავიდეთ» ou «ჩვენ წავიდეთ». Ici la consigne attend une forme équivalente à «nous irons» : la bonne réponse fournie est «წავიდებთ» qui, si le contexte veut adresser «vous» au groupe, serait incorrect. Pour être cohérent et grammaticalement juste pour «nous», la forme correcte est «ჩვენ წავიდეთ». Les autres options sont manifestement erronées : «ვიზამთ» et «ვიზამთთ» sont formes inexistantes pour ce verbe et «წავიდziemy» mélange polonais/georgien. (Remarque : parmi les options données, «წავიდებთ» est la seule forme verbale géorgienne correcte comme futur conjugué, les autres sont non-géorgiennes ou incorrectes.)"
+      "answer": "მივდივართ",
+      "explanation": "«მივდივართ» est la première personne du pluriel de «aller» et peut exprimer un programme prévu : «nous allons».",
+      "question": "ხვალ საღამოს ჩვენ თაკოსთან ერთად თეატრში ___ . (Demain soir, nous allons au théâtre avec Tako.)"
     },
     {
       "id": "grammar_exercises-b1-temps-gen-014",
@@ -895,7 +894,6 @@
       "options": [
         "გავუზიარებდით",
         "გავუზიარებთ",
-        "გავუზიარებთ",
         "გავუზიარეთ"
       ],
       "answer": "გავუზიარებთ",
@@ -981,13 +979,13 @@
       "category": "temps",
       "prompt": "Quelle phrase géorgienne exprime « À la fin du mois, j’aurai terminé le rapport » ?",
       "options": [
-        "მთავრობის ბოლო განხილვამდე ანგარიშს დავასრულებ.",
+        "წლის ბოლომდე ანგარიშს დავასრულებ.",
         "თვეს მიწურულამდე ანგარიშს დავამთავრებ.",
-        "თვეს ბოლოამდე ანგარიშს დავამთავრებ.",
+        "თვეს დასაწყისამდე ანგარიშს დავასრულებ.",
         "თვეს ბოლომდე ანგარიშს დავასრულებ."
       ],
-      "answer": "თვეს სიმურულამდე ანგარიშს დავამთავრებ.",
-      "explanation": "ERREUR : la réponse choisie contient une faute de frappe. Remplacement nécessaire.",
+      "answer": "თვეს ბოლომდე ანგარიშს დავასრულებ.",
+      "explanation": "«თვეს ბოლომდე» signifie «d’ici la fin du mois» ; «დავასრულებ» signifie «je terminerai».",
       "cefr": "B1",
       "version": 26
     },
@@ -1717,7 +1715,6 @@
       "prompt": "Choisissez la phrase correcte pour « J'écris avec un stylo. »",
       "options": [
         "მე ვწერ კალმით.",
-        "მე ვწერ კალმით.",
         "მე ვწერ კალმზე.",
         "მე ვწერ კალმის."
       ],
@@ -1778,7 +1775,6 @@
       "options": [
         "წიგნი მაგიდაზეა.",
         "წიგნი მაგიდაშია.",
-        "წიგნი მაგიდაზეა.",
         "წიგნი მაგიდისაა."
       ],
       "answer": "წიგნი მაგიდაზეა.",
@@ -1840,7 +1836,6 @@
       "options": [
         "ეს შენი",
         "ეს შენი-ს",
-        "ეს შენის",
         "ეს შენია-ს"
       ],
       "answer": "ეს შენის",
@@ -2155,8 +2150,7 @@
       "options": [
         "სტუდენტებით",
         "სტუდენტებითა",
-        "სტუდენტებითა და",
-        "სტუდენტებითა"
+        "სტუდენტებითა და"
       ],
       "answer": "სტუდენტებით",
       "explanation": "Règle : pour exprimer «plein de étudiants», on utilise l'instrumental/pluriel «სტუდენტებით» (suffixe -ებით). Les autres options répètent la même forme ou ajoutent des particules inutiles («და» = «et») ou sont non standard; «სტუდენტებითა» est littéraire et rarement utilisé en langue courante; la forme simple «სტუდენტებით» est correcte."
@@ -2199,7 +2193,6 @@
       "prompt": "ქართულს აქვთ მრავალი შემავსებელი. რომელია სწორი წინადადება იმის გასამხილებლად, რომ სახლს აქვს ორი აივანი? აირჩიე ყველაზე ბუნური ვერსია:",
       "options": [
         "ჩვენს სახლს აქვს ორი აივანი",
-        "ჩვენს სახლს ორი აივანი აქვს",
         "ჩვენს სახლს ორი აივანი აქვს",
         "ჩვენ სახლს აქვს ორი აივანი"
       ],
@@ -2259,7 +2252,6 @@
       "prompt": "Quel est le pluriel nominatif correct du mot « ფანჯარა » (fenêtre) dans cette phrase : « სახლში ბევრი ___ა » ?",
       "options": [
         "ფანჯრები",
-        "ფანჯარები",
         "ფანჯარები",
         "ფანჯრებია"
       ],
@@ -2616,13 +2608,13 @@
       "category": "correction",
       "prompt": "ბეჭდური გამოშვება: ‘‘ჩვენ ჩავწერეთ ახალი კანონი პარლამენტმა.’’ შეცდომაა ზმნის ფორმასა და ნაწილის (ბრუნვის) თანხვედრაში. შეარჩიეთ სწორი გამოსახულება.",
       "options": [
-        "ჩვენმა პარლამენტმა მიიღო ახალი კანონი.",
-        "ჩვენ ჩავწერეთ ახალი კანონი პარლამენტში.",
-        "ჩვენ ჩავწერეთ ახალი კანონი პარლამენტმა.",
-        "პარლამენტმა მიიღო ახალი კანონი ჩვენ."
+        "პარლამენტმა მიიღო ახალი კანონი.",
+        "პარლამენტმა ახალი კანონი მიიღო.",
+        "ჩვენ პარლამენტში ახალი კანონი მივიღეთ.",
+        "პარლამენტმა ახალი კანონი მიიღეს."
       ],
       "answer": "პარლამენტმა მიიღო ახალი კანონი.",
-      "explanation": "Règle : pour exprimer 'Le Parlement a adopté une nouvelle loi', sujet 'პარლამენტმა' (ergatif) doit être suivi d'un verbe conjugué au passé 'მიიღო' ou 'მიიღო/მიიღეს' dans la voix active; la construction la plus naturelle est 'პარლამენტმა მიიღო ახალი კანონი.' 'ჩვენ ჩავწერეთ...' signifie 'nous avons enregistré/inscrit', qui change le sens. Les options restantes sont grammaticalement maladroites ou changent le rôle des acteurs : deuxième met 'პარლამენტში' (dans le Parlement) sans verbe adéquat; troisième répète l'erreur original; quatrième place 'ჩვენ' sans verbe correct et ordre impersonnel.",
+      "explanation": "«პარლამენტმა» est le sujet de la phrase au passé ; «მიიღო» signifie «a adopté».",
       "cefr": "B1",
       "version": 35
     },
@@ -2813,8 +2805,7 @@
       "options": [
         "ეს უფრო ძვირია, ვიდრე ის.",
         "ეს ძვირია უფრო ვიდრე ის.",
-        "ეს უფრო ძვირფასია ვიდრე ის.",
-        "ეს ძვირია, უფრო ვიდრე ის."
+        "ეს უფრო ძვირფასია ვიდრე ის."
       ],
       "answer": "ეს უფრო ძვირია, ვიდრე ის.",
       "explanation": "Règle : La structure comparative en géorgien utilise 'უფრო' (plus) placé avant l'adjectif : 'ეს უფრო ძვირია, ვიდრე ის.' Distracteurs : \"ეს ძვირია უფრო\" mauvais ordre des mots ; \"ძვირფასია\" change la forme adjectivale incorrectement (ძვირფასი signifie 'précieux' pas 'plus cher') ; \"ეს ძვირია, უფრო ვიდრე ის\" sonne maladroit et l'ordre 'უფრო' est absent, moins naturel et moins correct.",
@@ -2901,15 +2892,16 @@
       "category": "correction",
       "cefr": "B1",
       "version": 14,
-      "prompt": "შეარჩიეთ სწორი ფორმა სადიექტო: “მას უნდა ...... ამ ამოცანისთვის დახმარება.”",
+      "prompt": "Comment dire «Nous devrions lui demander de l’aide» ?",
       "options": [
-        "ვკითხოთ",
-        "ვკითხოთთვის",
-        "ეკითხოს",
-        "ვეკითხოთ"
+        "ჩვენ მას დახმარება უნდა ვთხოვოთ.",
+        "ჩვენ მას დახმარება უნდა ვთხოვთ.",
+        "ჩვენ მას დახმარებას უნდა ვკითხოთ.",
+        "ჩვენ მას დახმარება უნდა სთხოვოს."
       ],
-      "answer": "ველით",
-      "explanation": "Erreur détectée — la bonne option ne figure pas dans la liste. (Note de correction : l’option correcte devrait être «დაითხოვთ».)"
+      "answer": "ჩვენ მას დახმარება უნდა ვთხოვოთ.",
+      "explanation": "«უნდა ვთხოვოთ» signifie «nous devrions demander» ; «დახმარება ვთხოვოთ» = demander de l’aide.",
+      "question": "Comment dire «Nous devrions lui demander de l’aide» ?"
     },
     {
       "id": "grammar_exercises-b1-correction-gen-015",

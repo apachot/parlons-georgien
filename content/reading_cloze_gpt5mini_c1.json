@@ -408,16 +408,16 @@
     },
     {
       "id": "reading_cloze-c1-gen-038",
-      "sentence": "როცა პროექტი ახალი საფეხურზე გადავიდა, პასუხისმგებლობა გუნდის წიაღიდან ___ საჭირო გახდა.",
-      "answer": "ბურთხდა",
+      "sentence": "როცა პროექტი ახალ საფეხურზე გადავიდა, გუნდმა პასუხისმგებლობა წევრებს შორის ___.",
+      "answer": "გადაანაწილა",
       "options": [
-        "მიუწოდეს",
-        "გაფანტულიყო",
-        "მოეკავა",
+        "გადაანაწილა",
+        "გააფანტა",
+        "დაიკავა",
         "ინაწილდებოდა"
       ],
-      "translation": "Quand le projet a franchi une nouvelle étape, il est devenu nécessaire que la responsabilité soit redistribuée au sein de l'équipe.",
-      "explanation": "სკოლარულად 'პასუხისმგებლობა ... საჭირო გახდა'—საჭიროა გამოთქმა 'redistribuée' — 'ინაწილებდა' ან 'გადანაწილდეს'. სწორი ფორმა ამ kontexte არის 'ინაწილდებოდა' (გადანაწილდებოდა), სხვა ვარიანტები არ შეესაბამება; თუმცა მოცემული ვარიანტები არასწორად შეირჩევა.",
+      "translation": "Quand le projet a franchi une nouvelle étape, l’équipe a réparti les responsabilités entre ses membres.",
+      "explanation": "«გადაანაწილა» signifie «a réparti». Le sujet «გუნდმა» accomplit l’action au passé.",
       "cefr": "C1",
       "version": 38
     },

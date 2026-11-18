@@ -24,7 +24,6 @@
       "prompt": "Choisissez la phrase correcte en géorgien pour « Aujourd'hui, je mange une pomme. »",
       "options": [
         "დღეს მე ვჭამ ვაშლს.",
-        "დღეს მე ვჭამ ვაშლს.",
         "დღეს მე ვჭამე ვაშლი.",
         "დღეს მე ვჭამე ვაშლს."
       ],
@@ -459,7 +458,6 @@
       "prompt": "კლასში უამრავი წიგნი არის. რომელი ფორმა შეესაბამება სწორად მრავლობითი ნომინის წონასწორობას \"წიგნი\"?",
       "options": [
         "წიგნები",
-        "წიგნები",
         "წიგნე",
         "წიგნია"
       ],
@@ -504,7 +502,6 @@
       "prompt": "საცხობში არის რამდენიმე კექსი. აიღე სწორი მრავლობითი ფორმა სიტყვისთვის \"კექსი\".",
       "options": [
         "კექსები",
-        "კექსები",
         "კექსეუ",
         "კექსია"
       ],
@@ -518,7 +515,6 @@
       "version": 5,
       "prompt": "სუპერმარკეტში ვიყიდე ორი ვაშლი. რომელია სწორი მრავლობითი ფორმა სიტყვისთვის \"ვაშლი\"?",
       "options": [
-        "ვაშლები",
         "ვაშლები",
         "ვაშლია",
         "ვაშლაო"
@@ -549,7 +545,6 @@
       "prompt": "ბიბლიოთეკაში არის ბევრი სტუდენტი. რომელიც ვარიანტია სწორი მრავლობითი სიტყვისთვის \"სტუდენტი\"?",
       "options": [
         "სტუდენტები",
-        "სტუდენტები",
         "სტუდენტია",
         "სტუდენტო"
       ],
@@ -565,8 +560,7 @@
       "options": [
         "ჩიტები",
         "ჩიტნი",
-        "ჩიტია",
-        "ჩიტები"
+        "ჩიტია"
       ],
       "answer": "ჩიტები",
       "explanation": "Règle : ჩიტი → ჩიტები (remplacement de -ი par -ები). Distractreurs : \"ჩიტნი\" est une forme dialectale/archaïque et non standard, \"ჩიტია\" est singulier+copule, une option répétée inutile (deuxième \"ჩიტები\" identique) — la forme correcte est la forme standard ჩიტები."
@@ -623,13 +617,13 @@
       "version": 2,
       "prompt": "გთხოვ განსაზღვრე სწორად: „ის ყოველთვის გვლოვობს მეგობრებს.“",
       "options": [
-        "ის ყოველთვის უყვარს მეგობრებს.",
+        "ის ყოველთვის ელოდება მეგობრებს.",
         "ის ყოველთვის გელოდება მეგობრებს.",
         "ის ყოველთვის უყურებს მეგობრებს.",
         "ის ყოველთვის ეზიარა მეგობრებს."
       ],
       "answer": "ის ყოველთვის ელოდება მეგობრებს.",
-      "explanation": "Règle : le verbe voulu était probablement «ელოდება» (attendre). La forme correcte pour la 3e pers. sing. est «ელოდება». Les options proposées : «უყვარს» = aimer (ne correspond pas au sens), «გელოდება» = 2e pers sing. (incorrecte pour «ის»), «უყურებს» = regarder (sens différent), «ეზიარა» est un verbe mal formé ici. Correction sélectionnée : «ის ყოველთვის ელოდება მეგობრებს.» Note : j’ai remplacé par forme correcte 3e pers. sing."
+      "explanation": "«ელოდება» signifie « attend ». À la troisième personne du singulier, on dit «ის მეგობრებს ელოდება»."
     },
     {
       "id": "grammar_exercises-a1-correction-gen-003",
@@ -1237,9 +1231,7 @@
       "prompt": "Choisissez la traduction correcte de « Il/Elle est entré(e) » (à l'intérieur) en géorgien.",
       "options": [
         "შევიდა",
-        "შესვლა",
-        "შევიდა",
-        "შევიდა"
+        "შესვლა"
       ],
       "answer": "შევიდა",
       "explanation": "Règle : Le verbe შემოსვლა signifie « entrer ». À la 3e personne du singulier au passé on dit შევიდა. Les autres formes proposées sont répétées ou non flexionnées (« შესვლა » est l’infinitif). La forme correcte conjuguée est დამსხვრეული: შევიდა. Note : les options identiques soulignent que seule la forme შემოდის conjuguée პარლამენტია.",
@@ -1823,7 +1815,6 @@
       "options": [
         "თბილი",
         "თბილი-ს",
-        "თბილის",
         "თბილით"
       ],
       "answer": "თბილის",
@@ -2062,7 +2053,6 @@
       "prompt": "როგორ იტყვით ქართულად: «La maison des enfants» ? (forme du mot «enfants» pour «des enfants»)",
       "options": [
         "ბავშვების სახლი",
-        "ბავშვების სახლი",
         "ბავშვების-ს სახლი",
         "ბავშვის სახლი"
       ],
@@ -2260,8 +2250,7 @@
       "options": [
         "წიგნები",
         "წიგნი",
-        "წიგნს",
-        "წიგნები"
+        "წიგნს"
       ],
       "answer": "წიგნები",
       "explanation": "Règle : le pluriel courant en géorgien se forme avec le suffixe -ები ajouté à la racine. 'წიგნი' devient 'წიგნები'. Les distracteurs : 'წიგნი' est la forme au singulier ; 'წიგნს' est la forme au singulier à l'accusatif/datif (cas postpositionnel avec ს) donc incorrecte pour le pluriel ; 'წიგნები' est une orthographe incorrecte pour ce mot (consonne manquante) — la forme correcte est 'წიგნები'."
@@ -2605,8 +2594,7 @@
       "options": [
         "ბავშვები წყალს სვამენ.",
         "ბავშვები წყალს სვამენენ.",
-        "ბავშვები წყალს სვავენ.",
-        "ბავშვები წყალს სვამენ."
+        "ბავშვები წყალს სვავენ."
       ],
       "answer": "ბავშვები წყალს სვამენ.",
       "explanation": "Règle : verbe სვამენ (3e pers. pl.) s'accorde avec ბავშვები. L'option correcte est ზუსტად ეს forme. La deuxième ajoute une terminaison redondante -ენენ (incorrecte), la troisième utilise სვავენ qui est une autre racine non adaptée ici. La première et la quatrième sont identiques ; seulement une copie aurait dû rester mais la bonne est la forme grammaticale correcte (ბავშვები წყალს სვამენ)."
@@ -2618,7 +2606,6 @@
       "version": 15,
       "prompt": "Corrigez : « ეს ჩემი ძმა არის ». Quelle formulation simple et correcte pour dire « C'est mon frère » ?",
       "options": [
-        "ეს ჩემი ძმაა.",
         "ეს ჩემი ძმაა.",
         "ეს ჩემი ძმა არის.",
         "ეს ჩემი ძმაცაა."
@@ -2799,7 +2786,6 @@
       "prompt": "Corrigez la phrase interrogative sur l’heure : „რა საათია ახლა?“ (Quelle heure est-il maintenant ?) La phrase donnée est : „რა საათია ახლა.“ (avec un point). Choisissez la forme correcte pour une question écrite simple.",
       "options": [
         "რა საათია ახლა?",
-        "რა საათია ახლა.",
         "რა არის ახლა საათი?",
         "სათაურია ახლა რა?"
       ],
@@ -2920,8 +2906,7 @@
       "options": [
         "მე არ ვიცი.",
         "მე ვიცი არ.",
-        "არ მე ვიცი.",
-        "მე არვიცი."
+        "არ მე ვიცი."
       ],
       "answer": "მე არ ვიცი.",
       "explanation": "Règle : la négation se place avant le verbe en géorgien : 'არ' + verbe. 'მე არ ვიცი.' est correct. 'მე ვიცი არ.' place la négation après le verbe — incorrect. 'არ მე ვიცი.' inverse l'ordre habituel (bien que compréhensible à l'oral, ce n'est pas la norme grammaticale A1). 'მე არვიცი.' fusionne mal la négation avec le verbe — forme incorrecte."
@@ -2979,12 +2964,12 @@
       "prompt": "აირჩიე სწორი წინადადება მარცვლოვანი რაოდენობის შესახებ: \"მე მაქვს ორი ცველი\" (deux pommes)",
       "options": [
         "მე მაქვს ორი ვაშლი.",
-        "მე მაქვს ორი ვაშლი.",
-        "მე მაქვს ორი ვაშლი.",
-        "მე მაქვს ორი ვაშლი."
+        "მე მაქვს ერთი ვაშლი.",
+        "მე მაქვს ორი ვაშლები.",
+        "მე მაქვს ორი ვაშლიები."
       ],
       "answer": "მე მაქვს ორი ვაშლი.",
-      "explanation": "Règle : après les nombres cardinaux en gé orgien, le nom prend généralement nominatif pluriel sans désinence spéciale : 'ორი ვაშლი' signifie 'deux pommes'. Les distracteurs ont été volontairement identiques pour vérifier l'attention : la forme correcte est 'მე მაქვს ორი ვაშლი.' (les autres copies seraient considérées incorrectes si elles contenaient une faute de cas ou de nombre)."
+      "explanation": "Après «ორი» (deux), le nom reste au singulier : «ორი ვაშლი» (deux pommes)."
     },
     {
       "id": "grammar_exercises-a1-correction-gen-040",

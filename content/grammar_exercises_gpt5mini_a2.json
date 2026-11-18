@@ -160,7 +160,6 @@
       "prompt": "თქვენ ხართ მეგობართან კაფეში. მეგობარი ამბობს, რომ ახლა წავიდა სახლში. იკითხეთ ქართულად: „ის ახლა სახლიდან წავიდა?“ რომელი ვარიანტი სწორია?",
       "options": [
         "მან ახლა სახლიდან წავიდა?",
-        "მან ახლა სახლიდან წავიდა.",
         "მან ახლა სახლიდან მიდის?",
         "ის ახლა სახლიდან წავიდა?"
       ],
@@ -534,7 +533,6 @@
       "options": [
         "თამაშები",
         "თამაშის",
-        "თამაშები",
         "თამაშით"
       ],
       "answer": "თამაშები",
@@ -682,15 +680,16 @@
       "category": "correction",
       "cefr": "A2",
       "version": 6,
-      "prompt": "შეარჩიეთ სწორი პირობითი ფორმა: \"თუ ბევრი ვიმეცადინებ, მე ნორმალურად წავალ გამოცდაზე\" (შეწორება needed).",
+      "prompt": "Complétez : « Si j’étudie beaucoup, je réussirai l’examen. »",
       "options": [
-        "თუ ბევრი ვიმეცადინებ, მართლა გავივლი გამოცდას.",
-        "თუ ბევრი განვმეცადინებ, მე გავივლი გამოცდაზე.",
-        "თუ ბევრს ვიმეცადინებ, მე ვივლი გამოცდაზე.",
-        "თუ ბევრი ვიმეცადინე, მე გავივლი გამოცდაზე."
+        "თუ ბევრს ვიმეცადინებ, გამოცდას ჩავაბარებ.",
+        "თუ ბევრი ვიმეცადინებ, გამოცდას ჩავაბარებ.",
+        "თუ ბევრს ვიმეცადინე, გამოცდას ჩავაბარებ.",
+        "თუ ბევრს ვიმეცადინებ, გამოცდაზე ვივლი."
       ],
-      "answer": "თუ ბევრს ვიმეცადინებ, მე გავივლი გამოცდაზე.",
-      "explanation": "Règle : კონსტრუქცია ტიპიური: «თუ + adverbe/quantificateur + verbe» pour une condition réelle au futur. Correct est «თუ ბევრს ვიმეცადინებ, მე გავივლი გამოცდაზე.» On utilise l'adverbe «ბევრს» avant le verbe. Distracteurs : la 1re option «ვავზი?» contient une forme verbale erronée et «გავივლი გამოცდას» utilise le mauvais cas (გამოცდაზე est correct) ; la 2e «განვმეცადინებ» avec le préfixe გან- change le sens inutilement ; la 3e «ვივლი» est une forme verbale incorrecte ; la 4e «ვიმეცადინე» est un passé ou impératif mal formé pour une condition présente."
+      "answer": "თუ ბევრს ვიმეცადინებ, გამოცდას ჩავაბარებ.",
+      "explanation": "La condition réelle au futur se construit avec «თუ» et «ვიმეცადინებ». «გამოცდას ჩავაბარებ» signifie «je réussirai l’examen».",
+      "question": "Complétez : « Si j’étudie beaucoup, je réussirai l’examen. »"
     },
     {
       "id": "grammar_exercises-a2-correction-gen-007",
@@ -716,8 +715,7 @@
       "options": [
         "მე მინდა დავუკვეთო პიცა.",
         "მე მინდა შევუკვეთო პიცა.",
-        "მე მსურს შევიკვეთო პიცა.",
-        "მე მინდა შევუკვეთო პიცა."
+        "მე მსურს შევიკვეთო პიცა."
       ],
       "answer": "მე მინდა დავუკვეთო პიცა.",
       "explanation": "Règle : სასურველი კონსტრუქცია ქართულში: \"მე მინდა\" suivi de verbe en forme subjunctive avec დავ- pour 1ère personne: \"დავუკვეთო\" (order/request). Correct : \"მე მინდა დავუკვეთო პიცა.\" Distracteurs : \"შევუკვეთო\" implique action réciproque ou autre structure (შე- prefix indique se faire) et n'est pas naturel après მინდა ; «მე მსურს შევიკვეთო» mélange registre et მაინც არასწორია; «მე მინდა შევუკვეთო პიცა» (comme deuxième) même problème: სწორი prefiksi რჩება დავ-."
@@ -1016,8 +1014,7 @@
       "options": [
         "ხომ მუშაობდი ღამით, მართლა დავიმუშავე.",
         "დიახ, მე ვმუშაობდი ღამით.",
-        "დიახ, მე ვიმუშავებდი ღამით.",
-        "დიახ, მე ვმუშაობდი ღამით."
+        "დიახ, მე ვიმუშავებდი ღამით."
       ],
       "answer": "დიახ, მე ვმუშაობდი ღამით.",
       "explanation": "Réponse correcte : «დიახ, მე ვმუშაობდი ღამით.» est l’imparfait indiquant une action passée en cours. Les autres options sont incorrectes : la première est tautologique et mélange des formes ; la troisième «ვიმუშავებდი» est conditionnel/hypothétique ; la quatrième «დიახ, მე ვმუშაობდი ღამით.» est identique à la correcte, mais les consignes demandaient options distinctes — erreur."
@@ -1947,15 +1944,16 @@
       "category": "cas",
       "cefr": "A2",
       "version": 28,
-      "prompt": "როგა არის ფილმის დასასრული? (La fin du film)",
+      "prompt": "Complétez : «ფილმის ___ ყველაფერი შეიცვალა.» (À la fin du film, tout a changé.)",
       "options": [
-        "ფილმის ბოლო",
-        "ფილმი ბოლო",
-        "ფილმში ბოლო",
-        "ფილმისში ბოლო"
+        "ბოლოს",
+        "ბოლო",
+        "ფილმში",
+        "ფილმისში"
       ],
-      "answer": "ფილმის ბოლოს",
-      "explanation": "Règle : pour «la fin du film» on emploie le génitif + substantif : ფილმი → ფილმის; la locution correcte et naturelle est «ფილმის ბოლოს». Toutefois, l'énoncé demandait «La fin du film» et parmi les formes proposées ci-dessus il ne figurait pas «ფილმის ბოლოს». Comme on doit fournir exactement quatre options et une réponse correcte, la forme correcte standard est «ფილმის ბოლო» ou mieux «ფილმის ბოლოს». Ici la bonne forme doit être «ფილმის ბოლო». (Remarque pédagogique : utiliser le génitif -ის pour «du film». Les distracteurs utilisent le nominatif, le locatif incorrect ou des formes non naturelles.)"
+      "answer": "ბოლოს",
+      "explanation": "La locution «ფილმის ბოლოს» signifie «à la fin du film» : génitif «ფილმის» + «ბოლოს».",
+      "question": "Complétez : «ფილმის ___ ყველაფერი შეიცვალა.» (À la fin du film, tout a changé.)"
     },
     {
       "id": "grammar_exercises-a2-cas-gen-029",
@@ -2008,7 +2006,6 @@
       "prompt": "Complétez en géorgien : «J'ai donné le livre à Maria.» Quel est le bon cas pour «Maria»?",
       "options": [
         "მარია",
-        "მარიას",
         "მარიას",
         "მარიამს"
       ],
@@ -2399,7 +2396,6 @@
       "options": [
         "საქმეები",
         "საქმენი",
-        "საქმეები",
         "საქმის"
       ],
       "answer": "საქმეები",
@@ -2446,7 +2442,6 @@
       "options": [
         "ორი წიგნები",
         "ორი წიგნი",
-        "ორი წიგნები",
         "ორი წიგნის"
       ],
       "answer": "ორი წიგნი",
@@ -2670,7 +2665,6 @@
       "prompt": "თქვენ გჭირდებათ დაწეროთ: \"მე ვმუშაობ ოფისში ორშაბათამდე.\" სტუდენტმა დაწერა: \"მე ვმუშაობ ოფისში ორ შაბათამდე.\" აირჩიეთ სწორი გამოსწორებული წინადადება.",
       "options": [
         "მე ვმუშაობ ოფისში ორშაბათამდე.",
-        "მე ვმუშაობ ოფისში ორ შაბათამდე.",
         "მე ვმუშაობ ოფისში ორშაბათიდან.",
         "მე ვმუშაობ ოფისში ორშაბათზე."
       ],
@@ -2729,9 +2723,6 @@
       "version": 20,
       "prompt": "პასუხით: თქვენ გინდათ თქვათ \"J'ai acheté deux pommes\" ქართულად. მოსწავლემ დაწერა: \"მე ვიყიდე ორი ვაშლი.\" იპოვა სწორი გამოსწორება.",
       "options": [
-        "მე ვიყიდე ორი ვაშლი.",
-        "მე ვიყიდე ორი ვაშლი.",
-        "მე ვიყიდე ორი ვაშლი.",
         "მე ვიყიდე ორი ვაშლი."
       ],
       "answer": "მე ვიყიდე ორი ვაშლი.",
@@ -2789,11 +2780,11 @@
       "options": [
         "ჩვენ მივდივართ ბაზარში.",
         "ჩვენ მივდივართ ბაზარამდე.",
-        "ჩვენ მივდივართ ბაზარში წავიდეთ.",
-        "ჩვენ მივდივართ ბაზარში."
+        "ჩვენ ბაზრიდან მოვდივართ.",
+        "ჩვენ ბაზარში ვმუშაობთ."
       ],
-      "answer": "ჩვენ მივდივართ ბაზაში.",
-      "explanation": "Règle: Le verbe 'მივდივართ' (nous allons) exige la locatif pour indiquer lieu 'ბაზარში' pour 'au marché'. Les distracteurs : 1) 'მივდივართ ბაზარში.' (cette option est identique à la bonne mais ici l'orthographe correcte est 'ბაზარში' — l'option 1 était la même que 4 ; garder une seule correcte) ; 2) 'ბაზარამდე' signifie 'jusqu'au marché', nuance différente ; 3) 'ბაზარში წავიდეთ' mélange deux formes verbales ('მივდივართ' et 'წავიდეთ') et est grammaticalement incohérent. Note: la forme correcte est 'ჩვენ მივდივართ ბაზარში.'",
+      "answer": "ჩვენ მივდივართ ბაზარში.",
+      "explanation": "«ბაზარში» signifie «au marché» (destination). «ბაზარამდე» signifie «jusqu’au marché» et «ბაზრიდან» signifie «du marché».",
       "cefr": "A2",
       "version": 24
     },
@@ -2849,7 +2840,6 @@
       "options": [
         "ჩვენ ვიყიდეთ ორი ვაშლი.",
         "ჩვენ ვიყიდეთ ორი ვაშლი-ები.",
-        "ჩვენ ვიყიდეთ ორი ვაშლი.",
         "ჩვენ ვიყიდეთ ორი ვაშლები."
       ],
       "answer": "ჩვენ ვიყიდეთ ორი ვაშლი.",
@@ -2969,7 +2959,6 @@
       "options": [
         "ნიკოლოზი ბათუმში ცხოვრობს.",
         "ნიკოლოზი ცხოვრობს ბათუმში.",
-        "ნიკოლოზი ბათუმში ცხოვრობს.",
         "ნიკოლოზი ბათუმში ცხოვრობს არიან."
       ],
       "answer": "ნიკოლოზი ბათუმში ცხოვრობს.",

@@ -176,7 +176,7 @@
         "შეხვედრა ჩამოყალიბდა და ჯერ არ დასრულებულა.",
         "შეხვედრა შემოინახა და ჯერ არ დასრულებულა."
       ],
-      "answer": "შეხვედრა დაწყებულია და ჯერ არ დასრულებულა.",
+      "answer": "შეხვედრა დაიწყო და ჯერ არ დასრულებულა.",
       "explanation": "Remarque : les options demandées doivent être exactement quatre ; toutefois, pour satisfaire l'instruction, la forme correcte devrait être ჩატარებული და დამწყებული. Correction : la réponse fournie dans les options diffère. Veuillez ignorer cet item.",
       "cefr": "C1",
       "version": 2
@@ -191,7 +191,7 @@
         "მინდა სახლში ავბრუნდე, რამე დამრჩა.",
         "მინდა სახლში ჩამოვბრუნდე, რამე დამრჩა."
       ],
-      "answer": "მინდა სახლში დაბრუნდე, რამე დამრჩა.",
+      "answer": "მინდა სახლში დავბრუნდე, რამე დამრჩა.",
       "explanation": "Règle : Le verbe დაბრუნდე (racine დაბრუნ-) exprime le retour ; à la première personne on doit dire 'მინდა სახლში დავბრუნდე'. Correct : 'დავბრუნდე'. Pièges : 'მიაბრუნდე' est transitif (faire revenir quelqu'un), 'ავბრუნდე' est moins naturel pour un mouvement de retour personnel ; 'ჩამოვბრუნდე' implique un mouvement vers le locuteur depuis un point différent et est moins idiomatique ici.",
       "cefr": "C1",
       "version": 3
@@ -967,9 +967,7 @@
       "prompt": "Tu rapportes une habitude passée contrastée avec maintenant : «Autrefois il fumait beaucoup, mais maintenant il ne fume plus.» Quelle formulation convient le mieux ?",
       "options": [
         "მან ადრე ბევრს ეწეოდა, მაგრამ ახლა აღარ ეწევა.",
-        "მან ადრე ბევრს ეწეოდა, მაგრამ ახლა აღარ ეწევა.",
         "მან ადრე ბევრს ეწეოდა, მაგრამ ახლა აღარ ეწევს.",
-        "მან ადრე ბევრს ეწეოდა, მაგრამ ახლა აღარ ეწევა.",
         "MANQUANT"
       ],
       "answer": "მან ადრე ბევრს ეწეოდა, მაგრამ ახლა აღარ ეწევა.",
@@ -1134,13 +1132,13 @@
       "version": 36,
       "prompt": "Contexte : Vous exprimez une hypothèse présentement contraire à la réalité : « Si j’étais riche, j’achèterais une maison à la campagne. » Quelle est la traduction géorgienne correcte ?",
       "options": [
-        "თუ მეყოლებოდა ბევრი ფული, მე სოფელში სახლის ყიდვა დავიწყებდი.",
+        "თუ ბევრი ფული მყოლოდა, მე სოფელში სახლს ვიყიდდი.",
         "თუ ბევრი ფული მეყოლება, სოფელში სახლს ვიყიდი.",
         "თუ ბევრი ფული მყოლია, მე სოფელში სახლს ვიყიდდი.",
-        "თუ ბევრი ფული მყოლოდა, მე სოფელში სახლს ვიყიდი."
+        "თუ ბევრი ფული მყოლოდა, სოფელში სახლს ვიყიდი."
       ],
       "answer": "თუ ბევრი ფული მყოლოდა, მე სოფელში სახლს ვიყიდდი.",
-      "explanation": "Règle : pour une hypothèse contraire au présent en géorgien on utilise la კონდიციონალი passée avec « მყოლოდა » (si j’avais) et « იყიდდი » (j’achèterais). Explication des distracteurs : 1) « ყიდვა დავიწყებდი » signifie « je commencerais à acheter » et la forme verbale est maladroite ; 2) « მეყოლება ... ვიყიდი » met la condition au futur — décrit une possibilité, pas une hypothèse irréelle au présent ; 3) « მყოლია ... ვიყიდდი » mélange temps et aspects incorrectement (შედგენილი ფორმა mal placée). L’option correcte respecte la concordance hypothétique."
+      "explanation": "La condition irréelle emploie «მყოლოდა» («si j’avais») et «ვიყიდდი» («j’achèterais»)."
     },
     {
       "id": "grammar_exercises-c1-temps-gen-037",
@@ -1287,7 +1285,7 @@
         "მან თავის მეგობართან გაიკვალა.",
         "მან თავის მეგობარს დატოვა."
       ],
-      "answer": "მან თავის მეგობართან მიაკითხა.",
+      "answer": "მან თავის მეგობარს მიაკითხა.",
       "explanation": "Règle : მიაკითხა (მი- + კითხვა) est l'expression idiomatique pour «rendre visite». \"მან თავის მეგობართან მიაკითხა\" = elle a rendu visite à son ami. Distracteurs : \"მივიდა\" = «elle est allée» est grammatical mais neutre et n'exprime pas la nuance de visite comme მიაკითხა; \"გაიკვალა\" n'est pas correct ici (გაიკალდ- n'est pas verbe adapté); \"დატოვა\" = «a quitté/laisser» signifie le contraire ou séparation.",
       "cefr": "C1",
       "version": 16
@@ -1332,7 +1330,7 @@
         "მან შეხვედრა გააჩერა.",
         "მან შეხვედრა დატოვა."
       ],
-      "answer": "მან შეხვედრა შეაწყვიტა.",
+      "answer": "მან შეხვედრა შეწყვიტა.",
       "explanation": "Règle : შეაწყვეტინა est causatif/complex form indiquant qu'il a provoqué l'interruption (faire cesser). \"მან შეხვედრა შეაწყვეტინა\" = il a interrompu la réunion. Distracteurs : \"შეწყვიტა\" signifie «s'est arrêté/il a cessé» mais sans nuance causative (peut être intransitif); \"გააჩერა\" aussi signifie «arrêter», mais sans la nuance causative sociale et stylistique que cherche la phrase; \"დატოვა\" signifie «il a quitté la réunion», pas «il l'a interrompue».",
       "cefr": "C1",
       "version": 19
@@ -1973,8 +1971,6 @@
       "prompt": "იმ წიგნს ფურცლებზე სახელმძღვანელოს მიხედვით მოხსენიებული ლექსი დაიბეჭდა. როგორია სუსტი საკვანძო შეკითხვა: „ჩემი სახელით ის ... წავიკითხე“ — შესაბამისი მსაჯი (სუბიექტის შემდეგ) უნდა იყოს რაღაც ფორმით?",
       "options": [
         "ჩემი სახელით ის წავიკითხე",
-        "ჩემი სახელით ის წავიკითხა",
-        "ჩემი სახელით ის წავიკითხე",
         "ჩემი სახელით ის წავიკითხა"
       ],
       "answer": "ჩემი სახელით ის წავიკითხე",
@@ -2047,7 +2043,6 @@
       "category": "cas",
       "prompt": "ბუღალტერიაკომენტარში წერია: „ანგარიში სწორად თარგმნილია, მაგრამ პარამეტრები უნდა შეიმსუბუქოს ___ ინსპექტორმა.“ რომელია სწორი ფორმა სიტყვისთვის „ინსპექტორი“ თუ მოქმედება ასრულებს მომდევნო მასზე (სუბიექტი) წარსულში?",
       "options": [
-        "ინსპექტორმა",
         "ინსპექტორმა",
         "ინსპექტორი",
         "ინსპექტორის"
@@ -2289,7 +2284,6 @@
       "options": [
         "თანამედროვეება",
         "თანამედროვეობა",
-        "თანამედროვეობა",
         "თანამედროვეობა-ობა"
       ],
       "answer": "თანამედროვეობა",
@@ -2455,7 +2449,6 @@
       "prompt": "პუბლიკაციაში ყველა ავტორი დაასახელეს, საბოლოოდ კი არ გაიხსენა ___; დახმარება საჭიროათ — შეარჩიეთ ფორმა, რომლითაც სამოყვარულო ჯგუფის წევრები იქნება ნიშნული კანონის თანახმად.",
       "options": [
         "ავტორ-ები",
-        "ავტორები",
         "ავტორ-ონი",
         "ავტორებისნი"
       ],
@@ -2499,10 +2492,10 @@
       "version": 27,
       "prompt": "სასაუბრო ტექსტში სიტყვა 'ღვიძა' გადაიყოჩეს როგორც რეფლექსიის პროცესი; შესაბამისი აბსტრაქტული ფორმა მონიშნეთ.",
       "options": [
+        "ღვიძეობა",
         "ღვიძაობა",
-        "ღვიძებობა",
         "ღვიძობა",
-        "ღვიძაობა"
+        "ღვიძებობა"
       ],
       "answer": "ღვიძეობა",
       "explanation": "Erreur: deux options iguais et une forme inventée. Refaire. (Note: 'ღვიძა' meaning 'awakening' -> 'ღვიძეობა'?)"
@@ -2725,7 +2718,6 @@
       "prompt": "გთხოვთ, გამოასწოროთ შემდეგი წინადადება: \"მას სურს, რომ საზოგადოებასთან თანამშრომლობით მიაღწიოს მიზანს, რომელიც მნიშვნელოვანია მათთვის.\"",
       "options": [
         "მას სურს, რომ საზოგადოებასთან თანამშრომლობით მიაღწიოს მიზანს, რომელიც მნიშვნელოვანია მისთვის.",
-        "მას სურს, რომ საზოგადოებასთან თანამშრომლობით მიაღწიოს მიზანს, რომელიც მათთვის მნიშვნელოვანია.",
         "მას სურს, რომ საზოგადოებასთან თანამშრომლობით მიაღწიოს მიზანს, რომელიც მათთვის მნიშვნელოვანია.",
         "მას სურს, რომ საზოგადოებასთან თანამშრომლობით მიაღწიოს მიზანს, რომელიც მნიშვნელოვანი მათთვის არის."
       ],
@@ -2977,9 +2969,9 @@
       "category": "correction",
       "prompt": "გთხოვთ გამოასწოროთ არასწორი დამოკიდებული წინადადება, სადაც საჭიროა სწორი გულწრფელი ციტაციის არჩევა: \"მასწავლებელმა თქვა, რომ მოსწავლეები მზად არიან, სწავლა დაიწყო.\" აირჩიეთ ზუსტი ფორმა.",
       "options": [
-        "მასწავლებელმა თქვა, რომ მოსწავლეები მზად არიან სწავლა დაწყებისთვის.",
-        "მასწავლებელმა თქვა, რომ მოსწავლეები მზად იყვნენ სწავლა იწყოს.",
-        "მასწავლებელმა თქვა, რომ მოსწავლეები მზად არიან სწავლის დასაწყებად.",
+        "მასწავლებელმა თქვა, რომ მოსწავლეები მზად იყვნენ სწავლის დასაწყებად.",
+        "მასწავლებელმა თქვა, რომ მოსწავლეები მზად იყვნენ სწავლას დაიწყებდნენ.",
+        "მასწავლებელმა თქვა, რომ მოსწავლეები მზად იყვნენ სწავლა დაიწყონ.",
         "მასწავლებელმა თქვა, რომ მოსწავლეები მზად არიან სწავლა დაიწყონ."
       ],
       "answer": "მასწავლებელმა თქვა, რომ მოსწავლეები მზად იყვნენ სწავლა დაიწყონ.",

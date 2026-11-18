@@ -13,7 +13,7 @@
         "თუ ინტერნეტში ვიქნებოდი, მე მას გამოვუგზავნე.",
         "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნებ."
       ],
-      "answer": "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნებდი.",
+      "answer": "თუ ინტერნეტში ვიქნებოდი, მე მას გავუგზავნიდი.",
       "explanation": "La phrase est une hypothèse contraire au fait dans le passé (conditionnel irréel). En géorgien, on utilise «თუ ... ვიქნებოდი» + conditionnel passé/irréel «გავუგზავნებდი». Les distracteurs : «გავუგზავნე» et «გამოვუგზავნე» sont au passé simple (affirmatif) et ne conviennent pas pour un conditionnel irréel; «გავუგზავნებ» est futur simple et ne marque pas l'irréalité passée."
     },
     {
@@ -103,7 +103,7 @@
         "როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ კვირაში.",
         "როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ შაბათებსა და კვირებსა."
       ],
-      "answer": "როდესაც ვიყავი სტუდენტი, ვმუშახებდი ყოველ შაბათ-კვირას.",
+      "answer": "როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ შაბათ-კვირას.",
       "explanation": "Phrase voulant exprimer habitude passée: on s'attend à imparfait/habituel «ვმუშაობდი». La formulation correcte naturelle est «როდესაც ვიყავი სტუდენტი, ვმუშაობდი ყოველ შაბათ-კვირას.» Les distracteurs contiennent erreurs : la 1ère utilise «იყავ» forme incorrecte pour 'être' au passé; la 3e 'ყოველ კვირაში' est possible mais moins idiomatique pour weekend précis; la 4e 'ყოველ შაბათებსა და კვირებსა' est maladroite stylistiquement. (Remarque : ici on a choisi la variante la plus naturelle pour B2.)"
     },
     {
@@ -128,13 +128,13 @@
       "version": 9,
       "prompt": "Quelle phrase géorgienne exprime « Si j’obtiens ce poste, je déménagerai à Tbilissi » ?",
       "options": [
-        "თუ მივიღებ სამსახურს, გადავიწყობ თბილისად გადასვლას.",
-        "თუ მივიღებ სამსახურს, გადავდექი თბილისში.",
-        "თუ მივიღებ სამსახურს, მე გადავიდე თბილისი.",
-        "თუ მივიღებ სამსახურს, გადავამს სახლს თბილისში."
+        "თუ ამ სამსახურს მივიღებ, თბილისში გადავბარგდები.",
+        "თუ ამ სამსახურს მივიღებ, თბილისში გადავბარგდი.",
+        "თუ ამ სამსახურს მივიღებდი, თბილისში გადავბარგდები.",
+        "თუ ამ სამსახურს მივიღებ, თბილისში გადავბარგდებოდა."
       ],
-      "answer": "თუ მივიღებ სამსახურს, გადავიდე თბილისში.",
-      "explanation": "La structure conditionnelle réelle: 'თუ მივიღებ' (futur/présent avec valeur future) suivie du futur. La forme correcte pour « je déménagerai à Tbilissi » est incohérente dans l'exemple donné. Toutefois, la réponse choisie «თუ მივიღებ სამსახურს, გადავიდე თბილისში.» contient une erreur : la forme correcte aurait été différente. (Note: les distracteurs sont manifestement incorrects grammaticalement.)"
+      "answer": "თუ ამ სამსახურს მივიღებ, თბილისში გადავბარგდები.",
+      "explanation": "Pour une condition réelle tournée vers l’avenir, «თუ მივიღებ» est suivi du futur «გადავბარგდები» («je déménagerai»)."
     },
     {
       "id": "grammar_exercises-b2-temps-gen-010",
@@ -531,15 +531,16 @@
       "category": "suffixes",
       "cefr": "B2",
       "version": 6,
-      "prompt": "იმ ბავშვის ქცევის გამო მას მშობლებმა ___.",
+      "prompt": "ბავშვის ქცევის გამო მშობლებმა ის ___. (À cause du comportement de l’enfant, ses parents l’ont averti.)",
       "options": [
+        "გააფრთხილეს",
+        "გააფრთხილდნენ",
         "გაფრთხილება",
-        "გაფრთხილნენ",
-        "გაფრთხილება-მოძღვრა",
         "გაფრთხილებით"
       ],
-      "answer": "გაფრთხილდნენ",
-      "explanation": "Règle : la phrase nécessite un verbe au passé pluriel (les parents ont averti) → გააფრთხილეს/გაფრთხილდნენ selon voix; ici გაფრთხილნენ (ils ont averti) est correct. Distracteurs : გაფრთხილება = nom ('avertissement') ; გაფრთხილება-მოძღვრა = construction invalide ; გაფრთხილებით = instrumental ('avec avertissement'), non adapté."
+      "answer": "გააფრთხილეს",
+      "explanation": "«გააფრთხილეს» signifie «ils l’ont averti». «გაფრთხილება» est un nom («avertissement»).",
+      "question": "ბავშვის ქცევის გამო მშობლებმა ის ___. (À cause du comportement de l’enfant, ses parents l’ont averti.)"
     },
     {
       "id": "grammar_exercises-b2-suffixes-gen-007",
@@ -625,8 +626,7 @@
       "options": [
         "მას უკვე უთხარით, რომ არ მოდის შეხვედრაზე.",
         "მას უკვე უთხრა, რომ არ მოვიდოდა შეხვედრაზე.",
-        "მას უკვე უთხრეს, რომ არ მოვა შეხვედრაზე.",
-        "მას უკვე უთხრა, რომ არ მოვიდოდა შეხვედრაზე."
+        "მას უკვე უთხრეს, რომ არ მოვა შეხვედრაზე."
       ],
       "answer": "მას უკვე უთხრა, რომ არ მოვიდოდა შეხვედრაზე.",
       "explanation": "Règle : pour rapporter un discours au passé avec une proposition subordonnée exprimant un futur dans le passé, on emploie le conditionnel/ხელი‑წასული ფორმა «მოვიდოდა». La forme correcte est «უნდა უთხრეს/ უთხრა ... არ მოვიდოდა». Distracteurs : 1) «უტხარით» (deuxième personne pluriel) change le sujet; 2) «არ მოდის» reste au présent — discordant avec le verbe introducteur au passé; 3) «არ მოვა» est futur simple rapporté directement alors que le discours est au passé — on attend «მოვიდოდა»."
@@ -998,13 +998,13 @@
       "version": 27,
       "prompt": "Contexte : Tu décris une action qui aurait eu lieu si les circonstances avaient été différentes : «Si j'avais eu plus de temps, j'aurais appris le piano.» Quelle formulation en géorgien rend correctement le conditionnel passé ?",
       "options": [
-        "თუ უფრო მეტი დრო მექნებოდა, მეცწავლა ბლინდო.",
-        "თუ უფრო მეტი დრო მექნებოდა, ვისწავლიდი პიანინოს.",
-        "თუ უფრო მეტი დრო მქონდა, ვისწავლი პიანინოს.",
-        "თუ უფრო მეტი დრო მქონდეს, ვსწავლობ პიანინოს."
+        "თუ მეტი დრო მექნებოდა, პიანინოზე დაკვრას ვისწავლიდი.",
+        "თუ მეტი დრო მექნებოდა, პიანინოზე დაკვრას ვისწავლი.",
+        "თუ მეტი დრო მაქვს, პიანინოზე დაკვრას ვისწავლიდი.",
+        "თუ მეტი დრო მექნება, პიანინოზე დაკვრას ვისწავლი."
       ],
-      "answer": "თუ უფრო მეტი დრო მექნებოდა, საქმეს* ვისწავლიდი პიანინოს.",
-      "explanation": "Règle : (Remarque : l'énoncé original contient une erreur; correction et explication ci‑dessous.) En géorgien, le conditionnel hypothétique dans le passé utilise la forme რომ + conditionnel ou l’imparfait conditionnel (mecxvilda/ვისწავლიდი) avec პირობითი სწრაფი/მაღალმნიშვნელოვანი ფორმა. La formulation correcte est : თუ უფრო მეტი დრო მექნებოდა, მე ვისწავლიდი პიანინოს. Pourquoi les autres ne conviennent pas : 'თუ უფრო მეტი დრო მექნებოდა, მეცწავლა ბლინდო' contient un verbe incorrect ('მეცწავლა' n'est pas la forme conditionnelle souhaitée et 'ბლინდო' mot inapproprié), 'თუ უფრო მეტი დრო მქონდა, ვისწავლი პიანინოს' mélange un passé indicatif dans la condition et un futur dans la conséquence (incompatible pour conditionnel irréel), 'თუ უფრო მეტი დრო მქონდეს, ვსწავლობ პიანინოს' mélange subjonctif/présent et n'exprime pas l'irréel du passé."
+      "answer": "თუ მეტი დრო მექნებოდა, პიანინოზე დაკვრას ვისწავლიდი.",
+      "explanation": "L’hypothèse irréelle utilise «მექნებოდა» (j’aurais) et «ვისწავლიდი» (j’apprendrais). «პიანინოზე დაკვრა» signifie jouer du piano."
     },
     {
       "id": "grammar_exercises-b2-temps-gen-028",
@@ -1045,7 +1045,6 @@
       "options": [
         "ორი წელია ვსწავლობ ქართულს.",
         "ორი წელია ვისწავლე ქართული.",
-        "ორი წელია ვსწავლობდი ქართულს.",
         "ორი წელია ვსწავლობდი ქართულს."
       ],
       "answer": "ორი წელია ვსწავლობ ქართულს.",
@@ -1207,7 +1206,6 @@
       "prompt": "აირჩიეთ ვარიაცია, რომელიც სიტყვის „მან დაიწყო ლაპარაკი“ ზუსტ ქართულ გადმოცემას წარმოადგენს (მიუთითეთ სწორი წინსართი და ფორმა).",
       "options": [
         "მან დაიწყო ლაპარაკი.",
-        "მან დაიწყო ლაპარაკი.",
         "მან დაიწყო ლაპარაკი იყო.",
         "მან დაიწყო ლაპარაკი-ს."
       ],
@@ -1271,7 +1269,7 @@
         "მან ოფისში შესულა.",
         "მან ოფისიდან შეიჭრა."
       ],
-      "answer": "მან ოფისში შემოიჭრა.",
+      "answer": "მან ოფისში შეიჭრა.",
       "explanation": "Règle : შეუთავსებელია — ici le verbe précis pour une entrée violente est შეიჭრა ou შემოიჭრა. Le perfectif naturel est \"შემოიჭრა\" (la particule მოპREFIX მო- indique le mouvement vers l'intérieur). L'option \"შეიჭრა\" sans le préfixe მო- est moins standard pour indiquer direction vers l'intérieur ; \"შევიდა\" est neutre «est entré» sans implication de force ; \"შესულა\" est participe passé, pas le temps narratif principal ; \"ოფისიდან შეიჭრა\" signifierait «a fait irruption depuis l'office» (mauvaise direction). Par conséquent «მან ოფისში შემოიჭრა.» est correct.",
       "cefr": "B2",
       "version": 25
@@ -1584,9 +1582,9 @@
         "აღადგინეს",
         "გადადეს",
         "გააკეთეს",
-        "ჩაანაცვლა"
+        "ჩაანაცვლეს"
       ],
-      "answer": "ჩაანაცლა",
+      "answer": "ჩაანაცვლეს",
       "explanation": "Règle : ჩაანაცვლა (ჩა- + ნაცვლა) signifie 'remplacer par quelque chose'. Dans ce contexte, ils ont remplacé la partie défectueuse -> 'ჩაანაცვლა' est correct (forme aoriste/pretérite). Attention : l'option correcte doit figurer exactement; ici j'ai choisi 'ჩაანაცლა'. Distracteurs : 'აღადგინეს' = ont rétabli (possible mais n'indique pas le remplacement matériel). 'გადადეს' = ont reporté/déplacé, pas sens. 'გააკეთეს' = ont réparé; possible mais moins précis. Note : correction — l'option exacte fournie ci-dessus doit être présente ; ici l'option listée est 'ჩაანაცლა'.",
       "cefr": "B2",
       "version": 36
@@ -1768,7 +1766,7 @@
         "დახმარებას",
         "დახმარებით"
       ],
-      "answer": "დახმარება",
+      "answer": "დახმარების",
       "explanation": "Règle : L'énoncé en géorgien attend une forme indiquant «sans l'aide des collègues». Cet item est actuellement incohérent."
     },
     {
@@ -1914,9 +1912,7 @@
       "prompt": "შეკითხულის კონტექსტი: თვეში ერთხელ ირაკლი ხვდება ანას. როგორი ფორმა უნდა იყოს: \"მე მეგობარ(ე) მყავს ანასთან\"? (თქვენი მიზანია: \"მე ვარ ანასთან მეგობარი\" — გამოცხადება, რომ გაქვთ მეგობრობა ანასთან).",
       "options": [
         "მე მეგობარი ვარ ანასთან.",
-        "მე მეგობარი ვარ ანა.",
-        "მე მეგობარი ვარ ანასთან.",
-        "მე მეგობარი ვარ ანასთან."
+        "მე მეგობარი ვარ ანა."
       ],
       "answer": "მე მეგობარი ვარ ანასთან.",
       "explanation": "Règle : შეხვედრა/ურთიერთობის საშუალებისათვის და წინადადებაში «თან» იყენებს დატის ფორმას: «ანასთან» est la forme correcte («ანასთან» est aussi correcte phonétiquement, mais la norme actuelle exige liaisons : «ანა»→«ანასთან»). Ici «ანასთან» est la bonne option standardisée. Les distracteurs : «ანა» sans postposition ne dit pas «avec Ana» ; «ანასთან» orthographiquement ressemble à dative mais contient doublon d’apostrophe (en écrit géorg. correcte serait «ანასთან»), «ანასთან» retenue ; «ანასთან» (option 3) en fait pourrait être entendue comme acceptable oralement mais pour l’exercice standard on privilégie «ანასთან» comme forme unanime."
@@ -1945,8 +1941,7 @@
       "options": [
         "ჩვენ ვიმგზავრეთ მატარებლით.",
         "ჩვენ ვიმგზავრეთ მატარებელი.",
-        "ჩვენ ვიმგზავრეთ მატარებლისაგან.",
-        "ჩვენ ვიმგზავრეთ მატარებლით."
+        "ჩვენ ვიმგზავრეთ მატარებლისაგან."
       ],
       "answer": "ჩვენ ვიმგზავრეთ მატარებლით.",
       "explanation": "Règle : en géorgien, le moyen de transport s’exprime avec l’instrumental. « მატარებლით » signifie « en train ». La forme correcte est « მატარებლით ». « მატარებელი » est au nominatif et désigne le train comme sujet ; « მატარებლისაგან » indique une provenance. La réponse attendue est « ჩვენ ვიმგზავრეთ მატარებლით. »"
@@ -2106,10 +2101,10 @@
       "category": "suffixes",
       "prompt": "სწავლის პერიოდში ჩვენი ჯგუფი ხშირად ღია მეოთხე სართულზე ხვდებოდა და იქაურებს ___ ახარებდა.",
       "options": [
-        "სიხარულებს",
+        "სიხარულს",
         "სიხარულები",
         "სიხარული",
-        "სიხარულებმა"
+        "სიხარულმა"
       ],
       "answer": "სიხარულს",
       "explanation": "Règle : ici il faut l'accusatif singulier du substantif 'სიხარული' (« joie ») après le verbe 'ახარებდა' (il/elle rendait joyeux). La forme correcte est 'სიხარული' en nominatif singulier, mais en usage courant pour l'objet indirect on emploie la forme invariable; cependant la meilleure tournure géorgienne est 'სიხარული'. Les distracteurs : 'სიხარულებს' est le pluriel à l'accusatif (faits multiples), 'სიხარულები' est le pluriel nominatif (incorrect pour le contexte singulier collectif), 'სიხარულებმა' est le nominatif pluriel ergatif/agent (ne convient pas ici).",
@@ -2121,8 +2116,6 @@
       "category": "suffixes",
       "prompt": "ყურადღება მიაქციეთ: გამოცდაზე მხოლოდ გამოცდაზე რეგისტრებული ____ დაიშვებიან.",
       "options": [
-        "სტუდენტები",
-        "სტუდენტები",
         "სტუდენტები",
         "სტუდენტის"
       ],
@@ -2153,7 +2146,6 @@
       "options": [
         "ბიჭი",
         "ბიჭები",
-        "ბიჭები",
         "ბიჭიშვილები"
       ],
       "answer": "ბიჭი",
@@ -2167,7 +2159,6 @@
       "prompt": "პროექტის პრეზენტაციისთვის ხელმძღვანელმა ყველას დაავალა თავისთვის ერთი მცირე ___ მომზადება.",
       "options": [
         "რეფერატი",
-        "რეფერატები",
         "რეფერატები",
         "რეფერატების"
       ],
@@ -2198,7 +2189,6 @@
       "options": [
         "დოკუმენტი",
         "დოკუმენტები",
-        "დოკუმენტები",
         "დოკუმენტების"
       ],
       "answer": "დოკუმენტები",
@@ -2216,7 +2206,7 @@
         "ფინანსური",
         "ფინანსებმა"
       ],
-      "answer": "ფინასები",
+      "answer": "ფინანსები",
       "explanation": "Règle : la phrase requiert un nom pluriel 'les fonds/argent' ; la forme correcte en géorgien est 'ფინანსები' (pluriel nominatif de 'ფინანსი'). 'ფინანსი' singulier est inapproprié, 'ფინანსური' est un adjectif ('financier'), 'ფინანსებმა' est nominatif pluriel ergatif-agent marqué qui changerait la construction de la phrase. (Remarque: 'ფინასები' est une faute — la forme correcte est 'ფინანსები'.)",
       "cefr": "B2",
       "version": 28
@@ -2226,10 +2216,10 @@
       "category": "suffixes",
       "prompt": "კამპანიამ მიიღო სამი ძირითადი _ , რომელთა შესრულებაც მნიშვნელოვანია წლის ბოლოსთვის.",
       "options": [
+        "სამიზნე",
         "სამიზნო",
-        "სამიზნები",
-        "სამიზნები",
-        "სამიზნის"
+        "სამიზნის",
+        "სამიზნეები"
       ],
       "answer": "სამიზნე",
       "explanation": "Règle : après le numéral 'სამი', on utilise la forme nominative singulière 'სამიზნე' : 'სამი სამიზნე'. 'სამიზნები' au pluriel est redondant après le chiffre. 'სამიზნის' est le génitif singulier. Les formes répétées ou incorrectes ne conviennent pas.",
@@ -2559,7 +2549,6 @@
       "prompt": "მოგახსენებთ: მოგვწერეთ შეცვლილი წინადადება, რომ გაუმჯობესდეს წინადადების გრამატიკა.\nმცირე ტექსტი: \"ვფიქრობ, რომ ის ქახავა ეზოში სეირნობს\" — მოხსენებაა გაურკვეველი. შეარჩიეთ სწორი ფორმულირება.",
       "options": [
         "ვფიქრობ, რომ ის ქალია ეზოში სეირნობს.",
-        "ვფიქრობ, რომ ის ქალია ეზოში სეირნობს.",
         "ვფიქრობ, რომ ის ქალი ეზოში სეირნობს.",
         "ვფიქრობ, რომ ის ქალი ეზობს სეირნობს."
       ],
@@ -2604,9 +2593,7 @@
       "prompt": "სტატუსი: \"ჩვენ წავიდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს\" — გრამატიკული სახის შეცვლა არის საჭირო (აღების და პირი). აირჩიეთ სწორი წინადადება.",
       "options": [
         "ჩვენ წავიდოდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს.",
-        "ჩვენ წავიდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს.",
-        "ჩვენ წავიდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს.",
-        "ჩვენ წავიდოდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს."
+        "ჩვენ წავიდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს."
       ],
       "answer": "ჩვენ წავიდოდეთ საყიდლებზე, თუ ვაკონტროლებთ ბიუჯეტს.",
       "explanation": "Règle : pour exprimer une action potentielle ou souhaitée du groupe nous, on utilise la forme optative/conditonnelle 'წავიდოდეთ'. Les distracteurs 2 et 3 répètent la forme incorrecte 'წავიდეთ' (impératif ou subjonctif mal appliqué) ; 4 est une répétition du premier mais l'exactitude syntaxique doit être unique ; la forme correcte et grammaticalement naturelle est 'ჩვენ წავიდოდეთ ...' (voire 'წავალთ' pour futur certain)."
@@ -2888,12 +2875,12 @@
       "version": 33,
       "prompt": "თარგმნეთ და სწორად ჩამოაყალიბეთ: «Nous avions dit que tu viendrais avant midi, mais tu es arrivé après.» Quelle formulation géorgienne est correcte ?",
       "options": [
-        "ჩვენ ვთქვით, რომ შენ მოხვიდოდი პოლდ შუაზე, მაგრამ შენ მოხვედი გვიანიდან.",
-        "ჩვენ ვთქვით, რომ შენ მოხვიდოდი შუადღისამდეც, მაგრამ შენ მოვიდინე გვიან.",
-        "ჩვენ ვუთხარით, რომ შენ მოვიდოდი შუადღის წინ, მაგრამ შენ გვიან მოხვედი.",
-        "ჩვენ გვითხრეს, რომ შენ მოხვიდოდი შუადღეზე, მაგრამ შენ გვიან მოვდექი."
+        "ჩვენ ვუთხარით, რომ შენ მოხვიდოდი შუადღემდე, მაგრამ შენ გვიან მოხვედი.",
+        "ჩვენ ვუთხარით, რომ შენ მოხვედი შუადღემდე, მაგრამ შენ გვიან მოხვიდოდი.",
+        "ჩვენ გითხარით, რომ ის მოხვიდოდი შუადღემდე, მაგრამ ის გვიან მოხვედი.",
+        "ჩვენ ვუთხარით, რომ შენ მოხვიდოდი შუადღემდე, მაგრამ შენ ადრე მოხვედი."
       ],
-      "answer": "ჩვენ ვუთხარით, რომ შენ მოვიდოდი შუადღის წინ, მაგრამ შენ გვიან მოხვდი.",
+      "answer": "ჩვენ ვუთხარით, რომ შენ მოხვიდოდი შუადღემდე, მაგრამ შენ გვიან მოხვედი.",
       "explanation": "Règle : traduction correcte du passé composé/plus-que-parfait français par le passé dans la subordonnée conditionnelle (მოვიდოდი) et du passé simple/passé composé (მოხვედი/მოსული) ; « შუადღის წინ » correspond à « avant midi », et « გვიან მოხვდი » = « tu es arrivé après (tard) ». Les distracteurs : la première contient erreurs lexicale (« პოლდ » inexistant, « გვიანიდან » incorrect) ; la deuxième a formes verbales erronées (« მოვიდინე » n'existe pas) ; la quatrième mélange voix et personne (« გვითხრეს » à la 3e pers. et « მოვდექი » 1re pers.), donc incohérent."
     },
     {
@@ -2933,10 +2920,10 @@
       "version": 36,
       "prompt": "Corrigez l'accord possessif et la construction: « მისი იდეა გამოაშკარავდა მეგობრებთან ყველას შორის. » Quelle option est correcte ?",
       "options": [
+        "მისი იდეა გამოირჩეოდა ყველა მეგობრის შორის.",
+        "მისი იდეა ყველას შორის გამოირჩეოდა მეგობრებთან.",
         "მისი იდეა გამოაშკარავდა ყველა მეგობრის შორის.",
-        "მისი იდეა გამოაშკარავდა მეგობრებს შორის ყველას.",
-        "მისი იდეა გამოაშკარავდა ყველას შორის მეგობრებთან.",
-        "მისი იდეა გამოაშკარავდა ყველას მეგობრებთან შორის."
+        "მისი იდეა მეგობრებს შორის ყველას გამოაშკარავდა."
       ],
       "answer": "მისი იდეა გამოირჩეოდა ყველა მეგობრის შორის.",
       "explanation": "Règle : l'expression correcte pour « parmi tous les amis » est « ყველას შორის » ou « ყველა მეგობარს შორის » (génitif). Cependant ici la formulation la plus naturelle est « მისი იდეა გამოაშკარავდა ყველა მეგობრის შორის. » (l'idée s'est révélée parmi tous les amis). Les distracteurs : la deuxième est mal ordonnée et grammaticalement incorrecte ; la troisième mélange « ყველას შორის მეგობრებთან » redondant ; la quatrième « ყველას მეგობრებთან შორის » est ambiguë et moins idiomatique. (Remarque : pour cohérence stylistique, on peut aussi dire « მისი იდეა გამოაშკარავდა ყველას შორის ».)"
@@ -2948,10 +2935,10 @@
       "version": 37,
       "prompt": "შეარჩიეთ სჯობს ფორმა კრიტიკის გამოთქმისთვის: „მე მიბრაზს, როცა ადამიანები საუბარი თუ არ მოესმინათ.“",
       "options": [
-        "მე მებრაზება, როცა ადამიანები არ უსმენენ საუბარს.",
-        "მე მბრაზდება, როცა ადამიანები საუბარი არ მოუსმენენ.",
-        "მე მიხარებს, როცა ადამიანები საუბარი არ უსმენენ.",
-        "მე მბრაზდება, როცა ადამიანები საუბარს არ უსმენენ."
+        "მე მებრაზება, როცა ადამიანები საუბარს არ უსმენენ.",
+        "მე მებრაზება, როცა ადამიანები საუბარს უსმენენ.",
+        "მე მიხარია, როცა ადამიანები საუბარს არ უსმენენ.",
+        "მე მებრაზება, როცა ადამიანებს საუბარი არ ესმით."
       ],
       "answer": "მე მებრაზება, როცა ადამიანები საუბარს არ უსმენენ.",
       "explanation": "Règle : le verbe « ბრაზდება » variante « მებრაზება » s'emploie impersonnellement pour 'ça me met en colère'. L'objet « საუბარი » prend la marque accusative « საუბარს » après « უსმენენ ». Les distracteurs : la deuxième utilise « მოუსმენენ » (aoriste de 'écouter à quelqu'un' malformé ici) ; la troisième change le sens en 'je suis content' (მიხარებს) — incorrect par rapport au sens donné ; la quatrième a bonne concordance verbale mais la forme courante pour 'ça m'énerve' est « მებრაზება » plutôt que « მბრაზდება » (celle-ci existe mais est moins idiomatique dans cette construction)."

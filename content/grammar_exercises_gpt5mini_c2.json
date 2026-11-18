@@ -128,7 +128,6 @@
       "options": [
         "შეიძლება ის მალე სამსახურს დაემშვიდობოს.",
         "შეიძლება ის მალე სამსახურს დაემშვიდობებოდა.",
-        "შეიძლება ის მალე სამსახურს დაემშვიდობა.",
         "შეიძლება ის მალე სამსახურს დაემშვიდობა."
       ],
       "answer": "შეიძლება ის მალე სამსახურს დაემშვიდობოს.",
@@ -310,8 +309,7 @@
       "options": [
         "გუშინ მამამ მე წიგნი მომცა.",
         "გუშინ მამა მე წიგნი მომცა.",
-        "გუშინ მამამ მე წიგნი მომცე.",
-        "გუშინ მამა-მე წიგნი მომცა."
+        "გუშინ მამამ მე წიგნი მომცე."
       ],
       "answer": "გუშინ მამამ მე წიგნი მომცა.",
       "explanation": "Règle : au passé pour les verbes transitifs en géorgien, le sujet porte la terminaison ergative -მა (ici მამა → მამამ). « გუშინ მამამ მე წიგნი მომცა. » est grammaticalement exacte. Distracteurs : « მამა » (sans -მა) ne marque pas l'ergatif et rend la construction incorrecte pour le passé transitif ; « მოგვცე » est une forme de subjonctif/impératif, pas du passé ; « მამა-მე » est une segmentation incorrecte et morphologiquement impossible."
@@ -325,7 +323,6 @@
       "options": [
         "ქარი გამოიკეტა ღილიდან.",
         "ქარით გამოიკეტა ღილიდან.",
-        "ქარი-თ გამოიკეტა ღილიდან.",
         "ქარის გამოიკეტა ღილიდან."
       ],
       "answer": "ქარით გამოიკეტა ღილიდან.",
@@ -413,13 +410,13 @@
       "version": 8,
       "prompt": "Choisissez la forme correcte pour « Sans ton aide, je n'aurais pas réussi » (utilisez la construction équivalente en géorgien avec l'instrumental) :",
       "options": [
-        "შენ გარეშე მე ვერ ვიხერხებდი.",
-        "შენთან გარეშე ვერ ვსაჭირი.",
-        "შენი დახმარების გარეშე ვერ ვგაგრძელებდი.",
-        "შენი დახმარების გარეშე მე ვერ გავხდი წარმატებული."
+        "შენი დახმარების გარეშე წარმატებას ვერ მივაღწევდი.",
+        "შენი დახმარებით წარმატებას ვერ მივაღწევდი.",
+        "შენი დახმარების გარეშე წარმატებას მივაღწევდი.",
+        "შენი დახმარების გამო წარმატებას ვერ მივაღწევდი."
       ],
-      "answer": "შენი დახმარების გარეშე ვერ გავხდი წარმატებული.",
-      "explanation": "Règle : « sans » se rend par დახმარების გარეშე (génitif + გარეშე) pour exprimer « sans ton aide ». La phrase correcte « შენი დახმარების გარეშე ვერ გავხდი წარმატებული. » signifie « Sans ton aide, je n'aurais pas réussi. » Distracteurs : « შენ გარეშე მე ვერ ვიხერხებდი. » est maladroit et manque de précision morphologique ; « შენთან გარეშე » est incorrect morphologiquement ; « შენი დახმარების გარეშე ვერ ვგაგრძელებდი. » utilise ვგაგრძელებდი (je continuerais) qui change le sens/temps et reste moins idiomatique pour « je n'aurais pas réussi »."
+      "answer": "შენი დახმარების გარეშე წარმატებას ვერ მივაღწევდი.",
+      "explanation": "«შენი დახმარების გარეშე» signifie «sans ton aide» ; «წარმატებას ვერ მივაღწევდი» signifie «je n’aurais pas réussi»."
     },
     {
       "id": "grammar_exercises-c2-cas-gen-009",
@@ -516,15 +513,16 @@
       "category": "suffixes",
       "cefr": "C2",
       "version": 5,
-      "prompt": "გრამატიკური შერჩევა: ეკონომისტი წერს: „ინვესტორების ნდობის აღდგენა დამოკიდებულია ლიკვიდურობით და ბაზრის გამჭვირვალე წეს___.“ Quelle terminaison finale pour « règles » convient ici (« règles du marché ») ?",
+      "prompt": "Complétez : «ბაზრის გამჭვირვალე წეს___» («les règles transparentes du marché»).",
       "options": [
-        "ობა",
-        "ები",
-        "ობას",
-        "ების"
+        "წესზე",
+        "წესები",
+        "წესებს",
+        "წესებზე"
       ],
-      "answer": "ობაზე",
-      "explanation": "Règle : pour dire « les règles du marché » au sens « règles concernant le marché », on met le nom « წესი » (règle) au pluriel « წესები » puis la postposition -ზე pour « concernant » → წესებზე. Comme la locution « ბაზრის წესებზე » est correcte. Dans les options proposées, «ობაზე» (base + -ზე) est la forme appropriée. Pourquoi les distracteurs sont incorrects : « ობა » n'est pas une forme correcte ici ; « ები » serait simplement le pluriel sans la nuance « concernant » ; «ობას » serait un génitif singulier abstrait (suffixe -ობა) et ne convient pas."
+      "answer": "წესებზე",
+      "explanation": "La postposition «-ზე» s’ajoute à la forme plurielle «წესები», donnant «წესებზე».",
+      "question": "Complétez : «ბაზრის გამჭვირვალე წეს___» («les règles transparentes du marché»)."
     },
     {
       "id": "grammar_exercises-c2-suffixes-gen-006",
@@ -580,8 +578,7 @@
       "options": [
         "სა, ები",
         "ები, ები",
-        "ებ, ები",
-        "ები, ები"
+        "ებ, ები"
       ],
       "answer": "ები, ები",
       "explanation": "Règle : les substantifs სტანდარტი et წესი forment leur pluriel courant avec le suffixe -ები → სტანდარტები, წესები. Dans l'expression donnée, les deux doivent être au nominatif pluriel pour être les sujets/objets de « შეესაბამებოდეს » et « გამოყენებულ »; la paire correcte est donc « ები, ები ». Pourquoi les autres distracteurs sont incorrects : « სა » n'est pas la terminaison plurielle ; « მებ » n'existe pas ; « ები » en deuxième position est correct mais le premier choix dans d'autres options ne l'est pas ; seule la paire « ები, ები » donne les deux pluriels corrects."
@@ -621,13 +618,13 @@
       "category": "correction",
       "prompt": "Quelle phrase est grammaticalement correcte et de registre approprié pour dire « Le livre que les étudiants ont lu le semestre dernier s’est révélé difficile » ?",
       "options": [
-        "წიგნი, რომელსაც სტუდენტები წაიკითხეს წინა სემესტრში, რთული გამოჩნდა.",
-        "წიგნი, რასაც სტუდენტებმა წინა სემესტრში კითხეს, რთული აღმოჩნდა.",
-        "წიგნი, რომელსაც სტუდენტებმა წაკითხეს წინა სემესტრში, რთული აღმოჩნდა.",
-        "წიგნი, რასაც სტუდენტები წაკითხა წინა სემესტრში, რთული გამოჩნდა."
+        "წიგნი, რომელიც სტუდენტებმა წაიკითხეს წინა სემესტრში, რთული აღმოჩნდა.",
+        "წიგნი, რომელსაც სტუდენტებმა წაიკითხეს წინა სემესტრში, რთული აღმოჩნდა.",
+        "წიგნი, რომელიც სტუდენტებმა წაიკითხა წინა სემესტრში, რთული აღმოჩნდა.",
+        "წიგნი, რასაც სტუდენტები წაიკითხეს წინა სემესტრში, რთული გამოჩნდა."
       ],
-      "answer": "წიგნი, რომელიც სტუდენტებმა წაკითხეს წინა სემესტრში, რთული აღმოჩნდა.",
-      "explanation": "La forme correcte est «წიგნი, რომელიც სტუდენტებმა წაკითხეს წინა სემესტრში, რთული აღმოჩნდა.» En géorgien standard contemporain, le pronom relatif pour objets directs est souvent «რომელი/რომელსაც/რომლის» en combinaison selon la construction, mais la formulation la plus naturelle et grammaticalement correcte ici est «რომელი» fusionnée en «რომელიც/რომელიღაც» — toutefois l'option correcte emploie «რომელი» simplifiée en «რომელი» transformée en «რომელიც» contracté courant «რომელი→რომელ» ; l'essentiel est l'accord du verbe et du cas: «სტუდენტებმა» (agent, marque ergatif-like avec -მა) et «წაკითხეს» (forme passée plurielle) se combinent correctement. Les distracteurs présentent des erreurs : 1) «რასაც» est sujetif incorrect pour cette construction ; 2) l'ordre et les terminaisons «სტუდენტებმა ... კითხეს» sont incorrects (le verbe et l'auxiliaire mal accordés) ; 3) «სტუდენტები ... წაკითხა» mélange nombre et terminaison verbale incorrectement.",
+      "answer": "წიგნი, რომელიც სტუდენტებმა წაიკითხეს წინა სემესტრში, რთული აღმოჩნდა.",
+      "explanation": "«რომელიც» reprend «წიგნი» et «წაიკითხეს» s’accorde avec «სტუდენტებმა» au pluriel.",
       "cefr": "C2",
       "version": 2
     },
@@ -636,13 +633,13 @@
       "category": "correction",
       "prompt": "Quelle phrase exprime correctement « Si j’avais été au courant de la réunion, j’y aurais participé » ?",
       "options": [
-        "ვინაიდან ვიცოდი შეხვედრის შესახებ, მივდიოდი.",
-        "თუ შეხვედრის შესახებ დამეშვებოდა, მივსულობდი.",
-        "კარგად ვიცოდე შეხვედრის შესახებ, მივიდოდი.",
-        "რავს იცოდე შეხვედრის შესახებ, წავალდი."
+        "შეხვედრის შესახებ რომ მცოდნოდა, დავესწრებოდი.",
+        "შეხვედრის შესახებ რომ ვიცოდი, დავესწრები.",
+        "შეხვედრის შესახებ რომ მცოდნოდა, დავესწრები.",
+        "შეხვედრის შესახებ რომ მცოდნოდა, არ დავესწრებოდი."
       ],
-      "answer": "თუ შეხვედრის შესახებ დამეცოდით, ვიქნებოდი მისული.",
-      "explanation": "L'explication suivante en français : (Remarque : l'option correcte attendue doit employer la construction conditionnelle irréelle en géorgien moderne; toutefois aucune des options proposées précédemment n'était exacte. La forme correcte serait par exemple «თუ შეხვედრის შესახებ ადრე ვიცოდე(დი)/მეცოდინებოდა, მოვიდოდი» — la règle impose l'usage du conditionnel passé/irréel avec le verbe à la forme converbiale ou au conditionnel. Les distracteurs contiennent des formes non grammaticales ou des temps inappropriés.)",
+      "answer": "შეხვედრის შესახებ რომ მცოდნოდა, დავესწრებოდი.",
+      "explanation": "«რომ მცოდნოდა» marque la condition irréelle passée («si j’avais su») et «დავესწრებოდი» signifie «j’y aurais assisté».",
       "cefr": "C2",
       "version": 3
     },
@@ -666,10 +663,10 @@
       "category": "correction",
       "prompt": "Quelle est la phrase correcte pour dire : «Malgré ses objections, le comité a approuvé la proposition» ?",
       "options": [
-        "მისი პრეტენზიების მიუხედავად, კომიტეტმა წინადადებას დაუჭირა მხარი.",
-        "მისი პრეტენზიების მიუხედავად, კომიტეტმა წინადადებას დაუჭირა მხარი.",
-        "ისინი პრეტენზიების მიუხედავად, კომიტეტმა წინადადებას მხარი დაუჭირა.",
-        "მისი პრეტენზიების გამო, კომიტეტმა წინადადება დაამტკიცა ყველაფერ."
+        "მისი პრეტენზიების მიუხედავად, კომიტეტმა წინადადებას მხარი დაუჭირა.",
+        "მისი პრეტენზიების გამო, კომიტეტმა წინადადებას მხარი დაუჭირა.",
+        "მისი პრეტენზიების მიუხედავად, კომიტეტმა წინადადება უარყო.",
+        "მისი პრეტენზიების გამო, კომიტეტმა წინადადება უარყო."
       ],
       "answer": "მისი პრეტენზიების მიუხედავად, კომიტეტმა წინადადებას მხარი დაუჭირა.",
       "explanation": "La formulation correcte et idiomatique est «მისი პრეტენზიების მიუხედავად, კომიტეტმა წინადადებას მხარი დაუჭირა.» «Despite» se rend par «... მიუხედავად», et «to approve a proposal» = «წინადადებას მხარი დაუჭირა». Les distracteurs : 1) répète une variante identique (duplication stylistique non souhaitée), 3) commence par «ისინი» (ils) qui change le sens; 4) «მისი პრეტენზიების გამო» signifie «à cause de ses objections», pas «malgré», et «დამტკიცა ყველაფერ» est non idiomatique et grammaticalement incorrect.",
@@ -1176,13 +1173,13 @@
       "category": "temps",
       "prompt": "Contexte : «Pour demain à midi, il aura déjà envoyé toutes les invitations.» Quelle formulation rend correctement l'idée qu'à un point futur les invitations seront envoyées (futur antérieur) ?",
       "options": [
-        "ხვალ შუადღეს მან ყველა მოწვევა გაუგზავნის.",
-        "ხვალ შუადღეს მან ყველა მოწვევა უკვე გაუგზავნია.",
-        "ხვალ შუადღეს მან ყველა მოწვევა უკვე იქნება გაგზავნილი.",
-        "ხვალ შუადღეს მან ყველა მოწვევა უკვე აგზავნოს."
+        "ხვალ შუადღეს ყველა მოწვევა უკვე გაიგზავნება.",
+        "ხვალ შუადღეს ყველა მოწვევა უკვე გაგზავნილია.",
+        "ხვალ შუადღეს ყველა მოწვევა უკვე გაგზავნილი იქნება.",
+        "ხვალ შუადღეს ყველა მოწვევას უკვე გაგზავნის."
       ],
-      "answer": "ხვალ შუადღეს მან ყველა მოწვევა უკვე იქნებაგზავნილი იქნება.",
-      "explanation": "Règle : (Correction et précision) La forme correcte pour le futur antérieur en géorgien est le participe passif/adjectival + აქვს/ექნება selon le temps ; pour exprimer «il aura envoyé», on utilise normalement la forme active avec participle + ექნება si on veut l'état: «მიაქვთ გაგზავნილი ექნება» ou la construction active «გაუგზავნია» n'est pas future. Toutefois, parmi les options proposées, aucune n'était correctement formulée ; la forme correcte attendue était : \"ხვალ შუადღეს მან ყველა მოწვევა უკვე გაგზავნილი ექნება.\" Cette phrase utilise le participe (გაგზავნილი) + ექნება pour marquer l'accompli au futur. Pourquoi les distracteurs sont faux : 1) «გაუგზავნის» est futur simple (enverra) mais ne souligne pas que ce sera déjà fait à midi ; 2) «უკვე გაუგზავნია» est passé composé/aoriste (il a déjà envoyé) et non futur ; 4) «აგზავნოს» est subjonctif/optatif, inapproprié pour une affirmation de futur accompli.",
+      "answer": "ხვალ შუადღეს ყველა მოწვევა უკვე გაგზავნილი იქნება.",
+      "explanation": "«გაგზავნილი იქნება» exprime l’état accompli à un moment futur : les invitations auront déjà été envoyées.",
       "cefr": "C2",
       "version": 39
     },
@@ -1378,7 +1375,7 @@
         "მან წიგნი ჩამოიყვანა.",
         "მან წიგნი გადმოატანა."
       ],
-      "answer": "მან წიგნი ჩამოიწია.",
+      "answer": "მან წიგნი ჩამოწია.",
       "explanation": "La forme attendue est « ჩამოწია » : il a fait descendre le livre depuis un emplacement en hauteur. Les autres propositions ne décrivent pas ce mouvement vers le bas ou ne conviennent pas à la phrase."
     },
     {
@@ -1656,7 +1653,6 @@
       "category": "cas",
       "prompt": "თაროზე ახალი რომანი დევს. მე გავიტანე ის შენითვის — როგორ უნდა დავთქვა «მე წავუტანე ნუმშეს წიგნი» ქართულად (ნებისმიერი შეკითხვა ხაზგასმით: ქვეპასუხი მიმართულია მეგობრის მისამართით)?",
       "options": [
-        "მე მოგიტანე შენი წიგნი.",
         "მე მოგიტანე შენი წიგნი.",
         "მე გიტანე შენი წიგნი.",
         "მე გაგიტანე შენი წიგნი."
@@ -2198,10 +2194,10 @@
       "version": 17,
       "prompt": "ფილოსოფიურმა დისკუსიებმა ახალი სახელმძღვანელოს ___ მნიშვნელობა დაადგინა სიახლეების კონტექსტში.",
       "options": [
-        "მნიშნელობა",
+        "მნიშვნელობა",
         "მნიშვნელობის",
         "მნიშვნელობას",
-        "მნიშვნელომ"
+        "მნიშვნელობამ"
       ],
       "answer": "მნიშვნელობა",
       "explanation": "Règle : la construction demande le nominatif singulier «მნიშვნელობა» comme thème discuté («დაადგინა მნიშვნელობა» = a déterminé la valeur/sens). «მნიშვნელობის» (génitif) conviendrait pour une construction possessive, «მნიშვნელობას» (datif/objectif) serait utilisé si le verbe exigeait un datif («მნიშვნელობას მივაწერ»), et «მნიშვნელომ» (nominatif avec suffixe -მა agentif) change la nuance; aucune de ces formes n’est adaptée ici."
@@ -2543,7 +2539,6 @@
       "options": [
         "მეცნიერება",
         "მეცნიერობა",
-        "მეცნიერება",
         "მეცნიერიება"
       ],
       "answer": "მეცნიერება",
@@ -2557,9 +2552,7 @@
       "prompt": "შეარჩიეთ წინადადებიდან ის, რომელიც სრულად დააკორექტებს შეცდომით გამოთქმულ გაგონებას: \"ისეთი შთაბეჭდილება დარჩა, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანმა საკითხმა ჩაითვალა და პასუხი არ გასცეს.\"",
       "options": [
         "შეექმნა შთაბეჭდილება, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანი საკითხი ჩაითვალა და პასუხი არ გასცა.",
-        "შექმნიდა შთაბეჭდილება, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანი საკითხი ჩაითვალა და პასუხი არ გასცა.",
-        "შეექმნა შთაბეჭდილება, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანი საკითხი ჩაითვალა და პასუხი არ გასცა.",
-        "შეექმნა შთაბეჭდილება, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანი საკითხი ჩაითვალა და პასუხი არ გასცა."
+        "შექმნიდა შთაბეჭდილება, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანი საკითხი ჩაითვალა და პასუხი არ გასცა."
       ],
       "answer": "შეექმნა შთაბეჭდილება, თითქოს შეხვედრაზე ყველაზე მნიშვნელოვანი საკითხი ჩაითვალა და პასუხი არ გასცა.",
       "explanation": "Règle : le verbe \"ჩაითვალა\" est passif/formatif du verbe \"თვლა\" mais ici le sujet est არ مشخص ; on utilise la tournure impersonnelle \"ჩაითვალა\" (« fut considéré ») et l’accord temporel: \"შეექმნა შთაბეჭდილება\" (passé simple/perfectif) + \"და პასუხი არ გასცა\" (troisième personne singulier masculin/féminin inanimé = \"n'a pas été donné\" littéralement \"did not give an answer\"). Les distracteurs : premier et deuxième utilisent \"ჩაითვალა\" (actif) qui exige un sujet agent; deuxième emploie imparfait \"შექმნიდა\" inapproprié au contexte marqué; quatrième est une répétition identique au troisième (duplication) mais la forme correcte est celle donnée comme réponse (la quatrième est identique au troisième cependant nous nions cette option par souci d'unicité).",
@@ -2723,7 +2716,6 @@
       "options": [
         "ის ცდილობს მას დაეხმაროს.",
         "ის ცდილობს მას ეხმარება.",
-        "ის ცდილობს, მას დაეხმაროს.",
         "ის ცდილობს დახმარდეს მას."
       ],
       "answer": "ის ცდილობს მას დაეხმაროს.",
@@ -2873,13 +2865,13 @@
       "version": 32,
       "prompt": "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოაქვეყნებენ შაბათს. იპოვნეთ სწორი გრამატიკული გამოსასწორებელი.",
       "options": [
-        "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოაქვეყნებოდა შაბათს.",
-        "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოაქვეყნებენ შაბათს.",
-        "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოაქვეყნებოდნენ შაბათს.",
+        "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოქვეყნდებოდა შაბათს.",
+        "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოქვეყნდება შაბათს.",
+        "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოქვეყნებოდნენ შაბათს.",
         "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოაქვეყნებდა შაბათს."
       ],
-      "answer": "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოაქვეყნდებოდა შაბათს.",
-      "explanation": "Règle : le discours indirect au passé exige l'usage d'un temps passé ou imparfait approprié en géorgien. Avec «განუცხადა» (il/elle a déclaré), la forme passive/imparfaite attendue est «გამოაქვეყნებოდა». L'option 2 conserve un présent/futur direct incompatible ; l'option 3 emploie une forme plurielle inappropriée pour la voix médiale ; l'option 4 utilise une forme singulière non adaptée. Donc seule l'option 1 est correcte."
+      "answer": "პროფესორმა მოსწავლეებს განუცხადა, რომ გამოცდის შედეგები გამოქვეყნდებოდა შაბათს.",
+      "explanation": "Dans le discours indirect au passé, le futur dans le passé s’exprime ici par «გამოქვეყნდებოდა» («seraient publiés»)."
     },
     {
       "id": "grammar_exercises-c2-correction-gen-033",
@@ -2918,13 +2910,13 @@
       "version": 35,
       "prompt": "რეკლამამ განაცხადა, რომ პროდუქტი მომხმარებელს შეუწყობდა ხელს უფრო ეფექტურად დაგეგმვაში. მონიშნეთ გრამატიკულად სწორო ფორმა.",
       "options": [
-        "...პროდუქტი მომხმარებლებს ხელს შეუწყობდა უფრო ეფექტურად დაგეგმვაში.",
-        "...პროდუქტი მომხმარებელს მიეხმარებოდა უფრო ეფექტურად დაგეგმვაში.",
-        "...პროდუქტი მომხმარებლებს ეხმარებოდა უფრო ეფექტურად დაგეგმვაში.",
-        "...პროდუქტი მომხმარებელს ხელს შეუწყობს უფრო ეფექტურად დაგეგმვაში."
+        "...პროდუქტი მომხმარებლებს უფრო ეფექტურად დაგეგმვაში დაეხმარებოდა.",
+        "...პროდუქტი მომხმარებლებს უფრო ეფექტურად დაგეგმვაში დაეხმარა.",
+        "...პროდუქტი მომხმარებლებს უფრო ეფექტურად დაგეგმვაში ეხმარება.",
+        "...პროდუქტი მომხმარებლებს უფრო ეფექტურად დაგეგმვაში დაეხმარება."
       ],
-      "answer": "...პროდუქტი მომხმარებლებს დაეხმარებოდა უფრო-effectურად დაგეგმვაში.",
-      "explanation": "Règle : dans une proposition conditionnelle/publicitaire, on privilégie la forme conditionnelle avec le datif. La tournure correcte est : «პროდუქტი მომხმარებლებს დაეხმარებოდა უფრო ეფექტურად დაგეგმვაში.» («მომხმარებლებს» au datif et «დაეხმარებოდა» conditionnel). Les distracteurs modifient le registre (par ex. «ხელს შეუწყობს») ou la modalité (présent au lieu du conditionnel), ce qui change l'intention."
+      "answer": "...პროდუქტი მომხმარებლებს უფრო ეფექტურად დაგეგმვაში დაეხმარებოდა.",
+      "explanation": "«დაეხმარებოდა» est le conditionnel passé et «მომხმარებლებს» est le complément au datif pluriel."
     },
     {
       "id": "grammar_exercises-c2-correction-gen-036",
@@ -2935,8 +2927,7 @@
       "options": [
         "...დასკვნა უნდა მომზადებულიყო გასული თვის ბოლომდე.",
         "...დასკვნა უნდა მომზადებული იყოს გასული თვის ბოლომდე.",
-        "...დასკვნა უნდა მომზადებული იქნებოდა გასული თვის ბოლომდე.",
-        "...დასკვნა უნდა მომზადებულიყო გასული თვის ბოლომდე."
+        "...დასკვნა უნდა მომზადებული იქნებოდა გასული თვის ბოლომდე."
       ],
       "answer": "...დასკვნა უნდა მომზადებულიყო გასული თვის ბოლომდე.",
       "explanation": "Règle: construction modale avec «უნდა» + participe/passif: pour une obligation relative à un passé révolu, on utilise la forme parfaite au passif «მოწოდებულიყო/მო...». La forme correcte est «დასკვნა უნდა მომზადებულიყო» ou plus idiomatiquement «...მოეპყრობოდა» ; cependant la forme standard et la plus acceptable est «დასკვნა უნდა მომზადებულიყო გასული თვის ბოლომდე.» Distractors: 2 uses présent parfait «იყო» incongru avec «გასული თვის ბოლომდე», 3 mélange redondant «არ...» et 4 répète 1 (doublon)."

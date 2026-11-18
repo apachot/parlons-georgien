@@ -34,7 +34,7 @@
     {
       "id": "reading_cloze-c2-gen-003",
       "sentence": "ის ისე ახსნა შინაარსი, რომ ყველაზე მომთხოვნი კრიტიკოსისაც ___ აღარ შეეძლო.",
-      "answer": "აარაფრის თქმა",
+      "answer": "არაფრის თქმა",
       "options": [
         "არაფრის თქმა",
         "მოთხოვნა",
@@ -186,15 +186,15 @@
       "version": 23,
       "cefr": "C2",
       "sentence": "იმისათვის, რომ კონფერენციაზე მისი თეორია უფრო დამაჯერებლად ჟღეროდეს, მან სტატისტიკური მტკიცებულება ___ და დეტალებიც გამოიკვლია.",
-      "answer": "მტკიცებულება ___ და დეტალებს ინდაც გამოიკვლია",
+      "answer": "წარადგინა",
       "options": [
-        "შემოგზავნა",
+        "წარადგინა",
         "დააკავშირა",
-        "ჩვენება",
-        "გაამყარება"
+        "უარყო",
+        "გაამყარებდა"
       ],
-      "translation": "Pour que sa théorie paraisse plus convaincante à la conférence, il a envoyé une preuve statistique et a aussi examiné les détails.",
-      "explanation": "Erreur : la phrase fournie contient un artefact. Remplacer avec une correcte. Sorry."
+      "translation": "Pour que sa théorie paraisse plus convaincante à la conférence, il a présenté des preuves statistiques et a aussi examiné les détails.",
+      "explanation": "«მტკიცებულება წარადგინა» signifie «a présenté les preuves». Le passé «წარადგინა» s’accorde avec la suite de la phrase."
     },
     {
       "id": "reading_cloze-c2-gen-024",
@@ -333,16 +333,16 @@
     },
     {
       "id": "reading_cloze-c2-gen-013",
-      "sentence": "ის ცდილობდა ვერცერთს არ აწყენინოს, ამიტომ ხშირად თავს ___ და სხვების სურვილს უფრო ადვილად ვეღარ აკმაყოფილებდა.",
-      "answer": "ეგუებდა",
+      "sentence": "ის ცდილობდა, ყველას სურვილს მორგებოდა, ამიტომ ხშირად ახალ გარემოს ___.",
+      "answer": "ეგუებოდა",
       "options": [
         "ეგუებოდა",
         "ვერაფერს",
         "უსურვა",
         "თანხმდებოდა"
       ],
-      "translation": "Il/Elle essayait de ne blesser personne, c'est pourquoi il/elle s'adaptait souvent et ne pouvait plus satisfaire aussi facilement les désirs des autres.",
-      "explanation": "Le verbe réfléchi correct est «ეგუებოდა» («s'adapter») dans l'imparfait/indicator past habitual ; les distracteurs changent le sens ou la forme verbale et sont incompatibles ici.",
+      "translation": "Il/Elle essayait de s’adapter aux souhaits de chacun et s’habituait donc souvent au nouvel environnement.",
+      "explanation": "«ეგუებოდა» signifie «s’adaptait / s’habituait à» et se construit avec le datif : «ახალ გარემოს ეგუებოდა».",
       "cefr": "C2",
       "version": 13
     },

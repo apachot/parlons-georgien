@@ -575,11 +575,11 @@
           "question": "Que suggère l'auteur à propos des noms gravés sur portes et fenêtres ?",
           "options": [
             "Qu'ils sont généralement illisibles et sans intérêt historique.",
-            "Qu'ils révèlent des mouvements familiaux, des aspirations et des incertitudes mieux que certains archives.",
+            "Qu'ils révèlent des mouvements familiaux, des aspirations et des incertitudes mieux que certaines archives.",
             "Qu'ils prouvent l'ancienneté des bâtiments sans apporter d'information humaine.",
             "Qu'ils doivent être protégés par la loi pour des raisons patrimoniales uniquement."
           ],
-          "answer": "Qu'ils révèlent des mouvements familiale, des aspirations et des incertitudes mieux que certains archives.",
+          "answer": "Qu'ils révèlent des mouvements familiaux, des aspirations et des incertitudes mieux que certaines archives.",
           "explanation": "Le texte affirme que ces noms «უფრო მეტს იძლევა, ვიდრე ოფიციალური არქივის სტრიქონები», indiquant qu'ils donnent des informations sur déplacements et aspirations; la formulation de la réponse correcte reprend cette idée."
         },
         {
@@ -587,10 +587,10 @@
           "options": [
             "Elles n'ont aucune influence sur la mémoire urbaine.",
             "Elles figent la sténographie dans une forme définitive.",
-            "Elles transforment la sténოგრაფია et imposent un choix de lecture entre façade embellie et réinterprétation du passé.",
+            "Elles transforment cette sténographie et imposent un choix de lecture entre façade embellie et réinterprétation du passé.",
             "Elles effacent systématiquement toute trace historique."
           ],
-          "answer": "Elles transforment la სტენოგრაფია et imposent un choix de lecture entre façade embellie et réinterprétation du passé.",
+          "answer": "Elles transforment cette sténographie et imposent un choix de lecture entre façade embellie et réinterprétation du passé.",
           "explanation": "Le passage mentionne que les interventions modernes «ცვლიან ამ სტენოგრამას და მკითხველს უწევენ არჩევანს», donc elles modifient et imposent ce choix d'interprétation."
         },
         {
