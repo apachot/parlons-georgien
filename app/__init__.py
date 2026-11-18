@@ -224,6 +224,7 @@ def load_content(name):
             if not isinstance(item, dict):
                 raise ValueError(f"{path.name}: chaque entrée de 'items' doit être un objet JSON.")
             item = dict(item)
+            item.setdefault("_content_pack", path.stem)
             if len(levels) == 1:
                 item.setdefault("cefr", levels[0])
             if "cefr" in item:
@@ -291,6 +292,70 @@ def reading_exam_texts():
 
 def grammar_exercises():
     return load_content("grammar_exercises")
+
+
+def selected_version(items, bank):
+    """Restrict a next-question API to a version selected in the content catalogue."""
+    if request.args.get("bank") != bank:
+        return items
+    level = request.args.get("cefr", "").upper()
+    version = request.args.get("version", "")
+    return [item for item in items
+            if item.get("cefr", "").upper() == level
+            and str(item.get("version", item.get("_content_pack", ""))) == version]
+
+
+def version_catalog(section):
+    """Build the section's catalogue from versioned JSON banks on disk."""
+    sources = {
+        "alphabet": [("alphabet_recognition", "Reconnaître un son", "#alphabet-practice")],
+        "vocabulary": [("vocabulary", "Jeux de vocabulaire", "#vocabulary-games")],
+        "session": [("vocabulary", "Révision du vocabulaire", "#quiz")],
+        "reading": [("reading_a1", "Lecture guidée", "#reading"),
+                    ("reading_a2", "Lecture guidée", "#reading"),
+                    ("reading_b1", "Lecture guidée", "#reading"),
+                    ("reading_b2", "Lecture guidée", "#reading"),
+                    ("reading_c1", "Lecture guidée", "#reading"),
+                    ("reading_c2", "Lecture guidée", "#reading"),
+                    ("reading_cloze", "Phrases à trous", "#reading-cloze"),
+                    ("reading_exams", "Étude de texte", "#reading-exam")],
+        "comprehension": [("reading_a1", "Écoute pas à pas", "#reading"),
+                          ("reading_a2", "Écoute pas à pas", "#reading"),
+                          ("reading_b1", "Écoute pas à pas", "#reading"),
+                          ("reading_b2", "Écoute pas à pas", "#reading"),
+                          ("reading_c1", "Écoute pas à pas", "#reading"),
+                          ("reading_c2", "Écoute pas à pas", "#reading"),
+                          ("reading_exams", "Épreuve orale", "#reading-exam"),
+                          ("comprehension_order", "Remettre un récit en ordre", "#comprehension-order")],
+        "dictation": [("dictation_sentences", "Traduire des phrases", "#dictation-sentences")],
+        "grammar": [("grammar_exercises", "Quiz de grammaire", "#grammar-quiz")],
+        "dialogues": [("dialogues", "Scènes et répliques", "#dialogue-flash")],
+        "lesson": [("elearning_lessons", "Leçons interactives", None),
+                   ("lessons", "Leçons de vocabulaire", None)],
+    }
+    groups = {}
+    for bank_name, label, target in sources.get(section, []):
+        for path in content_files(bank_name):
+            with path.open(encoding="utf-8") as stream:
+                data = json.load(stream)
+            items = data.get("items", [])
+            if data.get("fields"):
+                items = [dict(zip(data["fields"], row)) for row in items]
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                cefr = str(item.get("cefr", data.get("cefr", "A1"))).upper()
+                if cefr not in CEFR_LEVELS:
+                    continue
+                version = item.get("version")
+                key = (bank_name, cefr, version if version is not None else path.stem)
+                entry = groups.setdefault(key, {"bank": bank_name, "level": cefr,
+                    "version": version if version is not None else path.stem,
+                    "title": label, "count": 0, "target": target, "item": item})
+                entry["count"] += 1
+                if item.get("title"):
+                    entry["title"] = item["title"]
+    return sorted(groups.values(), key=lambda row: (row["level"], row["title"], str(row["version"])))
 
 
 def create_app(test_config=None):
@@ -656,11 +721,45 @@ def create_app(test_config=None):
     def about():
         return render_template("about.html")
 
+    @app.get("/versions")
+    def content_versions():
+        section = request.args.get("section", "vocabulary")
+        labels = {"alphabet": "Alphabet", "vocabulary": "Vocabulaire", "session": "Révision",
+                  "reading": "Lecture",
+                  "comprehension": "Compréhension orale", "dictation": "Dictées",
+                  "grammar": "Grammaire", "dialogues": "Dialogues", "lesson": "Leçons"}
+        if section not in labels:
+            section = "vocabulary"
+        return_url = url_for({"dictation": "dictations", "lesson": "courses"}.get(section, section))
+        destinations = {"alphabet_recognition": "alphabet", "vocabulary": "vocabulary",
+            "reading_a1": "reading", "reading_a2": "reading", "reading_b1": "reading",
+            "reading_b2": "reading", "reading_c1": "reading", "reading_c2": "reading",
+            "reading_cloze": "reading", "reading_exams": "reading",
+            "comprehension_order": "comprehension", "dictation_sentences": "dictations",
+            "grammar_exercises": "grammar", "dialogues": "dialogues"}
+        versions = version_catalog(section)
+        for entry in versions:
+            item = entry["item"]
+            if entry["bank"] in {"lessons", "elearning_lessons"}:
+                endpoint = "course_lesson" if entry["bank"] == "elearning_lessons" else "lesson"
+                entry["href"] = url_for(endpoint, lesson_id=item["id"])
+            else:
+                endpoint = destinations.get(entry["bank"], section)
+                selection_bank = "reading" if entry["bank"].startswith("reading_") else entry["bank"]
+                params = {"bank": selection_bank, "cefr": entry["level"],
+                          "version": entry["version"]}
+                entry["href"] = url_for(endpoint, **params) + (entry["target"] or "")
+        return render_template("content_versions.html", section=section,
+                               section_title=labels[section], versions=versions,
+                               levels=("A1", "A2", "B1", "B2", "C1", "C2"),
+                               return_url=return_url)
+
     @app.get("/alphabet")
     def alphabet():
         return render_template("alphabet.html", letters=load_content("alphabet"),
                                words=load_content("vocabulary"),
-                               recognition_versions=load_content("alphabet_recognition_a1"))
+                               recognition_versions=selected_version(
+                                   load_content("alphabet_recognition_a1"), "alphabet_recognition"))
 
     @app.get("/lessons")
     def courses():
@@ -696,7 +795,7 @@ def create_app(test_config=None):
 
     @app.get("/vocabulary")
     def vocabulary():
-        vocab = load_content("vocabulary")
+        vocab = selected_version(load_content("vocabulary"), "vocabulary")
         illustrations = {item["id"]: item for item in load_content("vocabulary_images")}
         for item in vocab:
             illustration = illustrations.get(item["id"])
@@ -719,7 +818,7 @@ def create_app(test_config=None):
     @app.get("/api/grammar/next")
     def next_grammar_exercise():
         category = request.args.get("category", "temps")
-        items = [item for item in grammar_exercises()
+        items = [item for item in selected_version(grammar_exercises(), "grammar_exercises")
                  if category == "all" or item["category"] == category]
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in items if item["id"] not in excluded]
@@ -775,6 +874,8 @@ def create_app(test_config=None):
                     if choice.get("ok"):
                         questions.append({"id": f"{dialogue['id']}-{index}",
                                           "scene": dialogue["scene"],
+                                          "cefr": dialogue.get("cefr", "A1"),
+                                          "version": dialogue.get("version"),
                                           "prompt": turn["ka"], "prompt_fr": turn["fr"],
                                           "answer": choice["ka"], "answer_fr": choice["fr"]})
         unique_responses = {entry["ka"]: entry for entry in response_pool}
@@ -787,7 +888,7 @@ def create_app(test_config=None):
 
     @app.get("/api/dialogues/flash/next")
     def next_dialogue_flash():
-        questions = dialogue_flash_items()
+        questions = selected_version(dialogue_flash_items(), "dialogues")
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in questions if item["id"] not in excluded]
         if not candidates:
@@ -847,7 +948,7 @@ def create_app(test_config=None):
 
     @app.get("/api/comprehension/order")
     def next_comprehension_order():
-        items = load_content("comprehension_order")
+        items = selected_version(load_content("comprehension_order"), "comprehension_order")
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in items if item["id"] not in excluded]
         if not candidates:
@@ -894,7 +995,7 @@ def create_app(test_config=None):
     def next_comprehension_claim():
         excluded = set(request.args.get("exclude", "").split(","))
         claims = [(item, index, option)
-                  for item in reading_texts()
+                  for item in selected_version(reading_texts(), "reading")
                   for index, option in enumerate(item["options"])
                   if f'{item["id"]}:{index}' not in excluded]
         if not claims:
@@ -939,7 +1040,7 @@ def create_app(test_config=None):
 
     @app.get("/api/reading/exam")
     def next_reading_exam():
-        exams = reading_exam_texts()
+        exams = selected_version(reading_exam_texts(), "reading_exams")
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in exams if item["id"] not in excluded]
         if not candidates:
@@ -952,7 +1053,7 @@ def create_app(test_config=None):
 
     @app.get("/api/reading/cloze/next")
     def next_reading_cloze():
-        items = load_content("reading_cloze")
+        items = selected_version(load_content("reading_cloze"), "reading_cloze")
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in items if item["id"] not in excluded]
         if not candidates:
@@ -1025,7 +1126,7 @@ def create_app(test_config=None):
             return jsonify({"error": "Niveau invalide."}), 400
         if level not in range(1, 8):
             return jsonify({"error": "Niveau invalide."}), 400
-        items = [item for item in reading_texts() if item["level"] == level]
+        items = [item for item in selected_version(reading_texts(), "reading") if item["level"] == level]
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in items if item["id"] not in excluded]
         if not candidates:
@@ -1145,7 +1246,7 @@ def create_app(test_config=None):
 
     @app.get("/api/dictations/sentences/next")
     def next_dictation_sentence():
-        items = load_content("dictation_sentences")
+        items = selected_version(load_content("dictation_sentences"), "dictation_sentences")
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in items if item["id"] not in excluded]
         if not candidates:

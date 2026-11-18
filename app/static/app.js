@@ -135,7 +135,13 @@ window.refreshExerciseDifficulty = refreshExerciseDifficulty;
 
 function appPath(path) {
   const base = document.documentElement.dataset.appBase || '';
-  return `${base}${path.startsWith('/') ? path : `/${path}`}`;
+  const destination = new URL(`${base}${path.startsWith('/') ? path : `/${path}`}`, location.origin);
+  const selected = new URLSearchParams(location.search);
+  ['bank', 'cefr', 'version'].forEach(key => {
+    const value = selected.get(key);
+    if (value && !destination.searchParams.has(key)) destination.searchParams.set(key, value);
+  });
+  return `${destination.pathname}${destination.search}`;
 }
 
 function offerSkipButton(feedback, onSkip, label = 'Passer à la suite →') {

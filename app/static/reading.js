@@ -131,7 +131,9 @@ async function loadReadingQuestion() {
   }
   // Begin at the learner's estimated level. Every answer updates the rating,
   // so the next question can move up or down as the estimate is refined.
-  const estimatedCefr = window.getAdaptiveCefr?.('reading') || 'A1';
+  const selectedCefr = new URLSearchParams(location.search).get('bank') === 'reading'
+    ? new URLSearchParams(location.search).get('cefr') : null;
+  const estimatedCefr = selectedCefr || window.getAdaptiveCefr?.('reading') || 'A1';
   const level = readingLevelByCefr[estimatedCefr] || 1;
   readingCurrent = null;
   reading.options.replaceChildren();

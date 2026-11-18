@@ -360,3 +360,27 @@ footer a { color: var(--green); }
 body :not(.sun):not(.course-catalog-mark):not(.dot) {
   border-radius: 3px !important;
 }
+
+.all-versions-link { display:flex; align-items:center; justify-content:space-between; gap:1rem; width:max-content; max-width:100%; margin:1.5rem 0 0 auto; padding:.8rem 1rem; border:1px solid #b8c5b8; color:#24483e; font-weight:750; text-decoration:none; }
+.all-versions-link span { color:#ad5b37; font-size:1.2rem; }
+.all-versions-link:hover { background:#edf3ec; }
+.versions-page { max-width:1120px; margin:0 auto; padding:clamp(2rem,5vw,4.5rem) 1.25rem 5rem; }
+.versions-back { color:#315b4e; font-weight:700; text-decoration:none; }
+.versions-heading { max-width:760px; margin:2.5rem 0 2rem; }
+.versions-heading h1 { margin:.6rem 0; font-size:clamp(2.1rem,5vw,4rem); line-height:1.04; }
+.versions-heading p { color:#58665e; font-size:1.1rem; line-height:1.65; }
+.versions-filters { display:flex; flex-wrap:wrap; gap:.55rem; margin:2rem 0; }
+.versions-filters button { display:flex; align-items:center; gap:.65rem; padding:.65rem .85rem; border:1px solid #c5cec6; background:#fffdf8; color:#263d34; font-weight:750; cursor:pointer; }
+.versions-filters button.is-active { background:#294d40; color:#fff; border-color:#294d40; }
+.versions-filters button span { opacity:.7; font-size:.78rem; }
+.versions-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr)); gap:1rem; }
+.version-card { display:flex; flex-direction:column; min-height:230px; padding:1.15rem; border:1px solid #d2d8d0; background:#fffdf8; box-shadow:0 8px 24px #203a2810; }
+.version-card[hidden] { display:none; }
+.version-card-top { display:flex; align-items:center; justify-content:space-between; gap:.5rem; }
+.version-card-top small { color:#69746d; }
+.version-card h2 { margin:1.05rem 0 .25rem; font-size:1.2rem; }
+.version-card p { color:#69746d; margin:.25rem 0; }
+.version-card .version-description { margin:.65rem 0 1rem; color:#344b40; line-height:1.5; }
+.version-card .button { margin-top:auto; width:fit-content; text-decoration:none; }
+.versions-empty { padding:2rem; border:1px solid #d2d8d0; background:#fffdf8; }
+@media (max-width:600px) { .all-versions-link { width:100%; margin-top:1rem; } .version-card { min-height:0; } }

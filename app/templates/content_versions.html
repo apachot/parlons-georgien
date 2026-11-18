@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Toutes les versions · {{ section_title }} — Parlons géorgien{% endblock %}
+{% block content %}
+<section class="versions-page page-wrap" data-versions-page>
+  <a class="versions-back" href="{{ return_url }}">← Retour à {{ section_title|lower }}</a>
+  <header class="versions-heading"><span class="eyebrow">Bibliothèque d’exercices · CECRL</span><h1>Toutes les versions de {{ section_title|lower }}</h1><p>Choisissez un niveau puis une version. Chaque version ouvre directement son contenu d’entraînement.</p></header>
+  <nav class="versions-filters" aria-label="Filtrer par niveau CECRL">
+    <button type="button" class="is-active" data-version-filter="all">Tous <span>{{ versions|length }}</span></button>
+    {% for level in levels %}<button type="button" data-version-filter="{{ level }}">{{ level }} <span>{{ versions|selectattr('level','equalto',level)|list|length }}</span></button>{% endfor %}
+  </nav>
+  {% if versions %}<div class="versions-grid">
+    {% for version in versions %}<article class="version-card" data-version-level="{{ version.level }}">
+      <div class="version-card-top"><span class="cefr-pill">{{ version.level }}</span><small>{{ version.count }} question{{ 's' if version.count != 1 else '' }}</small></div>
+      <h2>{{ version.title }}</h2><p>Version {{ version.version }} · {{ version.level }}</p>
+      {% if version.item.get('title') %}<p class="version-description">{{ version.item.title|truncate(150) }}</p>{% elif version.item.get('scene') %}<p class="version-description">{{ version.item.scene|truncate(150) }}</p>{% elif version.item.get('prompt') %}<p class="version-description">{{ version.item.prompt|truncate(150) }}</p>{% elif version.item.get('sentence') %}<p class="version-description ka" lang="ka">{{ version.item.sentence }}</p>{% endif %}
+      <a class="button primary" href="{{ version.href }}">Choisir cette version <span>↗</span></a>
+    </article>{% endfor %}
+  </div>{% else %}<div class="versions-empty"><h2>Les versions arrivent bientôt.</h2><p>Ce catalogue se mettra à jour automatiquement quand des contenus JSON seront ajoutés.</p></div>{% endif %}
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='content-versions.js') }}?v=versions-v1" defer></script>{% endblock %}
