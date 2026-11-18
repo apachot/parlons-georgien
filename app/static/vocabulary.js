@@ -186,6 +186,8 @@ function openGame(mode) {
   game.direction.querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.direction === activeDirection));
   startRound();
 }
+window.openVocabularyGame = openGame;
+window.getActiveVocabularyGame = () => activeGame;
 
 function startRound() {
   clearAutoAdvance();

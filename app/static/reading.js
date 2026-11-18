@@ -131,8 +131,9 @@ async function loadReadingQuestion() {
   }
   // Begin at the learner's estimated level. Every answer updates the rating,
   // so the next question can move up or down as the estimate is refined.
-  const selectedCefr = new URLSearchParams(location.search).get('bank') === 'reading'
-    ? new URLSearchParams(location.search).get('cefr') : null;
+  const requestedLevels = new URLSearchParams(location.search);
+  const selectedCefr = requestedLevels.get('practice_cefr')
+    || (requestedLevels.get('bank') === 'reading' ? requestedLevels.get('cefr') : null);
   const estimatedCefr = selectedCefr || window.getAdaptiveCefr?.('reading') || 'A1';
   const level = readingLevelByCefr[estimatedCefr] || 1;
   readingCurrent = null;
@@ -140,7 +141,7 @@ async function loadReadingQuestion() {
   reading.text.textContent = readingRoot.dataset.oral === 'true' ? '' : 'Préparation du texte…';
   stopOralPlayer(reading.audio);
   reading.question.textContent = '';
-  reading.level.textContent = `${estimatedCefr} · sélection adaptative`;
+  reading.level.textContent = selectedCefr ? `${estimatedCefr} · niveau choisi` : `${estimatedCefr} · sélection adaptative`;
   reading.count.textContent = `Séance · ${readingTurn + 1} / ${readingSessionSize}`;
   reading.meter.style.width = `${Math.round(readingTurn / readingSessionSize * 100)}%`;
   reading.reveal.classList.add('hidden');

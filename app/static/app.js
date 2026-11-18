@@ -46,6 +46,62 @@ document.addEventListener('DOMContentLoaded', () => {
     requestAnimationFrame(() => fragmentTarget.scrollIntoView({block: 'start'}));
   }
   document.querySelectorAll('[data-activity-back]').forEach(button => button.addEventListener('click', showActivityMenu));
+  const levelDialog = document.querySelector('#exercise-level-dialog');
+  const levelSticker = document.querySelector('#exercise-level-sticker');
+  levelSticker?.addEventListener('click', () => {
+    const panel = activityPanels.find(item => !item.classList.contains('hidden') && item.dataset.difficulty);
+    const alphabetOnly = panel?.closest('.alphabet-page') || panel?.classList.contains('alphabet-practice')
+      || panel?.classList.contains('alphabet-speed') || panel?.classList.contains('alphabet-word-speed');
+    levelDialog?.querySelectorAll('[data-practice-level]').forEach(option => {
+      option.disabled = !!alphabetOnly && option.dataset.practiceLevel !== 'A1';
+    });
+    levelDialog?.showModal();
+  });
+  levelDialog?.querySelector('[data-level-dialog-close]')?.addEventListener('click', () => levelDialog.close());
+  levelDialog?.addEventListener('click', event => { if (event.target === levelDialog) levelDialog.close(); });
+  levelDialog?.querySelectorAll('[data-practice-level]').forEach(option => option.addEventListener('click', () => {
+    let panel = activityPanels.find(item => !item.classList.contains('hidden') && item.dataset.difficulty);
+    if (!panel || option.disabled) return;
+    if (panel.matches('.dialogue-card')) panel = document.querySelector('#dialogue-flash') || panel;
+    const context = {path: location.pathname, panel: panel.id, activity: window.getActiveVocabularyGame?.() || '',
+      category: document.querySelector('.grammar-category-list button.active')?.dataset.category || '',
+      direction: document.querySelector('[data-dictation-direction].active')?.dataset.dictationDirection || ''};
+    sessionStorage.setItem('practice-level-context', JSON.stringify(context));
+    const destination = new URL(location.href);
+    ['bank', 'cefr', 'version'].forEach(key => destination.searchParams.delete(key));
+    destination.searchParams.set('practice_cefr', option.dataset.practiceLevel);
+    destination.searchParams.set('practice_run', String(Date.now()));
+    destination.hash = panel.id;
+    location.assign(destination.href);
+  }));
+
+  const restoreRaw = sessionStorage.getItem('practice-level-context');
+  if (restoreRaw) {
+    sessionStorage.removeItem('practice-level-context');
+    try {
+      const context = JSON.parse(restoreRaw);
+      const selected = new URLSearchParams(location.search).get('practice_cefr');
+      const panel = context.path === location.pathname ? document.getElementById(context.panel) : null;
+      if (panel && selected && activityPanels.includes(panel)) {
+        activityPanels.forEach(item => item.classList.toggle('hidden', item !== panel));
+        activityMenus.forEach(item => item.classList.toggle('hidden', !item.classList.contains('activity-hero')));
+        panel.dataset.difficulty = selected;
+        panel.querySelector('[data-activity-back]')?.classList.remove('hidden');
+        if (context.category) document.querySelector(`.grammar-category-list [data-category="${context.category}"]`)?.click();
+        if (context.direction) document.querySelector(`[data-dictation-direction="${context.direction}"]`)?.click();
+        if (context.activity && window.openVocabularyGame) window.openVocabularyGame(context.activity);
+        else {
+          const startIds = {reading:'reading-start','reading-exam':'exam-start','reading-cloze':'cloze-start',
+            dictation:'dictation-start','dictation-listening':'listening-dictation-start',
+            'dictation-sentences':'sentence-dictation-start','dialogue-flash':'dialogue-flash-start',
+            'comprehension-order':'order-start','comprehension-vf':'vf-start'};
+          const start = document.getElementById(startIds[panel.id]);
+          if (start) requestAnimationFrame(() => start.click());
+        }
+        refreshExerciseDifficulty();
+      }
+    } catch (_) { /* Ignore an outdated saved exercise context. */ }
+  }
   document.querySelector('#word-search')?.addEventListener('input', e => {
     const query = e.target.value.trim().toLocaleLowerCase('fr');
     document.querySelectorAll('.vocab-card').forEach(card => card.hidden = !card.dataset.search.toLocaleLowerCase('fr').includes(query));
@@ -124,10 +180,17 @@ function refreshExerciseDifficulty() {
   const range = level.match(/^(A1|A2|B1|B2|C1|C2)[–—-](A1|A2|B1|B2|C1|C2)$/);
   sticker.querySelector('#exercise-level-value').textContent = range ? `${range[1]}–${range[2]}` : level;
   sticker.querySelector('#exercise-level-name').textContent = range ? 'Progression' : (labels[level] || 'Niveau estimé');
+  const selected = new URLSearchParams(location.search).get('practice_cefr');
+  if (selected) {
+    sticker.querySelector('#exercise-level-value').textContent = selected;
+    sticker.querySelector('#exercise-level-name').textContent = labels[selected] || 'Niveau choisi';
+  }
   sticker.classList.remove('hidden');
 }
 
 window.setExerciseDifficulty = (panel, level) => {
+  const selected = new URLSearchParams(location.search).get('practice_cefr');
+  if (selected) level = selected;
   if (panel && level) panel.dataset.difficulty = level;
   refreshExerciseDifficulty();
 };
@@ -137,7 +200,7 @@ function appPath(path) {
   const base = document.documentElement.dataset.appBase || '';
   const destination = new URL(`${base}${path.startsWith('/') ? path : `/${path}`}`, location.origin);
   const selected = new URLSearchParams(location.search);
-  ['bank', 'cefr', 'version'].forEach(key => {
+  ['bank', 'cefr', 'version', 'practice_cefr', 'practice_run'].forEach(key => {
     const value = selected.get(key);
     if (value && !destination.searchParams.has(key)) destination.searchParams.set(key, value);
   });

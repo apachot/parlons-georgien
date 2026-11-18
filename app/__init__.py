@@ -294,15 +294,22 @@ def grammar_exercises():
     return load_content("grammar_exercises")
 
 
+def selected_practice_level(items):
+    level = request.args.get("practice_cefr", "").upper()
+    if level not in CEFR_LEVELS:
+        return items
+    return [item for item in items if str(item.get("cefr", "")).upper() == level]
+
+
 def selected_version(items, bank):
     """Restrict a next-question API to a version selected in the content catalogue."""
-    if request.args.get("bank") != bank:
-        return items
-    level = request.args.get("cefr", "").upper()
-    version = request.args.get("version", "")
-    return [item for item in items
-            if item.get("cefr", "").upper() == level
-            and str(item.get("version", item.get("_content_pack", ""))) == version]
+    if request.args.get("bank") == bank:
+        level = request.args.get("cefr", "").upper()
+        version = request.args.get("version", "")
+        items = [item for item in items
+                 if item.get("cefr", "").upper() == level
+                 and str(item.get("version", item.get("_content_pack", ""))) == version]
+    return selected_practice_level(items)
 
 
 def version_catalog(section):
@@ -757,7 +764,7 @@ def create_app(test_config=None):
     @app.get("/alphabet")
     def alphabet():
         return render_template("alphabet.html", letters=load_content("alphabet"),
-                               words=load_content("vocabulary"),
+                               words=selected_practice_level(load_content("vocabulary")),
                                recognition_versions=selected_version(
                                    load_content("alphabet_recognition_a1"), "alphabet_recognition"))
 
@@ -769,8 +776,16 @@ def create_app(test_config=None):
     @app.get("/lessons/<lesson_id>")
     def course_lesson(lesson_id):
         lessons = load_content("elearning_lessons")
+        selected_cefr = request.args.get("practice_cefr", "").upper()
+        level_lessons = [item for item in lessons if item.get("cefr") == selected_cefr]
+        if level_lessons:
+            alternatives = [item for item in level_lessons if item["id"] != lesson_id] or level_lessons
+            selected_id = random.choice(alternatives)["id"]
+            lessons = level_lessons
+        else:
+            selected_id = lesson_id
         lesson_index = next((index for index, item in enumerate(lessons)
-                             if item["id"] == lesson_id), None)
+                             if item["id"] == selected_id), None)
         if lesson_index is None:
             return render_template("not_found.html"), 404
         lesson = lessons[lesson_index]
@@ -788,6 +803,11 @@ def create_app(test_config=None):
     def lesson(lesson_id):
         lessons = load_content("lessons")
         selected = next((item for item in lessons if item["id"] == lesson_id), None)
+        selected_cefr = request.args.get("practice_cefr", "").upper()
+        level_lessons = [item for item in lessons if item.get("cefr") == selected_cefr]
+        if level_lessons:
+            alternatives = [item for item in level_lessons if item["id"] != lesson_id] or level_lessons
+            selected = random.choice(alternatives)
         if selected is None:
             return render_template("not_found.html"), 404
         return render_template("lesson.html", lesson=selected,
@@ -830,7 +850,7 @@ def create_app(test_config=None):
 
     @app.get("/api/crossword/next")
     def next_crossword():
-        puzzle = build_crossword(load_content("vocabulary"))
+        puzzle = build_crossword(selected_practice_level(load_content("vocabulary")))
         if puzzle is None:
             return jsonify({"error": "Impossible de composer une grille pour le moment."}), 503
         return jsonify(puzzle)
@@ -859,7 +879,7 @@ def create_app(test_config=None):
 
     @app.get("/dialogues")
     def dialogues():
-        items = load_content("dialogues")
+        items = selected_practice_level(load_content("dialogues"))
         return render_template("dialogues.html", dialogues=items,
                                flash_total=len(dialogue_flash_items()))
 
@@ -1126,6 +1146,9 @@ def create_app(test_config=None):
             return jsonify({"error": "Niveau invalide."}), 400
         if level not in range(1, 8):
             return jsonify({"error": "Niveau invalide."}), 400
+        requested_cefr = request.args.get("practice_cefr", "").upper()
+        if requested_cefr in READING_LEVEL_NUMBERS:
+            level = READING_LEVEL_NUMBERS[requested_cefr]
         items = [item for item in selected_version(reading_texts(), "reading") if item["level"] == level]
         excluded = set(request.args.get("exclude", "").split(","))
         candidates = [item for item in items if item["id"] not in excluded]
@@ -1191,7 +1214,7 @@ def create_app(test_config=None):
 
     @app.get("/api/dictations/next")
     def next_dictation():
-        words = dictation_words()
+        words = selected_practice_level(dictation_words())
         direction = request.args.get("direction", "ka-fr")
         if direction not in {"ka-fr", "fr-ka"}:
             return jsonify({"error": "Sens de dictée invalide."}), 400
@@ -1303,7 +1326,7 @@ def create_app(test_config=None):
             random.shuffle(choices)
             return jsonify({"id": letter["id"], "kind": "alphabet", "prompt": letter["example"],
                             "choices": choices, "note": letter["note"]})
-        vocab = load_content("vocabulary")
+        vocab = selected_practice_level(load_content("vocabulary"))
         due_ids = {p.item_id for p in Progress.query.filter(Progress.due_at <= func.now()).all()}
         due_vocab = [w for w in vocab if w["id"] in due_ids]
         candidates = due_vocab or vocab
