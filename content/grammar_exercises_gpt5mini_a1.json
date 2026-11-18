@@ -1116,7 +1116,7 @@
       "category": "temps",
       "cefr": "A1",
       "version": 35,
-      "prompt": "რომელია სწორი ფრაზა ფრისთვის „He has a book.“ (Présent) ?",
+      "prompt": "Quelle phrase géorgienne signifie « Il/elle a un livre » au présent ?",
       "options": [
         "მას აქვს წიგნი.",
         "მას ჰქონდა წიგნი.",
@@ -1146,7 +1146,7 @@
       "category": "temps",
       "cefr": "A1",
       "version": 37,
-      "prompt": "რომელია სწორი ფრაზა „She goes to school every day.“ ?",
+      "prompt": "Quelle phrase géorgienne exprime « Elle va à l’école tous les jours » ?",
       "options": [
         "ის ყოველდღე სკოლაში მიდის.",
         "ის ყოველდღე სკოლაში მოდის.",
@@ -1669,7 +1669,7 @@
     {
       "id": "grammar_exercises-a1-cas-gen-012",
       "category": "cas",
-      "prompt": "რა ფორმით თქვა: \"The hat of the man\" (ეს არის კაცის ქუდი). დგება კითხვა: which form of 'კაცი' shows possession?",
+      "prompt": "Quelle forme de « კაცი » exprime la possession dans « le chapeau de l’homme » (კაცის ქუდი) ?",
       "options": [
         "კაცის",
         "კაცი",
@@ -1729,7 +1729,7 @@
     {
       "id": "grammar_exercises-a1-cas-gen-016",
       "category": "cas",
-      "prompt": "ქვემოთიდან რომელია სწორი ფორმა: \"The book of Anna\" (ეს ანას წიგნია). Forme d'Anna pour la possession.",
+      "prompt": "Quelle forme de « ანა » exprime la possession dans « le livre d’Anna » (ანას წიგნი) ?",
       "options": [
         "ანა → ანას",
         "ანა → ანათი",
@@ -1744,7 +1744,7 @@
     {
       "id": "grammar_exercises-a1-cas-gen-017",
       "category": "cas",
-      "prompt": "სრულად დააკავშირეთ: \"He came from the school\" — ზუსტად დაწერეთ სკოლადან: which form of 'სკოლა' fits 'from the school'?",
+      "prompt": "Quelle forme de « სკოლა » exprime la provenance dans « il vient de l’école » (სკოლიდან) ?",
       "options": [
         "სკოლიდან",
         "სკოლა",
