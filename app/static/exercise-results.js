@@ -1,5 +1,6 @@
 (() => {
   const resultSelector = '.lesson-summary:not(.hidden), .speed-result:not(.hidden), .game-complete:not(.hidden), .dialogue-finish:not(.hidden)';
+  const cefrLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
   const textOf = node => (node?.textContent || '').replace(/\s+/g, ' ').trim();
   const visible = node => !!node && !node.classList.contains('hidden') && !node.hidden && !node.closest('.hidden');
 
@@ -20,6 +21,26 @@
     if (fraction) values.push([`${fraction[1]} / ${fraction[2]}`, 'réponses justes']);
     if (percent) values.push([`${percent[1]} %`, 'de précision']);
     return values;
+  }
+
+  function adjacentLevels(root) {
+    const appBase = document.documentElement.dataset.appBase || '';
+    let path = location.pathname;
+    if (appBase && path.startsWith(appBase)) path = path.slice(appBase.length) || '/';
+    if (path.startsWith('/alphabet') || /^\/lessons\/[^/]+/.test(path) || root.matches('.dialogue-card')) return null;
+    const requested = new URLSearchParams(location.search).get('practice_cefr');
+    const level = requested || root.dataset.difficulty?.trim();
+    const index = cefrLevels.indexOf(level);
+    if (index < 0) return null;
+    return {lower: cefrLevels[index - 1] || null, current: level, upper: cefrLevels[index + 1] || null};
+  }
+
+  function changeLevel(target) {
+    const sticker = document.querySelector('#exercise-level-sticker');
+    const option = document.querySelector(`#exercise-level-dialog [data-practice-level="${target}"]`);
+    if (!sticker || sticker.classList.contains('hidden') || !option || option.disabled) return;
+    sticker.click();
+    option.click();
   }
 
   function createResult(root, nativeNode, options = {}) {
@@ -46,6 +67,21 @@
     const level = document.createElement('span'); level.className = 'exercise-result-level';
     const levelValue = root.dataset.difficulty || '';
     level.textContent = levelValue ? `Niveau ${levelValue}` : 'Votre séance';
+    const availableLevels = adjacentLevels(root);
+    let levelActions = null;
+    if (availableLevels) {
+      levelActions = document.createElement('div'); levelActions.className = 'exercise-result-level-actions';
+      levelActions.setAttribute('role', 'group'); levelActions.setAttribute('aria-label', 'Adapter la difficulté');
+      const lower = document.createElement('button'); lower.type = 'button'; lower.className = 'button secondary';
+      lower.textContent = availableLevels.lower ? `Passer au niveau inférieur · ${availableLevels.lower} ↓` : 'Niveau inférieur indisponible · A1';
+      lower.disabled = !availableLevels.lower;
+      if (availableLevels.lower) lower.addEventListener('click', () => changeLevel(availableLevels.lower));
+      const upper = document.createElement('button'); upper.type = 'button'; upper.className = 'button secondary';
+      upper.textContent = availableLevels.upper ? `Passer au niveau supérieur · ${availableLevels.upper} ↑` : 'Niveau supérieur indisponible · C2';
+      upper.disabled = !availableLevels.upper;
+      if (availableLevels.upper) upper.addEventListener('click', () => changeLevel(availableLevels.upper));
+      levelActions.append(lower, upper);
+    }
     const message = document.createElement('p'); message.className = 'exercise-result-message'; message.textContent = detail;
     const stats = document.createElement('div'); stats.className = 'exercise-result-stats';
     buildStats(`${title} ${detail}`).forEach(([value, label]) => {
@@ -68,7 +104,9 @@
     secondary.addEventListener('click', () => { closeResult(root, result, nativeNode, originalParent, originalNext, saveAction, saveParent, saveNext); back?.click(); });
     actions.append(primary, secondary);
     if (saveAction) actions.append(saveAction);
-    result.append(header, heading, level, message, stats, encouragement, actions);
+    result.append(header, heading, level);
+    if (levelActions) result.append(levelActions);
+    result.append(message, stats, encouragement, actions);
     const nextExercise = root.querySelector('[data-next-exercise="true"]');
     if (nextExercise) { nextExercise.classList.remove('hidden'); result.append(nextExercise); }
     if (nativeNode) {

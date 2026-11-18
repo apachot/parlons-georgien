@@ -438,6 +438,9 @@ body :not(.sun):not(.course-catalog-mark):not(.dot) .exercise-briefing,body :not
 .exercise-result-kicker { color:#54705d; font-size:10px; font-weight:850; letter-spacing:.14em; text-transform:uppercase; }
 .exercise-result-screen h2 { margin:0; color:#183d31; font:600 clamp(27px,3.8vw,40px)/1.1 Georgia,serif; }
 .exercise-result-level { display:inline-flex; padding:6px 12px; border:1px solid #dce5d9; background:#f1f5ed; color:#54705d; font-size:11px; font-weight:800; }
+.exercise-result-level-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:-3px; }
+.exercise-result-level-actions .button { min-height:40px; padding:9px 13px; font-size:11px; }
+.exercise-result-level-actions .button:disabled { opacity:.48; cursor:not-allowed; }
 .exercise-result-message { max-width:720px; margin:0; color:#526258; font-size:15px; line-height:1.65; }
 .exercise-result-stats { display:flex; flex-wrap:wrap; gap:10px; margin-top:3px; }
 .exercise-result-stat { display:flex; min-width:130px; flex-direction:column; gap:4px; padding:13px 16px; border:1px solid #dce4d9; background:#ffffffc9; }
@@ -449,6 +452,6 @@ body :not(.sun):not(.course-catalog-mark):not(.dot) .exercise-briefing,body :not
 .exercise-result-screen [data-next-exercise="true"] { width:100%; margin-top:9px; }
 body :not(.sun):not(.course-catalog-mark):not(.dot) .exercise-result-screen,body :not(.sun):not(.course-catalog-mark):not(.dot) .exercise-result-screen * { border-radius:18px !important; }
 body :not(.sun):not(.course-catalog-mark):not(.dot) .exercise-result-mark { border-radius:50% !important; }
-@media(max-width:700px) { .exercise-result-screen { margin:15px 0 20px; padding:22px 18px; } .exercise-result-stats { width:100%; } .exercise-result-stat { flex:1 1 120px; } .exercise-result-actions { width:100%; flex-direction:column; } .exercise-result-actions .button { width:100%; justify-content:center; } }
+@media(max-width:700px) { .exercise-result-screen { margin:15px 0 20px; padding:22px 18px; } .exercise-result-stats { width:100%; } .exercise-result-stat { flex:1 1 120px; } .exercise-result-level-actions { width:100%; flex-direction:column; } .exercise-result-level-actions .button { width:100%; justify-content:center; } .exercise-result-actions { width:100%; flex-direction:column; } .exercise-result-actions .button { width:100%; justify-content:center; } }
 @media (max-width:600px) { .all-versions-link { width:100%; margin-top:1rem; } .version-card { min-height:0; } }
 @media (max-width:480px) { .exercise-level-options { grid-template-columns:repeat(2,minmax(0,1fr)); } }
