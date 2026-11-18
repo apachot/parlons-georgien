@@ -43,7 +43,10 @@ document.addEventListener('DOMContentLoaded', () => {
     activityMenus.forEach(menu => menu.classList.toggle('hidden', !menu.classList.contains('activity-hero')));
     fragmentPanel.querySelector('[data-activity-back]')?.classList.remove('hidden');
     refreshExerciseDifficulty();
-    requestAnimationFrame(() => fragmentTarget.scrollIntoView({block: 'start'}));
+    requestAnimationFrame(() => {
+      const briefing = fragmentPanel.querySelector('[data-exercise-briefing]:not([hidden])');
+      (briefing || fragmentTarget).scrollIntoView({behavior: 'smooth', block: 'start'});
+    });
   }
   document.querySelectorAll('[data-activity-back]').forEach(button => button.addEventListener('click', showActivityMenu));
   const levelDialog = document.querySelector('#exercise-level-dialog');

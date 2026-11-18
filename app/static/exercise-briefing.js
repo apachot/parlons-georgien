@@ -281,6 +281,7 @@
         entry.briefing.hidden = false;
       }
       updateBriefings();
+      if (entry) entry.briefing.scrollIntoView({behavior: 'smooth', block: 'start'});
     });
   });
   requestAnimationFrame(updateBriefings);
