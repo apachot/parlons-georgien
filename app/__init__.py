@@ -895,8 +895,6 @@ def create_app(test_config=None):
         row.due_at = utc_now_naive() + timedelta(days=min(30, 2 ** min(row.streak, 5)) if correct else 0,
                                                    minutes=0 if correct else 10)
         db.session.commit()
-        if not correct:
-            return jsonify({"correct": False})
         return jsonify({"correct": correct, "answer": item["answer"],
                         "explanation": item["explanation"]})
 
@@ -1010,14 +1008,17 @@ def create_app(test_config=None):
                      if entry["id"] == data.get("id")), None)
         if item is None:
             return jsonify({"error": "Récit inconnu."}), 404
-        submitted = data.get("order")
-        if not isinstance(submitted, list) or len(submitted) != len(item["events"]):
-            return jsonify({"error": "Ordre incomplet."}), 400
-        try:
-            order = [int(value) for value in submitted]
-        except (TypeError, ValueError):
-            return jsonify({"error": "Ordre invalide."}), 400
-        correct = order == list(range(len(item["events"])))
+        if data.get("skip") is True:
+            correct = False
+        else:
+            submitted = data.get("order")
+            if not isinstance(submitted, list) or len(submitted) != len(item["events"]):
+                return jsonify({"error": "Ordre incomplet."}), 400
+            try:
+                order = [int(value) for value in submitted]
+            except (TypeError, ValueError):
+                return jsonify({"error": "Ordre invalide."}), 400
+            correct = order == list(range(len(item["events"])))
         progress_id = f"comprehension-order:{item['id']}"
         row = Progress.query.filter_by(item_id=progress_id).first()
         if row is None:
@@ -1060,10 +1061,13 @@ def create_app(test_config=None):
         item = next((entry for entry in reading_texts() if entry["id"] == item_id), None)
         if item is None or index not in range(len(item["options"])):
             return jsonify({"error": "Proposition inconnue."}), 404
-        if not isinstance(data.get("answer"), bool):
-            return jsonify({"error": "Choisissez vrai ou faux."}), 400
         is_true = item["options"][index] == item["answer"]
-        correct = data["answer"] == is_true
+        if data.get("skip") is True:
+            correct = False
+        else:
+            if not isinstance(data.get("answer"), bool):
+                return jsonify({"error": "Choisissez vrai ou faux."}), 400
+            correct = data["answer"] == is_true
         progress_id = f"comprehension-vf:{claim_id}"
         row = Progress.query.filter_by(item_id=progress_id).first()
         if row is None:

@@ -220,9 +220,23 @@ function offerSkipButton(feedback, onSkip, label = 'Passer à la suite →') {
   button.className = 'button secondary skip-question';
   button.dataset.skipQuestion = 'true';
   button.textContent = label;
-  button.addEventListener('click', onSkip, {once: true});
+  button.addEventListener('click', onSkip);
   feedback.append(button);
 }
+
+function offerDontKnowButton(container, onSkip) {
+  if (!container) return null;
+  container.querySelector('[data-dont-know]')?.remove();
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'button secondary dont-know-button';
+  button.dataset.dontKnow = 'true';
+  button.textContent = 'Je ne sais pas →';
+  button.addEventListener('click', onSkip, {once: true});
+  container.append(button);
+  return button;
+}
+window.offerDontKnowButton = offerDontKnowButton;
 
 let autoAdvanceTimer = null;
 function scheduleAutoAdvance(callback, delay = 1600) {

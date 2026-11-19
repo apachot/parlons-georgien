@@ -172,6 +172,7 @@ async function loadReadingQuestion() {
       button.addEventListener('click', () => answerReading(option, button));
       reading.options.append(button);
     });
+    offerDontKnowButton(reading.options, button => answerReading('', button, true));
   } catch (_) {
     reading.text.textContent = readingRoot.dataset.oral === 'true' ? '' : 'Le texte n’a pas pu être chargé';
     setReadingFeedback('Réessayez dans un instant.', 'try-again');
@@ -180,7 +181,7 @@ async function loadReadingQuestion() {
   }
 }
 
-async function answerReading(answer, selected) {
+async function answerReading(answer, selected, skipped = false) {
   if (!readingCurrent || readingBusy) return;
   readingBusy = true;
   reading.options.querySelectorAll('button').forEach(button => button.disabled = true);
@@ -191,6 +192,14 @@ async function answerReading(answer, selected) {
     });
     const result = await response.json();
     if (!response.ok) throw new Error(result.error || 'Correction impossible');
+    if (skipped) {
+      readingTurn++;
+      reading.feedback.textContent = 'Question passée. Le prochain passage arrive.';
+      reading.feedback.className = 'feedback try-again';
+      reading.meter.style.width = `${Math.round(readingTurn / readingSessionSize * 100)}%`;
+      loadReadingQuestion();
+      return;
+    }
     if (result.correct) {
       readingCorrect++;
       selected.classList.add('choice-correct');
@@ -344,9 +353,10 @@ function showExamQuestion() {
     button.addEventListener('click', () => answerExamQuestion(option, button));
     exam.options.append(button);
   });
+  offerDontKnowButton(exam.options, button => answerExamQuestion('', button, true));
 }
 
-async function answerExamQuestion(answer, selected) {
+async function answerExamQuestion(answer, selected, skipped = false) {
   if (!examItem || examBusy || examLocked) return;
   examBusy = true;
   try {
@@ -356,6 +366,16 @@ async function answerExamQuestion(answer, selected) {
     });
     const result = await response.json();
     if (!response.ok) throw new Error(result.error || 'Correction impossible');
+    if (skipped) {
+      examLocked = true;
+      exam.options.querySelectorAll('button').forEach(button => button.disabled = true);
+      exam.feedback.textContent = 'Question passée. La suite de l’épreuve continue.';
+      exam.feedback.className = 'feedback try-again';
+      exam.next.textContent = examIndex + 1 === examItem.questions.length ? 'Voir mon résultat →' : 'Question suivante →';
+      exam.next.classList.remove('hidden');
+      exam.meter.style.width = `${Math.round((examIndex + 1) / examItem.questions.length * 100)}%`;
+      return;
+    }
     if (!result.correct) {
       selected.classList.add('choice-wrong'); selected.disabled = true;
       exam.feedback.textContent = 'Pas tout à fait. Gardez le texte affiché et essayez une autre réponse.';

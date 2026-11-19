@@ -212,6 +212,7 @@ function startRound() {
   selectedTiles = [];
   boardLocked = false;
   answerBusy = false;
+  if (document.querySelector('#crossword-skip')) document.querySelector('#crossword-skip').disabled = false;
   currentAudioWord = null;
   crosswordPuzzle = null;
   game.crosswordCheck.disabled = false;
@@ -348,15 +349,24 @@ function nextVocabularySpeedQuestion() {
     button.addEventListener('click', () => answerVocabularySpeed(item, button));
     vocabularySpeedUi.choices.append(button);
   });
+  offerDontKnowButton(vocabularySpeedUi.choices, button => answerVocabularySpeed(vocabularySpeedCurrent, button, true));
 }
 
-async function answerVocabularySpeed(item, button) {
+async function answerVocabularySpeed(item, button, skipped = false) {
   if (!vocabularySpeedCurrent || vocabularySpeedLocked || vocabularySpeedBusy || Date.now() >= vocabularySpeedEndsAt) return;
   vocabularySpeedBusy = true;
   vocabularySpeedUi.choices.querySelectorAll('button').forEach(option => option.disabled = true);
   try {
-    const result = await saveWordAnswer(vocabularySpeedCurrent, 'vocabulary', item.fr);
+    const result = skipped ? await saveWordAnswer(vocabularySpeedCurrent, 'vocabulary', '') : await saveWordAnswer(vocabularySpeedCurrent, 'vocabulary', item.fr);
     vocabularySpeedAttempts++;
+    if (skipped) {
+      mistakeCount++; vocabularySpeedLocked = true;
+      vocabularySpeedUi.feedback.textContent = 'Mot passé. On continue.';
+      vocabularySpeedUi.correct.textContent = String(vocabularySpeedCorrect);
+      updateGameScore(); updateVocabularySpeedClock();
+      vocabularySpeedNextTimer = setTimeout(nextVocabularySpeedQuestion, 120);
+      return;
+    }
     if (result.correct) {
       vocabularySpeedCorrect++;
       vocabularySpeedLocked = true;
@@ -453,6 +463,8 @@ function renderSentenceBuilder() {
   document.querySelector('#builder-feedback').textContent = '';
   document.querySelector('#builder-feedback').className = 'feedback';
   document.querySelector('#builder-check').classList.remove('hidden');
+  document.querySelector('#builder-skip').classList.remove('hidden');
+  document.querySelector('#builder-skip').disabled = false;
   document.querySelector('#builder-next').classList.add('hidden');
   document.querySelector('#builder-next').textContent = 'Phrase suivante →';
   document.querySelector('#builder-check').disabled = false;
@@ -505,6 +517,7 @@ async function checkSentenceBuilder() {
     feedback.textContent = `Bonne phrase ! ${item.example}`;
     feedback.className = 'feedback success';
     document.querySelector('#builder-check').classList.add('hidden');
+    document.querySelector('#builder-skip').classList.add('hidden');
     const next = document.querySelector('#builder-next');
     next.textContent = foundCount >= roundItems.length ? 'Voir le résultat →' : 'Phrase suivante →';
     next.classList.remove('hidden'); playSuccessSound(); updateGameScore(); updateGameProgress();
@@ -515,7 +528,26 @@ async function checkSentenceBuilder() {
   } finally { answerBusy = false; }
 }
 
+async function skipSentenceBuilder() {
+  if (activeGame !== 'builder' || answerBusy || builderSolved) return;
+  answerBusy = true;
+  const item = roundItems[roundIndex];
+  try {
+    await saveWordAnswer(item, 'order', '');
+    mistakeCount++; builderSolved = true;
+    [...document.querySelectorAll('#builder-answer button, #builder-bank button')].forEach(button => button.disabled = true);
+    document.querySelector('#builder-feedback').textContent = `Phrase passée. Réponse : ${item.example}`;
+    document.querySelector('#builder-feedback').className = 'feedback';
+    document.querySelector('#builder-check').classList.add('hidden');
+    document.querySelector('#builder-skip').classList.add('hidden');
+    document.querySelector('#builder-next').textContent = roundIndex + 1 >= roundItems.length ? 'Voir le résultat →' : 'Phrase suivante →';
+    document.querySelector('#builder-next').classList.remove('hidden'); updateGameScore(); updateGameProgress();
+  } catch (_) { document.querySelector('#builder-feedback').textContent = 'Impossible de passer cette phrase. Réessayez.'; }
+  finally { answerBusy = false; }
+}
+
 function renderCrosswordBoard() {
+  document.querySelector('#crossword-skip')?.classList.remove('hidden');
   const {rows, columns, entries} = crosswordPuzzle;
   game.crosswordBoard.replaceChildren();
   game.crosswordAcross.replaceChildren();
@@ -667,6 +699,33 @@ document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && !crosswordKeyboard.modal?.classList.contains('hidden')) closeCrosswordKeyboard();
 });
 game.crosswordCheck.addEventListener('click', checkCrosswordGrid);
+document.querySelector('#crossword-skip')?.addEventListener('click', async () => {
+  if (answerBusy || activeGame !== 'crossword' || !roundItems.length) return;
+  answerBusy = true;
+  document.querySelector('#crossword-skip').disabled = true;
+  try {
+    for (const item of roundItems) await saveWordAnswer(item, 'type', '');
+    mistakeCount++; game.crosswordFeedback.textContent = 'Grille passée. Votre progression est enregistrée.';
+    updateGameScore(); finishGame();
+  } catch (_) {
+    document.querySelector('#crossword-skip').disabled = false;
+    game.crosswordFeedback.textContent = 'Impossible de passer la grille. Réessayez.';
+  } finally { answerBusy = false; }
+});
+document.querySelector('#matching-skip')?.addEventListener('click', async event => {
+  if (activeGame !== 'pairs' && activeGame !== 'memory' && activeGame !== 'images') return;
+  event.currentTarget.disabled = true;
+  const matchedIds = new Set([...game.board.querySelectorAll('.matching-tile.matched')].map(tile => tile.dataset.id));
+  try {
+    for (const item of roundItems) {
+      if (!matchedIds.has(item.id)) await saveWordAnswer(item, activeGame === 'images' ? 'type' : 'vocabulary', '');
+    }
+    mistakeCount++; finishGame();
+  } catch (_) {
+    event.currentTarget.disabled = false;
+    showGameStatus('Impossible d’enregistrer le passage de la manche. Réessayez.', 'error');
+  }
+});
 
 async function checkCrosswordGrid() {
   if (answerBusy || !crosswordPuzzle || !roundItems.length) return;
@@ -710,6 +769,7 @@ async function checkCrosswordGrid() {
 }
 
 function renderMatchingBoard(boardMode) {
+  document.querySelector('#matching-skip')?.classList.remove('hidden');
   game.board.className = `matching-board board-${boardMode}`;
   game.board.replaceChildren();
   const tiles = [];
@@ -865,8 +925,23 @@ function showAudioQuestion() {
     button.addEventListener('click', () => answerAudioChoice(item[field], button, isGeorgianAudio));
     game.audioOptions.append(button);
   });
+  offerDontKnowButton(game.audioOptions, button => skipAudioQuestion(isGeorgianAudio));
   updateGameProgress();
   if (isGeorgianAudio) playSpeech(currentAudioWord.ka, 'ka', game.audioReplay);
+}
+
+async function skipAudioQuestion(isGeorgianAudio) {
+  if (!currentAudioWord || answerBusy) return;
+  answerBusy = true; game.audioOptions.querySelectorAll('button').forEach(choice => choice.disabled = true);
+  try {
+    await saveWordAnswer(currentAudioWord, isGeorgianAudio ? 'vocabulary' : 'type', '');
+    mistakeCount++; roundIndex++; game.audioFeedback.textContent = 'Question passée. On continue.';
+    game.audioFeedback.className = 'feedback'; updateGameScore(); updateGameProgress();
+    if (roundIndex >= roundItems.length) finishGame(); else showAudioQuestion();
+  } catch (_) {
+    game.audioOptions.querySelectorAll('button').forEach(choice => choice.disabled = false);
+    showGameStatus('Impossible d’enregistrer le passage. Réessayez.', 'error');
+  } finally { answerBusy = false; }
 }
 
 async function answerAudioChoice(value, selectedButton, isGeorgianAudio) {
@@ -935,6 +1010,8 @@ function finishGame() {
   game.builder.classList.add('hidden');
   game.complete.classList.remove('hidden');
   game.completeMessage.textContent = `${foundCount} ${gameCopy[activeGame].scoreUnit} retrouvés · ${mistakeCount} erreur${mistakeCount === 1 ? '' : 's'}. Votre progression est enregistrée.`;
+  document.querySelector('#matching-skip')?.classList.add('hidden');
+  document.querySelector('#crossword-skip')?.classList.add('hidden');
   game.score.classList.add('hidden');
   game.round.textContent = 'Manche terminée';
   game.progress.style.width = '100%';
@@ -962,6 +1039,7 @@ document.querySelector('#back-to-vocabulary-games')?.addEventListener('click', r
 game.replay.addEventListener('click', startRound);
 game.chooseAnother.addEventListener('click', returnToGameHome);
 document.querySelector('#builder-check')?.addEventListener('click', checkSentenceBuilder);
+document.querySelector('#builder-skip')?.addEventListener('click', skipSentenceBuilder);
 document.querySelector('#builder-reset')?.addEventListener('click', () => {
   if (activeGame !== 'builder' || builderSolved) return;
   const bank = document.querySelector('#builder-bank');

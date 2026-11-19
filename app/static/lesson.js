@@ -3,6 +3,7 @@ const lessonQuestionData = JSON.parse(document.querySelector('#lesson-questions'
 let lessonQuestions = [];
 let lessonQuestionIndex = 0;
 let lessonCorrect = 0;
+let lessonSkipped = 0;
 
 function shuffled(values) {
   return [...values].sort(() => Math.random() - 0.5);
@@ -12,6 +13,7 @@ function prepareLessonQuestions() {
   lessonQuestions = shuffled(lessonQuestionData);
   lessonQuestionIndex = 0;
   lessonCorrect = 0;
+  lessonSkipped = 0;
 }
 
 function renderLessonQuestion() {
@@ -50,6 +52,15 @@ function renderLessonQuestion() {
     button.dataset.correct = String(option === question.answer);
     button.addEventListener('click', () => answerLessonQuestion(button, question));
     choices.append(button);
+  });
+  offerDontKnowButton(choices, button => {
+    if (lessonQuestionIndex >= lessonQuestions.length) return;
+    lessonSkipped++;
+    feedback.textContent = `Question passée. Réponse : ${question.answer}`;
+    feedback.className = 'feedback';
+    const next = document.querySelector('#lesson-next');
+    next.textContent = 'Question suivante →'; next.classList.remove('hidden');
+    choices.querySelectorAll('button').forEach(choice => choice.disabled = true);
   });
 }
 
@@ -99,7 +110,7 @@ function finishLessonQuiz() {
   document.querySelector('#lesson-next').classList.add('hidden');
   document.querySelector('#lesson-progress').style.width = '100%';
   document.querySelector('#lesson-summary').textContent =
-    `Vous avez répondu correctement à ${lessonCorrect} question${lessonCorrect > 1 ? 's' : ''} sur ${total} (${score} %). ${score === 100 ? 'Excellent, tout est acquis !' : 'Reprenez les cartes ci-dessus et recommencez pour consolider.'}`;
+    `Vous avez répondu correctement à ${lessonCorrect} question${lessonCorrect > 1 ? 's' : ''} sur ${total} (${score} %), passé ${lessonSkipped}. ${score === 100 ? 'Excellent, tout est acquis !' : 'Reprenez les cartes ci-dessus et recommencez pour consolider.'}`;
   document.querySelector('#lesson-summary').classList.remove('hidden');
   document.querySelector('#lesson-restart').classList.toggle('hidden', score === 100);
   const finish = document.querySelector('.finish-lesson');

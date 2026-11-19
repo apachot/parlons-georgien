@@ -68,6 +68,21 @@ async function loadQuestion() {
       button.addEventListener('click', () => submitAnswer(label, button)); holder.append(button);
     });
   }
+  offerDontKnowButton(holder, async button => {
+    if (!question || quizBusy) return;
+    quizBusy = true; button.disabled = true;
+    try {
+      const response = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id, kind:question.kind, answer:''})});
+      if (!response.ok) throw new Error('Réponse non enregistrée');
+      seen.add(question.id);
+      advanceQuiz();
+    } catch (_) {
+      button.disabled = false;
+      const feedback = document.querySelector('#quiz-feedback');
+      feedback.textContent = 'Le passage n’a pas pu être enregistré. Réessayez.';
+      feedback.className = 'feedback try-again';
+    } finally { quizBusy = false; }
+  });
   attempts++;
   const sessionCount = document.querySelector('#session-count');
   if (sessionCount) sessionCount.textContent = `Question ${attempts} · vocabulaire et révision`;

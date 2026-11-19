@@ -32,4 +32,4 @@
 <script type="application/json" id="alphabet-data">{{ letters|tojson }}</script>
 <script type="application/json" id="alphabet-word-data">{{ words|tojson }}</script>
 <script type="application/json" id="alphabet-recognition-data">{{ recognition_versions|tojson }}</script>
-{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='alphabet.js') }}?v=uniform-flow-v1" defer></script><script src="{{ url_for('static', filename='alphabet-word-speed.js') }}?v=skip-next-v1" defer></script>{% endblock %}
+{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='alphabet.js') }}?v=dont-know-v1" defer></script><script src="{{ url_for('static', filename='alphabet-word-speed.js') }}?v=dont-know-v1" defer></script>{% endblock %}

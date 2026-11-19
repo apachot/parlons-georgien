@@ -5,7 +5,7 @@ if (listeningRoot) {
     play: document.querySelector('#listening-dictation-play'), input: document.querySelector('#listening-dictation-input'),
     keyboard: document.querySelector('#listening-dictation-keyboard'), feedback: document.querySelector('#listening-dictation-feedback'),
     answer: document.querySelector('#listening-dictation-answer'), start: document.querySelector('#listening-dictation-start'),
-    check: document.querySelector('#listening-dictation-check'), next: document.querySelector('#listening-dictation-next'),
+    check: document.querySelector('#listening-dictation-check'), skip: document.querySelector('#listening-dictation-skip'), next: document.querySelector('#listening-dictation-next'),
     summary: document.querySelector('#listening-dictation-summary')
   };
   const total = Number(listeningRoot.dataset.totalSentences || 0), limit = Math.min(6, total);
@@ -28,7 +28,7 @@ if (listeningRoot) {
   async function loadQuestion() {
     if (seen.size >= limit) return finish();
     current = null; ui.input.value = ''; ui.input.disabled = false; ui.check.disabled = false;
-    ui.check.classList.remove('hidden'); ui.next.classList.add('hidden'); ui.answer.classList.add('hidden');
+    ui.check.classList.remove('hidden'); ui.skip.classList.remove('hidden'); ui.skip.disabled = false; ui.next.classList.add('hidden'); ui.answer.classList.add('hidden');
     ui.keyboard.querySelectorAll('button').forEach(key => key.disabled = false);
     ui.count.textContent = `Phrase audio · ${seen.size + 1} / ${limit}`; ui.status.textContent = 'La phrase reste cachée.'; feedback('');
     try {
@@ -60,16 +60,28 @@ if (listeningRoot) {
       }
       completed++; if (attempts === 1) firstTry++;
       ui.input.value = result.solution; ui.input.disabled = true; ui.keyboard.querySelectorAll('button').forEach(key => key.disabled = true);
-      ui.answer.textContent = result.explanation; ui.answer.classList.remove('hidden'); ui.check.classList.add('hidden');
+      ui.answer.textContent = result.explanation; ui.answer.classList.remove('hidden'); ui.check.classList.add('hidden'); ui.skip.classList.add('hidden');
       ui.next.textContent = seen.size >= limit ? 'Voir le résultat →' : 'Phrase suivante →'; ui.next.classList.remove('hidden');
       feedback(attempts === 1 ? 'Bravo, transcription juste du premier coup !' : 'Bien corrigé, la transcription est juste.', 'success'); playSuccessSound();
     } catch (_) { ui.check.disabled = false; feedback('La réponse n’a pas pu être vérifiée. Réessayez.', 'try-again'); }
     finally { busy = false; }
   }
+  async function skipAnswer() {
+    if (!current || busy) return;
+    busy = true; ui.check.disabled = true; ui.skip.disabled = true;
+    try {
+      const response = await fetch(appPath('/api/dictations/sentences/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:current.id, answer:''})});
+      const result = await response.json(); if (!response.ok) throw new Error('passage impossible');
+      ui.input.value = result.solution; ui.input.disabled = true; ui.keyboard.querySelectorAll('button').forEach(button => button.disabled = true);
+      ui.answer.textContent = result.explanation; ui.answer.classList.remove('hidden'); ui.check.classList.add('hidden'); ui.skip.classList.add('hidden');
+      ui.status.textContent = 'Phrase passée.'; ui.next.textContent = seen.size >= limit ? 'Voir le résultat →' : 'Phrase suivante →'; ui.next.classList.remove('hidden');
+    } catch (_) { ui.check.disabled = false; ui.skip.disabled = false; feedback('Impossible de passer cette phrase. Réessayez.', 'try-again'); }
+    finally { busy = false; }
+  }
   function finish() {
     current = null; stopAudio(); ui.play.disabled = true; ui.status.textContent = 'Séance terminée.';
     ui.count.textContent = 'Dictée audio · résultat'; ui.input.disabled = true; ui.keyboard.querySelectorAll('button').forEach(key => key.disabled = true);
-    ui.check.classList.add('hidden'); ui.next.classList.add('hidden');
+    ui.check.classList.add('hidden'); ui.skip.classList.add('hidden'); ui.next.classList.add('hidden');
     ui.summary.textContent = `${firstTry} / ${seen.size} phrases transcrites correctement du premier coup.`;
     ui.summary.classList.remove('hidden'); ui.start.textContent = 'Recommencer →'; ui.start.classList.remove('hidden');
   }
@@ -88,7 +100,7 @@ if (listeningRoot) {
       row.append(space, erase); ui.keyboard.append(row);
     } catch (_) { ui.keyboard.textContent = 'Le clavier géorgien est indisponible.'; }
   }
-  ui.play.addEventListener('click', playCurrent); ui.check.addEventListener('click', checkAnswer); ui.next.addEventListener('click', loadQuestion);
+  ui.play.addEventListener('click', playCurrent); ui.check.addEventListener('click', checkAnswer); ui.skip.addEventListener('click', skipAnswer); ui.next.addEventListener('click', loadQuestion);
   ui.start.addEventListener('click', () => { seen = new Set(); completed = 0; firstTry = 0; busy = false; ui.summary.classList.add('hidden'); ui.start.classList.add('hidden'); ui.input.disabled = false; loadQuestion(); });
   ui.input.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); checkAnswer(); } });
   buildKeyboard();

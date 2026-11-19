@@ -10,7 +10,9 @@ if (vfRoot) {
     summary: document.querySelector('#vf-summary'), choices: [...document.querySelectorAll('[data-vf-answer]')]
   };
   const vfTotal = Math.min(10, Number(vfRoot.dataset.total || 0));
+  const vfChoiceGroup = document.querySelector('.comprehension-vf-choices');
   let vfTurn = 0, vfCorrect = 0, vfCurrent = null, vfSeen = new Set(), vfBusy = false;
+  offerDontKnowButton(document.querySelector('.comprehension-vf-choices'), button => answerVf(null, button, true));
 
   function setVfFeedback(message, state = '') {
     vf.feedback.textContent = message;
@@ -19,7 +21,7 @@ if (vfRoot) {
 
   function startVfSession() {
     vfTurn = 0; vfCorrect = 0; vfCurrent = null; vfSeen.clear();
-    vf.start.classList.add('hidden'); vf.summary.classList.add('hidden');
+    vf.start.classList.add('hidden'); vf.summary.classList.add('hidden'); vfChoiceGroup.querySelectorAll('button').forEach(button => { button.classList.remove('hidden'); button.disabled = false; });
     vf.reveal.classList.add('hidden'); loadVfClaim();
   }
 
@@ -27,7 +29,7 @@ if (vfRoot) {
     if (vfTurn >= vfTotal) return finishVfSession();
     vfCurrent = null; vf.text.textContent = '';
     stopOralPlayer(vf.audio);
-    vf.question.textContent = ''; vf.claim.textContent = ''; vf.choices.forEach(button => { button.disabled = false; button.classList.remove('choice-correct', 'choice-wrong'); });
+    vf.question.textContent = ''; vf.claim.textContent = ''; vfChoiceGroup.querySelectorAll('button').forEach(button => { button.disabled = false; button.classList.remove('choice-correct', 'choice-wrong'); });
     vf.next.classList.add('hidden'); vf.reveal.classList.add('hidden'); setVfFeedback('');
     vf.count.textContent = `Affirmation · ${vfTurn + 1} / ${vfTotal}`;
     vf.meter.style.width = `${Math.round(vfTurn / vfTotal * 100)}%`;
@@ -46,16 +48,23 @@ if (vfRoot) {
     }
   }
 
-  async function answerVf(answer, selected) {
+  async function answerVf(answer, selected, skipped = false) {
     if (!vfCurrent || vfBusy || selected.disabled) return;
-    vfBusy = true; vf.choices.forEach(button => button.disabled = true);
+    vfBusy = true; vfChoiceGroup.querySelectorAll('button').forEach(button => button.disabled = true);
     try {
       const response = await fetch(appPath('/api/comprehension/true-false/answer'), {
         method: 'POST', headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({id: vfCurrent.id, answer})
+        body: JSON.stringify({id: vfCurrent.id, answer, skip: skipped})
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'Correction impossible');
+      if (skipped) {
+        vfTurn++;
+        vf.meter.style.width = `${Math.round(vfTurn / vfTotal * 100)}%`;
+        setVfFeedback('Affirmation passée. On continue.');
+        loadVfClaim();
+        return;
+      }
       if (result.correct) {
         vfCorrect++; selected.classList.add('choice-correct'); playSuccessSound();
         setVfFeedback('Bien vu, cette réponse correspond au texte.', 'success');
@@ -73,7 +82,7 @@ if (vfRoot) {
         }, 'Passer cette affirmation →');
       }
     } catch (_) {
-      vf.choices.forEach(button => button.disabled = false);
+      vfChoiceGroup.querySelectorAll('button').forEach(button => button.disabled = false);
       setVfFeedback('La réponse n’a pas pu être enregistrée. Réessayez.', 'try-again');
     } finally { vfBusy = false; }
   }
@@ -82,12 +91,12 @@ if (vfRoot) {
     vf.text.textContent = ''; vf.question.textContent = 'Les affirmations travaillées sont enregistrées dans votre progression.';
     vf.claim.textContent = ''; vf.level.textContent = 'Votre progression';
     stopOralPlayer(vf.audio);
-    vf.choices.forEach(button => button.classList.add('hidden'));
+    vfChoiceGroup.querySelectorAll('button').forEach(button => button.classList.add('hidden'));
     vf.next.classList.add('hidden'); vf.reveal.classList.add('hidden'); setVfFeedback(''); vf.meter.style.width = '100%';
     vf.summary.textContent = `${vfCorrect} / ${vfTotal} affirmations comprises.`;
     vf.summary.classList.remove('hidden'); vf.start.textContent = 'Recommencer →'; vf.start.classList.remove('hidden');
   }
-  vf.start.addEventListener('click', () => { vf.choices.forEach(button => button.classList.remove('hidden')); startVfSession(); });
+  vf.start.addEventListener('click', () => { startVfSession(); });
   vf.next.addEventListener('click', () => { clearAutoAdvance(); loadVfClaim(); });
   vf.choices.forEach(button => button.addEventListener('click', () => answerVf(button.dataset.vfAnswer === 'true', button)));
 }
@@ -100,6 +109,7 @@ if (orderRoot) {
     events: document.querySelector('#order-events'), feedback: document.querySelector('#order-feedback'),
     reveal: document.querySelector('#order-reveal'), meter: document.querySelector('#order-meter'),
     start: document.querySelector('#order-start'), check: document.querySelector('#order-check'),
+    skip: document.querySelector('#order-skip'),
     next: document.querySelector('#order-next'), summary: document.querySelector('#order-summary')
   };
   const orderTotal = Math.min(2, Number(orderRoot.dataset.total || 0));
@@ -144,7 +154,7 @@ if (orderRoot) {
 
   async function loadOrderStory() {
     if (turn >= orderTotal) return finishOrderSession();
-    order.current = null; order.next.classList.add('hidden'); order.check.classList.remove('hidden');
+    order.current = null; order.next.classList.add('hidden'); order.check.classList.remove('hidden'); order.skip.classList.remove('hidden'); order.skip.disabled = false;
     order.check.disabled = false; order.reveal.classList.add('hidden'); setOrderFeedback('');
     order.events.replaceChildren(); order.events.classList.add('hidden'); stopOralPlayer(order.audio);
     order.count.textContent = `Récit · ${turn + 1} / ${orderTotal}`;
@@ -158,7 +168,7 @@ if (orderRoot) {
       renderOrderEvents(item.events); loadOralPlayer(order.audio, item.text);
     } catch (_) {
       setOrderFeedback('Le récit n’a pas pu être chargé. Réessayez.', 'try-again');
-      order.check.classList.add('hidden'); order.start.textContent = 'Réessayer →'; order.start.classList.remove('hidden');
+      order.check.classList.add('hidden'); order.skip.classList.add('hidden'); order.start.textContent = 'Réessayer →'; order.start.classList.remove('hidden');
     }
   }
 
@@ -185,7 +195,7 @@ if (orderRoot) {
       correct++; [...order.events.querySelectorAll('button')].forEach(button => button.disabled = true);
       setOrderFeedback('Dans le bon ordre !', 'success');
       order.reveal.textContent = result.explanation; order.reveal.classList.remove('hidden');
-      order.check.classList.add('hidden'); turn++;
+      order.check.classList.add('hidden'); order.skip.classList.add('hidden'); turn++;
       order.meter.style.width = `${Math.round(turn / orderTotal * 100)}%`;
       order.next.textContent = turn >= orderTotal ? 'Voir le résultat →' : 'Récit suivant →';
       order.next.classList.remove('hidden'); playSuccessSound();
@@ -194,13 +204,30 @@ if (orderRoot) {
     } finally { busy = false; }
   }
 
+  async function skipOrderStory() {
+    if (!order.current || busy) return;
+    busy = true; order.check.disabled = true; order.skip.disabled = true;
+    try {
+      const response = await fetch(appPath('/api/comprehension/order/answer'), {
+        method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({id: order.current.id, skip: true})
+      });
+      if (!response.ok) throw new Error('Passage impossible à enregistrer');
+      turn++; order.check.classList.add('hidden'); order.skip.classList.add('hidden');
+      setOrderFeedback('Récit passé. On continue.');
+      await loadOrderStory();
+    } catch (_) {
+      order.check.disabled = false; setOrderFeedback('Impossible de passer ce récit. Réessayez.', 'try-again');
+    } finally { busy = false; order.skip.disabled = false; }
+  }
+
   function startOrderSession() {
     turn = 0; correct = 0; current = null; seen.clear(); order.start.classList.add('hidden');
     order.summary.classList.add('hidden'); order.events.classList.remove('hidden'); loadOrderStory();
   }
 
   function finishOrderSession() {
-    stopOralPlayer(order.audio); order.events.classList.add('hidden'); order.check.classList.add('hidden');
+    stopOralPlayer(order.audio); order.events.classList.add('hidden'); order.check.classList.add('hidden'); order.skip.classList.add('hidden');
     order.next.classList.add('hidden'); order.meter.style.width = '100%';
     order.summary.textContent = `${correct} / ${orderTotal} récits remis dans l’ordre.`;
     order.summary.classList.remove('hidden'); order.start.textContent = 'Recommencer →'; order.start.classList.remove('hidden');
@@ -208,5 +235,6 @@ if (orderRoot) {
 
   order.start.addEventListener('click', startOrderSession);
   order.check.addEventListener('click', checkOrder);
+  order.skip.addEventListener('click', skipOrderStory);
   order.next.addEventListener('click', loadOrderStory);
 }

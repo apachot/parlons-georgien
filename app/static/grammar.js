@@ -48,15 +48,26 @@ async function loadGrammarQuestion() {
     const button = document.createElement('button'); button.type = 'button'; button.className = 'choice'; button.textContent = option;
     button.addEventListener('click', () => answerGrammar(option, button)); grammar.choices.append(button);
   });
+  offerDontKnowButton(grammar.choices, button => answerGrammar('', button, true));
 }
 
-async function answerGrammar(answer, selected) {
+async function answerGrammar(answer, selected, skipped = false) {
   if (!grammarCurrent || grammarBusy || grammarLocked) return;
   grammarBusy = true;
   try {
     const response = await fetch(appPath('/api/grammar/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:grammarCurrent.id, answer})});
     const result = await response.json();
     if (!response.ok) throw new Error(result.error || 'Correction impossible');
+    if (skipped) {
+      grammarLocked = true; grammarSeen.add(grammarCurrent.id); grammarTurn++;
+      grammar.score.textContent = `${grammarCorrect} / ${grammarTurn}`;
+      grammar.choices.querySelectorAll('button').forEach(button => button.disabled = true);
+      grammar.feedback.textContent = `Question passée. Réponse : ${result.answer}. ${result.explanation || ''}`;
+      grammar.feedback.className = 'feedback try-again';
+      grammar.next.textContent = grammarSeen.size >= grammarTotal ? 'Terminer la série →' : 'Question suivante →';
+      grammar.next.classList.remove('hidden');
+      return;
+    }
     if (!result.correct) {
       selected.disabled = true; selected.classList.add('choice-wrong');
       grammar.feedback.textContent = 'Pas tout à fait. Gardez cette question et réessayez.';

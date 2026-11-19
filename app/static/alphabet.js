@@ -61,7 +61,18 @@ function nextSpeedLetter() {
     button.addEventListener('click', () => answerSpeedLetter(button, item, index));
     speed.choices.append(button);
   });
+  offerDontKnowButton(speed.choices, button => skipSpeedLetter());
   speedLocked = false;
+}
+
+async function skipSpeedLetter() {
+  if (!speedCurrentLetter || speedLocked || Date.now() >= speedEndsAt) return;
+  speedLocked = true; speedAnswerCount++;
+  speed.choices.querySelectorAll('button').forEach(button => button.disabled = true);
+  speed.feedback.textContent = 'Lettre passée. On continue.';
+  speed.correct.textContent = String(speedCorrectCount); updateSpeedStats();
+  fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:speedCurrentLetter.id, kind:'alphabet', answer:''})}).catch(() => {});
+  if (Date.now() < speedEndsAt) speedAdvanceTimer = setTimeout(nextSpeedLetter, 120);
 }
 
 function answerSpeedLetter(button, choice) {
@@ -219,6 +230,17 @@ async function newLetterQuestion() {
           }
         }
       }); holder.append(button);
+    });
+    offerDontKnowButton(holder, async button => {
+      if (generation !== letterQuestionGeneration || answering) return;
+      answering = true; holder.querySelectorAll('button').forEach(option => option.disabled = true);
+      try {
+        const skipped = await fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:question.id, kind:'alphabet', answer:''})});
+        if (!skipped.ok) throw new Error('Passage impossible');
+        if (generation === letterQuestionGeneration) advanceLetterRecognition();
+      } catch (_) {
+        if (generation === letterQuestionGeneration) { holder.querySelectorAll('button').forEach(option => option.disabled = false); feedback.textContent = 'Impossible de passer cette question. Réessayez.'; answering = false; }
+      }
     });
     playSpeech(question.prompt, 'ka', audioButton);
   } catch (_) {

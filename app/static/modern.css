@@ -278,6 +278,7 @@ h3 { letter-spacing: -.025em; }
 .cefr-pill { border-color: #d5e9df; background: #edf7f1; color: var(--green); }
 .course-slide { border-radius: 24px; background: linear-gradient(145deg, #fff, #f7fbf8); box-shadow: var(--surface-shadow); }
 .course-quiz-option { border-radius: 14px; }
+.dont-know-button { grid-column: 1 / -1; justify-self: start; margin-top: 10px; }
 .course-result { border-radius: 24px; background: linear-gradient(145deg, #eff8f1, #fff6ee); }
 
 footer {

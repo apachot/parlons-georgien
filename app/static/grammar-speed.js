@@ -47,6 +47,7 @@ if (grammarSpeedRoot) {
         button.addEventListener('click', () => answerSpeedQuestion(option, button));
         speed.choices.append(button);
       });
+      offerDontKnowButton(speed.choices, button => answerSpeedQuestion('', button, true));
     } catch (_) {
       speed.feedback.textContent = 'La question n’a pas pu être chargée. Réessayez.';
       speed.feedback.className = 'feedback try-again';
@@ -56,7 +57,7 @@ if (grammarSpeedRoot) {
     }
   }
 
-  async function answerSpeedQuestion(answer, selected) {
+  async function answerSpeedQuestion(answer, selected, skipped = false) {
     if (!current || busy || selected.disabled || Date.now() >= endsAt) return;
     busy = true; selected.disabled = true; attempts++;
     try {
@@ -66,6 +67,14 @@ if (grammarSpeedRoot) {
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'Correction impossible');
+      if (skipped) {
+        seen.add(current.id);
+        speed.feedback.textContent = `Question passée. Réponse : ${result.answer}.`;
+        speed.feedback.className = 'feedback try-again';
+        updateSpeedStats();
+        advance = setTimeout(loadSpeedQuestion, 180);
+        return;
+      }
       if (!result.correct) {
         selected.classList.add('choice-wrong');
         speed.feedback.textContent = 'Pas tout à fait. Gardez cette question et choisissez une autre forme.';

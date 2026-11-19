@@ -41,6 +41,7 @@ if (dialogueFlashRoot) {
         button.append(text, key); button.addEventListener('click', () => answerFlashQuestion(option.ka, button));
         flash.options.append(button);
       });
+      offerDontKnowButton(flash.options, button => answerFlashQuestion('', button, true));
       flash.replay.disabled = false; speakFlashPrompt();
     } catch (_) {
       setFlashFeedback('La réplique n’a pas pu être chargée. Réessayez.', 'try-again');
@@ -48,7 +49,7 @@ if (dialogueFlashRoot) {
     }
   }
 
-  async function answerFlashQuestion(answer, selected) {
+  async function answerFlashQuestion(answer, selected, skipped = false) {
     if (!current || busy || selected.disabled) return;
     busy = true; selected.disabled = true;
     try {
@@ -58,6 +59,15 @@ if (dialogueFlashRoot) {
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'Correction impossible');
+      if (skipped) {
+        turn++;
+        flash.options.querySelectorAll('button').forEach(button => button.disabled = true);
+        flash.score.textContent = `${correct} / ${turn}`;
+        flash.meter.style.width = `${Math.round(turn / sessionSize * 100)}%`;
+        setFlashFeedback('Réplique passée. On continue la conversation.', 'try-again');
+        loadFlashQuestion();
+        return;
+      }
       if (!result.correct) {
         selected.classList.add('choice-wrong');
         setFlashFeedback('Cette réplique ne convient pas. Écoutez encore et essayez une autre réponse.', 'try-again');

@@ -33,13 +33,14 @@ if (clozeRoot) {
         button.addEventListener('click', () => answerClozeQuestion(option, button));
         cloze.options.append(button);
       });
+      offerDontKnowButton(cloze.options, button => answerClozeQuestion('', button, true));
     } catch (_) {
       setClozeFeedback('La phrase n’a pas pu être chargée. Réessayez.', 'try-again');
       cloze.start.textContent = 'Réessayer →'; cloze.start.classList.remove('hidden');
     }
   }
 
-  async function answerClozeQuestion(answer, selected) {
+  async function answerClozeQuestion(answer, selected, skipped = false) {
     if (!current || busy || selected.disabled) return;
     busy = true; selected.disabled = true;
     try {
@@ -49,6 +50,13 @@ if (clozeRoot) {
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || 'Correction impossible');
+      if (skipped) {
+        turn++;
+        cloze.meter.style.width = `${Math.round(turn / sessionSize * 100)}%`;
+        setClozeFeedback('Phrase passée. On continue.');
+        loadClozeQuestion();
+        return;
+      }
       if (!result.correct) {
         selected.classList.add('choice-wrong');
         cloze.options.querySelectorAll('button').forEach(button => button.disabled = button === selected);

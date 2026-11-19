@@ -310,6 +310,7 @@ if (sentenceRoot) {
     answer: document.querySelector('#sentence-dictation-answer'),
     start: document.querySelector('#sentence-dictation-start'),
     check: document.querySelector('#sentence-dictation-check'),
+    skip: document.querySelector('#sentence-dictation-skip'),
     next: document.querySelector('#sentence-dictation-next'),
     summary: document.querySelector('#sentence-dictation-summary')
   };
@@ -326,7 +327,7 @@ if (sentenceRoot) {
     if (turn >= sessionSize) return finishSentenceSession();
     current = null; sentence.input.value = ''; sentence.input.disabled = false;
     sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = false);
-    sentence.check.disabled = false; sentence.check.classList.remove('hidden'); sentence.next.classList.add('hidden');
+    sentence.check.disabled = false; sentence.check.classList.remove('hidden'); sentence.skip.classList.remove('hidden'); sentence.skip.disabled = false; sentence.next.classList.add('hidden');
     sentence.answer.classList.add('hidden'); sentenceFeedback('');
     sentence.count.textContent = `Phrases · ${turn + 1} / ${sessionSize}`;
     try {
@@ -369,17 +370,32 @@ if (sentenceRoot) {
       sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = true);
       sentence.answer.textContent = result.explanation; sentence.answer.classList.remove('hidden');
       sentenceFeedback(attempts === 1 ? 'Bien joué, juste du premier coup !' : 'Bonne correction, la phrase est juste.', 'success');
-      sentence.check.classList.add('hidden'); sentence.next.textContent = turn >= sessionSize ? 'Voir le résultat →' : 'Phrase suivante →';
+      sentence.check.classList.add('hidden'); sentence.skip.classList.add('hidden'); sentence.next.textContent = turn >= sessionSize ? 'Voir le résultat →' : 'Phrase suivante →';
       sentence.next.classList.remove('hidden'); playSuccessSound();
     } catch (_) {
       sentence.check.disabled = false; sentenceFeedback('La réponse n’a pas pu être vérifiée. Réessayez.', 'try-again');
     } finally { busy = false; }
   }
 
+  async function skipSentence() {
+    if (!current || busy) return;
+    busy = true; sentence.skip.disabled = true; sentence.check.disabled = true;
+    try {
+      const response = await fetch(appPath('/api/dictations/sentences/answer'), {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({id: current.id, answer: ''})});
+      const result = await response.json(); if (!response.ok) throw new Error(result.error || 'Passage impossible');
+      turn++; sentence.input.value = result.solution; sentence.input.disabled = true;
+      sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = true);
+      sentence.answer.textContent = result.explanation; sentence.answer.classList.remove('hidden');
+      sentenceFeedback('Phrase passée. On continue.'); sentence.check.classList.add('hidden'); sentence.skip.classList.add('hidden');
+      sentence.next.textContent = turn >= sessionSize ? 'Voir le résultat →' : 'Phrase suivante →'; sentence.next.classList.remove('hidden');
+    } catch (_) { sentence.skip.disabled = false; sentence.check.disabled = false; sentenceFeedback('Impossible de passer cette phrase. Réessayez.', 'try-again'); }
+    finally { busy = false; }
+  }
+
   function finishSentenceSession() {
     current = null; sentence.prompt.textContent = 'Séance terminée.'; sentence.count.textContent = 'Traduction de phrases';
     sentence.input.disabled = true; sentence.keyboard.querySelectorAll('button').forEach(button => button.disabled = true);
-    sentence.check.classList.add('hidden'); sentence.next.classList.add('hidden'); sentence.answer.classList.add('hidden'); sentenceFeedback('');
+    sentence.check.classList.add('hidden'); sentence.skip.classList.add('hidden'); sentence.next.classList.add('hidden'); sentence.answer.classList.add('hidden'); sentenceFeedback('');
     sentence.summary.textContent = `${firstTry} / ${turn} phrases justes du premier coup. Votre progression est enregistrée.`;
     sentence.summary.classList.remove('hidden'); sentence.start.textContent = 'Recommencer →'; sentence.start.classList.remove('hidden');
   }
@@ -409,6 +425,7 @@ if (sentenceRoot) {
     sentence.start.classList.add('hidden'); sentence.input.disabled = false; loadSentence();
   });
   sentence.check.addEventListener('click', checkSentence);
+  sentence.skip.addEventListener('click', skipSentence);
   sentence.next.addEventListener('click', loadSentence);
   sentence.input.addEventListener('keydown', event => {
     if (event.key === 'Enter') { event.preventDefault(); checkSentence(); }

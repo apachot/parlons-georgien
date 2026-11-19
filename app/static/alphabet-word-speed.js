@@ -32,6 +32,14 @@ if (wordDataNode && wordSpeedRoot) {
       const number = document.createElement('small'); number.textContent = String(index + 1);
       button.append(label, number); button.addEventListener('click', () => answer(button, value)); ui.choices.append(button);
     });
+    offerDontKnowButton(ui.choices, () => skipWord());
+  }
+  async function skipWord() {
+    if (locked || !current || Date.now() >= endsAt) return;
+    locked = true; attempts++; ui.choices.querySelectorAll('button').forEach(button => button.disabled = true);
+    ui.feedback.textContent = 'Mot passé. On continue.'; ui.accuracy.textContent = `${Math.round(correct * 100 / attempts)} %`;
+    fetch(appPath('/api/answer'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({id:current.id, kind:'vocabulary', answer:''})}).catch(() => {});
+    update(); if (Date.now() < endsAt) nextTimer = setTimeout(nextWord, 120);
   }
   function answer(button, value) {
     if (locked || !current || Date.now() >= endsAt) return;

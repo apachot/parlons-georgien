@@ -26,7 +26,7 @@
   <div class="dictation-controls">
     <button class="button primary" id="dictation-start">Commencer →</button>
     <button class="button secondary hidden" id="dictation-check">Vérifier</button>
-    <button class="button secondary hidden" id="dictation-skip">Passer ce mot</button>
+    <button class="button secondary hidden" id="dictation-skip">Je ne sais pas →</button>
     <button class="button primary hidden" id="dictation-next">Mot suivant →</button>
   </div>
   <div class="lesson-summary hidden" id="dictation-summary" aria-live="polite"></div>
@@ -40,7 +40,7 @@
   <div class="sentence-listening-player"><button type="button" class="button primary" id="listening-dictation-play">▶ Écouter la phrase</button><span id="listening-dictation-status" aria-live="polite">La phrase reste cachée.</span></div>
   <div class="typed-answer"><label for="listening-dictation-input">Votre transcription en géorgien</label><input id="listening-dictation-input" lang="ka" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Écrivez la phrase entendue"><div id="listening-dictation-keyboard" class="virtual-keyboard" aria-label="Clavier géorgien"></div></div>
   <div class="feedback" id="listening-dictation-feedback" aria-live="polite"></div><div class="reading-reveal hidden" id="listening-dictation-answer" aria-live="polite"></div>
-  <div class="dictation-controls"><button class="button primary" id="listening-dictation-start">Commencer →</button><button class="button secondary hidden" id="listening-dictation-check">Vérifier</button><button class="button primary hidden" id="listening-dictation-next">Phrase suivante →</button></div>
+  <div class="dictation-controls"><button class="button primary" id="listening-dictation-start">Commencer →</button><button class="button secondary hidden" id="listening-dictation-check">Vérifier</button><button class="button secondary hidden" id="listening-dictation-skip">Je ne sais pas →</button><button class="button primary hidden" id="listening-dictation-next">Phrase suivante →</button></div>
   <div class="lesson-summary hidden" id="listening-dictation-summary" aria-live="polite"></div>
 </section>
 
@@ -58,11 +58,11 @@
   <div class="reading-reveal hidden" id="sentence-dictation-answer" aria-live="polite"></div>
   <div class="dictation-controls">
     <button class="button primary" id="sentence-dictation-start">Commencer →</button>
-    <button class="button secondary hidden" id="sentence-dictation-check">Vérifier</button>
+    <button class="button secondary hidden" id="sentence-dictation-check">Vérifier</button><button class="button secondary hidden" id="sentence-dictation-skip">Je ne sais pas →</button>
     <button class="button primary hidden" id="sentence-dictation-next">Phrase suivante →</button>
   </div>
   <div class="lesson-summary hidden" id="sentence-dictation-summary" aria-live="polite"></div>
 </section>
 
 {% endblock %}
-{% block scripts %}<script src="{{ url_for('static', filename='dictations.js') }}?v=sentences-v2" defer></script><script src="{{ url_for('static', filename='dictation-listening.js') }}?v=phrase-audio-v2" defer></script>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='dictations.js') }}?v=dont-know-v1" defer></script><script src="{{ url_for('static', filename='dictation-listening.js') }}?v=dont-know-v1" defer></script>{% endblock %}
