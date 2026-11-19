@@ -84,7 +84,7 @@ if (dialogueFlashRoot) {
       });
       flash.score.textContent = `${correct} / ${turn}`;
       flash.meter.style.width = `${Math.round(turn / sessionSize * 100)}%`;
-      flash.reveal.textContent = `« ${result.prompt_fr} » → ${result.answer_fr}`;
+      flash.reveal.textContent = `Bonne réponse : ${selected.querySelector('.ka')?.textContent || ''}`;
       flash.reveal.classList.remove('hidden'); setFlashFeedback('Bonne réponse, la conversation continue !', 'success');
       flash.next.textContent = turn >= sessionSize ? 'Voir le résultat →' : 'Réplique suivante →';
       flash.next.classList.remove('hidden'); playSuccessSound();

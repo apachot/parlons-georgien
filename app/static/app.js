@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
       step.querySelectorAll('.dialogue-choice').forEach(choice => choice.addEventListener('click', () => {
         const reply = step.querySelector('.dialogue-reply');
         const correct = choice.dataset.correct === 'true';
-        reply.textContent = correct ? `Bonne réponse : ${choice.dataset.ka} · ${choice.dataset.fr}` : 'Cette réponse ne correspond pas à la situation. Réessayez.';
+        reply.textContent = correct ? `Bonne réponse : ${choice.dataset.ka}` : 'Cette réponse ne correspond pas à la situation. Réessayez.';
         reply.className = 'dialogue-reply ' + (correct ? 'success' : 'try-again');
         if (correct) {
           playSuccessSound();
@@ -179,13 +179,6 @@ document.addEventListener('DOMContentLoaded', () => {
       advance.classList.toggle('hidden', !!steps[current].querySelector('.dialogue-choices'));
     });
   });
-  document.querySelectorAll('.dialogue-immersion-toggle').forEach(immersionButton => immersionButton.addEventListener('click', () => {
-    const immersive = document.body.classList.toggle('dialogue-immersion');
-    document.querySelectorAll('.dialogue-immersion-toggle').forEach(button => {
-      button.setAttribute('aria-pressed', String(immersive));
-      button.textContent = immersive ? 'Afficher le français' : 'Masquer le français';
-    });
-  }));
   refreshExerciseDifficulty();
 });
 

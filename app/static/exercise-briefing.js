@@ -111,7 +111,7 @@
     configs.push({
       start: `#dialogue-${index}-start`,
       goal: 'Suivre une conversation en géorgien et trouver des réponses adaptées à chaque situation.',
-      method: 'Lisez et écoutez les répliques. Quand un choix apparaît, sélectionnez la réponse qui convient. Les traductions restent disponibles à la demande.',
+      method: 'Écoutez et lisez les répliques en géorgien. Quand un choix apparaît, sélectionnez la réponse qui convient, sans traduction française.',
       plan: scene => {
         const turns = scene.querySelectorAll('.dialogue-step').length;
         const choices = scene.querySelectorAll('.dialogue-choices').length;

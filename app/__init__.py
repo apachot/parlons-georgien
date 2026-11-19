@@ -937,8 +937,9 @@ def create_app(test_config=None):
         item = random.choice(candidates)
         options = list(item["options"])
         random.shuffle(options)
-        return jsonify({key: item[key] for key in ("id", "scene", "prompt", "prompt_fr")} |
-                       {"options": options, "total": len(questions)})
+        return jsonify({key: item[key] for key in ("id", "scene", "prompt")} |
+                       {"options": [{"ka": option["ka"]} for option in options],
+                        "total": len(questions)})
 
     @app.post("/api/dialogues/flash/answer")
     def answer_dialogue_flash():
@@ -962,8 +963,7 @@ def create_app(test_config=None):
         db.session.commit()
         if not correct:
             return jsonify({"correct": False})
-        return jsonify({"correct": True, "prompt_fr": item["prompt_fr"],
-                        "answer_fr": item["answer_fr"]})
+        return jsonify({"correct": True})
 
     @app.get("/session")
     def session():
