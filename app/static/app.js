@@ -63,9 +63,8 @@ document.addEventListener('DOMContentLoaded', () => {
   levelDialog?.querySelector('[data-level-dialog-close]')?.addEventListener('click', () => levelDialog.close());
   levelDialog?.addEventListener('click', event => { if (event.target === levelDialog) levelDialog.close(); });
   levelDialog?.querySelectorAll('[data-practice-level]').forEach(option => option.addEventListener('click', () => {
-    let panel = activityPanels.find(item => !item.classList.contains('hidden') && item.dataset.difficulty);
+    const panel = activityPanels.find(item => !item.classList.contains('hidden') && item.dataset.difficulty);
     if (!panel || option.disabled) return;
-    if (panel.matches('.dialogue-card')) panel = document.querySelector('#dialogue-flash') || panel;
     const context = {path: location.pathname, panel: panel.id, activity: window.getActiveVocabularyGame?.() || '',
       category: document.querySelector('.grammar-category-list button.active')?.dataset.category || '',
       direction: document.querySelector('[data-dictation-direction].active')?.dataset.dictationDirection || '',
@@ -130,6 +129,25 @@ document.addEventListener('DOMContentLoaded', () => {
     let current = 0;
     let dialogueAdvanceTimer = null;
     const advance = card.querySelector('.dialogue-advance');
+    const start = card.querySelector('.dialogue-start');
+    const replay = card.querySelector('.dialogue-replay');
+    const finish = card.querySelector('.dialogue-finish');
+    const resetDialogue = () => {
+      if (dialogueAdvanceTimer !== null) window.clearTimeout(dialogueAdvanceTimer);
+      dialogueAdvanceTimer = null;
+      current = 0;
+      steps.forEach((step, index) => {
+        step.classList.toggle('hidden', index !== 0);
+        step.querySelectorAll('.dialogue-choice').forEach(button => { button.disabled = false; });
+        const reply = step.querySelector('.dialogue-reply');
+        if (reply) { reply.textContent = ''; reply.className = 'dialogue-reply'; }
+      });
+      advance.classList.toggle('hidden', !!steps[0]?.querySelector('.dialogue-choices'));
+      finish.classList.add('hidden');
+      start.classList.add('hidden');
+    };
+    start?.addEventListener('click', resetDialogue);
+    replay?.addEventListener('click', () => start?.click());
     steps.forEach((step, index) => {
       if (!step.querySelector('.dialogue-choices') && index === 0) advance.classList.remove('hidden');
       step.querySelectorAll('.dialogue-choice').forEach(choice => choice.addEventListener('click', () => {
@@ -154,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
       steps[current]?.classList.add('hidden'); current++;
       if (current >= steps.length) {
         advance.classList.add('hidden');
-        card.querySelector('.dialogue-finish').classList.remove('hidden');
+        finish.classList.remove('hidden');
         return;
       }
       steps[current].classList.remove('hidden');

@@ -106,6 +106,21 @@
     }
   ];
 
+  document.querySelectorAll('.dialogue-card[data-dialogue]').forEach(root => {
+    const index = root.dataset.dialogue;
+    configs.push({
+      start: `#dialogue-${index}-start`,
+      goal: 'Suivre une conversation en géorgien et trouver des réponses adaptées à chaque situation.',
+      method: 'Lisez et écoutez les répliques. Quand un choix apparaît, sélectionnez la réponse qui convient. Les traductions restent disponibles à la demande.',
+      plan: scene => {
+        const turns = scene.querySelectorAll('.dialogue-step').length;
+        const choices = scene.querySelectorAll('.dialogue-choices').length;
+        return `${turns} répliques · ${choices} choix de réponse`;
+      },
+      score: 'La scène est validée lorsque vous avez parcouru toutes les répliques et répondu aux choix. Vous pourrez ensuite revoir ou rejouer le dialogue.'
+    });
+  });
+
   function exerciseName(root, config) {
     if (config.name) return config.name;
     if (root.id === 'grammar-practice') {
