@@ -457,14 +457,16 @@ def create_app(test_config=None):
         link = url_for("verify_email", token=token, _external=True)
         image_url = url_for("static", filename="images/tbilisi-old-town-email.jpg", _external=True)
         message = EmailMessage()
-        message["Subject"] = "Confirmez votre adresse e-mail — Parlons géorgien"
+        message["Subject"] = "Bienvenue sur Parlons géorgien — confirmez votre adresse"
         from_name, from_address = parseaddr(app.config["MAIL_FROM"])
         message["From"] = app.config["MAIL_FROM"] if from_name else formataddr(("Parlons géorgien", from_address))
         message["To"] = account.email
         message.set_content(
             f"Bonjour {account.display_name},\n\n"
-            "Vous avez demandé la création d’un compte sur Parlons géorgien. "
-            "Confirmez votre adresse e-mail pour l’activer :\n\n"
+            "Bienvenue sur Parlons géorgien ! Votre compte est presque prêt.\n\n"
+            "Confirmez votre adresse e-mail pour l’activer. Vous pourrez ensuite retrouver votre progression "
+            "et découvrir des leçons, des exercices et des jeux pour lire, écouter et pratiquer le géorgien à votre rythme.\n\n"
+            "Confirmer mon adresse e-mail :\n"
             f"{link}\n\n"
             "Ce lien personnel expire dans 24 heures.\n\n"
             "Si vous n’êtes pas à l’origine de cette demande, ignorez ce message. "
@@ -493,8 +495,9 @@ def create_app(test_config=None):
           </td></tr>
           <tr><td style="padding:34px 30px 30px;">
             <p style="margin:0 0 10px;color:#65756c;font-size:12px;">Bonjour {escaped_name},</p>
-            <h1 style="margin:0 0 14px;color:#203f37;font-size:25px;line-height:1.25;font-weight:700;">Confirmez votre adresse e-mail</h1>
-            <p style="margin:0 0 24px;color:#45564f;font-size:15px;line-height:1.65;">Vous avez demandé la création d’un compte sur Parlons géorgien. Confirmez votre adresse pour l’activer.</p>
+            <h1 style="margin:0 0 14px;color:#203f37;font-size:25px;line-height:1.25;font-weight:700;">Bienvenue sur Parlons géorgien !</h1>
+            <p style="margin:0 0 12px;color:#45564f;font-size:15px;line-height:1.65;">Votre compte est presque prêt. Confirmez votre adresse e-mail pour l’activer.</p>
+            <p style="margin:0 0 24px;color:#45564f;font-size:15px;line-height:1.65;">Vous pourrez ensuite retrouver votre progression et découvrir des leçons, des exercices et des jeux pour lire, écouter et pratiquer le géorgien à votre rythme.</p>
             <table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td bgcolor="#315f4d" style="background:#315f4d;">
               <a href="{escaped_link}" style="display:inline-block;padding:14px 20px;color:#ffffff;text-decoration:none;font-size:14px;font-weight:700;">Confirmer mon adresse e-mail</a>
             </td></tr></table>
