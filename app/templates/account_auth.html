@@ -5,6 +5,10 @@
   <div class="account-auth-aside"><span class="exercise-level-kicker">Parlons géorgien · votre espace</span><h1>{{ 'Gardez le fil de vos progrès.' if mode == 'register' else 'Ravi de vous retrouver.' }}</h1><p>Retrouvez votre niveau estimé, vos résultats et vos leçons sur tous vos appareils.</p><div class="account-auth-benefits"><span>✦ Progression sauvegardée</span><span>✦ Historique de vos exercices</span><span>✦ Leçons reprises où vous en étiez</span></div></div>
   <form class="account-form" method="post" action="{{ url_for('register_submit') if mode == 'register' else url_for('login_submit') }}">
     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="next" value="{{ next_url }}">
+    <nav class="account-auth-choice" aria-label="Accès à votre progression">
+      <a href="{{ url_for('register', next=next_url) }}" {% if mode == 'register' %}aria-current="page"{% endif %}>Créer un compte</a>
+      <a href="{{ url_for('login', next=next_url) }}" {% if mode != 'register' %}aria-current="page"{% endif %}>Se connecter</a>
+    </nav>
     <span class="exercise-level-kicker">{{ 'Inscription gratuite' if mode == 'register' else 'Connexion à votre compte' }}</span>
     <h2>{{ 'Créer mon compte' if mode == 'register' else 'Me connecter' }}</h2>
     {% if mode == 'register' %}<label>Votre prénom ou pseudo<input name="display_name" autocomplete="nickname" maxlength="80" value="{{ display_name or '' }}" required></label>
@@ -13,7 +17,7 @@
     <label>Adresse e-mail<input type="email" name="email" autocomplete="email" maxlength="254" value="{{ email or '' }}" required>{% if mode == 'register' %}<small>Un lien de confirmation sera envoyé avant l’activation du compte.</small>{% endif %}</label>
     <label>Mot de passe<input type="password" name="password" autocomplete="{{ 'new-password' if mode == 'register' else 'current-password' }}" minlength="{{ 8 if mode == 'register' else 1 }}" maxlength="256" required>{% if mode == 'register' %}<small>8 caractères minimum</small>{% endif %}</label>
     <button class="button primary" type="submit">{{ 'Créer mon compte' if mode == 'register' else 'Me connecter' }} <span>→</span></button>
-    <p class="account-form-switch">{{ 'Vous avez déjà un compte ?' if mode == 'register' else 'Pas encore de compte ?' }} <a href="{{ url_for('login', next=next_url) if mode == 'register' else url_for('register', next=next_url) }}">{{ 'Connexion' if mode == 'register' else 'Créer un compte' }}</a></p>
+    <p class="account-form-switch">{{ 'Vous avez déjà un compte ?' if mode == 'register' else 'Vous débutez ?' }} <a href="{{ url_for('login', next=next_url) if mode == 'register' else url_for('register', next=next_url) }}">{{ 'Se connecter' if mode == 'register' else 'Créer un compte' }}</a></p>
     <p class="account-privacy-note">Votre mot de passe est stocké sous forme de hachage sécurisé. Aucun e-mail marketing.</p>
   </form>
 </section>

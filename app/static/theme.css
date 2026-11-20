@@ -98,6 +98,11 @@ body {
 .account-auth-aside p, .account-section p, .account-page-head p { max-width: 500px; color: #73656a; font-size: 12px; line-height: 1.7; }
 .account-auth-benefits { display: grid; gap: 10px; margin-top: 24px; color: #644957; font-size: 11px; font-weight: 700; }
 .account-form { display: grid; align-content: center; gap: 14px; padding: clamp(25px, 5vw, 46px); }
+.account-auth-choice { display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 5px; border: 1px solid #e9dedb; background: #fffdfb; }
+.account-auth-choice a { display: block; padding: 12px 9px; color: #75676d; font-size: 11px; font-weight: 700; line-height: 1.3; text-align: center; text-decoration: none; }
+.account-auth-choice a:hover { background: #f8edef; color: #5b1e36; }
+.account-auth-choice a[aria-current="page"] { background: linear-gradient(135deg, #963b5a, #671f3e); color: #fff; }
+.account-auth-choice a:focus-visible { outline: 2px solid #812d4b; outline-offset: 2px; }
 .account-form h2 { margin: -8px 0 6px; font: 500 29px Georgia, serif; }
 .account-form label, .account-inline-form label, .account-actions label { display: grid; gap: 6px; color: #514248; font-size: 10px; font-weight: 700; }
 .account-form input, .account-inline-form input, .account-actions input { width: 100%; min-height: 43px; padding: 10px 12px; border: 1px solid #e6dcdd; border-radius: 0; background: white; color: var(--ink); font: 400 13px var(--sans); }
