@@ -64,6 +64,7 @@
     if (skill && profile.levels[skill]) return profile.levels[skill];
     return overallLevel();
   };
+  window.getLearningProgressSnapshot = () => JSON.parse(JSON.stringify(profile));
   window.getAdaptiveCefr = skill => {
     const overall = overallLevel();
     const personal = window.getEstimatedCefr(skill);
@@ -94,7 +95,8 @@
       placement.correct += score;
       profile.levels.placement = hysteresisLevel(placement.value, profile.levels.placement || levelFromRating(placement.value));
       profile.history.push({at: item.at || new Date().toISOString(), skill: 'placement', level, correct: item.correct,
-        score, attempts: 1, wrong: item.correct ? 0 : 1, rating: placement.value, source: 'placement-test'});
+        score, attempts: 1, wrong: item.correct ? 0 : 1, rating: placement.value,
+        estimatedLevel: hysteresisLevel(placement.value, profile.levels.placement || levelFromRating(placement.value)), source: 'placement-test'});
     });
     profile.ratings.placement = placement;
     profile.overallLevel = hysteresisLevel(overallRating(), profile.overallLevel || levelFromRating(overallRating()));
@@ -145,7 +147,7 @@
     profile.overallLevel = hysteresisLevel(overallRating(), profile.overallLevel || levelFromRating(overallRating()));
     profile.history.push({at: new Date().toISOString(), skill, level: question.level,
       correct: solved, score, attempts: question.wrong + (solved ? 1 : 0), wrong: question.wrong,
-      rating: overallRating()});
+      rating: overallRating(), estimatedLevel: profile.overallLevel});
     delete profile.pending[key];
     if (profile.history.length > 5000) profile.history.splice(0, profile.history.length - 5000);
     saveProfile();
@@ -263,10 +265,6 @@
     refreshBadge();
     installAnswerHistory();
     const dialog = document.querySelector('#progress-dialog');
-    document.querySelector('#learner-level')?.addEventListener('click', () => {
-      renderDialog();
-      dialog?.showModal();
-    });
     dialog?.querySelector('.progress-close')?.addEventListener('click', () => dialog.close());
     dialog?.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
     document.querySelector('#open-placement')?.addEventListener('click', () => {

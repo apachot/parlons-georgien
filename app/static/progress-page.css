@@ -1,0 +1,23 @@
+.account-progress-history{margin:0 0 14px;padding:clamp(19px,3vw,29px);border:1px solid #e9dce0;background:linear-gradient(135deg,#fffdfb,#fbf3f3 62%,#fff9ec);box-shadow:0 13px 34px rgba(74,35,48,.055)}
+.progress-history-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:22px}
+.progress-history-heading h2{margin:5px 0 8px;font:500 clamp(23px,3vw,31px)/1.15 Georgia,serif;letter-spacing:-.025em}
+.progress-history-heading p{max-width:540px;margin:0;color:#76686d;font-size:11px;line-height:1.65}
+.progress-history-current{display:grid;min-width:116px;gap:5px;padding:10px 13px;border-left:2px solid #d49a3c;background:rgba(255,255,255,.62)}
+.progress-history-current small{color:#827178;font-size:8px;font-weight:800;letter-spacing:.09em}
+.progress-history-current b{color:#6b2541;font:600 27px/1 Georgia,serif}
+.progress-history-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:21px 0 14px}
+.progress-history-stats>div{display:grid;gap:4px;padding:11px 13px;border-top:1px solid #eadde0;background:rgba(255,255,255,.52)}
+.progress-history-stats b{color:#5b1e36;font:600 21px/1.1 Georgia,serif}
+.progress-history-stats span{color:#796b70;font-size:9px}
+.daily-level-chart{min-height:150px;padding:10px 12px 6px;border:1px solid #eee2e3;background:rgba(255,255,255,.72)}
+.daily-level-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.daily-chart-guides line{stroke:#eadfe0;stroke-dasharray:3 5}
+.daily-chart-guides text,.daily-chart-labels text{fill:#86767c;font:11px Arial,sans-serif}
+.daily-chart-labels text{font-size:10px}
+.daily-level-chart polyline{fill:none;stroke:#812d4b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.daily-level-chart circle{fill:#d99a35;stroke:#fffdfb;stroke-width:2}
+.daily-level-note{margin:9px 0 0;color:#82757a;font-size:9px;line-height:1.5}
+.learner-level{text-decoration:none;cursor:pointer}
+.learner-level:hover{filter:brightness(.985);transform:translateY(-1px)}
+.learner-level:focus-visible{outline:3px solid #d99a35;outline-offset:3px}
+@media(max-width:620px){.account-progress-history{padding:17px 13px}.progress-history-heading{gap:10px}.progress-history-current{min-width:82px;padding:8px}.progress-history-current small{font-size:7px}.progress-history-current b{font-size:23px}.progress-history-stats{gap:5px}.progress-history-stats>div{padding:9px 7px}.progress-history-stats b{font-size:18px}.progress-history-stats span{font-size:8px}.daily-level-chart{padding:7px 4px 4px}}
