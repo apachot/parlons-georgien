@@ -5,6 +5,7 @@ from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from functools import wraps
 import hmac
+import html
 import re
 import secrets
 import smtplib
@@ -12,6 +13,7 @@ import ssl
 import threading
 import unicodedata
 from email.message import EmailMessage
+from email.utils import formataddr, parseaddr
 
 from flask import Flask, current_app, flash, g, jsonify, redirect, render_template, request, send_file, session as flask_session, url_for
 from flask_sqlalchemy import SQLAlchemy
@@ -455,12 +457,52 @@ def create_app(test_config=None):
         link = url_for("verify_email", token=token, _external=True)
         message = EmailMessage()
         message["Subject"] = "Confirmez votre adresse e-mail — Parlons géorgien"
-        message["From"] = app.config["MAIL_FROM"]
+        from_name, from_address = parseaddr(app.config["MAIL_FROM"])
+        message["From"] = app.config["MAIL_FROM"] if from_name else formataddr(("Parlons géorgien", from_address))
         message["To"] = account.email
         message.set_content(
             f"Bonjour {account.display_name},\n\n"
-            "Pour confirmer votre adresse e-mail et activer votre compte, ouvrez ce lien :\n"
-            f"{link}\n\nCe lien expire dans 24 heures. Si vous n’avez pas créé ce compte, ignorez ce message.\n"
+            "Vous avez demandé la création d’un compte sur Parlons géorgien. "
+            "Confirmez votre adresse e-mail pour l’activer :\n\n"
+            f"{link}\n\n"
+            "Ce lien personnel expire dans 24 heures.\n\n"
+            "Si vous n’êtes pas à l’origine de cette demande, ignorez ce message. "
+            "Aucun compte ne sera activé sans confirmation.\n\n"
+            "Parlons géorgien\nLe géorgien au quotidien\n"
+        )
+        escaped_name = html.escape(account.display_name)
+        escaped_link = html.escape(link, quote=True)
+        message.add_alternative(
+            f"""<!doctype html>
+<html lang="fr">
+  <body style="margin:0;padding:0;background:#f4f1e9;color:#243b35;font-family:Arial,Helvetica,sans-serif;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f1e9;">
+      <tr><td align="center" style="padding:32px 16px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:580px;background:#ffffff;border:1px solid #e5e0d5;">
+          <tr><td style="padding:22px 30px;background:#203f37;color:#ffffff;">
+            <p style="margin:0;font-size:17px;font-weight:700;letter-spacing:.02em;">Parlons géorgien !</p>
+            <p style="margin:5px 0 0;color:#d6e2d8;font-size:12px;">Le géorgien au quotidien</p>
+          </td></tr>
+          <tr><td style="padding:34px 30px 30px;">
+            <p style="margin:0 0 10px;color:#65756c;font-size:12px;">Bonjour {escaped_name},</p>
+            <h1 style="margin:0 0 14px;color:#203f37;font-size:25px;line-height:1.25;font-weight:700;">Confirmez votre adresse e-mail</h1>
+            <p style="margin:0 0 24px;color:#45564f;font-size:15px;line-height:1.65;">Vous avez demandé la création d’un compte sur Parlons géorgien. Confirmez votre adresse pour l’activer.</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td bgcolor="#315f4d" style="background:#315f4d;">
+              <a href="{escaped_link}" style="display:inline-block;padding:14px 20px;color:#ffffff;text-decoration:none;font-size:14px;font-weight:700;">Confirmer mon adresse e-mail</a>
+            </td></tr></table>
+            <p style="margin:22px 0 6px;color:#65756c;font-size:12px;line-height:1.6;">Le lien est personnel et expire dans 24 heures.</p>
+            <p style="margin:18px 0 5px;color:#65756c;font-size:12px;line-height:1.6;">Si le bouton ne fonctionne pas, copiez cette adresse dans votre navigateur :</p>
+            <p style="margin:0;color:#315f4d;font-size:12px;line-height:1.6;word-break:break-all;"><a href="{escaped_link}" style="color:#315f4d;">{escaped_link}</a></p>
+          </td></tr>
+          <tr><td style="padding:17px 30px;border-top:1px solid #e9e5dc;color:#6b756f;font-size:11px;line-height:1.6;">
+            Si vous n’êtes pas à l’origine de cette demande, ignorez ce message. Aucun compte ne sera activé sans confirmation.
+          </td></tr>
+        </table>
+      </td></tr>
+    </table>
+  </body>
+</html>""",
+            subtype="html",
         )
         with smtplib.SMTP(app.config["SMTP_HOST"], app.config["SMTP_PORT"], timeout=20) as smtp:
             smtp.ehlo()
