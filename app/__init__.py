@@ -441,7 +441,14 @@ def create_app(test_config=None):
         return URLSafeTimedSerializer(app.config["SECRET_KEY"], salt="parlons-georgien-email-verification")
 
     def mail_is_configured():
-        return bool(app.config["SMTP_HOST"] and app.config["MAIL_FROM"])
+        return bool(
+            app.config["SMTP_HOST"]
+            and app.config["SMTP_PORT"] in {587, 2525}
+            and app.config["SMTP_USE_TLS"]
+            and app.config["SMTP_USERNAME"]
+            and app.config["SMTP_PASSWORD"]
+            and app.config["MAIL_FROM"]
+        )
 
     def send_verification_email(account):
         token = verification_serializer().dumps({"user_id": account.id, "email": account.email})

@@ -30,6 +30,8 @@ Adaptez les chemins de sauvegarde et de transfert. Ne remplacez pas la base SQLi
 
 ## Validation des adresses e-mail
 
-Les nouveaux comptes doivent confirmer leur adresse avant de pouvoir se connecter. Les comptes existants sont conservés comme déjà validés. Configurez un relais SMTP avant d’ouvrir les inscriptions : copiez `deploy/mail.env.example` vers `/etc/parlons-georgien/mail.env`, renseignez les valeurs fournies par votre service de messagerie, protégez le fichier (`chmod 600`) et redémarrez le service. Ne placez jamais ces secrets dans Git.
+Les nouveaux comptes doivent confirmer leur adresse avant de pouvoir se connecter. Les comptes existants sont conservés comme déjà validés. Utilisez un relais SMTP transactionnel (l’exemple est prérempli pour Brevo) plutôt qu’un MTA d’envoi direct depuis le serveur. Dans le fournisseur, activez l’envoi transactionnel, authentifiez `parlonsgeorgien.fr` (DKIM et DMARC, plus les éventuels CNAME/SPF demandés) et vérifiez le sender `noreply@parlonsgeorgien.fr`. Laissez les MX OVH en place pour la réception. Si le fournisseur demande une autorisation SPF, fusionnez-la dans l’unique enregistrement SPF existant ; ne créez jamais un second SPF.
+
+Copiez `deploy/mail.env.example` vers `/etc/parlons-georgien/mail.env`, remplacez les deux valeurs SMTP avec le login SMTP et la clé SMTP (pas une clé API), puis protégez le fichier (`chmod 600`). L’application n’active l’inscription que si l’hôte, le login, la clé, le sender et STARTTLS sur le port 587 ou 2525 sont tous configurés. Ne placez jamais ces secrets dans Git.
 
 Le relais doit accepter TLS sur le port configuré. Le lien de validation est signé par la clé Flask du serveur et expire après 24 heures. Le formulaire de renvoi limite les envois à un message par minute et ne révèle pas si une adresse est associée à un compte.
