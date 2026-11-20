@@ -1,5 +1,6 @@
 .venv/
 .venv-tts/
+.env
 __pycache__/
 *.py[cod]
 instance/*.db
