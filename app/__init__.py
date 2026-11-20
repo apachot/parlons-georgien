@@ -455,6 +455,7 @@ def create_app(test_config=None):
     def send_verification_email(account):
         token = verification_serializer().dumps({"user_id": account.id, "email": account.email})
         link = url_for("verify_email", token=token, _external=True)
+        image_url = url_for("static", filename="images/tbilisi-old-town-email.jpg", _external=True)
         message = EmailMessage()
         message["Subject"] = "Confirmez votre adresse e-mail — Parlons géorgien"
         from_name, from_address = parseaddr(app.config["MAIL_FROM"])
@@ -472,6 +473,7 @@ def create_app(test_config=None):
         )
         escaped_name = html.escape(account.display_name)
         escaped_link = html.escape(link, quote=True)
+        escaped_image_url = html.escape(image_url, quote=True)
         message.add_alternative(
             f"""<!doctype html>
 <html lang="fr">
@@ -482,6 +484,12 @@ def create_app(test_config=None):
           <tr><td style="padding:22px 30px;background:#203f37;color:#ffffff;">
             <p style="margin:0;font-size:17px;font-weight:700;letter-spacing:.02em;">Parlons géorgien !</p>
             <p style="margin:5px 0 0;color:#d6e2d8;font-size:12px;">Le géorgien au quotidien</p>
+          </td></tr>
+          <tr><td style="padding:0;line-height:0;">
+            <img src="{escaped_image_url}" width="580" alt="Maisons et forteresse de la vieille ville de Tbilissi" style="display:block;width:100%;height:auto;border:0;">
+          </td></tr>
+          <tr><td style="padding:8px 30px 0;color:#778078;font-size:10px;line-height:1.5;">
+            Photo : <a href="https://commons.wikimedia.org/wiki/File:Old_Tbilisi_town_in_Tbilisi,_Georgia.jpg" style="color:#526b5e;">GeoO / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color:#526b5e;">CC BY-SA 4.0</a>
           </td></tr>
           <tr><td style="padding:34px 30px 30px;">
             <p style="margin:0 0 10px;color:#65756c;font-size:12px;">Bonjour {escaped_name},</p>
