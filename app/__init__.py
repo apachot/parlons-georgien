@@ -479,31 +479,31 @@ def create_app(test_config=None):
         message.add_alternative(
             f"""<!doctype html>
 <html lang="fr">
-  <body style="margin:0;padding:0;background:#f4f1e9;color:#243b35;font-family:Arial,Helvetica,sans-serif;">
+  <body style="margin:0;padding:0;background:#f4f1e9;color:#30242a;font-family:Arial,Helvetica,sans-serif;">
     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f1e9;">
       <tr><td align="center" style="padding:32px 16px;">
         <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:580px;background:#ffffff;border:1px solid #e5e0d5;">
-          <tr><td style="padding:22px 30px;background:#203f37;color:#ffffff;">
+          <tr><td bgcolor="#671f3e" style="padding:22px 30px;background-color:#671f3e;background-image:linear-gradient(135deg,#963b5a,#671f3e);color:#ffffff;">
             <p style="margin:0;font-size:17px;font-weight:700;letter-spacing:.02em;">Parlons géorgien !</p>
-            <p style="margin:5px 0 0;color:#d6e2d8;font-size:12px;">Le géorgien au quotidien</p>
+            <p style="margin:5px 0 0;color:#f2dfe4;font-size:12px;">Le géorgien au quotidien</p>
           </td></tr>
           <tr><td style="padding:0;line-height:0;">
             <img src="{escaped_image_url}" width="580" alt="Maisons et forteresse de la vieille ville de Tbilissi" style="display:block;width:100%;height:auto;border:0;">
           </td></tr>
           <tr><td style="padding:8px 30px 0;color:#778078;font-size:10px;line-height:1.5;">
-            Photo : <a href="https://commons.wikimedia.org/wiki/File:Old_Tbilisi_town_in_Tbilisi,_Georgia.jpg" style="color:#526b5e;">GeoO / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color:#526b5e;">CC BY-SA 4.0</a>
+            Photo : <a href="https://commons.wikimedia.org/wiki/File:Old_Tbilisi_town_in_Tbilisi,_Georgia.jpg" style="color:#812d4b;">GeoO / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color:#812d4b;">CC BY-SA 4.0</a>
           </td></tr>
           <tr><td style="padding:34px 30px 30px;">
             <p style="margin:0 0 10px;color:#65756c;font-size:12px;">Bonjour {escaped_name},</p>
-            <h1 style="margin:0 0 14px;color:#203f37;font-size:25px;line-height:1.25;font-weight:700;">Bienvenue sur Parlons géorgien !</h1>
-            <p style="margin:0 0 12px;color:#45564f;font-size:15px;line-height:1.65;">Votre compte est presque prêt. Confirmez votre adresse e-mail pour l’activer.</p>
-            <p style="margin:0 0 24px;color:#45564f;font-size:15px;line-height:1.65;">Vous pourrez ensuite retrouver votre progression et découvrir des leçons, des exercices et des jeux pour lire, écouter et pratiquer le géorgien à votre rythme.</p>
-            <table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td bgcolor="#315f4d" style="background:#315f4d;">
+            <h1 style="margin:0 0 14px;color:#5b1e36;font-size:25px;line-height:1.25;font-weight:700;">Bienvenue sur Parlons géorgien !</h1>
+            <p style="margin:0 0 12px;color:#51434a;font-size:15px;line-height:1.65;">Votre compte est presque prêt. Confirmez votre adresse e-mail pour l’activer.</p>
+            <p style="margin:0 0 24px;color:#51434a;font-size:15px;line-height:1.65;">Vous pourrez ensuite retrouver votre progression et découvrir des leçons, des exercices et des jeux pour lire, écouter et pratiquer le géorgien à votre rythme.</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td bgcolor="#671f3e" style="background-color:#671f3e;background-image:linear-gradient(135deg,#963b5a,#671f3e);">
               <a href="{escaped_link}" style="display:inline-block;padding:14px 20px;color:#ffffff;text-decoration:none;font-size:14px;font-weight:700;">Confirmer mon adresse e-mail</a>
             </td></tr></table>
             <p style="margin:22px 0 6px;color:#65756c;font-size:12px;line-height:1.6;">Le lien est personnel et expire dans 24 heures.</p>
             <p style="margin:18px 0 5px;color:#65756c;font-size:12px;line-height:1.6;">Si le bouton ne fonctionne pas, copiez cette adresse dans votre navigateur :</p>
-            <p style="margin:0;color:#315f4d;font-size:12px;line-height:1.6;word-break:break-all;"><a href="{escaped_link}" style="color:#315f4d;">{escaped_link}</a></p>
+            <p style="margin:0;color:#812d4b;font-size:12px;line-height:1.6;word-break:break-all;"><a href="{escaped_link}" style="color:#812d4b;">{escaped_link}</a></p>
           </td></tr>
           <tr><td style="padding:17px 30px;border-top:1px solid #e9e5dc;color:#6b756f;font-size:11px;line-height:1.6;">
             Si vous n’êtes pas à l’origine de cette demande, ignorez ce message. Aucun compte ne sera activé sans confirmation.
