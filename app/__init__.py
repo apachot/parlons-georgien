@@ -519,7 +519,7 @@ def create_app(test_config=None):
         name_key = unicodedata.normalize("NFKC", name).casefold()
         if User.query.filter_by(display_name_key=name_key).first():
             suggestion = unique_display_name_suggestion(name)
-            flash("Ce prénom ou pseudo est déjà utilisé. Voici une variante disponible :", "error")
+            flash(f"Ce prénom ou pseudo est déjà utilisé. Variante disponible : {suggestion}", "error")
             return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
                                    display_name=name, email=email, suggested_name=suggestion), 409
         if not mail_is_configured():
@@ -536,7 +536,7 @@ def create_app(test_config=None):
             duplicate_email = User.query.filter_by(email=email).first()
             suggestion = unique_display_name_suggestion(name) if User.query.filter_by(display_name_key=name_key).first() else None
             flash("Un compte utilise déjà cette adresse e-mail." if duplicate_email else
-                  "Ce prénom ou pseudo vient d’être pris. Choisissez la variante proposée.", "error")
+                  f"Ce prénom ou pseudo vient d’être pris. Variante disponible : {suggestion}", "error")
             return render_template("account_auth.html", mode="register", next_url=request.form.get("next", ""),
                                    display_name=name, email=email, suggested_name=suggestion), 409
         try:

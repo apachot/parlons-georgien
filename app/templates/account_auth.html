@@ -8,7 +8,7 @@
     <span class="exercise-level-kicker">{{ 'Inscription gratuite' if mode == 'register' else 'Connexion à votre compte' }}</span>
     <h2>{{ 'Créer mon compte' if mode == 'register' else 'Me connecter' }}</h2>
     {% if mode == 'register' %}<label>Votre prénom ou pseudo<input name="display_name" autocomplete="nickname" maxlength="80" value="{{ display_name or '' }}" required></label>
-      {% if suggested_name %}<p class="username-suggestion">Ce pseudo est déjà pris. Essayez <button type="button" data-username-suggestion="{{ suggested_name }}">{{ suggested_name }}</button>.</p>{% endif %}
+      {% if suggested_name %}<p class="username-suggestion" role="status">Variante disponible : <button type="button" data-username-suggestion="{{ suggested_name }}">{{ suggested_name }}</button></p>{% endif %}
     {% endif %}
     <label>Adresse e-mail<input type="email" name="email" autocomplete="email" maxlength="254" value="{{ email or '' }}" required>{% if mode == 'register' %}<small>Un lien de confirmation sera envoyé avant l’activation du compte.</small>{% endif %}</label>
     <label>Mot de passe<input type="password" name="password" autocomplete="{{ 'new-password' if mode == 'register' else 'current-password' }}" minlength="{{ 8 if mode == 'register' else 1 }}" maxlength="256" required>{% if mode == 'register' %}<small>8 caractères minimum</small>{% endif %}</label>
