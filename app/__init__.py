@@ -491,7 +491,7 @@ def create_app(test_config=None):
             <img src="{escaped_image_url}" width="580" alt="Maisons et forteresse de la vieille ville de Tbilissi" style="display:block;width:100%;height:auto;border:0;">
           </td></tr>
           <tr><td style="padding:8px 30px 0;color:#778078;font-size:10px;line-height:1.5;">
-            Photo : <a href="https://commons.wikimedia.org/wiki/File:Old_Tbilisi_town_in_Tbilisi,_Georgia.jpg" style="color:#812d4b;">GeoO / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color:#812d4b;">CC BY-SA 4.0</a>
+            Photo : GeoO / Wikimedia Commons · CC BY-SA 4.0
           </td></tr>
           <tr><td style="padding:34px 30px 30px;">
             <p style="margin:0 0 10px;color:#65756c;font-size:12px;">Bonjour {escaped_name},</p>
